@@ -11,6 +11,8 @@ export const API_ENDPOINTS = {
   QUESTIONS: `${API_BASE_URL}/api/questions`,
   RESULTS: `${API_BASE_URL}/api/results`,
   USERS: `${API_BASE_URL}/api/admin/users`,
+  SUBJECTS: `${API_BASE_URL}/api/subjects`,
+  NOTES: `${API_BASE_URL}/api/notes`,
 };
 
 export default API_ENDPOINTS;

@@ -6,6 +6,7 @@ import AdminSidebar from './admin/AdminSidebar';
 import AdminStatsCards from './AdminStatsCards';
 import AdminUsers from './admin/AdminUsers';
 import AdminLogs from './admin/AdminLogs';
+import { API_ENDPOINTS } from '../config/api';
 
 const AdminPanel = () => {
   const { user, isAuthenticated } = useAuth();
@@ -27,8 +28,8 @@ const AdminPanel = () => {
   const fetchData = async () => {
     try {
       const [notesResponse, subjectsResponse] = await Promise.all([
-        fetch('/api/notes'),
-        fetch('/api/subjects')
+        fetch(`${API_ENDPOINTS.CONTENT}?type=notes`),
+        fetch(`${API_ENDPOINTS.SUBJECTS || '/api/subjects'}`)
       ]);
       
       const notesData = await notesResponse.json();

@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import SiteSidebar from '../SiteSidebar';
 import Card from '../ui/Card';
 import { useAdminAuth } from '../../context/AdminAuthContext';
+import { API_ENDPOINTS } from '../../config/api';
 
 const AdminUsers = () => {
   const { isAdminAuthenticated } = useAdminAuth();
@@ -27,7 +28,7 @@ const AdminUsers = () => {
     setLoading(true); setError('');
     try {
       const token = localStorage.getItem('adminToken');
-      const res = await fetch('/api/admin/users', { headers: { 'Authorization': `Bearer ${token}` } });
+      const res = await fetch(API_ENDPOINTS.USERS, { headers: { 'Authorization': `Bearer ${token}` } });
       const data = await res.json();
       if (Array.isArray(data)) {
         setUsers(data);
@@ -50,7 +51,7 @@ const AdminUsers = () => {
   const setRole = async (id, isAdmin) => {
     try {
       const token = localStorage.getItem('adminToken');
-      const res = await fetch(`/api/admin/users/${id}/role`, {
+      const res = await fetch(`${API_ENDPOINTS.USERS}/${id}/role`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
         body: JSON.stringify({ isAdmin })
@@ -67,7 +68,7 @@ const AdminUsers = () => {
     if (!window.confirm('Delete this user?')) return;
     try {
       const token = localStorage.getItem('adminToken');
-      const res = await fetch(`/api/admin/users/${id}`, { method: 'DELETE', headers: { 'Authorization': `Bearer ${token}` } });
+      const res = await fetch(`${API_ENDPOINTS.USERS}/${id}`, { method: 'DELETE', headers: { 'Authorization': `Bearer ${token}` } });
       if (!res.ok) throw new Error('Failed');
       await load();
     } catch {
