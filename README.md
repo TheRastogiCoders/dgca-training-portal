@@ -15,6 +15,7 @@ A modern online learning platform inspired by Physics Wallah, built with React f
 
 ### Frontend
 - React 18
+- SEO Optimized
 - React Router DOM
 - Axios for API calls
 - CSS3 with modern styling
