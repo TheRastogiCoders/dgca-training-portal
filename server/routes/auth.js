@@ -2,7 +2,8 @@ const express = require('express');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { z } = require('zod');
-const { body, validationResult } = require('express-validator');
+// Removed express-validator import
+// const { body, validationResult } = require('express-validator');
 const User = require('../models/User');
 const { validatePassword } = require('../utils/passwordValidator');
 const router = express.Router();
@@ -106,32 +107,11 @@ const loginSchema = z.object({
  *         description: Internal server error
  */
 // Register
-router.post('/register', [
-  body('username')
-    .isLength({ min: 3, max: 50 })
-    .withMessage('Username must be between 3 and 50 characters')
-    .matches(/^[a-zA-Z0-9_]+$/)
-    .withMessage('Username can only contain letters, numbers, and underscores'),
-  body('email')
-    .isEmail()
-    .withMessage('Please provide a valid email address')
-    .normalizeEmail(),
-  body('password')
-    .isLength({ min: 8, max: 128 })
-    .withMessage('Password must be between 8 and 128 characters')
-], async (req, res, next) => {
+router.post('/register', async (req, res, next) => {
   try {
-    // Check validation errors
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-      return res.status(400).json({ 
-        message: 'Validation failed', 
-        errors: errors.array() 
-      });
-    }
+    // Zod validation
+    const { username, email, password } = registerSchema.parse(req.body);
 
-    const { username, email, password } = req.body;
-    
     // Validate password strength
     const passwordValidation = validatePassword(password);
     if (!passwordValidation.isValid) {
@@ -140,7 +120,7 @@ router.post('/register', [
         errors: passwordValidation.errors 
       });
     }
-    
+
     // Check if user already exists
     const existing = await User.findOne({ $or: [{ username }, { email }] });
     if (existing) {
@@ -149,11 +129,11 @@ router.post('/register', [
         field: existing.username === username ? 'username' : 'email'
       });
     }
-    
+
     // Hash password and create user
     const hashed = await bcrypt.hash(password, 12); // Increased salt rounds
     const user = await User.create({ username, email, password: hashed });
-    
+
     res.status(201).json({ 
       message: 'User registered successfully', 
       user: { 
@@ -164,6 +144,9 @@ router.post('/register', [
       } 
     });
   } catch (err) {
+    if (err instanceof z.ZodError) {
+      return res.status(400).json({ message: 'Validation failed', errors: err.errors });
+    }
     console.error('Registration error:', err);
     next(err);
   }
