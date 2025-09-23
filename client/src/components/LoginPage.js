@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
+import { API_ENDPOINTS } from '../config/api';
 
 const LoginPage = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -69,7 +70,7 @@ const LoginPage = () => {
     setLoading(true);
 
     try {
-      const endpoint = isLogin ? '/api/auth/login' : '/api/auth/register';
+      const endpoint = isLogin ? API_ENDPOINTS.AUTH_LOGIN : API_ENDPOINTS.AUTH_REGISTER;
       const body = isLogin 
         ? { username: formData.username, password: formData.password }
         : { username: formData.username, email: formData.email, password: formData.password };

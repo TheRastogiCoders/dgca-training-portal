@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './LoginModal.css';
 import { useAuth } from '../context/AuthContext';
+import { API_ENDPOINTS } from '../config/api';
 
 const LoginModal = ({ onLogin, onClose }) => {
   const { login } = useAuth();
@@ -36,7 +37,7 @@ const LoginModal = ({ onLogin, onClose }) => {
 
     try {
       if (mode === 'signup') {
-        const response = await fetch('/api/auth/register', {
+        const response = await fetch(API_ENDPOINTS.AUTH_REGISTER, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -54,7 +55,7 @@ const LoginModal = ({ onLogin, onClose }) => {
         }
       } 
       if (mode === 'login') {
-        const response = await fetch('/api/auth/login', {
+        const response = await fetch(API_ENDPOINTS.AUTH_LOGIN, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ username: formData.username, password: formData.password }),

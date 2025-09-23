@@ -3,6 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 import { useAdminAuth } from '../context/AdminAuthContext';
+import { API_ENDPOINTS } from '../config/api';
 
 const AdminLogin = () => {
   const [credentials, setCredentials] = useState({ username: '', password: '' });
@@ -22,7 +23,7 @@ const AdminLogin = () => {
     setError('');
     try {
       console.log('Attempting admin login with credentials:', credentials);
-      const res = await fetch('/api/auth/login', {
+      const res = await fetch(API_ENDPOINTS.AUTH_LOGIN, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(credentials)
