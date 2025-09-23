@@ -39,12 +39,37 @@ app.use(helmet({
 }));
 
 // CORS configuration
+const normalizeOrigin = (o) => (o || '').replace(/\/$/, '');
+const defaultOrigin = 'https://dgca-training-portal.vercel.app';
+const configuredOrigins = (process.env.CORS_ORIGINS || process.env.FRONTEND_URL || defaultOrigin)
+  .split(',')
+  .map(normalizeOrigin)
+  .filter(Boolean);
+
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'https://dgca-training-portal.vercel.app',
+  origin: (origin, callback) => {
+    // Allow non-browser requests (no origin)
+    if (!origin) return callback(null, true);
+    const normalized = normalizeOrigin(origin);
+
+    // Allow exact matches from configured origins
+    if (configuredOrigins.includes(normalized)) return callback(null, true);
+
+    // Allow Vercel preview deployments if enabled via env
+    const allowVercelPreviews = (process.env.ALLOW_VERCEL_PREVIEWS || 'true') === 'true';
+    if (allowVercelPreviews && /\.vercel\.app$/.test(new URL(normalized).hostname)) {
+      return callback(null, true);
+    }
+
+    return callback(new Error(`Not allowed by CORS: ${origin}`));
+  },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'X-CSRF-Token']
 }));
+
+// Handle preflight
+app.options('*', cors());
 
 // Body parsing and sanitization
 app.use(express.json({ limit: '10mb' }));
