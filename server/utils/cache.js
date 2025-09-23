@@ -8,24 +8,16 @@ class CacheService {
   }
 
   async init() {
+    const redisUrl = process.env.REDIS_URL; // Only use when explicitly provided
+    if (!redisUrl) {
+      console.log('Redis disabled: no REDIS_URL configured. Continuing without cache.');
+      this.isConnected = false;
+      return;
+    }
+
     try {
       this.client = redis.createClient({
-        url: process.env.REDIS_URL || 'redis://localhost:6379',
-        retry_strategy: (options) => {
-          if (options.error && options.error.code === 'ECONNREFUSED') {
-            console.log('Redis server connection refused');
-            return new Error('Redis server connection refused');
-          }
-          if (options.total_retry_time > 1000 * 60 * 60) {
-            console.log('Redis retry time exhausted');
-            return new Error('Retry time exhausted');
-          }
-          if (options.attempt > 10) {
-            console.log('Redis max retry attempts reached');
-            return undefined;
-          }
-          return Math.min(options.attempt * 100, 3000);
-        }
+        url: redisUrl,
       });
 
       this.client.on('error', (err) => {
@@ -52,7 +44,6 @@ class CacheService {
 
   async get(key) {
     if (!this.isConnected || !this.client) return null;
-    
     try {
       const value = await this.client.get(key);
       return value ? JSON.parse(value) : null;
@@ -64,7 +55,6 @@ class CacheService {
 
   async set(key, value, ttlSeconds = 300) {
     if (!this.isConnected || !this.client) return false;
-    
     try {
       await this.client.setEx(key, ttlSeconds, JSON.stringify(value));
       return true;
@@ -76,7 +66,6 @@ class CacheService {
 
   async del(key) {
     if (!this.isConnected || !this.client) return false;
-    
     try {
       await this.client.del(key);
       return true;
@@ -88,7 +77,6 @@ class CacheService {
 
   async flush() {
     if (!this.isConnected || !this.client) return false;
-    
     try {
       await this.client.flushAll();
       return true;
