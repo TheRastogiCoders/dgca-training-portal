@@ -1,4 +1,4 @@
-# Physics Wallah Clone
+# Education Website
 
 A modern online learning platform inspired by Physics Wallah, built with React frontend, Node.js backend, and MongoDB database.
 
