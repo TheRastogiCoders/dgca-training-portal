@@ -1,0 +1,51 @@
+{
+  "books": [
+    {
+      "slug": "ic-joshi",
+      "title": "IC Joshi",
+      "description": "Comprehensive DGCA exam preparation",
+      "icon": "📖",
+      "color": "#3b82f6",
+      "subjects": [
+        "air-regulations",
+        "air-navigation",
+        "meteorology",
+        "technical-general",
+        "technical-specific",
+        "radio-telephony"
+      ]
+    },
+    {
+      "slug": "oxford",
+      "title": "Oxford Aviation",
+      "description": "Advanced aviation knowledge & practice",
+      "icon": "📘",
+      "color": "#10b981",
+      "subjects": [
+        "air-regulations",
+        "air-navigation",
+        "meteorology",
+        "technical-general",
+        "technical-specific",
+        "radio-telephony"
+      ]
+    },
+    {
+      "slug": "principles-of-flight",
+      "title": "Principles of Flight",
+      "description": "ATPL Ground Training Series (CAE Oxford)",
+      "icon": "🛫",
+      "color": "#1e3a8a",
+      "subjects": [
+        "air-regulations",
+        "air-navigation",
+        "meteorology",
+        "technical-general",
+        "technical-specific",
+        "radio-telephony"
+      ]
+    }
+  ]
+}
+
+

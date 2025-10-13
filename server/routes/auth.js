@@ -1,214 +1,225 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const { z } = require('zod');
-// Removed express-validator import
-// const { body, validationResult } = require('express-validator');
 const User = require('../models/User');
-const { validatePassword } = require('../utils/passwordValidator');
 const router = express.Router();
 
-const registerSchema = z.object({
-  username: z.string().min(3).max(50),
-  email: z.string().email(),
-  password: z.string().min(6).max(128),
+// Enhanced password validation
+const validatePassword = (password) => {
+  if (!password || password.length < 6) {
+    return { isValid: false, message: 'Password must be at least 6 characters long' };
+  }
+  if (password.length > 128) {
+    return { isValid: false, message: 'Password must be less than 128 characters' };
+  }
+  return { isValid: true };
+};
+
+// Enhanced email validation
+const validateEmail = (email) => {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+};
+
+// Enhanced username validation
+const validateUsername = (username) => {
+  if (!username || username.length < 3) {
+    return { isValid: false, message: 'Username must be at least 3 characters long' };
+  }
+  if (username.length > 50) {
+    return { isValid: false, message: 'Username must be less than 50 characters' };
+  }
+  if (!/^[a-zA-Z0-9_]+$/.test(username)) {
+    return { isValid: false, message: 'Username can only contain letters, numbers, and underscores' };
+  }
+  return { isValid: true };
+};
+
+// Rate limiting for auth endpoints
+const authLimiter = require('express-rate-limit')({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 5, // Limit each IP to 5 requests per windowMs
+  message: 'Too many authentication attempts, please try again later.',
+  standardHeaders: true,
+  legacyHeaders: false,
 });
 
-const loginSchema = z.object({
-  username: z.string().min(3).max(50),
-  password: z.string().min(6).max(128),
-});
-
-/**
- * @swagger
- * components:
- *   schemas:
- *     LoginRequest:
- *       type: object
- *       required:
- *         - username
- *         - password
- *       properties:
- *         username:
- *           type: string
- *           minLength: 3
- *           maxLength: 50
- *           example: john_doe
- *         password:
- *           type: string
- *           minLength: 6
- *           maxLength: 128
- *           example: MySecurePassword123!
- *     RegisterRequest:
- *       type: object
- *       required:
- *         - username
- *         - email
- *         - password
- *       properties:
- *         username:
- *           type: string
- *           minLength: 3
- *           maxLength: 50
- *           pattern: '^[a-zA-Z0-9_]+$'
- *           example: john_doe
- *         email:
- *           type: string
- *           format: email
- *           example: john@example.com
- *         password:
- *           type: string
- *           minLength: 8
- *           maxLength: 128
- *           example: MySecurePassword123!
- *     AuthResponse:
- *       type: object
- *       properties:
- *         token:
- *           type: string
- *           description: JWT authentication token
- *           example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
- *         user:
- *           $ref: '#/components/schemas/User'
- */
-
-/**
- * @swagger
- * /api/auth/register:
- *   post:
- *     summary: Register a new user
- *     tags: [Authentication]
- *     requestBody:
- *       required: true
- *       content:
- *         application/json:
- *           schema:
- *             $ref: '#/components/schemas/RegisterRequest'
- *     responses:
- *       201:
- *         description: User registered successfully
- *         content:
- *           application/json:
- *             schema:
- *               type: object
- *               properties:
- *                 message:
- *                   type: string
- *                   example: User registered successfully
- *                 user:
- *                   $ref: '#/components/schemas/User'
- *       400:
- *         description: Validation failed or user already exists
- *         content:
- *           application/json:
- *             schema:
- *               $ref: '#/components/schemas/Error'
- *       500:
- *         description: Internal server error
- */
-// Register
-router.post('/register', async (req, res, next) => {
+// Register endpoint with enhanced security
+router.post('/register', authLimiter, async (req, res) => {
   try {
-    // Zod validation
-    const { username, email, password } = registerSchema.parse(req.body);
+    const { username, email, password } = req.body;
 
-    // Validate password strength
+    // Enhanced validation
+    if (!username || !email || !password) {
+      return res.status(400).json({ 
+        message: 'Username, email, and password are required' 
+      });
+    }
+
+    // Validate username
+    const usernameValidation = validateUsername(username);
+    if (!usernameValidation.isValid) {
+      return res.status(400).json({ 
+        message: usernameValidation.message 
+      });
+    }
+
+    // Validate email
+    if (!validateEmail(email)) {
+      return res.status(400).json({ 
+        message: 'Please enter a valid email address' 
+      });
+    }
+
+    // Validate password
     const passwordValidation = validatePassword(password);
     if (!passwordValidation.isValid) {
       return res.status(400).json({ 
-        message: 'Password does not meet security requirements', 
-        errors: passwordValidation.errors 
+        message: passwordValidation.message 
       });
     }
 
     // Check if user already exists
-    const existing = await User.findOne({ $or: [{ username }, { email }] });
-    if (existing) {
+    const existingUser = await User.findOne({ 
+      $or: [{ username }, { email }] 
+    });
+
+    if (existingUser) {
       return res.status(400).json({ 
-        message: 'Username or email already exists',
-        field: existing.username === username ? 'username' : 'email'
+        message: existingUser.username === username 
+          ? 'Username already exists' 
+          : 'Email already exists'
       });
     }
 
-    // Hash password and create user
-    const hashed = await bcrypt.hash(password, 12); // Increased salt rounds
-    const user = await User.create({ username, email, password: hashed });
+    // Hash password with higher salt rounds for security
+    const saltRounds = 12;
+    const hashedPassword = await bcrypt.hash(password, saltRounds);
+    
+    const user = new User({
+      username,
+      email,
+      password: hashedPassword,
+      isAdmin: false
+    });
 
-    res.status(201).json({ 
-      message: 'User registered successfully', 
-      user: { 
+    await user.save();
+
+    // Return success response (don't include sensitive data)
+    res.status(201).json({
+      message: 'User registered successfully',
+      user: {
         id: user._id,
-        username: user.username, 
+        username: user.username,
         email: user.email,
         createdAt: user.createdAt
-      } 
+      }
     });
-  } catch (err) {
-    if (err instanceof z.ZodError) {
-      return res.status(400).json({ message: 'Validation failed', errors: err.errors });
-    }
-    console.error('Registration error:', err);
-    next(err);
+
+  } catch (error) {
+    console.error('Registration error:', error);
+    res.status(500).json({ 
+      message: 'Internal server error. Please try again later.' 
+    });
   }
 });
 
-/**
- * @swagger
- * /api/auth/login:
- *   post:
- *     summary: Login user
- *     tags: [Authentication]
- *     requestBody:
- *       required: true
- *       content:
- *         application/json:
- *           schema:
- *             $ref: '#/components/schemas/LoginRequest'
- *     responses:
- *       200:
- *         description: Login successful
- *         content:
- *           application/json:
- *             schema:
- *               $ref: '#/components/schemas/AuthResponse'
- *       401:
- *         description: Invalid credentials
- *         content:
- *           application/json:
- *             schema:
- *               type: object
- *               properties:
- *                 message:
- *                   type: string
- *                   example: Invalid credentials
- *       500:
- *         description: Internal server error
- */
-// Login
-router.post('/login', async (req, res, next) => {
+// Login endpoint with enhanced security
+router.post('/login', authLimiter, async (req, res) => {
   try {
-    const { username, password } = loginSchema.parse(req.body);
+    const { username, password } = req.body;
+
+    // Enhanced validation
+    if (!username || !password) {
+      return res.status(400).json({ 
+        message: 'Username and password are required' 
+      });
+    }
+
+    // Find user by username
     const user = await User.findOne({ username });
-    if (!user) return res.status(401).json({ message: 'Invalid credentials' });
-    const match = await bcrypt.compare(password, user.password);
-    if (!match) return res.status(401).json({ message: 'Invalid credentials' });
-    const token = jwt.sign({ 
-      id: user._id, 
-      username: user.username, 
-      isAdmin: user.isAdmin 
-    }, process.env.JWT_SECRET, { expiresIn: '7d' });
-    res.json({ 
-      token, 
-      user: { 
-        id: user._id,
+    if (!user) {
+      return res.status(401).json({ 
+        message: 'Invalid username or password' 
+      });
+    }
+
+    // Check if user is active
+    if (!user.isActive) {
+      return res.status(401).json({ 
+        message: 'Account is deactivated. Please contact support.' 
+      });
+    }
+
+    // Check password with timing attack protection
+    const isPasswordValid = await bcrypt.compare(password, user.password);
+    if (!isPasswordValid) {
+      return res.status(401).json({ 
+        message: 'Invalid username or password' 
+      });
+    }
+
+    // Generate JWT token with shorter expiration for security
+    const token = jwt.sign(
+      { 
+        id: user._id, 
         username: user.username, 
+        isAdmin: user.isAdmin 
+      },
+      process.env.JWT_SECRET || 'fallback-secret-key',
+      { expiresIn: '24h' } // Shorter token expiration
+    );
+
+    // Return success response
+    res.json({
+      message: 'Login successful',
+      token,
+      user: {
+        id: user._id,
+        username: user.username,
         email: user.email,
         isAdmin: user.isAdmin
-      } 
+      }
     });
-  } catch (err) {
-    next(err);
+
+  } catch (error) {
+    console.error('Login error:', error);
+    res.status(500).json({ 
+      message: 'Internal server error. Please try again later.' 
+    });
   }
+});
+
+// Get current user endpoint with security
+router.get('/me', async (req, res) => {
+  try {
+    const token = req.headers.authorization?.replace('Bearer ', '');
+    
+    if (!token) {
+      return res.status(401).json({ message: 'No token provided' });
+    }
+
+    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'fallback-secret-key');
+    const user = await User.findById(decoded.id).select('-password');
+    
+    if (!user) {
+      return res.status(401).json({ message: 'User not found' });
+    }
+
+    if (!user.isActive) {
+      return res.status(401).json({ message: 'Account is deactivated' });
+    }
+
+    res.json({ user });
+  } catch (error) {
+    console.error('Get user error:', error);
+    res.status(401).json({ message: 'Invalid token' });
+  }
+});
+
+// Logout endpoint (client-side token removal)
+router.post('/logout', (req, res) => {
+  res.json({ message: 'Logged out successfully' });
 });
 
 module.exports = router;

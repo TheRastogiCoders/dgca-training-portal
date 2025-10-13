@@ -97,7 +97,7 @@ const SiteSidebar = () => {
       </header>
 
       {/* Desktop/Laptop: Vertical rail */}
-      <aside className="hidden md:flex md:flex-col md:items-center md:gap-4 md:w-24 min-h-screen sticky top-0 py-4 bg-gradient-to-b from-blue-600/5 to-purple-600/5 backdrop-blur-sm">
+      <aside className="hidden md:flex md:flex-col md:items-center md:gap-4 md:w-24 h-screen fixed left-0 top-0 py-4 bg-gradient-to-b from-blue-600/5 to-purple-600/5 backdrop-blur-sm z-40">
         <Link to="/" className="w-12 h-12 md:w-14 md:h-14 rounded-2xl md:rounded-3xl bg-white/30 backdrop-blur-sm border border-white/40 shadow-lg flex items-center justify-center hover:bg-white/40 transition-colors">
           <img src="/vimaanna-logo.png" alt="VIMAANNA" className="w-9 h-9 md:w-11 md:h-11 object-contain select-none" draggable="false" />
         </Link>

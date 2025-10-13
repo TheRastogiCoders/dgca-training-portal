@@ -9,7 +9,6 @@ const PracticeTest = () => {
   const navigate = useNavigate();
   const [results, setResults] = useState([]);
   const [loadingResults, setLoadingResults] = useState(false);
-  const [serverStatus, setServerStatus] = useState('unknown');
   const [selectedTestType, setSelectedTestType] = useState(null);
 
   const testTypes = [
@@ -73,7 +72,6 @@ const PracticeTest = () => {
       
       if (!token) {
         console.error('No authentication token found');
-        setServerStatus('error');
         setResults([]);
         return;
       }
@@ -84,15 +82,12 @@ const PracticeTest = () => {
         if (testRes.ok) {
           const testData = await testRes.json();
           console.log('API test response:', testData);
-          setServerStatus('connected');
         } else {
           console.log('API test failed:', testRes.status);
-          setServerStatus('error');
         }
       } catch (e) {
         console.log('API test error:', e.message);
         console.log('Server might not be running. Please start the server with: cd server && npm start');
-        setServerStatus('disconnected');
         setLoadingResults(false);
         return;
       }
@@ -325,7 +320,7 @@ const PracticeTest = () => {
         <SiteSidebar />
 
         {/* Main Content */}
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-8 pb-20 md:pb-8">
+        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-8 pb-20 md:pb-8 md:ml-24">
           <div className="max-w-7xl mx-auto">
             {/* Header */}
             <div className="text-center mb-8 md:mb-12">
@@ -336,27 +331,6 @@ const PracticeTest = () => {
                   Choose your practice mode and track your progress
                 </p>
                 
-                {/* Server Status Indicator */}
-                <div className="mb-4 md:mb-6">
-                  {serverStatus === 'connected' && (
-                    <div className="inline-flex items-center px-4 py-2 bg-green-100 border border-green-300 rounded-full">
-                      <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                      <span className="text-green-800 font-medium text-sm">Server Connected</span>
-                    </div>
-                  )}
-                  {serverStatus === 'disconnected' && (
-                    <div className="inline-flex items-center px-4 py-2 bg-red-100 border border-red-300 rounded-full">
-                      <div className="w-2 h-2 bg-red-500 rounded-full mr-2"></div>
-                      <span className="text-red-800 font-medium text-sm">Server Disconnected - Start server with: cd server && npm start</span>
-                    </div>
-                  )}
-                  {serverStatus === 'error' && (
-                    <div className="inline-flex items-center px-4 py-2 bg-yellow-100 border border-yellow-300 rounded-full">
-                      <div className="w-2 h-2 bg-yellow-500 rounded-full mr-2"></div>
-                      <span className="text-yellow-800 font-medium text-sm">Server Error - Check console for details</span>
-                    </div>
-                  )}
-                </div>
 
               {!isAuthenticated && (
                 <div className="inline-flex items-center px-4 py-2 bg-yellow-100 border border-yellow-300 rounded-full mb-4">

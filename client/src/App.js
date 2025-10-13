@@ -28,6 +28,7 @@ const AIPracticeSubject = lazy(() => import('./components/AIPracticeSubject'));
 const AIPracticeBooks = lazy(() => import('./components/AIPracticeBooks'));
 const AIPracticeRunner = lazy(() => import('./components/AIPracticeRunner'));
 const AIPracticeChapters = lazy(() => import('./components/AIPracticeChapters'));
+const ChapterPracticeIntro = lazy(() => import('./components/ChapterPracticeIntro'));
 const AdminDashboard = lazy(() => import('./components/AdminDashboard'));
 const AdminSettings = lazy(() => import('./components/AdminSettings'));
 const AdminResults = lazy(() => import('./components/AdminResults'));
@@ -68,6 +69,7 @@ function App() {
               <Route path="/practice-test/ai/:subjectSlug" element={<AIPracticeBooks />} />
               <Route path="/practice-test/ai/:subjectSlug/:bookSlug" element={<AIPracticeChapters />} />
               <Route path="/practice-test/ai/:subjectSlug/:bookSlug/:chapterSlug" element={<AIPracticeRunner />} />
+              <Route path="/practice/:subjectSlug/:chapterSlug" element={<ChapterPracticeIntro />} />
               <Route path="/admin-analysis-questions" element={<AdminAnalysisQuestions />} />
               <Route path="/admin" element={<AdminDomainGuard><AdminLogin /></AdminDomainGuard>} />
               <Route path="/admin-dashboard" element={<AdminDomainGuard><AdminProtectedRoute><AdminDashboard /></AdminProtectedRoute></AdminDomainGuard>} />

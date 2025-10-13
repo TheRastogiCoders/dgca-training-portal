@@ -100,6 +100,129 @@ const QuestionBank = () => {
         { id: 5, name: "International Procedures", questions: 100, difficulty: "Hard" }
       ]
     }
+    ,
+    {
+      id: 7,
+      title: "Principles of Flight",
+      icon: "🛫",
+      description: "ATPL Ground Training Series",
+      color: "from-indigo-600 to-blue-700",
+      totalQuestions: 720,
+      chapters: [
+        { id: 1, name: "Overview and Definitions", questions: 40, difficulty: "Easy" },
+        { id: 2, name: "The Atmosphere", questions: 40, difficulty: "Easy" },
+        { id: 3, name: "Basic Aerodynamic Theory", questions: 60, difficulty: "Medium" },
+        { id: 4, name: "Subsonic Airflow", questions: 40, difficulty: "Medium" },
+        { id: 5, name: "Lift", questions: 70, difficulty: "Medium" },
+        { id: 6, name: "Drag", questions: 60, difficulty: "Medium" },
+        { id: 7, name: "Stalling", questions: 50, difficulty: "Medium" },
+        { id: 8, name: "High Lift Devices", questions: 50, difficulty: "Medium" },
+        { id: 9, name: "Airframe Contamination", questions: 30, difficulty: "Easy" },
+        { id: 10, name: "Stability and Control", questions: 60, difficulty: "Hard" },
+        { id: 11, name: "Controls", questions: 40, difficulty: "Easy" },
+        { id: 12, name: "Flight Mechanics", questions: 60, difficulty: "Hard" },
+        { id: 13, name: "High Speed Flight", questions: 55, difficulty: "Hard" },
+        { id: 14, name: "Limitations", questions: 40, difficulty: "Medium" },
+        { id: 15, name: "Windshear", questions: 30, difficulty: "Medium" },
+        { id: 16, name: "Propellers", questions: 35, difficulty: "Medium" },
+        { id: 17, name: "Revision Questions", questions: 50, difficulty: "Medium" },
+        { id: 18, name: "Index", questions: 0, difficulty: "Easy" }
+      ]
+    },
+    {
+      id: 8,
+      title: "Airframes and Systems",
+      icon: "🛩️",
+      description: "ATPL Ground Training Series",
+      color: "from-sky-600 to-cyan-700",
+      totalQuestions: 500,
+      chapters: [
+        { id: 1, name: "Fuselage, Wings and Stabilizing Surfaces", questions: 40, difficulty: "Medium" },
+        { id: 2, name: "Basic Hydraulics", questions: 45, difficulty: "Medium" },
+        { id: 3, name: "Landing Gear", questions: 40, difficulty: "Easy" },
+        { id: 4, name: "Aircraft Wheels", questions: 25, difficulty: "Easy" },
+        { id: 5, name: "Aircraft Tyres", questions: 25, difficulty: "Easy" },
+        { id: 6, name: "Aircraft Brakes", questions: 35, difficulty: "Medium" },
+        { id: 7, name: "Flight Control Systems", questions: 35, difficulty: "Medium" },
+        { id: 8, name: "Flight Controls", questions: 35, difficulty: "Medium" },
+        { id: 9, name: "Powered Flying Controls", questions: 40, difficulty: "Hard" },
+        { id: 10, name: "Aircraft Pneumatic Systems", questions: 40, difficulty: "Medium" },
+        { id: 11, name: "Pressurization Systems", questions: 35, difficulty: "Medium" },
+        { id: 12, name: "Ice and Rain Protection", questions: 30, difficulty: "Medium" },
+        { id: 13, name: "Aircraft Oxygen Equipment", questions: 30, difficulty: "Easy" },
+        { id: 14, name: "Smoke Detection", questions: 20, difficulty: "Easy" },
+        { id: 15, name: "Fire Detection and Protection", questions: 30, difficulty: "Medium" },
+        { id: 16, name: "Aircraft Fuel Systems", questions: 40, difficulty: "Medium" },
+        { id: 17, name: "Index", questions: 0, difficulty: "Easy" }
+      ]
+    },
+    {
+      id: 9,
+      title: "Electrics and Electronics",
+      icon: "🔌",
+      description: "ATPL Ground Training Series",
+      color: "from-teal-600 to-emerald-700",
+      totalQuestions: 540,
+      chapters: [
+        { id: 1, name: "DC Electrics - Basic Principles", questions: 35, difficulty: "Easy" },
+        { id: 2, name: "DC Electrics - Switches", questions: 25, difficulty: "Easy" },
+        { id: 3, name: "DC Electrics - Circuit Protection and Capacitors", questions: 35, difficulty: "Medium" },
+        { id: 4, name: "DC Electrics - Batteries", questions: 30, difficulty: "Easy" },
+        { id: 5, name: "DC Electrics - Magnetism", questions: 30, difficulty: "Medium" },
+        { id: 6, name: "DC Electrics - Generators and Alternators", questions: 35, difficulty: "Medium" },
+        { id: 7, name: "DC Electrics - DC Motors", questions: 35, difficulty: "Medium" },
+        { id: 8, name: "DC Electrics - Aircraft Electrical Power Systems", questions: 35, difficulty: "Medium" },
+        { id: 9, name: "DC Electrics - Bonding and Screening", questions: 20, difficulty: "Easy" },
+        { id: 10, name: "DC Electrics - Specimen Questions", questions: 20, difficulty: "Easy" },
+        { id: 11, name: "AC Electrics - Introduction to AC", questions: 35, difficulty: "Medium" },
+        { id: 12, name: "AC Electrics - Alternators", questions: 30, difficulty: "Medium" },
+        { id: 13, name: "AC Electrics - Practical Aircraft Systems", questions: 35, difficulty: "Medium" },
+        { id: 14, name: "AC Electrics - Transformers", questions: 25, difficulty: "Medium" },
+        { id: 15, name: "AC Electrics - AC Motors", questions: 25, difficulty: "Medium" },
+        { id: 16, name: "AC Electrics - Semiconductors", questions: 25, difficulty: "Medium" },
+        { id: 17, name: "AC Electrics - Logic Gates", questions: 25, difficulty: "Medium" },
+        { id: 18, name: "Index", questions: 0, difficulty: "Easy" }
+      ]
+    },
+    {
+      id: 10,
+      title: "Powerplant",
+      icon: "🔥",
+      description: "ATPL Ground Training Series",
+      color: "from-orange-600 to-amber-700",
+      totalQuestions: 780,
+      chapters: [
+        { id: 1, name: "Piston Engines - Introduction", questions: 25, difficulty: "Easy" },
+        { id: 2, name: "Piston Engines - General", questions: 30, difficulty: "Easy" },
+        { id: 3, name: "Piston Engines - Lubrication", questions: 30, difficulty: "Medium" },
+        { id: 4, name: "Piston Engines - Cooling", questions: 30, difficulty: "Medium" },
+        { id: 5, name: "Piston Engines - Ignition", questions: 35, difficulty: "Medium" },
+        { id: 6, name: "Piston Engines - Fuel", questions: 30, difficulty: "Medium" },
+        { id: 7, name: "Piston Engines - Mixture", questions: 25, difficulty: "Medium" },
+        { id: 8, name: "Piston Engines - Carburettors", questions: 30, difficulty: "Medium" },
+        { id: 9, name: "Piston Engines - Icing", questions: 25, difficulty: "Easy" },
+        { id: 10, name: "Piston Engines - Fuel Injection", questions: 30, difficulty: "Medium" },
+        { id: 11, name: "Piston Engines - Performance and Power Augmentation", questions: 35, difficulty: "Hard" },
+        { id: 12, name: "Piston Engines - Propellers", questions: 35, difficulty: "Medium" },
+        { id: 13, name: "Gas Turbines - Introduction", questions: 25, difficulty: "Easy" },
+        { id: 14, name: "Gas Turbines - Air Inlets", questions: 25, difficulty: "Medium" },
+        { id: 15, name: "Gas Turbines - Compressors", questions: 35, difficulty: "Hard" },
+        { id: 16, name: "Gas Turbines - Combustion Chambers", questions: 35, difficulty: "Hard" },
+        { id: 17, name: "Gas Turbines - The Turbine Assembly", questions: 35, difficulty: "Hard" },
+        { id: 18, name: "Gas Turbines - The Exhaust System", questions: 25, difficulty: "Medium" },
+        { id: 19, name: "Gas Turbines - Lubrication", questions: 25, difficulty: "Medium" },
+        { id: 20, name: "Gas Turbines - Thrust", questions: 25, difficulty: "Medium" },
+        { id: 21, name: "Gas Turbines - Reverse Thrust", questions: 20, difficulty: "Medium" },
+        { id: 22, name: "Gas Turbines - Gearboxes and Accessory Drives", questions: 25, difficulty: "Medium" },
+        { id: 23, name: "Gas Turbines - Ignition Systems", questions: 20, difficulty: "Easy" },
+        { id: 24, name: "Gas Turbines - Auxiliary Power Units and Engine Starting", questions: 30, difficulty: "Medium" },
+        { id: 25, name: "Gas Turbines - Fuels", questions: 25, difficulty: "Medium" },
+        { id: 26, name: "Gas Turbines - Fuel Systems", questions: 30, difficulty: "Medium" },
+        { id: 27, name: "Gas Turbines - Bleed Air", questions: 25, difficulty: "Medium" },
+        { id: 28, name: "Revision Questions", questions: 40, difficulty: "Medium" },
+        { id: 29, name: "Index", questions: 0, difficulty: "Easy" }
+      ]
+    }
   ];
 
   const handleSubjectClick = (subject) => {
@@ -111,8 +234,9 @@ const QuestionBank = () => {
       navigate('/login');
       return;
     }
-    // Navigate to practice test with subject and chapter
-    navigate(`/practice-test/ai/${subject.title.toLowerCase().replace(/\s+/g, '-')}/${chapter.name.toLowerCase().replace(/\s+/g, '-')}`);
+    const subjectSlug = subject.title.toLowerCase().replace(/\s+/g, '-');
+    const chapterSlug = chapter.name.toLowerCase().replace(/\s+/g, '-');
+    navigate(`/practice/${subjectSlug}/${chapterSlug}`);
   };
 
   const getDifficultyColor = (difficulty) => {
@@ -131,7 +255,7 @@ const QuestionBank = () => {
         <SiteSidebar />
 
         {/* Main Content */}
-        <main className="flex-1 p-8 pt-20 md:pt-8 pb-20 md:pb-8">
+        <main className="flex-1 p-8 pt-20 md:pt-8 pb-20 md:pb-8 md:ml-24">
           <div className="max-w-6xl mx-auto">
             {/* Header */}
             <div className="text-center mb-12">
@@ -266,18 +390,30 @@ const QuestionBank = () => {
                           {chapter.difficulty}
                         </span>
                       </div>
-                      
-                      <button
-                        onClick={() => handleChapterClick(selectedSubject, chapter)}
-                        className={`w-full py-3 px-4 bg-gradient-to-r ${selectedSubject.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2`}
-                      >
-                        <div className="flex items-center justify-center">
-                          <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                          </svg>
-                          Start Practice
-                        </div>
-                      </button>
+
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <button
+                          onClick={() => handleChapterClick(selectedSubject, chapter)}
+                          className={`w-full py-3 px-4 bg-gradient-to-r ${selectedSubject.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2`}
+                          title="Practice with CAE Oxford Aviation Academy"
+                        >
+                          <div className="flex items-center justify-center">
+                            <span className="mr-2">📘</span>
+                            CAE Oxford
+                          </div>
+                        </button>
+                        <button
+                          onClick={() => alert('IC Joshi questions are coming soon.')}
+                          className="w-full py-3 px-4 bg-gray-200 text-gray-600 font-semibold rounded-lg cursor-not-allowed"
+                          disabled
+                          title="IC Joshi questions are coming soon"
+                        >
+                          <div className="flex items-center justify-center">
+                            <span className="mr-2">📖</span>
+                            IC Joshi (Coming Soon)
+                          </div>
+                        </button>
+                      </div>
                     </Card>
                   ))}
                 </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import Header from './Header';
@@ -28,24 +28,61 @@ const BookSelection = () => {
 
   const subject = getSubjectFromUrl();
 
-  const books = [
-    {
-      id: 1,
-      title: "IC Joshi",
-      description: "Comprehensive DGCA exam preparation",
-      color: "#3b82f6",
-      icon: "📖",
-      route: `/questions/${subject.toLowerCase().replace(/\s+/g, '-')}/ic-joshi`
-    },
-    {
-      id: 2,
-      title: "Oxford",
-      description: "Advanced aviation knowledge & practice",
-      color: "#10b981",
-      icon: "📚",
-      route: `/questions/${subject.toLowerCase().replace(/\s+/g, '-')}/oxford`
+  const [serverBooks, setServerBooks] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const controller = new AbortController();
+    const fetchBooks = async () => {
+      try {
+        setLoading(true);
+        const subjectSlug = subject.toLowerCase().replace(/\s+/g, '-');
+        const res = await fetch(`/api/practice-books?subject=${encodeURIComponent(subjectSlug)}`, { signal: controller.signal });
+        if (!res.ok) throw new Error('Failed');
+        const data = await res.json();
+        setServerBooks(Array.isArray(data.items) ? data.items : []);
+      } catch (e) {
+        setServerBooks(null); // will fallback below
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchBooks();
+    return () => controller.abort();
+  }, [subject]);
+
+  const books = useMemo(() => {
+    const subjectSlug = subject.toLowerCase().replace(/\s+/g, '-');
+    if (Array.isArray(serverBooks) && serverBooks.length > 0) {
+      return serverBooks.map((b, idx) => ({
+        id: idx + 1,
+        title: b.title,
+        description: b.description,
+        color: b.color || '#6366f1',
+        icon: b.icon || '📘',
+        route: `/questions/${subjectSlug}/${b.slug}`
+      }));
     }
-  ];
+    // Fallback to two default books if server not available yet
+    return [
+      {
+        id: 1,
+        title: "IC Joshi",
+        description: "Comprehensive DGCA exam preparation",
+        color: "#3b82f6",
+        icon: "📖",
+        route: `/questions/${subjectSlug}/ic-joshi`
+      },
+      {
+        id: 2,
+        title: "Oxford",
+        description: "Advanced aviation knowledge & practice",
+        color: "#10b981",
+        icon: "📚",
+        route: `/questions/${subjectSlug}/oxford`
+      }
+    ];
+  }, [serverBooks, subject]);
 
   const handleLogin = () => {
     setShowLogin(false);
@@ -109,7 +146,10 @@ const BookSelection = () => {
               </div>
             )}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {books.map((book) => (
+              {loading && (
+                <div className="col-span-2 text-center text-gray-600">Loading books...</div>
+              )}
+              {!loading && books.map((book) => (
                 <Card key={book.id} className="p-6 cursor-pointer" onClick={() => handleBookClick(book)}>
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl text-white" style={{ backgroundColor: book.color }}>
