@@ -1,0 +1,295 @@
+{
+  "book": "principles-of-flight",
+  "subject": "technical-general",
+  "chapter": "fundamentals",
+  "questions": [
+    {
+      "id": "Q001",
+      "question": "An aircraft’s mass is a result of:",
+      "options": [
+        { "label": "a", "text": "its weight." },
+        { "label": "b", "text": "how big it is." },
+        { "label": "c", "text": "how much matter it contains." },
+        { "label": "d", "text": "its volume." }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "Q002",
+      "question": "The unit of mass is the:",
+      "options": [
+        { "label": "a", "text": "joule." },
+        { "label": "b", "text": "watt." },
+        { "label": "c", "text": "newton." },
+        { "label": "d", "text": "kilogram." }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "Q003",
+      "question": "The definition of a force is:",
+      "options": [
+        { "label": "a", "text": "that which causes a reaction to take place." },
+        { "label": "b", "text": "thrust and drag only." },
+        { "label": "c", "text": "a push or a pull." },
+        { "label": "d", "text": "the result of an applied input." }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "Q004",
+      "question": "The unit of force is the:",
+      "options": [
+        { "label": "a", "text": "mass-kilogram." },
+        { "label": "b", "text": "newton-metre." },
+        { "label": "c", "text": "joule." },
+        { "label": "d", "text": "newton." }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "Q005",
+      "question": "The unit of weight is the:",
+      "options": [
+        { "label": "a", "text": "kilogram." },
+        { "label": "b", "text": "newton." },
+        { "label": "c", "text": "watt." },
+        { "label": "d", "text": "kilowatt." }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "Q006",
+      "question": "Weight is the result of:",
+      "options": [
+        { "label": "a", "text": "the force on mass due to gravity." },
+        { "label": "b", "text": "the action of a falling mass." },
+        { "label": "c", "text": "how much matter the object contains." },
+        { "label": "d", "text": "the rate of mass per unit area." }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "Q007",
+      "question": "About which point does an aircraft rotate?",
+      "options": [
+        { "label": "a", "text": "The wings." },
+        { "label": "b", "text": "The main undercarriage." },
+        { "label": "c", "text": "The centre of gravity." },
+        { "label": "d", "text": "The rudder." }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "Q008",
+      "question": "If a force is applied to a mass and the mass does not move:",
+      "options": [
+        { "label": "a", "text": "work is done even though there is no movement of the mass." },
+        { "label": "b", "text": "work is done only if the mass moves a long way." },
+        { "label": "c", "text": "power is exerted, but no work is done." },
+        { "label": "d", "text": "no work is done." }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "Q009",
+      "question": "The unit of work is called the:",
+      "options": [
+        { "label": "a", "text": "pascal." },
+        { "label": "b", "text": "joule." },
+        { "label": "c", "text": "watt." },
+        { "label": "d", "text": "kilogram." }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "Q010",
+      "question": "The unit of power is called the:",
+      "options": [
+        { "label": "a", "text": "joule." },
+        { "label": "b", "text": "newton-metre." },
+        { "label": "c", "text": "watt." },
+        { "label": "d", "text": "metre per second." }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "Q011",
+      "question": "If a force of 20 newtons moves a mass 5 metres:\n \n1 - the work done is 100 Nm\n \n2 - the work done is 100 joules\n \n3 - the work done is 4 joules\n \n4 - the work done is 0.25 joules\n \nThe correct statements are:",
+      "options": [
+        { "label": "a", "text": "1 only." },
+        { "label": "b", "text": "1 and 3." },
+        { "label": "c", "text": "1 and 2." },
+        { "label": "d", "text": "2 only." }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "Q012",
+      "question": "If a force of 50 newtons is applied to a 10 kg mass and the mass moves 10 metres \nand a force of 50 newtons is applied to a 100 kg mass which moves 10 metres:",
+      "options": [
+        { "label": "a", "text": "the work done is the same in both cases." },
+        { "label": "b", "text": "less work is done to the 10 kg mass." },
+        { "label": "c", "text": "more work is done to the 10 kg mass." },
+        { "label": "d", "text": "more work is done to the 100 kg mass." }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "Q013",
+      "question": "The definition of power is:",
+      "options": [
+        { "label": "a", "text": "the rate of force applied." },
+        { "label": "b", "text": "the rate of movement per second." },
+        { "label": "c", "text": "the rate of doing work." },
+        { "label": "d", "text": "the rate of applied force." }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "Q014",
+      "question": "If a force of 500 newtons moves a mass 1000 metres in 2 mins, the power used is:",
+      "options": [
+        { "label": "a", "text": "4167 watts." },
+        { "label": "b", "text": "250 kilowatts." },
+        { "label": "c", "text": "1 megawatt." },
+        { "label": "d", "text": "4 watts." }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "Q015",
+      "question": "Kinetic energy is:",
+      "options": [
+        { "label": "a", "text": "the energy a mass possesses due to its position in space." },
+        { "label": "b", "text": "the energy a mass possesses when a force has been applied." },
+        { "label": "c", "text": "the energy a mass possesses due to the force of gravity." },
+        { "label": "d", "text": "the energy a mass possesses because of its motion." }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "Q016",
+      "question": "The unit of kinetic energy is the:",
+      "options": [
+        { "label": "a", "text": "joule." },
+        { "label": "b", "text": "metre per second." },
+        { "label": "c", "text": "watt." },
+        { "label": "d", "text": "newton-metre per second." }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "Q017",
+      "question": "When considering kinetic energy:\n \n1 - a moving mass can apply a force by being brought to rest.\n \n2 - kinetic energy is the energy possessed by a body because of its motion.\n \n3 - if a body’s kinetic energy is increased, a force must have been applied.\n \n4 - kinetic energy = \u00bd  m V2  joules.\n \nThe combination of correct statements is:",
+      "options": [
+        { "label": "a", "text": "1 and 2." },
+        { "label": "b", "text": "1, 2, 3 and 4." },
+        { "label": "c", "text": "4 only." },
+        { "label": "d", "text": "2 and 4." }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "Q018",
+      "question": "The property of inertia is said to be:",
+      "options": [
+        { "label": "a", "text": "the energy possessed by a body because of its motion." },
+        { "label": "b", "text": "the opposition which a body offers to a change in motion." },
+        { "label": "c", "text": "that every action has an equal and opposite reaction." },
+        { "label": "d", "text": "the quantity of motion possessed by a body." }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "Q019",
+      "question": "Considering Newton’s first law of motion:\n \n1 - a body is said to have energy if it has the ability to do work.\n \n2 -  the amount of energy a body possesses is measured by the amount of work it \ncan do.\n \n3 -  a body will tend to remain at rest, or in uniform motion in a straight line, unless \nacted upon by an external force.\n \n4 -  to move a stationary object or to make a moving object change its direction, a \nforce must be applied.\n \nThe combination with the correct statements is:",
+      "options": [
+        { "label": "a", "text": "3 and 4." },
+        { "label": "b", "text": "3 only." },
+        { "label": "c", "text": "1 and 2." },
+        { "label": "d", "text": "1, 2, 3 and 4." }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "Q020",
+      "question": "Considering Newton’s second law of motion:\n \n1 - every action has an equal and opposite reaction.\n \n2 - if the same force is applied, the larger the mass the slower the acceleration.\n \n3 -  if two forces are applied to the same mass, the bigger the force the greater the \nacceleration.\n \n4 -  the acceleration of a body from a state of rest, or uniform motion in a straight \nline, is proportional to the applied force and inversely proportional to the mass.\n \nThe combination of true statements is:",
+      "options": [
+        { "label": "a", "text": "1 only." },
+        { "label": "b", "text": "1, 2, 3 and 4." },
+        { "label": "c", "text": "2, 3, and 4." },
+        { "label": "d", "text": "3 and 4." }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "Q021",
+      "question": "Newton’s third law of motion states:",
+      "options": [
+        { "label": "a", "text": "the energy possessed by a mass is inversely proportional to its velocity." },
+        { "label": "b", "text": "every force has an equal and opposite inertia." },
+        { "label": "c", "text": "for every force there is an action." },
+        { "label": "d", "text": "every action has an equal and opposite reaction." }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "Q022",
+      "question": "The definition of velocity is the:",
+      "options": [
+        { "label": "a", "text": "rate of change of acceleration." },
+        { "label": "b", "text": "rate of change of displacement." },
+        { "label": "c", "text": "the quantity of motion possessed by a body." },
+        { "label": "d", "text": "the acceleration of a body in direct proportion to its mass." }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "Q023",
+      "question": "When considering acceleration:\n \n1 - acceleration is the rate of change of velocity.\n \n2 - the units of acceleration are metres per second.\n \n3 - the units of acceleration are kilogram-metres per second.\n \n4 - the units of acceleration are seconds per metre per metre.\n \nThe combination of correct statements is:",
+      "options": [
+        { "label": "a", "text": "4 only." },
+        { "label": "b", "text": "1 and 4." },
+        { "label": "c", "text": "1 only." },
+        { "label": "d", "text": "1 and 2." }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "Q024",
+      "question": "The definition of momentum is:",
+      "options": [
+        { "label": "a", "text": "the quantity of mass possessed by a body." },
+        { "label": "b", "text": "the quantity of inertia possessed by a body." },
+        { "label": "c", "text": "the quantity of motion possessed by a body." },
+        { "label": "d", "text": "the opposition which a body offers to a change in velocity." }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "Q025",
+      "question": "A force of 24 newtons moves a 10 kg mass 60 metres in 1 minute. The power used \nis:\n \n1 - 24 watts.\n \n2 - 240 watts.\n \n3 - force times distance moved in one second.\n \n4 - force times the distance the mass is moved in one second.\n \nWhich of the preceding statements are correct:",
+      "options": [
+        { "label": "a", "text": "1 and 3." },
+        { "label": "b", "text": "1, 3 and 4." },
+        { "label": "c", "text": "2 and 4." },
+        { "label": "d", "text": "4 only." }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "Q026",
+      "question": "When considering momentum:\n \n1 - momentum is the quantity of motion possessed by a body.\n \n2 -  momentum is the tendency of a body to continue in motion after being placed \nin motion.\n \n3 - a mass of 2000 kg moving at 55 m/s has 110 000 kg-m/s of momentum.\n \n4 -  a large mass moving at 50 m/s will have less momentum than a small mass \nmoving at 50 m/s.\n \nThe correct combination of statements is:",
+      "options": [
+        { "label": "a", "text": "1 and 3." },
+        { "label": "b", "text": "1, 2, 3 and 4." },
+        { "label": "c", "text": "1, 2 and 3." },
+        { "label": "d", "text": "2, 3 and 4." }
+      ],
+      "answer": "c"
+    }
+  ]
+}
+
+

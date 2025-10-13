@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
-import { API_ENDPOINTS } from '../config/api';
 
 const LoginPage = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -15,32 +14,71 @@ const LoginPage = () => {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const [validationErrors, setValidationErrors] = useState({});
+  const [showPassword, setShowPassword] = useState(false);
+  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+  const [passwordStrength, setPasswordStrength] = useState({ score: 0, strength: 'weak' });
   const navigate = useNavigate();
   const { login } = useAuth();
+
+  // Password strength checker
+  const checkPasswordStrength = (password) => {
+    if (!password) return { score: 0, strength: 'weak' };
+    
+    let score = 0;
+    const checks = {
+      length: password.length >= 8,
+      lowercase: /[a-z]/.test(password),
+      uppercase: /[A-Z]/.test(password),
+      numbers: /\d/.test(password),
+      symbols: /[!@#$%^&*(),.?":{}|<>]/.test(password)
+    };
+    
+    score = Object.values(checks).filter(Boolean).length;
+    
+    let strength = 'weak';
+    if (score >= 4) strength = 'strong';
+    else if (score >= 2) strength = 'medium';
+    
+    return { score, strength, checks };
+  };
 
   const validateForm = () => {
     const errors = {};
     
+    // Username validation
     if (!formData.username.trim()) {
       errors.username = 'Username is required';
     } else if (formData.username.length < 3) {
       errors.username = 'Username must be at least 3 characters';
+    } else if (!/^[a-zA-Z0-9_]+$/.test(formData.username)) {
+      errors.username = 'Username can only contain letters, numbers, and underscores';
     }
     
-    if (!isLogin && !formData.email.trim()) {
-      errors.email = 'Email is required';
-    } else if (!isLogin && !/\S+@\S+\.\S+/.test(formData.email)) {
-      errors.email = 'Please enter a valid email address';
+    // Email validation (only for registration)
+    if (!isLogin) {
+      if (!formData.email.trim()) {
+        errors.email = 'Email is required';
+      } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+        errors.email = 'Please enter a valid email address';
+      }
     }
     
+    // Password validation
     if (!formData.password) {
       errors.password = 'Password is required';
     } else if (formData.password.length < 6) {
       errors.password = 'Password must be at least 6 characters';
+    } else if (formData.password.length > 128) {
+      errors.password = 'Password must be less than 128 characters';
     }
     
-    if (!isLogin && formData.password !== formData.confirmPassword) {
-      errors.confirmPassword = 'Passwords do not match';
+    // Confirm password validation (only for registration)
+    if (!isLogin) {
+      if (!formData.confirmPassword) {
+        errors.confirmPassword = 'Please confirm your password';
+      } else if (formData.password !== formData.confirmPassword) {
+        errors.confirmPassword = 'Passwords do not match';
+      }
     }
     
     return errors;
@@ -54,6 +92,11 @@ const LoginPage = () => {
     if (validationErrors[name]) {
       setValidationErrors(prev => ({ ...prev, [name]: '' }));
     }
+    
+    // Update password strength for password field
+    if (name === 'password') {
+      setPasswordStrength(checkPasswordStrength(value));
+    }
   };
 
   const handleSubmit = async (e) => {
@@ -61,16 +104,23 @@ const LoginPage = () => {
     setError('');
     setValidationErrors({});
     
+    // Validate form
     const errors = validateForm();
     if (Object.keys(errors).length > 0) {
       setValidationErrors(errors);
       return;
     }
     
+    // Additional security checks
+    if (!isLogin && passwordStrength.strength === 'weak') {
+      setError('Password is too weak. Please use a stronger password.');
+      return;
+    }
+    
     setLoading(true);
 
     try {
-      const endpoint = isLogin ? API_ENDPOINTS.AUTH_LOGIN : API_ENDPOINTS.AUTH_REGISTER;
+      const endpoint = isLogin ? '/api/auth/login' : '/api/auth/register';
       const body = isLogin 
         ? { username: formData.username, password: formData.password }
         : { username: formData.username, email: formData.email, password: formData.password };
@@ -87,29 +137,24 @@ const LoginPage = () => {
 
       if (response.ok) {
         if (isLogin) {
-          // Check if user is admin
           if (data.user.isAdmin) {
-            setError('Admin users must use the admin login portal. Please contact your administrator.');
+            setError('Admin users must use the admin login portal.');
             return;
           }
-          
-          // Use auth context to login
           login(data.user, data.token);
-          
-          // Redirect to home page after successful login
           navigate('/');
         } else {
-          // Registration successful, switch to login
           setError('');
           setIsLogin(true);
           setFormData({ username: '', email: '', password: '', confirmPassword: '' });
+          setPasswordStrength({ score: 0, strength: 'weak' });
           alert('Registration successful! Please log in with your credentials.');
         }
       } else {
         setError(data.message || `${isLogin ? 'Login' : 'Registration'} failed. Please try again.`);
       }
     } catch (error) {
-      console.error(`${isLogin ? 'Login' : 'Registration'} error:`, error);
+      console.error('Auth error:', error);
       setError('Network error. Please check your connection and try again.');
     } finally {
       setLoading(false);
@@ -121,19 +166,19 @@ const LoginPage = () => {
     setError('');
     setValidationErrors({});
     setFormData({ username: '', email: '', password: '', confirmPassword: '' });
+    setPasswordStrength({ score: 0, strength: 'weak' });
+    setShowPassword(false);
+    setShowConfirmPassword(false);
   };
 
   return (
-    <div className="min-h-screen gradient-bg">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
       <div className="flex">
-        {/* Sidebar */}
         <SiteSidebar />
-
-        {/* Main Content */}
-        <main className="flex-1 flex items-center justify-center p-8 pt-20 md:pt-8 pb-20 md:pb-8">
+        
+        <main className="flex-1 flex items-center justify-center p-8">
           <div className="w-full max-w-md">
-            {/* Auth Card */}
-            <div className="bg-white rounded-2xl shadow-2xl p-8 border border-gray-100">
+            <div className="bg-white rounded-3xl shadow-2xl p-8 border border-gray-100">
               {/* Header */}
               <div className="text-center mb-8">
                 <div className="flex justify-center mb-4">
@@ -141,10 +186,9 @@ const LoginPage = () => {
                     src="/vimaanna-logo.png" 
                     alt="VIMAANNA Logo" 
                     className="h-16 w-auto"
-                    draggable="false"
                   />
                 </div>
-                <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
+                <h1 className="text-3xl font-bold text-gray-800 mb-2">
                   {isLogin ? 'Welcome Back' : 'Join VIMAANNA'}
                 </h1>
                 <p className="text-gray-600">
@@ -153,19 +197,14 @@ const LoginPage = () => {
                     : 'Create your account and start your aviation journey'
                   }
                 </p>
-                <div className="mt-2 px-3 py-1 bg-blue-50 border border-blue-200 rounded-full inline-block">
-                  <span className="text-xs text-blue-700 font-medium">
-                    {isLogin ? '👨‍🎓 Student Portal' : '🚀 Get Started'}
-                  </span>
-                </div>
               </div>
 
               {/* Mode Toggle */}
-              <div className="flex bg-gray-100 rounded-lg p-1 mb-6">
+              <div className="flex bg-gray-100 rounded-xl p-1 mb-6">
                 <button
                   type="button"
                   onClick={() => setIsLogin(true)}
-                  className={`flex-1 py-2 px-4 rounded-md text-sm font-medium transition-all duration-200 ${
+                  className={`flex-1 py-3 px-4 rounded-lg text-sm font-medium transition-all ${
                     isLogin 
                       ? 'bg-white text-blue-600 shadow-sm' 
                       : 'text-gray-600 hover:text-gray-800'
@@ -176,7 +215,7 @@ const LoginPage = () => {
                 <button
                   type="button"
                   onClick={() => setIsLogin(false)}
-                  className={`flex-1 py-2 px-4 rounded-md text-sm font-medium transition-all duration-200 ${
+                  className={`flex-1 py-3 px-4 rounded-lg text-sm font-medium transition-all ${
                     !isLogin 
                       ? 'bg-white text-blue-600 shadow-sm' 
                       : 'text-gray-600 hover:text-gray-800'
@@ -187,7 +226,7 @@ const LoginPage = () => {
               </div>
 
               {/* Form */}
-              <form onSubmit={handleSubmit} className="space-y-5">
+              <form onSubmit={handleSubmit} className="space-y-4">
                 {error && (
                   <div className="bg-red-50 border border-red-200 rounded-lg p-3 flex items-center space-x-2">
                     <svg className="w-4 h-4 text-red-500" fill="currentColor" viewBox="0 0 20 20">
@@ -199,26 +238,21 @@ const LoginPage = () => {
 
                 {/* Username */}
                 <div>
-                  <label htmlFor="username" className="block text-sm font-semibold text-gray-700 mb-2">
-                    Username
+                  <label htmlFor="username" className="block text-sm font-medium text-gray-700 mb-1">
+                    Username *
                   </label>
-                  <div className="relative">
-                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                      <svg className="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-                      </svg>
-                    </div>
-                    <input
-                      type="text"
-                      id="username"
-                      name="username"
-                      placeholder="Enter your username"
-                      value={formData.username}
-                      onChange={handleInputChange}
-                      className={`w-full px-4 py-3 pl-10 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 ${validationErrors.username ? 'border-red-500 bg-red-50 focus:ring-red-500' : 'border-gray-300 bg-white hover:border-gray-400'}`}
-                      autoComplete="username"
-                    />
-                  </div>
+                  <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    placeholder="Enter your username"
+                    value={formData.username}
+                    onChange={handleInputChange}
+                    className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all ${
+                      validationErrors.username ? 'border-red-500 bg-red-50' : 'border-gray-300'
+                    }`}
+                    required
+                  />
                   {validationErrors.username && (
                     <p className="mt-1 text-sm text-red-600">{validationErrors.username}</p>
                   )}
@@ -227,27 +261,21 @@ const LoginPage = () => {
                 {/* Email - Only for registration */}
                 {!isLogin && (
                   <div>
-                    <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
-                      Email Address
+                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+                      Email Address *
                     </label>
-                    <div className="relative">
-                      <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                        <svg className="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                          <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                          <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                        </svg>
-                      </div>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="Enter your email"
-                        value={formData.email}
-                        onChange={handleInputChange}
-                        className={`w-full px-4 py-3 pl-10 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 ${validationErrors.email ? 'border-red-500 bg-red-50 focus:ring-red-500' : 'border-gray-300 bg-white hover:border-gray-400'}`}
-                        autoComplete="email"
-                      />
-                    </div>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Enter your email"
+                      value={formData.email}
+                      onChange={handleInputChange}
+                      className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all ${
+                        validationErrors.email ? 'border-red-500 bg-red-50' : 'border-gray-300'
+                      }`}
+                      required
+                    />
                     {validationErrors.email && (
                       <p className="mt-1 text-sm text-red-600">{validationErrors.email}</p>
                     )}
@@ -256,53 +284,119 @@ const LoginPage = () => {
 
                 {/* Password */}
                 <div>
-                  <label htmlFor="password" className="block text-sm font-semibold text-gray-700 mb-2">
-                    Password
+                  <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-1">
+                    Password *
                   </label>
                   <div className="relative">
-                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                      <svg className="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
-                      </svg>
-                    </div>
                     <input
-                      type="password"
+                      type={showPassword ? "text" : "password"}
                       id="password"
                       name="password"
                       placeholder="Enter your password"
                       value={formData.password}
                       onChange={handleInputChange}
-                      className={`w-full px-4 py-3 pl-10 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 ${validationErrors.password ? 'border-red-500 bg-red-50 focus:ring-red-500' : 'border-gray-300 bg-white hover:border-gray-400'}`}
-                      autoComplete={isLogin ? "current-password" : "new-password"}
+                      className={`w-full px-4 py-3 pr-12 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all ${
+                        validationErrors.password ? 'border-red-500 bg-red-50' : 'border-gray-300'
+                      }`}
+                      required
                     />
+                    <button
+                      type="button"
+                      onClick={() => setShowPassword(!showPassword)}
+                      className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
+                    >
+                      {showPassword ? (
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.878 9.878L3 3m6.878 6.878L21 21" />
+                        </svg>
+                      ) : (
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                        </svg>
+                      )}
+                    </button>
                   </div>
                   {validationErrors.password && (
                     <p className="mt-1 text-sm text-red-600">{validationErrors.password}</p>
+                  )}
+                  
+                  {/* Password Strength Indicator - Only for registration */}
+                  {!isLogin && formData.password && (
+                    <div className="mt-2">
+                      <div className="flex items-center space-x-2 mb-1">
+                        <span className="text-xs text-gray-600">Password strength:</span>
+                        <div className="flex space-x-1">
+                          {[1, 2, 3, 4, 5].map((level) => {
+                            const isActive = level <= passwordStrength.score;
+                            return (
+                              <div
+                                key={level}
+                                className={`h-1 w-4 rounded ${
+                                  isActive
+                                    ? passwordStrength.strength === 'weak'
+                                      ? 'bg-red-400'
+                                      : passwordStrength.strength === 'medium'
+                                      ? 'bg-yellow-400'
+                                      : 'bg-green-400'
+                                    : 'bg-gray-200'
+                                }`}
+                              />
+                            );
+                          })}
+                        </div>
+                        <span className={`text-xs font-medium ${
+                          passwordStrength.strength === 'weak'
+                            ? 'text-red-600'
+                            : passwordStrength.strength === 'medium'
+                            ? 'text-yellow-600'
+                            : 'text-green-600'
+                        }`}>
+                          {passwordStrength.strength}
+                        </span>
+                      </div>
+                      <div className="text-xs text-gray-500">
+                        Use 8+ characters with uppercase, lowercase, numbers, and symbols
+                      </div>
+                    </div>
                   )}
                 </div>
 
                 {/* Confirm Password - Only for registration */}
                 {!isLogin && (
                   <div>
-                    <label htmlFor="confirmPassword" className="block text-sm font-semibold text-gray-700 mb-2">
-                      Confirm Password
+                    <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-700 mb-1">
+                      Confirm Password *
                     </label>
                     <div className="relative">
-                      <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                        <svg className="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
-                        </svg>
-                      </div>
                       <input
-                        type="password"
+                        type={showConfirmPassword ? "text" : "password"}
                         id="confirmPassword"
                         name="confirmPassword"
                         placeholder="Confirm your password"
                         value={formData.confirmPassword}
                         onChange={handleInputChange}
-                        className={`w-full px-4 py-3 pl-10 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 ${validationErrors.confirmPassword ? 'border-red-500 bg-red-50 focus:ring-red-500' : 'border-gray-300 bg-white hover:border-gray-400'}`}
-                        autoComplete="new-password"
+                        className={`w-full px-4 py-3 pr-12 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all ${
+                          validationErrors.confirmPassword ? 'border-red-500 bg-red-50' : 'border-gray-300'
+                        }`}
+                        required
                       />
+                      <button
+                        type="button"
+                        onClick={() => setShowConfirmPassword(!showConfirmPassword)}
+                        className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
+                      >
+                        {showConfirmPassword ? (
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.878 9.878L3 3m6.878 6.878L21 21" />
+                          </svg>
+                        ) : (
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                          </svg>
+                        )}
+                      </button>
                     </div>
                     {validationErrors.confirmPassword && (
                       <p className="mt-1 text-sm text-red-600">{validationErrors.confirmPassword}</p>
@@ -313,7 +407,7 @@ const LoginPage = () => {
                 {/* Submit Button */}
                 <button 
                   type="submit" 
-                  className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none shadow-lg hover:shadow-xl" 
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none" 
                   disabled={loading}
                 >
                   {loading ? (
@@ -322,24 +416,19 @@ const LoginPage = () => {
                       {isLogin ? 'Signing In...' : 'Creating Account...'}
                     </div>
                   ) : (
-                    <div className="flex items-center justify-center">
-                      <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                      </svg>
-                      {isLogin ? 'Sign In & Start Learning' : 'Create Account & Get Started'}
-                    </div>
+                    isLogin ? 'Sign In' : 'Create Account'
                   )}
                 </button>
               </form>
 
               {/* Footer Links */}
-              <div className="mt-8 text-center space-y-3">
+              <div className="mt-6 text-center space-y-3">
                 {isLogin ? (
                   <>
                     <p className="text-sm text-gray-600">
                       New to VIMAANNA? 
                       <button 
-                        className="ml-1 text-blue-600 hover:text-blue-700 font-medium transition-colors"
+                        className="ml-1 text-blue-600 hover:text-blue-700 font-medium"
                         onClick={toggleMode}
                       >
                         Create Account
@@ -347,13 +436,13 @@ const LoginPage = () => {
                     </p>
                     <div className="flex justify-center space-x-4">
                       <button 
-                        className="text-sm text-blue-600 hover:text-blue-700 font-medium transition-colors"
+                        className="text-sm text-blue-600 hover:text-blue-700 font-medium"
                         onClick={() => alert('Password reset feature coming soon!')}
                       >
                         Forgot Password?
                       </button>
                       <span className="text-gray-300">•</span>
-                      <a href="mailto:support@vimaanna.com" className="text-sm text-blue-600 hover:text-blue-700 font-medium transition-colors">
+                      <a href="mailto:support@vimaanna.com" className="text-sm text-blue-600 hover:text-blue-700 font-medium">
                         Contact Support
                       </a>
                     </div>
@@ -363,18 +452,18 @@ const LoginPage = () => {
                     <p className="text-sm text-gray-600">
                       Already have an account? 
                       <button 
-                        className="ml-1 text-blue-600 hover:text-blue-700 font-medium transition-colors"
+                        className="ml-1 text-blue-600 hover:text-blue-700 font-medium"
                         onClick={toggleMode}
                       >
                         Sign In
                       </button>
                     </p>
                     <div className="flex justify-center space-x-4">
-                      <a href="mailto:support@vimaanna.com" className="text-sm text-blue-600 hover:text-blue-700 font-medium transition-colors">
+                      <a href="mailto:support@vimaanna.com" className="text-sm text-blue-600 hover:text-blue-700 font-medium">
                         Contact Support
                       </a>
                       <span className="text-gray-300">•</span>
-                      <Link to="/" className="text-sm text-blue-600 hover:text-blue-700 font-medium transition-colors">
+                      <Link to="/" className="text-sm text-blue-600 hover:text-blue-700 font-medium">
                         Back to Home
                       </Link>
                     </div>
@@ -386,7 +475,7 @@ const LoginPage = () => {
                   <p className="text-xs text-gray-500 mb-1">Administrator?</p>
                   <Link 
                     to="/admin" 
-                    className="text-sm text-purple-600 hover:text-purple-700 font-medium transition-colors"
+                    className="text-sm text-purple-600 hover:text-purple-700 font-medium"
                   >
                     🔐 Admin Login Portal
                   </Link>

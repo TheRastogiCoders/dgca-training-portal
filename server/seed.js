@@ -1,89 +1,55 @@
 const mongoose = require('mongoose');
+const bcrypt = require('bcryptjs');
 require('dotenv').config();
 
-// Import models
-const Subject = require('./models/Subject');
 const User = require('./models/User');
-const bcrypt = require('bcryptjs');
 
 const seedData = async () => {
   try {
     // Connect to MongoDB
     await mongoose.connect(process.env.MONGODB_URI);
-    console.log('Connected to MongoDB');
+    console.log('✅ Connected to MongoDB');
 
-    // Clear existing data
-    await Subject.deleteMany({});
+    // Clear existing users
     await User.deleteMany({});
-    console.log('Cleared existing data');
+    console.log('🗑️ Cleared existing users');
 
-    // Create subjects
-    const subjects = [
+    // Create test users
+    const users = [
       {
-        name: 'Air Regulations',
-        description: 'Civil Aviation Rules and Regulations',
-        icon: '✈️'
+        username: 'admin',
+        email: 'admin@vimaanna.com',
+        password: await bcrypt.hash('admin123', 10),
+        isAdmin: true
       },
       {
-        name: 'Air Navigation',
-        description: 'Navigation principles and procedures',
-        icon: '🧭'
+        username: 'student',
+        email: 'student@vimaanna.com',
+        password: await bcrypt.hash('student123', 10),
+        isAdmin: false
       },
       {
-        name: 'Meteorology',
-        description: 'Weather and atmospheric conditions',
-        icon: '🌤️'
-      },
-      {
-        name: 'Technical General',
-        description: 'General aviation technical knowledge',
-        icon: '⚙️'
-      },
-      {
-        name: 'Technical Specific',
-        description: 'Aircraft-specific technical knowledge',
-        icon: '🔧'
-      },
-      {
-        name: 'Radio Telephony (RTR)-A',
-        description: 'Radio communication procedures',
-        icon: '📻'
+        username: 'testuser',
+        email: 'test@vimaanna.com',
+        password: await bcrypt.hash('test123', 10),
+        isAdmin: false
       }
     ];
 
-    const createdSubjects = await Subject.insertMany(subjects);
-    console.log('Created subjects:', createdSubjects.length);
+    const createdUsers = await User.insertMany(users);
+    console.log('✅ Created users:', createdUsers.length);
 
-    // Create admin user
-    const hashedPassword = await bcrypt.hash('admin123', 10);
-    const adminUser = new User({
-      username: 'admin',
-      email: 'admin@vimaanna.com',
-      password: hashedPassword,
-      isAdmin: true
-    });
-    await adminUser.save();
-    console.log('Created admin user');
-
-    // Create demo student user
-    const studentPassword = await bcrypt.hash('student123', 10);
-    const studentUser = new User({
-      username: 'student123',
-      email: 'student@vimaanna.com',
-      password: studentPassword,
-      isAdmin: false
-    });
-    await studentUser.save();
-    console.log('Created student user');
-
-    console.log('Database seeded successfully!');
-    console.log('Admin credentials: admin / admin123');
-    console.log('Student credentials: student123 / student123');
+    console.log('\n🎉 Database seeded successfully!');
+    console.log('\n📋 Test Credentials:');
+    console.log('Admin: admin / admin123');
+    console.log('Student: student / student123');
+    console.log('Test User: testuser / test123');
 
   } catch (error) {
-    console.error('Seeding error:', error);
+    console.error('❌ Seeding error:', error);
   } finally {
     mongoose.connection.close();
+    console.log('🔌 Database connection closed');
   }
 };
 

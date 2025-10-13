@@ -10,6 +10,7 @@ const rateLimit = require('express-rate-limit');
 // const swaggerSpecs = require('./config/swagger');
 require('dotenv').config();
 const path = require('path');
+const fs = require('fs');
 
 const authRoutes = require('./routes/auth');
 const subjectRoutes = require('./routes/subjects');
@@ -38,31 +39,9 @@ app.use(helmet({
   crossOriginEmbedderPolicy: false
 }));
 
-// CORS configuration
-const normalizeOrigin = (o) => (o || '').replace(/\/$/, '');
-const defaultOrigin = 'https://dgca-training-portal.vercel.app';
-const configuredOrigins = (process.env.CORS_ORIGINS || process.env.FRONTEND_URL || defaultOrigin)
-  .split(',')
-  .map(normalizeOrigin)
-  .filter(Boolean);
-
+// CORS configuration - Allow all origins for development
 app.use(cors({
-  origin: (origin, callback) => {
-    // Allow non-browser requests (no origin)
-    if (!origin) return callback(null, true);
-    const normalized = normalizeOrigin(origin);
-
-    // Allow exact matches from configured origins
-    if (configuredOrigins.includes(normalized)) return callback(null, true);
-
-    // Allow Vercel preview deployments if enabled via env
-    const allowVercelPreviews = (process.env.ALLOW_VERCEL_PREVIEWS || 'true') === 'true';
-    if (allowVercelPreviews && /\.vercel\.app$/.test(new URL(normalized).hostname)) {
-      return callback(null, true);
-    }
-
-    return callback(new Error(`Not allowed by CORS: ${origin}`));
-  },
+  origin: true, // Allow all origins for development
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'X-CSRF-Token']
@@ -87,9 +66,21 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 //   }
 //   return csrfProtection(req, res, next);
 // });
-// Rate limiters
-const authLimiter = rateLimit({ windowMs: 15 * 60 * 1000, max: 50, standardHeaders: true, legacyHeaders: false });
-const aiLimiter = rateLimit({ windowMs: 60 * 1000, max: 30, standardHeaders: true, legacyHeaders: false });
+// Rate limiters - Simplified for development
+const authLimiter = rateLimit({ 
+  windowMs: 15 * 60 * 1000, 
+  max: 100, 
+  standardHeaders: true, 
+  legacyHeaders: false,
+  trustProxy: false // Disable proxy trust for development
+});
+const aiLimiter = rateLimit({ 
+  windowMs: 60 * 1000, 
+  max: 50, 
+  standardHeaders: true, 
+  legacyHeaders: false,
+  trustProxy: false // Disable proxy trust for development
+});
 // Request logging (basic)
 app.use(async (req, res, next) => {
   const start = Date.now();
@@ -109,10 +100,14 @@ app.use(async (req, res, next) => {
   next();
 });
 
-// MongoDB connection
+// MongoDB connection with better error handling
 mongoose.connect(process.env.MONGODB_URI)
-  .then(() => console.log('MongoDB connected successfully'))
-  .catch(err => console.error('MongoDB connection error:', err));
+.then(() => console.log('✅ MongoDB connected successfully'))
+.catch(err => {
+  console.error('❌ MongoDB connection error:', err.message);
+  console.log('🔄 Server will continue without database connection');
+  console.log('💡 To fix: Install MongoDB locally or update MONGODB_URI in .env');
+});
 
 // Serve uploaded files
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
@@ -133,6 +128,39 @@ app.use('/api/results', resultRoutes);
 app.use('/api/notes', noteRoutes);
 app.use('/api/ai', aiLimiter, aiRoutes);
 app.use('/api/admin', adminRoutes);
+
+// Lightweight endpoint to serve practice books from JSON file
+app.get('/api/practice-books', (req, res) => {
+  try {
+    const filePath = path.join(__dirname, 'practiceBooks.json');
+    const raw = fs.readFileSync(filePath, 'utf-8');
+    const data = JSON.parse(raw);
+    const subject = (req.query.subject || '').toLowerCase();
+    let items = Array.isArray(data.books) ? data.books : [];
+    if (subject) {
+      items = items.filter(b => Array.isArray(b.subjects) && b.subjects.includes(subject));
+    }
+    res.json({ items, total: items.length });
+  } catch (err) {
+    res.status(500).json({ message: 'Failed to load practice books' });
+  }
+});
+
+// Serve practice questions by book slug
+app.get('/api/practice-questions/:book', (req, res) => {
+  try {
+    const book = (req.params.book || '').toLowerCase();
+    const filePath = path.join(__dirname, 'practice-questions', `${book}.json`);
+    if (!fs.existsSync(filePath)) {
+      return res.status(404).json({ message: 'Questions not found' });
+    }
+    const raw = fs.readFileSync(filePath, 'utf-8');
+    const data = JSON.parse(raw);
+    res.json(data);
+  } catch (err) {
+    res.status(500).json({ message: 'Failed to load questions' });
+  }
+});
 
 app.get('/', (req, res) => {
   res.json({ message: 'Vimaanna DGCA API running', timestamp: new Date().toISOString() });
