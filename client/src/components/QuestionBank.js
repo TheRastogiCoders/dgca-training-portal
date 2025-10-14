@@ -8,6 +8,7 @@ const QuestionBank = () => {
   const { user, isAuthenticated } = useAuth();
   const navigate = useNavigate();
   const [selectedSubject, setSelectedSubject] = useState(null);
+  const [selectedBook, setSelectedBook] = useState(null);
 
   const subjects = [
     {
@@ -61,14 +62,8 @@ const QuestionBank = () => {
       icon: "⚙️",
       description: "Aircraft Systems & General Knowledge",
       color: "from-red-500 to-red-600",
-      totalQuestions: 1100,
-      chapters: [
-        { id: 1, name: "Aircraft Engines", questions: 280, difficulty: "Hard" },
-        { id: 2, name: "Electrical Systems", questions: 220, difficulty: "Medium" },
-        { id: 3, name: "Hydraulic Systems", questions: 200, difficulty: "Medium" },
-        { id: 4, name: "Aerodynamics", questions: 200, difficulty: "Hard" },
-        { id: 5, name: "Aircraft Structures", questions: 200, difficulty: "Medium" }
-      ]
+      totalQuestions: 2540,
+      chapters: []
     },
     {
       id: 5,
@@ -100,14 +95,38 @@ const QuestionBank = () => {
         { id: 5, name: "International Procedures", questions: 100, difficulty: "Hard" }
       ]
     }
-    ,
+  ];
+
+  const allBooks = [
     {
-      id: 7,
+      id: 1,
+      title: "CAE Oxford",
+      description: "Comprehensive aviation knowledge & practice",
+      icon: "📘",
+      color: "from-blue-500 to-blue-600",
+      slug: "cae-oxford"
+    },
+    {
+      id: 2,
+      title: "IC Joshi",
+      description: "Advanced DGCA exam preparation",
+      icon: "📖",
+      color: "from-green-500 to-green-600",
+      slug: "ic-joshi"
+    }
+  ];
+
+  // Technical General specific books
+  const technicalGeneralBooks = [
+    {
+      id: 1,
       title: "Principles of Flight",
-      icon: "🛫",
       description: "ATPL Ground Training Series",
-      color: "from-indigo-600 to-blue-700",
+      icon: "🛫",
+      color: "from-indigo-500 to-blue-600",
+      slug: "principles-of-flight",
       totalQuestions: 720,
+      difficulty: "Medium",
       chapters: [
         { id: 1, name: "Overview and Definitions", questions: 40, difficulty: "Easy" },
         { id: 2, name: "The Atmosphere", questions: 40, difficulty: "Easy" },
@@ -130,12 +149,14 @@ const QuestionBank = () => {
       ]
     },
     {
-      id: 8,
+      id: 2,
       title: "Airframes and Systems",
-      icon: "🛩️",
       description: "ATPL Ground Training Series",
-      color: "from-sky-600 to-cyan-700",
+      icon: "🛩️",
+      color: "from-sky-500 to-cyan-600",
+      slug: "airframes-and-systems",
       totalQuestions: 500,
+      difficulty: "Medium",
       chapters: [
         { id: 1, name: "Fuselage, Wings and Stabilizing Surfaces", questions: 40, difficulty: "Medium" },
         { id: 2, name: "Basic Hydraulics", questions: 45, difficulty: "Medium" },
@@ -157,12 +178,14 @@ const QuestionBank = () => {
       ]
     },
     {
-      id: 9,
+      id: 3,
       title: "Electrics and Electronics",
-      icon: "🔌",
       description: "ATPL Ground Training Series",
-      color: "from-teal-600 to-emerald-700",
+      icon: "🔌",
+      color: "from-teal-500 to-emerald-600",
+      slug: "electrics-and-electronics",
       totalQuestions: 540,
+      difficulty: "Medium",
       chapters: [
         { id: 1, name: "DC Electrics - Basic Principles", questions: 35, difficulty: "Easy" },
         { id: 2, name: "DC Electrics - Switches", questions: 25, difficulty: "Easy" },
@@ -185,12 +208,14 @@ const QuestionBank = () => {
       ]
     },
     {
-      id: 10,
+      id: 4,
       title: "Powerplant",
-      icon: "🔥",
       description: "ATPL Ground Training Series",
-      color: "from-orange-600 to-amber-700",
+      icon: "🔥",
+      color: "from-orange-500 to-amber-600",
+      slug: "powerplant",
       totalQuestions: 780,
+      difficulty: "Hard",
       chapters: [
         { id: 1, name: "Piston Engines - Introduction", questions: 25, difficulty: "Easy" },
         { id: 2, name: "Piston Engines - General", questions: 30, difficulty: "Easy" },
@@ -225,18 +250,51 @@ const QuestionBank = () => {
     }
   ];
 
-  const handleSubjectClick = (subject) => {
-    setSelectedSubject(subject);
+  // Filter books based on selected subject
+  const getAvailableBooks = (subject) => {
+    if (subject && subject.title === "Meteorology") {
+      // Show both books for Meteorology
+      return allBooks;
+    } else if (subject && subject.title === "Technical General") {
+      // Show Technical General specific books
+      return technicalGeneralBooks;
+    } else {
+      // Show only CAE Oxford for all other subjects
+      return allBooks.filter(book => book.title === "CAE Oxford");
+    }
   };
 
-  const handleChapterClick = (subject, chapter) => {
+  const handleSubjectClick = (subject) => {
+    setSelectedSubject(subject);
+    setSelectedBook(null);
+  };
+
+  const handleBookClick = (book) => {
+    if (!isAuthenticated) {
+      navigate('/login');
+      return;
+    }
+    // Always show chapters after selecting a book
+    setSelectedBook(book);
+  };
+
+  const handleChapterClick = (subject, chapter, book) => {
     if (!isAuthenticated) {
       navigate('/login');
       return;
     }
     const subjectSlug = subject.title.toLowerCase().replace(/\s+/g, '-');
-    const chapterSlug = chapter.name.toLowerCase().replace(/\s+/g, '-');
-    navigate(`/practice/${subjectSlug}/${chapterSlug}`);
+    const chapterSlug = (chapter?.name || 'overview').toLowerCase().replace(/\s+/g, '-');
+    navigate(`/practice/${subjectSlug}/${book.slug}/${chapterSlug}`);
+  };
+
+  const handleBackToSubjects = () => {
+    setSelectedSubject(null);
+    setSelectedBook(null);
+  };
+
+  const handleBackToBooks = () => {
+    setSelectedBook(null);
   };
 
   const getDifficultyColor = (difficulty) => {
@@ -255,14 +313,14 @@ const QuestionBank = () => {
         <SiteSidebar />
 
         {/* Main Content */}
-        <main className="flex-1 p-8 pt-20 md:pt-8 pb-20 md:pb-8 md:ml-24">
+        <main className="flex-1 p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-24">
           <div className="max-w-6xl mx-auto">
             {/* Header */}
             <div className="text-center mb-12">
               <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">
                 Question Bank
               </h1>
-              <p className="text-xl text-gray-600 mb-6">
+              <p className="text-xl text-white mb-6">
                 Practice questions organized by subject and chapter
               </p>
               {!isAuthenticated && (
@@ -273,22 +331,22 @@ const QuestionBank = () => {
             </div>
 
             {/* Back Button */}
-            {selectedSubject && (
+            {(selectedSubject || selectedBook) && (
               <div className="mb-6">
                 <button
-                  onClick={() => setSelectedSubject(null)}
+                  onClick={selectedBook ? handleBackToBooks : handleBackToSubjects}
                   className="flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors"
                 >
                   <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                   </svg>
-                  Back to Subjects
+                  {selectedBook ? 'Back to Books' : 'Back to Subjects'}
                 </button>
               </div>
             )}
 
             {/* Subjects View */}
-            {!selectedSubject && (
+            {!selectedSubject && !selectedBook && (
               <>
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
@@ -355,8 +413,8 @@ const QuestionBank = () => {
               </>
             )}
 
-            {/* Chapters View */}
-            {selectedSubject && (
+            {/* Book Selection View */}
+            {selectedSubject && !selectedBook && (
               <div>
                 <div className="text-center mb-8">
                   <div className={`w-20 h-20 bg-gradient-to-r ${selectedSubject.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-4`}>
@@ -366,13 +424,74 @@ const QuestionBank = () => {
                   <p className="text-gray-600 mb-4">{selectedSubject.description}</p>
                   <div className="inline-flex items-center px-4 py-2 bg-blue-100 border border-blue-300 rounded-full">
                     <span className="text-blue-800 font-medium text-sm">
+                      📚 Choose your study material
+                    </span>
+                  </div>
+                </div>
+
+                <div className="mb-8">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                    Select Your Book
+                  </h3>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                    {getAvailableBooks(selectedSubject).map((book) => (
+                      <Card 
+                        key={book.id} 
+                        className="p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group"
+                        onClick={() => handleBookClick(book)}
+                      >
+                        <div className="text-center">
+                          <div className={`w-20 h-20 bg-gradient-to-r ${book.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                            {book.icon}
+                          </div>
+                          <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                            {book.title}
+                          </h3>
+                          <p className="text-gray-600 mb-6 text-base leading-relaxed">
+                            {book.description}
+                          </p>
+                          <div className="flex items-center justify-center">
+                            <div className={`flex items-center px-6 py-3 bg-gradient-to-r ${book.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform group-hover:scale-105`}>
+                              <span className="mr-2">{book.icon}</span>
+                              Select Book
+                            </div>
+                          </div>
+                        </div>
+                      </Card>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* Chapters View - All subjects (books carry their own chapters where applicable) */}
+            {selectedSubject && selectedBook && (
+              <div>
+                <div className="text-center mb-8">
+                  <div className={`w-20 h-20 bg-gradient-to-r ${selectedSubject.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-4`}>
+                    {selectedSubject.icon}
+                  </div>
+                  <h2 className="text-3xl font-bold text-gray-900 mb-2">{selectedSubject.title}</h2>
+                  <p className="text-gray-600 mb-4">{selectedSubject.description}</p>
+                  <div className="flex items-center justify-center mb-4">
+                    <div className={`w-12 h-12 bg-gradient-to-r ${selectedBook.color} rounded-xl flex items-center justify-center text-white text-2xl mr-3`}>
+                      {selectedBook.icon}
+                    </div>
+                    <div className="text-left">
+                      <h3 className="text-lg font-bold text-gray-900">{selectedBook.title}</h3>
+                      <p className="text-sm text-gray-600">{selectedBook.description}</p>
+                    </div>
+                  </div>
+                  <div className="inline-flex items-center px-4 py-2 bg-blue-100 border border-blue-300 rounded-full">
+                    <span className="text-blue-800 font-medium text-sm">
                       📚 Practice information available
                     </span>
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {selectedSubject.chapters.map((chapter) => (
+                  {(selectedBook.chapters || selectedSubject.chapters || []).map((chapter) => (
                     <Card key={chapter.id} className="p-6 hover:shadow-lg transition-all duration-300">
                       <div className="flex items-start justify-between mb-4">
                         <div className="flex-1">
@@ -391,26 +510,15 @@ const QuestionBank = () => {
                         </span>
                       </div>
 
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      <div className="flex justify-center">
                         <button
-                          onClick={() => handleChapterClick(selectedSubject, chapter)}
-                          className={`w-full py-3 px-4 bg-gradient-to-r ${selectedSubject.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2`}
-                          title="Practice with CAE Oxford Aviation Academy"
+                          onClick={() => handleChapterClick(selectedSubject, chapter, selectedBook)}
+                          className={`w-full py-3 px-6 bg-gradient-to-r ${selectedBook.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2`}
+                          title={`Practice with ${selectedBook.title}`}
                         >
                           <div className="flex items-center justify-center">
-                            <span className="mr-2">📘</span>
-                            CAE Oxford
-                          </div>
-                        </button>
-                        <button
-                          onClick={() => alert('IC Joshi questions are coming soon.')}
-                          className="w-full py-3 px-4 bg-gray-200 text-gray-600 font-semibold rounded-lg cursor-not-allowed"
-                          disabled
-                          title="IC Joshi questions are coming soon"
-                        >
-                          <div className="flex items-center justify-center">
-                            <span className="mr-2">📖</span>
-                            IC Joshi (Coming Soon)
+                            <span className="mr-2">{selectedBook.icon}</span>
+                            Start Practice
                           </div>
                         </button>
                       </div>

@@ -15,7 +15,7 @@ const HomePage = () => {
         <SiteSidebar />
 
         {/* Main Content */}
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-8 pb-20 md:pb-8 md:ml-24">
+        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-24 md:pb-8 md:ml-24 mobile-content-wrapper">
           <div className="max-w-6xl mx-auto space-y-6 md:space-y-8">
             <MainHero />
           </div>
@@ -38,12 +38,6 @@ const MainHero = () => {
   const [prompt, setPrompt] = useState('');
   const [messages, setMessages] = useState([]); // { role: 'user'|'assistant', content: string }
   const [sending, setSending] = useState(false);
-  const suggestions = [
-    { icon: '✈️', title: 'DGCA Air Regulations & Licensing', onClick: () => setPrompt('Explain DGCA Air Regulations and pilot licensing requirements') },
-    { icon: '🌍', title: 'Aviation Environment Initiatives', onClick: () => setPrompt('Tell me about DGCA environmental initiatives and emission reduction') },
-    { icon: '🛡️', title: 'State Safety Programme (SSP)', onClick: () => setPrompt('Explain India\'s State Safety Programme and aviation safety measures') },
-    { icon: '🚁', title: 'Drone & Aerosports Regulations', onClick: () => setPrompt('What are the current DGCA regulations for drones and aerosports?') },
-  ];
 
   const normalize = (text) => (text || '').trim();
 
@@ -71,61 +65,54 @@ const MainHero = () => {
   };
 
   return (
-    <div className="px-2 md:px-8">
-      <div className="max-w-3xl text-center md:text-left">
+    <div className="px-4 md:px-8 flex flex-col items-center justify-center min-h-[calc(100vh-12rem)] md:min-h-[calc(100vh-8rem)] pb-20 md:pb-8 w-full">
+      <div className="max-w-3xl text-center w-full">
         <h1 className="text-2xl md:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight">
-          <span className="text-gray-900">Welcome to DGCA Training Portal{firstName ? ', ' : ''} </span>
-          {firstName && (
-            <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">{firstName}</span>
-          )}
+          <span className="text-black">Hey, </span>
+          <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">{firstName || 'Username'}</span>
         </h1>
-        <h2 className="mt-2 text-xl md:text-3xl lg:text-4xl font-extrabold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Your Aviation Learning Hub</h2>
-        <p className="mt-3 text-sm md:text-base text-gray-600">Explore DGCA regulations, aviation safety, and training resources. Choose a topic below or ask your own question.</p>
-      </div>
-
-      <div className="hidden mt-4 md:mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-3 max-w-5xl">
-        {suggestions.map((s, i) => (
-          <button key={i} onClick={s.onClick} className="text-left p-3 md:p-4 rounded-2xl border border-gray-200 bg-white hover:bg-gray-50 transition-all">
-            <div className="text-xl md:text-2xl mb-1 md:mb-2">{s.icon}</div>
-            <div className="text-xs md:text-sm text-gray-800 leading-snug">{s.title}</div>
-          </button>
-        ))}
       </div>
 
       {/* Chat area */}
-      <div className="max-w-5xl mt-4 md:mt-6 space-y-2 md:space-y-3 mx-auto md:mx-0">
+      <div className="w-full max-w-5xl mt-4 md:mt-6 space-y-2 md:space-y-3 mx-auto px-4 md:px-0">
         {messages.map((m, i) => (
           <div key={i} className={`flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
-            <div className={`${m.role === 'user' ? 'bg-gradient-to-br from-purple-500 to-indigo-600 text-white' : 'bg-white/80 text-gray-900'} shadow rounded-2xl px-3 md:px-4 py-2 md:py-3 max-w-[85%] text-sm md:text-base`}>{m.content}</div>
+            <div className={`${m.role === 'user' ? 'bg-gradient-to-br from-purple-500 to-indigo-600 text-white' : 'bg-white/80 text-gray-900'} shadow rounded-2xl px-3 md:px-4 py-2 md:py-3 max-w-[85%] text-sm md:text-base break-words`}>{m.content}</div>
           </div>
         ))}
       </div>
 
-      {/* Composer */}
-      <Card className="p-0 mt-3 md:mt-4 max-w-5xl mx-auto md:mx-0">
-        <div className="p-3 md:p-4">
-          <label className="sr-only">Prompt</label>
-          <textarea
+    {/* Search Interface */}
+    <div className="mt-8 w-full px-4 md:px-0">
+      <form onSubmit={(e) => { e.preventDefault(); handleSend(); }} className="relative max-w-4xl mx-auto">
+        <div className="flex items-center bg-white/30 backdrop-blur-md rounded-full border border-white/40 shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300">
+          <input
+            type="text"
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
-            placeholder="Ask Anything about Your Career"
-            rows={3}
-            className="w-full resize-none border-0 focus:ring-0 outline-none text-sm md:text-base"
-            onKeyDown={(e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); handleSend(); } }}
+            placeholder="Ask Doubt?"
+            className="flex-1 px-4 md:px-8 py-3 md:py-6 bg-transparent focus:outline-none text-gray-800 text-sm md:text-lg placeholder-gray-400 min-w-0"
+            onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); handleSend(); } }}
           />
-        </div>
-        <div className="px-3 md:px-4 pb-3 md:pb-4 flex items-center justify-end gap-2 text-xs md:text-sm text-gray-600">
-          <div className="flex items-center gap-2">
-            <select className="input-field h-8 md:h-9 py-1 w-24 md:w-32 text-xs md:text-sm">
-              <option>DGCA Regulations</option>
-              <option>Aviation Safety</option>
-              <option>Pilot Training</option>
-              <option>Environmental</option>
-            </select>
-            <Button size="sm" onClick={handleSend} disabled={sending} aria-label="Send" className="text-xs md:text-sm">{sending ? '...' : '➤'}</Button>
+          <div className="px-2 md:px-6 flex-shrink-0">
+            <button
+              type="submit"
+              disabled={sending || !prompt.trim()}
+              className="w-8 h-8 md:w-12 md:h-12 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full flex items-center justify-center text-white hover:from-blue-700 hover:to-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-lg hover:shadow-xl"
+              aria-label="Send"
+            >
+              {sending ? (
+                <div className="w-3 h-3 md:w-5 md:h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+              ) : (
+                <svg className="w-4 h-4 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                </svg>
+              )}
+            </button>
           </div>
         </div>
-      </Card>
+      </form>
     </div>
+  </div>
   );
 };

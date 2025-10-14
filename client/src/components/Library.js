@@ -128,14 +128,14 @@ const Library = () => {
         <SiteSidebar />
 
         {/* Main Content */}
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-8 pb-20 md:pb-8 md:ml-24">
+        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-24">
           <div className="max-w-6xl mx-auto">
             {/* Header */}
             <div className="text-center mb-8 md:mb-12">
               <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-3 md:mb-4">
                 Study Library
               </h1>
-              <p className="text-base md:text-xl text-gray-600 mb-4 md:mb-6">
+              <p className="text-base md:text-xl text-white mb-4 md:mb-6">
                 Comprehensive study materials for your aviation journey
               </p>
               {content.length > 0 && (
@@ -173,7 +173,7 @@ const Library = () => {
               <div className="flex items-center justify-center h-64">
                 <div className="text-center">
                   <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
-                  <p className="text-gray-600">Loading content...</p>
+                  <p className="text-white">Loading content...</p>
                 </div>
               </div>
             ) : filteredContent.length > 0 ? (

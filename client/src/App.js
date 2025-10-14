@@ -4,6 +4,7 @@ import { AuthProvider } from './context/AuthContext';
 import { AdminAuthProvider } from './context/AdminAuthContext';
 import ErrorBoundary from './components/ErrorBoundary';
 import LoadingSpinner from './components/ui/LoadingSpinner';
+import Header from './components/Header';
 import './App.css';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -35,6 +36,7 @@ const AdminSettings = lazy(() => import('./components/AdminSettings'));
 const AdminResults = lazy(() => import('./components/AdminResults'));
 const AdminLogs = lazy(() => import('./components/admin/AdminLogs'));
 const AdminUsers = lazy(() => import('./components/admin/AdminUsers'));
+const WhatsAppFloat = lazy(() => import('./components/WhatsAppFloat'));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -52,6 +54,7 @@ function App() {
           <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
             <ScrollToTop />
             <div className="App">
+              <Header />
               <Suspense fallback={<LoadingSpinner size="large" text="Loading application..." />}>
                 <Routes>
               <Route path="/" element={<HomePage />} />
@@ -71,7 +74,7 @@ function App() {
               <Route path="/practice-test/ai/:subjectSlug/:bookSlug" element={<AIPracticeChapters />} />
               <Route path="/practice-test/ai/:subjectSlug/:bookSlug/:chapterSlug" element={<AIPracticeRunner />} />
               <Route path="/practice-test/book/:bookSlug" element={<BookPracticeRunner />} />
-              <Route path="/practice/:subjectSlug/:chapterSlug" element={<ChapterPracticeIntro />} />
+              <Route path="/practice/:subjectSlug/:bookSlug/:chapterSlug" element={<ChapterPracticeIntro />} />
               <Route path="/admin-analysis-questions" element={<AdminAnalysisQuestions />} />
               <Route path="/admin" element={<AdminDomainGuard><AdminLogin /></AdminDomainGuard>} />
               <Route path="/admin-dashboard" element={<AdminDomainGuard><AdminProtectedRoute><AdminDashboard /></AdminProtectedRoute></AdminDomainGuard>} />
@@ -83,6 +86,7 @@ function App() {
               <Route path="/admin/users" element={<AdminDomainGuard><AdminProtectedRoute><AdminUsers /></AdminProtectedRoute></AdminDomainGuard>} />
               </Routes>
               </Suspense>
+              <WhatsAppFloat />
             </div>
           </Router>
         </AdminAuthProvider>

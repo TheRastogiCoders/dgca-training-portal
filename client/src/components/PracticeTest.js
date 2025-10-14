@@ -3,6 +3,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
+import ModernAlert from './ui/ModernAlert';
+import useModernAlert from '../hooks/useModernAlert';
 
 const PracticeTest = () => {
   const { user, isAuthenticated, loading } = useAuth();
@@ -10,43 +12,14 @@ const PracticeTest = () => {
   const [results, setResults] = useState([]);
   const [loadingResults, setLoadingResults] = useState(false);
   const [selectedTestType, setSelectedTestType] = useState(null);
+  const { alertState, hideAlert, showComingSoon } = useModernAlert();
 
   const testTypes = [
     {
-      id: 'books',
-      title: "Book Questions",
-      icon: "📚",
-      description: "Practice from IC Joshi, Oxford Aviation & more",
-      color: "from-green-500 to-emerald-600",
-      features: [
-        "Chapter-wise practice",
-        "Subject-specific tests",
-        "Difficulty levels",
-        "Detailed explanations"
-      ],
-      stats: { questions: "5,580+", books: "12+", subjects: "6" },
-      onClick: () => navigate('/question-bank')
-    },
-    {
-      id: 'admin',
-      title: "Admin Analysis Questions",
-      icon: "🛡️",
-      description: "Expert-curated questions with detailed analysis",
-      color: "from-blue-500 to-blue-700",
-      features: [
-        "Expert-reviewed content",
-        "Performance analytics",
-        "Weakness identification",
-        "Progress tracking"
-      ],
-      stats: { questions: "2,500+", accuracy: "99%", experts: "15+" },
-      onClick: () => navigate('/admin-analysis-questions')
-    },
-    {
       id: 'ai',
-      title: "AI Generated Questions",
-      icon: "🤖",
-      description: "Smart adaptive practice powered by VIMAANNA AI",
+      title: "PYQ Questions",
+      icon: "📝",
+      description: "Previous Year Questions for comprehensive exam preparation",
       color: "from-purple-500 to-indigo-600",
       features: [
         "Adaptive difficulty",
@@ -295,10 +268,9 @@ const PracticeTest = () => {
       navigate('/login');
       return;
     }
-    if (typeof test.onClick === 'function') {
-      test.onClick();
-      return;
-    }
+    // Show Coming Soon for PYQ
+    showComingSoon('PYQ Practice');
+    return;
   };
 
   const formatTime = (minutes) => {
@@ -321,15 +293,15 @@ const PracticeTest = () => {
         <SiteSidebar />
 
         {/* Main Content */}
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-8 pb-20 md:pb-8 md:ml-24">
-          <div className="max-w-7xl mx-auto">
+        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-24 flex flex-col items-center justify-center min-h-[calc(100vh-6rem)]">
+          <div className="max-w-4xl mx-auto w-full">
             {/* Header */}
             <div className="text-center mb-8 md:mb-12">
                 <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-3 md:mb-4">
-                  Practice Tests
+                  PYQ Practice
                 </h1>
-                <p className="text-base md:text-xl text-gray-600 mb-4 md:mb-6">
-                  Choose your practice mode and track your progress
+                <p className="text-base md:text-xl text-white mb-4 md:mb-6">
+                  Practice with Previous Year Questions and track your progress
                 </p>
                 
 
@@ -342,11 +314,12 @@ const PracticeTest = () => {
 
             {/* Practice Test Types */}
             <div className="mb-8 md:mb-12">
-              <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 md:mb-8 text-center">
-                Choose Your Practice Mode
+              <h2 className="text-lg md:text-2xl font-bold text-white mb-6 md:mb-8 text-center">
+                Choose Your PYQ Practice
               </h2>
               
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8">
+              <div className="flex justify-center">
+                <div className="w-full max-w-md">
                 {testTypes.map((test) => (
                   <Card 
                     key={test.id} 
@@ -390,11 +363,12 @@ const PracticeTest = () => {
                       </div>
                       
                       <button className={`w-full py-2 md:py-3 px-4 md:px-6 bg-gradient-to-r ${test.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-sm md:text-base`}>
-                        Start Practice
+                        Start PYQ Practice
                       </button>
                     </div>
                   </Card>
                 ))}
+                </div>
               </div>
             </div>
 
@@ -669,6 +643,17 @@ const PracticeTest = () => {
           </div>
         </main>
       </div>
+      
+      {/* Modern Alert */}
+      <ModernAlert
+        isOpen={alertState.isOpen}
+        onClose={hideAlert}
+        title={alertState.title}
+        message={alertState.message}
+        type={alertState.type}
+        autoClose={alertState.autoClose}
+        autoCloseDelay={alertState.autoCloseDelay}
+      />
     </div>
   );
 };
