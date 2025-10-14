@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate, useParams, Link } from 'react-router-dom';
 import Card from './ui/Card';
+import SiteSidebar from './SiteSidebar';
 
 const friendly = (slug) => (slug || '')
   .split('-')
@@ -12,12 +13,19 @@ const ChapterPracticeIntro = () => {
   const { subjectSlug, chapterSlug } = useParams();
 
   const startPractice = () => {
-    // Placeholder: navigate to existing PracticeTest with AI pathing for now
-    navigate(`/practice-test/ai/${subjectSlug}/${chapterSlug}`);
+    // Start book-based practice directly using a book slug
+    const defaultBookSlug = 'principles-of-flight';
+    navigate(`/practice-test/book/${defaultBookSlug}`);
   };
 
   return (
-    <div className="min-h-screen gradient-bg p-6 md:p-10 md:ml-24">
+    <div className="min-h-screen gradient-bg">
+      <div className="flex">
+        {/* Sidebar */}
+        <SiteSidebar />
+
+        {/* Main Content */}
+        <main className="flex-1 p-6 md:p-10 md:ml-24">
       <div className="max-w-4xl mx-auto">
         <div className="mb-6">
           <Link to="/question-bank" className="text-blue-600 hover:underline">← Back to Subjects</Link>
@@ -61,11 +69,13 @@ const ChapterPracticeIntro = () => {
             >
               Start Practice
             </button>
-            <Link to={`/books/${subjectSlug}`} className="px-6 py-3 bg-gray-100 text-gray-700 rounded-lg font-semibold">
+            <Link to="/question-bank" className="px-6 py-3 bg-gray-100 text-gray-700 rounded-lg font-semibold">
               Choose Another Book
             </Link>
           </div>
         </Card>
+      </div>
+        </main>
       </div>
     </div>
   );

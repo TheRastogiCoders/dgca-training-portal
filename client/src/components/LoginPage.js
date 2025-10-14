@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
+import { API_ENDPOINTS } from '../config/api';
 
 const LoginPage = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -120,11 +121,13 @@ const LoginPage = () => {
     setLoading(true);
 
     try {
-      const endpoint = isLogin ? '/api/auth/login' : '/api/auth/register';
+      const endpoint = isLogin ? API_ENDPOINTS.AUTH_LOGIN : API_ENDPOINTS.AUTH_REGISTER;
       const body = isLogin 
         ? { username: formData.username, password: formData.password }
         : { username: formData.username, email: formData.email, password: formData.password };
 
+      console.log('Making request to:', endpoint);
+      
       const response = await fetch(endpoint, {
         method: 'POST',
         headers: {
@@ -132,6 +135,14 @@ const LoginPage = () => {
         },
         body: JSON.stringify(body),
       });
+
+      console.log('Response status:', response.status);
+      
+      if (!response.ok) {
+        const errorText = await response.text();
+        console.error('API Error:', errorText);
+        throw new Error(`Server error: ${response.status} - ${errorText}`);
+      }
 
       const data = await response.json();
 
@@ -155,7 +166,15 @@ const LoginPage = () => {
       }
     } catch (error) {
       console.error('Auth error:', error);
-      setError('Network error. Please check your connection and try again.');
+      
+      // More specific error messages
+      if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
+        setError('Cannot connect to server. Please check your internet connection and try again.');
+      } else if (error.message.includes('Server error:')) {
+        setError(error.message);
+      } else {
+        setError('Network error. Please check your connection and try again.');
+      }
     } finally {
       setLoading(false);
     }

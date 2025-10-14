@@ -314,10 +314,10 @@ const QuestionBank = () => {
                           </p>
                           <div className="flex items-center justify-between text-sm">
                             <span className="text-gray-500">
-                              {subject.totalQuestions.toLocaleString()} Questions
+                              Practice available
                             </span>
                             <span className="text-blue-600 font-medium">
-                              {subject.chapters.length} Chapters
+                              Explore chapters
                             </span>
                           </div>
                         </div>
@@ -366,7 +366,7 @@ const QuestionBank = () => {
                   <p className="text-gray-600 mb-4">{selectedSubject.description}</p>
                   <div className="inline-flex items-center px-4 py-2 bg-blue-100 border border-blue-300 rounded-full">
                     <span className="text-blue-800 font-medium text-sm">
-                      📚 {selectedSubject.totalQuestions.toLocaleString()} Questions • {selectedSubject.chapters.length} Chapters
+                      📚 Practice information available
                     </span>
                   </div>
                 </div>
@@ -382,7 +382,7 @@ const QuestionBank = () => {
                               <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
                                 <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                               </svg>
-                              {chapter.questions} Questions
+                              Chapter overview
                             </span>
                           </div>
                         </div>

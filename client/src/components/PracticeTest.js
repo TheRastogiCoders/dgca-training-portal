@@ -54,7 +54,8 @@ const PracticeTest = () => {
         "Real-time feedback",
         "Performance insights"
       ],
-      stats: { questions: "Unlimited", ai: "Advanced", adaptive: "Yes" },
+      // Simpler, more neutral labels for a less "high level" feel
+      stats: { questions: "Varies", ai: "AI", adaptive: "On" },
       onClick: () => navigate('/practice-test/ai')
     }
   ];

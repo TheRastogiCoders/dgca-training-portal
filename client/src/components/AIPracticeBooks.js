@@ -72,6 +72,19 @@ const subjectData = {
   }
 };
 
+// Helper to create URL-friendly slugs from names
+const slugify = (name) => (name || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '');
+
+// Default first chapter per subject (matches AIPracticeChapters order)
+const defaultChapterBySubject = {
+  'air-regulations': slugify('Civil Aviation Rules'),
+  'air-navigation': slugify('Dead Reckoning'),
+  'meteorology': slugify('Atmosphere & Pressure'),
+  'technical-general': slugify('Aircraft Engines'),
+  'technical-specific': slugify('Cessna 172 Systems'),
+  'radio-telephony': slugify('Standard Phraseology')
+};
+
 const AIPracticeBooks = () => {
   const { subjectSlug } = useParams();
   const { user, isAuthenticated } = useAuth();
@@ -104,8 +117,9 @@ const AIPracticeBooks = () => {
 
   const startAIPractice = () => {
     if (selectedBook) {
-      // Navigate to AI practice with settings
-      navigate(`/practice-test/ai/${subjectSlug}/${selectedBook.slug}`, {
+      // Jump directly to runner with the first chapter for this subject
+      const chapterSlug = defaultChapterBySubject[subjectSlug] || 'chapter-1';
+      navigate(`/practice-test/ai/${subjectSlug}/${selectedBook.slug}/${chapterSlug}`, {
         state: { practiceSettings }
       });
     }
