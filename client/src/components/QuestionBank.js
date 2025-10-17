@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
+import { useNavigate } from 'react-router-dom';
 import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 
 const QuestionBank = () => {
-  const { user, isAuthenticated } = useAuth();
   const navigate = useNavigate();
   const [selectedSubject, setSelectedSubject] = useState(null);
   const [selectedBook, setSelectedBook] = useState(null);
@@ -256,8 +254,8 @@ const QuestionBank = () => {
       // Show both books for Meteorology
       return allBooks;
     } else if (subject && subject.title === "Technical General") {
-      // Show Technical General specific books
-      return technicalGeneralBooks;
+      // First step for Technical General: show only CAE Oxford
+      return allBooks.filter(book => book.title === "CAE Oxford");
     } else {
       // Show only CAE Oxford for all other subjects
       return allBooks.filter(book => book.title === "CAE Oxford");
@@ -270,19 +268,11 @@ const QuestionBank = () => {
   };
 
   const handleBookClick = (book) => {
-    if (!isAuthenticated) {
-      navigate('/login');
-      return;
-    }
-    // Always show chapters after selecting a book
+    // Always show chapters after selecting a book (no login required)
     setSelectedBook(book);
   };
 
   const handleChapterClick = (subject, chapter, book) => {
-    if (!isAuthenticated) {
-      navigate('/login');
-      return;
-    }
     const subjectSlug = subject.title.toLowerCase().replace(/\s+/g, '-');
     const chapterSlug = (chapter?.name || 'overview').toLowerCase().replace(/\s+/g, '-');
     navigate(`/practice/${subjectSlug}/${book.slug}/${chapterSlug}`);
@@ -320,14 +310,10 @@ const QuestionBank = () => {
               <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">
                 Question Bank
               </h1>
-              <p className="text-xl text-white mb-6">
+              <p className="text-xl text-gray-900 mb-6">
                 Practice questions organized by subject and chapter
               </p>
-              {!isAuthenticated && (
-                <div className="inline-flex items-center px-4 py-2 bg-yellow-100 border border-yellow-300 rounded-full mb-4">
-                  <span className="text-yellow-800 font-medium text-sm">🔒 Login required to access questions</span>
-                </div>
-              )}
+              {/* Open access: no login required banner for question bank */}
             </div>
 
             {/* Back Button */}
@@ -370,12 +356,10 @@ const QuestionBank = () => {
                           <p className="text-gray-600 mb-4 text-sm leading-relaxed">
                             {subject.description}
                           </p>
-                          <div className="flex items-center justify-between text-sm">
-                            <span className="text-gray-500">
-                              Practice available
-                            </span>
-                            <span className="text-blue-600 font-medium">
-                              Explore chapters
+                          <div className="flex items-center justify-center text-sm">
+                            <span className="text-blue-600 font-semibold inline-flex items-center">
+                              Start now
+                              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
                             </span>
                           </div>
                         </div>
@@ -465,7 +449,7 @@ const QuestionBank = () => {
               </div>
             )}
 
-            {/* Chapters View - All subjects (books carry their own chapters where applicable) */}
+            {/* Chapters/Sub-Books View */}
             {selectedSubject && selectedBook && (
               <div>
                 <div className="text-center mb-8">
@@ -490,41 +474,73 @@ const QuestionBank = () => {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {(selectedBook.chapters || selectedSubject.chapters || []).map((chapter) => (
-                    <Card key={chapter.id} className="p-6 hover:shadow-lg transition-all duration-300">
-                      <div className="flex items-start justify-between mb-4">
-                        <div className="flex-1">
-                          <h3 className="text-lg font-bold text-gray-900 mb-2">{chapter.name}</h3>
-                          <div className="flex items-center space-x-4 text-sm text-gray-600">
-                            <span className="flex items-center">
-                              <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
-                                <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
-                              </svg>
-                              Chapter overview
-                            </span>
+                {selectedSubject.title === 'Technical General' && selectedBook.slug === 'cae-oxford' ? (
+                  // For Technical General, after selecting CAE Oxford, show 4 Oxford sub-books
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                    {technicalGeneralBooks.map((book) => (
+                      <Card
+                        key={book.id}
+                        className="p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group"
+                        onClick={() => setSelectedBook(book)}
+                      >
+                        <div className="text-center">
+                          <div className={`w-20 h-20 bg-gradient-to-r ${book.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                            {book.icon}
+                          </div>
+                          <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                            {book.title}
+                          </h3>
+                          <p className="text-gray-600 mb-6 text-base leading-relaxed">
+                            {book.description}
+                          </p>
+                          <div className="flex items-center justify-center">
+                            <div className={`flex items-center px-6 py-3 bg-gradient-to-r ${book.color} text-white font-semibold rounded-lg`}>
+                              <span className="mr-2">{book.icon}</span>
+                              Select Book
+                            </div>
                           </div>
                         </div>
-                        <span className={`px-3 py-1 rounded-full text-xs font-medium ${getDifficultyColor(chapter.difficulty)}`}>
-                          {chapter.difficulty}
-                        </span>
-                      </div>
-
-                      <div className="flex justify-center">
-                        <button
-                          onClick={() => handleChapterClick(selectedSubject, chapter, selectedBook)}
-                          className={`w-full py-3 px-6 bg-gradient-to-r ${selectedBook.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2`}
-                          title={`Practice with ${selectedBook.title}`}
-                        >
-                          <div className="flex items-center justify-center">
-                            <span className="mr-2">{selectedBook.icon}</span>
-                            Start Practice
+                      </Card>
+                    ))}
+                  </div>
+                ) : (
+                  // Default: show chapters for the selected book
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {(selectedBook.chapters || selectedSubject.chapters || []).map((chapter) => (
+                      <Card key={chapter.id} className="p-6 hover:shadow-lg transition-all duration-300">
+                        <div className="flex items-start justify-between mb-4">
+                          <div className="flex-1">
+                            <h3 className="text-lg font-bold text-gray-900 mb-2">{chapter.name}</h3>
+                            <div className="flex items-center space-x-4 text-sm text-gray-600">
+                              <span className="flex items-center">
+                                <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                                  <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
+                                </svg>
+                                Chapter overview
+                              </span>
+                            </div>
                           </div>
-                        </button>
-                      </div>
-                    </Card>
-                  ))}
-                </div>
+                          <span className={`px-3 py-1 rounded-full text-xs font-medium ${getDifficultyColor(chapter.difficulty)}`}>
+                            {chapter.difficulty}
+                          </span>
+                        </div>
+
+                        <div className="flex justify-center">
+                          <button
+                            onClick={() => handleChapterClick(selectedSubject, chapter, selectedBook)}
+                            className={`w-full py-3 px-6 bg-gradient-to-r ${selectedBook.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2`}
+                            title={`Practice with ${selectedBook.title}`}
+                          >
+                            <div className="flex items-center justify-center">
+                              <span className="mr-2">{selectedBook.icon}</span>
+                              Start Practice
+                            </div>
+                          </button>
+                        </div>
+                      </Card>
+                    ))}
+                  </div>
+                )}
               </div>
             )}
           </div>

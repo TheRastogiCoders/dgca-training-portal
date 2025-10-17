@@ -3,6 +3,10 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 const router = express.Router();
+const { OAuth2Client } = require('google-auth-library');
+
+// Google OAuth client
+const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
 
 // Enhanced password validation
 const validatePassword = (password) => {
@@ -187,6 +191,70 @@ router.post('/login', authLimiter, async (req, res) => {
     res.status(500).json({ 
       message: 'Internal server error. Please try again later.' 
     });
+  }
+});
+
+// Google Sign-In endpoint
+router.post('/google', authLimiter, async (req, res) => {
+  try {
+    const { idToken } = req.body || {};
+    if (!idToken) {
+      return res.status(400).json({ message: 'Missing Google ID token' });
+    }
+
+    // Verify token with Google
+    const ticket = await googleClient.verifyIdToken({
+      idToken,
+      audience: process.env.GOOGLE_CLIENT_ID,
+    });
+    const payload = ticket.getPayload();
+    const email = payload?.email;
+    const emailVerified = payload?.email_verified;
+    const name = payload?.name || '';
+    const picture = payload?.picture || '';
+
+    if (!email || emailVerified === false) {
+      return res.status(401).json({ message: 'Google email not verified' });
+    }
+
+    // Upsert user
+    let user = await User.findOne({ email });
+    if (!user) {
+      // Generate unique username based on email local part
+      const baseUsername = (email.split('@')[0] || 'user').replace(/[^a-zA-Z0-9_]/g, '_').slice(0, 30);
+      let username = baseUsername;
+      let suffix = 1;
+      while (await User.exists({ username })) {
+        username = `${baseUsername}_${suffix++}`.slice(0, 50);
+      }
+      // Set a random password since schema requires it
+      const randomPassword = require('crypto').randomBytes(16).toString('hex');
+      const hashed = await bcrypt.hash(randomPassword, 12);
+      user = await User.create({ username, email, password: hashed, isAdmin: false });
+    }
+
+    // Issue JWT
+    const token = jwt.sign(
+      { id: user._id, username: user.username, isAdmin: user.isAdmin },
+      process.env.JWT_SECRET || 'fallback-secret-key',
+      { expiresIn: '24h' }
+    );
+
+    res.json({
+      message: 'Google sign-in successful',
+      token,
+      user: {
+        id: user._id,
+        username: user.username,
+        email: user.email,
+        isAdmin: user.isAdmin,
+        name,
+        picture,
+      },
+    });
+  } catch (error) {
+    console.error('Google sign-in error:', error);
+    res.status(401).json({ message: 'Invalid Google token' });
   }
 });
 

@@ -23,6 +23,29 @@ const RailItem = ({ to, label, icon, active, isAdmin = false }) => (
   </div>
 );
 
+// Desktop boxed navigation item with label inside the box
+const BoxNavItem = ({ to, label, icon, active, isAdmin = false }) => (
+  <Link
+    to={to}
+    title={label}
+    className={`w-44 h-12 rounded-2xl flex items-center gap-3 px-3 transition-all duration-200 border backdrop-blur-sm ${active
+      ? isAdmin
+        ? 'bg-gradient-to-br from-red-500/85 to-pink-600/85 text-white shadow-xl border-red-400/60'
+        : 'bg-gradient-to-br from-purple-500/85 to-indigo-600/85 text-white shadow-xl border-purple-400/60'
+      : 'bg-white/30 text-gray-800 hover:bg-white/50 shadow-md border-white/40 hover:shadow-lg'}
+    `}
+  >
+    <span className={`flex items-center justify-center w-8 h-8 rounded-xl ${active
+      ? 'bg-white/20 text-white'
+      : 'bg-white/60 text-gray-800'}`} aria-hidden>
+      <span className="text-lg">{icon}</span>
+    </span>
+    <span className={`text-sm font-semibold tracking-wide ${active ? 'text-white' : 'text-gray-800'}`}>
+      {label}
+    </span>
+  </Link>
+);
+
 const SiteSidebar = () => {
   const { pathname } = useLocation();
   const { user, isAuthenticated, logout, isAdmin } = useAuth();
@@ -47,6 +70,9 @@ const SiteSidebar = () => {
     return name.split(' ').map(word => word[0]).join('').toUpperCase().slice(0, 2);
   };
 
+  // Active path helper: exact match for '/', prefix match for others
+  const isActivePath = (to) => (to === '/' ? pathname === '/' : pathname.startsWith(to));
+
   // Admin navigation items
   const adminNavItems = [
     { to: '/admin-dashboard', label: 'Dashboard', icon: '📊' },
@@ -67,31 +93,41 @@ const SiteSidebar = () => {
     <>
 
       {/* Desktop/Laptop: Vertical rail */}
-      <aside className="hidden md:flex md:flex-col md:items-center md:gap-4 md:w-24 h-[calc(100vh-4rem)] fixed left-0 top-16 py-4 bg-gradient-to-b from-blue-600/5 to-purple-600/5 backdrop-blur-sm z-40">
+      <aside className="hidden md:flex md:flex-col md:items-center md:gap-4 md:w-56 h-[calc(100vh-4rem)] fixed left-0 top-16 py-4 bg-gradient-to-b from-blue-600/5 to-purple-600/5 backdrop-blur-sm z-40">
         <nav className="mt-2 flex flex-col items-center gap-3 md:gap-4">
           {/* Show admin navigation if user is admin, otherwise show regular navigation */}
           {currentIsAdmin() ? (
             adminNavItems.map((item) => (
-              <RailItem
+              <BoxNavItem
                 key={item.to}
                 to={item.to}
                 label={item.label}
                 icon={item.icon}
-                active={pathname.startsWith(item.to)}
+                active={isActivePath(item.to)}
                 isAdmin={true}
               />
             ))
           ) : (
             userNavItems.map((item) => (
-              <RailItem
+              <BoxNavItem
                 key={item.to}
                 to={item.to}
                 label={item.label}
                 icon={item.icon}
-                active={pathname.startsWith(item.to)}
+                active={isActivePath(item.to)}
                 isAdmin={false}
               />
             ))
+          )}
+          {/* Desktop: show Login as a boxed item when not authenticated (non-admin area) */}
+          {(!currentIsAuthenticated && !currentIsAdmin()) && (
+            <BoxNavItem
+              to="/login"
+              label="Login"
+              icon="👤"
+              active={isActivePath('/login')}
+              isAdmin={false}
+            />
           )}
         </nav>
         <div className="flex-1" />
@@ -127,11 +163,7 @@ const SiteSidebar = () => {
               Logout
             </button>
           </div>
-        ) : (
-          <Link to="/login" title="Account" className="mb-3 w-12 h-12 md:w-14 md:h-14 rounded-2xl md:rounded-3xl overflow-hidden border border-white/40 bg-white/30 backdrop-blur-sm flex items-center justify-center shadow-lg">
-            <span className="text-2xl md:text-3xl">👤</span>
-          </Link>
-        )}
+        ) : null}
       </aside>
 
       {/* Mobile/Tablet: Bottom horizontal bar */}
@@ -145,7 +177,7 @@ const SiteSidebar = () => {
                 to={item.to}
                 title={item.label}
                 className={`w-12 h-12 rounded-2xl flex items-center justify-center border backdrop-blur-sm transition-all duration-200 ${
-                  pathname.startsWith(item.to)
+                  isActivePath(item.to)
                     ? 'bg-gradient-to-br from-red-500/90 to-pink-600/90 text-white border-red-400/60 shadow-xl scale-105'
                     : 'bg-white/40 text-gray-800 border-white/50 shadow-lg hover:bg-white/60 hover:scale-105'
                 }`}
@@ -160,7 +192,7 @@ const SiteSidebar = () => {
                 to={item.to}
                 title={item.label}
                 className={`w-12 h-12 rounded-2xl flex items-center justify-center border backdrop-blur-sm transition-all duration-200 ${
-                  pathname.startsWith(item.to)
+                  isActivePath(item.to)
                     ? 'bg-gradient-to-br from-purple-500/90 to-indigo-600/90 text-white border-purple-400/60 shadow-xl scale-105'
                     : 'bg-white/40 text-gray-800 border-white/50 shadow-lg hover:bg-white/60 hover:scale-105'
                 }`}
@@ -191,7 +223,7 @@ const SiteSidebar = () => {
               to="/login" 
               title="Account" 
               className={`w-12 h-12 rounded-2xl flex items-center justify-center border backdrop-blur-sm transition-all duration-200 ${
-                pathname.startsWith('/login') 
+                isActivePath('/login') 
                   ? 'bg-gradient-to-br from-purple-500/90 to-indigo-600/90 text-white border-purple-400/60 shadow-xl scale-105' 
                   : 'bg-white/40 text-gray-800 border-white/50 shadow-lg hover:bg-white/60 hover:scale-105'
               }`}

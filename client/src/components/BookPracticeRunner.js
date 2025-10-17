@@ -20,7 +20,6 @@ const BookPracticeRunner = () => {
   const [questions, setQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState(null);
-  const [answers, setAnswers] = useState({});
   const [done, setDone] = useState(false);
   const [score, setScore] = useState(0);
   const startTimeRef = useRef(Date.now());
@@ -73,7 +72,6 @@ const BookPracticeRunner = () => {
     const chosenLabel = labels[optionIndex];
     const isCorrect = String(chosenLabel).toLowerCase() === String(currentQuestion.correctLabel).toLowerCase();
     if (isCorrect) setScore(prev => prev + 1);
-    setAnswers(prev => ({ ...prev, [current]: optionIndex }));
   };
 
   const next = () => {
@@ -88,7 +86,6 @@ const BookPracticeRunner = () => {
   const restart = () => {
     setCurrent(0);
     setSelected(null);
-    setAnswers({});
     setDone(false);
     setScore(0);
     startTimeRef.current = Date.now();

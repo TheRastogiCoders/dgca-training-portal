@@ -52,73 +52,45 @@ const Library = () => {
     return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
   };
 
-  const filteredContent = filter === 'all' 
-    ? content 
-    : content.filter(item => item.type === filter);
-
+  // Filter definitions and derived lists
   const contentTypes = [
-    { id: 'all', label: 'All Content', icon: '📚' },
-    { id: 'notes', label: 'Study Notes', icon: '📝' },
-    { id: 'pdf', label: 'PDF Analysis', icon: '📄' },
-    { id: 'mcq', label: 'MCQ Sets', icon: '❓' }
+    { id: 'all', label: 'All', icon: '📚' },
+    { id: 'notes', label: 'Notes', icon: '📝' },
+    { id: 'pdf', label: 'PDFs', icon: '📄' },
+    { id: 'mcq', label: 'MCQ Sets', icon: '❓' },
   ];
 
-  // Mock data for coming soon notes
+  const filteredContent = content.filter(item => {
+    if (filter === 'all') return true;
+    return (item.type || '').toLowerCase() === filter;
+  });
+
+  // Static coming soon list (placeholder)
   const comingSoonNotes = [
     {
       id: 1,
-      title: "Air Regulations Study Guide",
-      subject: "Air Regulations",
-      description: "Comprehensive guide covering all DGCA air regulations and procedures",
-      icon: "✈️",
-      color: "from-blue-500 to-blue-600",
-      status: "Coming Soon"
+      title: 'Air Regulations Short Notes',
+      subject: 'Air Regulations',
+      description: 'Concise notes covering key CAR sections and licensing rules.',
+      icon: '📘',
+      color: 'from-blue-500 to-blue-600',
     },
     {
       id: 2,
-      title: "Navigation Fundamentals",
-      subject: "Air Navigation", 
-      description: "Essential navigation concepts including VOR, GPS, and flight planning",
-      icon: "🧭",
-      color: "from-green-500 to-green-600",
-      status: "Coming Soon"
+      title: 'Meteorology Mindmaps',
+      subject: 'Meteorology',
+      description: 'Visual maps for systems, fronts, and weather hazards.',
+      icon: '🌤️',
+      color: 'from-yellow-500 to-orange-500',
     },
     {
       id: 3,
-      title: "Weather Patterns & Meteorology",
-      subject: "Meteorology",
-      description: "Understanding weather systems, clouds, and atmospheric conditions",
-      icon: "🌤️",
-      color: "from-purple-500 to-purple-600",
-      status: "Coming Soon"
+      title: 'Electrical Systems Cheatsheet',
+      subject: 'Technical General',
+      description: 'High-yield formulas and checklists for aircraft electrics.',
+      icon: '🔌',
+      color: 'from-teal-500 to-emerald-600',
     },
-    {
-      id: 4,
-      title: "Aircraft Systems Overview",
-      subject: "Technical General",
-      description: "Complete guide to aircraft engines, electrical systems, and hydraulics",
-      icon: "⚙️",
-      color: "from-orange-500 to-orange-600",
-      status: "Coming Soon"
-    },
-    {
-      id: 5,
-      title: "Radio Telephony Procedures",
-      subject: "Radio Telephony",
-      description: "Standard phraseology and communication procedures for pilots",
-      icon: "📻",
-      color: "from-red-500 to-red-600",
-      status: "Coming Soon"
-    },
-    {
-      id: 6,
-      title: "DGCA Exam Preparation",
-      subject: "General",
-      description: "Complete study plan and tips for DGCA examination success",
-      icon: "📚",
-      color: "from-indigo-500 to-indigo-600",
-      status: "Coming Soon"
-    }
   ];
 
   return (
@@ -232,9 +204,7 @@ const Library = () => {
               <div className="text-center py-8 md:py-12 mb-8 md:mb-12">
                 <div className="text-4xl md:text-6xl mb-3 md:mb-4">📚</div>
                 <h3 className="text-lg md:text-2xl font-bold text-gray-900 mb-3 md:mb-4">No Content Available Yet</h3>
-                <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-6">
-                  Study materials will appear here once uploaded by admin.
-                </p>
+               
                 <div className="bg-yellow-100 text-yellow-800 px-3 md:px-4 py-2 rounded-lg text-xs md:text-sm font-medium inline-block">
                   Content will be available soon!
                 </div>
@@ -255,105 +225,9 @@ const Library = () => {
               </div>
             )}
 
-            {/* Coming Soon Notes Grid */}
-            <div className="mb-8 md:mb-12">
-              <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 md:mb-8 text-center">
-                Upcoming Study Materials
-              </h2>
-              
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-                {comingSoonNotes.map(note => (
-                  <Card key={note.id} className="p-4 md:p-6 relative overflow-hidden group hover:shadow-xl transition-all duration-300">
-                    {/* Coming Soon Badge */}
-                    <div className="absolute top-3 right-3 md:top-4 md:right-4 z-10">
-                      <span className="px-2 md:px-3 py-1 bg-gradient-to-r from-orange-400 to-pink-500 text-white text-xs font-semibold rounded-full shadow-lg">
-                        Coming Soon
-                      </span>
-                    </div>
-                    
-                    {/* Icon */}
-                    <div className={`w-12 h-12 md:w-16 md:h-16 bg-gradient-to-r ${note.color} rounded-2xl flex items-center justify-center text-white text-2xl md:text-3xl mb-3 md:mb-4 group-hover:scale-110 transition-transform duration-300`}>
-                      {note.icon}
-                    </div>
-                    
-                    {/* Content */}
-                    <div className="mb-3 md:mb-4">
-                      <h3 className="text-base md:text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
-                        {note.title}
-                      </h3>
-                      <span className="inline-block px-2 md:px-3 py-1 bg-gray-100 text-gray-600 text-xs md:text-sm rounded-full font-medium">
-                        {note.subject}
-                      </span>
-                    </div>
-                    
-                    <p className="text-gray-600 mb-4 md:mb-6 leading-relaxed text-sm md:text-base">
-                      {note.description}
-                    </p>
-                    
-                    {/* Coming Soon Button */}
-                    <button 
-                      disabled
-                      className="w-full py-2 md:py-3 px-3 md:px-4 bg-gray-100 text-gray-500 rounded-lg font-medium cursor-not-allowed flex items-center justify-center text-sm md:text-base"
-                    >
-                      <svg className="w-4 h-4 md:w-5 md:h-5 mr-1 md:mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                      Available Soon
-                    </button>
-                  </Card>
-                ))}
-              </div>
-            </div>
+            {/* Removed Upcoming Study Materials section */}
 
-            {/* Quick Access Section */}
-            <Card className="p-4 md:p-8">
-              <div className="text-center mb-6 md:mb-8">
-                <h3 className="text-lg md:text-2xl font-bold text-gray-900 mb-2">Quick Access</h3>
-                <p className="text-sm md:text-base text-gray-600">Explore other available features</p>
-              </div>
-              
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
-                <Link to="/question-bank" className="group">
-                  <Card className="p-3 md:p-6 text-center hover:shadow-lg transition-all duration-300">
-                    <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center text-white text-2xl md:text-3xl mx-auto mb-3 md:mb-4 group-hover:scale-110 transition-transform duration-300">
-                      📚
-                    </div>
-                    <h4 className="font-semibold text-gray-900 mb-1 md:mb-2 text-sm md:text-base">Question Bank</h4>
-                    <p className="text-xs md:text-sm text-gray-600">Practice questions</p>
-                  </Card>
-                </Link>
-                
-                <Link to="/practice-test" className="group">
-                  <Card className="p-3 md:p-6 text-center hover:shadow-lg transition-all duration-300">
-                    <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl flex items-center justify-center text-white text-2xl md:text-3xl mx-auto mb-3 md:mb-4 group-hover:scale-110 transition-transform duration-300">
-                      🎯
-                    </div>
-                    <h4 className="font-semibold text-gray-900 mb-1 md:mb-2 text-sm md:text-base">Practice Tests</h4>
-                    <p className="text-xs md:text-sm text-gray-600">Mock exams</p>
-                  </Card>
-                </Link>
-                
-                <div className="group">
-                  <Card className="p-3 md:p-6 text-center opacity-60">
-                    <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center text-white text-2xl md:text-3xl mx-auto mb-3 md:mb-4">
-                      📖
-                    </div>
-                    <h4 className="font-semibold text-gray-900 mb-1 md:mb-2 text-sm md:text-base">Study Notes</h4>
-                    <p className="text-xs md:text-sm text-gray-600">Coming soon</p>
-                  </Card>
-                </div>
-                
-                <div className="group">
-                  <Card className="p-3 md:p-6 text-center opacity-60">
-                    <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center text-white text-2xl md:text-3xl mx-auto mb-3 md:mb-4">
-                      📋
-                    </div>
-                    <h4 className="font-semibold text-gray-900 mb-1 md:mb-2 text-sm md:text-base">Regulations</h4>
-                    <p className="text-xs md:text-sm text-gray-600">Coming soon</p>
-                  </Card>
-                </div>
-              </div>
-            </Card>
+            {/* Removed Quick Access section */}
 
             {/* Newsletter Signup */}
             <Card className="p-4 md:p-8 mt-6 md:mt-8 bg-gradient-to-r from-blue-50 to-purple-50 border-2 border-blue-200">

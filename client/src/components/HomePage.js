@@ -1,12 +1,9 @@
 import React, { useMemo, useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
-import Card from './ui/Card';
-import Button from './ui/Button';
 import { API_ENDPOINTS } from '../config/api';
 
 const HomePage = () => {
-  const { user, isAuthenticated } = useAuth();
 
   return (
     <div className="min-h-screen gradient-bg">

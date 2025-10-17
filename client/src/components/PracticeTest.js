@@ -7,11 +7,10 @@ import ModernAlert from './ui/ModernAlert';
 import useModernAlert from '../hooks/useModernAlert';
 
 const PracticeTest = () => {
-  const { user, isAuthenticated, loading } = useAuth();
+  const { isAuthenticated } = useAuth();
   const navigate = useNavigate();
   const [results, setResults] = useState([]);
   const [loadingResults, setLoadingResults] = useState(false);
-  const [selectedTestType, setSelectedTestType] = useState(null);
   const { alertState, hideAlert, showComingSoon } = useModernAlert();
 
   const testTypes = [
@@ -293,82 +292,79 @@ const PracticeTest = () => {
         <SiteSidebar />
 
         {/* Main Content */}
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-24 flex flex-col items-center justify-center min-h-[calc(100vh-6rem)]">
-          <div className="max-w-4xl mx-auto w-full">
-            {/* Header */}
-            <div className="text-center mb-8 md:mb-12">
-                <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-3 md:mb-4">
-                  PYQ Practice
-                </h1>
-                <p className="text-base md:text-xl text-white mb-4 md:mb-6">
-                  Practice with Previous Year Questions and track your progress
-                </p>
-                
-
+        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-24">
+          <div className="max-w-6xl mx-auto w-full">
+            {/* Hero */}
+            <div className="text-center mb-10 md:mb-14">
+              <h1 className="text-3xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent tracking-tight mb-3">
+                PYQ Practice
+              </h1>
+              <p className="text-sm md:text-lg text-white/90 max-w-3xl mx-auto">
+                Master DGCA exams with curated Previous Year Questions, adaptive sessions, and clear progress insights.
+              </p>
               {!isAuthenticated && (
-                <div className="inline-flex items-center px-4 py-2 bg-yellow-100 border border-yellow-300 rounded-full mb-4">
-                  <span className="text-yellow-800 font-medium text-sm">🔒 Login required to access practice tests</span>
+                <div className="inline-flex items-center px-3 py-1.5 mt-4 bg-yellow-100 border border-yellow-300 rounded-full">
+                  <span className="text-yellow-800 font-medium text-xs md:text-sm">🔒 Login required to access PYQ practice</span>
                 </div>
               )}
             </div>
 
-            {/* Practice Test Types */}
-            <div className="mb-8 md:mb-12">
-              <h2 className="text-lg md:text-2xl font-bold text-white mb-6 md:mb-8 text-center">
-                Choose Your PYQ Practice
-              </h2>
-              
-              <div className="flex justify-center">
-                <div className="w-full max-w-md">
+            {/* Main grid */}
+            <div className="grid lg:grid-cols-2 gap-6 md:gap-8 mb-10 md:mb-14">
+              {/* Left: Primary PYQ card */}
+              <div>
                 {testTypes.map((test) => (
-                  <Card 
-                    key={test.id} 
-                    className="p-6 md:p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group"
+                  <Card
+                    key={test.id}
+                    className="p-6 md:p-8 cursor-pointer hover:shadow-2xl transition-all duration-300 group backdrop-blur bg-white/85"
                     onClick={() => handleTestClick(test)}
                   >
-                    <div className="text-center">
-                      <div className={`w-16 h-16 md:w-20 md:h-20 bg-gradient-to-r ${test.color} rounded-2xl flex items-center justify-center text-white text-3xl md:text-4xl mx-auto mb-4 md:mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                    <div className="flex items-start md:items-center md:space-x-6 flex-col md:flex-row text-center md:text-left">
+                      <div className={`w-16 h-16 md:w-20 md:h-20 bg-gradient-to-r ${test.color} rounded-2xl flex items-center justify-center text-white text-3xl md:text-4xl mx-auto md:mx-0 mb-4 md:mb-0 group-hover:scale-110 transition-transform duration-300`}>
                         {test.icon}
                       </div>
-                      <h3 className="text-lg md:text-2xl font-bold text-gray-900 mb-2 md:mb-3 group-hover:text-blue-600 transition-colors">
-                        {test.title}
-                      </h3>
-                      <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-6 leading-relaxed">
-                        {test.description}
-                      </p>
-                      
-                      {/* Features */}
-                      <div className="mb-4 md:mb-6">
-                        <h4 className="font-semibold text-gray-900 mb-2 md:mb-3 text-sm md:text-base">Key Features:</h4>
-                        <ul className="space-y-1 md:space-y-2 text-xs md:text-sm text-gray-600">
-                          {test.features.map((feature, index) => (
-                            <li key={index} className="flex items-center">
-                              <svg className="w-3 h-3 md:w-4 md:h-4 text-green-500 mr-1 md:mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                              </svg>
-                              {feature}
-                            </li>
+                      <div className="flex-1">
+                        <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-1 md:mb-2 group-hover:text-blue-600 transition-colors">
+                          {test.title}
+                        </h3>
+                        <p className="text-sm md:text-base text-gray-600 mb-3 md:mb-4">{test.description}</p>
+                        <div className="grid grid-cols-3 gap-3 md:gap-4 mb-4">
+                          {Object.entries(test.stats).map(([key, value]) => (
+                            <div key={key} className="text-center">
+                              <div className="text-base md:text-lg font-bold text-blue-600">{value}</div>
+                              <div className="text-xs text-gray-500 capitalize">{key}</div>
+                            </div>
                           ))}
-                        </ul>
+                        </div>
+                        <button className={`w-full md:w-auto py-2 md:py-2.5 px-5 md:px-6 bg-gradient-to-r ${test.color} text-white font-semibold rounded-lg shadow hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-sm`}>
+                          Start PYQ Practice
+                        </button>
                       </div>
-                      
-                      {/* Stats */}
-                      <div className="grid grid-cols-3 gap-2 md:gap-4 mb-4 md:mb-6">
-                        {Object.entries(test.stats).map(([key, value]) => (
-                          <div key={key} className="text-center">
-                            <div className="text-sm md:text-lg font-bold text-blue-600">{value}</div>
-                            <div className="text-xs text-gray-500 capitalize">{key}</div>
-                          </div>
-                        ))}
-                      </div>
-                      
-                      <button className={`w-full py-2 md:py-3 px-4 md:px-6 bg-gradient-to-r ${test.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-sm md:text-base`}>
-                        Start PYQ Practice
-                      </button>
                     </div>
                   </Card>
                 ))}
-                </div>
+              </div>
+
+              {/* Right: Highlights / How it works */}
+              <div className="space-y-4">
+                <Card className="p-6 md:p-8">
+                  <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">Why practice PYQs?</h3>
+                  <ul className="space-y-3 text-sm text-gray-700">
+                    <li className="flex items-start"><span className="text-green-600 mr-2">✓</span> Learn the exact question patterns used in DGCA exams</li>
+                    <li className="flex items-start"><span className="text-green-600 mr-2">✓</span> Adaptive sets that focus on your weak areas</li>
+                    <li className="flex items-start"><span className="text-green-600 mr-2">✓</span> Instant explanations to convert mistakes into learning</li>
+                    <li className="flex items-start"><span className="text-green-600 mr-2">✓</span> Track performance over time with clean analytics</li>
+                  </ul>
+                </Card>
+                <Card className="p-6 md:p-8">
+                  <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">How it works</h3>
+                  <ol className="space-y-3 text-sm text-gray-700 list-decimal list-inside">
+                    <li>Select PYQ Practice and choose your subject or mixed set</li>
+                    <li>Answer timed questions with instant feedback</li>
+                    <li>Review solutions and focus topics to improve</li>
+                    <li>See your progress in the analytics below</li>
+                  </ol>
+                </Card>
               </div>
             </div>
 

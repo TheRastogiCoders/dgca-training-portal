@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
 import { API_ENDPOINTS } from '../config/api';
+import GoogleSignInButton from './GoogleSignInButton';
 
 const LoginPage = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -195,7 +196,7 @@ const LoginPage = () => {
       <div className="flex">
         <SiteSidebar />
         
-        <main className="flex-1 flex items-center justify-center p-8">
+        <main className="flex-1 min-h-[calc(100vh-4rem)] pt-16 md:pl-56 flex items-center justify-center p-8">
           <div className="w-full max-w-md">
             <div className="bg-white rounded-3xl shadow-2xl p-8 border border-gray-100">
               {/* Header */}
@@ -442,6 +443,14 @@ const LoginPage = () => {
 
               {/* Footer Links */}
               <div className="mt-6 text-center space-y-3">
+                {/* Or divider */}
+                <div className="flex items-center gap-3 my-4">
+                  <div className="h-px bg-gray-200 flex-1" />
+                  <span className="text-xs text-gray-400">OR</span>
+                  <div className="h-px bg-gray-200 flex-1" />
+                </div>
+                <GoogleSignInButton onSuccess={() => navigate('/')} />
+
                 {isLogin ? (
                   <>
                     <p className="text-sm text-gray-600">
@@ -454,12 +463,6 @@ const LoginPage = () => {
                       </button>
                     </p>
                     <div className="flex justify-center space-x-4">
-                      <button 
-                        className="text-sm text-blue-600 hover:text-blue-700 font-medium"
-                        onClick={() => alert('Password reset feature coming soon!')}
-                      >
-                        Forgot Password?
-                      </button>
                       <span className="text-gray-300">•</span>
                       <a href="mailto:support@vimaanna.com" className="text-sm text-blue-600 hover:text-blue-700 font-medium">
                         Contact Support
@@ -488,17 +491,6 @@ const LoginPage = () => {
                     </div>
                   </>
                 )}
-                
-                {/* Admin Login Link */}
-                <div className="pt-2 border-t border-gray-200">
-                  <p className="text-xs text-gray-500 mb-1">Administrator?</p>
-                  <Link 
-                    to="/admin" 
-                    className="text-sm text-purple-600 hover:text-purple-700 font-medium"
-                  >
-                    🔐 Admin Login Portal
-                  </Link>
-                </div>
               </div>
             </div>
           </div>

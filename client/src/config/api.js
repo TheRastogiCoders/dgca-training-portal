@@ -17,6 +17,7 @@ export const API_ENDPOINTS = {
   CONTENT: `${API_BASE_URL}/api/content`,
   AUTH_LOGIN: `${API_BASE_URL}/api/auth/login`,
   AUTH_REGISTER: `${API_BASE_URL}/api/auth/register`,
+  AUTH_GOOGLE: `${API_BASE_URL}/api/auth/google`,
   AUTH_LOGOUT: `${API_BASE_URL}/api/auth/logout`,
   ADMIN_LOGIN: `${API_BASE_URL}/api/admin/login`,
   ADMIN_LOGOUT: `${API_BASE_URL}/api/admin/logout`,

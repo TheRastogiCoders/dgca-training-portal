@@ -3,16 +3,13 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-blue-600/10 to-purple-600/10 backdrop-blur-md border-b border-white/20">
-      <div className="flex items-center justify-center px-4 py-4">
-        <Link to="/" className="hover:opacity-80 transition-opacity">
-          <img 
-            src="/vimaanna-logo.png" 
-            alt="VIMAANNA" 
-            className="h-10 md:h-12 object-contain select-none" 
-            draggable="false" 
-          />
-        </Link>
+    <header className="fixed top-0 left-0 right-0 z-50 bg-transparent border-0">
+      <div className="max-w-7xl mx-auto px-3 md:px-6">
+        <div className="h-16 flex items-center justify-center">
+          <Link to="/" className="flex items-center hover:opacity-90 transition-opacity" aria-label="VIMAANNA home">
+            <img src="/logo.png" alt="VIMAANNA Logo" className="h-16 md:h-20 w-auto" />
+          </Link>
+        </div>
       </div>
     </header>
   );

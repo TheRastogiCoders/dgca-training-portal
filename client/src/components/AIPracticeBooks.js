@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
@@ -87,7 +87,7 @@ const defaultChapterBySubject = {
 
 const AIPracticeBooks = () => {
   const { subjectSlug } = useParams();
-  const { user, isAuthenticated } = useAuth();
+  const { isAuthenticated } = useAuth();
   const navigate = useNavigate();
   const [selectedBook, setSelectedBook] = useState(null);
   const [showBookDetails, setShowBookDetails] = useState(false);

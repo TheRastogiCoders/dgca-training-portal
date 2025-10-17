@@ -37,6 +37,7 @@ const AdminResults = lazy(() => import('./components/AdminResults'));
 const AdminLogs = lazy(() => import('./components/admin/AdminLogs'));
 const AdminUsers = lazy(() => import('./components/admin/AdminUsers'));
 const WhatsAppFloat = lazy(() => import('./components/WhatsAppFloat'));
+const ContactSupport = lazy(() => import('./components/ContactSupport'));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -84,6 +85,8 @@ function App() {
               <Route path="/admin-questions" element={<AdminDomainGuard><AdminProtectedRoute><AdminQuestions /></AdminProtectedRoute></AdminDomainGuard>} />
               <Route path="/admin/logs" element={<AdminDomainGuard><AdminProtectedRoute><AdminLogs /></AdminProtectedRoute></AdminDomainGuard>} />
               <Route path="/admin/users" element={<AdminDomainGuard><AdminProtectedRoute><AdminUsers /></AdminProtectedRoute></AdminDomainGuard>} />
+              {/* Hidden route: not linked from navigation */}
+              <Route path="/support/contact" element={<ContactSupport />} />
               </Routes>
               </Suspense>
               <WhatsAppFloat />
