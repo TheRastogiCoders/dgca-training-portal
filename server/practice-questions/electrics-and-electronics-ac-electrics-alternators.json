@@ -1,0 +1,723 @@
+{
+  "book_name": "Electrics and Electronics 2014",
+  "chapter_number": "12",
+  "chapter_title": "AC Electrics - Alternators",
+  "questions": [
+    {
+      "id": "1",
+      "question": "An alternator is:",
+      "options": [
+        "a. a reversing input switch",
+        "b. an AC generator",
+        "c. a DC generator",
+        "d. a static inverter"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "To prevent high circulating currents between paralleled alternators, the following conditions should be met:",
+      "options": [
+        "a. their voltage and frequency must be the same",
+        "b. their frequencies must be identical and their phase sequence must be the same",
+        "c. their voltage, frequency, phase and phase sequence must all be the same",
+        "d. their inductive and capacitive reactances must match exactly"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "3",
+      "question": "The output of an AC generator is taken from:",
+      "options": [
+        "a. the exciter windings",
+        "b. the field coils",
+        "c. the stator windings",
+        "d. the rotor coils"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "4",
+      "question": "The moving part of an alternator is:",
+      "options": [
+        "a. the rotor",
+        "b. the megacycle",
+        "c. the stator",
+        "d. the frequency"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "A frequency wild alternator must be:",
+      "options": [
+        "a. paralleled",
+        "b. a rotating magnet type",
+        "c. self-exciting",
+        "d. unparalleled"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "6",
+      "question": "In a 3 phase AC generator circuit, the phase voltage is:",
+      "options": [
+        "a. greater than line voltage",
+        "b. 10% higher than line voltage",
+        "c. less than line voltage",
+        "d. equal to line voltage"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "7",
+      "question": "If an alternator output is frequency wild, it would normally be used for:",
+      "options": [
+        "a. flight instruments",
+        "b. charging a battery",
+        "c. all AC equipment",
+        "d. prop and engine de-icing systems"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "8",
+      "question": "The generator output voltage is increased by:",
+      "options": [
+        "a. putting more load on it",
+        "b. the frequency controller",
+        "c. decreasing the generator field voltage",
+        "d. increasing the generator field current"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "9",
+      "question": "A constant frequency AC supply in an aircraft with only frequency wild generators is provided by:",
+      "options": [
+        "a. an inverter",
+        "b. a diode",
+        "c. an autotransformer",
+        "d. a rectifier"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "10",
+      "question": "An alternator normally used to supply an aircraft's power system would be:",
+      "options": [
+        "a. single phase",
+        "b. three phase",
+        "c. two phase",
+        "d. frequency wild"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "11",
+      "question": "A permanent magnet in a rotating field generator:",
+      "options": [
+        "a. provides for initial excitation of the field",
+        "b. controls the amount of excitation in the stator windings",
+        "c. provides the initial excitation in the voltage regulator",
+        "d. can be flashed by the application of alternating current"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "12",
+      "question": "Voltage control of an alternator output is achieved by varying the:",
+      "options": [
+        "a. excitation of the rotating commutator",
+        "b. load current",
+        "c. excitation of the rotating field",
+        "d. power factor"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "13",
+      "question": "Frequency wild AC is produced when:",
+      "options": [
+        "a. a transformer winding open circuits",
+        "b. the voltage regulator is malfunctioning",
+        "c. the rotational speed of the generator varies",
+        "d. the alternator becomes angry"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "14",
+      "question": "In a star connected supply system:",
+      "options": [
+        "a. line and phase current are equal",
+        "b. line current is greater than phase current",
+        "c. line current is less than phase current",
+        "d. phase current is 0.707 times line current"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "15",
+      "question": "In a 3 phase supply system, line voltage would be sensed between the:",
+      "options": [
+        "a. phases only",
+        "b. phase and earth",
+        "c. phase and neutral",
+        "d. phases and earth"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "16",
+      "question": "One advantage of three phase generation over single phase generation is that:",
+      "options": [
+        "a. most aircraft services require a three phase supply",
+        "b. it can be more easily transformed into DC",
+        "c. it gives more compact generators and allows lower cable weights",
+        "d. the power factor is much lower"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "17",
+      "question": "In a typical aircraft constant frequency supply system, the phase voltage is:",
+      "options": [
+        "a. 200",
+        "b. 115",
+        "c. 208",
+        "d. 400"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "18",
+      "question": "An alternator with its output taken from its stationary armature, has:",
+      "options": [
+        "a. a stationary field",
+        "b. its field excitation fed directly to the armature",
+        "c. AC excitation",
+        "d. a rotating field"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "19",
+      "question": "The phase voltage in a star wound three phase system is measured between:",
+      "options": [
+        "a. phase and neutral",
+        "b. two phases",
+        "c. two lines",
+        "d. neutral and earth"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "20",
+      "question": "If one phase of a star wound three phase system becomes earthed, it will:",
+      "options": [
+        "a. earth all three phases",
+        "b. cause a large current to flow in the neutral",
+        "c. have no effect on the other phases",
+        "d. cause a reduction in the frequency of the supply"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "21",
+      "question": "The alternators fitted in an aircraft's main power supply system would normally be:",
+      "options": [
+        "a. brushed self-excited machines",
+        "b. frequency wild",
+        "c. self-excited",
+        "d. externally excited"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "22",
+      "question": "A voltage regulator works by:",
+      "options": [
+        "a. sensing the battery voltage",
+        "b. assessing the impedance of the circuit",
+        "c. varying the circuit voltage",
+        "d. varying the rotating field strength"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "23",
+      "question": "To ensure correct load sharing on paralleled alternators:",
+      "options": [
+        "a. both real and reactive loads should be balanced",
+        "b. actual loads should be the same",
+        "c. reactive loads should be the same",
+        "d. the load impedance should be constant"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "24",
+      "question": "Reactive load sharing is achieved by:",
+      "options": [
+        "a. altering the loads on the bus bars",
+        "b. varying the generator rotational speed",
+        "c. varying the generator field current",
+        "d. altering the CSDU output torque"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "25",
+      "question": "Real load sharing is achieved by:",
+      "options": [
+        "a. varying the alternator rotational speed",
+        "b. varying the generator field current",
+        "c. altering the loads on the bus bar",
+        "d. the voltage regulator"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "26",
+      "question": "The phase relationship of paralleled generators should be:",
+      "options": [
+        "a. unimportant",
+        "b. $180^{\\circ}$ apart",
+        "c. synchronous",
+        "d. $120^{\\circ}$ apart"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "27",
+      "question": "In a constant speed parallel operation alternator system:",
+      "options": [
+        "a. each alternator has its own constant speed drive unit",
+        "b. all engines are run at the same speed",
+        "c. all alternators are driven by the same engine",
+        "d. engine speed is governed by the constant speed drive unit"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "28",
+      "question": "An aircraft's constant frequency supply is maintained at:",
+      "options": [
+        "a. between 350-450 Hz",
+        "b. between 380-420 Hz",
+        "c. between 115 -200 Hz",
+        "d. between 395-495 Hz"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "29",
+      "question": "For a modern aircraft powered by an AC system, the ground power unit must supply:",
+      "options": [
+        "a. 28 volts AC only",
+        "b. 200 volts",
+        "c. 115 volts, three phase",
+        "d. $115/200$ volts, three phase, 400 Hz"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "30",
+      "question": "Oil for the operation of a CSDU is:",
+      "options": [
+        "a. supplied from the engine oil system",
+        "b. a separate self-contained supply",
+        "c. drawn from a common tank for all CSDUS",
+        "d. only required for lubrication purposes"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "31",
+      "question": "Malfunction of a CSDU requires:",
+      "options": [
+        "a. automatic electrical disconnection of the drive at any time in flight",
+        "b. that the input drive will shear on the ground only",
+        "c. operation of the drive disconnect switch at any time in flight",
+        "d. operation of the drive disconnect switch on the ground only"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "32",
+      "question": "Before two constant frequency AC generators can be connected in parallel:",
+      "options": [
+        "a. their frequency, phase, phase sequence and voltage must match, and a means of automatic real and reactive load sharing must be available",
+        "b. real and reactive loads must match. Frequency, phase and voltage must be within limits",
+        "c. the synchronization lights on the alternator control panel must be fully bright",
+        "d. suitable control arrangements must exist for the sharing of real and reactive loads. These will correct any phase or frequency error existing at the time of connection"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "33",
+      "question": "The generator control relay (GCR) is:",
+      "options": [
+        "a. in the excitation circuit",
+        "b. between the alternator and its load bus bar",
+        "c. in the stator circuit",
+        "d. between the load bus bar and the synchronous bus bar"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "34",
+      "question": "The running excitation current for an alternator is:",
+      "options": [
+        "a. AC",
+        "b. DC from the aircraft batteries",
+        "c. DC from the static inverter",
+        "d. DC which is rectified AC and could be from a separate excitation generator on the main rotor shaft"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "35",
+      "question": "If each phase of a three phase star wound system has a phase voltage of 115 volts, the voltage obtained by bridging two phase would be:",
+      "options": [
+        "a. 200 volts AC",
+        "b. 173 volts DC",
+        "c. 28 volts DC",
+        "d. 173 volts AC"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "36",
+      "question": "Protection from 'earth' faults and 'line to line' faults is given by:",
+      "options": [
+        "a. a negative earth detector",
+        "b. a fault protection system including a differential protection monitor",
+        "c. the synchronization unit",
+        "d. reactive load sharing circuits"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "37",
+      "question": "Warnings of CSDU oil overheat are given in the cockpit by:",
+      "options": [
+        "a. audio warning",
+        "b. an 'oil overheat' warning light",
+        "c. a 'low oil pressure' warning light",
+        "d. a temperature gauge"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "38",
+      "question": "One disadvantage of parallel operation is that:",
+      "options": [
+        "a. faults can propagate, and any error in supply can affect all services",
+        "b. the system is less flexible due to the need for additional control and protection circuits",
+        "c. the greater load on the CSDUs means that their power / weight ratio is much reduced",
+        "d. there is a considerable increase in complexity compared with a non-paralleled system, due to the need for CSDUs and load sharing circuits"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "39",
+      "question": "Alternators in parallel operation require the maintenance of constant frequency and phase synchronization to:",
+      "options": [
+        "a. balance the battery voltage when more than one battery is being used",
+        "b. prevent recirculating currents",
+        "c. control their voltage",
+        "d. reduce their magnetic fields"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "40",
+      "question": "The APU generator can only be used when:",
+      "options": [
+        "a. another generator is on line",
+        "b. the aircraft is on the ground",
+        "c. the bus bars are being fed from another source",
+        "d. when no other power source is feeding the bus bar"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "41",
+      "question": "The purpose of the differential protection circuit in a three phase AC system is:",
+      "options": [
+        "a. to compare alternator output current to bus bar current",
+        "b. to compare on and off load currents",
+        "c. to compare the alternators reactive load to its real load",
+        "d. to compare the CSDU efficiency ratings"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "42",
+      "question": "An alternator driven by a CSDU",
+      "options": [
+        "a. can never be paralleled",
+        "b. will require a voltage controller",
+        "c. will require a lubrication system separated from its drive oil system",
+        "d. will not require a voltage controller"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "43",
+      "question": "In the event of a mechanical malfunction of the alternator:",
+      "options": [
+        "a. the drive disconnect unit will automatically separate the CSDU from the alternator",
+        "b. the real load will be adjusted to compensate",
+        "c. the quill drive will fracture",
+        "d. the CSDU oil temperature will decrease"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "44",
+      "question": "The load meter, upon selection to \"kVAR\" would indicate:",
+      "options": [
+        "a. total power available",
+        "b. reactive loads",
+        "c. active loads",
+        "d. only DC resistive loads"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "45",
+      "question": "Disconnection of the CSDU in flight would be advisable if:",
+      "options": [
+        "a. the frequency meter indicated a discrepancy of greater than 5 Hz between alternators",
+        "b. there was an over or under voltage",
+        "c. the oil temperature was high or the oil pressure was low",
+        "d. the engine failed"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "46",
+      "question": "To increase the real load taken by a paralleled AC generator, the:",
+      "options": [
+        "a. generator drive torque is increased",
+        "b. generator excitation is increased",
+        "c. generator drive torque and field excitation are increased",
+        "d. generator voltage regulator adjusts the generator rotor torque"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "47",
+      "question": "Load sharing circuits are necessary whenever:",
+      "options": [
+        "a. generators are operating in series",
+        "b. generators are operating independently",
+        "c. the ground power and the APU are serving the bus bars together",
+        "d. generators are operating in parallel"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "48",
+      "question": "Paralleled alternators will have:",
+      "options": [
+        "a. one load meter which measures total system load",
+        "b. one voltmeter for each alternator",
+        "c. one load meter for each alternator",
+        "d. one meter which indicates both voltage and frequency"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "49",
+      "question": "Frequency controlled generators are:",
+      "options": [
+        "a. always paralleled",
+        "b. not always paralleled",
+        "c. never paralleled",
+        "d. paralleled only when the DC is paralleled"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "50",
+      "question": "If the CSDU drive disconnect unit has been used, the drive can:",
+      "options": [
+        "a. only be reconnected when the aircraft is on the ground",
+        "b. be reinstated in flight from the electrical supply department",
+        "c. be reinstated in flight from the flight deck",
+        "d. be reinstated when necessary by using the Ram Air Turbine"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "51",
+      "question": "When selected to 'kW', the alternator load meter will indicate the:",
+      "options": [
+        "a. total circuit load",
+        "b. real load",
+        "c. reactive load",
+        "d. current flowing in the field"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "52",
+      "question": "An AC generator's IDU oil system:",
+      "options": [
+        "a. is self-contained",
+        "b. is common with the engine oil system",
+        "c. is used only for cooling",
+        "d. is used only for lubrication"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "53",
+      "question": "An alternator driven by a non-integrated constant speed drive unit, has windings that are cooled by:",
+      "options": [
+        "a. water",
+        "b. oil",
+        "c. oil and water",
+        "d. air"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "54",
+      "question": "The load in a paralleled AC system is measured in:",
+      "options": [
+        "a. kW & KVA",
+        "b. kW & kV",
+        "c. KV & KVAR",
+        "d. kW & KVAR"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "55",
+      "question": "Paralleled generators must share real and reactive loads:",
+      "options": [
+        "a. to prevent large current flows through the TRUS",
+        "b. to prevent out of balance forces being fed through the CSDUs to the engines",
+        "c. to prevent large flows of current from one generator to another",
+        "d. to prevent harmonic frequencies being created in the synchronous bus bars"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "56",
+      "question": "One advantage of running alternators in parallel is that:",
+      "options": [
+        "a. the supply to all circuits is in phase",
+        "b. a large capacity is available to absorb heavy transient loads when switching of heavy currents occurs",
+        "c. the risk of overloading the system is reduced",
+        "d. there is only a requirement for one CSDU"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "57",
+      "question": "When an external AC supply is feeding the bus bars:",
+      "options": [
+        "a. the internal bus bars are disconnected",
+        "b. the aircraft generators are run in parallel with the external supply",
+        "c. the aircraft generators are taken off line",
+        "d. the synchronizing unit will ensure that no frequency difference exists between the aircraft generators and the external supply"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "58",
+      "question": "A three phase AC system can be used to supply:",
+      "options": [
+        "a. both one or three phase equipment",
+        "b. only three phase equipment",
+        "c. only single phase equipment",
+        "d. only inductive or capacitive loads"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "59",
+      "question": "In a frequency wild generation system:",
+      "options": [
+        "a. generators can be run in parallel only when all engine RPMs match",
+        "b. generators can never be run in parallel and there can be no duplication of supply",
+        "c. generators can never be run in parallel, but after rectification, the DC can be fed to a common bus bar to provide a redundancy of supply",
+        "d. capacitive and inductive loads can be fed with no problems of overheating"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "60",
+      "question": "A fault on one phase of a three phase AC star connected system would:",
+      "options": [
+        "a. have no effect",
+        "b. affect only the phase concerned",
+        "c. cause inductive loads to overheat",
+        "d. affect all three phases"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "61",
+      "question": "The purpose of an inverter is:",
+      "options": [
+        "a. to change AC into DC",
+        "b. to change the frequency of the AC supply",
+        "c. to act as a back up for the alternator",
+        "d. to change DC into AC"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "62",
+      "question": "A low reactive load on one generator is compensated for by:",
+      "options": [
+        "a. altering the excitation current flowing in its field circuit",
+        "b. increasing the rotor speed",
+        "c. increasing the real load on the other generators",
+        "d. overall load reduction"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "63",
+      "question": "In the event of a mechanical failure occurring in the generator, the CSDU is protected by:",
+      "options": [
+        "a. a hydraulic clutch",
+        "b. a universal joint",
+        "c. a quill drive",
+        "d. a feather drive"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "64",
+      "question": "To increase the real load which is being taken by a paralleled alternator:",
+      "options": [
+        "a. the voltage regulator adjusts the generator rotor torque",
+        "b. both its drive torque and its excitation are increased",
+        "c. only its excitation is increased",
+        "d. its drive torque is increased"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "65",
+      "question": "An earth fault on a bus bar of a parallel generator system:",
+      "options": [
+        "a. would require that the appropriate GCB should open",
+        "b. would require that the appropriate BTB should open",
+        "c. would require that both the appropriate GCB and BTB should open",
+        "d. would require that all alternators should operate independently"
+      ],
+      "answer": "c"
+    }
+  ]
+}
+

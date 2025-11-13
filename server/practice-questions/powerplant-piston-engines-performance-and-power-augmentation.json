@@ -1,0 +1,690 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "11",
+  "chapter_title": "Piston Engines - Performance and Power Augmentation",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The Manifold Pressure Gauge fitted to a supercharged engine measures:",
+      "options": [
+        "a. the absolute pressure in the induction manifold",
+        "b. the differential pressure across the supercharger compressor",
+        "c. the ratio between the atmospheric pressure and the cam rise at the supercharger inlet",
+        "d. the pressure upstream of the throttle valve"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "2",
+      "question": "An Automatic Boost Control Unit:",
+      "options": [
+        "a. prevents detonation and dissociation in the cylinder",
+        "b. maintains an automatic preset boost pressure",
+        "c. maintains the correct mixture strength for the boost pressure set",
+        "d. sets the position of the wastegate to ensure the preset boost is maintained"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "3",
+      "question": "The use of a turbocharger on an engine will:",
+      "options": [
+        "a. improve the exhaust scavenging efficiency",
+        "b. raise the volumetric efficiency of the engine",
+        "c. cause an automatic rise in the engine rpm as altitude is gained",
+        "d. cause an automatic rise in engine power as altitude is gained"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "4",
+      "question": "The motive force used to drive the turbocharger is:",
+      "options": [
+        "a. torque from the crankshaft via a spring drive unit",
+        "b. torque from the accessory gearbox",
+        "c. energy from the exhaust that would otherwise have been wasted",
+        "d. energy from the reduction gearbox"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "5",
+      "question": "The power increase that occurs with initial increase in altitude when an engine has an internal supercharger fitted, is due to:",
+      "options": [
+        "a. the reduced weight of mixture being passed to the engine",
+        "b. the decreasing density of the atmosphere",
+        "c. the reducing exhausts back pressure",
+        "d. the increasing charge temperature"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "Rated Altitude is:",
+      "options": [
+        "a. the height at which the boost pressure ceases to be effective with a specific rpm set",
+        "b. a comparison between the boost pressure at sea level and that at a given altitude",
+        "c. the maximum altitude at which Rated Boost can be maintained with Rated rpm set",
+        "d. the altitude at which the wastegate becomes fully shut"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "7",
+      "question": "The speed of the turbine of a turbocharger is controlled by:",
+      "options": [
+        "a. the diversion of exhaust gases",
+        "b. controlling the exit of the exhaust gas passing out of the eye of the impeller",
+        "c. the use of a variable controller",
+        "d. an automatic gearbox positioned between the turbine and the impeller"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "The turbocharger wastegate is spring loaded towards:",
+      "options": [
+        "a. the open position",
+        "b. the closed position",
+        "c. a neutrally balanced partly open position",
+        "d. the maximum boost position"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "9",
+      "question": "The turbocharger bearing is lubricated and cooled by:",
+      "options": [
+        "a. its own internal self-contained oil system",
+        "b. a total loss system",
+        "c. the engine oil",
+        "d. a tapping in the scavenge oil system"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "10",
+      "question": "Static Boost is:",
+      "options": [
+        "a. always the ISA atmospheric pressure for the airfield altitude",
+        "b. obtained by opening the throttle to give a boost gauge reading of 30 in Hg or 0 psi.",
+        "c. the boost pressure gauge reading when the engine is not running. Selecting a suitable throttle position will give the same boost gauge reading when the engine is running",
+        "d. the difference between the induction manifold pressure and the exhaust manifold pressure"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "11",
+      "question": "The automatic boost pressure control capsules are made sensitive to:",
+      "options": [
+        "a. atmospheric pressure",
+        "b. carburettor inlet pressure",
+        "c. boost pressure",
+        "d. cabin pressure differential"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "12",
+      "question": "In order to maintain a constant boost pressure with increasing altitude, the ABC:",
+      "options": [
+        "a. holds the throttle valve at a constant position",
+        "b. progressively opens the throttle valve",
+        "c. progressively closes the wastegate",
+        "d. progressively closes the throttle valve"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "13",
+      "question": "\"Boost pressure\" is the:",
+      "options": [
+        "a. inlet manifold pressure in pounds per square inch above or below standard mean sea level pressure",
+        "b. absolute pressure in the inlet manifold measured in inches of mercury",
+        "c. absolute pressure in the inlet manifold measured in millibars",
+        "d. inlet manifold pressure in pounds per square inch above or below atmospheric pressure"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "14",
+      "question": "\"Full Throttle Height\" is:",
+      "options": [
+        "a. the height at which the engine is at Rated Boost",
+        "b. the maximum height at which a specified boost can be maintained at a specified rpm",
+        "c. the height at which the wastegate is fully closed",
+        "d. the cruising height for any specific boost"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "15",
+      "question": "The purpose of an intercooler is:",
+      "options": [
+        "a. to minimize the risk of detonation",
+        "b. to increase the volume of the charge",
+        "c. to decrease the density of the charge",
+        "d. to prevent overheating of the exhaust manifold"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "16",
+      "question": "The function of a diffuser in a supercharger is:",
+      "options": [
+        "a. to decrease the temperature and increase the velocity of the charge",
+        "b. to increase the velocity and decrease the pressure of the charge",
+        "c. to decrease the velocity and decrease the pressure of the charge",
+        "d. to decrease the velocity and increase the pressure of the charge"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "17",
+      "question": "Air enters the compressor of a turbosupercharger:",
+      "options": [
+        "a. at the tip and passes across the impeller blades to exit at the eye",
+        "b. at the diffuser and exits at the impeller",
+        "c. at the eye and passes across the diffuser blades before exiting at the impeller tip",
+        "d. at the eye and passes across the impeller blades to exit at the tip"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "18",
+      "question": "The wastegate of a turbosupercharger is fitted:",
+      "options": [
+        "a. in the turbine bypass",
+        "b. in the inlet manifold",
+        "c. to maximize exhaust back pressure",
+        "d. in series with the turbine"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "19",
+      "question": "The wastegate is operated by:",
+      "options": [
+        "a. the automatic boost control unit",
+        "b. the wastegate actuator",
+        "c. inlet manifold pressure",
+        "d. exhaust gas temperature"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "20",
+      "question": "With a turbocharger installed on the engine, its exhaust back pressure:",
+      "options": [
+        "a. remains the same",
+        "b. is decreased",
+        "c. is increased",
+        "d. decreases in the climb"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "21",
+      "question": "A high performance supercharger may require an intercooler to be placed:",
+      "options": [
+        "a. between the supercharger and the inlet valve",
+        "b. at the carburettor intake",
+        "c. between each cylinder",
+        "d. between the engine block and the exhaust manifold"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "22",
+      "question": "With an increase of compressor discharge pressure the fuel flow will:",
+      "options": [
+        "a. increase",
+        "b. remain constant",
+        "c. decrease",
+        "d. increase, but only in proportion to altitude increase"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "23",
+      "question": "A turbocharger's rotational speed is determined by:",
+      "options": [
+        "a. the diversion of exhaust gas",
+        "b. the position of the throttle valve",
+        "c. the density of the air at the compressor intake",
+        "d. bleeding off excess exhaust pressure"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "24",
+      "question": "During take-off from a sea level airfield with ISA conditions, the position of the wastegate of a turbocharged engine is:",
+      "options": [
+        "a. fully open",
+        "b. almost fully open",
+        "c. controlled by the throttle position",
+        "d. fully closed"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "25",
+      "question": "Maximum Continuous Power (MCP) is:",
+      "options": [
+        "a. unrestricted, but only if economical cruising power is set",
+        "b. the maximum power the engine will give at any time",
+        "c. given a 5 minute limitation",
+        "d. unrestricted"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "26",
+      "question": "The primary purpose of a supercharger is to:",
+      "options": [
+        "a. raise the temperature of the charge entering the cylinder",
+        "b. increase the mass of the charge entering the cylinder",
+        "c. improve the engine's exhaust scavenging capability, and hence increase its power output",
+        "d. allow the use of high octane fuel"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "27",
+      "question": "The type of fuel used in a turbocharged engine would be:",
+      "options": [
+        "a. AVTUR",
+        "b. AVGAS",
+        "c. AVTAG",
+        "d. AVPIN"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "28",
+      "question": "At an idle or low power condition, the turbocharger wastegate is normally:",
+      "options": [
+        "a. partially open",
+        "b. fully open",
+        "c. closed",
+        "d. half open"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "29",
+      "question": "When the air or the mixture passes through the diffuser shroud, the energy conversion is from:",
+      "options": [
+        "a. kinetic to pressure",
+        "b. heat to potential",
+        "c. mechanical to heat",
+        "d. potential to kinetic"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "30",
+      "question": "The construction of a turbocharger ensures that the turbine and the compressor:",
+      "options": [
+        "a. are on the same shaft",
+        "b. are on different shafts",
+        "c. are connected by mechanical gearing",
+        "d. are controlled by the ABC"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "31",
+      "question": "The wastegate fitted to a turbocharger regulates the quantity of:",
+      "options": [
+        "a. the mixture that enters the induction manifold",
+        "b. the atmosphere that can enter the compressor",
+        "c. the exhaust gas that will bypass the turbine",
+        "d. the exhaust gas that leaves the compressor"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "32",
+      "question": "The main function of a supercharger is to:",
+      "options": [
+        "a. increase the thermal efficiency of the engine",
+        "b. increase the compression ratio of the engine",
+        "c. maintain sea level pressure in the engine to above rated altitude",
+        "d. increase the volumetric efficiency of the engine"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "33",
+      "question": "The response of a turbocharged engine to rapid throttle opening, when compared to a normally aspirated engine:",
+      "options": [
+        "a. is initially better, but exhaust back pressure will cause a flat spot",
+        "b. is always better",
+        "c. is worse",
+        "d. is identical"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "34",
+      "question": "With a constant manifold pressure set during the climb, the power output from an internally supercharged engine:",
+      "options": [
+        "a. decreases",
+        "b. increases",
+        "c. remains constant",
+        "d. is unaffected by altitude change"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "35",
+      "question": "An internal supercharger is one which:",
+      "options": [
+        "a. is driven by exhaust gases",
+        "b. compresses the air",
+        "c. compresses the exhaust gases",
+        "d. compresses the mixture"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "36",
+      "question": "If the wastegate of a turbocharged engine seizes in the climb before critical altitude has been reached:",
+      "options": [
+        "a. engine power will be automatically adjusted by the ABC",
+        "b. engine power will rise by approximately 10%",
+        "c. reducing back pressure will compensate for any loss in power",
+        "d. engine power will fall as the climb continues"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "37",
+      "question": "To prevent large acceleration loads on the compressor and the drive shaft of an internal supercharger, it is usual to:",
+      "options": [
+        "a. prohibit \"slam\" acceleration",
+        "b. incorporate a spring drive mechanism in the driving gears",
+        "c. rely on the inertia absorbing qualities of the exhaust gases",
+        "d. use a Vernier drive coupling"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "38",
+      "question": "The rotational speed of the turbocharger of an engine which is at full throttle at low altitude is:",
+      "options": [
+        "a. between minimum and maximum",
+        "b. maximum",
+        "c. controlled by the ABC",
+        "d. minimum"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "39",
+      "question": "Maintaining a constant manifold pressure in a turbocharged engine during the climb will cause:",
+      "options": [
+        "a. the exhaust gas temperature to decrease due to a decrease in exhaust back pressure",
+        "b. the wastegate to open",
+        "c. the wastegate to progressively close",
+        "d. the diffuser rotational speed to increase"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "40",
+      "question": "Overboosting an engine fitted with a turbocharger is prevented by the installation of:",
+      "options": [
+        "a. an automatic boost control unit",
+        "b. a manifold pressure gauge",
+        "c. a wastegate pressure controller",
+        "d. a suck in flap"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "41",
+      "question": "A turbocharger which is designed to maintain sea level pressure at altitude is termed:",
+      "options": [
+        "a. an altitude-boosted turbocharger",
+        "b. a turbosupercharger",
+        "c. an internal supercharger",
+        "d. a ground boosted turbocharger"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "42",
+      "question": "With the power lever opened for take-off power at sea level, the throttle butterfly of an engine fitted with an internal supercharger would be:",
+      "options": [
+        "a. fully open",
+        "b. in a choked position",
+        "c. partially open",
+        "d. fully closed"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "43",
+      "question": "\"Static Boost\" is the manifold pressure indicated on the boost pressure gauge when:",
+      "options": [
+        "a. the engine is stopped",
+        "b. the engine is running at the manufacturer's recommended idle speed",
+        "c. the engine is running at its rated power",
+        "d. the manifold gauge needle is opposite the lubber line"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "44",
+      "question": "The limit of the amount of supercharging that an engine can tolerate is reached when:",
+      "options": [
+        "a. maximum rpm is reached",
+        "b. the engine is at its rated altitude",
+        "c. maximum boost pressure is obtained",
+        "d. the engine starts to suffer from detonation"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "45",
+      "question": "The rotational speed of a turbocharger is dependent upon:",
+      "options": [
+        "a. engine rpm and wastegate position",
+        "b. engine rpm only",
+        "c. throttle position only",
+        "d. propeller pitch and altitude"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "46",
+      "question": "The inlet manifold pressure of a turbocharged engine in an aircraft which is climbing will:",
+      "options": [
+        "a. increase to full throttle height and then fall",
+        "b. increase to critical height and then remain constant",
+        "c. remain constant to critical altitude and then fall",
+        "d. decrease to critical altitude and then remain constant"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "47",
+      "question": "The type of compressor normally used in a supercharger is:",
+      "options": [
+        "a. an axial compressor",
+        "b. a Rootes compressor",
+        "c. a centrifugal compressor",
+        "d. a reciprocating thrunge compressor"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "48",
+      "question": "The compressor output pressure of an internal supercharger is:",
+      "options": [
+        "a. the same as manifold pressure",
+        "b. greater than the manifold pressure",
+        "c. sometimes greater, sometimes less than the manifold pressure",
+        "d. less than the manifold pressure"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "49",
+      "question": "The position of the wastegate in a turbocharged engine is:",
+      "options": [
+        "a. in the inlet manifold",
+        "b. downstream of the turbine",
+        "c. in parallel with the turbine",
+        "d. in parallel with the compressor"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "50",
+      "question": "The maximum engine brake horsepower with a specified rpm and manifold pressure set which permits continuous safe operation is termed:",
+      "options": [
+        "a. maximum power",
+        "b. take-off power",
+        "c. critical power",
+        "d. rated power"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "51",
+      "question": "The compressor output of a turbocharger unit is:",
+      "options": [
+        "a. the same as the manifold pressure",
+        "b. greater than the manifold pressure",
+        "c. sometimes greater, sometimes less than the manifold pressure",
+        "d. less than manifold pressure"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "52",
+      "question": "Within the compressor of a turbocharger:",
+      "options": [
+        "a. the pressure increases and the temperature decreases",
+        "b. both the pressure and the temperature increase",
+        "c. both the pressure and the temperature decrease",
+        "d. the pressure increases and the temperature remains constant"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "53",
+      "question": "The type of compressor normally fitted to turbochargers and superchargers would compress the air:",
+      "options": [
+        "a. axially",
+        "b. co-axially",
+        "c. in the diffuser only",
+        "d. centrifugally"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "54",
+      "question": "If the wastegate of a turbocharged engine seizes during the climb, the manifold pressure will:",
+      "options": [
+        "a. remain constant",
+        "b. decrease",
+        "c. increase",
+        "d. initially increase and then decrease"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "55",
+      "question": "To maintain the Rated Boost of a supercharged engine while reducing the rpm:",
+      "options": [
+        "a. the throttle valve must be opened",
+        "b. the wastegate must be closed",
+        "c. the wastegate must be opened",
+        "d. the throttle valve must be closed"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "56",
+      "question": "The effect of selecting Rated Boost, but less than Rated rpm on the climb, would be that:",
+      "options": [
+        "a. the Rated Altitude would be lower",
+        "b. the Full Throttle Height would be less",
+        "c. the Rated Altitude would be higher",
+        "d. the Full Throttle Height would be higher"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "57",
+      "question": "The Automatic Boost Control Unit operates:",
+      "options": [
+        "a. the Boost Control Lever",
+        "b. the wastegate",
+        "c. the throttle butterfly",
+        "d. the rpm gauge and the manifold pressure gauge"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "58",
+      "question": "Boost pressure is indicated on:",
+      "options": [
+        "a. the cylinder head temperature gauge",
+        "b. the manifold pressure gauge",
+        "c. the fuel pressure gauge",
+        "d. the rpm gauge and the manifold pressure gauge"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "59",
+      "question": "With an increase of compressor discharge pressure, the fuel flow will:",
+      "options": [
+        "a. decrease",
+        "b. remain constant",
+        "c. initially increase, but subsequently decrease",
+        "d. increase"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "60",
+      "question": "Superchargers are used to overcome:",
+      "options": [
+        "a. the decrease in density due to the increase in altitude",
+        "b. the increase in temperature due to the increase in altitude",
+        "c. the fuel density variation that occurs with an increase in altitude",
+        "d. the exhaust back pressure"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "61",
+      "question": "The boost pressure of a turbocharged engine is controlled by:",
+      "options": [
+        "a. adjusting the throttle position",
+        "b. varying the speed of the turbocharger",
+        "c. the ABC",
+        "d. changing engine rpm."
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "62",
+      "question": "In a supercharger, the mixture:",
+      "options": [
+        "a. enters through the eye of the impeller and leaves at the periphery",
+        "b. enters at the periphery and leaves through the eye",
+        "c. enters through the turbine and leaves through the compressor",
+        "d. enters through the compressor and leaves through the turbine"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+

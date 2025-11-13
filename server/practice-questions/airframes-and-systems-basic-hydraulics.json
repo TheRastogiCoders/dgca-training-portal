@@ -1,0 +1,558 @@
+{
+  "book_name": "Airframes and Systems 2014",
+  "chapter_number": "2",
+  "chapter_title": "Basic Hydraulics",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A force of 100 N is applied to 2 separate jacks, the area of one is $0.02~m^{2}$ and the other is $0.04~m^{2}:$",
+      "options": [
+        "a. the smaller jack will exert a pressure of 2000 Pa and the larger 4000 Pa",
+        "b. the smaller jack will exert a pressure of 5000 Pa and the larger 2500 Pa",
+        "c. both jacks will move at the same speed",
+        "d. both have the same load"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "A pre charge pressure of 1000 bar of gas is shown on the accumulator gauge. The system is then pressurized to 1500 bar, so the accumulator will read:",
+      "options": [
+        "a. 500 bar",
+        "b. 1000 bar",
+        "c. 1500 bar",
+        "d. 2500 bar"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "3",
+      "question": "The pressure gauge of a hydraulic system provides information regarding the pressure of:",
+      "options": [
+        "a. the air in the accumulator",
+        "b. the air and hydraulic fluid in the system",
+        "c. the proportional pressure in the system",
+        "d. the hydraulic fluid in the system"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "4",
+      "question": "A shuttle valve:",
+      "options": [
+        "a. is used to replace NRVs",
+        "b. allows two supply sources to operate one unit",
+        "c. allows one source to operate two units",
+        "d. acts as a non-return valve"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "5",
+      "question": "Def. Stan $91/48$ is and is based:",
+      "options": [
+        "a. red, mineral",
+        "b. red, synthetic",
+        "c. green, mineral",
+        "d. purple, synthetic"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "6",
+      "question": "A restrictor valve:",
+      "options": [
+        "a. controls the rate of build-up of pressure in the system",
+        "b. controls the rate of movement of a service",
+        "c. is used to restrict the number of services available after loss of system pressure",
+        "d. controls the distance a jack moves"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "7",
+      "question": "With a hyd lock there is:",
+      "options": [
+        "a. flow, but no jack movement",
+        "b. no flow but jack continues to move under gravitational effects",
+        "c. no flow, jack is stationary",
+        "d. constant flow"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "8",
+      "question": "The hydraulic fluid is changed, but the wrong fluid is replaced. This would lead to:",
+      "options": [
+        "a. high operating fluid temperature",
+        "b. system failure from leaks and blocked filters, high temp and possible corrosion",
+        "c. a rise in the reservoir fill level",
+        "d. normal operation, it does not matter which fluid is used"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "9",
+      "question": "Accumulator floating piston:",
+      "options": [
+        "a. pushes the fluid up when being charged",
+        "b. pushes the fluid down when being charged",
+        "c. provides a seal between the gas and fluid",
+        "d. prevents a hydraulic lock"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "10",
+      "question": "A relief valve:",
+      "options": [
+        "a. relieves below system pressure",
+        "b. maintains pressure to a priority circuit",
+        "c. relieves at its designed pressure",
+        "d. prevents excessive pressure through increased fluid temperature"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "11",
+      "question": "The primary purpose of a hydraulic reservoir is:",
+      "options": [
+        "a. to compensate for leaks, displacement and expansion",
+        "b. to allow a space into which spare fluid may be stored",
+        "c. to indicate system contents",
+        "d. to maintain fluid between a jack and the accumulator"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "12",
+      "question": "With air in the hydraulic system you would:",
+      "options": [
+        "a. ignore it because normal operation would remove it",
+        "b. bleed the air out of the system",
+        "c. allow the accumulator to automatically adjust itself",
+        "d. expect it to operate faster"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "13",
+      "question": "The pressure filter in a hydraulic system:",
+      "options": [
+        "a. filters the fluid returning to the tank",
+        "b. is fitted down stream of the pump",
+        "c. can be by passed when maximum flow is required",
+        "d. clears the fluid as it leaves the reservoir"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "14",
+      "question": "Pascal's law states that:",
+      "options": [
+        "a. pressure is inversely proportional to load",
+        "b. liquid is compressible",
+        "c. oxygen can be used to charge the accumulators",
+        "d. applied force acts equally in all directions"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "15",
+      "question": "A constant pressure hydraulic pump is governed by:",
+      "options": [
+        "a. an automatic cut-out",
+        "b. engine RPM",
+        "c. a control piston",
+        "d. a swash plate that senses the fluid temperature"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "16",
+      "question": "A high pressure hydraulic pump:",
+      "options": [
+        "a. needs a positive fluid supply",
+        "b. does not need a positive fluid supply",
+        "c. outlet pressure is governed by centrifugal force",
+        "d. does not need a cooling fluid flow"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "17",
+      "question": "Case drain filters are:",
+      "options": [
+        "a. fitted to prevent debris from the reservoir reaching the system",
+        "b. designed to allow hydraulic pump lubricating fluid to drain to atmosphere",
+        "c. to enable pump lubricating fluid to be used to monitor pump condition",
+        "d. fitted in the reservoir outlet"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "18",
+      "question": "The purpose of an accumulator is to:",
+      "options": [
+        "a. relieve excess pressure",
+        "b. store fluid under pressure",
+        "c. store compressed gas for tyre inflation",
+        "d. remove air from the system"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "19",
+      "question": "With a one way check valve (NRV):",
+      "options": [
+        "a. flow stops when input pressure is greater than output pressure",
+        "b. flow stops when the thermal relief valve off loads the hand pump",
+        "c. flow starts when input pressure is less than output pressure",
+        "d. flow stops when input pressure is less than output pressure"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "20",
+      "question": "A restrictor valve is physically fitted in the:",
+      "options": [
+        "a. $U/C$ up line and flap up line",
+        "b. $U/C$ down line and flap up line",
+        "c. $U/C$ down line and flap down line",
+        "d. supply line to the $U/C$ retraction actuator"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "21",
+      "question": "In the case of a failure of a cut-out valve:",
+      "options": [
+        "a. a full flow relief valve is fitted down stream of it",
+        "b. a full flow relief valve is fitted upstream of it",
+        "c. a full flow relief valve is not required",
+        "d. the terminal pressure will be controlled by adjusting the pump rpm"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "22",
+      "question": "Hydraulic pressure of 3000 Pa is applied to an actuator, the piston area of which is $0.02~m^{2}$ and the same pressure is exerted on actuator whose area is $0.04~m^{2}$:",
+      "options": [
+        "a. both have the same force",
+        "b. the smaller jack will exert a force of 600 N and the larger 1200 N",
+        "c. the smaller jack will exert a force of 60 N and the larger 120 N",
+        "d. both jacks will move at the same speed"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "23",
+      "question": "A separator in an accumulator:",
+      "options": [
+        "a. isolates the gas from the fluid",
+        "b. reduces the size of the accumulator required",
+        "c. removes the dissolved gases from the fluid",
+        "d. maintains the fluid level in the reservoir"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "24",
+      "question": "In an operating hydraulic actuator the pressure of the fluid will be:",
+      "options": [
+        "a. greatest near to the actuator due to the load imposed on the jack",
+        "b. greatest at the opposite end to the actuator due to the load imposed on the actuator",
+        "c. high initially, falling as the actuator completes its travel",
+        "d. the same at all points"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "25",
+      "question": "The contents of the hydraulic fluid reservoir are checked. They indicate that the reservoir is at the full level. The system is then pressurized. The contents level will:",
+      "options": [
+        "a. fall below the \"full\" mark",
+        "b. fall to a position marked 'full accs charged'",
+        "c. remain at the same level",
+        "d. rise above the \"full\" mark"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "26",
+      "question": "A pressure maintaining or priority valve:",
+      "options": [
+        "a. enables ground operation of services when the engines are off",
+        "b. is used to ensure available pressure is directed to essential services",
+        "c. is used to control pressure to services requiring less than system pressure",
+        "d. is used to increase pressure in the system"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "27",
+      "question": "A hydraulic lock occurs:",
+      "options": [
+        "a. when the thermal RV operates",
+        "b. when fluid by passes a system and returns to the tank",
+        "c. when flow is stopped and the actuator is not able to move",
+        "d. when fluid and air enters the cylinder and only fluid is allowed to bypass to the reservoir"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "28",
+      "question": "In an enclosed system pressure is felt:",
+      "options": [
+        "a. more at the piston head than the rest of the cylinder",
+        "b. more at the cylinder end than the piston head",
+        "c. more when the piston is moving than when it is stationary",
+        "d. the same at both ends between the piston and the cylinder head"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "29",
+      "question": "A non-return valve:",
+      "options": [
+        "a. can only be fitted if provided with a by-pass selector",
+        "b. closes if inlet pressure exceeds outlet pressure",
+        "c. opens if inlet pressure equals outlet pressure",
+        "d. closes if inlet pressure ceases"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "30",
+      "question": "Low gas pressure in accumulator causes:",
+      "options": [
+        "a. rapid jack movements",
+        "b. no effect on system",
+        "c. rapid pressure fluctuations while system is operating",
+        "d. rapid and smooth operation of system"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "31",
+      "question": "Hammering in system:",
+      "options": [
+        "a. is normal and does not affect the system's efficiency",
+        "b. is caused by pipe diameter fluctuations",
+        "c. is an indication that a further selection is necessary",
+        "d. is detrimental to the system"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "32",
+      "question": "The specification of hydraulic fluids, mineral, vegetable or ester based is:",
+      "options": [
+        "a. always distinguishable by taste and smell",
+        "b. generally distinguishable by colour",
+        "c. generally distinguishable by colour only if they are from the same manufacturer",
+        "d. cannot be distinguished by colour alone"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "33",
+      "question": "An ACOV will:",
+      "options": [
+        "a. provide an idling circuit when a selection is made",
+        "b. extend the life of the accumulator",
+        "c. provide an idling circuit when the accumulator is fully charged",
+        "d. ensure the pump is always on load"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "34",
+      "question": "The purpose of a hydraulic fuse is to:",
+      "options": [
+        "a. allow the parking brake to remain on overnight if required",
+        "b. allow a reduced pressure to the wheel brake system to prevent the wheels locking",
+        "c. prevent over pressurizing the reservoir as altitude increases",
+        "d. prevent total loss of system fluid if the brake pipeline is ruptured"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "35",
+      "question": "A shuttle valve will allow:",
+      "options": [
+        "a. the accumulator to be emptied after engine shut down",
+        "b. the pressure pump to off load when the system pressure is reached",
+        "c. two independent pressure sources to operate a system/component",
+        "d. high pressure fluid to return to the reservoir if the Full Flow Relief Valve fails"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "36",
+      "question": "The purpose of a reservoir is to:",
+      "options": [
+        "a. compensate for temperature changes",
+        "b. compensate for small leaks, expansion and jack displacement",
+        "c. compensate for fluid loss",
+        "d. minimize pump cavitation"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "37",
+      "question": "When the hydraulic system pressure is released:",
+      "options": [
+        "a. reservoir air pressure will increase",
+        "b. reservoir fluid contents will rise if reservoir is lower than other components in the system",
+        "c. reservoir fluid contents will fall if reservoir is the highest point in the system",
+        "d. reservoir contents are dumped overboard"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "38",
+      "question": "Hydraulic pressure in a closed system:",
+      "options": [
+        "a. is greater in pipes of larger diameters",
+        "b. is greater in pipes of smaller diameters",
+        "c. does not vary with pipe diameter",
+        "d. varies in direct proportion to the system demands"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "39",
+      "question": "Skydrol hydraulic fluid:",
+      "options": [
+        "a. needs no special safety precautions or treatment",
+        "b. is flame resistant but is harmful to skin, eyes and some paints",
+        "c. is highly flammable and harmful to skin, eyes and some paints",
+        "d. is highly flammable but not harmful in any other way"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "40",
+      "question": "Skydrol hydraulic fluid can be used to replenish:",
+      "options": [
+        "a. hydraulic systems that have butyl rubber seals only",
+        "b. any hydraulic system in an emergency",
+        "c. any hydraulic system without restriction",
+        "d. hydraulic systems that have neoprene seals only"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "41",
+      "question": "A variable displacement pump on system startup will be at:",
+      "options": [
+        "a. minimum stroke",
+        "b. maximum stroke",
+        "c. an optimized position depending on fluid viscosity",
+        "d. mid stroke"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "42",
+      "question": "The purpose of a reservoir is:",
+      "options": [
+        "a. to provide a housing for the instrument transmitters",
+        "b. to enable the contents to be checked",
+        "c. to allow for fluid displacements, small leaks, thermal expansion and contents monitoring",
+        "d. to provide a housing for the main system pumps and so obviate the need for backing pumps"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "43",
+      "question": "Hydraulic Thermal Relief Valves are fitted:",
+      "options": [
+        "a. to release all the pressure back to return in an overheat situation",
+        "b. to release half the pressure back to return in an overheat situation",
+        "c. to relieve excess pressure back to the actuator in an overheat situation",
+        "d. in isolated lines only to relieve excess pressure caused by temperature rises"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "44",
+      "question": "A main system hydraulic pump:",
+      "options": [
+        "a. does not need a positive fluid supply if primed before startup",
+        "b. always needs a positive fluid supply in order to prevent cavitation",
+        "c. does not need a positive fluid supply in order to prevent cavitation",
+        "d. can be run dry without causing any damage"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "45",
+      "question": "Different diameter actuators supplied with the same pressure at same rate:",
+      "options": [
+        "a. exert the same force",
+        "b. will lift equal loads",
+        "c. will move at the same speed",
+        "d. exert different forces"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "46",
+      "question": "A force of 1500 N is applied to a piston of area 0.002 $m^{2}$ and generates a force of--(1)-non a piston of area $0.003~m^{2}.$ The pressure generated is -(2)- and, if the smaller piston moves 0.025 m, the work done is -(3)—.",
+      "options": [
+        "a. (1) 56.25 J (2) 750000 Pa (3) 750000 N",
+        "b. (1) 750000 N (2) 2250 P (3) 56.25 J",
+        "c. (1) 225 N (2) 75000 Pa (3) 562.5 J",
+        "d. (1) 2250 N (2) 750000 Pa (3) 37.5 J"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "47",
+      "question": "The following statements relate to hydraulic accumulators. The function of an accumulator is to:\n1. Store fluid under pressure\n2. Dampen pressure fluctuations\n3. Allow for fluid expansion\n4. Replace the need for a reservoir\n5. Absorb some of the landing loads\n6. Allow for thermal expansion\n7. Prolong the period between pump cut-in and cut-out\n8. Provide the initial pressure when a selection is made and the pump is cut-out\n9. Provide an emergency reserve of pressure in the event of pump failure\n\nWhich of the following applies?",
+      "options": [
+        "a. All of the statements are correct",
+        "b. None of the statements are correct",
+        "c. Statements 1, 2, 3, 4, 5, 8 and 9 are correct",
+        "d. Statements 1, 2, 3, 6, 7, and 9 are correct"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "48",
+      "question": "The seal materials used with hydraulic fluids to DEF/STAN 91-48 and SKYDROL 700 specification are respectively:",
+      "options": [
+        "a. natural rubber and neoprene",
+        "b. neoprene and natural rubber",
+        "c. butyl and neoprene",
+        "d. neoprene and butyl"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "49",
+      "question": "To prevent cavitation of the pump a hydraulic reservoir may be:",
+      "options": [
+        "a. pressurized",
+        "b. bootstrapped",
+        "c. above the pump",
+        "d. all of the above"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "50",
+      "question": "A hand pump is usually fitted for:",
+      "options": [
+        "a. ground servicing purposes",
+        "b. lowering the landing gear in an emergency",
+        "c. retracting the gear after take-off",
+        "d. pressurizing the oleo struts in the air"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+

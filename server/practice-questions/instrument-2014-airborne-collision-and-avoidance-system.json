@@ -1,0 +1,63 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "35",
+  "chapter_title": "Airborne Collision and Avoidance System",
+  "questions": [
+    {
+      "id": "1",
+      "question": "On receipt of a TCAS RA your action is to:",
+      "options": [
+        "a. initiate the required manoeuvre immediately",
+        "b. make a note of the details",
+        "c. request a flight clearance deviation from ATC",
+        "d. do nothing until a TA is received"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "2",
+      "question": "Which of the following statements concerning TCAS is correct:",
+      "options": [
+        "a. TCAS II provides avoidance instructions in the vertical and horizontal planes",
+        "b. TCAS II cannot provide information on non-SSR equipped intruders",
+        "c. TCAS II requires Mode S to be fitted to other aircraft",
+        "d. TCAS II provides advice on which way to turn"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "3",
+      "question": "With reference to Traffic Collision Avoidance Systems. The difference between TCAS I and II is that:",
+      "options": [
+        "a. TCAS II can provide Traffic Advisories and Resolution Advisories whilst TCAS I can only provide Traffic Advisories",
+        "b. TCAS II can only be fitted to large aircraft which carry more than 30 passengers whilst TCAS I can be fitted to any aircraft",
+        "c. TCAS I can be fitted to aircraft which carry transponders with Mode A only whilst TCAS II can only be fitted to aircraft whose transponders include either Mode C or Mode S",
+        "d. TCAS II can only be fitted to aircraft which are equipped with EFIS"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "4",
+      "question": "The aural messages provided by TCAS II are:",
+      "options": [
+        "a. Threat, Climb; Threat, Descend",
+        "b. Climb left; Climb right; Descend left; Descend right",
+        "c. Climb; Descend; Increase Climb; Increase Descent",
+        "d. Turn Left, Turn Right, Increase Turn, Decrease Turn"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "5",
+      "question": "With reference to Traffic Collision Avoidance Systems:",
+      "options": [
+        "a. RAs may be disregarded only when the pilot visually identifies the potentially conflicting traffic and decides that no deviation is necessary and has the clearance confirmed by ATC",
+        "b. RAs may be disregarded only when the pilot visually identifies the potentially conflicting traffic and decides that no deviation is necessary and has advised ATC of the other aircraft's proximity",
+        "c. RAs must never be disregarded",
+        "d. RAs may be disregarded only when the pilot visually identifies the potentially conflicting traffic and decides that no deviation is necessary"
+      ],
+      "answer": "d"
+    }
+  ]
+}
+

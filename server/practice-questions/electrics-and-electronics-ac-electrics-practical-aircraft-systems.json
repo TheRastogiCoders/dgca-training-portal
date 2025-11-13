@@ -1,0 +1,129 @@
+{
+  "book_name": "Electrics and Electronics 2014",
+  "chapter_number": "13",
+  "chapter_title": "AC Electrics - Practical Aircraft Systems",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The purpose of a synchronizing bus bar is to:",
+      "options": [
+        "a. enable interconnections to be made between generator bus bars",
+        "b. supply essential services",
+        "c. monitor on load currents",
+        "d. interconnect DC bus bars"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "2",
+      "question": "Fuses and circuit breakers are fitted:",
+      "options": [
+        "a. in DC circuits only",
+        "b. in both AC and DC circuits",
+        "c. in AC circuits only",
+        "d. only to protect the wiring"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "3",
+      "question": "Where the aircraft's main electrical supply is AC, DC requirements are met by:",
+      "options": [
+        "a. batteries",
+        "b. TRUS",
+        "c. inverters",
+        "d. a static inverter"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "4",
+      "question": "In a split bus system using non-paralleled constant frequency alternators as the primary power source:",
+      "options": [
+        "a. essential AC loads are supplied directly from No. 1 AC bus bar",
+        "b. essential AC loads are supplied directly from No. 2 AC bus bar",
+        "c. only non-essential AC loads are supplied from the AC bus bars",
+        "d. essential AC loads are normally supplied from No. 1 AC bus bar via the changeover relay"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "5",
+      "question": "In a split bus system using non-paralleled constant frequency alternators as the primary power source, if both alternators fail:",
+      "options": [
+        "a. all non-essential services are lost",
+        "b. all non-essential services will be supplied direct from the battery bus bar",
+        "c. all non-essential services will be supplied from the static inverter",
+        "d. essential DC consumers only will be supplied from the No. 1 TRU, all other DC services will be lost"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "6",
+      "question": "In normal operation, the split bus bar AC system takes its DC supply from:",
+      "options": [
+        "a. two TRUs which are always isolated",
+        "b. a battery which is supplied from No. 1 TRU only",
+        "c. two TRUs which are connected together by the isolation relay",
+        "d. the static inverter"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "7",
+      "question": "The static inverter in the split bus system supplies:",
+      "options": [
+        "a. the essential DC consumers",
+        "b. the essential AC consumers",
+        "c. both essential and non-essential consumers",
+        "d. the batteries"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "8",
+      "question": "In the split bus system, the AC bus bars:",
+      "options": [
+        "a. are automatically connected via the isolation relay if one alternator fails",
+        "b. are automatically connected via the bus tie breaker if one alternator fails",
+        "c. can be connected together by switch selection if one alternator fails",
+        "d. can never be connected together because there is no load sharing circuit"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "9",
+      "question": "With parallel generator operation:",
+      "options": [
+        "a. there are two synchronizing bus bars which are normally kept isolated",
+        "b. the GCBs connect the generators to the synchronizing bus bar",
+        "c. the BTBs connect the synchronizing bus bars together",
+        "d. the GCRs connect the generators to their load bus bars"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "10",
+      "question": "In a parallel alternator operation, should one alternator fail, then:",
+      "options": [
+        "a. the other alternators can be selected to supply its load",
+        "b. the failed alternator's loads will not be supplied",
+        "c. the GCB of the failed alternator will remain closed to allow its loads to be supplied by the remaining alternators",
+        "d. the SSB will close allowing the three remaining alternators to share all of the load"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "11",
+      "question": "If external power is plugged into an aircraft which utilizes the split bus system of power distribution, then:",
+      "options": [
+        "a. it will automatically parallel itself with any alternators already on line",
+        "b. it will only supply non-essential AC consumers",
+        "c. it will supply all the aircraft services",
+        "d. essential AC consumers will be supplied from the static inverter"
+      ],
+      "answer": "c"
+    }
+  ]
+}
+

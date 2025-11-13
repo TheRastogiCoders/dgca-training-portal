@@ -1,0 +1,118 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "16",
+  "chapter_title": "Gas Turbines - Combustion Chambers",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The ratio of air to kerosene to give the greatest heat release during combustion is:",
+      "options": [
+        "a. 45:1",
+        "b. 130:1",
+        "c. 12.5:1",
+        "d. 15:1"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "2",
+      "question": "One advantage of an annular combustion chamber system is that:",
+      "options": [
+        "a. the diameter of the engine is reduced",
+        "b. there is unrestricted airflow at maximum rpm",
+        "c. there are no flame propagation problems",
+        "d. the air casing area is greater"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "3",
+      "question": "Of the total airflow entering the combustion chamber the percentage that is mixed with the fuel and burnt is:",
+      "options": [
+        "a. 10%",
+        "b. 40%",
+        "c. 20%",
+        "d. 60%"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "4",
+      "question": "The combustion chamber drain valve is closed:",
+      "options": [
+        "a. by combustion chamber gas pressure",
+        "b. by a return spring",
+        "c. by 12th stage compressor air pressure",
+        "d. during a blow out cycle"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "A cannular combustion system is:",
+      "options": [
+        "a. a set of flame tubes, each of which is mounted in a separate air casing",
+        "b. a set of flame tubes enclosed in a common air casing",
+        "c. one common flame tube enclosed in a common air casing",
+        "d. superior to the annular system because it only requires one igniter"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "6",
+      "question": "It is necessary to have a combustion drain system:",
+      "options": [
+        "a. to prevent pressure build up in the combustion chamber",
+        "b. to allow moisture content in the fuel to drain away",
+        "c. to allow any unburnt fuel to drain after shutdown or a wet start",
+        "d. to prevent the igniters becoming wetted by excess fuel"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "7",
+      "question": "The purpose of the tertiary airflow created in the combustion chamber is to:",
+      "options": [
+        "a. reduce the gas temperature and cool the flame tube",
+        "b. form a toroidal vortex, which anchors and stabilizes the flame",
+        "c. reduce the gas temperature and cool the burner head",
+        "d. ensure complete combustion of the fuel"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "A relight envelope:",
+      "options": [
+        "a. shows the flame stability limits",
+        "b. shows airspeed and altitude limitations for an in-flight restart",
+        "c. shows fuel/air mixture limitations for an in-flight restart",
+        "d. contains the in-flight restart igniter plugs"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "9",
+      "question": "Swirl vanes in the combustion chamber:",
+      "options": [
+        "a. increase the velocity of the airflow",
+        "b. reduce the velocity of the airflow",
+        "c. prevent compressor stall",
+        "d. help to stabilize combustion"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "10",
+      "question": "The air entering the combustion chamber is divided; a small percentage is used in combustion, the rest:",
+      "options": [
+        "a. is syphoned off for airframe anti-icing purposes",
+        "b. is used only for cooling the gases before they exit the combustion chamber",
+        "c. is used to reduce the oil temperature and cool the turbine blades",
+        "d. is used to cool both the gases exiting the chamber and the walls of the air casing"
+      ],
+      "answer": "d"
+    }
+  ]
+}
+

@@ -1,0 +1,254 @@
+{
+  "book": {
+    "slug": "principles-of-flight-2014",
+    "title": "Principles of Flight 2014"
+  },
+  "chapter": {
+    "number": 3,
+    "slug": "subsonic-airflow",
+    "title": "Subsonic Airflow"
+  },
+  "questions": [
+    {
+      "id": "pof2014-3-1",
+      "question": "With reference to aerofoil section terminology, which of the following statements are true?\n1. The chord line is a line joining the centre of curvature of the leading edge to the centre of the trailing edge, equidistant from the top and bottom surface of the aerofoil.\n2. The angle of incidence is the angle between the chord line and the horizontal datum of the aircraft.\n3. The angle between the chord line and the relative airflow is called the aerodynamic incidence or angle of attack.\n4. The thickness/chord ratio is the maximum thickness of the aerofoil as a percentage of the chord; the location of maximum thickness is measured as a percentage of the chord aft of the leading edge.",
+      "options": [
+        "1, 2 and 3.",
+        "2 and 3.",
+        "1 and 4.",
+        "2, 3 and 4."
+      ],
+      "answer": "d",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-2",
+      "question": "The definition of lift is:",
+      "options": [
+        "the component of the total aerodynamic force that acts perpendicular to the relative airflow.",
+        "the force that acts vertically upward and exactly balances the weight of the aircraft.",
+        "the force produced by the propulsion system that supports the aircraft in flight.",
+        "the pressure difference between the top and bottom surfaces of the aerofoil."
+      ],
+      "answer": "a",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-3",
+      "question": "An aerofoil section is designed to produce lift resulting from a difference in the:",
+      "options": [
+        "static pressure between the upper and lower surfaces.",
+        "dynamic pressure between the leading and trailing edges.",
+        "temperature above and below the aerofoil.",
+        "mass flow rate entering and leaving the aerofoil."
+      ],
+      "answer": "a",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-4",
+      "question": "On an aerofoil section, the force of lift acts perpendicular to, and the force of drag acts parallel to the:",
+      "options": [
+        "chord line.",
+        "relative airflow.",
+        "mean camber line.",
+        "longitudinal axis of the aircraft."
+      ],
+      "answer": "b",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-5",
+      "question": "When the angle of attack of a symmetrical aerofoil is increased, the centre of pressure will:",
+      "options": [
+        "move steadily forward towards the leading edge.",
+        "move steadily aft towards the trailing edge.",
+        "remain approximately at the same point on the chord.",
+        "move to the point of maximum camber."
+      ],
+      "answer": "c",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-6",
+      "question": "Why does increasing speed also increase lift?",
+      "options": [
+        "Because lift is directly proportional to dynamic pressure, which increases with the square of the speed.",
+        "Because the centre of gravity moves forward with increasing speed producing more lift.",
+        "Because the weight of the aircraft decreases as speed increases.",
+        "Because the aerofoil angle of incidence automatically increases with speed."
+      ],
+      "answer": "a",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-7",
+      "question": "The point on an aerofoil section through which lift acts is the:",
+      "options": [
+        "aerodynamic centre.",
+        "centre of pressure.",
+        "centre of gravity.",
+        "leading edge radius."
+      ],
+      "answer": "b",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-8",
+      "question": "The angle between the chord line of the aerofoil section and the longitudinal axis of the aircraft is known as:",
+      "options": [
+        "angle of attack.",
+        "angle of incidence.",
+        "dihedral angle.",
+        "angle of bank."
+      ],
+      "answer": "b",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-9",
+      "question": "The angle between the chord line of an aerofoil section and the relative wind is known as the angle of:",
+      "options": [
+        "incidence.",
+        "attack.",
+        "bank.",
+        "pitch."
+      ],
+      "answer": "b",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-10",
+      "question": "A line drawn from the leading edge to the trailing edge of an aerofoil section and equidistant at all points from the upper and lower contours is called the:",
+      "options": [
+        "chord line.",
+        "mean camber line.",
+        "aerodynamic centre.",
+        "thickness/chord line."
+      ],
+      "answer": "b",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-11",
+      "question": "At zero angle of attack, the pressure along the upper surface of a symmetrical aerofoil section would be:",
+      "options": [
+        "greater than the pressure on the lower surface.",
+        "less than the pressure on the lower surface.",
+        "equal to the pressure on the lower surface.",
+        "zero because no lift is produced."
+      ],
+      "answer": "c",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-12",
+      "question": "The angle of attack of an aerofoil section directly controls the:",
+      "options": [
+        "coefficient of lift produced by the aerofoil.",
+        "position of the aircraft centre of gravity.",
+        "wing's geometric incidence.",
+        "mass flow through the engine intake."
+      ],
+      "answer": "a",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-13",
+      "question": "When the angle of attack of a positively cambered aerofoil is increased, the centre of pressure will:",
+      "options": [
+        "move forward towards the leading edge until near the stall.",
+        "move rearward towards the trailing edge as the lift increases.",
+        "remain fixed at the aerodynamic centre.",
+        "move upwards towards the upper surface."
+      ],
+      "answer": "a",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-14",
+      "question": "The term \"angle of attack\" is defined as the angle:",
+      "options": [
+        "between the aircraft longitudinal axis and the horizon.",
+        "between the chord line of the wing and the relative airflow.",
+        "between the propeller disc and the flight path.",
+        "between the aerofoil mean camber line and the chord line."
+      ],
+      "answer": "b",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-15",
+      "question": "Which of the following statements is true?\n1. Relative airflow, free stream flow, relative wind and aircraft flight path are parallel.\n2. Aircraft flight path, relative airflow, relative wind and free stream flow are parallel, but the aircraft flight path is opposite in direction.\n3. The pressure, temperature and relative velocity of the free stream flow are unaffected by the presence of the aircraft.\n4. The relative wind is produced by the aircraft moving through the air.\n5. The direction of flight is parallel with and opposite to the relative airflow.",
+      "options": [
+        "1, 2 and 3.",
+        "2, 3, 4 and 5.",
+        "1, 3 and 5.",
+        "2 and 4."
+      ],
+      "answer": "b",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-16",
+      "question": "Which of the following statements are correct?\n1. Maximum camber is the maximum distance between the top and bottom surface of an aerofoil section.\n2. The thickness/chord ratio is expressed as a percentage of the chord.\n3. It is easier for air to flow over a well-rounded leading edge radius than a sharp leading edge.\n4. Two dimensional airflow assumes a wing with the same aerofoil section along its entire span, with no spanwise pressure differential.\n5. Air flowing towards the lower pressure of the upper surface is called upwash.",
+      "options": [
+        "1, 2 and 3.",
+        "2, 3, 4 and 5.",
+        "1 and 5.",
+        "3, 4 and 5."
+      ],
+      "answer": "b",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-17",
+      "question": "When considering an aerofoil section at a constant angle of attack, which of the following statements is true?",
+      "options": [
+        "Lift varies directly with changes in dynamic pressure.",
+        "Lift remains constant regardless of airspeed.",
+        "Lift decreases as air density increases.",
+        "Drag is unaffected by changes in airspeed."
+      ],
+      "answer": "a",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-18",
+      "question": "Considering an aerofoil section subject to a constant dynamic pressure, which of the following statements is correct?",
+      "options": [
+        "Increasing angle of attack increases lift until the critical angle is reached.",
+        "Lift is independent of the angle of attack.",
+        "Decreasing angle of attack results in a higher coefficient of lift.",
+        "Changing angle of attack has no effect on drag."
+      ],
+      "answer": "a",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-19",
+      "question": "When considering the effect of changing angle of attack on the pitching moment of an aerofoil, which of the following statements is correct?\n1. At 'normal' angles of attack the pitching moment is nose-up.\n2. The pitching moment about the aerodynamic centre (AC) is constant at normal angles of attack.\n3. The aerodynamic centre (AC) is located approximately at the 25% chord point.\n4. The moment about the aerodynamic centre (AC) is a product of the distance between the aerodynamic centre (AC) and the centre of pressure (CP) and the magnitude of the lift force.",
+      "options": [
+        "1, 2 and 3.",
+        "2, 3 and 4.",
+        "1, 3 and 4.",
+        "2 and 4."
+      ],
+      "answer": "b",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-3-20",
+      "question": "Ice contamination of the leading portion of the aerofoil has which of the following consequences?\n1. The profile of the leading portion of the surface can be changed, preventing normal acceleration of the airflow and substantially reducing the magnitude of the lift force.\n2. Form (pressure) drag will be increased because of the increased frontal area of the aerofoil section.\n3. Loss of lift will have a greater effect than an increase in form (pressure) drag.\n4. At 'normal' angles of attack lift can be lost entirely if enough ice accumulates.",
+      "options": [
+        "1, 2 and 3.",
+        "1, 3 and 4.",
+        "2, 3 and 4.",
+        "1 and 4."
+      ],
+      "answer": "b",
+      "explanation": ""
+    }
+  ]
+}
+

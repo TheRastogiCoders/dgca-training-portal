@@ -1,0 +1,338 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "12",
+  "chapter_title": "Piston Engines: Propellers",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The blade angle of a propeller is the angle between",
+      "options": [
+        "a. the root chord and the tip chord of the propeller",
+        "b. the chord and the airflow relative to the propeller",
+        "c. the chord of the propeller and the longitudinal axis of the aircraft",
+        "d. the propeller chord and the plane of rotation of the propeller"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "2",
+      "question": "The blade angle",
+      "options": [
+        "a. is constant along the propeller blade",
+        "b. decreases from root to tip",
+        "c. increases from root to tip",
+        "d. varies with changes in engine rpm"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "3",
+      "question": "The geometric pitch of a propeller is",
+      "options": [
+        "a. the distance it would move forward in one revolution at the blade angle",
+        "b. the angle the propeller chord makes to the plane of rotation",
+        "c. the distance the propeller actually moves forward in one revolution",
+        "d. the angle the propeller chord makes to the relative airflow"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "4",
+      "question": "A right hand propeller",
+      "options": [
+        "a. rotates in a clockwise direction when viewed from the rear",
+        "b. is a propeller fitted to the right hand engine",
+        "c. rotates in an anti-clockwise direction when viewed from the rear",
+        "d. is a propeller mounted in front of the engine"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "The angle of attack of a fixed pitch propeller",
+      "options": [
+        "a. depends on forward speed only",
+        "b. depends on forward speed and engine rotational speed",
+        "c. depends on engine rotational speed only",
+        "d. is constant for a fixed pitch propeller"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "6",
+      "question": "During the take-off run a fixed pitch propeller is",
+      "options": [
+        "a. at too coarse an angle for maximum efficiency",
+        "b. at too fine an angle for maximum efficiency",
+        "c. at the optimum angle for efficiency",
+        "d. at the optimum angle initially but becomes too coarse as speed increases"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "7",
+      "question": "For an aircraft with a fixed pitch propeller, an increase in revmin during the take-off run at full throttle is due to",
+      "options": [
+        "a. an increase in propeller blade slip",
+        "b. the engine overspeeding",
+        "c. a more efficient propeller blade angle of attack",
+        "d. the propeller angle of attack increasing"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "An aircraft with a fixed pitch propeller goes into a climb with reduced IAS and increased revmin. The propeller",
+      "options": [
+        "a. angle of attack will decrease",
+        "b. pitch will decrease",
+        "c. angle of attack will increase",
+        "d. angle of attack will remain the same"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "9",
+      "question": "For an aircraft with a fixed pitch propeller, propeller efficiency will be",
+      "options": [
+        "a. low at low speed, high at high speed",
+        "b. high at low speed, low at high speed",
+        "c. constant at all speeds",
+        "d. low at both low and high speed, and highest at cruising speed"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "10",
+      "question": "The blade angle of a fixed pitch propeller would be set to give the optimum angle",
+      "options": [
+        "a. during take-off",
+        "b. during the cruise",
+        "c. at the maximum level flight speed",
+        "d. for landing"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "11",
+      "question": "Propeller torque results from the forces on the propeller",
+      "options": [
+        "a. caused by the airflow, giving a moment around the propellers longitudinal axis",
+        "b. caused by centrifugal effect, giving a moment around the propellers longitudinal axis",
+        "c. caused by the airflow, giving a moment around the aircrafts longitudinal axis",
+        "d. caused by centrifugal effect, giving a moment around the aircrafts longitudinal axis"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "12",
+      "question": "The thrust force of a propeller producing forward thrust",
+      "options": [
+        "a. tends to bend the propeller tips forward",
+        "b. tends to bend the propeller tips backward",
+        "c. tends to bend the propeller in its plane of rotation",
+        "d. causes a tension load in the propeller"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "13",
+      "question": "A propeller which is windmilling",
+      "options": [
+        "a. rotates the engine in the normal direction and gives some thrust",
+        "b. rotates the engine in reverse and gives drag",
+        "c. rotates the engine in reverse and gives some thrust",
+        "d. rotates the engine in the normal direction and gives drag"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "14",
+      "question": "For an aircraft with a right hand propeller the effect of slipstream rotation acting on the fin will cause (see Chapter 16, Book 13 Principles of Flight).",
+      "options": [
+        "a. yaw to the left",
+        "b. roll to the left",
+        "c. yaw to the right",
+        "d. nose up pitch"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "15",
+      "question": "To counteract the effect of slipstream rotation on a single engine aircraft",
+      "options": [
+        "a. the fin may be reduced in size",
+        "b. a T tail may be employed",
+        "c. the fin may be off-set",
+        "d. the wings may have washout"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "16",
+      "question": "The gyroscopic effect of a right hand propeller will give (see Chapter 16, Book 13 Principles of Flight)",
+      "options": [
+        "a. a yawing moment to the left whenever the engine is running",
+        "b. a yawing moment to the left when the aircraft rolls to the right",
+        "c. a nose-up pitch when the aircraft yaws to the right",
+        "d. a yaw to the right when the aircraft pitches nose up"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "17",
+      "question": "The alpha range of a variable pitch propeller is between",
+      "options": [
+        "a. feather and flight fine pitch stop",
+        "b. feather and ground fine pitch stop",
+        "c. flight fine pitch stop and reverse stop",
+        "d. ground fine pitch and reverse stop"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "18",
+      "question": "When the CSU is running on speed",
+      "options": [
+        "a. the governor weight centrifugal force balances the CSU spring force",
+        "b. the CSU spring force balances the oil pressure",
+        "c. the governor weight centrifugal force balances the oil pressure",
+        "d. the supply of oil to the CSU is shut off"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "19",
+      "question": "If the engine power is increased with the propeller lever set then",
+      "options": [
+        "a. the governor weights move out, blade angle decreases, rpm decreases, weights remain out",
+        "b. the governor weights move in, blade angle increases, rpm decreases, weights move out",
+        "c. the governor weights move out, blade angle increases, rpm decreases, weights move in",
+        "d. the governor weights move out, blade angle increases, rpm decreases, weights move in, blade angle decreases again"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "20",
+      "question": "The purpose of the centrifugal feathering latch on a single acting propeller is to prevent",
+      "options": [
+        "a. CTM turning the propeller to fine pitches",
+        "b. the propeller from accidentally feathering at high rpm",
+        "c. the propeller from feathering on shutdown",
+        "d. the propeller from overspeeding if the flight fine pitch stop fails to reset"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "21",
+      "question": "A hydraulic accumulator may be fitted to a single acting propeller to provide pressure for",
+      "options": [
+        "a. normal constant speed operation of the propeller",
+        "b. operation of the propeller in the event of failure of the CSU pump",
+        "c. feathering and unfettering the propeller",
+        "d. unfettering the propeller"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "22",
+      "question": "If it is required to increase the rpm of a variable pitch propeller without moving the power lever, the propeller lever must be moved",
+      "options": [
+        "a. forward, the governor weights move inwards, blade angle increases",
+        "b. backward, the governor weights move outwards, blade angle decreases",
+        "c. forwards, the governor weights move inwards, blade angle decreases",
+        "d. forwards, the governor weights move outwards, blade angle decreases"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "23",
+      "question": "The CSU incorporates an oil pump. Its purpose is",
+      "options": [
+        "a. to provide pressure to feather the propeller",
+        "b. to provide pressure to unfeather the propeller",
+        "c. to increase the engine oil pressure to a higher pressure to operate the propeller pitch change mechanism",
+        "d. to ensure adequate lubrication of the CSU"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "24",
+      "question": "A propeller blade is twisted along its length",
+      "options": [
+        "a. to compensate for the Centrifugal Twisting Moment",
+        "b. to maintain a constant angle of attack from root to tip of the blade",
+        "c. to increase the thrust given by the tip",
+        "d. to maintain constant thrust from root to tip"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "25",
+      "question": "Propeller torque is",
+      "options": [
+        "a. the tendency of the propeller to twist around its longitudinal axis",
+        "b. the helical path of the propeller through the air",
+        "c. the turning moment produced by the propeller about the axis of the crankshaft",
+        "d. the thrust produced by the propeller"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "26",
+      "question": "The greatest stress on a rotating propeller occurs",
+      "options": [
+        "a. at the tip",
+        "b. at about 75 of the length",
+        "c. at the mid point",
+        "d. at the root"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "27",
+      "question": "The Beta range of a propeller is from",
+      "options": [
+        "a. the feather stops to the flight fine pitch stop",
+        "b. the feather stops to the ground fine pitch stop",
+        "c. the feather stops to the reverse pitch stop",
+        "d. the flight fine pitch stop to the reverse pitch stop"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "28",
+      "question": "An auto-feathering system senses",
+      "options": [
+        "a. low rpm",
+        "b. decreasing rpm",
+        "c. high torque",
+        "d. low torque"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "29",
+      "question": "What happens to the pitch of a variable pitch propeller in order to maintain constant rpm when i IAS is increased and ii Power is increased?",
+      "options": [
+        "a. increases decreases",
+        "b. decreases increases",
+        "c. increases increases",
+        "d. decreases decreases"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "30",
+      "question": "Propellers may have an avoid range of rpm",
+      "options": [
+        "a. to avoid resonance peaks which could lead to fatigue damage to the propeller",
+        "b. to avoid excessive propeller noise",
+        "c. because the engine does not run efficiently in that rpm range",
+        "d. to avoid the possibility of detonation occurring in the engine"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+

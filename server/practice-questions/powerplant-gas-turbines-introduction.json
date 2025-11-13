@@ -1,0 +1,206 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "13",
+  "chapter_title": "Gas Turbines - Introduction",
+  "questions": [
+    {
+      "id": "1",
+      "question": "When gases pass through a convergent duct their:",
+      "options": [
+        "a. velocity and temperature increase and their pressure decreases",
+        "b. their velocity increases and their temperature and pressure decrease",
+        "c. their velocity decreases and their temperature and pressure increase",
+        "d. they expand adiabatically"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "Select the correct order of best propulsive efficiency, from low to high airspeed.",
+      "options": [
+        "a. High bypass ratio turbojet, Low bypass ratio turbojet, Pure turbojet, Turboprop",
+        "b. Low bypass ratio turbojet, Pure turbojet, Turboprop, High bypass ratio turbojet",
+        "c. Pure turbojet, Turboprop, High bypass ratio turbojet, Low bypass ratio turbojet",
+        "d. Turboprop, High bypass ratio turbojet, Low bypass ratio turbojet, Pure turbojet"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "3",
+      "question": "The highest pressure in a gas turbine engine occurs:",
+      "options": [
+        "a. between the compressor and the combustion chamber",
+        "b. in the combustion chamber",
+        "c. in the jet pipe",
+        "d. at the P1 probe"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "4",
+      "question": "In a turbofan engine, the fan speed is controlled by:",
+      "options": [
+        "a. a reduction gear",
+        "b. a wastegate",
+        "c. the turbine",
+        "d. varying the pitch"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "5",
+      "question": "In a High Bypass Ratio engine:",
+      "options": [
+        "a. all of the air goes through both the low and high pressure compressors",
+        "b. not all the air goes through the high pressure compressor",
+        "c. not all the air goes through the low pressure compressor",
+        "d. all the air goes through the high pressure compressor"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "6",
+      "question": "Modular construction:",
+      "options": [
+        "a. is only used on turboprop engines",
+        "b. cannot be used on high ratio engines",
+        "c. has a weight saving function",
+        "d. enables malfunctioning sections of the engine to be changed without changing the whole engine"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "7",
+      "question": "The Bypass Ratio of an engine is the ratio of:",
+      "options": [
+        "a. primary air to tertiary air",
+        "b. cold stream air to that flowing through the hot core of the engine",
+        "c. exhaust gas pressure to air intake pressure",
+        "d. primary air to secondary air"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "8",
+      "question": "The Gas Turbine Engine uses the principle of:",
+      "options": [
+        "a. Newton's Third Law of motion",
+        "b. creating thrust equal to the weight of the aircraft",
+        "c. expelling air at the same speed as that of the aircraft",
+        "d. the fluid flywheel"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "9",
+      "question": "The addition of heat in a combustion chamber allows a:",
+      "options": [
+        "a. large expansion at a substantially constant pressure",
+        "b. large expansion at a constant volume",
+        "c. large expansion at a decreasing static pressure",
+        "d. minimum expansion at a constant volume"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "10",
+      "question": "In a divergent duct:",
+      "options": [
+        "a. the pressure decreases and the temperature and velocity increases",
+        "b. the pressure, velocity and temperature increases",
+        "c. the pressure temperature increases and the velocity decreases",
+        "d. the pressure decreases, the temperature increases and the velocity remains constant"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "11",
+      "question": "In a twin spool engine:",
+      "options": [
+        "a. the LP compressor is connected to the HP compressor",
+        "b. the HP turbine is connected to the LP compressor, the LP turbine is connected to the HP compressor",
+        "c. the LP turbine is connected to the LP compressor, the HP turbine is connected to the HP compressor",
+        "d. the HP turbine is connected to the LP turbine, the HP compressor is connected to the LP compressor"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "12",
+      "question": "A Bypass Ratio of 5:1 means that:",
+      "options": [
+        "a. 5 pounds of air is bypassed for every 10 pounds entering the engine intake",
+        "b. 5 pounds of goes through the HP compressor for every 10 pounds that enters the intake",
+        "c. 10 pounds of air goes through the bypass for every 5 pounds that enters the intake",
+        "d. 5 pounds of air is bypassed for every 1 pound that goes through the hot core of the engine"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "13",
+      "question": "Aft of the compressor:",
+      "options": [
+        "a. the velocity of the airflow remains the same",
+        "b. the velocity of the airflow decreases before the combustion chamber",
+        "c. the velocity increases before the combustion chamber",
+        "d. the air pressure decreases before the combustion chamber"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "14",
+      "question": "The fan in a ducted fan engine, is driven by:",
+      "options": [
+        "a. the high pressure turbine",
+        "b. the rearmost turbine",
+        "c. the intermediate pressure turbine",
+        "d. all of the above"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "15",
+      "question": "In a bypass engine, the bypass air:",
+      "options": [
+        "a. increases the air mass flow and therefore increases the propulsive efficiency",
+        "b. cools the combustion chamber and therefore increases the thermal efficiency",
+        "c. reduces the air mass flow and therefore increases the propulsive efficiency",
+        "d. increases the air mass flow and therefore reduces the propulsive efficiency"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "16",
+      "question": "The majority of the thrust of a:",
+      "options": [
+        "a. turbofan engine comes from the turbine exhaust",
+        "b. turboprop engine comes from the turbine exhaust",
+        "c. turboshaft engine comes from the free power turbine exhaust",
+        "d. turbofan engine comes from the bypass air"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "17",
+      "question": "A pure turbojet engine gives:",
+      "options": [
+        "a. a small acceleration to a large mass of air",
+        "b. a large acceleration to a large mass of air",
+        "c. a small acceleration to a small mass of air",
+        "d. a large acceleration to a small mass of air"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "18",
+      "question": "During the Brayton cycle, combustion takes place:",
+      "options": [
+        "a. continuously",
+        "b. once every revolution",
+        "c. once every other revolution",
+        "d. only during the start cycle"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+

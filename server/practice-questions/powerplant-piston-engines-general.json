@@ -1,0 +1,613 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "2",
+  "chapter_title": "Piston Engines - General",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The temperature of the gases within the cylinder of a four-stroke engine during the power stroke will:",
+      "options": [
+        "a. be constant",
+        "b. decrease",
+        "c. increase",
+        "d. follow Charles's Law"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "The number of revolutions of the crankshaft required to complete a full cycle in a four-stroke engine is:",
+      "options": [
+        "a. 6",
+        "b. 4",
+        "c. 2",
+        "d. 8"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "3",
+      "question": "The inlet valve opens before TDC in the exhaust stroke to:",
+      "options": [
+        "a. increase the pressure in the cylinder on completion of the induction stroke.",
+        "b. reduce engine vibration",
+        "c. allow the incoming mixture to mix with a certain proportion of the exhaust gases",
+        "d. induce a greater amount of mixture into the cylinder"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "4",
+      "question": "The correct working cycle of a four-stroke engine is:",
+      "options": [
+        "a. exhaust, power, induction, compression",
+        "b. compression, power, exhaust, induction",
+        "c. induction, power, compression, exhaust",
+        "d. power, exhaust, compression, induction"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "5",
+      "question": "Valve overlap is incorporated in the valve timing of a piston engine to:",
+      "options": [
+        "a. improve volumetric efficiency",
+        "b. reduce wear on the big end bearings",
+        "c. increase the engines compression ratio",
+        "d. prevent a weak cut when the engine is accelerated rapidly"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "6",
+      "question": "With an increase in the rotational speed of a four-stroke engine, the valve overlap:",
+      "options": [
+        "a. increases",
+        "b. decreases",
+        "c. remains constant",
+        "d. increases up to ground idle and thereafter decreases"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "7",
+      "question": "In a normally aspirated engine, exhaust back pressure:",
+      "options": [
+        "a. decreases as an aircraft climbs and thereby reduces the rate of decline of the engine power output",
+        "b. increases as an aircraft climbs and thereby reduces the engine power output",
+        "c. is affected by the power lever position",
+        "d. decreases as an aircraft descends and thereby improves the engine power output"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "When the spark ignites the mixture:",
+      "options": [
+        "a. the explosion pushes the piston down",
+        "b. the mixture changes from rich to weak forward of the flame front",
+        "c. complete combustion occurs within 8 to 10 microseconds",
+        "d. temperature and pressure increase within the cylinder"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "9",
+      "question": "If the volume of a quantity of gas is halved during compression:",
+      "options": [
+        "a. its pressure is approximately doubled",
+        "b. its temperature remains constant",
+        "c. its mass is approximately doubled",
+        "d. its pressure is approximately halved"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "10",
+      "question": "The term Indicated Mean Effective Pressure refers to:",
+      "options": [
+        "a. the maximum working pressure in the engine cylinder",
+        "b. the average pressure within the cylinder during the four cycles",
+        "c. the pressure achieved during compression",
+        "d. the minimum working pressure applied to the piston during the cycle"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "11",
+      "question": "The degrees of rotation to complete a full cycle on a nine cylinder engine will be:",
+      "options": [
+        "a. 180",
+        "b. 360",
+        "c. 720",
+        "d. 80"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "12",
+      "question": "The firing interval of a six cylinder horizontally opposed engine will be:",
+      "options": [
+        "a. 180",
+        "b. 120",
+        "c. 60",
+        "d. 360"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "13",
+      "question": "Which of the following statements would be correct for a double banked radial engine?",
+      "options": [
+        "a. There will always be an odd number of cylinders",
+        "b. Radial engines are generally liquid-cooled",
+        "c. The linear distance from TDC to BDC will accommodate two throws",
+        "d. Radial engines cannot suffer from hydraulicing"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "14",
+      "question": "On a four cylinder engine with a total volume of 9600 cc, bore area of $100~cm^{2}$ and a crank throw of 10 cm, what would the Compression Ratio be?",
+      "options": [
+        "a. 7:1",
+        "b. 8:1",
+        "c. 24:1",
+        "d. 6:1"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "15",
+      "question": "With an increase in outside air temperature, specific fuel consumption will:",
+      "options": [
+        "a. increase",
+        "b. decrease",
+        "c. stay the same",
+        "d. stay the same for all temperatures up to and including $15^{\\circ}C$ and thereafter increase"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "16",
+      "question": "Combustion, in a four-stroke engine, theoretically occurs at:",
+      "options": [
+        "a. a constant pressure",
+        "b. a constant temperature",
+        "c. a constant volume",
+        "d. a constant velocity"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "17",
+      "question": "In a convergent duct:",
+      "options": [
+        "a. the pressure and velocity increase, the temperature decreases",
+        "b. the pressure and temperature decrease, the velocity increases",
+        "c. the temperature and velocity increase, the pressure decreases",
+        "d. the pressure and velocity remain constant, the temperature decreases"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "18",
+      "question": "During the compression stroke:",
+      "options": [
+        "a. the temperature of the gases remains constant",
+        "b. the volume of the gases increases",
+        "c. the mass of the mixture decreases",
+        "d. the mass of the mixture remains constant"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "19",
+      "question": "From Top Dead Centre (TDC) to Bottom Dead Centre (BDC) on the practical power stroke:",
+      "options": [
+        "a. the temperature of the gases rises for a short time then decreases",
+        "b. the pressure of the gases remains constant",
+        "c. the temperature of the gases decreases from TDC to BDC",
+        "d. the density of the gas remains constant"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "20",
+      "question": "In a divergent duct:",
+      "options": [
+        "a. the velocity and temperature increase, the pressure decreases",
+        "b. the temperature and pressure increase, the velocity decreases",
+        "c. the temperature and pressure decrease, the velocity increases",
+        "d. the velocity and temperature decrease, the pressure increases"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "21",
+      "question": "During the induction stroke:",
+      "options": [
+        "a. the mixture becomes weaker",
+        "b. the volume of the gases becomes smaller",
+        "c. the temperature of the gases reduces",
+        "d. the pressure of the gases increases"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "22",
+      "question": "Ideally, maximum pressure is attained within the cylinder:",
+      "options": [
+        "a. when combustion is complete",
+        "b. at the end of the compression stroke",
+        "c. during the period of valve overlap",
+        "d. when combustion temperature is at a minimum"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "23",
+      "question": "The power output of an internal combustion engine:",
+      "options": [
+        "a. is proportional to the volume of mixture induced into the cylinder",
+        "b. increases with increased humidity",
+        "c. falls as the charge temperature falls",
+        "d. is proportional to the weight of the mixture induced into the cylinder"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "24",
+      "question": "During the period of valve overlap:",
+      "options": [
+        "a. the action of the exhaust gases flowing past the exhaust valve increases the pressure within the cylinder",
+        "b. the temperature of the exhaust gases increases the mass of incoming mixture",
+        "c. the action of the exhaust gases flowing out past the exhaust valve tends to reduce the pressure in the cylinder",
+        "d. the crankshaft is moving past Bottom Dead Centre"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "25",
+      "question": "The power output of an internal combustion engine can be increased by:",
+      "options": [
+        "a. increasing the area of the cylinder",
+        "b. increasing the length of the stroke",
+        "c. increasing the engine rpm",
+        "d. all of the above"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "26",
+      "question": "Valve Overlap is:",
+      "options": [
+        "a. the number of degrees of camshaft rotation during which the inlet and exhaust valves are open at the same time",
+        "b. the number of degrees of crankshaft movement during which the inlet and exhaust valves are open at the same time",
+        "c. the distance the piston travels while the inlet valve remains open after BDC",
+        "d. the number of degrees of crankshaft rotation during which the inlet and exhaust valves are open at the same time around BDC"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "27",
+      "question": "The purpose of a valve spring is to:",
+      "options": [
+        "a. close the valve",
+        "b. cause a snap opening of the valve",
+        "c. allow the valve timing to vary with changing rpm",
+        "d. maintain the valve clearance within tolerance"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "28",
+      "question": "Excessive blue smoke from the exhaust of an engine that has been warmed up to normal operating temperature may indicate that:",
+      "options": [
+        "a. the mixture is too rich",
+        "b. the oil pressure relief valve has stuck in the open position",
+        "c. the piston rings are worn or stuck in their grooves",
+        "d. the oil pressure is too low"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "29",
+      "question": "The camshaft of a horizontally opposed four-stroke engine rotates at:",
+      "options": [
+        "a. twice engine speed",
+        "b. engine speed",
+        "c. twice magneto speed",
+        "d. half engine speed"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "30",
+      "question": "A reduction gear is fitted:",
+      "options": [
+        "a. between the camshaft and the propeller",
+        "b. between the pushrods and the valves",
+        "c. between the crankshaft and propeller",
+        "d. between the connecting rod and the crankshaft"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "31",
+      "question": "Prolonged use of low rpm could cause contamination of the:",
+      "options": [
+        "a. oil filter",
+        "b. spark plug",
+        "c. carburretor",
+        "d. oil pump"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "32",
+      "question": "If the Starter Engaged Light remains on after engine start, you should:",
+      "options": [
+        "a. shut the engine down immediately",
+        "b. ignore it if it remains on for longer than 30 seconds",
+        "c. shut the engine down if the light remains on for more than 30 seconds",
+        "d. shut the engine down if the light remains on for more than 60 seconds"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "33",
+      "question": "The crankshaft of typical in-line four cylinder aircraft engine:",
+      "options": [
+        "a. rotates at half the speed of the camshaft",
+        "b. will have the crank throws spaced 90 degrees apart",
+        "c. allows a firing order of 1-3-4-2",
+        "d. will not flex or twist"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "34",
+      "question": "Two valve springs are fitted to each valve:",
+      "options": [
+        "a. to minimize camshaft wear",
+        "b. to allow a greater cam rise",
+        "c. to prevent valve rotation",
+        "d. to reduce valve bounce"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "35",
+      "question": "Excessive valve clearance:",
+      "options": [
+        "a. will prevent the valve closing completely",
+        "b. is eliminated when the engine reaches working temperature",
+        "c. will cause the valve to open early and close late",
+        "d. will cause the valve to open late and close early"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "36",
+      "question": "Valve lead occurs when:",
+      "options": [
+        "a. the inlet valve opens before bottom dead centre",
+        "b. the exhaust valve opens before the inlet valve",
+        "c. the exhaust valve opens before top dead centre",
+        "d. the inlet valve opens before top dead centre and the exhaust valve opens before bottom dead centre"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "37",
+      "question": "Insufficient tappet clearance at the inlet valve would cause:",
+      "options": [
+        "a. the valve to open early and close late",
+        "b. the valve to open late and close early",
+        "c. the mixture in that cylinder to be weak",
+        "d. misfiring"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "38",
+      "question": "The length of the stroke is:",
+      "options": [
+        "a. equal to the length of the cylinder",
+        "b. determined by the size of the piston",
+        "c. equivalent to twice the crank throw",
+        "d. inversely proportional to the engine power output"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "39",
+      "question": "Tappet clearance is measured between the:",
+      "options": [
+        "a. push rod and the valve tip",
+        "b. valve tip and the rocker pad",
+        "c. valve spring and the rocker pad",
+        "d. valve tip and the rocker cover"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "40",
+      "question": "The number of revolutions required to complete the induction and compression stroke in a six cylinder four-stroke engine is:",
+      "options": [
+        "a. 1",
+        "b. 2",
+        "c. 6",
+        "d. 4"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "41",
+      "question": "The purpose of a crankcase breather is to:",
+      "options": [
+        "a. maintain the oil tank pressure at atmospheric",
+        "b. prevent distortion of the crankcase",
+        "c. allow the oil to breathe",
+        "d. prevent pressure building up inside the crankcase"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "42",
+      "question": "Tappet clearance is provided in a piston engine to:",
+      "options": [
+        "a. adjust the valve timing",
+        "b. allow for expansion of the valve gear as the engine warms up",
+        "c. allow for manufacturing tolerances",
+        "d. prevent valve bounce"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "43",
+      "question": "Piston rings are manufactured from cast iron:",
+      "options": [
+        "a. because it has a negative coefficient of expansion",
+        "b. to take advantage of its extreme malleability",
+        "c. because of its self-lubricating qualities",
+        "d. to take advantage of its brittleness"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "44",
+      "question": "The exhaust valves:",
+      "options": [
+        "a. are opened directly by the action of push rods which are in turn operated by cams on the crankshaft",
+        "b. are less affected by the heat of combustion than the inlet valves",
+        "c. are opened by the valve springs and closed by the rocker gear",
+        "d. sometimes have their stems partly filled with sodium to assist cooling"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "45",
+      "question": "Hydraulic valve tappets are used on some engines to:",
+      "options": [
+        "a. eliminate valve bounce",
+        "b. eliminate constant valve adjustment and checks",
+        "c. give a more positive closing action",
+        "d. give a more positive opening action"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "46",
+      "question": "The swept volume of a cylinder is:",
+      "options": [
+        "a. the area of the bore x the stroke",
+        "b. the area of the cylinder cross section x the cylinder length",
+        "c. half of the clearance volume",
+        "d. the total volume + the piston volume"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "47",
+      "question": "The thermal efficiency of a piston engine can be increased by:",
+      "options": [
+        "a. increasing the rpm",
+        "b. increasing the combustion chamber volume",
+        "c. advancing the ignition point into the direction of rotation",
+        "d. increasing the compression ratio"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "48",
+      "question": "A normally aspirated engine is one which:",
+      "options": [
+        "a. has four cylinders",
+        "b. is not supercharged",
+        "c. is never air-cooled",
+        "d. is all of the above"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "49",
+      "question": "The Compression Ratio of an engine may be defined as the:",
+      "options": [
+        "a. swept volume + clearance volume + swept volume",
+        "b. swept volume + clearance volume / clearance volume",
+        "c. total volume - clearance volume / clearance volume",
+        "d. swept volume / (swept volume + clearance volume)"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "50",
+      "question": "An engine has a total volume of $2100~cm^{3}$ and a swept volume of $1800~cm^{3}$. Its compression ratio is:",
+      "options": [
+        "a. 7:6",
+        "b. 6:1",
+        "c. 7:1",
+        "d. 6:7"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "51",
+      "question": "Volumetric efficiency may be defined as:",
+      "options": [
+        "a. the ratio of the volume of the mixture drawn into the cylinder during normal engine working, to the volume of the mixture which would be required to fill the cylinder under normal temperatures and pressures",
+        "b. the ratio of the volume of air and the volume of fuel drawn into the cylinder",
+        "c. the ratio of the volume of one of the cylinders to the volume of all of the cylinders in the engine",
+        "d. the efficiency with which the air and fuel mix together in the cylinder"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "52",
+      "question": "The ratio of the power produced by an engine to the power available in the fuel is known as the:",
+      "options": [
+        "a. specific fuel consumption",
+        "b. indicated horsepower",
+        "c. volumetric efficiency",
+        "d. thermal efficiency"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "53",
+      "question": "Specific Fuel Consumption (SFC)",
+      "options": [
+        "a. is the inability of the internal combustion engine to use any fuel other than that specified by the manufacturer",
+        "b. becomes greater as the efficiency of the engine improves",
+        "c. is the weight of fuel used by an engine per unit horsepower per unit time",
+        "d. increases in proportion to the thermal efficiency"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "54",
+      "question": "Brake Horsepower is:",
+      "options": [
+        "a. theoretical power in the cylinder",
+        "b. useful power at the propeller",
+        "c. power lost in the engine",
+        "d. power required to slow the aircraft down"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "55",
+      "question": "A method of improving Volumetric Efficiency is:",
+      "options": [
+        "a. valve overlap",
+        "b. the use of carburettor heat",
+        "c. to make the mixture richer",
+        "d. weakening the mixture"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+

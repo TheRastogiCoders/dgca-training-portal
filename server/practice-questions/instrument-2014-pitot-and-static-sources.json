@@ -1,0 +1,104 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "2",
+  "chapter_title": "Pitot and Static Sources",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A pitot head is used to measure:",
+      "options": [
+        "a. dynamic minus static pressure",
+        "b. static plus dynamic pressure",
+        "c. static pressure",
+        "d. dynamic pressure"
+      ],
+      "answer": "b",
+      "explanation": "A pitot head measures total pressure, which is the sum of static pressure and dynamic pressure (Pt = Ps + q)."
+    },
+    {
+      "id": "2",
+      "question": "A static vent is used to measure:",
+      "options": [
+        "a. dynamic pressure minus static pressure",
+        "b. dynamic pressure plus static pressure",
+        "c. atmospheric pressure",
+        "d. dynamic pressure"
+      ],
+      "answer": "c",
+      "explanation": "A static vent measures atmospheric (static) pressure, which is the ambient air pressure at the aircraft's altitude."
+    },
+    {
+      "id": "3",
+      "question": "A pressure head is subject to the following errors:",
+      "options": [
+        "a. position, manoeuvre-induced, temperature",
+        "b. position, manoeuvre-induced",
+        "c. position, manoeuvre-induced, density",
+        "d. position, manoeuvre-induced, instrument"
+      ],
+      "answer": "d",
+      "explanation": "Pressure heads are subject to position error (due to aircraft attitude and airflow), manoeuvre-induced error (during turns, climbs, descents), and instrument error (mechanical inaccuracies)."
+    },
+    {
+      "id": "4",
+      "question": "Given:\n$Pt=$ total pressure\n$Ps=$ static pressure\nDynamic pressure is:",
+      "options": [
+        "a. $Pt-Ps$",
+        "b. $(Pt-Ps)/Pt$",
+        "c. $(Pt-Ps)/Ps$",
+        "d. $\\dot{Pt}/Ps$"
+      ],
+      "answer": "a",
+      "explanation": "Dynamic pressure (q) is the difference between total pressure (Pt) and static pressure (Ps): q = Pt - Ps."
+    },
+    {
+      "id": "5",
+      "question": "Manoeuvre induced error:",
+      "options": [
+        "a. is caused by pressure changes at static probes or vents",
+        "b. is likely to be greatest when yawing after engine failure",
+        "c. is combined with instrument and position error on a correction card",
+        "d. lasts for only a short time at high altitude"
+      ],
+      "answer": "b",
+      "explanation": "Manoeuvre-induced error occurs during aircraft manoeuvres and is particularly significant during yawing, such as after engine failure when asymmetric thrust causes yaw."
+    },
+    {
+      "id": "6",
+      "question": "Position error:",
+      "options": [
+        "a. may be reduced by the fitting of static vents",
+        "b. will usually decrease with an increase in altitude",
+        "c. will depend solely on the attitude of the aircraft",
+        "d. will usually decrease as the aircraft approaches the speed of sound"
+      ],
+      "answer": "a",
+      "explanation": "Position error can be reduced by properly positioning static vents in areas of undisturbed airflow, away from pressure fields created by the aircraft structure."
+    },
+    {
+      "id": "7",
+      "question": "Fitting static vents to both sides of the aircraft fuselage will:",
+      "options": [
+        "a. reduce the position error",
+        "b. balance out errors caused by side-slipping or yawing",
+        "c. require a calibration card for each static vent",
+        "d. enable a greater number of instruments to be fitted"
+      ],
+      "answer": "b",
+      "explanation": "Dual static vents on both sides of the fuselage help balance out errors caused by sideslipping or yawing by averaging the pressure readings from both sides."
+    },
+    {
+      "id": "8",
+      "question": "Where an alternate static source is fitted, use of this source usually leads to:",
+      "options": [
+        "a. a temporary increase in lag error",
+        "b. a lower pressure error than with normal sources",
+        "c. an increase in position error",
+        "d. no change in position error"
+      ],
+      "answer": "c",
+      "explanation": "Alternate static sources are typically located inside the cabin or cockpit, where pressure may differ from ambient static pressure, leading to increased position error."
+    }
+  ]
+}
+

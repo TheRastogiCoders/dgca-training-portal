@@ -1,0 +1,118 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "6",
+  "chapter_title": "The Vertical Speed Indicator",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The vertical speed indicator indications may be in error for some seconds after starting or finishing a climb or descent. The error is a result of:",
+      "options": [
+        "a. a combination of time lag and manoeuvre induced errors",
+        "b. a combination of position error and manoeuvre induced errors",
+        "c. manoeuvre induced errors only",
+        "d. a combination of time lag and instrument error"
+      ],
+      "answer": "a",
+      "explanation": "The VSI measures rate of change of static pressure. When starting or finishing a climb/descent, there is a time lag as the instrument's calibrated leak equalizes pressures, combined with manoeuvre induced errors from acceleration forces during the transition."
+    },
+    {
+      "id": "2",
+      "question": "The advantage of having the VSI dial presentation in logarithmic spacing rather than in linear spacing is that:",
+      "options": [
+        "a. at low rates of climb or descent the pointer movement is much larger and so is more easily read",
+        "b. readings are instantaneous",
+        "c. a greater range of rates of climb and descent is shown",
+        "d. the internal mechanism is simplified by deletion of the calibration choke"
+      ],
+      "answer": "a",
+      "explanation": "Logarithmic spacing on the VSI dial provides more scale resolution at low rates of climb/descent, making small changes more visible and easier to read, which is critical for precision flying."
+    },
+    {
+      "id": "3",
+      "question": "In the IVSI, lag error:",
+      "options": [
+        "a. is overcome by feeding a sample of static pressure to the case and delaying it to the capsule",
+        "b. is overcome by using a special dashpot accelerometer assembly",
+        "c. is overcome by the use of logarithmic presentation",
+        "d. is only overcome when initiating a climb or descent"
+      ],
+      "answer": "b",
+      "explanation": "The Instantaneous Vertical Speed Indicator (IVSI) uses a dashpot accelerometer assembly that senses vertical acceleration. This provides immediate response to rate changes, eliminating the lag inherent in standard VSI designs."
+    },
+    {
+      "id": "4",
+      "question": "Because the VSI measures rates of change of static pressure and not actual values of static pressure, position error:",
+      "options": [
+        "a. never affects VSI indications",
+        "b. may cause errors in the VSI during the take-off run",
+        "c. may cause errors in VSI indications whenever airspeed is change",
+        "d. may cause errors in VSI indications whenever airspeed is changed, even if there is no change in position error"
+      ],
+      "answer": "c",
+      "explanation": "Position error affects static pressure measurement. When airspeed changes, the position error may change, causing the static pressure to change at a different rate than actual altitude change, resulting in VSI errors."
+    },
+    {
+      "id": "5",
+      "question": "When entering a steep turn, an IVSI is likely to show:",
+      "options": [
+        "a. no change in altitude",
+        "b. a climb",
+        "c. a descent",
+        "d. a slight descent at high airspeed only"
+      ],
+      "answer": "b",
+      "explanation": "When entering a steep turn, the vertical component of the turn acceleration can be sensed by the IVSI's accelerometer as a climb indication, even though the aircraft may not actually be climbing. This is a manoeuvre induced error."
+    },
+    {
+      "id": "6",
+      "question": "If the static vent becomes blocked during a climb:",
+      "options": [
+        "a. the VSI will stop at the rate of climb of the aircraft at the time of blockage",
+        "b. the VSI will indicate a decreasing rate of climb",
+        "c. the VSI will return to zero",
+        "d. the VSI will indicate an increasing rate of climb"
+      ],
+      "answer": "c",
+      "explanation": "With static vent blocked, static pressure is trapped. The VSI measures rate of change of static pressure. With no pressure change possible, the calibrated leak equalizes pressures, and the VSI returns to zero indication."
+    },
+    {
+      "id": "7",
+      "question": "In conditions of clear air turbulence:",
+      "options": [
+        "a. the standard VSI is more sensitive",
+        "b. the IVSI is more sensitive",
+        "c. both types will react the same",
+        "d. the vertical acceleration pump will not be affected"
+      ],
+      "answer": "b",
+      "explanation": "The IVSI's accelerometer is sensitive to vertical accelerations, making it more responsive to turbulence-induced vertical movements. This can cause more erratic readings in turbulent conditions compared to a standard VSI."
+    },
+    {
+      "id": "8",
+      "question": "Change of temperature as an aircraft climbs or descends:",
+      "options": [
+        "a. will affect VSI readings whenever temperature lapse rate differs from standard conditions",
+        "b. may be allowed for by use of tables or computer",
+        "c. is compensated at the metering unit by means of a capillary and orifice",
+        "d. has no effect on the VSI as only static pressure is used in this instrument"
+      ],
+      "answer": "c",
+      "explanation": "Temperature affects air density and thus the rate of pressure change with altitude. Modern VSIs use a capillary tube and orifice in the metering unit to provide temperature compensation, ensuring accurate readings across temperature variations."
+    },
+    {
+      "id": "9",
+      "question": "Permissible limits of accuracy of the VSI are ....... when ....... within a temperature range of ....... and ....... outside this range.",
+      "options": [
+        "a. + 250 fpm, at any height, $-20^{\\circ}C$ to $+30^{\\circ}C,$ +/- 300 fpm",
+        "b. + 250 fpm, on the ground, $-20^{\\circ}C$ to $+50^{\\circ}C$ +/- 300 fpm",
+        "c. + 200 fpm, at any height, $-20^{\\circ}C$ to $+50^{\\circ}C,$ +/- 300 fpm",
+        "d. + 200 fpm, on the ground, $-20^{\\circ}C$ to $+50^{\\circ}C,$ +/- 300 fpm"
+      ],
+      "answer": "d",
+      "explanation": "VSI accuracy standards: ±200 fpm when on the ground within temperature range of -20°C to +50°C, and ±300 fpm outside this temperature range. These are the standard calibration tolerances."
+    }
+  ]
+}
+
+
+

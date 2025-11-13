@@ -1,0 +1,74 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "17",
+  "chapter_title": "Remote Indicating Magnetic Compass",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A gyro-magnetic compass or magnetic heading reference unit is an assembly which always consists of:\n1 - a directional gyro\n2- a vertical axis gyro\n3- an earth's magnetic field detector\n4-an azimuth control\n5- a synchronizing control\nThe combination of correct statements is:",
+      "options": [
+        "a. 2 and 5",
+        "b. 1, 3 and 5",
+        "c. 2, 3 and 5",
+        "d. 1 and 4"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "A slaved directional gyro derives its directional signal from:",
+      "options": [
+        "a. a direct reading magnetic compass",
+        "b. the flight director",
+        "c. the flux valve",
+        "d. the air data computer"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "3",
+      "question": "The gyro-magnetic compass torque motor:",
+      "options": [
+        "a. causes the directional gyro unit to precess",
+        "b. causes the heading indicator to precess",
+        "c. feeds the error detector system",
+        "d. is fed by the flux valve"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "4",
+      "question": "The heading information originating from the gyro-magnetic compass flux valve is sent to the:",
+      "options": [
+        "a. error detector",
+        "b. erector system",
+        "c. heading indicator",
+        "d. amplifier"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "The input signal of the amplifier of the gyro-magnetic compass resetting device originates from the:",
+      "options": [
+        "a. directional gyro erection device",
+        "b. error detector",
+        "c. flux valve",
+        "d. directional gyro unit"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "6",
+      "question": "A flux valve senses the changes in orientation of the horizontal component of the earth's magnetic field:\n1- the flux valve is made of a pair of soft iron bars\n2- the primary coils are fed AC voltage\n3- the information can be used by a \"flux gate\" compass or a directional gyro\n4- the flux gate valve casing is dependent on the aircraft three inertial axis\n5- the accuracy of the value of the magnetic field indication is less than 0.5%\nThe combination of correct statements is:",
+      "options": [
+        "a 2, 3 and 5",
+        "b 1, 3, 4 and 5",
+        "c 3 and 5",
+        "d 1, 4 and 5"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+

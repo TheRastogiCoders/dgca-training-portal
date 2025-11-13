@@ -1,0 +1,107 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "20",
+  "chapter_title": "Gas Turbines - Thrust",
+  "questions": [
+    {
+      "id": "1",
+      "question": "In a gas turbine engine:",
+      "options": [
+        "a. ram pressure is maximum at the start of the take-off run",
+        "b. ram pressure is unaffected by airspeed",
+        "c. thrust is unaffected by the aircraft's forward speed",
+        "d. thrust is maximum and ram pressure at minimum at the start of the take-off run"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "2",
+      "question": "In a high bypass engine whose fan max rpm is 20 000 rpm, when turning at 5000 rpm will develop approx.",
+      "options": [
+        "a. 25% take-off thrust",
+        "b. 50% take-off thrust",
+        "c. 5% take-off thrust",
+        "d. 15% take-off thrust"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "3",
+      "question": "With an increase in altitude which of the following statements are correct for a jet aircraft with constant engine speed for a fixed throttle setting?\n1. Temperature and pressure reduce with a resulting drop in thrust\n2. Fuel consumption will increase\n3. Fuel consumption will decrease\n4. Specific fuel consumption will increase\n5. Specific fuel consumption will decrease\n6. Specific fuel consumption stays relatively the same\n7. Temperature and pressure will reduce, resulting in an increase in thrust",
+      "options": [
+        "a. 1, 3, 6",
+        "b. 2, 4, 1",
+        "c. 7, 2, 4",
+        "d. 1, 2, 5"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "4",
+      "question": "The maximum thrust that a jet engine can develop will be:",
+      "options": [
+        "a. take-off thrust",
+        "b. go around thrust",
+        "c. max climb thrust",
+        "d. max static thrust"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "5",
+      "question": "As temperature .... air density.............. and the mass of air for given engine speed ............ therefore thrust ............ To maintain the compressor speed however ............ fuel must be added or the compressor will ............",
+      "options": [
+        "a. decreases decreases increases increases less slow down",
+        "b. increases decreases decreases increases more slow down",
+        "c. decreases increases increases increases more slow down",
+        "d. increases decreases increases decreases less speed up"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "From a standing start with an increase in forward speed jet thrust will:",
+      "options": [
+        "a. increase",
+        "b. stay the same",
+        "c. decrease",
+        "d. decrease then recover but will never achieve its initial setting"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "7",
+      "question": "On a turboprop aircraft with a 14 stage axial flow compressor while climbing it will experience:",
+      "options": [
+        "a. increase shaft horsepower increase jet thrust increase fuel consumption",
+        "b. decrease shaft horsepower decrease jet thrust decrease fuel consumption",
+        "c. decrease shaft horsepower increase jet thrust decrease fuel consumption",
+        "d. decrease shaft horsepower decrease jet thrust increase fuel consumption"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "8",
+      "question": "On a turboprop aircraft with a 14 stage axial flow compressor while increasing forward speed, it will experience:",
+      "options": [
+        "a. increase shaft horsepower increase jet thrust",
+        "b. decrease shaft horsepower decrease jet thrust",
+        "c. decrease shaft horsepower increase jet thrust",
+        "d. increase shaft horsepower decrease jet thrust"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "9",
+      "question": "On a part throttled engine, take-off thrust would be achieved:",
+      "options": [
+        "a. later than normal due to pressure in the compressor being low",
+        "b. later than normal due to the EPR being low",
+        "c. at less than full throttle position",
+        "d. later than normal due to the EPR being high"
+      ],
+      "answer": "c"
+    }
+  ]
+}
+

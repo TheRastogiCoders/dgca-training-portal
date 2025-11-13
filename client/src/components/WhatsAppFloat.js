@@ -1,19 +1,12 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 
 const WhatsAppFloat = () => {
-  const navigate = useNavigate();
-
   const handleWhatsAppClick = () => {
     window.open(
       'https://whatsapp.com/channel/0029VbBDiE40gcfF04q94G44',
       '_blank',
       'noopener,noreferrer'
     );
-  };
-
-  const handleGmailClick = () => {
-    navigate('/support/contact');
   };
 
   return (
@@ -69,56 +62,16 @@ const WhatsAppFloat = () => {
           /* Ensure buttons never overlap due to transforms */
           .fab-btn { will-change: transform; }
 
-          /* Mobile: place Gmail on bottom-left, WhatsApp stays bottom-right */
+          /* Mobile: adjust WhatsApp position to be above sidebar */
           @media (max-width: 767px) {
-            .fab-email {
-              position: fixed;
-              left: calc(var(--safe-left, 0px) + 16px);
-              right: auto;
-              bottom: calc(var(--safe-bottom, 0px) + 88px);
-              z-index: 60;
+            .fab-container {
+              bottom: calc(var(--safe-bottom, 0px) + 120px);
             }
           }
         `}
       </style>
 
       <div className="fab-container">
-        {/* 📧 Support Floating Button */}
-        <button
-          onClick={handleGmailClick}
-          className="fab-btn fab-email relative flex items-center justify-center w-12 h-12 md:w-14 md:h-14 bg-white border border-gray-200 rounded-full shadow-2xl hover:shadow-gray-300/60 transition-transform duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-gray-200"
-          aria-label="Contact Support"
-          title="Contact Support"
-        >
-          {/* Gmail SVG */}
-          <svg
-            className="w-6 h-6 md:w-8 md:h-8 animate-pulse"
-            viewBox="0 0 256 256"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-            focusable="false"
-          >
-            <path fill="#EA4335" d="M24 64l104 78 104-78v24l-104 78L24 88V64z" />
-            <path fill="#FBBC04" d="M24 64l104 78 104-78h-32l-72 54-72-54H24z" />
-            <path fill="#34A853" d="M56 64v128H24V64h32z" />
-            <path fill="#4285F4" d="M232 64v128h-32V64h32z" />
-          </svg>
-
-          {/* Ping effect */}
-          <div className="hidden md:block absolute inset-0 rounded-full bg-rose-500/30 animate-ping opacity-40"></div>
-
-          {/* Notification dot */}
-          <div className="hidden md:flex absolute -top-1 -right-1 w-4 h-4 bg-rose-500 rounded-full items-center justify-center shadow-lg">
-            <div className="w-1.5 h-1.5 bg-white rounded-full"></div>
-          </div>
-
-          {/* Tooltip */}
-          <div className="absolute -left-28 top-1/2 transform -translate-y-1/2 bg-gray-900/90 backdrop-blur-sm text-white text-xs font-medium px-2.5 py-1.5 rounded-lg opacity-0 hover:opacity-100 transition-all duration-300 whitespace-nowrap pointer-events-none">
-            Contact Support
-            <div className="absolute right-0 top-1/2 transform translate-x-1 -translate-y-1/2 w-0 h-0 border-l-4 border-l-gray-900/90 border-t-4 border-t-transparent border-b-4 border-b-transparent"></div>
-          </div>
-        </button>
-
         {/* 💬 WhatsApp Floating Button */}
         <button
           onClick={handleWhatsAppClick}

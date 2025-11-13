@@ -1,0 +1,184 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "6",
+  "chapter_title": "Piston Engines - Fuel",
+  "questions": [
+    {
+      "id": "1",
+      "question": "If the specific gravity of a fuel is known to be 0.7, 100 imperial gallons of it will weigh:",
+      "options": [
+        "a. 700 lb",
+        "b. 70 lb",
+        "c. 7000 lb",
+        "d. 7100 lb"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "2",
+      "question": "A fuel grade which is used in typical aircraft engines is:",
+      "options": [
+        "a. DTD. 585/100",
+        "b. DERD 2479",
+        "c. AVGAS 100",
+        "d. DERD 2484"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "3",
+      "question": "The \"anti-knock\" value of a fuel is its:",
+      "options": [
+        "a. degree of resistance to pre-ignition",
+        "b. resistance to adiabatic combustion",
+        "c. ability to oppose burning",
+        "d. resistance to detonation"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "4",
+      "question": "The differences between AVGAS 100 and AVGAS 100LL are:\nColour\nAnti-knock value",
+      "options": [
+        "a. same, same",
+        "b. same, different",
+        "c. different, same",
+        "d. different, different"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "5",
+      "question": "The octane rating of a fuel is determined by comparison with mixtures of:",
+      "options": [
+        "a. methane and orthodentine",
+        "b. heptane and iso-octane",
+        "c. methane and iso-octane",
+        "d. heptane and orthodentine"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "6",
+      "question": "In the internal combustion engine, detonation occurs due to:",
+      "options": [
+        "a. the use of too high an rpm with too little manifold pressure",
+        "b. the use of the wrong grade of oil",
+        "c. the cylinder temperatures and pressures being too low",
+        "d. excessive combustion temperatures and pressures"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "7",
+      "question": "The calorific value of a fuel is the:",
+      "options": [
+        "a. kinetic energy contained within it",
+        "b. heat energy in the fuel",
+        "c. heat energy required to raise the temperature of the fuel to its boiling point",
+        "d. heat energy required to raise the temperature of the fuel to its boiling point from absolute zero"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "8",
+      "question": "The octane rating of a particular grade of fuel is given as 100/130, this indicates that:",
+      "options": [
+        "a. it will act as both 100 octane and 130 octane fuel at take-off power settings",
+        "b. with a rich mixture it will act as 100 octanes, and with a weak mixture it will act as 130 octanes",
+        "c. its anti-knock qualities are identical to iso-octane",
+        "d. with a weak mixture it will act as 100 octane, and with a rich mixture it will act as a 130 octane fuel"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "9",
+      "question": "Tetra-ethyl lead is added to some aviation fuel to:",
+      "options": [
+        "a. decrease its octane rating",
+        "b. decrease the risk of detonation",
+        "c. increase its calorific value",
+        "d. increase its specific gravity"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "10",
+      "question": "If the vent pipe of an aircraft's fuel tank becomes blocked, it will cause:",
+      "options": [
+        "a. the pressure in the tank to fall when fuel is used",
+        "b. the pressure in the tank to rise when fuel is used",
+        "c. the evaporation rate of the fuel to decrease as fuel is used from the tank",
+        "d. the fuel pressure at the carburettor to rise"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "11",
+      "question": "Detonation is liable to occur in the cylinders:",
+      "options": [
+        "a. with an over rich mixture at idle power",
+        "b. with a weak mixture and high cylinder head temperature",
+        "c. with a rich mixture at high power settings",
+        "d. at very low engine speed"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "12",
+      "question": "Pre-ignition refers to the condition when:",
+      "options": [
+        "a. a rich mixture is ignited by the spark plug",
+        "b. the spark plug ignites the mixture too early",
+        "c. the mixture is ignited by abnormal conditions within the cylinder before the normal ignition point",
+        "d. the mixture burns in the inlet manifold"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "13",
+      "question": "An exhaust gas temperature gauge is powered by:",
+      "options": [
+        "a. 12 V DC",
+        "b. 115 V AC",
+        "c. 28 V DC",
+        "d. A thermocouple which generates its own voltage."
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "14",
+      "question": "Flame Rate is the term used to describe the speed at which:",
+      "options": [
+        "a. the mixture burns within the cylinder",
+        "b. the combustion pressure rises within the cylinder",
+        "c. peroxide forms within the cylinder",
+        "d. fulminates form with the cylinder"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "15",
+      "question": "The colour of 100/130 grade low lead fuel is:",
+      "options": [
+        "a. green",
+        "b. blue",
+        "c. red",
+        "d. straw yellow"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "16",
+      "question": "Diesel fuel (AVTUR) is:",
+      "options": [
+        "a. lighter per unit volume than AVGAS",
+        "b. heavier per unit volume than AVGAS",
+        "c. more likely to ignite when exposed to a naked flame.",
+        "d. has less energy per unit volume than AVGAS."
+      ],
+      "answer": "b"
+    }
+  ]
+}
+

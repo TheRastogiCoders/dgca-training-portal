@@ -1,12 +1,45 @@
-import React, { useState } from 'react';
+import React, { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
+import usePersistentState from '../hooks/usePersistentState';
+
+const EXCLUDED_CHAPTER_NAMES = new Set([
+  'Overview and Definitions',
+  'Revision Questions',
+  'Index'
+]);
+
+const sanitizeChapters = (chapters = []) =>
+  (chapters || [])
+    .filter((chapter) => !EXCLUDED_CHAPTER_NAMES.has(chapter.name))
+    .map((chapter, index) => ({
+      ...chapter,
+      id: index + 1
+    }));
+
+const sanitizeBook = (book) =>
+  book
+    ? {
+        ...book,
+        chapters: sanitizeChapters(book.chapters)
+      }
+    : book;
+
+const slugify = (name) => {
+  if (!name) return '';
+  // Handle special cases like "Directional Gyro Indicator (DGI)" -> "directional-gyro-indicator-dgi"
+  return name
+    .toLowerCase()
+    .replace(/\(([^)]+)\)/g, (match, acronym) => `-${acronym.toLowerCase()}`) // Extract acronyms from parentheses
+    .replace(/[^a-z0-9]+/g, '-') // Replace non-alphanumeric with hyphens
+    .replace(/(^-|-$)+/g, ''); // Remove leading/trailing hyphens
+};
 
 const QuestionBank = () => {
   const navigate = useNavigate();
-  const [selectedSubject, setSelectedSubject] = useState(null);
-  const [selectedBook, setSelectedBook] = useState(null);
+  const [selectedSubjectId, setSelectedSubjectId] = usePersistentState('questionBank:selectedSubjectId', null);
+  const [selectedBookKey, setSelectedBookKey] = usePersistentState('questionBank:selectedBookKey', null);
 
   const subjects = [
     {
@@ -106,10 +139,18 @@ const QuestionBank = () => {
     },
     {
       id: 2,
+      title: "RK Bali",
+      description: "DGCA-focused preparation materials",
+      icon: "📗",
+      color: "from-emerald-500 to-green-600",
+      slug: "rk-bali"
+    },
+    {
+      id: 3,
       title: "IC Joshi",
       description: "Advanced DGCA exam preparation",
       icon: "📖",
-      color: "from-green-500 to-green-600",
+      color: "from-indigo-500 to-purple-600",
       slug: "ic-joshi"
     }
   ];
@@ -118,32 +159,29 @@ const QuestionBank = () => {
   const technicalGeneralBooks = [
     {
       id: 1,
-      title: "Principles of Flight",
-      description: "ATPL Ground Training Series",
+      title: "Principles of Flight 2014",
+      description: "Principles of Flight (2014 Edition)",
       icon: "🛫",
       color: "from-indigo-500 to-blue-600",
-      slug: "principles-of-flight",
-      totalQuestions: 720,
+      slug: "principles-of-flight-2014",
+      totalQuestions: 244,
       difficulty: "Medium",
       chapters: [
-        { id: 1, name: "Overview and Definitions", questions: 40, difficulty: "Easy" },
-        { id: 2, name: "The Atmosphere", questions: 40, difficulty: "Easy" },
-        { id: 3, name: "Basic Aerodynamic Theory", questions: 60, difficulty: "Medium" },
-        { id: 4, name: "Subsonic Airflow", questions: 40, difficulty: "Medium" },
-        { id: 5, name: "Lift", questions: 70, difficulty: "Medium" },
-        { id: 6, name: "Drag", questions: 60, difficulty: "Medium" },
-        { id: 7, name: "Stalling", questions: 50, difficulty: "Medium" },
-        { id: 8, name: "High Lift Devices", questions: 50, difficulty: "Medium" },
-        { id: 9, name: "Airframe Contamination", questions: 30, difficulty: "Easy" },
-        { id: 10, name: "Stability and Control", questions: 60, difficulty: "Hard" },
-        { id: 11, name: "Controls", questions: 40, difficulty: "Easy" },
-        { id: 12, name: "Flight Mechanics", questions: 60, difficulty: "Hard" },
-        { id: 13, name: "High Speed Flight", questions: 55, difficulty: "Hard" },
-        { id: 14, name: "Limitations", questions: 40, difficulty: "Medium" },
-        { id: 15, name: "Windshear", questions: 30, difficulty: "Medium" },
-        { id: 16, name: "Propellers", questions: 35, difficulty: "Medium" },
-        { id: 17, name: "Revision Questions", questions: 50, difficulty: "Medium" },
-        { id: 18, name: "Index", questions: 0, difficulty: "Easy" }
+        { id: 1, name: "The Atmosphere", questions: 21, difficulty: "Easy" },
+        { id: 2, name: "Basic Aerodynamic Theory", questions: 9, difficulty: "Medium" },
+        { id: 3, name: "Subsonic Airflow", questions: 20, difficulty: "Medium" },
+        { id: 4, name: "Lift", questions: 36, difficulty: "Medium" },
+        { id: 5, name: "Drag", questions: 5, difficulty: "Medium" },
+        { id: 6, name: "Stalling", questions: 37, difficulty: "Medium" },
+        { id: 7, name: "High Lift Devices", questions: 0, difficulty: "Medium" },
+        { id: 8, name: "Airframe Contamination", questions: 7, difficulty: "Easy" },
+        { id: 9, name: "Stability and Control", questions: 31, difficulty: "Hard" },
+        { id: 10, name: "Controls", questions: 35, difficulty: "Easy" },
+        { id: 11, name: "Flight Mechanics", questions: 0, difficulty: "Hard" },
+        { id: 12, name: "High Speed Flight", questions: 27, difficulty: "Hard" },
+        { id: 13, name: "Limitations", questions: 13, difficulty: "Medium" },
+        { id: 14, name: "Windshear", questions: 17, difficulty: "Medium" },
+        { id: 15, name: "Propellers", questions: 17, difficulty: "Medium" }
       ]
     },
     {
@@ -153,26 +191,25 @@ const QuestionBank = () => {
       icon: "🛩️",
       color: "from-sky-500 to-cyan-600",
       slug: "airframes-and-systems",
-      totalQuestions: 500,
+      totalQuestions: 445,
       difficulty: "Medium",
       chapters: [
-        { id: 1, name: "Fuselage, Wings and Stabilizing Surfaces", questions: 40, difficulty: "Medium" },
-        { id: 2, name: "Basic Hydraulics", questions: 45, difficulty: "Medium" },
+        { id: 1, name: "Fuselage, Wings and Stabilizing Surfaces", questions: 20, difficulty: "Medium" },
+        { id: 2, name: "Basic Hydraulics", questions: 50, difficulty: "Medium" },
         { id: 3, name: "Landing Gear", questions: 40, difficulty: "Easy" },
         { id: 4, name: "Aircraft Wheels", questions: 25, difficulty: "Easy" },
         { id: 5, name: "Aircraft Tyres", questions: 25, difficulty: "Easy" },
-        { id: 6, name: "Aircraft Brakes", questions: 35, difficulty: "Medium" },
+        { id: 6, name: "Aircraft Brakes", questions: 24, difficulty: "Medium" },
         { id: 7, name: "Flight Control Systems", questions: 35, difficulty: "Medium" },
         { id: 8, name: "Flight Controls", questions: 35, difficulty: "Medium" },
-        { id: 9, name: "Powered Flying Controls", questions: 40, difficulty: "Hard" },
+        { id: 9, name: "Powered Flying Controls", questions: 10, difficulty: "Hard" },
         { id: 10, name: "Aircraft Pneumatic Systems", questions: 40, difficulty: "Medium" },
-        { id: 11, name: "Pressurization Systems", questions: 35, difficulty: "Medium" },
+        { id: 11, name: "Pressurization Systems", questions: 46, difficulty: "Medium" },
         { id: 12, name: "Ice and Rain Protection", questions: 30, difficulty: "Medium" },
-        { id: 13, name: "Aircraft Oxygen Equipment", questions: 30, difficulty: "Easy" },
+        { id: 13, name: "Aircraft Oxygen Equipment", questions: 26, difficulty: "Easy" },
         { id: 14, name: "Smoke Detection", questions: 20, difficulty: "Easy" },
         { id: 15, name: "Fire Detection and Protection", questions: 30, difficulty: "Medium" },
-        { id: 16, name: "Aircraft Fuel Systems", questions: 40, difficulty: "Medium" },
-        { id: 17, name: "Index", questions: 0, difficulty: "Easy" }
+        { id: 16, name: "Aircraft Fuel Systems", questions: 34, difficulty: "Medium" }
       ]
     },
     {
@@ -182,27 +219,26 @@ const QuestionBank = () => {
       icon: "🔌",
       color: "from-teal-500 to-emerald-600",
       slug: "electrics-and-electronics",
-      totalQuestions: 540,
+      totalQuestions: 450,
       difficulty: "Medium",
       chapters: [
-        { id: 1, name: "DC Electrics - Basic Principles", questions: 35, difficulty: "Easy" },
+        { id: 1, name: "DC Electrics - Basic Principles", questions: 56, difficulty: "Easy" },
         { id: 2, name: "DC Electrics - Switches", questions: 25, difficulty: "Easy" },
-        { id: 3, name: "DC Electrics - Circuit Protection and Capacitors", questions: 35, difficulty: "Medium" },
+        { id: 3, name: "DC Electrics - Circuit Protection and Capacitors", questions: 20, difficulty: "Medium" },
         { id: 4, name: "DC Electrics - Batteries", questions: 30, difficulty: "Easy" },
-        { id: 5, name: "DC Electrics - Magnetism", questions: 30, difficulty: "Medium" },
-        { id: 6, name: "DC Electrics - Generators and Alternators", questions: 35, difficulty: "Medium" },
-        { id: 7, name: "DC Electrics - DC Motors", questions: 35, difficulty: "Medium" },
-        { id: 8, name: "DC Electrics - Aircraft Electrical Power Systems", questions: 35, difficulty: "Medium" },
-        { id: 9, name: "DC Electrics - Bonding and Screening", questions: 20, difficulty: "Easy" },
-        { id: 10, name: "DC Electrics - Specimen Questions", questions: 20, difficulty: "Easy" },
-        { id: 11, name: "AC Electrics - Introduction to AC", questions: 35, difficulty: "Medium" },
-        { id: 12, name: "AC Electrics - Alternators", questions: 30, difficulty: "Medium" },
-        { id: 13, name: "AC Electrics - Practical Aircraft Systems", questions: 35, difficulty: "Medium" },
-        { id: 14, name: "AC Electrics - Transformers", questions: 25, difficulty: "Medium" },
-        { id: 15, name: "AC Electrics - AC Motors", questions: 25, difficulty: "Medium" },
+        { id: 5, name: "DC Electrics - Magnetism", questions: 9, difficulty: "Medium" },
+        { id: 6, name: "DC Electrics - Generators and Alternators", questions: 20, difficulty: "Medium" },
+        { id: 7, name: "DC Electrics - DC Motors", questions: 8, difficulty: "Medium" },
+        { id: 8, name: "DC Electrics - Aircraft Electrical Power Systems", questions: 39, difficulty: "Medium" },
+        { id: 9, name: "DC Electrics - Bonding and Screening", questions: 7, difficulty: "Easy" },
+        { id: 10, name: "DC Electrics - Specimen Questions", questions: 31, difficulty: "Easy" },
+        { id: 11, name: "AC Electrics - Introduction to AC", questions: 32, difficulty: "Medium" },
+        { id: 12, name: "AC Electrics - Alternators", questions: 65, difficulty: "Medium" },
+        { id: 13, name: "AC Electrics - Practical Aircraft Systems", questions: 11, difficulty: "Medium" },
+        { id: 14, name: "AC Electrics - Transformers", questions: 7, difficulty: "Medium" },
+        { id: 15, name: "AC Electrics - AC Motors", questions: 10, difficulty: "Medium" },
         { id: 16, name: "AC Electrics - Semiconductors", questions: 25, difficulty: "Medium" },
-        { id: 17, name: "AC Electrics - Logic Gates", questions: 25, difficulty: "Medium" },
-        { id: 18, name: "Index", questions: 0, difficulty: "Easy" }
+        { id: 17, name: "AC Electrics - Logic Gates", questions: 15, difficulty: "Medium" }
       ]
     },
     {
@@ -212,79 +248,164 @@ const QuestionBank = () => {
       icon: "🔥",
       color: "from-orange-500 to-amber-600",
       slug: "powerplant",
-      totalQuestions: 780,
+      totalQuestions: 393,
       difficulty: "Hard",
       chapters: [
-        { id: 1, name: "Piston Engines - Introduction", questions: 25, difficulty: "Easy" },
-        { id: 2, name: "Piston Engines - General", questions: 30, difficulty: "Easy" },
-        { id: 3, name: "Piston Engines - Lubrication", questions: 30, difficulty: "Medium" },
-        { id: 4, name: "Piston Engines - Cooling", questions: 30, difficulty: "Medium" },
-        { id: 5, name: "Piston Engines - Ignition", questions: 35, difficulty: "Medium" },
-        { id: 6, name: "Piston Engines - Fuel", questions: 30, difficulty: "Medium" },
-        { id: 7, name: "Piston Engines - Mixture", questions: 25, difficulty: "Medium" },
-        { id: 8, name: "Piston Engines - Carburettors", questions: 30, difficulty: "Medium" },
-        { id: 9, name: "Piston Engines - Icing", questions: 25, difficulty: "Easy" },
-        { id: 10, name: "Piston Engines - Fuel Injection", questions: 30, difficulty: "Medium" },
-        { id: 11, name: "Piston Engines - Performance and Power Augmentation", questions: 35, difficulty: "Hard" },
-        { id: 12, name: "Piston Engines - Propellers", questions: 35, difficulty: "Medium" },
-        { id: 13, name: "Gas Turbines - Introduction", questions: 25, difficulty: "Easy" },
-        { id: 14, name: "Gas Turbines - Air Inlets", questions: 25, difficulty: "Medium" },
-        { id: 15, name: "Gas Turbines - Compressors", questions: 35, difficulty: "Hard" },
-        { id: 16, name: "Gas Turbines - Combustion Chambers", questions: 35, difficulty: "Hard" },
-        { id: 17, name: "Gas Turbines - The Turbine Assembly", questions: 35, difficulty: "Hard" },
-        { id: 18, name: "Gas Turbines - The Exhaust System", questions: 25, difficulty: "Medium" },
-        { id: 19, name: "Gas Turbines - Lubrication", questions: 25, difficulty: "Medium" },
-        { id: 20, name: "Gas Turbines - Thrust", questions: 25, difficulty: "Medium" },
-        { id: 21, name: "Gas Turbines - Reverse Thrust", questions: 20, difficulty: "Medium" },
-        { id: 22, name: "Gas Turbines - Gearboxes and Accessory Drives", questions: 25, difficulty: "Medium" },
-        { id: 23, name: "Gas Turbines - Ignition Systems", questions: 20, difficulty: "Easy" },
-        { id: 24, name: "Gas Turbines - Auxiliary Power Units and Engine Starting", questions: 30, difficulty: "Medium" },
-        { id: 25, name: "Gas Turbines - Fuels", questions: 25, difficulty: "Medium" },
-        { id: 26, name: "Gas Turbines - Fuel Systems", questions: 30, difficulty: "Medium" },
-        { id: 27, name: "Gas Turbines - Bleed Air", questions: 25, difficulty: "Medium" },
-        { id: 28, name: "Revision Questions", questions: 40, difficulty: "Medium" },
-        { id: 29, name: "Index", questions: 0, difficulty: "Easy" }
+        { id: 1, name: "Piston Engines - Introduction", questions: 0, difficulty: "Easy" },
+        { id: 2, name: "Piston Engines - General", questions: 55, difficulty: "Easy" },
+        { id: 3, name: "Piston Engines - Lubrication", questions: 10, difficulty: "Medium" },
+        { id: 4, name: "Piston Engines - Cooling", questions: 6, difficulty: "Medium" },
+        { id: 5, name: "Piston Engines - Ignition", questions: 10, difficulty: "Medium" },
+        { id: 6, name: "Piston Engines - Fuel", questions: 16, difficulty: "Medium" },
+        { id: 7, name: "Piston Engines - Mixture", questions: 10, difficulty: "Medium" },
+        { id: 8, name: "Piston Engines - Carburettors", questions: 20, difficulty: "Medium" },
+        { id: 9, name: "Piston Engines - Icing", questions: 0, difficulty: "Easy" },
+        { id: 10, name: "Piston Engines - Fuel Injection", questions: 0, difficulty: "Medium" },
+        { id: 11, name: "Piston Engines - Performance and Power Augmentation", questions: 62, difficulty: "Hard" },
+        { id: 12, name: "Piston Engines - Propellers", questions: 30, difficulty: "Medium" },
+        { id: 13, name: "Gas Turbines - Introduction", questions: 18, difficulty: "Easy" },
+        { id: 14, name: "Gas Turbines - Air Inlets", questions: 7, difficulty: "Medium" },
+        { id: 15, name: "Gas Turbines - Compressors", questions: 40, difficulty: "Hard" },
+        { id: 16, name: "Gas Turbines - Combustion Chambers", questions: 10, difficulty: "Hard" },
+        { id: 17, name: "Gas Turbines - The Turbine Assembly", questions: 10, difficulty: "Hard" },
+        { id: 18, name: "Gas Turbines - The Exhaust System", questions: 11, difficulty: "Medium" },
+        { id: 19, name: "Gas Turbines - Lubrication", questions: 17, difficulty: "Medium" },
+        { id: 20, name: "Gas Turbines - Thrust", questions: 9, difficulty: "Medium" },
+        { id: 21, name: "Gas Turbines - Reverse Thrust", questions: 6, difficulty: "Medium" },
+        { id: 22, name: "Gas Turbines - Gearboxes and Accessory Drives", questions: 2, difficulty: "Medium" },
+        { id: 23, name: "Gas Turbines - Ignition Systems", questions: 8, difficulty: "Easy" },
+        { id: 24, name: "Gas Turbines - Auxiliary Power Units and Engine Starting", questions: 20, difficulty: "Medium" },
+        { id: 25, name: "Gas Turbines - Fuels", questions: 3, difficulty: "Medium" },
+        { id: 26, name: "Gas Turbines - Fuel Systems", questions: 13, difficulty: "Medium" },
+        { id: 27, name: "Gas Turbines - Bleed Air", questions: 0, difficulty: "Medium" }
       ]
     }
   ];
 
+const airNavigationOxfordBooks = [
+  {
+    id: 1,
+    title: "Instrument 2014",
+    description: "Instrument Flying Techniques & Procedures (2014 Edition)",
+    icon: "🛩️",
+    color: "from-indigo-500 to-purple-500",
+    slug: "instrument-2014",
+    totalQuestions: 220,
+    difficulty: "Medium",
+    chapters: [
+      { id: 1, name: "Characteristics and General Definitions", questions: 0, difficulty: "Medium" },
+      { id: 2, name: "Pitot and Static Sources", questions: 8, difficulty: "Medium" },
+      { id: 3, name: "Air Temperature Measurement", questions: 8, difficulty: "Medium" },
+      { id: 4, name: "The Airspeed Indicator (ASI)", questions: 9, difficulty: "Medium" },
+      { id: 5, name: "The Pressure Altimeter", questions: 7, difficulty: "Medium" },
+      { id: 6, name: "The Vertical Speed Indicator", questions: 9, difficulty: "Medium" },
+      { id: 7, name: "The Machmeter", questions: 9, difficulty: "Medium" },
+      { id: 8, name: "Air Data Computer", questions: 0, difficulty: "Medium" },
+      { id: 9, name: "Terrestrial Magnetism", questions: 7, difficulty: "Medium" },
+      { id: 10, name: "The Direct Indicating Compass", questions: 9, difficulty: "Medium" },
+      { id: 11, name: "Gyroscopes", questions: 9, difficulty: "Medium" },
+      { id: 12, name: "Directional Gyro Indicator (DGI)", questions: 10, difficulty: "Medium" },
+      { id: 13, name: "The Artificial Horizon", questions: 9, difficulty: "Medium" },
+      { id: 14, name: "The Turn and Slip Indicator", questions: 6, difficulty: "Medium" },
+      { id: 15, name: "The Turn Co-ordinator", questions: 3, difficulty: "Medium" },
+      { id: 16, name: "Aircraft Magnetism", questions: 7, difficulty: "Medium" },
+      { id: 17, name: "Remote Indicating Magnetic Compass", questions: 6, difficulty: "Medium" },
+      { id: 18, name: "Inertial Navigation Systems", questions: 8, difficulty: "Medium" },
+      { id: 19, name: "Inertial Reference System", questions: 1, difficulty: "Medium" },
+      { id: 20, name: "Radio Altimeter", questions: 0, difficulty: "Medium" },
+      { id: 21, name: "Flight Management System", questions: 0, difficulty: "Medium" },
+      { id: 22, name: "Electronic Flight Information Systems", questions: 16, difficulty: "Medium" },
+      { id: 23, name: "Basic Computers", questions: 0, difficulty: "Medium" },
+      { id: 24, name: "Future Air Navigation Systems (FANS)", questions: 0, difficulty: "Medium" },
+      { id: 25, name: "Flight Director Systems", questions: 0, difficulty: "Medium" },
+      { id: 26, name: "Autopilot", questions: 0, difficulty: "Medium" },
+      { id: 27, name: "Autoland", questions: 0, difficulty: "Medium" },
+      { id: 28, name: "Autothrottle", questions: 0, difficulty: "Medium" },
+      { id: 29, name: "Yaw Dampers", questions: 0, difficulty: "Medium" },
+      { id: 30, name: "Control Laws", questions: 0, difficulty: "Medium" },
+      { id: 31, name: "AFCS Revision Questions", questions: 56, difficulty: "Medium" },
+      { id: 32, name: "Flight Warning Systems", questions: 0, difficulty: "Medium" },
+      { id: 33, name: "Aerodynamic Warnings", questions: 0, difficulty: "Medium" },
+      { id: 34, name: "Ground Proximity Warning System", questions: 13, difficulty: "Medium" },
+      { id: 35, name: "Airborne Collision and Avoidance System", questions: 5, difficulty: "Medium" },
+      { id: 36, name: "Flight Data Recorder", questions: 0, difficulty: "Medium" },
+      { id: 37, name: "Cockpit Voice Recorder", questions: 5, difficulty: "Medium" },
+      { id: 38, name: "Engine Instrumentation", questions: 0, difficulty: "Medium" },
+      { id: 39, name: "Electronic Instrumentation", questions: 0, difficulty: "Medium" }
+    ]
+  }
+];
+
   // Filter books based on selected subject
   const getAvailableBooks = (subject) => {
-    if (subject && subject.title === "Meteorology") {
-      // Show both books for Meteorology
-      return allBooks;
-    } else if (subject && subject.title === "Technical General") {
+    if (subject?.title === "Technical General") {
       // First step for Technical General: show only CAE Oxford
       return allBooks.filter(book => book.title === "CAE Oxford");
-    } else {
-      // Show only CAE Oxford for all other subjects
-      return allBooks.filter(book => book.title === "CAE Oxford");
     }
+    if (subject?.title === "Air Regulations") {
+      return allBooks.filter(book => ["CAE Oxford", "RK Bali"].includes(book.title));
+    }
+    if (subject?.title === "Air Navigation") {
+      return allBooks.filter(book => ["CAE Oxford", "RK Bali"].includes(book.title));
+    }
+    if (subject?.title === "Meteorology") {
+      return allBooks.filter(book => ["CAE Oxford", "IC Joshi"].includes(book.title));
+    }
+    return allBooks.filter(book => book.title === "CAE Oxford");
   };
 
+  const selectedSubject = useMemo(
+    () => subjects.find((subject) => subject.id === selectedSubjectId) || null,
+    [selectedSubjectId]
+  );
+
+  const resolveSelectedBook = useMemo(() => {
+    if (!selectedSubject) return null;
+
+    const availableBooks = getAvailableBooks(selectedSubject);
+    const directBook = availableBooks.find((book) => book.slug === selectedBookKey);
+    if (directBook) {
+      return sanitizeBook(directBook);
+    }
+
+    if (selectedSubject.title === 'Technical General') {
+      const technicalBook = technicalGeneralBooks.find((book) => book.slug === selectedBookKey);
+      if (technicalBook) {
+        return sanitizeBook(technicalBook);
+      }
+    }
+
+    if (selectedSubject.title === 'Air Navigation') {
+      const navBook = airNavigationOxfordBooks.find((book) => book.slug === selectedBookKey);
+      if (navBook) {
+        return sanitizeBook(navBook);
+      }
+    }
+
+    return null;
+  }, [selectedSubject, selectedBookKey]);
+
   const handleSubjectClick = (subject) => {
-    setSelectedSubject(subject);
-    setSelectedBook(null);
+    setSelectedSubjectId(subject?.id ?? null);
+    setSelectedBookKey(null);
   };
 
   const handleBookClick = (book) => {
-    // Always show chapters after selecting a book (no login required)
-    setSelectedBook(book);
+    setSelectedBookKey(book.slug);
   };
 
   const handleChapterClick = (subject, chapter, book) => {
-    const subjectSlug = subject.title.toLowerCase().replace(/\s+/g, '-');
-    const chapterSlug = (chapter?.name || 'overview').toLowerCase().replace(/\s+/g, '-');
-    navigate(`/practice/${subjectSlug}/${book.slug}/${chapterSlug}`);
+    const chapterSlug = slugify(chapter?.name || 'overview');
+    navigate(`/practice-test/book/${book.slug}/${chapterSlug}`);
   };
 
   const handleBackToSubjects = () => {
-    setSelectedSubject(null);
-    setSelectedBook(null);
+    setSelectedSubjectId(null);
+    setSelectedBookKey(null);
   };
 
   const handleBackToBooks = () => {
-    setSelectedBook(null);
+    setSelectedBookKey(null);
   };
 
   const getDifficultyColor = (difficulty) => {
@@ -307,32 +428,32 @@ const QuestionBank = () => {
           <div className="max-w-6xl mx-auto">
             {/* Header */}
             <div className="text-center mb-12">
-              <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">
+              <h1 className="text-3xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-3">
                 Question Bank
               </h1>
-              <p className="text-xl text-gray-900 mb-6">
+              <p className="text-base md:text-lg text-gray-800 bg-white/70 inline-block px-4 py-2 rounded-full shadow-sm">
                 Practice questions organized by subject and chapter
               </p>
               {/* Open access: no login required banner for question bank */}
             </div>
 
             {/* Back Button */}
-            {(selectedSubject || selectedBook) && (
+            {(selectedSubject || resolveSelectedBook) && (
               <div className="mb-6">
                 <button
-                  onClick={selectedBook ? handleBackToBooks : handleBackToSubjects}
+                  onClick={selectedBookKey ? handleBackToBooks : handleBackToSubjects}
                   className="flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors"
                 >
                   <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                   </svg>
-                  {selectedBook ? 'Back to Books' : 'Back to Subjects'}
+                  {selectedBookKey ? 'Back to Books' : 'Back to Subjects'}
                 </button>
               </div>
             )}
 
             {/* Subjects View */}
-            {!selectedSubject && !selectedBook && (
+            {!selectedSubject && !resolveSelectedBook && (
               <>
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
@@ -398,7 +519,7 @@ const QuestionBank = () => {
             )}
 
             {/* Book Selection View */}
-            {selectedSubject && !selectedBook && (
+            {selectedSubject && !resolveSelectedBook && (
               <div>
                 <div className="text-center mb-8">
                   <div className={`w-20 h-20 bg-gradient-to-r ${selectedSubject.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-4`}>
@@ -450,7 +571,7 @@ const QuestionBank = () => {
             )}
 
             {/* Chapters/Sub-Books View */}
-            {selectedSubject && selectedBook && (
+            {selectedSubject && resolveSelectedBook && (
               <div>
                 <div className="text-center mb-8">
                   <div className={`w-20 h-20 bg-gradient-to-r ${selectedSubject.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-4`}>
@@ -459,12 +580,12 @@ const QuestionBank = () => {
                   <h2 className="text-3xl font-bold text-gray-900 mb-2">{selectedSubject.title}</h2>
                   <p className="text-gray-600 mb-4">{selectedSubject.description}</p>
                   <div className="flex items-center justify-center mb-4">
-                    <div className={`w-12 h-12 bg-gradient-to-r ${selectedBook.color} rounded-xl flex items-center justify-center text-white text-2xl mr-3`}>
-                      {selectedBook.icon}
+                    <div className={`w-12 h-12 bg-gradient-to-r ${resolveSelectedBook.color} rounded-xl flex items-center justify-center text-white text-2xl mr-3`}>
+                      {resolveSelectedBook.icon}
                     </div>
                     <div className="text-left">
-                      <h3 className="text-lg font-bold text-gray-900">{selectedBook.title}</h3>
-                      <p className="text-sm text-gray-600">{selectedBook.description}</p>
+                      <h3 className="text-lg font-bold text-gray-900">{resolveSelectedBook.title}</h3>
+                      <p className="text-sm text-gray-600">{resolveSelectedBook.description}</p>
                     </div>
                   </div>
                   <div className="inline-flex items-center px-4 py-2 bg-blue-100 border border-blue-300 rounded-full">
@@ -474,14 +595,42 @@ const QuestionBank = () => {
                   </div>
                 </div>
 
-                {selectedSubject.title === 'Technical General' && selectedBook.slug === 'cae-oxford' ? (
+                {selectedSubject.title === 'Technical General' && selectedBookKey === 'cae-oxford' ? (
                   // For Technical General, after selecting CAE Oxford, show 4 Oxford sub-books
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
                     {technicalGeneralBooks.map((book) => (
                       <Card
                         key={book.id}
                         className="p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group"
-                        onClick={() => setSelectedBook(book)}
+                        onClick={() => setSelectedBookKey(book.slug)}
+                      >
+                        <div className="text-center">
+                          <div className={`w-20 h-20 bg-gradient-to-r ${book.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                            {book.icon}
+                          </div>
+                          <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                            {book.title}
+                          </h3>
+                          <p className="text-gray-600 mb-6 text-base leading-relaxed">
+                            {book.description}
+                          </p>
+                          <div className="flex items-center justify-center">
+                            <div className={`flex items-center px-6 py-3 bg-gradient-to-r ${book.color} text-white font-semibold rounded-lg`}>
+                              <span className="mr-2">{book.icon}</span>
+                              Select Book
+                            </div>
+                          </div>
+                        </div>
+                      </Card>
+                    ))}
+                  </div>
+                ) : selectedSubject.title === 'Air Navigation' && selectedBookKey === 'cae-oxford' ? (
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                    {airNavigationOxfordBooks.map((book) => (
+                      <Card
+                        key={book.id}
+                        className="p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group"
+                        onClick={() => setSelectedBookKey(book.slug)}
                       >
                         <div className="text-center">
                           <div className={`w-20 h-20 bg-gradient-to-r ${book.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}>
@@ -506,17 +655,24 @@ const QuestionBank = () => {
                 ) : (
                   // Default: show chapters for the selected book
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {(selectedBook.chapters || selectedSubject.chapters || []).map((chapter) => (
-                      <Card key={chapter.id} className="p-6 hover:shadow-lg transition-all duration-300">
+                    {(sanitizeChapters(resolveSelectedBook.chapters) || sanitizeChapters(selectedSubject.chapters) || []).map((chapter) => (
+                      <Card key={chapter.id} className={`p-6 hover:shadow-lg transition-all duration-300 ${!chapter.questions ? 'opacity-75' : ''}`}>
                         <div className="flex items-start justify-between mb-4">
                           <div className="flex-1">
-                            <h3 className="text-lg font-bold text-gray-900 mb-2">{chapter.name}</h3>
+                            <div className="flex items-center gap-2 mb-2">
+                              <h3 className="text-lg font-bold text-gray-900">{chapter.name}</h3>
+                              {!chapter.questions && (
+                                <span className="px-2 py-1 bg-amber-100 text-amber-800 text-xs font-semibold rounded-full border border-amber-300">
+                                  Coming Soon
+                                </span>
+                              )}
+                            </div>
                             <div className="flex items-center space-x-4 text-sm text-gray-600">
                               <span className="flex items-center">
                                 <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
                                   <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                                 </svg>
-                                Chapter overview
+                                {chapter.questions ? `${chapter.questions} questions` : 'Chapter overview'}
                               </span>
                             </div>
                           </div>
@@ -527,13 +683,18 @@ const QuestionBank = () => {
 
                         <div className="flex justify-center">
                           <button
-                            onClick={() => handleChapterClick(selectedSubject, chapter, selectedBook)}
-                            className={`w-full py-3 px-6 bg-gradient-to-r ${selectedBook.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2`}
-                            title={`Practice with ${selectedBook.title}`}
+                            onClick={() => handleChapterClick(selectedSubject, chapter, resolveSelectedBook)}
+                            disabled={!chapter.questions}
+                            className={`w-full py-3 px-6 font-semibold rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all duration-200 transform ${
+                              chapter.questions
+                                ? `bg-gradient-to-r ${resolveSelectedBook.color} text-white hover:shadow-lg hover:scale-[1.02]`
+                                : 'bg-gray-200 text-gray-500 cursor-not-allowed'
+                            }`}
+                            title={chapter.questions ? `Practice with ${resolveSelectedBook.title}` : 'Questions coming soon'}
                           >
                             <div className="flex items-center justify-center">
-                              <span className="mr-2">{selectedBook.icon}</span>
-                              Start Practice
+                              <span className="mr-2">{resolveSelectedBook.icon}</span>
+                              {chapter.questions ? 'Start Practice' : 'Coming Soon'}
                             </div>
                           </button>
                         </div>

@@ -1,0 +1,85 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "16",
+  "chapter_title": "Aircraft Magnetism",
+  "questions": [
+    {
+      "id": "1",
+      "question": "European regulations (EU OPS-1) state that the maximum permissible deviations after compensation are:",
+      "options": [
+        "a. one degree for a remote indicating compass, and ten degrees for a direct reading magnetic compass",
+        "b. three degrees for a direct reading magnetic compass, and one degree for a remote indicating compass",
+        "c. ten degrees for a remote indicating compass, and one degree for a direct reading magnetic compass",
+        "d. one degree for a direct reading magnetic compass, and eleven degrees for a slaved compass"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "2",
+      "question": "Compass swings should be carried out:",
+      "options": [
+        "a. on the apron",
+        "b. only on the compass swinging base or site",
+        "c. at the holding point",
+        "d. on the active runway"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "3",
+      "question": "Aircraft magnetism caused by vertical soft iron:",
+      "options": [
+        "a. varies with magnetic heading but not with magnetic latitude",
+        "b. varies with magnetic latitude but not with heading",
+        "c. it is not affected magnetic latitude or heading",
+        "d. varies as the cosine of the compass heading"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "4",
+      "question": "Aircraft magnetism caused by hard iron:",
+      "options": [
+        "a. is not usually influenced by the earth's magnetic field",
+        "b. varies directly with magnetic latitude",
+        "c. varies indirectly with magnetic latitude",
+        "d. is maximum on east and west"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "The aim of a compass swing is:\n1. to find deviation on the cardinal headings and to calculate coefficients A, В and C\n2. to eliminate or reduce the coefficients found\n3. to record any residual deviation and to prepare a compass correction card",
+      "options": [
+        "a. only answer 1 is correct",
+        "b. answers 1 and 3 are correct",
+        "c. answers 1, 2 and 3 are all correct",
+        "d. none of the above answers are correct"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "Deviation due to coefficient A is mainly caused by:",
+      "options": [
+        "a. hard iron force acting along the longitudinal axis",
+        "b. hard and soft iron forces acting along the lateral axis",
+        "c. vertical soft iron forces",
+        "d. a misaligned lubber line"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "7",
+      "question": "In the diagram below, the compass heading of the aircraft is ....... the magnetic heading ....... and the true heading",
+      "options": [
+        "a. $025^{\\circ}$ $015^{\\circ}$ $020^{\\circ}$",
+        "b. $335^{\\circ}$ $035^{\\circ}$ $020^{\\circ}$",
+        "c. $335^{\\circ}$ $340^{\\circ}$ $035^{\\circ}$",
+        "d. $025^{\\circ}$ $015^{\\circ}$ $340^{\\circ}$"
+      ],
+      "answer": "b"
+    }
+  ]
+}
+

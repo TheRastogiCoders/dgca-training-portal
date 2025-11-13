@@ -1,0 +1,41 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "25",
+  "chapter_title": "Gas Turbines - Fuels",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Water in the fuel tanks is:",
+      "options": [
+        "a. added with FSII when refuelling",
+        "b. is a consequence of atmospheric air entering the tanks through the engine",
+        "c. is a consequence of atmospheric air entering the tanks through the vent system",
+        "d. is a consequence of atmospheric air entering the tanks through the feeder box"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "2",
+      "question": "Water in the fuel tank is removed:",
+      "options": [
+        "a. via a drain valve at the lowest point in the tank",
+        "b. via a drain tank at the base of the engine",
+        "c. via a scoop at the top of the tank",
+        "d. every major servicing only"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "3",
+      "question": "The flash point of AVTUR is:",
+      "options": [
+        "a. $-38.7^{\\circ}C$",
+        "b. $38.7^{\\circ}C$",
+        "c. $-40^{\\circ}C$",
+        "d. $-20^{\\circ}C$"
+      ],
+      "answer": "b"
+    }
+  ]
+}
+

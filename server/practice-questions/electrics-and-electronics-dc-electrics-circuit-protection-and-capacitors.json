@@ -1,0 +1,228 @@
+{
+  "book_name": "Electrics and Electronics 2014",
+  "chapter_number": "3",
+  "chapter_title": "DC Electrics - Circuit Protection and Capacitors",
+  "questions": [
+    {
+      "id": "1",
+      "question": "In a circuit fitted with a non-trip free circuit breaker if a fault occurs and persists:",
+      "options": [
+        "a. if the reset button is depressed and held in, the circuit will be made",
+        "b. the trip button may be pressed to reset, but not permanently",
+        "c. a non-trip free circuit breaker can never be bypassed",
+        "d. the reset button may be pressed to make the circuit permanent"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "2",
+      "question": "A trip free circuit breaker that has tripped due to overload:",
+      "options": [
+        "a. can be reset and held in during rectification",
+        "b. can never be reset",
+        "c. can be reset after overhaul",
+        "d. may be reset manually after fault has been cleared"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "3",
+      "question": "Circuit breakers and fuses:",
+      "options": [
+        "a. are used in DC circuits only",
+        "b. are used in AC or DC circuits",
+        "c. are used in AC circuits only",
+        "d. are used in low current circuits only"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "4",
+      "question": "A trip free circuit breaker is one which:",
+      "options": [
+        "a. cannot be reset by holding the lever in while the fault persists",
+        "b. can be reset by holding the lever in while the fault persists",
+        "c. must be held in during checks to find faults",
+        "d. can be bypassed"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "If the reset button is pressed in the trip free circuit breaker, the contacts with the fault cleared will:",
+      "options": [
+        "a. be made and kept made",
+        "b. only be made if there is a fuse in the circuit",
+        "c. reset itself only after a delay of 20 seconds",
+        "d. not be made and the reset will remain inoperative"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "6",
+      "question": "A circuit breaker is a device for:",
+      "options": [
+        "a. controlling rotor movement only",
+        "b. isolating the service on overload",
+        "c. isolating the battery when using the ground batteries",
+        "d. earthing the magnetos when switching off"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "7",
+      "question": "A non-trip free circuit breaker is:",
+      "options": [
+        "a. one which can make a circuit in flight by pushing a button",
+        "b. a wire placed in a conductor which melts under overload",
+        "c. an on-off type tumbler switch",
+        "d. another type of voltage regulator"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "A non-trip free circuit breaker that has tripped due to overload:",
+      "options": [
+        "a. can never be reset",
+        "b. can only be reset on the ground by a maintenance engineer",
+        "c. can be reset and held in if necessary",
+        "d. cannot be reset while the fault is still there"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "9",
+      "question": "A thermal circuit breaker works on the principle of:",
+      "options": [
+        "a. differential expansion of metals",
+        "b. differential thickness of metals",
+        "c. differential density of metals",
+        "d. differential pressure of metals"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "10",
+      "question": "Circuit breakers are fitted in:",
+      "options": [
+        "a. series with the load",
+        "b. parallel with the load",
+        "c. across the load",
+        "d. shunt with the load"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "11",
+      "question": "A fuse is said to have blown when:",
+      "options": [
+        "a. an excess current has burst the outer cover and disconnected the circuit from the supply",
+        "b. the circuit is reconnected",
+        "c. a current of a higher value than the fuse rating has melted the conductor and disconnected the circuit from the supply",
+        "d. the amperage has been sufficiently high to cause the fuse to trip out of its holder and has therefore, disconnected the circuit from the supply"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "12",
+      "question": "In a fused circuit the fuse is:",
+      "options": [
+        "a. in parallel with the load",
+        "b. in series with the load",
+        "c. in the conductor between generator and regulator",
+        "d. only fitted when loads are in series"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "13",
+      "question": "Overloading an electrical circuit causes the fuse to 'Blow'. This:",
+      "options": [
+        "a. increases the weight of the insulation",
+        "b. fractures the fuse case",
+        "c. disconnects the fuse from its holder",
+        "d. melts the fuse wire"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "14",
+      "question": "What must be checked before replacing a fuse?",
+      "options": [
+        "a. The ohms of the circuit",
+        "b. The amps being used in the circuit",
+        "c. The amps capacity of the consuming device in the circuit",
+        "d. The correct fuse volt or watts rating"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "15",
+      "question": "The size of fuse required for an electrical circuit whose power is 72 watts and whose voltage is 24 volts is:",
+      "options": [
+        "a. 24 amps",
+        "b. 10 amps",
+        "c. 5 amps",
+        "d. 15 amps"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "16",
+      "question": "When selecting a fuse for an aircraft circuit the governing factor is:",
+      "options": [
+        "a. the voltage of the circuit",
+        "b. cable cross-sectional area",
+        "c. resistance of the circuit",
+        "d. power requirements of the circuit"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "17",
+      "question": "A fuse in an electrical circuit is 'blown' by:",
+      "options": [
+        "a. cooler air",
+        "b. the breaking of the glass tube",
+        "c. excess voltage breaking the fuse wire",
+        "d. excess current rupturing the fuse wire"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "18",
+      "question": "A fuse is used to protect an electrical circuit, it is:",
+      "options": [
+        "a. of low melting point",
+        "b. of high capacity",
+        "c. of high melting point",
+        "d. of low resistance"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "19",
+      "question": "Fuses:",
+      "options": [
+        "a. protect the load",
+        "b. protect the cable",
+        "c. protect the generator",
+        "d. protect both the circuit cable and load"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "20",
+      "question": "A current limiter:",
+      "options": [
+        "a. is a fuse with a low melting point",
+        "b. is a circuit breaker",
+        "c. is a fuse with a high melting point",
+        "d. is a fuse enclosed in a quartz or sand"
+      ],
+      "answer": "c"
+    }
+  ]
+}
+

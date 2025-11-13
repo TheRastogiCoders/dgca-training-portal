@@ -1,0 +1,107 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "13",
+  "chapter_title": "The Artificial Horizon",
+  "questions": [
+    {
+      "id": "1",
+      "question": "An artificial horizon utilizes (i)............ to show (ii)........ in (iii)....... and (iv)..............",
+      "options": [
+        "a. (i) an earth gyro (ii) position (iii) latitude (iv) longitude",
+        "b. (i) a space gyro (ii) attitude (iii) degrees (iv) minutes",
+        "c. (i) an earth gyro (ii) latitude (iii) pitch (iv) roll",
+        "d. (i) an earth gyro (ii) attitude (iii) pitch (iv) roll"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "2",
+      "question": "During the take-off run an air driven artificial horizon will usually indicate:",
+      "options": [
+        "a. nose up and incorrect left bank",
+        "b. a false descending turn to the right",
+        "c. increased nose-up attitude and right wing low",
+        "d. a false climbing turn to the left"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "3",
+      "question": "The indication on the right shows:",
+      "options": [
+        "a. a climbing turn to the right",
+        "b. nose up and left wing down",
+        "c. $30^{\\circ}$ starboard bank, nose up",
+        "d. $30^{\\circ}$ port bank, nose below horizon"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "4",
+      "question": "False nose-up attitude displayed on air driven artificial horizon during the take-off run is caused by:",
+      "options": [
+        "a. the high pendulosity of the rotor",
+        "b. the lag of the lateral pendulous vanes",
+        "c. the linear acceleration cut-out",
+        "d. incorrect rotor speed"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "5",
+      "question": "The rotor axis of an electrical horizon is tied to the earth's vertical by:",
+      "options": [
+        "a. four pendulous vanes",
+        "b. the roll cut-out",
+        "c. the low centre of gravity of the rotor housing",
+        "d. two mercury level switches and two torque motors"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "6",
+      "question": "False right wing low attitude shown on an air driven artificial horizon during an acceleration is caused by:",
+      "options": [
+        "a. the lag of the base of the rotor housing",
+        "b. the logitudinal pendulous vanes",
+        "c. the roll cut-out",
+        "d. high rotor speed"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "7",
+      "question": "Inside an artificial horizon:",
+      "options": [
+        "a. the inner gimbal ring is pivoted laterally inside the outer gimbal ring and the outer gimbal ring is pivoted longitudinally inside the case",
+        "b. the inner gimbal ring is tied to the vertical by a control system",
+        "c. the rotor axis is kept level by a calibrated spring attached to the outer gimbal ring and the instrument case",
+        "d. there is only one gimbal ring"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "When an adjustable aircraft datum is fitted to an artificial horizon in light aircraft:",
+      "options": [
+        "a. it should be checked at regular intervals",
+        "b. it should be set to the central position and left there",
+        "c. it should be rendered inoperative",
+        "d. it should be set to $15^{\\circ}$"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "9",
+      "question": "An electrically driven artificial horizon has less errors during the take-off run because:",
+      "options": [
+        "a. it is less pendulous, has a higher rotor speed and a linear acceleration cut-out",
+        "b. the mercury level switches are more sensitive than the pendulous vanes fitted to air driven types",
+        "c. the roll cut-out speed is activated",
+        "d. it is less aperiodic than the air driven types"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+

@@ -1,0 +1,434 @@
+{
+  "book": {
+    "slug": "principles-of-flight-2014",
+    "title": "Principles of Flight 2014"
+  },
+  "chapter": {
+    "number": 10,
+    "slug": "controls",
+    "title": "Controls"
+  },
+  "questions": [
+    {
+      "id": "pof2014-10-1",
+      "question": "An elevon is:",
+      "options": [
+        "an all moving tailplane that has no elevator.",
+        "the correct name for a V-tail.",
+        "a surface that extends into the airflow from the upper surface of the wing to reduce the lift.",
+        "a combined aileron and elevator fitted to an aircraft that does not have a conventional horizontal stabilizer (tailplane)."
+      ],
+      "answer": "d",
+      "explanation": "On tailless configurations the elevon performs both elevator and aileron duties."
+    },
+    {
+      "id": "pof2014-10-2",
+      "question": "When rolling at a steady rate the:",
+      "options": [
+        "up-going wing experiences an increase in effective angle of attack.",
+        "rate of roll depends only on aileron deflection.",
+        "down-going wing experiences an increase in effective angle of attack.",
+        "effective angle of attack of the up-going and down-going wings are equal."
+      ],
+      "answer": "c",
+      "explanation": "The down-going wing sees a higher local angle of attack, generating extra lift for the roll."
+    },
+    {
+      "id": "pof2014-10-3",
+      "question": "The control surface which gives longitudinal control is:",
+      "options": [
+        "the rudder.",
+        "the ailerons.",
+        "the elevators.",
+        "the flaps."
+      ],
+      "answer": "c",
+      "explanation": "Elevators (or stabilators) control pitch about the lateral axis."
+    },
+    {
+      "id": "pof2014-10-4",
+      "question": "Ailerons give:",
+      "options": [
+        "lateral control about the lateral axis.",
+        "longitudinal control about the lateral axis.",
+        "lateral control about the longitudinal axis.",
+        "directional control about the normal axis."
+      ],
+      "answer": "c",
+      "explanation": "Ailerons control roll (lateral control) about the longitudinal axis."
+    },
+    {
+      "id": "pof2014-10-5",
+      "question": "Aileron reversal would be most likely to occur:",
+      "options": [
+        "with a rigid wing at high speed.",
+        "with a flexible wing at high speed.",
+        "with a rigid wing at low speed.",
+        "with a flexible wing at low speed."
+      ],
+      "answer": "b",
+      "explanation": "At high dynamic pressure a flexible wing can twist opposite to the commanded deflection, reversing roll response."
+    },
+    {
+      "id": "pof2014-10-6",
+      "question": "If the ailerons are deflected to 10°, compared to 5° this will cause:",
+      "options": [
+        "an increased angle of bank.",
+        "an increased rate of roll.",
+        "no change to either bank angle or roll rate.",
+        "a reduction in the adverse yawing moment."
+      ],
+      "answer": "b",
+      "explanation": "Larger deflection produces greater rolling moment, increasing roll rate."
+    },
+    {
+      "id": "pof2014-10-7",
+      "question": "Yawing is a rotation around:",
+      "options": [
+        "the normal axis controlled by elevator.",
+        "the lateral axis controlled by rudder.",
+        "the longitudinal axis controlled by ailerons.",
+        "the normal axis controlled by rudder."
+      ],
+      "answer": "d",
+      "explanation": "Yaw is rotation about the vertical (normal) axis controlled by the rudder."
+    },
+    {
+      "id": "pof2014-10-8",
+      "question": "If the control column is moved forward and to the left:",
+      "options": [
+        "the left aileron moves up, right aileron moves down, elevator moves up.",
+        "the left aileron moves down, right aileron moves up, elevator moves down.",
+        "the left aileron moves up, right aileron moves down, elevator moves down.",
+        "the left aileron moves down, right aileron moves up, elevator moves up."
+      ],
+      "answer": "c",
+      "explanation": "Forward stick lowers the elevator; left stick raises the left aileron and lowers the right."
+    },
+    {
+      "id": "pof2014-10-9",
+      "question": "The secondary effect of yawing to port is to:",
+      "options": [
+        "roll to starboard.",
+        "pitch nose-up.",
+        "roll first to starboard and then to port.",
+        "roll to port."
+      ],
+      "answer": "d",
+      "explanation": "Weathercock stability plus differential lift produces a roll in the same direction as the yaw."
+    },
+    {
+      "id": "pof2014-10-10",
+      "question": "Due to the aerodynamic centre of the fin being above the longitudinal axis, if the rudder is moved to the right, the force acting on the fin will give:",
+      "options": [
+        "a yawing moment to the left but no rolling moment.",
+        "a rolling moment to the left.",
+        "a rolling moment to the right.",
+        "a yawing moment to the right but no rolling moment."
+      ],
+      "answer": "b",
+      "explanation": "A side force above the centreline creates a rolling moment opposite to the rudder deflection."
+    },
+    {
+      "id": "pof2014-10-11",
+      "question": "What should be the feel on a 'full and free' check of the controls?",
+      "options": [
+        "A gradual stiffening of the controls.",
+        "Rebound on reaching the stops.",
+        "A solid stop.",
+        "Controls should not be moved to the stops."
+      ],
+      "answer": "c",
+      "explanation": "A proper check feels smooth travel ending at a positive stop without rebound."
+    },
+    {
+      "id": "pof2014-10-12",
+      "question": "The purpose of control locks on a flying control system is:",
+      "options": [
+        "to enable any free movement in the control system to be detected.",
+        "to prevent structural damage to the controls in gusty conditions when the aircraft is on the ground.",
+        "to keep the control surface rigid to permit ground handling.",
+        "as a security measure."
+      ],
+      "answer": "b",
+      "explanation": "Locking prevents gust loads from slamming the surfaces while parked."
+    },
+    {
+      "id": "pof2014-10-13",
+      "question": "An irreversible control:",
+      "options": [
+        "may be moved by operating the cockpit control but not by the aerodynamic loads acting on the control surface.",
+        "has less movement in one direction than the other.",
+        "may be moved either by the cockpit control or by a load on the control surface.",
+        "is when the control locks are engaged."
+      ],
+      "answer": "a",
+      "explanation": "Hydraulic power controls often incorporate irreversible gearing preventing feedback to the cockpit."
+    },
+    {
+      "id": "pof2014-10-14",
+      "question": "Ailerons may be rigged slightly down (drooped):",
+      "options": [
+        "to increase the feel in the control circuit.",
+        "to correct for adverse aileron yaw.",
+        "to allow for up-float in flight to bring the aileron into the streamlined position.",
+        "to give a higher CLMAX for take-off."
+      ],
+      "answer": "c",
+      "explanation": "Rigging them slightly low lets airflow lift them into neutral during flight."
+    },
+    {
+      "id": "pof2014-10-15",
+      "question": "The tailplane shown has inverted camber. To cause the aircraft to pitch nose-up:",
+      "options": [
+        "the control column must be pushed forward.",
+        "the control column must be pulled backwards.",
+        "the control wheel must be rotated.",
+        "the incidence of the tailplane must be decreased because the negative camber will make it effective in the reverse sense."
+      ],
+      "answer": "b",
+      "explanation": "Pulling back increases tailplane lift (more download) pitching the nose up."
+    },
+    {
+      "id": "pof2014-10-16",
+      "question": "If an aileron is moved downward:",
+      "options": [
+        "the stalling angle of that wing is increased.",
+        "the stalling angle of that wing is decreased.",
+        "the stalling angle is not affected but the stalling speed is decreased.",
+        "the wing twist is reduced."
+      ],
+      "answer": "b",
+      "explanation": "Down aileron raises local angle of attack, so stall occurs sooner (lower stall angle)."
+    },
+    {
+      "id": "pof2014-10-17",
+      "question": "When rudder is used to give a coordinated turn to the left:",
+      "options": [
+        "the left pedal is moved forward, and the rudder moves right.",
+        "the right pedal is moved forward and the rudder moves left.",
+        "the left pedal is moved forward and the rudder moves left.",
+        "both pedals move aft."
+      ],
+      "answer": "c",
+      "explanation": "Pressing the left pedal deflects the rudder left to yaw the aircraft into the turn."
+    },
+    {
+      "id": "pof2014-10-18",
+      "question": "The higher speed of the upper wing in a steady banked turn causes it to have more lift than the lower wing. This may be compensated for by:",
+      "options": [
+        "use of the rudder control.",
+        "operating the ailerons slightly in the opposite sense once the correct angle of bank has been reached.",
+        "increasing the nose-up pitch by using the elevators.",
+        "reducing power."
+      ],
+      "answer": "b",
+      "explanation": "Opposite aileron (aileron into the turn) counters the rolling tendency due to speed differential."
+    },
+    {
+      "id": "pof2014-10-19",
+      "question": "The purpose of a differential aileron control is to:",
+      "options": [
+        "give a yawing moment which opposes the turn.",
+        "reduce the yawing moment which opposes the turn.",
+        "give a pitching moment to prevent the nose from dropping in the turn.",
+        "improve the rate of roll."
+      ],
+      "answer": "b",
+      "explanation": "Differential up deflection reduces adverse yaw by lowering drag on the down-going wing."
+    },
+    {
+      "id": "pof2014-10-20",
+      "question": "When displacing the ailerons from the neutral position:",
+      "options": [
+        "the up-going aileron causes an increase in induced drag.",
+        "the down-going aileron causes an increase in induced drag.",
+        "both cause an increase in induced drag.",
+        "induced drag remains the same, the up-going aileron causes a smaller increase in profile drag than the down-going aileron."
+      ],
+      "answer": "b",
+      "explanation": "The down-going aileron increases lift and therefore induced drag on that wing."
+    },
+    {
+      "id": "pof2014-10-21",
+      "question": "The purpose of aerodynamic balance on a flying control is:",
+      "options": [
+        "to get the aircraft into balance.",
+        "to prevent flutter of the flying control.",
+        "to reduce the control load to zero.",
+        "to make the control easier to move."
+      ],
+      "answer": "d",
+      "explanation": "Aerodynamic balance reduces pilot effort by offsetting hinge moments."
+    },
+    {
+      "id": "pof2014-10-22",
+      "question": "A horn balance on a control surface is:",
+      "options": [
+        "an arm projecting upward from the control surface to which the control cables are attached.",
+        "a projection of the outer edge of the control surface forward of the hinge line.",
+        "a rod projecting forward from the control surface with a weight on the end.",
+        "a projection of the leading edge of the control surface below the wing undersurface."
+      ],
+      "answer": "b",
+      "explanation": "A horn balance extends the surface ahead of the hinge to provide aerodynamic balancing."
+    },
+    {
+      "id": "pof2014-10-23",
+      "question": "An aileron could be balanced aerodynamically by:",
+      "options": [
+        "making the up aileron move through a larger angle than the down aileron.",
+        "attaching a weight to the control surface forward of the hinge.",
+        "having the control hinge set back behind the control surface leading edge.",
+        "having springs in the control circuit to assist movement."
+      ],
+      "answer": "c",
+      "explanation": "Setting the hinge aft places part of the surface ahead of the hinge, giving aerodynamic balance."
+    },
+    {
+      "id": "pof2014-10-24",
+      "question": "Control overbalance results in:",
+      "options": [
+        "a sudden increase in stick force.",
+        "a sudden reduction then reversal of stick force.",
+        "a sudden loss of effectiveness of the controls.",
+        "a gradual increase in stick force with increasing IAS."
+      ],
+      "answer": "b",
+      "explanation": "Overbalanced controls can pull themselves further deflected, reversing stick force direction."
+    },
+    {
+      "id": "pof2014-10-25",
+      "question": "A control surface is mass balanced by:",
+      "options": [
+        "fitting a balance tab.",
+        "attaching a weight acting forward of the hinge line.",
+        "attaching a weight acting on the hinge line.",
+        "attaching a weight acting behind the hinge line."
+      ],
+      "answer": "b",
+      "explanation": "Mass balance weights are placed ahead of the hinge to align the centre of gravity with the hinge axis."
+    },
+    {
+      "id": "pof2014-10-26",
+      "question": "If the control wheel is turned to the right, a balance tab on the port aileron should:",
+      "options": [
+        "move up relative to the aileron.",
+        "move down relative to the aileron.",
+        "not move unless the aileron trim wheel is turned.",
+        "move to the neutral position."
+      ],
+      "answer": "a",
+      "explanation": "Balance tabs deflect opposite to the control surface; with left aileron down, its balance tab goes up to assist movement."
+    },
+    {
+      "id": "pof2014-10-27",
+      "question": "The purpose of an anti-balance tab is to:",
+      "options": [
+        "trim the aircraft.",
+        "reduce the load required to move the controls at all speeds.",
+        "reduce the load required to move the controls at high speeds only.",
+        "give more feel to the controls."
+      ],
+      "answer": "d",
+      "explanation": "Anti-balance tabs move with the control surface to increase hinge moment, providing heavier feel."
+    },
+    {
+      "id": "pof2014-10-28",
+      "question": "When the control column is pushed forward a balance tab on the elevator:",
+      "options": [
+        "will move up relative to the control surface.",
+        "will move down relative to the control surface.",
+        "will only move if the trim wheel is operated.",
+        "moves to the neutral position."
+      ],
+      "answer": "a",
+      "explanation": "As the elevator trailing edge goes down, the balance tab moves up to reduce required control force."
+    },
+    {
+      "id": "pof2014-10-29",
+      "question": "The purpose of a spring tab is:",
+      "options": [
+        "to maintain a constant tension in the trim tab system.",
+        "to increase the feel in the control system.",
+        "to reduce the pilot's effort required to move the controls against high air loads.",
+        "to compensate for temperature changes in cable tension."
+      ],
+      "answer": "c",
+      "explanation": "Spring tabs only assist when hinge moments are high, reducing required pilot effort."
+    },
+    {
+      "id": "pof2014-10-30",
+      "question": "The purpose of a trim tab is:",
+      "options": [
+        "to assist the pilot in initiating movement of the controls.",
+        "to zero the load on the pilots controls in the flight attitude required.",
+        "to provide feel to the controls at high speed.",
+        "to increase the effectiveness of the controls."
+      ],
+      "answer": "b",
+      "explanation": "Trim tabs are adjusted to relieve control forces in steady flight conditions."
+    },
+    {
+      "id": "pof2014-10-31",
+      "question": "To re-trim after failure of the right engine on a twin-engine aircraft:",
+      "options": [
+        "the rudder trim tab will move right and the rudder left.",
+        "the trim tab will move left and the rudder right.",
+        "the trim tab will move left and the rudder remain neutral.",
+        "the trim tab will move right and the rudder remain neutral."
+      ],
+      "answer": "b",
+      "explanation": "To counter right yaw, rudder must deflect right; the trim tab moves opposite (left) to hold that deflection."
+    },
+    {
+      "id": "pof2014-10-32",
+      "question": "To trim an aircraft which tends to fly nose heavy with hands off, the top of the elevator trim wheel should be:",
+      "options": [
+        "moved forward to raise the nose and this would cause the elevator trim tab to move down, and the elevator to move up.",
+        "moved backwards to raise the nose, and this would cause the elevator trim tab to move down, and the elevator to move up.",
+        "moved backwards to raise the nose, and this would cause the elevator trim tab to move up, and the elevator to move up.",
+        "moved backwards to raise the nose, and this would cause the elevator trim tab to move up and cause the nose to rise."
+      ],
+      "answer": "b",
+      "explanation": "Rolling the trim wheel aft lowers the tab, forces the elevator up and raises the nose."
+    },
+    {
+      "id": "pof2014-10-33",
+      "question": "To achieve the same degree of longitudinal trim, the trim drag from a variable incidence trimming tailplane would be:",
+      "options": [
+        "greater than that from an elevator.",
+        "the same as that from an elevator.",
+        "less than that from an elevator.",
+        "zero regardless of trim position."
+      ],
+      "answer": "c",
+      "explanation": "Adjusting tailplane incidence produces less trim drag than holding elevator deflection."
+    },
+    {
+      "id": "pof2014-10-34",
+      "question": "Following re-trimming for straight and level flight because of forward CG movement:",
+      "options": [
+        "nose-up pitch authority will be reduced.",
+        "nose-down pitch authority will be reduced.",
+        "longitudinal stability will be reduced.",
+        "tailplane down load will be reduced."
+      ],
+      "answer": "a",
+      "explanation": "With a forward CG more elevator up deflection is already used, leaving less nose-up authority."
+    },
+    {
+      "id": "pof2014-10-35",
+      "question": "An aircraft has a tendency to fly right wing low with hands off. It is trimmed with a tab on the left aileron. The trim tab will:",
+      "options": [
+        "move up, causing the left aileron to move up and right aileron to move down.",
+        "move down, causing the left aileron to move down and right aileron to move up.",
+        "move up, causing the left aileron to move down and the right aileron to move up.",
+        "move down, causing both ailerons to move toward neutral."
+      ],
+      "answer": "a",
+      "explanation": "To raise the right wing the left aileron must come up; its trim tab deflects opposite (up relative to the surface) to hold the aileron up."
+    }
+  ]
+}
+

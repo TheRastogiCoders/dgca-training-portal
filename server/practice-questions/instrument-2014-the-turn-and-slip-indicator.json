@@ -1,0 +1,74 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "14",
+  "chapter_title": "The Turn and Slip Indicator",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The rate of turn indicator uses (i) which spins (ii).",
+      "options": [
+        "a. (i) a space gyroscope (ii) up and away from the pilot",
+        "b. (i) a tied gyro (ii) anticlockwise when viewed from above",
+        "c. (i) a rate gyro (ii) up and away from the pilot",
+        "d. (i) an earth gyro (ii) clockwise"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "2",
+      "question": "The gyro in a rate of turn indicator has (i) operating speed than the gyros used in other instruments because (ii)........",
+      "options": [
+        "a. (i) a lower (ii) a higher rigidity is not required",
+        "b. (i) the same (ii) it uses the property of rigidity",
+        "c. (i) a higher (ii) a low precession rate gives a greater operating range",
+        "d. (i) variable (ii) more than one rate of turn is desired"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "3",
+      "question": "The TBI shown alongside indicates:",
+      "options": [
+        "a. a rate of turn to the left, slipping in",
+        "b. an aircraft taxiing and turning starboard",
+        "c. that the aircraft will complete a turn in one minute",
+        "d. the aircraft is yawing to the right"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "4",
+      "question": "When the pointer of a rate of turn indicator shows a steady rate of turn:",
+      "options": [
+        "a. the calibrated spring is exerting a force about the lateral axis equal to the rate of turn",
+        "b. the force produced by the spring is producing a precession equal to but opposite to the rate of turn is correctly banked",
+        "c. the spring is providing a force which produces a precession equal to the rate of turn (in the opposite direction)",
+        "d. the spring is providing a force which produces a precession equal to the rate of turn (in the correct direction)"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "5",
+      "question": "If the filter of the air driven rate of turn indicator becomes partially blocked:",
+      "options": [
+        "a. the aircraft will turn faster than indicated",
+        "b. the instrument will over-read",
+        "c. the rate of turn indicated will be unaffected",
+        "d. the radius of the turn will decrease"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "6",
+      "question": "The radius of a turn at rate 1, and TAS 360 kt is:",
+      "options": [
+        "a. 10 NM",
+        "b. 5 NM",
+        "c. 7.5 NM",
+        "d. 2 NM"
+      ],
+      "answer": "d"
+    }
+  ]
+}
+

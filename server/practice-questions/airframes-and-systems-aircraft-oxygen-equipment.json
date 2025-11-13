@@ -1,0 +1,294 @@
+{
+  "book_name": "Airframes and Systems 2014",
+  "chapter_number": "13",
+  "chapter_title": "Aircraft Oxygen Equipment",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Without added oxygen the time of useful consciousness at 30000 ft is approximately:",
+      "options": [
+        "a. twenty seconds",
+        "b. eighty seconds",
+        "c. one to two minutes",
+        "d. six minutes"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "2",
+      "question": "Without added oxygen the time of useful consciousness at 40000 ft is approximately:",
+      "options": [
+        "a. twenty seconds",
+        "b. three minutes",
+        "c. eighty seconds",
+        "d. six minutes"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "3",
+      "question": "The maximum altitude without oxygen at which flying efficiency is not seriously impaired is:",
+      "options": [
+        "a. 10000 ft",
+        "b. 17 500 ft",
+        "c. 25000 ft",
+        "d. 30000 ft"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "4",
+      "question": "In a pressure demand oxygen system:",
+      "options": [
+        "a. each member of the crew has a regulator",
+        "b. each member of the crew has a continuous oxygen supply",
+        "c. oxygen is supplied with a continuous pressure flow",
+        "d. oxygen demand will cause the pressure to rise"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "In a continuous flow oxygen system, oxygen is supplied:",
+      "options": [
+        "a. only when the mask is plugged into the socket connection",
+        "b. only on passenger inhalation through the mask",
+        "c. only when the cabin altitude is above 18000 ft",
+        "d. only when the supply has been regulated by the pilot"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "6",
+      "question": "In a diluter demand system, selection of emergency on this regulator will result in:",
+      "options": [
+        "a. air mix supplied at emergency pressure",
+        "b. 100% oxygen supply as called for by the user",
+        "c. 100% oxygen at positive pressure",
+        "d. 100% oxygen continuous flow at positive pressure"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "7",
+      "question": "If the aircraft suffers a decompression passenger oxygen masks:",
+      "options": [
+        "a. are released by the passengers",
+        "b. automatically drop to a half-hung (ready position)",
+        "c. are handed out by the cabin staff",
+        "d. must be removed from the life jacket storage"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "8",
+      "question": "Oxygen cylinders are normally charged to:",
+      "options": [
+        "a. 1000 psi",
+        "b. 1200 psi",
+        "c. 1800 psi",
+        "d. 2000 psi"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "9",
+      "question": "Rate of flow of oxygen is given in:",
+      "options": [
+        "a. litres/minute",
+        "b. pounds/minute",
+        "c. litres/second",
+        "d. kilos/hour"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "10",
+      "question": "The colour of American and European oxygen cylinders is:",
+      "options": [
+        "a. red",
+        "b. blue",
+        "c. green",
+        "d. brown"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "11",
+      "question": "Dangerous pressure rise in oxygen cylinders:",
+      "options": [
+        "a. is relieved by a thermostat",
+        "b. is relieved by under pressurizing the bottle",
+        "c. is relieved by a bursting disc",
+        "d. is controlled by a thermal relief valve"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "12",
+      "question": "To leak test an oxygen system use:",
+      "options": [
+        "a. fairy liquid and de-ionized water",
+        "b. thin oil",
+        "c. acid free soap and distilled water",
+        "d. acid free soap and water"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "13",
+      "question": "Lubrication of an oxygen component thread is by:",
+      "options": [
+        "a. soap water",
+        "b. grease",
+        "c. oil",
+        "d. graphite"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "14",
+      "question": "Satisfactory operation of the oxygen system is indicated by:",
+      "options": [
+        "a. flow indicators",
+        "b. lack of anoxia",
+        "c. aural reassurance",
+        "d. pressure indicators"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "15",
+      "question": "If the pressurization system fails and the cabin starts to climb, then at 14000 ft oxygen will be available to the passengers by:",
+      "options": [
+        "a. the stewardess who will hand out masks",
+        "b. the passengers grabbing a mask from the overhead lockers",
+        "c. portable oxygen bottles located in the seat backs",
+        "d. masks automatically ejected to a half-hung position"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "16",
+      "question": "When air is pressurized the % of oxygen:",
+      "options": [
+        "a. increases",
+        "b. decreases",
+        "c. remains the same",
+        "d. nil"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "17",
+      "question": "In an emergency chemically produced oxygen is supplied for a given period by:",
+      "options": [
+        "a. sodium chlorate, iron power, an electrical firing system and a filter",
+        "b. potassium chlorate, iron powder, an electrical firing system and a filter",
+        "c. sodium chlorate, iron powder which is chemically activated by air and then filtered",
+        "d. sodium chlorate and an electrical firing system"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "18",
+      "question": "Passenger oxygen masks will present:",
+      "options": [
+        "a. only when the cabin altitude reaches 14000",
+        "b. only if selected by the crew",
+        "c. only if selected by the cabin staff",
+        "d. if selected manually / electrically / barometrically"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "19",
+      "question": "The charged pressure of a portable oxygen cylinder is normally:",
+      "options": [
+        "a. 500 psi",
+        "b. 1200 psi",
+        "c. 1800 psi",
+        "d. 3000 psi"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "20",
+      "question": "With the control knob set to high, a 120 litre portable bottle will provide oxygen for a period of:",
+      "options": [
+        "a. 60 mins",
+        "b. 30 mins",
+        "c. 12 mins",
+        "d. 3 mins"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "21",
+      "question": "At what altitude will the diluter-demand oxygen regulator provide 100% pure oxygen:",
+      "options": [
+        "a. 10000 ft",
+        "b. 14000 ft",
+        "c. 24 000 ft",
+        "d. 34000 ft"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "22",
+      "question": "A flow indicator fitted to an oxygen regulator indicates:",
+      "options": [
+        "a. that exactly the correct amount of oxygen is being used by the crew member",
+        "b. that oxygen is flowing through the regulator",
+        "c. that the crew member is correctly connected to the regulator",
+        "d. that the system pressure reducing valve is supplying the correct pressure to the regulator"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "23",
+      "question": "What is the approximate time of useful consciousness when hypoxia develops at the specified altitudes?",
+      "options": [
+        "a. 20000 ft: 2-3 min, 30000 ft: 10-15 sec",
+        "b. 20000 ft: 10 min, 30000 ft: 2 min",
+        "c. 20000 ft: 30 min, 30000 ft: 90-60 secs",
+        "d. 20000 ft: 40 min, 30000 ft: 5 min"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "24",
+      "question": "What is the effect on cabin temperature of a rapid de-compression at 30 000 ft?",
+      "options": [
+        "a. Sudden and extreme drop",
+        "b. Insignificant change over the first 2 minutes",
+        "c. A gradual decrease to ambient over a period of about 10 minutes if the cabin heating ceases",
+        "d. A gradual decrease to ambient temperature over a period of about 30 minutes if cabin heating continues"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "25",
+      "question": "Susceptibility to hypoxia is increased by:",
+      "options": [
+        "a. heat",
+        "b. noise",
+        "c. smoking",
+        "d. under-breathing"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "26",
+      "question": "What is the approximate cabin altitude above which you must breath 100% oxygen if you are to maintain an alveolar partial pressure equal to that at sea level?",
+      "options": [
+        "a. 26000 ft",
+        "b. 30 000 ft",
+        "c. 34000 ft",
+        "d. 38000 ft"
+      ],
+      "answer": "c"
+    }
+  ]
+}
+

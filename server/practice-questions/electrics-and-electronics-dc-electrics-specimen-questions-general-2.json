@@ -1,0 +1,173 @@
+{
+  "book_name": "Electrics and Electronics 2014",
+  "chapter_number": "10",
+  "chapter_title": "DC Electrics - Specimen Questions (General 2)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "In a direct current generating system the voltage regulator controls the system voltage within prescribed limits:",
+      "options": [
+        "a. regardless of varying engine RPM and electrical load by inserting a variable resistance in the generator field winding",
+        "b. by means of a relay which closes contacts in the output circuit when a prescribed voltage is reached",
+        "c. of the generator rotor speed",
+        "d. by a variable resistance which limits the voltage given by the battery"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "2",
+      "question": "A generator cut-out is fitted:",
+      "options": [
+        "a. to isolate the battery on touchdown",
+        "b. to prevent the battery from being overcharged",
+        "c. to allow the generator to be isolated in a crash",
+        "d. to prevent the battery feeding back into the generator when its voltage is above the generator voltage"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "3",
+      "question": "A generator cut-out contacts will close:",
+      "options": [
+        "a. with an increase in battery voltage",
+        "b. with an increase in generator voltage",
+        "c. at flight idle only",
+        "d. with an increase in generator current"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "4",
+      "question": "Failure of an aircraft generator is indicated by:",
+      "options": [
+        "a. a red warning light lighting and the ammeter showing zero or discharge",
+        "b. a red warning light going out and the ammeter showing a discharge",
+        "c. a current limiter tripping",
+        "d. a circuit fuse blowing"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "On a twin-engine aircraft with a generator fitted to each engine, if the starboard generator fails,:",
+      "options": [
+        "a. the fuel cross feed cocks close",
+        "b. the starboard engine cuts (stops)",
+        "c. the port engine will cut",
+        "d. both engines will run normally"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "6",
+      "question": "On an earth return aircraft wiring circuit:",
+      "options": [
+        "a. the negative pole is connected to the aircraft structure",
+        "b. the positive pole is connected to the aircraft structure",
+        "c. the negative pole is connected to the positive pole",
+        "d. two fuses are needed"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "7",
+      "question": "In a dipole aircraft wiring circuit if the conductors are bridged:",
+      "options": [
+        "a. an item of electrical equipment would be burned out",
+        "b. no immediate action is necessary",
+        "c. the item of electrical equipment would operate normally",
+        "d. the fuse or circuit breaker in that circuit will blow"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "8",
+      "question": "A circuit breaker that has tripped due to overload:",
+      "options": [
+        "a. cannot be reset unless the circuit has returned to normal",
+        "b. will not be able to be reset in the air",
+        "c. will reset itself when the circuit returns to normal",
+        "d. must be replaced"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "9",
+      "question": "When changing a blown fuse:",
+      "options": [
+        "a. it is changed with one of a lower rating",
+        "b. the press to reset button is operated",
+        "c. leave circuit switched on",
+        "d. it is changed with one of the correct rating"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "10",
+      "question": "As the speed of an electric motor increases the back EMF will:",
+      "options": [
+        "a. remain the same",
+        "b. fluctuate",
+        "c. increase",
+        "d. decrease"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "11",
+      "question": "The output of a shunt wound generator:",
+      "options": [
+        "a. will rise gradually as load is applied",
+        "b. will remain constant as load is applied",
+        "c. will vary with generator speed",
+        "d. will fall gradually as load is applied"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "12",
+      "question": "Load shedding is:",
+      "options": [
+        "a. increasing circuit resistance",
+        "b. transferring the loads between generators",
+        "c. reducing the load voltage",
+        "d. overall reductions of the loads on the system"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "13",
+      "question": "An inertia switch on an aircraft will operate:",
+      "options": [
+        "a. when selected by the pilot or flight engineer",
+        "b. automatically in flight",
+        "c. during an emergency or crash landing",
+        "d. in flight only"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "14",
+      "question": "The purpose of electrical bonding on aircraft is:",
+      "options": [
+        "a. to directly earth the positive lead",
+        "b. to prevent compass malfunctioning and to gather local static charges",
+        "c. to isolate all components electrically and therefore make the static potential constant",
+        "d. to provide a low resistance path for earth return circuits and safely dissipate local static charges and lightning strikes"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "15",
+      "question": "Electrical components of aircraft systems are screened to:",
+      "options": [
+        "a. bond the circuit to reduce risk of fire",
+        "b. prevent them interfering with the function of radio equipment",
+        "c. prevent short circuits interfering with aircraft equipment",
+        "d. prevent engine malfunctions"
+      ],
+      "answer": "b"
+    }
+  ]
+}
+

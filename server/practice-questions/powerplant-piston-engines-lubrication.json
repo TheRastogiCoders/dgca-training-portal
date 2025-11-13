@@ -1,0 +1,118 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "3",
+  "chapter_title": "Piston Engines - Lubrication",
+  "questions": [
+    {
+      "id": "1",
+      "question": "From the following list select the correct combination of statements.\nThe primary tasks of lubrication are to:\n1. reduce friction\n2. cool the engine\n3. clean the engine\n4. reduce component wear\n5. act as a hydraulic medium",
+      "options": [
+        "a. 1 and 3.",
+        "b. 2 and 5.",
+        "c. 1 and 4.",
+        "d. 1 and 5."
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "2",
+      "question": "In a piston engine dry sump oil system, the oil temperature and pressure are sensed:",
+      "options": [
+        "a. when the oil is leaving the sump.",
+        "b. for the temperature when the oil is leaving the tank, and for the pressure when the oil is leaving the pressure pump.",
+        "c. for the oil temperature when the oil is entering the tank and for the pressure when it is entering the pressure pump.",
+        "d. at the same point."
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "3",
+      "question": "Oil returning to the oil tank is filtered by:",
+      "options": [
+        "a. the oil pressure filter.",
+        "b. the oil tank filter.",
+        "c. a micron size multi-bore filters assembly.",
+        "d. the scavenge filter."
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "4",
+      "question": "Engine oil pressure is:",
+      "options": [
+        "a. low at idle rpm and high at high rpm.",
+        "b. controlled by the oil cooler.",
+        "c. substantially decreased when the oil pressure relief valve opens.",
+        "d. relatively unaffected by engine speed."
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "The purpose of the crankcase breather is to:",
+      "options": [
+        "a. maintain the pressure in the oil tank at atmospheric pressure.",
+        "b. ease the task of the oil scraper ring.",
+        "c. prevent pressure building up inside the crankcase.",
+        "d. prevent distortion of the crankcase."
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "The most probably cause of small fluctuations in the oil pressure would be:",
+      "options": [
+        "a. lack of oil.",
+        "b. the pressure relief valve sticking.",
+        "c. air in the oil tank.",
+        "d. the scavenge pump working at a greater capacity than the pressure pump."
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "7",
+      "question": "The extra space in the oil tank is to cater for:",
+      "options": [
+        "a. frothing and aeration of the oil as it passes through the engine.",
+        "b. fire protection.",
+        "c. the accommodation of extra oil contents on long duration flights.",
+        "d. anti-surge action."
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "The scavenge pump system in a lubrication system has:",
+      "options": [
+        "a. a bypass in case of blockage.",
+        "b. a smaller capacity than the pressure pump.",
+        "c. a bifurcated tertiary drive system.",
+        "d. a larger capacity than the pressure pump."
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "9",
+      "question": "In a \"wet sump\" oil system, the oil is contained in the:",
+      "options": [
+        "a. engine and tank.",
+        "b. tank and oil cooler.",
+        "c. sump and tank.",
+        "d. engine and sump."
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "10",
+      "question": "The oil contents of a piston engine (wet sump) are checked:",
+      "options": [
+        "a. when the engine is running at idle power.",
+        "b. as soon as possible after the engine is stopped because the oil will drain away from the sump.",
+        "c. after approximately 15 minutes once the engine has stopped.",
+        "d. when the oil has reached a specific temperature."
+      ],
+      "answer": "c"
+    }
+  ]
+}
+

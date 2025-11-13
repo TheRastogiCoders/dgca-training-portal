@@ -1,0 +1,184 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "22",
+  "chapter_title": "Electronic Flight Information Systems",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Refer to Annex A, showing various EHSI displays and answer the following questions:\nThe displays marked A, B, C, and D are respectively:\nThe following table:",
+      "options": [
+        "a. Plan, Map, ILS, VOR",
+        "b. VOR, ILS, Expanded ILS, Plan",
+        "c. Map, VOR, ILS, Plan",
+        "d. Map, ILS, Expanded VOR, Plan"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "2",
+      "question": "Refer to the display marked E and identify the correct statement:",
+      "options": [
+        "a. The aircraft is closing the localizer from the right, heading $130^{\\circ}M$ and is approaching the glide path from above",
+        "b. When established on the localizer the inbound heading will be $165^{\\circ}M$",
+        "c. The aircraft's track is $165^{\\circ}M$",
+        "d. The localizer centre line is $133^{\\circ}M$"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "3",
+      "question": "On display D the track from ZAPPO to BANTU is:",
+      "options": [
+        "a. $310^{\\circ}M$",
+        "b. $130^{\\circ}T$",
+        "c. $360^{\\circ}M$",
+        "d. $180^{\\circ}T$"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "4",
+      "question": "On display C the centre of the weather returns is:",
+      "options": [
+        "a. $106^{\\circ}$ relative, 18 NM",
+        "b. $332^{\\circ}$ relative, 13 NM",
+        "c. $100^{\\circ}M,$ 130 NM",
+        "d. 30 NM left of track, 15 NM ahead"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "5",
+      "question": "The drawing below is shown on the (i)............. is displaying (ii)........... and (iii).......",
+      "options": [
+        "a. (i) Primary Flight Display (ii) 600 kt TAS (iii) 200 ft RA",
+        "b. (i) Navigation Display (ii) 600 ft RA (iii) 200 ft DH",
+        "c. (i) EADI (ii) 600 ft Radio Altitude (iii) 200 ft Decision Height",
+        "d. (i) EHSI (ii) 600 kt GS (iii) 200 ft AGL"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "The following yellow symbol appears in place of the normal radio altitude display when:\nRA",
+      "options": [
+        "a. the selected radio altitude has been reached",
+        "b. the radio altitude needs re-setting on the EHSI",
+        "c. there is a failure of the radio altimeter",
+        "d. the aircraft descends below 1000 ft AGL."
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "7",
+      "question": "The following symbols A, C, and E are best described respectively as:",
+      "options": [
+        "a. off route waypoint, airport, navigation aid",
+        "b. next waypoint, navigation aid, airport",
+        "c. off route waypoint, navigation aid, a navigation point making up selected route",
+        "d. active waypoint aircraft currently navigating to, navigation aid, off route waypoint"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "8",
+      "question": "When using EHSI, weather radar may be displayed on the following settings:",
+      "options": [
+        "a. map, $VOR/ILS$",
+        "b. VOR/ILS, map, expanded plan",
+        "c. expanded map, VOR/ILS, plan",
+        "d. map, expanded $VOR/ILS$"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "9",
+      "question": "WXR display is controlled from:",
+      "options": [
+        "a. captain's EHSI control only",
+        "b. co-pilot's EHSI control only",
+        "c. a special control panel",
+        "d. both captain's and co-pilot's EHSI control panels"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "10",
+      "question": "Decision height is adjusted and set on the:",
+      "options": [
+        "a. flight management computer",
+        "b. HSI section of the EFIS control panel",
+        "c. ADI section of the EFIS control panel",
+        "d. ADI or HSI"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "11",
+      "question": "Weather may be displayed, with modern EFIS fitted, on:",
+      "options": [
+        "a. the captain's CRT only",
+        "b. the co-pilot's CRT only",
+        "c. a special screen",
+        "d. on both the captain's and co-pilot's CRTS"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "12",
+      "question": "Airspeed is shown:",
+      "options": [
+        "a. only on the captain's EHSI",
+        "b. on both EADIS",
+        "c. on both EHSIS",
+        "d. only on the flight management CRT"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "13",
+      "question": "With an EFIS flight director using IRS guidance, reference north can be:",
+      "options": [
+        "a. magnetic north only.",
+        "b. magnetic north between $73^{\\circ}N$ and $65^{\\circ}S$ and true north above these latitudes",
+        "c. magnetic north between $65^{\\circ}N$ and $73^{\\circ}S$ and true north above these latitudes",
+        "d. magnetic north between $75^{\\circ}N$ and $75^{\\circ}S$ and true north above these latitudes"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "14",
+      "question": "Modes available for (EFIS) HSI on some units are:",
+      "options": [
+        "a. airspeed and Mach",
+        "b. MAP and PLAN",
+        "c. VOR, ILS, MAP and AUTO TRIM",
+        "d. only from manometric sources"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "15",
+      "question": "The EFIS symbols for a navaid and en route waypoint are:",
+      "options": [
+        "a. [Symbol of VOR navaid], [Symbol of star waypoint]",
+        "b. [Symbol of triangle], [Symbol of star waypoint]",
+        "c. [Symbol of triangle], +",
+        "d. [Symbol of star waypoint], [Symbol of triangle]"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "16",
+      "question": "An EFIS as well as having a control panel, symbol generators and a remote light sensor also has:",
+      "options": [
+        "a. EADIS and EHSIs",
+        "b. EHSIs and altitude indicator",
+        "c. EADIs and EICAS",
+        "d. EADI and WXR display tubes"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+

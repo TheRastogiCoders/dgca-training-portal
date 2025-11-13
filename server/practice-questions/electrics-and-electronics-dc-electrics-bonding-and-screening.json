@@ -1,0 +1,85 @@
+{
+  "book_name": "Electrics and Electronics 2014",
+  "chapter_number": "9",
+  "chapter_title": "DC Electrics - Bonding and Screening",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Why are static wick dischargers fitted to aircraft?",
+      "options": [
+        "a. To smooth the generator output",
+        "b. To prevent tyres bursting on landing",
+        "c. To minimize radio interference",
+        "d. To act as an earth return in a single pole electrical system"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "2",
+      "question": "Bonding is used to protect the aircraft against fire from arcing of static electricity by:",
+      "options": [
+        "a. providing an earth return",
+        "b. shortening the negative strips",
+        "c. maintaining different electrical potential throughout the structure",
+        "d. ensuring the same electrical potential of all metal components"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "3",
+      "question": "Static electricity constitutes a fire hazard because:",
+      "options": [
+        "a. metal components become very hot and ignite inflammable gases and materials",
+        "b. sparks occur due to differences of potential and could ignite inflammable gases and materials",
+        "c. of colour charged electrons",
+        "d. aircraft tyres become heavily charged and may burst on landing"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "4",
+      "question": "Static electrical charges and currents in an aircraft structure are evened out by:",
+      "options": [
+        "a. hardening",
+        "b. screening",
+        "c. bonding",
+        "d. anodizing"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "5",
+      "question": "The electrical components of aircraft systems are screened to:",
+      "options": [
+        "a. bond the circuit to reduce risk of fire",
+        "b. prevent them discharging",
+        "c. prevent short circuits in radio equipment",
+        "d. prevent them interfering with the function of radio equipment"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "6",
+      "question": "Bonding is a method of:",
+      "options": [
+        "a. heat screening",
+        "b. providing a positive reaction",
+        "c. ensuring that the different parts of the aircraft are maintained at a different potential",
+        "d. ensuring that the different parts of the aircraft are maintained at the same potential"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "7",
+      "question": "The purpose of electrical bonding on an aircraft is:",
+      "options": [
+        "a. to prevent compass malfunctioning and accumulation of local static charges",
+        "b. to reduce the anodizing effect",
+        "c. to isolate all components electrically and therefore make static potential constant",
+        "d. to provide a low resistance path for earth return circuits and safely dissipate local static charges and lightning strikes"
+      ],
+      "answer": "d"
+    }
+  ]
+}
+

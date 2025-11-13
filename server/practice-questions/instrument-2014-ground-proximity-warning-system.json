@@ -1,0 +1,151 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "34",
+  "chapter_title": "Ground Proximity Warning System",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The GPWS the alert/warning information is provided by a radio altimeter with:",
+      "options": [
+        "a. a downward transmitting beam whose dimensions are in the order of 60 and 30 in the fore/aft and the athwartship axes",
+        "b. a downward transmitting beam whose dimensions are in the order of 30 and 60 in the fore/aft and the athwartship axes",
+        "c. a forward transmitting beam",
+        "d. a downwards transmitting radio beam"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "2",
+      "question": "The GPWS would provide visual and audible warning to a pilot if the aircraft descended:",
+      "options": [
+        "a. to below 500' radio altitude with flaps not in the landing position and speed below Mach.28",
+        "b. to below 500' radio altitude with flaps not in the landing position and speed below Mach.35",
+        "c. to below 200' barometric altitude with flap not in the landing position and speed below Mach .28",
+        "d. to below 200' radio altitude with flap not in the landing position and speed below Mach.28"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "3",
+      "question": "The Ground Proximity Warning mode 5 provides a visual and audible warning to the pilot if the aircraft:",
+      "options": [
+        "a. descends below 500 ft radio altitude with gear retracted",
+        "b. is below 1000 ft radio altitude and more than 1.3 dots below the ILS glide path",
+        "c. descends below 200 ft radio altitude with flaps retracted",
+        "d. sinks more than approximately 10% of accumulated altitude"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "4",
+      "question": "The GPWS uses inputs from:",
+      "options": [
+        "a. the radio altimeter, the ILS receiver, the Air Data Computers and the landing gear position indicators",
+        "b. the radio altimeter, the Air Data Computers, the landing gear position indicators and the flap position indicators",
+        "c. the radio altimeter, the Air Data Computers, the ILS receiver, the landing gear position indicators and the flap position indicators",
+        "d. the radio altimeter and the ILS receiver"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "5",
+      "question": "The Ground Proximity Warning mode 4A provides a visual and audible warning 'Too Low Gear' to the pilot if the aircraft descends below ... with landing gear retracted.",
+      "options": [
+        "a. 200 feet radio altitude with speed below 0.28",
+        "b. 200 feet barometric altitude with speed below M 0.28",
+        "c. 500 feet radio altitude with speed below M 0.35",
+        "d. 500 feet barometric altitude with speed below M 0.35"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "An aircraft 'goes around' after descending to a radio alt of 190 feet. As power is applied a power unit is lost and some height is lost. The GPWS would provide an alert when the aircraft had lost about:",
+      "options": [
+        "a. 10 feet",
+        "b. 20 feet",
+        "c. 50 feet",
+        "d. 100 feet"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "7",
+      "question": "GPWS mode one gives warning of:",
+      "options": [
+        "a. excessive descent rate",
+        "b. height loss after take-off/missed approach",
+        "c. unsafe terrain clearance when not in the landing configuration",
+        "d. excessive terrain closure rate"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "GPWS, mode three gives warning of:",
+      "options": [
+        "a. excessive descent rate",
+        "b. height loss after take-off/missed approach",
+        "c. unsafe terrain clearance when not in the landing configuration",
+        "d. excessive terrain closure rate"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "9",
+      "question": "GPWS, mode two operates between:",
+      "options": [
+        "a. 50 ft and 2450 ft AGL",
+        "b. 50 ft and 1800 ft AGL",
+        "c. 50 ft and 700 ft AGL",
+        "d. 50 ft and 500 ft AGL"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "10",
+      "question": "With reference to GPWS:",
+      "options": [
+        "a. In all six modes the audible alerts and warnings are accompanied by the red flashing PULL-UP light",
+        "b. Mode 4A activates when the aircraft descends below 500 ft radio altitude at a speed less than Mach .35 with the landing gear retracted",
+        "c. Mode 4A activates when the aircraft descends below 500 ft barometric altitude at a speed less than Mach.28 with the landing gear retracted",
+        "d. Mode 6 re-arms when the aircraft leaves the hard alerting area"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "11",
+      "question": "GPWS mode 3 will operate if altitude loss occurs before you have acquired:",
+      "options": [
+        "a. 700 ft barometric altitude gain",
+        "b. 500 ft terrain clearance",
+        "c. 200 ft barometric altitude gain",
+        "d. 700 ft terrain clearance"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "12",
+      "question": "At what radio altitude is Mode 4 armed?",
+      "options": [
+        "a. 500 ft",
+        "b. 700 ft",
+        "c. 200 ft",
+        "d. 790 ft"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "13",
+      "question": "Mode 4 gives warning of:",
+      "options": [
+        "a. excessive descent rate",
+        "b. height loss after take-off/missed approach",
+        "c. unsafe terrain clearance when not in the landing configuration",
+        "d. excessive terrain closure rate"
+      ],
+      "answer": "c"
+    }
+  ]
+}
+

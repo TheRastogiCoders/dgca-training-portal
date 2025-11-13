@@ -1,0 +1,74 @@
+{
+  "book": {
+    "slug": "principles-of-flight-2014",
+    "title": "Principles of Flight 2014"
+  },
+  "chapter": {
+    "number": 5,
+    "slug": "drag",
+    "title": "Drag"
+  },
+  "questions": [
+    {
+      "id": "pof2014-5-1",
+      "question": "What is the effect on total drag of an aircraft if the airspeed decreases in level flight below that speed for maximum L/D?",
+      "options": [
+        "Drag increases because of increased induced drag.",
+        "Drag decreases because of lower induced drag.",
+        "Drag increases because of increased parasite drag.",
+        "Drag decreases because of lower parasite drag."
+      ],
+      "answer": "a",
+      "explanation": "Below best L/D speed the wing must produce more lift coefficient, raising induced drag and total drag."
+    },
+    {
+      "id": "pof2014-5-2",
+      "question": "By changing the angle of attack of a wing, the pilot can control the aeroplane's:",
+      "options": [
+        "lift and airspeed, but not drag.",
+        "lift, gross weight, and drag.",
+        "lift, airspeed, and drag.",
+        "lift and drag, but not airspeed."
+      ],
+      "answer": "c",
+      "explanation": "Angle of attack adjustments simultaneously influence lift, associated drag, and consequently the airspeed needed to balance thrust."
+    },
+    {
+      "id": "pof2014-5-3",
+      "question": "What is the relationship between induced and parasite drag when the gross weight is increased?",
+      "options": [
+        "Parasite drag increases more than induced drag.",
+        "Induced drag increases more than parasite drag.",
+        "Both parasite and induced drag are equally increased.",
+        "Both parasite and induced drag are equally decreased."
+      ],
+      "answer": "b",
+      "explanation": "A heavier aircraft must generate more lift, raising angle of attack and induced drag significantly while parasite drag changes relatively little."
+    },
+    {
+      "id": "pof2014-5-4",
+      "question": "In theory, if the airspeed of an aeroplane is doubled while in level flight, parasite drag will become:",
+      "options": [
+        "twice as great.",
+        "half as great.",
+        "four times greater.",
+        "one quarter as much."
+      ],
+      "answer": "c",
+      "explanation": "Parasite drag varies with the square of speed; doubling speed multiplies parasite drag by four."
+    },
+    {
+      "id": "pof2014-5-5",
+      "question": "As airspeed decreases in level flight below that speed for maximum lift/drag ratio, total drag of an aeroplane:",
+      "options": [
+        "increases because induced drag rises rapidly.",
+        "decreases because parasite drag continues to reduce.",
+        "remains constant because the reduction in parasite drag equals the increase in induced drag.",
+        "decreases only if thrust is reduced."
+      ],
+      "answer": "a",
+      "explanation": "Moving left of best L/D causes induced drag to dominate and total drag climbs even though parasite drag falls."
+    }
+  ]
+}
+

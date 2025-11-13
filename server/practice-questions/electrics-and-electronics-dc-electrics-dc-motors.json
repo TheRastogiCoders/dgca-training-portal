@@ -1,0 +1,96 @@
+{
+  "book_name": "Electrics and Electronics 2014",
+  "chapter_number": "7",
+  "chapter_title": "DC Electrics - DC Motors",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Rotary actuators are used for:",
+      "options": [
+        "a. undercarriage retraction",
+        "b. centre of gravity assessment",
+        "c. operation of fuel cocks",
+        "d. movement of control surfaces"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "2",
+      "question": "Actuator normal travel is controlled by:",
+      "options": [
+        "a. a clutch",
+        "b. limit microswitches",
+        "c. mechanical indicators",
+        "d. mechanical stops"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "3",
+      "question": "On a twin engined DC aircraft having two DC generators load sharing is achieved by:",
+      "options": [
+        "a. equalizing engine RPMs",
+        "b. an equalizing circuit to sense the difference and equalize the voltages of the two generators",
+        "c. synchronizing relays and voltage coil tuners",
+        "d. an equalizing circuit to sense the difference and equalize the field currents of the two generators"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "4",
+      "question": "Pilots are informed of rotary actuator positions by:",
+      "options": [
+        "a. non-return valves",
+        "b. lights or doll's eye indicators",
+        "c. travel indicators",
+        "d. veger counters"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "5",
+      "question": "Press-to-test lights are used:",
+      "options": [
+        "a. to indicate to the pilot that the circuit has power and is complete",
+        "b. to control the movement of a rotary actuator",
+        "c. to indicate to the pilot that the circuit has operated",
+        "d. only to indicate to the pilot that the equipment has malfunctioned"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "6",
+      "question": "A device for changing AC to DC is:",
+      "options": [
+        "a. an inverter",
+        "b. a rotary transformer",
+        "c. a rectifier",
+        "d. an alternator"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "7",
+      "question": "An inching control is used in conjunction with:",
+      "options": [
+        "a. a linear actuator",
+        "b. a rotary actuator",
+        "c. a combination of linear and rotary actuator",
+        "d. a rectifier"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "Friction clutches are fitted to actuators for:",
+      "options": [
+        "a. protection against mechanical overload",
+        "b. protection against brake on loads",
+        "c. protection against non-return valve failure",
+        "d. protection against supply failures"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+

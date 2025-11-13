@@ -1,0 +1,74 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "4",
+  "chapter_title": "Piston Engines - Cooling",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The most efficient method for cooling a piston engine is to use _______. However, the most common method of cooling is to use _______ because of the _______ involved.",
+      "options": [
+        "a. air cooling liquid cooling reduced costs",
+        "b. liquid cooling air cooling reduced costs",
+        "c. fuel cooling air cooling reduced costs",
+        "d. liquid cooling fuel cooling reduced costs"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "At take-off cowl flaps should be selected:",
+      "options": [
+        "a. fully closed to decrease drag",
+        "b. open",
+        "c. partially closed",
+        "d. fully closed to increase drag"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "3",
+      "question": "A typical piston engine has a maximum thermal efficiency of:",
+      "options": [
+        "a. 70%",
+        "b. 80%",
+        "c. 90%",
+        "d. 30%"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "4",
+      "question": "In a four cylinder in-line engine air-cooled, (No. 1, 2, 3, 4 from the front) the coolest cylinder while running will be:",
+      "options": [
+        "a. 1",
+        "b. 2",
+        "c. 3",
+        "d. 4"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "The device utilized to measure temperature on a piston engine is:",
+      "options": [
+        "a. thermometer",
+        "b. barometer",
+        "c. thermocouple",
+        "d. thermostat"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "The temperature measuring device fitted in a four cylinder inline engine, (No. 1, 2, 3, 4 from the front), would normally be fitted to which cylinder?",
+      "options": [
+        "a. 1",
+        "b. 2",
+        "c. 3",
+        "d. 4"
+      ],
+      "answer": "d"
+    }
+  ]
+}
+

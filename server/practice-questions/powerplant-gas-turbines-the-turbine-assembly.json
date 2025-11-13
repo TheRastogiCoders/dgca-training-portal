@@ -1,0 +1,118 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "17",
+  "chapter_title": "Gas Turbines - The Turbine Assembly",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The effect on the temperature and pressure of the gases as they pass across the turbine is:",
+      "options": [
+        "a. their temperature decreases and their pressure rises.",
+        "b. both their temperature and pressure increase.",
+        "c. both their temperature and pressure decrease.",
+        "d. their temperature increases and their pressure falls."
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "2",
+      "question": "Nozzle guide vanes are fitted before the turbine:",
+      "options": [
+        "a. to increase the velocity of the airflow.",
+        "b. to decrease the velocity of the gas flow therefore increasing its pressure.",
+        "c. to increase the velocity of the gas flow therefore reducing its pressure.",
+        "d. to increase the temperature of the gas flow."
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "3",
+      "question": "One reason for shrouding turbine blades is:",
+      "options": [
+        "a. to reduce \"creep\" which may occur in the blades.",
+        "b. to improve efficiency and reduce vibration.",
+        "c. to enable thinner blades to be used.",
+        "d. to minimize blade end erosion."
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "4",
+      "question": "The blades are usually attached to the turbine disc by a \"Fir Tree\" root.\nA tight fit is ensured during operation:",
+      "options": [
+        "a. by the action of centrifugal force.",
+        "b. by thermal expansion of the disc.",
+        "c. by blade compression loads and thermal expansion.",
+        "d. by torque loading and thermal expansion."
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "The main contributory factors which cause creep in turbine blades are:",
+      "options": [
+        "a. high temperature and tensile loading.",
+        "b. high rpm and torque loading.",
+        "c. high rpm and high gas speeds.",
+        "d. high temperature and high gas speeds."
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "6",
+      "question": "A free power turbine:",
+      "options": [
+        "a. has a clutch between the compressor and the power output shaft.",
+        "b. has no mechanical connection with the other turbine or compressor shafts.",
+        "c. has a direct drive with a free wheel unit.",
+        "d. comes free with every 2000 gallons of AVTUR."
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "7",
+      "question": "The mixture of impulse and reaction blade shape in the average turbine blade is such that:",
+      "options": [
+        "a. the inner half is impulse and the outer half is reaction.",
+        "b. the inner half is reaction and the outer half is impulse.",
+        "c. the leading edge is reaction and the trailing edge is impulse.",
+        "d. the trailing edge is reaction and the leading edge is impulse."
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "Blade creep is:",
+      "options": [
+        "a. movement of the turbine blades around the turbine disc.",
+        "b. temporary expansion due to temperature change.",
+        "c. temporary elongation due to centrifugal forces.",
+        "d. permanent elongation due to heat and centrifugal force."
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "9",
+      "question": "The net operating temperature of a gas turbine engine is limited by:",
+      "options": [
+        "a. the materials from which the combustion chamber is constructed.",
+        "b. the amount of fuel which can be fed into the combustion chamber.",
+        "c. the ability of the compressor to pass sufficient air rearwards.",
+        "d. the materials from which the nozzle guide vanes and the turbine blades are constructed."
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "10",
+      "question": "The impulse-reaction blade is twisted along its length so that:",
+      "options": [
+        "a. there is a greater angle at the base than at the tip.",
+        "b. the gas flow is accelerated through the turbine.",
+        "c. the gas does equal work along the whole of its length.",
+        "d. the gas flow is decelerated through the nozzle guide vanes."
+      ],
+      "answer": "c"
+    }
+  ]
+}
+

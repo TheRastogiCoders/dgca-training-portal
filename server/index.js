@@ -155,15 +155,44 @@ app.get('/api/practice-books', (req, res) => {
 app.get('/api/practice-questions/:book', (req, res) => {
   try {
     const book = (req.params.book || '').toLowerCase();
-    const filePath = path.join(__dirname, 'practice-questions', `${book}.json`);
-    if (!fs.existsSync(filePath)) {
-      return res.status(404).json({ message: 'Questions not found' });
+    const chapter = (req.query.chapter || '').toLowerCase();
+    
+    // Allow temporarily disabling via env flag but still respond successfully
+    if (process.env.PRACTICE_QUESTIONS_DISABLED === 'true') {
+      return res.json({ chapter, questions: [] });
     }
+    
+    // Require chapter parameter for chapter-specific files
+    let filePath;
+    if (chapter) {
+      filePath = path.join(__dirname, 'practice-questions', `${book}-${chapter}.json`);
+      console.log(`[API] Loading chapter file: ${book}-${chapter}.json`);
+      if (!fs.existsSync(filePath)) {
+        console.log(`[API] File not found: ${filePath}`);
+        // Return an empty set rather than 404 so frontend can show "no questions" state
+        return res.json({ chapter, questions: [] });
+      }
+    } else {
+      // If no chapter specified, try to find default book file (for backward compatibility)
+      filePath = path.join(__dirname, 'practice-questions', `${book}.json`);
+      console.log(`[API] Loading default book file: ${book}.json`);
+      if (!fs.existsSync(filePath)) {
+        return res.json({ chapter: null, questions: [] });
+      }
+    }
+    
     const raw = fs.readFileSync(filePath, 'utf-8');
     const data = JSON.parse(raw);
+    console.log(`[API] Loaded ${data.questions?.length || 0} questions from ${path.basename(filePath)}`);
+    
+    // Prevent caching to ensure fresh data
+    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+    res.setHeader('Pragma', 'no-cache');
+    res.setHeader('Expires', '0');
     res.json(data);
   } catch (err) {
-    res.status(500).json({ message: 'Failed to load questions' });
+    console.error('Error loading practice questions:', err);
+    res.status(500).json({ message: 'Failed to load questions', error: err.message });
   }
 });
 

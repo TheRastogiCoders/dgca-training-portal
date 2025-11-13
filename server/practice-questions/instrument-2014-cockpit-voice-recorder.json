@@ -1,0 +1,63 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "37",
+  "chapter_title": "Cockpit Voice Recorder",
+  "questions": [
+    {
+      "id": "1",
+      "question": "An altitude alerting system must at least be capable of alerting the crew on:\n1. Approaching selected altitude\n2. Abnormal gear/flap combination\n3. Excessive vertical speed\n4. Excessive terrain closure\n5. Excessive deviation from selected altitude\n6. Failure to set SPS or RPS as required",
+      "options": [
+        "a. 1 & 3",
+        "b. 2 & 5",
+        "c. 4 & 6",
+        "d. 1 & 5"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "2",
+      "question": "According to the regulations, when must the FDR on a 12 seat turbo prop a/c begin recording?",
+      "options": [
+        "a. Switch on until switch off",
+        "b. From before the aircraft is capable of moving under its own power to after the a/c is no longer capable of moving under its own power",
+        "c. At commencement of the taxi to turning off the runway",
+        "d. From lift-off until the weight on wheels switch is made on landing"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "3",
+      "question": "What is the GPWS mode 3 audible alert?",
+      "options": [
+        "a. \"don't sink, don't sink\" followed by \"whoop, whoop, pull up\" if the sink rate exceeds a certain value",
+        "b. \"don't sink, don't sink\" followed immediately by \"whoop, whoop, pull up\"",
+        "c. \"don't sink, don't sink\" continuously",
+        "d. \"Terrain, don't sink\" continuously"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "4",
+      "question": "What are the inputs to a modern jet transport aeroplane's stall warning system?\n1. AoA\n2. Engine rpm\n3. Configuration\n4. Pitch and bank information\n5. Control surface position\n6. Airspeed vector",
+      "options": [
+        "a. 1 & 3",
+        "b. 1, 2, 3, 4, 5 & 6",
+        "c. 2, 4 & 6",
+        "d. 1, 3, 5 & 6"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "GPWS may indicate:\n1. Excessive sink rate after T/O\n2. Excessive descent rate\n3. Excessive terrain closure\n4. Ground proximity, not in the landing configuration\n5. Upward deviation from glide slope\n6. Proximity to en route terrain",
+      "options": [
+        "a. 1, 2, 3, 4",
+        "b. All of the above",
+        "c. 2, 3, 4, 5",
+        "d. 3, 4, 5, 6"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+

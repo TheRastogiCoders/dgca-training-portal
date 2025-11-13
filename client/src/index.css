@@ -60,17 +60,6 @@
   }
 }
 
-body {
-  height: 100%;
-  overflow-x: hidden;
-}
-
-@supports (padding: max(0px)) {
-  :root {
-    --safe-bottom: env(safe-area-inset-bottom, 0px);
-    --safe-right: env(safe-area-inset-right, 0px);
-  }
-}
 
 /* Dark mode overrides (class strategy) */
 .dark body { @apply bg-gray-900; }

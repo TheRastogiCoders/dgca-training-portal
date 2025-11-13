@@ -1,0 +1,118 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "12",
+  "chapter_title": "Directional Gyro Indicator (DGI)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A directional gyro indicator is basically a:",
+      "options": [
+        "a. horizontal axis earth gyro",
+        "b. horizontal axis tied gyro",
+        "c. vertical axis earth gyro",
+        "d. vertical axis tied gyro"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "Apparent drift may be corrected in a DGI by:",
+      "options": [
+        "a. causing the gyro to precess in a clockwise direction (in the northern hemisphere)",
+        "b. attaching a bias weight to the inner gimbal which makes the gyro precess in azimuth in the same direction as apparent wander",
+        "c. correcting wander by means of air jets",
+        "d. attaching a bias weight to the inner gimbal which makes the gyro precess in azimuth in the opposite direction to apparent wander"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "3",
+      "question": "An air driven DGI is corrected for apparent wander at $56^{\\circ}N$. If the aircraft is maintaining constant DGI readings:",
+      "options": [
+        "a. when flying north from $56^{\\circ}N$ the true heading of the aircraft will decrease",
+        "b. when flying east from $56^{\\circ}N$ the true heading will decrease",
+        "c. when flying south from $56^{\\circ}N$ the true heading will decrease",
+        "d. when flying west from $56^{\\circ}N$ the true heading will increase"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "4",
+      "question": "The formula used to calculate apparent wander of a directional gyro in the northern hemisphere is:",
+      "options": [
+        "a. +15 sine latitude in degrees for the time of running",
+        "b. +15 sine latitude in degrees per hour",
+        "c. -15 sine latitude in degrees per hour",
+        "d. 15 sine latitude in degrees per hour increasing"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "5",
+      "question": "Errors of the directional gyro are:",
+      "options": [
+        "a. acceleration error, turning error, altitude error, transport wander, rotor speed error",
+        "b. gimballing error, random wander, apparent wander, rotor speed error, transport wander",
+        "c. gimballing error, looping error, rolling error, rotor speed error, transport wander",
+        "d. transport wander, apparent wander, latitude error, turning error, acceleration error"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "6",
+      "question": "The spin axis of a directional gyro is maintained in ....... by means of ....... in an air driven gyro and by means of a in an electrically driven gyro.",
+      "options": [
+        "a. the horizontal plane; air jets; wedge plate",
+        "b. the vertical plane; air jets; torque motor",
+        "c. the yawing plane; air jets; torque motor",
+        "d. the yawing plane; air jets; wedge plate"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "7",
+      "question": "The purpose of the caging knob is:",
+      "options": [
+        "a. to prevent the gyro toppling",
+        "b. to reset the heading",
+        "c. to reset the heading and to prevent toppling",
+        "d. to prevent apparent wander"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "8",
+      "question": "In an air driven directional gyro the air jets are attached to:",
+      "options": [
+        "a. the inner gimbal",
+        "b. the outer gimbal",
+        "c. the instrument casing",
+        "d. the rotor axis"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "9",
+      "question": "The limits of pitch and roll for a modern directional gyro are respectively:",
+      "options": [
+        "a. $55^{\\circ}$ and $85^{\\circ}$",
+        "b. $85^{\\circ}$ and $55^{\\circ}$",
+        "c. $55^{\\circ}$ and $55^{\\circ}$",
+        "d. $85^{\\circ}$ and $85^{\\circ}$"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "10",
+      "question": "Gimballing error:",
+      "options": [
+        "a. will disappear after a turn is completed",
+        "b. will remain until the gyro is reset",
+        "c. will only occur during a $360^{\\circ}$ turn",
+        "d. will be zero on only two headings during a $360^{\\circ}$ turn"
+      ],
+      "answer": "b"
+    }
+  ]
+}
+

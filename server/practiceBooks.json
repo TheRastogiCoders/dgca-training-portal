@@ -44,6 +44,27 @@
         "technical-specific",
         "radio-telephony"
       ]
+    },
+    {
+      "slug": "principles-of-flight-2014",
+      "title": "Principles of Flight 2014",
+      "description": "Principles of Flight (2014 Edition)",
+      "icon": "🛫",
+      "color": "#4338ca",
+      "subjects": [
+        "technical-general"
+      ]
+    },
+    {
+      "slug": "airframes-and-systems",
+      "title": "Airframes and Systems",
+      "description": "Fuselage, Wings and Stabilizing Surfaces (Chapter 1)",
+      "icon": "🛩️",
+      "color": "#0ea5e9",
+      "subjects": [
+        "technical-general",
+        "technical-specific"
+      ]
     }
   ]
 }

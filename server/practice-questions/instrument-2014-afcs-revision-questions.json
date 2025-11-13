@@ -1,0 +1,624 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "31",
+  "chapter_title": "AFCS Revision Questions",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A single axis autopilot system:",
+      "options": [
+        "a. provides stabilization about the normal axis",
+        "b. provides control about the roll axis",
+        "c. provides control about the pitch axis",
+        "d. is unsuitable for use in powered aircraft"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "A single axis autopilot may also be called:",
+      "options": [
+        "a. altitude hold",
+        "b. wing leveller",
+        "c. pitch control loop",
+        "d. auto-stabilization loop"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "3",
+      "question": "An autopilot:",
+      "options": [
+        "a. is a system which will maintain a preselected altitude",
+        "b. is a system which will maintain a preselected airspeed",
+        "c. is an auto-stabilization system",
+        "d. is an outer loop control system"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "4",
+      "question": "The fundamental components of an autopilot control loop are:",
+      "options": [
+        "a. rate gyro, servomotor, error signal generator",
+        "b. rate gyro, servomotor, torque limiter",
+        "c. torque limiter, error signal generator, servomotor",
+        "d. servomotor, rate gyro, torque limiter, error signal generator"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "A device in a closed loop control system in which a small power input controls a much larger power output in a strictly proportionate manner is:",
+      "options": [
+        "a. an amplifier",
+        "b. a servomechanism",
+        "c. a powered flying control unit",
+        "d. a rate gyro"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "6",
+      "question": "An automatic flight control system:",
+      "options": [
+        "a. is another name for an autopilot system",
+        "b. applies flight data to the autopilot system",
+        "c. is automatically disengaged by a gpws alert",
+        "d. can only be used in EFIS equipped aircraft"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "7",
+      "question": "An aircraft has yaw damping included in its auto-stabilization system. An essential requirement of such a system is:",
+      "options": [
+        "a. a three axis autopilot system",
+        "b. parallel connected servomotors",
+        "c. automatic maintenance of C of G position",
+        "d. INS inputs to the CADC"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "8",
+      "question": "Automatic flight systems may be capable of controlling the aircraft flight in:",
+      "options": [
+        "a. azimuth, elevation and velocity",
+        "b. azimuth and velocity only",
+        "c. azimuth only",
+        "d. azimuth and elevation only"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "9",
+      "question": "An automatic flight control system is fitted with control wheel steering (CWS).",
+      "options": [
+        "a. The autopilot must be disengaged before the pilot can input manoeuvring commands",
+        "b. Manoeuvring commands may be input by applying normal forces to the control yoke without first disengaging the autopilot",
+        "c. Manoeuvring commands may be input using pitch and turn controls on the automatic flight system control panel, without first disengaging the autopilot",
+        "d. The CWS is only there for steering on the ground"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "10",
+      "question": "During an approach to an autoland at 1500 feet:",
+      "options": [
+        "a. off line channels are manually engaged, flare mode is armed",
+        "b. localizer is controlling the roll channel, off line channels are automatically engaged and flare mode is armed",
+        "c. localizer is controlling the roll channel, stabilizer is trimmed nose up and roll out is armed",
+        "d. provided both localizer and glide slope signals are valid LAND 3 will illuminate"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "11",
+      "question": "What type of autoland system would be required for the landing to continue following a single failure below alert height?",
+      "options": [
+        "a. Fail-soft",
+        "b. Fail-passive",
+        "c. Fail-operational or fail-active",
+        "d. Land 2 system"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "12",
+      "question": "Inputs to the rudder channels initially originate from:",
+      "options": [
+        "a. servomotors",
+        "b. compass gyro and gyro for ah",
+        "c. compass gyro and turn and slip gyro",
+        "d. AH gyro and turn and slip gyro"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "13",
+      "question": "An automatic flight system which can safely continue with an automatic landing after a system failure is a:",
+      "options": [
+        "a. fail-redundant system",
+        "b. fail-passive system",
+        "c. three axis system",
+        "d. fail-operational system"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "14",
+      "question": "Altitude Select and Altitude Hold are examples of:",
+      "options": [
+        "a. inner loop functions in pitch",
+        "b. manometric functions from the ADC",
+        "c. interlocking functions",
+        "d. outer loop functions in roll"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "15",
+      "question": "During an autoland the caption LAND 2 is illuminated. The system is:",
+      "options": [
+        "a. fail-active or fail-operational",
+        "b. fail-passive",
+        "c. approaching decision height",
+        "d. requiring a crew input"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "16",
+      "question": "For an autoland system to meet FAIL-PASSIVE criteria it must:",
+      "options": [
+        "a. have suitable system redundancy",
+        "b. withstand a system failure without excessive deviations from flight path",
+        "c. can continue with an autoland below alert height",
+        "d. can continue with an autoland above alert height"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "17",
+      "question": "During an autoland at 50 ft AGL (45' GA) the pitch control of the autopilot is ... and the roll control is ...",
+      "options": [
+        "a. glide slope, localizer",
+        "b. glide slope, roll out",
+        "c. flare, roll out",
+        "d. flare, localizer"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "18",
+      "question": "During an autoland approach:",
+      "options": [
+        "a. flare is engaged at 1500'AGL",
+        "b. localizer roll control is disengaged just prior to touchdown",
+        "c. flare is disengaged prior to touchdown at 5' GA",
+        "d. glide slope is the engaged pitch mode until 5' GA"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "19",
+      "question": "In an autoland at 1000' AGL with two autopilots engaged:",
+      "options": [
+        "a. the armed roll mode would be LOCALIZER",
+        "b. the engaged roll mode would be GLIDE SLOPE",
+        "c. the engaged pitch mode would be FLARE",
+        "d. the engaged roll mode would be LOCALIZER"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "20",
+      "question": "An automatic flight control system in which the application of normal forces on the control column allows the pilot to input demands to the autopilot is a:",
+      "options": [
+        "a. control wheel steering",
+        "b. touch control steering",
+        "c. series connected system",
+        "d. parallel connected system"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "21",
+      "question": "If a fault develops in a triplex autopilot system during an approach, the system will revert to:",
+      "options": [
+        "a. fail-passive and the landing may continue",
+        "b. fail control wheel mode",
+        "c. fail-operational",
+        "d. a manual disconnect"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "22",
+      "question": "Central Air Data Computers (CADCs) transmit data concerning;-",
+      "options": [
+        "a. airspeed, altitude and decision height",
+        "b. airspeed, altitude and Mach number",
+        "c. airspeed, attitude and Mach number",
+        "d. airspeed and altitude only"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "23",
+      "question": "Inner loop stability is obtained by;-",
+      "options": [
+        "a. inputs from the Air Data Computer",
+        "b. manometric locks",
+        "c. rate gyro displacement",
+        "d. raw data feed to the data control bus bar"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "24",
+      "question": "The autothrottle is used to control some factors during the three primary control modes; they are:",
+      "options": [
+        "a. EPR, Mach and Speed",
+        "b. EPR, wheel and speed",
+        "c. EPR, Mach and altitude",
+        "d. EPR, wheel and altitude"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "25",
+      "question": "The mode that enables the pilot to manoeuvre his aircraft in pitch and roll by use of the automatic control system is called the:",
+      "options": [
+        "a. control wheel steering (CWS) mode that allows the pilot to control the aircraft, and when the wheel is released, the aircraft holds the newly established attitude",
+        "b. touch control steering that will permit the pilot to control the aircraft via the air data computer",
+        "c. control wheel steering mode which will disengage the servomotors",
+        "d. touch control steering mode which will prevent the flaps retracting"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "26",
+      "question": "Touch control steering:",
+      "options": [
+        "a. prevents aerodynamic feedback",
+        "b. will only operate while the flaps are down",
+        "c. allows the pilot to control the aircraft with the servomotors disengaged",
+        "d. engages the servomotors during manual operation in pitch and roll"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "27",
+      "question": "A system which can still function without degradation of performance after a failure has:",
+      "options": [
+        "a. fail-passive ability",
+        "b. fail-soft ability",
+        "c. fail-operational ability",
+        "d. fail-symbol ability"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "28",
+      "question": "During a CAT 2 ILS automatic approach, the source for altitude information is the:",
+      "options": [
+        "a. basic altitude capsule stack",
+        "b. radar altimeter which becomes effective below about 2500 feet",
+        "c. radio altimeter which becomes effective below about 2500 feet",
+        "d. mode comparator sensor"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "29",
+      "question": "Heading hold mode relates to control in:",
+      "options": [
+        "a. the height lock via the CADC",
+        "b. the pitch channel via the inner loop",
+        "c. the manometer mode of the CADC",
+        "d. the roll channel via the outer loop control source"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "30",
+      "question": "The system which allows the pilot to control the aircraft with the servomotors engaged is called:",
+      "options": [
+        "a. touch control steering",
+        "b. control wheel steering",
+        "c. the electronic inner/outer axis loop",
+        "d. the outer loop control"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "31",
+      "question": "The type of automatic landing system which would necessitate a manual landing after a system failure during an automatic approach is:",
+      "options": [
+        "a. fail-passive",
+        "b. fail-safe",
+        "c. fail-active",
+        "d. fail-operational"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "32",
+      "question": "After a failure of one of the necessary redundant systems below alert height you would:",
+      "options": [
+        "a. continue the descent but revert to a higher DH",
+        "b. disengage autoland and take over manually",
+        "c. carry out a missed approach",
+        "d. continue descent and land automatically"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "33",
+      "question": "When localizer and glide slope are captured at 1500 feet during an automatic landing sequence, two other functions will be activated at the same time; they are:",
+      "options": [
+        "a. touchdown mode and roll out mode",
+        "b. flare mode arm and touchdown mode",
+        "c. flare mode engage and roll out mode",
+        "d. flare mode arm and off line channels engaged"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "34",
+      "question": "A fundamental requirement of a closed loop servomechanism is:",
+      "options": [
+        "a. a stable reference device",
+        "b. an interlock control",
+        "c. a tacho-generator",
+        "d. feedback"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "35",
+      "question": "ALT HOLD is an example of:",
+      "options": [
+        "a. inner loop control in the roll axis",
+        "b. outer loop input to the pitch channel",
+        "c. outer loop control about the longitudinal axis",
+        "d. inner loop control in the pitch axis"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "36",
+      "question": "A rate gyro:",
+      "options": [
+        "a. has three degrees of freedom, two gimbals and a transducer",
+        "b. senses rate of turn and positions an indicator on the EHSI",
+        "c. supplies rate and displacement information to the computer",
+        "d. controls the outer loop inputs"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "37",
+      "question": "To prevent servomotor runaway from producing excessive demands to the control surface:",
+      "options": [
+        "a. a gyro damper is fitted",
+        "b. a torque limiter is fitted",
+        "c. a gyro limiter is fitted",
+        "d. a torque converter is fitted"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "38",
+      "question": "Auto-trim is functional:",
+      "options": [
+        "a. in the pitch and roll channel with the autopilot engaged",
+        "b. in the pitch channel only with the autopilot engaged",
+        "c. in the pitch channel only with the autopilot disengaged",
+        "d. in the pitch and roll channel with the autopilot disengaged"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "39",
+      "question": "L NAV is an... input to the ...channel using data from the..........",
+      "options": [
+        "a. outer loop, pitch, FMC",
+        "b. inner loop, pitch, ADC",
+        "c. outer loop, roll, FMC",
+        "d. inner loop, roll, ADC"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "40",
+      "question": "In an aircraft which requires a Mach trim system it will apply inputs to the horizontal stabilizer:",
+      "options": [
+        "a. at high Mach numbers with the autopilot engaged",
+        "b. all the time",
+        "c. at Mach one with the autopilot engaged or not",
+        "d. at high subsonic speeds with the autopilot engaged or not"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "41",
+      "question": "With the autopilot engaged in the Alt mode the Captain alters the barometric setting. The aircraft",
+      "options": [
+        "a. maintains its altitude",
+        "b. changes its altitude in accordance with the change in pressure setting",
+        "c. switches barometric input over to the 1st Pilot setting",
+        "d. trips out of altitude hold"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "42",
+      "question": "Control wheel steering enables a pilot to:",
+      "options": [
+        "a. taxi the aircraft on the ground",
+        "b. manoeuvre the aircraft in the air while the autopilot is engaged",
+        "c. alter the flight path while the autopilot is engaged by applying a breakout force",
+        "d. manoeuvre the aircraft with the autopilot disengaged"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "43",
+      "question": "Autopilot synchronization in an aircraft:",
+      "options": [
+        "a. requires that the interlocks are made before the autopilot will engage",
+        "b. ensures that, when the autopilot is engaged, the take-over is effected smoothly and without snatching on the control system",
+        "c. requires that the aircraft is trimmed out before the autopilot can be engaged",
+        "d. needs at least two alternators running in parallel"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "44",
+      "question": "The rules for the use of auto-trim are that it:",
+      "options": [
+        "a. can be engaged without the autopilot",
+        "b. usually operates on all three axes",
+        "c. is not needed if the autopilot is engaged",
+        "d. operates only in conjunction with the autopilot"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "45",
+      "question": "The JAR OPS requirements for single pilot operation under IFR state that the aircraft must be fitted with:",
+      "options": [
+        "a. a single axis autopilot",
+        "b. a two axis autopilot",
+        "c. a three axis autopilot",
+        "d. a two axis autopilot with autothrottle"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "46",
+      "question": "JAR 25 operational requirements for the installation of automatic pilot state that the system must have:\nA. automatic synchronization\nB. quick release controls on both control wheels.",
+      "options": [
+        "a. Only statement A is correct",
+        "b. Only statement B is correct",
+        "c. Both statements are correct",
+        "d. Neither statement is correct"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "47",
+      "question": "Consider the following statements regarding flight envelope protection:\nA High speed protection prevents the airspeed from exceeding Vmo/Mmo\nB High angle of attack protection comes in when the aircraft reaches the stalling AoA",
+      "options": [
+        "a. Only statement A is correct",
+        "b. Only statement B is correct",
+        "c. Both statements are correct",
+        "d. Neither statement is correct"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "48",
+      "question": "The control laws for an autopilot are known as:",
+      "options": [
+        "a. normal law and emergency law",
+        "b. alternate law and direct law",
+        "c. normal, alternate and emergency laws",
+        "d. normal, alternate and direct laws"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "49",
+      "question": "An autoland system that, in the event of an autopilot failure, continues to function without degradation of performance beyond the limits required automatic, would be one with the status:",
+      "options": [
+        "a. fail-passive",
+        "b. fail-safe",
+        "c. fail-operational",
+        "d. duplex"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "50",
+      "question": "The autoland sequence is considered to be complete when:",
+      "options": [
+        "a. reverse thrust is engaged",
+        "b. the autopilot is manually disengaged by the pilot",
+        "c. the aircraft touches down",
+        "d. the aircraft reaches the end of the runway"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "51",
+      "question": "The autothrottle will come on automatically even with the A/T switch OFF when:",
+      "options": [
+        "a. in a FBW aircraft the AoA reaches a critical value called alpha floor",
+        "b. the AoA reaches the stalling angle",
+        "c. TOGA button is pressed",
+        "d. reverse thrust is selected in flight"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "52",
+      "question": "An aircraft on autopilot is engaged in the VOR mode and loses the VOR signals as it flies through the VOR cone of silence. The autopilot:",
+      "options": [
+        "a. automatically switches to Heading mode",
+        "b. decouples from the VOR and disconnects",
+        "c. tunes to the next VOR on the route",
+        "d. decouples from the VOR and flies the last heading for a fixed period"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "53",
+      "question": "For an aircraft with a non-synchronized autopilot system, 'snatching' of the controls by the autopilot when engaging or disengaging can be prevented by:",
+      "options": [
+        "a. the pilot ensuring that the aircraft is trimmed out before selecting or disengaging the autopilot",
+        "b. being in a straight and level position",
+        "c. disengaging the auto-trim",
+        "d. switching on the yaw dampers"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "54",
+      "question": "With the autopilot in CWS the pilot manoeuvres the aircraft and releases control. The aircraft will maintain:",
+      "options": [
+        "a. heading and altitude",
+        "b. heading, speed and attitude",
+        "c. altitude and attitude",
+        "d. attitude at the time of release"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "55",
+      "question": "Autopilot corrections affecting pitch are carried out by:",
+      "options": [
+        "a. auto-trim only",
+        "b. auto-trim and elevators",
+        "c. elevators only",
+        "d. autothrottle"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "56",
+      "question": "For a commercial aircraft operating with a single pilot in IFR the minimum requirement is that the autopilot should have control in:",
+      "options": [
+        "a. three axes",
+        "b. Heading mode",
+        "c. Altitude Hold and Heading mode",
+        "d. Altitude Hold, Heading mode and Speed"
+      ],
+      "answer": "c"
+    }
+  ]
+}
+

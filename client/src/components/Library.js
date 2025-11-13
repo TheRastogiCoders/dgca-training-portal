@@ -107,7 +107,7 @@ const Library = () => {
               <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-3 md:mb-4">
                 Study Library
               </h1>
-              <p className="text-base md:text-xl text-white mb-4 md:mb-6">
+              <p className="text-base md:text-xl text-gray-800 mb-4 md:mb-6 bg-white/70 inline-block px-4 py-2 rounded-full shadow-sm">
                 Comprehensive study materials for your aviation journey
               </p>
               {content.length > 0 && (

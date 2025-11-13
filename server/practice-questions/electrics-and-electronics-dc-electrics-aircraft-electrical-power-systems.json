@@ -1,0 +1,437 @@
+{
+  "book_name": "Electrics and Electronics 2014",
+  "chapter_number": "8",
+  "chapter_title": "DC Electrics - Aircraft Electrical Power Systems",
+  "questions": [
+    {
+      "id": "1",
+      "question": "In an electrical circuit the reverse current cut-out relay will open:",
+      "options": [
+        "a. when battery voltage exceeds generator voltage",
+        "b. when circuit voltage is less than generator voltage",
+        "c. when the main output CB is reset",
+        "d. when the batteries are flat"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "2",
+      "question": "A generator cut-out is provided:",
+      "options": [
+        "a. to prevent the battery over heating",
+        "b. to prevent the battery from being overcharged",
+        "c. to allow the generator to be isolated in a crash",
+        "d. to prevent discharge of the battery through the generator"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "3",
+      "question": "A generator cut-out will open when:",
+      "options": [
+        "a. circuit loads equal the battery voltage",
+        "b. the air temperature reaches $45^{\\circ}C$",
+        "c. circuit loads equal the generator voltage",
+        "d. generator voltage falls below battery voltage"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "4",
+      "question": "A generator cut-out is fitted to prevent:",
+      "options": [
+        "a. the battery discharging through the generator windings",
+        "b. the generator overcharging the battery",
+        "c. fire in the event of overloading the system",
+        "d. out of phasing"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "In the event of the cut-out points sticking in the closed position, the most probable results, when the engine stopped would be:",
+      "options": [
+        "a. gain of engine power",
+        "b. a burnt out generator",
+        "c. loss of residual magnetism",
+        "d. no apparent reaction"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "6",
+      "question": "To prevent circulating currents when more than one generator is being connected to the same bus bar:",
+      "options": [
+        "a. reverse current relays are fitted",
+        "b. the generators are connected in series",
+        "c. rectifiers are fitted",
+        "d. differential cut-outs are used"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "7",
+      "question": "A generator cut-out is fitted:",
+      "options": [
+        "a. in series with the generator output",
+        "b. in the diode circuit",
+        "c. in parallel with the generator output",
+        "d. in the field circuit"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "On a 28 volt system with a 24 volt battery the cut-out contacts close at approximately:",
+      "options": [
+        "a. 36 volts",
+        "b. 24 volts",
+        "c. 28 volts",
+        "d. 26 volts"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "9",
+      "question": "A component whose job is similar to a generator cut-out is:",
+      "options": [
+        "a. a rectifier.",
+        "b. a converter",
+        "c. an inverter",
+        "d. a reverse current relay"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "10",
+      "question": "If the cut-out is open, the battery is feeding the loads which are:",
+      "options": [
+        "a. in series with the battery",
+        "b. in parallel with the battery",
+        "c. in sequence with the cut-out",
+        "d. cross coupled"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "11",
+      "question": "In a two-engine aircraft with two generators, there would be:",
+      "options": [
+        "a. one ammeter for each generator and one voltmeter switchable to indicate either generator voltage or battery voltage",
+        "b. one voltmeter for each generator. and one ammeter switchable to indicate either generator current or battery current",
+        "c. one ammeter showing the total output and one switchable voltmeter",
+        "d. one ammeter and one voltmeter each showing the average current and voltage output"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "12",
+      "question": "A generator converts mechanical energy to electrical by:",
+      "options": [
+        "a. electromagnetic spring action",
+        "b. electromagnetic induction",
+        "c. electrostatic induction",
+        "d. electrodynamic induction"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "13",
+      "question": "In an aircraft electrical system which incorporates a voltmeter, the voltmeter indicates:",
+      "options": [
+        "a. the flow in the electrical system before the battery cut-out contacts close",
+        "b. the rate of flow at all times",
+        "c. the pressure in the electrical system before and after the cut-out contacts close",
+        "d. the flow in the electrical system after the battery cut-out contacts close"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "14",
+      "question": "If the generator warning light comes on in flight it indicates that:",
+      "options": [
+        "a. the generator is feeding the battery bus bar",
+        "b. the generator is not feeding the battery bus bar",
+        "c. the battery has failed",
+        "d. a rectifier is faulty"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "15",
+      "question": "A generator failure is usually indicated by:",
+      "options": [
+        "a. the ammeter reading decreasing or showing a discharge and a red warning lamp lighting",
+        "b. the voltmeter reading increasing, the ammeter reading showing discharge and a red lamp lighting",
+        "c. the current consuming devices failing to operate",
+        "d. the motor speed increasing"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "16",
+      "question": "A generator warning light will be illuminated:",
+      "options": [
+        "a. when the battery voltage exceeds that of the generator and the cut-out has opened",
+        "b. at night only",
+        "c. when the generator is supplying current to a fully charged battery, and no electrical loads are switched on",
+        "d. when the battery charge current is lower than required to maintain its fully charged state"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "17",
+      "question": "If a generator fails in flight:",
+      "options": [
+        "a. the voltmeter will read maximum",
+        "b. the ammeter reading will decrease",
+        "c. load sharing circuits will operate",
+        "d. the watt metre will show an increase"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "18",
+      "question": "If one generator fails you should:",
+      "options": [
+        "a. switch off the good generator",
+        "b. stop and feather the engine concerned",
+        "c. switch off the failed generator and continue normal use of the electrical system",
+        "d. switch off the failed generator, and cut down on the electrical services being used"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "19",
+      "question": "A generator is brought 'on line' when it is:",
+      "options": [
+        "a. connected in series with other generators",
+        "b. switched into the electrical circuit in parallel with the other generators",
+        "c. connected with the ground batteries for starting",
+        "d. connected to a phase reducer"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "20",
+      "question": "In a twin-engine aircraft, fitted with two generators, if one should fail:",
+      "options": [
+        "a. the failed generator must be isolated",
+        "b. cut down the air supply to reduce five risks",
+        "c. the failed generator must be stopped",
+        "d. both generators must be switched off"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "21",
+      "question": "A generator is brought 'on line' via the cut-out by an increase in:",
+      "options": [
+        "a. the battery voltage",
+        "b. the radio bypass switch",
+        "c. the generator voltage",
+        "d. the generator field voltage"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "22",
+      "question": "Generator failure is indicated by:",
+      "options": [
+        "a. an increase in voltmeter readings, a discharge in ammeter reading and generator warning light on",
+        "b. a decrease or discharge in ammeter readings and generator warning light on",
+        "c. load sharing circuits connecting",
+        "d. failure of electrically driven instruments"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "23",
+      "question": "In a twin-engine aircraft, with a generator fitted to both engines, the starboard generator fails. Then:",
+      "options": [
+        "a. the starboard engine cuts",
+        "b. the port engine cuts",
+        "c. both engines run normally",
+        "d. the engine with the failed generator will automatically feather"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "24",
+      "question": "Loads on a bus bar are:",
+      "options": [
+        "a. in series with the generator so that the voltage can be reduced",
+        "b. in parallel so the voltage can be varied",
+        "c. in parallel so the current can be reduced",
+        "d. determined by the cross-sectional area of the lead cable"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "25",
+      "question": "When the battery master switch is switched off in flight:",
+      "options": [
+        "a. the generators are disconnected from the bus bar",
+        "b. the battery is isolated from the bus bar",
+        "c. the battery is discharged through the bonding circuit diodes",
+        "d. the battery may overheat"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "26",
+      "question": "A generator is taken 'off' line by:",
+      "options": [
+        "a. the battery switch",
+        "b. closing of the field switch",
+        "c. opening of the cut-out",
+        "d. removing all loads"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "27",
+      "question": "If the ammeter reads plus 5 amp after engine shut down:",
+      "options": [
+        "a. some switches have been left 'on'",
+        "b. the battery is charging",
+        "c. the generator field switch is 'on'",
+        "d. the ammeter is defective"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "28",
+      "question": "If the ammeter shows 'no' charge, yet the battery remains charged, you would look for:",
+      "options": [
+        "a. loose battery connections",
+        "b. a defective voltage regulator",
+        "c. a defective CB",
+        "d. a defective ammeter"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "29",
+      "question": "A field switch in the generator circuit is:",
+      "options": [
+        "a. kept in the 'on' position",
+        "b. connected in the armature circuit",
+        "c. to 'shut off' the generator field",
+        "d. to disconnect the battery"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "30",
+      "question": "During flight a malfunction of the generator cut-out would be indicated by:",
+      "options": [
+        "a. overheating of the battery",
+        "b. the ammeter",
+        "c. lights going out",
+        "d. the current limiter"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "31",
+      "question": "A short circuit in a \"single pole\" electrical circuit would be caused:",
+      "options": [
+        "a. by a broken conductor between the source of supply and an item of equipment",
+        "b. by an open circuit between loads in parallel",
+        "c. when wiring between the source of supply and an item of equipment goes down to earth",
+        "d. by an open circuit between an item of equipment and earth"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "32",
+      "question": "In a \"2 pole\" electrical circuit, a short of the conductors would result in:",
+      "options": [
+        "a. an item of equipment operating automatically without switches",
+        "b. the component not working",
+        "c. an increase in voltage",
+        "d. an item of equipment burning out because of a large current flow"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "33",
+      "question": "The indicating range of an ammeter can be increased by fitting:",
+      "options": [
+        "a. a shunt fitted in parallel with the instrument",
+        "b. a shunt fitted in parallel with the load",
+        "c. a shunt fitted in series with the instrument",
+        "d. a multiplier fitted in parallel with the instrument"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "34",
+      "question": "An electrical system which uses the aircraft structure as a return path for current is known as:",
+      "options": [
+        "a. a diode pole circuit",
+        "b. an earth return circuit",
+        "c. a single phase circuit",
+        "d. a dipole circuit"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "35",
+      "question": "On a single pole circuit, if the positive conductor is shorted to the aircraft structure:",
+      "options": [
+        "a. the electrical component will operate",
+        "b. the fuse will blow",
+        "c. the circuit will be under loaded",
+        "d. the load will only operate at half speed"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "36",
+      "question": "In a double pole circuit:",
+      "options": [
+        "a. the systems polarity will change",
+        "b. the current is supplied by one wire and the current is returned through the aircraft bonding system",
+        "c. the current passes out through one wire and is returned through a second wire",
+        "d. the current passes out through one wire and is returned via the aircraft's immune circuit"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "37",
+      "question": "In an earth return circuit if the conductor is open circuited:",
+      "options": [
+        "a. the fuse will blow",
+        "b. the bus bars will overheat",
+        "c. the load will not operate",
+        "d. the generator will burn out"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "38",
+      "question": "A 'hot bus' is:",
+      "options": [
+        "a. the bus bar always connected to the battery",
+        "b. the bus bar that supplies the galley power",
+        "c. the bus bar that supplies the essential loads",
+        "d. the bus bar that supplies the non-essential loads"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "39",
+      "question": "A dipole circuit is one where:",
+      "options": [
+        "a. diode valves are used",
+        "b. three conductors are used",
+        "c. the aircraft structure is used for the earth return",
+        "d. two conductor wires are used"
+      ],
+      "answer": "d"
+    }
+  ]
+}
+

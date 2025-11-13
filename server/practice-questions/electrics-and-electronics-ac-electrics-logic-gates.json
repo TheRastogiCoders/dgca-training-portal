@@ -1,0 +1,173 @@
+{
+  "book_name": "Electrics and Electronics 2014",
+  "chapter_number": "17",
+  "chapter_title": "AC Electrics - Logic Gates",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The logic function of the circuit shown is:",
+      "options": [
+        "a. 'AND'",
+        "b. 'OR'",
+        "c. 'NOR'",
+        "d. 'NOT'"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "The circuit shown here represents:",
+      "options": [
+        "a. an 'AND' gate",
+        "b. a 'NOR' gate",
+        "c. an 'OR' gate",
+        "d. an 'EXCLUSIVE OR' gate"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "3",
+      "question": "The diagram is the equivalent of which of the accompanying symbols:",
+      "options": [
+        "a. a.",
+        "b. b.",
+        "c. c.",
+        "d. d."
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "4",
+      "question": "The gate symbols shown are:",
+      "options": [
+        "a. 'AND' and 'NAND'",
+        "b. 'EXCLUSIVE OR' and 'EXCLUSIVE NOR'",
+        "c. 'OR' and 'NOR'",
+        "d. 'OR' and 'EXCLUSIVE OR'"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "A gate which requires that all inputs must be HIGH to obtain an output would be:",
+      "options": [
+        "a. a 'NOR' gate",
+        "b. an 'OR' gate",
+        "c. an 'AND' gate",
+        "d. a 'NOT' gate"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "This diagram represents:",
+      "options": [
+        "a. an inverter",
+        "b. an 'AND' gate",
+        "c. an 'EXCLUSIVE NOR' gate",
+        "d. an 'OR' gate"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "7",
+      "question": "To obtain logic '0' at output 'Z' there must be:",
+      "options": [
+        "a. logic '1' at 'X' and logic '0' at 'Y'",
+        "b. logic '0' at 'X' and logic '1' at 'Y'",
+        "c. logic '1' at 'X' and logic '1' at 'Y'",
+        "d. logic '0' at 'X' and logic '0' at 'Y'"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "8",
+      "question": "A transistor:",
+      "options": [
+        "a. can only be used as an amplifier",
+        "b. can be used as a demi-conductor to act as an automatic switch or an amplifier",
+        "c. is an inverted silicon controlled rectifier",
+        "d. can be used as a semiconductor to act as an automatic switch or an amplifier"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "9",
+      "question": "A transistor:",
+      "options": [
+        "a. is made up of crystals in the arrangement of emitter, base and collector",
+        "b. is made up of crystals in the arrangement of emitter, collector and base",
+        "c. is made up of crystals in the arrangement of collector, emitter and base",
+        "d. requires a current of ten amps through the base to transmit"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "10",
+      "question": "A gate with only one input and one output:",
+      "options": [
+        "a. cannot be a 'double' gate",
+        "b. is a 'NOT' gate",
+        "c. can only be a 'semi-gate'",
+        "d. cannot be a 'NOT' gate"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "11",
+      "question": "The two most commonly used gates are:",
+      "options": [
+        "a. 'NOT' and 'NOR'",
+        "b. 'OR' and 'EXCLUSIVE AND'",
+        "c. 'AND' and 'OR'",
+        "d. 'AND' and 'NAND'"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "12",
+      "question": "Truth tables illustrate the relationship between:",
+      "options": [
+        "a. inputs and outputs",
+        "b. integrated gates for trouble shooting",
+        "c. the sequence of operation of the gates",
+        "d. electronic and electrical circuits"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "13",
+      "question": "The output expression for this type of gate is:",
+      "options": [
+        "a. 'AND'",
+        "b. 'EXCLUSIVE NOR'",
+        "c. 'EXCLUSIVE OR'",
+        "d. 'EXCLUSIVE NOT'"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "14",
+      "question": "In order to energize the relay shown in this circuit, the logic state at the inputs must be:",
+      "options": [
+        "a. logic '0' at points 'A' and 'B'",
+        "b. logic '0' at point 'A' and logic '1' at point 'B'",
+        "c. logic '1' at points 'A' and 'B'",
+        "d. always identical at points 'A' and 'B'"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "15",
+      "question": "The type of logic gate represented by this diagram is:",
+      "options": [
+        "a. 'OR'",
+        "b. 'NAND'",
+        "c. 'AND'",
+        "d. 'NOT'"
+      ],
+      "answer": "d"
+    }
+  ]
+}
+

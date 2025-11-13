@@ -1,0 +1,338 @@
+{
+  "book": {
+    "slug": "principles-of-flight-2014",
+    "title": "Principles of Flight 2014"
+  },
+  "chapter": {
+    "number": 12,
+    "slug": "high-speed-flight",
+    "title": "High Speed Flight"
+  },
+  "questions": [
+    {
+      "id": "pof2014-12-1",
+      "question": "Identify which of the following is the correct formula for Mach number:",
+      "options": [
+        "M = TAS / a",
+        "M = IAS / a",
+        "TAS = M / a",
+        "M = TAS × a"
+      ],
+      "answer": "a",
+      "explanation": "Mach number is defined as the ratio of true airspeed to local speed of sound (a)."
+    },
+    {
+      "id": "pof2014-12-2",
+      "question": "What is the result of a shock-induced separation of airflow occurring symmetrically near the wing root of a sweptwing aircraft?",
+      "options": [
+        "A severe nose-down pitching moment or \"tuck under\".",
+        "A high-speed stall and sudden pitch up.",
+        "Severe porpoising.",
+        "Pitch-up."
+      ],
+      "answer": "a",
+      "explanation": "Loss of lift near the root moves the centre of pressure aft, producing Mach tuck (nose-down moment)."
+    },
+    {
+      "id": "pof2014-12-3",
+      "question": "Mach number is:",
+      "options": [
+        "the ratio of the aircraft's TAS to the speed of sound at sea level.",
+        "the ratio of the aircraft's TAS to the speed of sound at the same atmospheric conditions.",
+        "the ratio of the aircraft's IAS to the speed of sound at the same atmospheric conditions.",
+        "the speed of sound."
+      ],
+      "answer": "b",
+      "explanation": "Mach is TAS divided by the local speed of sound at the prevailing temperature."
+    },
+    {
+      "id": "pof2014-12-4",
+      "question": "For an aircraft climbing at a constant IAS the Mach number will:",
+      "options": [
+        "increase.",
+        "decrease.",
+        "remain constant.",
+        "initially show an increase, then decrease."
+      ],
+      "answer": "a",
+      "explanation": "At constant IAS, TAS increases with altitude while the speed of sound decreases, so Mach number rises."
+    },
+    {
+      "id": "pof2014-12-5",
+      "question": "The term 'transonic speed' for an aircraft means:",
+      "options": [
+        "speeds where the airflow is completely subsonic.",
+        "speeds where the airflow is completely supersonic.",
+        "speeds where the airflow is partly subsonic and partly supersonic.",
+        "speeds between Mach 0.4 and Mach 1.0"
+      ],
+      "answer": "c",
+      "explanation": "Transonic flight involves mixed subsonic and supersonic flow regions on the airframe."
+    },
+    {
+      "id": "pof2014-12-6",
+      "question": "At Mach 0.8 a wing has supersonic flow between 20% chord and 60% chord. There will be a shock wave:",
+      "options": [
+        "at 20% chord only.",
+        "at 20% chord and 60% chord.",
+        "at 60% chord only.",
+        "forward of 20% chord."
+      ],
+      "answer": "c",
+      "explanation": "Supersonic flow must decelerate back to subsonic via a shock near the aft boundary (around 60% chord)."
+    },
+    {
+      "id": "pof2014-12-7",
+      "question": "As air flows through a shock wave:",
+      "options": [
+        "static pressure increases, density decreases, temperature increases.",
+        "static pressure increases, density increases, temperature increases.",
+        "static pressure decreases, density increases, temperature decreases.",
+        "static pressure decreases, density decreases, temperature decreases."
+      ],
+      "answer": "b",
+      "explanation": "Across a normal/compressive shock the flow decelerates, raising pressure, density, and temperature."
+    },
+    {
+      "id": "pof2014-12-8",
+      "question": "For a wing section of given thickness, the critical Mach number:",
+      "options": [
+        "will decrease if angle of attack is increased.",
+        "will increase if angle of attack is increased.",
+        "will not change with changes of angle of attack.",
+        "is only influenced by changes in temperature."
+      ],
+      "answer": "a",
+      "explanation": "Higher angle of attack raises local flow speeds and causes the wing to reach sonic flow at a lower Mach number."
+    },
+    {
+      "id": "pof2014-12-9",
+      "question": "At speeds above the critical Mach number, the lift coefficient:",
+      "options": [
+        "will start to increase.",
+        "will start to decrease.",
+        "will remain constant.",
+        "is directly proportional to the Mach number."
+      ],
+      "answer": "b",
+      "explanation": "Shock-induced separation reduces effective camber and lowers lift coefficient once Mach number exceeds Mcrit."
+    },
+    {
+      "id": "pof2014-12-10",
+      "question": "As air flows through a shock wave:",
+      "options": [
+        "its speed increases.",
+        "its speed decreases.",
+        "its speed remains the same.",
+        "it changes direction to flow parallel with the Mach cone."
+      ],
+      "answer": "b",
+      "explanation": "The flow slows abruptly to subsonic speed when passing through a shock."
+    },
+    {
+      "id": "pof2014-12-11",
+      "question": "If an aeroplane accelerates above the critical Mach number, the first high Mach number characteristic it will usually experience is:",
+      "options": [
+        "a nose-up pitch or \"Shock Stall\".",
+        "a violent and sustained oscillation in pitch (porpoising).",
+        "Dutch roll and/or spiral instability.",
+        "a nose-down pitching moment (Mach, or high speed tuck)."
+      ],
+      "answer": "d",
+      "explanation": "The initial effect of shock formation near the wing root is a rearward movement of lift causing Mach tuck."
+    },
+    {
+      "id": "pof2014-12-12",
+      "question": "High speed buffet is caused by:",
+      "options": [
+        "the shock waves striking the tail.",
+        "the high speed airflow striking the leading edge of the wing.",
+        "wing flutter caused by the interaction of the bottom and top surface shock waves.",
+        "the airflow being detached by the shock wave and the turbulent flow striking the tail."
+      ],
+      "answer": "d",
+      "explanation": "Shock-induced separation produces turbulent wake that impinges on the tail, causing buffet."
+    },
+    {
+      "id": "pof2014-12-13",
+      "question": "The \"area rule\" applied to high speed aircraft requires:",
+      "options": [
+        "that the cross-sectional area shall be as small as possible.",
+        "that the variation of cross-sectional area along the length of the aircraft follows a smooth pattern.",
+        "that the maximum cross-sectional area of the fuselage should occur at the wing root.",
+        "that the fuselage and the wing area be of a ratio of 3:1."
+      ],
+      "answer": "b",
+      "explanation": "Area ruling smooths changes in cross-sectional area to minimise wave drag in transonic flight."
+    },
+    {
+      "id": "pof2014-12-14",
+      "question": "An all moving tailplane is used in preference to elevators on high speed aircraft:",
+      "options": [
+        "because the effect of the elevator is reversed above the critical Mach number.",
+        "because shock wave formation on the elevator causes excessive stick forces.",
+        "because shock wave formation ahead of the elevator causes separation and loss of elevator effectiveness.",
+        "because it would be physically impossible for a pilot to control the aircraft in pitch with a conventional tailplane and elevator configuration."
+      ],
+      "answer": "c",
+      "explanation": "Shock ahead of a conventional elevator can blank it, so a stabilator retains pitch authority at high Mach."
+    },
+    {
+      "id": "pof2014-12-15",
+      "question": "Mach Trim is a device which:",
+      "options": [
+        "moves the centre of gravity to maintain stable lateral stick forces in the transonic region.",
+        "automatically compensates for pitch changes while flying in the transonic speed region.",
+        "prevents the aircraft from exceeding its critical Mach number.",
+        "switches out the trim control to prevent damage in the transonic region."
+      ],
+      "answer": "b",
+      "explanation": "Mach trim applies automatic stabiliser adjustments to counter Mach tuck with increasing Mach number."
+    },
+    {
+      "id": "pof2014-12-16",
+      "question": "What is the movement of the centre of pressure when the wing tips of a sweptwing aeroplane are shock-stalled first?",
+      "options": [
+        "Outward and forward.",
+        "Inward and aft.",
+        "Outward and aft.",
+        "Inward and forward."
+      ],
+      "answer": "b",
+      "explanation": "Tip shock stall reduces outboard lift, shifting the centre of pressure inboard and aft along the swept wing."
+    },
+    {
+      "id": "pof2014-12-17",
+      "question": "The airflow behind a normal shock wave will:",
+      "options": [
+        "always be subsonic and in the same direction as the original airflow.",
+        "always be supersonic and in the same direction as the original airflow.",
+        "may be subsonic or supersonic.",
+        "always be subsonic and will be deflected from the direction of the original airflow."
+      ],
+      "answer": "a",
+      "explanation": "A normal shock reduces flow to subsonic speed without changing flow direction."
+    },
+    {
+      "id": "pof2014-12-18",
+      "question": "As airflow passes through a normal shock wave, which of the following changes in static pressure (i), density (ii), and Mach number (iii) will occur?",
+      "options": [
+        "(i) decrease (ii) increase (iii) < 1.0",
+        "(i) increase (ii) decrease (iii) < 1.0",
+        "(i) increase (ii) decrease (iii) > 1.0 or < 1.0",
+        "(i) increase (ii) increase (iii) < 1.0"
+      ],
+      "answer": "d",
+      "explanation": "Across a normal shock, pressure and density increase while downstream Mach number is subsonic."
+    },
+    {
+      "id": "pof2014-12-19",
+      "question": "An aerofoil travelling at supersonic speed will:",
+      "options": [
+        "have its centre of pressure at 50% chord.",
+        "have its centre of pressure at 25% chord.",
+        "give a larger proportion of lift from the lower surface than from the upper surface, and have its centre of pressure at 50% chord.",
+        "give approximately equal lift from the upper and lower surfaces, and have its aerodynamic centre at 50% chord."
+      ],
+      "answer": "d",
+      "explanation": "For thin symmetric supersonic aerofoils, lift is roughly symmetrical with the aerodynamic centre near mid-chord."
+    },
+    {
+      "id": "pof2014-12-20",
+      "question": "A bow wave is:",
+      "options": [
+        "a shock wave which forms on the nose of the aircraft at MCRIT.",
+        "the shape formed when the shock waves on the upper and lower wing surface meet at the trailing edge.",
+        "a shock wave that forms immediately ahead of an aircraft which is travelling faster than the speed of sound.",
+        "the shape of a shock wave when viewed vertically."
+      ],
+      "answer": "c",
+      "explanation": "At supersonic speeds a detached bow shock forms ahead of blunt nose aircraft."
+    },
+    {
+      "id": "pof2014-12-21",
+      "question": "When an aircraft is flying at supersonic speed, where will the area of influence of any pressure disturbance due to the presence of the aircraft be located?",
+      "options": [
+        "Within the Mach Cone.",
+        "In front of the Mach Cone.",
+        "In front of the bow wave.",
+        "In front of the Mach Cone only when the speed exceeds Mach 1.0"
+      ],
+      "answer": "a",
+      "explanation": "Pressure disturbances cannot travel ahead of the Mach cone; they are confined within it."
+    },
+    {
+      "id": "pof2014-12-22",
+      "question": "The temperature of the airflow as it passes through an expansion wave:",
+      "options": [
+        "increases.",
+        "decreases.",
+        "is inversely proportional to the square root of the Mach number.",
+        "remains the same."
+      ],
+      "answer": "b",
+      "explanation": "Expansion causes the gas to accelerate and cool, lowering static temperature."
+    },
+    {
+      "id": "pof2014-12-23",
+      "question": "The influence of weight (wing loading) on the formation of shock waves is:",
+      "options": [
+        "a higher wing loading will increase MCRIT",
+        "low wing loading will give a higher MCRIT",
+        "wing loading does not influence MCRIT.",
+        "wing loading and MCRIT are directly proportional."
+      ],
+      "answer": "b",
+      "explanation": "Lower wing loading requires less lift coefficient for the same speed, delaying sonic flow and raising critical Mach."
+    },
+    {
+      "id": "pof2014-12-24",
+      "question": "What influence does an oblique shock wave have on the streamline pattern (i), variation of pressure (ii), temperature (iii), density (iv) and velocity (v)?",
+      "options": [
+        "(i) parallel to surface (ii) increase (iii) increase (iv) increase (v) decrease",
+        "(i) normal to wave (ii) decrease (iii) decrease (iv) decrease (v) increase",
+        "(i) parallel to wave (ii) decrease (iii) decrease (iv) decrease (v) increase",
+        "(i) parallel to chord (ii) increase (iii) decrease (iv) increase (v) decrease"
+      ],
+      "answer": "a",
+      "explanation": "The flow is deflected to follow the surface with increases in pressure, temperature, density and a reduction in velocity."
+    },
+    {
+      "id": "pof2014-12-25",
+      "question": "Wave drag is caused by:",
+      "options": [
+        "flying faster than MMO.",
+        "shock waves interfering with the smooth airflow into the engine intakes.",
+        "the conversion of mechanical energy into thermal energy by the shock wave.",
+        "flying faster than VMO."
+      ],
+      "answer": "c",
+      "explanation": "Shock waves dissipate kinetic energy as heat, manifesting as wave drag."
+    },
+    {
+      "id": "pof2014-12-26",
+      "question": "What is the effect of a shock wave on control surface efficiency?",
+      "options": [
+        "Increase in efficiency, due to increased velocity.",
+        "Increase in efficiency, due to the extra leverage caused by the shock wave.",
+        "Decrease in efficiency, due to the bow wave.",
+        "Loss of efficiency, due to control deflection no longer modifying the total flow over the wing."
+      ],
+      "answer": "d",
+      "explanation": "Shock-induced separation prevents the control surface from effectively changing circulation, reducing authority."
+    },
+    {
+      "id": "pof2014-12-27",
+      "question": "At what speed does an oblique shock wave move over the earth surface?",
+      "options": [
+        "Aircraft ground speed.",
+        "The TAS of the aircraft plus the wind speed.",
+        "The TAS of the aircraft less the wind speed.",
+        "The TAS relative to the speed of sound at sea level."
+      ],
+      "answer": "a",
+      "explanation": "The shock is attached to the aircraft; its footprint on the ground travels with the aircraft's ground track speed."
+    }
+  ]
+}
+

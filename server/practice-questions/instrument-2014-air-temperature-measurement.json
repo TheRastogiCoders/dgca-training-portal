@@ -1,0 +1,106 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "3",
+  "chapter_title": "Air Temperature Measurement",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The difference between static air temperature and total air temperature is known as:",
+      "options": [
+        "a. corrected outside air temperature",
+        "b. the total ram rise",
+        "c. the recovery factor",
+        "d. hot ramp radiation"
+      ],
+      "answer": "b",
+      "explanation": "The difference between static air temperature (SAT) and total air temperature (TAT) is called the ram rise, which occurs due to kinetic heating when air is brought to rest."
+    },
+    {
+      "id": "2",
+      "question": "A direct reading aircraft thermometer usually consists of a bimetallic helix protruding into the airstream. Movement of the pointer over the temperature scale will depend upon:",
+      "options": [
+        "a. difference in electrical resistance of the two metals",
+        "b. increase in pressure as airspeed increases",
+        "c. increase in adiabatic cooling as airspeed increases",
+        "d. different coefficients of expansion of the two metals"
+      ],
+      "answer": "d",
+      "explanation": "A bimetallic thermometer uses two metals with different coefficients of thermal expansion. As temperature changes, the helix bends, moving the pointer."
+    },
+    {
+      "id": "3",
+      "question": "A remote reading thermometer depends on ______ to indicate changes in temperature:",
+      "options": [
+        "a. change of electrical resistance of the two metals",
+        "b. change of electrical resistance with temperature",
+        "c. change of electrical resistance with pressure",
+        "d. change of electrical capacitance with temperature"
+      ],
+      "answer": "b",
+      "explanation": "Remote reading thermometers use temperature-sensitive resistors (thermistors or RTDs) whose electrical resistance changes with temperature."
+    },
+    {
+      "id": "4",
+      "question": "Aircraft air temperature thermometers are shielded to protect them from:",
+      "options": [
+        "a. solar radiation",
+        "b. accidental physical damage on the ground or hailstones in flight",
+        "c. airframe icing",
+        "d. kinetic heating"
+      ],
+      "answer": "a",
+      "explanation": "Temperature probes are shielded to prevent direct solar radiation from heating the sensor and giving false high readings."
+    },
+    {
+      "id": "5",
+      "question": "At a true airspeed of 500 knots, what is the ram rise?",
+      "options": [
+        "a. $50^{\\circ}C$",
+        "b. $25^{\\circ}C$",
+        "c. $5^{\\circ}C$",
+        "d. $16^{\\circ}C$"
+      ],
+      "answer": "b",
+      "explanation": "Ram rise is approximately (TAS/100)² in degrees Celsius. For 500 knots: (500/100)² = 25°C."
+    },
+    {
+      "id": "6",
+      "question": "An air temperature probe may be aspirated in order to:",
+      "options": [
+        "a. prevent icing",
+        "b. measure air temperature on the ground",
+        "c. compensate for moisture level at the ramp position",
+        "d. reduce the effects of solar radiation"
+      ],
+      "answer": "b",
+      "explanation": "Aspirated probes use a fan or pump to draw air through the sensor, ensuring accurate readings when the aircraft is stationary on the ground with no airflow."
+    },
+    {
+      "id": "7",
+      "question": "Total Air Temperature is:",
+      "options": [
+        "a. the maximum temperature attainable by the air when brought to rest adiabatically",
+        "b. the temperature indicated on the air temperature thermometer plus the ram rise",
+        "c. the static air temperature minus the recovery factor",
+        "d. the recovery factor plus the ram rise"
+      ],
+      "answer": "a",
+      "explanation": "Total Air Temperature (TAT) is the theoretical maximum temperature the air would reach if brought to rest adiabatically (without heat loss), including kinetic heating."
+    },
+    {
+      "id": "8",
+      "question": "Which of these formulae gives the total temperature $(T_{t})$ from the static temperature (T):",
+      "options": [
+        "a. $T_{t}=T_{s}(1+0.2~M^{2})$",
+        "b. $T_{t}=\\dot{T}_{s}(1+0.2~K_{r}M^{2})$",
+        "c. $T_{t}=T_{s}^{2}/(1+0.2K_{r}M^{2})$",
+        "d. $T_{t}=T_{5}^{\\circ}(1-0.2M^{2})^{\\circ}$"
+      ],
+      "answer": "a",
+      "explanation": "The correct formula for total temperature is Tt = Ts(1 + 0.2M²), where Ts is static temperature and M is Mach number. This accounts for adiabatic compression heating."
+    }
+  ]
+}
+
+
+

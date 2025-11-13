@@ -1,0 +1,228 @@
+{
+  "book_name": "Airframes and Systems 2014",
+  "chapter_number": "1",
+  "chapter_title": "Fuselage, Wings and Stabilizing Surfaces",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the purpose of the wing main spar?",
+      "options": [
+        "a. To withstand bending and torsional loads",
+        "b. To withstand compressive and torsional loads",
+        "c. To withstand compressive and shear loads",
+        "d. To withstand bending and shear loads"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "2",
+      "question": "What is the purpose of wing ribs?",
+      "options": [
+        "a. To withstand the fatigue stresses",
+        "b. To shape the wing and support the skin",
+        "c. To house the fuel and the landing gear",
+        "d. To provide local support for the skin"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "3",
+      "question": "What is the purpose of stringers?",
+      "options": [
+        "a. To absorb the torsional and compressive stresses",
+        "b. To produce stress risers and support the fatigue metres",
+        "c. To prevent buckling and bending by supporting and stiffening the skin",
+        "d. To support the primary control surfaces"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "4",
+      "question": "The airframe structure must remain substantially intact after experiencing:",
+      "options": [
+        "a. the design ultimate load times a 1.5 safety factor",
+        "b. the design limit load plus the design ultimate load",
+        "c. three times the safety factor",
+        "d. the design limit load times a 1.5 factor of safety"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "5",
+      "question": "In the construction of airframes the primary purpose of frames or formers is to:",
+      "options": [
+        "a. provide a means of attaching the stringers and skin panels",
+        "b. oppose hoop stresses and provide shape and form to the fuselage",
+        "c. form the entrance door posts",
+        "d. support the wings"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "6",
+      "question": "How can wing bending moments be reduced in flight?",
+      "options": [
+        "a. By using aileron 'up-float' and keeping the centre section fuel tanks full for as long as possible",
+        "b. By using aileron 'up-float' and using the fuel in the wings last",
+        "c. By having tail-mounted engines and using aileron 'down-float'",
+        "d. By having wing-mounted engines and using the wing fuel first"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "7",
+      "question": "Regarding a safe life structure:\n1. will only fail after a known number of operations or hours of use.\n2. should not fail until a predicted number of fatigue cycles has been achieved.\n3. has a programmed inspection cycle to detect and rectify faults.\n4. is changed before its predicted life is reached.",
+      "options": [
+        "a. 1 and 2 apply",
+        "b. 1 and 3 apply",
+        "c. 2, 3 and 4 apply",
+        "d. all of the above apply"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "8",
+      "question": "A fail-safe structure:\n1. has a programmed inspection cycle to detect and rectify faults.\n2. is changed before its predicted life is reached.\n3. has redundant strength which will tolerate a certain amount of structural damage.\n4. is secondary structure of no structural significance.",
+      "options": [
+        "a. 1 and 2 apply",
+        "b. 1 and 3 apply",
+        "c. 3 and 4 apply",
+        "d. all of the above apply"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "9",
+      "question": "The skin of a modern pressurized aircraft:",
+      "options": [
+        "a. is made up of light alloy steel sheets built on the monocoque principle",
+        "b. houses the crew and the payload",
+        "c. provides aerodynamic lift and prevents corrosion by keeping out adverse weather",
+        "d. is primary load bearing structure carrying much of the structural loads"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "10",
+      "question": "The primary purpose of the fuselage is to:",
+      "options": [
+        "a. support the wings",
+        "b. house the crew and payload",
+        "c. keep out adverse weather",
+        "d. provide access to the cockpit"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "11",
+      "question": "Station numbers (Stn) and water lines (WL) are:",
+      "options": [
+        "a. a means of locating airframe structure and components",
+        "b. passenger seat locations",
+        "c. runway markings for guiding the aircraft to the terminal",
+        "d. compass alignment markings"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "12",
+      "question": "Flight deck windows are constructed from:",
+      "options": [
+        "a. an amalgam of strengthened glass and vinyl with rubber pressure seals",
+        "b. strengthened glass with shock absorbing clear vinyl interlayers and rubber pressure seals",
+        "c. strengthened clear vinyl with an electrical conducting coat for de-icing and rubber pressure seals",
+        "d. strengthened glass with rubber seals"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "13",
+      "question": "A cantilever wing:",
+      "options": [
+        "a. is externally braced with either struts and/or bracing wires",
+        "b. is supported at one end only with no external bracing",
+        "c. has both an upper an lower aerofoil section",
+        "d. folds at the root section to ease storage in confined spaces"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "14",
+      "question": "A torsion box:",
+      "options": [
+        "a. is a structure within the fuselage to withstand compression, bending and twisting loads",
+        "b. is a structure formed between the wing spars, skin and ribs to resist bending and twisting loads",
+        "c. is a structure within the wing for housing the fuel tanks, flight controls and landing gear",
+        "d. is a structure designed to reduce the weight"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "15",
+      "question": "A lightening hole in a rib:",
+      "options": [
+        "a. provides a means of passing cables and controls through a pressure bulkhead",
+        "b. collects and disposes of electrical charges",
+        "c. prevents lightning strikes damaging the fuselage",
+        "d. lightens and stiffens the structure"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "16",
+      "question": "Control surface flutter:",
+      "options": [
+        "a. provides additional lift for take-off and landing in the event of engine failure",
+        "b. occurs at high angles of attack",
+        "c. is a destructive vibration that must be damped out within the flight envelope",
+        "d. is a means of predicting the critical safe life of the wing"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "17",
+      "question": "Control surface flutter is minimized by:",
+      "options": [
+        "a. reducing the moment of the critical engine",
+        "b. aerodynamic balance of the control cables",
+        "c. changing the wings before they reach their critical life",
+        "d. mass balance of the control surface"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "18",
+      "question": "A damage tolerant structure:",
+      "options": [
+        "a. has degree of structural strength redundancy spread over a large area",
+        "b. is light, non load bearing structure, damage to which will not adversely affect the aircraft",
+        "c. is replaced when it reaches its predicted life",
+        "d. need not be repaired until the aircraft undergoes deep maintenance"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "19",
+      "question": "Aircraft structures consists mainly of:",
+      "options": [
+        "a. light alloy steel sheets with copper rivets and titanium or steel materials at points requiring high strength",
+        "b. magnesium alloy sheets with aluminium rivets and titanium or steel at points requiring high strength",
+        "c. aluminium alloy sheets and rivets with titanium or steel materials at points requiring high strength",
+        "d. aluminium sheets and rivets with titanium or steel materials at points requiring high strength"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "20",
+      "question": "The Maximum Zero Fuel Mass (MZFM) of an aircraft is:",
+      "options": [
+        "a. the maximum permissible take-off mass of the aircraft",
+        "b. the maximum permissible mass of an aircraft with no usable fuel",
+        "c. the maximum permissible mass of an aircraft with zero payload",
+        "d. the maximum permissible landing mass"
+      ],
+      "answer": "b"
+    }
+  ]
+}
+

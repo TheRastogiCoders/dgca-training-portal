@@ -1,0 +1,228 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "8",
+  "chapter_title": "Piston Engines - Carburettors",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The pressure in the induction manifold of a normally aspirated engine:",
+      "options": [
+        "a. remains constant as the throttle is opened",
+        "b. decreases as the throttle is opened",
+        "c. initially increases as the throttle is opened but decreases after approximately the half open position",
+        "d. increases as the throttle is opened"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "2",
+      "question": "The purpose of an accelerator pump is to:",
+      "options": [
+        "a. assist in the atomization of the fuel before it leaves the discharge nozzle",
+        "b. prevent a rich cut when the throttle lever is advanced rapidly",
+        "c. prevent dissociation and detonation",
+        "d. prevent a weak cut when the throttle lever is advanced rapidly"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "3",
+      "question": "The fuel flow to a piston engine will vary according to:",
+      "options": [
+        "a. the rpm and the throttle position only",
+        "b. the rpm, the throttle position and the mixture setting",
+        "c. the rpm and the mixture setting only",
+        "d. the rpm only"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "4",
+      "question": "The primary function of a diffuser in a carburettor is to:",
+      "options": [
+        "a. control the mixture strength over part of the engine speed range",
+        "b. vent air from the float chamber",
+        "c. emulsify the fuel during engine acceleration",
+        "d. enable adjustment of the engine slow running speed"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "The Venturi in the carburettor choke tube creates:",
+      "options": [
+        "a. a positive pressure over the discharge nozzle",
+        "b. a depression over the fuel discharge nozzle",
+        "c. a positive pressure at the throttle valve",
+        "d. a decrease in the velocity of the air entering the engine"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "6",
+      "question": "The fuel priming pump supplies fuel directly to:",
+      "options": [
+        "a. the throttle butterfly valve",
+        "b. the exhaust manifold",
+        "c. the induction manifold",
+        "d. the inside of the combustion chamber in the region of the spark plug"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "7",
+      "question": "A weak mixture would be indicated by:",
+      "options": [
+        "a. a drop in engine speed",
+        "b. white smoke in the exhaust manifold",
+        "c. detonation and black smoke from the exhaust",
+        "d. an increase in engine speed with black smoke from the exhaust"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "The presence of an engine driven fuel pump on an engine fitted with a carburettor:",
+      "options": [
+        "a. dispenses with the need for a carburettor float chamber",
+        "b. ensures a positive flow of fuel to the discharge nozzles",
+        "c. ensures a positive flow of fuel to the carburettor float chamber",
+        "d. dispenses with the need for a fuel priming system"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "9",
+      "question": "It would normally be considered dangerous to pump the throttle lever when starting an engine because:",
+      "options": [
+        "a. it could increase the risk of fire in the carburettor air intake",
+        "b. it would prevent the engine starting",
+        "c. the engine would start too rapidly",
+        "d. it would richen the mixture to the point where spontaneous combustion would occur in the combustion chamber"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "10",
+      "question": "A typical air/fuel ratio for normal engine operation would be:",
+      "options": [
+        "a. 15 parts of air to one of fuel by weight",
+        "b. 20 parts of air to one of fuel by volume",
+        "c. 15 parts of air to one of fuel by volume",
+        "d. 12 parts of air to one of fuel by weight"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "11",
+      "question": "Excessive cylinder head temperatures are caused by:",
+      "options": [
+        "a. the prolonged use of weak mixtures",
+        "b. the ignition timing being too far advanced",
+        "c. the prolonged use of rich mixture",
+        "d. the ignition being too far retarded"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "12",
+      "question": "The mixture supplied by the carburettor to the engine is said to be weak when:",
+      "options": [
+        "a. the proportion of air in the mixture is insufficient to allow full combustion of the fuel",
+        "b. the proportion of air in the mixture is greater than that needed for full combustion of the fuel",
+        "c. a grade of fuel lower than that specified for the engine is used",
+        "d. there is insufficient power in the engine for take off"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "13",
+      "question": "In an attempt to maintain the correct air/fuel ratio while climbing into the decreased density air of higher altitude:",
+      "options": [
+        "a. the valve timing can be changed",
+        "b. an accelerator pump can be fitted",
+        "c. a mixture control is used",
+        "d. a diffuser is fitted"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "14",
+      "question": "The greater the weight of combustible mixture in the cylinders:",
+      "options": [
+        "a. the weaker is the mixture",
+        "b. the more the power decreases",
+        "c. the lower the cylinder head temperature will be",
+        "d. the greater the power developed by the engine"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "15",
+      "question": "A rich mixture is supplied to the cylinders at take-off and climb:",
+      "options": [
+        "a. to give greater thermal efficiency",
+        "b. to cool the charge temperature and prevent detonation",
+        "c. to increase the volumetric efficiency",
+        "d. to give excess power"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "16",
+      "question": "A fuel strainer should be fitted:",
+      "options": [
+        "a. in the inlet manifold",
+        "b. at the air intake",
+        "c. before the main jet",
+        "d. after the main jet"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "17",
+      "question": "The correct air/fuel ratio for an engine running at idle is:",
+      "options": [
+        "a. weak",
+        "b. chemically correct",
+        "c. 16:1",
+        "d. rich"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "18",
+      "question": "The method of priming an engine not fitted with a priming pump is to:",
+      "options": [
+        "a. activate the mixture control lever several times",
+        "b. turn the engine over several times on the starter motor before selecting the ignition on",
+        "c. pump the throttle several times",
+        "d. position the throttle lever midway between open and close"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "19",
+      "question": "A possible cause of the engine backfiring could be:",
+      "options": [
+        "a. an exhaust valve sticking open",
+        "b. a broken push rod",
+        "c. a blocked float chamber",
+        "d. a sticking inlet valve"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "20",
+      "question": "An overly rich mixture at slow running could be caused by:",
+      "options": [
+        "a. the priming pump being left open",
+        "b. low fuel pressure",
+        "c. the float chamber level being too low",
+        "d. a partially blocked main jet"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+

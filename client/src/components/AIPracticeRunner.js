@@ -9,103 +9,14 @@ const friendly = (slug) => (slug || '')
   .map(p => p.charAt(0).toUpperCase() + p.slice(1))
   .join(' ');
 
-// Enhanced AI question generator with realistic aviation questions
-const generateQuestion = (subjectName, chapterName, difficulty = 'medium') => {
-  const questionTemplates = {
-    'air-regulations': [
-      {
-        text: "According to CAR Part 1, what is the minimum visibility required for VFR flight at or above 10,000 feet MSL?",
-        options: [
-          "A) 3 statute miles",
-          "B) 5 statute miles", 
-          "C) 1 statute mile",
-          "D) Clear of clouds"
-        ],
-        answer: 1,
-        explanation: "CAR Part 1 specifies that for VFR flight at or above 10,000 feet MSL, the minimum visibility required is 5 statute miles."
-      },
-      {
-        text: "What is the maximum altitude for VFR flight without ATC clearance in Class E airspace?",
-        options: [
-          "A) 10,000 feet MSL",
-          "B) 12,500 feet MSL",
-          "C) 14,500 feet MSL", 
-          "D) 18,000 feet MSL"
-        ],
-        answer: 2,
-        explanation: "VFR flight in Class E airspace is limited to 14,500 feet MSL without ATC clearance."
-      }
-    ],
-    'air-navigation': [
-      {
-        text: "In dead reckoning navigation, what is the primary factor that affects the accuracy of your position?",
-        options: [
-          "A) Wind speed and direction",
-          "B) Aircraft speed",
-          "C) Magnetic variation",
-          "D) True airspeed"
-        ],
-        answer: 0,
-        explanation: "Wind is the primary factor affecting DR accuracy as it causes the aircraft to drift from the intended track."
-      },
-      {
-        text: "What does the acronym VOR stand for?",
-        options: [
-          "A) Very High Frequency Omni-directional Range",
-          "B) Variable Omni Range",
-          "C) Visual Omni Range",
-          "D) Vertical Omni Range"
-        ],
-        answer: 0,
-        explanation: "VOR stands for Very High Frequency Omni-directional Range, a radio navigation aid."
-      }
-    ],
-    'meteorology': [
-      {
-        text: "What type of cloud is associated with thunderstorms and severe weather?",
-        options: [
-          "A) Cumulus",
-          "B) Cumulonimbus",
-          "C) Stratus",
-          "D) Cirrus"
-        ],
-        answer: 1,
-        explanation: "Cumulonimbus clouds are associated with thunderstorms, heavy precipitation, and severe weather conditions."
-      },
-      {
-        text: "What is the standard atmospheric pressure at sea level?",
-        options: [
-          "A) 29.92 inches of mercury",
-          "B) 30.00 inches of mercury",
-          "C) 28.92 inches of mercury",
-          "D) 31.00 inches of mercury"
-        ],
-        answer: 0,
-        explanation: "The standard atmospheric pressure at sea level is 29.92 inches of mercury or 1013.25 millibars."
-      }
-    ]
-  };
-
-  const subjectQuestions = questionTemplates[subjectName.toLowerCase().replace(/\s+/g, '-')] || questionTemplates['air-regulations'];
-  const randomQuestion = subjectQuestions[Math.floor(Math.random() * subjectQuestions.length)];
-  
-  return {
-    id: Date.now() + Math.random(),
-    text: randomQuestion.text,
-    options: randomQuestion.options,
-    answerIndex: randomQuestion.answer,
-    explanation: randomQuestion.explanation,
-    difficulty: difficulty,
-    subject: subjectName,
-    chapter: chapterName
-  };
-};
+// Remove hardcoded AI sample questions — return null to indicate no generator
+const generateQuestion = () => null;
 
 const AIPracticeRunner = () => {
   const { subjectSlug, bookSlug, chapterSlug } = useParams();
   const location = useLocation();
   const navigate = useNavigate();
-  const { user, isAuthenticated } = useAuth();
+  const { user, isAuthenticated, loading: authLoading } = useAuth();
   
   const [current, setCurrent] = useState(0);
   const [questions, setQuestions] = useState([]);
@@ -141,6 +52,7 @@ const AIPracticeRunner = () => {
 
   // Initialize practice session
   useEffect(() => {
+    if (authLoading) return;
     if (!isAuthenticated) {
       navigate('/login');
       return;
@@ -150,18 +62,13 @@ const AIPracticeRunner = () => {
       setLoading(true);
       setStartTime(Date.now());
       
-      // Generate initial questions
-      const initialQuestions = [];
-      for (let i = 0; i < practiceSettings.questionCount; i++) {
-        initialQuestions.push(generateQuestion(subjectName, chapterName, practiceSettings.difficulty));
-      }
-      
-      setQuestions(initialQuestions);
+      // Do not generate any sample questions
+      setQuestions([]);
       setLoading(false);
     };
 
     initializePractice();
-  }, [isAuthenticated, navigate, practiceSettings.questionCount, subjectName, chapterName, practiceSettings.difficulty]);
+  }, [isAuthenticated, authLoading, navigate, practiceSettings.questionCount, subjectName, chapterName, practiceSettings.difficulty]);
 
   // Timer logic
   useEffect(() => {
@@ -307,12 +214,8 @@ const AIPracticeRunner = () => {
     setMaxStreak(0);
     setStartTime(Date.now());
     
-    // Regenerate questions
-    const newQuestions = [];
-    for (let i = 0; i < practiceSettings.questionCount; i++) {
-      newQuestions.push(generateQuestion(subjectName, chapterName, practiceSettings.difficulty));
-    }
-    setQuestions(newQuestions);
+    // Do not regenerate any sample questions
+    setQuestions([]);
   };
 
   const getScorePercentage = () => {
@@ -333,7 +236,7 @@ const AIPracticeRunner = () => {
     return 'Keep studying! You can do better!';
   };
 
-  if (loading) {
+  if (loading || authLoading) {
     return (
       <div className="min-h-screen gradient-bg">
         <div className="flex">
@@ -477,6 +380,35 @@ const AIPracticeRunner = () => {
           </main>
             </div>
           </div>
+    );
+  }
+
+  // If there are no questions, show a graceful empty state
+  if (!loading && (!questions || questions.length === 0)) {
+    return (
+      <div className="min-h-screen gradient-bg">
+        <div className="flex">
+          <SiteSidebar />
+          <main className="flex-1 p-8">
+            <div className="max-w-4xl mx-auto">
+              <Card className="p-8 text-center">
+                <h1 className="text-3xl font-bold text-gray-900 mb-2">Questions Coming Soon</h1>
+                <p className="text-gray-600 mb-6">
+                  AI-generated questions are not available right now for this chapter.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                  <button onClick={() => navigate(`/practice-test/ai/${subjectSlug}`)} className="px-6 py-3 bg-blue-600 text-white rounded-lg">
+                    Choose Another Chapter
+                  </button>
+                  <button onClick={() => navigate('/practice-test')} className="px-6 py-3 bg-gray-100 text-gray-700 rounded-lg">
+                    Back to Practice
+                  </button>
+                </div>
+              </Card>
+            </div>
+          </main>
+        </div>
+      </div>
     );
   }
 

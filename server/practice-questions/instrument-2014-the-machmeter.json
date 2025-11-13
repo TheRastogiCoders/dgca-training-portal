@@ -1,0 +1,118 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "7",
+  "chapter_title": "The Machmeter",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The local speed of sound is equal to:\n(K = Constant)",
+      "options": [
+        "a. $K\\sqrt{}$ temperature (°F) knots",
+        "b. $K\\sqrt{}$ temperature (K) knots",
+        "c. $K\\sqrt{}$ temperature (°C) knots",
+        "d. $K\\sqrt{}$ temperature (K) metres per second."
+      ],
+      "answer": "b",
+      "explanation": "The local speed of sound (LSS) is proportional to the square root of absolute temperature (Kelvin). The formula is LSS = K√T, where T is in Kelvin. This is because sound speed depends on the square root of absolute temperature."
+    },
+    {
+      "id": "2",
+      "question": "At FL350 with a JSA deviation of -12, the true airspeed when flying at M 0.78 is:",
+      "options": [
+        "a. 460 kt",
+        "b. 436 kt",
+        "c. 447 kt",
+        "d. 490 kt"
+      ],
+      "answer": "b",
+      "explanation": "At FL350, ISA temperature is -54.5°C. With ISA deviation of -12, actual temperature is -66.5°C = 206.65K. LSS = 38.94√T = 38.94√206.65 ≈ 560 kt. TAS = M × LSS = 0.78 × 560 ≈ 436 kt."
+    },
+    {
+      "id": "3",
+      "question": "When climbing at a constant mach number below the tropopause through an inversion:",
+      "options": [
+        "a. the CAS and TAS will both increase",
+        "b. the CAS and TAS will both decrease",
+        "c. the CAS will decrease and the TAS will increase",
+        "d. the CAS will increase and the TAS will decrease"
+      ],
+      "answer": "c",
+      "explanation": "At constant Mach number, TAS increases as temperature increases (inversion). However, as altitude increases, air density decreases, so CAS decreases. The net effect: CAS decreases, TAS increases."
+    },
+    {
+      "id": "4",
+      "question": "When descending below the tropopause under normal conditions (increasing temperature) at a constant CAS:",
+      "options": [
+        "a. both TAS and mach number will decrease",
+        "b. both TAS and mach number will increase",
+        "c. the TAS will decrease and the mach number will increase",
+        "d. the TAS will increase and the mach number will decrease"
+      ],
+      "answer": "a",
+      "explanation": "At constant CAS, as you descend and temperature increases, air density increases. TAS decreases because higher density means less speed needed for the same dynamic pressure. Mach number also decreases because LSS increases with temperature, and TAS is decreasing."
+    },
+    {
+      "id": "5",
+      "question": "Cruising at FL390, M 0.84 is found to give a TAS of 499 kt. The ISA deviation at this level will be:",
+      "options": [
+        "a. -17",
+        "b. +17",
+        "c. +19",
+        "d. -19"
+      ],
+      "answer": "b",
+      "explanation": "At FL390, ISA temperature is -56.5°C. LSS = TAS/M = 499/0.84 ≈ 594 kt. From LSS = 38.94√T, T = (594/38.94)² ≈ 232.5K = -40.5°C. ISA deviation = -40.5 - (-56.5) = +16°C ≈ +17°C."
+    },
+    {
+      "id": "6",
+      "question": "The errors to which the Machmeter is subject are:",
+      "options": [
+        "a. instrument error, position error, compressibility error and manoeuvre induced error",
+        "b. instrument error, position error and manoeuvre induced error",
+        "c. instrument error, position error, barometric error, temperature error and manoeuvre induced error",
+        "d. instrument error, position error, density error and manoeuvre induced error"
+      ],
+      "answer": "b",
+      "explanation": "The Machmeter measures the ratio of dynamic to static pressure, which is independent of density and temperature. Errors are limited to: instrument error (mechanical), position error (static/pitot port location), and manoeuvre induced error (during turns/climbs/descents)."
+    },
+    {
+      "id": "7",
+      "question": "The relationships between TAS, mach number (MNo) and local speed of sound (LSS) is:",
+      "options": [
+        "a. $LSS=\\frac{MNO}{TAS}$",
+        "b. $MNO=\\frac{LSS}{TAS}$",
+        "c. $TAS=MNo\\times LSS$",
+        "d. $MNO=LSS\\times TAS$"
+      ],
+      "answer": "c",
+      "explanation": "Mach number is defined as the ratio of true airspeed to local speed of sound: M = TAS/LSS. Rearranging: TAS = M × LSS. This is the fundamental relationship between these three quantities."
+    },
+    {
+      "id": "8",
+      "question": "The Machmeter gives an indication of mach number by measuring the ratio:",
+      "options": [
+        "a. pitot pressure / static pressure",
+        "b. static pressure / dynamic pressure",
+        "c. dynamic pressure / pitot pressure",
+        "d. dynamic pressure / static pressure"
+      ],
+      "answer": "d",
+      "explanation": "The Machmeter measures the ratio of dynamic pressure (q = Pt - Ps) to static pressure (Ps). This ratio is related to Mach number through Bernoulli's equation and the compressible flow relationships, allowing direct Mach number indication."
+    },
+    {
+      "id": "9",
+      "question": "An aircraft is flying at FL350 with a JSA deviation of +8. The Mach No. is 0.83 and the TAS 485. If the aircraft descends to FL300 and maintains the same Mach No. and TAS, the JSA deviation will now be:",
+      "options": [
+        "a. +8",
+        "b. -2",
+        "c. +2",
+        "d. -18"
+      ],
+      "answer": "b",
+      "explanation": "At FL350, ISA temp = -54.5°C. With ISA+8, actual temp = -46.5°C. LSS = TAS/M = 485/0.83 ≈ 584 kt. At FL300, ISA temp = -44.4°C. If TAS and M remain constant, LSS unchanged = 584 kt. Actual temp = (584/38.94)² ≈ 225K = -48°C. ISA deviation = -48 - (-44.4) = -3.6°C ≈ -2°C."
+    }
+  ]
+}
+
+
+

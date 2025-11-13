@@ -1,0 +1,118 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "4",
+  "chapter_title": "The Airspeed Indicator (ASI)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A leak in the pitot total pressure line of a non-pressurized aircraft to an airspeed indicator would cause it to:",
+      "options": [
+        "a. over-read in a climb and under-read in a descent",
+        "b. over-read",
+        "c. under-read in a climb and over-read in a descent",
+        "d. under-read"
+      ],
+      "answer": "d",
+      "explanation": "A leak in the pitot line allows pressure to escape, resulting in a lower pressure differential. This causes the ASI to consistently under-read, regardless of flight attitude."
+    },
+    {
+      "id": "2",
+      "question": "A pitot blockage of both the ram air input and the drain hole with the static port open causes the airspeed indicator to:",
+      "options": [
+        "a. read a little low",
+        "b. read a little high",
+        "c. react like an altimeter",
+        "d. freeze at zero"
+      ],
+      "answer": "c",
+      "explanation": "With the pitot blocked but static port open, the ASI measures only static pressure changes. As altitude changes, the static pressure changes, making the ASI behave like an altimeter - showing higher readings at lower altitudes and lower readings at higher altitudes."
+    },
+    {
+      "id": "3",
+      "question": "If the static line to the ASI becomes blocked during a long descent, a dangerous situation could arise due to the ASI:",
+      "options": [
+        "a. over-reading, this indicated speed falsely showing the aircraft to be further from the stalling speed than it actually is",
+        "b. under-reading, this indicated speed falsely showing the aircraft to be closer to the stalling speed than it actually is",
+        "c. under-reading, this indicated speed possibly leading to the operation of flaps and/or landing gear at speeds in excess of safety speeds",
+        "d. over-reading, this indicated speed possibly leading to the operation of flaps and/or landing gear at speeds in excess of safety speeds"
+      ],
+      "answer": "a",
+      "explanation": "A blocked static line during descent traps higher static pressure from higher altitude. The ASI over-reads, making the pilot think the aircraft is faster than it actually is, potentially leading to stalling at an indicated safe speed."
+    },
+    {
+      "id": "4",
+      "question": "An aircraft maintaining a constant CAS and altitude is flying from a cold airmass into warmer air. The effect of the change of temperature on the speed will be:",
+      "options": [
+        "a. CAS will decrease",
+        "b. EAS will increase",
+        "c. TAS will increase",
+        "d. TAS will decrease"
+      ],
+      "answer": "c",
+      "explanation": "Warmer air is less dense. At constant CAS (which depends on dynamic pressure), the TAS must increase to maintain the same dynamic pressure in less dense air. CAS and EAS remain constant, but TAS increases."
+    },
+    {
+      "id": "5",
+      "question": "The airspeed indicator is calibrated to:",
+      "options": [
+        "a. conditions of the International Standard Atmosphere at all heights",
+        "b. conditions of the International Standard Atmosphere at MSL",
+        "c. an air density of $1013.25~g/m^{3}$",
+        "d. indicate correctly in any atmosphere"
+      ],
+      "answer": "b",
+      "explanation": "The ASI is calibrated to International Standard Atmosphere (ISA) conditions at Mean Sea Level (MSL): 1013.25 hPa, 15°C, and standard density. This provides a reference for all airspeed readings."
+    },
+    {
+      "id": "6",
+      "question": "Dynamic pressure is equal to:",
+      "options": [
+        "a. $1/2pV^{2}$",
+        "b. $\\frac{1}{2}V\\rho^{2}$",
+        "c. $(\\frac{1}{2}pV)^{2}$",
+        "d. $\\frac{1}{2}(\\rho V)^{2}$"
+      ],
+      "answer": "a",
+      "explanation": "Dynamic pressure (q) is given by Bernoulli's equation: q = ½ρV², where ρ (rho) is air density and V is velocity. This represents the kinetic energy per unit volume of the moving air."
+    },
+    {
+      "id": "7",
+      "question": "Excluding blockages, the full list of errors of the ASI is:",
+      "options": [
+        "a. instrument error, position error, density error, manoeuvre induced error",
+        "b. instrument error, position error, temperature error, compressibility error, manoeuvre induced error",
+        "c. instrument error, position error, barometric error, temperature error, lag, manoeuvre induced error",
+        "d. instrument error, position error, density error, compressibility error, manoeuvre induced error"
+      ],
+      "answer": "d",
+      "explanation": "ASI errors include: instrument error (mechanical inaccuracies), position error (pressure measurement location), density error (non-standard atmosphere), compressibility error (at high speeds), and manoeuvre induced error (during turns, climbs, descents)."
+    },
+    {
+      "id": "8",
+      "question": "Some ASIs have coloured arcs and lines marked on their dials. A yellow arc and a white arc indicate:",
+      "options": [
+        "a. cautionary range and normal operating range",
+        "b. flap operating speed range and normal operating range",
+        "c. cautionary range and flap operating speed range",
+        "d. flap operating speed range and cautionary range"
+      ],
+      "answer": "c",
+      "explanation": "On ASI dials: white arc indicates the flap operating speed range (VSO to VFE), yellow arc indicates the cautionary range (between normal operating range and never-exceed speed). Green arc is normal operating range."
+    },
+    {
+      "id": "9",
+      "question": "If the static line to the ASI becomes blocked during a climb, the ASI reading will:",
+      "options": [
+        "a. increase, no matter what the actual airspeed is",
+        "b. progressively under indicate the value of airspeed",
+        "c. progressively over indicate the value of airspeed",
+        "d. stick at the airspeed showing at the moment of blockage"
+      ],
+      "answer": "b",
+      "explanation": "When static line is blocked during climb, it traps the static pressure from the altitude where blockage occurred. As the aircraft climbs, actual static pressure decreases, but the trapped higher pressure makes the ASI progressively under-read the true airspeed."
+    }
+  ]
+}
+
+
+

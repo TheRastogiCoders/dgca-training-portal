@@ -1,0 +1,129 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "18",
+  "chapter_title": "Gas Turbines - The Exhaust System",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The velocity of the gases in the exhaust unit is held to:",
+      "options": [
+        "a. Mach 0.5 to minimize turbulence",
+        "b. Mach 0.75 to optimize the pressure distribution",
+        "c. Mach 0.85 to maximize thrust",
+        "d. Mach 1 to maximize acceleration"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "2",
+      "question": "The exhaust cone:",
+      "options": [
+        "a. straightens the gas flow before it goes into the turbine assembly",
+        "b. prevents the hot gases flowing across the rear turbine face",
+        "c. increases the velocity of the gases",
+        "d. decreases the pressure of the gas"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "3",
+      "question": "The propelling nozzle is designed to:",
+      "options": [
+        "a. increase the velocity and decrease the pressure of the gas stream",
+        "b. decrease the velocity and increase the pressure of the gas stream",
+        "c. to increase the velocity and the pressure of the gas stream",
+        "d. to decrease the velocity and the pressure of the gas stream"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "4",
+      "question": "A nozzle is said to be \"choked\" when:",
+      "options": [
+        "a. the gas flow through it is subsonic",
+        "b. the gas flow through it reaches its sonic value",
+        "c. the gas temperature rises",
+        "d. the gas flow through it is supersonic"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "5",
+      "question": "A choked nozzle:",
+      "options": [
+        "a. decreases thrust",
+        "b. gives additional pressure without the addition of heat",
+        "c. has no effect on thrust",
+        "d. implies that no further increase in velocity can be obtained without the increase of heat"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "6",
+      "question": "The exhaust gases pass to atmosphere via the propelling nozzle which:",
+      "options": [
+        "a. is a convergent duct, thus it increases the gas velocity",
+        "b. converts kinetic energy into pressure energy",
+        "c. is a divergent duct, thus it increases the gas velocity",
+        "d. is a divergent nozzle, thus it increases the gas pressure"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "7",
+      "question": "The jet pipe is insulated from the airframe by:",
+      "options": [
+        "a. heat insulation materials",
+        "b. a cooling air jacket",
+        "c. a combination of cooling air and insulating material",
+        "d. semi-conducting geodetic structures"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "8",
+      "question": "The noise from a high ratio bypass engine:",
+      "options": [
+        "a. is created mainly in the exhaust section",
+        "b. is high in the exhaust section because of the high velocity gas flow",
+        "c. is predominantly from the fan and the turbine",
+        "d. is greater than that from a turbojet engine of comparable power output"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "9",
+      "question": "The shape of the volume within the jet pipe casing immediately to the rear of the turbine:",
+      "options": [
+        "a. is convergent to accelerate the gases towards the propelling nozzle",
+        "b. is divergent to accelerate the gases away from the turbine blades",
+        "c. is convergent to increase the pressure of the gases in the jet pipes",
+        "d. is divergent to reduce the velocity of the gases leaving the turbine"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "10",
+      "question": "The turbine rear support struts:",
+      "options": [
+        "a. add swirl to the gases before they travel down the jet pipe",
+        "b. prevent the hot gases flowing across the rear face of the rear turbine bearing",
+        "c. allow entry of the bypass air into the exhaust system",
+        "d. straighten out any residual whirl in the gas stream"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "11",
+      "question": "An exhaust nozzle is said to be choked when the velocity at the throat is:",
+      "options": [
+        "a. Mach 0.5",
+        "b. below Mach 1",
+        "c. at Mach 1",
+        "d. above Mach 1"
+      ],
+      "answer": "c"
+    }
+  ]
+}
+

@@ -1,0 +1,74 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "21",
+  "chapter_title": "Gas Turbines - Reverse Thrust",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Use of reverse thrust below the recommended speed may cause:",
+      "options": [
+        "a. over stressing of the gear oleos.",
+        "b. ingestion of the exhaust gases and foreign objects.",
+        "c. more fuel to be provided to the burners.",
+        "d. the TGT limit to be exceeded, in which case the reverse thrust lever will return to the forward thrust position."
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "A big fan engine gets reverse thrust by:",
+      "options": [
+        "a. reversing the direction of rotation of the compressor.",
+        "b. deflecting the exhaust gases.",
+        "c. blocking the bypass air.",
+        "d. reversing the hot stream gases."
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "3",
+      "question": "Before reverse thrust can be selected, the forward thrust lever must be:",
+      "options": [
+        "a. pulled back to idle power.",
+        "b. positioned to reverse minimum power.",
+        "c. put back to the reverser deploy position.",
+        "d. positioned to reverse maximum power."
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "4",
+      "question": "An aircraft uses clamshell doors for thrust reversal to:",
+      "options": [
+        "a. direct the gas flow rearwards.",
+        "b. block the flow of exhaust gas.",
+        "c. absorb any change in thrust.",
+        "d. change the direction of the exhaust gas."
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "5",
+      "question": "A reverse thrust warning light illuminates:",
+      "options": [
+        "a. only when the reverser doors are fully deployed in the reverse thrust position.",
+        "b. when the reverser doors are stowed in the forward thrust position.",
+        "c. when the reverser doors are not stowed in the forward thrust position.",
+        "d. whenever reverse thrust is selected."
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "Once the blocker doors are fully deployed, with an increase in rpm, which of the following statements would be incorrect?",
+      "options": [
+        "a. Forward thrust from the hot gases would increase.",
+        "b. Forward thrust from the hot gases would decrease.",
+        "c. Reverse thrust from the blocked air would increase.",
+        "d. TGT will increase."
+      ],
+      "answer": "b"
+    }
+  ]
+}
+

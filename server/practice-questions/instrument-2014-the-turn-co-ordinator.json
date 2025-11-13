@@ -1,0 +1,41 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "15",
+  "chapter_title": "The Turn Co-ordinator",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The gimbal ring of a turn co-ordinator is inclined at about $30^{\\circ}$ with respect to the aircraft's longitudinal axis in order to:",
+      "options": [
+        "a. make the rate of turn more accurate",
+        "b. make the gyro sensitive to banking of the aircraft as well as to turning",
+        "c. make the gyro more effective during inverted flight",
+        "d. have a higher rotor speed which will prolong the life of the instrument"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "If an aircraft turns as indicated in Figure 1, below:",
+      "options": [
+        "a. the aircraft will turn through $180^{\\circ}$ in two minutes",
+        "b. it will take one minute to turn through $90^{\\circ}$",
+        "c. the aircraft is turning left at less than $3^{\\circ}/$ second",
+        "d. the aircraft is turning left at $3^{\\circ}/$ second"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "3",
+      "question": "A turn co-ordinator has (i) ..... pivoted (ii) in the case",
+      "options": [
+        "a. (i) two gimbal rings (ii) orthogonally",
+        "b. (i) a single gimbal ring (ii) longitudinally",
+        "c. (i) one gimbal ring (ii) laterally",
+        "d. (i) two gimbal rings (ii) mutually perpendicular"
+      ],
+      "answer": "b"
+    }
+  ]
+}
+

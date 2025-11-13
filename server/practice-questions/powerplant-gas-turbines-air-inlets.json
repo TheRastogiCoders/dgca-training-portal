@@ -1,0 +1,85 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "14",
+  "chapter_title": "Gas Turbines - Air Inlets",
+  "questions": [
+    {
+      "id": "1",
+      "question": "In a high bypass engine with a 'pitot' intake, with the engine running and the brakes on, what will $P_{1}$ be in relation to $P_{0}$!",
+      "options": [
+        "a. Same.",
+        "b. Greater.",
+        "c. Less.",
+        "d. 14.7 psi."
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "2",
+      "question": "A pitot intake forms a ........ duct ........ the fan to ensure that the airflow ........ and achieves a ........",
+      "options": [
+        "a. convergent before speeds up subsonic pressure rise",
+        "b. divergent after slows down subsonic pressure rise",
+        "c. divergent before speeds up sonic pressure drop",
+        "d. divergent before slows down subsonic pressure rise"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "3",
+      "question": "What effect will severe icing in the intake have on a high bypass engine?",
+      "options": [
+        "a. The axial velocity of the air will increase with a reduction in the angle of attack of the airflow with the compressor blades and a possible stall.",
+        "b. The axial velocity of the air will decrease with a reduction in the angle of attack of the airflow with the compressor blades and a possible stall.",
+        "c. The axial velocity of the air will decrease with an increase in the angle that the resultant airflow forms with the compressor blades chord line and a possible stall.",
+        "d. The axial velocity of the air will increase with an increase in the angle of attack of the airflow with the compressor blades and a possible stall."
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "4",
+      "question": "Which of the following would be classed as prudent when carrying out Engine Ground Runs?",
+      "options": [
+        "a. Only carry out engine runs with a tailwind.",
+        "b. Fit debris guards when running.",
+        "c. Only do ground runs on tarmac.",
+        "d. Only do ground runs on concrete."
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "5",
+      "question": "With an 'S' type intake, if the pilot selects max rpm while standing still, there is a strong possibility that:",
+      "options": [
+        "a. the angle, which the relative airflow forms with the compressor blades, will become too small, which will cause the engine to stall and surge.",
+        "b. the angle, which the relative airflow forms with the compressor blades, will become too small, which will cause the engine to surge then stall.",
+        "c. the angle which the relative airflow forms with the compressor blades will become too large, which will cause the engine to stall and surge.",
+        "d. the angle, which the relative airflow forms with the compressor blades, will become too large, which will cause the engine to surge then stall."
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "The purpose of an air inlet is to provide a relatively ........ supply of air to the ........ of the compressor.",
+      "options": [
+        "a. turbulent free face low pressure",
+        "b. turbulent face low pressure",
+        "c. turbulent free rear low pressure",
+        "d. turbulent free face high pressure"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "7",
+      "question": "In a pitot intake the term 'Ram Pressure Recovery' refers to the time when:",
+      "options": [
+        "a. EPR has attained the take-off setting.",
+        "b. the HP Compressor has reached its maximum.",
+        "c. the EPR has recovered to its optimum figure.",
+        "d. intake pressure has been re-established to ambient pressure."
+      ],
+      "answer": "d"
+    }
+  ]
+}
+

@@ -39,11 +39,10 @@ const validateUsername = (username) => {
   return { isValid: true };
 };
 
-// Rate limiting for auth endpoints
+// Rate limiting for auth endpoints (relaxed for development)
 const authLimiter = require('express-rate-limit')({
-  windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 5, // Limit each IP to 5 requests per windowMs
-  message: 'Too many authentication attempts, please try again later.',
+  windowMs: 60 * 1000, // 1 minute
+  max: process.env.NODE_ENV === 'production' ? 30 : 1000,
   standardHeaders: true,
   legacyHeaders: false,
 });

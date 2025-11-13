@@ -1,0 +1,118 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "10",
+  "chapter_title": "The Direct Indicating Compass",
+  "questions": [
+    {
+      "id": "1",
+      "question": "In a standby direct reading compass there is:",
+      "options": [
+        "a. a non-pendulously mounted magnet system",
+        "b. a single pendulously mounted bar magnet",
+        "c. a circular magnet or pair of bar magnets pendulously mounted",
+        "d. a low magnetic moment system, either of circular or bar configuration"
+      ],
+      "answer": "c",
+      "explanation": "A standby direct reading compass uses a pendulously mounted magnet system (either circular or paired bar magnets) that hangs from a pivot point above its center of gravity, allowing it to remain horizontal and align with the Earth's magnetic field."
+    },
+    {
+      "id": "2",
+      "question": "The main requirements of a direct reading magnetic compass are that it should be:",
+      "options": [
+        "a. horizontal, sensitive, periodic",
+        "b. easily read, floating in a transparent liquid, quick to react to change in aircraft heading",
+        "c. positioned directly in front of the pilot, easily corrected for magnetic deviation, aperiodic",
+        "d. aperiodic, horizontal, sensitive"
+      ],
+      "answer": "d",
+      "explanation": "A direct reading compass must be: aperiodic (damped to settle quickly without oscillation), horizontal (to align with horizontal component of Earth's field), and sensitive (responsive to small heading changes). These are the fundamental requirements for accurate compass operation."
+    },
+    {
+      "id": "3",
+      "question": "For a position in the southern hemisphere, the effect of acceleration errors are greatest on headings:",
+      "options": [
+        "a. $180^{\\circ}$ and $360^{\\circ}$",
+        "b. $045^{\\circ}$ and $225^{\\circ}$",
+        "c. $135^{\\circ}$ and $315^{\\circ}$",
+        "d. $090^{\\circ}$ and $270^{\\circ}$"
+      ],
+      "answer": "d",
+      "explanation": "In the southern hemisphere, the north-seeking end of the compass dips upward. Acceleration errors are greatest on east-west headings (090° and 270°) because the pendulous magnet system tilts most significantly when accelerating/decelerating on these headings, causing maximum compass deviation."
+    },
+    {
+      "id": "4",
+      "question": "An aircraft in the southern hemisphere is turning from a heading of $090^{\\circ}C$ to $360^{\\circ}C$ using a DGI. At the end of the turn the compass will read ....... than $360^{\\circ}$ and liquid swirl will ....... this effect.",
+      "options": [
+        "a. more; increase",
+        "b. less; increase",
+        "c. more; decrease",
+        "d. less; decrease"
+      ],
+      "answer": "b",
+      "explanation": "In the southern hemisphere, turning from east (090°) to north (360°) causes the compass to lag (read less than 360°). Liquid swirl in the compass bowl, caused by the turning motion, adds to this lag error, increasing the turning error effect."
+    },
+    {
+      "id": "5",
+      "question": "In a standby compass the magnet system is immersed in a transparent liquid. The purpose of this liquid is to:",
+      "options": [
+        "a. increase sensitivity, increase aperiodicity",
+        "b. increase sensitivity, decrease aperiodicity",
+        "c. increase sensitivity at high latitudes, lubricate bearings",
+        "d. increase sensitivity, reduce liquid swirl"
+      ],
+      "answer": "a",
+      "explanation": "The liquid in a compass serves multiple purposes: it increases sensitivity by reducing friction and allowing smoother movement, and it increases aperiodicity (damping) by providing viscous resistance that prevents oscillation and helps the compass settle quickly."
+    },
+    {
+      "id": "6",
+      "question": "To improve the horizontality of a compass, the magnet assembly is suspended from a point:",
+      "options": [
+        "a. on the centre line of the magnet",
+        "b. below the centre of gravity",
+        "c. above the centre of gravity",
+        "d. varying with magnetic latitude"
+      ],
+      "answer": "c",
+      "explanation": "The magnet assembly is suspended from a pivot point above its center of gravity. This creates a pendulous system that naturally seeks horizontal due to gravity, ensuring the compass remains level and can accurately align with the horizontal component of Earth's magnetic field."
+    },
+    {
+      "id": "7",
+      "question": "The magnitude, and sense, of turning error shown by a direct reading compass varies with:\n1. the design of the compass\n2. the direction of the turn\n3. the rate of turn\n4. which hemisphere the aircraft is in\n5. the heading of the aircraft\n6. the amount of dip at the aircraft's latitude\nOf these statements:",
+      "options": [
+        "a. only 1, 2, 5 and 6 are correct",
+        "b. only 1, 3, 5 and 6 are correct",
+        "c. only 2, 4 and 5 are correct",
+        "d. all are correct"
+      ],
+      "answer": "d",
+      "explanation": "All factors listed affect turning error: compass design (magnet configuration), turn direction (left/right), turn rate (affects liquid swirl), hemisphere (determines dip direction), heading (affects error magnitude), and magnetic dip (varies with latitude, affecting error magnitude). All statements are correct."
+    },
+    {
+      "id": "8",
+      "question": "During a sustained turn ....... the nearer magnetic pole, the effect of liquid swirl will ....... compass turning error.",
+      "options": [
+        "a. away from; increase",
+        "b. towards; not affect",
+        "c. away from; not affect",
+        "d. towards; increase"
+      ],
+      "answer": "d",
+      "explanation": "When turning toward the nearer magnetic pole, the compass experiences increased turning error due to the pendulous magnet tilting. Liquid swirl, created by the turning motion, adds to this error by dragging the compass card in the direction of turn, increasing the overall turning error."
+    },
+    {
+      "id": "9",
+      "question": "When carrying out a turn at the magnetic equator there will be:",
+      "options": [
+        "a. no turning error",
+        "b. a tendency to under-read turns through south and over-read turns through north",
+        "c. a tendency to under-read turns due to liquid swirl",
+        "d. no turning error when turning through east or west"
+      ],
+      "answer": "a",
+      "explanation": "At the magnetic equator, magnetic dip is zero (field lines are horizontal). With no vertical component, the pendulous magnet system doesn't tilt during turns, eliminating turning error. The compass accurately indicates heading changes without error at the magnetic equator."
+    }
+  ]
+}
+
+
+

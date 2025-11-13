@@ -1,0 +1,122 @@
+{
+  "book": {
+    "slug": "principles-of-flight-2014",
+    "title": "Principles of Flight 2014"
+  },
+  "chapter": {
+    "number": 2,
+    "slug": "basic-aerodynamic-theory",
+    "title": "Basic Aerodynamic Theory"
+  },
+  "questions": [
+    {
+      "id": "pof2014-2-1",
+      "question": "If the cross-sectional area of an airflow is mechanically reduced:",
+      "options": [
+        "the velocity of the airflow remains constant and the kinetic energy increases.",
+        "the velocity of the airflow remains constant and the mass flow increases.",
+        "the mass flow remains constant and the static pressure increases.",
+        "the mass flow remains constant and the velocity of the airflow increases."
+      ],
+      "answer": "d",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-2-2",
+      "question": "The statement, \"Pressure plus kinetic energy equals constant\", refers to:",
+      "options": [
+        "Bernoulli's theorem.",
+        "the principle of continuity.",
+        "Newton's second law of motion.",
+        "the Magnus effect."
+      ],
+      "answer": "a",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-2-3",
+      "question": "If the velocity of an air mass is increased:",
+      "options": [
+        "the dynamic pressure will decrease and the static pressure will increase.",
+        "the static pressure will remain constant and the kinetic energy will increase.",
+        "the kinetic energy will increase, the dynamic pressure will increase and the static pressure will decrease.",
+        "the mass flow will stay constant, the dynamic pressure will decrease and the static pressure will increase."
+      ],
+      "answer": "c",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-2-4",
+      "question": "When considering a streamlined airflow, which of the following statements is correct?\n1. An increase in velocity is indicated by streamlines shown close together.\n2. Accelerating airflow with a resultant decreasing static pressure is indicated by converging streamlines.\n3. Diverging streamlines indicate decelerating airflow with a resultant increasing static pressure.\n4. A resultant decrease in static pressure is indicated by streamlines shown close together.",
+      "options": [
+        "2 and 4.",
+        "1, 3 and 4.",
+        "2, 3 and 4.",
+        "1, 2, 3 and 4."
+      ],
+      "answer": "d",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-2-5",
+      "question": "If the pressure on one side of a surface is lower than on the other side:",
+      "options": [
+        "a force per unit area will exist, acting in the direction of the lower pressure.",
+        "no force will be generated, other than drag.",
+        "a force will be generated, acting in the direction of the higher pressure.",
+        "the pressure will leak around the sides of the surface, cancelling out any pressure differential."
+      ],
+      "answer": "a",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-2-6",
+      "question": "When considering a streamtube, which of the following statements is correct?\n1. Different sizes of streamtube are manufactured to match the wingspan of the aircraft to which they will be fitted.\n2. A streamtube is a concept to aid understanding of aerodynamic force generation.\n3. There is no flow into or out of the streamtube through the \"walls\", only flow along the tube.\n4. A streamtube is an imaginary tube made up of streamlines.",
+      "options": [
+        "1 only.",
+        "1 and 3.",
+        "2, 3 and 4.",
+        "1, 2 and 3."
+      ],
+      "answer": "c",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-2-7",
+      "question": "In accordance with the principle of continuity:\n1. Air accelerates when the cross-sectional area of a streamline flow is reduced.\n2. When air accelerates the density of air in a streamline flow is increased.\n3. Air decelerates when the cross-sectional area of a streamline flow is increased.\n4. Changes in cross-sectional area of a streamline flow will affect the air velocity.\nWhich of the preceding statements are true?",
+      "options": [
+        "1, 2, 3 and 4.",
+        "1 and 4.",
+        "3 and 4.",
+        "1, 3 and 4."
+      ],
+      "answer": "d",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-2-8",
+      "question": "In accordance with Bernoulli's theorem:\n1. If a streamline flow of air decelerates, its kinetic energy will decrease and the static pressure will increase.\n2. If a streamline flow of air accelerates, its kinetic energy will increase and the static pressure will decrease.\n3. If a streamline flow of air is accelerated, the dynamic pressure will increase and the static pressure will increase.\n4. If a streamline flow of air is decelerated, its dynamic pressure will decrease and the static pressure will increase.\nThe combination of correct statements is:",
+      "options": [
+        "1, 2, 3 and 4.",
+        "3 only.",
+        "1, 2 and 4.",
+        "3 and 4."
+      ],
+      "answer": "c",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-2-9",
+      "question": "The statement, \"Energy and mass can neither be created nor destroyed, only changed from one form to another\", refers to:",
+      "options": [
+        "Bernoulli's theorem.",
+        "the equation of kinetic energy.",
+        "the principle of continuity.",
+        "Bernoulli's principle of continuity."
+      ],
+      "answer": "a",
+      "explanation": ""
+    }
+  ]
+}
+

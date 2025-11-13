@@ -1,0 +1,107 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "11",
+  "chapter_title": "Gyroscopes",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Rigidity of a gyroscope depends on:",
+      "options": [
+        "a. weight, force applied and speed of rotation",
+        "b. rate of precession and the force applied",
+        "c. weight, rate of precession and speed of rotation",
+        "d. mass, radius of gyration and speed of rotation"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "2",
+      "question": "A force is applied to deflect a gyroscope. If the rpm of the gyro is then doubled, the precession rate will:",
+      "options": [
+        "a. remain as before",
+        "b. increase",
+        "c. decrease",
+        "d. cease altogether"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "3",
+      "question": "In gyroscopic theory the term 'topple' is defined as:",
+      "options": [
+        "a. real wander only, in the horizontal plane",
+        "b. real wander only, in the vertical plane",
+        "c. wander, real or apparent, in the vertical plane",
+        "d. wander, real or apparent, in the horizontal plane"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "4",
+      "question": "A force applied to the spinning axis of a rotor is precessed:",
+      "options": [
+        "a. through $90^{\\circ}$ in the direction of spin of the rotor",
+        "b. through $90^{\\circ}$ in the direction of spin of the rotor in the northern hemisphere and through $90^{\\circ}$ in the opposite direction in the southern hemisphere",
+        "c. through $270^{\\circ}$ in the direction of spin of the rotor",
+        "d. at a rate proportional to the speed of rotation of the gyro"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "Real wander of a gyro can be caused by:",
+      "options": [
+        "a. asymmetrical friction at the spinning axis",
+        "b. rotation of the earth",
+        "c. increasing the rpm of the rotor",
+        "d. moving the gyro north or south of its present position"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "6",
+      "question": "A gyro with only one degree of freedom is known as a:",
+      "options": [
+        "a. tied gyro",
+        "b. earth gyro",
+        "c. space gyro",
+        "d. rate gyro"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "7",
+      "question": "A perfectly balanced space gyro at the equator has its spin axis aligned with true north. After 6 hours the axis will be be aligned with:",
+      "options": [
+        "a. true east direction",
+        "b. true west direction",
+        "c. true north direction",
+        "d. true south direction"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "The main advantage of electric gyros are:",
+      "options": [
+        "a. high rpm, only require low voltage DC, constant speed, sealed casing",
+        "b. light weight, high rpm, constant speed, inexpensive",
+        "c. high rpm, high moment of inertia, rapid build-up of speed, constant RPM",
+        "d. sealed casing, constant speed, high precession rate, low cost"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "9",
+      "question": "Apparent wander of a gyro can be caused by:",
+      "options": [
+        "a. rotation of the earth",
+        "b. clear air turbulence",
+        "c. gimbal friction",
+        "d. external torque"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+

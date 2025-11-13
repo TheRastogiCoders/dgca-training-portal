@@ -1,0 +1,107 @@
+{
+  "book_name": "Electrics and Electronics 2014",
+  "chapter_number": "5",
+  "chapter_title": "DC Electrics - Magnetism",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The area of force around a magnet is termed:",
+      "options": [
+        "a. conductance",
+        "b. stable",
+        "c. magnetic resistance",
+        "d. magnetic field"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "2",
+      "question": "When a magnet is unable to accept any further magnetism it is termed:",
+      "options": [
+        "a. reluctance",
+        "b. saturation",
+        "c. active",
+        "d. reactance"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "3",
+      "question": "Permanent magnets are manufactured from:",
+      "options": [
+        "a. steel",
+        "b. plastic",
+        "c. liquid",
+        "d. glass"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "4",
+      "question": "Magnetic lines of force flow externally from:",
+      "options": [
+        "a. one main line station to another",
+        "b. the master station",
+        "c. the north to the south pole",
+        "d. in a random direction"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "5",
+      "question": "Which of the two poles has the greatest strength?",
+      "options": [
+        "a. North seeking pole",
+        "b. South seeking pole",
+        "c. Both poles have the same strength",
+        "d. The saturated pole"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "Electromagnetism is a product of:",
+      "options": [
+        "a. voltage",
+        "b. current",
+        "c. resistance",
+        "d. engine resistance"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "7",
+      "question": "To increase electromagnetic force one would:",
+      "options": [
+        "a. increase coil resistance",
+        "b. reduce current flow",
+        "c. lower EMF",
+        "d. increase current flow"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "8",
+      "question": "If you bring two magnets together:",
+      "options": [
+        "a. like poles will attract",
+        "b. unlike poles will attract",
+        "c. over heating will occur",
+        "d. their magnetic fields will adjust to avoid overcrowding"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "9",
+      "question": "A soft iron core in an electromagnet:",
+      "options": [
+        "a. increases flux density",
+        "b. decreases flux density",
+        "c. reduces arcing",
+        "d. increases the lines of strength"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+

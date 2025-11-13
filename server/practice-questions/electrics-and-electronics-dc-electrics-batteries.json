@@ -1,0 +1,338 @@
+{
+  "book_name": "Electrics and Electronics 2014",
+  "chapter_number": "4",
+  "chapter_title": "DC Electrics - Batteries",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Battery voltage is tested with:",
+      "options": [
+        "a. a megometer",
+        "b. a voltmeter on rated load",
+        "c. an ammeter with a rated voltage",
+        "d. a hygrometer"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "Two 12 V 40 Ah batteries connected in series will produce:",
+      "options": [
+        "a. 12 V 80 Ah",
+        "b. 12 V 20 Ah",
+        "c. 24 V 80 Ah",
+        "d. 24 V 40 Ah"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "3",
+      "question": "Two 12 V 40 Ah batteries connected in parallel will produce:",
+      "options": [
+        "a. 12 V 80 Ah",
+        "b. 24 V 80 Ah",
+        "c. 12 V 20 Ah",
+        "d. 24 V 40 Ah"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "4",
+      "question": "A battery capacity test is carried out:",
+      "options": [
+        "a. 6 monthly",
+        "b. 2 monthly",
+        "c. 3 monthly",
+        "d. every minor check"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "5",
+      "question": "An aircraft has three batteries each of 12 volts with 40 Ah capacity connected in series. The resultant unit has:",
+      "options": [
+        "a. a voltage of 36 and a capacity of 120 Ah",
+        "b. a capacity of 120 Ah and a voltage of 12",
+        "c. a capacity of 36 Ah and 120 watts",
+        "d. a voltage of 36 and a capacity of 40 Ah"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "6",
+      "question": "An aircraft has a battery with a capacity of 40 Ah. Assuming that it will provide its normal capacity and is discharged at the 10 hour rate:",
+      "options": [
+        "a. it will pass 40 amps for 10 hrs",
+        "b. it will pass 10 amps for 4 hrs",
+        "c. it will pass 4 amps for 10 hrs",
+        "d. it will pass 40 amps for 1 hr"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "7",
+      "question": "Battery capacity percentage efficiency must always be:",
+      "options": [
+        "a. 10% above saturation level",
+        "b. above 70%",
+        "c. 80% or more",
+        "d. above 90%"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "8",
+      "question": "The method of ascertaining the voltage of a standard aircraft lead acid battery is by checking:",
+      "options": [
+        "a. the voltage on open circuit",
+        "b. the current flow with a rated voltage charge",
+        "c. the voltage off load",
+        "d. the voltage with rated load switched ON"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "9",
+      "question": "A battery is checked for serviceability by:",
+      "options": [
+        "a. using an ammeter",
+        "b. measuring the specific gravity of the electrolyte",
+        "c. a boric acid solution",
+        "d. using an ohmmeter"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "10",
+      "question": "In an AC circuit:",
+      "options": [
+        "a. the battery is connected in series",
+        "b. a battery cannot be used because the wire is too thick",
+        "c. a battery cannot be used because it is DC",
+        "d. only NiCad batteries can be used"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "11",
+      "question": "The specific gravity of a fully charged lead acid cell is:",
+      "options": [
+        "a. 1.270",
+        "b. 1.090",
+        "c. 1.120",
+        "d. 0.1270"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "12",
+      "question": "The nominal voltage of the lead acid cell is:",
+      "options": [
+        "a. 1.2 volts",
+        "b. 1.5 volts",
+        "c. 1.8 volts",
+        "d. 2.0 volts"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "13",
+      "question": "A lead acid battery voltage should be checked:",
+      "options": [
+        "a. on open circuit",
+        "b. using a trimmer circuit",
+        "c. with an ammeter",
+        "d. on load"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "14",
+      "question": "In an aircraft having a battery of 24 volts nominal off load and fully charged the voltmeter would read:",
+      "options": [
+        "a. 22 volts",
+        "b. 24 volts",
+        "c. 26 volts",
+        "d. 28 volts"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "15",
+      "question": "The system used to maintain aircraft batteries in a high state of charge is the:",
+      "options": [
+        "a. constant current system",
+        "b. constant load system",
+        "c. constant resistance system",
+        "d. constant voltage system"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "16",
+      "question": "If you connect two identical batteries in series it will:",
+      "options": [
+        "a. double the volts and halve the capacity",
+        "b. reduce the voltage by 50%",
+        "c. double the volts and leave the capacity the same",
+        "d. double the volts and double the amps flowing in a circuit with twice the resistance"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "17",
+      "question": "The nominal voltage of an alkaline cell is:",
+      "options": [
+        "a. 2.2 volts",
+        "b. 1.8 volts",
+        "c. 1.2 volts",
+        "d. 0.12 volts"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "18",
+      "question": "The specific gravity of a fully charged alkaline cell is:",
+      "options": [
+        "a. 0.120-0.130",
+        "b. 1.160",
+        "c. 1.240-1.30",
+        "d. 1.800"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "19",
+      "question": "The electrolyte used in the lead acid cell is diluted:",
+      "options": [
+        "a. hydrochloric acid",
+        "b. sulphuric acid",
+        "c. boric acid",
+        "d. potassium hydroxide"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "20",
+      "question": "The electrolyte used in an alkaline battery is diluted:",
+      "options": [
+        "a. saline solution",
+        "b. sulphuric acid",
+        "c. cadmium and distilled water",
+        "d. potassium hydroxide solution"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "21",
+      "question": "The number of lead acid cells required to make up a twelve volt battery is:",
+      "options": [
+        "a. 8",
+        "b. 12",
+        "c. 6",
+        "d. 10"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "22",
+      "question": "A voltmeter across the terminals of a battery with all services off will indicate:",
+      "options": [
+        "a. electromotive force",
+        "b. resistance",
+        "c. a flat battery",
+        "d. residual voltage"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "23",
+      "question": "The voltage of a secondary cell is:",
+      "options": [
+        "a. determined by the number of plates",
+        "b. determined by the area of the plates",
+        "c. determined by the diameter of the main terminals",
+        "d. determined by the active materials on the plates"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "24",
+      "question": "The level of the electrolyte must be maintained:",
+      "options": [
+        "a. just below the top plate",
+        "b. above the plates level with the filler cap",
+        "c. one inch below the top of the plates",
+        "d. just above the top of the plates"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "25",
+      "question": "To top up the electrolyte add:",
+      "options": [
+        "a. sulphuric acid",
+        "b. distilled water",
+        "c. sulphuric acid diluted with distilled water",
+        "d. boric acid"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "26",
+      "question": "Non-spill vents are used on aircraft batteries to:",
+      "options": [
+        "a. prevent spillage of electrolyte during violent manoeuvres",
+        "b. stop spillage of the water only",
+        "c. prevent the escape of gases",
+        "d. prevent spillage during topping-up"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "27",
+      "question": "The capacity of a lead acid battery is:",
+      "options": [
+        "a. determined by the area of the plates",
+        "b. determined by the active materials on the plates",
+        "c. determined by the size of the series coupling bars",
+        "d. determined by the number of separators"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "28",
+      "question": "Acid spillage in an aircraft can be neutralized by using:",
+      "options": [
+        "a. caustic soda",
+        "b. soap and water",
+        "c. soda and water",
+        "d. bicarbonate of soda and water"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "29",
+      "question": "When the battery master switch is switched off in flight:",
+      "options": [
+        "a. the generators are disconnected from the bus bar",
+        "b. the ammeter reads maximum",
+        "c. the battery is isolated from the bus bar",
+        "d. the battery is discharged through the bonding circuit diodes"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "30",
+      "question": "When the generator is on line the battery is:",
+      "options": [
+        "a. in parallel with the other loads",
+        "b. in series with the generator",
+        "c. in series when the generator is on line and is relayed when the generator is off line",
+        "d. load sharing"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+

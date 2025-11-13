@@ -1,7 +1,6 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
-import { AdminAuthProvider } from './context/AdminAuthContext';
 import ErrorBoundary from './components/ErrorBoundary';
 import LoadingSpinner from './components/ui/LoadingSpinner';
 import Header from './components/Header';
@@ -16,14 +15,6 @@ const QuestionBank = lazy(() => import('./components/QuestionBank'));
 const PracticeTest = lazy(() => import('./components/PracticeTest'));
 const BookSelection = lazy(() => import('./components/BookSelection'));
 const LoginPage = lazy(() => import('./components/LoginPage'));
-const AdminLogin = lazy(() => import('./components/AdminLogin'));
-const ProtectedAdminPanel = lazy(() => import('./components/ProtectedAdminPanel'));
-const AdminPanel = lazy(() => import('./components/AdminPanel'));
-const ProtectedRoute = lazy(() => import('./components/ProtectedRoute'));
-const AdminProtectedRoute = lazy(() => import('./components/AdminProtectedRoute'));
-const AdminDomainGuard = lazy(() => import('./components/AdminDomainGuard'));
-const AdminQuestions = lazy(() => import('./components/AdminQuestions'));
-const AdminAnalysisQuestions = lazy(() => import('./components/AdminAnalysisQuestions'));
 const BookChapters = lazy(() => import('./components/BookChapters'));
 const AIPracticeSubject = lazy(() => import('./components/AIPracticeSubject'));
 const AIPracticeBooks = lazy(() => import('./components/AIPracticeBooks'));
@@ -31,13 +22,9 @@ const AIPracticeRunner = lazy(() => import('./components/AIPracticeRunner'));
 const AIPracticeChapters = lazy(() => import('./components/AIPracticeChapters'));
 const ChapterPracticeIntro = lazy(() => import('./components/ChapterPracticeIntro'));
 const BookPracticeRunner = lazy(() => import('./components/BookPracticeRunner'));
-const AdminDashboard = lazy(() => import('./components/AdminDashboard'));
-const AdminSettings = lazy(() => import('./components/AdminSettings'));
-const AdminResults = lazy(() => import('./components/AdminResults'));
-const AdminLogs = lazy(() => import('./components/admin/AdminLogs'));
-const AdminUsers = lazy(() => import('./components/admin/AdminUsers'));
 const WhatsAppFloat = lazy(() => import('./components/WhatsAppFloat'));
 const ContactSupport = lazy(() => import('./components/ContactSupport'));
+const Profile = lazy(() => import('./components/Profile'));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -51,7 +38,6 @@ function App() {
   return (
     <ErrorBoundary>
       <AuthProvider>
-        <AdminAuthProvider>
           <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
             <ScrollToTop />
             <div className="App">
@@ -63,6 +49,7 @@ function App() {
               <Route path="/question-bank" element={<QuestionBank />} />
               <Route path="/practice-test" element={<PracticeTest />} />
               <Route path="/login" element={<LoginPage />} />
+              <Route path="/profile" element={<Profile />} />
               <Route path="/books/air-regulations" element={<BookSelection />} />
               <Route path="/books/air-navigation" element={<BookSelection />} />
               <Route path="/books/meteorology" element={<BookSelection />} />
@@ -75,16 +62,9 @@ function App() {
               <Route path="/practice-test/ai/:subjectSlug/:bookSlug" element={<AIPracticeChapters />} />
               <Route path="/practice-test/ai/:subjectSlug/:bookSlug/:chapterSlug" element={<AIPracticeRunner />} />
               <Route path="/practice-test/book/:bookSlug" element={<BookPracticeRunner />} />
+              <Route path="/practice-test/book/:bookSlug/:chapterSlug" element={<BookPracticeRunner />} />
               <Route path="/practice/:subjectSlug/:bookSlug/:chapterSlug" element={<ChapterPracticeIntro />} />
-              <Route path="/admin-analysis-questions" element={<AdminAnalysisQuestions />} />
-              <Route path="/admin" element={<AdminDomainGuard><AdminLogin /></AdminDomainGuard>} />
-              <Route path="/admin-dashboard" element={<AdminDomainGuard><AdminProtectedRoute><AdminDashboard /></AdminProtectedRoute></AdminDomainGuard>} />
-              <Route path="/admin-panel" element={<AdminDomainGuard><AdminProtectedRoute><AdminPanel /></AdminProtectedRoute></AdminDomainGuard>} />
-              <Route path="/admin-settings" element={<AdminDomainGuard><AdminProtectedRoute><AdminSettings /></AdminProtectedRoute></AdminDomainGuard>} />
-              <Route path="/admin-results" element={<AdminDomainGuard><AdminProtectedRoute><AdminResults /></AdminProtectedRoute></AdminDomainGuard>} />
-              <Route path="/admin-questions" element={<AdminDomainGuard><AdminProtectedRoute><AdminQuestions /></AdminProtectedRoute></AdminDomainGuard>} />
-              <Route path="/admin/logs" element={<AdminDomainGuard><AdminProtectedRoute><AdminLogs /></AdminProtectedRoute></AdminDomainGuard>} />
-              <Route path="/admin/users" element={<AdminDomainGuard><AdminProtectedRoute><AdminUsers /></AdminProtectedRoute></AdminDomainGuard>} />
+              {/* Admin routes removed */}
               {/* Hidden route: not linked from navigation */}
               <Route path="/support/contact" element={<ContactSupport />} />
               </Routes>
@@ -92,7 +72,6 @@ function App() {
               <WhatsAppFloat />
             </div>
           </Router>
-        </AdminAuthProvider>
       </AuthProvider>
     </ErrorBoundary>
   );

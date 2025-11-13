@@ -1,0 +1,118 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "7",
+  "chapter_title": "Piston Engines - Mixture",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Weakening the mixture below the best fuel/air ratio will cause the engine power to:",
+      "options": [
+        "a. decrease",
+        "b. increase initially, but decrease below take off power",
+        "c. increase",
+        "d. be unaffected by altitude increase"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "2",
+      "question": "For maximum endurance the mixture control should be set to:",
+      "options": [
+        "a. weak",
+        "b. the chemically correct state",
+        "c. between rich and weak",
+        "d. rich"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "3",
+      "question": "An air/fuel ratio of 9:1 would be considered:",
+      "options": [
+        "a. chemically correct",
+        "b. extravagant",
+        "c. rich",
+        "d. weak"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "4",
+      "question": "Because of the reduction in the density of the atmosphere associated with an increase in altitude:",
+      "options": [
+        "a. the mixture control must be moved towards the weak position",
+        "b. the throttle must close progressively to maintain the best air/fuel ratio.",
+        "c. the mixture must be progressively richened to compensate for the power loss",
+        "d. the octane rating of the fuel must be increased"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "A chemically correct mixture is:",
+      "options": [
+        "a. 15:1 (fuel: air)",
+        "b. 15:1 (air: fuel)",
+        "c. 13:1 (fuel: air)",
+        "d. 13:1 (air: fuel)"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "6",
+      "question": "While weakening the mixture from the chemically correct mixture the EGT will ...... and the cylinder head temperature will .......... with a ...... in thermal efficiency.",
+      "options": [
+        "a. increase, increase, decrease",
+        "b. decrease, increase, decrease",
+        "c. decrease, increase, increase",
+        "d. increase, decrease, increase"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "7",
+      "question": "Which of the following mixtures theoretically would produce the maximum rpm?",
+      "options": [
+        "a. 14:1 (air: fuel)",
+        "b. 14:1 (fuel: air)",
+        "c. 15:1 (fuel: air)",
+        "d. 15:1 (air: fuel)"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "A weak mixture is used for which of the following?",
+      "options": [
+        "a. Take-off",
+        "b. Climbing",
+        "c. Engine starting",
+        "d. Cruising"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "9",
+      "question": "While using a weak mixture which of the following would be an incorrect statement?",
+      "options": [
+        "a. The charge would be cooled due to a larger proportion of nitrogen in the cylinder",
+        "b. The charge would burn slower due to a larger proportion of nitrogen in the cylinder",
+        "c. The ignition may have to be advanced",
+        "d. The ignition may have to be retarded"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "10",
+      "question": "While using a rich mixture which of the following would be a correct statement?",
+      "options": [
+        "a. The charge would burn slower",
+        "b. All of the fuel would be used during combustion",
+        "c. All of the oxygen would be used during combustion",
+        "d. Cylinder head temperature increases while richening further"
+      ],
+      "answer": "c"
+    }
+  ]
+}
+

@@ -1,0 +1,19 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "19",
+  "chapter_title": "Inertial Reference System",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Dither is used in a laser gyro in order to:",
+      "options": [
+        "a. enhance the accuracy of the gyro at all rotational rates",
+        "b. increase the maximum rotational rate that can be sensed by the gyro",
+        "c. stabilize the laser frequencies at peak power output",
+        "d. break the frequency lock which would prevent small rotational rates from being sensed by the gyro"
+      ],
+      "answer": "d"
+    }
+  ]
+}
+

@@ -1,0 +1,94 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "9",
+  "chapter_title": "Terrestrial Magnetism",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The red pole of a freely suspended magnet will point towards and at latitude $60^{\\circ}N$ will point at an angle known as the angle of",
+      "options": [
+        "a. the nose of the aircraft, downwards, deviation",
+        "b. the North magnetic pole, downwards, variation",
+        "c. the nearest pole, downwards, declination",
+        "d. the North magnetic pole, downwards, dip"
+      ],
+      "answer": "d",
+      "explanation": "The red (north-seeking) pole of a freely suspended magnet points toward the North magnetic pole. At higher latitudes, the magnetic field lines dip downward, creating an angle with the horizontal called the angle of dip or magnetic inclination."
+    },
+    {
+      "id": "2",
+      "question": "If the total force of the earth's field at a point is T and the horizontal and vertical components H and Z, the value of H is found by the formula:",
+      "options": [
+        "a. $H=T$ sin dip",
+        "b. $H=Z$ tan dip",
+        "c. $H=T$ cos dip",
+        "d. $H=T$ tan dip"
+      ],
+      "answer": "c",
+      "explanation": "The total magnetic field T can be resolved into horizontal (H) and vertical (Z) components. Using trigonometry: H = T cos(dip), where dip is the angle the field makes with the horizontal. The horizontal component is what provides the directive force for compasses."
+    },
+    {
+      "id": "3",
+      "question": "The directive force of the earth's magnetic field:",
+      "options": [
+        "a. varies with the heading of the aircraft",
+        "b. increases as the magnetic variation increases",
+        "c. increases as magnetic latitude increases",
+        "d. is greatest at the magnetic equator"
+      ],
+      "answer": "d",
+      "explanation": "The directive force is provided by the horizontal component (H) of the Earth's magnetic field. At the magnetic equator, the field lines are horizontal (dip = 0°), so H = T (maximum). As latitude increases, dip increases, H decreases, reducing directive force."
+    },
+    {
+      "id": "4",
+      "question": "The slow change in the earth's magnetic variation is known as the ....... change and is caused by",
+      "options": [
+        "a. annual, westerly movement of the magnetic pole",
+        "b. diurnal, easterly movement of the magnetic pole",
+        "c. secular, westerly movement of the magnetic pole",
+        "d. annual, sunspot activity"
+      ],
+      "answer": "c",
+      "explanation": "Secular variation is the slow, long-term change in magnetic variation (declination) caused by the gradual movement of the Earth's magnetic poles. The North magnetic pole has been moving in a generally westerly direction, causing secular variation."
+    },
+    {
+      "id": "5",
+      "question": "Soft iron is comparatively ....... to magnetize whilst hard iron is ....... to demagnetize.",
+      "options": [
+        "a. easy; difficult",
+        "b. easy; easy",
+        "c. difficult; easy",
+        "d. difficult; difficult"
+      ],
+      "answer": "a",
+      "explanation": "Soft iron has low coercivity - it magnetizes easily when placed in a magnetic field and loses its magnetism easily when removed. Hard iron has high coercivity - it's difficult to magnetize but once magnetized, it's difficult to demagnetize (retains magnetism)."
+    },
+    {
+      "id": "6",
+      "question": "Which of the following materials are classed as ferromagnetic:",
+      "options": [
+        "a. iron, steel, carbon-fibre",
+        "b. nickel, iron, steel",
+        "c. copper, iron, carbon steel",
+        "d. iron, cobalt steel, chromium steel"
+      ],
+      "answer": "b",
+      "explanation": "Ferromagnetic materials are those that can be strongly magnetized. The main ferromagnetic elements are iron, nickel, and cobalt. Steel (which contains iron) is also ferromagnetic. Carbon-fibre and copper are not ferromagnetic."
+    },
+    {
+      "id": "7",
+      "question": "The magnetic moment of a magnet:",
+      "options": [
+        "a. is the product of pole strength and effective length",
+        "b. varies inversely as the square of the distance between the poles",
+        "c. varies directly as the square of the distance between the poles",
+        "d. decreases as the magnet length increases"
+      ],
+      "answer": "a",
+      "explanation": "The magnetic moment (m) of a magnet is defined as the product of pole strength (m) and the effective length (l) between the poles: m = m × l. It's a measure of the magnet's strength and orientation, determining how the magnet interacts with magnetic fields."
+    }
+  ]
+}
+
+
+

@@ -1,0 +1,272 @@
+{
+  "book_name": "Airframes and Systems 2014",
+  "chapter_number": "6",
+  "chapter_title": "Aircraft Brakes",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Oil is used in an oleo strut to:",
+      "options": [
+        "a. support the weight of the aircraft",
+        "b. limit the speed of compression of the strut",
+        "c. lubricate the piston within the cylinder",
+        "d. limit the speed of extension and compression of the strut"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "2",
+      "question": "The nose wheel assembly must be centred before retraction because:",
+      "options": [
+        "a. there is limited space in the nose wheel bay",
+        "b. the aircraft may swerve on the next landing if the nose wheel is not straight",
+        "c. the tyres may be damaged on landing if the nose wheel is not straight",
+        "d. it will remove any slush or debris which may have accumulated on take-off"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "3",
+      "question": "The movement of the gear on lowering is normally damped to:",
+      "options": [
+        "a. prevent the fluid becoming aerated",
+        "b. counteract the force of gravity which would bring the gear down too fast",
+        "c. make the lowering time greater than the raising time",
+        "d. prevent the hydraulic fluid becoming overheated"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "4",
+      "question": "Inadvertent retraction of the landing gear on the ground is:",
+      "options": [
+        "a. not possible because the system is not powerful enough",
+        "b. prevented by the ground/air logic system",
+        "c. always a danger after the ground locks have been removed",
+        "d. the responsibility of the first officer when he is on the aircraft"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "5",
+      "question": "Creep (slippage):",
+      "options": [
+        "a. is not a problem with tubeless tyres",
+        "b. refers to the movement of the aircraft against the brakes",
+        "c. alignment can rip out the inflation valve on tubed tyres, and deflate the tyre",
+        "d. can be prevented by painting lines on the wheel and tyre"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "Tyre wear when taxiing can be reduced by:",
+      "options": [
+        "a. restricting the use of brakes and using thrust reversers",
+        "b. taxiing at less than 40 kph",
+        "c. staying on the smoothest parts of the taxiway",
+        "d. taxiing at less than 25 knots"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "7",
+      "question": "To prevent scrubbing the tyres while taxiing, you should:",
+      "options": [
+        "a. use tyres with fusible plugs",
+        "b. make sharp turns only if you have high speed tyres fitted",
+        "c. turn no sharper than the minimum specified radius",
+        "d. deflate the tyres to a minimum pressure"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "8",
+      "question": "The best extinguishant to use on a wheel or brake fire is:",
+      "options": [
+        "a. $CO_{2}$",
+        "b. dry powder",
+        "c. freon",
+        "d. water"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "9",
+      "question": "When inflating a tyre fitted to an aircraft, the tyre pressure reading on the gauge should be modified by:",
+      "options": [
+        "a. 10 psi",
+        "b. 10%",
+        "c. 4 psi",
+        "d. 4%"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "10",
+      "question": "The most likely cause of brake fade is:",
+      "options": [
+        "a. oil or grease on the brake drums",
+        "b. worn stators",
+        "c. the pilot reducing the brake pressure",
+        "d. the brake pads overheating"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "11",
+      "question": "The pressure needed to operate the wheel brakes on a large aircraft comes from:",
+      "options": [
+        "a. the aircraft main hydraulic system",
+        "b. the pilots brake pedals",
+        "c. a self-contained power pack",
+        "d. the hydraulic reservoir"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "12",
+      "question": "i. Crossing the threshold at the correct height and speed\nii. Applying full anti-skid braking as quickly as possible after touchdown\niii. Using maximum pedal pressure but releasing the pressure as the wheels start to skid\niv. The use of cadence braking\nv. Use of minimum braking pressure early in the landing run and maximum pressure towards the end\nvi. Application of reverse thrust as early as possible in the landing run\nvii. Deployment of the lift dumpers/speed brakes as early as possible in the landing run\n\nWhich of the following statements will produce the shortest landing run?",
+      "options": [
+        "a. (i), (ii), (vi), (vii)",
+        "b. (i), (iii), (vi), (vii)",
+        "c. (i), (iv), (vi), (vii)",
+        "d. (i), (v), (vi), (vii)"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "13",
+      "question": "The formula which gives the minimum speed $(V_{p})$ at which aquaplaning may occur is:",
+      "options": [
+        "a. $V_{p}=9\\times\\sqrt{}P$ where P is $kg/cm^{2}$ and $V_{p}$ is in knots",
+        "b. $V_{p}^{r}=9\\times\\sqrt{P}$ where P is psi and $V_{p}$ is in mph",
+        "c. $V_{p}=9\\times\\sqrt{P}$ where P is psi and $V_{p}^{\\prime}$ is in knots",
+        "d. $V_{P}=34\\times\\sqrt{P}$ where P is $kg/cm^{2}$ and $V_{p}$ is in mph"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "14",
+      "question": "An aircraft has a tyre pressure of 225 psi, its minimum aquaplaning speed will be:",
+      "options": [
+        "a. 135 mph",
+        "b. 135 knots",
+        "c. 145 knots",
+        "d. 145 mph"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "15",
+      "question": "Landing gear ground locking pins are:",
+      "options": [
+        "a. fitted before flight to ensure the landing gear locks are fully cocked",
+        "b. removed prior to flight and returned to stores",
+        "c. fitted after flight to maintain a hydraulic lock in the downlock jack",
+        "d. removed prior to flight and stowed on the aircraft where they are visible to the crew"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "16",
+      "question": "The most likely cause of brake unit dragging is:",
+      "options": [
+        "a. dirt between the rotor and stator assemblies",
+        "b. grease on the rotor assembly",
+        "c. the brake pressure being too high",
+        "d. incorrect operation of the adjuster assemblies"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "17",
+      "question": "A likely cause of nose wheel shimmy is:",
+      "options": [
+        "a. aircraft is overweight",
+        "b. the tyre pressures are too high",
+        "c. the aircraft is incorrectly loaded",
+        "d. a torque link is worn or damaged"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "18",
+      "question": "Creep (slippage):",
+      "options": [
+        "a. can damage the braking system",
+        "b. can be measured by painting marks on the tyre and wheel rim",
+        "c. may cause excess wear",
+        "d. never occurs on new tyres"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "19",
+      "question": "The anti-skid system would be used:",
+      "options": [
+        "a. on landing runs only",
+        "b. on take-off runs only",
+        "c. for take-off on icy runways",
+        "d. for both take off and landing runs"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "20",
+      "question": "A hydraulic gear extension/retraction mechanism consists of sequence valves, uplocks and:",
+      "options": [
+        "a. an anti-skid braking system",
+        "b. downlocks",
+        "c. torque links",
+        "d. a shock absorber"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "21",
+      "question": "A nose wheel steering control system:",
+      "options": [
+        "a. prevents the nose wheel from castoring at all times",
+        "b. allows the nose wheel to castor within preset limits about the neutral position",
+        "c. allows the nose wheel to castor freely at all times",
+        "d. prevents the nose gear from lowering if the nose wheels are not centralized"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "22",
+      "question": "At an aircraft taxiing speed of 10 mph the anti-skid braking system is:",
+      "options": [
+        "a. inoperative",
+        "b. operative",
+        "c. operative only on the nose wheel brakes",
+        "d. operative only on the main wheel brakes"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "23",
+      "question": "The tyre pressures are checked after a long taxi to the ramp following landing. The pressures will have:",
+      "options": [
+        "a. fallen by 15% from their rated value",
+        "b. risen by 15% from their rated value",
+        "c. remained constant",
+        "d. risen by 10% of their original weight-on-wheels value"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "24",
+      "question": "The ply rating of a tyre:",
+      "options": [
+        "a. always indicates the number of cords or plies in the tyre carcass",
+        "b. never indicates the number of cords or plies in the tyre carcass",
+        "c. indicates whether or not an inner tube should be fitted",
+        "d. is the index of the tyre strength"
+      ],
+      "answer": "d"
+    }
+  ]
+}
+

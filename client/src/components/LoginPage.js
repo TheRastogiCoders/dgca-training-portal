@@ -192,26 +192,25 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <div className="min-h-screen gradient-bg">
       <div className="flex">
         <SiteSidebar />
-        
-        <main className="flex-1 min-h-[calc(100vh-4rem)] pt-16 md:pl-56 flex items-center justify-center p-8">
-          <div className="w-full max-w-md">
-            <div className="bg-white rounded-3xl shadow-2xl p-8 border border-gray-100">
+        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-24 flex items-center justify-center">
+          <div className="w-full max-w-lg">
+            <div className="bg-white/90 backdrop-blur-lg rounded-3xl shadow-2xl p-6 md:p-10 border border-white/40">
               {/* Header */}
               <div className="text-center mb-8">
-                <div className="flex justify-center mb-4">
+                <div className="flex justify-center mb-6">
                   <img 
                     src="/vimaanna-logo.png" 
                     alt="VIMAANNA Logo" 
-                    className="h-16 w-auto"
+                    className="h-16 md:h-20 w-auto"
                   />
                 </div>
-                <h1 className="text-3xl font-bold text-gray-800 mb-2">
+                <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3">
                   {isLogin ? 'Welcome Back' : 'Join VIMAANNA'}
                 </h1>
-                <p className="text-gray-600">
+                <p className="text-gray-600 text-sm md:text-base">
                   {isLogin 
                     ? 'Sign in to continue your aviation learning journey' 
                     : 'Create your account and start your aviation journey'

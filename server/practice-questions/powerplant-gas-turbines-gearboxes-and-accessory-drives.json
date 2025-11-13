@@ -1,0 +1,30 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "22",
+  "chapter_title": "Gas Turbines - Gearboxes and Accessory Drives",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The effect of modifying a gas turbine engine to include one further hydraulic pump will result in:",
+      "options": [
+        "a. increase in specific fuel consumption",
+        "b. decrease in specific fuel consumption",
+        "c. decrease in rpm",
+        "d. increase in EGT"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "2",
+      "question": "The drive for fuel, oil and hydraulic pumps is normally taken from the:",
+      "options": [
+        "a. LP fan",
+        "b. intermediate compressor",
+        "c. HP spool",
+        "d. HP turbine"
+      ],
+      "answer": "c"
+    }
+  ]
+}
+

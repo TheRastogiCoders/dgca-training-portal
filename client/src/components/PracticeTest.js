@@ -296,17 +296,19 @@ const PracticeTest = () => {
           <div className="max-w-6xl mx-auto w-full">
             {/* Hero */}
             <div className="text-center mb-10 md:mb-14">
-              <h1 className="text-3xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent tracking-tight mb-3">
+              <h1 className="text-3xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-3">
                 PYQ Practice
               </h1>
-              <p className="text-sm md:text-lg text-white/90 max-w-3xl mx-auto">
-                Master DGCA exams with curated Previous Year Questions, adaptive sessions, and clear progress insights.
-              </p>
-              {!isAuthenticated && (
-                <div className="inline-flex items-center px-3 py-1.5 mt-4 bg-yellow-100 border border-yellow-300 rounded-full">
-                  <span className="text-yellow-800 font-medium text-xs md:text-sm">🔒 Login required to access PYQ practice</span>
-                </div>
-              )}
+              <div className="flex flex-col md:flex-row items-center justify-center gap-3">
+                <p className="text-sm md:text-lg text-gray-800 max-w-3xl mx-auto bg-white/70 px-4 py-2 rounded-full inline-block shadow-sm">
+                  Master DGCA exams with curated Previous Year Questions, adaptive sessions, and clear progress insights.
+                </p>
+                {!isAuthenticated && (
+                  <div className="inline-flex items-center px-3 py-1.5 bg-yellow-100 border border-yellow-300 rounded-full">
+                    <span className="text-yellow-800 font-medium text-xs md:text-sm">🔒 Login required to access PYQ practice</span>
+                  </div>
+                )}
+              </div>
             </div>
 
             {/* Main grid */}

@@ -1,0 +1,96 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "23",
+  "chapter_title": "Gas Turbines - Ignition Systems",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The low energy ignition system would be used:",
+      "options": [
+        "a. only for starting the engine on the ground.",
+        "b. during take-off from wet runways.",
+        "c. for relight at high altitude.",
+        "d. during a blow out (motoring over) cycle.."
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "2",
+      "question": "Precautionary use of igniters may be necessary during:",
+      "options": [
+        "a. flight through heavy tropical rainstorm.",
+        "b. ground running.",
+        "c. flight through sandy conditions.",
+        "d. flight through very dry air."
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "3",
+      "question": "A high energy ignition system works on the principle of:",
+      "options": [
+        "a. obtaining power from a step up transformer from the aircraft's AC power system.",
+        "b. magneto static induction.",
+        "c. Fleming's Right Hand Rule.",
+        "d. obtaining energy from the discharge of a capacitor."
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "4",
+      "question": "A gas turbine engine which has both high and low energy ignition systems uses the high energy system for (i), and the low energy system for (ii):",
+      "options": [
+        "a. (i) engine starting (ii) high altitude relighting",
+        "b. (i) high altitude relighting (ii) take-off from contaminated runways",
+        "c. (i) take-off from snowy runways (ii) engine start",
+        "d. (i) take-off from flooded runways (ii) take-off from snowy runways"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "5",
+      "question": "In a High Energy Igniter Unit, the discharge resistors:",
+      "options": [
+        "a. allow sufficient energy to be stored in the capacitor to provide relight facilities up to 55000 ft.",
+        "b. protects the unit from excessive voltages.",
+        "c. allow the capacitor to discharge when the unit is switched off.",
+        "d. prolong the discharge."
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "In a High Energy Igniter Unit, the choke:",
+      "options": [
+        "a. protects the unit from excessive voltages.",
+        "b. prolongs the discharge to the plug.",
+        "c. prolongs the life of the igniter",
+        "d. protects the unit from excessive current."
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "7",
+      "question": "The rate of discharge of a High Energy Ignition Unit is:",
+      "options": [
+        "a. 60-100 times per minute.",
+        "b. 4 discharges per revolution.",
+        "c. 60-100 per second.",
+        "d. governed by the resistance of the igniter plug."
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "The power supply for the spark in the combustion chamber is:",
+      "options": [
+        "a. low volts high current",
+        "b. low volts low current",
+        "c. high volts low current",
+        "d. high volts high current"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+

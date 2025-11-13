@@ -1,0 +1,118 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "5",
+  "chapter_title": "Piston Engines - Ignition",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The spark appears at the plug electrodes when:",
+      "options": [
+        "a. the contact breaker closes",
+        "b. the contact breaker opens",
+        "c. the contact breaker stays open",
+        "d. the magneto switch is made"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "The ignition switch is fitted in:",
+      "options": [
+        "a. the primary coil circuit",
+        "b. the secondary coil circuit",
+        "c. the engine starter motor circuit",
+        "d. the battery circuit"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "3",
+      "question": "When the ignition switch is placed in the 'ON' position it:",
+      "options": [
+        "a. isolates the breaker points",
+        "b. makes the engine starter motor circuit",
+        "c. 'Earths' or 'grounds' the secondary winding",
+        "d. breaks the primary to earth circuit"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "4",
+      "question": "The purpose of a condenser as fitted in a magneto is:",
+      "options": [
+        "a. to assist in the rapid collapse of the primary current and prevent arcing at the contact breaker points",
+        "b. to prevent the rapid collapse of the primary circuit and arcing at the points",
+        "c. to earth the primary circuit",
+        "d. to reduce the high tension voltage of the secondary circuit"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "The engine is checked for dead cut at:",
+      "options": [
+        "a. a power check",
+        "b. slow running",
+        "c. cruising rpm",
+        "d. full throttle"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "6",
+      "question": "The distributor directs:",
+      "options": [
+        "a. voltage from the primary winding to the spark plug",
+        "b. voltage from the secondary winding to the primary winding",
+        "c. voltage from the magneto secondary winding to the spark plug",
+        "d. voltage from the secondary winding to the contact breaker"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "7",
+      "question": "To obtain a spark across the gap between two electrodes:",
+      "options": [
+        "a. the circuit must have high EMF",
+        "b. the circuit must have high ohms",
+        "c. the circuit must have high current flow",
+        "d. the circuit must have an impulse union"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "The purpose of an ignition switch is:",
+      "options": [
+        "a. to control the primary circuit of the magneto",
+        "b. to prevent condensation",
+        "c. to connect the secondary coil to the distributor",
+        "d. to connect the battery to the magneto"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "9",
+      "question": "In a complex engine as rpm increases the ignition timing may be:",
+      "options": [
+        "a. advanced",
+        "b. retarded",
+        "c. not altered",
+        "d. only retarded"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "10",
+      "question": "An impulse starter is a device to assist in starting an engine which uses:",
+      "options": [
+        "a. a leaf spring",
+        "b. a coil spring to increase temporarily the speed of rotation of the magneto",
+        "c. a special starting battery which provides a sudden impulse of electricity to the plugs",
+        "d. an explosive inserted in a special tube"
+      ],
+      "answer": "b"
+    }
+  ]
+}
+

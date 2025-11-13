@@ -1,0 +1,118 @@
+{
+  "book_name": "Electrics and Electronics 2014",
+  "chapter_number": "15",
+  "chapter_title": "AC Electrics - AC Motors",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Synchronous motors are usually supplied by:",
+      "options": [
+        "a. three phase AC",
+        "b. single phase AC",
+        "c. DC to the stator",
+        "d. DC to the stator and AC to the rotor"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "2",
+      "question": "Reversing two phases to a three phase motor will:",
+      "options": [
+        "a. blow the phase fuses",
+        "b. cause the motor to run in reverse",
+        "c. overheat the stator windings",
+        "d. stall the motor"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "3",
+      "question": "A synchronous motor runs at a speed that depends upon the supply:",
+      "options": [
+        "a. voltage",
+        "b. current",
+        "c. reactance",
+        "d. frequency"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "4",
+      "question": "If one phase of the supply to a three phase motor fails, then:",
+      "options": [
+        "a. the motor will continue to run at the same speed",
+        "b. will slow down and stop",
+        "c. will stop immediately",
+        "d. will run at about half speed but will not start on its next selection"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "5",
+      "question": "The basic principle of operation of a 3 phase induction motor is:",
+      "options": [
+        "a. a rotating field created in the rotor",
+        "b. a rotating field created in the stator",
+        "c. a stationary field created in the stator",
+        "d. a stationary field created in the rotor"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "6",
+      "question": "In an induction motor:",
+      "options": [
+        "a. the rotor is star connected",
+        "b. magnetic fields blend evenly with one another",
+        "c. AC is induced in the rotor",
+        "d. a DC supply produces DC in the rotor"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "7",
+      "question": "In a synchronous motor, the rotor is:",
+      "options": [
+        "a. energized by DC and it lines up with the magnetic field in the stator",
+        "b. wave wound",
+        "c. both AC and DC energized",
+        "d. impeded by the AC induced into it"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "An induction motor has:",
+      "options": [
+        "a. slip rings and brushes",
+        "b. a commutator",
+        "c. no slip ring or brushes",
+        "d. slip rings but no brushes"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "9",
+      "question": "A squirrel cage rotor:",
+      "options": [
+        "a. is not connected to the supply",
+        "b. is expensive to produce",
+        "c. rotates at exactly synchronous speed",
+        "d. is a closed circuit of high resistance"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "10",
+      "question": "A starting circuit for a powerful single phase induction motor might be:",
+      "options": [
+        "a. a capacitance starter",
+        "b. a resistance / inductance starter",
+        "c. a cartridge starter",
+        "d. a bump starter"
+      ],
+      "answer": "b"
+    }
+  ]
+}
+

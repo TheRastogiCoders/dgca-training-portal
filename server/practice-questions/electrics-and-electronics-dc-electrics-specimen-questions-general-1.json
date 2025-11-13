@@ -1,0 +1,184 @@
+{
+  "book_name": "Electrics and Electronics 2014",
+  "chapter_number": "10",
+  "chapter_title": "DC Electrics - Specimen Questions (General 1)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Spare fuses are carried:",
+      "options": [
+        "a. at the operators's discretion",
+        "b. for generators only",
+        "c. by law with a stated minimum number required",
+        "d. by the first officer"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "2",
+      "question": "When selecting a fuse for a circuit the governing factor is:",
+      "options": [
+        "a. the voltage of the circuit",
+        "b. the fuse length and diameter",
+        "c. the resistance of the circuit",
+        "d. the power requirement of the circuit"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "3",
+      "question": "Differential cut-outs close when a differential voltage exists between the:",
+      "options": [
+        "a. generator bus and battery bus bar",
+        "b. generator bus bar and earth",
+        "c. batteries",
+        "d. battery bus bar and earth"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "4",
+      "question": "Circulating current is the term used to describe:",
+      "options": [
+        "a. back EMF",
+        "b. current necessary to excite the generator",
+        "c. current passing between two paralleled generators of differing voltage",
+        "d. current passing between AC and DC systems"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "5",
+      "question": "A megohm is:",
+      "options": [
+        "a. 10 000 ohms",
+        "b. 1000 ohms",
+        "c. 1 000 000 ohms",
+        "d. 1 000 000 000 ohms"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "Load shedding is:",
+      "options": [
+        "a. transferring the loads between generators",
+        "b. reducing the load voltage",
+        "c. overall reduction of electrical load on the system",
+        "d. overall reduction of generator voltages"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "7",
+      "question": "When a generator is on line and its associated ammeter reads 10 amps, this is an indication of:",
+      "options": [
+        "a. BTBs being energized",
+        "b. battery charge rate",
+        "c. battery discharge rate",
+        "d. generator load"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "8",
+      "question": "The formula for calculating power is:",
+      "options": [
+        "a. $\\frac{V^{2}}{R}$ or $I^{2} \\times R$ or $I \\times V$",
+        "b. $\\frac{V^{2}}{R}$ or $I \\times R$ or $I \\times V$",
+        "c. $\\frac{V}{R^{2}}$ or $I^{2} \\times R$ or $I^{2} \\times V$",
+        "d. $\\frac{V}{R^{2}}$ or $I \\times R^{2}$ or $I \\times V$"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "9",
+      "question": "Assuming a 5 amp circuit has failed during flight and investigation has shown that the fuse is open circuit, the action to be taken is to:",
+      "options": [
+        "a. switch the circuit off immediately",
+        "b. switch off, replace the fuse with another of the correct rating for the circuit and repeat this action as often as necessary",
+        "c. leave the switch on, replace the failed fuse with one of increased rating",
+        "d. switch off, replace the failed fuse with one of the correct rating once only"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "10",
+      "question": "If the voltage in a circuit is doubled, the current will:",
+      "options": [
+        "a. double",
+        "b. increase only if the battery is in circuit",
+        "c. remain the same",
+        "d. decrease"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "11",
+      "question": "A simple electrical circuit has a current flow of 4 amperes and its resistance is 5 ohms. How much power (watts) is used?",
+      "options": [
+        "a. 20 watts",
+        "b. 45 watts",
+        "c. 80 watts",
+        "d. 100 watts"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "12",
+      "question": "Check a lead acid battery voltage:",
+      "options": [
+        "a. only if a fault is suspected",
+        "b. on load with a voltmeter",
+        "c. on no load with a voltmeter",
+        "d. on open circuit with a voltmeter"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "13",
+      "question": "Connecting two batteries in series will:",
+      "options": [
+        "a. increase the voltage and capacity",
+        "b. have no effect",
+        "c. decrease the voltage and the capacity",
+        "d. increase the voltage, the capacity will remain the same"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "14",
+      "question": "An aircraft has a battery with a capacity of 60 Ah. Assuming that it will provide its nominal capacity and is discharged at the 10 hour rate:",
+      "options": [
+        "a. it will pass 60 amperes for 10 hours",
+        "b. it will pass 10 amperes for 6 hours",
+        "c. it will pass 6 amperes for 10 hours",
+        "d. it will pass 60 amperes for 1 hour"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "15",
+      "question": "A NiCad battery shows a high temperature after engine start, this could be an indication of:",
+      "options": [
+        "a. thermal runaway",
+        "b. it is not connected to the battery bus bar",
+        "c. normal temperature during charging",
+        "d. depends upon the outside air temperature"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "16",
+      "question": "When generators are connected in parallel their output voltage must be:",
+      "options": [
+        "a. divided by the circuit resistance",
+        "b. the same",
+        "c. added together",
+        "d. controlled by one generator"
+      ],
+      "answer": "b"
+    }
+  ]
+}
+

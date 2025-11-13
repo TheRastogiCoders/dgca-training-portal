@@ -1,0 +1,195 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "19",
+  "chapter_title": "Gas Turbines - Lubrication",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A centrifugal breather is used on a gas turbine engine:",
+      "options": [
+        "a. to circulate the oil smoothly.",
+        "b. to minimize oil loss.",
+        "c. to emulsify the oil and air mixture for greater viscosity.",
+        "d. to allow oxidization of the oil."
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "A high oil temperature would indicate that:",
+      "options": [
+        "a. the oil pressure was high.",
+        "b. the exhaust gas temperature (EGT) was high.",
+        "c. the oil filter was blocked.",
+        "d. the air intake of the oil cooler was blocked."
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "3",
+      "question": "Oil seals are pressurized:",
+      "options": [
+        "a. to ensure oil is forced into the bearings.",
+        "b. to ensure minimum oil loss.",
+        "c. to ensure that the oil is prevented from leaving the bearing housing.",
+        "d. to minimize heat loss in the bearing housing."
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "4",
+      "question": "In the event that damage occurs to the matrix of the fuel-cooled oil cooler:",
+      "options": [
+        "a. a pressure-maintaining valve ensures that the oil pressure is always higher than the fuel pressure.",
+        "b. the fuel pressure is always kept higher than the oil pressure to ensure that the fuel will leak into the oil system.",
+        "c. a differential pressure switch will illuminate a light in the cockpit.",
+        "d. the oil bypass valve will prevent a complete loss of oil pressure."
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "5",
+      "question": "The bearing chambers of a gas turbine engine are vented:",
+      "options": [
+        "a. via the auxiliary gearbox drive.",
+        "b. via the centrifugal breather.",
+        "c. via the air seals, into the gas stream.",
+        "d. to prevent oil loss."
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "6",
+      "question": "The main bearings in an axial flow gas turbine engine are normally pressurized by:",
+      "options": [
+        "a. compressor bypass air.",
+        "b. air at intake pressure.",
+        "c. air from an intermediate stage of the compressor.",
+        "d. gas from the second stage turbine section."
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "7",
+      "question": "Magnetic Chip Detectors are fitted in the engine:",
+      "options": [
+        "a. to facilitate early detection of cracks in the compressor blades.",
+        "b. to facilitate early warning of cracks in the turbine blades.",
+        "c. to provide a warning of impending failure in the engine bearings.",
+        "d. to prevent a build up of starch in the scavenge oil filter."
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "8",
+      "question": "An inter-stage air seal is used where:",
+      "options": [
+        "a. engine sections are operating at different pressures.",
+        "b. engine sections are subjected to pressures of the same value.",
+        "c. it is more convenient.",
+        "d. it is difficult to obtain access during routine servicing."
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "9",
+      "question": "An Internal Engine Overheat warning would necessitate:",
+      "options": [
+        "a. the oil temperature to be closely monitored.",
+        "b. the EGT to be closely monitored.",
+        "c. the engine power to be reduced to idle.",
+        "d. the engine to be shut down."
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "10",
+      "question": "If engine run down time is short, coupled with high oil consumption, the most probable cause is:",
+      "options": [
+        "a. compressor blade rub.",
+        "b. incorrect relief valve setting.",
+        "c. excessive sealing air pressure.",
+        "d. bearing chamber labryinth seal rubbing."
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "11",
+      "question": "Gas turbines use for lubrication:",
+      "options": [
+        "a. mineral oil with additives (compound).",
+        "b. mineral oil straight.",
+        "c. multi-grade 20/50.",
+        "d. synthetic oil."
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "12",
+      "question": "For a pressure relief lubricating system, select the correct statement:",
+      "options": [
+        "a. the flow and pressure change with engine speed.",
+        "b. the pressure relief valve is fitted in series with the pump.",
+        "c. the pressure remains the same for all engine operating parameters.",
+        "d. the relief valve opens when pressure has reached the required pressure. Any excess flow is returned by a dedicated line to the base of the engine for scavenging."
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "13",
+      "question": "If the engine oil pump ceases to function the engine:",
+      "options": [
+        "a. will continue to operate at a lower rpm because the engine will be able to suck the oil from the reservoir and be sufficiently lubricated.",
+        "b. should be shut down.",
+        "c. will be unaffected because the scavenge pumps have a larger operating capacity than the pressure pumps and will ensure the engine is lubricated sufficiently.",
+        "d. should be monitored for a period of time to record oil temperature."
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "14",
+      "question": "In a gas turbine engine oil temperature is measured:",
+      "options": [
+        "a. as it leaves the fuel-cooled oil cooler (FCOC).",
+        "b. before entering the engine.",
+        "c. immediately after leaving the engine.",
+        "d. in the engine."
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "15",
+      "question": "In a gas turbine engine oil pressure is measured:",
+      "options": [
+        "a. after the pressure pump.",
+        "b. in the engine.",
+        "c. in the return line.",
+        "d. in the FCOC to ensure oil pressure is always above fuel pressure."
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "16",
+      "question": "The magnetic chip detectors are fitted in:",
+      "options": [
+        "a. the pressure line between the pressure pump and the engine.",
+        "b. suction line between the reservoir and the pressure pump.",
+        "c. return line between the engine and the scavenge pump.",
+        "d. return line after the FCOC."
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "17",
+      "question": "Gas turbines use:",
+      "options": [
+        "a. wet sump and mineral oil.",
+        "b. dry sump and synthetic oil.",
+        "c. wet sump and synthetic oil.",
+        "d. dry sump and mineral oil."
+      ],
+      "answer": "b"
+    }
+  ]
+}
+

@@ -1,0 +1,151 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "26",
+  "chapter_title": "Gas Turbines - Fuel Systems",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Fuel is heated from which of the following?",
+      "options": [
+        "a. Air conditioning air",
+        "b. Air from the compressor",
+        "c. Air from the bootstrap",
+        "d. Air from the turbine"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "Fuel is heated to:",
+      "options": [
+        "a. prevent waxing.",
+        "b. ensure vapour losses are minimized",
+        "c. make it more viscous",
+        "d. make it easier to flow under all conditions"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "3",
+      "question": "Fuel booster pumps are situated in:",
+      "options": [
+        "a. the fuel tanks",
+        "b. the line between the main fuel tanks and the engine",
+        "c. low pressure side of the engine",
+        "d. high pressure side of the engine"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "4",
+      "question": "In a fuel-cooled oil cooler the _______ is maintained _______ than the _______.",
+      "options": [
+        "a. fuel pressure higher oil pressure",
+        "b. oil pressure lower fuel",
+        "c. fuel pressure same oil pressure",
+        "d. oil pressure higher fuel pressure"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "In a high bypass engine fuel pumps are driven by:",
+      "options": [
+        "a. high pressure turbine",
+        "b. high pressure compressor",
+        "c. low pressure compressor",
+        "d. intermediate compressor"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "6",
+      "question": "The effect of the high pressure compressor outlet pressure exceeding its maximum value would be:",
+      "options": [
+        "a. pressure sensor input to fuel control unit (FCU), FCU reduce fuel, reduce rpm",
+        "b. pressure sensor input to fuel control unit (FCU), FCU increase fuel, increase rpm",
+        "c. pressure sensor input to fuel control unit (FCU), bleed valve open, bleed off excess volume of air",
+        "d. pressure sensor input to fuel control unit (FCU), bleed valve open, bleed off excess pressure"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "7",
+      "question": "Which of the following is a normal stopping device for a gas turbine?",
+      "options": [
+        "a. LP shut off valve close",
+        "b. Fuel tank booster pumps select off",
+        "c. HP shut off valve close",
+        "d. Isolate electrics from engine"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "8",
+      "question": "Which of the following is a correct statement?",
+      "options": [
+        "a. When an engine is running, the combustion chamber drain is closed by a pressure operated NRV",
+        "b. When an engine is running, the combustion chamber drains tank is opened by a pressure operated NRV",
+        "c. When the engine is shut down the drains tank closes to minimize fuel losses",
+        "d. When the engine is shut down, residual fuel is syphoned directly back to the fuel tanks to minimize fuel losses"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "9",
+      "question": "The fuel flowmeter is situated:",
+      "options": [
+        "a. between LP pump and the FCOC",
+        "b. between LP pump and HP pump",
+        "c. just after FCU",
+        "d. between HP shut off valve and fuel nozzles"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "10",
+      "question": "An overheat in the turbine will result in:",
+      "options": [
+        "a. an electrical signal from the thermocouple sent directly to the FCU and fuel being reduced",
+        "b. an electrical signal from the thermocouple amplified then sent directly to the FCU and fuel flow being reduced",
+        "c. pilot observing overheat on temperature gauge then subsequently throttling back the engine, therefore reducing fuel",
+        "d. pilot observing overheat on temperature gauge then subsequently increasing rpm to increase airflow, to increase cooling air, to decrease turbine temperature"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "11",
+      "question": "Aircraft flying at FL420. If the booster pumps feeding the engine cease to work:",
+      "options": [
+        "a. the engine would close down immediately",
+        "b. the LP pump will draw fuel from the tank, but there may be a possibility of cavitation due to the low pressure and low boiling point of the fuel",
+        "c. the LP pump will draw fuel from the tank, but there may be a possibility of cavitation due to the low pressure and higher boiling point of the fuel",
+        "d. the LP pump will draw fuel from the tank, but there may be a possibility of cavitation due to the higher pressure and higher boiling point of the fuel"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "12",
+      "question": "The fuel-cooled oil cooler:",
+      "options": [
+        "a. heats the oil and cools the fuel",
+        "b. heats the fuel only",
+        "c. cools the oil only",
+        "d. heats the fuel and cools the oil"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "13",
+      "question": "On a cold day, the idle speed of a gas turbine engine which has no fuel control unit compensation:",
+      "options": [
+        "a. is unaffected by temperature",
+        "b. will increase",
+        "c. will decrease",
+        "d. will increase by no more than 4%"
+      ],
+      "answer": "b"
+    }
+  ]
+}
+

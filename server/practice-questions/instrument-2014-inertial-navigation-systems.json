@@ -1,0 +1,96 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "18",
+  "chapter_title": "Inertial Navigation Systems",
+  "questions": [
+    {
+      "id": "1",
+      "question": "INS errors are classified as \"bounded errors\" and \"unbounded errors\".",
+      "options": [
+        "a. An \"unbounded error\" is an error that increases with time, an example being the distance gone error due to a ground speed error",
+        "b. An \"unbounded error\" is an error that increases with time, an example being an increasing ground speed error due to the platform not being levelled correctly",
+        "c. A \"bounded error\" is an error that is subject to sudden unpredictable random changes. Most notable during pitching manoeuvres and when raising or lowering flap and U/C",
+        "d. A \"bounded error\" is an error that is \"tied\" to the real wander rates of the gyros on the platform"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "Two checks that can be carried out to check that two selected sequential waypoints have been entered correctly are:",
+      "options": [
+        "a. select DSR.TK/STS and check that the status is less than 4; select DIS/TIME and check that the time agrees with the flight plan time",
+        "b. select DIS/TIME and check that the distance agrees with the distance on the flight plan; then check that the time agrees with the flight plan time for the leg",
+        "c. select DIS/TIME and check that the distance agrees with the distance on the flight plan; select DSR.TK/STS and check that the track agrees with the flight plan track for the leg",
+        "d. select DIS/TIME and check that the distance agrees with the distance on the flight plan; select HDG/DA and check that the heading agrees with the flight plan heading for the leg"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "3",
+      "question": "In an INS the E/W accelerations are converted into an E/W speed (kt) at the first stage of integration and into E/W distance gone (NM) at the second stage of integration. This gives:",
+      "options": [
+        "a. departure which is multiplied by cosine of the present latitude of obtain d'long (min) which is used to automatically update the present longitude",
+        "b. d'long (min) which is used to automatically update the present longitude",
+        "c. departure which is multiplied by secant of the present latitude to obtain d'long (min) which is used to automatically update the present longitude",
+        "d. departure which is multiplied by sine of the present latitude to obtain d'long (min) which is used to automatically update the present longitude"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "4",
+      "question": "At the second stage of integration E/W speed is converted into E/W distance gone. To convert this departure into change of longitude it has to:",
+      "options": [
+        "a. be divided by secant of the latitude",
+        "b. be multiplied by secant of the latitude",
+        "c. be divided by tangent of the latitude",
+        "d. be multiplied by cosine of the latitude"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "5",
+      "question": "The amber ALERT light on an INS control and display unit:",
+      "options": [
+        "a. illuminates steadily 2 minutes, in AUTO mode, before reaching the next waypoint",
+        "b. start flashing 2 minutes before reaching the next waypoint and goes out at 30 seconds to run",
+        "c. illuminates if power from the aircraft bus bar has been lost and the system is operating on standby battery",
+        "d. illuminates steadily after passing a waypoint in manual mode, until the next leg is programmed in"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "With reference to Inertial Navigation Systems, the functions of the integrators are:\ni) at the second stage of integration to suppress unbounded errors (when in the NAV mode)\nii) at the first stage of integration to convert acceleration, with respect to time, into speed, (when in NAV mode)\niii) at the second stage of integration to convert speed, with respect to time, into distance gone, (when in the NAV mode)\niv) to align the platform (when in the level and align modes)",
+      "options": [
+        "a. all the above statements are true",
+        "b. only (ii), (iii) and (iv) of the above statements are true",
+        "c. only (i), (ii) and (iii) of the above statements are true",
+        "d. only (ii) and (iii) of the above statements are true"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "7",
+      "question": "The computer of a north referenced Inertial Navigation System (INS) in flight, provides compensation for:",
+      "options": [
+        "a. aircraft manoeuvres, real wander, apparent wander, transport wander",
+        "b. coriolis, real wander, apparent wander, transport wander",
+        "c. earth rotation, transport wander, coriolis",
+        "d. transport wander, apparent wander, coriolis, magnetic variation"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "8",
+      "question": "During initialization of an INS the aircraft must not be moved until:",
+      "options": [
+        "a. the ramp position has been inserted and checked",
+        "b. the platform is levelled",
+        "c. the gyros and accelerometers are in the \"null\" position",
+        "d. the green \"ready NAV\" light has been illuminated and the mode selector switch has been set to the \"NAV\" position"
+      ],
+      "answer": "d"
+    }
+  ]
+}
+

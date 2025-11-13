@@ -1,0 +1,228 @@
+{
+  "book_name": "Electrics and Electronics 2014",
+  "chapter_number": "6",
+  "chapter_title": "DC Electrics - Generators and Alternators",
+  "questions": [
+    {
+      "id": "1",
+      "question": "An EMF is induced in a conductor rotating in a magnetic field by:",
+      "options": [
+        "a. capacitive reaction",
+        "b. the reverse current relay",
+        "c. electro transmission",
+        "d. electromagnetic induction"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "2",
+      "question": "Magnetic field strength is controlled by:",
+      "options": [
+        "a. battery bus bar current",
+        "b. current in the field coil",
+        "c. current in the armature",
+        "d. current flow to the battery"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "3",
+      "question": "If a conductor is placed in a magnetic field:",
+      "options": [
+        "a. an EMF is induced in the conductor",
+        "b. an EMF is induced in the conductor only when the conductor rotates",
+        "c. the applied resistance assists the back EMF",
+        "d. an EMF is induced in the conductor only when the conductor is stationary"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "4",
+      "question": "The output of a basic generator before commutation is:",
+      "options": [
+        "a. AC",
+        "b. DC and after commutation is AC",
+        "c. DC",
+        "d. synchronized AC and DC"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "5",
+      "question": "An internally excited generator is one where:",
+      "options": [
+        "a. the field is produced within the distribution",
+        "b. the field is initiated by a HT and LT coil",
+        "c. the field is initiated by the battery",
+        "d. the field is initiated within the generator"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "6",
+      "question": "A DC generator has a commutator whose purpose is to:",
+      "options": [
+        "a. change AC to give a generator output of DC",
+        "b. change DC to AC",
+        "c. transmit the generator output to the electrical circuit and to cool the generator",
+        "d. maintain a constant resistance"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "7",
+      "question": "Another name for a number of conductors rotating in a magnetic field is:",
+      "options": [
+        "a. a capacitor",
+        "b. an armature",
+        "c. a condenser",
+        "d. a commutator"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "8",
+      "question": "A generator is governed so that:",
+      "options": [
+        "a. the EMF is constant and the rate of flow varies",
+        "b. the rate of flow is constant and the EMF varies",
+        "c. the generator voltage reduces generator temperature",
+        "d. back EMF is equal and opposite to the applied EMF"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "9",
+      "question": "The voltage regulator:",
+      "options": [
+        "a. senses cut-out pressure and adjusts field current",
+        "b. senses generator output pressure and adjusts field current",
+        "c. senses back EMF",
+        "d. senses generator output current and adjusts the field voltage"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "10",
+      "question": "The generator master switch is normally:",
+      "options": [
+        "a. fitted in series with the commutator",
+        "b. in the field circuit which is connected in parallel with the generator output",
+        "c. in the field circuit which is in parallel with the voltage regulator",
+        "d. fitted with a mechanical safety catch"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "11",
+      "question": "The voltage regulator:",
+      "options": [
+        "a. provides a constant current flow from the generator with changes of generator speed",
+        "b. senses current output",
+        "c. maintains a steady generator voltage with changes of generator speed",
+        "d. regulates the amount of current supplied by the battery to operate the generator"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "12",
+      "question": "Voltage is controlled in a generator by:",
+      "options": [
+        "a. a reverse current relay",
+        "b. moving the brushes",
+        "c. a voltage regulator",
+        "d. it is uncontrollable"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "13",
+      "question": "On aircraft, generator voltage is regulated by:",
+      "options": [
+        "a. varying the generator field strength",
+        "b. increasing and decreasing the load",
+        "c. changing the generator speed",
+        "d. changing generator load"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "14",
+      "question": "In an aircraft having a battery with a nominal voltage of 24 V, generator output would be:",
+      "options": [
+        "a. 24 volts",
+        "b. 28 amps",
+        "c. 28 volts",
+        "d. 24 amps"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "15",
+      "question": "In DC electrical generating systems, the voltage regulator controls the system voltage within prescribed limits:",
+      "options": [
+        "a. regardless of varying engine RPM and electrical load, by varying the current in the generator field windings",
+        "b. by means of a relay which closes contacts in the output line when a certain RPM is reached",
+        "c. by temperature",
+        "d. by a variable resistance which limits the voltage given by the batteries"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "16",
+      "question": "A voltage regulator is fitted to:",
+      "options": [
+        "a. prevent high circulating currents",
+        "b. prevent backlash",
+        "c. to ensure correct voltage output to battery",
+        "d. to prevent battery feedback to the generator"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "17",
+      "question": "If an aircraft electrical system is quoted as 24 volts DC, the output of the generator is:",
+      "options": [
+        "a. 12 volts with the generators connected in series",
+        "b. 28 volts with the generators connected in parallel",
+        "c. 36 volts with the generators connected in series/parallel",
+        "d. 42 volts"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "18",
+      "question": "If a circuit is designed for 12 volts, the generator will:",
+      "options": [
+        "a. give paralleled output only",
+        "b. give controlled 14 volts",
+        "c. 14 volts wild DC",
+        "d. give controlled 12 volts"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "19",
+      "question": "The aircraft electrical generator output is controlled in flight by:",
+      "options": [
+        "a. sensing the generator output pressure",
+        "b. ram air",
+        "c. a resistance in the generator output circuit",
+        "d. the resistance of the armature circuit"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "20",
+      "question": "In a generator control circuit the strength of the magnetic field is controlled by:",
+      "options": [
+        "a. the commutator",
+        "b. the voltage regulator",
+        "c. the reverse current contactor",
+        "d. the output CB"
+      ],
+      "answer": "b"
+    }
+  ]
+}
+

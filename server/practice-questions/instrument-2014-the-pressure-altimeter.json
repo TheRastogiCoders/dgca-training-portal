@@ -1,0 +1,94 @@
+{
+  "book_name": "Instrument 2014",
+  "chapter_number": "5",
+  "chapter_title": "The Pressure Altimeter",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The diagram below shows a simple altimeter. The parts labelled A, B, C and D are:",
+      "options": [
+        "a. A pitot pressure inlet, linkage mechanism, bellows, quadrant",
+        "b. A air inlet, temperature compensator, leaf spring, linkage mechanism",
+        "c. A static pressure inlet, partially evacuated capsule, linkage mechanism, subscale setting device",
+        "d. A static pressure inlet, partially evacuated capsule, leaf spring, linkage mechanism"
+      ],
+      "answer": "d",
+      "explanation": "A pressure altimeter uses static pressure inlet (A), partially evacuated aneroid capsules (B) that expand/contract with pressure changes, leaf springs (C) to support the capsules, and linkage mechanism (D) to translate capsule movement to pointer movement."
+    },
+    {
+      "id": "2",
+      "question": "In the International Standard Atmosphere, the mean sea level pressure is ......., the lapse rate of temperature between MSL and ....... and is isothermal up to .......\nThe numbers missing are:",
+      "options": [
+        "a. 1225 hPa; $2^{\\circ}$ per 1000 ft; 37 000 ft; 66 000 ft",
+        "b. 1013.25 hPa; $1.98^{\\circ}C$ per 1000 ft; 36090 ft; 65 617 ft",
+        "c. 1013.25 hPa; $1.98^{\\circ}C$ per 1000 ft; 36 090 ft; 104987 ft",
+        "d. 1225 hPa; $1.98^{\\circ}C$ per 1000 ft; 36090 ft; 104 987 ft"
+      ],
+      "answer": "b",
+      "explanation": "ISA defines: MSL pressure = 1013.25 hPa, temperature lapse rate = 1.98°C per 1000 ft up to 36,090 ft (tropopause), and isothermal layer (constant temperature) from 36,090 ft to 65,617 ft (stratosphere)."
+    },
+    {
+      "id": "3",
+      "question": "An aircraft taking off from an airfield with QNH set on the altimeter has both static vents blocked by ice.\nAs the aircraft climbs away the altimeter will:",
+      "options": [
+        "a. read the airfield elevation",
+        "b. indicate the aircraft height amsl",
+        "c. read the height of the aircraft above the airfield",
+        "d. show only a very small increase in height"
+      ],
+      "answer": "a",
+      "explanation": "With static vents blocked, the altimeter is trapped at the static pressure from takeoff. As the aircraft climbs, actual static pressure decreases, but the altimeter cannot sense this change, so it continues to read the airfield elevation (the pressure altitude at takeoff)."
+    },
+    {
+      "id": "4",
+      "question": "When flying from low pressure to high pressure, without resetting the altimeter datum, the barometric error of an altimeter will cause the instrument to:",
+      "options": [
+        "a. read the true altitude, providing a correction is made for temperature",
+        "b. over-read the true altitude of the aircraft",
+        "c. indicate a higher altitude than the correct one",
+        "d. under-read the true altitude of the aircraft"
+      ],
+      "answer": "d",
+      "explanation": "Flying from low to high pressure without resetting QNH means the altimeter is calibrated for lower pressure. In higher pressure air, the altimeter under-reads because it interprets the higher pressure as being at a lower altitude than it actually is."
+    },
+    {
+      "id": "5",
+      "question": "The errors affecting the pressure altimeter are:",
+      "options": [
+        "a. instrument position, manoeuvre induced, density, temperature, lag",
+        "b. instrument, pressure, manoeuvre induced, density, temperature, lag",
+        "c. instrument, position, manoeuvre induced, temperature, barometric, lag",
+        "d. instrument, pressure, lag, barometric, temperature, compressibility"
+      ],
+      "answer": "c",
+      "explanation": "Pressure altimeter errors include: instrument error (mechanical inaccuracies), position error (static port location), manoeuvre induced error (during turns/climbs/descents), temperature error (non-standard atmosphere), barometric error (incorrect QNH setting), and lag (delayed response to pressure changes)."
+    },
+    {
+      "id": "6",
+      "question": "An altimeter with ....... set on the subscale will indicate ....... but with set, the altimeter will show .......",
+      "options": [
+        "a. 1013; pressure altitude; QNH; altitude",
+        "b. QNE; pressure altitude; QNH; height above airfield datum",
+        "c. QFE; height above the airfield datum; 1013; height amsl",
+        "d. QNH; height above touchdown; 1013; height amsl"
+      ],
+      "answer": "a",
+      "explanation": "Setting 1013.25 hPa (standard pressure) on the altimeter subscale gives pressure altitude (altitude above the 1013.25 hPa pressure level). Setting QNH (local sea level pressure) gives altitude above mean sea level (AMSL)."
+    },
+    {
+      "id": "7",
+      "question": "An aircraft has one altimeter set to QFE and one to aerodrome QNH 1000 hPa. If the airfield elevation is 300 ft, immediately before take-off the altimeter with QFE set will read ....... and the other ....... If the QFE altimeter is set to 1013 when passing through the transition altitude 3000 ft, it will read (Assume 1 hPa $=30$ ft).",
+      "options": [
+        "a. 300 ft; zero; 2610 ft",
+        "b. zero; 300 ft; 3390 ft",
+        "c. zero; 300 ft; 3690 ft",
+        "d. zero; 300 ft; 2610 ft"
+      ],
+      "answer": "b",
+      "explanation": "QFE altimeter reads zero at airfield (height above airfield). QNH altimeter reads 300 ft (airfield elevation AMSL). At transition altitude 3000 ft, changing QFE (1000 hPa) to 1013 hPa: pressure difference = 13 hPa × 30 ft/hPa = 390 ft. Altimeter reading = 3000 + 390 = 3390 ft."
+    }
+  ]
+}
+
+
+

@@ -1,0 +1,85 @@
+{
+  "book_name": "Electrics and Electronics 2014",
+  "chapter_number": "14",
+  "chapter_title": "AC Electrics - Transformers",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Instrument transformers normally:",
+      "options": [
+        "a. convert 14 volts DC to 26 volts AC",
+        "b. reduce the AC supply to 26 volts for some instruments",
+        "c. change 115 volts to 200 volts for engine instruments",
+        "d. convert 28 volts DC to 28 volts AC"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "An autotransformer:",
+      "options": [
+        "a. varies its turns ratio automatically to maintain a constant output voltage with varying input voltage",
+        "b. has only one coil which is used as both primary and secondary",
+        "c. will maintain a constant output frequency with a varying supply frequency",
+        "d. requires an inductive supply"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "3",
+      "question": "A step up transformer is one in which the number of turns on the secondary winding is:",
+      "options": [
+        "a. the same as the primary if the cable diameter is the same",
+        "b. greater than that on the primary",
+        "c. less than on the primary",
+        "d. always the same as on the primary"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "4",
+      "question": "A transformer which halves the voltage will have:",
+      "options": [
+        "a. twice as many turns on the secondary as on the primary",
+        "b. half as many turns on the secondary as on the primary",
+        "c. half as much current flowing in the secondary as in the primary",
+        "d. four times as many turns on the secondary as on the primary"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "5",
+      "question": "The power output of a transformer is:",
+      "options": [
+        "a. in proportion to the transformation ratio",
+        "b. in inverse proportion to the transformation ratio",
+        "c. the same as the power input",
+        "d. increased in a step up transformer"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "With no load across the output terminals of a transformer:",
+      "options": [
+        "a. the current flow will be maximum",
+        "b. the current flow will be negligible",
+        "c. the current will be in phase with the voltage",
+        "d. the voltage in the primary will be always greater than the secondary"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "7",
+      "question": "If the voltage induced in the secondary windings is greater than that in the primary then the transformer is:",
+      "options": [
+        "a. an autotransformer",
+        "b. a step up",
+        "c. a step down",
+        "d. a magnetic amplifier"
+      ],
+      "answer": "b"
+    }
+  ]
+}
+

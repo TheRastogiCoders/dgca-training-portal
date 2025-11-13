@@ -1,0 +1,623 @@
+{
+  "book_name": "Electrics and Electronics 2014",
+  "chapter_number": "1",
+  "chapter_title": "DC Electrics - Basic Principles",
+  "questions": [
+    {
+      "id": "1",
+      "question": "All effects of electricity take place because of the existence of a tiny particle called the:",
+      "options": [
+        "a. electric",
+        "b. proton",
+        "c. neutron",
+        "d. electron"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "2",
+      "question": "The nucleus of an atom is:",
+      "options": [
+        "a. positively charged",
+        "b. negatively charged",
+        "c. statically charged",
+        "d. of zero potential"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "3",
+      "question": "An atom is electrically balanced when:",
+      "options": [
+        "a. its protons and electrons balance each other",
+        "b. the protons outnumber the electrons",
+        "c. the electrons outnumber the protons",
+        "d. the electric and static charges are balanced"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "4",
+      "question": "The electrons of an atom are:",
+      "options": [
+        "a. positively charged",
+        "b. neutral",
+        "c. negatively charged",
+        "d. of zero potential"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "5",
+      "question": "A material with a deficiency of electrons becomes:",
+      "options": [
+        "a. positively charged",
+        "b. negatively charged",
+        "c. isolated",
+        "d. overheated"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "6",
+      "question": "A material with a surplus of electrons becomes:",
+      "options": [
+        "a. positively charged",
+        "b. negatively charged",
+        "c. over charged",
+        "d. saturated"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "7",
+      "question": "Heat produces an electric charge when:",
+      "options": [
+        "a. like poles are joined",
+        "b. a hard and soft glass is heated",
+        "c. the junction of two unlike metals is heated",
+        "d. hard and soft material are rubbed together"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "8",
+      "question": "Friction causes:",
+      "options": [
+        "a. mobile electricity",
+        "b. basic electricity",
+        "c. static electricity",
+        "d. wild electricity"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "9",
+      "question": "Chemical action produces electricity in:",
+      "options": [
+        "a. a light meter",
+        "b. a generator",
+        "c. a primary cell",
+        "d. starter generator"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "10",
+      "question": "A photo electric cell produces electricity when:",
+      "options": [
+        "a. two metals are heated",
+        "b. exposed to a light source",
+        "c. a light source is removed",
+        "d. exposed to the heat of the sun"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "11",
+      "question": "The difference in electric potential is measured in:",
+      "options": [
+        "a. KVARS",
+        "b. watts",
+        "c. amps",
+        "d. volts"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "12",
+      "question": "Electrical power is measured in:",
+      "options": [
+        "a. watts",
+        "b. amperes",
+        "c. ohms",
+        "d. volts"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "13",
+      "question": "The unit measurement of electrical resistance is:",
+      "options": [
+        "a. the volt",
+        "b. the watt",
+        "c. the ohm",
+        "d. the ampere"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "14",
+      "question": "An ammeter measures:",
+      "options": [
+        "a. current",
+        "b. power dissipation",
+        "c. differences of electrical potential",
+        "d. heat energy"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "15",
+      "question": "Materials containing 'free electrons' are called:",
+      "options": [
+        "a. insulators",
+        "b. resistors",
+        "c. collectors",
+        "d. conductors"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "16",
+      "question": "The unit used for measuring the EMF of electricity is:",
+      "options": [
+        "a. the ohm",
+        "b. the ampere",
+        "c. the volt",
+        "d. the watt"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "17",
+      "question": "The unit used for measuring:",
+      "options": [
+        "a. current is the volt",
+        "b. resistance - is the ohm",
+        "c. electric power - is the capacitor",
+        "d. EMF - is the amp"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "18",
+      "question": "Three resistors of 60 ohms each in parallel give a total resistance of:",
+      "options": [
+        "a. 180 ohms",
+        "b. 40 ohms",
+        "c. 30 ohms",
+        "d. 20 ohms"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "19",
+      "question": "A voltmeter measures:",
+      "options": [
+        "a. electromotive force",
+        "b. the heat loss in a series circuit",
+        "c. the current flow in a circuit",
+        "d. the resistance provided by the trimming devices"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "20",
+      "question": "Watts =",
+      "options": [
+        "a. resistance squared amps",
+        "b. volts x ohms",
+        "c. ohms x amps",
+        "d. volts x amps"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "21",
+      "question": "The total resistance of a number of power consumer devices connected in series is:",
+      "options": [
+        "a. the addition of the individual resistances",
+        "b. the addition of the reciprocals of the individual resistance",
+        "c. twice the reciprocal of the individual resistances",
+        "d. the reciprocal of the total"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "22",
+      "question": "The total resistance of a number of resistances connected in parallel is:",
+      "options": [
+        "a. $R=R_{1}+R_{2}+R_{3}+R_{4}$",
+        "b. $\\frac{1}{R_{T}}=\\frac{1}{R_{1}}+\\frac{1}{R_{2}}+\\frac{1}{R_{3}}+\\frac{1}{R_{4}}$",
+        "c. $\\frac{1}{R_{T}}=R_{1}+R_{2}+R_{3}+R_{4}$",
+        "d. $\\frac{R}{T_{1}}=\\frac{1}{R}+\\frac{R_{2}}{1}+\\frac{1}{R}+\\frac{R_{4}}{1}$"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "23",
+      "question": "Ohm's Law states:",
+      "options": [
+        "a. Current in amps = Resistance in ohms / Electromotive force in volts",
+        "b. Resistance in ohms = Current in amps / Electromotive force in volts",
+        "c. Current in amps = Electromotive force in volts / Resistance in ohms"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "24",
+      "question": "A device consuming 80 watts at 8 amps would have a voltage supply of:",
+      "options": [
+        "a. 640 volts",
+        "b. 12 volts",
+        "c. 10 volts",
+        "d. 8 volts"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "25",
+      "question": "In a simple electrical circuit, if the resistors are in parallel, the total current consumed is equal to:",
+      "options": [
+        "a. the sum of the currents taken by the resistors divided by the number of resistors",
+        "b. the sum of the currents taken by the resistors",
+        "c. the average current taken by the resistors times the number of the resistors",
+        "d. the sum of the reciprocals of the currents taken by the resistors"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "26",
+      "question": "The symbol for volts is:",
+      "options": [
+        "a. E or W",
+        "b. V or E",
+        "c. I or V",
+        "d. Ror W"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "27",
+      "question": "Electrical potential is measured in:",
+      "options": [
+        "a. watts",
+        "b. bars",
+        "c. volts",
+        "d. ohms"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "28",
+      "question": "If a number of electrical consuming devices were connected in parallel, the reciprocal of the total resistance would be:",
+      "options": [
+        "a. the sum of the currents",
+        "b. the sum of the reciprocals of the individual resistances",
+        "c. the sum of their resistances",
+        "d. volts divided by the sum of the resistances"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "29",
+      "question": "The current flowing in an electrical circuit is measured in:",
+      "options": [
+        "a. volts",
+        "b. ohms",
+        "c. inductance",
+        "d. amps"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "30",
+      "question": "Electromotive force is measured in:",
+      "options": [
+        "a. amps x volts",
+        "b. watts",
+        "c. ohms",
+        "d. volts"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "31",
+      "question": "Ohm's Law is given by the formula:",
+      "options": [
+        "a. $I=\\frac{R}{V}$",
+        "b. $V=\\frac{R}{I}$",
+        "c. $I=\\frac{V}{R}$",
+        "d. $R=V\\times I$"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "32",
+      "question": "The current flowing in a circuit is:",
+      "options": [
+        "a. directly proportional to resistance, indirectly proportional to voltage",
+        "b. directly proportional to temperature, inversely proportional to resistance",
+        "c. inversely proportional to resistance, directly proportional to voltage",
+        "d. inversely proportional to applied voltage, directly proportional to temperature"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "33",
+      "question": "The unit of EMF is the:",
+      "options": [
+        "a. ampere",
+        "b. vol",
+        "c. watt",
+        "d. ohm"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "34",
+      "question": "Potential difference is measured in:",
+      "options": [
+        "a. amps",
+        "b. volts",
+        "c. watts",
+        "d. ohms"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "35",
+      "question": "The unit of current is the:",
+      "options": [
+        "a. ampere",
+        "b. volt",
+        "c. watt",
+        "d. ohm"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "36",
+      "question": "The unit of resistance is the:",
+      "options": [
+        "a. ampere",
+        "b. volt",
+        "c. watt",
+        "d. ohm"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "37",
+      "question": "Electrical power is measured in:",
+      "options": [
+        "a. amperes",
+        "b. volts",
+        "c. watts",
+        "d. ohms"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "38",
+      "question": "1250 ohms may also be expressed as:",
+      "options": [
+        "a. 1250 k ohms",
+        "b. 1.25 k ohms",
+        "c. 1.25 M ohms",
+        "d. 0.125 k ohms"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "39",
+      "question": "1.5 M ohms may also be expressed as:",
+      "options": [
+        "a. 15000 ohms",
+        "b. 1500 ohms",
+        "c. 150000 ohms",
+        "d. 1500 k ohms"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "40",
+      "question": "550 k ohms may also be expressed as:",
+      "options": [
+        "a. 550000 M ohms",
+        "b. 0.55 M ohms",
+        "c. 55000 ohms",
+        "d. 0.55 ohms"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "41",
+      "question": "If the voltage applied to a simple resistor increases:",
+      "options": [
+        "a. current will decrease but power consumed remains constant",
+        "b. resistance and power decrease",
+        "c. current flow will increase and power consumed will increase",
+        "d. current flow increases and power consumed decreases"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "42",
+      "question": "What is the total resistance in this circuit: 10 ΚΩ 1 ΚΩ 500 Ω",
+      "options": [
+        "a. 11.5 ohms",
+        "b. 11 500 k ohms",
+        "c. 11.5 k ohms",
+        "d. 11.5 M ohms"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "43",
+      "question": "LOOK AT THE CIRCUIT AT ANNEX A AND ANSWER THE FOLLOWING QUESTIONS: The total resistance of the circuit is:",
+      "options": [
+        "a. 14 ohms",
+        "b. 39.6 ohms",
+        "c. 25.6 ohms",
+        "d. varies with the applied voltage"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "44",
+      "question": "LOOK AT THE CIRCUIT AT ANNEX A AND ANSWER THE FOLLOWING QUESTIONS: The current flow indication on ammeter 'A' would be:",
+      "options": [
+        "a. 2 amps",
+        "b. 2 volts",
+        "c. 2.5 amps",
+        "d. 2.5 volts"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "45",
+      "question": "LOOK AT THE CIRCUIT AT ANNEX A AND ANSWER THE FOLLOWING QUESTIONS: The total power consumed in the circuit will be:",
+      "options": [
+        "a. 14 kilowatts",
+        "b. 56 kilowatts",
+        "c. 56 watts",
+        "d. 14 watts"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "46",
+      "question": "LOOK AT THE CIRCUIT AT ANNEX A AND ANSWER THE FOLLOWING QUESTIONS: The power consumed by $R_{5}$ alone is:",
+      "options": [
+        "a. 14 watts",
+        "b. 28 watts",
+        "c. 112 watts",
+        "d. 28 kilowatts"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "47",
+      "question": "LOOK AT THE CIRCUIT AT ANNEX A AND ANSWER THE FOLLOWING QUESTIONS: The indication on voltmeter V1 will be:",
+      "options": [
+        "a. 2.3 volts",
+        "b. 28 volts",
+        "c. 9.2 volts",
+        "d. 92 volts"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "48",
+      "question": "LOOK AT THE CIRCUIT AT ANNEX A AND ANSWER THE FOLLOWING QUESTIONS: The indication on voltmeter V3 will be:",
+      "options": [
+        "a. 28 volts",
+        "b. 14 volts",
+        "c. 14 amps",
+        "d. 3.5 volts"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "49",
+      "question": "LOOK AT THE CIRCUIT AT ANNEX A AND ANSWER THE FOLLOWING QUESTIONS: The indication on voltmeter V2 will be:",
+      "options": [
+        "a. 28 volts",
+        "b. 4.8 volts",
+        "c. 9.6 volts",
+        "d. 14 volts"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "50",
+      "question": "LOOK AT THE CIRCUIT AT ANNEX A AND ANSWER THE FOLLOWING QUESTIONS: The current flowing through $R_{2}$ is:",
+      "options": [
+        "a. 0.04 amps",
+        "b. 0.4 amps",
+        "c. 4 amps",
+        "d. 40 milliamps"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "51",
+      "question": "LOOK AT THE CIRCUIT AT ANNEX A AND ANSWER THE FOLLOWING QUESTIONS: The current flowing through $R_{3}$ is:",
+      "options": [
+        "a. 0.04 amps",
+        "b. 0.4 amps",
+        "c. 4 amps",
+        "d. 40 milliamps"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "52",
+      "question": "LOOK AT THE CIRCUIT AT ANNEX A AND ANSWER THE FOLLOWING QUESTIONS: The current flowing through $R_{4}$ is:",
+      "options": [
+        "a. 120 milliamps",
+        "b. 1.2 amps",
+        "c. 19.2 amps",
+        "d. 1.92 milliamps"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "53",
+      "question": "LOOK AT THE CIRCUIT AT ANNEX A AND ANSWER THE FOLLOWING QUESTIONS: The power consumed by $R_{2}$ alone is:",
+      "options": [
+        "a. 1.92 kilowatts watts",
+        "b. 1.92 watts",
+        "c. 65.3 watts",
+        "d. 65.3 kilowatts"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "54",
+      "question": "LOOK AT THE CIRCUIT AT ANNEX A AND ANSWER THE FOLLOWING QUESTIONS: The power consumed by $R_{3}$ alone is:",
+      "options": [
+        "a. 1.92 kilowatts watts",
+        "b. 1.92 watts",
+        "c. 65.3 watts",
+        "d. 65.3 kilowatts"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "55",
+      "question": "LOOK AT THE CIRCUIT AT ANNEX A AND ANSWER THE FOLLOWING QUESTIONS: The power consumed by $R_{4}$ alone is:",
+      "options": [
+        "a. 5.76 kilowatts",
+        "b. 5.76 volts",
+        "c. 5.76 watts",
+        "d. 3.33 watts"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "56",
+      "question": "LOOK AT THE CIRCUIT AT ANNEX A AND ANSWER THE FOLLOWING QUESTIONS: The power consumed by $R_{1}$ alone is:",
+      "options": [
+        "a. 18.4 kilowatts",
+        "b. 42.32 watts",
+        "c. 18.4 watts",
+        "d. 4.232 kilowatts"
+      ],
+      "answer": "c"
+    }
+  ]
+}
+

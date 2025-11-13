@@ -1,0 +1,228 @@
+{
+  "book_name": "Powerplant 2014",
+  "chapter_number": "24",
+  "chapter_title": "Gas Turbines - Auxiliary Power Units and Engine Starting",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Which of the following statements would be more correct with regard to an APU?",
+      "options": [
+        "a. APUs provide emergency hydraulics power for the brakes only",
+        "b. APUs provide electrical, pneumatic and hydraulic power for ground use only",
+        "c. APUs provide electrical, pneumatic and hydraulic power for air use only and can provide an amount of thrust",
+        "d. APUs provide electrical, pneumatic and hydraulic power for ground and air use and can provide an amount of thrust"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "2",
+      "question": "In the event of an APU fire on the ground it:",
+      "options": [
+        "a. will need to be shut down immediately",
+        "b. will shut down immediately",
+        "c. will auto shutdown and fire bottle automatically operate",
+        "d. will need to be shut down immediately and the fire bottles will be required to be fired immediately"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "3",
+      "question": "Which of the following would result in an automatic shutdown of an APU?\n1. Overspeed of compressor\n2. Over-temp of lubrication system\n3. Turbine over-temp\n4. Combustion chamber over-temp\n5. Compressor outlet pressure exceeded\n6. Low pressure of lubrication system",
+      "options": [
+        "a. 1, 2, 3 and 6",
+        "b. 1, 2, 4 and 6",
+        "c. 2, 3, 5 and 6",
+        "d. 2, 3, 4 and 6"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "4",
+      "question": "A Ram Air Turbine is used to provide:",
+      "options": [
+        "a. emergency hydraulic power for the flaps and slats only",
+        "b. emergency hydraulic power for the undercarriage",
+        "c. emergency hydraulic power for the elevator, rudder and ailerons along with possible emergency electrical power",
+        "d. emergency hydraulic power for the brakes along with possible emergency electrical power"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "5",
+      "question": "The power to start an APU comes from:",
+      "options": [
+        "a. ground power unit",
+        "b. aircraft main DC battery",
+        "c. aircraft main engine generator",
+        "d. aircraft main AC battery"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "6",
+      "question": "A typical APU can provide:",
+      "options": [
+        "a. air for air conditioning on the ground",
+        "b. air for engine starting",
+        "c. electrical power for ground or in-flight use",
+        "d. all of the above"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "7",
+      "question": "The advantage of an air starter system is that:",
+      "options": [
+        "a. it is safer in operation than other systems, and no fire risk",
+        "b. it is light, simple and economical",
+        "c. it provides a more rapid start",
+        "d. it is totally self-contained and needs no external source of power"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "8",
+      "question": "A \"Hung Start\" is indicated by:",
+      "options": [
+        "a. high EGT high fuel flow low rpm",
+        "b. low EGT idle fuel flow low rpm",
+        "c. low EGT high fuel flow high rpm",
+        "d. high EGT idle fuel flow low rpm"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "9",
+      "question": "If a gas turbine engine fails to light up within the specified time:",
+      "options": [
+        "a. it must be motored over with the HP fuel cock shut",
+        "b. the fuel system must be drained",
+        "c. no further attempt to start may be made until the fuel has evaporated",
+        "d. it must be motored over with the HP fuel cock shut and no igniters selected"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "10",
+      "question": "A Relight is:",
+      "options": [
+        "a. the action of restarting a flamed out engine, usually while airborne",
+        "b. what occurs when the engine drain valve is stuck open",
+        "c. the initiation of the after-burning system",
+        "d. what must be prevented after a \"wet start\""
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "11",
+      "question": "A \"Hung Start\" occurs when:",
+      "options": [
+        "a. the engine accelerates but does not light up",
+        "b. the engine lights up but does not accelerate to self-sustaining speed",
+        "c. the engine stabilizes above self-sustaining speed",
+        "d. there is a double igniter failure"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "12",
+      "question": "After engine start, the engine igniters are normally deactivated by:",
+      "options": [
+        "a. an electric interlock system",
+        "b. a speed switch",
+        "c. the time switch",
+        "d. centrifugal force"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "13",
+      "question": "Failure of the engine to light up is shown by:",
+      "options": [
+        "a. the failure of the engine to turn and no TGT",
+        "b. low rpm fuel flow indication, and no TGT",
+        "c. TGT increasing but no rpm",
+        "d. no rpm and no TGT"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "14",
+      "question": "The term \"self sustaining speed\" means that:",
+      "options": [
+        "a. the aircraft can roll forward with no further opening of the throttles",
+        "b. the speed from which the engine can accelerate to full power within 5 seconds",
+        "c. the engine will run independently of external help",
+        "d. the speed from which the engine can accelerate to idle without the help of the starter motor"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "15",
+      "question": "Before opening the high-pressure fuel shut off valve during the engine start:",
+      "options": [
+        "a. the compressor must be turning at the correct rpm in the right direction",
+        "b. the Low Pressure compressor must be stationary",
+        "c. the Low Pressure fuel cock must be shut",
+        "d. the Low Pressure compressor must be rotating faster than the High Pressure"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "16",
+      "question": "The air supply to operate an air starter usually comes from:",
+      "options": [
+        "a. an external installation",
+        "b. storage bottles carried in the aircraft",
+        "c. the auxiliary power unit",
+        "d. a cross-bleed start"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "17",
+      "question": "The air supply for an air start system is:",
+      "options": [
+        "a. at a relatively low pressure, but high volume",
+        "b. filtered to prevent damage to the starter motor",
+        "c. preheated to avoid icing in the starter nozzle guide vanes",
+        "d. at a high pressure but low volume"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "18",
+      "question": "The starter motor is disengaged from the engine start system:",
+      "options": [
+        "a. as soon as the engine lights up",
+        "b. just above self-sustaining speed",
+        "c. at 26% HP rpm",
+        "d. just below self-sustaining speed"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "19",
+      "question": "In a twin spool engine self-sustaining speed is normally reached at:",
+      "options": [
+        "a. 60% N2",
+        "b. 60% N1",
+        "c. 30% N2",
+        "d. 30% N1"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "20",
+      "question": "In a twin spool engine the typical idle speeds are:",
+      "options": [
+        "a. 60% N2 25% N1",
+        "b. 25% N2 60% N1",
+        "c. 40% N2 30% N1",
+        "d. 80% N2 45% N1"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+

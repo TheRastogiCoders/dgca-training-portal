@@ -1,0 +1,118 @@
+{
+  "book_name": "Airframes and Systems 2014",
+  "chapter_number": "9",
+  "chapter_title": "Powered Flying Controls",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The purpose of pulley wheels in cable control systems is:",
+      "options": [
+        "a. to ensure the cable tensions are equal throughout the system",
+        "b. to change the direction of the control cable",
+        "c. to ensure smooth operation of the system",
+        "d. to prevent the cable from slackening"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "The purpose of the primary stops in a control system is:",
+      "options": [
+        "a. to set the range of movement of the control surface",
+        "b. to enable the secondary stops to be correctly spaced",
+        "c. to limit control movement to one direction only",
+        "d. to set the control surface neutral position"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "3",
+      "question": "The purpose of the secondary stops in a control system is:",
+      "options": [
+        "a. to reduce the control loads on the primary stops",
+        "b. to limit control surface range in the event of primary stop failure",
+        "c. to limit the secondary control system from excessive movement",
+        "d. to remove the excess backlash in the controls"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "4",
+      "question": "The purpose of the fairleads in a cable control system is to:",
+      "options": [
+        "a. alter the angle of deflection of the cables",
+        "b. to guide the cables on to the pulley wheels",
+        "c. to attach the cables to chain drives",
+        "d. to keep the cable straight and clear of structure"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "5",
+      "question": "In a cable control system cables are tensioned to:\n1. remove backlash from the control linkage\n2. provide tension on the turnbuckles\n3. provide positive action in both directions\n4. ensure the full range is achieved\n5. compensate for temperature variations",
+      "options": [
+        "a. 1, 3 and 5 only",
+        "b. 3 only",
+        "c. 4 only",
+        "d. all the above"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "6",
+      "question": "In a cable control system the cables are mounted in pairs to:\n1. remove backlash from the control linkage\n2. provide tension on the turnbuckles\n3. provide positive action in both directions\n4. ensure the full range is achieved\n5. compensate for temperature variations",
+      "options": [
+        "a. 1, 3 and 5 only",
+        "b. 3 only",
+        "c. 4 only",
+        "d. all the above"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "7",
+      "question": "In a manual flying control system the control inputs to the primary control surfaces:\n1. are reversible\n2. are irreversible\n3. are instinctive for the movement required\n4. are opposite for the movement required\n5. are limited in range by flight deck obstructions",
+      "options": [
+        "a. 1 and 4 only",
+        "b. 2 and 4 only",
+        "c. 1 and 3 only",
+        "d. 1, 3 and 5 only"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "8",
+      "question": "To yaw the aircraft to the right:",
+      "options": [
+        "a. the right rudder pedal is pushed forward and the rudder moves to the left",
+        "b. the right rudder pedal is pushed forward and the rudder moves to the right",
+        "c. the left rudder pedal is pushed forward and the rudder moves to the left",
+        "d. the left rudder pedal is pushed forward and the rudder moves to the left"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "9",
+      "question": "To roll the aircraft to the right:",
+      "options": [
+        "a. the rudder control is moved to the right, the right aileron moves up and the left down",
+        "b. the aileron control is moved to the left and the right aileron moves up and the left down",
+        "c. the aileron control is moved to the right and the right elevator goes up and the left one down",
+        "d. the aileron control is moved to the right, the right aileron goes up and the left one down"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "10",
+      "question": "The advantages of a cable control are:\n1. light, very good strength to weight ratio\n2. easy to route through the aircraft\n3. less prone to impact damage\n4. takes up less volume\n5. less bolted joints",
+      "options": [
+        "a. 1, 2 and 4 only",
+        "b. 3 and 5 only",
+        "c. 1, 2 and 5 only",
+        "d. all the above"
+      ],
+      "answer": "d"
+    }
+  ]
+}
+

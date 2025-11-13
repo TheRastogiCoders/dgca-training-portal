@@ -1,0 +1,360 @@
+{
+  "book_name": "Electrics and Electronics 2014",
+  "chapter_number": "11",
+  "chapter_title": "AC Electrics - Introduction to AC",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The impedance of a circuit:",
+      "options": [
+        "a. is the AC inductive load",
+        "b. is the DC inductive load",
+        "c. is the total resistance in an AC circuit",
+        "d. is the highest resistance of a rectifier"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "2",
+      "question": "The ratio of true power to apparent power is known as:",
+      "options": [
+        "a. ohms",
+        "b. the power factor",
+        "c. kVAs",
+        "d. the RMS value"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "3",
+      "question": "In a constant frequency AC supply system, the frequency is determined by:",
+      "options": [
+        "a. the generator drive speed and the number of poles",
+        "b. engine drive speed and the power factor",
+        "c. the capacitive reactance",
+        "d. the impedance"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "4",
+      "question": "The amount of electrical power output for a given generator weight is:",
+      "options": [
+        "a. dependent on the aircrafts power requirements",
+        "b. greater for a DC generator",
+        "c. greater for an AC generator",
+        "d. determined by the size of the aircraft"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "5",
+      "question": "The frequency of a supply is quoted in:",
+      "options": [
+        "a. cycles or hertz",
+        "b. watts",
+        "c. megacycles",
+        "d. cycles / minute"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "6",
+      "question": "One advantage that AC has over DC is:",
+      "options": [
+        "a. that TRUs are not required",
+        "b. that the generators require less cooling",
+        "c. that the cables require less insulation",
+        "d. the ease with which the voltage can be stepped up or down with almost 100% efficiency"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "7",
+      "question": "The voltage output of an AC generator will rise to a maximum value:",
+      "options": [
+        "a. in one direction, fall to zero and rise in the same direction",
+        "b. in one direction and remain there",
+        "c. in one direction, fall to zero and rise to a maximum value in the opposite direction",
+        "d. in one direction only"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "8",
+      "question": "If the frequency in an inductive circuit is less than it was designed for, then current consumption will:",
+      "options": [
+        "a. decrease",
+        "b. remain the same",
+        "c. fluctuate",
+        "d. increase"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "9",
+      "question": "In a capacitive circuit, if the frequency increases:",
+      "options": [
+        "a. current decreases",
+        "b. current increases",
+        "c. current flow is unaffected by frequency change",
+        "d. the voltage fluctuates"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "10",
+      "question": "The line voltage of a typical aircraft constant frequency paralleled AC system is:",
+      "options": [
+        "a. 115",
+        "b. 208",
+        "c. 200",
+        "d. 400"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "11",
+      "question": "A 400 Hz supply has:",
+      "options": [
+        "a. an output capacity of 400000 watts",
+        "b. an impedance of 400 ohms",
+        "c. a frequency of 400 cycles per second",
+        "d. a frequency of 400 cycles per minute"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "12",
+      "question": "In an AC circuit which is mainly inductive:",
+      "options": [
+        "a. current will lead voltage",
+        "b. current and voltage will be in phase",
+        "c. current will lag voltage",
+        "d. the power factor will be negative"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "13",
+      "question": "If the frequency is increased in an inductive circuit:",
+      "options": [
+        "a. reactance will increase",
+        "b. reactance will decrease",
+        "c. impedance will remain constant",
+        "d. the heating effect will increase"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "14",
+      "question": "The RMS value of alternating current is:",
+      "options": [
+        "a. the mean current value for one half cycle",
+        "b. 1.73 times the peak value",
+        "c. equal to the square root of the peak value",
+        "d. .707 times the peak value"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "15",
+      "question": "The number of separate stator windings in an AC generator determines:",
+      "options": [
+        "a. the output voltage of the supply",
+        "b. the output frequency of the supply",
+        "c. the power factor",
+        "d. the number of phases present in the supply"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "16",
+      "question": "kVAR is a measure of:",
+      "options": [
+        "a. the resistive load on the alternator",
+        "b. the reactive load on the alternator",
+        "c. the total load on the alternator",
+        "d. the total circuit impedance"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "17",
+      "question": "The output of an alternator is rated in:",
+      "options": [
+        "a. KVA",
+        "b. KVAR",
+        "c. kW",
+        "d. kW/KVAR"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "18",
+      "question": "Instruments measuring AC are calibrated in:",
+      "options": [
+        "a. RMS values",
+        "b. average values",
+        "c. peak values",
+        "d. mean values"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "19",
+      "question": "Impedance is the:",
+      "options": [
+        "a. vector sum of the resistance and the reactance",
+        "b. sum of the resistance and capacitive reactance",
+        "c. sum of the capacitive reactance and the inductive reactance",
+        "d. sum of the resistance, inductive reactance and the capacitive reactance"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "20",
+      "question": "If an alternator is run at below normal frequency, then:",
+      "options": [
+        "a. electric motors will stop",
+        "b. inductive devices will overheat",
+        "c. lights will become dim",
+        "d. lights will become brighter"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "21",
+      "question": "The power factor is:",
+      "options": [
+        "a. $\\frac{kVA}{kW}$",
+        "b. $\\frac{kW}{kVAR}$",
+        "c. $\\frac{kW}{kVA}$",
+        "d. $\\frac{kVAR}{kW}$"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "22",
+      "question": "When reactance is present in a circuit:",
+      "options": [
+        "a. the power factor will be unity",
+        "b. the power factor will be negative",
+        "c. the power factor will be greater than unity",
+        "d. the power factor will be less than one"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "23",
+      "question": "Generator output frequency is decreased by decreasing the:",
+      "options": [
+        "a. generator field rotation speed",
+        "b. generator field voltage",
+        "c. generator field current",
+        "d. generator field impedance"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "24",
+      "question": "The RMS value of AC is:",
+      "options": [
+        "a. 1.73 times the peak value",
+        "b. the peak value times the power factor",
+        "c. the peak value which would provide the same heating effect as DC",
+        "d. the value of DC which would provide the same heating effect"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "25",
+      "question": "In a reactive circuit:",
+      "options": [
+        "a. the voltage and current will be out of phase",
+        "b. the voltage and current will be in phase opposition",
+        "c. the voltage will always be led by the current",
+        "d. the voltage and current will be in phase"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "26",
+      "question": "A capacitor consists of two metal plates:",
+      "options": [
+        "a. separated by a diabetic",
+        "b. which have current flowing between them",
+        "c. which will not allow a potential difference between them",
+        "d. separated by waxed paper or mica"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "27",
+      "question": "In a DC circuit, an inductance:",
+      "options": [
+        "a. never has any effect on the voltage",
+        "b. only affects the voltage upon switching on",
+        "c. offers opposition to the flow while switching on and off",
+        "d. will always increase the voltage"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "28",
+      "question": "The basic unit of inductance is:",
+      "options": [
+        "a. the henry",
+        "b. the ohm",
+        "c. the farad",
+        "d. the coulomb"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "29",
+      "question": "In an inductive circuit:",
+      "options": [
+        "a. current leads the voltage",
+        "b. current lags the voltage",
+        "c. the voltage is in phase with the current",
+        "d. only the RMS values vary"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "30",
+      "question": "In a capacitive circuit, if the frequency increases then:",
+      "options": [
+        "a. current flow is unaffected",
+        "b. the voltage varies",
+        "c. current flow decreases",
+        "d. current flow increases"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "31",
+      "question": "The power factor is:",
+      "options": [
+        "a. $\\frac{WATTFUL POWER}{REAL POWER}$",
+        "b. $\\frac{RATED POWER}{APPARENT POWER}$",
+        "c. $\\frac{APPARENT POWER}{TRUE POWER}$",
+        "d. $\\frac{REAL POWER}{APPARENT POWER}$"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "32",
+      "question": "Transferring electrical energy by means of a magnetic field is called:",
+      "options": [
+        "a. electrostatic induction",
+        "b. electromolecular induction",
+        "c. electromagnetic induction",
+        "d. electromolecular amplification"
+      ],
+      "answer": "c"
+    }
+  ]
+}
+

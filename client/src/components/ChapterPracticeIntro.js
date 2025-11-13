@@ -10,12 +10,11 @@ const friendly = (slug) => (slug || '')
 
 const ChapterPracticeIntro = () => {
   const navigate = useNavigate();
-  const { subjectSlug, chapterSlug } = useParams();
+  const { subjectSlug, bookSlug, chapterSlug } = useParams();
 
   const startPractice = () => {
-    // Start book-based practice directly using a book slug
-    const defaultBookSlug = 'principles-of-flight';
-    navigate(`/practice-test/book/${defaultBookSlug}`);
+    // Practice temporarily unavailable
+    alert('Questions are not available right now. Please check back soon.');
   };
 
   return (
@@ -35,7 +34,7 @@ const ChapterPracticeIntro = () => {
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
               {friendly(subjectSlug)} • {friendly(chapterSlug)}
             </h1>
-            <p className="text-gray-600">Multiple-choice practice powered by CAE Oxford content</p>
+            <p className="text-gray-600">Questions are not available right now for this chapter.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
@@ -65,12 +64,13 @@ const ChapterPracticeIntro = () => {
           <div className="flex items-center space-x-3">
             <button
               onClick={startPractice}
-              className="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700"
+              className="px-6 py-3 bg-gray-300 text-gray-600 rounded-lg font-semibold cursor-not-allowed"
+              disabled
             >
-              Start Practice
+              Practice Unavailable
             </button>
-            <Link to="/question-bank" className="px-6 py-3 bg-gray-100 text-gray-700 rounded-lg font-semibold">
-              Choose Another Book
+            <Link to="/question-bank" className="px-6 py-3 bg-gray-100 text-gray-700 rounded-lg font-semibold hover:bg-gray-200">
+              Back to Question Bank
             </Link>
           </div>
         </Card>

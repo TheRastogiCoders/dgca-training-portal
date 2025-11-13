@@ -1,0 +1,382 @@
+{
+  "book_name": "Airframes and Systems 2014",
+  "chapter_number": "16",
+  "chapter_title": "Aircraft Fuel Systems",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Baffles are fitted in aircraft fuel tanks:",
+      "options": [
+        "a. to assist in correct fuel distribution",
+        "b. to prevent fuel surging during aircraft manoeuvres",
+        "c. to prevent the static build-up in the tank during refuelling",
+        "d. to channel fuel to the vent valve"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "A power failure to a capacitive fuel contents system would cause the gauge to:",
+      "options": [
+        "a. show full scale deflection high",
+        "b. fluctuate between high and low readings",
+        "c. remain fixed on the last contents noted before failure",
+        "d. show full scale deflection low"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "3",
+      "question": "A fuel booster pump, besides pumping fuel to the engine, can also be utilized to:",
+      "options": [
+        "a. jettison and transfer fuel",
+        "b. jettison and heat the fuel",
+        "c. transfer and heat the fuel",
+        "d. transfer and recycle the fuel"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "4",
+      "question": "During fuel jettison, the aircraft is protected against running out of fuel by:",
+      "options": [
+        "a. high level float switches",
+        "b. preset jettison quantity switches",
+        "c. the crew remaining alert",
+        "d. low level float switches"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "5",
+      "question": "To indicate that a refuelling bowser carries JET A1 aviation kerosene:",
+      "options": [
+        "a. yellow and black stripes are marked on the refuelling hose",
+        "b. JET A1 would be painted in 30 cm high symbols on the side of the container",
+        "c. JET A1 is printed in white on a black background label positioned prominently on the vehicle",
+        "d. the driver wears a straw yellow water and fuel proof jacket"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "Adjustments may have to made to an aircraft's engine fuel system if it has been refuelled with JET B instead of its normal JET A1 fuel, these adjustments are to cater for:",
+      "options": [
+        "a. the change in the specific gravity of the fuel",
+        "b. the change in the calorific value of the fuel",
+        "c. the change in the viscosity of the fuel",
+        "d. the lack of HITEC lubricant in the fuel"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "7",
+      "question": "The differences between AVGAS 100 and AVGAS 100LL are:\n(Colour / Anti-knock value)",
+      "options": [
+        "a. Same / Same",
+        "b. Same / Different",
+        "c. Different / Same",
+        "d. Different / Different"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "8",
+      "question": "The aircraft cannot be refuelled while:",
+      "options": [
+        "a. a ground power unit is operating on the ramp",
+        "b. passengers are walking through the refuelling zones",
+        "c. passengers are boarding",
+        "d. the APU is running"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "9",
+      "question": "The disadvantage of refuelling the aircraft to \"tanks full\" the night before a departure in the heat of the day is that:",
+      "options": [
+        "a. the change in the specific gravity may cause the aircraft to be overweight",
+        "b. the change in the volume of the fuel may cause it to spill through the vent system",
+        "c. the change in calorific value may reduce engine power to below sufficient",
+        "d. the rpm governor will be rendered inoperative"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "10",
+      "question": "An aircraft using MOGAS:",
+      "options": [
+        "a. is likely to be affected by detonation at cruise power",
+        "b. must have booster pumps fitted in the fuel tanks",
+        "c. is more likely to be affected by vapour locking and carburettor icing",
+        "d. will suffer from a loss of power during take-off"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "11",
+      "question": "If a fuel sample appears cloudy or hazy, the most probable cause is:",
+      "options": [
+        "a. water contamination",
+        "b. anti-microbiological additives",
+        "c. mixing different fuel grades",
+        "d. oil in the fuel"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "12",
+      "question": "On an aircraft equipped with a compensated capacitance type fuel quantity indication system graduated to read in kg, the temperature increases just after the tanks are half filled with fuel. If the fuel expands by 10%, the gauges will show:",
+      "options": [
+        "a. an increase of 10%",
+        "b. a decrease of 10% of the volume factored by the new specific gravity",
+        "c. a decrease",
+        "d. the same amount"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "13",
+      "question": "The exhaust gases from the APU go into the refuelling zone. The APU:",
+      "options": [
+        "a. must be switched OFF throughout the refuelling operation",
+        "b. can be started while refuelling is carried out.",
+        "c. must be started before fuelling is carried out, and can be run throughout the refuelling operation",
+        "d. can be started only after the refuelling operation has been terminated"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "14",
+      "question": "De-fuelled fuel:",
+      "options": [
+        "a. can only be used in domestic heating systems",
+        "b. can only be used by aircraft from the same operators fleet",
+        "c. must be put back into storage",
+        "d. cannot be re-used until its quality has been verified"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "15",
+      "question": "The background colour scheme for fuelling system pipelines carrying the following fuels is:\nJET A1 / AVGAS",
+      "options": [
+        "a. Red / Black",
+        "b. Black / Red",
+        "c. Red / Yellow",
+        "d. Yellow / Red"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "16",
+      "question": "AVGAS:",
+      "options": [
+        "a. is coloured red for identification purposes",
+        "b. is coloured green if it is a leaded fuel and blue if it is a low lead fuel",
+        "c. has no artificial colouring and appears either clear or a straw yellow colour",
+        "d. can only be used in piston engines if oil is added to improve its anti-knock properties"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "17",
+      "question": "Information relating to the use of MOGAS can be found in:",
+      "options": [
+        "a. CAA General Aviation Safety Sense Leaflets",
+        "b. Advisory Information Circulars",
+        "c. NOTAM",
+        "d. CAA Airworthiness Publications"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "18",
+      "question": "The fuel cross-feed valves are fitted in order to facilitate:",
+      "options": [
+        "a. the use of fuel from any tank to any engine",
+        "b. refuelling when only one bowser is in use",
+        "c. isolation of the engine from the fuel system in the case of an engine fire",
+        "d. transfer of fuel between the main fuel tanks"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "19",
+      "question": "Refuelling with passengers on board is not permissible:",
+      "options": [
+        "a. on a fixed wing aircraft",
+        "b. if AVGAS is being used",
+        "c. if the aircraft has more than twenty seats and the ratio of cabin attendants to passengers is greater than 1:50 and it is a wide bodied jet",
+        "d. in any of the above cases"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "20",
+      "question": "While refuelling with passengers on board, when a loading bridge is in use:",
+      "options": [
+        "a. two sets of extra steps must be provided, one of which must be at the rear of the aircraft",
+        "b. the rear left or right door must be manned constantly by a cabin attendant ready for use as an emergency exit using the inflatable escape slide",
+        "c. ground servicing must not be carried out",
+        "d. catering and cleaning must not be carried out"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "21",
+      "question": "Modern jet aircraft fuel tanks are pressurized:",
+      "options": [
+        "a. by air from the air conditioning system to prevent cavitation",
+        "b. by air from the engine compressor to prevent cavitation",
+        "c. by ram air to prevent cavitation",
+        "d. by ram air to stabilize the boiling point"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "22",
+      "question": "A \"wide-cut\" fuel is:",
+      "options": [
+        "a. more flammable than a kerosene type fuel",
+        "b. less volatile than a kerosene type fuel",
+        "c. coloured red for identification purposes",
+        "d. commonly used in civilian transport aircraft"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "23",
+      "question": "The purpose of fitting baffles in fuel tanks is to:",
+      "options": [
+        "a. prevent longitudinal movement of the fuel during acceleration",
+        "b. allow the booster pump to remain covered by fuel irrespective of the aircraft attitude",
+        "c. dampen lateral movement of the fuel in the wing tanks during a sideslip",
+        "d. maintain a pre-determined quantity of fuel in the outboard section of the wing tanks"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "24",
+      "question": "Fuel is heated:",
+      "options": [
+        "a. to stop cavitation in the High Pressure fuel pump",
+        "b. to maintain a constant viscosity",
+        "c. to prevent water contamination",
+        "d. to stop ice blocking the Low Pressure fuel filter"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "25",
+      "question": "What is the function of a collector tank (feeder box)?",
+      "options": [
+        "a. Prevent detonation during take-off",
+        "b. Prevent cavitation of the booster pumps",
+        "c. Prevent fuel surge due to extreme aircraft attitude",
+        "d. Allow suction feeding of the engine pump"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "26",
+      "question": "Fuel tank booster pumps are:",
+      "options": [
+        "a. centrifugal, low pressure",
+        "b. centrifugal, high pressure",
+        "c. gear type, low pressure",
+        "d. gear type, high pressure"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "27",
+      "question": "The advantage of a capacitor type fuel contents gauging system is that the circuit:",
+      "options": [
+        "a. responds to changes in specific gravity",
+        "b. compensates for high altitude flight",
+        "c. responds automatically to extremely low temperatures",
+        "d. compensates for aircraft attitude changes"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "28",
+      "question": "The Low Pressure engine driven pump:",
+      "options": [
+        "a. backs up in case the engine High Pressure pump fails",
+        "b. backs up in case of a double booster pump failure",
+        "c. assists in the refuelling operation if only low pressure refuelling systems are available",
+        "d. pressurizes the fuel tanks to assist flow to the booster pumps"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "29",
+      "question": "The purpose of the fuel cooled oil cooler is to:",
+      "options": [
+        "a. heat the oil and cool the fuel",
+        "b. heat the fuel and cool the oil",
+        "c. cool the oil",
+        "d. heat the fuel"
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "30",
+      "question": "If a fuel tank with a capacitive quantity system was filled with water instead of fuel, the gauge would indicate:",
+      "options": [
+        "a. full scale low (zero)",
+        "b. it would indicate the same as if it were filled with fuel",
+        "c. full scale high (max)",
+        "d. it would freeze at the last known indication"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "31",
+      "question": "AVTUR or JET A1:",
+      "options": [
+        "a. varies in colour between clear and straw yellow",
+        "b. is a wide-cut fuel which is not normally used in civilian transport aircraft",
+        "c. is a gasoline type fuel with a high flash point",
+        "d. is a 97 octane fuel which prevents detonation in gas turbine engines"
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "32",
+      "question": "When using which of the following fuels can refuelling be carried out with passengers on board?",
+      "options": [
+        "a. Avtag",
+        "b. Jet B",
+        "c. Wide-cut",
+        "d. Jet A1"
+      ],
+      "answer": "d"
+    },
+    {
+      "id": "33",
+      "question": "With an increase in altitude the boiling point of fuel will:",
+      "options": [
+        "a. stay the same",
+        "b. increase",
+        "c. decrease",
+        "d. increase up to FL80 then remain the same"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "34",
+      "question": "When refuelling an aircraft:",
+      "options": [
+        "a. the refuelling nozzle must be bonded to the fuel tank",
+        "b. the bonding plug must be connected to the earth terminal",
+        "c. the continuity between nozzle and hose must be infinity",
+        "d. only use plastic nozzles"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+
