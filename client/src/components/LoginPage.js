@@ -195,7 +195,7 @@ const LoginPage = () => {
     <div className="min-h-screen gradient-bg">
       <div className="flex">
         <SiteSidebar />
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-24 flex items-center justify-center">
+        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-56 lg:ml-64 xl:ml-72 flex items-center justify-center">
           <div className="w-full max-w-lg">
             <div className="bg-white/90 backdrop-blur-lg rounded-3xl shadow-2xl p-6 md:p-10 border border-white/40">
               {/* Header */}

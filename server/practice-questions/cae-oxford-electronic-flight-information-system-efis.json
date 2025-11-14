@@ -1,0 +1,134 @@
+{
+  "book_name": "Radio Navigation 2014",
+  "chapter_number": "17",
+  "chapter_title": "Electronic Flight Information System (EFIS)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Refer to appendix A. Which display shows the expanded ILS mode?",
+      "question_type": "MCQ",
+      "options": [
+        "a. C",
+        "b. B",
+        "c. D",
+        "d. E"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "This question requires visual analysis of EFIS displays in Appendix A. The expanded ILS mode shows a magnified view of the ILS localizer and glide slope indicators for precision approach guidance."
+    },
+    {
+      "id": "2",
+      "question": "Refer to appendix A. Which mode is display C?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Plan",
+        "b. Map",
+        "c. Expanded ILS",
+        "d. Expanded VOR"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "This question requires visual analysis of EFIS displays in Appendix A. Display C shows the Map mode, which displays navigation information including waypoints, routes, and navigation aids."
+    },
+    {
+      "id": "3",
+      "question": "Refer to appendix A. Which mode is display F?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Full ILS",
+        "b. Full VOR",
+        "c. Plan",
+        "d. Full map"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "This question requires visual analysis of EFIS displays in Appendix A. Display F shows the Plan mode, which displays a top-down view of the flight plan route."
+    },
+    {
+      "id": "4",
+      "question": "On display E, what is the approximate deviation from the required track?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3 NM",
+        "b. 8°",
+        "c. 3°",
+        "d. 1.5°"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "This question requires visual analysis of EFIS display E in Appendix A. The deviation from the required track is shown by the course deviation indicator, which typically shows angular deviation in degrees."
+    },
+    {
+      "id": "5",
+      "question": "On display E, what is the aircraft's track?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 165°",
+        "b. 104°",
+        "c. 130°",
+        "d. 133°"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "This question requires visual analysis of EFIS display E in Appendix A. The aircraft's track is displayed at the top of the EHSI (Electronic Horizontal Situation Indicator) display."
+    },
+    {
+      "id": "6",
+      "question": "The horizontal deviation on the expanded ILS display represented by one dot is approximately:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1°",
+        "b. 2°",
+        "c. 0.5°",
+        "d. 5°"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "On the expanded ILS display, one dot of horizontal (localizer) deviation represents approximately 0.5°. This provides more precise guidance during approach compared to the standard ILS display where one dot typically represents 2°."
+    },
+    {
+      "id": "7",
+      "question": "On which displays will the range markers be displayed regardless of the weather selection?",
+      "question_type": "MCQ",
+      "options": [
+        "a. MAP",
+        "b. EXP ILS/VOR, MAP",
+        "c. MAP, FULL ILS",
+        "d. PLAN, EXP ILS/VOR, MAP"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Range markers (distance rings) are displayed on the MAP mode regardless of weather radar selection. In other modes like EXP ILS/VOR or FULL ILS, range markers may be displayed depending on the weather radar selection."
+    },
+    {
+      "id": "8",
+      "question": "The heading inputs to the EHSI are from:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the IRS",
+        "b. the FMC",
+        "c. the IRS through the symbol generator",
+        "d. the FMC through the symbol generator"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "The heading inputs to the EHSI (Electronic Horizontal Situation Indicator) come from the IRS (Inertial Reference System) through the symbol generator. The symbol generator processes the IRS data and formats it for display on the EFIS screens."
+    },
+    {
+      "id": "9",
+      "question": "Refer to Appendix A. The track direction from BANTU to ZAPPO on display F is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 360°(M)",
+        "b. 130°(M)",
+        "c. 360°(T)",
+        "d. 130°(T)"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "This question requires visual analysis of EFIS display F (Plan mode) in Appendix A. The track direction from waypoint BANTU to waypoint ZAPPO is shown on the display, typically in true degrees."
+    }
+  ]
+}
+

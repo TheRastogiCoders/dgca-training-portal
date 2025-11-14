@@ -1,0 +1,372 @@
+{
+  "book_name": "Radio Navigation 2014",
+  "chapter_number": "18",
+  "chapter_title": "Global Navigation Satellite Systems (GNSS)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "NAVSTAR/GPS operates in the ... band the receiver determines position by ........",
+      "question_type": "MCQ",
+      "options": [
+        "a. UHF range position lines",
+        "b. UHF secondary radar principles",
+        "c. SHF secondary radar principles",
+        "d. SHF range position lines"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "NAVSTAR/GPS operates in the UHF band (L-band, 1575.42 MHz and 1227.6 MHz). The receiver determines position by measuring ranges to multiple satellites and using range position lines (trilateration) to calculate the 3D position."
+    },
+    {
+      "id": "2",
+      "question": "The NAVSTAR/ GPS control segment comprises:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the space segment, the user segment and the ground segment",
+        "b. a ground segment and the INMARSAT geostationary satellites",
+        "c. a master control station, a back-up control station and five monitoring stations",
+        "d. a master control station, a back-up control station, five monitoring stations and the INMARSAT geostationary satellites"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "The NAVSTAR/GPS control segment consists of a master control station (at Schriever Air Force Base, Colorado), a backup control station, and five monitoring stations located around the world. These monitor satellite health and upload navigation data."
+    },
+    {
+      "id": "3",
+      "question": "The orbital height and inclination of the NAVSTAR/GPS constellation are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 20 180 km, 65°",
+        "b. 20 180 km, 55°",
+        "c. 19099 km, 65°",
+        "d. 19099 km, 55°"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The NAVSTAR/GPS satellites orbit at an altitude of approximately 20,180 km (12,550 miles) with an orbital inclination of 55°. This provides global coverage with at least 4 satellites visible from any point on Earth at any time."
+    },
+    {
+      "id": "4",
+      "question": "The model of the earth used for NAVSTAR/GPS is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. WGS90",
+        "b. PZ90",
+        "c. WGS84",
+        "d. PZ84"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "NAVSTAR/GPS uses the World Geodetic System 1984 (WGS84) as its reference ellipsoid and coordinate system. This provides a consistent global reference frame for all GPS positions."
+    },
+    {
+      "id": "5",
+      "question": "The minimum number of satellites required for a 3D fix is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3",
+        "b. 4",
+        "c. 5",
+        "d. 6"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "A minimum of 4 satellites is required for a 3D fix (latitude, longitude, and altitude). Three satellites provide 2D position (latitude and longitude), but the fourth satellite is needed to solve for the receiver clock error, which is the fourth unknown in the position calculation."
+    },
+    {
+      "id": "6",
+      "question": "The NAVSTAR/GPS operational constellation comprises how many satellites?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 12",
+        "b. 21",
+        "c. 24",
+        "d. 30"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "The NAVSTAR/GPS operational constellation consists of 24 satellites arranged in 6 orbital planes with 4 satellites per plane. Additional satellites are maintained as spares to ensure continuous coverage."
+    },
+    {
+      "id": "7",
+      "question": "The most accurate fixing information will be obtained from:",
+      "question_type": "MCQ",
+      "options": [
+        "a. four satellites spaced 90° apart at 30° above the visual horizon",
+        "b. one satellite close to the horizon and 3 equally at 60° above the horizon",
+        "c. one satellite directly overhead and 3 equally spaced at 60° above the horizon",
+        "d. one satellite directly overhead and 3 spaced 120° apart close to the horizon"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "The most accurate GPS fix is obtained when one satellite is directly overhead (zenith) and three satellites are spaced 120° apart near the horizon. This geometry provides the best Dilution of Precision (DOP), minimizing position errors."
+    },
+    {
+      "id": "8",
+      "question": "The most significant error of GNSS is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. PDOP",
+        "b. receiver clock",
+        "c. ionospheric propagation",
+        "d. ephemeris"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "Ionospheric propagation delay is typically the most significant error source in GNSS. The ionosphere slows down GPS signals, causing range measurement errors. This error can be reduced using dual-frequency receivers or correction systems like WAAS/EGNOS."
+    },
+    {
+      "id": "9",
+      "question": "The frequency available to non-authorized users of NAVSTAR/GPS is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1227.6 MHz",
+        "b. 1575.42 MHz",
+        "c. 1602 MHz",
+        "d. 1246 MHz"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The frequency available to non-authorized (civilian) users of NAVSTAR/GPS is 1575.42 MHz (L1 frequency). This carries the C/A (Coarse/Acquisition) code. The L2 frequency (1227.6 MHz) with the P-code is primarily for authorized military users."
+    },
+    {
+      "id": "10",
+      "question": "The purpose of the pseudo-random noise codes in NAVSTAR/GPS is to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. identify the satellites",
+        "b. pass the almanac data",
+        "c. pass the navigation and system data",
+        "d. pass the ephemeris and time information"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Pseudo-Random Noise (PRN) codes are used to identify individual satellites. Each GPS satellite has a unique PRN code, allowing the receiver to distinguish between signals from different satellites transmitted on the same frequency."
+    },
+    {
+      "id": "11",
+      "question": "The minimum number of satellites required for receiver autonomous integrity monitoring is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3",
+        "b. 4",
+        "c. 5",
+        "d. 6"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "Receiver Autonomous Integrity Monitoring (RAIM) requires a minimum of 5 satellites. RAIM uses the extra satellite to detect and isolate faulty satellite signals. With 4 satellites, the receiver can calculate position but cannot perform integrity monitoring."
+    },
+    {
+      "id": "12",
+      "question": "If a receiver has to download the almanac, the time to do this will be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2.5 minutes",
+        "b. 12.5 minutes",
+        "c. 25 minutes",
+        "d. 15 minutes"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The almanac contains coarse orbital information for all satellites and is transmitted at 50 bits per second. The complete almanac takes 12.5 minutes to download. The almanac helps the receiver determine which satellites should be visible."
+    },
+    {
+      "id": "13",
+      "question": "The use of LAAS and WAAS remove the errors caused by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. propagation, selective availability, satellite ephemeris and clock",
+        "b. selective availability, satellite ephemeris and clock",
+        "c. PDOP, selective availability and propagation",
+        "d. receiver clock, PDOP, satellite ephemeris and clock"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "LAAS (Local Area Augmentation System) and WAAS (Wide Area Augmentation System) remove errors caused by selective availability (now disabled), satellite ephemeris errors, and satellite clock errors. They provide correction data to improve GPS accuracy and integrity."
+    },
+    {
+      "id": "14",
+      "question": "The most accurate satellite fixing information will be obtained from:",
+      "question_type": "MCQ",
+      "options": [
+        "a. NAVSTAR/GPS & GLONASS",
+        "b. TRANSIT & NAVSTAR/GPS",
+        "c. COSPAS/SARSAT & GLONASS",
+        "d. NAVSTAR/GPS & COSPAS/SARSAT"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Using multiple satellite constellations (NAVSTAR/GPS and GLONASS) provides more satellites in view, improving geometry and accuracy. More satellites also improve reliability and allow for better RAIM (integrity monitoring)."
+    },
+    {
+      "id": "15",
+      "question": "A LAAS requires:",
+      "question_type": "MCQ",
+      "options": [
+        "a. an accurately surveyed site on the aerodrome and a link through the INMARSAT geostationary satellites to pass corrections to X, Y & Z coordinates to aircraft",
+        "b. an accurately surveyed site on the aerodrome and a link through the INMARSAT geostationary satellites to pass satellite range corrections to aircraft",
+        "c. an accurately surveyed site on the aerodrome and a system known as a pseudolite to pass satellite range corrections to aircraft",
+        "d. an accurately surveyed site on the aerodrome and system known as a pseudolite to pass corrections to X, Y & Z coordinates to aircraft"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "LAAS (Local Area Augmentation System) requires an accurately surveyed reference station on the aerodrome and a pseudolite (ground-based transmitter that acts like a GPS satellite) to broadcast corrections to X, Y, and Z coordinates to aircraft in the local area."
+    },
+    {
+      "id": "16",
+      "question": "The position derived from NAVSTAR/GPS satellites may be subject to the following errors:",
+      "question_type": "MCQ",
+      "options": [
+        "a. selective availability, sky wave interference, PDOP",
+        "b. propagation, selective availability, ephemeris",
+        "c. PDOP, static interference, instrument",
+        "d. ephemeris, PDOP, siting"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "GPS position errors can result from: propagation errors (ionospheric/tropospheric delays), selective availability (intentional degradation, now disabled), and ephemeris errors (inaccuracies in satellite orbital position data)."
+    },
+    {
+      "id": "17",
+      "question": "EGNOS is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the proposed European satellite navigation system",
+        "b. a LAAS",
+        "c. a WAAS",
+        "d. a system to remove errors caused by the difference between the model of the earth and the actual shape of the earth"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "EGNOS (European Geostationary Navigation Overlay Service) is a WAAS (Wide Area Augmentation System) for Europe. It provides GPS corrections and integrity information over a wide area using geostationary satellites and ground monitoring stations."
+    },
+    {
+      "id": "18",
+      "question": "The PRN codes are used to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. determine the time interval between the satellite transmission and receipt of the signal at the receiver",
+        "b. pass ephemeris and clock data to the receivers",
+        "c. synchronize the receiver clocks with the satellites clocks",
+        "d. determine the range of the satellites from the receiver"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "PRN (Pseudo-Random Noise) codes are used to determine the time interval between satellite transmission and signal receipt at the receiver. By comparing the received code with a locally generated copy, the receiver can measure the signal travel time and calculate range."
+    },
+    {
+      "id": "19",
+      "question": "The availability of two frequencies in GNSS:",
+      "question_type": "MCQ",
+      "options": [
+        "a. removes SV ephemeris and clock errors",
+        "b. reduces propagation errors",
+        "c. reduces errors caused by PDOP",
+        "d. removes receiver clock errors"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "Using two frequencies (L1 and L2) in GNSS allows the receiver to measure and correct for ionospheric propagation delays. The ionosphere affects different frequencies differently, allowing the receiver to calculate and remove this error source."
+    },
+    {
+      "id": "20",
+      "question": "The NAVSTAR/GPS reference system is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. A geo-centred 3D Cartesian coordinate system fixed with reference to the sun",
+        "b. A geo-centred 3D Cartesian coordinate system fixed with reference to the prime meridian, equator and pole",
+        "c. A geo-centred 3D Cartesian coordinate system fixed with reference to space",
+        "d. A geo-centred 3D system based on latitude, longitude and altitude"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The NAVSTAR/GPS reference system is a geocentric 3D Cartesian coordinate system (WGS84) fixed with reference to the prime meridian (0° longitude), equator (0° latitude), and the Earth's rotational pole. This provides a stable, Earth-fixed reference frame."
+    },
+    {
+      "id": "21",
+      "question": "The initial range calculation at the receiver is known as a pseudo-range, because it is not yet corrected for:",
+      "question_type": "MCQ",
+      "options": [
+        "a. receiver clock errors",
+        "b. receiver and satellite clock errors",
+        "c. receiver and satellite clock errors and propagation errors",
+        "d. receiver and satellite clock errors and ephemeris errors"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The initial range measurement is called a pseudo-range because it includes the receiver clock error. The measured time includes both the signal travel time and the receiver clock bias. This error is solved for as the fourth unknown in the position calculation (along with X, Y, Z coordinates)."
+    },
+    {
+      "id": "22",
+      "question": "The navigation and system data message is transmitted through the:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 50 Hz modulation",
+        "b. the C/A and P PRN codes",
+        "c. the C/A code",
+        "d. the P code"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The navigation and system data message (containing ephemeris, almanac, clock corrections, etc.) is transmitted through 50 Hz modulation of the PRN codes. This data is modulated onto both the C/A and P codes at 50 bits per second."
+    },
+    {
+      "id": "23",
+      "question": "An all in view receiver:",
+      "question_type": "MCQ",
+      "options": [
+        "a. informs the operator that all the satellites required for fixing and RAIM are in available",
+        "b. checks all the satellites in view and selects the 4 with the best geometry for fixing",
+        "c. requires 5 satellites to produce a 4D fix",
+        "d. uses all the satellites in view for fixing"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "An all-in-view receiver checks all satellites in view and selects the 4 (or more) with the best geometry (lowest DOP) for position fixing. This optimizes accuracy by choosing satellites that provide the best geometric configuration."
+    },
+    {
+      "id": "24",
+      "question": "When using GNSS to carry out a non-precision approach the MDA will be determined using:",
+      "question_type": "MCQ",
+      "options": [
+        "a. barometric altitude",
+        "b. GPS altitude",
+        "c. radio altimeter height",
+        "d. either barometric or radio altimeter altitude"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "When using GNSS for a non-precision approach, the Minimum Descent Altitude (MDA) is determined using barometric altitude. GPS altitude (ellipsoidal height) is not used for approach procedures because it doesn't account for local geoid variations and is less accurate than barometric altitude for vertical guidance."
+    },
+    {
+      "id": "25",
+      "question": "If an aircraft manoeuvre puts a satellite being used for fixing into the wing shadow then:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the accuracy will be unaffected",
+        "b. the accuracy will be temporarily downgraded",
+        "c. the receiver will automatically select another satellite with no degradation in positional accuracy",
+        "d. the receiver will maintain lock using signals reflected from other parts of the aircraft with a small degrading of positional accuracy"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "If an aircraft maneuver causes a satellite to be shadowed by the wing or fuselage, the receiver will lose that satellite's signal. The receiver will automatically select another satellite, but there may be a temporary degradation in positional accuracy until the new satellite is acquired and the position solution stabilizes."
+    },
+    {
+      "id": "26",
+      "question": "Which of the following statements concerning NAVSTAR/GPS time is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Satellite time is the same as UTC",
+        "b. The satellite runs its own time based on seconds and weeks which is independent of UTC",
+        "c. The satellite runs its own time based on seconds and weeks which is correlated with UTC",
+        "d. Satellite time is based on sidereal time"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "NAVSTAR/GPS time is based on seconds and weeks (GPS week) and is correlated with UTC (Coordinated Universal Time). GPS time does not include leap seconds, so it differs from UTC by the number of leap seconds that have been added since GPS time began (January 6, 1980)."
+    }
+  ]
+}
+

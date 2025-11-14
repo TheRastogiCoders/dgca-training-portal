@@ -1,0 +1,78 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "26",
+  "chapter_title": "Aircraft Accident and Incident Investigation",
+  "questions": [
+    {
+      "id": "1",
+      "question": "An aircraft wheel gets stuck in the mud whilst taxiing to the runway for take-off and sustains damage. Is this:",
+      "question_type": "MCQ",
+      "options": [
+        "a. an incident.",
+        "b. an accident.",
+        "c. a serious incident.",
+        "d. a normal operating hazard."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "Who is responsible for the investigation of an accident?",
+      "question_type": "MCQ",
+      "options": [
+        "a. State of Occurrence.",
+        "b. State or Registry.",
+        "c. ICAO.",
+        "d. Combination of A and B."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "The purpose of Accident Investigations is the prevention of future accidents and:",
+      "question_type": "MCQ",
+      "options": [
+        "a. apportion blame.",
+        "b. to improve manufacturing design.",
+        "c. to help judicial proceedings.",
+        "d. nothing more."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "Just before arrival at the apron, the aircraft unintentionally taxies onto the grass causing the wheel to ride into a pothole.\nThe aircraft has sustained serious damage and consequently the crew is forced to delay the departure:",
+      "question_type": "MCQ",
+      "options": [
+        "a. considering that there is no physical injury and that the flight has ended, the action that has to be taken is merely confined to notification of the insurance company, the mechanic, the operator and persons who are in charge of runways and taxiways.",
+        "b. this is an accident and the crew should follow the appropriate procedures.",
+        "c. this is an incident and the captain has to report this to the aerodrome authority within 48 hours.",
+        "d. this is an irregularity in the exploitation. This crew should inform the operator about the delay caused by necessary repairs."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Who is entitled to be represented at any investigation?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The State of Registry.",
+        "b. The State of Design.",
+        "c. The State of Manufacture.",
+        "d. All the above."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    }
+  ]
+}
+

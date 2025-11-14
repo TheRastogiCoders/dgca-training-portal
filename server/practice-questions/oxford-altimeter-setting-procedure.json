@@ -1,0 +1,148 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "11",
+  "chapter_title": "Altimeter Setting Procedure",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What should be the minimum transition altitude?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3000 ft.",
+        "b. 1000 ft.",
+        "c. 1500 ft.",
+        "d. 2000 ft."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "Determination of the Transition Level is the responsibility of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the Authority of the State.",
+        "b. the ATC Authority.",
+        "c. Approach Control office or the aerodrome Control Tower.",
+        "d. Area Control."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "What is the transition level?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The first available flight level above the transition altitude.",
+        "b. The highest flight level available below the transition altitude.",
+        "c. The top of the ATZ.",
+        "d. The level at which 1013 is set."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "When during the approach should the reported aerodrome altimeter setting be set?",
+      "question_type": "MCQ",
+      "options": [
+        "a. When passing 3000 ft AMSL or 1000 ft AGL.",
+        "b. When passing the transition level.",
+        "c. When passing the transition altitude.",
+        "d. Within the transition layer."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "The vertical position of an aircraft at or below the transition altitude will be reported as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. flight level.",
+        "b. whatever the pilot chooses.",
+        "c. altitude.",
+        "d. height."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "In the vicinity of an aerodrome that is going to be used by the aircraft, the vertical position of the aircraft shall be expressed as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. flight level at or below the transition level.",
+        "b. flight level at or below the transition altitude.",
+        "c. altitude above sea level at or below the transition altitude.",
+        "d. altitude above sea level at or above the transition altitude."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "The pilot of a departing aircraft flying under IFR shall change the altimeter setting from QNH to SPS when passing:",
+      "question_type": "MCQ",
+      "options": [
+        "a. transition level.",
+        "b. when specified by ATC.",
+        "c. transition altitude.",
+        "d. transition layer."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Transition from altitude to flight level, and vice-versa, is done:",
+      "question_type": "MCQ",
+      "options": [
+        "a. at transition level during the climbs and at transition altitude in the descent.",
+        "b. only at transition altitude.",
+        "c. only at transition level.",
+        "d. at transition altitude during the climbs and at transition level in the descent."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "During flight through the transition layer the vertical position of the aircraft should be reported as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. altitude above mean sea level during the climb.",
+        "b. flight level during descent.",
+        "c. either altitude above mean sea level or flight level during the climb.",
+        "d. altitude above mean sea level during descent."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "Whilst flying through the transition layer the vertical position of the aircraft should be reported as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. altitude.",
+        "b. height.",
+        "c. flight level.",
+        "d. it depends upon what is set on the altimeter."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    }
+  ]
+}
+

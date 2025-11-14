@@ -1,0 +1,218 @@
+{
+  "book_name": "Radio Navigation 2014",
+  "chapter_number": "16",
+  "chapter_title": "Area Navigation Systems (RNAV)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The accuracy required of a precision area navigation system is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 0.25 NM",
+        "b. 2 NM",
+        "c. 1 NM",
+        "d. 0.5 NM"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "A precision area navigation (RNAV) system is required to have an accuracy of ±1 NM. This ensures the aircraft can navigate accurately along defined routes and maintain separation from other aircraft and obstacles."
+    },
+    {
+      "id": "2",
+      "question": "A basic 2D RNAV system will determine tracking information from:",
+      "question_type": "MCQ",
+      "options": [
+        "a. twin DME",
+        "b. VOR/DME",
+        "c. twin VOR",
+        "d. any of the above"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "A basic 2D RNAV system typically determines tracking information from VOR/DME. The VOR provides bearing information and the DME provides range, allowing the system to calculate position and navigate to waypoints. Twin DME or twin VOR systems are also possible but VOR/DME is the most common basic configuration."
+    },
+    {
+      "id": "3",
+      "question": "An aircraft using a basic 2D RNAV system is on a section between WP1 and WP2, a distance of 45 NM. The aircraft is 20 NM from the phantom station, which is 270°/30 NM from the VOR/DME. The aircraft is 15 NM from the VOR/DME. The range read- out will show:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 15 NM",
+        "b. 20 NM",
+        "c. 25 NM",
+        "d. 30 NM"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "In RNAV, the 'phantom station' is a virtual waypoint created along the desired track. The DME readout shows the range to the phantom station (20 NM), not the range to the actual VOR/DME ground station (15 NM). This allows the aircraft to navigate along the desired track using the phantom station as a reference."
+    },
+    {
+      "id": "4",
+      "question": "The sequence of displays accessed on initialization is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. POS INIT, IDENT, RTE",
+        "b. IDENT, RTE, POS INIT",
+        "c. IDENT, POS INIT, RTE",
+        "d. POS INIT, RTE, IDENT"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "On initialization of a Flight Management Computer (FMC), the sequence is: IDENT (identify the system), POS INIT (initialize position), then RTE (enter route). This ensures the system knows what it is, where it is, and where it's going."
+    },
+    {
+      "id": "5",
+      "question": "The IRS position can be updated:",
+      "question_type": "MCQ",
+      "options": [
+        "a. on the ground only",
+        "b. at designated positions en route and on the ground",
+        "c. on the ground and overhead VOR/DME",
+        "d. at selected waypoints and on the ground"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The Inertial Reference System (IRS) position can only be updated on the ground during initialization. Once airborne, the IRS position is not updated to maintain the integrity of the inertial navigation solution. Position updates in flight are used by the FMC but do not update the IRS itself."
+    },
+    {
+      "id": "6",
+      "question": "Refer to Appendix A. What are the correct selections to insert the most accurate position into the IRS?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3R then 4R",
+        "b. 2R then 4R",
+        "c. 4R then 3R",
+        "d. 3L then 4R"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This question requires visual analysis of a CDU (Control Display Unit) display in Appendix A. The most accurate position entry would typically involve selecting the GPS position or a manually entered accurate position."
+    },
+    {
+      "id": "7",
+      "question": "The position used by the FMC in the B737-400 is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. an average of the two IRS positions",
+        "b. an average of the two IRS positions, smoothed by the Kalman filtering process",
+        "c. taken from the selected IRS, smoothed by Kalman filtering and updated to the external reference",
+        "d. generated from the external reference and updated by the IRS as part of the Kalman filtering process"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "In the B737-400, the FMC position is taken from the selected IRS, smoothed by Kalman filtering, and updated/corrected using external references (VOR, DME, GPS). This combines the short-term accuracy of the IRS with the long-term accuracy of external navigation aids."
+    },
+    {
+      "id": "8",
+      "question": "The FMC position will be at its most inaccurate:",
+      "question_type": "MCQ",
+      "options": [
+        "a. on take-off",
+        "b. at TOC",
+        "c. at TOD",
+        "d. on final approach"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "The FMC position is typically most inaccurate at Top of Descent (TOD) because this is often the point furthest from the last position update. Over time, IRS drift accumulates, and without recent external position updates, the position accuracy degrades."
+    },
+    {
+      "id": "9",
+      "question": "Which positions can be input to the FMC using a maximum of 5 alphanumerics?",
+      "question_type": "MCQ",
+      "options": [
+        "a. SIDS & STARS, reporting points and airways designators",
+        "b. Navigation facilities, reporting points and airways designators",
+        "c. SIDS & STARS and latitude and longitude",
+        "d. Latitude and longitude, reporting points and airways designators"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "Navigation facilities (VOR, NDB, etc.), reporting points, and airways designators can be input using a maximum of 5 alphanumeric characters. SIDS, STARS, and latitude/longitude coordinates require more characters or different input formats."
+    },
+    {
+      "id": "10",
+      "question": "The FMC navigational database can be accessed by the pilots:",
+      "question_type": "MCQ",
+      "options": [
+        "a. to update the database",
+        "b. to read information only",
+        "c. to change information between the 28 day updates",
+        "d. to change the information to meet the sector requirements"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The FMC navigational database is read-only for pilots. They can access and read information from the database, but cannot modify, update, or change it. Database updates are performed by maintenance personnel using authorized update procedures."
+    },
+    {
+      "id": "11",
+      "question": "Above latitudes of 84° a twin FMS/triple IRS system will go to de-coupled operations. The reason for this is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. to prevent error messages as the IRS longitudes show large differences",
+        "b. to ease the pilot's workload",
+        "c. to improve the system accuracy",
+        "d. because the magnetic variation changes rapidly in high latitudes"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Above 84° latitude, the system goes to de-coupled operations because near the poles, longitude lines converge rapidly, causing the IRS longitudes to show large differences even for small position changes. De-coupling prevents false error messages and allows the system to operate more reliably in polar regions."
+    },
+    {
+      "id": "12",
+      "question": "The maximum range at which VOR bearing information will be used by the B737-400 FMC for fixing is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10 NM",
+        "b. 25 NM",
+        "c. 50 NM",
+        "d. 60 NM"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The B737-400 FMC will use VOR bearing information for position fixing up to a maximum range of 25 NM. Beyond this range, VOR bearing accuracy degrades, so the FMC relies on other navigation sources like DME range or GPS."
+    },
+    {
+      "id": "13",
+      "question": "Concerning FMC operation, which of the following is true:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the FMC combines the long term accuracy of the IRS with the short term accuracy of the external reference",
+        "b. the FMC combines the long term accuracy of the IRS with the long term accuracy of the external reference",
+        "c. the FMC combines the short term accuracy of the IRS with the short term accuracy of the external reference",
+        "d. the FMC combines the short term accuracy of the IRS with the long term accuracy of the external reference"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "The FMC combines the short-term accuracy of the IRS (which is very accurate over short periods but drifts over time) with the long-term accuracy of external references (VOR, DME, GPS which are accurate over long periods but may have short-term variations). This provides optimal navigation performance."
+    },
+    {
+      "id": "14",
+      "question": "The correct format for the input of position 50N 00527E to the CDU is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5000.0N00527.0E",
+        "b. N50E00527",
+        "c. N5000.0E00527.0",
+        "d. N5000E00527"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "The correct format for entering latitude/longitude in the CDU is: N5000.0E00527.0 (or similar with decimal points). This represents 50°00.0'N 005°27.0'E. The format uses degrees and decimal minutes with the N/E prefix and decimal points for precision."
+    },
+    {
+      "id": "15",
+      "question": "The period of validity of the navigational database is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 28 days",
+        "b. 1 month",
+        "c. determined by the national authority and may be from 28 days to 91 days",
+        "d. 91 days"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The navigational database in FMC systems is typically valid for 28 days. The database contains navigation data, procedures, and waypoints that are updated on a 28-day cycle to reflect changes in airways, procedures, and navigation facilities."
+    }
+  ]
+}
+

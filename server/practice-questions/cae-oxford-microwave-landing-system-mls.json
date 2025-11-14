@@ -1,0 +1,22 @@
+{
+  "book_name": "Radio Navigation 2014",
+  "chapter_number": "10",
+  "chapter_title": "Microwave Landing System (MLS)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The coverage of the Microwave Landing System in the UK extends to ... up to a height of ... and ... either side of the on course line.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 20 NM 20000 ft 40 degrees",
+        "b. 35 NM 5000 ft 40 degrees",
+        "c. 35 NM 5000 ft 20 degrees",
+        "d. 17 NM 2000 ft 35 degrees"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The Microwave Landing System (MLS) in the UK provides coverage extending to 20 NM range, up to a height of 20,000 ft, and ±40° either side of the on-course line. This provides greater flexibility than ILS for curved and segmented approaches."
+    }
+  ]
+}
+

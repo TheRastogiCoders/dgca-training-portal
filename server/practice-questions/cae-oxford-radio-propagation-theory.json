@@ -1,0 +1,120 @@
+{
+  "book_name": "Radio Navigation 2014",
+  "chapter_number": "2",
+  "chapter_title": "Radio Propagation Theory",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The process which causes the reduction in signal strength as range from a transmitter increases is known as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. absorption",
+        "b. diffraction",
+        "c. attenuation",
+        "d. ionisation"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "Attenuation is the general term for the reduction in signal strength (power) as a radio wave propagates away from the transmitter. This includes both free-space path loss and absorption by the medium."
+    },
+    {
+      "id": "2",
+      "question": "Which of the following will give the greatest surface wave range?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 243 MHz",
+        "b. 500 kHz",
+        "c. 2182 khz",
+        "d. 15 MHz"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "Surface waves (ground waves) propagate best at lower frequencies. Lower frequencies experience less attenuation over the ground. 500 kHz is the lowest frequency listed, so it will have the greatest surface wave range."
+    },
+    {
+      "id": "3",
+      "question": "It is intended to increase the range of a VHF transmitter from 50 NM to 100 NM. This will be achieved by increasing the power output by a factor of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2",
+        "b. 8",
+        "c. 16",
+        "d. 4"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "For line-of-sight propagation (VHF), power is proportional to range squared. To double the range from 50 NM to 100 NM, power must increase by a factor of 2² = 4."
+    },
+    {
+      "id": "4",
+      "question": "The maximum range an aircraft at 2500 ft can communicate with a VHF station at 196 ft is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 79 NM",
+        "b. 64 NM",
+        "c. 52 NM",
+        "d. 51 NM"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "For line-of-sight VHF communication, range = 1.23 × (√h₁ + √h₂) where h is in feet. Range = 1.23 × (√2500 + √196) = 1.23 × (50 + 14) = 1.23 × 64 = 78.72 ≈ 79 NM."
+    },
+    {
+      "id": "5",
+      "question": "What is the minimum height for an aircraft at a range of 200 NM to be detected by a radar at 1700 ft AMSL?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 25 500 ft",
+        "b. 15 000 ft",
+        "c. 40 000 ft",
+        "d. 57 500 ft"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "For line-of-sight radar detection: range = 1.23 × (√h₁ + √h₂). Given range = 200 NM and h₁ = 1700 ft, we solve: 200 = 1.23 × (√1700 + √h₂). √1700 ≈ 41.2, so 200/1.23 ≈ 162.6 = 41.2 + √h₂, giving √h₂ ≈ 121.4, so h₂ ≈ 14,740 ft ≈ 15,000 ft."
+    },
+    {
+      "id": "6",
+      "question": "Determine which of the following statements concerning atmospheric ionization are correct:\n1. The highest levels of ionization will be experienced in low latitudes\n2. lonization levels increase linearly with increasing altitude\n3. The lowest levels of ionization occur about midnight\n4. The E-layer is higher by night than by day because the ionization levels are lower at night",
+      "question_type": "MCQ",
+      "options": [
+        "a. statements 1, 2 and 3 are correct",
+        "b. statements 1, 3 and 4 are correct",
+        "c. statements 2 and 4 are correct",
+        "d. statements 1 and 4 are correct"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Statement 1 is correct: ionization is greatest at low latitudes due to more direct solar radiation. Statement 2 is incorrect: ionization does not increase linearly with altitude; it varies with different layers. Statement 3 is incorrect: ionization is lowest at dawn, not midnight. Statement 4 is correct: the E-layer is higher at night because lower ionization allows it to extend further before being absorbed."
+    },
+    {
+      "id": "7",
+      "question": "The average height of the E-layer is ...... and the maximum range for sky wave will be",
+      "question_type": "MCQ",
+      "options": [
+        "a. 60 km, 1350 NM",
+        "b. 125 km, 2200 km",
+        "c. 225 km, 2200 km",
+        "d. 125 km, 1350 NM"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "The E-layer (Kennelly-Heaviside layer) has an average height of approximately 125 km. The maximum range for sky wave propagation using the E-layer is approximately 1350 nautical miles (2500 km) for a single hop."
+    },
+    {
+      "id": "8",
+      "question": "Concerning HF communications, which of the following is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The frequency required in low latitudes is less than the frequency required in high latitudes",
+        "b. At night a higher frequency is required than by day",
+        "c. The frequency required is dependent on time of day but not the season",
+        "d. The frequency required for short ranges will be less than the frequency required for long ranges"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "For HF sky wave propagation, lower frequencies are required for shorter ranges because they are refracted more strongly by the ionosphere and return to Earth at shorter distances. Higher frequencies penetrate deeper into the ionosphere and are refracted at greater heights, resulting in longer ranges."
+    }
+  ]
+}
+

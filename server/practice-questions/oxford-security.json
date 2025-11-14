@@ -1,0 +1,218 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "25",
+  "chapter_title": "Security",
+  "questions": [
+    {
+      "id": "1",
+      "question": "When taking firearms on board an aeroplane, carried by an authorized person, who needs to be informed?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The commander.",
+        "b. The commander and the authority of the state of destination.",
+        "c. The authority of the state of destination.",
+        "d. The operator."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "In ICAO Annex 17 (Security), what does Security mean?",
+      "question_type": "MCQ",
+      "options": [
+        "a. To safeguard civil aviation operations against unlawful interference.",
+        "b. To safeguard civil aviation operations.",
+        "c. To safeguard civil aviation operations against hijacking.",
+        "d. To safeguard civil aviation operations against terrorism."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "ICAO Annex 17 states that each State is responsible for establishing security at:",
+      "question_type": "MCQ",
+      "options": [
+        "a. all aerial locations within the FIR.",
+        "b. at each aerodrome serving international civil aviation.",
+        "c. all international airports.",
+        "d. all international and commercial airports."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "Contracting States must design a security programme, with regard to unlawful interference, to safeguard:",
+      "question_type": "MCQ",
+      "options": [
+        "a. passengers, cargo and crews for international flights.",
+        "b. passengers, crews, ground personnel and the general public.",
+        "c. crews only for international flights.",
+        "d. passengers, cargo and crews for international flights and, at their discretion, all of these for domestic flights."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "If armed personnel are to be carried to ensure the safety of an aircraft, then:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the PIC must be informed.",
+        "b. the state of departure must notify the state of arrival.",
+        "c. the state of departure must notify the airport of arrival.",
+        "d. all of the above."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "According to Annex 17, security is defined as \"a combination of measures and human resources intended to safeguard:",
+      "question_type": "MCQ",
+      "options": [
+        "a. civil aviation operations against acts of unlawful interference\".",
+        "b. international civil aviation operations against acts of unlawful interference\".",
+        "c. international aviation operations against acts of unlawful interference\".",
+        "d. aviation operations against acts of unlawful interference\"."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "Operators are to ensure that procedures are detailed for the carriage of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. deportees and people under lawful custody.",
+        "b. deportees, people under lawful custody and inadmissibles.",
+        "c. only people under lawful custody when physically restrained.",
+        "d. only deportees and inadmissibles."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Airlines are to have procedures in place when carrying potentially disruptive passengers which include:",
+      "question_type": "MCQ",
+      "options": [
+        "a. inadmissibles, deportees, persons in custody.",
+        "b. persons in custody.",
+        "c. inadmissibles, deportees.",
+        "d. deportees, persons in custody."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "An aircraft subjected to unlawful interference cannot be denied:",
+      "question_type": "MCQ",
+      "options": [
+        "a. permission to land and fuel.",
+        "b. Air Traffic Services, permission to land and the use of navigational aids.",
+        "c. food and water for the occupants of the aircraft.",
+        "d. Air Traffic Services and fuel."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "To whom does the National Security organization of a state have to make available a written version of its national security programme for civil aviation?",
+      "question_type": "MCQ",
+      "options": [
+        "a. ICAO and ECAC.",
+        "b. ICAO.",
+        "c. ECAC.",
+        "d. Other States."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "An isolated parking area is to be provided for an aircraft subjected to unlawful interference which is never less than metres from other parking positions:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1000.",
+        "b. 2500.",
+        "c. 3000.",
+        "d. 100."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "A national civil aviation security programme must be established by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. ICAO and other organizations including the Contracting States concerned.",
+        "b. ICAO.",
+        "c. all Contracting States.",
+        "d. ECAC."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Member States should ensure that specific security measures are conducted in the air transport of potentially disruptive passengers.\nThese are seen as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. deportees, inadmissible passengers and persons in custody.",
+        "b. none of the answers are correct.",
+        "c. deportees and inadmissible passengers only.",
+        "d. deportees and persons in custody."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "The State shall take adequate measures for the safety of passengers and crew of an aircraft subjected to an act of unlawful interference until:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the end of the subsequent investigation.",
+        "b. as such time as requested by the passengers and crew.",
+        "c. their journey can be continued.",
+        "d. they are returned to their country of origin."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "A person found to be inadmissible shall be given to the custody of the operator who shall be responsible for:",
+      "question_type": "MCQ",
+      "options": [
+        "a. transportation to where the person commenced his/her journey or to any place where the person is admissible at the expense of the operator without redress.",
+        "b. transportation to where the person commenced his/her journey or to any place where the person is admissible at the expense of the operator. However, nothing precludes the operator from recovering from such a person any transportation costs arising from his/her inadmissibility.",
+        "c. returning such a person to their country of origin.",
+        "d. returning such a person to their normal residence."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

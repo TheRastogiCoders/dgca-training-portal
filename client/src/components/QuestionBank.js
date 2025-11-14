@@ -343,27 +343,85 @@ const airNavigationOxfordBooks = [
     description: "Navigation planning, fuel calculations, and flight watch",
     icon: "🗺️",
     color: "from-blue-500 to-cyan-500",
-    slug: "flight-planning-monitoring",
-    totalQuestions: 180,
+    slug: "cae-oxford-flight-planning-monitoring",
+    totalQuestions: 260,
     difficulty: "Medium",
     chapters: [
       { id: 1, name: "Air Information Publications", questions: 6, difficulty: "Medium" },
       { id: 2, name: "Fuel Policy and Fuel Monitoring", questions: 7, difficulty: "Medium" },
       { id: 3, name: "Nautical Air Miles", questions: 30, difficulty: "Medium" },
-      { id: 4, name: "Single-engine Piston Aeroplane (SEP)", questions: 0, difficulty: "Medium" },
-      { id: 5, name: "Multi-engine Piston Aeroplane (MEP)", questions: 0, difficulty: "Medium" },
-      { id: 6, name: "Medium Range Jet Transport (MRJT) Simplified Flight Planning", questions: 0, difficulty: "Medium" },
-      { id: 7, name: "Medium Range Jet Transport (MRJT) Detailed Flight Planning", questions: 0, difficulty: "Medium" },
+      { id: 4, name: "Single-engine Piston Aeroplane (SEP)", questions: 4, difficulty: "Medium" },
+      { id: 5, name: "Multi-engine Piston Aeroplane (MEP)", questions: 3, difficulty: "Medium" },
+      { id: 6, name: "Medium Range Jet Transport planning", questions: 18, difficulty: "Medium" },
+      { id: 7, name: "MRJT Detailed Flight Planning, En Route Climb, Cruise-Integrated Range, Descent Tables", questions: 4, difficulty: "Medium" },
       { id: 8, name: "En Route Climb Table", questions: 0, difficulty: "Medium" },
       { id: 9, name: "Cruise / Integrated Range Tables", questions: 0, difficulty: "Medium" },
       { id: 10, name: "Descent Tables", questions: 0, difficulty: "Medium" },
       { id: 11, name: "MRJT Additional Procedures", questions: 0, difficulty: "Medium" },
-      { id: 12, name: "Topographical Chart", questions: 0, difficulty: "Medium" },
-      { id: 13, name: "Airways", questions: 0, difficulty: "Medium" },
-      { id: 14, name: "Airways – Miscellaneous Charts", questions: 38, difficulty: "Medium" },
-      { id: 15, name: "ATC Flight Plan", questions: 0, difficulty: "Medium" },
-      { id: 16, name: "Point of Equal Time (PET)", questions: 0, difficulty: "Medium" },
+      { id: 12, name: "Topographical Chart", questions: 20, difficulty: "Medium" },
+      { id: 13, name: "Airways", questions: 81, difficulty: "Medium" },
+      { id: 14, name: "Airways – Miscellaneous Charts", questions: 43, difficulty: "Medium" },
+      { id: 15, name: "ATC Flight Plan", questions: 16, difficulty: "Medium" },
+      { id: 16, name: "Point of Equal Time (PET)", questions: 14, difficulty: "Medium" },
       { id: 17, name: "Point of Safe Return (PSR)", questions: 12, difficulty: "Medium" }
+    ]
+  },
+  {
+    id: 3,
+    title: "Mass and Balance and Performance",
+    description: "Aircraft performance, mass and balance calculations",
+    icon: "📊",
+    color: "from-purple-500 to-pink-500",
+    slug: "performance",
+    totalQuestions: 131,
+    difficulty: "Medium",
+    chapters: [
+      { id: 1, name: "Mass and Balance and Performance", questions: 30, difficulty: "Medium" },
+      { id: 4, name: "General Principles - Descent", questions: 19, difficulty: "Medium" },
+      { id: 7, name: "Single-engine Class B Aircraft - Take-off", questions: 11, difficulty: "Medium" },
+      { id: 11, name: "Multi-engine Class B - Take-off", questions: 13, difficulty: "Medium" },
+      { id: 17, name: "Class A - En Route", questions: 43, difficulty: "Medium" },
+      { id: 18, name: "Landing", questions: 15, difficulty: "Medium" }
+    ]
+  }
+];
+
+const airRegulationsOxfordBooks = [
+  {
+    id: 1,
+    title: "CAE Oxford",
+    description: "CAE Oxford Air Law - Comprehensive aviation regulations",
+    icon: "📘",
+    color: "from-blue-500 to-blue-600",
+    slug: "oxford",
+    totalQuestions: 525,
+    difficulty: "Medium",
+    chapters: [
+      { id: 1, name: "International Agreements and Organizations", questions: 26, difficulty: "Medium" },
+      { id: 2, name: "Airworthiness of Aircraft", questions: 4, difficulty: "Medium" },
+      { id: 3, name: "Aircraft Nationality and Registration Marks", questions: 12, difficulty: "Medium" },
+      { id: 4, name: "Flight Crew Licensing", questions: 55, difficulty: "Medium" },
+      { id: 5, name: "Rules of the Air", questions: 51, difficulty: "Medium" },
+      { id: 6, name: "Instrument Procedures - Departures", questions: 13, difficulty: "Medium" },
+      { id: 7, name: "Approach Procedures", questions: 46, difficulty: "Medium" },
+      { id: 8, name: "Circling Approach", questions: 8, difficulty: "Medium" },
+      { id: 9, name: "Holding Procedures", questions: 5, difficulty: "Medium" },
+      { id: 10, name: "Altimeter Setting Procedure", questions: 10, difficulty: "Medium" },
+      { id: 11, name: "Parallel or Near-parallel Runway Operation", questions: 9, difficulty: "Medium" },
+      { id: 12, name: "SSR and ACAS", questions: 8, difficulty: "Medium" },
+      { id: 13, name: "Airspace", questions: 37, difficulty: "Medium" },
+      { id: 14, name: "Air Traffic Services", questions: 36, difficulty: "Medium" },
+      { id: 15, name: "Separation", questions: 50, difficulty: "Medium" },
+      { id: 16, name: "Control of Aircraft", questions: 40, difficulty: "Medium" },
+      { id: 17, name: "Aeronautical Information Service (AIS)", questions: 18, difficulty: "Medium" },
+      { id: 18, name: "Aerodromes - Physical Characteristics", questions: 15, difficulty: "Medium" },
+      { id: 19, name: "Aerodromes - Visual Aids, Markings and Signs", questions: 10, difficulty: "Medium" },
+      { id: 20, name: "Aerodrome Lighting", questions: 25, difficulty: "Medium" },
+      { id: 21, name: "Obstacle Marking and Aerodrome Services", questions: 12, difficulty: "Medium" },
+      { id: 22, name: "Facilitation", questions: 6, difficulty: "Medium" },
+      { id: 23, name: "Search and Rescue", questions: 9, difficulty: "Medium" },
+      { id: 24, name: "Security", questions: 15, difficulty: "Medium" },
+      { id: 25, name: "Aircraft Accident and Incident Investigation", questions: 5, difficulty: "Medium" }
     ]
   }
 ];
@@ -375,28 +433,28 @@ const radioTelephonyOxfordBooks = [
     description: "CAE Oxford Radio Navigation & Communication Systems",
     icon: "📻",
     color: "from-cyan-500 to-blue-600",
-    slug: "radio-navigation-systems",
-    totalQuestions: 0,
+    slug: "cae-oxford",
+    totalQuestions: 229,
     difficulty: "Medium",
     chapters: [
-      { id: 1, name: "Properties of Radio Waves", questions: 0, difficulty: "Medium" },
-      { id: 2, name: "Radio Propagation Theory", questions: 0, difficulty: "Medium" },
-      { id: 3, name: "Modulation", questions: 0, difficulty: "Medium" },
-      { id: 4, name: "Antennae", questions: 0, difficulty: "Medium" },
-      { id: 5, name: "Doppler Radar Systems", questions: 0, difficulty: "Medium" },
-      { id: 6, name: "VHF Direction Finder (VDF)", questions: 0, difficulty: "Medium" },
-      { id: 7, name: "Automatic Direction Finder (ADF)", questions: 0, difficulty: "Medium" },
-      { id: 8, name: "VHF Omni-directional Range (VOR)", questions: 0, difficulty: "Medium" },
-      { id: 9, name: "Instrument Landing System (ILS)", questions: 0, difficulty: "Medium" },
-      { id: 10, name: "Microwave Landing System (MLS)", questions: 0, difficulty: "Medium" },
-      { id: 11, name: "Radar Principles", questions: 0, difficulty: "Medium" },
-      { id: 12, name: "Ground Radar", questions: 0, difficulty: "Medium" },
-      { id: 13, name: "Airborne Weather Radar", questions: 0, difficulty: "Medium" },
-      { id: 14, name: "Secondary Surveillance Radar (SSR)", questions: 0, difficulty: "Medium" },
-      { id: 15, name: "Distance Measuring Equipment (DME)", questions: 0, difficulty: "Medium" },
-      { id: 16, name: "Area Navigation Systems (RNAV)", questions: 0, difficulty: "Medium" },
-      { id: 17, name: "Electronic Flight Information System (EFIS)", questions: 0, difficulty: "Medium" },
-      { id: 18, name: "Global Navigation Satellite System (GNSS)", questions: 0, difficulty: "Medium" }
+      { id: 1, name: "Properties of Radio Waves", questions: 22, difficulty: "Medium" },
+      { id: 2, name: "Radio Propagation Theory", questions: 8, difficulty: "Medium" },
+      { id: 3, name: "Modulation", questions: 4, difficulty: "Medium" },
+      { id: 4, name: "Antennae", questions: 4, difficulty: "Medium" },
+      { id: 5, name: "Doppler Radar Systems", questions: 3, difficulty: "Medium" },
+      { id: 6, name: "VHF Direction Finder (VDF)", questions: 6, difficulty: "Medium" },
+      { id: 7, name: "Automatic Direction Finder (ADF)", questions: 21, difficulty: "Medium" },
+      { id: 8, name: "VHF Omni-directional Range (VOR)", questions: 33, difficulty: "Medium" },
+      { id: 9, name: "Instrument Landing System (ILS)", questions: 14, difficulty: "Medium" },
+      { id: 10, name: "Microwave Landing System (MLS)", questions: 1, difficulty: "Medium" },
+      { id: 11, name: "Radar Principles", questions: 14, difficulty: "Medium" },
+      { id: 12, name: "Ground Radar", questions: 4, difficulty: "Medium" },
+      { id: 13, name: "Airborne Weather Radar", questions: 11, difficulty: "Medium" },
+      { id: 14, name: "Secondary Surveillance Radar (SSR)", questions: 5, difficulty: "Medium" },
+      { id: 15, name: "Distance Measuring Equipment (DME)", questions: 19, difficulty: "Medium" },
+      { id: 16, name: "Area Navigation Systems (RNAV)", questions: 15, difficulty: "Medium" },
+      { id: 17, name: "Electronic Flight Information System (EFIS)", questions: 9, difficulty: "Medium" },
+      { id: 18, name: "Global Navigation Satellite System (GNSS)", questions: 26, difficulty: "Medium" }
     ]
   }
 ];
@@ -428,6 +486,23 @@ const radioTelephonyOxfordBooks = [
     if (!selectedSubject) return null;
 
     // Check special cases first (before direct book match)
+    if (selectedSubject.title === 'Air Regulations') {
+      // If CAE Oxford is selected, return the CAE Oxford book directly
+      if (selectedBookKey === 'cae-oxford' || selectedBookKey === 'oxford') {
+        const airLawBook = airRegulationsOxfordBooks[0];
+        if (airLawBook) {
+          console.log('Air Regulations: Returning CAE Oxford book with chapters:', airLawBook.chapters?.length);
+          return sanitizeBook(airLawBook);
+        }
+      }
+      // Otherwise, check if a specific air regulations book is selected
+      const airRegBook = airRegulationsOxfordBooks.find((book) => book.slug === selectedBookKey);
+      if (airRegBook) {
+        console.log('Air Regulations: Returning specific book with chapters:', airRegBook.chapters?.length);
+        return sanitizeBook(airRegBook);
+      }
+    }
+
     if (selectedSubject.title === 'Radio Telephony (RTR)-A') {
       // If CAE Oxford is selected, return the radio navigation systems book directly
       if (selectedBookKey === 'cae-oxford') {
@@ -487,7 +562,7 @@ const radioTelephonyOxfordBooks = [
     }
     
     const chapterSlug = slugify(chapter?.name || 'overview');
-    navigate(`/practice-test/book/${book.slug}/${chapterSlug}`);
+    navigate(`/pyq/book/${book.slug}/${chapterSlug}`);
   };
 
   const handleViewNextChapter = () => {
@@ -513,7 +588,7 @@ const radioTelephonyOxfordBooks = [
     
     if (nextChapter) {
       const chapterSlug = slugify(nextChapter?.name || 'overview');
-      navigate(`/practice-test/book/${book.slug}/${chapterSlug}`);
+      navigate(`/pyq/book/${book.slug}/${chapterSlug}`);
     } else {
       // If no next chapter with questions, just close the modal
       setClickedChapter(null);
@@ -675,7 +750,9 @@ const radioTelephonyOxfordBooks = [
                             {book.icon}
                           </div>
                           <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
-                            {book.title}
+                            {selectedSubject.title === 'Air Regulations' && (book.slug === 'cae-oxford' || book.slug === 'oxford')
+                              ? 'CAE Oxford'
+                              : book.title}
                           </h3>
                           <p className="text-gray-600 mb-4 text-base leading-relaxed">
                             {book.description}
@@ -726,7 +803,11 @@ const radioTelephonyOxfordBooks = [
                         {resolveSelectedBook.icon}
                       </div>
                       <div className="text-left">
-                        <h3 className="text-lg font-bold text-gray-900">{resolveSelectedBook.title}</h3>
+                        <h3 className="text-lg font-bold text-gray-900">
+                          {selectedSubject.title === 'Air Regulations' && (selectedBookKey === 'cae-oxford' || selectedBookKey === 'oxford')
+                            ? 'CAE Oxford'
+                            : resolveSelectedBook.title}
+                        </h3>
                         <p className="text-sm text-gray-600">{resolveSelectedBook.description}</p>
                       </div>
                     </div>

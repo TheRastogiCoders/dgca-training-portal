@@ -1,0 +1,78 @@
+{
+  "book_name": "Radio Navigation 2014",
+  "chapter_number": "14",
+  "chapter_title": "Secondary Surveillance Radar (SSR)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The special SSR codes are as follows: emergency ... unlawful interference with the conduct of the flight ... radio failure ...",
+      "question_type": "MCQ",
+      "options": [
+        "a. 7700 7600 7500",
+        "b. 7700 7500 7600",
+        "c. 7600 7500 7700",
+        "d. 7500 7600 7700"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The special SSR codes are: 7700 (emergency), 7500 (unlawful interference/hijacking), and 7600 (radio failure). These codes are internationally recognized and trigger specific responses from air traffic control."
+    },
+    {
+      "id": "2",
+      "question": "Secondary Surveillance Radar is a form of ... radar with ... .type emissions operating in the ... band.",
+      "question_type": "MCQ",
+      "options": [
+        "a. primary pulse SHF",
+        "b. primary pulse UHF",
+        "c. secondary FM SHF",
+        "d. secondary pulse UHF"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Secondary Surveillance Radar (SSR) is a form of secondary radar (requires a transponder response) with pulse-type emissions operating in the UHF (Ultra High Frequency) band, typically around 1030 MHz for interrogation and 1090 MHz for replies."
+    },
+    {
+      "id": "3",
+      "question": "If the SSR transponder IDENT button is pressed:",
+      "question_type": "MCQ",
+      "options": [
+        "a. it causes a momentary distinctive display to appear on the controller's screen",
+        "b. an identification pulse is automatically and continuously transmitted for 20 seconds, 4.35 µs before the last framing pulse",
+        "c. an identification pulse is automatically and continuously transmitted for 10 seconds, 4.35 µs after the last framing pulse",
+        "d. an identification pulse is automatically and continuously transmitted for 20 seconds, 4.35 µs after the last framing pulse"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "When the SSR transponder IDENT button is pressed, an identification pulse (SPI - Special Position Identification) is automatically and continuously transmitted for 20 seconds, positioned 4.35 microseconds after the last framing pulse. This causes a distinctive display on the controller's radar screen."
+    },
+    {
+      "id": "4",
+      "question": "When using SSR the ground controller will ask the pilot to cancel mode C if there is a discrepancy of more than ... between the altitude detected by the radar from the reply pulses and the altitude reported by the pilot read from an altitude with the subscale set to ...",
+      "question_type": "MCQ",
+      "options": [
+        "a. 100 ft Regional QNH",
+        "b. 300 ft 1013 HPa",
+        "c. 50 ft 1013 HPa",
+        "d. 300 ft Regional QNH"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "When using SSR Mode C (altitude reporting), if there is a discrepancy of more than 300 ft between the altitude detected by the radar and the altitude reported by the pilot (read from an altimeter with the subscale set to 1013.25 hPa/29.92 inHg), the controller will ask the pilot to cancel Mode C."
+    },
+    {
+      "id": "5",
+      "question": "Secondary radars require:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a target which will respond to the interrogation, and this target will always be an aircraft",
+        "b. a target which will respond to the interrogation, and this target will always be ground based",
+        "c. a target which will respond to the interrogation, and this target may be either an aircraft or a ground based transponder",
+        "d. a quiescent target"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "Secondary radars require a target with a transponder that will respond to the interrogation. This target may be either an aircraft (with an airborne transponder) or a ground-based transponder. Unlike primary radar, secondary radar cannot detect passive targets."
+    }
+  ]
+}
+

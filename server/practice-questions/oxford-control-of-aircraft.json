@@ -1,0 +1,568 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "17",
+  "chapter_title": "Control of Aircraft",
+  "questions": [
+    {
+      "id": "1",
+      "question": "In what class of airspace is an advisory service provided for participating IFR traffic and an FIS for all other traffic?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A",
+        "b. D",
+        "c. C",
+        "d. F"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "List the services that must be provided in an FIR:",
+      "question_type": "MCQ",
+      "options": [
+        "a. FIS only.",
+        "b. FIS, advisory ATC, ATC.",
+        "c. FIS, aerodrome control.",
+        "d. FIS, alerting service."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "An aircraft has been cleared to land and fails to do so within 5 minutes of the ETA of landing and communications have not been re-established with the aircraft.\nWhat phase of the Alerting Service will be declared?",
+      "question_type": "MCQ",
+      "options": [
+        "a. DETRESFA.",
+        "b. INCERFA.",
+        "c. ALERFA.",
+        "d. EMERGFA."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "When must QNH be passed to an aircraft prior to take-off?",
+      "question_type": "MCQ",
+      "options": [
+        "a. In the taxi clearance.",
+        "b. On engine start-up request.",
+        "c. On first contact with ATC.",
+        "d. Just prior to take-off."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "The necessary separation minima for controlled traffic in the vicinity of an aerodrome may be reduced when:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the commander of the aircraft requests reduced separation.",
+        "b. the aerodrome controller has the involved aircraft in sight.",
+        "c. the commander in the following aircraft has the preceding aircraft in sight and is able to maintain own separation.",
+        "d. directed by the aerodrome controller."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "At commencement of final approach, if the approach controller has wind component information, what change in crosswind component change would be passed to the pilot?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10 kt.",
+        "b. 8 kt.",
+        "c. 3 kt.",
+        "d. 5 kt."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "For IFR departures, 1 minute separation can be applied if the aircraft fly on diverging tracks immediately after take-off of at least:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 45°",
+        "b. 15°",
+        "c. 30°",
+        "d. 2°."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "During an approach, when can normal separation be reduced?",
+      "question_type": "MCQ",
+      "options": [
+        "a. When the controller has both aircraft in sight.",
+        "b. When the following aircraft has the preceding in sight and can maintain it.",
+        "c. When both pilots request it.",
+        "d. When both aircraft are under radar control."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "For parallel runway operations, the missed approach tracks must diverge by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 15°",
+        "b. 30°.",
+        "c. 45°.",
+        "d. 20°."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "When the air traffic controller has wind information as components at the start of final approach, significant changes in the average surface wind direction and speed must be given to the pilot.\nThe significant change of the average tailwind is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 kt.",
+        "b. 2 kt.",
+        "c. 4 kt.",
+        "d. 3 kt."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "According to international agreements the wind direction, in degrees magnetic converted with local magnetic variation from the true wind direction must be passed to the pilot of an aircraft:",
+      "question_type": "MCQ",
+      "options": [
+        "a. before entering the traffic pattern or commencing an approach to landing, and prior to taxiing for take-off.",
+        "b. in anticipation of the upper wind for areas North of 60°N and South of 60°S.",
+        "c. when an aircraft is requested by the meteorological office or on specified points to give a AIREP.",
+        "d. when the local variation is greater than 10° East or West."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "What is the closest to touchdown that a radar controller can request a change of speed to an aircraft on final approach?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 NM.",
+        "b. 3 NM.",
+        "c. 2 NM.",
+        "d. 4 NM."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "What defines a controlled aerodrome?",
+      "question_type": "MCQ",
+      "options": [
+        "a. It must be located within a CTR.",
+        "b. It must have a control tower giving an ATC service.",
+        "c. It must have a control tower and be in a CTR.",
+        "d. It must be in controlled airspace."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "What is the primary use for radar in ATC?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Separation.",
+        "b. Helping when aircraft communications have failed.",
+        "c. To assist pilots with technical problems.",
+        "d. To assist pilots of aircraft that are lost."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "When must the SSR transponder be operated?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Always.",
+        "b. At all times unless otherwise instructed by ATC.",
+        "c. At the pilot's discretion regardless of ATC instructions.",
+        "d. Mode A always; Mode C at pilot's discretion."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "What is the minimum distance from threshold that a controller must have issued clearance to land by, for a non-precision approach?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 NM.",
+        "b. 2 NM.",
+        "c. 3 NM.",
+        "d. 10 NM."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "The maximum speed change that may be required during a radar approach is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. ±40 kt.",
+        "b. ±5 kt.",
+        "c. ±10 kt.",
+        "d. ±20 kt."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "What is the distance on final approach within which the controller should suggest that the aircraft executes a missed approach if the aircraft either is lost from the radar for a significant time, or the identity of the aircraft is in doubt?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1 NM.",
+        "b. 2 NM.",
+        "c. 3 NM.",
+        "d. 4 NM."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "What is the closest point to the threshold that a radar controller may request a speed change?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1 NM.",
+        "b. 2 NM.",
+        "c. 3 NM.",
+        "d. 4 NM."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "An aircraft in receipt of a radar service is told to \"resume own navigation\". What does this mean?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The pilot is responsible for own navigation.",
+        "b. Radar vectoring is terminated.",
+        "c. The pilot should contact next ATC unit.",
+        "d. The pilot should contact the current ATC unit."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "What is standard radar separation?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 NM.",
+        "b. 3 NM.",
+        "c. 10 NM.",
+        "d. 2.5 NM."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "By how much will a radar controller turn an aircraft to identify that aircraft on the radar?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 45°",
+        "b. 15°.",
+        "c. 30° or more.",
+        "d. a minimum of 25°."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "What is the acceptable tolerance for Mode 'C' altitude indication (not in RVSM airspace)?",
+      "question_type": "MCQ",
+      "options": [
+        "a. ±100 ft.",
+        "b. ± 150 ft.",
+        "c. ± 300 ft.",
+        "d. ± 200 ft."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "24",
+      "question": "When may the pilot operate the 'IDENT' switch on the transponder?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Only in controlled airspace.",
+        "b. When instructed by ATC.",
+        "c. Only in uncontrolled airspace.",
+        "d. Only when under radar control."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "25",
+      "question": "If you are given an instruction by ATC to steer heading 030, the heading is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. degrees true and must be corrected for wind.",
+        "b. degrees magnetic and must be corrected for wind.",
+        "c. degrees true no correction to be applied.",
+        "d. degrees magnetic no correction to be applied."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "26",
+      "question": "When would you squawk SSR mode C?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Only when directed by ATC.",
+        "b. Always.",
+        "c. Always in controlled airspace.",
+        "d. Only in controlled airspace."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "27",
+      "question": "If radar contact is lost during an approach, at what range from touchdown would ATC order a missed approach to be flown?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1 NM.",
+        "b. 2 NM.",
+        "c. 3 NM.",
+        "d. 4 NM."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "28",
+      "question": "When is an aircraft considered to have left the allocated flight level in the descent when referencing altitude to Mode C?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Once it has descended through 100 ft.",
+        "b. Once it has descended through 200 ft.",
+        "c. Once it has descended through 300 ft.",
+        "d. Once it has descended through 500 ft."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "29",
+      "question": "If you are intercepted by a military aircraft, what do you set on the SSR transponder?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A/2000 + C",
+        "b. A/7500 + C.",
+        "c. A/7600 + C.",
+        "d. A/7700 + C."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "30",
+      "question": "Aerodrome traffic is considered to be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. aircraft on the movement area and flying in the vicinity.",
+        "b. aircraft on the manoeuvring area and flying in the vicinity.",
+        "c. aircraft on the movement area only.",
+        "d. aircraft on the manoeuvring area only."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "31",
+      "question": "The criterion that determines the specific level occupied by an aircraft based on Mode C information (except where the appropriate ATC authority specifies a lesser criterion) is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. +/- 300 ft.",
+        "b. +/- 150 ft.",
+        "c. +/- 250 ft.",
+        "d. +/- 200 ft."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "32",
+      "question": "If approved by the authority within 40 NM of the radar transmitter, radar separation can be reduced to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 NM.",
+        "b. 4.5 NM.",
+        "c. 4 NM.",
+        "d. 3 NM."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "33",
+      "question": "How close to the boundary of a radar vectoring area can an aircraft be vectored?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2 NM.",
+        "b. 2.5 NM.",
+        "c. 5 NM.",
+        "d. 3 NM."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "34",
+      "question": "A radar controller can request an aircraft to change speed when it is on the intermediate and final approach phase, except in certain conditions specified by the proper ATS authority.\nThe speed change must not be more than:",
+      "question_type": "MCQ",
+      "options": [
+        "a. ±15 kt",
+        "b. ±8 kt",
+        "c. ±10 kt.",
+        "d. ±20 kt."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "35",
+      "question": "What does the ATC term \"radar contact\" mean?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The aircraft is identified and will receive separation from all aircraft while you are communicating with this radar facility.",
+        "b. ATC is receiving your transponder and will provide you with vectors and advice concerning traffic, until you are notified that contact is lost.",
+        "c. Your aircraft is seen and identified on the radar display and until further advised a service will be provided.",
+        "d. You will receive radar advisory concerning traffic until you are notified that the contact is lost or radar service is terminated."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "36",
+      "question": "The \"land after\" procedure may only be applied during:",
+      "question_type": "MCQ",
+      "options": [
+        "a. daylight hours.",
+        "b. night or day.",
+        "c. VMC.",
+        "d. IMC."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "37",
+      "question": "An aircraft making a radar approach must be told to make a missed approach, when no landing clearance has been received from the non-radar traffic controller, when the aircraft is at a distance of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 NM from the touchdown.",
+        "b. 1.5 NM from the touchdown.",
+        "c. 4 NM from the touchdown.",
+        "d. 2 NM from the touchdown."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "38",
+      "question": "A radar controller cannot ask a pilot to change speed if the aircraft is within:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 4 NM from the threshold on final approach.",
+        "b. 5 NM from the threshold on final approach.",
+        "c. 2 NM from the threshold on final approach.",
+        "d. 3 NM from the threshold on final approach."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "39",
+      "question": "When an aircraft's SSR transponder appears to be unserviceable prior to departure and repair is not possible:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the pilot must indicate the failure in the fight plan, after which ATC will approve the operation of the aircraft without SSR.",
+        "b. if required by ATC, departure to the nearest suitable airport where repair can be effected will be approved.",
+        "c. the pilot will not be allowed to commence the flight.",
+        "d. the flight can only continue in the most direct manner."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "40",
+      "question": "Using SSR, a method by which a radar controller may identify an aircraft is to ask the pilot to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. set a specific SSR Code.",
+        "b. switch from \"off\" to \"on\".",
+        "c. switch to \"off\".",
+        "d. switch to \"on\"."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    }
+  ]
+}
+

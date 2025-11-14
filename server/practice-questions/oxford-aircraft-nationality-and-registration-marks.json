@@ -1,0 +1,176 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "4",
+  "chapter_title": "Aircraft Nationality and Registration Marks",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What cannot be included in a registration mark?",
+      "question_type": "MCQ",
+      "options": [
+        "a. LLL",
+        "b. RCC",
+        "c. TTT",
+        "d. FFF"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "What letters are prohibited for registration marks?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 4 letter international codes.",
+        "b. 5 letter international codes.",
+        "c. 4 letter codes preceded by Q.",
+        "d. Any number referring to an ICAO document."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "Which of the following is not allowed in a registration mark?",
+      "question_type": "MCQ",
+      "options": [
+        "a. NNN",
+        "b. XXX",
+        "c. RCC",
+        "d. DDD"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "What registration is disallowed because of possible confusion with distress/ urgency signals?",
+      "question_type": "MCQ",
+      "options": [
+        "a. RCC",
+        "b. NNN",
+        "c. XXX",
+        "d. ZZZ"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Which of the following is not permitted in the registration mark of an aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Four letter Q codes.",
+        "b. Five letter international code signals.",
+        "c. Three letter international code signals.",
+        "d. Any number identifying an ICAO document."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "Concerning aircraft registration, no combination of letters can be used which can be confused with distress codes, for example:",
+      "question_type": "MCQ",
+      "options": [
+        "a. RCC",
+        "b. DDD",
+        "c. LLL",
+        "d. PAN"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "Which of the following registration marks would not be permitted?",
+      "question_type": "MCQ",
+      "options": [
+        "a. G-PRAT",
+        "b. SY-PAN",
+        "c. 3T-SSS",
+        "d. YT-LLL"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Concerning aircraft registration markings, no combinations can be used if they can be mistaken for:",
+      "question_type": "MCQ",
+      "options": [
+        "a. codes which are used for identification of ICAO documents.",
+        "b. letter combinations including the letter Q.",
+        "c. 3 letter combinations which are used by international code of signals.",
+        "d. 5 letter combinations which are used by international code of signals."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "According to Annex 7, the registration mark shall be letters, numbers or a combination of letters and numbers and shall be that assigned by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the State of Registry or Common Mark Registering Authority.",
+        "b. the State of Registry only.",
+        "c. the International Civil Aviation Organisation.",
+        "d. the International Telecommunication Union."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "The common mark shall be selected from the series of symbols included in the radio call signs allocated:",
+      "question_type": "MCQ",
+      "options": [
+        "a. to ICAO by the ITU.",
+        "b. to the State of Registry by ICAO.",
+        "c. to the State of Registry by the ITU.",
+        "d. to the State of the Operator."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "The height of the markings under the wings of a heavier than air aircraft shall be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. at least 30 cm.",
+        "b. at least 40 cm.",
+        "c. at least 50 cm.",
+        "d. more than 40 cm but not more than 50 cm."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "The height of the markings on the fuselage (or equivalent surface) and on the vertical tail surface of a heavier than air aircraft shall be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. at least 20 cm.",
+        "b. more than 20 cm but not more than 30 cm.",
+        "c. at least 30 cm.",
+        "d. at least 40 cm."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}
+

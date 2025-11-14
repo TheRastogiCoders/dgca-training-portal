@@ -1,0 +1,274 @@
+{
+  "book_name": "Radio Navigation 2014",
+  "chapter_number": "15",
+  "chapter_title": "Distance Measuring Equipment (DME)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Airborne DME equipment is able to discriminate between pulses intended for itself and pulses intended for other aircraft because:",
+      "question_type": "MCQ",
+      "options": [
+        "a. aircraft transmit and receive on different frequencies",
+        "b. aircraft will only accept unique twin pulses",
+        "c. aircraft reject pulses not synchronized with its own random pulse recurrence rate",
+        "d. each aircraft has its own frequency allocation"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "Each aircraft's DME equipment transmits pulses at a random rate (jittered PRF). The ground transponder replies to all interrogations, but the airborne receiver only accepts replies that are synchronized with its own random pulse recurrence rate, allowing it to distinguish its own replies from those intended for other aircraft."
+    },
+    {
+      "id": "2",
+      "question": "A DME beacon having a transmit frequency of 962 MHz would have a receive frequency of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1030 Mhz",
+        "b. 902 Mhz",
+        "c. 1025 Mhz",
+        "d. 962 Mhz"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "DME uses a frequency separation of 63 MHz. If the ground beacon transmits at 962 MHz, the aircraft interrogates at 1025 MHz (962 + 63). The beacon receives at 1025 MHz and replies at 962 MHz. So the beacon's receive frequency is 1025 MHz."
+    },
+    {
+      "id": "3",
+      "question": "A VOR/DME share the same first two letters of their respective identifiers; the last identifying letter of the DME is a Z. This means that:",
+      "question_type": "MCQ",
+      "options": [
+        "a. they are co-located",
+        "b. they are more than 600 m apart but serve the same location",
+        "c. they are widely separated and do not serve the same location",
+        "d. they are a maximum distance of 30 m apart"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "When a VOR and DME share the same first two letters of their identifiers and the DME's last letter is 'Z', it indicates they are associated (serve the same location) but are more than 600 m apart. If they were co-located, the DME would have the same three-letter identifier as the VOR."
+    },
+    {
+      "id": "4",
+      "question": "Distance Measuring Equipment is an example of ... radar operating on a frequency of ... in the ... band.",
+      "question_type": "MCQ",
+      "options": [
+        "a. primary 8800 MHz SHF",
+        "b. secondary 1030 MHz UHF",
+        "c. secondary 962 MHz UHF",
+        "d. primary 9375 MHz SHF"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "DME is a secondary radar system (requires a transponder response) operating in the UHF band. The frequencies used are in the range of 962-1213 MHz, which falls in the UHF band (300-3000 MHz)."
+    },
+    {
+      "id": "5",
+      "question": "A DME transponder does not respond to pulses received from radars other than DME because:",
+      "question_type": "MCQ",
+      "options": [
+        "a. each aircraft transmits pulses at a random rate",
+        "b. DME transmits and receives on different frequencies",
+        "c. it will only accept the unique twin DME pulses",
+        "d. DME only responds to the strongest 100 interrogators"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "DME transponders only respond to the unique twin pulse format used by DME interrogations. Other radar systems use different pulse formats, so the DME transponder ignores them and only responds to properly formatted DME twin pulse interrogations."
+    },
+    {
+      "id": "6",
+      "question": "The range indicated by DME is considered to be accurate to within:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3% of range",
+        "b. 1.25% of range",
+        "c. 0.5 NM",
+        "d. +/-0.25 NM +/-1.25% of range"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "DME range accuracy is ±0.25 NM or ±1.25% of the range, whichever is greater. This means the error increases with distance, but there is a minimum error of 0.25 NM even at close ranges."
+    },
+    {
+      "id": "7",
+      "question": "A DME receiver is able to distinguish between replies to its own interrogations and replies to other aircraft because:",
+      "question_type": "MCQ",
+      "options": [
+        "a. DME is secondary radar and each aircraft transmits and receives on a different frequency",
+        "b. DME transponders reply to interrogations with twin pulses and the airborne equipment ejects all other pulses",
+        "c. each aircraft transmits pulses at a random rate and will only accept synchronized replies",
+        "d. when DME is in the search mode it will only accept pulses giving the correct range"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "Each aircraft's DME equipment uses a random (jittered) pulse repetition rate. The ground transponder replies to all interrogations, but the airborne receiver only accepts replies that are synchronized with its own random pulse timing, allowing it to identify its own replies."
+    },
+    {
+      "id": "8",
+      "question": "When a DME transponder becomes saturated:",
+      "question_type": "MCQ",
+      "options": [
+        "a. it reverts to standby",
+        "b. it increases the number of pulse pairs to meet the demand",
+        "c. it increases the receiver threshold to remove weaker signals",
+        "d. it goes into a selective response mode of operation"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "When a DME transponder becomes saturated (receiving too many interrogations), it increases the receiver threshold to remove weaker signals. This allows it to respond only to the strongest interrogations, typically from the nearest aircraft, preventing overload."
+    },
+    {
+      "id": "9",
+      "question": "An aircraft flying at FL250 wishes to interrogate a DME beacon situated 400 ft AMSL. What is the maximum range likely to be achieved?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 210 NM",
+        "b. 198 NM",
+        "c. 175 NM",
+        "d. 222 NM"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "For line-of-sight UHF: range = 1.23 × (√h₁ + √h₂). FL250 = 25,000 ft, h₂ = 400 ft. Range = 1.23 × (√25000 + √400) = 1.23 × (158.1 + 20) = 1.23 × 178.1 ≈ 219 NM. The closest answer is 222 NM."
+    },
+    {
+      "id": "10",
+      "question": "For a DME and a VOR to be said to be associated it is necessary for:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the DME to transmit on the same VHF frequency as the VOR",
+        "b. the aerial separation not to exceed 100 ft in a TMA or 2000 ft outside a TMA",
+        "c. the aerial separation not to exceed 100 m in a TMA or 2000 m outside a TMA",
+        "d. both beacons to have the same first two letters for their ident but the last letter of the DME to be a 'Z'"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "For a DME and VOR to be associated, the aerial separation must not exceed 100 ft in a Terminal Maneuvering Area (TMA) or 2000 ft outside a TMA. This ensures they serve the same location for navigation purposes."
+    },
+    {
+      "id": "11",
+      "question": "The transmission frequency of a DME beacon is 63 MHz removed from the aircraft interrogator frequency to prevent:",
+      "question_type": "MCQ",
+      "options": [
+        "a. interference from other radars",
+        "b. the airborne receiver locking on to primary returns from its own transmissions",
+        "c. static interference",
+        "d. receiver accepting replies intended for other interrogators"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The 63 MHz frequency separation between the aircraft's interrogation frequency and the ground beacon's reply frequency prevents the airborne receiver from locking onto primary returns (direct reflections) from its own transmissions, ensuring it only receives transponder replies."
+    },
+    {
+      "id": "12",
+      "question": "The accuracy associated with DME is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. + or - 3% of range, or 0.5 NM, whichever is greater",
+        "b. + or 1.25% of range",
+        "c. + or - 3% of range",
+        "d. +/-0.25 NM +/-1.25% of range"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "DME accuracy is ±0.25 NM or ±1.25% of the range, whichever is greater. This specification ensures accuracy improves with distance but maintains a minimum accuracy standard."
+    },
+    {
+      "id": "13",
+      "question": "For a VOR and a DME beacon to be said to be associated the aerial separation must not exceed ... in a terminal area and ... outside a terminal area.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 100 m 2000 m",
+        "b. 50 ft 200 ft",
+        "c. 30 m 600 m",
+        "d. 50 m 200 m"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "For a VOR and DME to be associated, the aerial separation must not exceed 30 m (approximately 100 ft) in a terminal area and 600 m (approximately 2000 ft) outside a terminal area. This ensures they serve the same location."
+    },
+    {
+      "id": "14",
+      "question": "DME is a ... radar operating in the ............ band and uses ... in order to obtain range information. The correct words to complete the above statement are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. primary SHF CW signals",
+        "b. secondary UHF twin pulses",
+        "c. secondary SHF \"jittered pulses\"",
+        "d. primary UHF pulse pairs"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "DME is a secondary radar (requires transponder) operating in the UHF band and uses twin pulses (pulse pairs) to obtain range information. The twin pulse format helps identify valid DME signals."
+    },
+    {
+      "id": "15",
+      "question": "The receiver of airborne DME equipment is able to \"lock on\" to its own \"reply pulses\" because:",
+      "question_type": "MCQ",
+      "options": [
+        "a. each aircraft has its own unique transmitter frequency and the receiver only accepts reply pulses having this frequency",
+        "b. the reply pulses from the ground transmitter have the same frequency as the incoming interrogation pulses from the aircraft",
+        "c. the aircraft receiver only accepts reply pulses which have the same time interval between successive pulses as the pulses being transmitted by its own transmitter",
+        "d. the aircraft receiver only accepts reply pulses which arrive at a constant time interval"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "The aircraft receiver locks onto its own reply pulses by matching the time interval between successive pulses. Each aircraft uses a random (jittered) pulse repetition rate, and the receiver only accepts replies synchronized with its own transmission timing."
+    },
+    {
+      "id": "16",
+      "question": "DME operates in the ... frequency band, it transmits ... which give it the emission designator of ...",
+      "question_type": "MCQ",
+      "options": [
+        "a. SHF double size pulses P01",
+        "b. UHF twin pulses PON",
+        "c. EHF twin pulses A9F",
+        "d. UHF double pulses J3E"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "DME operates in the UHF frequency band, transmits twin pulses (pulse pairs), which gives it the emission designator PON (P = pulse modulation, O = no modulation, N = no information)."
+    },
+    {
+      "id": "17",
+      "question": "Referring to DME during the initial stage of the \"search\" pattern before \"lock-on\":",
+      "question_type": "MCQ",
+      "options": [
+        "a. the airborne receiver checks 150 pulses each second",
+        "b. the airborne transmitter transmits 150 pulses each second",
+        "c. the ground receiver maintains the ground transmitter pulse transmission rate at no more than 150 per second",
+        "d. the aircraft transmits 24 pulses per second and the receiver checks a maximum of 150 pulses per second"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "During the search mode before lock-on, the airborne DME transmitter transmits at a high rate of 150 pulses per second to quickly establish communication with the ground transponder. Once locked on, the rate reduces to approximately 24-30 pulses per second."
+    },
+    {
+      "id": "18",
+      "question": "DME and VOR are \"frequency paired\" because:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the same receiver can be used for both aids",
+        "b. the VOR transmitter is easily converted to the required DME frequency",
+        "c. cockpit workload is reduced",
+        "d. both ground transmitter aerials can be placed on the same site if required"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "DME and VOR are frequency paired (each VOR frequency has a corresponding DME channel) primarily to reduce cockpit workload. When a pilot tunes to a VOR frequency, the DME automatically tunes to the paired DME channel, eliminating the need for separate tuning."
+    },
+    {
+      "id": "19",
+      "question": "A DME receiver is able to distinguish between replies to its own interrogation pulses and those intended for other aircraft using the same transponder because:",
+      "question_type": "MCQ",
+      "options": [
+        "a. DME is a secondary radar and each aircraft transmits and receives on a different frequency",
+        "b. DME transponders reply to interrogations by means of twin pulses and the airborne equipment rejects all single pulses",
+        "c. each aircraft transmits pulses at a random rate(\"jittering\") and will only accept replies that match this randomization",
+        "d. when DME is in the range search mode it will accept only pulses separated by + or - 63 MHz from the interrogation frequency"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "Each aircraft's DME equipment uses a random (jittered) pulse repetition rate. The ground transponder replies to all interrogations, but each aircraft's receiver only accepts replies that are synchronized with its own random pulse timing, allowing it to distinguish its own replies from those intended for other aircraft."
+    }
+  ]
+}
+

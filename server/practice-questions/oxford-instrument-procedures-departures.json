@@ -1,0 +1,190 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "7",
+  "chapter_title": "Instrument Procedures - Departures",
+  "questions": [
+    {
+      "id": "1",
+      "question": "During a straight departure, the initial track is to be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. within 5° of runway centre line.",
+        "b. within 10° of runway centre line.",
+        "c. within 15° of runway centre line.",
+        "d. within 25° of runway centre line."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "In an instrument departure procedure the minimum obstacle clearance at DER is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 0 ft.",
+        "b. 3.3% gradient.",
+        "c. 35 ft.",
+        "d. 0.8% gradient."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "Turning departures provide track guidance within what distance of the completion of turns?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 15 km.",
+        "b. 20 km.",
+        "c. 10 km.",
+        "d. 5 km."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "The MSA provides 300 m obstacle clearance within how many miles radius of the navigation facility at the aerodrome?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 20 NM.",
+        "b. 30 NM.",
+        "c. 25 NM.",
+        "d. 15 NM."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "What does the abbreviation DER stand for?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Distance to end of route.",
+        "b. Departure end of route.",
+        "c. Distance to end of runway.",
+        "d. Departure end of runway."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "What does the abbreviation OIS stand for?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Obstacle identification surface.",
+        "b. Obstacles in surface.",
+        "c. Obstacle identification slope.",
+        "d. Obstruction identification surface."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "The MSA which must be established around a navigation facility used in instrument procedures is in general valid within a sector of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 15 NM.",
+        "b. 30 NM.",
+        "c. 25 NM.",
+        "d. 10 NM."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "In a straight departure, what is the alignment of the initial track referenced to the runway centre line?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Within 45°.",
+        "b. Within 12.5°",
+        "c. Within 15°",
+        "d. Within 30°"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "In general, what is the main factor that dictates the design of an instrument procedure?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The terrain surrounding the aerodrome.",
+        "b. The availability of navigation aids.",
+        "c. Airspace restrictions.",
+        "d. ATC requirements."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "When following a SID, the pilot must:",
+      "question_type": "MCQ",
+      "options": [
+        "a. calculate the track required and request ATC clearance to follow it.",
+        "b. fly the heading without wind correction.",
+        "c. adjust the track specified to allow for the wind.",
+        "d. fly the heading to make good the required track allowing for the wind."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "For an omni-directional departure, the procedure dictates that the aircraft climbs on the extended centre line to a specified height before turning.\nWhat is this height?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 300 m.",
+        "b. 120 m.",
+        "c. 150 m.",
+        "d. 250 m."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "If the track on an instrument departure is published, the pilot is expected to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. correct for the known wind so as to stay within controlled airspace.",
+        "b. ask ATC for another heading to steer correcting for wind.",
+        "c. ignore the wind and proceed with a heading equal to the track.",
+        "d. ask ATC for permission to correct heading for wind."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "What is the value of PDG?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5%",
+        "b. 3.3°",
+        "c. 3.3%",
+        "d. 2.5%"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}
+

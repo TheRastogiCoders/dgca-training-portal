@@ -1,0 +1,176 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "22",
+  "chapter_title": "Obstacle Marking and Aerodrome Services",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the colour of a low intensity obstacle light?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Blue.",
+        "b. Steady red.",
+        "c. Yellow.",
+        "d. Flashing red."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "Low intensity obstruction lights on fixed objects and slow moving objects are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. flashing green.",
+        "b. flashing yellow.",
+        "c. steady red.",
+        "d. steady blue."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "Medium intensity obstacle lighting will normally consist of flashing red lights except that they may be flashing white when used:",
+      "question_type": "MCQ",
+      "options": [
+        "a. in conjunction with high intensity obstacle lighting.",
+        "b. in conjunction with low intensity obstacle lighting.",
+        "c. in conjunction with runway obstacle lighting.",
+        "d. in conjunction with the approach path obstacle lighting."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "OIS stands for:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Obstacle Interference Slope.",
+        "b. Obstacle Identification Surface.",
+        "c. Obstacle Inner Surface.",
+        "d. Obstacle Identification Slope."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "What colour lights are vehicles moving routinely on the aerodrome required to show?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Flashing yellow.",
+        "b. Flashing red.",
+        "c. Flashing blue.",
+        "d. Steady red."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "What colour are emergency vehicles painted that are used on the manoeuvring area of an aerodrome?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Green.",
+        "b. Dayglo orange.",
+        "c. A single conspicuous colour, preferably red or yellowish green.",
+        "d. White and red chequered."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "An en route obstacle is located:",
+      "question_type": "MCQ",
+      "options": [
+        "a. within 15 km radius of an aerodrome.",
+        "b. outside 5 NM from the boundary of any controlled airspace.",
+        "c. beyond 15 km radius of an aerodrome.",
+        "d. in any location that might be encountered during the cruise phase of a flight."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "An object of limited mobility (an air bridge for example) is lit by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. low intensity steady red lights.",
+        "b. low intensity flashing red lights.",
+        "c. medium intensity steady red lights.",
+        "d. medium intensity flashing red lights."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "Must an aerodrome fire station be located within the confines of an aerodrome?",
+      "question_type": "MCQ",
+      "options": [
+        "a. No, providing the response time can be met.",
+        "b. Yes.",
+        "c. No.",
+        "d. No, providing it is within 3 minutes driving time of the aerodrome."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "The level of rescue and fire fighting (RFF) facilities is dependent upon the category of the aerodrome.\nWhat factors determine this category?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The length of the longest runway and the area to be covered.",
+        "b. Aeroplane reference field length, wing span and outer main gear wheel span of the largest aircraft using that aerodrome.",
+        "c. The overall length and the fuselage width of the longest aircraft normally using that aerodrome.",
+        "d. The length of the longest runway and total area of hard standings (including access roads)."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "The aerodrome category for RFF is based on:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the overall length of the longest aeroplane.",
+        "b. the longest aeroplane maximum width only.",
+        "c. the overall length of the longest aeroplane normally using the aerodrome and its maximum fuselage width.",
+        "d. the overall length of the longest aeroplane normally using the aerodrome and its maximum fuselage weight.."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "High intensity obstacle lights should be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. flashing white.",
+        "b. flashing red.",
+        "c. fixed red.",
+        "d. fixed orange."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    }
+  ]
+}
+

@@ -1,0 +1,162 @@
+{
+  "book_name": "Radio Navigation 2014",
+  "chapter_number": "13",
+  "chapter_title": "Airborne Weather Radar",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A frequency used by airborne weather radar is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 8800 MHz",
+        "b. 9.375 GHz",
+        "c. 93.75 GHz",
+        "d. 1213 MHz"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "Airborne weather radar operates at 9.375 GHz (9375 MHz) in the X-band. This frequency is ideal for detecting precipitation because water droplets are good reflectors at this wavelength."
+    },
+    {
+      "id": "2",
+      "question": "An airborne weather radar is required to detect targets up to a maximum range of 200 NM. Ignoring pulse length and flyback in the CRT calculate the maximum PRR.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 405 pps",
+        "b. 810 pps",
+        "c. 1500 pps",
+        "d. 750 pps"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Maximum range = c / (2 × PRF). Rearranging: PRF = c / (2 × range). With range = 200 NM = 370.4 km = 370,400 m: PRF = (3 × 10⁸) / (2 × 370,400) = 405 pps."
+    },
+    {
+      "id": "3",
+      "question": "Using airborne weather radar the weather beam should be used in preference to the fan-shaped beam for mapping in excess of ... NM:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 20 to 25",
+        "b. 60 to 70",
+        "c. 100 to 150",
+        "d. 150 to 200"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The weather beam (pencil beam) should be used in preference to the fan-shaped (cosecant²) beam for mapping at ranges in excess of 60-70 NM. The pencil beam provides better resolution and more accurate returns at longer ranges."
+    },
+    {
+      "id": "4",
+      "question": "Airborne Weather Radar is an example of ....... radar operating on a frequency of ....... in the ... band.",
+      "question_type": "MCQ",
+      "options": [
+        "a. primary 8800 MHz SHF",
+        "b. secondary 9.375 MHz UHF",
+        "c. secondary 9375 MHz SHF",
+        "d. primary 9375 MHz SHF"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Airborne Weather Radar is a primary radar (it transmits and receives its own signals, not transponder responses) operating at 9375 MHz (9.375 GHz) in the SHF (Super High Frequency) band."
+    },
+    {
+      "id": "5",
+      "question": "The correct sequence of colours of a colour Airborne Weather Radar as returns get stronger is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. red yellow green",
+        "b. yellow green red",
+        "c. green yellow red",
+        "d. red green yellow"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "On a color airborne weather radar display, the sequence as returns get stronger (indicating heavier precipitation) is: green (light), yellow (moderate), red (heavy/severe). This color coding helps pilots identify weather intensity."
+    },
+    {
+      "id": "6",
+      "question": "A false indication of water may be given by the AWR display when:",
+      "question_type": "MCQ",
+      "options": [
+        "a. flying over land with the Land/Sea switch in the Sea position",
+        "b. flying over mountainous terrain",
+        "c. there is cloud and precipitation between the aircraft and a cloud target",
+        "d. attempting to use the mapping beam for mapping in excess of 50 NM"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "Flying over mountainous terrain can cause false water indications on the AWR display because mountains can reflect radar signals strongly, appearing similar to water returns. The Land/Sea switch helps compensate for different surface reflectivity."
+    },
+    {
+      "id": "7",
+      "question": "Airborne weather radar operates on a frequency of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 8800 MHz because gives the best returns from all types of precipitation",
+        "b. 13 300 MHz",
+        "c. 9375 MHz because it gives the best returns from rainfall associated with Cb",
+        "d. 9.375 GHz because this frequency is best for detecting aircraft in flight"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "Airborne weather radar operates at 9375 MHz (9.375 GHz) because this frequency provides the best returns from rainfall associated with cumulonimbus (Cb) clouds, which contain the largest water droplets and are the most hazardous weather for aircraft."
+    },
+    {
+      "id": "8",
+      "question": "The mapping mode of Airborne Weather Radar utilizes:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a pencil/weather beam from 70 NM to 150 NM",
+        "b. a cosecant²/fan-shaped beam which is effective to 150 NM",
+        "c. a pencil/weather beam with a maximum range of 70 NM",
+        "d. a cosecant²/fan-shaped beam effective 50 NM to 70 NM"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The mapping mode of airborne weather radar uses a pencil/weather beam for ranges from 70 NM to 150 NM. This provides better resolution and more accurate ground mapping at longer ranges compared to the fan-shaped beam."
+    },
+    {
+      "id": "9",
+      "question": "An Airborne Weather Radar system uses a frequency of 9 GHz because:",
+      "question_type": "MCQ",
+      "options": [
+        "a. it has a short wavelength so producing higher frequency returns",
+        "b. the short wavelength allows signals to be reflected from cloud water droplets of all sizes",
+        "c. the wavelength is such that reflections are obtained only from the larger water droplets",
+        "d. the frequency penetrates clouds quite easily enabling good mapping of ground features in the mapping mode"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "At 9 GHz (wavelength ≈ 3.3 cm), the wavelength is such that reflections are obtained primarily from larger water droplets in precipitation. Smaller cloud droplets don't reflect well at this frequency, which helps distinguish between harmless clouds and hazardous precipitation."
+    },
+    {
+      "id": "10",
+      "question": "The antenna of an Airborne Weather Radar is stabilized:",
+      "question_type": "MCQ",
+      "options": [
+        "a. in pitch, roll and yaw",
+        "b. in pitch and roll",
+        "c. in pitch and roll whether the stabilization is on or off",
+        "d. in pitch and roll but only when 0° tilt has been selected"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The antenna of an airborne weather radar is stabilized in pitch and roll to maintain a constant pointing angle relative to the horizon, regardless of aircraft attitude. This ensures accurate weather detection and ground mapping."
+    },
+    {
+      "id": "11",
+      "question": "The colours used to denote variations in rainfall rate on an Airborne Weather Radar screen are ....... for very light or no returns, ....... for light returns, ....... for medium returns and ....... for strong returns.",
+      "question_type": "MCQ",
+      "options": [
+        "a. black yellow green magenta",
+        "b. black green yellow magenta",
+        "c. grey green yellow red",
+        "d. black green yellow red"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "The standard color coding on an airborne weather radar display is: black (very light or no returns), green (light precipitation), yellow (moderate precipitation), and red (strong/heavy precipitation). Some systems may also use magenta for extreme returns."
+    }
+  ]
+}
+

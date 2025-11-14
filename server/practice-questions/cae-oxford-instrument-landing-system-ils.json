@@ -1,0 +1,204 @@
+{
+  "book_name": "Radio Navigation 2014",
+  "chapter_number": "9",
+  "chapter_title": "Instrument Landing System (ILS)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The coverage of an ILS localizer extends to ... either side of the on-course line out to a range of ... NM.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10° 35",
+        "b. 35° 10",
+        "c. 35°, 17",
+        "d. 25° 25"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "The ILS localizer provides coverage of ±35° either side of the on-course line out to a range of 17 NM. This wide coverage allows aircraft to intercept the localizer from various approach angles."
+    },
+    {
+      "id": "2",
+      "question": "The upper and lower limits of an ILS glide path transmitter having a 3.5° glide slope are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 6.125° - 1.575°",
+        "b. 7.700° - 1.225°",
+        "c. 5.250° - 1.350°",
+        "d. 3.850° - 3.150°"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "For a 3.5° glide slope, the upper limit is 1.75 × 3.5° = 6.125° and the lower limit is 0.45 × 3.5° = 1.575°. These limits define the usable coverage of the glide path signal."
+    },
+    {
+      "id": "3",
+      "question": "The minimum angle at which a false glide path is likely to be encountered on a 3° glide path is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 6 degrees",
+        "b. 5.35 degrees",
+        "c. normal glide slope times 1.75",
+        "d. normal glide slope times 0.70"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "False glide paths occur at angles that are multiples of the true glide path. The first false glide path typically occurs at approximately twice the true glide path angle. For a 3° glide path, this is approximately 6°."
+    },
+    {
+      "id": "4",
+      "question": "The visual and aural indications obtained when overflying an ILS middle marker are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. continuous low pitched dashes with synchronized blue light",
+        "b. continuous high pitched dots with synchronized amber light",
+        "c. alternating medium pitch dots and dashes with amber light",
+        "d. one letter in Morse with synchronized white light"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "The ILS middle marker provides alternating medium pitch dots and dashes (Morse code for the letter 'M') with a synchronized amber light. This indicates the aircraft is approximately 3,500 feet from the runway threshold."
+    },
+    {
+      "id": "5",
+      "question": "An aircraft carrying out an ILS approach is receiving stronger 150 Hz signals than 90 Hz signals. The correct actions to be taken to place the aircraft on the centre line and on the glide path are to fly:",
+      "question_type": "MCQ",
+      "options": [
+        "a. DOWN and LEFT",
+        "b. UP and LEFT",
+        "c. UP and RIGHT",
+        "d. DOWN and RIGHT"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "Stronger 150 Hz than 90 Hz on the localizer means the aircraft is to the right of centerline (fly LEFT). On the glide slope, stronger 150 Hz means the aircraft is below the glide path (fly UP). Therefore, fly UP and LEFT."
+    },
+    {
+      "id": "6",
+      "question": "In elevation the upper and lower limits of an ILS glide path transmitter having a 3.0 degree glide slope are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 0.35° 0.70°",
+        "b. 3.00° at least 6°",
+        "c. 5.25° 1.35°",
+        "d. 10.0° 35.0°"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "For a 3.0° glide slope, the upper limit is 1.75 × 3.0° = 5.25° and the lower limit is 0.45 × 3.0° = 1.35°. These define the usable coverage of the glide path signal."
+    },
+    {
+      "id": "7",
+      "question": "A category II ILS installation encountered in the UK:",
+      "question_type": "MCQ",
+      "options": [
+        "a. provides accurate guidance down to 50' above the horizontal plane containing the runway threshold",
+        "b. has a false glide path that is exactly twice the true glide path angle",
+        "c. has a steep glide path, normally 7.5°",
+        "d. provides accurate guidance down to the runway and along the runway after landing"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Category II ILS provides precision approach guidance with decision heights as low as 50 feet above the runway threshold. It requires more stringent equipment and maintenance standards than Category I."
+    },
+    {
+      "id": "8",
+      "question": "Which of these ILS indicators shows an aircraft on final approach left of the centre line and at maximum safe deviation below the glide path?",
+      "question_type": "MCQ",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "This question requires visual analysis of ILS indicator displays. Left of centerline means the localizer needle points right. Below glide path means the glide slope needle points up. Maximum safe deviation would show full deflection."
+    },
+    {
+      "id": "9",
+      "question": "An aircraft tracking to intercept the ILS localizer inbound on the approach side but outside the published coverage angle:",
+      "question_type": "MCQ",
+      "options": [
+        "a. will receive false on-course or reverse sense signals",
+        "b. will not normally receive signals",
+        "c. will receive signals without coding",
+        "d. can expect signals to give correct indications"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Outside the published coverage angle (±35°), the localizer signal may provide false on-course indications or reverse sense (needle deflections opposite to actual position). This is why intercepting within the coverage sector is critical."
+    },
+    {
+      "id": "10",
+      "question": "The outer marker of an ILS installation has a visual identification of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. alternating dots and dashes on a blue light",
+        "b. continuous dots at a rate of 3 per second, blue light",
+        "c. continuous dashes at a rate of 2 per second, amber light",
+        "d. continuous dashes at a rate of 2 per second, blue light"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "The outer marker provides continuous dashes (Morse code for the letter 'O') at a rate of 2 per second with a synchronized blue light. It indicates the aircraft is approximately 4-7 NM from the runway threshold."
+    },
+    {
+      "id": "11",
+      "question": "The specified maximum safe fly up indication on a 5 dot CDI is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. half full scale needle deflection above the centre line",
+        "b. 2.5 dots fly up",
+        "c. just before full scale deflection",
+        "d. 1.3 dots fly up"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "On a 5-dot CDI (Course Deviation Indicator), the maximum safe fly up indication is 2.5 dots. Beyond this, the aircraft is outside the safe glide path envelope and should execute a missed approach."
+    },
+    {
+      "id": "12",
+      "question": "An aircraft is attempting to use an ILS approach outside the coverage sectors of an ICAO standard system:",
+      "question_type": "MCQ",
+      "options": [
+        "a. from the glide slope needle the captain may be receiving false course and reverse sense indications and from the localizer needle intermittent and incorrect indications",
+        "b. the aircraft's receiver is not detecting any transmissions and the ILS needle OFF flags are visible",
+        "c. from the localizer needle the captain may be receiving false course and intermittent indications and from the glide slope needle reverse sense and incorrect indications",
+        "d. from the localizer needle the captain may be receiving false course and reverse sense indications and from the glide slope needle intermittent and incorrect indications"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Outside the coverage sectors, the localizer may provide false course and reverse sense indications, while the glide slope may provide intermittent and incorrect indications. This is why staying within published coverage is essential."
+    },
+    {
+      "id": "13",
+      "question": "The coverage of the ILS glide slope in azimuth is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. ±8° out to 10 NM",
+        "b. ±10° out to 8 NM",
+        "c. ±12° out to 17 NM",
+        "d. ±35° out to 25 NM"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The ILS glide slope provides coverage of ±8° in azimuth (left and right of the centerline) out to a range of 10 NM. This is narrower than the localizer coverage to ensure precision vertical guidance."
+    },
+    {
+      "id": "14",
+      "question": "An aircraft's Instrument Landing System glide slope and localizer receivers are receiving predominant 90 Hz modulated signals. If the aircraft is within the coverage of the ILS, QDM of 264°, it is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. north of the localizer and below the glide slope",
+        "b. south of the localizer and above the glide slope",
+        "c. north of the localizer and above the glide slope",
+        "d. south of the localizer and below the glide slope"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "Predominant 90 Hz on the localizer means the aircraft is to the left (south) of centerline. Predominant 90 Hz on the glide slope means the aircraft is above the glide path. Therefore, the aircraft is south of the localizer and above the glide slope."
+    }
+  ]
+}
+

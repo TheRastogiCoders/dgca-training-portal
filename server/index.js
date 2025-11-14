@@ -167,8 +167,16 @@ app.get('/api/practice-questions/:book', (req, res) => {
     if (chapter) {
       filePath = path.join(__dirname, 'practice-questions', `${book}-${chapter}.json`);
       console.log(`[API] Loading chapter file: ${book}-${chapter}.json`);
+      console.log(`[API] Full file path: ${filePath}`);
+      console.log(`[API] File exists: ${fs.existsSync(filePath)}`);
       if (!fs.existsSync(filePath)) {
         console.log(`[API] File not found: ${filePath}`);
+        // List available files for debugging
+        const practiceQuestionsDir = path.join(__dirname, 'practice-questions');
+        if (fs.existsSync(practiceQuestionsDir)) {
+          const files = fs.readdirSync(practiceQuestionsDir).filter(f => f.includes(book));
+          console.log(`[API] Available files for book "${book}":`, files);
+        }
         // Return an empty set rather than 404 so frontend can show "no questions" state
         return res.json({ chapter, questions: [] });
       }

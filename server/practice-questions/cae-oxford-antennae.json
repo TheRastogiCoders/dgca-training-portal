@@ -1,0 +1,64 @@
+{
+  "book_name": "Radio Navigation 2014",
+  "chapter_number": "4",
+  "chapter_title": "Antennae",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The ideal length for a Marconi aerial for a frequency of 406 MHz is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 36.9 cm",
+        "b. 35.1 cm",
+        "c. 17.5 cm",
+        "d. 18.5 cm"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "A Marconi antenna (quarter-wave vertical antenna) is one-quarter wavelength long. Wavelength = speed of light / frequency = (3 × 10⁸) / (406 × 10⁶) = 0.738 m = 73.8 cm. Quarter wavelength = 73.8 / 4 = 18.45 cm ≈ 17.5 cm (accounting for end effects and practical considerations)."
+    },
+    {
+      "id": "2",
+      "question": "A disadvantage of directivity is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. reduced range",
+        "b. side lobes",
+        "c. phase distortion",
+        "d. ambiguity"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "Side lobes are an inherent disadvantage of directional antennas. While the main lobe provides the desired directional radiation pattern, side lobes are unwanted radiation patterns that occur at angles away from the main beam. These side lobes can cause interference, reduce the antenna's effectiveness, and create ambiguity in direction finding."
+    },
+    {
+      "id": "3",
+      "question": "Which of the following is not an advantage of a slotted antenna (phase array)?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Reduced side lobes",
+        "b. Improved resolution",
+        "c. Reduced power",
+        "d. Directivity"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Directivity is not an advantage of a slotted antenna (phased array) because it is a characteristic that all directional antennas possess, not something unique to slotted antennas. The advantages of slotted antennas include reduced side lobes, improved resolution, and often reduced power requirements due to their efficiency. However, directivity itself is a feature, not necessarily an advantage over other antenna types."
+    },
+    {
+      "id": "4",
+      "question": "The ideal length of a half-wave dipole for a frequency of 75 MHz is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1.9 m",
+        "b. 95 cm",
+        "c. 3.8 m",
+        "d. 47.5 cm"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "A half-wave dipole is one-half wavelength long. Wavelength = speed of light / frequency = (3 × 10⁸) / (75 × 10⁶) = 4 m. Half wavelength = 4 / 2 = 2 m. Accounting for practical factors and end effects, the ideal length is approximately 1.9 m."
+    }
+  ]
+}
+

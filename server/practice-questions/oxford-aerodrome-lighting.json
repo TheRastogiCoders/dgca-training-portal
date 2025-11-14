@@ -1,0 +1,358 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "21",
+  "chapter_title": "Aerodrome Lighting",
+  "questions": [
+    {
+      "id": "1",
+      "question": "How many bars are there on a full Calvert approach light system?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5",
+        "b. 4",
+        "c. 3",
+        "d. 2"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "What length should the approach lighting system for a CAT I Calvert design be?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 900 m",
+        "b. 600 m",
+        "c. 1200 m",
+        "d. 400 m"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "What colour are runway end lights?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Unidirectional red",
+        "b. Unidirectional white",
+        "c. Omni-directional red",
+        "d. Omni-directional white"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "What is the colour of threshold lighting?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Omni-directional green",
+        "b. Unidirectional green, showing in the direction of the approach",
+        "c. Unidirectional white, showing in the direction of the approach",
+        "d. Red unidirectional"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "On a Cat I lighting system, what is the length of the single, double and treble light segments on the centre line of the approach lighting system?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 150 m",
+        "b. 200 m",
+        "c. 250 m",
+        "d. 300 m"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "What colour lights are runway edge lights, not including cautionary areas or pre-displaced thresholds?",
+      "question_type": "MCQ",
+      "options": [
+        "a. White or yellow",
+        "b. White",
+        "c. Red",
+        "d. Blue"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "An aerodrome identification beacon on a land based aerodrome is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. blue",
+        "b. white",
+        "c. green",
+        "d. red"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "What colour is an aerodrome beacon for a land aerodrome?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Flashing green",
+        "b. Flashing green and white",
+        "c. Steady green",
+        "d. Flashing red"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "What is the colour of threshold lights?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Steady white",
+        "b. Flashing white",
+        "c. Steady green",
+        "d. Flashing green"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "What is the length of the approach lighting for a CAT I system?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 300 m",
+        "b. 600 m",
+        "c. 900 m",
+        "d. 1200 m"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "What is a barrette?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3 or more single lights close together which appear at a distance to be a short bar",
+        "b. Frangible approach lights",
+        "c. Lead-in lights",
+        "d. Frangible lights"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "When the lights of an aerodrome are required to be on (night-time etc.) they can only be switched off providing it is possible to switch them on:",
+      "question_type": "MCQ",
+      "options": [
+        "a. not more than 1 hour before the ETA of an arriving flight",
+        "b. not more than 30 minutes before the ETA of an arriving flight",
+        "c. not more than 5 minutes before the ETA of an arriving flight",
+        "d. not more than 15 minutes before the ETA of an arriving flight"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Taxiway edge lights are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. fixed showing blue",
+        "b. fixed showing green",
+        "c. fixed showing yellow",
+        "d. flashing showing blue"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "A precision approach Category I lighting system, the centre line and the barrette lights have to be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. flashing green lights for which the intensity of the light is adjustable",
+        "b. fixed white lights for which the intensity of the light is adjustable",
+        "c. flashing white lights for which the intensity of the light is adjustable",
+        "d. fixed green lights for which the intensity of the light is adjustable"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "What defines a Calvert type runway approach lighting system?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3 crossbars with 3 lighting segments providing centre line lighting",
+        "b. 3 crossbars with 2 lighting segments providing centre line lighting",
+        "c. 5 crossbars with 2 lighting segments providing centre line lighting",
+        "d. 5 crossbars with 3 lighting segments providing centre line lighting"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "On the PAPI system the pilot can see, during the approach, two white lights furthest from the runway and two red lights closest to the runway.\nThe aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. under the approach glide path",
+        "b. above the approach glide path",
+        "c. precisely on the glide path",
+        "d. on or close to the approach glide path"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "The abbreviation \"PAPI\" stands for:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Precision Approach Path Index",
+        "b. Precision Approach Power Indicator",
+        "c. Precision Approach Path Indicator",
+        "d. Precision Approach Power Index"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "What is the light indication of a land-based aerodrome beacon?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Green alternating with white flashes or white flashes only",
+        "b. White flashes only",
+        "c. Green flashes only",
+        "d. Same as an Aerodrome Identity Beacon"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "Runway guard lights are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. flashing red",
+        "b. flashing yellow",
+        "c. flashing green",
+        "d. steady red"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "What are the characteristics of runway threshold identification lights?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Unidirectional flashing green",
+        "b. Omni-directional flashing alternate green and red",
+        "c. Unidirectional flashing white",
+        "d. Omni-directional flashing white"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "A VASI consists of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2 sets of 3 lights",
+        "b. 3 sets of 3 lights",
+        "c. 3 sets of 2 lights",
+        "d. 2 sets of 2 lights"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "What are the characteristics of intermediate holding position lights?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 fixed unidirectional lights showing yellow",
+        "b. 3 fixed unidirectional lights showing yellow",
+        "c. Continuous fixed unidirectional lights showing yellow",
+        "d. 5 fixed unidirectional lights showing yellow and green"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "What are the characteristics of runway lead-in lights?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Groups of at least 3 flashing red lights which flash in sequence towards the runway",
+        "b. Groups of at least 5 flashing red lights which flash in sequence towards the runway",
+        "c. Groups of at least 3 flashing white lights which flash in sequence towards the runway",
+        "d. Groups of at least 5 flashing green lights which flash in sequence towards the runway"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "24",
+      "question": "What are the characteristics of circling guidance lights?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Fixed or flashing red",
+        "b. Fixed or flashing white",
+        "c. Fixed or flashing green",
+        "d. Fixed or flashing blue"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "25",
+      "question": "What are the characteristics of runway touchdown zone lights?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Fixed variable unidirectional showing alternating white and red",
+        "b. Flashing variable unidirectional showing green",
+        "c. Fixed variable unidirectional showing red",
+        "d. Fixed variable unidirectional showing white"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    }
+  ]
+}
+

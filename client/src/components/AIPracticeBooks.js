@@ -119,7 +119,7 @@ const AIPracticeBooks = () => {
     if (selectedBook) {
       // Jump directly to runner with the first chapter for this subject
       const chapterSlug = defaultChapterBySubject[subjectSlug] || 'chapter-1';
-      navigate(`/practice-test/ai/${subjectSlug}/${selectedBook.slug}/${chapterSlug}`, {
+      navigate(`/pyq/ai/${subjectSlug}/${selectedBook.slug}/${chapterSlug}`, {
         state: { practiceSettings }
       });
     }
@@ -144,7 +144,7 @@ const AIPracticeBooks = () => {
             {/* Back Navigation */}
             <div className="mb-6">
               <Link 
-                to="/practice-test/ai"
+                to="/pyq/ai"
                 className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors"
               >
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

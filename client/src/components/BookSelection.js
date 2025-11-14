@@ -60,6 +60,7 @@ const BookSelection = () => {
         description: b.description,
         color: b.color || '#6366f1',
         icon: b.icon || '📘',
+        slug: b.slug,
         route: `/questions/${subjectSlug}/${b.slug}`
       }));
     }
@@ -71,6 +72,7 @@ const BookSelection = () => {
         description: "Comprehensive DGCA exam preparation",
         color: "#3b82f6",
         icon: "📖",
+        slug: "ic-joshi",
         route: `/questions/${subjectSlug}/ic-joshi`
       },
       {
@@ -79,6 +81,7 @@ const BookSelection = () => {
         description: "Advanced aviation knowledge & practice",
         color: "#10b981",
         icon: "📚",
+        slug: "oxford",
         route: `/questions/${subjectSlug}/oxford`
       }
     ];
@@ -115,7 +118,7 @@ const BookSelection = () => {
                 </svg>
                 <span>Question Bank</span>
               </Link>
-              <Link to="/practice-test" className="sidebar-item">
+              <Link to="/pyq" className="sidebar-item">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
@@ -156,7 +159,11 @@ const BookSelection = () => {
                       {book.icon}
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-xl font-semibold text-gray-900">{book.title}</h3>
+                      <h3 className="text-xl font-semibold text-gray-900">
+                        {subject === 'Air Regulations' && (book.slug === 'oxford' || book.title === 'Oxford' || book.title === 'CAE Oxford')
+                          ? 'Air Law'
+                          : book.title}
+                      </h3>
                       <p className="text-gray-600 mt-1">{book.description}</p>
                       <div className="mt-4 inline-flex items-center text-blue-600 font-medium">Start <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></div>
                     </div>

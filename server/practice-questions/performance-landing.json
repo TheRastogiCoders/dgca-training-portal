@@ -1,0 +1,218 @@
+{
+  "book_name": "Class A Performance",
+  "chapter_number": "18",
+  "chapter_title": "Landing",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The approach climb requirement has been established to ensure:",
+      "question_type": "MCQ",
+      "options": [
+        "a. minimum climb gradient in case of a go-around with one engine inoperative",
+        "b. obstacle clearance in the approach area",
+        "c. manoeuvrability in case of landing with one engine inoperative",
+        "d. manoeuvrability during approach with full flaps and gear down, all engines operating"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The approach climb requirement ensures that the aircraft can achieve a minimum climb gradient in case of a go-around with one engine inoperative. This is a critical safety requirement that ensures the aircraft can safely abort a landing and climb away from the runway and surrounding obstacles even with reduced power."
+    },
+    {
+      "id": "2",
+      "question": "The maximum mass for landing could be limited by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the climb requirements with all engines in the landing configuration but with gear up",
+        "b. the climb requirements with one engine inoperative in the approach configuration",
+        "c. the climb requirements with one engine inoperative in the landing configuration",
+        "d. the climb requirements with all engines in the approach configuration"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The maximum mass for landing could be limited by the climb requirements with one engine inoperative in the approach configuration. This ensures that if a go-around is necessary during approach, the aircraft can safely climb away with one engine failed."
+    },
+    {
+      "id": "3",
+      "question": "Which of the following is true according to EU-OPS regulations for turbo-propeller powered aeroplanes not performing a steep approach?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Maximum take-off run is 0.5 x runway length",
+        "b. Maximum use of clearway is 1.5 x runway length",
+        "c. Maximum landing distance at the destination aerodrome and at any alternate aerodrome is 0.7 x LDA (landing distance available)",
+        "d. Maximum landing distance at destination is 0.95 x LDA (landing distance available)"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "According to EU-OPS regulations for turbo-propeller powered aeroplanes not performing a steep approach, the maximum landing distance at the destination aerodrome and at any alternate aerodrome is 0.7 x LDA (landing distance available). This provides a safety margin for landing operations."
+    },
+    {
+      "id": "4",
+      "question": "For a turboprop powered aeroplane, a 2200 m long runway at the destination aerodrome is expected to be \"wet\". To ensure the wet landing distance meets the requirement, the \"dry runway\" landing distance should not exceed:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1540 m",
+        "b. 1147 m",
+        "c. 1339 m",
+        "d. 1771 m"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "For turboprop aircraft, wet landing distance = dry landing distance × 1.15 (15% increase). Maximum wet landing distance = 0.7 × 2200 m = 1540 m. Therefore, maximum dry landing distance = 1540 m ÷ 1.15 = 1339 m."
+    },
+    {
+      "id": "5",
+      "question": "A flight is planned with a turbojet aeroplane to an aerodrome with a landing distance available of 2400 m. Which of the following is the maximum landing distance for a dry runway?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1437 m",
+        "b. 1250 m",
+        "c. 1090 m",
+        "d. 1655 m"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "For turbojet aircraft, maximum landing distance for dry runway = 0.6 × LDA = 0.6 × 2400 m = 1440 m. The closest answer is 1437 m."
+    },
+    {
+      "id": "6",
+      "question": "According to EU-OPS, which one of the following statements concerning the landing distance for a turbojet aeroplane is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The landing distance is the distance from 35 ft above the surface of the runway to the full stop",
+        "b. When determining the maximum allowable landing mass at destination, 60% of the available landing runway length should be taken into account",
+        "c. Reverse thrust is one of the factors always taken into account when determining the landing distance required",
+        "d. Malfunctioning of an anti-skid system has no effect on the required runway length"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "According to EU-OPS, when determining the maximum allowable landing mass at destination for a turbojet aeroplane, 60% of the available landing runway length should be taken into account. This provides a safety margin for landing operations."
+    },
+    {
+      "id": "7",
+      "question": "By what factor must the landing distance available (dry runway) for a turbojet powered aeroplane be multiplied to find the maximum landing distance?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1.15",
+        "b. 1.67",
+        "c. 60/115",
+        "d. 0.60"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "For a turbojet powered aeroplane, the landing distance available (dry runway) must be multiplied by 0.60 (60%) to find the maximum landing distance. This ensures adequate safety margins for landing operations."
+    },
+    {
+      "id": "8",
+      "question": "The landing field length required for jet aeroplanes at the alternate in wet conditions is the demonstrated landing distance plus:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 92%",
+        "b. 43%",
+        "c. 70%",
+        "d. 67%"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The landing field length required for jet aeroplanes at the alternate in wet conditions is the demonstrated landing distance plus 92%. This accounts for the increased landing distance required on wet runways and provides additional safety margin for alternate airports."
+    },
+    {
+      "id": "9",
+      "question": "The landing field length required for turbojet aeroplanes at the destination in wet condition is the demonstrated landing distance plus:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 67%",
+        "b. 70%",
+        "c. 43%",
+        "d. 92%"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "The landing field length required for turbojet aeroplanes at the destination in wet condition is the demonstrated landing distance plus 92%. This accounts for the reduced braking effectiveness and increased landing distance on wet runways."
+    },
+    {
+      "id": "10",
+      "question": "For a turbojet aeroplane, what is the maximum landing distance for wet runways when the landing distance available at an aerodrome is 3000 m?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2070 m",
+        "b. 1562 m",
+        "c. 1800 m",
+        "d. 2609 m"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "For turbojet aircraft, maximum landing distance for wet runway = 0.6 × LDA ÷ 1.15 = 0.6 × 3000 m ÷ 1.15 = 1800 m ÷ 1.15 = 1565 m. The closest answer is 1562 m. Alternatively: Maximum dry landing distance = 0.6 × 3000 = 1800 m. Maximum wet landing distance = 1800 ÷ 1.15 = 1565 m ≈ 1562 m."
+    },
+    {
+      "id": "11",
+      "question": "If the airworthiness documents do not specify a correction for landing on a wet runway, the landing distance must be increased by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10%",
+        "b. 20%",
+        "c. 15%",
+        "d. 5%"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "If the airworthiness documents do not specify a correction for landing on a wet runway, the landing distance must be increased by 15%. This accounts for reduced braking effectiveness and increased stopping distance on wet surfaces."
+    },
+    {
+      "id": "12",
+      "question": "Required runway length at destination airport for turboprop aeroplanes:",
+      "question_type": "MCQ",
+      "options": [
+        "a. is the same as at an alternate airport",
+        "b. is less then at an alternate airport",
+        "c. is more than at an alternate airport",
+        "d. is 60% longer than at an alternate airport"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "For turboprop aeroplanes, the required runway length at the destination airport is the same as at an alternate airport. Both require 70% of the landing distance available (LDA)."
+    },
+    {
+      "id": "13",
+      "question": "For this question use Figure 4.28 in CAP 698 Section 4. What is the minimum field length required for the worst wind situation, landing a twin jet aeroplane with the anti-skid inoperative? Elevation: 2000 ft QNH: 1013 hPa Landing mass: 50000 kg Flaps: as required for minimum landing distance Runway condition: dry Wind: Maximum allowable tailwind: 15 kt Maximum allowable headwind: 50 kt",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2600 m",
+        "b. 2700 m",
+        "c. 2900 m",
+        "d. 3100 m"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "This question requires the use of Figure 4.28 in CAP 698 Section 4. The minimum field length is determined by entering the chart with the given conditions: Elevation 2000 ft, Landing mass 50000 kg, Anti-skid inoperative, and reading the required field length for the worst wind situation (tailwind 15 kt)."
+    },
+    {
+      "id": "14",
+      "question": "Compared to the landing distance available, the maximum landing distance for a turbo-propeller and turbojet aircraft are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 60%, 60%",
+        "b. 70%, 70%",
+        "c. 70%, 60%",
+        "d. 60%, 70%"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "Compared to the landing distance available (LDA), the maximum landing distance for a turbo-propeller aircraft is 70% of LDA, and for a turbojet aircraft is 60% of LDA. This provides safety margins for landing operations."
+    },
+    {
+      "id": "15",
+      "question": "The landing climb gradient limit mass is determined by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a gradient of 3.2% with one engine inoperative, the other engines at take-off power in the landing configuration",
+        "b. a gradient of 3.2% with all engines operating at take-off power, in the landing configuration",
+        "c. a gradient of 2.1% with all engines operating at take-off power, with landing gear retracted, and approach flap",
+        "d. a gradient of 3.2% with all engines operating at take-off power, with landing gear retracted and approach flap"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The landing climb gradient limit mass is determined by a gradient of 3.2% with all engines operating at take-off power, in the landing configuration (gear down, flaps in landing position). This ensures the aircraft can safely perform a go-around from a landing approach."
+    }
+  ]
+}
+

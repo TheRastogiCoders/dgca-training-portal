@@ -1,0 +1,78 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "10",
+  "chapter_title": "Holding Procedures",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A procedure to alter level in a holding pattern is known as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. shuttle.",
+        "b. procedure turn.",
+        "c. base turn.",
+        "d. racetrack."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "Unless otherwise published or informed by ATC, after entering a holding pattern all turns are made:",
+      "question_type": "MCQ",
+      "options": [
+        "a. to the left.",
+        "b. to the left then right.",
+        "c. to the right.",
+        "d. procedure turn right then left."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "In a holding pattern turns are to be made at a:",
+      "question_type": "MCQ",
+      "options": [
+        "a. rate of turn = 3°/sec.",
+        "b. rate of turn = 3°/sec or 20° bank angle whichever is less.",
+        "c. rate of turn = 3°/sec or 25° bank angle whichever is less.",
+        "d. 25° bank angle."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "What is the longest time you can fly the 30° offset leg of a joining procedure?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1 1/2 minutes.",
+        "b. 2 1/2 minutes.",
+        "c. 3 minutes.",
+        "d. 30 seconds."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "You are cleared to join a hold at 6000 ft. At what distance prior to reaching the holding fix must you be established at 6000 ft?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 minutes flying time",
+        "b. 5 NM",
+        "c. 10 minutes flying time",
+        "d. 10 NM"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

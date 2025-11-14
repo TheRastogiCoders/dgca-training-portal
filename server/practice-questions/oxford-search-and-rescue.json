@@ -1,0 +1,134 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "24",
+  "chapter_title": "Search and Rescue",
+  "questions": [
+    {
+      "id": "1",
+      "question": "If you observe a distress light on the ground at night, you should:",
+      "question_type": "MCQ",
+      "options": [
+        "a. flash landing lights or navigation lights twice.",
+        "b. fly over as low as possible then flash lights.",
+        "c. fly in circles above then flash lights.",
+        "d. fly a triangular pattern."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "What does the SAR signal \"X\" on the ground mean?",
+      "question_type": "MCQ",
+      "options": [
+        "a. We need help.",
+        "b. We are OK.",
+        "c. We need medical assistance.",
+        "d. We have gone away."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "Aircraft No 1 is the first aircraft at the scene of a SAR incident but has no means of contacting the RCC, but No 2 aircraft does and arrives shortly afterwards.\nFinally No 3 aircraft (a specialist SAR aircraft) arrives on the scene. What is the transfer of command sequence?",
+      "question_type": "MCQ",
+      "options": [
+        "a. No 1 assumes command throughout.",
+        "b. No 1, followed by No 2, followed by No 3.",
+        "c. No 1, then by discretion (or handover to) No 2, finally No 3 on arrival.",
+        "d. No 3 only."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "For what period are SAR services to be provided by a Contracting State?",
+      "question_type": "MCQ",
+      "options": [
+        "a. During the hours of operation of an FIR.",
+        "b. On a 24 hour basis.",
+        "c. 2 hours before until 2 hours after the first flight arrives and the last departing flight within an FIR.",
+        "d. During the hours of both commercial and military air operations within the FIR."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Three aircraft are at the scene of an accident. Aircraft 1 arrives first but cannot contact ATC.\nAircraft 2 arrives second and has good communications with ATC.\nAircraft 3 arrives last and is an SAR aircraft.\nWho assumes responsibility?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Aircraft 1 and 2 wait for aircraft 3 to arrive.",
+        "b. Aircraft 2 because he has good communications with ATC.",
+        "c. Aircraft 2 until aircraft 3 arrives.",
+        "d. Aircraft 1 until aircraft 2 arrives who then passes control to aircraft 3."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "Which of the following means 'Require assistance'?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Y",
+        "b. X",
+        "c. R",
+        "d. V"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "When sighting a distress flare during daytime, you should:",
+      "question_type": "MCQ",
+      "options": [
+        "a. circle once.",
+        "b. flash landing lights or navigation lights.",
+        "c. rock wings.",
+        "d. send the letter 'R' in Morse by lights to the downed aircraft."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Who is responsible for the organization of an efficient SAR service?",
+      "question_type": "MCQ",
+      "options": [
+        "a. FIC and RCC.",
+        "b. RCC and rescue sub-centres.",
+        "c. FIC, RCC and ACC.",
+        "d. ICAO through regional navigation plans."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "What does the SAR ground signal \">\" mean?",
+      "question_type": "MCQ",
+      "options": [
+        "a. We have gone south.",
+        "b. We need assistance.",
+        "c. We need medical assistance.",
+        "d. Yes."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

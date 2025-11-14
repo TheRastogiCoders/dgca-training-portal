@@ -1,0 +1,302 @@
+{
+  "book_name": "Radio Navigation 2014",
+  "chapter_number": "7",
+  "chapter_title": "Automatic Direction Finder (ADF)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The phenomenon of coastal refraction which affects the accuracy of ADF bearings:",
+      "question_type": "MCQ",
+      "options": [
+        "a. is most marked at night",
+        "b. can be minimized by using beacons situated well inland",
+        "c. can be minimized by taking bearings where the signal crosses the coastline at right angles",
+        "d. is most marked one hour before to one hour after sunrise and sunset"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "Coastal refraction occurs when radio waves cross from land to water or vice versa, causing the signal to bend. This error can be minimized by taking bearings where the signal crosses the coastline at right angles (perpendicular), as this minimizes the refraction effect."
+    },
+    {
+      "id": "2",
+      "question": "An aircraft is intending to track from NDB 'A' to NDB 'B' on a track of 050°(T), heading 060°(T). If the RBI shows the relative bearing of 'A' to be 180° and the relative bearing of 'B' to be 330° then the aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. port of track and nearer 'A'",
+        "b. port of track and nearer 'B'",
+        "c. starboard of track and nearer 'A'",
+        "d. starboard of track and nearer 'B'"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Heading 060°(T), track 050°(T) means 10° port drift. Relative bearing to 'A' is 180° (abeam to port), relative bearing to 'B' is 330° (30° to starboard). Since the aircraft is heading 060° and has port drift, it's to the right (starboard) of track. The relative bearing to 'B' being 330° (30° forward of the port beam) indicates the aircraft is closer to 'B' than to 'A'."
+    },
+    {
+      "id": "3",
+      "question": "ADF quadrantal error is caused by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. static build up on the airframe and St. Elmo's Fire",
+        "b. the aircraft's major electrical axis, the fuselage, reflecting and re-radiating the incoming NDB transmissions",
+        "c. station interference and/or night effect",
+        "d. NDB signals speeding up and bending as they cross from a land to water propagation path"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "Quadrantal error in ADF systems is caused by the aircraft's fuselage (major electrical axis) reflecting and re-radiating the incoming NDB signals. This creates interference patterns that cause bearing errors, particularly when the NDB is at certain angles relative to the aircraft's longitudinal axis."
+    },
+    {
+      "id": "4",
+      "question": "The overall accuracy of ADF bearings by day within the promulgated range (DOC) is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. ± 3°",
+        "b. ± 5°",
+        "c. ± 6°",
+        "d. ± 10°"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "Within the Designated Operational Coverage (DOC) of an NDB, ADF bearings obtained by day have an overall accuracy of ±5°. This accuracy may be reduced at night due to sky wave interference."
+    },
+    {
+      "id": "5",
+      "question": "In order to Tune, Identify and Monitor NONA1A NDB emissions the BFO should be used as follows:\nTune Identify Monitor",
+      "question_type": "MCQ",
+      "options": [
+        "a. On On Off",
+        "b. On On On",
+        "c. On Off Off",
+        "d. Off Off Off"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "NONA1A emissions are continuous wave (CW) emissions without modulation. The Beat Frequency Oscillator (BFO) must be switched ON for tuning, identification (to hear the Morse code ident), and monitoring, as the BFO is required to make the unmodulated carrier audible."
+    },
+    {
+      "id": "6",
+      "question": "The magnitude of the error in position lines derived from ADF bearings that are affected by coastal refraction may be reduced by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. selecting beacons situated well inland",
+        "b. only using beacons within the designated operational coverage",
+        "c. choosing NONA2A beacons",
+        "d. choosing beacons on or near the coast"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Coastal refraction errors occur when signals cross coastlines. Using beacons on or near the coast minimizes the distance the signal travels over the transition zone, reducing the refraction error. Beacons well inland would require signals to cross more coastline, increasing the error."
+    },
+    {
+      "id": "7",
+      "question": "An aircraft is tracking away from an NDB on a track of 023°(T). If the drift is 8° port and variation 10° west, which of the RMIs illustrated below shows the correct indications?",
+      "question_type": "MCQ",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "This question requires visual analysis of RMI (Radio Magnetic Indicator) displays. With track 023°(T), drift 8° port, and variation 10°W, the heading would be 023° + 8° = 031°(T) = 041°(M). When tracking away from the NDB, the RMI needle should point opposite to the track direction."
+    },
+    {
+      "id": "8",
+      "question": "The BFO facility on ADF equipment should be used as follows when an NDB having NONA1A type emission is to be used:",
+      "question_type": "MCQ",
+      "options": [
+        "a. BFO on for tuning and identification but may be turned off for monitoring",
+        "b. BFO on for tuning but can be turned off for monitoring and identification purpose",
+        "c. BFO off during tuning, identification and monitoring because this type of emission is not modulated",
+        "d. BFO should be switched on for tuning, ident and monitoring"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "NONA1A emissions are continuous wave (CW) without modulation. The Beat Frequency Oscillator (BFO) must be ON for all operations: tuning (to hear the signal), identification (to hear the Morse code), and monitoring (to continue hearing the signal)."
+    },
+    {
+      "id": "9",
+      "question": "The protection ratio of 3:1 that is provided within the promulgated range/designated operational coverage of an NDB by day cannot be guaranteed at night because of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. long range sky wave interference from other transmitters",
+        "b. sky wave signals from the NDB to which you are tuned",
+        "c. the increased skip distance that occurs at night",
+        "d. the possibility of sporadic E returns occurring at night"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "At night, ionospheric conditions change, allowing sky waves to propagate over much longer distances. This means that NDB signals from distant transmitters (beyond the normal range) can interfere with the desired signal, breaking down the 3:1 protection ratio that is guaranteed by day."
+    },
+    {
+      "id": "10",
+      "question": "An aircraft has an RMI with two needles. Assume that:\ni) The aircraft is outbound from NDB Y on a track of 126°(M) drift is 14° Port\nii) A position report is required when crossing a QDR of 022 from NDB Z\nWhich of the diagrams below represents the RMI at the time of crossing the reporting point?",
+      "question_type": "MCQ",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This question requires visual analysis of RMI displays. With track 126°(M) and 14° port drift, heading = 126° + 14° = 140°(M). When crossing QDR 022 from NDB Z, the RMI needle for Z should point to 022° relative to the aircraft heading."
+    },
+    {
+      "id": "11",
+      "question": "Each NDB has a range promulgated in the COMM section of the AIP. Within this range interference from other NDBs should not cause bearing errors in excess of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. day ±5°",
+        "b. night ±10°",
+        "c. day ±6°",
+        "d. night ±5°"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Within the promulgated range (Designated Operational Coverage) of an NDB, interference from other NDBs should not cause bearing errors in excess of ±5° by day. At night, sky wave interference can cause larger errors."
+    },
+    {
+      "id": "12",
+      "question": "The range promulgated in the AIP and flight guides for all NDBs in the UK is the range:",
+      "question_type": "MCQ",
+      "options": [
+        "a. within which a protection ratio of 3:1 is guaranteed by day and night",
+        "b. up to which bearings can be obtained on 95% of occasions",
+        "c. within which bearings obtained by day should be accurate to within 5°",
+        "d. within which protection from sky wave protection is guaranteed"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "The promulgated range for NDBs in the UK is the range within which bearings obtained by day should be accurate to within ±5°. This range is based on ground wave propagation and does not guarantee protection at night when sky wave interference can occur."
+    },
+    {
+      "id": "13",
+      "question": "In order to resolve the 180° directional ambiguity of a directional LOOP aerial its polar diagram is combined with that of a SENSE aerial ... to produce a ... whose single null ensures the ADF needle moves the shortest distance to indicate the correct....",
+      "question_type": "MCQ",
+      "options": [
+        "a. at the aircraft, cardioid, radial",
+        "b. at the transmitter, limacon, bearing",
+        "c. at the aircraft, limacon, bearing",
+        "d. at the aircraft, cardioid, bearing"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "The loop antenna has a figure-of-eight pattern with two nulls (180° ambiguity). When combined with a sense antenna at the aircraft, they produce a cardioid (heart-shaped) pattern with a single null. This resolves the ambiguity, ensuring the ADF needle indicates the correct bearing (not the reciprocal)."
+    },
+    {
+      "id": "14",
+      "question": "The protection ratio afforded to NDBs in the UK within the promulgated range (DOC) applies:",
+      "question_type": "MCQ",
+      "options": [
+        "a. by day only",
+        "b. by night only",
+        "c. both day and night",
+        "d. at dawn and dusk"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The protection ratio (3:1) afforded to NDBs within the Designated Operational Coverage applies by day only. At night, sky wave propagation allows interference from distant stations, breaking down the protection ratio."
+    },
+    {
+      "id": "15",
+      "question": "The phenomena of coastal refraction affecting ADF bearings is caused by the signal ... when it reaches the coastline and bending ... the normal to the coast:",
+      "question_type": "MCQ",
+      "options": [
+        "a. accelerating towards",
+        "b. decelerating towards",
+        "c. accelerating away from",
+        "d. decelerating away from"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "Coastal refraction occurs because radio waves travel at different speeds over land and water. When a signal reaches the coastline, it accelerates (speeds up) when crossing from land to water, causing the wave to bend away from the normal (perpendicular) to the coast."
+    },
+    {
+      "id": "16",
+      "question": "In an ADF system, night effect is most pronounced:",
+      "question_type": "MCQ",
+      "options": [
+        "a. during long winter nights",
+        "b. when the aircraft is at low altitude",
+        "c. when the aircraft is at high altitude",
+        "d. at dusk and dawn"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Night effect in ADF systems is most pronounced at dusk and dawn when ionospheric conditions are changing. During these transition periods, both ground wave and sky wave signals are present, causing interference and bearing errors as the ADF tries to resolve between them."
+    },
+    {
+      "id": "17",
+      "question": "When the induced signals from the loop and the sense antenna are combined in an ADF receiver, the resultant polar diagram is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a limacon",
+        "b. a cardioid",
+        "c. figure of eight shaped",
+        "d. circular"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "When the loop antenna (figure-of-eight pattern) is combined with the sense antenna (omnidirectional pattern) in an ADF receiver, the resultant polar diagram is a cardioid (heart-shaped pattern). This has a single null, resolving the 180° ambiguity of the loop antenna alone."
+    },
+    {
+      "id": "18",
+      "question": "When flying over the sea and using an inland NDB to fix position with a series of position lines, the plotted position in relation to the aircraft's actual position will be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. further from the coast",
+        "b. closer to the coast",
+        "c. co-incident",
+        "d. inaccurate due to the transmitted wave front decelerating"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "Due to coastal refraction, when flying over the sea and using an inland NDB, the signal bends toward the coast as it crosses from land to water. This causes the bearing to be in error, making the plotted position appear closer to the coast than the aircraft's actual position."
+    },
+    {
+      "id": "19",
+      "question": "An aircraft on a heading of 235°(M) shows an RMI reading of 090° with respect to an NDB. Any quadrantal error which is affecting the accuracy of this bearing is likely to be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a maximum value",
+        "b. a very small value",
+        "c. zero, since quadrantal error affects only the RBI",
+        "d. zero, since quadrantal error affects only the VOR"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Quadrantal error is maximum when the NDB is at 45°, 135°, 225°, or 315° relative to the aircraft's heading. With heading 235°(M) and RMI reading 090°, the relative bearing is 090°, meaning the NDB is at 235° + 090° = 325°(M) from north, or 235° - 090° = 145°(M). Both 145° and 325° are close to the 135°/315° quadrant, where quadrantal error is maximum."
+    },
+    {
+      "id": "20",
+      "question": "The principal propagation path employed in an NDB/ADF system is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. sky wave",
+        "b. surface wave",
+        "c. direct wave",
+        "d. ducted wave"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "NDB/ADF systems operate in the MF (Medium Frequency) band, where surface wave (ground wave) propagation is the principal mode. Surface waves follow the curvature of the Earth and provide reliable coverage within the promulgated range. Sky waves can cause interference at night."
+    },
+    {
+      "id": "21",
+      "question": "The ADF of an aircraft on a heading of 189°(T) will experience the greatest effect due to quadrantal error if the NDB bears:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 234°(T)",
+        "b. 279°(T)",
+        "c. 225°(T)",
+        "d. 145°(T)"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Quadrantal error is maximum when the NDB is at 45° relative to the aircraft's heading. With heading 189°(T), maximum error occurs at 189° ± 45° = 234°(T) or 144°(T). The closest option is 234°(T)."
+    }
+  ]
+}
+

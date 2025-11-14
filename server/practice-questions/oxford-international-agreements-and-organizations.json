@@ -1,0 +1,372 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "2",
+  "chapter_title": "International Agreements and Organizations",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What does cabotage refer to?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Domestic air services within a state",
+        "b. An international air carrier",
+        "c. A flight above territorial waters",
+        "d. Crop spraying"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "The Convention signed by the states relating to damage caused by foreign aircraft to persons and property on the ground is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the Tokyo convention",
+        "b. the Rome convention",
+        "c. the Warsaw convention",
+        "d. the Paris convention."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "The Convention on offences and other acts committed on board an aeroplane is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the Tokyo convention",
+        "b. the Paris convention",
+        "c. the Rome convention",
+        "d. the Chicago convention"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "Which of the following is an obligation of being an ICAO contracting state?",
+      "question_type": "MCQ",
+      "options": [
+        "a. ICAO must be informed about all new flight crew licences and any suspended validity of such licences",
+        "b. ICAO must be informed about differences from the standards detailed in any of the annexes to the Chicago Convention",
+        "c. ICAO must approve the pricing of tickets on international airline connections",
+        "d. ICAO must be informed about changes to national regulations"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Which of the following annexes to the Chicago Convention contains the minimum specifications for the construction of aerodromes?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Annex 6",
+        "b. Annex 11",
+        "c. Annex 10",
+        "d. Annex 14"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "The ICAO annex containing the standards and recommended practices for Personnel Licensing is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Annex 1",
+        "b. Annex 2",
+        "c. Annex 11",
+        "d. Annex 12"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "The aircraft commander may, when he/she has reasonable grounds to believe that a person has committed or is about to commit an offence against penal law on board the aircraft:",
+      "question_type": "MCQ",
+      "options": [
+        "a. ask the person to disembark",
+        "b. ask the crew to assist in restraining the person",
+        "c. order the passengers to assist the crew in restraining the person",
+        "d. deliver the person to the competent authority"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "The international convention concerning the responsibilities of international air carriers (operators), for the carriage of passengers, baggage and freight is the:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Tokyo convention",
+        "b. Hague convention",
+        "c. Montreal convention",
+        "d. Warsaw convention"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "The Rome convention and its later amendments deals with:",
+      "question_type": "MCQ",
+      "options": [
+        "a. offences and other acts committed on board an aeroplane",
+        "b. damage caused by foreign aircraft to third parties on the ground",
+        "c. regulation of the transportation of dangerous goods",
+        "d. damage caused by any aircraft to third parties on the ground"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "The Warsaw convention and its later amendments deals with:",
+      "question_type": "MCQ",
+      "options": [
+        "a. regulation of the transportation of dangerous goods",
+        "b. operator's licence for international scheduled operations",
+        "c. security systems at airports",
+        "d. limitation of the Operator's liability concerning passengers and goods transported"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "The objectives of ICAO were defined by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the Geneva Convention of 1936",
+        "b. the Chicago Convention of 1944",
+        "c. the Warsaw Convention of 1929",
+        "d. the Geneva Convention of 1948"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "The annex to the Chicago convention which deals with the entry and departure of cargo and other articles on international flights is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Annex 15",
+        "b. Annex 16",
+        "c. Annex 9",
+        "d. Annex 8"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Which freedom of the air is applicable to a flight which wishes to land in a foreign state for technical reasons?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1st freedom",
+        "b. 3rd freedom",
+        "c. 4th freedom",
+        "d. 2nd freedom"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "ICAO establishes:",
+      "question_type": "MCQ",
+      "options": [
+        "a. proposals for aeronautical regulations in the form of 18 annexes",
+        "b. aeronautical standards adopted by all states",
+        "c. standards and recommended practices applied without exception by all states which are signatory to the Chicago Convention of 1944",
+        "d. standards and recommended practices for contracting states"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "The first freedom of the air is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. The right to board passengers from the state where the aircraft is registered and fly to any other state",
+        "b. The right to over fly without landing",
+        "c. The right to land for a technical stop",
+        "d. The right to operate a commercial flight with passengers on board between two states"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "The Convention which deals with offences against penal law is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the convention of Rome",
+        "b. the convention of Madrid",
+        "c. the convention of Tokyo",
+        "d. the convention of Warsaw"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "One of the main objectives of ICAO is to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. develop principles and techniques for international aviation",
+        "b. approve the ticket prices set by international airlines",
+        "c. approve new airlines operating turbine engine powered aircraft",
+        "d. approve new international airlines"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "Which international convention established ICAO?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Chicago",
+        "b. The Hague",
+        "c. Warsaw",
+        "d. Montreal"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "The standards contained in the annexes to the Chicago convention are to be considered:",
+      "question_type": "MCQ",
+      "options": [
+        "a. binding upon all airlines operating international routes",
+        "b. binding for contracting states that have not notified ICAO about national differences",
+        "c. advice and guidance for the aviation legislation within contracting states",
+        "d. binding for all contracting states"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "Which body of ICAO finalizes the SARPs to be submitted for adoption?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The Council",
+        "b. The Regional Air Navigation Committee",
+        "c. The Air Navigation Commission",
+        "d. The Assembly"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "The second freedom of the air is the:",
+      "question_type": "MCQ",
+      "options": [
+        "a. right to cabotage traffic",
+        "b. right to operate a commercial passenger flight with passengers on board between two states",
+        "c. right to land in a foreign state for a technical stop",
+        "d. right to over fly a foreign state without landing"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "Which annex contains information concerning Air Traffic Services?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Annex 11",
+        "b. Annex 10",
+        "c. Annex 14",
+        "d. Annex 15"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "To which passengers does EU Regulation 261/2004 apply?",
+      "question_type": "MCQ",
+      "options": [
+        "a. To all passengers travelling on an EU registered aircraft wherever it may be operating",
+        "b. Those departing from an EU member state or travelling to an EU member state on an airline based in an EU member state",
+        "c. Only to those departing from an EU member state or travelling on an airline based in an EU member state",
+        "d. To all passengers who are citizens of an EU member state"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "24",
+      "question": "To which passengers does EU Regulation 261/2004 apply? Those who",
+      "question_type": "MCQ",
+      "options": [
+        "a. arrived in time for check-in as indicated on the ticket or communication from the airline, or, if no time is so indicated, no less than 30 minutes prior to the scheduled departure time of the flight",
+        "b. arrived in time for check-in as indicated on the ticket or communication from the airline, or, if no time is so indicated, no less than 45 minutes prior to the scheduled departure time of the flight",
+        "c. arrived in time for check-in as indicated on the ticket or communication from the airline, or, if no time is so indicated, no less than 1 hour prior to the scheduled departure time of the flight",
+        "d. arrived in time for check-in as indicated on the ticket or communication from the airline, or, if no time is so indicated, no less than 2 hours prior to the scheduled departure time of the flight"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "25",
+      "question": "How much is the cash compensation given to a passenger under the EU Regulation 261/2004 travelling on a flight not within the EU of greater than 3500 km if the flight is cancelled?",
+      "question_type": "MCQ",
+      "options": [
+        "a. €250",
+        "b. €400",
+        "c. €600",
+        "d. €800"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "26",
+      "question": "How or where are airlines obliged to inform passengers stating that: \"If you are denied boarding or if your flight is cancelled or delayed for at least two hours, ask at the check-in counter or boarding gate for the text stating your rights, particularly with regard to compensation and assistance.\"",
+      "question_type": "MCQ",
+      "options": [
+        "a. This is given verbally to individual passengers by airline staff at check-in",
+        "b. Printed on the airline ticket or the on-line receipt",
+        "c. Printed on a leaflet attached to the boarding pass",
+        "d. On a notice and on display at the passenger check-in counter"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    }
+  ]
+}
+

@@ -24,7 +24,7 @@ const ChapterPracticeIntro = () => {
         <SiteSidebar />
 
         {/* Main Content */}
-        <main className="flex-1 p-6 md:p-10 md:ml-24">
+        <main className="flex-1 p-6 md:p-10 md:ml-56 lg:ml-64 xl:ml-72">
       <div className="max-w-4xl mx-auto">
         <div className="mb-6">
           <Link to="/question-bank" className="text-blue-600 hover:underline">← Back to Subjects</Link>

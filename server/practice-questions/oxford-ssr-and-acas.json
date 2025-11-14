@@ -1,0 +1,120 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "13",
+  "chapter_title": "SSR and ACAS",
+  "questions": [
+    {
+      "id": "1",
+      "question": "When acknowledging mode/code setting instructions, pilots shall:",
+      "question_type": "MCQ",
+      "options": [
+        "a. read back only the code to be set.",
+        "b. read back the mode and the code to be set.",
+        "c. use only the word ROGER.",
+        "d. use only the word WILCO."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "The pilot of an aircraft losing two-way communications shall set the SSR transponder to Mode Alpha code:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 7700",
+        "b. 7600",
+        "c. 2000",
+        "d. 7500"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "When the SSR transponder appears to be unserviceable and repair is not possible before departure, then:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the aircraft would be permitted to depart to the nearest aerodrome where repair can be carried out.",
+        "b. the pilot must indicate the failure on the flight plan after which ATC will endeavour to provide for the flight to be continued.",
+        "c. the flight can only continue in the most direct manner.",
+        "d. the pilot will not be permitted to commence the flight."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "What Mode A code shall be used to provide recognition of an aircraft emergency?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Code 7500",
+        "b. Code 7600",
+        "c. Code 7000",
+        "d. Code 7700"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Which of the following correctly lists special purpose codes that are used in conjunction with SSR?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Distress 7700; Unlawful Interference 7600; Communications failure 7500",
+        "b. Distress 7500; Unlawful Interference 7700; Communications failure 7600",
+        "c. Distress 7600; Unlawful Interference 7500; Communications failure 7700",
+        "d. Distress 7700; Unlawful Interference 7500; Communications failure 7600"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "When an aircraft carries a serviceable transponder, the pilot is to operate the transponder:",
+      "question_type": "MCQ",
+      "options": [
+        "a. only when the aircraft is flying within the airspace where SSR is used for ATC purposes.",
+        "b. only when the aircraft is flying in CAS.",
+        "c. only when direct by ATC.",
+        "d. at all times during flight regardless of whether or not the aircraft is within or outside airspace where SSR is used for ATC purposes."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "What is the transponder code for radio failure?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Mode A code 7500",
+        "b. Mode B code 7600",
+        "c. Mode A code 7700",
+        "d. Mode A code 7600"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Which of the following is not a valid SSR mode A squawk?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A5555",
+        "b. A5678",
+        "c. A2345",
+        "d. A7777"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

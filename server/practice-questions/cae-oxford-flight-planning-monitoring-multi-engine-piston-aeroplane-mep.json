@@ -1,0 +1,50 @@
+{
+  "book_name": "CAE ATPL 7. Flight Planning & Monitoring",
+  "chapter_number": "5",
+  "chapter_title": "Multi-engine Piston Aeroplane (MEP)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Refer to CAP 697, MEP, Fig 3.1.\nA flight is to be made from an airfield (elevation 3000 ft) to another. The cruising level is FL120, temp ISA. The OAT at the departure airfield is +10°C, the wind component in the climb is +30 kt.\nCalculate the fuel used, time and distance flown in the climb.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 8 gal 13 min 26 NGM",
+        "b. 8 gal 14 min 33 NGM",
+        "c. 7 gal 14 min 19 NGM",
+        "d. 11 gal 19 min 34 NGM"
+      ],
+      "answer": "Answer requires CAP 697, MEP, Fig 3.1",
+      "solution": "Answer requires CAP 697, MEP, Fig 3.1",
+      "explanation": "This question requires reference to CAP 697 MEP, Figure 3.1 to calculate climb performance including fuel consumption, time, and distance (NGM - Nautical Ground Miles) for the specified departure elevation, cruise level, temperature conditions, and wind component."
+    },
+    {
+      "id": "2",
+      "question": "Refer to CAP 697 MEP Fig 3.6.\nA flight is to be made to an airfield, pressure altitude 3000 ft, in a MEP aircraft. The forecast OAT for the airfield is +1°C and the cruising level will be FL110, OAT -10°C.\nCalculate the still air distance in the descent and the ngm covered with a 20 kt headwind.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 29 NM/26 NM",
+        "b. 21 NM/23 NM",
+        "c. 20 NM/18 NM",
+        "d. 20 NM/20 NM"
+      ],
+      "answer": "Answer requires CAP 697 MEP Fig 3.6",
+      "solution": "Answer requires CAP 697 MEP Fig 3.6",
+      "explanation": "This question requires reference to CAP 697 MEP, Figure 3.6 to calculate descent distance in still air conditions and the ground distance covered (NGM) when accounting for a headwind component."
+    },
+    {
+      "id": "3",
+      "question": "Refer to CAP 697 MEP1 Fig 3.2.\nGiven:\nCruising level 11 000 ft\nOAT in the cruise -15°C\nUsable fuel 123 US gallons\nThe power is set to economy cruise\nFind the range in NM with 45 min reserve fuel at 45% power.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 752 NM",
+        "b. 852 NM",
+        "c. 760 NM",
+        "d. 602 NM"
+      ],
+      "answer": "Answer requires CAP 697 MEP1 Fig 3.2",
+      "solution": "Answer requires CAP 697 MEP1 Fig 3.2",
+      "explanation": "This question requires reference to CAP 697 MEP1, Figure 3.2 to determine the range in nautical miles considering cruise altitude, outside air temperature, available fuel, power setting, and reserve fuel requirements."
+    }
+  ]
+}
+

@@ -1,0 +1,742 @@
+{
+  "book_name": "CAE ATPL 7. Flight Planning & Monitoring",
+  "chapter_number": "10",
+  "chapter_title": "Airways",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Itemize the speed control procedure.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires LONDON, UK HEATHROW SID, MIDHURST DEPARTURES chart.",
+      "solution": "Answer requires LONDON, UK HEATHROW SID, MIDHURST DEPARTURES chart.",
+      "explanation": "This question requires reference to the LONDON, UK HEATHROW SID, MIDHURST DEPARTURES chart to identify the speed control procedures."
+    },
+    {
+      "id": "2",
+      "question": "State the noise abatement procedure.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires LONDON, UK HEATHROW SID, MIDHURST DEPARTURES chart.",
+      "solution": "Answer requires LONDON, UK HEATHROW SID, MIDHURST DEPARTURES chart.",
+      "explanation": "This question requires reference to the LONDON, UK HEATHROW SID, MIDHURST DEPARTURES chart to identify the noise abatement procedures."
+    },
+    {
+      "id": "3",
+      "question": "If an aircraft's ground speed is 175 kt what rate of climb must it maintain to fulfil the noise abatement requirements?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires LONDON, UK HEATHROW SID, MIDHURST DEPARTURES chart.",
+      "solution": "Answer requires LONDON, UK HEATHROW SID, MIDHURST DEPARTURES chart.",
+      "explanation": "This question requires reference to the LONDON, UK HEATHROW SID, MIDHURST DEPARTURES chart to calculate the required rate of climb based on ground speed and noise abatement requirements."
+    },
+    {
+      "id": "4",
+      "question": "State the altitude requirements at: D8 LON, D12 LON, D17 LON and MID VOR/DME.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires LONDON, UK HEATHROW SID, MIDHURST DEPARTURES chart.",
+      "solution": "Answer requires LONDON, UK HEATHROW SID, MIDHURST DEPARTURES chart.",
+      "explanation": "This question requires reference to the LONDON, UK HEATHROW SID, MIDHURST DEPARTURES chart to identify altitude requirements at the specified waypoints."
+    },
+    {
+      "id": "5",
+      "question": "When may these altitude requirements be exceeded?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires LONDON, UK HEATHROW SID, MIDHURST DEPARTURES chart.",
+      "solution": "Answer requires LONDON, UK HEATHROW SID, MIDHURST DEPARTURES chart.",
+      "explanation": "This question requires reference to the LONDON, UK HEATHROW SID, MIDHURST DEPARTURES chart to determine when altitude requirements may be exceeded."
+    },
+    {
+      "id": "6",
+      "question": "What is the significance of the green at N5135 W00114?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires LONDON, UK AREA chart.",
+      "solution": "Answer requires LONDON, UK AREA chart.",
+      "explanation": "This question requires reference to the LONDON, UK AREA chart to identify the significance of the green symbol at the specified coordinates."
+    },
+    {
+      "id": "7",
+      "question": "State the name and dimensions of the above area.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires LONDON, UK AREA chart.",
+      "solution": "Answer requires LONDON, UK AREA chart.",
+      "explanation": "This question requires reference to the LONDON, UK AREA chart to identify the name and dimensions of the area referenced in the previous question."
+    },
+    {
+      "id": "8",
+      "question": "What is the significance of the green 3 which is 2 NM to the SE of the symbol at f)?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires LONDON, UK AREA chart.",
+      "solution": "Answer requires LONDON, UK AREA chart.",
+      "explanation": "This question requires reference to the LONDON, UK AREA chart to identify the significance of the green symbol 3."
+    },
+    {
+      "id": "9",
+      "question": "For London Heathrow what are the communication frequencies for:\ni. Radar\nii. Tower\niii. Ground\niv. ATIS",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires LONDON, UK AREA chart.",
+      "solution": "Answer requires LONDON, UK AREA chart.",
+      "explanation": "This question requires reference to the LONDON, UK AREA chart to identify the communication frequencies for London Heathrow."
+    },
+    {
+      "id": "10",
+      "question": "What does Cpt mean? What does the mean?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires LONDON, UK AREA chart.",
+      "solution": "Answer requires LONDON, UK AREA chart.",
+      "explanation": "This question requires reference to the LONDON, UK AREA chart legend to decode the meaning of chart symbols."
+    },
+    {
+      "id": "11",
+      "question": "With reference to the green and blue symbols in the region N52 W01 what:\ni. Are the navigation facilities available?\nii. Is the holding pattern at Daventry VOR for eastbound aircraft?\niii. Is the alternate procedure when Daventry VOR is unserviceable?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires LONDON, UK AREA chart.",
+      "solution": "Answer requires LONDON, UK AREA chart.",
+      "explanation": "This question requires reference to the LONDON, UK AREA chart to identify navigation facilities, holding patterns, and alternate procedures."
+    },
+    {
+      "id": "12",
+      "question": "What does the symbol at N5107 W0026 mean?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires LONDON, UK AREA chart.",
+      "solution": "Answer requires LONDON, UK AREA chart.",
+      "explanation": "This question requires reference to the LONDON, UK AREA chart to decode the symbol at the specified coordinates."
+    },
+    {
+      "id": "13",
+      "question": "Describe the alternate holding pattern for BIG N5119.8 E00002.2.\nDecode fully CTR A at N5130 W0030.\nWith Reference ATS route A37, 058 radial from DET VOR (N5118.2 E00035.9)",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires LONDON, UK AREA chart.",
+      "solution": "Answer requires LONDON, UK AREA chart.",
+      "explanation": "This question requires reference to the LONDON, UK AREA chart to describe holding patterns, decode airspace designations, and identify ATS route information."
+    },
+    {
+      "id": "14",
+      "question": "What is this airway used for normally?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires LONDON, UK AREA chart.",
+      "solution": "Answer requires LONDON, UK AREA chart.",
+      "explanation": "This question requires reference to the LONDON, UK AREA chart to identify the normal use of the airway referenced in the previous question."
+    },
+    {
+      "id": "15",
+      "question": "Decode FL90 1900a.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires LONDON, UK AREA chart.",
+      "solution": "Answer requires LONDON, UK AREA chart.",
+      "explanation": "This question requires reference to the LONDON, UK AREA chart to decode the flight level and time notation."
+    },
+    {
+      "id": "16",
+      "question": "Decode 19 to the south of DET VOR/DME.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires LONDON, UK AREA chart.",
+      "solution": "Answer requires LONDON, UK AREA chart.",
+      "explanation": "This question requires reference to the LONDON, UK AREA chart to decode the symbol 19 near DET VOR/DME."
+    },
+    {
+      "id": "17",
+      "question": "What is the next reporting point, eastbound, after TOBIX? State its lat/long.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires LONDON, UK AREA chart.",
+      "solution": "Answer requires LONDON, UK AREA chart.",
+      "explanation": "This question requires reference to the LONDON, UK AREA chart to identify the next reporting point after TOBIX and its coordinates."
+    },
+    {
+      "id": "18",
+      "question": "What is the chart's scale and above what flight level is the chart designed for?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires E(HI)4 chart.",
+      "solution": "Answer requires E(HI)4 chart.",
+      "explanation": "This question requires reference to the E(HI)4 chart to identify the chart scale and applicable flight level range."
+    },
+    {
+      "id": "19",
+      "question": "What are the upper and lower limits of UK and French Upper Airspace?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires E(HI)4 chart.",
+      "solution": "Answer requires E(HI)4 chart.",
+      "explanation": "This question requires reference to the E(HI)4 chart to identify the vertical limits of UK and French Upper Airspace."
+    },
+    {
+      "id": "20",
+      "question": "What is the upper limit of UK and French high altitude airways?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires E(HI)4 chart.",
+      "solution": "Answer requires E(HI)4 chart.",
+      "explanation": "This question requires reference to the E(HI)4 chart to identify the upper limit of high altitude airways."
+    },
+    {
+      "id": "21",
+      "question": "If an aircraft is tracking 359°(M) with a heading of 010°(M), what is its lowest available FL in UK Upper Airspace?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires E(HI)4 chart.",
+      "solution": "Answer requires E(HI)4 chart.",
+      "explanation": "This question requires reference to the E(HI)4 chart to determine the lowest available flight level based on track and heading in UK Upper Airspace."
+    },
+    {
+      "id": "22",
+      "question": "Itemize the radio communication frequencies on UA47 from the UIR boundary to SOKMU at FL250, and the Upper Air Control Centre in which the aircraft is operating.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires E(HI)4 chart.",
+      "solution": "Answer requires E(HI)4 chart.",
+      "explanation": "This question requires reference to the E(HI)4 chart to identify communication frequencies and control centers along the specified route."
+    },
+    {
+      "id": "23",
+      "question": "What is the magnetic variation WORTHING to HARDY?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires E(HI)4 chart.",
+      "solution": "Answer requires E(HI)4 chart.",
+      "explanation": "This question requires reference to the E(HI)4 chart to determine the magnetic variation between the specified waypoints."
+    },
+    {
+      "id": "24",
+      "question": "Describe the symbols at N4955.6 E00110.3.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires E(HI)4 chart.",
+      "solution": "Answer requires E(HI)4 chart.",
+      "explanation": "This question requires reference to the E(HI)4 chart to decode the symbols at the specified coordinates."
+    },
+    {
+      "id": "25",
+      "question": "What does the blue symbol 1 indicate at N5013 W00141?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires E(HI)4 chart.",
+      "solution": "Answer requires E(HI)4 chart.",
+      "explanation": "This question requires reference to the E(HI)4 chart to decode the blue symbol 1 at the specified coordinates."
+    },
+    {
+      "id": "26",
+      "question": "What is its scale?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires PARIS, FRANCE AREA CHART.",
+      "solution": "Answer requires PARIS, FRANCE AREA CHART.",
+      "explanation": "This question requires reference to the PARIS, FRANCE AREA CHART to identify the chart scale."
+    },
+    {
+      "id": "27",
+      "question": "What is the Approach Radar frequency for an aircraft descending from FL190 to FL110?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires PARIS, FRANCE AREA CHART.",
+      "solution": "Answer requires PARIS, FRANCE AREA CHART.",
+      "explanation": "This question requires reference to the PARIS, FRANCE AREA CHART to identify the Approach Radar frequency for the specified flight level range."
+    },
+    {
+      "id": "28",
+      "question": "Overhead ABB VOR what is the decode for the SECTOR TNI box to the northeast?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires PARIS, FRANCE AREA CHART.",
+      "solution": "Answer requires PARIS, FRANCE AREA CHART.",
+      "explanation": "This question requires reference to the PARIS, FRANCE AREA CHART to decode the SECTOR TNI box near ABB VOR."
+    },
+    {
+      "id": "29",
+      "question": "What is the magnetic variation on this chart?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires PARIS, FRANCE AREA CHART.",
+      "solution": "Answer requires PARIS, FRANCE AREA CHART.",
+      "explanation": "This question requires reference to the PARIS, FRANCE AREA CHART to identify the magnetic variation."
+    },
+    {
+      "id": "30",
+      "question": "What is the distance and magnetic track between N4901.9 E00113.3 and N4933.2 E00229.4?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires PARIS, FRANCE AREA CHART.",
+      "solution": "Answer requires PARIS, FRANCE AREA CHART.",
+      "explanation": "This question requires reference to the PARIS, FRANCE AREA CHART to calculate distance and magnetic track between the specified coordinates."
+    },
+    {
+      "id": "31",
+      "question": "What is the highest Grid MORA?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires PARIS, FRANCE AREA CHART.",
+      "solution": "Answer requires PARIS, FRANCE AREA CHART.",
+      "explanation": "This question requires reference to the PARIS, FRANCE AREA CHART to identify the highest Grid MORA (Minimum Off-Route Altitude)."
+    },
+    {
+      "id": "32",
+      "question": "Decode the blue symbol 1",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires PARIS, FRANCE AREA CHART.",
+      "solution": "Answer requires PARIS, FRANCE AREA CHART.",
+      "explanation": "This question requires reference to the PARIS, FRANCE AREA CHART to decode the blue symbol 1."
+    },
+    {
+      "id": "33",
+      "question": "State the ATIS frequency, Transition Altitude and Level.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires PARIS, FRANCE CHARLES DE GAULLE STAR.",
+      "solution": "Answer requires PARIS, FRANCE CHARLES DE GAULLE STAR.",
+      "explanation": "This question requires reference to the PARIS, FRANCE CHARLES DE GAULLE STAR chart to identify ATIS frequency, transition altitude, and transition level."
+    },
+    {
+      "id": "34",
+      "question": "Describe the ALTERNATE HIGH holding pattern at DPE.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires PARIS, FRANCE CHARLES DE GAULLE STAR.",
+      "solution": "Answer requires PARIS, FRANCE CHARLES DE GAULLE STAR.",
+      "explanation": "This question requires reference to the PARIS, FRANCE CHARLES DE GAULLE STAR chart to describe the alternate high holding pattern at DPE."
+    },
+    {
+      "id": "35",
+      "question": "List all the arrivals for propeller driven aircraft.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires PARIS, FRANCE CHARLES DE GAULLE STAR.",
+      "solution": "Answer requires PARIS, FRANCE CHARLES DE GAULLE STAR.",
+      "explanation": "This question requires reference to the PARIS, FRANCE CHARLES DE GAULLE STAR chart to identify all arrival procedures for propeller driven aircraft."
+    },
+    {
+      "id": "36",
+      "question": "An aircraft is fitted with a twin-needle Radio Magnetic Indicator (RMI) and DME. How does it fix its position at MERUE?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires PARIS, FRANCE CHARLES DE GAULLE STAR.",
+      "solution": "Answer requires PARIS, FRANCE CHARLES DE GAULLE STAR.",
+      "explanation": "This question requires reference to the PARIS, FRANCE CHARLES DE GAULLE STAR chart to explain how to fix position at MERUE using RMI and DME."
+    },
+    {
+      "id": "37",
+      "question": "Decode the symbology at SOKMU.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires PARIS, FRANCE CHARLES DE GAULLE STAR.",
+      "solution": "Answer requires PARIS, FRANCE CHARLES DE GAULLE STAR.",
+      "explanation": "This question requires reference to the PARIS, FRANCE CHARLES DE GAULLE STAR chart to decode the symbology at SOKMU."
+    },
+    {
+      "id": "38",
+      "question": "What are the descent instructions just prior to crossing CRL VOR/DME?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires PARIS CHARLES DE GAULLE VOR/DME RWY 27 page 23-1 JEPPESEN APPROACH CHARTS.",
+      "solution": "Answer requires PARIS CHARLES DE GAULLE VOR/DME RWY 27 page 23-1 JEPPESEN APPROACH CHARTS.",
+      "explanation": "This question requires reference to the PARIS CHARLES DE GAULLE VOR/DME RWY 27 approach chart to identify descent instructions prior to crossing CRL VOR/DME."
+    },
+    {
+      "id": "39",
+      "question": "What are the instructions at the intersection of the CRL 119 radial at 18 NM DME, and the CGN VOR 072 radial?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires PARIS CHARLES DE GAULLE VOR/DME RWY 27 page 23-1 JEPPESEN APPROACH CHARTS.",
+      "solution": "Answer requires PARIS CHARLES DE GAULLE VOR/DME RWY 27 page 23-1 JEPPESEN APPROACH CHARTS.",
+      "explanation": "This question requires reference to the PARIS CHARLES DE GAULLE VOR/DME RWY 27 approach chart to identify instructions at the specified intersection."
+    },
+    {
+      "id": "40",
+      "question": "State the crossing heights at the RSY locator and the distance to the threshold.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires PARIS CHARLES DE GAULLE VOR/DME RWY 27 page 23-1 JEPPESEN APPROACH CHARTS.",
+      "solution": "Answer requires PARIS CHARLES DE GAULLE VOR/DME RWY 27 page 23-1 JEPPESEN APPROACH CHARTS.",
+      "explanation": "This question requires reference to the PARIS CHARLES DE GAULLE VOR/DME RWY 27 approach chart to identify crossing heights at RSY locator and distance to threshold."
+    },
+    {
+      "id": "41",
+      "question": "In the event of an overshoot what are the height instructions to hold at MERUE?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires PARIS CHARLES DE GAULLE VOR/DME RWY 27 page 23-1 JEPPESEN APPROACH CHARTS.",
+      "solution": "Answer requires PARIS CHARLES DE GAULLE VOR/DME RWY 27 page 23-1 JEPPESEN APPROACH CHARTS.",
+      "explanation": "This question requires reference to the PARIS CHARLES DE GAULLE VOR/DME RWY 27 approach chart to identify missed approach holding instructions at MERUE."
+    },
+    {
+      "id": "42",
+      "question": "State the MDA(H) for a straight in approach and define MDA(H).",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires PARIS CHARLES DE GAULLE VOR/DME RWY 27 page 23-1 JEPPESEN APPROACH CHARTS.",
+      "solution": "Answer requires PARIS CHARLES DE GAULLE VOR/DME RWY 27 page 23-1 JEPPESEN APPROACH CHARTS.",
+      "explanation": "This question requires reference to the PARIS CHARLES DE GAULLE VOR/DME RWY 27 approach chart to identify the Minimum Descent Altitude (Height) and its definition."
+    },
+    {
+      "id": "43",
+      "question": "What are the INS co-ordinates for STAND No. A9?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires Jeppesen charts.",
+      "solution": "Answer requires Jeppesen charts.",
+      "explanation": "This question requires reference to Jeppesen charts to find the INS coordinates for stand A9."
+    },
+    {
+      "id": "44",
+      "question": "What are the lengths in metres and feet of the two runways at Paris Charles de Gaulle?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires Jeppesen charts.",
+      "solution": "Answer requires Jeppesen charts.",
+      "explanation": "This question requires reference to Jeppesen charts to find the runway lengths at Paris Charles de Gaulle."
+    },
+    {
+      "id": "45",
+      "question": "Are Simultaneous Parallel Departure Procedures allowed at Paris CDG? If so what are the regulations?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires Jeppesen charts.",
+      "solution": "Answer requires Jeppesen charts.",
+      "explanation": "This question requires reference to Jeppesen charts to determine if simultaneous parallel departure procedures are allowed and identify the regulations."
+    },
+    {
+      "id": "46",
+      "question": "What are their scales?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires charts E(LO)1 and 2.",
+      "solution": "Answer requires charts E(LO)1 and 2.",
+      "explanation": "This question requires reference to charts E(LO)1 and 2 to identify their scales."
+    },
+    {
+      "id": "47",
+      "question": "On a proposed flight Manchester to Naples which E(LO) charts are required?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires charts E(LO) index.",
+      "solution": "Answer requires charts E(LO) index.",
+      "explanation": "This question requires reference to the E(LO) chart index to determine which charts are required for the specified route."
+    },
+    {
+      "id": "48",
+      "question": "State the limits and classifications of designated airspace for the UK and France.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires charts E(LO)1 and 2.",
+      "solution": "Answer requires charts E(LO)1 and 2.",
+      "explanation": "This question requires reference to charts E(LO)1 and 2 to identify airspace limits and classifications for UK and France."
+    },
+    {
+      "id": "49",
+      "question": "In relation to UTC quote the normal summertime hours for Belgium.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires charts E(LO)1 and 2.",
+      "solution": "Answer requires charts E(LO)1 and 2.",
+      "explanation": "This question requires reference to charts E(LO)1 and 2 to identify summertime hours for Belgium in relation to UTC."
+    },
+    {
+      "id": "50",
+      "question": "It is 2040 UTC 30/3/97. What is the LMT beyond E40?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires charts E(LO)1 and 2.",
+      "solution": "Answer requires charts E(LO)1 and 2.",
+      "explanation": "This question requires reference to charts E(LO)1 and 2 to calculate Local Mean Time (LMT) based on UTC and longitude."
+    },
+    {
+      "id": "51",
+      "question": "In relation to COMMUNICATION decode the following:\nG\n*\nX\nC\nR\nCpt",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires charts E(LO)1 and 2 legend.",
+      "solution": "Answer requires charts E(LO)1 and 2 legend.",
+      "explanation": "This question requires reference to the charts E(LO)1 and 2 legend to decode communication symbols."
+    },
+    {
+      "id": "52",
+      "question": "State the common emergency VHF frequency.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires charts E(LO)1 and 2.",
+      "solution": "Answer requires charts E(LO)1 and 2.",
+      "explanation": "This question requires reference to charts E(LO)1 and 2 to identify the common emergency VHF frequency."
+    },
+    {
+      "id": "53",
+      "question": "With reference to Brize Norton:\na. What is its ICAO location indicator?\nb. What is its panel location (\"zigdex\") for E(LO)1 and 2?\nc. Decode its communication facilities.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires charts E(LO)1 and 2.",
+      "solution": "Answer requires charts E(LO)1 and 2.",
+      "explanation": "This question requires reference to charts E(LO)1 and 2 to find ICAO location indicator, panel location, and decode communication facilities for Brize Norton."
+    },
+    {
+      "id": "54",
+      "question": "What do the shaded areas on the chart coverage panel signify?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires charts E(LO)1 and 2.",
+      "solution": "Answer requires charts E(LO)1 and 2.",
+      "explanation": "This question requires reference to charts E(LO)1 and 2 to understand the significance of shaded areas on the chart coverage panel."
+    },
+    {
+      "id": "55",
+      "question": "SSB means?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires charts E(LO)1 and 2 legend.",
+      "solution": "Answer requires charts E(LO)1 and 2 legend.",
+      "explanation": "This question requires reference to the charts E(LO)1 and 2 legend to decode the SSB abbreviation."
+    },
+    {
+      "id": "56",
+      "question": "An aircraft is overhead N5105.2 W00408.6 maintaining a track of 185°(M) with a heading of 180°(M). Should it be flying:",
+      "question_type": "MCQ",
+      "options": [
+        "a. An ODD level?",
+        "b. An EVEN level?",
+        "c. An ODD + 500 ft level?",
+        "d. An EVEN + 500 ft level?"
+      ],
+      "answer": "Answer not provided in text (requires chart rules).",
+      "solution": "Answer not provided in text (requires chart rules).",
+      "explanation": "This question requires reference to chart rules to determine the appropriate flight level based on magnetic track and heading."
+    },
+    {
+      "id": "57",
+      "question": "Where are details on E(LO)2 of:\na. High Intensity Radio Transmissions to be found?\nb. Areas of Intense Air Activity to be found?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires chart E(LO)2.",
+      "solution": "Answer requires chart E(LO)2.",
+      "explanation": "This question requires reference to chart E(LO)2 to locate information about High Intensity Radio Transmissions and Areas of Intense Air Activity."
+    },
+    {
+      "id": "58",
+      "question": "State the vertical limits for UK AERODROME TRAFFIC ZONES.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires chart E(LO)2.",
+      "solution": "Answer requires chart E(LO)2.",
+      "explanation": "This question requires reference to chart E(LO)2 to identify the vertical limits for UK Aerodrome Traffic Zones."
+    },
+    {
+      "id": "59",
+      "question": "What are the UK ALTIMETER SETTING requirements?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires chart E(LO)2.",
+      "solution": "Answer requires chart E(LO)2.",
+      "explanation": "This question requires reference to chart E(LO)2 to identify UK altimeter setting requirements."
+    },
+    {
+      "id": "60",
+      "question": "In the UK what is the airspace classification of Airways and Advisory Routes?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires chart E(LO)2.",
+      "solution": "Answer requires chart E(LO)2.",
+      "explanation": "This question requires reference to chart E(LO)2 to identify the airspace classification of Airways and Advisory Routes in the UK."
+    },
+    {
+      "id": "61",
+      "question": "Where are details of UK Military Air Traffic Zones (MATZ) published on E(LO)2?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires chart E(LO)2.",
+      "solution": "Answer requires chart E(LO)2.",
+      "explanation": "This question requires reference to chart E(LO)2 to locate information about UK Military Air Traffic Zones."
+    },
+    {
+      "id": "62",
+      "question": "Give the details for EG(D) - 014 at N5030 W0235.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires chart E(LO)2.",
+      "solution": "Answer requires chart E(LO)2.",
+      "explanation": "This question requires reference to chart E(LO)2 to decode the details for the specified danger area."
+    },
+    {
+      "id": "63",
+      "question": "Fully decode the symbols at N5044 W0325.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires chart E(LO)2.",
+      "solution": "Answer requires chart E(LO)2.",
+      "explanation": "This question requires reference to chart E(LO)2 to fully decode all symbols at the specified coordinates."
+    },
+    {
+      "id": "64",
+      "question": "At NASDA what IFR is the aircraft leaving and entering? (State their ICAO location indicators).",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires chart E(LO)2.",
+      "solution": "Answer requires chart E(LO)2.",
+      "explanation": "This question requires reference to chart E(LO)2 to identify the IFR facilities and their ICAO location indicators at NASDA."
+    },
+    {
+      "id": "65",
+      "question": "Decode all the airway symbols within a 7 NM radius of N5025 E0126, including the blue thickly dashed line. (Ignore Le Touquet).",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires chart E(LO)2.",
+      "solution": "Answer requires chart E(LO)2.",
+      "explanation": "This question requires reference to chart E(LO)2 to decode all airway symbols within the specified radius."
+    },
+    {
+      "id": "66",
+      "question": "Decode the semi-circle around CLIFF.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires chart E(LO)2.",
+      "solution": "Answer requires chart E(LO)2.",
+      "explanation": "This question requires reference to chart E(LO)2 to decode the semi-circle symbol around CLIFF."
+    },
+    {
+      "id": "67",
+      "question": "What is the highest Grid MORA from ABB VOR onwards? Define Grid MORA.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires chart E(LO)2.",
+      "solution": "Answer requires chart E(LO)2.",
+      "explanation": "This question requires reference to chart E(LO)2 to identify the highest Grid MORA and provide its definition."
+    },
+    {
+      "id": "68",
+      "question": "Decode the symbols at D12 BIG.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires London, UK Heathrow STAR.",
+      "solution": "Answer requires London, UK Heathrow STAR.",
+      "explanation": "This question requires reference to the London, UK Heathrow STAR chart to decode the symbols at D12 BIG."
+    },
+    {
+      "id": "69",
+      "question": "State the \"SPEED LIMIT PROCEDURES/ATC REQUIREMENTS\".",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires London, UK Heathrow STAR.",
+      "solution": "Answer requires London, UK Heathrow STAR.",
+      "explanation": "This question requires reference to the London, UK Heathrow STAR chart to identify speed limit procedures and ATC requirements."
+    },
+    {
+      "id": "70",
+      "question": "Quote the \"DESCENT PLANNING/ATC REQUIREMENTS\" for the BIG 2A STAR.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires London, UK Heathrow STAR.",
+      "solution": "Answer requires London, UK Heathrow STAR.",
+      "explanation": "This question requires reference to the London, UK Heathrow STAR chart to identify descent planning and ATC requirements for the BIG 2A STAR."
+    },
+    {
+      "id": "71",
+      "question": "Decode 4",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires London, UK Heathrow STAR.",
+      "solution": "Answer requires London, UK Heathrow STAR.",
+      "explanation": "This question requires reference to the London, UK Heathrow STAR chart to decode the symbol 4."
+    },
+    {
+      "id": "72",
+      "question": "Which three radials fix CLIFF?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires London, UK Heathrow STAR.",
+      "solution": "Answer requires London, UK Heathrow STAR.",
+      "explanation": "This question requires reference to the London, UK Heathrow STAR chart to identify the three radials that fix CLIFF."
+    },
+    {
+      "id": "73",
+      "question": "What does the symbol at 5 NM on the BT VOR 331 radial signify?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires Paris, France Charles de Gaulle SID Abbeville Departures.",
+      "solution": "Answer requires Paris, France Charles de Gaulle SID Abbeville Departures.",
+      "explanation": "This question requires reference to the Paris, France Charles de Gaulle SID Abbeville Departures chart to decode the symbol at the specified location."
+    },
+    {
+      "id": "74",
+      "question": "State the SPEED CONTROL PROCEDURES.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires Paris, France Charles de Gaulle SID Abbeville Departures.",
+      "solution": "Answer requires Paris, France Charles de Gaulle SID Abbeville Departures.",
+      "explanation": "This question requires reference to the Paris, France Charles de Gaulle SID Abbeville Departures chart to identify speed control procedures."
+    },
+    {
+      "id": "75",
+      "question": "With reference to RWY 27 departures, if the take-offs and landings at ORLY are westerly, is an ABB 8A or ABB 8D filed?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires Paris, France Charles de Gaulle SID Abbeville Departures.",
+      "solution": "Answer requires Paris, France Charles de Gaulle SID Abbeville Departures.",
+      "explanation": "This question requires reference to the Paris, France Charles de Gaulle SID Abbeville Departures chart to determine which departure procedure is used based on ORLY operations."
+    },
+    {
+      "id": "76",
+      "question": "What is the INITIAL CLIMB OUT procedure and minimum gradient for an ABBEVILLE departure RWY 27?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires Paris, France Charles de Gaulle SID Abbeville Departures.",
+      "solution": "Answer requires Paris, France Charles de Gaulle SID Abbeville Departures.",
+      "explanation": "This question requires reference to the Paris, France Charles de Gaulle SID Abbeville Departures chart to identify initial climb out procedure and minimum gradient."
+    },
+    {
+      "id": "77",
+      "question": "At a ground speed of 230 kt what rate of climb is required in ft/min?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires Paris, France Charles de Gaulle SID Abbeville Departures.",
+      "solution": "Answer requires Paris, France Charles de Gaulle SID Abbeville Departures.",
+      "explanation": "This question requires reference to the Paris, France Charles de Gaulle SID Abbeville Departures chart to calculate the required rate of climb based on ground speed."
+    },
+    {
+      "id": "78",
+      "question": "Where are the Noise Abatement Procedures to be found, and what are the day and night-time operational limits?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires London Heathrow charts.",
+      "solution": "Answer requires London Heathrow charts.",
+      "explanation": "This question requires reference to London Heathrow charts to locate noise abatement procedures and identify day and night-time operational limits."
+    },
+    {
+      "id": "79",
+      "question": "State the JAA MINIMUMS for LONDON HEATHROW for Runway 27L CAT2 ILS for an aircraft with an approach speed of 160 kt IAS.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires London Heathrow charts.",
+      "solution": "Answer requires London Heathrow charts.",
+      "explanation": "This question requires reference to London Heathrow charts to identify JAA minimums for CAT2 ILS approach on runway 27L."
+    },
+    {
+      "id": "80",
+      "question": "What are the Missed Approach Radio Failure Procedures for EGLL for RWY 27L/R via the EPSOM NDB?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires London Heathrow charts.",
+      "solution": "Answer requires London Heathrow charts.",
+      "explanation": "This question requires reference to London Heathrow charts to identify missed approach radio failure procedures."
+    },
+    {
+      "id": "81",
+      "question": "With reference to a Surveillance Radar Approach LONDON HEATHROW, page 18-1 JM\na. What is Heathrow Director Approach frequency?\nb. What is Heathrow Radar frequency?\nc. What are the Missed Approach Holding points and heights?\nd. What are the published Heights Above Aerodrome (HAA) at 3 and 2 NM?\ne. What is the minimum altitude/height at 4 NM?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires Surveillance Radar Approach LONDON HEATHROW, page 18-1 JM.",
+      "solution": "Answer requires Surveillance Radar Approach LONDON HEATHROW, page 18-1 JM.",
+      "explanation": "This question requires reference to the Surveillance Radar Approach LONDON HEATHROW chart to identify frequencies, holding points, heights, and minimum altitudes."
+    }
+  ]
+}
+

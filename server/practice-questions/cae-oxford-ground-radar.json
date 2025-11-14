@@ -1,0 +1,64 @@
+{
+  "book_name": "Radio Navigation 2014",
+  "chapter_number": "12",
+  "chapter_title": "Ground Radar",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A primary radar has a pulse repetition frequency of 275 pps. The time interval between the leading edges of successive pulses is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3.64 milliseconds",
+        "b. 36.4 milliseconds",
+        "c. 3.64 microseconds",
+        "d. 36.4 microseconds"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "PRI (Pulse Repetition Interval) = 1 / PRF = 1 / 275 = 0.00364 seconds = 3.64 milliseconds. This is the time between the leading edges of successive pulses."
+    },
+    {
+      "id": "2",
+      "question": "A primary radar system has a pulse repetition frequency of 450 pps. Ignoring pulse width and flyback at the CRT, the maximum range of the radar would be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 333 NM",
+        "b. 180 NM",
+        "c. 666 NM",
+        "d. 360 NM"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "Maximum range = c / (2 × PRF). With PRF = 450 pps: Range = (3 × 10⁸) / (2 × 450) = 333,333 m = 333 km = 180 NM (333 / 1.852)."
+    },
+    {
+      "id": "3",
+      "question": "The frequency band and rate of scan of Airfield Surface Movement radars are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. SHF; 60 rpm",
+        "b. SHF; 200 rpm",
+        "c. EHF; 100 rpm",
+        "d. EHF; 10 rpm"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Airfield Surface Movement Indicators (ASMI) operate in the SHF (Super High Frequency) band, typically around 9-10 GHz, and have a scanner rotation rate of 60 rpm (revolutions per minute) to provide frequent updates of surface traffic."
+    },
+    {
+      "id": "4",
+      "question": "A ground based radar with a scanner rotation of 60 rpm, a beamwidth in the order of 0.5° and a PRF of 10000 pps would be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. an Airfield Surface Movement Indicator with a theoretical range of 8 NM",
+        "b. a Precision Approach Radar",
+        "c. an Airfield Surface Movement Indicator with a theoretical range of 16 NM",
+        "d. a high resolution Surveillance Approach Radar"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "An Airfield Surface Movement Indicator (ASMI) has: 60 rpm rotation, narrow beamwidth (0.5°), and high PRF (10,000 pps) for short-range, high-resolution surface surveillance. Maximum range = c / (2 × PRF) = (3 × 10⁸) / (2 × 10,000) = 15,000 m = 8.1 NM ≈ 8 NM."
+    }
+  ]
+}
+

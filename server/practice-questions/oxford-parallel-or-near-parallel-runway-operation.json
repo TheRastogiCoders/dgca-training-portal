@@ -1,0 +1,134 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "12",
+  "chapter_title": "Parallel or Near-parallel Runway Operation",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Independent parallel approaches may be conducted to parallel runways provided that:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the missed approach track for one approach diverges by at least 20° from the missed approach track of the adjacent approach.",
+        "b. the missed approach track for one approach diverges by at least 25° from the missed approach track of the adjacent approach.",
+        "c. the missed approach track for one approach diverges by at least 45° from the missed approach track of the adjacent approach.",
+        "d. the missed approach track for one approach diverges by at least 30° from the missed approach track of the adjacent approach."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "Dependent parallel approaches may be conducted to parallel runways provided that the missed approach track for one approach diverges by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. at least 45° from the missed approach track of the adjacent approach.",
+        "b. at least 25° from the missed approach track of the adjacent approach.",
+        "c. at least 15° from the missed approach track of the adjacent approach.",
+        "d. at least 30° from the missed approach track of the adjacent approach."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "When independent parallel approaches are being conducted to parallel runways and vectoring to intercept the ILS localizer course, the vector shall be such as to enable the aircraft to be established on the ILS localizer course in level flight for:",
+      "question_type": "MCQ",
+      "options": [
+        "a. at least 1.5 NM prior to intercepting the ILS glide path.",
+        "b. at least 2.5 NM prior to intercepting the ILS glide path.",
+        "c. at least 2.0 NM prior to intercepting the ILS glide path.",
+        "d. at least 3.0 NM prior to intercepting the ILS glide path."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "For parallel runways the missed approach tracks must diverge by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 15°.",
+        "b. 30°.",
+        "c. 45°.",
+        "d. 25°."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Where independent parallel runway operations are in progress, what is the maximum permitted interception angle to intercept the localizer?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 20°",
+        "b. 25°",
+        "c. 30°.",
+        "d. 45°."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "The minimum distance between parallel runway centre lines for Simultaneous Independent Parallel Approaches (Mode 1) is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 915 m.",
+        "b. 760 m.",
+        "c. 300 m.",
+        "d. 1035 m."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "A minimum vertical separation shall be provided until aircraft are established inbound on the ILS localizer course and/or MLS final approach track.\nThis minimum is, when independent parallel approaches are being conducted:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 300 m.",
+        "b. 200 m.",
+        "c. 150 m.",
+        "d. 100 m."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "A minimum radar separation shall be provided until aircraft are established inbound on the ILS localizer course and/or MLS final approach track. This minimum is, when independent parallel approaches are being conducted:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3 NM.",
+        "b. 5 NM.",
+        "c. 2 NM.",
+        "d. 2.5 NM."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "Independent parallel approaches may be conducted to parallel runways provided that a no transgression zone (NTZ) of at least:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 710 m is established between extended runway centre lines and as is depicted on the radar display.",
+        "b. 510 m is established between extended runway centre lines and as is depicted on the radar display.",
+        "c. 610 m is established between extended runway centre lines and as is depicted on the radar display.",
+        "d. 810 m is established between extended runway centre lines and as is depicted on the radar display."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}
+

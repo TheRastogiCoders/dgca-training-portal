@@ -1,0 +1,92 @@
+{
+  "book_name": "CAE ATPL 7. Flight Planning & Monitoring",
+  "chapter_number": "1",
+  "chapter_title": "Air Information Publications",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Where would you find information regarding Customs and Health facilities?",
+      "question_type": "MCQ",
+      "options": [
+        "a. ATCC broadcasts",
+        "b. NOTAMS",
+        "c. NAV/RAD supplements",
+        "d. AIPs"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "AIPs (Aeronautical Information Publications) contain comprehensive information about airports, including Customs and Health facilities."
+    },
+    {
+      "id": "2",
+      "question": "Where would you find information regarding Search and Rescue procedures?",
+      "question_type": "MCQ",
+      "options": [
+        "a. ATCC broadcasts",
+        "b. NOTAMS",
+        "c. SIGMETS",
+        "d. AIPs"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "AIPs (Aeronautical Information Publications) contain information about Search and Rescue procedures and facilities."
+    },
+    {
+      "id": "3",
+      "question": "In which document would you find information on known short-term unserviceability of VOR, TACAN, and NDB?",
+      "question_type": "MCQ",
+      "options": [
+        "a. NOTAM",
+        "b. Aeronautical Information Publication (AIP)",
+        "c. SIGMET",
+        "d. ATCC"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "NOTAMs (Notice to Airmen) contain information about short-term unserviceability of navigation aids such as VOR, TACAN, and NDB."
+    },
+    {
+      "id": "4",
+      "question": "Where may details of temporary Danger and Restricted Airspace be found?",
+      "question_type": "MCQ",
+      "options": [
+        "a. SIGMETS",
+        "b. Aeronautical Information Circulars (AIC)",
+        "c. NOTAM and Aeronautical Information Publication (AIP)",
+        "d. ATCC"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "Details of temporary Danger and Restricted Airspace can be found in both NOTAMs (for temporary restrictions) and AIPs (for permanent restrictions)."
+    },
+    {
+      "id": "5",
+      "question": "Details of temporary danger areas are published:",
+      "question_type": "MCQ",
+      "options": [
+        "a. in AICs",
+        "b. on the appropriate chart",
+        "c. by VOLMET",
+        "d. in NOTAMs"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Temporary danger areas are published in NOTAMs, which provide timely information about temporary airspace restrictions."
+    },
+    {
+      "id": "6",
+      "question": "What are the types of NOTAM?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Temporary, short-notice, permanent",
+        "b. A, B, C",
+        "c. NOTAMN, NOTAMR, NOTAMC",
+        "d. A, E, L"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "NOTAMs are classified as NOTAMN (New), NOTAMR (Replace), and NOTAMC (Cancel)."
+    }
+  ]
+}
+

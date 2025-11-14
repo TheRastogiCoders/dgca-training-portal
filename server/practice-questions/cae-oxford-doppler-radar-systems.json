@@ -1,0 +1,50 @@
+{
+  "book_name": "Radio Navigation 2014",
+  "chapter_number": "5",
+  "chapter_title": "Doppler Radar Systems",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Doppler operates on the principle that ...... between a transmitter and receiver will cause the received frequency to ...... if the transmitter and receiver are moving ......",
+      "question_type": "MCQ",
+      "options": [
+        "a. apparent motion, decrease, together",
+        "b. relative motion, decrease, apart",
+        "c. the distance, increase, at the same speed",
+        "d. relative motion, increase, apart"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The Doppler effect operates on the principle that relative motion between a transmitter and receiver causes a frequency shift. When the transmitter and receiver are moving apart, the received frequency decreases (red shift). This is because each successive wave has further to travel, increasing the wavelength and decreasing the frequency."
+    },
+    {
+      "id": "2",
+      "question": "Due to 'Doppler' effect an apparent decrease in the transmitted frequency, which is proportional to the transmitter's velocity, will occur when:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the transmitter and receiver move towards each other",
+        "b. the transmitter moves away from the receiver",
+        "c. the transmitter moves towards the receiver",
+        "d. both transmitter and receiver move away from each other"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "When the transmitter moves away from the receiver, the Doppler effect causes an apparent decrease in frequency. This is because each wave is emitted from a position further away than the previous one, effectively stretching the wavelength and reducing the frequency. The frequency decrease is proportional to the relative velocity between the transmitter and receiver."
+    },
+    {
+      "id": "3",
+      "question": "The change in frequency measured in an aircraft from a radio transmission reflected from the ground is used to determine:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the drift and ground speed of the aircraft",
+        "b. the aircraft's track and speed",
+        "c. the across track wind component and heading",
+        "d. track error and ground speed"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Doppler radar systems in aircraft transmit signals downward that are reflected from the ground. The frequency shift (Doppler shift) of the reflected signal is measured. By analyzing the Doppler shift in different directions (forward, backward, left, right), the system can determine the aircraft's drift (cross-track component) and ground speed (along-track component) relative to the ground."
+    }
+  ]
+}
+

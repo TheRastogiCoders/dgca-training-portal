@@ -65,6 +65,16 @@
         "technical-general",
         "technical-specific"
       ]
+    },
+    {
+      "slug": "cae-oxford-flight-planning-monitoring",
+      "title": "CAE ATPL 7. Flight Planning & Monitoring",
+      "description": "Flight Planning & Monitoring (CAE Oxford)",
+      "icon": "✈️",
+      "color": "#8b5cf6",
+      "subjects": [
+        "air-navigation"
+      ]
     }
   ]
 }

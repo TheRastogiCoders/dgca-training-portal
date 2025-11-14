@@ -1,0 +1,610 @@
+{
+  "book_name": "Performance",
+  "chapter_number": "17",
+  "chapter_title": "Class A - En Route",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Which statement with respect to the step climb is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A step climb provides better economy than a cruise climb",
+        "b. Performing a step climb based on economy can be limited by the 1.3g altitude",
+        "c. In principle a step climb is performed immediately after the aircraft has exceeded the optimum altitude",
+        "d. A step climb may not be performed unless it is indicated in the filed flight plan"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "A step climb based on economy can be limited by the 1.3g altitude (the altitude at which the aircraft can maintain 1.3g maneuver capability). As the aircraft climbs and mass decreases, the optimum altitude increases, but the ability to perform a step climb may be constrained by the 1.3g altitude limit."
+    },
+    {
+      "id": "2",
+      "question": "Which statement with respect to the step climb is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A step climb is executed because ATC desires a higher altitude",
+        "b. A step climb is executed in principle when, just after levelling off, the 1.3g altitude is reached",
+        "c. Executing a desired step climb at high altitude can be limited by buffet onset at g-loads larger than 1",
+        "d. A step climb must be executed immediately after the aeroplane has exceeded the optimum altitude"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "Executing a desired step climb at high altitude can be limited by buffet onset at g-loads larger than 1. As altitude increases, the speed margin between low-speed and high-speed buffet narrows, and maneuvering (including step climbs) may be limited by buffet boundaries."
+    },
+    {
+      "id": "3",
+      "question": "The lift coefficient decreases during a glide at a constant Mach number, mainly because the:",
+      "question_type": "MCQ",
+      "options": [
+        "a. TAS decreases",
+        "b. glide angle increases",
+        "c. IAS increases",
+        "d. aircraft mass decreases"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "During a glide at constant Mach number, as altitude decreases, temperature increases, causing true airspeed (TAS) to increase. To maintain constant Mach number, the indicated airspeed (IAS) also increases. Since lift = CL × ½ρV²S, and the aircraft must maintain the same lift (equal to weight), the increase in IAS (and thus dynamic pressure) means the lift coefficient (CL) must decrease."
+    },
+    {
+      "id": "4",
+      "question": "An aeroplane carries out a descent from FL410 to FL270 at cruise Mach number, and from FL270 to FL100 at the IAS reached at FL270. How does the angle of descent change in the first and in the second part of the descent? Assume idle thrust and clean configuration and ignore compressibility effects.",
+      "question_type": "MCQ",
+      "options": [
+        "a. Increases in the first part; is constant in the second",
+        "b. Increases in the first part; decreases in the second",
+        "c. Is constant in the first part; decreases in the second",
+        "d. Decreases in the first part; increases in the second"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "In the first part (constant Mach number), as altitude decreases, temperature increases, so TAS and IAS increase. This increases drag, requiring a steeper descent angle. In the second part (constant IAS), the angle of descent remains relatively constant as the aircraft maintains the same indicated airspeed and configuration."
+    },
+    {
+      "id": "5",
+      "question": "During a glide at constant Mach number the pitch angle of the aeroplane will:",
+      "question_type": "MCQ",
+      "options": [
+        "a. decrease",
+        "b. increase",
+        "c. increase at first and decrease later on",
+        "d. remain constant"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "During a descent at constant Mach number, as altitude decreases, temperature increases, causing true airspeed to increase. To maintain constant Mach number, the angle of attack must decrease (less lift needed at higher speed), which requires a decrease in pitch angle."
+    },
+    {
+      "id": "6",
+      "question": "If a flight is performed with a higher \"Cost Index\" at a given mass, which of the following will occur?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A better long range",
+        "b. A higher cruise Mach number",
+        "c. A lower cruise Mach number",
+        "d. A better maximum range"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "A higher Cost Index places more value on time than fuel. This results in a higher cruise Mach number, trading some fuel efficiency for faster flight. The Cost Index is a ratio that balances time costs against fuel costs."
+    },
+    {
+      "id": "7",
+      "question": "During a descent at constant Mach Number, the margin to low speed buffet will:",
+      "question_type": "MCQ",
+      "options": [
+        "a. decrease, because the lift coefficient decreases",
+        "b. increase, because the lift coefficient decreases",
+        "c. remain constant, because the Mach number remains constant",
+        "d. increase, because the lift coefficient increases"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "During a descent at constant Mach number, as altitude decreases, the lift coefficient decreases (because IAS increases and lift must equal weight). A lower lift coefficient means the aircraft is further from the low-speed buffet boundary, so the margin to low-speed buffet increases."
+    },
+    {
+      "id": "8",
+      "question": "A jet aeroplane is climbing with constant IAS. Which operational speed limit is most likely to be reached?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The stalling speed",
+        "b. The minimum control speed air",
+        "c. The Mach limit for the Mach trim system",
+        "d. The maximum operating Mach number"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "When climbing at constant IAS, as altitude increases, temperature decreases, so true airspeed (TAS) increases. At high altitudes, the TAS corresponding to a given IAS can approach or exceed the maximum operating Mach number (MMO), making this the most likely speed limit to be reached."
+    },
+    {
+      "id": "9",
+      "question": "ETOPS flight is a twin-engine jet aeroplane flight conducted over a route where no suitable airport is within an area of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 75 minutes flying time at the approved one engine out cruise speed",
+        "b. 60 minutes flying time in still air at the approved one engine out cruise speed",
+        "c. 60 minutes flying time in still air at the normal cruising speed",
+        "d. 30 minutes flying time at the normal cruising speed"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "ETOPS (Extended-range Twin-engine Operational Performance Standards) flight is a twin-engine jet aeroplane flight conducted over a route where no suitable airport is within 60 minutes flying time in still air at the approved one-engine-out cruise speed. This allows twin-engine aircraft to operate on routes that were previously restricted to three- or four-engine aircraft."
+    },
+    {
+      "id": "10",
+      "question": "The danger associated with low speed and/or high speed buffet:",
+      "question_type": "MCQ",
+      "options": [
+        "a. limits the manoeuvring load factor at high altitudes",
+        "b. can be reduced by increasing the load factor",
+        "c. exists only above $M_{MO}$",
+        "d. has to be considered at take-off and landing"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "At high altitudes, the speed range between low-speed and high-speed buffet narrows. This limits the maneuvering capability of the aircraft, as increasing the load factor (pulling g) can cause the aircraft to enter either low-speed or high-speed buffet, depending on the speed and altitude."
+    },
+    {
+      "id": "11",
+      "question": "Which data can be extracted from the buffet onset boundary chart?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The value of the Mach number at which low speed and shock stall occur at various weights and altitudes",
+        "b. The values of the Mach number at which low speed buffet and Mach buffet occur at various masses and altitudes",
+        "c. The value of maximum operating Mach number $(M_{MO})$ at various masses and power settings",
+        "d. The value of the critical Mach number at various masses and altitudes"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The buffet onset boundary chart shows the Mach numbers at which low-speed buffet (stall) and high-speed buffet (shock stall/Mach buffet) occur at various aircraft masses and altitudes. This information is critical for determining the safe operating envelope of the aircraft."
+    },
+    {
+      "id": "12",
+      "question": "Which of the following factors determines the maximum flight altitude in the \"buffet onset boundary\" graph?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Aerodynamics",
+        "b. Theoretical ceiling",
+        "c. Service ceiling",
+        "d. Economy"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The maximum flight altitude in the buffet onset boundary graph is determined by aerodynamics. At the aerodynamic ceiling (also called the coffin corner), the speeds for low-speed and high-speed buffet converge, leaving no safe operating speed range. This is purely an aerodynamic limitation."
+    },
+    {
+      "id": "13",
+      "question": "The optimum cruise altitude increases:",
+      "question_type": "MCQ",
+      "options": [
+        "a. if the aeroplane mass is decreased",
+        "b. if the temperature (OAT) is increased",
+        "c. if the tailwind component is decreased",
+        "d. if the aeroplane mass is increased"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The optimum cruise altitude increases as aircraft mass decreases. As fuel is burned and mass reduces, the aircraft can fly higher where the air is thinner, reducing drag and improving fuel efficiency. Lower mass means less lift is required, allowing flight at higher altitudes."
+    },
+    {
+      "id": "14",
+      "question": "Which of the following statements with regard to the optimum cruise altitude (best fuel mileage or range) is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. An aeroplane usually flies above the optimum cruise altitude, as this provides the largest specific range",
+        "b. An aeroplane sometimes flies above or below the optimum cruise altitude, because ATC normally does not allow aeroplanes to fly continuously at the optimum cruise altitude",
+        "c. An aeroplane always flies below the optimum cruise altitude, as otherwise Mach buffet can occur",
+        "d. An aeroplane always flies on the optimum cruise altitude, because this is most attractive from an economy point of view"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "An aeroplane sometimes flies above or below the optimum cruise altitude because ATC normally does not allow aeroplanes to fly continuously at the optimum cruise altitude. ATC assigns flight levels based on traffic separation, direction of flight, and other operational considerations, which may not coincide with the optimum altitude."
+    },
+    {
+      "id": "15",
+      "question": "The optimum altitude:",
+      "question_type": "MCQ",
+      "options": [
+        "a. is the altitude up to which cabin pressure of 8000 ft can be maintained",
+        "b. increases as mass decreases and is the altitude at which the specific range reaches its maximum",
+        "c. decreases as mass decreases",
+        "d. is the altitude at which the specific range reaches its minimum"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The optimum altitude increases as mass decreases and is the altitude at which the specific range (nautical miles per pound of fuel) reaches its maximum. As fuel is burned and mass decreases, the optimum altitude increases, which is why step climbs are performed on long flights."
+    },
+    {
+      "id": "16",
+      "question": "Under which condition should you fly considerably lower (4000 ft or more) than the optimum altitude?",
+      "question_type": "MCQ",
+      "options": [
+        "a. If, at the lower altitude, either more headwind or less tailwind can be expected",
+        "b. If, at the lower altitude, either considerably less headwind or considerably more tailwind can be expected",
+        "c. If the maximum altitude is below the optimum altitude",
+        "d. If the temperature is lower at the low altitude (high altitude inversion)"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "You should fly considerably lower than the optimum altitude if, at the lower altitude, either considerably less headwind or considerably more tailwind can be expected. The benefit of improved wind conditions can outweigh the fuel efficiency loss from flying below the optimum altitude."
+    },
+    {
+      "id": "17",
+      "question": "What happens to the specific range with one or two engines inoperative?",
+      "question_type": "MCQ",
+      "options": [
+        "a. At first improved and later reduced",
+        "b. It decreases",
+        "c. It increases",
+        "d. Unaffected by engine failure"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "With one or more engines inoperative, the specific range decreases. The remaining engines must produce more thrust to maintain the same speed, increasing fuel flow per engine. Additionally, the aircraft may need to fly at a less efficient speed or altitude to maintain safe flight with reduced thrust."
+    },
+    {
+      "id": "18",
+      "question": "The optimum cruise altitude is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the pressure altitude up to which a cabin altitude of 8000 ft can be maintained",
+        "b. the pressure altitude at which the speed for high speed buffet as TAS is a maximum",
+        "c. the pressure altitude at which the highest specific range can be achieved",
+        "d. the pressure altitude at which the fuel flow is a maximum"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "The optimum cruise altitude is the pressure altitude at which the highest specific range (nautical miles per unit of fuel) can be achieved. This altitude maximizes fuel efficiency and range for a given aircraft mass."
+    },
+    {
+      "id": "19",
+      "question": "The maximum operating altitude for a certain aeroplane with a pressurized cabin:",
+      "question_type": "MCQ",
+      "options": [
+        "a. is dependent on aerodynamic ceiling",
+        "b. is dependent on the OAT",
+        "c. is only certified for four-engine aeroplanes",
+        "d. is the highest pressure altitude certified for normal operation"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "The maximum operating altitude for an aeroplane with a pressurized cabin is the highest pressure altitude certified for normal operation. This is determined by the aircraft's certification and may be limited by structural, aerodynamic, or pressurization system capabilities."
+    },
+    {
+      "id": "20",
+      "question": "Why are 'step climbs' used on long distance flights?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Step climbs do not have any special purpose for jet aeroplanes; they are used for piston engine aeroplanes only",
+        "b. To respect ATC flight level constraints",
+        "c. To fly as close as possible to the optimum altitude as aeroplane mass reduces",
+        "d. Step climbs are only justified if, at the higher altitude, less headwind or more tailwind can be expected"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "Step climbs are used on long distance flights to fly as close as possible to the optimum altitude as aeroplane mass reduces. As fuel is burned, the optimum altitude increases. Step climbs allow the aircraft to progressively climb to higher, more efficient altitudes throughout the flight."
+    },
+    {
+      "id": "21",
+      "question": "Long range cruise (LRC) instead of best range speed (MRC) is selected because LRC:",
+      "question_type": "MCQ",
+      "options": [
+        "a. is 4% faster and achieves 99% of maximum specific range in zero wind",
+        "b. is the speed for best range",
+        "c. is the speed for best economy",
+        "d. gives higher specific range with tailwind"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Long range cruise (LRC) is selected instead of maximum range cruise (MRC) because LRC is approximately 4% faster than MRC and achieves 99% of maximum specific range in zero wind. This provides a good balance between speed and fuel efficiency."
+    },
+    {
+      "id": "22",
+      "question": "What happens when an aeroplane climbs at a constant Mach number?",
+      "question_type": "MCQ",
+      "options": [
+        "a. IAS stays constant so there will be no problems",
+        "b. The \"1.3g\" altitude is exceeded, so Mach buffet will start immediately",
+        "c. The lift coefficient increase",
+        "d. The TAS continues to increase, which may lead to structural problems"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "When an aeroplane climbs at constant Mach number, as altitude increases and temperature decreases, the true airspeed (TAS) decreases. To maintain constant Mach number and the same lift (equal to weight), the lift coefficient (CL) must increase because the dynamic pressure decreases with altitude."
+    },
+    {
+      "id": "23",
+      "question": "The speed range between low speed buffet and high speed buffet:",
+      "question_type": "MCQ",
+      "options": [
+        "a. decreases with increasing mass and is independent of altitude",
+        "b. is only limiting at low altitudes",
+        "c. increases with increasing mass",
+        "d. narrows with increasing mass and increasing altitude"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "The speed range between low-speed buffet and high-speed buffet narrows with increasing mass and increasing altitude. At high altitudes and high masses, the buffet boundaries converge, leaving a smaller safe operating speed range. This is why high-altitude flight requires careful speed management."
+    },
+    {
+      "id": "24",
+      "question": "A jet aeroplane descends with constant Mach number. Which of the following speed limits is most likely to be exceeded first?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Maximum Operational Mach Number",
+        "b. Maximum Operating Speed",
+        "c. Never Exceed Speed",
+        "d. High Speed Buffet Limit"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "When descending at constant Mach number, as altitude decreases, temperature increases, causing true airspeed (TAS) to increase. The indicated airspeed (IAS) also increases. The Maximum Operating Speed (VMO) is an IAS limit, so it is most likely to be exceeded first as the aircraft descends."
+    },
+    {
+      "id": "25",
+      "question": "With respect to the optimum altitude, which of the following statements is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. An aeroplane always flies below the optimum altitude, because Mach buffet might occur",
+        "b. An aeroplane always flies at the optimum altitude because this is economically seen as the most attractive altitude",
+        "c. An aeroplane flies most of the time above the optimum altitude because this yields the most economic result",
+        "d. An aeroplane sometimes flies above or below the optimum altitude because optimum altitude increases continuously during flight"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "An aeroplane sometimes flies above or below the optimum altitude because the optimum altitude increases continuously during flight as fuel is burned and mass decreases. ATC constraints, weather, and other operational factors may prevent continuous adjustment to the optimum altitude."
+    },
+    {
+      "id": "26",
+      "question": "The aerodynamic ceiling:",
+      "question_type": "MCQ",
+      "options": [
+        "a. is the altitude at which the aeroplane reaches $50~ft/min$",
+        "b. is the altitude at which the speeds for low speed buffet and for high speed buffet are the same",
+        "c. depends upon thrust setting and increases with increasing thrust",
+        "d. is the altitude at which the best rate of climb theoretically is zero"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The aerodynamic ceiling (also called the coffin corner) is the altitude at which the speeds for low-speed buffet and high-speed buffet are the same. At this altitude, there is no safe operating speed range - any speed will result in buffet. This is a purely aerodynamic limitation."
+    },
+    {
+      "id": "27",
+      "question": "An aeroplane operating under the 180 minutes ETOPS rule may be up to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 180 minutes flying time to a suitable airport in still air with one engine inoperative",
+        "b. 180 minutes flying time to a suitable airport under the prevailing weather condition with one engine inoperative",
+        "c. 180 minutes flying time from suitable airport in still air at a normal cruising speed",
+        "d. 90 minutes flying time from the first en route airport and another 90 minutes from the second en route airport in still air with one engine inoperative"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "An aeroplane operating under the 180 minutes ETOPS rule may be up to 180 minutes flying time to a suitable airport in still air with one engine inoperative. This means that at any point along the route, there must be a suitable airport within 180 minutes of one-engine-out flight time."
+    },
+    {
+      "id": "28",
+      "question": "If the climb speed schedule is changed from 280/.74 to $290/.74$ the new crossover altitude is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. unchanged",
+        "b. only affected by the aeroplane gross mass",
+        "c. lower",
+        "d. higher"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "If the climb speed schedule is changed from 280/.74 to 290/.74 (increasing the IAS from 280 to 290 kt while maintaining Mach 0.74), the crossover altitude (where IAS limit transitions to Mach limit) will be higher. A higher IAS means the aircraft can climb higher before the Mach limit becomes limiting."
+    },
+    {
+      "id": "29",
+      "question": "The drift down procedure specifies requirements concerning the:",
+      "question_type": "MCQ",
+      "options": [
+        "a. engine power at the altitude at which engine failure occurs",
+        "b. climb gradient during the descent to the net level-off altitude",
+        "c. weight during landing at the alternate",
+        "d. obstacle clearance during descent to the net level-off altitude"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "The drift down procedure specifies requirements concerning obstacle clearance during descent to the net level-off altitude. After an engine failure at cruising altitude, the aircraft must descend to a lower altitude where it can maintain level flight. During this descent, the aircraft must clear all obstacles by specified margins."
+    },
+    {
+      "id": "30",
+      "question": "For this question use Figure 4.24 in CAP 698 Section 4. With regard to the drift down performance of the twin jet aeroplane, why does the curve representing 35000 kg gross mass in the chart for drift down net profiles start at approximately 3 minutes at FL370?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Because at this mass the engines slow down at a slower rate after failure, there is still some thrust left during four minutes",
+        "b. Due to higher TAS at this mass it takes more time to develop the optimal rate of descent, because of the inertia involved",
+        "c. All the curves start at the same point, which is situated outside the chart",
+        "d. Because at this mass it takes about 3 minutes to decelerate to the optimum speed for drift down at the original cruising level"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "This question requires the use of Figure 4.24 in CAP 698 Section 4. At higher mass (35000 kg), the aircraft is flying faster at the cruising level. After engine failure, it takes approximately 3 minutes to decelerate from the cruise speed to the optimum speed for drift down at the original cruising level before beginning the descent."
+    },
+    {
+      "id": "31",
+      "question": "Which of the following statements is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. An engine failure at high cruising altitude will always result in a drift down, because it is not permitted to fly the same altitude as with all engines operating",
+        "b. When determining the obstacle clearance during drift down, fuel dumping may be taken into account",
+        "c. The drift down regulations require a minimum descent angle after an engine failure at cruising altitude",
+        "d. The drift down procedure requires a minimum obstacle clearance of 35 ft"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "When determining the obstacle clearance during drift down, fuel dumping may be taken into account. Fuel dumping reduces aircraft mass, which improves climb performance and allows the aircraft to maintain a higher altitude or clear obstacles more easily during drift down."
+    },
+    {
+      "id": "32",
+      "question": "The drift down requirements are based on:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the actual engine thrust output at the altitude of engine failure",
+        "b. the maximum flight path gradient during the descent",
+        "c. the landing mass limit at the alternate",
+        "d. the obstacle clearance during a descent to the new cruising altitude if an engine has failed"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "The drift down requirements are based on the obstacle clearance during a descent to the new cruising altitude if an engine has failed. The aircraft must be able to descend from the engine failure altitude to the one-engine-out maximum altitude while maintaining specified obstacle clearance margins."
+    },
+    {
+      "id": "33",
+      "question": "If the level-off altitude is below the obstacle clearance altitude during a drift down procedure:",
+      "question_type": "MCQ",
+      "options": [
+        "a. fuel jettisoning should be started at the beginning of drift down",
+        "b. the recommended drift down speed should be disregarded and it should be flown at the stall speed plus 10 kt",
+        "c. fuel jettisoning should be started when the obstacle clearance altitude is reached",
+        "d. the drift down should be flown with flaps in the approach configuration"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "If the level-off altitude is below the obstacle clearance altitude during a drift down procedure, fuel jettisoning should be started at the beginning of drift down. Reducing mass improves climb performance, allowing the aircraft to maintain a higher altitude and clear obstacles."
+    },
+    {
+      "id": "34",
+      "question": "After engine failure the aeroplane is unable to maintain its cruising altitude. What is the procedure which should be applied?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Emergency descent procedure",
+        "b. ETOPS",
+        "c. Long range cruise descent",
+        "d. Drift down procedure"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "After engine failure, if the aeroplane is unable to maintain its cruising altitude, the drift down procedure should be applied. This involves descending at the optimum speed to a lower altitude where the aircraft can maintain level flight with the remaining engines, while ensuring obstacle clearance."
+    },
+    {
+      "id": "35",
+      "question": "For this question use Figure 4.24 of CAP 698 Section 4. With regard to the drift down performance of the twin jet aeroplane, what is meant by \"equivalent gross weight at engine failure\"?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The increment accounts for the higher fuel flow at higher temperatures",
+        "b. The equivalent gross weight at engine failure is the actual gross weight corrected for OAT higher than $ISA+10^{\\circ}C$",
+        "c. The increment represents fuel used before engine failure",
+        "d. This gross weight accounts for the lower Mach number at higher temperatures"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "This question requires the use of Figure 4.24 of CAP 698 Section 4. The equivalent gross weight at engine failure is the actual gross weight corrected for OAT higher than ISA+10°C. Higher temperatures reduce engine performance and climb capability, so the equivalent weight accounts for this performance degradation."
+    },
+    {
+      "id": "36",
+      "question": "'Drift down' is the procedure to be applied:",
+      "question_type": "MCQ",
+      "options": [
+        "a. to conduct a visual approach if VASI is available",
+        "b. after engine failure if the aeroplane is above the one engine out maximum altitude",
+        "c. after cabin depressurization",
+        "d. to conduct an instrument approach at the alternate"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "Drift down is the procedure to be applied after engine failure if the aeroplane is above the one-engine-out maximum altitude. The aircraft must descend to an altitude where it can maintain level flight with the remaining engines while ensuring obstacle clearance."
+    },
+    {
+      "id": "37",
+      "question": "In a twin-engine jet aircraft with six passenger seats, and a maximum certified take-off mass of 5650 kg, what is the required en route obstacle clearance, with one engine inoperative during drift down towards the alternate airport?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2000 ft",
+        "b. 1500 ft",
+        "c. 1000 ft",
+        "d. 50 ft or half the wingspan"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "For a twin-engine jet aircraft with one engine inoperative during drift down towards the alternate airport, the required en route obstacle clearance is 2000 ft. This applies to aircraft in the transport category and ensures adequate clearance over terrain and obstacles during the drift down procedure."
+    },
+    {
+      "id": "38",
+      "question": "Below the optimum cruise altitude:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the IAS for long range cruise increases continuously with decreasing altitude",
+        "b. the Mach number for long range cruise decreases continuously with decreasing altitude",
+        "c. the Mach number for long range cruise decreases continuously with an increasing mass at a constant altitude",
+        "d. the Mach number for long range cruise increases continuously with decreasing mass at a constant altitude"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "Below the optimum cruise altitude, the Mach number for long range cruise decreases continuously with decreasing altitude. At lower altitudes, the air density is higher, so the aircraft can achieve the same lift at a lower Mach number. The LRC Mach number is optimized for each altitude."
+    },
+    {
+      "id": "39",
+      "question": "How does the long range cruise speed (LRC) change?",
+      "question_type": "MCQ",
+      "options": [
+        "a. LRC Mach number decreases with decreasing altitude",
+        "b. LRC Mach number decreases with increasing altitude",
+        "c. LRC indicated airspeed increases with increasing altitude",
+        "d. LRC true airspeed decreases with increasing altitude"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The LRC Mach number decreases with decreasing altitude. At lower altitudes, the air density is higher, allowing the aircraft to achieve the same lift at a lower Mach number while maintaining optimal fuel efficiency. The LRC speed is optimized for each altitude."
+    },
+    {
+      "id": "40",
+      "question": "If a flight is performed with a higher \"cost index\" at a given mass, which of the following will occur?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A better maximum range",
+        "b. A higher cruise Mach number",
+        "c. A lower cruise Mach number",
+        "d. A better long range"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "If a flight is performed with a higher Cost Index at a given mass, a higher cruise Mach number will result. A higher Cost Index places more value on time than fuel, so the aircraft will fly faster, trading some fuel efficiency for reduced flight time."
+    },
+    {
+      "id": "41",
+      "question": "The effect of flying at the long range cruise speed instead of the maximum range cruise speed is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. fuel flow is reduced and speed stability is improved",
+        "b. fuel flow is reduced and speed stability is reduced",
+        "c. fuel flow is increased and speed stability is improved",
+        "d. fuel flow is increased and speed stability is reduced"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "The effect of flying at long range cruise (LRC) speed instead of maximum range cruise (MRC) speed is that fuel flow is increased (because LRC is faster) and speed stability is improved. LRC provides better speed stability and is less sensitive to small speed changes, making it easier for pilots to maintain."
+    },
+    {
+      "id": "42",
+      "question": "An aircraft's descent speed schedule is M 0.74 / 250 KIAS. During the descent from 30000 ft to sea level, the angle of attack will:",
+      "question_type": "MCQ",
+      "options": [
+        "a. decrease, then remain constant",
+        "b. increase, then remain constant",
+        "c. remain constant",
+        "d. decrease"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "With a descent speed schedule of M 0.74 / 250 KIAS, the aircraft descends at constant Mach 0.74 until reaching 250 KIAS, then maintains 250 KIAS. During the Mach-constant phase, as altitude decreases and temperature increases, TAS and IAS increase, so the angle of attack decreases. Once at 250 KIAS, the angle of attack remains constant."
+    },
+    {
+      "id": "43",
+      "question": "During a drift down following engine failure, what would be the correct procedure to follow?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Begin fuel jettison immediately, commensurate with having required reserves at destination",
+        "b. Disregard the flight manual and descend at $V_{s}+10$ kt to the destination",
+        "c. Do not commence fuel jettison until en route obstacles have been cleared",
+        "d. Descend in the approach configuration"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "During a drift down following engine failure, the correct procedure is to begin fuel jettison immediately, commensurate with having required reserves at destination. Reducing mass improves climb performance and allows the aircraft to maintain a higher altitude, improving obstacle clearance and overall safety."
+    }
+  ]
+}
+

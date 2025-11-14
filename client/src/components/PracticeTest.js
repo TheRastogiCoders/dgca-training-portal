@@ -28,7 +28,7 @@ const PracticeTest = () => {
       ],
       // Simpler, more neutral labels for a less "high level" feel
       stats: { questions: "Varies", ai: "AI", adaptive: "On" },
-      onClick: () => navigate('/practice-test/ai')
+      onClick: () => navigate('/pyq/ai')
     }
   ];
 
@@ -292,53 +292,53 @@ const PracticeTest = () => {
         <SiteSidebar />
 
         {/* Main Content */}
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-24">
+        <main className="flex-1 p-4 sm:p-6 md:p-8 pt-20 sm:pt-24 md:pt-24 pb-20 sm:pb-24 md:pb-8 md:ml-56 lg:ml-64 xl:ml-72">
           <div className="max-w-6xl mx-auto w-full">
             {/* Hero */}
-            <div className="text-center mb-10 md:mb-14">
-              <h1 className="text-3xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-3">
+            <div className="text-center mb-6 sm:mb-8 md:mb-12">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 tracking-tight mb-3 sm:mb-4 px-2">
                 PYQ Practice
               </h1>
-              <div className="flex flex-col md:flex-row items-center justify-center gap-3">
-                <p className="text-sm md:text-lg text-gray-800 max-w-3xl mx-auto bg-white/70 px-4 py-2 rounded-full inline-block shadow-sm">
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-4 px-2">
+                <p className="text-sm sm:text-base md:text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
                   Master DGCA exams with curated Previous Year Questions, adaptive sessions, and clear progress insights.
                 </p>
                 {!isAuthenticated && (
-                  <div className="inline-flex items-center px-3 py-1.5 bg-yellow-100 border border-yellow-300 rounded-full">
-                    <span className="text-yellow-800 font-medium text-xs md:text-sm">🔒 Login required to access PYQ practice</span>
+                  <div className="inline-flex items-center px-3 sm:px-4 py-1.5 sm:py-2 bg-yellow-50 border border-yellow-200 rounded-lg shadow-sm whitespace-nowrap">
+                    <span className="text-yellow-700 font-medium text-xs sm:text-sm">🔒 Login required to access PYQ practice</span>
                   </div>
                 )}
               </div>
             </div>
 
             {/* Main grid */}
-            <div className="grid lg:grid-cols-2 gap-6 md:gap-8 mb-10 md:mb-14">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 md:gap-8 mb-8 sm:mb-10 md:mb-14">
               {/* Left: Primary PYQ card */}
-              <div>
+              <div className="w-full">
                 {testTypes.map((test) => (
                   <Card
                     key={test.id}
-                    className="p-6 md:p-8 cursor-pointer hover:shadow-2xl transition-all duration-300 group backdrop-blur bg-white/85"
+                    className="p-5 sm:p-6 md:p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group bg-white border border-gray-200 rounded-xl"
                     onClick={() => handleTestClick(test)}
                   >
-                    <div className="flex items-start md:items-center md:space-x-6 flex-col md:flex-row text-center md:text-left">
-                      <div className={`w-16 h-16 md:w-20 md:h-20 bg-gradient-to-r ${test.color} rounded-2xl flex items-center justify-center text-white text-3xl md:text-4xl mx-auto md:mx-0 mb-4 md:mb-0 group-hover:scale-110 transition-transform duration-300`}>
+                    <div className="flex flex-col text-center md:text-left">
+                      <div className={`w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-gradient-to-r ${test.color} rounded-xl flex items-center justify-center text-white text-2xl sm:text-3xl md:text-4xl mx-auto md:mx-0 mb-3 sm:mb-4 group-hover:scale-110 transition-transform duration-300`}>
                         {test.icon}
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-1 md:mb-2 group-hover:text-blue-600 transition-colors">
+                        <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-2 sm:mb-2 group-hover:text-blue-600 transition-colors">
                           {test.title}
                         </h3>
-                        <p className="text-sm md:text-base text-gray-600 mb-3 md:mb-4">{test.description}</p>
-                        <div className="grid grid-cols-3 gap-3 md:gap-4 mb-4">
+                        <p className="text-xs sm:text-sm md:text-base text-gray-600 mb-3 sm:mb-4 leading-relaxed">{test.description}</p>
+                        <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 sm:gap-4 mb-4 sm:mb-5">
                           {Object.entries(test.stats).map(([key, value]) => (
-                            <div key={key} className="text-center">
-                              <div className="text-base md:text-lg font-bold text-blue-600">{value}</div>
+                            <div key={key} className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
+                              <div className="text-sm sm:text-base md:text-lg font-bold text-blue-600">{value}</div>
                               <div className="text-xs text-gray-500 capitalize">{key}</div>
                             </div>
                           ))}
                         </div>
-                        <button className={`w-full md:w-auto py-2 md:py-2.5 px-5 md:px-6 bg-gradient-to-r ${test.color} text-white font-semibold rounded-lg shadow hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-sm`}>
+                        <button className={`w-full py-2.5 sm:py-3 px-4 sm:px-6 bg-gradient-to-r ${test.color} text-white font-semibold text-sm sm:text-base rounded-lg shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2`}>
                           Start PYQ Practice
                         </button>
                       </div>
@@ -348,23 +348,34 @@ const PracticeTest = () => {
               </div>
 
               {/* Right: Highlights / How it works */}
-              <div className="space-y-4">
-                <Card className="p-6 md:p-8">
-                  <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">Why practice PYQs?</h3>
-                  <ul className="space-y-3 text-sm text-gray-700">
-                    <li className="flex items-start"><span className="text-green-600 mr-2">✓</span> Learn the exact question patterns used in DGCA exams</li>
-                    <li className="flex items-start"><span className="text-green-600 mr-2">✓</span> Adaptive sets that focus on your weak areas</li>
-                    <li className="flex items-start"><span className="text-green-600 mr-2">✓</span> Instant explanations to convert mistakes into learning</li>
-                    <li className="flex items-start"><span className="text-green-600 mr-2">✓</span> Track performance over time with clean analytics</li>
+              <div className="space-y-4 sm:space-y-6 w-full">
+                <Card className="p-5 sm:p-6 md:p-8 bg-white border border-gray-200 rounded-xl">
+                  <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4">Why practice PYQs?</h3>
+                  <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm md:text-base text-gray-700">
+                    <li className="flex items-start gap-2">
+                      <span className="text-green-600 font-bold flex-shrink-0 mt-0.5">✓</span>
+                      <span className="flex-1">Learn the exact question patterns used in DGCA exams</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-green-600 font-bold flex-shrink-0 mt-0.5">✓</span>
+                      <span className="flex-1">Adaptive sets that focus on your weak areas</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-green-600 font-bold flex-shrink-0 mt-0.5">✓</span>
+                      <span className="flex-1">Instant explanations to convert mistakes into learning</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-green-600 font-bold flex-shrink-0 mt-0.5">✓</span>
+                      <span className="flex-1">Track performance over time with clean analytics</span>
+                    </li>
                   </ul>
                 </Card>
-                <Card className="p-6 md:p-8">
-                  <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">How it works</h3>
-                  <ol className="space-y-3 text-sm text-gray-700 list-decimal list-inside">
-                    <li>Select PYQ Practice and choose your subject or mixed set</li>
-                    <li>Answer timed questions with instant feedback</li>
-                    <li>Review solutions and focus topics to improve</li>
-                    <li>See your progress in the analytics below</li>
+                <Card className="p-5 sm:p-6 md:p-8 bg-white border border-gray-200 rounded-xl">
+                  <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4">How it works</h3>
+                  <ol className="space-y-2 sm:space-y-3 text-xs sm:text-sm md:text-base text-gray-700 list-decimal list-inside">
+                    <li className="pl-1 sm:pl-2 leading-relaxed">Select PYQ Practice and choose your subject or mixed set</li>
+                    <li className="pl-1 sm:pl-2 leading-relaxed">Answer timed questions with instant feedback</li>
+                    <li className="pl-1 sm:pl-2 leading-relaxed">Review solutions and focus topics to improve</li>
                   </ol>
                 </Card>
               </div>
@@ -372,37 +383,37 @@ const PracticeTest = () => {
 
             {/* Results Section - Only show if authenticated */}
             {isAuthenticated && (
-              <div className="space-y-6 md:space-y-8">
+              <div className="space-y-4 sm:space-y-6 md:space-y-8">
                 {/* Quick Stats Overview */}
-                <Card className="p-4 md:p-8 bg-gradient-to-r from-blue-50 to-purple-50 border-2 border-blue-200">
-                  <div className="text-center mb-6 md:mb-8">
-                    <h3 className="text-lg md:text-2xl font-bold text-gray-900 mb-2">Your Performance Overview</h3>
-                    <p className="text-sm md:text-base text-gray-600">Track your progress and improvement</p>
+                <Card className="p-4 sm:p-6 md:p-8 bg-gradient-to-r from-blue-50 to-purple-50 border-2 border-blue-200 rounded-xl">
+                  <div className="text-center mb-4 sm:mb-6 md:mb-8">
+                    <h3 className="text-base sm:text-lg md:text-2xl font-bold text-gray-900 mb-1 sm:mb-2">Your Performance Overview</h3>
+                    <p className="text-xs sm:text-sm md:text-base text-gray-600">Track your progress and improvement</p>
                   </div>
                   
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
                     <div className="text-center">
-                      <div className="text-2xl md:text-3xl font-bold text-blue-600 mb-1 md:mb-2">{stats.tests}</div>
-                      <div className="text-xs md:text-sm text-gray-600">Tests Taken</div>
+                      <div className="text-xl sm:text-2xl md:text-3xl font-bold text-blue-600 mb-1 sm:mb-2">{stats.tests}</div>
+                      <div className="text-xs sm:text-sm text-gray-600">Tests Taken</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-2xl md:text-3xl font-bold text-green-600 mb-1 md:mb-2">{stats.avg}%</div>
-                      <div className="text-xs md:text-sm text-gray-600">Average Score</div>
+                      <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-600 mb-1 sm:mb-2">{stats.avg}%</div>
+                      <div className="text-xs sm:text-sm text-gray-600">Average Score</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-3xl font-bold text-purple-600 mb-2">{stats.best}%</div>
-                      <div className="text-gray-600">Best Score</div>
+                      <div className="text-xl sm:text-2xl md:text-3xl font-bold text-purple-600 mb-1 sm:mb-2">{stats.best}%</div>
+                      <div className="text-xs sm:text-sm text-gray-600">Best Score</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-3xl font-bold text-orange-600 mb-2">{stats.streakDays}</div>
-                      <div className="text-gray-600">Day Streak</div>
+                      <div className="text-xl sm:text-2xl md:text-3xl font-bold text-orange-600 mb-1 sm:mb-2">{stats.streakDays}</div>
+                      <div className="text-xs sm:text-sm text-gray-600">Day Streak</div>
                     </div>
                   </div>
                   
                   {stats.improvement !== 0 && (
-                    <div className="mt-6 text-center">
-                      <div className={`inline-flex items-center px-4 py-2 rounded-full ${stats.improvement > 0 ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
-                        <svg className={`w-5 h-5 mr-2 ${stats.improvement > 0 ? 'text-green-600' : 'text-red-600'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="mt-4 sm:mt-6 text-center">
+                      <div className={`inline-flex items-center px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm ${stats.improvement > 0 ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
+                        <svg className={`w-4 h-4 sm:w-5 sm:h-5 mr-1 sm:mr-2 ${stats.improvement > 0 ? 'text-green-600' : 'text-red-600'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={stats.improvement > 0 ? "M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" : "M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"} />
                         </svg>
                         {stats.improvement > 0 ? '+' : ''}{stats.improvement}% Improvement
@@ -412,17 +423,17 @@ const PracticeTest = () => {
                 </Card>
 
                 {/* Detailed Analytics */}
-                <div className="grid lg:grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
                   {/* Recent Tests */}
-                  <Card className="p-8">
-                    <div className="flex items-center justify-between mb-6">
-                      <h3 className="text-xl font-bold text-gray-900">Recent Tests</h3>
-                      <div className="flex items-center space-x-3">
+                  <Card className="p-4 sm:p-6 md:p-8 rounded-xl">
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-4 sm:mb-6 gap-3 sm:gap-0">
+                      <h3 className="text-lg sm:text-xl font-bold text-gray-900">Recent Tests</h3>
+                      <div className="flex flex-wrap items-center gap-2 sm:gap-3">
                         <button 
                           onClick={fetchResults}
-                          className="text-blue-600 hover:text-blue-700 font-medium text-sm flex items-center"
+                          className="text-blue-600 hover:text-blue-700 font-medium text-xs sm:text-sm flex items-center"
                         >
-                          <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-3 h-3 sm:w-4 sm:h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                           </svg>
                           Refresh
@@ -507,59 +518,59 @@ const PracticeTest = () => {
                               alert('Error creating test data: ' + e.message);
                             }
                           }}
-                          className="text-green-600 hover:text-green-700 font-medium text-sm"
+                          className="text-green-600 hover:text-green-700 font-medium text-xs sm:text-sm"
                         >
                           Create Test Data
                         </button>
-                        <button className="text-blue-600 hover:text-blue-700 font-medium text-sm">
+                        <button className="text-blue-600 hover:text-blue-700 font-medium text-xs sm:text-sm">
                           View All
                         </button>
                       </div>
                     </div>
                     
-                    <div className="space-y-4">
+                    <div className="space-y-3 sm:space-y-4">
                       {loadingResults ? (
-                        <div className="text-center text-gray-600 py-8">
-                          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-4"></div>
-                          Loading your results...
+                        <div className="text-center text-gray-600 py-6 sm:py-8">
+                          <div className="animate-spin rounded-full h-6 w-6 sm:h-8 sm:w-8 border-b-2 border-blue-600 mx-auto mb-3 sm:mb-4"></div>
+                          <p className="text-sm sm:text-base">Loading your results...</p>
                         </div>
                       ) : recentTests.length === 0 ? (
-                        <div className="text-center text-gray-600 py-8">
-                          <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg className="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <div className="text-center text-gray-600 py-6 sm:py-8">
+                          <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                            <svg className="w-6 h-6 sm:w-8 sm:h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                             </svg>
                           </div>
-                          <p className="text-lg font-medium mb-2">No tests taken yet</p>
-                          <p className="text-sm">Start your first practice test to see results here!</p>
+                          <p className="text-base sm:text-lg font-medium mb-1 sm:mb-2">No tests taken yet</p>
+                          <p className="text-xs sm:text-sm">Start your first practice test to see results here!</p>
                         </div>
                       ) : (
                         recentTests.map((test, index) => (
-                          <div key={index} className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-                            <div className="flex items-center justify-between mb-2">
-                              <div>
-                                <div className="flex items-center mb-1">
-                                  <h4 className="font-semibold text-gray-900">{test.subject}</h4>
+                          <div key={index} className="p-3 sm:p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-0 mb-2">
+                              <div className="flex-1 min-w-0">
+                                <div className="flex flex-wrap items-center gap-1 sm:gap-2 mb-1">
+                                  <h4 className="font-semibold text-sm sm:text-base text-gray-900 truncate">{test.subject}</h4>
                                   {test.testType === 'ai' && (
-                                    <span className="ml-2 px-2 py-1 bg-purple-100 text-purple-700 text-xs font-medium rounded-full">
+                                    <span className="px-2 py-0.5 sm:py-1 bg-purple-100 text-purple-700 text-xs font-medium rounded-full whitespace-nowrap">
                                       AI Practice
                                     </span>
                                   )}
                                   {test.testType === 'admin' && (
-                                    <span className="ml-2 px-2 py-1 bg-blue-100 text-blue-700 text-xs font-medium rounded-full">
+                                    <span className="px-2 py-0.5 sm:py-1 bg-blue-100 text-blue-700 text-xs font-medium rounded-full whitespace-nowrap">
                                       Admin Analysis
                                     </span>
                                   )}
                                 </div>
-                                <p className="text-sm text-gray-600">
+                                <p className="text-xs sm:text-sm text-gray-600 truncate">
                                   {test.testType === 'ai' ? 'AI Generated' : test.testType} • {test.questions} questions • {test.date}
                                 </p>
                               </div>
-                              <div className="text-right">
-                                <div className={`text-2xl font-bold ${getScoreColor(test.score).split(' ')[0]}`}>
+                              <div className="text-left sm:text-right flex-shrink-0">
+                                <div className={`text-xl sm:text-2xl font-bold ${getScoreColor(test.score).split(' ')[0]}`}>
                                   {test.score}%
                                 </div>
-                                <div className="text-sm text-gray-500">
+                                <div className="text-xs sm:text-sm text-gray-500">
                                   {test.timeSpent ? formatTime(test.timeSpent) : 'N/A'}
                                 </div>
                               </div>
@@ -577,33 +588,33 @@ const PracticeTest = () => {
                   </Card>
 
                   {/* Subject Performance */}
-                  <Card className="p-8">
-                    <h3 className="text-xl font-bold text-gray-900 mb-6">Subject Performance</h3>
+                  <Card className="p-4 sm:p-6 md:p-8 rounded-xl">
+                    <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-4 sm:mb-6">Subject Performance</h3>
                     
-                    <div className="space-y-4">
+                    <div className="space-y-3 sm:space-y-4">
                       {stats.bySubject.length === 0 ? (
-                        <div className="text-center text-gray-600 py-8">
-                          <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg className="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <div className="text-center text-gray-600 py-6 sm:py-8">
+                          <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                            <svg className="w-6 h-6 sm:w-8 sm:h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                             </svg>
                           </div>
-                          <p className="text-lg font-medium mb-2">No performance data yet</p>
-                          <p className="text-sm">Take tests to see your subject-wise performance</p>
+                          <p className="text-base sm:text-lg font-medium mb-1 sm:mb-2">No performance data yet</p>
+                          <p className="text-xs sm:text-sm">Take tests to see your subject-wise performance</p>
                         </div>
                       ) : (
                         stats.bySubject.map((subject) => (
-                          <div key={subject.name} className="p-4 bg-gray-50 rounded-lg">
-                            <div className="flex items-center justify-between mb-2">
-                              <h4 className="font-semibold text-gray-900">{subject.name}</h4>
-                              <div className="text-right">
-                                <div className="text-lg font-bold text-blue-600">{subject.value}%</div>
-                                <div className="text-sm text-gray-500">{subject.count} tests</div>
+                          <div key={subject.name} className="p-3 sm:p-4 bg-gray-50 rounded-lg">
+                            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-0 mb-2">
+                              <h4 className="font-semibold text-sm sm:text-base text-gray-900 truncate">{subject.name}</h4>
+                              <div className="text-left sm:text-right flex-shrink-0">
+                                <div className="text-base sm:text-lg font-bold text-blue-600">{subject.value}%</div>
+                                <div className="text-xs sm:text-sm text-gray-500">{subject.count} tests</div>
                               </div>
                             </div>
-                            <div className="w-full bg-gray-200 rounded-full h-3">
+                            <div className="w-full bg-gray-200 rounded-full h-2 sm:h-3">
                               <div 
-                                className={`h-3 rounded-full ${subject.value >= 80 ? 'bg-green-500' : subject.value >= 60 ? 'bg-yellow-500' : 'bg-red-500'}`} 
+                                className={`h-2 sm:h-3 rounded-full ${subject.value >= 80 ? 'bg-green-500' : subject.value >= 60 ? 'bg-yellow-500' : 'bg-red-500'}`} 
                                 style={{ width: `${subject.value}%` }}
                               ></div>
                             </div>
@@ -616,16 +627,16 @@ const PracticeTest = () => {
 
                 {/* Test Type Performance */}
                 {stats.byTestType.length > 0 && (
-                  <Card className="p-8">
-                    <h3 className="text-xl font-bold text-gray-900 mb-6">Performance by Test Type</h3>
+                  <Card className="p-4 sm:p-6 md:p-8 rounded-xl">
+                    <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-4 sm:mb-6">Performance by Test Type</h3>
                     
-                    <div className="grid md:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
                       {stats.byTestType.map((type) => (
-                        <div key={type.name} className="p-6 bg-gray-50 rounded-lg text-center">
-                          <div className="text-2xl font-bold text-blue-600 mb-2">{type.value}%</div>
-                          <div className="font-semibold text-gray-900 mb-1">{type.name}</div>
-                          <div className="text-sm text-gray-600">{type.count} tests</div>
-                          <div className="w-full bg-gray-200 rounded-full h-2 mt-3">
+                        <div key={type.name} className="p-4 sm:p-6 bg-gray-50 rounded-lg text-center">
+                          <div className="text-xl sm:text-2xl font-bold text-blue-600 mb-1 sm:mb-2">{type.value}%</div>
+                          <div className="font-semibold text-sm sm:text-base text-gray-900 mb-1">{type.name}</div>
+                          <div className="text-xs sm:text-sm text-gray-600">{type.count} tests</div>
+                          <div className="w-full bg-gray-200 rounded-full h-2 mt-2 sm:mt-3">
                             <div 
                               className={`h-2 rounded-full ${type.value >= 80 ? 'bg-green-500' : type.value >= 60 ? 'bg-yellow-500' : 'bg-red-500'}`} 
                               style={{ width: `${type.value}%` }}

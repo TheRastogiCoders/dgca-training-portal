@@ -1,0 +1,64 @@
+{
+  "book_name": "CAE ATPL 7. Flight Planning & Monitoring",
+  "chapter_number": "4",
+  "chapter_title": "Single-engine Piston Aeroplane (SEP)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Refer to CAP 697 SEP1, fig 2.1\nGiven: Aerodrome elevation 2500 ft,\nOAT +10°C\nInitial weight 3500 lb\nClimb to FL140 OAT -5°C\nWhat is the climb time, fuel, NAM?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 22 min 6.5 g 46 NAM",
+        "b. 24 min 7.5 g 50 NAM",
+        "c. 2 min 1.0 g 4 NAM",
+        "d. 26 min 8.5 g 54 NAM"
+      ],
+      "answer": "Answer requires CAP 697 SEP1, fig 2.1",
+      "solution": "Answer requires CAP 697 SEP1, fig 2.1",
+      "explanation": "This question requires reference to CAP 697 SEP1, Figure 2.1 to determine climb performance parameters including time, fuel consumption, and Nautical Air Miles (NAM) for the given conditions."
+    },
+    {
+      "id": "2",
+      "question": "Refer to CAP 697 SEP1, fig 2.2.3\nGiven FL75\nOAT +10°C\nLean mixture\n2300 rpm\nFind fuel flow (GPH) gallons per hour and TAS.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 68.5 GPH 160 kt",
+        "b. 11.6 GPH 160 kt",
+        "c. 71.1 GPH 143 kt",
+        "d. 11.6 GPH 143 kt"
+      ],
+      "answer": "Answer requires CAP 697 SEP1, fig 2.2.3",
+      "solution": "Answer requires CAP 697 SEP1, fig 2.2.3",
+      "explanation": "This question requires reference to CAP 697 SEP1, Figure 2.2.3 to determine fuel flow in gallons per hour (GPH) and True Airspeed (TAS) for the specified flight level, outside air temperature, mixture setting, and RPM."
+    },
+    {
+      "id": "3",
+      "question": "Refer to CAP 697 SEP1 fig 2.4\nGiven: Aeroplane mass at start up 3663 lb\nFuel load (density 6 lb/gal) 74 gal\nTake-off altitude sea level\nHeadwind 40 kt\nCruise altitude 8000 ft\nPower settings full throttle 2300 rpm\n20°C lean of peak\nCalculate the range",
+      "question_type": "MCQ",
+      "options": [
+        "a. 548 NM",
+        "b. 844 NM",
+        "c. 730 NM",
+        "d. 633 NM"
+      ],
+      "answer": "Answer requires CAP 697 SEP1 fig 2.4",
+      "solution": "Answer requires CAP 697 SEP1 fig 2.4",
+      "explanation": "This question requires reference to CAP 697 SEP1, Figure 2.4 to calculate the range considering aircraft mass, fuel load, take-off conditions, wind component, cruise altitude, and power settings."
+    },
+    {
+      "id": "4",
+      "question": "Refer to CAP 697, SEP1, fig 2.5\nGiven FL75\nLean mixture\nFull throttle/ 2300 rpm\nTake-off fuel 444 lb\nTake-off from MSL\nFind endurance in hours",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 h 20 min",
+        "b. 4 h 42 min",
+        "c. 5 h 12 min",
+        "d. 5 h 23 min"
+      ],
+      "answer": "Answer requires CAP 697, SEP1, fig 2.5",
+      "solution": "Answer requires CAP 697, SEP1, fig 2.5",
+      "explanation": "This question requires reference to CAP 697 SEP1, Figure 2.5 to determine endurance (flight duration) based on flight level, mixture setting, power settings, fuel quantity, and take-off conditions."
+    }
+  ]
+}
+

@@ -1,0 +1,778 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "5",
+  "chapter_title": "Flight Crew Licensing",
+  "questions": [
+    {
+      "id": "1",
+      "question": "According to JAR-FCL class ratings shall be established for single-pilot aeroplanes not requiring a type rating including:",
+      "question_type": "MCQ",
+      "options": [
+        "a. all touring motor gliders.",
+        "b. all types of single-pilot, single-engine aeroplanes fitted with a turbojet engine.",
+        "c. microlights having fixed wings and moveable aerodynamic control surfaces acting in all three dimensions.",
+        "d. any other type of aeroplane if considered necessary."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "Which of the following is the privilege of the holder of a CPL(A)?",
+      "question_type": "MCQ",
+      "options": [
+        "a. To act as PIC of any aeroplane engaged in operations other than commercial air transportation.",
+        "b. To act as PIC of any aeroplane engaged in commercial air transportation.",
+        "c. To act as PIC of any aircraft certificated for single-pilot operation other than commercial air transportation.",
+        "d. To act as co-pilot of any aircraft engaged in commercial air transport operations."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "What age do you need to be to exercise the privileges of a CPL licence?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 18",
+        "b. 21",
+        "c. 16",
+        "d. 23"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "When you are over 60 and the holder of an ATPL(A), how often are you required to have a medical examination?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The 12 month period reduces to 6 months.",
+        "b. The 24 month period reduces to 12 months.",
+        "c. The 6 month period reduces to 3 months.",
+        "d. The 9 month period reduces to 3 months."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "You can use simulator hours towards the 1500 hours required for an ATPL. How are simulator hours limited?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Maximum of 100, not more than 15 in a procedural flight trainer.",
+        "b. Maximum of 100, not more than 30 in a procedural flight trainer.",
+        "c. Maximum of 100, not more than 25 in a procedural flight trainer.",
+        "d. Maximum of 100, not more than 50 in a procedural flight trainer."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "What is the night flying hours requirement for an ATPL(A) licence?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 75 hours PIC.",
+        "b. 100 hours PIC or co-pilot.",
+        "c. 100 hours PIC.",
+        "d. 75 hours PIC or co-pilot."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "One of the privileges of the holder of a CPL(A) is to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. act as co-pilot of aircraft in commercial air transport operations.",
+        "b. act as PIC of single engine aeroplanes in commercial air transport operations.",
+        "c. act as a flying instructor.",
+        "d. act as PIC of aeroplanes involved in operations other than commercial air transportation."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Included in the requirements for 1500 hours, an ATPL(A) holder must have:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 500 hours multi-pilot operations in transport, commuter or equivalent category aircraft.",
+        "b. 500 hours multi-pilot operations and 250 hours as PIC.",
+        "c. 500 hours multi-pilot operations including up to 150 hours flight engineering time.",
+        "d. 500 hours multi-pilot operations including 200 hours night time."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "When are you required to tell the authorities of an illness?",
+      "question_type": "MCQ",
+      "options": [
+        "a. After the period of 21 days of illness has elapsed.",
+        "b. On the 21st day of the illness.",
+        "c. After a month.",
+        "d. After medical has expired."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "To obtain a CPL(A), how many hours of cross-country flying are required?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 15 hrs.",
+        "b. 20 hrs.",
+        "c. 25 hrs.",
+        "d. 35 hrs."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "What medical is required for the issue of a CPL(A)?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Class 2.",
+        "b. As required by particular state.",
+        "c. Class 1.",
+        "d. JAR Class A (as from 1 Jan 2001)."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "The holder of a pilot licence when acting as co-pilot under supervision of the PIC and performing the functions and duties of the PIC shall be entitled to be credited:",
+      "question_type": "MCQ",
+      "options": [
+        "a. with 50% of the flight time towards the total time required for a higher grade of licence.",
+        "b. in full, but not more than 300 hrs towards the total time required for a higher grade of licence.",
+        "c. the flight time in full towards the total time required for a higher grade of licence.",
+        "d. the flight time in full towards the total time required for a higher grade of pilot licence according to the requirements of the licensing authority."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "For an ATPL(A), how many night hours are required?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 30",
+        "b. 75",
+        "c. 100",
+        "d. 150"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "For an ATPL, how many cross-country hours are required, and how many of these must be as pilot-in-command?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 200/100",
+        "b. 200/75",
+        "c. 150/75",
+        "d. 250/75"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "How long would you have to spend in a clinic or hospital before you would have to inform the authorities?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 24 hrs or more.",
+        "b. Not less than 20 days.",
+        "c. More than 12 hours.",
+        "d. 12 days or more."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "When you are a newly qualified flying instructor you have to be supervised by a qualified flying instructor.\nWhen will the period of supervision cease?",
+      "question_type": "MCQ",
+      "options": [
+        "a. When you have completed 100 hours instruction and sent 25 students solo.",
+        "b. Once you have passed a competency check.",
+        "c. When you have completed 25 hours instruction and sent 100 students solo.",
+        "d. When you have completed 100 hours solo."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "Between what ages can you exercise the privileges of an ATPL(A) on an unrestricted basis?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 21-60",
+        "b. 21-59",
+        "c. 18-59",
+        "d. 18-60"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "How long would a non-JAA licence be valid for if validated for use in a JAA state?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Not less than 6 months.",
+        "b. 12 months from the date of validation.",
+        "c. 12 months providing the licence is still valid in the State of Issue.",
+        "d. Not more than 3 months."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "Which of the following correctly identifies the cross-country hours requirement for a CPL(A)?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 100 hours PIC or SPIC.",
+        "b. 20 hours cross-country as PIC including a cross-country flight not less than 540 km (300 NM) in the course of which full stop landings are made at two different aerodromes.",
+        "c. 25 hours including at least one flight of 2 hours duration covering at least 300 NM and to include 2 full stop landings.",
+        "d. 10 hours solo with at least one flight over 300 NM with at least two full stop landings."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "What is the minimum age for a holder of a PPL?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 16",
+        "b. 17",
+        "c. 18",
+        "d. 21"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "What is the period of validity of a JAR-FCL class 2 medical?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 24 months until age 30, then 24 months until 50, then 12 months thereafter.",
+        "b. 24 months until age 30, then 12 months until 50, then 6 months thereafter.",
+        "c. 60 months until age 40, then 24 months until 50, then 12 months thereafter.",
+        "d. 60 months until age 30, then 24 months until 50, then 12 months thereafter."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "A PPL(A) or Commercial licence holder, before taking his/her Instrument Rating, must have completed .......... hours of cross-country of which ..........hours must be in an aeroplane?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 50 15",
+        "b. 50 10",
+        "c. 40 15",
+        "d. 40 10"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "A PPL(A) holder shall demonstrate competence for an IR(A) in a............ aircraft type with .?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Amphibian all engines running only",
+        "b. Seaplane one engine inoperative",
+        "c. Multi-engine one engine inoperative",
+        "d. Multi-engine all engines running"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "24",
+      "question": "Of the 1500 hours required experience for an ATPL(A).......... hours may be in a simulator but not more than ....... hours may be in a basic instrument trainer or basic procedure trainer.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 100 15",
+        "b. 100 20",
+        "c. 100 25",
+        "d. 75 25"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "25",
+      "question": "Which of the following types of aircraft requires a type rating?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Each type of multi-engine aircraft.",
+        "b. Each type of single-pilot multi-engine turbine.",
+        "c. Each type of micro-light with fixed wings and able to move its surfaces in three dimensions.",
+        "d. Each type of touring motor glider."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "26",
+      "question": "To have an unrestricted FI(A) rating and to instruct for the issue of a CPL(A) or a PPL(A), you must have a CPL(A) or:",
+      "question_type": "MCQ",
+      "options": [
+        "a. at least 250 hours as a pilot.",
+        "b. not less than 15 hours in the last 12 months on the relevant type.",
+        "c. at least 200 hours of flight instruction.",
+        "d. 200 hours flight time of which not less than 150 hours is PIC."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "27",
+      "question": "According to JAR-FCL, what classes of medical exist?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Class 1 only.",
+        "b. Classes 1 and 2.",
+        "c. Classes 1, 2 and 3.",
+        "d. Classes 1, 2, 3 and 4."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "28",
+      "question": "According to JAR-FCL, a single-engine class rating is valid for:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2 years.",
+        "b. 2 years up to the age of 40 then 1 year thereafter.",
+        "c. 5 years after licence issue.",
+        "d. 1 year."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "29",
+      "question": "The validity of a multi-engine class rating or a type rating shall be 1 year from:",
+      "question_type": "MCQ",
+      "options": [
+        "a. date of issue or the date of expiry if revalidated within the validity period.",
+        "b. date of application received by the authority.",
+        "c. date of skills test.",
+        "d. date of medical examination."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "30",
+      "question": "In order to carry out PPL(A) instruction you must:",
+      "question_type": "MCQ",
+      "options": [
+        "a. hold a PPL(A) with instrument rating.",
+        "b. have passed the CPL theoretical knowledge exams and hold an FI(A) rating.",
+        "c. hold a CPL(A)/IR(A).",
+        "d. hold an ATPL(A)."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "31",
+      "question": "For a pilot to hold an ATPL(A), the hours required are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 500 PIC, or 300 PIC and 200 as co-pilot acting as PIC under supervision.",
+        "b. 200 PIC, or 100 PIC and 100 as co-pilot acting as PIC under supervision.",
+        "c. 250 PIC, or 150 PIC and 100 as co-pilot acting as PIC under supervision.",
+        "d. 500 hrs as PIC under supervision or 250 hrs, either as PIC, or made up by not less than 70 hrs as PIC and the additional flight time as PIC under supervision."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "32",
+      "question": "A pilot holding a CPL(A) can act as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. PIC of any aircraft in non-commercial aviation.",
+        "b. PIC in any single-engine aeroplane engaged in commercial aviation.",
+        "c. PIC of any single-pilot aeroplane engaged in commercial aviation.",
+        "d. PIC in any aircraft for which he/she is class/type rated engaged in non-commercial aviation."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "33",
+      "question": "From what date is a medical certificate valid?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The date of the initial general medical examination.",
+        "b. The date the certificate is delivered to the pilot.",
+        "c. The date of licence issue.",
+        "d. The date of the revalidation of the licence."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "34",
+      "question": "Which of the following annexes of the Chicago Convention contains the minimum specification for a crew member's licence to be recognized by Contracting States?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Annex 2.",
+        "b. Annex 3.",
+        "c. Annex 1.",
+        "d. Annex 4."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "35",
+      "question": "For the holder of a commercial pilot's licence for single-pilot fixed-wing and helicopters who has attained the age of 40, the period between medical reports decreases from:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 12 months to 6 months.",
+        "b. 60 months to 24 months.",
+        "c. 24 months to 6 months.",
+        "d. 24 months to 12 months."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "36",
+      "question": "An applicant for an ATPL(A) for aircraft shall have at least:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 100 hours night flying purely as PIC.",
+        "b. 75 hours night flying as PIC or as co-pilot.",
+        "c. 100 hours night flying as PIC or as co-pilot.",
+        "d. 75 hours night flying as PIC."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "37",
+      "question": "A CPL(A) applicant undergoing an integrated course of flight training shall have completed:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 150 hours flight time.",
+        "b. 150 hours flight time of which 5 hours may be instrument ground time.",
+        "c. 200 hours flight time including 10 hours instrument ground time.",
+        "d. 200 hours flight time."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "38",
+      "question": "If an applicant for a CPL(A) wishes to exercise the privileges of the licence at night, flight experience will include:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 hours of night flight including 3 take-offs and 5 landings as PIC.",
+        "b. 5 hours of night flight including 5 take-offs and 5 landings as PIC.",
+        "c. 5 hours of night flight including 5 take-offs and 5 landings as PIC or co-pilot.",
+        "d. 5 hours of night flight including 3 take-offs and 3 landings as PIC or co-pilot."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "39",
+      "question": "According to JAR-FCL, an instrument rating is valid for:",
+      "question_type": "MCQ",
+      "options": [
+        "a. one year.",
+        "b. two years.",
+        "c. the period of validity of the licence.",
+        "d. indefinitely."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "40",
+      "question": "When acting as co-pilot of an aeroplane that requires a co-pilot, the pilot shall be entitled to credit not more than:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 40% of the co-pilot time towards the total flight time required for a higher grade of licence.",
+        "b. 60% of the co-pilot time towards the total flight time required for a higher grade of licence.",
+        "c. 100 hours of the co-pilot time towards the total flight time required for a higher grade of licence.",
+        "d. 100% of the co-pilot time towards the total flight time required for a higher grade of licence."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "41",
+      "question": "An applicant for a CPL(A) shall have completed in aeroplanes, not less than:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 200 hours of flight time including 70 hours as PIC.",
+        "b. 150 hours of flight time including 100 hours as PIC.",
+        "c. 200 hours of flight time or 150 hours if completed during an integrated course of approved training as a pilot of aeroplanes.",
+        "d. 200 hours of flight time including 80 hours as PIC."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "42",
+      "question": "The holders of pilot licences are required to inform the authority if, through illness, they are unable to undertake those functions to which the licence relates throughout a certain number of days.\nThe number of days is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 14",
+        "b. 21",
+        "c. 28",
+        "d. 30"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "43",
+      "question": "The cross-country requirement for the issue of a CPL(A) is to include:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 20 hours cross country with one flight including 2 full stop landings over a total distance of 270 km (150 NM).",
+        "b. 20 hours cross country with one flight including 2 full stop landings over a total distance of 540 km (300 NM).",
+        "c. 10 hours cross country with one flight including 2 full stop landings over a total distance of 270 km (150 NM).",
+        "d. 15 hours cross country with one flight including 2 full stop landings over a total distance of 540 km (300 NM)."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "44",
+      "question": "An applicant for a CPL(A) shall hold:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a current class 3 medical assessment.",
+        "b. a current class 2 medical assessment.",
+        "c. a current class 1 medical assessment.",
+        "d. a current medical assessment to a level prescribed by the authority of the state of licence issue."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "45",
+      "question": "How many synthetic flight trainer hours may be included by an applicant for an ATPL(A) as part of the 1500 hours necessary experience?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 100 hours of which not more than 15 hours have been completed in a flight procedures trainer or basic instrument trainer.",
+        "b. 75 hours of which not more than 20 hours have been completed in a flight procedures trainer or basic instrument trainer.",
+        "c. 100 hours of which not more than 25 hours have been completed in a flight procedures trainer or basic instrument trainer.",
+        "d. 100 hours of which not more than 20 hours have been completed in a flight procedures trainer or basic instrument trainer."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "46",
+      "question": "According to JAR-FCL, an applicant for an IR(A) shall hold a PPL(A) with a night qualification, or a CPL(A), and have completed at least 50 hours:",
+      "question_type": "MCQ",
+      "options": [
+        "a. instructional time as student PIC of aeroplanes or helicopters of which at least 10 hours is to be in aeroplanes.",
+        "b. cross-country time as PIC of aeroplanes or helicopters of which at least 10 hours is to be in aeroplanes.",
+        "c. cross-country time as a pilot of aeroplanes or helicopters of which at least 10 hours is to be in aeroplanes.",
+        "d. instructional time as student PIC of aeroplanes."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "47",
+      "question": "For which of the following are type ratings established?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Each type of multi-pilot aeroplane.",
+        "b. Each type of single-pilot multi-engine aeroplane fitted with turbine engines.",
+        "c. Any type of aircraft whenever considered necessary by the authority.",
+        "d. All the above answers are correct."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "48",
+      "question": "According to JAR-FCL, establishment of separate type rating for aeroplanes will be assessed on the basis of three criteria.\nOne of these criteria is that the aeroplane has:",
+      "question_type": "MCQ",
+      "options": [
+        "a. handling characteristics that require the use of more than one crew member.",
+        "b. a certificate of airworthiness issued by a non-JAA state.",
+        "c. handling characteristics that require additional flying or simulator training.",
+        "d. a certificate of airworthiness issued by the manufacturer."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "49",
+      "question": "Which annex to the Chicago Convention contains minimum specifications for a crew licence to have international validity?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Annex 3.",
+        "b. Annex 4.",
+        "c. Annex 1.",
+        "d. Annex 2."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "50",
+      "question": "A type rating is applicable to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. an aeroplane requiring a certificate of airworthiness.",
+        "b. an aeroplane with a certificate of airworthiness issued by the state of licence issue.",
+        "c. an aeroplane that requires multi-pilot operation.",
+        "d. an aeroplane that requires additional skills training."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "51",
+      "question": "According to JAR-FCL, recognized instructor categories are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. FI(A); TRI(A); CRI(A); IRI(A) only.",
+        "b. FI(A); CRI(A) only.",
+        "c. FI(A); TRI(Aonly.",
+        "d. FI(A) TRI(A); CRl(A); IRI(A); MCCl(A) and SFI(A) only."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "52",
+      "question": "When a state renders valid a licence issued by another Contracting State, as an alternative to issuance of its own licence, the period of validity shall:",
+      "question_type": "MCQ",
+      "options": [
+        "a. not extend beyond 15 days after the validity of the licence.",
+        "b. not extend beyond the period of validity of the licence.",
+        "c. be at the discretion of the validating state.",
+        "d. be at the discretion of ICAO."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "53",
+      "question": "An applicant for a JAR-FCL ATPL(A) has to demonstrate the ability to pilot:",
+      "question_type": "MCQ",
+      "options": [
+        "a. training aircraft.",
+        "b. multi-crew aircraft requiring a Flight Engineer.",
+        "c. multi-crew aeroplanes under IFR.",
+        "d. night flights with passengers on board."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "54",
+      "question": "A pilot is not to operate an aircraft as PIC or co-pilot in CAT or carry passengers unless he/she has carried out at least:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 take-offs and landings in the preceding 90 days",
+        "b. 3 take-offs, approaches and landings in the preceding 90 days",
+        "c. 5 take-offs, approaches and landings in the preceding 90 days",
+        "d. 5 take-offs, approaches and landings in the preceding 60 days"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "55",
+      "question": "A pilot is not to operate an aircraft as PIC at night in CAT or carry passengers at night unless he/she has carried out at least:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1 take-off, approach and landing at night in the preceding 90 days or holds an Instrument Rating",
+        "b. 5 take-offs, approaches and landings at night in the preceding 90 days or holds an Instrument Rating",
+        "c. 3 take-offs, approaches and landings at night in the preceding 90 days or holds an Instrument Rating",
+        "d. 3 take-offs, approaches and landings at night in the preceding 60 days or holds an Instrument Rating"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    }
+  ]
+}
+

@@ -104,7 +104,7 @@ const SiteSidebar = () => {
   };
 
   // Check if we're in a practice test (should disable navigation and show Question Bank as active)
-  const isInPracticeTest = pathname.startsWith('/practice-test/book/');
+  const isInPracticeTest = pathname.startsWith('/pyq/book/');
   
   // Active path helper: exact match for '/', prefix match for others
   // When in a practice test, show Question Bank as active instead of PYQ
@@ -123,7 +123,7 @@ const SiteSidebar = () => {
   const userNavItems = [
     { to: '/', label: 'Home', icon: '🏠' },
     { to: '/question-bank', label: 'Question Bank', icon: '📚' },
-    { to: '/practice-test', label: 'PYQ', icon: '🎯' },
+    { to: '/pyq', label: 'PYQ', icon: '🎯' },
     { to: '/library', label: 'Library', icon: '📄' }
   ];
 

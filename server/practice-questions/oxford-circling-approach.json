@@ -1,0 +1,120 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "9",
+  "chapter_title": "Circling Approach",
+  "questions": [
+    {
+      "id": "1",
+      "question": "During Visual Manoeuvring (Circling) what is the maximum airspeed for a Cat B aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 120 kt.",
+        "b. 125 kt.",
+        "c. 150 kt.",
+        "d. 135 kt."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "When the VM(C) area has been established the obstacle clearance altitude/height (OCA/H) is determined for:",
+      "question_type": "MCQ",
+      "options": [
+        "a. all categories of aircraft, and it is the same for all of them.",
+        "b. each category of aircraft and it may be different for each of them.",
+        "c. only for categories A and B aircraft.",
+        "d. only for categories C. D and E aircraft."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "It is permissible to eliminate from consideration a particular sector where a prominent obstacle exists in the visual manoeuvring (circling) area outside the final approach and missed approach areas.\nWhen this option is exercised, the published procedure:",
+      "question_type": "MCQ",
+      "options": [
+        "a. prohibits a circling approach to the affected runway.",
+        "b. prohibits circling within the sector in which the obstacle exists.",
+        "c. permits circling only in VMC.",
+        "d. recommends that circling is not carried out in the affected sector."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "A circling approach is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a flight manoeuvre performed only under radar vectoring.",
+        "b. a flight manoeuvre where visual contact with the underlying terrain is maintained.",
+        "c. a visual manoeuvre keeping the runway in sight.",
+        "d. a visual manoeuvre only conducted in IMC."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "The term used to describe the visual phase of flight after completing an instrument approach, to bring an aircraft into position for landing on a runway which is not suitably located for a straight-in approach, is called:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a contact approach.",
+        "b. the aerodrome traffic pattern.",
+        "c. visual manoeuvring (circling).",
+        "d. a visual approach."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "If visual reference is lost while circling to land from an instrument approach, it is expected that the pilot will make a climbing turn towards the:",
+      "question_type": "MCQ",
+      "options": [
+        "a. instrument runway.",
+        "b. MAPt.",
+        "c. FAF.",
+        "d. final missed approach track."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "If contact is lost with the runway on the downwind leg of a circling manoeuvre, what actions should be taken?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Turn towards the inner marker for the runway in use, maintaining circling altitude.",
+        "b. Initiate a missed approach.",
+        "c. Turn 90° towards the runway and wait for visual contact to be re-established.",
+        "d. If you other visual cues, continue the approach."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Visual circling for a category B aircraft is to be conducted in visibility not less than:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1500 m.",
+        "b. 1600 m.",
+        "c. 2800 m.",
+        "d. 5000 m."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}
+

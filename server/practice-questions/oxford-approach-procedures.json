@@ -1,0 +1,652 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "8",
+  "chapter_title": "Approach Procedures",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What radius from a terminal VOR is MSA provided?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 25 NM.",
+        "b. 10 NM.",
+        "c. 15 NM.",
+        "d. 15 km."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "What is the climb gradient required during the intermediate segment of a missed approach?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5.5%.",
+        "b. 2.5%.",
+        "c. 0.8%.",
+        "d. 3.3%."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "A precision approach procedure is defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. an approach using bearing, elevation and distance information.",
+        "b. an approach with a crew of at least 2 pilots trained for such operations.",
+        "c. an instrument approach procedure utilizing azimuth and glide path information provided by an ILS or a PAR.",
+        "d. an approach using bearing, elevation and, optionally, distance information."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "The MOC in the primary area of the intermediate approach segment:",
+      "question_type": "MCQ",
+      "options": [
+        "a. is not more than 150 m.",
+        "b. reduces from 300 m to 150 m.",
+        "c. is equal to or greater than 300 m.",
+        "d. is 500 m in mountainous terrain."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "What is the optimum distance of the FAF from the threshold?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1 NM.",
+        "b. 5 NM.",
+        "c. 10 NM.",
+        "d. 15 NM."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "For a straight-in non-precision approach, the MDA/H will be not less than:",
+      "question_type": "MCQ",
+      "options": [
+        "a. OCA/H.",
+        "b. 200 ft.",
+        "c. 350 ft.",
+        "d. 400 ft."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "What is the maximum interception angle which is allowed to the intermediate approach segment from the initial approach segment for a non-precision approach?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 30°",
+        "b. 45°",
+        "c. 120°",
+        "d. 15°."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "An instrument approach is made up of a number of segments. How many of them are there?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 4",
+        "b. 5",
+        "c. 3",
+        "d. 6"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "On a precision approach, where does the final approach segment start?",
+      "question_type": "MCQ",
+      "options": [
+        "a. DH",
+        "b. FAF",
+        "c. FAP",
+        "d. MAPt"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "On an instrument approach, part of the procedure enables the aircraft to return inbound from outbound with tracks flown being reciprocal.\nThis is called:",
+      "question_type": "MCQ",
+      "options": [
+        "a. base turn.",
+        "b. procedure turn.",
+        "c. reverse procedure.",
+        "d. racetrack."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "Which categories of aircraft fly the 45° leg of a procedure turn for 1 minute?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A, B and C.",
+        "b. A only.",
+        "c. A and B.",
+        "d. C, D and E."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "On an instrument approach, what is the maximum permissible descent gradient in the final approach?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3°.",
+        "b. 5%.",
+        "c. 6.5%.",
+        "d. 4.5°."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "For the intermediate section of a missed approach, what is the minimum obstacle clearance?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 30 m.",
+        "b. 100 m.",
+        "c. 50 m.",
+        "d. 120 m."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "During an initial approach, what is the turn between the outbound track and the inbound track where the tracks flown are not reciprocal?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Reverse turn.",
+        "b. Race track.",
+        "c. Procedure turn.",
+        "d. Base turn."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "What are the Cat II ILS criteria for instrument runways?",
+      "question_type": "MCQ",
+      "options": [
+        "a. RVR >= 350 m DH not below 100 ft.",
+        "b. RVR >= 200 m DH not below 100 ft.",
+        "c. RVR >= 200 m DH not below 200 ft.",
+        "d. RVR >= 300 m DH not below 200 ft."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "When is OCH for an ILS approach complied with?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Not more than 1/2 scale glide path and full scale localizer deflection.",
+        "b. Not more than 1/2 scale localizer deflection.",
+        "c. Not more than 1/2 scale glide path and localizer deflection.",
+        "d. Not more than full scale glide path and 1/2 scale localizer deflection."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "What is the MOC for the intermediate missed approach segment?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 30 m.",
+        "b. 50 m.",
+        "c. 120 m.",
+        "d. 300 m."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "In which stage of an instrument approach do you align with the runway?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Initial segment.",
+        "b. Final segment.",
+        "c. Arrival segment.",
+        "d. Intermediate segment."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "What are ICAO defined instrument approaches?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Non-precision and CAT I/II/III precision.",
+        "b. Precision in general.",
+        "c. Precision CAT I/II/III.",
+        "d. Instrument precision and CAT II/III."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "Within what angle of the extended centre line of a runway is a non-precision approach considered to be straight-in?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10°",
+        "b. 15°",
+        "c. 30°",
+        "d. 40°"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "What is the name of the phase of an instrument approach in which the aircraft is aligned with the runway and descent commenced?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Final.",
+        "b. Initial.",
+        "c. Intermediate.",
+        "d. Arrival."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "At what point does the intermediate phase of a missed approach end?",
+      "question_type": "MCQ",
+      "options": [
+        "a. When 30 metres obstacle clearance is attained and can be maintained.",
+        "b. When 50 metres obstacle clearance is attained and can be maintained.",
+        "c. When 75 metres obstacle clearance is attained and can be maintained.",
+        "d. When 90 metres obstacle clearance is attained and can be maintained."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "The 45° leg of a 45°/180° procedure turn for a Cat C aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1 min.",
+        "b. 1 min 15 seconds.",
+        "c. 1 min 30 seconds.",
+        "d. continued until interception of the glide slope."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "24",
+      "question": "Is it permitted to fly over the Missed Approach Point at an altitude higher than MDA?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Yes.",
+        "b. Never.",
+        "c. Sometimes.",
+        "d. It depends on the flight conditions."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "25",
+      "question": "For an instrument approach, the missed approach gradient is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3%.",
+        "b. 3.3%.",
+        "c. 5%.",
+        "d. 2.5%."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "26",
+      "question": "On a precision approach (ILS), the OCH(A) is based among other standard conditions, on the vertical limits between the flight path of the wheels and the glide path antenna.\nFor a Category C aircraft this should not be more than:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 6 m.",
+        "b. 7 m.",
+        "c. 3 m.",
+        "d. 12 m."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "27",
+      "question": "What is the turn from outbound to inbound called where the tracks flown are not reciprocal?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Base turn.",
+        "b. Procedure turn.",
+        "c. Reversal procedure.",
+        "d. Racetrack procedure."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "28",
+      "question": "When following an instrument procedure, the pilot must:",
+      "question_type": "MCQ",
+      "options": [
+        "a. calculate the track required and request ATC clearance to follow it.",
+        "b. fly the heading without wind correction.",
+        "c. adjust the track specified to allow for the wind.",
+        "d. fly the heading to make good the required track allowing for the wind."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "29",
+      "question": "Where does the initial phase of a missed approach procedure end?",
+      "question_type": "MCQ",
+      "options": [
+        "a. From where a new instrument approach can be commenced.",
+        "b. Where 50 ft obstacle clearance is obtained and can be maintained.",
+        "c. Where a climb is established.",
+        "d. At the missed approach point."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "30",
+      "question": "Who determines OCA/H?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The operator.",
+        "b. The flight operations department.",
+        "c. The authority of the State.",
+        "d. The Commander."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "31",
+      "question": "What does an approach plate not include?",
+      "question_type": "MCQ",
+      "options": [
+        "a. OCH.",
+        "b. ILS/DME frequencies.",
+        "c. Obstacles infringing the OIS.",
+        "d. Aerodrome operating minima for the use of the aerodrome as an alternate aerodrome, if higher than normal."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "32",
+      "question": "The Vat for a Category B aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. up to 91 kt.",
+        "b. 90 to 121 kt inclusive.",
+        "c. 141 to 165 kt inclusive.",
+        "d. 91 to 120 kt inclusive."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "33",
+      "question": "OCH clearance on ILS is given, provided the accuracy flown on the localizer is within:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1/4 scale deflection.",
+        "b. 1 1/2 scale deflection.",
+        "c. 1 scale deflection.",
+        "d. 1/2 scale deflection."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "34",
+      "question": "Where does the initial sector of a missed approach procedure end?",
+      "question_type": "MCQ",
+      "options": [
+        "a. When a height of 50 m has been achieved and maintained.",
+        "b. When established in the climb.",
+        "c. At the missed approach point.",
+        "d. When en route either to the hold or departure."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "35",
+      "question": "When using a DR segment to take up an ILS instrument approach, what is the maximum length of the track that may be used to intercept the localizer?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10 NM.",
+        "b. 5 NM.",
+        "c. 10 minutes.",
+        "d. 5 minutes."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "36",
+      "question": "The obstacle clearance surfaces for an ILS assume a pilot localizer accuracy of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1/4 scale.",
+        "b. 1/2 scale.",
+        "c. 1 scale.",
+        "d. 1 1/2 scale."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "37",
+      "question": "The abbreviation OCH means:",
+      "question_type": "MCQ",
+      "options": [
+        "a. obstacle clearance height.",
+        "b. obstruction/collision height.",
+        "c. obstruction clearance height.",
+        "d. obstacle confirmation height."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "38",
+      "question": "What is the descent gradient in the final segment for an ILS CAT II approach?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Between 2.5° and 3.5°.",
+        "b. 3%.",
+        "c. 3°.",
+        "d. Up to 400 ft/NM."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "39",
+      "question": "What are the 5 segments of an instrument approach?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Initial; Intermediate; Descent; Final; Landing.",
+        "b. Arrival; Initial; Intermediate; Final; Missed Approach.",
+        "c. Initial; Intermediate; Final; Landing; Missed Approach.",
+        "d. Arrival; Initial; Intermediate; Final; Landing."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "40",
+      "question": "The minimum sector altitude gives an obstacle clearance of 300 metres within a certain radius from the navigation aid on which the instrument procedure is based.\nThis radius is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 15 NM (28 km).",
+        "b. 30 NM (55 km).",
+        "c. 25 NM (46 km).",
+        "d. 20 NM (37 km)."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "41",
+      "question": "What is the minimum ground visibility for a CAT I ILS approach?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 800 m.",
+        "b. 550 m.",
+        "c. 50 m.",
+        "d. 550 ft."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "42",
+      "question": "Where does the initial approach segment begin in an instrument approach procedure?",
+      "question_type": "MCQ",
+      "options": [
+        "a. At the IF.",
+        "b. At the IAF.",
+        "c. At the FAF.",
+        "d. At the final en route fix."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "43",
+      "question": "Under which circumstances may an aircraft on a \"straight-in\" VOR approach continue below MDA/H?",
+      "question_type": "MCQ",
+      "options": [
+        "a. When it seems possible to land.",
+        "b. When the aircraft is in contact with the ground but does not have the runway in sight.",
+        "c. When the aircraft has the necessary visual criteria specified by the operator.",
+        "d. When the tower is visible."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "44",
+      "question": "What is the obstacle clearance in the primary area of the intermediate approach segment while on the instrument approach?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 300 m (984 ft).",
+        "b. 450 m (1476 ft).",
+        "c. 300 m (984 ft) reducing to 150 m (492 ft).",
+        "d. 600 m (1968 ft)."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "45",
+      "question": "What is the MOC in the primary area of the initial segment of an approach?",
+      "question_type": "MCQ",
+      "options": [
+        "a. At least 150 m.",
+        "b. At least 300 m.",
+        "c. 300 m.",
+        "d. 150 m."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "46",
+      "question": "When can an aircraft descend below MSA?\n1.\nThe airfield and underlying terrain are visible and will remain so.\n2.\nThe aircraft is being radar vectored.\n3.\nThe underlying terrain is visible and remains so.\n4.\nThe aircraft is following an approach procedure.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1, 2 and 4 only.",
+        "b. 1, 3 and 4 only.",
+        "c. 2, 3 and 4 only.",
+        "d. 1, 2, 3 and 4."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    }
+  ]
+}
+

@@ -47,7 +47,7 @@ function App() {
               <Route path="/" element={<HomePage />} />
               <Route path="/library" element={<Library />} />
               <Route path="/question-bank" element={<QuestionBank />} />
-              <Route path="/practice-test" element={<PracticeTest />} />
+              <Route path="/pyq" element={<PracticeTest />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/profile" element={<Profile />} />
               <Route path="/books/air-regulations" element={<BookSelection />} />
@@ -57,12 +57,12 @@ function App() {
               <Route path="/books/technical-specific" element={<BookSelection />} />
               <Route path="/books/radio-telephony" element={<BookSelection />} />
               <Route path="/questions/:subjectSlug/:bookSlug" element={<BookChapters />} />
-              <Route path="/practice-test/ai" element={<AIPracticeSubject />} />
-              <Route path="/practice-test/ai/:subjectSlug" element={<AIPracticeBooks />} />
-              <Route path="/practice-test/ai/:subjectSlug/:bookSlug" element={<AIPracticeChapters />} />
-              <Route path="/practice-test/ai/:subjectSlug/:bookSlug/:chapterSlug" element={<AIPracticeRunner />} />
-              <Route path="/practice-test/book/:bookSlug" element={<BookPracticeRunner />} />
-              <Route path="/practice-test/book/:bookSlug/:chapterSlug" element={<BookPracticeRunner />} />
+              <Route path="/pyq/ai" element={<AIPracticeSubject />} />
+              <Route path="/pyq/ai/:subjectSlug" element={<AIPracticeBooks />} />
+              <Route path="/pyq/ai/:subjectSlug/:bookSlug" element={<AIPracticeChapters />} />
+              <Route path="/pyq/ai/:subjectSlug/:bookSlug/:chapterSlug" element={<AIPracticeRunner />} />
+              <Route path="/pyq/book/:bookSlug" element={<BookPracticeRunner />} />
+              <Route path="/pyq/book/:bookSlug/:chapterSlug" element={<BookPracticeRunner />} />
               <Route path="/practice/:subjectSlug/:bookSlug/:chapterSlug" element={<ChapterPracticeIntro />} />
               {/* Admin routes removed */}
               {/* Hidden route: not linked from navigation */}

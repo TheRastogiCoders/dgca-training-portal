@@ -1,0 +1,248 @@
+{
+  "book_name": "CAE ATPL 7. Flight Planning & Monitoring",
+  "chapter_number": "9",
+  "chapter_title": "Topographical Chart",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What type of airfield is at N4728 E00833.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "solution": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "explanation": "This question requires reference to the VFR + GPS Chart GERMANY EDITION 1999 ED - 6 to identify the type of airfield at the specified coordinates."
+    },
+    {
+      "id": "2",
+      "question": "Reference N4811 E01052. What is the significance of:\na. ET in the Location Indicator ETSL?\nb. 141.25 and 2442 m?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "solution": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "explanation": "This question requires reference to the VFR + GPS Chart GERMANY EDITION 1999 ED - 6 to decode the location indicator and understand the significance of the frequency and elevation values at the specified coordinates."
+    },
+    {
+      "id": "3",
+      "question": "What type of airfield is at N4727 E00814?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "solution": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "explanation": "This question requires reference to the VFR + GPS Chart GERMANY EDITION 1999 ED - 6 to identify the type of airfield at the specified coordinates."
+    },
+    {
+      "id": "4",
+      "question": "What does the symbol at N4755 E01055 mean?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "solution": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "explanation": "This question requires reference to the VFR + GPS Chart GERMANY EDITION 1999 ED - 6 to decode the symbol meaning at the specified coordinates."
+    },
+    {
+      "id": "5",
+      "question": "What does (v) after 125.700 at N4858 E00820 signify?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "solution": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "explanation": "This question requires reference to the VFR + GPS Chart GERMANY EDITION 1999 ED - 6 to understand the significance of the (v) notation after a frequency."
+    },
+    {
+      "id": "6",
+      "question": "Flight from A, N4823 E00839 to B, N4803 E00922;\na. What is the track direction (°T) and distance in nautical miles/kilometres?\nb. What is the highest terrain/obstacle within the area extending 5 NM either side of the track and 5 NM radii, centred on and beyond, A and B?\nc. What would be the correct flight level to clear this terrain/obstacle by a minimum of 1000 ft?\nd. Fully describe the navigational facilities at A and B.\ne. What does the symbol 10.5 NM, on track, from A signify?\nf. What is the highest Minimum Grid Area Altitude (Grid MORA) on this route?\ng. What are the STUTTGART INFORMATION (FIS) and ATIS frequencies?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "solution": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "explanation": "This comprehensive question requires reference to the VFR + GPS Chart GERMANY EDITION 1999 ED - 6 to calculate track and distance, identify terrain/obstacles, determine appropriate flight level, describe navigation facilities, interpret chart symbols, find Grid MORA, and identify communication frequencies."
+    },
+    {
+      "id": "7",
+      "question": "What are the Airspace Designator and Control Frequency for Munchen?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "solution": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "explanation": "This question requires reference to the VFR + GPS Chart GERMANY EDITION 1999 ED - 6 to identify the airspace designator and control frequency for Munchen."
+    },
+    {
+      "id": "8",
+      "question": "Decode the three symbols in the vicinity of N4733 E01018.",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "solution": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "explanation": "This question requires reference to the VFR + GPS Chart GERMANY EDITION 1999 ED - 6 to decode the three symbols near the specified coordinates."
+    },
+    {
+      "id": "9",
+      "question": "What is your ETA at Mengen?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 01:38",
+        "b. 12:08",
+        "c. 11:28",
+        "d. 10:58"
+      ],
+      "answer": "Answer not provided in text (requires chart and navigation computer).",
+      "solution": "Answer not provided in text (requires chart and navigation computer).",
+      "explanation": "This question requires reference to the chart and navigation computer to calculate the Estimated Time of Arrival (ETA) at Mengen based on flight planning data."
+    },
+    {
+      "id": "10",
+      "question": "What type of airport is Vilshofen?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Military airport with a hard runway.",
+        "b. Civil airport with a grass runway.",
+        "c. Civil airport with a hard runway.",
+        "d. Military airport with grass runway."
+      ],
+      "answer": "Answer not provided in text (requires chart).",
+      "solution": "Answer not provided in text (requires chart).",
+      "explanation": "This question requires reference to the chart to identify the type of airport at Vilshofen based on chart symbology."
+    },
+    {
+      "id": "11",
+      "question": "What type of navaid is Roding? (N4902 E01232)",
+      "question_type": "MCQ",
+      "options": [
+        "a. A VOR on 114.70 kHz.",
+        "b. An NDB on 114.70 kHz.",
+        "c. A DME on 114.70 MHz.",
+        "d. A VORTAC on 114.70 MHz."
+      ],
+      "answer": "Answer not provided in text (requires chart).",
+      "solution": "Answer not provided in text (requires chart).",
+      "explanation": "This question requires reference to the chart to identify the type of navigation aid at Roding and its frequency."
+    },
+    {
+      "id": "12",
+      "question": "What does the (v) indicate in the description of Straubing (Wallmuhle) airport? (N4854 E01231)",
+      "question_type": "MCQ",
+      "options": [
+        "a. VFR flights only permitted.",
+        "b. Very High Frequency direction finding (VDF) available.",
+        "c. Open 24 hours.",
+        "d. Very high landing fees charged for IFR flights."
+      ],
+      "answer": "Answer not provided in text (requires chart).",
+      "solution": "Answer not provided in text (requires chart).",
+      "explanation": "This question requires reference to the chart to understand the meaning of the (v) notation in the airport description."
+    },
+    {
+      "id": "13",
+      "question": "While flying at FL45 between Regensburg and Nordlingen does ED(R)-140 affect your route?",
+      "question_type": "MCQ",
+      "options": [
+        "a. No its vertical limits are from FL60 to FL100.",
+        "b. No its vertical limits are from 6000 ft AGL to FL 100.",
+        "c. Yes as the restricted area base can come down to the surface.",
+        "d. Yes - but a clearance through can be obtained from Neuburg airbase."
+      ],
+      "answer": "Answer not provided in text (requires chart).",
+      "solution": "Answer not provided in text (requires chart).",
+      "explanation": "This question requires reference to the chart to determine if the restricted area ED(R)-140 affects the route at the specified flight level."
+    },
+    {
+      "id": "14",
+      "question": "What is the airport elevation and runway length of Nordlingen?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 500 metres 1384 feet",
+        "b. 1385 metres 500 feet",
+        "c. 13307 feet 500 metres",
+        "d. 1384 feet 500 metres"
+      ],
+      "answer": "Answer not provided in text (requires chart).",
+      "solution": "Answer not provided in text (requires chart).",
+      "explanation": "This question requires reference to the chart to find the airport elevation and runway length for Nordlingen."
+    },
+    {
+      "id": "15",
+      "question": "When flying between Nordlingen and Mengen; what is your drift?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10° port..",
+        "b. 7° port.",
+        "c. 7° starboard.",
+        "d. 10° starboard."
+      ],
+      "answer": "Answer not provided in text (requires chart and navigation computer).",
+      "solution": "Answer not provided in text (requires chart and navigation computer).",
+      "explanation": "This question requires reference to the chart and navigation computer to calculate drift based on wind conditions and track."
+    },
+    {
+      "id": "16",
+      "question": "You select Gerstetten (N4837 E01003) airfield as an en route alternate; what type of airfield is it?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Civil with hard runway.",
+        "b. Civil with grass runway.",
+        "c. Glider side.",
+        "d. Military with hard runway."
+      ],
+      "answer": "Answer not provided in text (requires chart).",
+      "solution": "Answer not provided in text (requires chart).",
+      "explanation": "This question requires reference to the chart to identify the type of airfield at Gerstetten."
+    },
+    {
+      "id": "17",
+      "question": "What is the Augsburg ATIS frequency?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 126.95 MHz.",
+        "b. 124.97 MHz.",
+        "c. 115.90 MHz.",
+        "d. 124.57 MHz."
+      ],
+      "answer": "Answer not provided in text (requires chart).",
+      "solution": "Answer not provided in text (requires chart).",
+      "explanation": "This question requires reference to the chart to find the ATIS frequency for Augsburg."
+    },
+    {
+      "id": "18",
+      "question": "While flying towards Mengen and established on track; what is your QTE?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 223°(M)",
+        "b. 043°(M)",
+        "c. 043°(T).",
+        "d. It is not possible to receive a QTE."
+      ],
+      "answer": "Answer not provided in text (requires chart).",
+      "solution": "Answer not provided in text (requires chart).",
+      "explanation": "This question requires reference to the chart to determine the QTE (True Bearing) when flying towards Mengen."
+    },
+    {
+      "id": "19",
+      "question": "Name all the radio navigation aids you could use at Mengen?",
+      "question_type": "MCQ",
+      "options": [
+        "a. VDF and an NDB on 401 kHz.",
+        "b. VDF and an NDB on 401 MHz.",
+        "c. Only an NDB on 401 kHz.",
+        "d. There are no radio navigation aids serving Mengen."
+      ],
+      "answer": "Answer not provided in text (requires chart).",
+      "solution": "Answer not provided in text (requires chart).",
+      "explanation": "This question requires reference to the chart to identify all radio navigation aids available at Mengen."
+    },
+    {
+      "id": "20",
+      "question": "With a surface wind of 300°/30 kt; which airfield would be a better destination alternate, assuming runway length is not restrictive?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Friedrichshafen.",
+        "b. Pfullendorf.",
+        "c. Saulgau.",
+        "d. Albstadt."
+      ],
+      "answer": "Answer not provided in text (requires chart).",
+      "solution": "Answer not provided in text (requires chart).",
+      "explanation": "This question requires reference to the chart to determine the best alternate airfield based on runway orientation and surface wind conditions."
+    }
+  ]
+}
+

@@ -97,7 +97,7 @@ const Profile = () => {
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
         <div className="flex">
           <SiteSidebar />
-          <main className="flex-1 p-8 pt-24 pb-24 md:pb-8 md:ml-56">
+          <main className="flex-1 p-8 pt-24 pb-24 md:pb-8 md:ml-56 lg:ml-64 xl:ml-72">
             <div className="flex items-center justify-center min-h-[calc(100vh-8rem)]">
               <div className="animate-spin rounded-full h-12 w-12 border-4 border-blue-500 border-t-transparent"></div>
             </div>
@@ -112,7 +112,7 @@ const Profile = () => {
       <div className="flex">
         <SiteSidebar />
         
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-24 md:pb-8 md:ml-56 mobile-content-wrapper">
+        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-24 md:pb-8 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
           <div className="max-w-6xl mx-auto">
             {/* Profile Header */}
             <div className="bg-white rounded-3xl shadow-xl p-6 md:p-8 mb-6">
@@ -203,7 +203,7 @@ const Profile = () => {
                       <div className="text-6xl mb-4">📚</div>
                       <p className="text-gray-600 text-lg mb-4">No tests taken yet</p>
                       <button
-                        onClick={() => navigate('/practice-test')}
+                        onClick={() => navigate('/pyq')}
                         className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transition-all"
                       >
                         Start Your First Test
@@ -272,7 +272,7 @@ const Profile = () => {
                         <h3 className="text-lg font-semibold text-gray-700 mb-4">Quick Actions</h3>
                         <div className="grid md:grid-cols-3 gap-4">
                           <button
-                            onClick={() => navigate('/practice-test')}
+                            onClick={() => navigate('/pyq')}
                             className="bg-gradient-to-br from-blue-600 to-blue-700 text-white p-4 rounded-2xl hover:shadow-lg transition-all text-left"
                           >
                             <div className="text-2xl mb-2">🎯</div>

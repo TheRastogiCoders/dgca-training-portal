@@ -1,0 +1,428 @@
+{
+  "book_name": "EU-OPS 1 - Extract (Mass and Balance and Performance)",
+  "chapter_number": "1",
+  "chapter_title": "Mass and Balance and Performance",
+  "questions": [
+    {
+      "id": "1",
+      "question": "EASA Mass and Balance legislation can be found in:",
+      "question_type": "MCQ",
+      "options": [
+        "a. EU-OPS 1 subpart A",
+        "b. EU-OPS 1 subpart D",
+        "c. EU-OPS 1 subpart K",
+        "d. EU-OPS 1 subpart J"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "EASA Mass and Balance legislation can be found in EU-OPS 1 subpart J. This subpart contains the regulations and requirements for mass and balance calculations, documentation, and procedures for commercial air transport operations."
+    },
+    {
+      "id": "2",
+      "question": "The mass and centre of gravity of an aircraft must be established by actual weighing:",
+      "question_type": "MCQ",
+      "options": [
+        "a. by the pilot on entry of aircraft into service",
+        "b. by the engineers before commencing service",
+        "c. by the manufacturer prior to initial entry of aircraft into service",
+        "d. by the owner operator before the first flight of the day"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "The mass and centre of gravity of an aircraft must be established by actual weighing by the manufacturer prior to initial entry of aircraft into service. This provides the baseline empty mass and CG position for all subsequent mass and balance calculations."
+    },
+    {
+      "id": "3",
+      "question": "The operator must establish the mass of the traffic load:",
+      "question_type": "MCQ",
+      "options": [
+        "a. prior to initial entry into service",
+        "b. by actual weighing or determine the mass of the traffic load in accordance with standard masses as specified in EU-OPS subpart J",
+        "c. prior to embarking on the aircraft",
+        "d. by using an appropriate method of calculation as specified in the EU-OPS 1 subpart J"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The operator must establish the mass of the traffic load by actual weighing or determine the mass of the traffic load in accordance with standard masses as specified in EU-OPS subpart J. This allows flexibility in using either actual weights or approved standard mass values."
+    },
+    {
+      "id": "4",
+      "question": "The mass of the fuel load must be determined:",
+      "question_type": "MCQ",
+      "options": [
+        "a. by the operator using actual density or by density calculation specified in the Operations Manual",
+        "b. by the owner using actual density or by density calculation specified in EU- OPS 1 subpart J",
+        "c. by the pilot using actual density or by density calculation specified in the Operations Manual",
+        "d. by the fuel bowser operator using actual density or by density calculation specified in the Fuelling Manual"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The mass of the fuel load must be determined by the operator using actual density or by density calculation specified in the Operations Manual. This ensures accurate fuel mass calculations for mass and balance purposes."
+    },
+    {
+      "id": "5",
+      "question": "The dry operating mass is the total mass of the aeroplane ready for a specific type of operation and includes:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Crew and passenger baggage, special equipment, water and chemicals",
+        "b. Crew and their hold baggage, special equipment, water and contingency fuel",
+        "c. Crew baggage, catering and other special equipment, potable water and lavatory chemicals",
+        "d. Crew and their baggage, catering and passenger service equipment, potable water and lavatory chemicals"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "The dry operating mass (DOM) is the total mass of the aeroplane ready for a specific type of operation and includes: crew and their baggage, catering and passenger service equipment, potable water and lavatory chemicals. It does not include fuel or traffic load."
+    },
+    {
+      "id": "6",
+      "question": "The maximum zero fuel mass is the maximum permissible mass of the aeroplane:",
+      "question_type": "MCQ",
+      "options": [
+        "a. with no usable fuel",
+        "b. with no usable fuel unless the Aeroplane Flight Manual Limitations explicitly include it",
+        "c. including the fuel taken up for take-off",
+        "d. including all usable fuel unless the Aeroplane Flight Operations Manual explicitly excludes it"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The maximum zero fuel mass (MZFM) is the maximum permissible mass of the aeroplane with no usable fuel. This is a structural limitation that ensures the aircraft structure can support the weight of the aircraft, crew, passengers, cargo, and equipment without fuel."
+    },
+    {
+      "id": "7",
+      "question": "The maximum structural take-off mass is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the maximum permissible total aeroplane mass on completion of the refuelling operation",
+        "b. the maximum permissible total aeroplane mass for take-off subject to the limiting conditions at the departure airfield",
+        "c. the maximum permissible total aeroplane mass for take-off but excluding fuel",
+        "d. the maximum permissible total aeroplane mass at the start of the take-off run"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "The maximum structural take-off mass (MSTOM) is the maximum permissible total aeroplane mass at the start of the take-off run. This is a structural limitation that ensures the aircraft structure can support the maximum weight during take-off."
+    },
+    {
+      "id": "8",
+      "question": "The regulated take-off mass:",
+      "question_type": "MCQ",
+      "options": [
+        "a. is the lower of maximum structural take-off mass and the performance limited take-off mass",
+        "b. is the higher of the maximum structural zero fuel mass and the performance limited take-off mass",
+        "c. is the maximum structural take-off mass subject to any last minute mass changes",
+        "d. is the maximum performance limited take-off mass subject to any last minute mass changes"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The regulated take-off mass is the lower of maximum structural take-off mass (MSTOM) and the performance limited take-off mass. This ensures that the aircraft does not exceed either structural limitations or performance limitations for take-off."
+    },
+    {
+      "id": "9",
+      "question": "The take-off mass is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the maximum permissible total aeroplane mass on completion of the refuelling operation",
+        "b. the mass of the aeroplane including everyone and everything contained within it at the start of the take-off run",
+        "c. the maximum permissible total aeroplane mass for take-off but excluding fuel",
+        "d. the maximum permissible total aeroplane mass at the start of the take-off run"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The take-off mass is the mass of the aeroplane including everyone and everything contained within it at the start of the take-off run. This includes the aircraft structure, crew, passengers, cargo, fuel, and all equipment."
+    },
+    {
+      "id": "10",
+      "question": "The operating mass:",
+      "question_type": "MCQ",
+      "options": [
+        "a. is the lower of the structural mass and the performance limited mass",
+        "b. is the higher of the structural mass and the performance limited mass",
+        "c. is the actual mass of the aircraft on take-off",
+        "d. is the dry operating mass and the fuel load"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "The operating mass is the dry operating mass (DOM) and the fuel load. It represents the mass of the aircraft ready for operation, including crew, equipment, and fuel, but excluding the traffic load (passengers and cargo)."
+    },
+    {
+      "id": "11",
+      "question": "The basic empty mass is the mass of the aeroplane:",
+      "question_type": "MCQ",
+      "options": [
+        "a. plus non-standard items such as lubricating oil, fire extinguishers, emergency oxygen equipment etc.",
+        "b. minus non-standard items such as lubricating oil, fire extinguishers, emergency oxygen equipment etc.",
+        "c. plus standard items such as unusable fluids, fire extinguishers, emergency oxygen equipment, supplementary electronics etc.",
+        "d. minus non-standard items such as unusable fluids, fire extinguishers, emergency oxygen and supplementary electronic equipment etc."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "The basic empty mass is the mass of the aeroplane plus standard items such as unusable fluids, fire extinguishers, emergency oxygen equipment, supplementary electronics etc. This represents the aircraft in its basic configuration with standard equipment."
+    },
+    {
+      "id": "12",
+      "question": "The traffic load:",
+      "question_type": "MCQ",
+      "options": [
+        "a. includes passenger masses and baggage masses but excludes any non-revenue load",
+        "b. includes passenger masses, baggage masses and cargo masses but excludes any non-revenue load",
+        "c. includes passenger masses, baggage masses, cargo masses and any non-revenue load",
+        "d. includes passenger masses, baggage masses and any non-revenue load but excludes cargo"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "The traffic load includes passenger masses, baggage masses, cargo masses and any non-revenue load. This represents all items carried on the aircraft for commercial or operational purposes."
+    },
+    {
+      "id": "13",
+      "question": "The operating mass:",
+      "question_type": "MCQ",
+      "options": [
+        "a. is the take-off mass minus the traffic load",
+        "b. is the landing mass minus the traffic load",
+        "c. is the maximum zero fuel mass less the traffic load",
+        "d. is the take-off mass minus the basic empty mass and crew mass"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The operating mass is the take-off mass minus the traffic load. It represents the mass of the aircraft with crew, equipment, and fuel, but without passengers and cargo."
+    },
+    {
+      "id": "14",
+      "question": "The traffic load is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the zero fuel mass minus the dry operating mass",
+        "b. the take-off mass minus the sum of the dry operating mass and the total fuel load",
+        "c. the landing mass minus the sum of the dry operating mass and the mass of the remaining fuel",
+        "d. all the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "The traffic load can be calculated in multiple ways: (a) the zero fuel mass minus the dry operating mass, (b) the take-off mass minus the sum of the dry operating mass and the total fuel load, or (c) the landing mass minus the sum of the dry operating mass and the mass of the remaining fuel. All these methods are correct."
+    },
+    {
+      "id": "15",
+      "question": "The basic empty mass is the:",
+      "question_type": "MCQ",
+      "options": [
+        "a. MZFM minus both traffic load and the fuel load",
+        "b. take-off mass minus the traffic load and the fuel load",
+        "c. landing mass less traffic load",
+        "d. operating mass minus the crew, special equipment and fuel load"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "The basic empty mass is the operating mass minus the crew, special equipment and fuel load. It represents the aircraft structure with standard equipment but without crew, operational items, or fuel."
+    },
+    {
+      "id": "16",
+      "question": "Is it possible to fly a certified aircraft at a regulated take-off mass with both a full traffic load and a full fuel load?",
+      "question_type": "MCQ",
+      "options": [
+        "a. It might be possible on some aircraft providing the mass and CG remain within limits",
+        "b. Yes, all aircraft are able to do this",
+        "c. No, it is not possible on any aeroplane",
+        "d. Only if the performance limited take-off mass is less than the structural limited take-off mass"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "It might be possible on some aircraft to fly at regulated take-off mass with both a full traffic load and a full fuel load, providing the mass and CG remain within limits. This depends on the specific aircraft's structural and performance limitations."
+    },
+    {
+      "id": "17",
+      "question": "It is intended to fly a certified aircraft loaded to the MZFM and MSTOM:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the CG must be within limits during take-off and landing",
+        "b. the CG limits must be in limits throughout the flight, including loading/ unloading",
+        "c. the CG does not have to be within limits during the whole of the flight",
+        "d. the CG does not have to be within limits during loading and unloading the aeroplane"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "When flying a certified aircraft loaded to the MZFM and MSTOM, the CG limits must be within limits throughout the flight, including loading/unloading. This ensures the aircraft remains within safe CG limits at all times."
+    },
+    {
+      "id": "18",
+      "question": "The term 'baggage' means:",
+      "question_type": "MCQ",
+      "options": [
+        "a. excess freight",
+        "b. any non-human, non-animal cargo",
+        "c. any freight or cargo not carried on the person",
+        "d. personal belongings"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "The term 'baggage' means personal belongings. This includes items carried by passengers for personal use, typically stored in overhead bins or checked baggage compartments."
+    },
+    {
+      "id": "19",
+      "question": "Certified transport category aircraft with less than 10 seats:",
+      "question_type": "MCQ",
+      "options": [
+        "a. may simply accept a verbal mass from or on behalf of each passenger",
+        "b. may estimate the total mass of the passengers and add a pre-determined constant to account for hand baggage and clothing",
+        "c. may compute the actual mass of passengers and checked baggage",
+        "d. all the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Certified transport category aircraft with less than 10 seats may: (a) simply accept a verbal mass from or on behalf of each passenger, (b) estimate the total mass of the passengers and add a pre-determined constant to account for hand baggage and clothing, or (c) compute the actual mass of passengers and checked baggage. All these methods are acceptable."
+    },
+    {
+      "id": "20",
+      "question": "When computing the mass of passengers and baggage: 1. personal belongings and hand baggage must be included 2. infants must be classed as children if they occupy a seat 3. standard masses include infants being carried by an adult 4. table 1, table 2 and table 3 must be used as appropriate if using standard masses for passengers and freight 5. weighing must be carried out immediately prior to boarding and at an adjacent location",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1, 2 and 5 only",
+        "b. 2 and 4 only",
+        "c. 1, 2, 3 and 5 only",
+        "d. all the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "All statements are correct when computing the mass of passengers and baggage: personal belongings and hand baggage must be included, infants must be classed as children if they occupy a seat, standard masses include infants being carried by an adult, table 1, table 2 and table 3 must be used as appropriate, and weighing must be carried out immediately prior to boarding and at an adjacent location."
+    },
+    {
+      "id": "21",
+      "question": "When computing the mass of passengers and baggage for an aircraft with 20 seats or more: 1. standard masses of male and female in table 1 are applicable 2. if there are thirty seats or more, the 'all adult' mass values in table 1 may be used as an alternative 3. holiday charter masses apply to table 1 and table 3 if the charter is solely intended as an element of a holiday travel package 4. holiday flights and holiday charters attract the same mass values",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1, 3 and 4 only",
+        "b. 1 and 2 only",
+        "c. 3 and 4 only",
+        "d. all the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "All statements are correct for aircraft with 20 seats or more: standard masses of male and female in table 1 are applicable, if there are thirty seats or more the 'all adult' mass values in table 1 may be used as an alternative, holiday charter masses apply to table 1 and table 3 if the charter is solely intended as an element of a holiday travel package, and holiday flights and holiday charters attract the same mass values."
+    },
+    {
+      "id": "22",
+      "question": "When computing the mass of passengers and baggage for an aircraft with 19 seats or less: 1. the standard masses in table 2 apply 2. if hand baggage is accounted for separately, 6 kg may be deducted from the mass of each passenger 3. table 2 masses vary with both the gender (male or female) of the seat occupant and the number of seats on the aircraft 4. standard masses are not available for baggage 5. standard masses are not available for freight",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1 only",
+        "b. 1, 2 and 4 only",
+        "c. 3 and 5 only",
+        "d. all the above"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "For aircraft with 19 seats or less: table 2 masses vary with both the gender (male or female) of the seat occupant and the number of seats on the aircraft, and standard masses are not available for freight. Statement 1 is partially correct but table 2 applies, statement 2 is correct, and statement 4 is incorrect as standard masses may be available for baggage."
+    },
+    {
+      "id": "23",
+      "question": "When computing the mass of checked baggage for an aircraft with twenty seats or more: 1. table 1 applies 2. table 2 applies 3. table 3 applies 4. baggage mass is categorized by destination 5. baggage mass is categorized by gender",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1, 3 and 4 only",
+        "b. 2, 3 and 5 only",
+        "c. 3 and 4 only",
+        "d. all the above"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "When computing the mass of checked baggage for an aircraft with twenty seats or more: table 3 applies and baggage mass is categorized by destination. Table 1 applies to passengers, not baggage, and baggage mass is not categorized by gender."
+    },
+    {
+      "id": "24",
+      "question": "On any flight identified as carrying a significant number of passengers whose masses, including hand baggage, are expected to exceed the standard passenger mass the operator:",
+      "question_type": "MCQ",
+      "options": [
+        "a. must determine the actual mass of such passengers",
+        "b. must add an adequate mass increment to each of such passengers",
+        "c. must determine the actual masses of such passengers or add a standard increment to the Standard Mass Table value for each of these passengers",
+        "d. need only determine the actual masses or apply an increment if the take-off mass is likely to be exceeded"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "On any flight identified as carrying a significant number of passengers whose masses, including hand baggage, are expected to exceed the standard passenger mass, the operator must determine the actual masses of such passengers or add a standard increment to the Standard Mass Table value for each of these passengers. This ensures accurate mass calculations."
+    },
+    {
+      "id": "25",
+      "question": "If standard mass tables are being used for checked baggage and a number of passengers check in baggage that is expected to exceed the standard baggage mass, the operator:",
+      "question_type": "MCQ",
+      "options": [
+        "a. must determine the actual masses of such baggage",
+        "b. must determine the actual mass of such baggage by weighing or by deducting an adequate mass increment",
+        "c. need make no alterations if the take-off mass is not likely to be exceeded",
+        "d. must determine the actual mass of such baggage by weighing or adding an adequate mass increment to the Standard Mass Table value for each item of such baggage"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "If standard mass tables are being used for checked baggage and a number of passengers check in baggage that is expected to exceed the standard baggage mass, the operator must determine the actual mass of such baggage by weighing or adding an adequate mass increment to the Standard Mass Table value for each item of such baggage."
+    },
+    {
+      "id": "26",
+      "question": "M & B documentation: 1. must be established prior to each flight 2. must enable the commander to determine that the load and its distribution is such that the limits of the aircraft are not exceeded 3. must include the name of the person preparing the document 4. must be signed by the person supervising the loading to the effect that the load and its distribution is in accordance with the data on the document 5. must include the aircraft commander's signature to signify acceptance of the document",
+      "question_type": "MCQ",
+      "options": [
+        "a. all the above",
+        "b. 2, 4 and 5 only",
+        "c. 1, 4 and 5 only",
+        "d. 1 and 3 only"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "All statements are correct for M & B documentation: it must be established prior to each flight, must enable the commander to determine that the load and its distribution is such that the limits of the aircraft are not exceeded, must include the name of the person preparing the document, must be signed by the person supervising the loading, and must include the aircraft commander's signature to signify acceptance of the document."
+    },
+    {
+      "id": "27",
+      "question": "Once the M & B documentation has been signed prior to flight:",
+      "question_type": "MCQ",
+      "options": [
+        "a. no load alterations are allowed",
+        "b. documented last minute changes to the load may be incorporated",
+        "c. the documentation is not signed prior to flight",
+        "d. acceptable last minute changes to the load must be documented"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Once the M & B documentation has been signed prior to flight, acceptable last minute changes to the load must be documented. This ensures that any changes to the load are properly recorded and the mass and balance calculations remain accurate."
+    },
+    {
+      "id": "28",
+      "question": "Individual aircraft (not part of a fleet) must be weighed: 1. on initial entry into service 2. annually if the records have not been adjusted for alterations or modifications 3. every four years after initial weigh 4. whenever major modifications have been embodied 5. whenever minor repairs have been carried out",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1 and 3 only",
+        "b. 1, 2 and 4 only",
+        "c. 1, 2 and 3 only",
+        "d. 1, 3 and 5 only"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Individual aircraft (not part of a fleet) must be weighed: on initial entry into service and every four years after initial weigh. Annual weighing is not required unless records have not been adjusted, and minor repairs do not require re-weighing."
+    },
+    {
+      "id": "29",
+      "question": "Aeroplane loading: 1. must be performed under the supervision of qualified personnel 2. must be consistent with the data used for calculating the aircraft weight and CG 3. must comply with compartment dimension limitations 4. must comply with the maximum load per running metre 5. must comply with the maximum mass per cargo compartment",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1 and 2 only",
+        "b. 1, 2, 4 and 5 only",
+        "c. 1, 2, 3, 4 and 5",
+        "d. 3, 4 and 5 only"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "All statements are correct for aeroplane loading: it must be performed under the supervision of qualified personnel, must be consistent with the data used for calculating the aircraft weight and CG, must comply with compartment dimension limitations, must comply with the maximum load per running metre, and must comply with the maximum mass per cargo compartment."
+    },
+    {
+      "id": "30",
+      "question": "Aircraft are usually weighed only when they enter the hangar for deep maintenance. This is because:",
+      "question_type": "MCQ",
+      "options": [
+        "a. they have to be stripped down to the basic mass condition which is labour intensive and time consuming",
+        "b. they have to be stripped down to the DOM condition which is labour intensive and time costly",
+        "c. it is the only time the hangar doors are fully closed",
+        "d. there would not be sufficient aircraft for the program otherwise"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Aircraft are usually weighed only when they enter the hangar for deep maintenance because they have to be stripped down to the basic mass condition which is labour intensive and time consuming. This is the most efficient time to perform the weighing operation."
+    }
+  ]
+}
+

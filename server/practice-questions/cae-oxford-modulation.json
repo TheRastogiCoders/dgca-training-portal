@@ -1,0 +1,64 @@
+{
+  "book_name": "Radio Navigation 2014",
+  "chapter_number": "3",
+  "chapter_title": "Modulation",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The bandwidth produced when a radio frequency (RF) of 4716 kHz is amplitude modulated with an audio frequency (AF) of 6 kHz is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 6 kHz",
+        "b. 3 kHz",
+        "c. 12 kHz",
+        "d. 9 kHz"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "For amplitude modulation (AM), the bandwidth is twice the modulating frequency. When a 4716 kHz RF carrier is modulated by a 6 kHz audio frequency, the bandwidth is 2 × 6 kHz = 12 kHz. This includes both the upper sideband (4716 + 6 = 4722 kHz) and the lower sideband (4716 - 6 = 4710 kHz)."
+    },
+    {
+      "id": "2",
+      "question": "Which of the following statements concerning AM is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The amplitude of the RF is modified by the frequency of the AF",
+        "b. The amplitude of the RF is modified by the amplitude of the AF",
+        "c. The frequency of the RF is modified by the frequency of the AF",
+        "d. The frequency of the RF is modified by the amplitude of the AF"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "In Amplitude Modulation (AM), the amplitude of the radio frequency (RF) carrier wave is varied in proportion to the amplitude of the audio frequency (AF) signal. The frequency of the RF carrier remains constant, only its amplitude changes."
+    },
+    {
+      "id": "3",
+      "question": "Which of the following is an advantage of single sideband (SSB) emissions?",
+      "question_type": "MCQ",
+      "options": [
+        "a. More frequencies available",
+        "b. Reduced power requirement",
+        "c. Better signal/noise ratio",
+        "d. All of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Single Sideband (SSB) modulation has several advantages: (1) More frequencies available because it uses half the bandwidth of AM, (2) Reduced power requirement since only one sideband is transmitted, and (3) Better signal/noise ratio due to the narrower bandwidth and more efficient power usage."
+    },
+    {
+      "id": "4",
+      "question": "Which of the following statements concerning FM is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The amplitude of the RF is modified by the frequency of the AF",
+        "b. The amplitude of the RF is modified by the amplitude of the AF",
+        "c. The frequency of the RF is modified by the frequency of the AF",
+        "d. The frequency of the RF is modified by the amplitude of the AF"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "In Frequency Modulation (FM), the frequency of the radio frequency (RF) carrier wave is varied in proportion to the amplitude of the audio frequency (AF) signal. The amplitude of the RF carrier remains constant, only its frequency changes. The amount of frequency deviation is proportional to the amplitude of the modulating signal."
+    }
+  ]
+}
+

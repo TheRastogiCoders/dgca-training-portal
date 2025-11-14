@@ -100,7 +100,7 @@ const Library = () => {
         <SiteSidebar />
 
         {/* Main Content */}
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-24">
+        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-56 lg:ml-64 xl:ml-72">
           <div className="max-w-6xl mx-auto">
             {/* Header */}
             <div className="text-center mb-8 md:mb-12">

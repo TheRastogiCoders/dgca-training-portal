@@ -1,0 +1,260 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "18",
+  "chapter_title": "Aeronautical Information Service (AIS)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What level of alert would be inserted in field E of an ASHTAM following a volcanic eruption in which a pyroclastic ash cloud extends above FL250?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Red alert.",
+        "b. Orange alert.",
+        "c. Yellow alert.",
+        "d. Green alert."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "In which section of the AIP would you find information on holding, approach and departing procedures?",
+      "question_type": "MCQ",
+      "options": [
+        "a. GEN.",
+        "b. ENR.",
+        "c. SAT.",
+        "d. AD."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "An integrated aeronautical information package consists of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. AIP and amendment service, supplement to the AIP, NOTAM, Pre-flight Information Bulletins (PIBs), AICs, checklists and summaries.",
+        "b. AIP and amendment service, NOTAM, Pre-flight Information Bulletins (PIBs), and AICS, AIRAC, checklists and summaries.",
+        "c. AIP and amendment service, supplement to the AIP, NOTAM, AIRAC, AICS, checklists and summaries.",
+        "d. AIP & Supplements, AIRAC, NOTAM and pre-flight bulletins."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "In what section of the AIP are details of SIGMET found?",
+      "question_type": "MCQ",
+      "options": [
+        "a. GEN.",
+        "b. ENR.",
+        "c. AD.",
+        "d. COMMS."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Where in the AIP is a list of Location Indicators to be found?",
+      "question_type": "MCQ",
+      "options": [
+        "a. GEN.",
+        "b. COMMS.",
+        "c. AD.",
+        "d. AGA."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "A check list for NOTAM is issued:",
+      "question_type": "MCQ",
+      "options": [
+        "a. every 5 days.",
+        "b. every 28 days.",
+        "c. every 18 days.",
+        "d. at intervals of not more than one month."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "AIP approach charts do not give information for Instrument Approach Procedures for:",
+      "question_type": "MCQ",
+      "options": [
+        "a. OCA/H.",
+        "b. visibility minima.",
+        "c. obstacles protruding above the obstacle free zone.",
+        "d. DME frequencies."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "AIP supplements with extensive text and graphics cover a short period. What is a long period in this respect?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1 yr.",
+        "b. 2 months.",
+        "c. 3 months.",
+        "d. 6 months."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "AIRAC is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a breakdown service.",
+        "b. operationally significant changes to the AIP.",
+        "c. a medical evacuation flight.",
+        "d. an Army Air Corps publication."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "What information is not on an aerodrome approach plate?",
+      "question_type": "MCQ",
+      "options": [
+        "a. DME frequency.",
+        "b. OCA.",
+        "c. Dominant obstacles.",
+        "d. Operating minima if the aerodrome is being used as an alternative."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "Where in the AIP is information concerning re-fuelling facilities and services found?",
+      "question_type": "MCQ",
+      "options": [
+        "a. ENR.",
+        "b. SUPP.",
+        "c. AD.",
+        "d. GEN."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "Where in the AIP would you find information concerning prohibited, restricted or danger areas?",
+      "question_type": "MCQ",
+      "options": [
+        "a. ENR.",
+        "b. SUPP.",
+        "c. AD.",
+        "d. GEN."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "In what part of the AIP are the details of SIGMET found?",
+      "question_type": "MCQ",
+      "options": [
+        "a. GEN.",
+        "b. ENR.",
+        "c. AD.",
+        "d. AIRAC."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "What is the coefficient of braking, if the braking action is reported as medium?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Between 1.0 and 0.25.",
+        "b. Between 0.25 and 0.3.",
+        "c. Between 0.30 and 0.35.",
+        "d. Between 0.35 and 0.4."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "Regarding the AIS what is the time limit for a checklist of current NOTAM to be issued?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 7 days.",
+        "b. 14 days.",
+        "c. 28 days.",
+        "d. One month."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "A checklist of the active NOTAM must be published on the AFTN at intervals of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. not more than 28 days.",
+        "b. not more than 15 days.",
+        "c. not more than 1 month.",
+        "d. not more than 10 days."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "Operationally significant changes to the AIP shall be published in accordance with:",
+      "question_type": "MCQ",
+      "options": [
+        "a. AlCs.",
+        "b. AIP Supplements.",
+        "c. AIRAC procedures.",
+        "d. trigger NOTAMS."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "A notice containing information concerning flight safety, air navigation, administration or legislative matters and originated at the AIS of a state is called:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Aeronautical Information Publication (AIP).",
+        "b. Aeronautical Information Circular (AIC).",
+        "c. AIRAC.",
+        "d. NOTAM."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

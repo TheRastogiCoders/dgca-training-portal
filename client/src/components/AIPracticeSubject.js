@@ -84,7 +84,7 @@ const AIPracticeSubject = () => {
 
   const startAIPractice = () => {
     if (selectedSubject) {
-      navigate(`/practice-test/ai/${selectedSubject.slug}`);
+      navigate(`/pyq/ai/${selectedSubject.slug}`);
     }
   };
 
@@ -292,7 +292,7 @@ const AIPracticeSubject = () => {
             {/* Back to Practice */}
             <div className="text-center">
               <Link 
-                to="/practice-test"
+                to="/pyq"
                 className="inline-flex items-center px-6 py-3 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors"
               >
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

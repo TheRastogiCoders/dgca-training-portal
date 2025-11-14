@@ -1,0 +1,204 @@
+{
+  "book_name": "Radio Navigation 2014",
+  "chapter_number": "11",
+  "chapter_title": "Radar Principles",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The factor which determines the maximum range of a radar is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. pulse repetition rate",
+        "b. pulse width",
+        "c. power",
+        "d. beamwidth"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The Pulse Repetition Frequency (PRF) or Pulse Repetition Rate determines the maximum unambiguous range of a radar. The maximum range = c / (2 × PRF), where c is the speed of light. A higher PRF reduces maximum range but improves target update rate."
+    },
+    {
+      "id": "2",
+      "question": "The main advantage of continuous wave radars is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. no maximum range limitation",
+        "b. better range resolution",
+        "c. no minimum range limitation",
+        "d. better range resolution"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "Continuous wave (CW) radars have no minimum range limitation because they transmit continuously, unlike pulse radars which have a dead time during transmission. However, CW radars cannot measure range directly without frequency modulation (FMCW)."
+    },
+    {
+      "id": "3",
+      "question": "If the PRF of a primary radar is 500 pulses per second, the maximum range will be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 324 NM",
+        "b. 300 NM",
+        "c. 162 NM",
+        "d. 600 NM"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "Maximum range = c / (2 × PRF). With PRF = 500 pps: Range = (3 × 10⁸ m/s) / (2 × 500) = 300,000 m = 300 km. Converting to nautical miles: 300 km / 1.852 = 162 NM."
+    },
+    {
+      "id": "4",
+      "question": "To double the range of a primary radar would require the power to be increased by a factor of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2",
+        "b. 4",
+        "c. 8",
+        "d. 16"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Radar range is proportional to the fourth root of power (R ∝ P^(1/4)). To double the range, power must be increased by a factor of 2⁴ = 16. This is because radar signals suffer from both outbound and return path losses."
+    },
+    {
+      "id": "5",
+      "question": "The time between the transmission of a pulse and the reception of the echo from a target is 1720 microseconds. What is the range of the target?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 139 km",
+        "b. 258 km",
+        "c. 278 km",
+        "d. 516 km"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "Range = (c × time) / 2. With time = 1720 μs = 0.00172 s: Range = (3 × 10⁸ × 0.00172) / 2 = 258,000 m = 258 km."
+    },
+    {
+      "id": "6",
+      "question": "A radar is required to have a maximum range of 100 NM. What is the maximum PRF that will achieve this?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1620 pulses per second (pps)",
+        "b. 1234 pps",
+        "c. 617 pps",
+        "d. 810 pps"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Maximum range = c / (2 × PRF). Rearranging: PRF = c / (2 × range). With range = 100 NM = 185.2 km = 185,200 m: PRF = (3 × 10⁸) / (2 × 185,200) = 810 pps."
+    },
+    {
+      "id": "7",
+      "question": "If the PRI of a radar is 2100 microseconds, the maximum range of the radar is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 170 NM",
+        "b. 315 NM",
+        "c. 340 NM",
+        "d. 630 NM"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "PRI (Pulse Repetition Interval) = 2100 μs = 0.0021 s. Maximum range = (c × PRI) / 2 = (3 × 10⁸ × 0.0021) / 2 = 315,000 m = 315 km = 170 NM (315 / 1.852)."
+    },
+    {
+      "id": "8",
+      "question": "To improve the resolution of a radar display requires:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a narrow pulse width and a narrow beamwidth",
+        "b. a high frequency and a large reflector",
+        "c. a wide beamwidth and a wide pulse width",
+        "d. a low frequency and a narrow pulse width"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Radar resolution requires both range resolution (narrow pulse width) and angular resolution (narrow beamwidth). Narrow pulse width improves the ability to distinguish targets at different ranges, while narrow beamwidth improves the ability to distinguish targets at different angles."
+    },
+    {
+      "id": "9",
+      "question": "An advantage of a phased array (slotted antenna) is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. better resolution",
+        "b. less power required",
+        "c. reduced side lobes and clutter",
+        "d. all of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Phased array (slotted antenna) systems provide multiple advantages: better resolution through precise beam control, reduced power requirements due to efficiency, and reduced side lobes and clutter through better antenna pattern control."
+    },
+    {
+      "id": "10",
+      "question": "An echo is received from a target 900 microseconds after the pulse was transmitted. The range to the target is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 73 NM",
+        "b. 270 NM",
+        "c. 135 NM",
+        "d. 146 NM"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Range = (c × time) / 2. With time = 900 μs = 0.0009 s: Range = (3 × 10⁸ × 0.0009) / 2 = 135,000 m = 135 km = 73 NM (135 / 1.852)."
+    },
+    {
+      "id": "11",
+      "question": "The factor which limits the minimum detection range of a radar is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. pulse repetition interval",
+        "b. transmitter power",
+        "c. pulse width",
+        "d. pulse repetition frequency"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "The pulse width limits the minimum detection range because the radar cannot receive echoes while it is still transmitting. The minimum range is approximately (c × pulse width) / 2. Longer pulse widths increase the minimum range."
+    },
+    {
+      "id": "12",
+      "question": "The use of Doppler techniques to discriminate between aircraft and fixed objects results in second trace returns being generated. These are removed by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. using a different frequency for transmission and reception",
+        "b. jittering the PRF",
+        "c. making regular changes in pulsewidth",
+        "d. limiting the power output of the radar"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "Second trace returns (ambiguous range returns) occur when targets beyond the maximum unambiguous range appear at incorrect ranges. Jittering the PRF (varying the pulse repetition frequency) helps identify and remove these ambiguous returns by comparing returns at different PRFs."
+    },
+    {
+      "id": "13",
+      "question": "A radar is designed to have a maximum range of 12 km. The maximum PRF that would permit this is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 25000 pps",
+        "b. 6700 pps",
+        "c. 12 500 pps",
+        "d. 13400 pps"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "Maximum range = c / (2 × PRF). Rearranging: PRF = c / (2 × range). With range = 12 km = 12,000 m: PRF = (3 × 10⁸) / (2 × 12,000) = 12,500 pps."
+    },
+    {
+      "id": "14",
+      "question": "The bearing of a primary radar is measured by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. phase comparison",
+        "b. searchlight principle",
+        "c. lobe comparison",
+        "d. DF techniques"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The bearing of a primary radar is measured using the searchlight principle, where a directional antenna rotates and the bearing is determined by the antenna's pointing direction when the maximum echo is received."
+    }
+  ]
+}
+

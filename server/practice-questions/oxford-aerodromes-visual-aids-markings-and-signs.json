@@ -1,0 +1,148 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "20",
+  "chapter_title": "Aerodromes - Visual Aids, Markings and Signs",
+  "questions": [
+    {
+      "id": "1",
+      "question": "How are the runways designated at an aerodrome where there are three parallel runways?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 02; 03; and 04.",
+        "b. The QDM for the third runway will be increased by 10°.",
+        "c. The L and R runways will have different QDM.",
+        "d. The QDM with 'L'; 'C' and 'R' added."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "Runway threshold marking consists of a number of stripes. How many stripes are there for a runway width of 60 metres?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 6",
+        "b. 8",
+        "c. 12",
+        "d. 16"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "Touchdown zone markings are set out in pairs. How many such pairs are required for a runway of 2400 m or more?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 6",
+        "b. 4",
+        "c. 2",
+        "d. 8"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "A transverse white stripe on a runway is associated with:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a closed runway.",
+        "b. a runway which is 2400 metres or longer.",
+        "c. a displaced threshold.",
+        "d. a runway available for circling to land approaches."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Which of the following statements is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Taxiway markings are white and runway markings are yellow.",
+        "b. Numerals on aerodrome signs are reserved for runways.",
+        "c. A clearway has the same function as a RESA.",
+        "d. The pairs of touchdown zone markings are separated from each other by 120 metres."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "If a runway is 2000 m in length, how close to the runway centre line is the nearest taxiway holding point?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 50 m.",
+        "b. 35 m.",
+        "c. 40 m.",
+        "d. 75 m."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "Which of the following statements are correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Runway markings are white and taxiway markings are yellow.",
+        "b. Runway and taxiway markings are white.",
+        "c. Runway and taxiway markings are yellow.",
+        "d. Runway markings are yellow and taxiway markings are white."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "On an instrument approach runway which is more than 2400 m long there will be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. an aiming point marking and centre line markings only.",
+        "b. touchdown zone markings and centre line markings only.",
+        "c. aiming point markings and touchdown zone markings.",
+        "d. an aiming point marking 150 m from the threshold."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "Which of the following concerning aerodrome signs is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Mandatory signs: Black background with red inscription.",
+        "b. Information signs: Black or yellow background with black or yellow inscription.",
+        "c. Mandatory signs: Red background with black inscription.",
+        "d. Information signs: Orange background with black inscription."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "Where fixed distance marking is provided, this shall commence:",
+      "question_type": "MCQ",
+      "options": [
+        "a. at 100 m from the far end threshold.",
+        "b. at 150 m from the far end threshold.",
+        "c. at 300 m from the far end threshold.",
+        "d. at 500 m from the far end threshold."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}
+

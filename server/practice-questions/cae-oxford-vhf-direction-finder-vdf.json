@@ -1,0 +1,92 @@
+{
+  "book_name": "Radio Navigation 2014",
+  "chapter_number": "6",
+  "chapter_title": "VHF Direction Finder (VDF)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "An aircraft has to communicate with a VHF station at a range of 300 NM, if the ground station is situated 2500 ft AMSL which of the following is the lowest altitude at which contact is likely to be made?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 190 ft",
+        "b. 1378 ft",
+        "c. 36 100 ft",
+        "d. 84 100 ft"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "For line-of-sight VHF communication: range = 1.23 × (√h₁ + √h₂) where h is in feet. Given range = 300 NM and h₁ = 2500 ft, we solve: 300 = 1.23 × (√2500 + √h₂). √2500 = 50, so 300/1.23 ≈ 243.9 = 50 + √h₂, giving √h₂ ≈ 193.9, so h₂ ≈ 37,600 ft. The closest answer is 36,100 ft."
+    },
+    {
+      "id": "2",
+      "question": "Class 'B' VHF DF bearings are accurate to within:",
+      "question_type": "MCQ",
+      "options": [
+        "a. ±1°",
+        "b. ±5°",
+        "c. ±2°",
+        "d. ±10°"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "VHF Direction Finder (VDF) bearings are classified by accuracy. Class 'B' bearings have an accuracy of ±5°. Class 'A' bearings are more accurate (±2°), while lower classes have less accuracy."
+    },
+    {
+      "id": "3",
+      "question": "A VDF QDM given without an accuracy classification may be assumed to be accurate to within:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2 degrees",
+        "b. 5 degrees",
+        "c. 7.5 degrees",
+        "d. 10 degrees"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "When a VDF QDM (magnetic bearing to the station) is given without an accuracy classification, it should be assumed to have an accuracy of ±5 degrees. This is the standard assumption for unclassified VDF bearings."
+    },
+    {
+      "id": "4",
+      "question": "An aircraft at altitude 9000 ft wishes to communicate with a VHF/DF station that is situated at 400 ft AMSL. What is the maximum range at which contact is likely to be made?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 115 NM",
+        "b. 400 NM",
+        "c. 143 NM",
+        "d. 63.5 NM"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "For line-of-sight VHF communication: range = 1.23 × (√h₁ + √h₂). With h₁ = 9000 ft and h₂ = 400 ft: range = 1.23 × (√9000 + √400) = 1.23 × (94.9 + 20) = 1.23 × 114.9 ≈ 141.3 NM. The closest answer is 143 NM."
+    },
+    {
+      "id": "5",
+      "question": "An aircraft is passed a true bearing from a VDF station of 353°. If variation is 8°E and the bearing is classified as 'B' then the:",
+      "question_type": "MCQ",
+      "options": [
+        "a. QDM is 345° ±5°",
+        "b. QDR is 345° ±2°",
+        "c. QTE is 353° ±5°",
+        "d. QUJ is 353° ±2°"
+      ],
+      "answer": "c",
+      "solution": "C",
+      "explanation": "QTE is the true bearing from the station to the aircraft. The aircraft is passed a true bearing of 353°, which is the QTE (true bearing from station). With variation 8°E, the magnetic bearing would be 353° - 8° = 345° (QDM). However, since the bearing is classified as 'B', the accuracy is ±5°. The question asks about the true bearing (QTE), which is 353° ±5°."
+    },
+    {
+      "id": "6",
+      "question": "An aircraft at 19000 ft wishes to communicate with a VDF station at 1400 ft AMSL. What is the maximum range at which contact is likely ?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 175 NM",
+        "b. 400.0 NM",
+        "c. 62.5 NM",
+        "d. 219 NM"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "For line-of-sight VHF communication: range = 1.23 × (√h₁ + √h₂). With h₁ = 19000 ft and h₂ = 1400 ft: range = 1.23 × (√19000 + √1400) = 1.23 × (137.8 + 37.4) = 1.23 × 175.2 ≈ 215.5 NM. The closest answer is 219 NM."
+    }
+  ]
+}
+

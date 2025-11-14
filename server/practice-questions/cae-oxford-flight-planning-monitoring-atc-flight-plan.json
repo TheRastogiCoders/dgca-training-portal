@@ -1,0 +1,232 @@
+{
+  "book_name": "CAE ATPL 7. Flight Planning & Monitoring",
+  "chapter_number": "12",
+  "chapter_title": "ATC Flight Plan",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Under what circumstances may an Aircraft Operator (AO) submit Repetitive Flight Plans (RPLs) rather than individual flight plans?\nWhen ..... flights are operated regularly on the same day(s) of consecutive weeks and on at least ...... occasions or every day over a period of at least ..... consecutive days. The elements of each flight shall have a high degree of .....",
+      "question_type": "MCQ",
+      "options": [
+        "a. IFR, ten, ten, stability",
+        "a. VFR, seven, seven, familiarity",
+        "b. IFR, seven, seven, familiarity",
+        "c. VFR, ten, ten, stability"
+      ],
+      "answer": "a. IFR, ten, ten, stability",
+      "solution": "a. IFR, ten, ten, stability",
+      "explanation": "Repetitive Flight Plans (RPLs) may be submitted for IFR flights operated regularly on the same day(s) of consecutive weeks on at least ten occasions, or every day over at least ten consecutive days, with a high degree of stability in flight elements."
+    },
+    {
+      "id": "2",
+      "question": "What are the reasons for the format of the ICAO Flight Plan?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The format is internationally agreed, is printed in two languages, usually English and the language of the State concerned, to help ensure correct completion which is essential for electronic data transfer",
+        "b. It is designed to fit into a standard pilot's bag, and have plenty of room for flight data",
+        "c. The format ensures that minimum writing is required, to reduce pilot workload in flight",
+        "d. The format is agreed between EC member states, for use in Europe only"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "The ICAO Flight Plan format is internationally agreed, printed in two languages (usually English and the local language), to ensure correct completion which is essential for electronic data transfer."
+    },
+    {
+      "id": "3",
+      "question": "Which sections of a CA48 are not normally transmitted to other ATSUs?\ni Addressees\nii Items 3 to 18-the main body of the message\niii Supplementary information",
+      "question_type": "MCQ",
+      "options": [
+        "a. i only",
+        "b. i and ii",
+        "c. iii only",
+        "d. None, all are always transmitted"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "Supplementary information (item iii) is not normally transmitted to other Air Traffic Service Units (ATSUs), while addressees and the main body (items 3-18) are transmitted."
+    },
+    {
+      "id": "4",
+      "question": "Normally, flight plans should be filed on the ground at least .... before clearance to start up is requested. Exceptionally, when it is not possible to meet this requirement, operators should and never",
+      "question_type": "MCQ",
+      "options": [
+        "a. 30 minutes, give as much notice as possible, less than 60 minutes",
+        "b. 60 minutes, give as much notice as possible, less than 30 minutes",
+        "c. 3 hours, cancel the flight, cause such trouble again",
+        "d. 3 hours, give as much notice as possible, 30 minutes"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "Flight plans should normally be filed at least 60 minutes before clearance to start up is requested. Exceptionally, when not possible, operators should give as much notice as possible and never less than 30 minutes."
+    },
+    {
+      "id": "5",
+      "question": "Flight plans for flights affected by Air Traffic Flow Management (ATFM) rules, and in areas such as the North Atlantic, must be filed at least ....... before EOBT.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3 hours",
+        "b. 1 hour",
+        "c. 30 minutes",
+        "d. Never less than 10 minutes"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Flight plans for flights affected by ATFM rules and in areas like the North Atlantic must be filed at least 3 hours before Estimated Off-Block Time (EOBT)."
+    },
+    {
+      "id": "6",
+      "question": "In the event of a delay in excess of ........ of ....... for a controlled flight, or a delay of ......... for an uncontrolled flight for which a flight plan has been submitted, the flight plan should be amended or a new flight plan submitted and the old plan cancelled, whichever is appropriate.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 30 minutes, Estimated Off-block Time, 3 hours",
+        "b. 30 minutes, planned take off time, 1 hour",
+        "c. 60 minutes, planned take off time, 3 hours",
+        "d. 30 minutes, EOBT, 1 hour"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "For controlled flights, if delay exceeds 30 minutes of EOBT, or for uncontrolled flights with submitted flight plans, if delay exceeds 1 hour, the flight plan should be amended or a new one submitted and the old one cancelled."
+    },
+    {
+      "id": "7",
+      "question": "If a pilot lands at an aerodrome other than the destination specified in the flight plan, he must:",
+      "question_type": "MCQ",
+      "options": [
+        "a. ensure that all ATSUs which were addressees on the flight plan are notified of his landing",
+        "b. ensure that the ATSU at the original destination is informed within 60 minutes",
+        "c. ensure that the ATSU at the original destination is informed within 30 minutes",
+        "d. report to ATC to apologize"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "If a pilot lands at an aerodrome other than the destination specified in the flight plan, the ATSU at the original destination must be informed within 30 minutes."
+    },
+    {
+      "id": "8",
+      "question": "A current flight plan is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. The flight plan as filed with an ATS unit by the pilot or a designated representative, without any subsequent changes",
+        "b. The flight plan, including changes, if any, brought about by subsequent clearances",
+        "c. The flight plan, including changes, if any, cleared prior to take off",
+        "d. The flight plan, including changes, if any, cleared prior to the aircraft's present position"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "A current flight plan is the flight plan including any changes brought about by subsequent clearances."
+    },
+    {
+      "id": "9",
+      "question": "A filed flight plan is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the flight plan as filed with an ATS unit by the pilot or a designated representative, without any subsequent changes",
+        "b. the flight plan, including changes, if any, brought about by subsequent clearances",
+        "c. the flight plan, including changes, if any, cleared prior to take-off",
+        "d. the flight plan, including changes, if any, cleared prior to the aircraft's present position"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "A filed flight plan is the flight plan as filed with an ATS unit by the pilot or designated representative, without any subsequent changes."
+    },
+    {
+      "id": "10",
+      "question": "ATC must be informed of changes which occur to the flight plan speed and ETA. Many nations stipulate their own limits but PANS-RAC require changes of ..... in TAS and ........ of ETA be notified. Which answer fills the blanks correctly?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3% 5 minutes",
+        "b. 5 kt 30 minutes",
+        "c. 5% More than 2 minutes",
+        "d. 3 kt 3 minutes"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "PANS-RAC requires ATC to be informed of changes of 5% in TAS and more than 2 minutes in ETA."
+    },
+    {
+      "id": "11",
+      "question": "A flight has filed a flight plan for a route starting on ATS routes and later leaving controlled airspace. It is \"cleared via flight plan route\". This means the flight is cleared to follow:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the flight planned route until leaving ATS routes and must then obtain further clearance",
+        "b. the complete route without further ATC clearance",
+        "c. the flight planned route only until the next FIR boundary",
+        "d. the flight planned route only as far as the limit of control of the current ATS unit"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "When cleared \"via flight plan route\", the flight is cleared to follow the flight planned route only as far as the limit of control of the current ATS unit."
+    },
+    {
+      "id": "12",
+      "question": "Who is responsible for processing a flight plan?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The ATS unit first receiving a flight plan",
+        "b. The ATS unit in whose FIR the aircraft will fly first",
+        "c. The ATS unit responsible for the aerodrome of departure",
+        "d. The ATS unit responsible for takeoff clearance at the departure aerodrome"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "The ATS unit responsible for the aerodrome of departure is responsible for processing a flight plan."
+    },
+    {
+      "id": "13",
+      "question": "A trip time of 150 minutes has been calculated for a flight with an EOBT of 1000 UTC and an expected take-off time of 1020 UTC. The aircraft has a fuel reserve of 30%. Use this information to answer the following questions.\ni 1000\nii 1020\niii 150\niv 195\nv 0230\nvi 0315\nWhat should be filled in at Item 13 of the flight plan?",
+      "question_type": "MCQ",
+      "options": [
+        "a. i",
+        "b. ii",
+        "c. v",
+        "d. vi"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Item 13 of the flight plan requires the Estimated Off-Block Time (EOBT), which is 1000 UTC (option i)."
+    },
+    {
+      "id": "14",
+      "question": "What should be filled in at Item 16 of the flight plan?",
+      "question_type": "MCQ",
+      "options": [
+        "a. iii",
+        "b. iv",
+        "c. v",
+        "d. vi"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "Item 16 requires the estimated elapsed time. EOBT 1000 + trip time 150 min = 1250 UTC = 0230 UTC next day (option v)."
+    },
+    {
+      "id": "15",
+      "question": "What should be filled in at Item 19 of the flight plan?",
+      "question_type": "MCQ",
+      "options": [
+        "a. iii",
+        "b. iv",
+        "c. v",
+        "d. vi"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Item 19 requires the total estimated elapsed time including reserves. Trip time 150 min + 30% reserve (45 min) = 195 min. EOBT 1000 + 195 min = 1315 UTC = 0315 UTC next day (option vi)."
+    },
+    {
+      "id": "16",
+      "question": "With reference to changes to RPLs. In the event that the destination airfield is changed the following action is taken:",
+      "question_type": "MCQ",
+      "options": [
+        "a. The change is notified as early as possible and not later than 30 minutes before departure to the ATS reporting office responsible for the departure aerodrome",
+        "b. The change is notified as early as possible before departure to the ATS reporting office responsible for the departure aerodrome",
+        "c. The RPL shall be cancelled for the day concerned and an individual flight plan shall be submitted",
+        "d. The change may be notified by radio-telephony on initial contact with the ATS unit"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "If the destination airfield is changed in an RPL, the RPL must be cancelled for that day and an individual flight plan must be submitted."
+    }
+  ]
+}
+

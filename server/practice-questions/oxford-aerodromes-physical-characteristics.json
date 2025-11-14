@@ -1,0 +1,218 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "19",
+  "chapter_title": "Aerodromes - Physical Characteristics",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Aerodrome reference code 4 refers to field length of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 900 m.",
+        "b. 1000 m.",
+        "c. 1600 m.",
+        "d. 1800 m or more."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "The signal area should be located so that it is visible from the air.\nA lack of a signal area denotes that:",
+      "question_type": "MCQ",
+      "options": [
+        "a. non-radio traffic will not be accepted at the aerodrome other than emergency traffic.",
+        "b. non-radio traffic will be accepted.",
+        "c. non-radio traffic will be accepted in daylight hours only.",
+        "d. non-radio traffic will not be accepted in daylight hours only."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "The Aerodrome Reference Code consists of Code Element 1 (aeroplane reference field length) and Code Element 2. What does Code Element 2 define?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Wing span and inner main gear wheel span.",
+        "b. Fuselage width and inner main gear wheel span.",
+        "c. Fuselage width and outer main gear wheel span.",
+        "d. Wing span and outer main gear wheel span."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "A radio altimeter operating area must extend before the threshold of a precision approach runway for a distance of at least:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 100 metres.",
+        "b. 200 metres.",
+        "c. 300 metres.",
+        "d. 500 metres."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Which of the following is a valid aerodrome reference code?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 6B.",
+        "b. 4G.",
+        "c. 7G.",
+        "d. 2B."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "What is a stopway for?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Stopping after landing distance.",
+        "b. Extending the Landing Distance Available.",
+        "c. Stopping after a rejected take-off.",
+        "d. A runway extension for big aircraft."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "A transverse white stripe on a runway is associated with a:",
+      "question_type": "MCQ",
+      "options": [
+        "a. closed runway.",
+        "b. runway which is 2400 metres or longer.",
+        "c. displaced threshold.",
+        "d. runway available for circling to land approaches."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Which \"code letter\" identifies a taxiway that has to be used by an aircraft with a wheel-base of 15 metres?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Code letter E.",
+        "b. Code letter C.",
+        "c. Code letter B.",
+        "d. Code letter D."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "According to the Aerodrome Reference Code, the code letter E relates to an aircraft wingspan of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 15 m or more but less than 24 m.",
+        "b. 36 m or more but less than 52 m.",
+        "c. 52 m or more but less than 65 m.",
+        "d. 24 m or more but less than 36 m."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "The stopway is a defined rectangular area on the ground at the end of the take-off run available which is prepared as a suitable area:",
+      "question_type": "MCQ",
+      "options": [
+        "a. to stop an aircraft after a rejected take-off.",
+        "b. to stop a landing aircraft in case of an emergency.",
+        "c. to stop a starting or landing aircraft.",
+        "d. to stop a landing aircraft if it overshoots the runway."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "An area defined about the extended runway centre line and adjacent to the end of the strip, primarily intended to reduce the risk of damage to an aircraft undershooting or overrunning the runway is defined as a:",
+      "question_type": "MCQ",
+      "options": [
+        "a. clearway.",
+        "b. runway strip extension.",
+        "c. runway end safety area.",
+        "d. altimeter operating area extension."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "What is the width of a code letter D taxiway used by aircraft with an outer main gear wheel span of less than 9 m?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10.5 m.",
+        "b. 15 m.",
+        "c. 18 m.",
+        "d. 23 m."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "What is the minimum width of a code 4 runway?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 18 m.",
+        "b. 23 m.",
+        "c. 30 m.",
+        "d. 45 m."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "When a fixed distance marking has to be provided this marking shall commence at:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 150 m from the threshold.",
+        "b. 300 m from the threshold.",
+        "c. 150 m from the aiming point.",
+        "d. 300 m from the aiming point."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "TODA consists of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. TORA but excluding the clearway.",
+        "b. TORA and includes the clearway.",
+        "c. TORA but excluding the stopway.",
+        "d. TORA only."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

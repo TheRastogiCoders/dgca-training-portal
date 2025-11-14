@@ -1,0 +1,170 @@
+{
+  "book_name": "CAE ATPL 7. Flight Planning & Monitoring",
+  "chapter_number": "6",
+  "chapter_title": "Medium Range Jet Transport planning",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Refer CAP 697 Figure 4.1\nGiven:\nBrake release mass of 55 000 kg\nCruising at M 0.74\nWhat is the optimum altitude?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 Figure 4.1",
+      "solution": "Answer requires CAP 697 Figure 4.1",
+      "explanation": "This question requires reference to CAP 697 Figure 4.1 to determine the optimum cruise altitude based on brake release mass and cruise Mach number."
+    },
+    {
+      "id": "2",
+      "question": "Refer CAP 697 Figure 4.1\nGiven:\nCruise mass of 50 000 kg\nCruising at M 0.78\nWhat is the optimum altitude?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 Figure 4.1",
+      "solution": "Answer requires CAP 697 Figure 4.1",
+      "explanation": "This question requires reference to CAP 697 Figure 4.1 to determine the optimum cruise altitude based on cruise mass and cruise Mach number."
+    },
+    {
+      "id": "3",
+      "question": "Refer CAP 697 Figure 4.2\nGiven:\nBrake release mass of 60 000 kg\nDistance 150 NAM\nISA+10°C\nWhat is the short distance cruise altitude?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 Figure 4.2",
+      "solution": "Answer requires CAP 697 Figure 4.2",
+      "explanation": "This question requires reference to CAP 697 Figure 4.2 to determine the short distance cruise altitude based on brake release mass, flight distance, and temperature deviation from ISA."
+    },
+    {
+      "id": "4",
+      "question": "Refer CAP 697 Figure 4.2\nGiven:\nBrake release mass of 40 000 kg\nDistance 100 NAM\nISA +20°C\nWhat is the short distance cruise altitude?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 Figure 4.2",
+      "solution": "Answer requires CAP 697 Figure 4.2",
+      "explanation": "This question requires reference to CAP 697 Figure 4.2 to determine the short distance cruise altitude based on brake release mass, flight distance, and temperature deviation from ISA."
+    },
+    {
+      "id": "5",
+      "question": "Refer CAP 697 Figure 4.3.1b\nGiven:\nLanding mass of 45 000 kg\nDistance 600 NGM\nISA +20°C\nCruise using LRC @ FL370\n50 kt headwind\nWhat is the trip fuel and time?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 Figure 4.3.1b",
+      "solution": "Answer requires CAP 697 Figure 4.3.1b",
+      "explanation": "This question requires reference to CAP 697 Figure 4.3.1b to calculate trip fuel and flight time for Long Range Cruise (LRC) conditions with specified landing mass, distance, temperature deviation, flight level, and wind component."
+    },
+    {
+      "id": "6",
+      "question": "Refer CAP 697 Figure 4.3.1b\nGiven:\nLanding mass of 55 000 kg\nDistance 600 NGM\nISA -10°C\nCruise using LRC @ FL370\n50 kt headwind\nWhat is the trip fuel and time?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 Figure 4.3.1b",
+      "solution": "Answer requires CAP 697 Figure 4.3.1b",
+      "explanation": "This question requires reference to CAP 697 Figure 4.3.1b to calculate trip fuel and flight time for Long Range Cruise (LRC) conditions with specified landing mass, distance, temperature deviation, flight level, and wind component."
+    },
+    {
+      "id": "7",
+      "question": "Refer CAP 697 Figure 4.3.1b\nGiven:\nLanding mass of 35000 kg\nDistance 600 NGM\nISA\nCruise using LRC @ FL250\n50 kt tailwind\nWhat is the trip fuel and time?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 Figure 4.3.1b",
+      "solution": "Answer requires CAP 697 Figure 4.3.1b",
+      "explanation": "This question requires reference to CAP 697 Figure 4.3.1b to calculate trip fuel and flight time for Long Range Cruise (LRC) conditions with specified landing mass, distance, ISA conditions, flight level, and tailwind component."
+    },
+    {
+      "id": "8",
+      "question": "Refer CAP 697 Figure 4.3.1b\nGiven:\nLanding mass of 37 000 kg\nFuel available 4500 kg\nISA\nCruise using LRC @ FL370\n75 kt headwind\nHow far could you fly?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 Figure 4.3.1b",
+      "solution": "Answer requires CAP 697 Figure 4.3.1b",
+      "explanation": "This question requires reference to CAP 697 Figure 4.3.1b to determine the maximum flight distance achievable with the available fuel, considering landing mass, ISA conditions, cruise mode, flight level, and headwind component."
+    },
+    {
+      "id": "9",
+      "question": "Refer CAP 697 Figure 4.1 and 4.3.3\nGiven:\nLanding mass of 47 500 kg\nCruise mass of 58000 kg\nDistance 1750 NGM\nISA +10°C\nCruise using M 0.78\nWind light & variable\na. What is the optimum pressure altitude?\nb. When cruising at FL330 what is your trip fuel and time?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 Figure 4.1 and 4.3.3",
+      "solution": "Answer requires CAP 697 Figure 4.1 and 4.3.3",
+      "explanation": "This question requires reference to CAP 697 Figures 4.1 and 4.3.3 to determine the optimum pressure altitude and calculate trip fuel and time for the specified flight conditions including masses, distance, temperature deviation, cruise Mach number, and wind conditions."
+    },
+    {
+      "id": "10",
+      "question": "Refer CAP 697 Figure 4.1 and 4.3.1\nGiven:\nLanding mass of 50000 kg\nCruise mass of 54000 kg\nDistance 800 NGM\nISA +20°C\nCruise using LRC\n50 kt tailwind\na. What is the optimum pressure altitude?\nb. When cruising at FL350 what is your trip fuel and time?\nc. With FMS in ECON mode with a cost index of 100; what are the fuel and time correction factors?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 Figure 4.1 and 4.3.1",
+      "solution": "Answer requires CAP 697 Figure 4.1 and 4.3.1",
+      "explanation": "This question requires reference to CAP 697 Figures 4.1 and 4.3.1 to determine optimum altitude, calculate trip fuel and time, and determine fuel and time correction factors for FMS ECON mode with specified cost index."
+    },
+    {
+      "id": "11",
+      "question": "Refer CAP 697 Figure 4.1, 4.3.1 and Table 4.1\nGiven:\nLanding mass of 45 000 kg\nBrake release mass of 60 000 kg\nDistance 2000 NGM\nISA -10°C\nCruise using LRC\n100 kt headwind\na. What is the optimum pressure altitude?\nb. When cruising at FL350 what is your trip fuel and time?\nc. If ATC restrict you to FL280; what is the fuel/mileage penalty factor?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 Figure 4.1, 4.3.1 and Table 4.1",
+      "solution": "Answer requires CAP 697 Figure 4.1, 4.3.1 and Table 4.1",
+      "explanation": "This question requires reference to CAP 697 Figures 4.1, 4.3.1 and Table 4.1 to determine optimum altitude, calculate trip fuel and time, and determine the fuel/mileage penalty factor when restricted to a lower flight level."
+    },
+    {
+      "id": "12",
+      "question": "Refer CAP 697 Figure 4.3.2\nGiven:\nLanding mass of 35 000 kg\nDistance 2000 NGM\nISA\nCruise using M 0.74 @ FL290\nNil wind\nWhat is the trip fuel and time?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 Figure 4.3.2",
+      "solution": "Answer requires CAP 697 Figure 4.3.2",
+      "explanation": "This question requires reference to CAP 697 Figure 4.3.2 to calculate trip fuel and time for specified landing mass, distance, ISA conditions, cruise Mach number, and flight level with no wind."
+    },
+    {
+      "id": "13",
+      "question": "Refer CAP 697 300 KIAS cruise\nGiven:\nLanding mass of 55 000 kg\nDistance 500 NGM\nISA+10°C\nCruise @ FL240\n50 kt tailwind\nWhat is the trip fuel and time?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 300 KIAS cruise charts",
+      "solution": "Answer requires CAP 697 300 KIAS cruise charts",
+      "explanation": "This question requires reference to CAP 697 300 KIAS cruise charts to calculate trip fuel and time for specified landing mass, distance, temperature deviation, flight level, and tailwind component."
+    },
+    {
+      "id": "14",
+      "question": "Refer CAP 697 Figure 4.3.3\nGiven:\nLanding mass of 35 000 kg\nFuel available 5000 kg ISA\nCruise using M 0.78 @ FL350\n50 kt tailwind\nWhat is the estimated trip distance?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 Figure 4.3.3",
+      "solution": "Answer requires CAP 697 Figure 4.3.3",
+      "explanation": "This question requires reference to CAP 697 Figure 4.3.3 to determine the estimated trip distance achievable with the available fuel, considering landing mass, ISA conditions, cruise Mach number, flight level, and tailwind component."
+    },
+    {
+      "id": "15",
+      "question": "Refer CAP 697 Figure 4.3.1\nGiven:\nLanding mass of 45 000 kg\nDistance 300 NGM\nISA -10°C\nCruise using LRC @ FL330\n120 kt tailwind\nTAS 423 kt\nWhat is the trip fuel and time?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 Figure 4.3.1",
+      "solution": "Answer requires CAP 697 Figure 4.3.1",
+      "explanation": "This question requires reference to CAP 697 Figure 4.3.1 to calculate trip fuel and time for Long Range Cruise (LRC) conditions with specified landing mass, distance, temperature deviation, flight level, tailwind component, and True Airspeed."
+    },
+    {
+      "id": "16",
+      "question": "Refer CAP 697 Figure 4.3.5 Stepped Climb Cruise\nGiven:\nBrake release mass of 62 500 kg\nDistance 3000 NGM\n50 kt tailwind\nISA+20°C\nWhat is the trip fuel and time?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 Figure 4.3.5",
+      "solution": "Answer requires CAP 697 Figure 4.3.5",
+      "explanation": "This question requires reference to CAP 697 Figure 4.3.5 for stepped climb cruise procedures to calculate trip fuel and time for specified brake release mass, distance, tailwind component, and temperature deviation."
+    },
+    {
+      "id": "17",
+      "question": "Refer CAP 697 Figure 4.3.6 Alternate Planning\nGiven:\nLanding mass at the alternate of 47 500 kg\nDistance 250 NGM\n50 kt headwind\nWhat is the alternate fuel and time?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 Figure 4.3.6",
+      "solution": "Answer requires CAP 697 Figure 4.3.6",
+      "explanation": "This question requires reference to CAP 697 Figure 4.3.6 for alternate planning to calculate alternate fuel and time for specified landing mass at alternate, distance, and headwind component."
+    },
+    {
+      "id": "18",
+      "question": "Refer CAP 697 Figure 4.3.3\nGiven:\nLanding mass of 50000 kg\nDistance 700 NGM\nISA\nCruise using M 0.78 at FL250\nWind light & variable\nWhat is the trip fuel and time when engine anti-ice required for the whole flight?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires CAP 697 Figure 4.3.3",
+      "solution": "Answer requires CAP 697 Figure 4.3.3",
+      "explanation": "This question requires reference to CAP 697 Figure 4.3.3 to calculate trip fuel and time with engine anti-ice requirements for the entire flight, considering landing mass, distance, ISA conditions, cruise Mach number, flight level, and wind conditions."
+    }
+  ]
+}
+

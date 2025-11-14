@@ -1,0 +1,64 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "3",
+  "chapter_title": "Airworthiness of Aircraft",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The State of Design is to ensure that a continuing structural integrity programme, including information concerning corrosion control, is maintained in respect of aeroplanes:",
+      "question_type": "MCQ",
+      "options": [
+        "a. with maximum certificated take-off mass less than 5700 kg",
+        "b. with maximum certificated take-off mass greater than 5700 kg",
+        "c. with maximum certificated take-off mass equal to 5700 kg",
+        "d. with maximum certificated take-off mass not more than 5700 kg"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "The continuing validity of a Certificate of Airworthiness of an aircraft is subject to the laws of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the State of Registration",
+        "b. the State of Registration or the State of the Operator",
+        "c. the State of the Operator",
+        "d. the State of Registration and the State of Design"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "When a Contracting State first enters on its register an aircraft and issues or validates a Certificate of Airworthiness, it shall inform:",
+      "question_type": "MCQ",
+      "options": [
+        "a. The State of Registry",
+        "b. The State of Manufacture",
+        "c. The State of Design",
+        "d. The State of the Operator"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "Which document contains information concerning the flight limitations of the aircraft ?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The C of A",
+        "b. The C of R",
+        "c. The C of L",
+        "d. The aircraft Flight Manual"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    }
+  ]
+}
+

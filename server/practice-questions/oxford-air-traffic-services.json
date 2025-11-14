@@ -1,0 +1,512 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "15",
+  "chapter_title": "Air Traffic Services",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the definition of Distress?",
+      "question_type": "MCQ",
+      "options": [
+        "a. An emergency condition where an aircraft is in grave and imminent danger and requires immediate assistance.",
+        "b. Persons on board an aircraft are in imminent danger and the flight cannot be continued.",
+        "c. The aircraft will be unable to land at a suitable aerodrome.",
+        "d. The aeroplane has a message to transmit concerning the safety of person on board or within sight."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "What defines the alert phase (ALERFA)?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A situation in which an aeroplane and passengers are known to be in serious and imminent danger.",
+        "b. A situation where it is certain that fuel is exhausted.",
+        "c. A situation where apprehension exists about an aeroplane and its safety.",
+        "d. A situation in which an aeroplane and its passengers are in emergency."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "Voice ATIS is transmitted on a:",
+      "question_type": "MCQ",
+      "options": [
+        "a. discrete VHF frequency only.",
+        "b. discrete VHF frequency or on voice on VOR.",
+        "c. VHF frequency or on ILS frequency.",
+        "d. ILS only."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "Who is responsible for initiating the Alert Phase?",
+      "question_type": "MCQ",
+      "options": [
+        "a. FIC or the relevant ATCU.",
+        "b. The State and ATC.",
+        "c. The Area Control and the RCC.",
+        "d. RCC and the FIR."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "What is the definition of the Emergency Phase?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The Distress Phase.",
+        "b. The Alarm Phase.",
+        "c. The Alert Phase.",
+        "d. A generic term meaning as the case maybe the Uncertainty Phase, the Alert Phase or the Distress Phase."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "FIS is provided to aircraft concerning collision hazards in the following classes of airspace:",
+      "question_type": "MCQ",
+      "options": [
+        "a. C, D, E, F, G.",
+        "b. F and G only.",
+        "c. F.",
+        "d. A, B, C, D, E, F, G."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "What are the three elements of an Air Traffic Control Service?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Radar, SAR and FIS.",
+        "b. Area, Approach and Aerodrome.",
+        "c. Radar, Procedural and FIS.",
+        "d. Radar, Procedural and Alerting Service."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "What does an ATSU consist of?",
+      "question_type": "MCQ",
+      "options": [
+        "a. An ACC and FIC.",
+        "b. An ATCU and FIC.",
+        "c. A combined radar unit and ATC tower.",
+        "d. An ACC and Approach Control."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "How often is an ATIS updated?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Every 30 minutes for VFR, every 60 minutes for IFR.",
+        "b. When there is a change in information, irrespective of content or intensity.",
+        "c. When the minimum ceiling and visibility are below VFR minimum.",
+        "d. When there is a significant change in information."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "Which of the following statements concerning the alerting service is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The alert phase is initiated when an aircraft fails to communicate within 30 minutes.",
+        "b. FIS and the alerting service may be provided by the same ATCU.",
+        "c. The distress phase is always initiated for aircraft subject to unlawful interference.",
+        "d. All other traffic in the vicinity of an aircraft subjected to unlawful interference is to be notified."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "An aircraft has been cleared to land and fails to do so within 5 minutes of the ETA of landing and communications have not been re-established with the aircraft.\nWhat phase of the Alerting Service will be declared by the ATSU?",
+      "question_type": "MCQ",
+      "options": [
+        "a. DETRESFA.",
+        "b. INCERFA.",
+        "c. ALERFA.",
+        "d. EMERGFA."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "When an aircraft encounters difficulty, the initiation of the alert phase is the responsibility of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Air Traffic Co-ordination Centres.",
+        "b. Air Traffic Control Units and Flight Information Centres.",
+        "c. Search and Rescue Co-ordination Centres.",
+        "d. Air Traffic Control Centres only."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "According to ICAO Annex 11, what does the following statement define:\n\"Information concerning the occurrence or expected occurrence of specified en route weather phenomena which may affect the safety of low-level aircraft operations and which was not already included in the forecast issued for low-level flights in the FIR concerned or sub-area thereof.\"",
+      "question_type": "MCQ",
+      "options": [
+        "a. NOTAM.",
+        "b. SIGMET Information.",
+        "c. AIRMET Information.",
+        "d. En route Weather Report."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "A Flight Information Service shall be provided to all aircraft which are likely to be affected by the information and which are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. provided with ATC or which are otherwise known to the relevant ATS unit.",
+        "b. provided with ATC.",
+        "c. known to the relevant ATS unit.",
+        "d. known to the relevant ATS unit and which have filed a FP."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "Aircraft \"A\" with ATC clearance is flying in VMC in a CTR.\nAircraft \"B\" without ATC clearance is converging at approximately the same altitude. Which aircraft has the right of way?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Aircraft \"A\" if \"B\" is on its right.",
+        "b. Aircraft \"A\" regardless of the position of \"B\".",
+        "c. Aircraft \"B\" regardless of the position of \"A\".",
+        "d. Aircraft \"B\" if \"A\" is on its left."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "Air Traffic Control Centres issue clearances for the purpose of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. providing advisory ATC.",
+        "b. expediting and separating traffic.",
+        "c. achieving separation between IFR flights.",
+        "d. providing FIS."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "ATSU clocks and other time recording devices shall be checked as necessary to ensure correct time to within UTC plus or minus:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10 seconds.",
+        "b. 1 minute.",
+        "c. 30 seconds.",
+        "d. 15 seconds."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "The Alerting Service is to be provided for:",
+      "question_type": "MCQ",
+      "options": [
+        "a. all aircraft having filed a FP or otherwise known to ATC, as far as is practicable.",
+        "b. for all controlled flights; to any aircraft known or believed to be the subject of unlawful interference; and all aircraft having filed a FP or otherwise known to ATC, as far as is practicable.",
+        "c. only to aircraft provided with ATC.",
+        "d. only to aircraft known or believed to be the subject of unlawful interference."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "The Approach Control Service is an ATC service:",
+      "question_type": "MCQ",
+      "options": [
+        "a. provided for arriving and departing controlled flights.",
+        "b. provided for arriving and departing IFR flights.",
+        "c. provided for IFR and VFR flights within a CTR.",
+        "d. provided for IFR flights within an ATZ."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "A Flight Information Region (FIR) is airspace within which the following services are provided:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Flight Information Service; Alerting Service; Advisory Service.",
+        "b. Flight Information Service only.",
+        "c. Flight Information Service and Advisory Service.",
+        "d. Flight Information Service and Alerting Service."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "An AIREP comprises a number of sections. What is the content of part 1?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Noted weather.",
+        "b. Flight identification and noted weather.",
+        "c. Urgent messages.",
+        "d. A position report."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "Clearances will be issued by ATC for the purpose of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. providing alerting services.",
+        "b. achieving separation between air traffic.",
+        "c. providing a flight information service.",
+        "d. providing advisory ATC."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "Air Traffic Service Unit (ATSU) means:",
+      "question_type": "MCQ",
+      "options": [
+        "a. ATCUs and Air Services reporting units.",
+        "b. FICs and Air Services reporting units.",
+        "c. ATCUS; FICs and Air Services reporting units.",
+        "d. ATCUs and FICs."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "24",
+      "question": "What is the content of section 2 of an AIREP?",
+      "question_type": "MCQ",
+      "options": [
+        "a. ETA and endurance.",
+        "b. EET and endurance.",
+        "c. Present position and ETA.",
+        "d. ETA for the FIR boundary and endurance."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "25",
+      "question": "The Air Traffic service is provided for the purpose of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. preventing collisions between aircraft, between aircraft and obstacles on the manoeuvring area and expediting and maintaining an orderly flow of air traffic.",
+        "b. applying separation between aircraft and expediting and maintaining an orderly flow of air traffic.",
+        "c. preventing collisions between controlled aircraft and expediting and maintaining an orderly flow of air traffic.",
+        "d. avoiding collisions between all aircraft and expediting and maintaining an orderly flow of air traffic."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "26",
+      "question": "The Alerting Service is provided by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the ATS unit responsible for the aircraft at that moment.",
+        "b. the ATS unit responsible for the aircraft at that moment when it can transmit on 121.5 MHz.",
+        "c. only ATC units.",
+        "d. Area Control Centres."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "27",
+      "question": "When is ATIS updated?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Only when the weather conditions change enough to require a change in the active runway or instrument approach in use.",
+        "b. Only when the ceiling and/or visibility changes by a reportable value.",
+        "c. Upon the receipt of any significant change.",
+        "d. Every 30 minutes if weather conditions are below those for VFR, otherwise hourly."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "28",
+      "question": "Who is responsible for an ATC clearance to be safe in respect of terrain avoidance?",
+      "question_type": "MCQ",
+      "options": [
+        "a. ATC.",
+        "b. The ATSU when accepting the FP.",
+        "c. The PIC.",
+        "d. The Operator."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "29",
+      "question": "Which of the following statements regarding the Alerting Service is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The distress phase is established when an aircraft is known or believed to be the subject of unlawful interference.",
+        "b. Aircraft in the vicinity of an aircraft that is known or believed to be the subject of unlawful interference, shall be informed about this.",
+        "c. The Alerting Service and FIS are often provided by the same ATSU.",
+        "d. The Alert phase is established when no communication has been received from an aircraft within a period of 30 minutes after the time communications should have been received."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "30",
+      "question": "ATIS broadcasts for departing and arriving aircraft are to contain cloud cover information when:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the cloud base is below 5000 ft or the highest MSA whichever is higher.",
+        "b. the cloud base is below 3000 ft or the highest MSA whichever is higher, or there is cumulonimbus reported.",
+        "c. the cloud base is below 5000 ft or the highest MSA whichever is higher, or there is cumulonimbus reported.",
+        "d. the cloud base is below 10000 ft or the highest MSA whichever is higher, or there is cumulonimbus reported."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "31",
+      "question": "ATIS broadcast:",
+      "question_type": "MCQ",
+      "options": [
+        "a. shall not be transmitted on the voice channel of a VOR beacon.",
+        "b. shall only be transmitted on a discrete VHF frequency.",
+        "c. shall not be transmitted on the voice channel of ILS.",
+        "d. shall be transmitted on the voice channel of ILS, on a discrete VHF frequency or on the voice channel of a VOR beacon."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "32",
+      "question": "Whenever ATIS is provided, the preparation and dissemination of the ATIS message is the responsibility of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the Met office serving the aerodrome.",
+        "b. both ATC and the Met office.",
+        "c. whichever office is prescribed by the state.",
+        "d. ATS."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "33",
+      "question": "Flight information provided to flights shall include provision of information concerning collision hazards to aircraft operating in airspace classes:",
+      "question_type": "MCQ",
+      "options": [
+        "a. F and G only.",
+        "b. C to G inclusive.",
+        "c. A to G inclusive.",
+        "d. A to E inclusive."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "34",
+      "question": "The phases of the Alerting Service to an aircraft in emergency or believed to be in emergency are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. uncertainty phase; urgency phase; distress phase.",
+        "b. uncertainty phase; urgency phase; emergency phase.",
+        "c. uncertainty phase; alert phase; urgency and distress phase.",
+        "d. uncertainty phase; alert phase; distress phase."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "35",
+      "question": "The ATIS broadcast should not exceed:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3 minutes.",
+        "b. 30 seconds.",
+        "c. 1 minute.",
+        "d. 2 minutes."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "36",
+      "question": "An aerodrome Flight Information Service:",
+      "question_type": "MCQ",
+      "options": [
+        "a. can only relay ATC instructions to aircraft on the ground or in the air.",
+        "b. can supply limited services to the users but not ATC under any circumstances to aircraft in the air.",
+        "c. can supply ATC but is not subject to authority supervision.",
+        "d. is the same as ATC but is only provided at an aerodrome."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

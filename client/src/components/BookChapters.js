@@ -7,7 +7,15 @@ import Button from './ui/Button';
 import { useAuth } from '../context/AuthContext';
 import LoginModal from './LoginModal';
 
-const normalize = (str) => (str || '').toLowerCase().replace(/\s+/g, '-');
+const normalize = (str) => {
+  if (!str) return '';
+  // Handle special cases like "Directional Gyro Indicator (DGI)" -> "directional-gyro-indicator-dgi"
+  return str
+    .toLowerCase()
+    .replace(/\(([^)]+)\)/g, (match, acronym) => `-${acronym.toLowerCase()}`) // Extract acronyms from parentheses
+    .replace(/[^a-z0-9]+/g, '-') // Replace non-alphanumeric with hyphens
+    .replace(/(^-|-$)+/g, ''); // Remove leading/trailing hyphens
+};
 
 const friendly = (slug) => (slug || '')
   .split('-')
@@ -25,10 +33,31 @@ const defaultChapters = {
       'Performance & Operations'
     ],
     'oxford': [
-      'Air Law Fundamentals',
-      'Operational Procedures',
-      'Human Performance (Law Focus)',
-      'ICAO Annex Overview'
+      'International Agreements and Organizations',
+      'Airworthiness of Aircraft',
+      'Aircraft Nationality and Registration Marks',
+      'Flight Crew Licensing',
+      'Rules of the Air',
+      'Instrument Procedures - Departures',
+      'Approach Procedures',
+      'Circling Approach',
+      'Holding Procedures',
+      'Altimeter Setting Procedure',
+      'Parallel or Near-parallel Runway Operation',
+      'SSR and ACAS',
+      'Airspace',
+      'Air Traffic Services',
+      'Separation',
+      'Control of Aircraft',
+      'Aeronautical Information Service (AIS)',
+      'Aerodromes - Physical Characteristics',
+      'Aerodromes - Visual Aids, Markings and Signs',
+      'Aerodrome Lighting',
+      'Obstacle Marking and Aerodrome Services',
+      'Facilitation',
+      'Search and Rescue',
+      'Security',
+      'Aircraft Accident and Incident Investigation'
     ]
   },
   'air-navigation': {
@@ -45,6 +74,21 @@ const defaultChapters = {
       'Charts & Projections',
       'Time, Position & ETA',
       'Advanced RNAV'
+    ],
+    'cae-oxford-flight-planning-monitoring': [
+      'Air Information Publications',
+      'Fuel Policy and Fuel Monitoring',
+      'Nautical Air Miles',
+      'Single-engine Piston Aeroplane (SEP)',
+      'Multi-engine Piston Aeroplane (MEP)',
+      'Medium Range Jet Transport planning',
+      'MRJT Detailed Flight Planning, En Route Climb, Cruise-Integrated Range, Descent Tables',
+      'Topographical Chart',
+      'Airways',
+      'Airways - Miscellaneous Charts',
+      'ATC Flight Plan',
+      'Point of Equal Time (PET)',
+      'Point of Safe Return (PSR)'
     ]
   },
   'meteorology': {
@@ -145,7 +189,11 @@ const BookChapters = () => {
 
   const chapters = useMemo(() => {
     const bySubject = defaultChapters[subjectSlug] || {};
-    const list = bySubject[bookSlug] || [];
+    // Handle both 'oxford' and 'cae-oxford' slugs for air-regulations
+    let list = bySubject[bookSlug] || [];
+    if (list.length === 0 && subjectSlug === 'air-regulations' && bookSlug === 'cae-oxford') {
+      list = bySubject['oxford'] || [];
+    }
     // Debug: log what we're looking for
     if (list.length === 0) {
       console.log('No chapters found for:', { subjectSlug, bookSlug, availableBooks: Object.keys(bySubject) });
@@ -159,15 +207,18 @@ const BookChapters = () => {
   }, [subjectSlug, bookSlug]);
 
   const subjectName = friendly(subjectSlug);
-  const bookName = friendly(bookSlug);
+  const bookName = subjectSlug === 'air-regulations' && (bookSlug === 'oxford' || bookSlug === 'cae-oxford')
+    ? 'CAE Oxford' 
+    : friendly(bookSlug);
 
   const startChapter = (chapter) => {
     if (!isAuthenticated) {
       setShowLogin(true);
       return;
     }
-    // Placeholder navigation to a future runner page
-    alert(`Chapter "${chapter.title}" is coming soon. You can upload content later.`);
+    // Navigate to practice page
+    const chapterSlug = normalize(chapter.title);
+    navigate(`/pyq/book/${bookSlug}/${chapterSlug}`);
   };
 
   return (
@@ -209,7 +260,7 @@ const BookChapters = () => {
                     </div>
                     <div className="mt-4">
                       <Button className="w-full" onClick={() => startChapter(ch)}>
-                        {ch.status === 'coming-soon' ? 'View (Coming Soon)' : 'Start Practice'}
+                        Start Practice
                       </Button>
                     </div>
                   </Card>

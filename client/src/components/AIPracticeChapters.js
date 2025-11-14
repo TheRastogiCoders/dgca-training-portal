@@ -110,7 +110,7 @@ const AIPracticeChapters = () => {
 
   const startChapterPractice = () => {
     if (selectedChapter) {
-      navigate(`/practice-test/ai/${subjectSlug}/${bookSlug}/${selectedChapter.slug}`, {
+      navigate(`/pyq/ai/${subjectSlug}/${bookSlug}/${selectedChapter.slug}`, {
         state: { 
           practiceSettings,
           chapter: selectedChapter,
@@ -133,9 +133,9 @@ const AIPracticeChapters = () => {
             {/* Breadcrumb Navigation */}
             <div className="mb-6">
               <nav className="flex items-center space-x-2 text-sm">
-                <Link to="/practice-test/ai" className="text-blue-600 hover:text-blue-700">AI Subjects</Link>
+                <Link to="/pyq/ai" className="text-blue-600 hover:text-blue-700">AI Subjects</Link>
                 <span className="text-gray-400">›</span>
-                <Link to={`/practice-test/ai/${subjectSlug}`} className="text-blue-600 hover:text-blue-700">{subject.name}</Link>
+                <Link to={`/pyq/ai/${subjectSlug}`} className="text-blue-600 hover:text-blue-700">{subject.name}</Link>
                 <span className="text-gray-400">›</span>
                 <span className="text-gray-600">Chapters</span>
               </nav>

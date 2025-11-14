@@ -1,0 +1,92 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "23",
+  "chapter_title": "Facilitation",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The documents which allow an aircraft entry to a country:",
+      "question_type": "MCQ",
+      "options": [
+        "a. must be typewritten.",
+        "b. can be hand-written in block capitals in ink or indelible pencil.",
+        "c. are accepted at the discretion of the State of arrival.",
+        "d. must be typewritten or sent in electronic data format."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "Can an oral declaration concerning the passenger or crew baggage be acceptable?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Never.",
+        "b. Yes.",
+        "c. Only crew baggage.",
+        "d. Only passenger baggage."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "The General Declaration is signed by the:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the pilot-in-command only.",
+        "b. the pilot-in-command or the Agent.",
+        "c. any flight crew member.",
+        "d. the Operator."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "Where an aircraft registered in a Contracting State is making a flight over foreign territory for non-commercial purposes or is landing for non-traffic purposes, advanced notification is to be given to the foreign State. The information is to be received:",
+      "question_type": "MCQ",
+      "options": [
+        "a. at least 2 hours in advance of arrival.",
+        "b. at least 4 hours in advance of arrival.",
+        "c. at least 1 hour in advance of arrival.",
+        "d. at least 12 hours in advance of the planned ETA."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "The ICAO annex which deals with the entry and departure of persons and their baggage for international flights is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Annex 6.",
+        "b. Annex 15.",
+        "c. Annex 9.",
+        "d. Annex 8."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "In cases where a visitor travelling by air holds a valid passport and no visa is required of him, Contracting States:",
+      "question_type": "MCQ",
+      "options": [
+        "a. shall not require the traveller to obtain any other identity document before boarding the aeroplane.",
+        "b. may require the traveller to obtain any other identity document before boarding the aeroplane.",
+        "c. in certain cases may require additional identification documents.",
+        "d. none of the above answers is correct."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    }
+  ]
+}
+

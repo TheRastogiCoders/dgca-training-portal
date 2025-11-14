@@ -1,0 +1,722 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "6",
+  "chapter_title": "Rules of the Air",
+  "questions": [
+    {
+      "id": "1",
+      "question": "When, in airspace where VFR is permitted, the PIC of an IFR flight wishes to continue the flight in accordance with VFR until destination:\n1.\nthe pilot must inform the control unit of his intention using the expression \"cancelling my IFR flight\".\n2.\nthe pilot must request and obtain clearance to continue under VFR.\n3.\nthe pilot must communicate the necessary changes to the current flight plan.\n4.\nthe flight plan automatically becomes a VFR flight.\nWhich of the following combinations is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2 and 3.",
+        "b. 2 and 4.",
+        "c. 1 and 3.",
+        "d. 1 and 4."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "An aircraft flying in the visual circuit at an aerodrome sees a series of red flashes from the control tower.\nWhat does this mean?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Do not land.",
+        "b. Do not land because the aerodrome is unusable.",
+        "c. Give way to other aircraft.",
+        "d. Return for landing and await clearance to land."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "An aircraft has flight visibility of 3 km, and is heading 355° T in an area where the variation is 6° west.\nThere is no appreciable wind. Which of the following is the appropriate flight level?",
+      "question_type": "MCQ",
+      "options": [
+        "a. FL60.",
+        "b. FL65.",
+        "c. FL70.",
+        "d. FL75."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "An aircraft is converging from the left. Which light will you see first?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Red.",
+        "b. Green.",
+        "c. Blue.",
+        "d. White."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "What letter goes in item 8 of a flight plan for a flight starting under IFR then changing to VFR?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Z",
+        "b. Y",
+        "c. I",
+        "d. V"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "What are the VMC limits for class B airspace?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 8 km flight visibility, clear of cloud and in sight of the surface.",
+        "b. 8 km flight visibility, 1000 ft vertically and 1500 m horizontally from cloud.",
+        "c. 5 km flight visibility, 1000 ft vertically and 1500 m horizontally from cloud.",
+        "d. The same as class D."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "When is a flight plan required?",
+      "question_type": "MCQ",
+      "options": [
+        "a. For IFR flight in advisory airspace.",
+        "b. For all IFR flights.",
+        "c. For all flights in controlled airspace.",
+        "d. For all VFR and SVFR flights in controlled airspace."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Whilst airborne in the vicinity of the aerodrome, you see a flashing green light from the Tower.\nWhat does this mean?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Cleared to land.",
+        "b. Return for landing and await clearance to land.",
+        "c. Give way to other landing aircraft.",
+        "d. Land at this aerodrome after receiving clearance to land and proceed to the apron."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "You see a double white cross in a signal square, what does this mean?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Glider flying in progress.",
+        "b. Tow ropes and banners may be dropped.",
+        "c. Runway unfit for aircraft movement.",
+        "d. Aerodrome unfit for aircraft movement."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "You are taxiing on the manoeuvring area of an aerodrome and see a flashing green light from the tower.\nWhat does it mean?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Return to start point.",
+        "b. Clear to taxi.",
+        "c. Clear to take off.",
+        "d. Stop."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "You have been intercepted in the airspace of a foreign contracting state.\nWhat is the signal for 'clear to proceed' from the intercepting aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Rocking wings.",
+        "b. Flashing lights.",
+        "c. Cut across track.",
+        "d. Breaking turn up and left."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "Which has priority to land?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A hospital flight.",
+        "b. An emergency.",
+        "c. A military flight.",
+        "d. A VIP flight."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "What does a double horizontal white cross on an aerodrome indicate?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Glider flying in progress.",
+        "b. Runway unfit for use.",
+        "c. Light aircraft may taxi on the grass.",
+        "d. Runway to be used for take-off but aircraft may taxi on the grass."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "Which of these is not a distress frequency?\n1.\n121.5 MHz\n2.\n2182 kHz\n3.\n243.0 kHz\n4.\n2430 kHz",
+      "question_type": "MCQ",
+      "options": [
+        "a. 4 only.",
+        "b. 1 and 2.",
+        "c. 2, 3 and 4.",
+        "d. 3 and 4."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "If you are intercepted by another aircraft, what do you set on the SSR transponder?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A/2000 + C.",
+        "b. A/7500 + C",
+        "c. A/7600 + C",
+        "d. A/7700 + C"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "You are taxiing an aircraft on the ground at an aerodrome and you see a flashing red light from the tower.\nWhat does it mean?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Stop.",
+        "b. Taxi clear of the landing area.",
+        "c. Give way to approaching aircraft.",
+        "d. You are not clear to take off."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "Aircraft A is a VFR flight operating in a CTR under an ATC clearance.\nAircraft B is entering the CTR without clearance. As they converge, which one has the right of way?",
+      "question_type": "MCQ",
+      "options": [
+        "a. B has right of way regardless of aircraft type and position.",
+        "b. A has right of way regardless of aircraft type and position.",
+        "c. A has right of way if B is on the right.",
+        "d. B has right of way if A is on the left."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "What minimum ground visibility is required to enable a SVFR flight to take off from an aerodrome in a CTR?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1000 m",
+        "b. 1500 m",
+        "c. 2000 m",
+        "d. 3000 m"
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "If a pilot wishes to cancel an IFR flight plan and proceed under VFR in VMC, he/she must inform ATC and include the phrase:",
+      "question_type": "MCQ",
+      "options": [
+        "a. \"cancelling my flight plan\".",
+        "b. \"cancelling my flight\".",
+        "c. \"cancelling my IFR flight\".",
+        "d. \"cancelling my IMC flight plan\"."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "What signal from a marshaller to a pilot indicates \"apply brakes\"?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Waving the arms across the face.",
+        "b. Drawing the palm across the throat.",
+        "c. Clenching a raised fist.",
+        "d. Holding both arms up with palms facing forward."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "ATC has given you the transponder code of A/5320. In case of a radio failure in flight you must squawk:",
+      "question_type": "MCQ",
+      "options": [
+        "a. A/7600 + Mode C.",
+        "b. A/0020 + Mode C.",
+        "c. A/5300 + Mode C.",
+        "d. A/7620 + Mode C."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "For a controlled flight, a flight plan must be filed before departure at least:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 60 minutes before off-block time.",
+        "b. 60 minutes before departure.",
+        "c. 30 minutes before departure.",
+        "d. 30 minutes before off-block time."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "Which Mode A code must be used to make sure that your aircraft is recognized as an aircraft in distress?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Code 7500",
+        "b. Code 7700",
+        "c. Code 7000",
+        "d. Code 7600"
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "24",
+      "question": "An aircraft which is intercepted by another aircraft must immediately try to contact the intercepting aircraft on the following frequencies:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 121.5 MHz and/or 243.0 MHz.",
+        "b. 121.5 MHz and/or 282.8 MHz.",
+        "c. 121.5 MHz and/or 125.5 MHz.",
+        "d. 243.0 MHz and/or 125.5 MHz."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "25",
+      "question": "Your aircraft is intercepted by a military aircraft. Instructions given by this aircraft do not comply with ATC instructions.\nYou should:",
+      "question_type": "MCQ",
+      "options": [
+        "a. comply with instructions given by the intercepting aircraft.",
+        "b. select code 7500 A on your transponder.",
+        "c. ask ATC for different instructions.",
+        "d. comply with ATC instructions."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "26",
+      "question": "A pilot crosses his/her hands in front of the face, palms outwards and then moves the arms outwards.\nWhat does this signal indicate?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Clear to move forward.",
+        "b. Brakes off.",
+        "c. Remove chocks.",
+        "d. Clear to close all engines."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "27",
+      "question": "A red flare fired at a flying aircraft means:",
+      "question_type": "MCQ",
+      "options": [
+        "a. do not land, the aerodrome is unfit.",
+        "b. notwithstanding any previous instructions, do not land for the time being.",
+        "c. return to the aerodrome for landing.",
+        "d. give way to another aircraft and continue to circle."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "28",
+      "question": "In order to avoid confusion, the identification numbers given to each prohibited, restricted and danger area shall not be re-used for a period of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. at least 12 months after the cancellation of the area referred to.",
+        "b. at least 6 months after the cancellation of the area referred to.",
+        "c. at least 3 months after the cancellation of the area referred to.",
+        "d. at least 2 months after the cancellation of the area referred to."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "29",
+      "question": "When an aircraft has been subjected to unlawful interference, the pilot may wish to indicate the fact by squawking which SSR code?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 7500",
+        "b. 7700",
+        "c. 7600",
+        "d. 7000"
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "30",
+      "question": "Which of the following procedures would a pilot follow in the event of communications failure whilst under IFR in VMC?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Return to the aerodrome of departure.",
+        "b. Continue the flight whilst maintaining VMC and land as soon as possible.",
+        "c. Continue the flight at the assigned level and route and start the approach at the stated ETA.",
+        "d. Maintain the assigned level and route and land at the nearest aerodrome that is reporting VMC."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "31",
+      "question": "If so equipped, when should an aircraft display the anti-collision light?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Only at night in flight, but not on the ground if being towed.",
+        "b. Whilst taxiing but not whilst being towed.",
+        "c. Only at night with engines running.",
+        "d. At all times on the ground when the engines are running."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "32",
+      "question": "The 'estimated elapsed time' in field 16 of a flight plan for a VFR flight is the estimated time:",
+      "question_type": "MCQ",
+      "options": [
+        "a. From which the aircraft first moves under its own power until it finally comes to rest after landing.",
+        "b. From brakes release at take-off until landing.",
+        "c. At cruising level taking into account temperature and pressure for that day.",
+        "d. From take-off until overhead the destination aerodrome."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "33",
+      "question": "What is the minimum vertical separation between IFR flights flying in the same direction below FL 290?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 500 ft",
+        "b. 1000 ft",
+        "c. 2000 ft",
+        "d. 4000 ft"
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "34",
+      "question": "The cruising speed entered in item 15 of a flight plan is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. TAS.",
+        "b. TAS or Mach No.",
+        "c. IAS or TAS.",
+        "d. TAS at 65% engine power."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "35",
+      "question": "What action is required by the pilot of an aircraft flying in the vicinity of an aerodrome to indicate that the aircraft is experiencing radio failure or another difficulty that requires immediate landing but no other assistance?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The repeated switching on and off of the landing lights.",
+        "b. Switching the landing lights on and off three times.",
+        "c. Switching the landing lights on and off four times.",
+        "d. Switching the navigation lights on and off three times."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "36",
+      "question": "A position report shall contain the following information in the order listed?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Aircraft identification, position, time, true airspeed, flight level or altitude, next position and time over.",
+        "b. Aircraft identification, position, time, flight level or altitude, next position and time over.",
+        "c. Aircraft identification, position, time, flight level or altitude, next position and time over, ensuing position.",
+        "d. Aircraft identification, position, flight level or altitude, next position and time over, ensuing position and time over."
+      ],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "id": "37",
+      "question": "What defines EET for an IFR flight?",
+      "question_type": "MCQ",
+      "options": [
+        "a. from time of take-off until overhead the IAF.",
+        "b. from time of take-off until overhead the destination aerodrome.",
+        "c. from push back until overhead the IAF.",
+        "d. from push back until overhead the destination aerodrome."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "38",
+      "question": "A DISTRESS message differs from an URGENCY message because:",
+      "question_type": "MCQ",
+      "options": [
+        "a. there is grave and imminent danger which requires immediate assistance.",
+        "b. the aeroplane has suffered damage that endangers the ability to fly.",
+        "c. the aeroplane will not be able to reach a suitable aerodrome.",
+        "d. the situation concerns the safety of passengers on board or within sight."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "39",
+      "question": "If radio contact with an intercepting aircraft is established but not in a common language, what would the pilot of an intercepted aircraft say, if he/she is unable to comply with the instruction from the interceptor?",
+      "question_type": "MCQ",
+      "options": [
+        "a. \"KAN NOTT KOMPLY\"",
+        "b. \"UNN-ABOL TOO KOMPLY\"",
+        "c. \"NOTT POSS ABOL\"",
+        "d. \"KANN NOTT\""
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "40",
+      "question": "Which of the following flight has the highest priority to land?",
+      "question_type": "MCQ",
+      "options": [
+        "a. VIP flight.",
+        "b. Hospital flight.",
+        "c. Emergency aircraft.",
+        "d. Military aircraft."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "41",
+      "question": "What letter is put in item 8 of a flight plan to indicate that a flight is to begin under IFR and finish under VFR?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Y",
+        "b. I",
+        "c. V",
+        "d. Z"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "42",
+      "question": "A white dumb-bell with black perpendicular bars indicates that:",
+      "question_type": "MCQ",
+      "options": [
+        "a. glider flying is being conducted outside the landing area.",
+        "b. landing and take-off is restricted to the runways but taxiing is not confined to the pavement areas.",
+        "c. this aerodrome is using parallel runways.",
+        "d. taxiing is confined to the taxiways."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "43",
+      "question": "If an ATC clearance is not suitable, the PIC may:",
+      "question_type": "MCQ",
+      "options": [
+        "a. offer ATC an acceptable alternative.",
+        "b. request and if practicable accept an amended clearance.",
+        "c. demand an alternative clearance and ATC must comply.",
+        "d. decline the clearance on the grounds that it is not in accordance with the filed flight plan."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "44",
+      "question": "What letter is put in item 8 of a flight plan to indicate that a flight is to begin under VFR and finish under IFR?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Y",
+        "b. I",
+        "c. V",
+        "d. Z"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "45",
+      "question": "Who has final authority as to the disposition of an aircraft during flight time?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The owner.",
+        "b. The Operator.",
+        "c. The Commander.",
+        "d. The ATC controller."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "46",
+      "question": "The vertical separation minima for IFR flights in CAS applied by ATC above FL290 is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 500 ft.",
+        "b. 1000 ft.",
+        "c. 2000 ft.",
+        "d. 1000 ft if RVSM is applied otherwise 2000 ft."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "47",
+      "question": "Unless authorized by ATC, a VFR flight is not permitted to take off from an aerodrome within a CTR when:",
+      "question_type": "MCQ",
+      "options": [
+        "a. cloud ceiling is less than 1000 ft and ground visibility is less than 5 km.",
+        "b. cloud ceiling is less than 1500 ft and ground visibility is less than 5 km.",
+        "c. cloud ceiling is less than 1000 ft and ground visibility is less than 8 km.",
+        "d. cloud ceiling is less than 1500 ft and ground visibility is less than 8 km."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "48",
+      "question": "An aircraft is flying over the sea between 4500 ft and 9000 ft AMSL and outside CAS.\nTo continue under VFR the meteorological conditions must remain:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2000 ft horizontally and 1000 ft vertically from cloud with visibility of 8 km.",
+        "b. 1500 m horizontally and 1000 ft vertically from cloud with visibility of 5 km.",
+        "c. 1500 m horizontally and 1000 m vertically from cloud with visibility of 5 km.",
+        "d. clear of cloud and in sight of the surface, with visibility of 5 km."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "49",
+      "question": "A change in flight rules from IFR to VFR will only take place:",
+      "question_type": "MCQ",
+      "options": [
+        "a. when initiated by the PIC.",
+        "b. when ordered by ATC.",
+        "c. at a point specified by the operator.",
+        "d. when the aircraft leaves CAS in VMC."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "50",
+      "question": "An aircraft is overtaking another aircraft if it is closing to the other aircraft from behind in a sector:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 50° either side of the longitudinal axis.",
+        "b. 60° either side of the longitudinal axis.",
+        "c. 70° either side of the longitudinal axis.",
+        "d. 80° either side of the longitudinal axis."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "51",
+      "question": "When may a Repetitive Flight Plan be submitted?",
+      "question_type": "MCQ",
+      "options": [
+        "a. When flights are operated on the same day(s) of consecutive weeks and on at least 10 occasions or every day over a period of at least 10 consecutive days.",
+        "b. When flights are operated on the same day(s) of consecutive weeks and on at least 7 occasions or every day over a period of at least 10 consecutive days.",
+        "c. When flights are operated on the same day(s) of consecutive weeks and on at least 10 occasions or every day over a period of at least 7 consecutive days.",
+        "d. When flights are operated on the same day(s) of consecutive weeks and on at least 7 occasions or every day over a period of at least 7 consecutive days."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    }
+  ]
+}
+

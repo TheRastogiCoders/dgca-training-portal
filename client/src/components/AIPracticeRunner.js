@@ -350,7 +350,7 @@ const AIPracticeRunner = () => {
                   </div>
                 </button>
                 <button
-                  onClick={() => navigate(`/practice-test/ai/${subjectSlug}`)}
+                  onClick={() => navigate(`/pyq/ai/${subjectSlug}`)}
                   className="px-8 py-4 bg-gradient-to-r from-green-600 to-blue-600 text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
                 >
                   <div className="flex items-center justify-center">
@@ -364,7 +364,7 @@ const AIPracticeRunner = () => {
                   onClick={() => {
                     // Trigger a custom event to refresh the practice test page
                     window.dispatchEvent(new CustomEvent('refreshPracticeResults'));
-                    navigate('/practice-test');
+                    navigate('/pyq');
                   }}
                   className="px-8 py-4 bg-gray-100 text-gray-700 font-semibold rounded-lg hover:bg-gray-200 transition-colors"
                 >
@@ -397,10 +397,10 @@ const AIPracticeRunner = () => {
                   AI-generated questions are not available right now for this chapter.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                  <button onClick={() => navigate(`/practice-test/ai/${subjectSlug}`)} className="px-6 py-3 bg-blue-600 text-white rounded-lg">
+                  <button onClick={() => navigate(`/pyq/ai/${subjectSlug}`)} className="px-6 py-3 bg-blue-600 text-white rounded-lg">
                     Choose Another Chapter
                   </button>
-                  <button onClick={() => navigate('/practice-test')} className="px-6 py-3 bg-gray-100 text-gray-700 rounded-lg">
+                  <button onClick={() => navigate('/pyq')} className="px-6 py-3 bg-gray-100 text-gray-700 rounded-lg">
                     Back to Practice
                   </button>
                 </div>

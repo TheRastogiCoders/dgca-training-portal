@@ -1,0 +1,44 @@
+{
+  "book_name": "CAE ATPL 7. Flight Planning & Monitoring",
+  "chapter_number": "7",
+  "chapter_title": "MRJT Detailed Flight Planning, En Route Climb, Cruise-Integrated Range, Descent Tables",
+  "questions": [
+    {
+      "id": "1",
+      "question": "An aircraft is to fly from A to B a distance of 1500 NM (NGM) using Long Range Cruise (LRC) at FL330.\nAircraft mass at \"A\" is 58 500 kg\nISA+10°C\n50 kt tailwind\nWhat is the TAS and fuel required?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires cruise tables (not provided).",
+      "solution": "Answer requires cruise tables (not provided).",
+      "explanation": "This question requires reference to CAP 697 cruise tables to determine True Airspeed (TAS) and fuel required for Long Range Cruise (LRC) conditions with specified distance, aircraft mass, temperature deviation, and wind component."
+    },
+    {
+      "id": "2",
+      "question": "An aircraft is to fly from A to B a distance of 500 NM (NGM) at Mach 0.74 at FL290.\nAircraft mass at \"A\" is 54400 kg\nISA -20°C\n50 kt headwind\nWhat is the TAS and fuel required?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires cruise tables (not provided).",
+      "solution": "Answer requires cruise tables (not provided).",
+      "explanation": "This question requires reference to CAP 697 cruise tables to determine True Airspeed (TAS) and fuel required for specified Mach number, flight level, aircraft mass, temperature deviation, and headwind component."
+    },
+    {
+      "id": "3",
+      "question": "Aircraft mass at \"A\" is 51 200 kg\nAircraft mass at \"B\" is 48 500 kg\nCruise at Mach 0.78 @ FL350\nISA +20°C\n50 kt tailwind\nWhat is the TAS, ground distance and Specific Fuel Consumption?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires cruise tables (not provided).",
+      "solution": "Answer requires cruise tables (not provided).",
+      "explanation": "This question requires reference to CAP 697 cruise tables to determine True Airspeed (TAS), ground distance, and Specific Fuel Consumption (SFC) considering initial and final aircraft masses, cruise Mach number, flight level, temperature deviation, and tailwind component."
+    },
+    {
+      "id": "4",
+      "question": "Aircraft mass at \"A\" is 55 500 kg\nOAT -59°C\nCruising using LRC @ FL310\nWind light & variable\nThe aircraft is to fly for 35 minutes\nWhat is the fuel consumed from \"A\"?",
+      "question_type": "Non-MCQ",
+      "options": [],
+      "answer": "Answer requires cruise tables (not provided).",
+      "solution": "Answer requires cruise tables (not provided).",
+      "explanation": "This question requires reference to CAP 697 cruise tables to determine fuel consumption for Long Range Cruise (LRC) conditions with specified aircraft mass, outside air temperature, flight level, and flight duration."
+    }
+  ]
+}
+

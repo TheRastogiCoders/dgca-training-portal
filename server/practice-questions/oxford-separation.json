@@ -1,0 +1,708 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "16",
+  "chapter_title": "Separation",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What types of separation does ATC apply?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Horizontal, longitudinal and timing.",
+        "b. Horizontal, vertical and longitudinal.",
+        "c. Horizontal, vertical and composite.",
+        "d. Horizontal, vertical and lateral."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "If you want to descend through the level of another aircraft on the same track, the minimum separation is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 20 minutes.",
+        "b. 10 minutes.",
+        "c. 5 minutes.",
+        "d. 15 minutes."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "What is the minimum longitudinal separation standard required for RNAV routes?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 80 NM.",
+        "b. 60 NM.",
+        "c. 50 NM.",
+        "d. 20 NM."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "What is the vertical separation minimum below FL290?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 500 ft.",
+        "b. 1000 ft.",
+        "c. 2000 ft.",
+        "d. It depends whether or not RVSM is applied."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "What is the minimum vertical separation between IFR aircraft flying in the same direction above FL290 in non-RVSM airspace?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1000 ft.",
+        "b. 500 ft.",
+        "c. 2000 ft.",
+        "d. 4000 ft."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "When can one aircraft pass through the level of another aircraft which is flying along an ATS route, in VMC maintaining own separation?",
+      "question_type": "MCQ",
+      "options": [
+        "a. If the pilot requests and the state approves.",
+        "b. If the pilot requests and it is day time.",
+        "c. If the pilot requests during day or night.",
+        "d. Irrelevant - the manoeuvre is not permitted."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "What is the separation based on RNAV when RNP is specified?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 80 NM.",
+        "b. 50 NM.",
+        "c. 80 or 50 dependent upon the RNP type.",
+        "d. 15 minutes."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "If two aircraft are using the same VOR for track separation, what distance must the aircraft be from the VOR before one of the two may commence a climb or descent?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 NM.",
+        "b. 10 NM.",
+        "c. 15 NM.",
+        "d. 20 NM."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "Whilst under IFR in VMC you decide to maintain your own separation to descend through the level of another aircraft.\nWhat is required?",
+      "question_type": "MCQ",
+      "options": [
+        "a. During day you must request clearance and with ATC authority approval.",
+        "b. You must request clearance and the ATC authority must approve, during day or night.",
+        "c. You only need to request approval for the manoeuvre.",
+        "d. In CAS the manoeuvre is illegal."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "Two aircraft are on the same track at the same level and are using simultaneous DME fixes from the same on track DME station.\nWhat is the minimum longitudinal separation applied?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10 NM.",
+        "b. 5 NM.",
+        "c. 20 NM.",
+        "d. 15 NM."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "What is the separation standard between aircraft at the same altitude when using DME to determine range from a beacon?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10 NM where the first aircraft speed is 40 kt faster than the second.",
+        "b. 10 NM where the first aircraft speed is 20 kt faster than the second.",
+        "c. 20 NM where the first aircraft speed is 40 kt faster than the second.",
+        "d. 20 NM where the first aircraft speed is 20 kt faster than the second."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "Two aircraft are using the Mach number technique (both at same Mach number or first faster than second) for same track separation.\nIf using an RNAV track, what would be the standard separation in lieu of time?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 80 NM.",
+        "b. 60 NM.",
+        "c. 50 NM.",
+        "d. 25 NM."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "When can a controlled flight be given permission to climb/descend maintaining own separation in VMC?",
+      "question_type": "MCQ",
+      "options": [
+        "a. When directed by ATC.",
+        "b. When requested by the pilot and the ATC approves.",
+        "c. When there is no conflicting traffic.",
+        "d. When approved by the operator."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "What is essential traffic?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Flights engaged in priority flights i.e. VIP, hospital or police flights.",
+        "b. Any conflicting traffic.",
+        "c. Traffic which should be separated but which isn't.",
+        "d. Unidentified traffic on radar."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "When is essential traffic information passed to an aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Before a take-off clearance is issued.",
+        "b. Where traffic constitutes essential traffic to another controlled flight.",
+        "c. When the separation minima cannot be maintained.",
+        "d. When a pilot requests permission to descend or climb maintaining own separation."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "What is the divergence angle that must be maintained from overhead an NDB to a range of 15 NM to allow one aircraft to climb/descend through the level of another?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 15°",
+        "b. 30°",
+        "c. 45°.",
+        "d. 60°"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "The longitudinal separation minimum, based on time between two aircraft at the same altitude, for which navigation aids can give a frequent determination of position and speed and when the proceeding aircraft has a true airspeed of at least 40 kt higher than the following aircraft, is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 minutes.",
+        "b. 6 minutes.",
+        "c. 10 minutes.",
+        "d. 3 minutes."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "A separation minimum based on \"RNAV\" distance can be used at the moment the level is being passed, assuming that every aircraft reports its distance to or from the same \"on-track\" waypoint.\nThe minimum is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 60 NM.",
+        "b. 80 NM.",
+        "c. 50 NM.",
+        "d. 20 NM."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "With the Mach number technique applied what is the longitudinal standard separation between two aircraft of which the preceding aircraft is M 0.04 faster than the following aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10 minutes.",
+        "b. 9 minutes.",
+        "c. 8 minutes.",
+        "d. 7 minutes."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "What is the divergence angle that must be maintained from overhead a VOR to a range of 15 NM to allow one aircraft to climb/descend through the level of another?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 15°",
+        "b. 30°.",
+        "c. 45°.",
+        "d. 60°"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "The longitudinal separation minimum, based on time between two aircraft at the same altitude, for which navigation aids can give a frequent determination of position and speed and when both aircraft have updated navigation data, can be reduced to 5 minutes if:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the first aircraft has updated the navigation data within the last 10 minutes.",
+        "b. both aircraft have updated the navigation data within the last 10 minutes.",
+        "c. the second aircraft is updating navigation data at the time.",
+        "d. the second aircraft has updated the navigation data within the last 10 minutes."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "Two aircraft are on crossing tracks at the same level where the navigation aids do not permit frequent update of speed and position.\nWhat is the minimum separation applied?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3 minutes.",
+        "b. 5 minutes.",
+        "c. 10 minutes.",
+        "d. 15 minutes."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "What is the required track divergence between the departure track and the missed approach track for parallel runway operations?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 15°",
+        "b. 30°.",
+        "c. 45°",
+        "d. 60°"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "24",
+      "question": "Longitudinal separation based on time for aircraft at the same level when navigation aids permit frequent determination of speed and position and where the preceding aircraft is maintaining TAS 20 kt faster than the succeeding aircraft, is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10 minutes.",
+        "b. 2 minutes.",
+        "c. 5 minutes.",
+        "d. 3 minutes."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "25",
+      "question": "The reduced radar separation provided to aircraft established on the same localizer course is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2 NM.",
+        "b. 5 NM.",
+        "c. 3 NM.",
+        "d. 2.5 NM."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "26",
+      "question": "Longitudinal separation based on time for aircraft at the same level when navigation aids permit frequent determination of speed and position is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10 minutes.",
+        "b. 2 minutes.",
+        "c. 5 minutes.",
+        "d. 3 minutes."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "27",
+      "question": "If an aircraft is making a 'straight-in' approach a departing aircraft may take off in any direction:",
+      "question_type": "MCQ",
+      "options": [
+        "a. until 2 minutes before the arriving aircraft is estimated to be over the threshold of the instrument runway.",
+        "b. until 10 minutes before the arriving aircraft is estimated to be over the threshold of the instrument runway.",
+        "c. until 5 minutes before the arriving aircraft is estimated to be over the threshold of the instrument runway.",
+        "d. until 3 minutes before the arriving aircraft is estimated to be over the threshold of the instrument runway."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "28",
+      "question": "Unless otherwise prescribed by the appropriate ATS authority, the horizontal radar separation minimum is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2.5 NM.",
+        "b. 5 NM.",
+        "c. 3 NM.",
+        "d. 2 NM."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "29",
+      "question": "Separation between departing aircraft may be reduced to 2 minutes when:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the preceding aircraft is 30 kt or more faster than the succeeding aircraft.",
+        "b. the preceding aircraft is 20 kt or more faster than the succeeding aircraft.",
+        "c. the preceding aircraft is 10 kt or more faster than the succeeding aircraft.",
+        "d. the preceding aircraft is 40 kt or more faster than the succeeding aircraft."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "30",
+      "question": "To meet wake turbulence separation criteria for aircraft using timed approaches, what is the minimum applied to aircraft landing behind a heavy or medium aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Medium behind heavy = 2 minutes.",
+        "b. Medium behind medium = 2 minutes.",
+        "c. Light behind medium = 4 minutes.",
+        "d. Medium behind heavy = 3 minutes."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "31",
+      "question": "Track separation between aircraft using the same DR fix shall be applied requiring the aircraft to fly:",
+      "question_type": "MCQ",
+      "options": [
+        "a. at least 45° separated at a distance of 15 NM or more from the fix.",
+        "b. at least 30° separated at a distance of 15 km or more from the fix.",
+        "c. at least 30° separated at a distance of 15 NM or more from the fix.",
+        "d. at least 45° separated at a distance of 15 km or more from the fix."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "32",
+      "question": "A separation minimum shall be applied between a light or medium aircraft and a heavy aircraft, and between a light and a medium aircraft, when the heavier aircraft is making a low or missed approach and the lighter aircraft is landing on the same runway in the opposite direction, or on a parallel opposite direction runway separated by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 730 m.",
+        "b. Less than 760 m.",
+        "c. 760 m.",
+        "d. Less than 730 m."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "33",
+      "question": "What would be the minimum distance applied in an approach sequence between a heavy aircraft followed by a light aircraft?\n(Note: It is assumed that this question is applicable to radar wake turbulence and assumes that the following aircraft is at the same level as the preceding aircraft.)",
+      "question_type": "MCQ",
+      "options": [
+        "a. 6 NM.",
+        "b. 3 NM.",
+        "c. 4 NM.",
+        "d. 5 NM."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "34",
+      "question": "What is the minimum vertical separation between IFR aircraft flying below FL290?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 500 ft.",
+        "b. 1500 ft.",
+        "c. 2000 ft.",
+        "d. 1000 ft."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "35",
+      "question": "What is the minimum radar separation applied between aircraft on adjacent localizer courses during simultaneous parallel approaches mode 2 - dependent?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2 NM.",
+        "b. 2.5 NM.",
+        "c. 3 NM.",
+        "d. 5 NM."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "36",
+      "question": "When one aircraft will pass through the level of another aircraft on the same track where navigation aids permit frequent determination of speed and position, the minimum longitudinal separation provided is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 15 minutes at the time the level is crossed.",
+        "b. 5 minutes at the time the level is crossed.",
+        "c. 10 minutes at the time the level is crossed.",
+        "d. 20 minutes at the time the level is crossed."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "37",
+      "question": "In order to meet the wake turbulence separation criteria, what separation should be applied when a medium aircraft is taking off behind a heavy and both are using the same runway?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2 minutes.",
+        "b. 3 minutes.",
+        "c. 4 minutes.",
+        "d. 1 minute."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "38",
+      "question": "What is the reduced radar separation applied between aircraft on the same ILS localiser course within 10 NM of touchdown?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 NM.",
+        "b. 2.5 NM.",
+        "c. 3 NM.",
+        "d. 2 NM."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "39",
+      "question": "Longitudinal separation based on time for aircraft at the same level when navigation aids permit frequent determination of speed and position and the preceding aircraft is maintaining a TAS 40 kt faster than the succeeding aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10 minutes.",
+        "b. 15 minutes.",
+        "c. 5 minutes.",
+        "d. 3 minutes."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "40",
+      "question": "RNAV distance based separation may be used at the time the level is crossed, provided that each aircraft reports its distance to or from the same 'on track' waypoint.\nThe minimum is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 60 NM.",
+        "b. 50 NM.",
+        "c. 20 NM.",
+        "d. 80 NM."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "41",
+      "question": "The normal radar separation standard may be reduced, when radar capabilities permit, to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3 NM.",
+        "b. 5 NM.",
+        "c. 1.5 NM.",
+        "d. 1 NM."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "42",
+      "question": "What wake turbulence separation is applied when a light aircraft is taking off behind a medium aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3 minutes.",
+        "b. 1 minute.",
+        "c. 2 minutes.",
+        "d. 5 minutes."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "43",
+      "question": "One minute separation may be used between departing aircraft if the tracks to be flown diverge by at least:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 25° immediately after take-off.",
+        "b. 45° immediately after take-off.",
+        "c. 30° immediately after take-off.",
+        "d. 15° immediately after take-off."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "44",
+      "question": "The separation method whereby the vertical and horizontal separation may be reduced to a minimum of half the standard is called:",
+      "question_type": "MCQ",
+      "options": [
+        "a. composite separation.",
+        "b. combined separation.",
+        "c. reduced separation.",
+        "d. essential separation."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "45",
+      "question": "The longitudinal separation minima based on distance using DME from 'on track' DME stations is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10 NM.",
+        "b. 5 NM.",
+        "c. 20 NM when the leading aircraft maintains a TAS 20 kt faster than the succeeding aircraft.",
+        "d. 20 NM."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "46",
+      "question": "The longitudinal separation minima based on distance using DME where each aircraft uses 'on track' DME stations is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10 NM when the leading aircraft maintains a TAS 20 kt faster than the succeeding aircraft.",
+        "b. 10 NM when the leading aircraft maintains a TAS 40 kt faster than the succeeding aircraft.",
+        "c. 20 NM when the leading aircraft maintains a TAS 10 kt faster than the succeeding aircraft.",
+        "d. 10 NM when the leading aircraft maintains a TAS 10 kt faster than the succeeding aircraft."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "47",
+      "question": "Aircraft flying reciprocal tracks may be cleared to climb and descend through the level of the other aircraft provided the manoeuvre does not commence until:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 minutes after the aircraft are assumed to have passed each other.",
+        "b. 10 minutes after the aircraft are assumed to have passed each other.",
+        "c. 15 minutes after the aircraft are assumed to have passed each other.",
+        "d. 20 minutes after the aircraft are assumed to have passed each other."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "48",
+      "question": "An aircraft will not be given clearance to take off until the preceding aircraft has:",
+      "question_type": "MCQ",
+      "options": [
+        "a. reported airborne and climbed to 500 ft.",
+        "b. left the aerodrome traffic zone.",
+        "c. crossed the upwind end of the runway or made a turn away from the runway.",
+        "d. reported 'downwind'."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "49",
+      "question": "A departing aircraft will not be permitted to take off when arriving instrument traffic has:",
+      "question_type": "MCQ",
+      "options": [
+        "a. started the procedure turn.",
+        "b. reported \"field in sight\".",
+        "c. passed a point 10 minutes from the threshold of the instrument runway.",
+        "d. reported \"long final\"."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "50",
+      "question": "Wake turbulence separation is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. applicable at all times.",
+        "b. applicable only between aircraft of different wake turbulence categories.",
+        "c. applicable only between aircraft at the same level or where the succeeding aircraft is less than 1000 ft below the preceding aircraft.",
+        "d. not applicable to parallel runway operations."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}
+

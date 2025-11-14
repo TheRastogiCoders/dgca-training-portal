@@ -1,0 +1,274 @@
+{
+  "book_name": "Performance",
+  "chapter_number": "4",
+  "chapter_title": "General Principles - Descent",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Two identical aeroplanes of different masses are descending at idle thrust. Which of the following statements correctly describes their descent characteristics?",
+      "question_type": "MCQ",
+      "options": [
+        "a. At a given angle of attack, both the vertical and the forward speed are greater for the heavier aeroplane",
+        "b. There is no difference between the descent characteristics of the two aeroplanes",
+        "c. At a given angle of attack the heavier aeroplane will always glide further than the lighter aeroplane",
+        "d. At a given angle of attack the lighter aeroplane will always glide further than the heavier aeroplane"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "At a given angle of attack, the heavier aeroplane requires more lift to maintain level flight, which means it must fly faster. Since both aeroplanes are at the same angle of attack, the heavier one will have greater forward speed and, consequently, greater vertical speed (rate of descent) due to the steeper descent path required to maintain the same angle of attack."
+    },
+    {
+      "id": "2",
+      "question": "In a steady descending flight equilibrium of forces acting on the aeroplane is given by: ( $T=$ Thrust, $D=$ Drag, $W=$ Weight, descent angle = GAMMA)",
+      "question_type": "MCQ",
+      "options": [
+        "a. $T+D=$-W sin GAMMA",
+        "b. $T+W$ sin GAMMA $=D$",
+        "c. T-W sin GAMMA $=D$",
+        "d. $T-D=W$ sin GAMMA"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "In steady descending flight, the forces along the flight path must be in equilibrium. The component of weight along the flight path (W sin GAMMA) acts forward (downhill), while drag (D) opposes motion. Thrust (T) also acts forward. The equilibrium equation is: T + W sin GAMMA = D."
+    },
+    {
+      "id": "3",
+      "question": "Which of the following combinations has an effect on the angle of descent in a glide? (Ignore compressibility effects.)",
+      "question_type": "MCQ",
+      "options": [
+        "a. Configuration and mass",
+        "b. Configuration and angle of attack",
+        "c. Mass and altitude",
+        "d. Altitude and configuration"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "The angle of descent in a glide is determined by the lift-to-drag ratio (L/D). Configuration (flaps, gear) affects drag, and angle of attack affects both lift and drag, thus affecting the L/D ratio. Mass and altitude do not directly affect the glide angle (they affect speed, but not the angle itself at a given angle of attack)."
+    },
+    {
+      "id": "4",
+      "question": "Which statement is correct for a descent without engine thrust at maximum lift to drag ratio speed?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The mass of an aeroplane does not have any effect on the speed for descent",
+        "b. The higher the gross mass the greater is the speed for descent",
+        "c. The higher the gross mass the lower is the speed for descent",
+        "d. The higher the average temperature (OAT) the lower is the speed for descent"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "At maximum L/D ratio speed, the speed for best glide angle is proportional to the square root of the wing loading (W/S). Higher mass increases wing loading, which requires a higher speed to maintain the same angle of attack and L/D ratio. Therefore, the heavier aeroplane must fly faster."
+    },
+    {
+      "id": "5",
+      "question": "An aeroplane is in a power-off glide at best gliding speed. If the pilot increases pitch attitude, the glide distance:",
+      "question_type": "MCQ",
+      "options": [
+        "a. increases",
+        "b. remains the same",
+        "c. may increase or decrease depending on the aeroplane",
+        "d. decreases"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "At best gliding speed (VMD - minimum drag speed), the aeroplane is already at the optimal angle of attack for maximum L/D ratio. Increasing pitch attitude increases the angle of attack beyond the optimum, increasing drag and reducing the L/D ratio, which decreases the glide distance."
+    },
+    {
+      "id": "6",
+      "question": "Is there any difference between the vertical speed versus forward speed curves for two identical aeroplanes having different masses? (Assume zero thrust and wind).",
+      "question_type": "MCQ",
+      "options": [
+        "a. Yes, the difference is that the lighter aeroplane will always glide a greater distance",
+        "b. Yes, the difference is that for a given angle of attack both the vertical and forward speeds of the heavier aeroplane will be larger",
+        "c. No difference",
+        "d. Yes, the difference is that the heavier aeroplane will always glide a greater distance"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "For a given angle of attack, the heavier aeroplane must fly faster to generate the required lift (lift = CL × ½ρV²S). Since both aeroplanes are at the same angle of attack, the heavier one will have greater forward speed. The vertical speed (rate of descent) will also be greater for the heavier aeroplane because it descends at a steeper angle to maintain the same angle of attack."
+    },
+    {
+      "id": "7",
+      "question": "Which statement is correct for a descent without engine thrust at maximum lift to drag ratio speed?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A tailwind component increases fuel and time to descent",
+        "b. A tailwind component decreases the ground distance",
+        "c. A tailwind component increases the ground distance",
+        "d. A headwind component increases the ground distance"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "A tailwind component increases the ground speed (airspeed + tailwind), which increases the ground distance covered during the descent. The airspeed and descent angle remain the same, but the increased ground speed means the aeroplane covers more ground distance in the same time."
+    },
+    {
+      "id": "8",
+      "question": "An aeroplane executes a steady glide at the speed for minimum glide angle. If the forward speed is kept constant at $V_{MD}$, what is the effect of a lower mass on the rate of descent / glide angle / $C_L/C_D$ ratio?",
+      "question_type": "MCQ",
+      "options": [
+        "a. decreases / constant / decreases",
+        "b. increases/ increases / constant",
+        "c. increases / constant / increases",
+        "d. decreases / constant/ constant"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "At VMD (minimum drag speed), the L/D ratio (CL/CD) is constant regardless of mass. The glide angle is also constant (determined by the L/D ratio). However, with lower mass, the rate of descent decreases because the aeroplane requires less lift and can fly at a lower angle of attack, reducing the descent rate while maintaining the same glide angle."
+    },
+    {
+      "id": "9",
+      "question": "Which of the following factors leads to the maximum flight time of a glide?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Low mass",
+        "b. High mass",
+        "c. Headwind",
+        "d. Tailwind"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "Maximum flight time in a glide is achieved at the speed for minimum power required (not minimum drag). Lower mass reduces the power required, allowing the aeroplane to maintain flight longer. Lower mass also reduces the rate of descent, extending the time aloft."
+    },
+    {
+      "id": "10",
+      "question": "A constant headwind:",
+      "question_type": "MCQ",
+      "options": [
+        "a. increases the descent distance over ground",
+        "b. increases the angle of the descent flight path",
+        "c. increases the angle of descent",
+        "d. increases the rate of descent"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "A headwind reduces ground speed (airspeed - headwind) while the airspeed and rate of descent remain the same. This makes the descent path steeper relative to the ground, increasing the angle of the descent flight path as seen from the ground. The actual angle of descent (relative to the air) remains unchanged."
+    },
+    {
+      "id": "11",
+      "question": "An aeroplane carries out a descent maintaining a constant Mach number in the first part of the descent and then at a constant indicated airspeed in the second part of the descent. How does the angle of descent change in the first and in the second part of the descent? Assume idle thrust and clean configuration and ignore compressibility effects.",
+      "question_type": "MCQ",
+      "options": [
+        "a. Increases in the first part; is constant in the second",
+        "b. Increases in the first part; decreases in the second",
+        "c. Is constant in the first part; decreases in the second",
+        "d. Decreases in the first part; increases in the second"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "In the first part (constant Mach number), as altitude decreases, temperature increases, so true airspeed increases while IAS increases. This increases drag, requiring a steeper descent angle. In the second part (constant IAS), the angle of descent remains relatively constant as the aeroplane maintains the same indicated airspeed and configuration."
+    },
+    {
+      "id": "12",
+      "question": "During a glide at a constant Mach number, the pitch angle of the aeroplane will:",
+      "question_type": "MCQ",
+      "options": [
+        "a. decrease",
+        "b. increase",
+        "c. increase at first and decrease later on",
+        "d. remain constant"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "During a descent at constant Mach number, as altitude decreases, temperature increases, causing true airspeed to increase. To maintain constant Mach number, the angle of attack must decrease (less lift needed at higher speed), which requires a decrease in pitch angle."
+    },
+    {
+      "id": "13",
+      "question": "Which of the following factors will lead to an increase of ground distance during a glide, while maintaining the appropriate minimum glide angle speed?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Headwind",
+        "b. Tailwind",
+        "c. Increase of aircraft mass",
+        "d. Decrease of aircraft mass"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "A tailwind increases ground speed (airspeed + tailwind) while maintaining the same airspeed and glide angle. This increases the ground distance covered during the descent. Mass does not affect glide distance at the same speed and angle of attack - both heavy and light aeroplanes glide the same distance at the same speed."
+    },
+    {
+      "id": "14",
+      "question": "A twin jet aeroplane is in cruise, with one engine inoperative, and has to overfly a high terrain area. In order to allow the greatest height clearance, the appropriate airspeed must be the airspeed:",
+      "question_type": "MCQ",
+      "options": [
+        "a. giving the greatest $C_D/C_L$ ratio",
+        "b. for long range cruise",
+        "c. of greatest lift-to-drag ratio",
+        "d. giving the lowest $C_D/C_D$ ratio"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "To maintain the highest possible altitude with one engine inoperative, the pilot should fly at the speed for maximum lift-to-drag ratio (L/D max). This minimizes the rate of descent and allows the aeroplane to maintain altitude with the least power, maximizing height clearance over terrain."
+    },
+    {
+      "id": "15",
+      "question": "What is the effect of increased mass on the performance of a gliding aeroplane at $V_{MD}$",
+      "question_type": "MCQ",
+      "options": [
+        "a. The lift/drag ratio decreases",
+        "b. The speed for best angle of descent increases",
+        "c. There is no effect",
+        "d. The gliding angle decreases"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": "At VMD (minimum drag speed), the L/D ratio remains constant regardless of mass. However, increased mass increases wing loading (W/S), which requires a higher speed to maintain the same angle of attack and L/D ratio. Therefore, the speed for best angle of descent (VMD) increases with mass."
+    },
+    {
+      "id": "16",
+      "question": "A twin-engine aeroplane in cruise flight with one engine inoperative has to fly over high ground. In order to maintain the highest possible altitude the pilot should choose:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the speed corresponding to the minimum value of lift / drag ratio",
+        "b. the speed at the maximum lift",
+        "c. the speed corresponding to the maximum value of the lift / drag ratio",
+        "d. the long range speed"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "To maintain the highest possible altitude with one engine inoperative, the pilot should fly at the speed for maximum lift-to-drag ratio (L/D max). This minimizes the power required and rate of descent, allowing the aeroplane to maintain altitude with the available power from the remaining engine."
+    },
+    {
+      "id": "17",
+      "question": "With all engines out, a pilot wants to fly for maximum time. Therefore, he has to fly the speed corresponding to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the minimum power required",
+        "b. the critical Mach number",
+        "c. the minimum angle of descent",
+        "d. the maximum lift"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "To maximize flight time (endurance) in a glide, the pilot should fly at the speed for minimum power required. This minimizes the rate of descent, allowing the aeroplane to stay aloft for the longest time. This speed is lower than the speed for minimum drag (best glide angle)."
+    },
+    {
+      "id": "18",
+      "question": "Descending from cruising altitude to ground level at a constant IAS in a headwind, compared to still air conditions, will:",
+      "question_type": "MCQ",
+      "options": [
+        "a. reduce the time to descend",
+        "b. increase the time to descend",
+        "c. reduce the ground distance taken",
+        "d. reduce the fuel used in the descent"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": "A headwind reduces ground speed (airspeed - headwind) while the airspeed and rate of descent remain constant. This means the aeroplane covers less ground distance during the descent. The time to descend and fuel used remain approximately the same (assuming constant IAS and configuration)."
+    },
+    {
+      "id": "19",
+      "question": "When descending at a constant Mach number:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the angle of attack remains constant",
+        "b. the IAS decreases then increases",
+        "c. the pitch angle will increase",
+        "d. the pitch angle will decrease"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "When descending at constant Mach number, as altitude decreases, temperature increases, causing true airspeed to increase. To maintain constant Mach number and the same lift requirement, the angle of attack must decrease, which requires a decrease in pitch angle."
+    }
+  ]
+}
+

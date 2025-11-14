@@ -1,0 +1,526 @@
+{
+  "book_name": "CAE Oxford 010 Air law",
+  "chapter_number": "14",
+  "chapter_title": "Airspace",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the speed restriction in class B airspace under FL100 (10000 ft) in both VFR and IFR?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 250 kt IAS.",
+        "b. 200 kt IAS.",
+        "c. 260 kt TAS.",
+        "d. Not applicable."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "In what class of airspace are all aircraft separated from one another and VFR is permitted?",
+      "question_type": "MCQ",
+      "options": [
+        "a. D",
+        "b. E",
+        "c. A",
+        "d. B"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "What are the VMC limits for class B airspace?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Clear of cloud and in sight of the surface.",
+        "b. 8 km flight visibility, 1000 ft vertically and 1500 m horizontally from cloud.",
+        "c. 5 km flight visibility, 1000 ft vertically and 1500 m horizontally from cloud.",
+        "d. The same as class D."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "A control zone extends laterally from the centre of an aerodrome or aerodromes in the direction of approaching aircraft for at least:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 7 NM.",
+        "b. 5 NM.",
+        "c. 15 NM.",
+        "d. 20 NM."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "What is the speed limit below 10000 ft in Class E airspace?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 250 kt TAS.",
+        "b. 250 kt IAS.",
+        "c. Not applicable.",
+        "d. 200 kt IAS."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "FIS is provided to aircraft concerning collision hazards in the following classes of airspace:",
+      "question_type": "MCQ",
+      "options": [
+        "a. C, D, E, F and G.",
+        "b. F and G only.",
+        "c. F.",
+        "d. A, B, C, D,E,F and G."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "For VFR flight in class E airspace:",
+      "question_type": "MCQ",
+      "options": [
+        "a. ATC clearance and two way radio are required.",
+        "b. two-way radio not required.",
+        "c. ATC clearance and/or two way radio are required.",
+        "d. ATC clearance is required."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Danger, Prohibited and Restricted areas must be designated by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. country identifier, followed by P/D/R, followed by a number.",
+        "b. country identifier followed by P/D/R",
+        "c. P/D/R followed by the identifier.",
+        "d. country identifier followed by numbers."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "In which class or classes of airspace would VFR traffic be separated from other VFR traffic?",
+      "question_type": "MCQ",
+      "options": [
+        "a. B",
+        "b. B; C; D; E",
+        "c. B; C",
+        "d. B; C; D"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "What is the primary function of a CTR and a CTA?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The controlling of all traffic close to an aerodrome.",
+        "b. The controlling of all traffic in Class F airspace.",
+        "c. The controlling of all traffic in Class F & G airspace.",
+        "d. The controlling of IFR traffic."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "What is the speed limit for VFR traffic in class C airspace below 10000 ft?",
+      "question_type": "MCQ",
+      "options": [
+        "a. not applicable.",
+        "b. 250 kt TAS.",
+        "c. 250 kt IAS.",
+        "d. 270 kt IAS."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "What type of airspace extends from the surface to a specified upper limit?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Control area.",
+        "b. Air Traffic Zone.",
+        "c. Control zone.",
+        "d. ΤΜΑ."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "What class of airspace can you get an advisory service for IFR traffic and an FIS for VFR traffic?",
+      "question_type": "MCQ",
+      "options": [
+        "a. D",
+        "b. C",
+        "c. E",
+        "d. F"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "The lowest height of the base of a CTA above ground or water is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 300 m.",
+        "b. 150 m.",
+        "c. 200 m.",
+        "d. 500 m."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "In which class or classes of airspace is IFR separated from IFR and all other traffic gets FIS?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A",
+        "b. B",
+        "c. D",
+        "d. D and E."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "The lower boundary of an UIR must be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. an IFR flight level.",
+        "b. a VFR flight level.",
+        "c. is not specified.",
+        "d. at any flight level."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "What is the upper limit of a CТА?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2000 ft.",
+        "b. 3000 ft.",
+        "c. 5000 ft.",
+        "d. A VFR Flight Level."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "What is the maximum speed permitted in class B airspace?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Not applicable.",
+        "b. 260 kt IAS.",
+        "c. 250 kt IAS.",
+        "d. 250 kt only below FL100 (10000 ft)."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "What class of airspace permits both IFR and VFR, and IFR participating traffic receives advisory ATC for separation?",
+      "question_type": "MCQ",
+      "options": [
+        "a. F",
+        "b. E",
+        "c. G",
+        "d. D"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "In which airspace(s) can you fly VFR without a radio?",
+      "question_type": "MCQ",
+      "options": [
+        "a. E & G.",
+        "b. D.",
+        "c. E, D.",
+        "d. C, D, E."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "In which class of airspace is IFR and VFR permitted, IFR is separated from all traffic, VFR separated from IFR and VFR receives traffic information about other VFR traffic?",
+      "question_type": "MCQ",
+      "options": [
+        "a. B",
+        "b. A",
+        "c. C",
+        "d. D"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "In class C airspace, what flights are separated?",
+      "question_type": "MCQ",
+      "options": [
+        "a. All flights.",
+        "b. IFR from all flights; VFR from VFR.",
+        "c. IFR from IFR; VFR from IFR and VFR from VFR.",
+        "d. IFR from IFR; IFR from VFR; VFR from IFR."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "What service is provided to IFR/VFR traffic in class E airspace?",
+      "question_type": "MCQ",
+      "options": [
+        "a. ATC to IFR and VFR.",
+        "b. ATC to IFR; FIS to VFR.",
+        "c. ATC to IFR and radio equipped VFR; FIS to non radio VFR.",
+        "d. ATC to IFR; Advisory ATC to IFR in VMC; FIS to VFR."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "24",
+      "question": "A Control Zone has to exist to at least:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 NM from the centre of the airfield or airfields concerned in the direction from where approaches can be made.",
+        "b. 20 NM from the centre of the airfield or airfields concerned in the direction from where approaches can be made.",
+        "c. 15 NM from the centre of the airfield or airfields concerned in the direction from where approaches can be made.",
+        "d. 10 NM from the centre of the airfield or airfields concerned in the direction from where approaches can be made."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "25",
+      "question": "Whenever flying below 3050 m (10000 ft) AMSL in Class C Airspace the speed restriction for IFR is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 240 kt IAS.",
+        "b. 250 kt TAS.",
+        "c. not applicable.",
+        "d. 250 kt IAS."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "26",
+      "question": "Airspace, in which IFR and VFR flights are permitted and in which IFR flights are separated from other IFR flights and receive traffic information concerning VFR flights, and VFR flights receive traffic information concerning all other flights, is classified as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. C",
+        "b. B",
+        "c. A",
+        "d. D"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "27",
+      "question": "What is the speed limit (IAS) in airspace E?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 250 kt for IFR and VFR, below FL100.",
+        "b. 250 kt for IFR only, below FL195.",
+        "c. 250 kt for IFR and VFR, at all altitudes.",
+        "d. 250 kt for IFR only, below FL100."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "28",
+      "question": "Controlled airspace, in which IFR and VFR flights are allowed and where all flights are separated from each other by ATC, is classified as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. A",
+        "b. D",
+        "c. B",
+        "d. E"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "29",
+      "question": "Flight information service provided to flights shall include the provision of information concerning collision hazards to aircraft operating in airspace classes:",
+      "question_type": "MCQ",
+      "options": [
+        "a. A to G (inclusive).",
+        "b. C to G (inclusive).",
+        "c. F and G.",
+        "d. A to E (inclusive)."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "30",
+      "question": "Which of the following is true concerning the rules and regulations in the UIR compared with the airspace below?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The same rules apply if the airspace is of the same class.",
+        "b. They are agreed by the Air Navigation Meeting.",
+        "c. They are identical to the airspace below.",
+        "d. They do not have to be the same as those in the airspace below."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "31",
+      "question": "A Flight Information Service shall be provided to all aircraft which are likely to be affected by the information which are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. provided with ATC or otherwise known to the relevant ATS unit.",
+        "b. provided with Air Traffic Control only.",
+        "c. known to the relevant ATS units only.",
+        "d. known to the relevant ATS unit or have filed a flight plan."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "32",
+      "question": "Who is responsible for designating the RNP for an airway?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The State.",
+        "b. The State + ICAO.",
+        "c. ICAO.",
+        "d. ATC."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "33",
+      "question": "RNP4 is a containment value meaning that a percentage of aircraft operating along a particular route would be within 4 NM of the centre line all the time.\nWhat is that percentage?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 98%.",
+        "b. 93%.",
+        "c. 95%.",
+        "d. 90%."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "34",
+      "question": "RNP (Required Navigation Performance) is prescribed:",
+      "question_type": "MCQ",
+      "options": [
+        "a. by states but not on the basis of Regional Air Navigation agreements (RANs).",
+        "b. by ICAO on the basis of RANs and applied by the state.",
+        "c. by RANs.",
+        "d. by states based on RANs."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "35",
+      "question": "An RNP1 route designated with suffix Z indicates that for the route at or below FL190 and all turns shall be made within the allowable RNP tolerance of a tangential arc between the straight leg segments with a radius of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10 NM for turns between 30° and 90°",
+        "b. 15 NM for turns between 30° and 90°",
+        "c. 22.5 NM for turns between 30° and 90°",
+        "d. 30 NM for turns between 30° and 90°."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "36",
+      "question": "An RNP1 route designated with suffix Y indicates that for the route at or above FL200 and all turns shall be made within the allowable RNP tolerance of a tangential arc between the straight leg segments with a radius of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10 NM for turns between 30° and 90°.",
+        "b. 15 NM for turns between 30° and 90°",
+        "c. 22.5 NM for turns between 30° and 90°",
+        "d. 30 NM for turns between 30° and 90°."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "37",
+      "question": "Who organizes the RNP specification for airspace?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The State in which the airspace is located.",
+        "b. ICAO.",
+        "c. The State + ICAO.",
+        "d. States who agree what the RNP should be."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    }
+  ]
+}
+

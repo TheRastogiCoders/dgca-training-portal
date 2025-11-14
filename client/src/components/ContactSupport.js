@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import SiteSidebar from './SiteSidebar';
 
 function ContactSupport() {
   const navigate = useNavigate();
@@ -36,8 +37,11 @@ function ContactSupport() {
   return (
     <div className="min-h-screen gradient-bg">
       <div className="flex">
+        {/* Sidebar */}
+        <SiteSidebar />
+        
         {/* Main Content */}
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-24 md:pb-8 md:ml-24 mobile-content-wrapper">
+        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-24 md:pb-8 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
           <div className="max-w-6xl mx-auto">
             {/* Back Button */}
             <button
