@@ -45,29 +45,39 @@ const WhatsAppFloat = () => {
             bottom: calc(var(--safe-bottom, 0px) + 20px);
           }
 
-          /* Slightly larger spacing on small tablets */
-          @media (min-width: 480px) {
-            .fab-container { gap: 20px; }
+          /* Mobile: position WhatsApp on right side, tucked above bottom nav */
+          @media (max-width: 767px) {
+            .fab-container {
+              left: auto;
+              right: calc(var(--safe-right, 0px) + 12px);
+              bottom: calc(var(--safe-bottom, 0px) + 30px);
+              align-items: flex-end;
+              gap: 8px;
+            }
           }
 
-          /* On >=768px keep vertical stack, increase offset */
+          /* Small tablets: maintain right alignment with slight spacing */
+          @media (min-width: 480px) and (max-width: 767px) {
+            .fab-container { 
+              right: calc(var(--safe-right, 0px) + 16px);
+              bottom: calc(var(--safe-bottom, 0px) + 80px);
+              gap: 16px;
+            }
+          }
+
+          /* On >=768px (desktop): keep vertical stack on right, increase offset */
           @media (min-width: 768px) {
             .fab-container {
               right: calc(var(--safe-right, 0px) + 24px);
+              left: auto;
               bottom: calc(var(--safe-bottom, 0px) + 28px);
               gap: 24px;
+              align-items: flex-end;
             }
           }
 
           /* Ensure buttons never overlap due to transforms */
           .fab-btn { will-change: transform; }
-
-          /* Mobile: adjust WhatsApp position to be above sidebar */
-          @media (max-width: 767px) {
-            .fab-container {
-              bottom: calc(var(--safe-bottom, 0px) + 120px);
-            }
-          }
         `}
       </style>
 

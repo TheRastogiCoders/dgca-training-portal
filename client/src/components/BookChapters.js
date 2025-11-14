@@ -95,8 +95,44 @@ const defaultChapters = {
       'IFR Clearances'
     ],
     'oxford': [
-      'RT Procedures',
-      'Radiotelephony Standards'
+      'Properties of Radio Waves',
+      'Radio Propagation Theory',
+      'Modulation',
+      'Antennae',
+      'Doppler Radar Systems',
+      'VHF Direction Finder (VDF)',
+      'Automatic Direction Finder (ADF)',
+      'VHF Omni-directional Range (VOR)',
+      'Instrument Landing System (ILS)',
+      'Microwave Landing System (MLS)',
+      'Radar Principles',
+      'Ground Radar',
+      'Airborne Weather Radar',
+      'Secondary Surveillance Radar (SSR)',
+      'Distance Measuring Equipment (DME)',
+      'Area Navigation Systems (RNAV)',
+      'Electronic Flight Information System (EFIS)',
+      'Global Navigation Satellite System (GNSS)'
+    ],
+    'cae-oxford': [
+      'Properties of Radio Waves',
+      'Radio Propagation Theory',
+      'Modulation',
+      'Antennae',
+      'Doppler Radar Systems',
+      'VHF Direction Finder (VDF)',
+      'Automatic Direction Finder (ADF)',
+      'VHF Omni-directional Range (VOR)',
+      'Instrument Landing System (ILS)',
+      'Microwave Landing System (MLS)',
+      'Radar Principles',
+      'Ground Radar',
+      'Airborne Weather Radar',
+      'Secondary Surveillance Radar (SSR)',
+      'Distance Measuring Equipment (DME)',
+      'Area Navigation Systems (RNAV)',
+      'Electronic Flight Information System (EFIS)',
+      'Global Navigation Satellite System (GNSS)'
     ]
   }
 };
@@ -110,6 +146,10 @@ const BookChapters = () => {
   const chapters = useMemo(() => {
     const bySubject = defaultChapters[subjectSlug] || {};
     const list = bySubject[bookSlug] || [];
+    // Debug: log what we're looking for
+    if (list.length === 0) {
+      console.log('No chapters found for:', { subjectSlug, bookSlug, availableBooks: Object.keys(bySubject) });
+    }
     return list.map((title, index) => ({
       id: `${index + 1}`,
       title,
@@ -154,21 +194,28 @@ const BookChapters = () => {
               <p className="text-gray-600">Chapters for {subjectName}</p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {chapters.map((ch) => (
-                <Card key={ch.id} className="p-6 flex flex-col">
-                  <div className="flex-1">
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Chapter {ch.id}</h3>
-                    <p className="text-gray-700">{ch.title}</p>
-                  </div>
-                  <div className="mt-4">
-                    <Button className="w-full" onClick={() => startChapter(ch)}>
-                      {ch.status === 'coming-soon' ? 'View (Coming Soon)' : 'Start Practice'}
-                    </Button>
-                  </div>
-                </Card>
-              ))}
-            </div>
+            {chapters.length === 0 ? (
+              <div className="text-center py-12">
+                <p className="text-gray-600 mb-2">No chapters found for this book.</p>
+                <p className="text-sm text-gray-500">Subject: {subjectSlug}, Book: {bookSlug}</p>
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {chapters.map((ch) => (
+                  <Card key={ch.id} className="p-6 flex flex-col">
+                    <div className="flex-1">
+                      <h3 className="text-lg font-semibold text-gray-900 mb-2">Chapter {ch.id}</h3>
+                      <p className="text-gray-700">{ch.title}</p>
+                    </div>
+                    <div className="mt-4">
+                      <Button className="w-full" onClick={() => startChapter(ch)}>
+                        {ch.status === 'coming-soon' ? 'View (Coming Soon)' : 'Start Practice'}
+                      </Button>
+                    </div>
+                  </Card>
+                ))}
+              </div>
+            )}
           </div>
         </main>
       </div>

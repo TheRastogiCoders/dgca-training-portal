@@ -1,6 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 import { API_ENDPOINTS } from '../config/api';
@@ -13,8 +12,6 @@ const friendly = (slug) => (slug || '')
 const BookPracticeRunner = () => {
   const { bookSlug, chapterSlug } = useParams();
   const navigate = useNavigate();
-  const { isAuthenticated, loading: authLoading } = useAuth();
-
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [questions, setQuestions] = useState([]);
@@ -69,13 +66,6 @@ const BookPracticeRunner = () => {
   };
 
   useEffect(() => {
-    // Wait for auth to initialize before deciding
-    if (authLoading) return;
-    if (!isAuthenticated) {
-      navigate('/login');
-      return;
-    }
-
     const load = async () => {
       try {
         setLoading(true);
@@ -136,7 +126,7 @@ const BookPracticeRunner = () => {
     };
 
     load();
-  }, [bookSlug, chapterSlug, isAuthenticated, authLoading, navigate]);
+  }, [bookSlug, chapterSlug, navigate]);
 
   useEffect(() => {
     if (loading || questions.length === 0) return;
@@ -196,12 +186,12 @@ const BookPracticeRunner = () => {
     setShowCloseConfirm(false);
   };
 
-  if (loading || authLoading) {
+  if (loading) {
     return (
       <div className="min-h-screen gradient-bg">
-        <div className="flex">
+        <div className="flex flex-col md:flex-row w-full">
           <SiteSidebar />
-          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-24">
+          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-10 md:ml-56 lg:ml-64 xl:ml-72">
             <div className="max-w-4xl mx-auto text-center py-20">
               <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-blue-600 mx-auto mb-4"></div>
               <h2 className="text-2xl font-bold text-gray-900 mb-2">Loading {bookName} Questions</h2>
@@ -216,11 +206,11 @@ const BookPracticeRunner = () => {
   if (error) {
     return (
       <div className="min-h-screen gradient-bg">
-        <div className="flex">
+        <div className="flex flex-col md:flex-row w-full">
           <SiteSidebar />
-          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-24">
+          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-10 md:ml-56 lg:ml-64 xl:ml-72">
             <div className="max-w-3xl mx-auto w-full">
-              <Card className="p-6 md:p-8">
+              <Card className="p-6 md:p-8 rounded-3xl shadow-xl">
                 <h2 className="text-2xl font-bold text-gray-900 mb-2">Unable to start practice</h2>
                 <p className="text-red-600 mb-6">{error}</p>
                 <button onClick={() => navigate('/question-bank')} className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">Go to Question Bank</button>
@@ -236,11 +226,11 @@ const BookPracticeRunner = () => {
   if (!loading && questions.length === 0) {
     return (
       <div className="min-h-screen gradient-bg">
-        <div className="flex">
+        <div className="flex flex-col md:flex-row w-full">
           <SiteSidebar />
-          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-24">
+          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-10 md:ml-56 lg:ml-64 xl:ml-72">
             <div className="max-w-3xl mx-auto w-full">
-              <Card className="p-6 md:p-8 text-center">
+              <Card className="p-6 md:p-8 text-center rounded-3xl shadow-xl">
                 <h2 className="text-2xl font-bold text-gray-900 mb-2">No questions available yet</h2>
                 <p className="text-gray-600 mb-6">We’re preparing questions for {bookName}{chapterSlug ? ` • ${friendly(chapterSlug)}` : ''}. Please check back soon.</p>
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -260,11 +250,11 @@ const BookPracticeRunner = () => {
     const totalTimeSec = Math.round((Date.now() - startTimeRef.current) / 1000);
     return (
       <div className="min-h-screen gradient-bg">
-        <div className="flex">
+        <div className="flex flex-col md:flex-row w-full">
           <SiteSidebar />
-          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-24">
-            <div className="max-w-4xl mx-auto w-full">
-              <Card className="p-6 md:p-8 text-center">
+          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-10 md:ml-56 lg:ml-64 xl:ml-72">
+          <div className="max-w-4xl mx-auto w-full">
+            <Card className="p-6 md:p-8 text-center rounded-3xl shadow-xl">
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">Practice Complete</h1>
                 <p className="text-gray-600 mb-6">{bookName} • {questions.length} questions</p>
                 <div className="text-6xl font-extrabold text-blue-600 mb-4">{percent}%</div>
@@ -286,35 +276,35 @@ const BookPracticeRunner = () => {
 
   return (
     <div className="min-h-screen gradient-bg">
-      <div className="flex">
+      <div className="flex flex-col md:flex-row w-full">
         <SiteSidebar />
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-24">
-          <div className="max-w-4xl mx-auto w-full">
-            <div className="mb-6 flex items-center justify-between">
-              <div>
-                <h1 className="text-2xl font-bold text-gray-900">{bookName}</h1>
-                <p className="text-gray-600">Question {current + 1} of {questions.length}</p>
+        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-10 md:ml-56 lg:ml-64 xl:ml-72">
+          <div className="max-w-4xl mx-auto w-full space-y-5">
+            <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+              <div className="space-y-1">
+                <h1 className="text-2xl md:text-3xl font-bold text-gray-900 leading-snug">{bookName}</h1>
+                <p className="text-gray-600 text-sm md:text-base">Question {current + 1} of {questions.length}</p>
               </div>
-              <div className="flex items-center gap-4">
-                <div className="w-48">
-                  <div className="w-full bg-gray-200 rounded-full h-2">
-                    <div className="bg-gradient-to-r from-blue-500 to-purple-600 h-2 rounded-full" style={{ width: `${progress}%` }}></div>
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full md:w-auto">
+                <div className="w-full sm:w-48">
+                  <div className="w-full bg-gray-200 rounded-full h-2 overflow-hidden">
+                    <div className="bg-gradient-to-r from-blue-500 to-purple-600 h-2 rounded-full transition-all duration-300" style={{ width: `${progress}%` }}></div>
                   </div>
                 </div>
                 <button
                   onClick={handleCloseTest}
-                  className="px-4 py-2 bg-red-500 hover:bg-red-600 text-white rounded-lg font-medium transition-colors shadow-md"
+                  className="w-full sm:w-auto px-4 py-2 bg-red-500 hover:bg-red-600 text-white rounded-lg font-medium transition-colors shadow-md"
                 >
                   Close Test
                 </button>
               </div>
             </div>
 
-            <Card className="p-0">
-              <div className="p-6 border-b border-gray-200">
-                <h2 className="text-xl font-semibold text-gray-900 leading-relaxed">{q.text}</h2>
+            <Card className="p-0 rounded-3xl overflow-hidden shadow-xl">
+              <div className="p-5 sm:p-6 border-b border-gray-100 bg-white/80">
+                <h2 className="text-lg sm:text-xl font-semibold text-gray-900 leading-relaxed whitespace-pre-line">{q.text}</h2>
               </div>
-              <div className="p-6 space-y-3">
+              <div className="p-5 sm:p-6 space-y-3">
                 {q.options.map((opt, idx) => {
                   const isSelected = selected === idx;
                   const labels = ['A','B','C','D','E','F'];
@@ -331,15 +321,15 @@ const BookPracticeRunner = () => {
                   return (
                     <button key={idx} onClick={() => submitAnswer(idx)} disabled={selected !== null} className={cls}>
                       <div className="flex items-center">
-                        <span className="inline-flex items-center justify-center w-6 h-6 mr-3 rounded-full bg-gray-100 text-gray-700 text-xs font-bold border border-gray-300">{labels[idx]}</span>
-                        <span>{opt}</span>
+                        <span className="inline-flex items-center justify-center w-6 h-6 mr-3 rounded-full bg-gray-100 text-gray-700 text-xs font-bold border border-gray-300 flex-shrink-0">{labels[idx]}</span>
+                        <span className="text-sm sm:text-base">{opt}</span>
                       </div>
                     </button>
                   );
                 })}
                 {selected !== null && (
                   <div className="pt-4 text-center">
-                    <button onClick={next} className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg">
+                    <button onClick={next} className="w-full sm:w-auto px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg shadow-md">
                       {current >= questions.length - 1 ? 'Finish Practice' : 'Next Question'}
                     </button>
                   </div>

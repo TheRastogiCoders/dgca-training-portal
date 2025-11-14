@@ -1,7 +1,8 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
+import Modal from './ui/Modal';
 import usePersistentState from '../hooks/usePersistentState';
 
 const EXCLUDED_CHAPTER_NAMES = new Set([
@@ -40,6 +41,8 @@ const QuestionBank = () => {
   const navigate = useNavigate();
   const [selectedSubjectId, setSelectedSubjectId] = usePersistentState('questionBank:selectedSubjectId', null);
   const [selectedBookKey, setSelectedBookKey] = usePersistentState('questionBank:selectedBookKey', null);
+  const [showComingSoonModal, setShowComingSoonModal] = useState(false);
+  const [clickedChapter, setClickedChapter] = useState(null);
 
   const subjects = [
     {
@@ -159,8 +162,8 @@ const QuestionBank = () => {
   const technicalGeneralBooks = [
     {
       id: 1,
-      title: "Principles of Flight 2014",
-      description: "Principles of Flight (2014 Edition)",
+      title: "Principles of Flight",
+      description: "Principles of Flight",
       icon: "🛫",
       color: "from-indigo-500 to-blue-600",
       slug: "principles-of-flight-2014",
@@ -285,8 +288,8 @@ const QuestionBank = () => {
 const airNavigationOxfordBooks = [
   {
     id: 1,
-    title: "Instrument 2014",
-    description: "Instrument Flying Techniques & Procedures (2014 Edition)",
+    title: "Instrumentation",
+    description: "Advanced aircraft instruments & avionics monitoring",
     icon: "🛩️",
     color: "from-indigo-500 to-purple-500",
     slug: "instrument-2014",
@@ -333,6 +336,68 @@ const airNavigationOxfordBooks = [
       { id: 38, name: "Engine Instrumentation", questions: 0, difficulty: "Medium" },
       { id: 39, name: "Electronic Instrumentation", questions: 0, difficulty: "Medium" }
     ]
+  },
+  {
+    id: 2,
+    title: "Flight Planning & Monitoring",
+    description: "Navigation planning, fuel calculations, and flight watch",
+    icon: "🗺️",
+    color: "from-blue-500 to-cyan-500",
+    slug: "flight-planning-monitoring",
+    totalQuestions: 180,
+    difficulty: "Medium",
+    chapters: [
+      { id: 1, name: "Air Information Publications", questions: 6, difficulty: "Medium" },
+      { id: 2, name: "Fuel Policy and Fuel Monitoring", questions: 7, difficulty: "Medium" },
+      { id: 3, name: "Nautical Air Miles", questions: 30, difficulty: "Medium" },
+      { id: 4, name: "Single-engine Piston Aeroplane (SEP)", questions: 0, difficulty: "Medium" },
+      { id: 5, name: "Multi-engine Piston Aeroplane (MEP)", questions: 0, difficulty: "Medium" },
+      { id: 6, name: "Medium Range Jet Transport (MRJT) Simplified Flight Planning", questions: 0, difficulty: "Medium" },
+      { id: 7, name: "Medium Range Jet Transport (MRJT) Detailed Flight Planning", questions: 0, difficulty: "Medium" },
+      { id: 8, name: "En Route Climb Table", questions: 0, difficulty: "Medium" },
+      { id: 9, name: "Cruise / Integrated Range Tables", questions: 0, difficulty: "Medium" },
+      { id: 10, name: "Descent Tables", questions: 0, difficulty: "Medium" },
+      { id: 11, name: "MRJT Additional Procedures", questions: 0, difficulty: "Medium" },
+      { id: 12, name: "Topographical Chart", questions: 0, difficulty: "Medium" },
+      { id: 13, name: "Airways", questions: 0, difficulty: "Medium" },
+      { id: 14, name: "Airways – Miscellaneous Charts", questions: 38, difficulty: "Medium" },
+      { id: 15, name: "ATC Flight Plan", questions: 0, difficulty: "Medium" },
+      { id: 16, name: "Point of Equal Time (PET)", questions: 0, difficulty: "Medium" },
+      { id: 17, name: "Point of Safe Return (PSR)", questions: 12, difficulty: "Medium" }
+    ]
+  }
+];
+
+const radioTelephonyOxfordBooks = [
+  {
+    id: 1,
+    title: "Radio Navigation Systems",
+    description: "CAE Oxford Radio Navigation & Communication Systems",
+    icon: "📻",
+    color: "from-cyan-500 to-blue-600",
+    slug: "radio-navigation-systems",
+    totalQuestions: 0,
+    difficulty: "Medium",
+    chapters: [
+      { id: 1, name: "Properties of Radio Waves", questions: 0, difficulty: "Medium" },
+      { id: 2, name: "Radio Propagation Theory", questions: 0, difficulty: "Medium" },
+      { id: 3, name: "Modulation", questions: 0, difficulty: "Medium" },
+      { id: 4, name: "Antennae", questions: 0, difficulty: "Medium" },
+      { id: 5, name: "Doppler Radar Systems", questions: 0, difficulty: "Medium" },
+      { id: 6, name: "VHF Direction Finder (VDF)", questions: 0, difficulty: "Medium" },
+      { id: 7, name: "Automatic Direction Finder (ADF)", questions: 0, difficulty: "Medium" },
+      { id: 8, name: "VHF Omni-directional Range (VOR)", questions: 0, difficulty: "Medium" },
+      { id: 9, name: "Instrument Landing System (ILS)", questions: 0, difficulty: "Medium" },
+      { id: 10, name: "Microwave Landing System (MLS)", questions: 0, difficulty: "Medium" },
+      { id: 11, name: "Radar Principles", questions: 0, difficulty: "Medium" },
+      { id: 12, name: "Ground Radar", questions: 0, difficulty: "Medium" },
+      { id: 13, name: "Airborne Weather Radar", questions: 0, difficulty: "Medium" },
+      { id: 14, name: "Secondary Surveillance Radar (SSR)", questions: 0, difficulty: "Medium" },
+      { id: 15, name: "Distance Measuring Equipment (DME)", questions: 0, difficulty: "Medium" },
+      { id: 16, name: "Area Navigation Systems (RNAV)", questions: 0, difficulty: "Medium" },
+      { id: 17, name: "Electronic Flight Information System (EFIS)", questions: 0, difficulty: "Medium" },
+      { id: 18, name: "Global Navigation Satellite System (GNSS)", questions: 0, difficulty: "Medium" }
+    ]
   }
 ];
 
@@ -362,10 +427,22 @@ const airNavigationOxfordBooks = [
   const resolveSelectedBook = useMemo(() => {
     if (!selectedSubject) return null;
 
-    const availableBooks = getAvailableBooks(selectedSubject);
-    const directBook = availableBooks.find((book) => book.slug === selectedBookKey);
-    if (directBook) {
-      return sanitizeBook(directBook);
+    // Check special cases first (before direct book match)
+    if (selectedSubject.title === 'Radio Telephony (RTR)-A') {
+      // If CAE Oxford is selected, return the radio navigation systems book directly
+      if (selectedBookKey === 'cae-oxford') {
+        const radioBook = radioTelephonyOxfordBooks[0];
+        if (radioBook) {
+          console.log('Radio Telephony: Returning radio book with chapters:', radioBook.chapters?.length);
+          return sanitizeBook(radioBook);
+        }
+      }
+      // Otherwise, check if a specific radio book is selected
+      const radioBook = radioTelephonyOxfordBooks.find((book) => book.slug === selectedBookKey);
+      if (radioBook) {
+        console.log('Radio Telephony: Returning specific radio book with chapters:', radioBook.chapters?.length);
+        return sanitizeBook(radioBook);
+      }
     }
 
     if (selectedSubject.title === 'Technical General') {
@@ -382,6 +459,13 @@ const airNavigationOxfordBooks = [
       }
     }
 
+    // Finally, check direct book match (but skip for Radio Telephony with cae-oxford since we handled it above)
+    const availableBooks = getAvailableBooks(selectedSubject);
+    const directBook = availableBooks.find((book) => book.slug === selectedBookKey);
+    if (directBook) {
+      return sanitizeBook(directBook);
+    }
+
     return null;
   }, [selectedSubject, selectedBookKey]);
 
@@ -395,8 +479,45 @@ const airNavigationOxfordBooks = [
   };
 
   const handleChapterClick = (subject, chapter, book) => {
+    // If chapter has no questions, show the coming soon modal
+    if (!chapter.questions) {
+      setClickedChapter({ subject, chapter, book });
+      setShowComingSoonModal(true);
+      return;
+    }
+    
     const chapterSlug = slugify(chapter?.name || 'overview');
     navigate(`/practice-test/book/${book.slug}/${chapterSlug}`);
+  };
+
+  const handleViewNextChapter = () => {
+    if (!clickedChapter) {
+      setShowComingSoonModal(false);
+      return;
+    }
+
+    const { subject, chapter, book } = clickedChapter;
+    const allChapters = sanitizeChapters(book.chapters) || sanitizeChapters(subject.chapters) || [];
+    const currentIndex = allChapters.findIndex(ch => ch.id === chapter.id);
+    
+    // Find the next chapter with questions
+    let nextChapter = null;
+    for (let i = currentIndex + 1; i < allChapters.length; i++) {
+      if (allChapters[i].questions && allChapters[i].questions > 0) {
+        nextChapter = allChapters[i];
+        break;
+      }
+    }
+
+    setShowComingSoonModal(false);
+    
+    if (nextChapter) {
+      const chapterSlug = slugify(nextChapter?.name || 'overview');
+      navigate(`/practice-test/book/${book.slug}/${chapterSlug}`);
+    } else {
+      // If no next chapter with questions, just close the modal
+      setClickedChapter(null);
+    }
   };
 
   const handleBackToSubjects = () => {
@@ -424,7 +545,7 @@ const airNavigationOxfordBooks = [
         <SiteSidebar />
 
         {/* Main Content */}
-        <main className="flex-1 p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-24">
+        <main className="flex-1 p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-56 lg:ml-64 xl:ml-72">
           <div className="max-w-6xl mx-auto">
             {/* Header */}
             <div className="text-center mb-12">
@@ -477,6 +598,9 @@ const airNavigationOxfordBooks = [
                           <p className="text-gray-600 mb-4 text-sm leading-relaxed">
                             {subject.description}
                           </p>
+                      <p className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-4">
+                        CPL/ATPL Ground Training Series
+                      </p>
                           <div className="flex items-center justify-center text-sm">
                             <span className="text-blue-600 font-semibold inline-flex items-center">
                               Start now
@@ -553,8 +677,11 @@ const airNavigationOxfordBooks = [
                           <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                             {book.title}
                           </h3>
-                          <p className="text-gray-600 mb-6 text-base leading-relaxed">
+                          <p className="text-gray-600 mb-4 text-base leading-relaxed">
                             {book.description}
+                          </p>
+                          <p className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-6">
+                            CPL/ATPL Ground Training Series
                           </p>
                           <div className="flex items-center justify-center">
                             <div className={`flex items-center px-6 py-3 bg-gradient-to-r ${book.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform group-hover:scale-105`}>
@@ -571,31 +698,46 @@ const airNavigationOxfordBooks = [
             )}
 
             {/* Chapters/Sub-Books View */}
-            {selectedSubject && resolveSelectedBook && (
-              <div>
-                <div className="text-center mb-8">
-                  <div className={`w-20 h-20 bg-gradient-to-r ${selectedSubject.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-4`}>
-                    {selectedSubject.icon}
-                  </div>
-                  <h2 className="text-3xl font-bold text-gray-900 mb-2">{selectedSubject.title}</h2>
-                  <p className="text-gray-600 mb-4">{selectedSubject.description}</p>
-                  <div className="flex items-center justify-center mb-4">
-                    <div className={`w-12 h-12 bg-gradient-to-r ${resolveSelectedBook.color} rounded-xl flex items-center justify-center text-white text-2xl mr-3`}>
-                      {resolveSelectedBook.icon}
-                    </div>
-                    <div className="text-left">
-                      <h3 className="text-lg font-bold text-gray-900">{resolveSelectedBook.title}</h3>
-                      <p className="text-sm text-gray-600">{resolveSelectedBook.description}</p>
-                    </div>
-                  </div>
-                  <div className="inline-flex items-center px-4 py-2 bg-blue-100 border border-blue-300 rounded-full">
-                    <span className="text-blue-800 font-medium text-sm">
-                      📚 Practice information available
-                    </span>
-                  </div>
-                </div>
+            {selectedSubject && resolveSelectedBook && (() => {
+              const bookChapters = sanitizeChapters(resolveSelectedBook?.chapters) || [];
+              const subjectChapters = sanitizeChapters(selectedSubject?.chapters) || [];
+              const chapters = bookChapters.length > 0 ? bookChapters : subjectChapters;
+              
+              console.log('Rendering chapters:', { 
+                bookChapters: bookChapters.length, 
+                subjectChapters: subjectChapters.length,
+                finalChapters: chapters.length,
+                bookTitle: resolveSelectedBook?.title,
+                subjectTitle: selectedSubject?.title,
+                bookSlug: resolveSelectedBook?.slug,
+                selectedBookKey
+              });
 
-                {selectedSubject.title === 'Technical General' && selectedBookKey === 'cae-oxford' ? (
+              return (
+                <div>
+                  <div className="text-center mb-8">
+                    <div className={`w-20 h-20 bg-gradient-to-r ${selectedSubject.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-4`}>
+                      {selectedSubject.icon}
+                    </div>
+                    <h2 className="text-3xl font-bold text-gray-900 mb-2">{selectedSubject.title}</h2>
+                    <p className="text-gray-600 mb-4">{selectedSubject.description}</p>
+                    <div className="flex items-center justify-center mb-4">
+                      <div className={`w-12 h-12 bg-gradient-to-r ${resolveSelectedBook.color} rounded-xl flex items-center justify-center text-white text-2xl mr-3`}>
+                        {resolveSelectedBook.icon}
+                      </div>
+                      <div className="text-left">
+                        <h3 className="text-lg font-bold text-gray-900">{resolveSelectedBook.title}</h3>
+                        <p className="text-sm text-gray-600">{resolveSelectedBook.description}</p>
+                      </div>
+                    </div>
+                    <div className="inline-flex items-center px-4 py-2 bg-blue-100 border border-blue-300 rounded-full">
+                      <span className="text-blue-800 font-medium text-sm">
+                        📚 Practice information available
+                      </span>
+                    </div>
+                  </div>
+
+                  {selectedSubject.title === 'Technical General' && selectedBookKey === 'cae-oxford' ? (
                   // For Technical General, after selecting CAE Oxford, show 4 Oxford sub-books
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
                     {technicalGeneralBooks.map((book) => (
@@ -611,8 +753,11 @@ const airNavigationOxfordBooks = [
                           <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                             {book.title}
                           </h3>
-                          <p className="text-gray-600 mb-6 text-base leading-relaxed">
+                          <p className="text-gray-600 mb-4 text-base leading-relaxed">
                             {book.description}
+                          </p>
+                          <p className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-6">
+                            CPL/ATPL Ground Training Series
                           </p>
                           <div className="flex items-center justify-center">
                             <div className={`flex items-center px-6 py-3 bg-gradient-to-r ${book.color} text-white font-semibold rounded-lg`}>
@@ -639,8 +784,11 @@ const airNavigationOxfordBooks = [
                           <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                             {book.title}
                           </h3>
-                          <p className="text-gray-600 mb-6 text-base leading-relaxed">
+                          <p className="text-gray-600 mb-4 text-base leading-relaxed">
                             {book.description}
+                          </p>
+                          <p className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-6">
+                            CPL/ATPL Ground Training Series
                           </p>
                           <div className="flex items-center justify-center">
                             <div className={`flex items-center px-6 py-3 bg-gradient-to-r ${book.color} text-white font-semibold rounded-lg`}>
@@ -652,10 +800,19 @@ const airNavigationOxfordBooks = [
                       </Card>
                     ))}
                   </div>
+                ) : chapters.length === 0 ? (
+                  <div className="text-center py-12">
+                    <p className="text-gray-600 mb-2">No chapters found for this book.</p>
+                    <p className="text-sm text-gray-500">
+                      Book: {resolveSelectedBook?.title || 'Unknown'} | 
+                      Subject: {selectedSubject?.title || 'Unknown'} |
+                      Key: {selectedBookKey || 'None'}
+                    </p>
+                  </div>
                 ) : (
                   // Default: show chapters for the selected book
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {(sanitizeChapters(resolveSelectedBook.chapters) || sanitizeChapters(selectedSubject.chapters) || []).map((chapter) => (
+                    {chapters.map((chapter) => (
                       <Card key={chapter.id} className={`p-6 hover:shadow-lg transition-all duration-300 ${!chapter.questions ? 'opacity-75' : ''}`}>
                         <div className="flex items-start justify-between mb-4">
                           <div className="flex-1">
@@ -684,13 +841,12 @@ const airNavigationOxfordBooks = [
                         <div className="flex justify-center">
                           <button
                             onClick={() => handleChapterClick(selectedSubject, chapter, resolveSelectedBook)}
-                            disabled={!chapter.questions}
                             className={`w-full py-3 px-6 font-semibold rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all duration-200 transform ${
                               chapter.questions
                                 ? `bg-gradient-to-r ${resolveSelectedBook.color} text-white hover:shadow-lg hover:scale-[1.02]`
-                                : 'bg-gray-200 text-gray-500 cursor-not-allowed'
+                                : 'bg-amber-100 text-amber-700 hover:bg-amber-200 hover:shadow-md cursor-pointer'
                             }`}
-                            title={chapter.questions ? `Practice with ${resolveSelectedBook.title}` : 'Questions coming soon'}
+                            title={chapter.questions ? `Practice with ${resolveSelectedBook.title}` : 'Click to view details'}
                           >
                             <div className="flex items-center justify-center">
                               <span className="mr-2">{resolveSelectedBook.icon}</span>
@@ -702,11 +858,47 @@ const airNavigationOxfordBooks = [
                     ))}
                   </div>
                 )}
-              </div>
-            )}
+                </div>
+              );
+            })()}
           </div>
         </main>
       </div>
+
+      {/* Coming Soon Modal */}
+      <Modal
+        open={showComingSoonModal}
+        onClose={() => {
+          setShowComingSoonModal(false);
+          setClickedChapter(null);
+        }}
+        title="Chapter Coming Soon"
+        footer={
+          <>
+            <button
+              onClick={() => {
+                setShowComingSoonModal(false);
+                setClickedChapter(null);
+              }}
+              className="px-4 py-2 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors"
+            >
+              Cancel
+            </button>
+            <button
+              onClick={handleViewNextChapter}
+              className={`px-6 py-2 bg-gradient-to-r ${clickedChapter?.book?.color || 'from-blue-500 to-blue-600'} text-white rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-105`}
+            >
+              View Next Chapter
+            </button>
+          </>
+        }
+      >
+        <div className="py-4">
+          <p className="text-gray-700">
+            This chapter does not include questions. Would you like to view the next chapter?
+          </p>
+        </div>
+      </Modal>
     </div>
   );
 };

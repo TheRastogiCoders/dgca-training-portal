@@ -37,13 +37,13 @@ const RailItem = ({ to, label, icon, active, isAdmin = false, disabled = false }
   </div>
 );
 
-// Desktop boxed navigation item with label inside the box
+// Desktop boxed navigation item with label inside the box - responsive width
 const BoxNavItem = ({ to, label, icon, active, isAdmin = false, disabled = false }) => {
   if (disabled) {
     return (
       <div
         title={label}
-        className={`w-44 h-12 rounded-2xl flex items-center gap-3 px-3 transition-all duration-200 border backdrop-blur-sm opacity-50 cursor-not-allowed ${
+        className={`w-full max-w-[176px] md:w-44 lg:w-52 xl:w-56 h-12 rounded-2xl flex items-center gap-3 px-3 transition-all duration-200 border backdrop-blur-sm opacity-50 cursor-not-allowed ${
           active
             ? isAdmin
               ? 'bg-gradient-to-br from-red-500/85 to-pink-600/85 text-white shadow-xl border-red-400/60'
@@ -51,12 +51,12 @@ const BoxNavItem = ({ to, label, icon, active, isAdmin = false, disabled = false
             : 'bg-white/30 text-gray-800 shadow-md border-white/40'
         }`}
       >
-        <span className={`flex items-center justify-center w-8 h-8 rounded-xl ${active
+        <span className={`flex items-center justify-center w-8 h-8 rounded-xl flex-shrink-0 ${active
           ? 'bg-white/20 text-white'
           : 'bg-white/60 text-gray-800'}`} aria-hidden>
           <span className="text-lg">{icon}</span>
         </span>
-        <span className={`text-sm font-semibold tracking-wide ${active ? 'text-white' : 'text-gray-800'}`}>
+        <span className={`text-xs md:text-sm font-semibold tracking-wide truncate ${active ? 'text-white' : 'text-gray-800'}`}>
           {label}
         </span>
       </div>
@@ -66,19 +66,19 @@ const BoxNavItem = ({ to, label, icon, active, isAdmin = false, disabled = false
     <Link
       to={to}
       title={label}
-      className={`w-44 h-12 rounded-2xl flex items-center gap-3 px-3 transition-all duration-200 border backdrop-blur-sm ${active
+      className={`w-full max-w-[176px] md:w-44 lg:w-52 xl:w-56 h-12 rounded-2xl flex items-center gap-3 px-3 transition-all duration-200 border backdrop-blur-sm ${active
         ? isAdmin
           ? 'bg-gradient-to-br from-red-500/85 to-pink-600/85 text-white shadow-xl border-red-400/60'
           : 'bg-gradient-to-br from-purple-500/85 to-indigo-600/85 text-white shadow-xl border-purple-400/60'
         : 'bg-white/30 text-gray-800 hover:bg-white/50 shadow-md border-white/40 hover:shadow-lg'}
       `}
     >
-      <span className={`flex items-center justify-center w-8 h-8 rounded-xl ${active
+      <span className={`flex items-center justify-center w-8 h-8 rounded-xl flex-shrink-0 ${active
         ? 'bg-white/20 text-white'
         : 'bg-white/60 text-gray-800'}`} aria-hidden>
         <span className="text-lg">{icon}</span>
       </span>
-      <span className={`text-sm font-semibold tracking-wide ${active ? 'text-white' : 'text-gray-800'}`}>
+      <span className={`text-xs md:text-sm font-semibold tracking-wide truncate ${active ? 'text-white' : 'text-gray-800'}`}>
         {label}
       </span>
     </Link>
@@ -133,8 +133,8 @@ const SiteSidebar = () => {
   return (
     <>
 
-      {/* Desktop/Laptop: Vertical rail */}
-      <aside className="hidden md:flex md:flex-col md:items-center md:gap-4 md:w-56 h-[calc(100vh-4rem)] fixed left-0 top-16 py-4 bg-gradient-to-b from-blue-600/5 to-purple-600/5 backdrop-blur-sm z-40">
+      {/* Desktop/Laptop: Vertical rail - responsive width */}
+      <aside className="hidden md:flex md:flex-col md:items-center md:gap-4 md:w-56 lg:w-64 xl:w-72 h-[calc(100vh-4rem)] fixed left-0 top-16 py-4 bg-gradient-to-b from-blue-600/5 to-purple-600/5 backdrop-blur-sm z-40 transition-all duration-300">
         <nav className="mt-2 flex flex-col items-center gap-3 md:gap-4">
           {userNavItems.map((item) => (
             <BoxNavItem
@@ -208,38 +208,38 @@ const SiteSidebar = () => {
         ) : null}
       </aside>
 
-      {/* Mobile/Tablet: Bottom horizontal bar */}
+      {/* Mobile/Tablet: Bottom horizontal bar - responsive padding */}
       <nav className="md:hidden fixed inset-x-0 bottom-0 z-50">
-        <div className="relative bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-xl border-t border-white/30 px-4 pt-3 pb-4 flex items-center justify-between shadow-2xl">
+        <div className="relative bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-xl border-t border-white/30 px-3 sm:px-4 pt-3 pb-4 flex items-center justify-between shadow-2xl">
           {/* Show admin navigation if user is admin, otherwise show regular navigation */}
           <>
             {userNavItems.map((item) => (
-              <div key={item.to} className="flex flex-col items-center">
+              <div key={item.to} className="flex flex-col items-center min-w-0 flex-1">
                 {isInPracticeTest ? (
                   <div
                     title={item.label}
-                    className={`w-12 h-12 rounded-2xl flex items-center justify-center border backdrop-blur-sm transition-all duration-200 opacity-50 cursor-not-allowed ${
+                    className={`w-11 h-11 sm:w-12 sm:h-12 rounded-2xl flex items-center justify-center border backdrop-blur-sm transition-all duration-200 opacity-50 cursor-not-allowed ${
                       isActivePath(item.to)
                         ? 'bg-gradient-to-br from-purple-500/90 to-indigo-600/90 text-white border-purple-400/60 shadow-xl'
                         : 'bg-white/40 text-gray-800 border-white/50 shadow-lg'
                     }`}
                   >
-                    <span className="text-lg">{item.icon}</span>
+                    <span className="text-base sm:text-lg">{item.icon}</span>
                   </div>
                 ) : (
                   <Link
                     to={item.to}
                     title={item.label}
-                    className={`w-12 h-12 rounded-2xl flex items-center justify-center border backdrop-blur-sm transition-all duration-200 ${
+                    className={`w-11 h-11 sm:w-12 sm:h-12 rounded-2xl flex items-center justify-center border backdrop-blur-sm transition-all duration-200 ${
                       isActivePath(item.to)
                         ? 'bg-gradient-to-br from-purple-500/90 to-indigo-600/90 text-white border-purple-400/60 shadow-xl scale-105'
                         : 'bg-white/40 text-gray-800 border-white/50 shadow-lg hover:bg-white/60 hover:scale-105'
                     }`}
                   >
-                    <span className="text-lg">{item.icon}</span>
+                    <span className="text-base sm:text-lg">{item.icon}</span>
                   </Link>
                 )}
-                <span className="text-[10px] text-white/90 mt-1 font-medium leading-tight text-center">
+                <span className="text-[9px] sm:text-[10px] text-white/90 mt-1 font-medium leading-tight text-center truncate w-full px-0.5">
                   {item.label}
                 </span>
               </div>
@@ -251,34 +251,34 @@ const SiteSidebar = () => {
           {currentIsAuthenticated ? (
             <button
               onClick={() => navigate('/profile')}
-              className="flex flex-col items-center transition-all duration-200 hover:scale-105"
+              className="flex flex-col items-center transition-all duration-200 hover:scale-105 min-w-0 flex-shrink-0"
               title="View Profile"
             >
-              <div className={`w-12 h-12 rounded-2xl flex items-center justify-center shadow-xl backdrop-blur-sm border ${
+              <div className={`w-11 h-11 sm:w-12 sm:h-12 rounded-2xl flex items-center justify-center shadow-xl backdrop-blur-sm border ${
                 'bg-gradient-to-br from-blue-500/90 to-purple-600/90 border-blue-400/60'
               }`}>
-                <span className="text-white font-semibold text-sm">
+                <span className="text-white font-semibold text-xs sm:text-sm">
                   {getUserInitials()}
                 </span>
               </div>
-              <span className="text-[10px] text-white/90 mt-1 truncate max-w-[60px] font-medium leading-tight">
+              <span className="text-[9px] sm:text-[10px] text-white/90 mt-1 truncate max-w-[60px] font-medium leading-tight">
                 Profile
               </span>
             </button>
           ) : (
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center min-w-0 flex-shrink-0">
               <Link 
                 to="/login" 
                 title="Login" 
-                className={`w-12 h-12 rounded-2xl flex items-center justify-center border backdrop-blur-sm transition-all duration-200 ${
+                className={`w-11 h-11 sm:w-12 sm:h-12 rounded-2xl flex items-center justify-center border backdrop-blur-sm transition-all duration-200 ${
                   isActivePath('/login') 
                     ? 'bg-gradient-to-br from-purple-500/90 to-indigo-600/90 text-white border-purple-400/60 shadow-xl scale-105' 
                     : 'bg-white/40 text-gray-800 border-white/50 shadow-lg hover:bg-white/60 hover:scale-105'
                 }`}
               >
-                <span className="text-lg">👤</span>
+                <span className="text-base sm:text-lg">👤</span>
               </Link>
-              <span className="text-[10px] text-white/90 mt-1 font-medium leading-tight">
+              <span className="text-[9px] sm:text-[10px] text-white/90 mt-1 font-medium leading-tight">
                 Login
               </span>
             </div>

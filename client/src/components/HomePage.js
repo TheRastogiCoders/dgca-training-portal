@@ -12,7 +12,7 @@ const HomePage = () => {
         <SiteSidebar />
 
         {/* Main Content */}
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-24 md:pb-8 md:ml-24 mobile-content-wrapper">
+        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-24 md:pb-8 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
           <div className="max-w-6xl mx-auto space-y-6 md:space-y-8">
             <MainHero />
           </div>
