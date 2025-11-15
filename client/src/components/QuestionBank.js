@@ -43,6 +43,7 @@ const QuestionBank = () => {
   const [selectedBookKey, setSelectedBookKey] = usePersistentState('questionBank:selectedBookKey', null);
   const [showComingSoonModal, setShowComingSoonModal] = useState(false);
   const [clickedChapter, setClickedChapter] = useState(null);
+  const [showBookComingSoonModal, setShowBookComingSoonModal] = useState(false);
 
   const subjects = [
     {
@@ -135,7 +136,7 @@ const QuestionBank = () => {
     {
       id: 1,
       title: "CAE Oxford",
-      description: "Comprehensive aviation knowledge & practice",
+      description: "CPL/ATPL Ground Training Series",
       icon: "📘",
       color: "from-blue-500 to-blue-600",
       slug: "cae-oxford"
@@ -143,7 +144,7 @@ const QuestionBank = () => {
     {
       id: 2,
       title: "RK Bali",
-      description: "DGCA-focused preparation materials",
+      description: "CPL/ATPL Ground Training Series",
       icon: "📗",
       color: "from-emerald-500 to-green-600",
       slug: "rk-bali"
@@ -151,7 +152,7 @@ const QuestionBank = () => {
     {
       id: 3,
       title: "IC Joshi",
-      description: "Advanced DGCA exam preparation",
+      description: "CPL/ATPL Ground Training Series",
       icon: "📖",
       color: "from-indigo-500 to-purple-600",
       slug: "ic-joshi"
@@ -163,7 +164,7 @@ const QuestionBank = () => {
     {
       id: 1,
       title: "Principles of Flight",
-      description: "Principles of Flight",
+      description: "CPL/ATPL Ground Training Series",
       icon: "🛫",
       color: "from-indigo-500 to-blue-600",
       slug: "principles-of-flight-2014",
@@ -190,7 +191,7 @@ const QuestionBank = () => {
     {
       id: 2,
       title: "Airframes and Systems",
-      description: "ATPL Ground Training Series",
+      description: "CPL/ATPL Ground Training Series",
       icon: "🛩️",
       color: "from-sky-500 to-cyan-600",
       slug: "airframes-and-systems",
@@ -218,7 +219,7 @@ const QuestionBank = () => {
     {
       id: 3,
       title: "Electrics and Electronics",
-      description: "ATPL Ground Training Series",
+      description: "CPL/ATPL Ground Training Series",
       icon: "🔌",
       color: "from-teal-500 to-emerald-600",
       slug: "electrics-and-electronics",
@@ -247,7 +248,7 @@ const QuestionBank = () => {
     {
       id: 4,
       title: "Powerplant",
-      description: "ATPL Ground Training Series",
+      description: "CPL/ATPL Ground Training Series",
       icon: "🔥",
       color: "from-orange-500 to-amber-600",
       slug: "powerplant",
@@ -289,7 +290,7 @@ const airNavigationOxfordBooks = [
   {
     id: 1,
     title: "Instrumentation",
-    description: "Advanced aircraft instruments & avionics monitoring",
+    description: "CPL/ATPL Ground Training Series",
     icon: "🛩️",
     color: "from-indigo-500 to-purple-500",
     slug: "instrument-2014",
@@ -340,7 +341,7 @@ const airNavigationOxfordBooks = [
   {
     id: 2,
     title: "Flight Planning & Monitoring",
-    description: "Navigation planning, fuel calculations, and flight watch",
+    description: "CPL/ATPL Ground Training Series",
     icon: "🗺️",
     color: "from-blue-500 to-cyan-500",
     slug: "cae-oxford-flight-planning-monitoring",
@@ -369,7 +370,7 @@ const airNavigationOxfordBooks = [
   {
     id: 3,
     title: "Mass and Balance and Performance",
-    description: "Aircraft performance, mass and balance calculations",
+    description: "CPL/ATPL Ground Training Series",
     icon: "📊",
     color: "from-purple-500 to-pink-500",
     slug: "performance",
@@ -390,7 +391,7 @@ const airRegulationsOxfordBooks = [
   {
     id: 1,
     title: "CAE Oxford",
-    description: "CAE Oxford Air Law - Comprehensive aviation regulations",
+    description: "CPL/ATPL Ground Training Series",
     icon: "📘",
     color: "from-blue-500 to-blue-600",
     slug: "oxford",
@@ -430,7 +431,7 @@ const radioTelephonyOxfordBooks = [
   {
     id: 1,
     title: "Radio Navigation Systems",
-    description: "CAE Oxford Radio Navigation & Communication Systems",
+    description: "CPL/ATPL Ground Training Series",
     icon: "📻",
     color: "from-cyan-500 to-blue-600",
     slug: "cae-oxford",
@@ -550,6 +551,11 @@ const radioTelephonyOxfordBooks = [
   };
 
   const handleBookClick = (book) => {
+    // Check if RK Bali is clicked
+    if (book.title === 'RK Bali') {
+      setShowBookComingSoonModal(true);
+      return;
+    }
     setSelectedBookKey(book.slug);
   };
 
@@ -673,9 +679,6 @@ const radioTelephonyOxfordBooks = [
                           <p className="text-gray-600 mb-4 text-sm leading-relaxed">
                             {subject.description}
                           </p>
-                      <p className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-4">
-                        CPL/ATPL Ground Training Series
-                      </p>
                           <div className="flex items-center justify-center text-sm">
                             <span className="text-blue-600 font-semibold inline-flex items-center">
                               Start now
@@ -750,15 +753,10 @@ const radioTelephonyOxfordBooks = [
                             {book.icon}
                           </div>
                           <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
-                            {selectedSubject.title === 'Air Regulations' && (book.slug === 'cae-oxford' || book.slug === 'oxford')
-                              ? 'CAE Oxford'
-                              : book.title}
+                            {book.title}
                           </h3>
                           <p className="text-gray-600 mb-4 text-base leading-relaxed">
                             {book.description}
-                          </p>
-                          <p className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-6">
-                            CPL/ATPL Ground Training Series
                           </p>
                           <div className="flex items-center justify-center">
                             <div className={`flex items-center px-6 py-3 bg-gradient-to-r ${book.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform group-hover:scale-105`}>
@@ -804,9 +802,7 @@ const radioTelephonyOxfordBooks = [
                       </div>
                       <div className="text-left">
                         <h3 className="text-lg font-bold text-gray-900">
-                          {selectedSubject.title === 'Air Regulations' && (selectedBookKey === 'cae-oxford' || selectedBookKey === 'oxford')
-                            ? 'CAE Oxford'
-                            : resolveSelectedBook.title}
+                          {resolveSelectedBook.title}
                         </h3>
                         <p className="text-sm text-gray-600">{resolveSelectedBook.description}</p>
                       </div>
@@ -834,12 +830,6 @@ const radioTelephonyOxfordBooks = [
                           <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                             {book.title}
                           </h3>
-                          <p className="text-gray-600 mb-4 text-base leading-relaxed">
-                            {book.description}
-                          </p>
-                          <p className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-6">
-                            CPL/ATPL Ground Training Series
-                          </p>
                           <div className="flex items-center justify-center">
                             <div className={`flex items-center px-6 py-3 bg-gradient-to-r ${book.color} text-white font-semibold rounded-lg`}>
                               <span className="mr-2">{book.icon}</span>
@@ -865,12 +855,6 @@ const radioTelephonyOxfordBooks = [
                           <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                             {book.title}
                           </h3>
-                          <p className="text-gray-600 mb-4 text-base leading-relaxed">
-                            {book.description}
-                          </p>
-                          <p className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-6">
-                            CPL/ATPL Ground Training Series
-                          </p>
                           <div className="flex items-center justify-center">
                             <div className={`flex items-center px-6 py-3 bg-gradient-to-r ${book.color} text-white font-semibold rounded-lg`}>
                               <span className="mr-2">{book.icon}</span>
@@ -977,6 +961,38 @@ const radioTelephonyOxfordBooks = [
         <div className="py-4">
           <p className="text-gray-700">
             This chapter does not include questions. Would you like to view the next chapter?
+          </p>
+        </div>
+      </Modal>
+
+      {/* RK Bali Coming Soon Modal */}
+      <Modal
+        open={showBookComingSoonModal}
+        onClose={() => setShowBookComingSoonModal(false)}
+        title="Coming Soon"
+        footer={
+          <button
+            onClick={() => setShowBookComingSoonModal(false)}
+            className="px-6 py-2 bg-gradient-to-r from-emerald-500 to-green-600 text-white rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-105 font-medium"
+          >
+            OK, I'll Select Another Book
+          </button>
+        }
+      >
+        <div className="py-4">
+          <div className="text-center mb-4">
+            <div className="w-16 h-16 bg-gradient-to-r from-emerald-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">RK Bali Book Coming Soon</h3>
+          </div>
+          <p className="text-gray-700 text-center mb-4">
+            The RK Bali book is currently under development and will be available soon.
+          </p>
+          <p className="text-gray-600 text-center text-sm">
+            Please select another book to continue your practice.
           </p>
         </div>
       </Modal>

@@ -18,6 +18,7 @@ const bookRoutes = require('./routes/books');
 const questionRoutes = require('./routes/questions');
 const resultRoutes = require('./routes/results');
 const noteRoutes = require('./routes/notes');
+const reportRoutes = require('./routes/reports');
 const aiRoutes = require('./routes/ai');
 const adminRoutes = require('./routes/admin');
 const Log = require('./models/Log');
@@ -131,6 +132,7 @@ app.use('/api/books', bookRoutes);
 app.use('/api/questions', questionRoutes);
 app.use('/api/results', resultRoutes);
 app.use('/api/notes', noteRoutes);
+app.use('/api/reports', reportRoutes);
 app.use('/api/ai', aiLimiter, aiRoutes);
 app.use('/api/admin', adminRoutes);
 

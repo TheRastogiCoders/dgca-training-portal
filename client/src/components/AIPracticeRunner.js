@@ -3,6 +3,7 @@ import { Link, useParams, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
+import Modal from './ui/Modal';
 
 const friendly = (slug) => (slug || '')
   .split('-')
@@ -31,6 +32,11 @@ const AIPracticeRunner = () => {
   const [score, setScore] = useState(0);
   const [streak, setStreak] = useState(0);
   const [maxStreak, setMaxStreak] = useState(0);
+  const [showReportModal, setShowReportModal] = useState(false);
+  const [reportType, setReportType] = useState('');
+  const [reportComment, setReportComment] = useState('');
+  const [isSubmittingReport, setIsSubmittingReport] = useState(false);
+  const [reportSubmitted, setReportSubmitted] = useState(false);
   
   const timerRef = useRef(null);
   const questionStartTime = useRef(null);
@@ -216,6 +222,74 @@ const AIPracticeRunner = () => {
     
     // Do not regenerate any sample questions
     setQuestions([]);
+  };
+
+  const handleReportClick = () => {
+    setShowReportModal(true);
+    setReportType('');
+    setReportComment('');
+    setReportSubmitted(false);
+  };
+
+  const handleReportClose = () => {
+    setShowReportModal(false);
+    setReportType('');
+    setReportComment('');
+    setReportSubmitted(false);
+  };
+
+  const handleReportSubmit = async () => {
+    // Validation
+    if (!reportType) {
+      return;
+    }
+    if (reportType === 'Other' && !reportComment.trim()) {
+      return;
+    }
+
+    setIsSubmittingReport(true);
+    
+    try {
+      const currentQuestion = questions[current];
+      if (!currentQuestion) {
+        throw new Error('Question not found');
+      }
+      
+      // Format the report details for Gmail compose
+      const supportEmail = 'contactvimaanna@gmail.com';
+      const subject = `Question Report: ${reportType}`;
+      
+      let body = `Report Type: ${reportType}\n\n`;
+      body += `Question: ${current + 1} of ${practiceSettings.questionCount}\n`;
+      body += `Subject: ${subjectName}\n`;
+      if (bookName) {
+        body += `Book: ${bookName}\n`;
+      }
+      if (chapterName) {
+        body += `Chapter: ${chapterName}\n`;
+      }
+      body += `\nQuestion Text:\n${currentQuestion.text}\n\n`;
+      
+      if (reportComment.trim()) {
+        body += `Additional Details:\n${reportComment.trim()}\n\n`;
+      }
+      
+      body += `---\nReported from: ${window.location.href}`;
+      
+      // Open Gmail compose window
+      const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(supportEmail)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.open(gmailUrl, '_blank');
+      
+      // Show success message
+      setReportSubmitted(true);
+      setTimeout(() => {
+        handleReportClose();
+      }, 2000);
+    } catch (error) {
+      console.error('Error preparing report:', error);
+      alert('Failed to prepare report. Please try again.');
+      setIsSubmittingReport(false);
+    }
   };
 
   const getScorePercentage = () => {
@@ -474,9 +548,21 @@ const AIPracticeRunner = () => {
                   )}
                 </div>
                 
-                <h2 className="text-xl font-semibold text-gray-900 leading-relaxed">
-                  {currentQuestion.text}
-                </h2>
+                <div className="flex items-start justify-between gap-4">
+                  <h2 className="text-xl font-semibold text-gray-900 leading-relaxed flex-1">
+                    {currentQuestion.text}
+                  </h2>
+                  <button
+                    onClick={handleReportClick}
+                    className="flex-shrink-0 px-3 py-1.5 text-xs font-medium text-gray-600 hover:text-red-600 hover:bg-red-50 border border-gray-300 hover:border-red-300 rounded-lg transition-all duration-200 flex items-center gap-1.5"
+                    title="Report an issue with this question"
+                  >
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                    </svg>
+                    Report
+                  </button>
+                </div>
               </div>
               
                 <div className="p-6">
@@ -551,6 +637,99 @@ const AIPracticeRunner = () => {
           </div>
         </main>
       </div>
+
+      {/* Report Modal */}
+      <Modal
+        open={showReportModal}
+        onClose={handleReportClose}
+        title="Report an Issue"
+        footer={
+          <>
+            <button
+              onClick={handleReportClose}
+              className="px-4 py-2 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors font-medium"
+            >
+              Cancel
+            </button>
+            <button
+              onClick={handleReportSubmit}
+              disabled={!reportType || (reportType === 'Other' && !reportComment.trim()) || isSubmittingReport || reportSubmitted}
+              className={`px-6 py-2 rounded-lg font-medium transition-all duration-200 ${
+                !reportType || (reportType === 'Other' && !reportComment.trim()) || isSubmittingReport || reportSubmitted
+                  ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                  : 'bg-blue-600 hover:bg-blue-700 text-white hover:shadow-lg transform hover:scale-105'
+              }`}
+            >
+              {isSubmittingReport ? 'Submitting...' : reportSubmitted ? 'Submitted!' : 'Submit Report'}
+            </button>
+          </>
+        }
+      >
+        <div className="py-4">
+          {reportSubmitted ? (
+            <div className="text-center py-4">
+              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <p className="text-gray-700 font-medium">Opening Gmail...</p>
+              <p className="text-sm text-gray-600 mt-2">Your report has been prepared. A Gmail compose window will open. Please send the email to submit your report.</p>
+            </div>
+          ) : (
+            <>
+              <p className="text-gray-600 mb-6 text-sm">
+                Help us improve by reporting any issues with this question. Please select the type of issue:
+              </p>
+              
+              <div className="space-y-3 mb-6">
+                {['Wrong Answer', 'Incorrect Question', 'Formatting Issue', 'Missing Data', 'Other'].map((type) => (
+                  <label
+                    key={type}
+                    className={`flex items-center p-4 border-2 rounded-lg cursor-pointer transition-all duration-200 ${
+                      reportType === type
+                        ? 'border-blue-500 bg-blue-50'
+                        : 'border-gray-200 bg-white hover:border-gray-300 hover:bg-gray-50'
+                    }`}
+                  >
+                    <input
+                      type="radio"
+                      name="reportType"
+                      value={type}
+                      checked={reportType === type}
+                      onChange={(e) => setReportType(e.target.value)}
+                      className="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500 focus:ring-2"
+                    />
+                    <span className="ml-3 text-gray-900 font-medium">{type}</span>
+                  </label>
+                ))}
+              </div>
+
+              {reportType === 'Other' && (
+                <div className="mb-4 transition-all duration-300">
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Please provide details:
+                  </label>
+                  <textarea
+                    value={reportComment}
+                    onChange={(e) => setReportComment(e.target.value)}
+                    placeholder="Describe the issue..."
+                    rows={4}
+                    className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 resize-none"
+                  />
+                  {reportType === 'Other' && !reportComment.trim() && (
+                    <p className="mt-1 text-xs text-red-600">Please provide details when selecting "Other"</p>
+                  )}
+                </div>
+              )}
+
+              {!reportType && (
+                <p className="text-xs text-red-600 mb-4">Please select an issue type</p>
+              )}
+            </>
+          )}
+        </div>
+      </Modal>
     </div>
   );
 };

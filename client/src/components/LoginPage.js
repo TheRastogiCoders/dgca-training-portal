@@ -463,7 +463,7 @@ const LoginPage = () => {
                     </p>
                     <div className="flex justify-center space-x-4">
                       <span className="text-gray-300">•</span>
-                      <a href="mailto:support@vimaanna.com" className="text-sm text-blue-600 hover:text-blue-700 font-medium">
+                      <a href="mailto:contactvimaanna@gmail.com" className="text-sm text-blue-600 hover:text-blue-700 font-medium">
                         Contact Support
                       </a>
                     </div>
@@ -480,7 +480,7 @@ const LoginPage = () => {
                       </button>
                     </p>
                     <div className="flex justify-center space-x-4">
-                      <a href="mailto:support@vimaanna.com" className="text-sm text-blue-600 hover:text-blue-700 font-medium">
+                      <a href="mailto:contactvimaanna@gmail.com" className="text-sm text-blue-600 hover:text-blue-700 font-medium">
                         Contact Support
                       </a>
                       <span className="text-gray-300">•</span>

@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
+import Modal from './ui/Modal';
 import { API_ENDPOINTS } from '../config/api';
 
 const friendly = (slug) => (slug || '')
@@ -20,6 +21,11 @@ const BookPracticeRunner = () => {
   const [done, setDone] = useState(false);
   const [score, setScore] = useState(0);
   const [showCloseConfirm, setShowCloseConfirm] = useState(false);
+  const [showReportModal, setShowReportModal] = useState(false);
+  const [reportType, setReportType] = useState('');
+  const [reportComment, setReportComment] = useState('');
+  const [isSubmittingReport, setIsSubmittingReport] = useState(false);
+  const [reportSubmitted, setReportSubmitted] = useState(false);
   const startTimeRef = useRef(Date.now());
 
   const bookName = useMemo(() => {
@@ -27,7 +33,10 @@ const BookPracticeRunner = () => {
     if (bookSlug === 'oxford') {
       return 'Air Law';
     }
-    return friendly(bookSlug);
+    let name = friendly(bookSlug);
+    // Remove "2014" from the book name
+    name = name.replace(/\s*2014\s*/gi, ' ').trim();
+    return name;
   }, [bookSlug]);
   const storageKey = useMemo(
     () => `bookPractice:${bookSlug}:${chapterSlug || 'all'}`,
@@ -121,6 +130,7 @@ const BookPracticeRunner = () => {
           text: q.question || q.text,
           options: (q.options || []).map(o => o.text || o),
           correctLabel: q.answer,
+          explanation: q.explanation || q.solution || '',
         }));
         setQuestions(normalized);
         restoreState(normalized);
@@ -190,6 +200,71 @@ const BookPracticeRunner = () => {
 
   const cancelClose = () => {
     setShowCloseConfirm(false);
+  };
+
+  const handleReportClick = () => {
+    setShowReportModal(true);
+    setReportType('');
+    setReportComment('');
+    setReportSubmitted(false);
+  };
+
+  const handleReportClose = () => {
+    setShowReportModal(false);
+    setReportType('');
+    setReportComment('');
+    setReportSubmitted(false);
+  };
+
+  const handleReportSubmit = async () => {
+    // Validation
+    if (!reportType) {
+      return;
+    }
+    if (reportType === 'Other' && !reportComment.trim()) {
+      return;
+    }
+
+    setIsSubmittingReport(true);
+    
+    try {
+      const currentQuestion = questions[current];
+      if (!currentQuestion) {
+        throw new Error('Question not found');
+      }
+      
+      // Format the report details for Gmail compose
+      const supportEmail = 'contactvimaanna@gmail.com';
+      const subject = `Question Report: ${reportType}`;
+      
+      let body = `Report Type: ${reportType}\n\n`;
+      body += `Question ID: ${currentQuestion.id || `Question ${current + 1}`}\n`;
+      body += `Book: ${bookName}\n`;
+      if (chapterSlug) {
+        body += `Chapter: ${friendly(chapterSlug)}\n`;
+      }
+      body += `\nQuestion Text:\n${currentQuestion.text}\n\n`;
+      
+      if (reportComment.trim()) {
+        body += `Additional Details:\n${reportComment.trim()}\n\n`;
+      }
+      
+      body += `---\nReported from: ${window.location.href}`;
+      
+      // Open Gmail compose window
+      const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(supportEmail)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.open(gmailUrl, '_blank');
+      
+      // Show success message
+      setReportSubmitted(true);
+      setTimeout(() => {
+        handleReportClose();
+      }, 2000);
+    } catch (error) {
+      console.error('Error preparing report:', error);
+      alert('Failed to prepare report. Please try again.');
+      setIsSubmittingReport(false);
+    }
   };
 
   if (loading) {
@@ -308,7 +383,19 @@ const BookPracticeRunner = () => {
 
             <Card className="p-0 rounded-3xl overflow-hidden shadow-xl">
               <div className="p-5 sm:p-6 border-b border-gray-100 bg-white/80">
-                <h2 className="text-lg sm:text-xl font-semibold text-gray-900 leading-relaxed whitespace-pre-line">{q.text}</h2>
+                <div className="flex items-start justify-between gap-4">
+                  <h2 className="text-lg sm:text-xl font-semibold text-gray-900 leading-relaxed whitespace-pre-line flex-1">{q.text}</h2>
+                  <button
+                    onClick={handleReportClick}
+                    className="flex-shrink-0 px-3 py-1.5 text-xs font-medium text-gray-600 hover:text-red-600 hover:bg-red-50 border border-gray-300 hover:border-red-300 rounded-lg transition-all duration-200 flex items-center gap-1.5"
+                    title="Report an issue with this question"
+                  >
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                    </svg>
+                    Report
+                  </button>
+                </div>
               </div>
               <div className="p-5 sm:p-6 space-y-3">
                 {q.options.map((opt, idx) => {
@@ -333,6 +420,44 @@ const BookPracticeRunner = () => {
                     </button>
                   );
                 })}
+                
+                {/* Explanation Box - appears after answer is selected */}
+                {selected !== null && q.explanation && (
+                  <div className="mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
+                    <div className="flex items-start">
+                      <div className="flex-shrink-0">
+                        {(() => {
+                          const correct = String(q.correctLabel).toLowerCase();
+                          const chosen = ['a','b','c','d','e','f'][selected];
+                          const isCorrect = chosen === correct;
+                          return isCorrect ? (
+                            <svg className="w-5 h-5 text-green-600 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                          ) : (
+                            <svg className="w-5 h-5 text-red-600 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                          );
+                        })()}
+                      </div>
+                      <div className="ml-3 flex-1">
+                        <h4 className="text-sm font-semibold text-gray-900 mb-1">
+                          {(() => {
+                            const correct = String(q.correctLabel).toLowerCase();
+                            const chosen = ['a','b','c','d','e','f'][selected];
+                            const isCorrect = chosen === correct;
+                            return isCorrect ? 'Correct!' : 'Explanation:';
+                          })()}
+                        </h4>
+                        <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-line">
+                          {q.explanation}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                )}
+                
                 {selected !== null && (
                   <div className="pt-4 text-center">
                     <button onClick={next} className="w-full sm:w-auto px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg shadow-md">
@@ -371,6 +496,99 @@ const BookPracticeRunner = () => {
           </div>
         </div>
       )}
+
+      {/* Report Modal */}
+      <Modal
+        open={showReportModal}
+        onClose={handleReportClose}
+        title="Report an Issue"
+        footer={
+          <>
+            <button
+              onClick={handleReportClose}
+              className="px-4 py-2 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors font-medium"
+            >
+              Cancel
+            </button>
+            <button
+              onClick={handleReportSubmit}
+              disabled={!reportType || (reportType === 'Other' && !reportComment.trim()) || isSubmittingReport || reportSubmitted}
+              className={`px-6 py-2 rounded-lg font-medium transition-all duration-200 ${
+                !reportType || (reportType === 'Other' && !reportComment.trim()) || isSubmittingReport || reportSubmitted
+                  ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                  : 'bg-blue-600 hover:bg-blue-700 text-white hover:shadow-lg transform hover:scale-105'
+              }`}
+            >
+              {isSubmittingReport ? 'Submitting...' : reportSubmitted ? 'Submitted!' : 'Submit Report'}
+            </button>
+          </>
+        }
+      >
+        <div className="py-4">
+          {reportSubmitted ? (
+            <div className="text-center py-4">
+              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <p className="text-gray-700 font-medium">Opening Gmail...</p>
+              <p className="text-sm text-gray-600 mt-2">Your report has been prepared. A Gmail compose window will open. Please send the email to submit your report.</p>
+            </div>
+          ) : (
+            <>
+              <p className="text-gray-600 mb-6 text-sm">
+                Help us improve by reporting any issues with this question. Please select the type of issue:
+              </p>
+              
+              <div className="space-y-3 mb-6">
+                {['Wrong Answer', 'Incorrect Question', 'Formatting Issue', 'Missing Data', 'Other'].map((type) => (
+                  <label
+                    key={type}
+                    className={`flex items-center p-4 border-2 rounded-lg cursor-pointer transition-all duration-200 ${
+                      reportType === type
+                        ? 'border-blue-500 bg-blue-50'
+                        : 'border-gray-200 bg-white hover:border-gray-300 hover:bg-gray-50'
+                    }`}
+                  >
+                    <input
+                      type="radio"
+                      name="reportType"
+                      value={type}
+                      checked={reportType === type}
+                      onChange={(e) => setReportType(e.target.value)}
+                      className="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500 focus:ring-2"
+                    />
+                    <span className="ml-3 text-gray-900 font-medium">{type}</span>
+                  </label>
+                ))}
+              </div>
+
+              {reportType === 'Other' && (
+                <div className="mb-4 transition-all duration-300">
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Please provide details:
+                  </label>
+                  <textarea
+                    value={reportComment}
+                    onChange={(e) => setReportComment(e.target.value)}
+                    placeholder="Describe the issue..."
+                    rows={4}
+                    className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 resize-none"
+                  />
+                  {reportType === 'Other' && !reportComment.trim() && (
+                    <p className="mt-1 text-xs text-red-600">Please provide details when selecting "Other"</p>
+                  )}
+                </div>
+              )}
+
+              {!reportType && (
+                <p className="text-xs text-red-600 mb-4">Please select an issue type</p>
+              )}
+            </>
+          )}
+        </div>
+      </Modal>
     </div>
   );
 };

@@ -17,7 +17,7 @@ function ContactSupport() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    const supportEmail = 'support@vimaanna.com';
+    const supportEmail = 'contactvimaanna@gmail.com';
     const mailtoUrl = `mailto:${supportEmail}?subject=${encodeURIComponent(subject || 'Support request')}&body=${encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
     )}`;
@@ -223,7 +223,7 @@ function ContactSupport() {
                       </div>
                       <div>
                         <p className="text-sm font-semibold text-gray-700">Email</p>
-                        <a href="mailto:support@vimaanna.com" className="text-sm text-blue-600 hover:underline">support@vimaanna.com</a>
+                        <a href="mailto:contactvimaanna@gmail.com" className="text-sm text-blue-600 hover:underline">contactvimaanna@gmail.com</a>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
