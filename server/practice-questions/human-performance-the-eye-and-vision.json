@@ -1,0 +1,328 @@
+{
+  "book_name": "CAE Oxford Human Performance and Limitations",
+  "chapter_number": "5",
+  "chapter_title": "The Eye and Vision",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What part of the eye bends the most light?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The cornea",
+        "b. The lens",
+        "c. The pupil",
+        "d. The retina"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "Which part of the eye has the best visual acuity?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The retina",
+        "b. The fovea",
+        "c. The lens",
+        "d. The cornea"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "The resolving power of the fovea decreases rapidly at only ........... from its centre.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5°",
+        "b. 13° to 16°",
+        "c. 3°",
+        "d. 2° to 3°"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "What is \"empty field myopia\"?",
+      "question_type": "MCQ",
+      "options": [
+        "a. It is a term used when the eye, if it has nothing on which to focus will tend to focus at infinity",
+        "b. It is a term used when the eye, if it has nothing on which to focus will tend to focus between 4 to 6 metres",
+        "c. It is a term used when the eye, if it has nothing on which to focus will tend to focus between 10 to 12 metres",
+        "d. It is a term used when the eye, if it has nothing on which to focus will tend to focus between just under 1 to 1.5 metres"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "What causes long or short sightedness?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Presbyopia",
+        "b. Astigmatism",
+        "c. Distortion of the eyeball",
+        "d. Distortion of the cornea"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "Is a pilot allowed to fly wearing bifocal contact lenses?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Yes",
+        "b. Yes, if cleared to do so by a qualified aviation specialist",
+        "c. Yes, if cleared to do so by the authority",
+        "d. No"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "What part of the spectrum should sunglasses filter out?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The red and UV end of the spectrum",
+        "b. The blue and UV end of the spectrum",
+        "c. All high intensity light",
+        "d. UV only"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "What four factors affect night vision?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Age, alcohol, altitude and smoking",
+        "b. Instrument lights, alcohol, altitude and smoking",
+        "c. Age, alcohol, altitude and instrument lights",
+        "d. Age, altitude, instrument lights and smoking"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "Cones detect ........... and are mostly concentrated at the ...........",
+      "question_type": "MCQ",
+      "options": [
+        "a. black and white fovea",
+        "b. colour fovea",
+        "c. black and white retina",
+        "d. colour entry point"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "What is the recommended course of action if encountering an electrical storm during flight?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Pull the visors down",
+        "b. Turn the cockpit lights down",
+        "c. Turn the cockpit lights to full",
+        "d. Put on sunglasses if available"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "Where is the \"blind spot\"?",
+      "question_type": "MCQ",
+      "options": [
+        "a. On the iris",
+        "b. On the fovea",
+        "c. On the edge of the lens",
+        "d. At the entrance to the optic nerve"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "Peripheral vision is looked after by the:",
+      "question_type": "MCQ",
+      "options": [
+        "a. rods",
+        "b. cones",
+        "c. rods and cones",
+        "d. fovea"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Does lack of oxygen affect sight?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Yes",
+        "b. No",
+        "c. Sometimes",
+        "d. It depends on the health of the individual"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "The amount of light allowed to enter the eye is controlled by the:",
+      "question_type": "MCQ",
+      "options": [
+        "a. cornea",
+        "b. retina",
+        "c. iris",
+        "d. fovea"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "Accommodation is controlled by the:",
+      "question_type": "MCQ",
+      "options": [
+        "a. ciliary muscles",
+        "b. iris",
+        "c. lens",
+        "d. cornea"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "The maximum number of rods are found ........... from the fovea.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10°",
+        "b. 20°",
+        "c. 15°",
+        "d. 30°"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "Dark adaption takes about ........... for the rods and ........... for the cones.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 30 minutes 7 minutes",
+        "b. 7 minutes 30 minutes",
+        "c. 15 minutes 20 minutes",
+        "d. 25 minutes 45 minutes"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "Stereopsis is associated with:",
+      "question_type": "MCQ",
+      "options": [
+        "a. night flying",
+        "b. depth perception",
+        "c. acuity",
+        "d. colour blindness"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "Hypermetropia is caused by a ........... eyeball and is corrected by a ........... lens.",
+      "question_type": "MCQ",
+      "options": [
+        "a. elongated convex",
+        "b. shortened concave",
+        "c. shortened convex",
+        "d. elongated concave"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "Astigmatism is normally associated with the:",
+      "question_type": "MCQ",
+      "options": [
+        "a. retina",
+        "b. fovea",
+        "c. iris",
+        "d. cornea"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "Glaucoma is caused by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. an increase in the pressure of the eye",
+        "b. a decrease in the pressure of the eye",
+        "c. a defect of the cornea",
+        "d. a defect of the retina."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "Cataracts are associated with the:",
+      "question_type": "MCQ",
+      "options": [
+        "a. retina",
+        "b. tear ducts",
+        "c. iris",
+        "d. lens"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "Does colour blindness affect acuity?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Yes",
+        "b. No"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

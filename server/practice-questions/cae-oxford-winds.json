@@ -1,0 +1,498 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 10,
+  "chapter_title": "Winds",
+  "questions": [
+    {
+      "id": "1",
+      "question": "In central Europe, where are the greatest wind speeds?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Tropopause level",
+        "b. 5500 m",
+        "c. Where the air converges",
+        "d. Above the Alps"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "Standing in the Northern Hemisphere, north of a polar frontal depression travelling west to east, the wind will:",
+      "question_type": "MCQ",
+      "options": [
+        "a. continually veer",
+        "b. continually back",
+        "c. back then veer",
+        "d. veer then back"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "ATC will only report wind as gusting if:",
+      "question_type": "MCQ",
+      "options": [
+        "a. gust speeds exceeds mean speed by >15 kt",
+        "b. gusts to over 25 kt",
+        "c. gusts exceeds mean speed by 10 kt",
+        "d. gusts to over 25 kt"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "What is a land breeze?",
+      "question_type": "MCQ",
+      "options": [
+        "a. From land over water at night",
+        "b. From land over sea by day",
+        "c. From sea over land by night",
+        "d. From sea over land by day"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "When heading south in the Southern Hemisphere you experience starboard drift:",
+      "question_type": "MCQ",
+      "options": [
+        "a. you are flying towards a lower temperature",
+        "b. you are flying away from a lower temperature",
+        "c. you are flying towards a low pressure",
+        "d. you are flying out of a high"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "What are the factors affecting the geostrophic wind?",
+      "question_type": "MCQ",
+      "options": [
+        "a. PGF, , θ, Ω",
+        "b. ρ, θ, Ω",
+        "c. ρ, θ, PGF",
+        "d. ρ, PGF, Ω"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "What is the Bora?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Cold katabatic wind over the Adriatic",
+        "b. Northerly wind blowing from the Mediterranean",
+        "c. Warm anabatic wind blowing to the Mediterranean",
+        "d. An anabatic wind in the Rockies"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Flying away from an area of low pressure in the Southern Hemisphere at low altitudes, where is the wind coming from?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Right and slightly on the nose",
+        "b. Left and slightly on the tail",
+        "c. Left and slightly on the nose",
+        "d. Right and slightly on the tail"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "What causes the geostrophic wind to be stronger than the gradient wind around a low?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Centrifugal force adds to the gradient force",
+        "b. Centrifugal force opposes the gradient force",
+        "c. Coriolis force adds to the gradient force",
+        "d. Coriolis force opposes the centrifugal force"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "A METAR for Paris gave the surface wind at $260/20.$ Wind at 2000 ft is most likely to be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. $260/15$",
+        "b. $210/30$",
+        "c. $290/40$",
+        "d. $175/15$"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "A large pressure gradient is shown by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. closely spaced isobars - low temperature",
+        "b. distant spaced isobars - high temperature",
+        "c. close spaced isobars - strong winds",
+        "d. close spaced isobars - light winds"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "Where would you expect to find the strongest wind on the ground in temperate latitudes?",
+      "question_type": "MCQ",
+      "options": [
+        "a. In an area of Low pressure",
+        "b. In an area of High pressure",
+        "c. In the warm air between two fronts",
+        "d. In a weak anticyclone"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "At a coastal airfield, with the runway parallel to the coastline, you are downwind over the sea with the runway to your right. On a warm summer afternoon, what would you expect the wind to be on finals?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Crosswind from the right",
+        "b. Crosswind from the left",
+        "c. Headwind",
+        "d. Tailwind"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "What causes wind at low levels?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Difference in pressure",
+        "b. Rotation of the earth",
+        "c. Frontal systems",
+        "d. Difference in temperature"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "If flying in the Alps with a Föhn effect from the south:",
+      "question_type": "MCQ",
+      "options": [
+        "a. clouds will be covering the southern passes of the Alps",
+        "b. CAT on the northern side",
+        "c. wind veering and gusting on the northern side",
+        "d. convective weather on the southern passes of the Alps"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "Comparing the surface wind to the 3000 ft wind:",
+      "question_type": "MCQ",
+      "options": [
+        "a. surface wind veers and is less then the 3000 ft wind",
+        "b. surface wind blows along the isobars and is less than the 3000 ft wind",
+        "c. surface wind blows across the isobars and is less than the 3000 ft wind",
+        "d. both are the same"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "$90~km/h$ wind in kt is approximately:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 70",
+        "b. 60",
+        "c. 50",
+        "d. 30"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "The geostrophic wind blows at your flight level in Northern Hemisphere and the true altitude and indicated altitude remain constant. The crosswind is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. from the left",
+        "b. from the right",
+        "c. no crosswind",
+        "d. impossible to determine"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "With all other things being equal with a high and a low having constantly spaced circular isobars, where is the wind the fastest?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Anticyclonic",
+        "b. Cyclonic",
+        "c. Where the isobars are closest together",
+        "d. Wherever the PGF is greatest"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "Föhn winds are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. warm katabatic",
+        "b. cold katabatic",
+        "c. warm descending winds",
+        "d. warm anabatic"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "What is the effect of a mountain valley wind?",
+      "question_type": "MCQ",
+      "options": [
+        "a. It blows down a mountain to a valley at night",
+        "b. It blows down a mountain to a valley during the day",
+        "c. It blows from a valley up a mountain by day",
+        "d. It blows from a valley up a mountain at night"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "What is the difference between gradient and geostrophic winds?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Difference in temperatures",
+        "b. A lot of friction",
+        "c. Curved isobars and straight isobars",
+        "d. Different latitudes and densities"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "What prevents air from flowing directly from a high to a low pressure?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Centripetal force",
+        "b. Centrifugal force",
+        "c. Pressure force",
+        "d. Coriolis force"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "24",
+      "question": "What is the relationship between the 5000 ft wind and the surface wind in the Southern Hemisphere?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Surface winds are veered from the 5000 ft and have the same speed",
+        "b. Surface winds are backed from the 5000 ft and have a slower speed",
+        "c. Surface winds are veered from the 5000 ft and have a slower speed",
+        "d. Surface winds are backed from the 5000 ft and have a faster speed"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "25",
+      "question": "What is the relationship between the 2000 ft wind and the surface wind in the Northern Hemisphere?",
+      "question_type": "MCQ",
+      "options": [
+        "a. surface winds blow across isobars towards a high",
+        "b. surface winds blow parallel to isobars",
+        "c. surface winds blow across isobars towards a low",
+        "d. surface winds have laminar flow"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "26",
+      "question": "Wind is caused by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. mixing of fronts",
+        "b. horizontal pressure difference",
+        "c. earth rotation",
+        "d. surface friction"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "27",
+      "question": "For the same pressure gradient at 50N, 60N and 40N, the geostrophic wind speed is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. greatest at 60N",
+        "b. least at 50N",
+        "c. greatest at 40N",
+        "d. the same at all latitudes"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "28",
+      "question": "The wind in the Northern Hemisphere at the surface and above the friction layer at 2000 ft would be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. veered at the surface, veered above the friction layer",
+        "b. backed at the surface, veered above the friction layer",
+        "c. veered at the surface, backed above the friction layer",
+        "d. backed at the surface, backed above the friction layer"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "29",
+      "question": "Where are easterly and westerly jets found?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Northern Hemisphere only",
+        "b. Southern Hemisphere only",
+        "c. Northern and southern Hemisphere",
+        "d. There are no easterly jets"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "30",
+      "question": "In high pressure systems:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the winds tend to be stronger in the morning",
+        "b. the angle between the isobars and the wind direction is greatest in the afternoon",
+        "c. the winds tend to be stronger at night",
+        "d. the winds tend to be stronger in early afternoon"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "31",
+      "question": "An aircraft is flying East to West in the Northern Hemisphere. What is happening to its altitude?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Flying into a headwind will decrease altitude",
+        "b. If the wind is from the south, it will gain altitude",
+        "c. If the wind is from the north, it will gain altitude",
+        "d. Tailwind will increase altitude"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "32",
+      "question": "Where would an anemometer be placed?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Close to station, 2 m above ground",
+        "b. On the roof of the station",
+        "c. 10 m above aerodrome elevation on a mast",
+        "d. Next to the runway, 1 m above ground"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "33",
+      "question": "Which of the following is an example of a Föhn wind?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Bora",
+        "b. Harmattan",
+        "c. Chinook",
+        "d. Ghibli"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "34",
+      "question": "Wind at altitude is usually given as ______ in ______.",
+      "question_type": "MCQ",
+      "options": [
+        "a. true, $m/s$",
+        "b. magnetic, $m/s$",
+        "c. true, kt",
+        "d. magnetic, kt"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "35",
+      "question": "If you fly with left drift in the Northern Hemisphere, what is happening to surface pressure?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Increases",
+        "b. Decreases",
+        "c. Stays the same",
+        "d. Cannot tell"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    }
+  ]
+}
+

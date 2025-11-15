@@ -1,0 +1,288 @@
+{
+  "book_name": "CAE Oxford Human Performance and Limitations",
+  "chapter_number": "14",
+  "chapter_title": "Man and Machine",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A pilot is reading a checklist. In what way is this reference to the SHELL Concept ?",
+      "question_type": "MCQ",
+      "options": [
+        "a. S-L",
+        "b. H-L",
+        "c. L-S",
+        "d. H-E"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "What percentage of the appropriate population are anthropometric data table measurements taken from?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 80%, i.e. the tenth to the ninetieth percentile, using contour, dynamic and static data",
+        "b. 90%, i.e. the fifth to the ninety-fifth percentile, using contour, dynamic and static data",
+        "c. 50%, i.e. the twenty-fifth to the seventy-fifth percentile, using contour, dynamic and static data",
+        "d. None of the above"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "What is the most common checklist error?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Action slip",
+        "b. Too many capital letters are used",
+        "c. Responded to automatically",
+        "d. Missing items"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "What is the purpose of the lumbar support?",
+      "question_type": "MCQ",
+      "options": [
+        "a. To allow the most comfortable position for the spine and higher neck bones",
+        "b. To allow the most comfortable position for the spine and shoulder bones",
+        "c. To allow the most comfortable position for the spine",
+        "d. To produce an even pressure of the discs by allowing the lower spine to curve naturally"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "What are the essential characteristics of a cockpit warning?",
+      "question_type": "MCQ",
+      "options": [
+        "a. It should have the best attention-getting qualities as possible",
+        "b. It should be attention-getting but not alarming",
+        "c. It should have attention-getting qualities which do not compromise a clear indiction to the pilot of the faulty component/system",
+        "d. Must not dazzle or possibly compromise the crew's night vision"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "What is the most important feature of flight deck design?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Escape and emergency exits should be clear of obstructions",
+        "b. The design eye point must be clearly marked",
+        "c. Important controls must be located in easily reached and unobstructed positions",
+        "d. Controls and indicators should be standardized"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "What will the pilot lose sight of on the approach if seated below the Design Eye Point?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Some of the undershoot",
+        "b. Some of the overshoot",
+        "c. Peripheral objects especially at night",
+        "d. The sight view"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "What instrument is best for showing small change?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A digital display",
+        "b. An analogue display",
+        "c. A mixed digital/analogue display",
+        "d. Ultra/high-precision gyro instrument"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "What colour should the 'Alert' warning be on a CRT?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Bright red and flashing",
+        "b. Steady Red",
+        "c. Flashing yellow/amber",
+        "d. Steady yellow"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "Which pitot/static instrument is most likely to be misread?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The ASI at night illuminated by a red light",
+        "b. The ASI at night illuminated by low intensity white light",
+        "c. The three point altimeter",
+        "d. The four point altimeter"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "A manually operated valve should be opened by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. turning it clockwise",
+        "b. turning it anticlockwise",
+        "c. turning either way",
+        "d. depends on the system it operates"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "The three types of anthropometric measurements are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. static, design, contour",
+        "b. contour, design, dynamic",
+        "c. static, dynamic, contour",
+        "d. static, dynamic, design"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "In the Shell Model L stands for:",
+      "question_type": "MCQ",
+      "options": [
+        "a. latent errors",
+        "b. long-term errors",
+        "c. lengthy errors",
+        "d. liveware"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "System Tolerance can be subdivided into:",
+      "question_type": "MCQ",
+      "options": [
+        "a. protected and semi-protected systems",
+        "b. protected and endangered systems",
+        "c. protected and vulnerable systems",
+        "d. protected and quasi-protected systems"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "A flashing red warning light on a CRT normally indicates:",
+      "question_type": "MCQ",
+      "options": [
+        "a. there is a fault in a critical system",
+        "b. emergency",
+        "c. alert",
+        "d. danger"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "Automation Complacency is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. overconfidence in the handling capability of the pilot",
+        "b. overconfidence in the handling capability of the pilot of computers",
+        "c. overreliance on automation",
+        "d. the blind belief in automation"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "Mode error is associated with:",
+      "question_type": "MCQ",
+      "options": [
+        "a. automation",
+        "b. hardware",
+        "c. INS",
+        "d. software"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "A danger of automation is that:",
+      "question_type": "MCQ",
+      "options": [
+        "a. there can be greater delays between the performance of the crew and its ultimate effect",
+        "b. delays between the performance of the crew and its ultimate effect are shortened",
+        "c. delays between the performance of the crew and its ultimate effect are not appreciated",
+        "d. delays between the performance of the crew and its ultimate effect have no effect"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "Automation:",
+      "question_type": "MCQ",
+      "options": [
+        "a. helps with unusual and unexpected situations",
+        "b. may result in a pilot being unaware of important information when dealing with an unusual and unexpected situation",
+        "c. increases reaction time when dealing with unusual and unexpected situations",
+        "d. decreases reaction time when dealing with unusual and unexpected situations"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "Automation can result in:",
+      "question_type": "MCQ",
+      "options": [
+        "a. lack of information being passed between crew members",
+        "b. too much information being passed between crew members",
+        "c. confused information being passed between crew members",
+        "d. too much detailed information being passed between crew members"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    }
+  ]
+}
+

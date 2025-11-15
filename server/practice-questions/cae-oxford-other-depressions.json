@@ -1,0 +1,176 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 19,
+  "chapter_title": "Other Depressions",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A thermal depression is likely to form:",
+      "question_type": "MCQ",
+      "options": [
+        "a. over the Iberian peninsular during the summer",
+        "b. in the lee of the Alps over northern Italy in winter",
+        "c. in association with a marked trough of low pressure over the USA",
+        "d. on the trailing edge of a warm sector mid latitude depression"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "Tropical revolving storms usually:",
+      "question_type": "MCQ",
+      "options": [
+        "a. form close to one side of the Equator and while moving slowly in a westerly direction, cross over to the other hemisphere",
+        "b. move in a westerly direction before recurving towards the Equator",
+        "c. move in an easterly direction before recurving towards the nearest pole",
+        "d. do not form within $5^{\\circ}$ of the Equator"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "With reference to tropical revolving storms, which of the following statements is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Typhoons are found in the South China sea in January",
+        "b. Cyclones occur in the Bay of Bengal in winter",
+        "c. Hurricanes in the South Atlantic sometimes affect the east coast of Brazil",
+        "d. Hurricanes affect the southeast of the USA in late summer"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "Which of the following statements accurately describes the \"West African tornado\"?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The West African tornado is similar to the North American and European tornadoes",
+        "b. It is a line of thunderstorms producing a line squall aligned roughly north/ south",
+        "c. It is another name for the cyclones that affect the West African coast in summer",
+        "d. It is the name given to a line of thunderstorms that lie along the ITCZ but some 200 miles to the south"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Extensive cloud and precipitation is often associated with a non-frontal thermal depression because of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. surface divergence and upper level convergence causing widespread descent of air in the depression",
+        "b. surface convergence and upper level divergence causing widespread descent of air in the depression",
+        "c. surface convergence and upper level divergence causing widespread ascent of air in the depression",
+        "d. surface divergence and upper level convergence causing widespread ascent of air in the depression"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "In comparison with a primary depression a secondary depression is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. always more active",
+        "b. sometimes more active",
+        "c. never more active",
+        "d. unlikely to produce gale force winds"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "A secondary depression would form in association with:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a polar depression",
+        "b. a col",
+        "c. a summer thermal depression over the Mediterranean or Caspian Sea",
+        "d. a polar front low"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Tropical revolving storms:",
+      "question_type": "MCQ",
+      "options": [
+        "a. are always given a male first name beginning with \"A\" for the first of the season and thereafter named in alphabetical order of occurrence",
+        "b. have internal wind speeds of 10-20 knots rotating cyclonically round a subsiding clear air core known as the eye",
+        "c. usually have the most severe weather in the quadrant to the right of the track in a hurricane",
+        "d. regenerate after crossing the coast from sea to land"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "Which of the following are thermal depressions?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Tropical revolving storms, polar air depressions, tornadoes",
+        "b. The equatorial trough, monsoon lows, some depressions over the central and eastern Mediterranean sea in summer",
+        "c. The equatorial trough, polar air depressions, monsoon lows, orographic lows",
+        "d. The lows forming over flat land in summer, polar air depressions, tropical revolving storms, some of the lows which form over inland seas in winter"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "A secondary low pressure system rotates around a primary low:",
+      "question_type": "MCQ",
+      "options": [
+        "a. cyclonically",
+        "b. anticyclonically",
+        "c. into the primary",
+        "d. at a constant distance"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "Flying conditions in a secondary low pressure system are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. always more severe than in a primary low",
+        "b. sometimes more severe than in a primary low",
+        "c. less severe than in a primary low",
+        "d. relatively calm"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "Tropical revolving storms:",
+      "question_type": "MCQ",
+      "options": [
+        "a. do not occur in the South Atlantic",
+        "b. generally move from east to west before turning towards the Equator",
+        "c. intensify after crossing coasts",
+        "d. occur principally in spring and early summer"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    }
+  ]
+}
+

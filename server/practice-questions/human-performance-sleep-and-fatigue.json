@@ -1,0 +1,286 @@
+{
+  "book_name": "CAE Oxford Human Performance and Limitations",
+  "chapter_number": "11",
+  "chapter_title": "Sleep and Fatigue",
+  "questions": [
+    {
+      "id": "1",
+      "question": "How long is a free running circadian rhythm?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 24 hours",
+        "b. 48 hours",
+        "c. 25 hours",
+        "d. 29 hours"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "When is the circadian cycle of temperature at its lowest?",
+      "question_type": "MCQ",
+      "options": [
+        "a. At about 0500 hrs",
+        "b. At about 0100 hrs",
+        "c. At about 0300 hrs",
+        "d. Varies from day to day"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "What does the duration of sleep depend on?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The mental and physical exercise taken prior to sleep",
+        "b. The number of hours awake prior to sleep",
+        "c. Timing i.e. when the body temperature is falling",
+        "d. The quality of the REM sleep"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "What is the maximum number of \"sleep credits\" that can be accumulated and what is the minimum time to accumulate them?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 24 credits and it will take 12 hours",
+        "b. 8 credits and it will take 16 hours",
+        "c. 16 credits and it will take 12 hours",
+        "d. 16 credits and it will take 8 hours"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "When does orthodox (slow wave sleep) occur and what does it restore?",
+      "question_type": "MCQ",
+      "options": [
+        "a. It occurs early in the sleep cycle - stages 3 & 4 and it restores the body",
+        "b. It occurs early in the sleep cycle - stages 3 & 4 and it restores the brain",
+        "c. It occurs early in the sleep cycle - stages 1 & 2 and it restores the body",
+        "d. It occurs late in the sleep cycle - stages 3 & 4 and it restores the brain"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "If the sleeper awakes early, how does this affect the next sleep pattern?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The sleeper goes into a \"sleep deficit\" and will need more sleep",
+        "b. The sleeper goes into a \"sleep deficit\" and will need twice the amount of sleep lost to catch up",
+        "c. They will \"rebound\" so that the current sleep pattern will make up those stages lost in the previous spell of sleep",
+        "d. The sleeper goes into a \"sleep deficit\" which is carried forward"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "How many stages are there in a sleep cycle?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3 stages plus REM",
+        "b. 4 stages plus REM",
+        "c. 3 stages including REM",
+        "d. 4 stages including REM"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "How long is a sleep cycle?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 90 minutes",
+        "b. 120 minutes",
+        "c. 60 minutes",
+        "d. 30 minutes"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "What will an EOG trace during REM sleep?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Little activity",
+        "b. A lot of activity",
+        "c. Intermittent activity",
+        "d. No activity"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "What is the function of REM sleep?",
+      "question_type": "MCQ",
+      "options": [
+        "a. To refresh the body after exercise",
+        "b. To refresh the body and brain following physical and mental activity",
+        "c. To assist in the organization of memory and helping to coordinate and assimilate new information learned",
+        "d. To exercise the brain so it is prepared for the next day"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "As a general rule, if a pilot is rostered for a flight which returns within 24 hours, should he adjust his/her sleep pattern?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Yes",
+        "b. Yes - as soon as possible",
+        "c. Yes - over the next 48 hours",
+        "d. No-stay on UK time"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "As a general rule, if a pilot is rostered for a flight which has 24 hours or more in a country where there is a time zone difference, should he adjust his/her sleep pattern?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Yes and try and arrange it so that the sleep pattern allows 8 hours sleep before wake-up call",
+        "b. Yes and try and arrange it so that the sleep pattern allows 10 hours sleep before wake-up call",
+        "c. No - stay on UK time",
+        "d. No - not necessary unless he/she stays for over 48 hours"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "How long does it take for the circadian rhythm to resynchronize to local time after crossing time zones?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Approximately 2 days per 1 to 2 hours of time change",
+        "b. Approximately 1 day per 1 to 2 hours of time change",
+        "c. Approximately 2 days per 1 to 1 1/2 hours of time change",
+        "d. Approximately 1 day per 1 to 1 1/2 hours of time change"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "Does it make any difference to the circadian rhythm adjusting to time zone changes if the flight is to the East or West?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Yes, due to the free running of the circadian rhythm tends to adjust more quickly to West bound flights",
+        "b. Yes, due to the free running of the circadian rhythm tends to adjust more quickly to East bound flights",
+        "c. No - it make no difference. West or East have the same effect",
+        "d. Yes, due to the free running of the circadian rhythm tends to adjust more slowly to West bound flights"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "What effect does drinking alcohol before sleep have to the sleep pattern?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A small amount (one beer or a small whisky) is of help to relax the body prior to sleep and thus enhances the sleep pattern",
+        "b. It lengthens REM sleep and the length of sleep",
+        "c. It shortens REM sleep and the length of sleep",
+        "d. It has no significant effect on the sleep pattern itself but does affect other systems of the body adversely"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "When suffering from sleep deprivation, will performance be further decreased by altitude?",
+      "question_type": "MCQ",
+      "options": [
+        "a. No",
+        "b. Yes",
+        "c. Sometimes",
+        "d. Under certain circumstances"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "Hypovigilance is akin to a microsleep.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "The two forms of fatigue are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. mental and physical",
+        "b. short-term and chronic",
+        "c. mental and body",
+        "d. psychological and physiological"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "Insomnia is divided into:",
+      "question_type": "MCQ",
+      "options": [
+        "a. psychological and physiological",
+        "b. mental and physical",
+        "c. clinical and situational",
+        "d. clinical and physiological"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "Can you fly suffering from narcolepsy?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Under the strict supervision of an aviation medical specialist",
+        "b. Sometimes - it depends on the degree",
+        "c. Never",
+        "d. By day only"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}
+

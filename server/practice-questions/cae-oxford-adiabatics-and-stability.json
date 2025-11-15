@@ -1,0 +1,246 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 7,
+  "chapter_title": "Adiabatics and Stability",
+  "questions": [
+    {
+      "id": "1",
+      "question": "If the ELR is $0.65^{\\circ}C/100$ m, the layer is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. atmosphere is conditionally stable",
+        "b. atmosphere is stable",
+        "c. atmosphere is unstable",
+        "d. atmosphere is stable when dry"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "ELR is $1^{\\circ}C/100$ m, the layer is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. neutral when dry",
+        "b. absolute stability",
+        "c. absolute instability",
+        "d. conditional stability"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "Why does air cool as it rises?",
+      "question_type": "MCQ",
+      "options": [
+        "a. It expands",
+        "b. It contracts",
+        "c. The air is colder at higher latitudes",
+        "d. The air is colder at higher altitudes"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "From which of the following can the stability of the atmosphere be determined?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Surface pressure",
+        "b. Surface temperature",
+        "c. DALR",
+        "d. ELR"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "When the upper part of a layer of warm air is advected:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Stability increases within the layer",
+        "b. Stability decreases within the layer",
+        "c. Wind speed will always decrease with increase in height in the Northern Hemisphere",
+        "d. Wind will back with increase in height in the Northern Hemisphere"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "The temperature at the surface is $15^{\\circ}C$, the temperature at 1000 m is $13^{\\circ}C$. The atmosphere is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. unstable",
+        "b. conditionally unstable",
+        "c. stable",
+        "d. cannot tell"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "Which of the following gives conditionally unstable conditions?",
+      "question_type": "MCQ",
+      "options": [
+        "a. $1^{\\circ}C/100~m$",
+        "b. $0.65^{\\circ}C/100~m$",
+        "c. $0.49^{\\circ}C/100$ m",
+        "d. None of the above"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "A mass of unsaturated air is forced to rise till just under the condensation level. It then settles back to its original position. What happens to the temperature?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Temp. is greater than before",
+        "b. Temp. stays the same",
+        "c. Temp. is less than before",
+        "d. It depends on QFE"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "What happens to the stability of the atmosphere in an inversion? (Temp increasing with height)",
+      "question_type": "MCQ",
+      "options": [
+        "a. Absolutely stable",
+        "b. Unstable",
+        "c. Conditionally stable",
+        "d. Conditionally unstable"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "What happens to stability of the atmosphere in an isothermal layer? (Temp constant with height)",
+      "question_type": "MCQ",
+      "options": [
+        "a. Absolutely stable",
+        "b. Unstable",
+        "c. Conditionally stable",
+        "d. Conditionally unstable"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "What is the effect of a strong low level inversion?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Good visibility",
+        "b. Calm conditions",
+        "c. Turbulence",
+        "d. Unstable conditions"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "A layer of air can be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. conditional; unstable when unsaturated and stable when saturated",
+        "b. conditional; unstable when saturated and stable when unsaturated",
+        "c. neutrally stable when saturated and unstable when unsaturated",
+        "d. all of the above"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "What happens to the temperature of a saturated air mass when forced to descend?",
+      "question_type": "MCQ",
+      "options": [
+        "a. It heats up more than dry because of expansion",
+        "b. It heats up less than dry because of evaporation",
+        "c. It heats up more than dry because of sublimation",
+        "d. It heats up less than dry because of latent heat released during condensation"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "In still air a lapse rate of $1.2^{\\circ}C/100$ m refers to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. DALR",
+        "b. SALR",
+        "c. ELR",
+        "d. ALR"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "What happens to the temperature of a saturated air mass when descending?",
+      "question_type": "MCQ",
+      "options": [
+        "a. It heats up more than dry because of expansion",
+        "b. It heats up less than dry because of evaporation",
+        "c. It heats up more than dry because of compression",
+        "d. It heats up less than dry because of latent heat released during condensation"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "The DALR is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. variable with time",
+        "b. fixed",
+        "c. variable with latitude",
+        "d. variable with temperature"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "An environment cooling at more than $1^{\\circ}C/100$ m is said to be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. conditionally stable",
+        "b. conditionally unstable",
+        "c. unstable",
+        "d. stable"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}
+

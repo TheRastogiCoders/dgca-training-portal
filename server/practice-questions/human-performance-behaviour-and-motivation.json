@@ -1,0 +1,286 @@
+{
+  "book_name": "CAE Oxford Human Performance and Limitations",
+  "chapter_number": "9",
+  "chapter_title": "Behaviour and Motivation",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What behaviour is used to carry out a fire drill?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Skill-based",
+        "b. Rule-based",
+        "c. Knowledge-based",
+        "d. A combination of rule-based and knowledge-based"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "Skill-based errors only occur:",
+      "question_type": "MCQ",
+      "options": [
+        "a. in those with little or no experience",
+        "b. in those who are in the learning process",
+        "c. in those who have only part-learned a procedure/system",
+        "d. in those with experience"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "Rule-based behaviour involves:",
+      "question_type": "MCQ",
+      "options": [
+        "a. short-term and long-term memory",
+        "b. short-term and iconic memory",
+        "c. long-term and episodic-memory",
+        "d. short-term, long term and episodic-memory"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "With regards to procedures you are advised to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. memorise all procedures as carefully as possible",
+        "b. memorise immediate actions and subsequent actions",
+        "c. memorise immediate actions and refer to check list for subsequent actions",
+        "d. rely on the checklist for all procedures"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Knowledge-based behaviour enables people to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. deal smoothly and quickly with procedures",
+        "b. deal with situations involving other people and especially with the flight and cabin crews",
+        "c. deal with known situations",
+        "d. deal with unfamiliar and novel situations"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "In evaluating data pilots are influenced by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. their technical knowledge",
+        "b. their previous experience",
+        "c. situational awareness",
+        "d. their state of health"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "The reluctance to move away from a theory once formed in spite of evidence to the contrary is called:",
+      "question_type": "MCQ",
+      "options": [
+        "a. mind set",
+        "b. mind bias",
+        "c. confirmation bias",
+        "d. decision set"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Situational awareness is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the process that ensures the pilot maintains an accurate model of his/her environment",
+        "b. the process that ensures the pilot maintains an accurate model of the situation within the cockpit",
+        "c. the process that ensures the pilot maintains an accurate model of the situation outside the cockpit",
+        "d. the process that ensures the pilot maintains an accurate model of the situation on and around the landing point"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "Errors may occur when a pilot believes it is safe to depart from the procedure laid down. This statement is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. true",
+        "b. false",
+        "c. true in some circumstances",
+        "d. false in some circumstances"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "Once started on a course of action, it is better to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. have the courage of your convictions and carry them through",
+        "b. confirm it with your co-pilot or most senior member of the crew",
+        "c. ensure ATC are in the picture from the very start",
+        "d. stop occasionally to take stock"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "What is the Jens Rasmussen's Model?",
+      "question_type": "MCQ",
+      "options": [
+        "a. \"KRS\"",
+        "b. \"5KR\"",
+        "c. \"SRK\"",
+        "d. \"KSR\""
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "Among the most important factors which might interfere with situational awareness are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. weather patterns",
+        "b. interpersonal differences",
+        "c. hopes, wishes and desires",
+        "d. poor instrument layouts"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "We are driven by ........... needs and ........... needs.",
+      "question_type": "MCQ",
+      "options": [
+        "a. social basic",
+        "b. physical basic",
+        "c. physiological social",
+        "d. physiological basic"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "The lowest tier of Maslow's pyramid of needs is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. physiological needs",
+        "b. safety and security needs",
+        "c. belonging and affection needs",
+        "d. self-esteem needs"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "Job satisfaction is measurable.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "The two main tools in improving job satisfaction are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. job enrichment job enlargement",
+        "b. job enrichment financial considerations",
+        "c. financial considerations good industrial relations",
+        "d. good management good industrial relations"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "Job enlargement can be split into:",
+      "question_type": "MCQ",
+      "options": [
+        "a. vertical slant",
+        "b. slant horizontal",
+        "c. slant vertical",
+        "d. vertical horizontal"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "A tendency to ask leading questions is a symptom of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. increased awareness",
+        "b. decreased awareness",
+        "c. increased situational awareness",
+        "d. decreased situational awareness"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "Action slip is an error of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. skilled-based behaviour",
+        "b. knowledge-based behaviour",
+        "c. rule-based behaviour",
+        "d. none of the above"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "The tendency to call to mind common experiences or scenarios from the past and link them incorrectly to a perceived mental model is called:",
+      "question_type": "MCQ",
+      "options": [
+        "a. confirmation bias",
+        "b. action slip",
+        "c. environmental capture",
+        "d. frequency bias"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    }
+  ]
+}
+

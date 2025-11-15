@@ -1,0 +1,120 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 25,
+  "chapter_title": "Meteorological Aerodrome Reports (METARs)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "When a TREND is included at the end of a METAR, the trend is a forecast valid for:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1 hour after the time of observation",
+        "b. 2 hours after the time of observation",
+        "c. 2 hours after it was issued",
+        "d. 1 hour after it was issued"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "A METAR may be defined as being:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a routine weather report for a large area",
+        "b. an aerodrome forecast containing a TREND for the next 2 hours",
+        "c. a routine weather report concerning a specific aerodrome",
+        "d. a forecast weather report concerning a specific aerodrome"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "In the METAR shown below, the cloud base has been omitted. At what height might you expect the cloud base to be?\n28005KT 9999 ?????? $12/11$ Q1020 NOSIG",
+      "question_type": "MCQ",
+      "options": [
+        "a. SCT042",
+        "b. OVC090",
+        "c. SCT280",
+        "d. OVC005"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "Which of the following correctly decodes the METAR shown below?\nMETAR EGKL 130350Z 32005KT 0400N DZ BCFG VV002",
+      "question_type": "MCQ",
+      "options": [
+        "a. Observed on the 13th day of the month at 0350Z, surface wind $320^{\\circ}$ True, 05 kt, minimum visibility 400 metres to the north, moderate drizzle, with fog patches and a vertical visibility of 200 ft",
+        "b. Reported on the 13th day of the month at 0350Z, surface wind $320^{\\circ}$ magnetic, 05 kt, minimum visibility 400 metres to the north, moderate drizzle, with fog patches and a vertical visibility of 200 ft",
+        "c. Valid on the 13th day of the month between 0300 and 1500Z, surface wind $320^{\\circ}T/05$ kt, minimum visibility 400 metres, drizzle, with fog patches and a vertical visibility of 200 ft",
+        "d. Valid between 1300 and 1350Z, surface wind $320^{\\circ}T/05$ kt, minimum visibility 400 metres to the north, moderate drizzle, with fog patches and a vertical visibility of 200 ft"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "A temperature group of $28/24$ in a METAR means that:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the temperature is $28^{\\circ}C$ at the time of reporting, but it is expected to become $24^{\\circ}C$ by the end of the TREND report",
+        "b. the dry bulb is $28^{\\circ}C$ and the wet bulb temperature is $24^{\\circ}C$",
+        "c. the dew point is $28^{\\circ}C$ and the temperature is $24^{\\circ}C$",
+        "d. the temperature is $28^{\\circ}C$ and the dew point is $24^{\\circ}C$"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "Providing the minimum sector altitude is not a factor, CAVOK in a TAF or METAR:",
+      "question_type": "MCQ",
+      "options": [
+        "a. means visibility 10 km or more, and no cloud below 5000 ft",
+        "b. means visibility 10 km or more, and few cloud below 5000 ft",
+        "c. means visibility 10 nm or more, and no cloud below 5000 ft",
+        "d. means visibility 10 nm or more, and no scattered cloud below 5000 ft"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "The visibility group R20/0050 in a METAR means:",
+      "question_type": "MCQ",
+      "options": [
+        "a. as measured by runway measuring equipment for runway 20, a current visibility of 50 metres",
+        "b. for runway 20, a current visibility of 500 metres measured by runway visual range equipment",
+        "c. the runway visibility reported is 50 metres as measured by runway visual range equipment in the last 20 minutes",
+        "d. on runway 20 the current viability is less than 5000 metres"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "The code \"BECMG FM 1100-RASH\" in a METAR means:",
+      "question_type": "MCQ",
+      "options": [
+        "a. from 1100UTC, the cessation of rain showers",
+        "b. becoming from 1100UTC slight rain showers",
+        "c. becoming from 1100UTC rain showers",
+        "d. becoming from 1100UTC till 0000UTC slight rain showers"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

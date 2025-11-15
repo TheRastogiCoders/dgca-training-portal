@@ -1,0 +1,218 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 6,
+  "chapter_title": "Humidity",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Throughout the 24 hours of a day the Relative Humidity can be expected to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. increase during the day and decrease at night",
+        "b. stay reasonably constant throughout the 24 hours",
+        "c. reduce during the day and increase at night",
+        "d. only change with a change of air mass"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "During a night with a clear sky, surface temperature will ______, RH will ______ and dew point will ______.",
+      "question_type": "MCQ",
+      "options": [
+        "a. fall, rise, rise",
+        "b. rise, rise, fall",
+        "c. fall, rise, remain the same",
+        "d. fall, fall, remain the same"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "A change of state directly from a solid to a vapour or vice versa is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. insolation",
+        "b. condensation",
+        "c. evaporation",
+        "d. sublimation"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "The instrument used for measuring the humidity of air is a:",
+      "question_type": "MCQ",
+      "options": [
+        "a. hydrometer",
+        "b. hygrometer",
+        "c. wet bulb thermometer",
+        "d. hygroscope"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "The process of change of state from a gas to a liquid is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. evaporation in which latent heat is absorbed",
+        "b. evaporation in which latent heat is released",
+        "c. condensation in which latent heat is absorbed",
+        "d. condensation in which latent heat is released"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "The process of change of state from a liquid to a gas is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. condensation in which latent heat is released",
+        "b. evaporation in which latent heat is released",
+        "c. condensation in which latent heat is absorbed",
+        "d. evaporation in which latent heat is absorbed"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "Air is classified as dry or saturated according to its relative humidity. If the relative humidity were 95% the air would be classified as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. conditionally saturated",
+        "b. partially saturated",
+        "c. saturated",
+        "d. dry"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "On a wet bulb thermometer in an unsaturated atmosphere there will be a reduction of temperature below that of the dry bulb thermometer because:",
+      "question_type": "MCQ",
+      "options": [
+        "a. heat is absorbed during the process of condensation",
+        "b. heat is released during the process of condensation",
+        "c. heat is absorbed by the thermometer during the process of evaporation",
+        "d. heat is released from the thermometer during the process of evaporation"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "Relative humidity is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. air temperature over wet bulb temperature 100",
+        "b. air temperature over dew point temperature 100",
+        "c. the actual amount of water vapour in a sample of air over the maximum amount of water vapour that the sample can contain x 100",
+        "d. the maximum amount of water vapour that a sample of air can contain over the actual amount of water vapour the sample does contain × 100"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "Absolute humidity is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the number of water droplets in a given quantity of air",
+        "b. the amount of water vapour that a given quantity of air holds",
+        "c. the maximum amount of water vapour that a given quantity of air can hold",
+        "d. the maximum number of water droplets that a given quantity of air can hold"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "Wet bulb temperature would normally be lower than the dry bulb temperature because:",
+      "question_type": "MCQ",
+      "options": [
+        "a. condensation causes a release of latent heat",
+        "b. evaporation causes cooling",
+        "c. latent heat is absorbed by the bulb thermometer",
+        "d. of condensation on the muslin wick of the bulb"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "The wet bulb temperature:",
+      "question_type": "MCQ",
+      "options": [
+        "a. is measured using a hydrometer",
+        "b. is the minimum temperature to which a thermometer bulb can be cooled by the evaporation of water",
+        "c. measures the dew point of the air",
+        "d. is the minimum temperature reached by the surface of the earth as measured by a thermometer placed 1.2 metres above the ground"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Which one of the following statements relating to atmospheric humidity is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. If the air temperature falls then the absolute humidity must increase",
+        "b. The absolute humidity is the mass of water vapour contained in unit volume of air",
+        "c. The diurnal variation of dew point temperature is greatest when skies are clear at night",
+        "d. The dew point temperature is the temperature indicated by the wet bulb thermometer"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "When condensation takes place, the higher the temperature, the ______ amount of latent heat ______.",
+      "question_type": "MCQ",
+      "options": [
+        "a. lesser; released",
+        "b. greater; absorbed",
+        "c. greater; released",
+        "d. lesser; absorbed"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "When water vapour changes to ice:",
+      "question_type": "MCQ",
+      "options": [
+        "a. latent heat is absorbed",
+        "b. specific heat is released",
+        "c. latent heat is released",
+        "d. specific heat is absorbed"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}
+

@@ -1,0 +1,218 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 15,
+  "chapter_title": "Visibility",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Which of the conditions given below is most likely to lead to the formation of radiation fog?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Wind speed 7 kt Cloud Cover $8/8$ St Temperature $12^{\\circ}C$ Dew Point $11^{\\circ}C$",
+        "b. Wind speed 15 kt Cloud Cover NIL Temperature $15^{\\circ}C$ Dew Point $14^{\\circ}C$",
+        "c. Wind speed 3 kt Cloud Cover $1/8$ Ci Temperature $8^{\\circ}C$ Dew Point $7^{\\circ}C$",
+        "d. Wind speed 12 kt Cloud Cover NIL Temperature $-2^{\\circ}C$ Dew Point $-3^{\\circ}C$"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "When ______ moist air passes over a surface which is ______ than the dew point of the air, ______ fog can form. This occurs over ______. Examine the statement above; the line which contains the correct words in the correct order to complete the statement is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. cool warmer radiation the sea",
+        "b. warm cooler radiation the land only",
+        "c. cool warmer frontal land",
+        "d. warm cooler advection land and sea"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "Radiation fog is most likely at an inland airfield in the UK with a relative humidity of 80% in the ______ with ______ and a wind of ______.",
+      "question_type": "MCQ",
+      "options": [
+        "a. autumn clear skies 2-8 knots",
+        "b. spring $6/8$ ST& SC 2-10 knots",
+        "c. winter clear skies 15/20 knots",
+        "d. summer clear skies no wind"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "Advection fog is formed when ______ air moves over a ______ surface and is ______ its dew point:",
+      "question_type": "MCQ",
+      "options": [
+        "a. humid cold kept above",
+        "b. warm moist cooler cooled below",
+        "c. dry frozen well below",
+        "d. warm moist warmer kept above"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "On a night when radiation fog is forming over most of southern England, the aerodromes likely to be first to experience the fog will be those situated:",
+      "question_type": "MCQ",
+      "options": [
+        "a. near the coast with a light onshore wind and clear skies",
+        "b. near the coast with a land breeze and cloudy skies",
+        "c. at the bottom of the hill with a light katabatic wind blowing",
+        "d. at the top of a hill with clear skies and no wind"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "Radiation fog is most likely:",
+      "question_type": "MCQ",
+      "options": [
+        "a. with a wind speed up to 15 kt, a clear sky and a high relative humidity",
+        "b. with a wind of 2-8 kt, a high density and the summer season",
+        "c. in an anticyclone in winter",
+        "d. on a hill in autumn"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "If a station equipped with IRVR equipment reports RVR 1000, this means:",
+      "question_type": "MCQ",
+      "options": [
+        "a. RVR at touchdown is 1000 metres",
+        "b. RVR at touchdown is 1000 metres and at 'mid point' and 'stop end' the RVR is 800 metres or more",
+        "c. RVR at touchdown is 1000 metres and 'mid point' and 'stop end' equipment is unserviceable",
+        "d. RVR all along the runway is 1000 metres or more"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Changes of RVR are reported for increments of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 25 m up to 250 m",
+        "b. 25 m up to 200 m",
+        "c. 50 m between 300 m and 800 m",
+        "d. 50 m between 500 m and 800 m"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "Frontal fog is most likely to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. form ahead of a vigorous fast moving cold front",
+        "b. form ahead of a warm front",
+        "c. form on a vigorous cold front and last for many hours",
+        "d. form to the rear of a warm front but only last for 1 to 2 hours"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "Fog may be defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a reduction of visibility to less than 1000 metres due to the presence of water vapour in the atmosphere",
+        "b. a reduction of visibility to less than 1000 metres due to the presence of water droplets in suspension in the atmosphere",
+        "c. a reduction of visibility to less than 1500 metres due to the presence of water droplets in suspension in the atmosphere",
+        "d. a reduction of visibility to less than 1000 ft due to the presence of water vapour in suspension in the atmosphere"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "Several types of pressure distribution may be associated with radiation fog but all have one feature in common which is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. closely spaced isobars",
+        "b. a tight pressure gradient",
+        "c. a slack pressure gradient",
+        "d. a rapidly falling pressure"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "______ forms when moist air ______ over a surface which is ______ than the dew point of the air. Fill in the missing words from the list given below:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Radiation fog, passes, warmer",
+        "b. Advection fog, settles, cooler",
+        "c. Advection fog, passes, cooler",
+        "d. Radiation fog, settles, warmer"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Advection fog:",
+      "question_type": "MCQ",
+      "options": [
+        "a. only occurs at night and early morning",
+        "b. is most likely with Polar Maritime air",
+        "c. will only clear by insolation",
+        "d. can sometimes last for 24 hours or more in winter"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "In circumstances where there is a clear sky, calm wind and a high relative humidity in autumn:",
+      "question_type": "MCQ",
+      "options": [
+        "a. radiation fog is likely over night",
+        "b. advection fog will form",
+        "c. radiation fog is likely at sunrise after previous mist",
+        "d. hill fog can be expected"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "At a station equipped with IRVR, reports are given:",
+      "question_type": "MCQ",
+      "options": [
+        "a. every 1/2 hour",
+        "b. when the normal visibility is 1500 m or less",
+        "c. when there is mist",
+        "d. when there is haze"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

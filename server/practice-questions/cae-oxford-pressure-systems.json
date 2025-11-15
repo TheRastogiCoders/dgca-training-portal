@@ -1,0 +1,372 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 4,
+  "chapter_title": "Pressure Systems",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A steep pressure gradient is characterized by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. isobars close together, strengthened wind",
+        "b. isobars far apart, decreased wind",
+        "c. isobars close together, temperature increasing",
+        "d. isobars far apart, temperature decreasing"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "QNH at Timbuktu (200 m AMSL) is 1015 hPa. What is the QFE? (Assume $1~hPa=8~m$)",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1000 hPa",
+        "b. 990 hPa",
+        "c. 1020 hPa",
+        "d. 995 hPa"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "In temperate latitudes in summer what conditions would you expect in the centre of a high pressure system?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Thunderstorms",
+        "b. Calm winds, haze",
+        "c. Showers",
+        "d. Dense cloud"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "If the pressure level surface bulges upwards, the pressure system is a:",
+      "question_type": "MCQ",
+      "options": [
+        "a. cold low",
+        "b. warm low",
+        "c. cold high",
+        "d. warm high"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "The QNH at an airfield 200 m AMSL is 1009 hPa; air temperature is $10^{\\circ}C$ lower than standard. What is the QFF?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Not possible to give a definite answer",
+        "b. Less than 1009 hPa",
+        "c. 1009 hPa",
+        "d. More than 1009 hPa"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "QNH is defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the pressure at MSL obtained using the standard atmosphere",
+        "b. the pressure at MSL obtained using the actual conditions",
+        "c. QFE reduced to MSL using the actual conditions",
+        "d. QFE reduced to MSL using the standard atmosphere"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "Landing at an airfield with QNH set the pressure altimeter reads:",
+      "question_type": "MCQ",
+      "options": [
+        "a. zero feet on landing only if ISA conditions prevail",
+        "b. zero",
+        "c. the elevation of the airfield if ISA conditions prevail",
+        "d. the elevation of the airfield"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Airfield is 69 metres below sea level, QFF is 1030 hPa, temperature is ISA $-10^{\\circ}C.$ What is the QNH?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Impossible to tell",
+        "b. Less than 1030 hPa",
+        "c. 1030 hPa",
+        "d. More than 1030 hPa"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "What is the vertical movement of air relating to a trough?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Descending and diverging",
+        "b. Ascending and diverging",
+        "c. Descending and converging",
+        "d. Converging and ascending"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "What is the vertical movement of air relating to a ridge?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Descending and diverging",
+        "b. Ascending and diverging",
+        "c. Descending and converging",
+        "d. Ascending and converging"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "What is subsidence?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Horizontal motion of air",
+        "b. Vertical down draught of air",
+        "c. Vertical up draught of air",
+        "d. Adiabatic cooling"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "Aerodrome at MSL, QNH is 1022 hPa. QFF is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. same as QNΗ",
+        "b. greater than 1022 hPa",
+        "c. less than 1022 hPa",
+        "d. cannot tell without temperature information"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Air at the upper levels of the atmosphere is diverging. What would you expect at the surface?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Rise in pressure with clouds dissipating",
+        "b. Rise in pressure with clouds forming",
+        "c. Fall in pressure with cloud dissipating",
+        "d. Fall in pressure with cloud forming"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "Subsidence would be described as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. vertical ascension of air",
+        "b. horizontal movement of air",
+        "c. the same as convection",
+        "d. vertical down flow of air"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "You are flying at FL170. The pressure level which is closest to you is the:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 300 hPa",
+        "b. 700 hPa",
+        "c. 500 hPa",
+        "d. 850 hPa"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "On a surface weather chart, isobars are lines of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. QNH",
+        "b. QFE",
+        "c. QFF",
+        "d. QNE"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "At FL60 what pressure chart would you use?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 700 hPa",
+        "b. 500 hPa",
+        "c. 800 hPa",
+        "d. 1000 hPa"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "(For this question use Annex B) A ridge is indicated by letter:",
+      "question_type": "MCQ",
+      "options": [
+        "a. D",
+        "b. B",
+        "c. A",
+        "d. C"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "(For this question use Annex A) Which of the following best describes Zone D?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Ridge of high pressure",
+        "b. Anticyclone",
+        "c. Trough of low pressure",
+        "d. Col"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "(For this question use Annex A) Which of the following best describes Zone C?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Trough of low pressure",
+        "b. Depression",
+        "c. Ridge of high pressure",
+        "d. Anticyclone"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "(For this question use Annex B) Which of the following best describes Zone A?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Col",
+        "b. Ridge of High Pressure",
+        "c. Depression",
+        "d. Trough of low pressure"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "(For this question use Annex B) Which of the following best describes Zone B?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Ridge of high pressure",
+        "b. Depression",
+        "c. Anticyclone",
+        "d. Col"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "(For this question Annex C) The pressure system at position A is a:",
+      "question_type": "MCQ",
+      "options": [
+        "a. trough of low pressure",
+        "b. anticyclone",
+        "c. col",
+        "d. secondary low"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "24",
+      "question": "(For this question use Annex C) The pressure system located in area \"B\" is a",
+      "question_type": "MCQ",
+      "options": [
+        "a. Ridge of high pressure",
+        "b. col",
+        "c. trough of low pressure",
+        "d. depression"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "25",
+      "question": "At which average height can the 500 hPa pressure level be expected in moderate latitudes?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 12.2 km",
+        "b. 3 km",
+        "c. 5.5 km",
+        "d. 9.0 km"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "26",
+      "question": "The average pressure found at a height of 1620 m in mid latitudes would be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 350 hPa",
+        "b. 400 hPa",
+        "c. 850 hPa",
+        "d. 950 hPa"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}
+

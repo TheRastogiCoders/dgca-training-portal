@@ -1,0 +1,92 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 3,
+  "chapter_title": "Density",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Consider the following statements relative to air density and select the one which is correct:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Because air density increases with decrease of temperature, air density must increase with increase of height in the International Standard Atmosphere (ISA)",
+        "b. At any given surface temperature the air density will be greater in anticyclonic conditions than it will be when the MSL pressure is lower",
+        "c. Air density increases with increase of relative humidity",
+        "d. The effect of change of temperature on the air density is much greater than the effect of change of atmospheric pressure"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "The tropopause in mid latitudes is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. lower in summer with a lower temperature",
+        "b. lower in winter with a higher temperature",
+        "c. lower in summer with a higher temperature",
+        "d. lower in winter with a lower temperature"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "Generally as altitude increases:",
+      "question_type": "MCQ",
+      "options": [
+        "a. temperature decreases and density increases",
+        "b. temperature, pressure and density decreases",
+        "c. temperature and pressure increase and density decreases",
+        "d. temperature decreases and pressure density increases"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "In the troposphere:",
+      "question_type": "MCQ",
+      "options": [
+        "a. over cold air, the pressure is higher at upper levels than at similar levels over warm air",
+        "b. over cold air, the pressure is lower at upper levels than at similar levels over warm air",
+        "c. over warm air, the pressure is lower at upper levels than at similar levels over warm air",
+        "d. the upper level pressure depends solely on the relative humidity below"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Density at the surface will be low when:",
+      "question_type": "MCQ",
+      "options": [
+        "a. pressure is high and temperature is high",
+        "b. pressure is high and temperature is low",
+        "c. pressure is low and temperature is low",
+        "d. pressure is low and temperature is high"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "Which of the following combinations will give the lowest air density?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Low pressure, low humidity, low temperature",
+        "b. High pressure, high temperature, high humidity",
+        "c. High pressure, low temperature, low humidity",
+        "d. Low pressure, high humidity, high temperature"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    }
+  ]
+}
+

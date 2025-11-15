@@ -156,8 +156,20 @@ app.get('/api/practice-books', (req, res) => {
 // Serve practice questions by book slug
 app.get('/api/practice-questions/:book', (req, res) => {
   try {
-    const book = (req.params.book || '').toLowerCase();
+    let book = (req.params.book || '').toLowerCase();
     const chapter = (req.query.chapter || '').toLowerCase();
+    
+    // Map book slugs to actual file prefixes
+    // This allows new book names to use existing JSON files
+    const bookSlugMapping = {
+      'air-law': 'oxford',  // Air Law uses oxford- prefixed files
+      'human-performance-and-limitations': 'human-performance',  // Human Performance uses human-performance- prefixed files
+      'cae-oxford': 'oxford',  // Backward compatibility
+      'oxford': 'oxford'  // Direct mapping
+    };
+    
+    // Apply mapping if exists, otherwise use the book slug as-is
+    const filePrefix = bookSlugMapping[book] || book;
     
     // Allow temporarily disabling via env flag but still respond successfully
     if (process.env.PRACTICE_QUESTIONS_DISABLED === 'true') {
@@ -167,8 +179,8 @@ app.get('/api/practice-questions/:book', (req, res) => {
     // Require chapter parameter for chapter-specific files
     let filePath;
     if (chapter) {
-      filePath = path.join(__dirname, 'practice-questions', `${book}-${chapter}.json`);
-      console.log(`[API] Loading chapter file: ${book}-${chapter}.json`);
+      filePath = path.join(__dirname, 'practice-questions', `${filePrefix}-${chapter}.json`);
+      console.log(`[API] Loading chapter file: ${filePrefix}-${chapter}.json (mapped from book: ${book})`);
       console.log(`[API] Full file path: ${filePath}`);
       console.log(`[API] File exists: ${fs.existsSync(filePath)}`);
       if (!fs.existsSync(filePath)) {
@@ -176,16 +188,16 @@ app.get('/api/practice-questions/:book', (req, res) => {
         // List available files for debugging
         const practiceQuestionsDir = path.join(__dirname, 'practice-questions');
         if (fs.existsSync(practiceQuestionsDir)) {
-          const files = fs.readdirSync(practiceQuestionsDir).filter(f => f.includes(book));
-          console.log(`[API] Available files for book "${book}":`, files);
+          const files = fs.readdirSync(practiceQuestionsDir).filter(f => f.includes(filePrefix));
+          console.log(`[API] Available files for book "${book}" (file prefix "${filePrefix}"):`, files);
         }
         // Return an empty set rather than 404 so frontend can show "no questions" state
         return res.json({ chapter, questions: [] });
       }
     } else {
       // If no chapter specified, try to find default book file (for backward compatibility)
-      filePath = path.join(__dirname, 'practice-questions', `${book}.json`);
-      console.log(`[API] Loading default book file: ${book}.json`);
+      filePath = path.join(__dirname, 'practice-questions', `${filePrefix}.json`);
+      console.log(`[API] Loading default book file: ${filePrefix}.json (mapped from book: ${book})`);
       if (!fs.existsSync(filePath)) {
         return res.json({ chapter: null, questions: [] });
       }

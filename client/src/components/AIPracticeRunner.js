@@ -550,8 +550,8 @@ const AIPracticeRunner = () => {
                 
                 <div className="flex items-start justify-between gap-4">
                   <h2 className="text-xl font-semibold text-gray-900 leading-relaxed flex-1">
-                    {currentQuestion.text}
-                  </h2>
+                  {currentQuestion.text}
+                </h2>
                   <button
                     onClick={handleReportClick}
                     className="flex-shrink-0 px-3 py-1.5 text-xs font-medium text-gray-600 hover:text-red-600 hover:bg-red-50 border border-gray-300 hover:border-red-300 rounded-lg transition-all duration-200 flex items-center gap-1.5"

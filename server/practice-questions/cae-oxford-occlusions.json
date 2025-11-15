@@ -1,0 +1,232 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 18,
+  "chapter_title": "Occlusions",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The cloud in grid square M11 is most likely to be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. cirrus",
+        "b. nimbostratus",
+        "c. altocumulus",
+        "d. stratus fractus"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "Precipitation will reach the ground mainly in the area:",
+      "question_type": "MCQ",
+      "options": [
+        "a. L14-R14",
+        "b. Q14-S14",
+        "c. 014-T14",
+        "d. J14-014"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "In grid square M6 the worst cloud conditions for flying could be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. altrocumulus",
+        "b. cumulonimbus embedded in nimbostratus",
+        "c. cumulonimbus",
+        "d. nimbostratus"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "Which of the conditions below would lead to the worst icing condition:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Size of Drop 2 mm Ambient Temp. $-30^{\\circ}C$",
+        "b. Size of Drop 1 mm Ambient Temp. $-1^{\\circ}C$",
+        "c. Size of Drop 5 mm Ambient Temp. $-4^{\\circ}C$",
+        "d. Size of Drop 3 mm Ambient Temp. $-12^{\\circ}C$"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Refer to Appendix 'B'. In a warm occlusion flying at $20~000^{\\prime}$ where will the most turbulence be found?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A",
+        "b. B",
+        "c. C",
+        "d. A and C"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "Refer to Appendix 'C'. Which area will get the most rain at the surface?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A",
+        "b. B",
+        "c. C",
+        "d. D"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "Refer to Appendix 'D'. What type of cloud will be found at X?",
+      "question_type": "MCQ",
+      "options": [
+        "a. CS",
+        "b. NS",
+        "c. SC",
+        "d. CB"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Refer to Appendix 'D'. What type of cloud is most likely at Z?",
+      "question_type": "MCQ",
+      "options": [
+        "a. CU",
+        "b. CB",
+        "c. AS",
+        "d. NS"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "After passage of an occluded front in the Northern Hemisphere:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Wind backs, Temperature stops falling, Precipitation continues",
+        "b. Wind veers, Temperature drops rapidly, Precipitation stops abruptly",
+        "c. Wind veers, Temperature drops or rises, Precipitation begins to dry up",
+        "d. Wind backs, Temperature rises quickly, Precipitation increases in strength"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "With a cold occlusion:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the air ahead of the warm front is colder than the air behind the cold front",
+        "b. the warm sector remains on the surface",
+        "c. the cloud type is predominately layer with a wide precipitation band",
+        "d. there is a risk of CB embedded in NS"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "The front at P14 is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. warm",
+        "b. cold",
+        "c. warm at an occlusion",
+        "d. cold at an occlusion"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "The relative temperatures at A, B, and C could be respectively:",
+      "question_type": "MCQ",
+      "options": [
+        "a. +6 +8 +10",
+        "b. +6 +10 +8",
+        "c. +8 +10 +8",
+        "d. +10 +6 +8"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Precipitation at the surface underneath B is likely to be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Light drizzle",
+        "b. Continuous moderate",
+        "c. Nil",
+        "d. Showers, heavy with the possibility of hail"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "Flight conditions at B are likely to be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. smooth and clear",
+        "b. layer clouds with only light turbulence",
+        "c. CB giving moderate/severe turbulence",
+        "d. some turbulence in NS with the possibility of embedded flight in CU, CB with some turbulence"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "When flying from west to east through a cold occlusion (below the warm air) over the North Atlantic you would expect the wind to ______ and the temperature to ______.",
+      "question_type": "MCQ",
+      "options": [
+        "a. veer/decrease",
+        "b. back/increase",
+        "c. back/decrease",
+        "d. veer/increase"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "A warm occlusion occurs when:",
+      "question_type": "MCQ",
+      "options": [
+        "a. warm air is forcing cool air over cold air",
+        "b. cold air is forcing cool air over warm air",
+        "c. cool air is forcing warm air over cold air",
+        "d. cool air is forcing cold air aloft"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}
+

@@ -1,0 +1,326 @@
+{
+  "book_name": "CAE Oxford Human Performance and Limitations",
+  "chapter_number": "4",
+  "chapter_title": "The Nervous System, Ear, Hearing and Balance",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The outer, middle and inner ear are filled with:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Air Air Liquid",
+        "b. Air Liquid Liquid",
+        "c. Liquid Air Air",
+        "d. Liquid Liquid Air"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "What is the purpose of the Eustachian tube?",
+      "question_type": "MCQ",
+      "options": [
+        "a. To pass sound waves across the middle ear to the auditory nerve",
+        "b. To allow ambient pressure to equalize on both sides of the ear drum",
+        "c. To allow ambient pressure to equalize on the middle ear side of the ear drum",
+        "d. To allow ambient pressure to equalize on both sides of the vestibular apparatus"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "What causes conductive deafness?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Damage to the outer ear",
+        "b. Damage to the pinna",
+        "c. Damage to the ossicles or the eardrum",
+        "d. Damage to the middle ear"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "What is noise induced hearing loss (NIHL)?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Loss of hearing due to damage to the ossicles",
+        "b. Loss of hearing due to damage to the vestibular apparatus",
+        "c. Loss of hearing due to damage to the middle ear",
+        "d. Loss of hearing due to damage to the cochlea"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "On what does NIHL depend?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Both the intensity and duration of the noise above 100 dB",
+        "b. The duration of the noise above 100 dB",
+        "c. The duration of the noise above 110 dB",
+        "d. Both the intensity and duration of the noise above 90 dB"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "What is the most important sense for spatial orientation?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Hearing and balance",
+        "b. Sight",
+        "c. \"Seat of the pants\"",
+        "d. All senses play their part in situation awareness"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "If an aircraft accelerates, what do the otoliths indicate to the brain?",
+      "question_type": "MCQ",
+      "options": [
+        "a. That the aircraft nose is pitching down; this feeling will be reinforced by an air driven artificial horizon",
+        "b. That the aircraft is turning; this feeling will be reinforced by an air driven artificial horizon",
+        "c. That the aircraft is climbing and turning; this feeling will be reinforced by an air driven artificial horizon",
+        "d. That the aircraft is pitching up; this feeling will be reinforced by an air driven artificial horizon"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "When can a pilot experience the \"leans\"?",
+      "question_type": "MCQ",
+      "options": [
+        "a. In all flight conditions",
+        "b. In the climb",
+        "c. In the descent",
+        "d. In the climb or the descent"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "Which part of the ear senses linear accelerations and decelerations?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The ossicles in the middle ear",
+        "b. The otoliths in the middle ear",
+        "c. The ossicles in the middle ear",
+        "d. The otoliths in the saccules canals"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "What should a pilot rely on if disorientated in IMC?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Vision",
+        "b. Turning head to recover from disorientation",
+        "c. Sense of balance",
+        "d. Instruments"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "The conductive system consists of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the ear drum and ossicles",
+        "b. the semicircular canals and otoliths",
+        "c. the cochlea and eustachian tube",
+        "d. the cochlea and the mitus"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "The frequency band that a healthy young person can hear is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 70-15000 cycles per second",
+        "b. 80-20000 cycles per second",
+        "c. 500-15000 cycles per second",
+        "d. 20-20000 cycles per second"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Decibels increase:",
+      "question_type": "MCQ",
+      "options": [
+        "a. linearly",
+        "b. in terms of a logarithm",
+        "c. in terms of increments",
+        "d. in terms of integrals"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "Presbycusis is an impairment of hearing due to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. damage to the cochlea",
+        "b. damage to the semicircular canals",
+        "c. age",
+        "d. smoking"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "The vegetative system is another name for the:",
+      "question_type": "MCQ",
+      "options": [
+        "a. CNS",
+        "b. NILH",
+        "c. sense receptors",
+        "d. ANS"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "The vestibular apparatus detects ........... acceleration:",
+      "question_type": "MCQ",
+      "options": [
+        "a. linear",
+        "b. angular",
+        "c. angular and linear",
+        "d. +g"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "Messages are sent through the nervous system by the following means:",
+      "question_type": "MCQ",
+      "options": [
+        "a. electrical",
+        "b. chemical",
+        "c. biological",
+        "d. electrical and chemical"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "The otoliths detect an acceleration greater than:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 0.001 m/s²",
+        "b. 0.01 m/s²",
+        "c. .1 m/s²",
+        "d. 1.0 m/s²"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "If a steady turn is being maintained, then a sudden movement (greater than about ......) may cause a phenomena known as the coriolis effect:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 4° a second",
+        "b. 5° a second",
+        "c. 3° a second",
+        "d. 2° a second"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "Another name for \"the leans\" is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the oculogravic effect",
+        "b. the somatogyral illusion",
+        "c. the somatogravic illusion",
+        "d. ocular disorientation"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "Vertigo can be caused by a blocked eustachian tube.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "The PNS comprises:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the sensory and motor nerves",
+        "b. sensory and reaction nerves",
+        "c. reaction and motor nerves",
+        "d. only reaction nerves"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "The ANS is a biological control system which is neurohormonal and, like others, is not self-regulating in normal circumstances.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

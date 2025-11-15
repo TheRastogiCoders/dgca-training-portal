@@ -1,0 +1,284 @@
+{
+  "book_name": "CAE Oxford Human Performance and Limitations",
+  "chapter_number": "10",
+  "chapter_title": "Cognition in Aviation",
+  "questions": [
+    {
+      "id": "1",
+      "question": "If a runway slopes downwards, how does this affect the pilots' approach?",
+      "question_type": "MCQ",
+      "options": [
+        "a. It is likely to be too high",
+        "b. It is likely to be too low",
+        "c. It is likely to be too fast",
+        "d. It is likely to be too slow"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "If a runway slopes upwards, how does this affect the pilots' approach?",
+      "question_type": "MCQ",
+      "options": [
+        "a. It is likely to be too high",
+        "b. It is likely to be too low",
+        "c. It is likely to be too fast",
+        "d. It is likely to be too slow"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "What is the likely effect of a runway which is wider than expected?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Flaring too late and damaging the aircraft",
+        "b. Flaring too soon and causing a heavy landing",
+        "c. Approach speed much too high",
+        "d. Approach speed higher than usual"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "What approach conditions cause the \"black hole effect\"?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Landing at night in sleet or heavy rain",
+        "b. Landing at night with a partially lit runway",
+        "c. Landing at night with the cockpit instruments turned up too high",
+        "d. Landing at night when there are no lights between the aircraft and the runway"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "How does the \"black hole effect\" alter the pilots' judgement of the approach?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Overestimation of height",
+        "b. Underestimation of height",
+        "c. Tends to make the approach much too fast",
+        "d. Tends to make the approach faster than normal"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "What are the main visual cues for rounding out?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Round out height and speed",
+        "b. Confirmation of decision height and closing speed",
+        "c. Closing speed and height check",
+        "d. Apparent speed of ground objects increases and texture of ground changes."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "How do misty/foggy conditions affect the pilots judgement on the approach?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Underestimating range due to illusionary effect through cockpit glass",
+        "b. Underestimating range due to the lights appearing dim",
+        "c. Underestimating range due to illusionary effect through cockpit glass",
+        "d. Overestimating range due to the lights appearing dim"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "If two aircraft are on a line of constant bearing, what is the likely outcome?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Depends whether by day or by night",
+        "b. They will collide",
+        "c. There will be a near miss",
+        "d. It is quite safe and they will pass well clear of each other"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "How will an oncoming aircraft on a line of constant bearing appear visually?",
+      "question_type": "MCQ",
+      "options": [
+        "a. There will be no relative movement and it will appear to be very small until seconds before the collision",
+        "b. There will be no relative movement and it will appear to be very small until seconds before the aircraft passes close by",
+        "c. There will be no relative movement and it will appear to be very small until seconds before the aircraft passes above",
+        "d. There will be no relative movement and it will appear to be very small until seconds before the aircraft passes well clear"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "What is the duration of a saccade and rest period?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 0.3 seconds",
+        "b. 0.5 seconds",
+        "c. 0.013 seconds",
+        "d. 1 second"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "What visual technique should be used when searching for an aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Sweep from side to side with the eyes covering the whole field of vision",
+        "b. Search the sky portion by portion starting on the left",
+        "c. Pinpoint 10° segments of the sky and confirm before passing onto another",
+        "d. Use a succession of small and rapid eye movements"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "Refraction, due to rain on the windscreen, makes the approach:",
+      "question_type": "MCQ",
+      "options": [
+        "a. steeper",
+        "b. shallower",
+        "c. faster",
+        "d. slower"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Expectation can affect perception.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "The blooming effect of rain makes:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the runway appear closer",
+        "b. the runway appear further away",
+        "c. does not effect runway perception",
+        "d. the instruments difficult to read"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "What are the laws that the Gestalt Theory propose?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The laws of Perception",
+        "b. The laws of Perceptual Illusions",
+        "c. The laws of Perceptual Reception",
+        "d. The laws of Perceptual Organization"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "A visual scan should cover the sky in overlapping sections of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5°",
+        "b. 10°",
+        "c. 15°",
+        "d. 20°"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "The scanning technique should differ by day and night.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "A distant aircraft is identified and remains on a constant relative bearing. You should:",
+      "question_type": "MCQ",
+      "options": [
+        "a. wait until the aircraft appears to grow larger before taking avoiding action",
+        "b. take avoiding action if you do not have right of way",
+        "c. take immediate avoiding action",
+        "d. wait two seconds to reidentify and then take avoiding action"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "Another name for the illusion associated with acceleration is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the somatogyral illusion",
+        "b. the somatogravic illusion",
+        "c. motion sickness",
+        "d. air sickness"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "If an illusion is known to be possible at a particular aerodrome, as Captain of the aircraft, you should:",
+      "question_type": "MCQ",
+      "options": [
+        "a. ensure you brief the crew",
+        "b. say nothing as it might frighten the crew",
+        "c. report the fact to operations so that other crews are aware of the danger",
+        "d. report the fact to your operator so that other crews are aware of the danger"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

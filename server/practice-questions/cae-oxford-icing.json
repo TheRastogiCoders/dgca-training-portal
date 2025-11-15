@@ -1,0 +1,218 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 16,
+  "chapter_title": "Icing",
+  "questions": [
+    {
+      "id": "1",
+      "question": "At temperatures of between $0^{\\circ}C$ and $-10^{\\circ}C$ clouds will consist of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. entirely water droplets",
+        "b. entirely ice crystals",
+        "c. mostly water vapour",
+        "d. mostly supercooled water droplets and a few ice crystals"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "Turbulent clouds are most serious from the icing standpoint because:",
+      "question_type": "MCQ",
+      "options": [
+        "a. strong vertical currents mean that a predominance of large supercooled water droplets will be present",
+        "b. strong vertical currents mean that a predominance of small supercooled water droplets will be present",
+        "c. turbulent clouds indicate a low freezing level",
+        "d. turbulent clouds produce hail which sticks to the aircraft"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "Hoar frost forms on an aircraft when:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the aircraft suddenly enters a cloud at below freezing temperature",
+        "b. the aircraft in subzero clear air suddenly enters a colder region",
+        "c. the aircraft in subzero clear air suddenly enters a warmer moist region",
+        "d. the aircraft suddenly enters a cloud which is at a higher temperature than the surrounding air"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "Most cases of serious piston engine icing occur in cloud, fog, or precipitation with a temperature range between:",
+      "question_type": "MCQ",
+      "options": [
+        "a. $-10^{\\circ}C$ to $+25^{\\circ}C$",
+        "b. $-18^{\\circ}C$ to $+5^{\\circ}C$",
+        "c. $-10^{\\circ}C$ to $0^{\\circ}C$",
+        "d. $-20^{\\circ}C$ to $+15^{\\circ}C$"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Stratus cloud of limited depth at a temperature of $-5^{\\circ}c$ will most likely give:",
+      "question_type": "MCQ",
+      "options": [
+        "a. moderate to heavy rime ice",
+        "b. moderate to heavy glaze ice",
+        "c. light to moderate rime ice",
+        "d. light to moderate glaze ice"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "Clear ice forms as a result of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. large supercooled water droplets spreading as they freeze",
+        "b. ice pellets splattering on the aircraft",
+        "c. small supercooled water droplets splashing over the aircraft",
+        "d. water vapour freezing to the aircraft"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "Orographic uplift in stable conditions gives a strong vertical component to air movement thus supporting larger supercooled droplets in orographically formed cloud. Consideration should also be given to the fact that in this cloud:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the $0^{\\circ}C$ isotherm will be higher",
+        "b. the $0^{\\circ}C$ isotherm will be lower",
+        "c. the lapse rate will be isothermal",
+        "d. an inversion can be anti-cyclonic"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Which of the following conditions is most favourable for the formation of carburettor icing if the aircraft is descending with glide power set?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Relative Humidity 25% Ambient Temperature $+25^{\\circ}C$",
+        "b. Relative Humidity 40% Ambient Temperature $+20^{\\circ}C$",
+        "c. Relative Humidity 50% Ambient Temperature $-10^{\\circ}C$",
+        "d. Relative Humidity 30% Ambient Temperature $-5^{\\circ}C$"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "Flying in large CU at a temperature of $-20^{\\circ}C,$ the amount of each cloud droplet that will freeze on impact with the aircraft will be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. all the droplet",
+        "b. $\\frac{1}{2}$ of the droplet",
+        "c. $\\frac{1}{4}$ of the droplet",
+        "d. 20% of the droplet"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "Carburettor icing is unlikely:",
+      "question_type": "MCQ",
+      "options": [
+        "a. in cloud",
+        "b. at temperatures between $-10^{\\circ}C$ and $-30^{\\circ}C$",
+        "c. in clear air",
+        "d. when the RH is 40%"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "Flying 50 NM ahead of a warm front out of cloud at 1000 ft in winter, with an ambient temperature of $-8^{\\circ}C$, there is a strong risk of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. hoar frost",
+        "b. rime icing and carburettor icing",
+        "c. structure damage caused by hail",
+        "d. clear ice in the form of rain ice"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "In AS cloud at FL170 and a temperature of $-20^{\\circ}C$ the airframe icing most likely to be experienced is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. moderate clear icing",
+        "b. light rime icing",
+        "c. hoar frost",
+        "d. severe clear icing"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Mixed (rime and clear) icing is most likely to be encountered:",
+      "question_type": "MCQ",
+      "options": [
+        "a. in nimbostratus at a temperature of $-10^{\\circ}C$",
+        "b. in stratocumulus cloud at a temperature of $-20^{\\circ}C$",
+        "c. in fair weather cumulus at a temperature of $-15^{\\circ}C$",
+        "d. in towering cumulus at a temperature of $-10^{\\circ}C$"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "When considering icing in cloud over high ground compared with icing in other clouds, the effect of orographic lifting is to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. cause the height of the freezing level to fall and increases the intensity of the icing",
+        "b. cause the height of the freezing level to rise and increases the severity of the icing",
+        "c. cause the free water content of the cloud to increase and the freezing level to rise so reducing the icing risk",
+        "d. increase the temperature inside the cloud due to the release of extra latent heat so reducing the icing risk"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "Kinetic heating will:",
+      "question_type": "MCQ",
+      "options": [
+        "a. increase the risk of icing if it raises the airframe temperature to just below $0^{\\circ}C$",
+        "b. increase the risk of icing if it raises the airframe temperature to just above $0^{\\circ}C$",
+        "c. always increase the risk of airframe icing",
+        "d. always decrease the risk of airframe icing"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    }
+  ]
+}
+

@@ -1,0 +1,218 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 5,
+  "chapter_title": "Temperature",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The measurement of surface temperature is made:",
+      "question_type": "MCQ",
+      "options": [
+        "a. at ground level",
+        "b. at approximately 10 metres from ground level",
+        "c. at approximately 4 feet above ground level",
+        "d. at approximately 4 metres above ground level"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "The purpose of a \"Stevenson screen\" is to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. maintain a moist atmosphere so that the wet bulb thermometer can function correctly",
+        "b. prevent the mercury freezing in the low winter temperatures",
+        "c. protect the thermometer from wind, weather and from direct sunshine",
+        "d. keep the wet and dry bulb thermometers away from surface extremes of temperature"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "If temperature remains constant with an increase in altitude there is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. an inversion",
+        "b. an inversion aloft",
+        "c. uniform lapse rate",
+        "d. an isothermal layer"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "The surface of the earth is heated by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. convection",
+        "b. conduction",
+        "c. long wave solar radiation",
+        "d. short wave solar radiation"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Cloud cover will reduce diurnal variation of temperature because:",
+      "question_type": "MCQ",
+      "options": [
+        "a. incoming solar radiation is reflected back to space and outgoing terrestrial radiation is reflected back to earth",
+        "b. incoming solar radiation is re-radiated back to space and atmospheric heating by convection will stop at the level of the cloud layer",
+        "c. the cloud stops the sun's rays getting through to the earth and also reduces outgoing conduction",
+        "d. incoming solar radiation is reflected back to space and outgoing terrestrial radiation is re-radiated from the cloud layer back to the surface"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "Diurnal variation of the surface temperature will:",
+      "question_type": "MCQ",
+      "options": [
+        "a. be unaffected by a change of wind speed",
+        "b. decrease as wind speed increases",
+        "c. increase as wind speed increases",
+        "d. be at a minimum in calm conditions"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "Which of the following surfaces is likely to produce a higher than average diurnal variation of temperature:",
+      "question_type": "MCQ",
+      "options": [
+        "a. rock or concrete",
+        "b. water",
+        "c. snow",
+        "d. vegetation"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Most accurate temperatures above ground level are obtained by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. tephigram",
+        "b. aircraft reports",
+        "c. temperature probe",
+        "d. radiosonde"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "The method by which energy is transferred from one body to another by contact is called:",
+      "question_type": "MCQ",
+      "options": [
+        "a. radiation",
+        "b. convection",
+        "c. conduction",
+        "d. latent heat"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "The diurnal variation of temperature is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. greater over the sea than overland",
+        "b. less over desert areas then over temperate grassland",
+        "c. reduced anywhere by the presence of cloud",
+        "d. increased anywhere as wind speed increases"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "The troposphere is heated largely by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. absorption of the sun's short wave radiation",
+        "b. radiation of heat from cloud tops and the earth's surface",
+        "c. absorption by ozone of the sun's short wave radiation",
+        "d. conduction from the surface, convection and the release of latent heat"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "An inversion is one in which:",
+      "question_type": "MCQ",
+      "options": [
+        "a. there is no horizontal gradient of temperature",
+        "b. there is no change of temperature with height",
+        "c. there is an increase of temperature as height increases",
+        "d. there is a decrease of temperature as height increases"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "The sun gives out ______ amount of energy with ______ wavelengths. The earth gives out relatively ______ amounts of energy with relatively ______ wavelengths:",
+      "question_type": "MCQ",
+      "options": [
+        "a. large, large, small, small",
+        "b. small, small, large, large",
+        "c. large, large, small, large",
+        "d. large, small, small, large"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "With a clear night sky, the temperature change with height by early morning is most likely to show:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a steady lapse rate averaging $2^{\\circ}C$ per 1000 ft",
+        "b. a stable lapse rate of $1^{\\circ}C$ per 1000 ft",
+        "c. an inversion above the surface with an isothermal layer above",
+        "d. an inversion from near the surface and a $2^{\\circ}C$ per 1000 ft lapse rate above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "Over continents and oceans, the relative temperature conditions are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. warmer in winter over land, colder in summer over sea",
+        "b. colder in winter over land, warmer in winter over sea",
+        "c. cold in winter over land and sea",
+        "d. warmer in summer over land and sea"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

@@ -58,6 +58,52 @@ const defaultChapters = {
       'Search and Rescue',
       'Security',
       'Aircraft Accident and Incident Investigation'
+    ],
+    'air-law': [
+      'International Agreements and Organizations',
+      'Airworthiness of Aircraft',
+      'Aircraft Nationality and Registration Marks',
+      'Flight Crew Licensing',
+      'Rules of the Air',
+      'Instrument Procedures - Departures',
+      'Approach Procedures',
+      'Circling Approach',
+      'Holding Procedures',
+      'Altimeter Setting Procedure',
+      'Parallel or Near-parallel Runway Operation',
+      'SSR and ACAS',
+      'Airspace',
+      'Air Traffic Services',
+      'Separation',
+      'Control of Aircraft',
+      'Aeronautical Information Service (AIS)',
+      'Aerodromes - Physical Characteristics',
+      'Aerodromes - Visual Aids, Markings and Signs',
+      'Aerodrome Lighting',
+      'Obstacle Marking and Aerodrome Services',
+      'Facilitation',
+      'Search and Rescue',
+      'Security',
+      'Aircraft Accident and Incident Investigation'
+    ],
+    'human-performance-and-limitations': [
+      'The Circulation System',
+      'Oxygen and Respiration',
+      'The Nervous System, Ear, Hearing and Balance',
+      'The Eye and Vision',
+      'Flying and Health',
+      'Stress',
+      'Information Processing, Human Error & the Learning Process',
+      'Behaviour and Motivation',
+      'Cognition in Aviation',
+      'Sleep and Fatigue',
+      'Individual Differences and Interpersonal Relationships',
+      'Communication and Cooperation',
+      'Man and Machine',
+      'Decision Making and Risk',
+      'Human Factors Incident Reporting',
+      'Introduction to Crew Resource Management',
+      'Specimen Questions'
     ]
   },
   'air-navigation': {
@@ -89,6 +135,15 @@ const defaultChapters = {
       'ATC Flight Plan',
       'Point of Equal Time (PET)',
       'Point of Safe Return (PSR)'
+    ],
+    'performance': [
+      'Mass and Balance and Performance',
+      'Definitions and Calculations',
+      'General Principles - Descent',
+      'Single-engine Class B Aircraft - Take-off',
+      'Multi-engine Class B - Take-off',
+      'Class A - En Route',
+      'Landing'
     ]
   },
   'meteorology': {
@@ -105,6 +160,37 @@ const defaultChapters = {
       'Thunderstorms & Convection',
       'Fog & Low Visibility',
       'Climatology for Aviation'
+    ],
+    'cae-oxford': [
+      'The Atmosphere',
+      'Pressure',
+      'Density',
+      'Pressure Systems',
+      'Temperature',
+      'Humidity',
+      'Adiabatics and Stability',
+      'Turbulence',
+      'Altimetry',
+      'Winds',
+      'Upper Winds',
+      'Clouds',
+      'Cloud Formation and Precipitation',
+      'Thunderstorms',
+      'Visibility',
+      'Icing',
+      'Air Masses',
+      'Occlusions',
+      'Other Depressions',
+      'Global Climatology',
+      'Local Winds and Weather',
+      'Area Climatology',
+      'Route Climatology',
+      'Satellite Observations',
+      'Meteorological Aerodrome Reports (METARs)',
+      'Terminal Aerodrome Forecasts (TAFs)',
+      'Significant Weather and Wind Charts',
+      'Warning Messages',
+      'Meteorological Information for Aircraft in Flight'
     ]
   },
   'technical-general': {
@@ -194,6 +280,10 @@ const BookChapters = () => {
     if (list.length === 0 && subjectSlug === 'air-regulations' && bookSlug === 'cae-oxford') {
       list = bySubject['oxford'] || [];
     }
+    // Handle 'cae-oxford' slug for meteorology
+    if (list.length === 0 && subjectSlug === 'meteorology' && bookSlug === 'cae-oxford') {
+      list = bySubject['cae-oxford'] || [];
+    }
     // Debug: log what we're looking for
     if (list.length === 0) {
       console.log('No chapters found for:', { subjectSlug, bookSlug, availableBooks: Object.keys(bySubject) });
@@ -207,7 +297,8 @@ const BookChapters = () => {
   }, [subjectSlug, bookSlug]);
 
   const subjectName = friendly(subjectSlug);
-  const bookName = subjectSlug === 'air-regulations' && (bookSlug === 'oxford' || bookSlug === 'cae-oxford')
+  const bookName = (subjectSlug === 'air-regulations' && (bookSlug === 'oxford' || bookSlug === 'cae-oxford'))
+    || (subjectSlug === 'meteorology' && (bookSlug === 'cae-oxford' || bookSlug === 'oxford'))
     ? 'CAE Oxford' 
     : friendly(bookSlug);
 

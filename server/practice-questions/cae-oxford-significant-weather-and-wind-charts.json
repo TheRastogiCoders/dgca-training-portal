@@ -1,0 +1,246 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 27,
+  "chapter_title": "Significant Weather and Wind Charts",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The highest tropopause height en route would be at:",
+      "question_type": "MCQ",
+      "options": [
+        "a. overhead $20^{\\circ}E$",
+        "b. overhead Madrid",
+        "c. Larnaca",
+        "d. $10^{\\circ}E$"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "The CAT expected at $5^{\\circ}E$ en route would be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. moderate between FL230 and FL460",
+        "b. moderate from below FL100 to FL160",
+        "c. moderate from FL260 to FL370",
+        "d. moderate between FL290 to FL440"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "If this route was flown at FL290 moderate to severe turbulence and icing could be expected at:",
+      "question_type": "MCQ",
+      "options": [
+        "a. $5^{\\circ}E$",
+        "b. $10^{\\circ}E$",
+        "c. overhead Larnaca",
+        "d. $25^{\\circ}E$"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "The mean wind velocity and temperature between Madrid and $30^{\\circ}E$ would be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 295/70-40",
+        "b. 290/80-45",
+        "c. 270/75 42",
+        "d. 260/70 38"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "The ISA deviation overhead Madrid is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. ISA -4",
+        "b. $ISA+4$",
+        "c. $ISA+5$",
+        "d. $ISA\\div3$"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "The highest ground speed would be achieved at:",
+      "question_type": "MCQ",
+      "options": [
+        "a. $25^{\\circ}E$",
+        "b. $15^{\\circ}E$",
+        "c. $30^{\\circ}E$",
+        "d. $20^{\\circ}E$"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "The visibility at MKPP at 1600 Z is expected to be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2000 m",
+        "b. 3000 m",
+        "c. 5000 m",
+        "d. 10 km or more"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "The lowest cloud base forecast for MKPP at 1100 is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2400 ft AMSL",
+        "b. above 5000 ft AMSL",
+        "c. 2400 ft AGL",
+        "d. 1000 ft AGL"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "The highest surface wind speed at MKPP is expected between:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 0600 Z and 0600 Z",
+        "b. 0600 Z and 1200 Z",
+        "c. 1200 Z and 1500 Z",
+        "d. 0800 Z and 1200 Z"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "At KBOS at 1100 Z which of the following weather conditions are expected?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Visibility of 28 km",
+        "b. $8/8$ cloud at 2800 ft",
+        "c. 40% chance or moderate snow",
+        "d. Surface wind of 05025KT"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "At KBOS at 0600 Z the visibility is expected to be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5000 m",
+        "b. more than 10 km",
+        "c. 2800 m",
+        "d. 1012 m"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "Refer to appendix C to answer this question. What is the average temperature between 5730N 0500W and 5730N 0230W at FL075?",
+      "question_type": "MCQ",
+      "options": [
+        "a. $-01^{\\circ}C$",
+        "b. $-04^{\\circ}C$",
+        "c. $+03^{\\circ}C$",
+        "d. $+01^{\\circ}C$"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Refer to appendix C to answer this question. What is the average wind velocity between 60N 0730W and 60N 0230E at FL140?",
+      "question_type": "MCQ",
+      "options": [
+        "a. $215^{\\circ}T/50~k$",
+        "b. $225^{\\circ}T/55~k$ kt",
+        "c. $220^{\\circ}T/50~k$ kt",
+        "d. $220^{\\circ}T/35~k$"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "Refer to appendix C to answer this question. What is the stability between FL050 and FL100 at 5230N 05W?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Absolute instability",
+        "b. Absolute stability",
+        "c. Conditional stability",
+        "d. Conditional stability"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "Refer to appendix D to answer this question. What is the worst visibility likely to be experienced in SW England?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 20 km",
+        "b. <1000 m",
+        "c. 5000 m",
+        "d. 3000 m"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "Refer to appendix D to answer this question. What is the altitude of the lowest cloud likely to be experienced over Scotland?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 500 ft",
+        "b. 1500 ft",
+        "c. 800 ft",
+        "d. 2000 ft"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "Refer to appendix D to answer this question. In which area is the most severe weather likely to be experienced?",
+      "question_type": "MCQ",
+      "options": [
+        "a. D",
+        "b. B",
+        "c. A",
+        "d. C"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    }
+  ]
+}
+

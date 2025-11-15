@@ -1,0 +1,288 @@
+{
+  "book_name": "CAE Oxford Human Performance and Limitations",
+  "chapter_number": "13",
+  "chapter_title": "Communication and Cooperation",
+  "questions": [
+    {
+      "id": "1",
+      "question": "CFIT means:",
+      "question_type": "MCQ",
+      "options": [
+        "a. controlled flight in terminal airspace",
+        "b. controlled flight into terrain",
+        "c. controlled flying in training",
+        "d. controlled flying in taxiways (helicopters)"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "An \"implicit\" question:",
+      "question_type": "MCQ",
+      "options": [
+        "a. is another name for closed questions",
+        "b. requires deductions to be made before an answer is possible",
+        "c. does not require deductions to be made before an answer is possible",
+        "d. requires a quick answer"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "Good Synergy is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1 + 1 = 2",
+        "b. 1 + 1 = <2",
+        "c. 1 + 1 = <4",
+        "d. 1 + 1 = >2"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "Coordination is divided into the three following types:",
+      "question_type": "MCQ",
+      "options": [
+        "a. redundant actions, temporal and coaction",
+        "b. redundant actions, general cooperation and coaction",
+        "c. general cooperation, temporal and coaction",
+        "d. cognitive coaction, general cooperation and temporal"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Synchronization can be said to be divided into:",
+      "question_type": "MCQ",
+      "options": [
+        "a. temporal synchronization and rational synchronization",
+        "b. cognitive synchronization and temporal synchronization",
+        "c. cognitive synchronization, temporal synchronization, rational synchronization",
+        "d. cognitive synchronization and rational synchronization"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "One BIT of communication is the quantity of information which reduces the uncertainty of the Receiver by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 75%-85%",
+        "b. 65-75%",
+        "c. 55-75%",
+        "d. 50%"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "Hypertext:",
+      "question_type": "MCQ",
+      "options": [
+        "a. can alter according to the situation",
+        "b. is fixed for all situations",
+        "c. can alter according to the tone",
+        "d. can alter as to the meaning implied"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "The contents of a transmitter's message will depend on:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the receiver's image of the transmitter",
+        "b. the transmitter's image of the receiver",
+        "c. the transmitter's image of the situation",
+        "d. the transmitter's image of the perceived situation"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "The following is/are the first to suffer from interhuman conflicts:",
+      "question_type": "MCQ",
+      "options": [
+        "a. concentration and focus on the job in hand",
+        "b. situation awareness",
+        "c. communications and cockpit harmony",
+        "d. communications and quality of work"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "Having interrupted your Captain for a sound reason you must:",
+      "question_type": "MCQ",
+      "options": [
+        "a. attempt to establish eye contact with him/her",
+        "b. remind him/her of his/her last action before the interruption",
+        "c. make sure there is no ATC traffic on the radio",
+        "d. you must never interrupt"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "A briefing should consist of less than:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 7 ideas",
+        "b. 10 ideas",
+        "c. 7 sentences",
+        "d. 10 sentences"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "Among the rules to improve crew cooperation are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. good briefings and awareness of cultural differences",
+        "b. good briefings and a harmonious cockpit atmosphere",
+        "c. use professional language",
+        "d. resist putting your opinion forward first"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "What are the five hazardous attitudes which play a leading role in the inability of an individual to cope with a potentially dangerous situation?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Anti-authority, Overconfident, Invulnerable, Macho and Resigned",
+        "b. Anti-authority, Impulsive, Invulnerable, Macho and Resigned",
+        "c. Anti-authority, Impulsive, Invulnerable, Macho and Overconfident",
+        "d. Overconfident, Impulsive, Invulnerable, Macho and Resigned"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "Communication in the cockpit is primarily used for what purpose?",
+      "question_type": "MCQ",
+      "options": [
+        "a. It is the main tool to ensure coordination",
+        "b. It is the main tool to ensure comprehension",
+        "c. It is the main tool to ensure harmony",
+        "d. It is the main tool to ensure understanding"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "What is meant by the term \"synergy\"?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Synergy is the state where the individual performances exceeds the sum of the group performance",
+        "b. Synergy is the state where the group performance exceeds the sum of the individual performances",
+        "c. Synergy is the state where the group performance exceeds the sum of the individual performances by 50%",
+        "d. Synergy is the state where the individual performances exceeds the sum of the group performance by 50%"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "In coordinated action what does the term \"redundant actions\" mean?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The strict duplication of actions by various individuals",
+        "b. The strict duplication of actions by two individuals",
+        "c. Actions which are in the past",
+        "d. Actions which have been covered by the checklist"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "What is meant by \"coaction\"?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Individuals working in the different environments but sharing the same general objectives and working independently in carrying out their actions",
+        "b. An action by the co-pilot",
+        "c. The strict duplication of actions by various individuals",
+        "d. Individuals working in the same environment and sharing the same general objectives but working independently in carrying out their actions"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "In communications what is hypertext?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The set of implicit information contained in a written text or spoken message",
+        "b. A recommended layout for checklists",
+        "c. The set of implicit information contained in a spoken message",
+        "d. A recommended layout for checklists and emergency drills"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "What is a dialogue?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A conversation between two people",
+        "b. A series of communications on different subjects between a transmitter and receiver",
+        "c. A series of communications on the same subject between a transmitter and receiver",
+        "d. A communication between two or more people or machines"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "What are the key points of a good briefing?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Individual, understood and simple",
+        "b. Individual, clear and simple",
+        "c. Individual, understood and short",
+        "d. Simple, clear, understood and individual"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}
+

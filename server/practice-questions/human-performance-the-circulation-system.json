@@ -1,0 +1,284 @@
+{
+  "book_name": "CAE Oxford Human Performance and Limitations",
+  "chapter_number": "2",
+  "chapter_title": "The Circulation System",
+  "questions": [
+    {
+      "id": "1",
+      "question": "How is oxygen transported around the body?",
+      "question_type": "MCQ",
+      "options": [
+        "a. By red blood cells combined with carbon dioxide",
+        "b. By red blood cells combined with nitrogen and water vapour",
+        "c. By red blood cells combined with haemoglobin",
+        "d. By red blood cells combined with nitrogen, hormones and plasma"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "How is the rate and depth of breathing controlled?",
+      "question_type": "MCQ",
+      "options": [
+        "a. By the amount of oxyhaemoglobin in the blood and lungs",
+        "b. By the amount of haemoglobin in the blood and the lungs",
+        "c. By the amount of carbon monoxide and oxygen in the blood",
+        "d. By the amount of carbonic acid in the blood"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "What is the function of the left and right ventricle?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Left: Pumps deoxygenated blood to the lungs Right: Pumps oxygenated blood around the body",
+        "b. Left: Pumps oxygenated blood around the body Right: Pumps deoxygenated blood to the lungs",
+        "c. Left: Pumps oxygenated blood to the lungs Right: Pumps deoxygenated blood around the body",
+        "d. Left: Pumps oxygenated blood to the lungs Right: Pumps oxygenated blood around the body"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "The factor which most increases the risk of coronary heart disease is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. family history",
+        "b. lack of exercise",
+        "c. obesity",
+        "d. smoking"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "What is the carcinogenic content of a cigarette?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Nicotine",
+        "b. Tar",
+        "c. The type of tobacco",
+        "d. The wrapping"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "Angina is a pain associated with the heart which is felt only across the chest. This statement is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. true",
+        "b. untrue"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "List the symptoms of carbon monoxide poisoning:",
+      "question_type": "MCQ",
+      "options": [
+        "a. difficulty in breathing, ruddy complexion, headache, stomach cramps, nausea,",
+        "b. ruddy complexion, headache, stomach cramps, nausea, lethargy",
+        "c. ruddy complexion, headache, nausea, giddiness, stomach cramps",
+        "d. ruddy complexion, headache, tightness across the forehead, impaired judgement"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Why is it essential to ensure that the combustion heaters are serviceable?",
+      "question_type": "MCQ",
+      "options": [
+        "a. To prevent carbon dioxide poisoning and possible fire",
+        "b. To prevent carbon dioxide poisoning, possible fire or explosion",
+        "c. To prevent carbon monoxide poisoning",
+        "d. To prevent carbon dioxide poisoning and possible fire"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "The effects of smoking, particularly in relation to aviation are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. an early onset of hypoxia due to an apparent increase in altitude and a degradation of night vision",
+        "b. an early onset of hypoxia due to an apparent increase in altitude",
+        "c. an early onset of hypoxia due to an apparent increase in altitude up to a maximum of 40000 ft",
+        "d. an early onset of hypoxia due to an apparent increase in altitude with a resulting risk of anaemia"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "Will smokers experience hypoxia at a lower or higher cabin altitude than non-smokers?",
+      "question_type": "MCQ",
+      "options": [
+        "a. At a higher cabin altitude",
+        "b. At a lower cabin altitude",
+        "c. Both will experience hypoxia at approximately the same cabin altitude",
+        "d. Smoking, although harmful in other ways, lessens the effects of hypoxia"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "A pilot must wait at least 24 hours before flying after donating blood.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "Where does the exchange of oxygen and carbon dioxide + water vapour take place:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the arteries",
+        "b. the veins",
+        "c. the capillaries",
+        "d. the pulmonary veins and arteries"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "The normal range of blood pressure is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. systolic 120 mm Hg and diastolic 80 mm Hg",
+        "b. systolic 80 mm Hg and diastolic 120 mm Hg",
+        "c. systolic 120 mm Hg and diastolic 120 mm Hg",
+        "d. systolic 80 mm Hg and diastolic 80 mm Hg"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "Pressoreceptors affect the:",
+      "question_type": "MCQ",
+      "options": [
+        "a. ECG readings",
+        "b. tightening and relaxation of the blood vessels only",
+        "c. EEG readings",
+        "d. tightening and relaxation of the blood vessels and the pulse rate"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "Hypotension is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. high blood pressure",
+        "b. high pulse rate",
+        "c. low blood pressure",
+        "d. low pulse rate"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "Haemoglobin has a preference to carbon monoxide over oxygen by a factor of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 100-120",
+        "b. 210-250",
+        "c. 200",
+        "d. 10-20"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "Treatment of carbon monoxide poisoning should include:",
+      "question_type": "MCQ",
+      "options": [
+        "a. immediate descent to MSA",
+        "b. turn up cabin heat",
+        "c. keep the patient's body temperature as low as possible",
+        "d. stop all smoking"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "Low blood pressure can lead to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. low body temperature",
+        "b. reduced tolerance to g-forces",
+        "c. infarct",
+        "d. angina"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "Cardiac output (the quantity of blood pumped by the heart per unit time), is the product of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. stroke volume and the heart rate (pulse rate)",
+        "b. stroke volume and viscosity of the blood",
+        "c. pulse rate and strength of the ventricle muscle",
+        "d. pulse rate only"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "Internal Respiration is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the brain's control of the pulse rate",
+        "b. the exchange of oxygen with carbon dioxide and water in the cells",
+        "c. sighing",
+        "d. the retention of breath"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

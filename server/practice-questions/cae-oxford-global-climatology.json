@@ -1,0 +1,554 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 20,
+  "chapter_title": "Global Climatology",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The tropical transitional climatic zone is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. approximately $20^{\\circ}-30^{\\circ}$ of latitude and provides very dry desert conditions throughout the year",
+        "b. approximately $10^{\\circ}-20^{\\circ}$ of latitude and provides dry trade wind conditions in winter and a wet summer season",
+        "c. approximately $10^{\\circ}-20^{\\circ}$ of latitude and provides a wet winter season and a dry hot summer",
+        "d. approximately $10^{\\circ}-30^{\\circ}$ of latitude and has a period of long rains in spring and autumn, but is never dry"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "The temperate transitional climatic zone is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. approximately $20^{\\circ}-35^{\\circ}$ of latitude and covers the high pressure desert regions of the world",
+        "b. approximately $35^{\\circ}-40^{\\circ}$ of latitude and is under the influence of polar front depressions throughout the year",
+        "c. approximately 35°-40° of latitude and provides a warm dry summer with a cool wet winter",
+        "d. approximately $35^{\\circ}-40^{\\circ}$ of latitude and provides a wet summer season and a dry cold winter"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "Northern Hemisphere summers tend to be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. warmer than the Southern Hemisphere and winters are warmer too",
+        "b. colder than the Southern Hemisphere due to the smaller amount of solar radiation",
+        "c. colder than the Southern Hemisphere because of the large land masses",
+        "d. warmer than the Southern Hemisphere and the winters are colder"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "The effect of mountain barriers on temperature is exemplified by the following:",
+      "question_type": "MCQ",
+      "options": [
+        "a. European temperatures are low in winter because there is no barrier to prevent cold Atlantic air crossing the area",
+        "b. the Rocky mountains of North America prevent cold Pacific air reaching inland, so summer temperatures to the east of the mountains are high",
+        "c. the Himalayas prevent warm dry air from Russia reaching India and Pakistan",
+        "d. the Ural mountains of West Russia prevent most of the cold Siberian air reaching Europe in summer"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "The tropopause is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. more or less constant for any latitude",
+        "b. is a boundary layer between the troposphere and the stratosphere",
+        "c. normally the upper limit of weather",
+        "d. the upper limit for jet streams and mountain waves"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "Statistical pressure values tend to be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. on average parallel to the lines of latitude",
+        "b. on average parallel to the lines of latitude in the Southern Hemisphere and much more variable in the Northern Hemisphere",
+        "c. much lower in winter in the Northern Hemisphere than in the Southern Hemisphere",
+        "d. higher over the oceans in winter"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "The heat equator is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. another name for the geographic equator",
+        "b. coincident with the equatorial trough and ITCZ",
+        "c. a line over the land joining places where the summer temperatures are highest",
+        "d. a line over the land joining places where the winter temperatures are highest"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "The average temperature around the equatorial regions:",
+      "question_type": "MCQ",
+      "options": [
+        "a. is always above $+40^{\\circ}C$",
+        "b. is higher over the sea areas",
+        "c. varies on average from winter to summer by only some $5^{\\circ}C$",
+        "d. has a very high range of temperatures throughout the year"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "Trade winds:",
+      "question_type": "MCQ",
+      "options": [
+        "a. blow towards the subtropical anticyclones",
+        "b. are caused by lifting over the heat equator and the subsequent air movements from the subtropical anticyclones",
+        "c. only blow in the winter months",
+        "d. blow from the equatorial low pressure systems throughout the year"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "Trade winds in the Southern Hemisphere are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. southeasterly",
+        "b. southeast at first becoming southwest",
+        "c. in opposition to the monsoons",
+        "d. usually from the northeast"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "The Hadley cell is the name given to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the CU cells which continue to form a CB",
+        "b. an initial bubble of air which is lifted by convection",
+        "c. the centre portion of a jet stream",
+        "d. a cell formed by lifted air over the heat equator descending to the subtropical highs"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "The large change in the direction of trade winds is caused by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. local pressure differences",
+        "b. an excess of air at height in association with the Hadley cells",
+        "c. the change in geostrophic force when crossing the geographic equator",
+        "d. the cyclostrophic force in the equatorial regions"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Monsoons are seasonal winds which:",
+      "question_type": "MCQ",
+      "options": [
+        "a. develop due to the high pressure over continents in winter and the subsequent low pressure which develops over the same areas in summer",
+        "b. are never in combination with trade winds",
+        "c. are from the southeasterly direction over the Indian sub continent in summer",
+        "d. blow only in the southeast Asia region"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "The outflow from the Siberian High:",
+      "question_type": "MCQ",
+      "options": [
+        "a. is northwesterly over Japan, northerly and northeasterly over China and northerly over the whole of India",
+        "b. is the source of Polar Maritime air",
+        "c. is northwesterly over Japan, northeasterly over southeast Asia and easterly over Europe",
+        "d. is evident throughout the year"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "The upper winds tend to be westerly outside the tropics because:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the rotation of the earth is west to east",
+        "b. the thermal winds are westerly on average",
+        "c. surface winds are nearly always westerly",
+        "d. jet streams are usually westerly"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "Jet stream main locations are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. in the warm air some 400 NM ahead of a warm or cold front and near the subtropical highs",
+        "b. in the warm air some 400 NM ahead of a warm front and some 200 NM behind a cold front and near the subtropical highs",
+        "c. only in association with the polar front",
+        "d. in association with the polar front and with mountain waves"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "Jet streams:",
+      "question_type": "MCQ",
+      "options": [
+        "a. only occur in the troposphere",
+        "b. have a speed in excess of 80 kt",
+        "c. are located above the tropopause",
+        "d. are caused by a large difference in mean temperature in the horizontal"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "Near the Equator upper winds tend to be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. easterly",
+        "b. westerly",
+        "c. at speeds greater than 60 kt",
+        "d. calm"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "The polar front is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the boundary surface between polar continental and tropical continental air",
+        "b. near the poles",
+        "c. only apparent over the Atlantic ocean",
+        "d. the region where warm sector depressions develop"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "The ITCZ is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the region between the two trade wind systems centred on the heat equator",
+        "b. the boundary region between the two monsoons",
+        "c. the boundary between polar air and equatorial air",
+        "d. a region of calm winds and layer type clouds with much haze"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "Tropical revolving storms:",
+      "question_type": "MCQ",
+      "options": [
+        "a. are a summer weather feature",
+        "b. are easily predictable",
+        "c. can be very active well inland",
+        "d. can travel at speeds of 100 kt"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "The areas of greatest rainfall are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. those where there is much polar front depression activity",
+        "b. in the equatorial regions",
+        "c. in the polar regions",
+        "d. in central North America in summer due to the large convective cloud formations"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "Thunderstorms most frequently occur:",
+      "question_type": "MCQ",
+      "options": [
+        "a. in association with the ITCZ over central Africa",
+        "b. over the east Indies area (Java) due to the intense surface heating",
+        "c. in regions affected by cold fronts",
+        "d. in association with tropical revolving storms"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "24",
+      "question": "Dust storms and haze are most common:",
+      "question_type": "MCQ",
+      "options": [
+        "a. in association with the subtropical anticyclones over land",
+        "b. with the Haboobs in winter",
+        "c. in unstable air with low pressure",
+        "d. in temperate latitudes"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "25",
+      "question": "The most notorious advection fogs occur:",
+      "question_type": "MCQ",
+      "options": [
+        "a. over southwest UK",
+        "b. over the sea in the region of Newfoundland and the Kamchatka peninsula",
+        "c. over Europe with high pressure to the north",
+        "d. over central North America in autumn and winter"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "26",
+      "question": "The cloud to be expected along the front at A3 in Appendix A is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. CU CB",
+        "b. ST SC",
+        "c. ST NS",
+        "d. AS NS"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "27",
+      "question": "The cloud to be expected at B2 between the fronts in Appendix A is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. AS",
+        "b. ST SC",
+        "c. NS",
+        "d. NIL"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "28",
+      "question": "The cloud to be expected at C2 along the front in Appendix A is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. CU CB",
+        "b. AS NS",
+        "c. ST SC",
+        "d. AC"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "29",
+      "question": "The cloud to be expected along the front at A2 in Appendix A is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. CI",
+        "b. AS NS",
+        "c. ST",
+        "d. CU"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "30",
+      "question": "The average surface level winds at A3, B3 and C3 in Appendix A are respectively:",
+      "question_type": "MCQ",
+      "options": [
+        "a. easterly, westerly, southwesterly",
+        "b. westerly, westerly, southwesterly",
+        "c. southwesterly, westerly, northwesterly",
+        "d. southwesterly, westerly, northerly"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "31",
+      "question": "The average upper winds at A1, B1 and C1 in Appendix A are respectively:",
+      "question_type": "MCQ",
+      "options": [
+        "a. easterly, westerly, northwesterly",
+        "b. northwesterly, westerly, southwesterly",
+        "c. southwesterly, westerly, northwesterly",
+        "d. southwesterly, westerly, northerly"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "32",
+      "question": "The names of the air masses indicated A, B, C and D at Appendix B are respectively:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Polar Maritime, Polar Continental, Tropical Maritime, Tropical Continental",
+        "b. Returning Polar Maritime, Arctic, Tropical Continental, Tropical Maritime",
+        "c. Polar Maritime, Arctic, Tropical Continental, Tropical Maritime",
+        "d. Polar Maritime, Arctic, Polar Continental, Tropical Maritime"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "33",
+      "question": "The names of the air masses indicated E, F, G and H at Appendix B are respectively:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Tropical Maritime, Polar Continental, Tropical Continental, Arctic",
+        "b. Polar Continental, Tropical Maritime, Tropical Continental, Arctic",
+        "c. Polar Continental, Tropical Continental, Tropical Maritime, Arctic",
+        "d. Tropical Maritime, Polar Maritime, Tropical Continental, Polar Maritime"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "34",
+      "question": "REFER TO THE ABOVE DIAGRAM FOR QUESTIONS 34-39.\nIn area L the main wet seasons will be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. at the equinoxes",
+        "b. in January/February",
+        "c. in July/August",
+        "d. in November/December"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "35",
+      "question": "In area M in winter there will be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. equatorial rains",
+        "b. extensive low cloud",
+        "c. the Doldrums",
+        "d. dry trade wind conditions"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "36",
+      "question": "In area N there will be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. extensive winter rains",
+        "b. anticyclonic desert areas",
+        "c. dry summers and wet winters",
+        "d. polar front weather"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "37",
+      "question": "In area O the climate will include:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the trade winds",
+        "b. dry warm summers and a wet winter season",
+        "c. steppe type with grassy plains",
+        "d. a wet summer and dry cold winters"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "38",
+      "question": "In area P the main weather factor will be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. polar front depressions",
+        "b. depressions in winter, anticyclones in summer",
+        "c. monsoon weather",
+        "d. extensive low cloud throughout the year"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "39",
+      "question": "In area Q the climate will include:",
+      "question_type": "MCQ",
+      "options": [
+        "a. polar front depressions",
+        "b. cold anticyclonic weather",
+        "c. temperatures above zero for 3 months of the year",
+        "d. good visibility throughout the year"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

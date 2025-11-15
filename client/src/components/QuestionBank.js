@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo, useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
@@ -44,6 +44,7 @@ const QuestionBank = () => {
   const [showComingSoonModal, setShowComingSoonModal] = useState(false);
   const [clickedChapter, setClickedChapter] = useState(null);
   const [showBookComingSoonModal, setShowBookComingSoonModal] = useState(false);
+  const subBooksRef = useRef(null);
 
   const subjects = [
     {
@@ -427,6 +428,119 @@ const airRegulationsOxfordBooks = [
   }
 ];
 
+const airRegulationsSubBooks = [
+  {
+    id: 1,
+    title: "Air Law",
+    description: "CPL/ATPL Ground Training Series",
+    icon: "⚖️",
+    color: "from-blue-500 to-blue-600",
+    slug: "air-law",
+    totalQuestions: 525,
+    difficulty: "Medium",
+    chapters: [
+      { id: 1, name: "International Agreements and Organizations", questions: 26, difficulty: "Medium" },
+      { id: 2, name: "Airworthiness of Aircraft", questions: 4, difficulty: "Medium" },
+      { id: 3, name: "Aircraft Nationality and Registration Marks", questions: 12, difficulty: "Medium" },
+      { id: 4, name: "Flight Crew Licensing", questions: 55, difficulty: "Medium" },
+      { id: 5, name: "Rules of the Air", questions: 51, difficulty: "Medium" },
+      { id: 6, name: "Instrument Procedures - Departures", questions: 13, difficulty: "Medium" },
+      { id: 7, name: "Approach Procedures", questions: 46, difficulty: "Medium" },
+      { id: 8, name: "Circling Approach", questions: 8, difficulty: "Medium" },
+      { id: 9, name: "Holding Procedures", questions: 5, difficulty: "Medium" },
+      { id: 10, name: "Altimeter Setting Procedure", questions: 10, difficulty: "Medium" },
+      { id: 11, name: "Parallel or Near-parallel Runway Operation", questions: 9, difficulty: "Medium" },
+      { id: 12, name: "SSR and ACAS", questions: 8, difficulty: "Medium" },
+      { id: 13, name: "Airspace", questions: 37, difficulty: "Medium" },
+      { id: 14, name: "Air Traffic Services", questions: 36, difficulty: "Medium" },
+      { id: 15, name: "Separation", questions: 50, difficulty: "Medium" },
+      { id: 16, name: "Control of Aircraft", questions: 40, difficulty: "Medium" },
+      { id: 17, name: "Aeronautical Information Service (AIS)", questions: 18, difficulty: "Medium" },
+      { id: 18, name: "Aerodromes - Physical Characteristics", questions: 15, difficulty: "Medium" },
+      { id: 19, name: "Aerodromes - Visual Aids, Markings and Signs", questions: 10, difficulty: "Medium" },
+      { id: 20, name: "Aerodrome Lighting", questions: 25, difficulty: "Medium" },
+      { id: 21, name: "Obstacle Marking and Aerodrome Services", questions: 12, difficulty: "Medium" },
+      { id: 22, name: "Facilitation", questions: 6, difficulty: "Medium" },
+      { id: 23, name: "Search and Rescue", questions: 9, difficulty: "Medium" },
+      { id: 24, name: "Security", questions: 15, difficulty: "Medium" },
+      { id: 25, name: "Aircraft Accident and Incident Investigation", questions: 5, difficulty: "Medium" }
+    ]
+  },
+  {
+    id: 2,
+    title: "Human Performance and Limitations",
+    description: "CPL/ATPL Ground Training Series",
+    icon: "🧠",
+    color: "from-purple-500 to-indigo-600",
+    slug: "human-performance-and-limitations",
+    totalQuestions: 295,
+    difficulty: "Medium",
+    chapters: [
+      { id: 1, name: "The Circulation System", questions: 20, difficulty: "Medium" },
+      { id: 2, name: "Oxygen and Respiration", questions: 26, difficulty: "Medium" },
+      { id: 3, name: "The Nervous System, Ear, Hearing and Balance", questions: 23, difficulty: "Medium" },
+      { id: 4, name: "The Eye and Vision", questions: 23, difficulty: "Medium" },
+      { id: 5, name: "Flying and Health", questions: 26, difficulty: "Medium" },
+      { id: 6, name: "Stress", questions: 20, difficulty: "Medium" },
+      { id: 7, name: "Information Processing, Human Error & the Learning Process", questions: 20, difficulty: "Medium" },
+      { id: 8, name: "Behaviour and Motivation", questions: 20, difficulty: "Medium" },
+      { id: 9, name: "Cognition in Aviation", questions: 20, difficulty: "Medium" },
+      { id: 10, name: "Sleep and Fatigue", questions: 20, difficulty: "Medium" },
+      { id: 11, name: "Individual Differences and Interpersonal Relationships", questions: 17, difficulty: "Medium" },
+      { id: 12, name: "Communication and Cooperation", questions: 20, difficulty: "Medium" },
+      { id: 13, name: "Man and Machine", questions: 20, difficulty: "Medium" },
+      { id: 14, name: "Decision Making and Risk", questions: 20, difficulty: "Medium" },
+      { id: 15, name: "Human Factors Incident Reporting", questions: 0, difficulty: "Medium" },
+      { id: 16, name: "Introduction to Crew Resource Management", questions: 0, difficulty: "Medium" },
+      { id: 17, name: "Specimen Questions", questions: 0, difficulty: "Medium" }
+    ]
+  }
+];
+
+const meteorologyOxfordBooks = [
+  {
+    id: 1,
+    title: "CAE Oxford Meteorology",
+    description: "CPL/ATPL Ground Training Series",
+    icon: "🌤️",
+    color: "from-yellow-500 to-orange-500",
+    slug: "cae-oxford",
+    totalQuestions: 519,
+    difficulty: "Medium",
+    chapters: [
+      { id: 1, name: "The Atmosphere", questions: 24, difficulty: "Medium" },
+      { id: 2, name: "Pressure", questions: 15, difficulty: "Medium" },
+      { id: 3, name: "Density", questions: 6, difficulty: "Medium" },
+      { id: 4, name: "Pressure Systems", questions: 26, difficulty: "Medium" },
+      { id: 5, name: "Temperature", questions: 15, difficulty: "Medium" },
+      { id: 6, name: "Humidity", questions: 15, difficulty: "Medium" },
+      { id: 7, name: "Adiabatics and Stability", questions: 17, difficulty: "Medium" },
+      { id: 8, name: "Turbulence", questions: 15, difficulty: "Medium" },
+      { id: 9, name: "Altimetry", questions: 38, difficulty: "Medium" },
+      { id: 10, name: "Winds", questions: 35, difficulty: "Medium" },
+      { id: 11, name: "Upper Winds", questions: 23, difficulty: "Medium" },
+      { id: 12, name: "Clouds", questions: 39, difficulty: "Medium" },
+      { id: 13, name: "Cloud Formation and Precipitation", questions: 12, difficulty: "Medium" },
+      { id: 14, name: "Thunderstorms", questions: 15, difficulty: "Medium" },
+      { id: 15, name: "Visibility", questions: 15, difficulty: "Medium" },
+      { id: 16, name: "Icing", questions: 15, difficulty: "Medium" },
+      { id: 17, name: "Air Masses", questions: 15, difficulty: "Medium" },
+      { id: 18, name: "Occlusions", questions: 16, difficulty: "Medium" },
+      { id: 19, name: "Other Depressions", questions: 12, difficulty: "Medium" },
+      { id: 20, name: "Global Climatology", questions: 39, difficulty: "Medium" },
+      { id: 21, name: "Local Winds and Weather", questions: 0, difficulty: "Medium" },
+      { id: 22, name: "Area Climatology", questions: 0, difficulty: "Medium" },
+      { id: 23, name: "Route Climatology", questions: 0, difficulty: "Medium" },
+      { id: 24, name: "Satellite Observations", questions: 0, difficulty: "Medium" },
+      { id: 25, name: "Meteorological Aerodrome Reports (METARs)", questions: 8, difficulty: "Medium" },
+      { id: 26, name: "Terminal Aerodrome Forecasts (TAFs)", questions: 7, difficulty: "Medium" },
+      { id: 27, name: "Significant Weather and Wind Charts", questions: 17, difficulty: "Medium" },
+      { id: 28, name: "Warning Messages", questions: 70, difficulty: "Medium" },
+      { id: 29, name: "Meteorological Information for Aircraft in Flight", questions: 10, difficulty: "Medium" }
+    ]
+  }
+];
+
 const radioTelephonyOxfordBooks = [
   {
     id: 1,
@@ -488,13 +602,15 @@ const radioTelephonyOxfordBooks = [
 
     // Check special cases first (before direct book match)
     if (selectedSubject.title === 'Air Regulations') {
-      // If CAE Oxford is selected, return the CAE Oxford book directly
+      // If CAE Oxford is selected, don't return a book - show sub-books instead
       if (selectedBookKey === 'cae-oxford' || selectedBookKey === 'oxford') {
-        const airLawBook = airRegulationsOxfordBooks[0];
-        if (airLawBook) {
-          console.log('Air Regulations: Returning CAE Oxford book with chapters:', airLawBook.chapters?.length);
-          return sanitizeBook(airLawBook);
-        }
+        return null; // This will trigger the sub-books view
+      }
+      // Check if a sub-book is selected (air-law or human-performance-and-limitations)
+      const subBook = airRegulationsSubBooks.find((book) => book.slug === selectedBookKey);
+      if (subBook) {
+        console.log('Air Regulations: Returning sub-book with chapters:', subBook.chapters?.length);
+        return sanitizeBook(subBook);
       }
       // Otherwise, check if a specific air regulations book is selected
       const airRegBook = airRegulationsOxfordBooks.find((book) => book.slug === selectedBookKey);
@@ -521,6 +637,23 @@ const radioTelephonyOxfordBooks = [
       }
     }
 
+    if (selectedSubject.title === 'Meteorology') {
+      // If CAE Oxford is selected, return the meteorology book directly
+      if (selectedBookKey === 'cae-oxford' || selectedBookKey === 'oxford') {
+        const meteorologyBook = meteorologyOxfordBooks[0];
+        if (meteorologyBook) {
+          console.log('Meteorology: Returning CAE Oxford book with chapters:', meteorologyBook.chapters?.length);
+          return sanitizeBook(meteorologyBook);
+        }
+      }
+      // Otherwise, check if a specific meteorology book is selected
+      const meteorologyBook = meteorologyOxfordBooks.find((book) => book.slug === selectedBookKey);
+      if (meteorologyBook) {
+        console.log('Meteorology: Returning specific meteorology book with chapters:', meteorologyBook.chapters?.length);
+        return sanitizeBook(meteorologyBook);
+      }
+    }
+
     if (selectedSubject.title === 'Technical General') {
       const technicalBook = technicalGeneralBooks.find((book) => book.slug === selectedBookKey);
       if (technicalBook) {
@@ -544,6 +677,22 @@ const radioTelephonyOxfordBooks = [
 
     return null;
   }, [selectedSubject, selectedBookKey]);
+
+  // Auto-scroll to sub-books when CAE Oxford is selected for Air Regulations
+  useEffect(() => {
+    if (selectedSubject?.title === 'Air Regulations' && 
+        (selectedBookKey === 'cae-oxford' || selectedBookKey === 'oxford') && 
+        !resolveSelectedBook && 
+        subBooksRef.current) {
+      // Small delay to ensure the DOM has updated
+      setTimeout(() => {
+        subBooksRef.current?.scrollIntoView({ 
+          behavior: 'smooth', 
+          block: 'start' 
+        });
+      }, 100);
+    }
+  }, [selectedSubject, selectedBookKey, resolveSelectedBook]);
 
   const handleSubjectClick = (subject) => {
     setSelectedSubjectId(subject?.id ?? null);
@@ -772,6 +921,56 @@ const radioTelephonyOxfordBooks = [
               </div>
             )}
 
+            {/* Sub-Books View for Air Regulations > CAE Oxford */}
+            {selectedSubject && !resolveSelectedBook && selectedSubject.title === 'Air Regulations' && (selectedBookKey === 'cae-oxford' || selectedBookKey === 'oxford') && (
+              <div ref={subBooksRef}>
+                <div className="text-center mb-8">
+                  <div className={`w-20 h-20 bg-gradient-to-r ${selectedSubject.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-4`}>
+                    {selectedSubject.icon}
+                  </div>
+                  <h2 className="text-3xl font-bold text-gray-900 mb-2">{selectedSubject.title}</h2>
+                  <p className="text-gray-600 mb-4">{selectedSubject.description}</p>
+                  <div className="inline-flex items-center px-4 py-2 bg-blue-100 border border-blue-300 rounded-full">
+                    <span className="text-blue-800 font-medium text-sm">
+                      📚 Choose your study material
+                    </span>
+                  </div>
+                </div>
+                <div className="mb-8">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                    Select Your Book
+                  </h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                    {airRegulationsSubBooks.map((book) => (
+                      <Card
+                        key={book.id}
+                        className="p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group"
+                        onClick={() => setSelectedBookKey(book.slug)}
+                      >
+                        <div className="text-center">
+                          <div className={`w-20 h-20 bg-gradient-to-r ${book.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                            {book.icon}
+                          </div>
+                          <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                            {book.title}
+                          </h3>
+                          <p className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-6">
+                            CPL/ATPL Ground Training Series
+                          </p>
+                          <div className="flex items-center justify-center">
+                            <div className={`flex items-center px-6 py-3 bg-gradient-to-r ${book.color} text-white font-semibold rounded-lg`}>
+                              <span className="mr-2">{book.icon}</span>
+                              Select Book
+                            </div>
+                          </div>
+                        </div>
+                      </Card>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
+
             {/* Chapters/Sub-Books View */}
             {selectedSubject && resolveSelectedBook && (() => {
               const bookChapters = sanitizeChapters(resolveSelectedBook?.chapters) || [];
@@ -830,6 +1029,9 @@ const radioTelephonyOxfordBooks = [
                           <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                             {book.title}
                           </h3>
+                          <p className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-6">
+                            CPL/ATPL Ground Training Series
+                          </p>
                           <div className="flex items-center justify-center">
                             <div className={`flex items-center px-6 py-3 bg-gradient-to-r ${book.color} text-white font-semibold rounded-lg`}>
                               <span className="mr-2">{book.icon}</span>
@@ -855,6 +1057,9 @@ const radioTelephonyOxfordBooks = [
                           <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                             {book.title}
                           </h3>
+                          <p className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-6">
+                            CPL/ATPL Ground Training Series
+                          </p>
                           <div className="flex items-center justify-center">
                             <div className={`flex items-center px-6 py-3 bg-gradient-to-r ${book.color} text-white font-semibold rounded-lg`}>
                               <span className="mr-2">{book.icon}</span>

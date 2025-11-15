@@ -1,0 +1,272 @@
+{
+  "book_name": "CAE Oxford Human Performance and Limitations",
+  "chapter_number": "15",
+  "chapter_title": "Decision Making and Risk",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the categories of risk?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Objective/Sudden and Subjective/Gradual",
+        "b. Sudden/Impromptu and Gradual/Planned",
+        "c. External/Objective and Internal/Subjective",
+        "d. Impromptu/Objective and Planned/Subjective"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "The Commander is ultimately responsible for all decisions made in the cockpit.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "There is no difference between \"deciding\" and \"decision making\".",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "A decision is \"good\" when:",
+      "question_type": "MCQ",
+      "options": [
+        "a. it can be implemented within the available time",
+        "b. time is not an issue. The decision must be correct",
+        "c. time can be an issue but the correct perception is the important factor",
+        "d. when other members of the crew agree"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Preparation is essential for good decision making when time is an issue.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "One of the possible problems of preparation is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. action slip",
+        "b. confirmation bias",
+        "c. error of commission",
+        "d. environment capture"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "A person will tend to overestimate the frequency of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a common but negative occurrence",
+        "b. a common but beneficial occurrence",
+        "c. a rare but beneficial occurrence",
+        "d. a rare but negative occurrence"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Negative events tend to be overestimated when:",
+      "question_type": "MCQ",
+      "options": [
+        "a. they are well published",
+        "b. obvious",
+        "c. under published",
+        "d. the results are unclear"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "The risk of an Airprox is normally:",
+      "question_type": "MCQ",
+      "options": [
+        "a. overestimated",
+        "b. underestimated",
+        "c. discounted",
+        "d. accurately assessed"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "Evaluation of options in the decision-making process involves:",
+      "question_type": "MCQ",
+      "options": [
+        "a. positive and negative considerations",
+        "b. values and costs",
+        "c. planned and impromptu considerations",
+        "d. assigning tasks"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "People tend to be biased to make a:",
+      "question_type": "MCQ",
+      "options": [
+        "a. risky loss rather than a certain loss even if the expected loss from the former is greater",
+        "b. risky loss rather than a certain loss even if the expected loss from the former is less",
+        "c. risky loss rather than a certain loss even if the expected loss from the latter is greater",
+        "d. risky loss rather than a certain loss even if the expected loss from the latter is far greater"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "\"Press-on-itis\" is a:",
+      "question_type": "MCQ",
+      "options": [
+        "a. common dilemma faced by all pilots",
+        "b. is only experienced by skilled pilots",
+        "c. only happens to inexperienced pilots",
+        "d. is rarely faced by good pilots"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "The co-pilot is responsible for monitoring the implementation of the Commander's decision.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "People tend to focus on salient cues.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "Fatigue/overload:",
+      "question_type": "MCQ",
+      "options": [
+        "a. sometimes affects decision making",
+        "b. rarely affects decision making",
+        "c. never affects decision making",
+        "d. always affects decision making"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "In the decision-making process, what should follow \"review and feedback\"?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Assign tasks",
+        "b. Decide",
+        "c. Risk assessment",
+        "d. Diagnose and define objective"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "Man is extremely capable of accurate risk assessment.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "Input from the crew is an important factor in the decision-making process.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "Lack of experience will have the following effect on the decision-making process:",
+      "question_type": "MCQ",
+      "options": [
+        "a. will speed it up (leaping in at the deep end)",
+        "b. slow it down",
+        "c. have no effect",
+        "d. disrupt the process"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "The decision process should include the crew.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    }
+  ]
+}
+

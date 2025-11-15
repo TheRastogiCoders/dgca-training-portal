@@ -1,0 +1,330 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 11,
+  "chapter_title": "Upper Winds",
+  "questions": [
+    {
+      "id": "1",
+      "question": "How do you recognize high level jet streams and associated TURB?",
+      "question_type": "MCQ",
+      "options": [
+        "a. High pressure centre at high level",
+        "b. Streaks of Cirrus",
+        "c. High level dust",
+        "d. Lenticularis"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "What type of jet stream blows constantly through the Northern Hemisphere?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Arctic",
+        "b. Equatorial",
+        "c. Polar night",
+        "d. Subtropical"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "In central Europe, where are the greatest wind speeds?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Tropopause level",
+        "b. 5500 m",
+        "c. Where the air converges",
+        "d. Above the Alps"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "The Arctic Jet core is at:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 20 000 ft",
+        "b. 30 000 ft",
+        "c. 40 000 ft",
+        "d. 50 000 ft"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "FL180, Northern Hemisphere with a wind from the left, what can you say about temperature with a heading of $360^{\\circ}$?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Not possible to tell without a pressure",
+        "b. Increases from south to north",
+        "c. Increases from north to south",
+        "d. Nothing"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "When heading south in the Southern Hemisphere you experience starboard drift:",
+      "question_type": "MCQ",
+      "options": [
+        "a. You are flying towards a lower temperature",
+        "b. You are flying away from a lower temperature",
+        "c. You are flying towards a low pressure",
+        "d. You are flying out of a high"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "With a polar front jet stream (PFJ), the area with the highest probability of turbulence in the Southern Hemisphere is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. in the jet core",
+        "b. above the jet core in the boundary of the warm and cold air",
+        "c. looking downstream, on your left hand side",
+        "d. looking downstream, on your right hand side"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Contours on a weather chart indicate:",
+      "question_type": "MCQ",
+      "options": [
+        "a. heights of pressure levels",
+        "b. distance between pressure levels",
+        "c. thickness between pressure levels",
+        "d. height of ground"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "If an isohypse on a surface pressure chart of 500 hPa shows a figure of 522, this indicates:",
+      "question_type": "MCQ",
+      "options": [
+        "a. topography of 522 m above MSL",
+        "b. topography of 522 decametres above MSL",
+        "c. pressure is 522 hPa",
+        "d. a low surface pressure"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "The polar front jet stream in summer compared to winter in the Northern Hemisphere moves:",
+      "question_type": "MCQ",
+      "options": [
+        "a. north and decreases in strength",
+        "b. north and increases in strength",
+        "c. south and decreases in strength",
+        "d. south and increases in strength"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "A jet stream with a wind speed of 350 kt is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. impossible",
+        "b. possible but very rare",
+        "c. possible in polar areas",
+        "d. common"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "If you fly at right angles to a jet stream and below the jet core in Europe with a decreasing outside air temperature, you will experience:",
+      "question_type": "MCQ",
+      "options": [
+        "a. increasing headwind",
+        "b. increasing tailwind",
+        "c. wind from the left",
+        "d. wind from the right"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "On a particular day the PFJ runs north to south in the Northern Hemisphere.",
+      "question_type": "MCQ",
+      "options": [
+        "a. The temperature gradient runs north to south below the jet core",
+        "b. The temperature gradient runs north to south above the jet core",
+        "c. The polar air is east of the jet above the core",
+        "d. The polar air is below the jet to the east"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "Flying 2500 ft below core of jet, with temperature increasing in the Southern Hemisphere, where does the wind come from?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Head",
+        "b. Tail",
+        "c. Left",
+        "d. Right"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "When flying from south to north in the Southern Hemisphere, you cross over the polar front jet. What happens to the temperature?",
+      "question_type": "MCQ",
+      "options": [
+        "a. It increases",
+        "b. It decreases",
+        "c. It remains the same",
+        "d. Impossible to determine"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "The core of a jet stream is located:",
+      "question_type": "MCQ",
+      "options": [
+        "a. at the level where temperature change with altitude becomes little or nil and the pressure surface is at maximum slope",
+        "b. in the warm air where the pressure surface is horizontal",
+        "c. in the warm air and directly beneath at the surface",
+        "d. in cold air"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "What is the ratio of height to width in a typical jet stream?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1:10",
+        "b. 1:100",
+        "c. 1:1000",
+        "d. 1:10000"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "When and where does an easterly jet stream occur?",
+      "question_type": "MCQ",
+      "options": [
+        "a. All year through the Equator",
+        "b. In summer from SE Asia through S. India to Central Africa",
+        "c. In summer from the Middle East through N. Africa and the Mediterranean to S. Spain",
+        "d. In winter in Arctic Russia"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "From the preflight briefing you know a jet stream is at 31 000 ft whilst you are at FL270. You experience moderate CAT. What would be the best course of action?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Stay level",
+        "b. Descend",
+        "c. Climb",
+        "d. Reduce speed"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "What is most different about the equatorial easterly jet stream?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Its height",
+        "b. Its length",
+        "c. Its direction",
+        "d. Its speed"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "Where are easterly and westerly jets found?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Northern Hemisphere only",
+        "b. Southern Hemisphere only",
+        "c. Northern and Southern Hemisphere",
+        "d. There are no easterly jets"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "Wind at altitude is usually given as in",
+      "question_type": "MCQ",
+      "options": [
+        "a. true, $m/s$",
+        "b. magnetic, $m/s$",
+        "c. true, kt",
+        "d. magnetic, kt"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "Under which of the following circumstances is the most severe CAT likely to be experienced?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A westerly jet stream at low altitude in the summer",
+        "b. A curved jet stream near a deep trough",
+        "c. A straight jet stream near a low pressure area",
+        "d. A jet stream where there is a large spacing between the isotherms"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

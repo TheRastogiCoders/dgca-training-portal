@@ -1,0 +1,106 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 26,
+  "chapter_title": "Terminal Aerodrome Forecasts (TAFs)",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The weather group RERA in a TAF means:",
+      "question_type": "MCQ",
+      "options": [
+        "a. rain in retreat",
+        "b. recent rain",
+        "c. returning rain",
+        "d. retreating rain"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "TEMPO in a TAF means:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a temporary variation to the main forecast that will last for less than one hour, or if recurring, for less than half the period indicated",
+        "b. a temporary variation to the main forecast lasting less than an hour",
+        "c. the development of unpredictable conditions that may be a hazard to aviation",
+        "d. a variation to the base line conditions laid down in the main forecast that will continue to prevail until the end of the main forecast"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "The weather group SHSNRA in a TAF means:",
+      "question_type": "MCQ",
+      "options": [
+        "a. slight showers of snow and rain",
+        "b. moderate showers of snow and rain",
+        "c. heavy showers of snow and rain",
+        "d. showers of snow and rain"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "A TAF time group 0202/0220 means that the TAF:",
+      "question_type": "MCQ",
+      "options": [
+        "a. is a short range forecast only, at 0220 UTC",
+        "b. was observed at 0220 UTC",
+        "c. was issued at 0220 UTC",
+        "d. is a long range forecast for the 18 hour period from the 2nd at 0200 UTC to the 2nd at 2000 UTC"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "BECMG 1618/1620 BKN030 in a TAF means:",
+      "question_type": "MCQ",
+      "options": [
+        "a. becoming between 1800 UTC and 2000 UTC 3-4 oktas of cloud at 300 ft AGL",
+        "b. becoming from 1820 UTC 5-7 oktas of cloud at 3000 ft AGL",
+        "c. becoming from 1820 UTC 3-4 oktas of cloud at 3000 ft AGL",
+        "d. becoming between 1800 UTC and 2000 UTC 5-7 oktas of cloud at 3000 ft AGL"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "Which of the following correctly decodes a TAF that reads: EGLL 1306/1315 VRB08KT 9999 SCT025=",
+      "question_type": "MCQ",
+      "options": [
+        "a. Valid from 0600 UTC to 1500 UTC; surface wind variable at 8 kt; visibility 10 NM or more; with a cloud base of 2500 ft above mean sea level",
+        "b. Observed at 0615 UTC; the surface wind was variable in direction and speed; averaging 8 kt; with a visibility of 10 km or more, and a cloud base of 2500 ft above aerodrome level",
+        "c. Valid from the 13th at 0600 UTC to the 13th at 1500 UTC; surface wind will be variable at 8 kt, with a visibility 10 km or more; 3-4 oktas of cloud with a base of 2500 ft above aerodrome level",
+        "d. Observed at 0600 UTC; the surface wind was variable in direction and speed; with a visibility of 10 km and a cloud base of 2500 ft above ground level"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "The correct decode for a TAF 1206/1215 14025G40KT 1200 BR would be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the forecast is for a nine hour period from 0615 UTC with a surface wind of $140^{\\circ}$ M at 25 kt gusting 40 kt, visibility 1200 metres in mist",
+        "b. the forecast is for a nine hour period from 0615 UTC with a surface wind of $140^{\\circ}$ T at 25, visibility 1200 metres in fog",
+        "c. the forecast is for a nine hour period from 0600 to 1500 UTC with a surface wind of $140^{\\circ}$ M at 25 kt gusting 40 kt, visibility 1200 metres in broken patches",
+        "d. the forecast is for a nine hour period from the 12th at 0600 to 1500 UTC on the same day with a surface wind of $140^{\\circ}T$ at 25 kt gusting 40 kt, visibility 1200 metres in mist"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    }
+  ]
+}
+

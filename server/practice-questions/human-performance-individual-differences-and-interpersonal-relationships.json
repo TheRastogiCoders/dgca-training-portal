@@ -1,0 +1,242 @@
+{
+  "book_name": "CAE Oxford Human Performance and Limitations",
+  "chapter_number": "12",
+  "chapter_title": "Individual Differences and Interpersonal Relationships",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the most effective way of analysing personality?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Group therapy",
+        "b. Written questionnaires",
+        "c. Personal interviews",
+        "d. Two dimensional model analysis"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "How would a person who is aggressive and changeable be described?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Aggressive extrovert",
+        "b. Unpredictable extrovert",
+        "c. Unreliable extrovert",
+        "d. Anxious extrovert"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "What are the personality traits of a good pilot?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Reliable and stable",
+        "b. Stable and extroverted",
+        "c. Reliable and extroverted",
+        "d. Reliable, calm and extroverted"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "What characteristics will authoritarian pilots display?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Are autocratic on most occasions",
+        "b. Are autocratic with the crew of the aircraft but submissive when dealing with an emergency or when under stress",
+        "c. Are autocratic when in command and submissive when confronted by someone of higher perceived status",
+        "d. Tend to be authoritarian when dressed in uniform and when dealing with both air and cabin crew"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "What \"P\" and \"G\" qualities should a pilot have?",
+      "question_type": "MCQ",
+      "options": [
+        "a. G+\nP+",
+        "b. G+\nP+",
+        "c. G++\nP+",
+        "d. P+\nP+"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "How will a person tend to react if they are confronted with a decision from someone they perceive as having a higher status?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Listen to, believe, and comply with the decision",
+        "b. Avoid confrontation",
+        "c. Become introverted",
+        "d. Question the decision"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "If an average ability group make a decision, is it likely to be better or worse than one made by the individual members?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Worse",
+        "b. Tends to be either",
+        "c. 75% of the time better",
+        "d. Better"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "If a group - with someone who has above average ability - makes a decision, is the decision likely to be better or worse than one made by the above average person on their own?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Unlikely to be better",
+        "b. Likely to be better",
+        "c. It depends on the number of the members of the group",
+        "d. Likely to be worse"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "Is a group decision likely to be more or less risky than one made by the individual members?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Less risky",
+        "b. Sometimes more risky",
+        "c. Sometimes less risky",
+        "d. More risky"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "What should a Captain do before making a non-urgent decision?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Put his own view forward and then ask for the opinions of other members of the crew",
+        "b. Consider all the implications",
+        "c. Encourage ideas from the crew before stating his own opinion",
+        "d. Monitor his motor programme (flying)"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "Language is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. non-verbal communication",
+        "b. aggression",
+        "c. sign Language",
+        "d. verbal communication which is open to cultural problems"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "Self-discipline is an essential quality of the \"ideal\" pilot.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Is a constituted crew an advantage in commercial aviation?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Always",
+        "b. Sometimes",
+        "c. Depends on the task",
+        "d. None of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "What are the three types of Cockpit Authority Gradient (see p243)?:",
+      "question_type": "MCQ",
+      "options": [
+        "a. autocratic, subjective, synergistic",
+        "b. autocratic, submissive, synergistic",
+        "c. laissez-faire, subjective, synergistic",
+        "d. autocratic, laissez-faire, synergistic"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "There is no place at all for authoritarianism in the air.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "The Laissez-faire cockpit may arise when:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the Captain is suffering from stress",
+        "b. the Captain is preoccupied",
+        "c. on a competent co-pilot's leg",
+        "d. on an incompetent co-pilot's leg"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "To counteract an authoritarian cockpit crews should:",
+      "question_type": "MCQ",
+      "options": [
+        "a. ensure that they ensure that their opinions are heard in spite of possible confrontation",
+        "b. remain silent and sort it all out on the ground",
+        "c. cooperate in a conciliatory form but the contents of this cooperation is firm",
+        "d. obtain support from another crew member"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}
+

@@ -1,0 +1,218 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 14,
+  "chapter_title": "Thunderstorms",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The conditions which must exist to allow thunderstorms to develop are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a trigger action, a plentiful supply of moisture and a very stable atmosphere",
+        "b. a steep lapse rate, a stable atmosphere through a large vertical extent and a plentiful supply of moisture",
+        "c. a plentiful supply of moisture and a steep lapse rate through a large vertical extent and a trigger action",
+        "d. a steep lapse rate through a large vertical extent, a low relative humidity and a trigger action"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "TS activity is common in ______ When moist air moves across France in the ______ southern UK in the ______. Complete the above statement correctly using one of the following:",
+      "question_type": "MCQ",
+      "options": [
+        "a. winter/morning",
+        "b. summer/late afternoon or evening",
+        "c. winter/late afternoon or evening",
+        "d. summer/morning"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "Hazards of the mature stage of a TS cell include lightning, turbulence and:",
+      "question_type": "MCQ",
+      "options": [
+        "a. microburst, windshear and anvil",
+        "b. icing, microburst and windshear",
+        "c. icing, drizzle and microburst",
+        "d. windshear, hail and fog"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "On a significant weather chart the thunderstorm symbol signifies:",
+      "question_type": "MCQ",
+      "options": [
+        "a. moderate turbulence and moderate icing",
+        "b. severe turbulence and severe icing",
+        "c. moderate turbulence and severe icing",
+        "d. moderate/severe turbulence and/or moderate/severe icing"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Thunderstorms require a trigger action to release the conditional instability. Which of the following would be the least suitable as a trigger?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Convergence in temperate latitudes",
+        "b. Convergence in tropical latitudes",
+        "c. Subsidence in tropical latitudes",
+        "d. Convection in polar latitudes"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "During the ______ stage of a thunderstorm cell, the cloud contains ______. Complete the above statement correctly using one of the following:",
+      "question_type": "MCQ",
+      "options": [
+        "a. building/up currents and down currents",
+        "b. mature/up currents and down currents",
+        "c. dissipating/up currents and down currents",
+        "d. building/down currents only"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "The following is unlikely to be a hazard below a thunderstorm:",
+      "question_type": "MCQ",
+      "options": [
+        "a. severe turbulence",
+        "b. severe icing",
+        "c. windshear",
+        "d. large variations in pressure setting values"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Thunderstorms are likely if:",
+      "question_type": "MCQ",
+      "options": [
+        "a. air is unstable, there is sufficient water vapour and there is trigger action",
+        "b. air is completely stable, there is sufficient water vapour and there is lifting orographically",
+        "c. there is a warm front",
+        "d. there is a col in winter"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "Hail grows by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. freezing as it leaves the cloud",
+        "b. up and down progress in CU cloud",
+        "c. collision with supercooled water drops",
+        "d. collision with ice crystals"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "How long approximately does a cumulonimbus cell take to complete the full cycle from the cumulus (building) to dissipating stage?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2-3 hours",
+        "b. 1-2 hours",
+        "c. 4-5 hours",
+        "d. About 1 hour"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "When approaching at flight level 300 a cumulonimbus cloud with an anvil top, pilots should aim to avoid the cloud by - NM horizontally if avoiding visually, or by- NM horizontally if using cloud avoidance radar. Select the appropriate respective ranges from those given below:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10 20",
+        "b. 15 10",
+        "c. 10 15",
+        "d. 5 10"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "A microburst usually lasts for ______ and is about ______ across.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 20 minutes 20 NM",
+        "b. 5 minutes 5 km",
+        "c. 30 minutes 10 NM",
+        "d. 45 minutes 5 NM"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Thunderstorms caused by ______ are most common in the summer and by ______ in the ______,",
+      "question_type": "MCQ",
+      "options": [
+        "a. lapse rate air masses late spring",
+        "b. air masses frontal activity winter",
+        "c. cold fronts air masses autumn",
+        "d. air masses frontal activity summer"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "When flying through an active CB cloud, lightning strikes are most likely:",
+      "question_type": "MCQ",
+      "options": [
+        "a. above 5000' and underneath the anvil",
+        "b. in the clear air below the cloud in rain",
+        "c. in the temperature band between $+10^{\\circ}C$ and $-10^{\\circ}C$",
+        "d. at or about 10 000 ft AMSL"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "Regarding thunderstorms, the most accurate statement amongst the following is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. there will always be windshear under the cloud",
+        "b. the average movement is in accord with the wind at 10 000 ft",
+        "c. if the cloud base has a temperature below $0^{\\circ}C$ then freezing rain will occur",
+        "d. the number of lightning flashes is directly proportional to the degree of turbulence"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

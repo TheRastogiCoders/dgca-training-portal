@@ -1,0 +1,218 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 17,
+  "chapter_title": "Air Masses",
+  "questions": [
+    {
+      "id": "1",
+      "question": "An air mass that has travelled over an ocean is known as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. continental air and has a high humidity",
+        "b. continental air and has a low humidity",
+        "c. maritime air and has a high humidity",
+        "d. maritime air and has a low humidity"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "Characteristic weather associated with a mPc air mass transiting the British Isles in summer would include:",
+      "question_type": "MCQ",
+      "options": [
+        "a. widespread Cu and Cb activity overland during the day",
+        "b. clear quiet settled weather overland by day with good visibility",
+        "c. warm moist conditions with some Sc or Cu and moderate to poor visibility",
+        "d. extensive low stratus cloud giving drizzle to light rain overland by day"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "If air in transit is heated from below it tends to become more:",
+      "question_type": "MCQ",
+      "options": [
+        "a. stable",
+        "b. neutrally stable",
+        "c. unstable",
+        "d. none of these"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "The weather associated with polar maritime air is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. overcast, moderate drizzle",
+        "b. overcast moderate intermittent rain",
+        "c. broken cloud, light, moderate or heavy rain",
+        "d. broken cloud, moderate continuous rain"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Polar maritime air is ______ and can bring ______ in the UK in winter but ______ in summer. Complete the above sentence correctly using one of the following:",
+      "question_type": "MCQ",
+      "options": [
+        "a. very unstable/heavy snow showers/does not arrive",
+        "b. cold and stable/advection fog/rain showers",
+        "c. unstable/intermittent or continuous snow/cool dry weather",
+        "d. unstable/heavy showers/light rain showers"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "Tropical continental air normally brings to the UK:",
+      "question_type": "MCQ",
+      "options": [
+        "a. hot dry cloudless weather with a thick haze",
+        "b. warm weather with broken Cu and showers on coasts, visibility very good except in showers",
+        "c. warm dry cloudless weather with very good visibility",
+        "d. hot dry cloudless weather on coasts but Cu building up inland with rain showers, visibility good except in showers"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "Referring to the area of the North Atlantic, the mean position of the polar front in January is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. from Florida to southwest England",
+        "b. from Newfoundland to the north of Scotland",
+        "c. from Florida to the north of Scotland",
+        "d. from Newfoundland to southwest England"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "When air from an air mass moves to a lower latitude, it can be expected that:",
+      "question_type": "MCQ",
+      "options": [
+        "a. surface layer air will become warmer, the RH will rise and the air will become unstable",
+        "b. surface layer air will become colder, the RH will rise and the air will become more stable",
+        "c. surface layer air will become warmer, the RH will fall and the air will become unstable",
+        "d. surface layer air will become warmer, the RH will fall and the air will become more stable"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "In the N. Hemisphere when flying in the troposphere above the surface friction layer in the polar maritime air mass behind the cold front of a fully developed frontal depression:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the wind will tend to veer in direction and increase in speed with progressive increase of altitude",
+        "b. the wind will tend to veer in direction with increase of altitude but the speed may remain constant in the lower layers of the atmosphere",
+        "c. the wind speed will reduce progressively with increase of altitude until at about 10000 feet above mean sea level where it will then tend to increase in speed from another direction",
+        "d. the wind will tend to back in direction and increase in speed with progressive increase of altitude"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "The average surface level winds at A3, B3 and C3 in Appendix 'A' are respectively:",
+      "question_type": "MCQ",
+      "options": [
+        "a. easterly, westerly, southwesterly",
+        "b. westerly, westerly, southwesterly",
+        "c. southwesterly, westerly, northwesterly",
+        "d. southwesterly, westerly, northerly"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "The average upper winds at A1, B1 and C1 in Appendix 'A' are respectively:",
+      "question_type": "MCQ",
+      "options": [
+        "a. easterly, westerly, northwesterly",
+        "b. northwesterly, westerly, southwesterly",
+        "c. southwesterly, westerly, northwesterly",
+        "d. southwesterly, westerly, northerly"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "It can be expected that the depth of the friction layer over the UK will be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. greater in Polar Maritime air due to the instability and moderate wind",
+        "b. greater in Tropical Maritime air due to the warm temperature",
+        "c. greater in Polar Continental air due to the very low temperatures",
+        "d. greater in Tropical Continental air due to the relatively high temperatures in winter"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "The air masses involved in the development of a polar front depression are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Polar Maritime and Polar Continental",
+        "b. Tropical Maritime and Polar Continental",
+        "c. Tropical Continental and Polar Maritime",
+        "d. Polar Maritime and Tropical Maritime"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "When a cold front passes a station in the British Isles:",
+      "question_type": "MCQ",
+      "options": [
+        "a. The wind veers and the dew point falls",
+        "b. The wind backs and the dew point falls",
+        "c. The wind veers and the dew point rises",
+        "d. The wind backs and the dew point rises"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "Refer to Appendix B The air masses indicated in the diagrams by the hand are respectively:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Arctic, Tropical Continental, Polar Maritime, Arctic Maritime",
+        "b. Polar Continental, Tropical Maritime, Tropical Continental, Arctic",
+        "c. Polar Maritime, Tropical Maritime, Polar Continental, Arctic",
+        "d. Polar Continental, Polar Maritime, Tropical Maritime, Arctic"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

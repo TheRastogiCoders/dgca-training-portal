@@ -1,0 +1,370 @@
+{
+  "book_name": "CAE Oxford Human Performance and Limitations",
+  "chapter_number": "3",
+  "chapter_title": "Oxygen and Respiration",
+  "questions": [
+    {
+      "id": "1",
+      "question": "With an alveolar partial pressure of oxygen of 55 mm Hg, what is the maximum altitude to breathe 100% oxygen without pressure?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 33 700 ft",
+        "b. 44000 ft",
+        "c. 10000 ft",
+        "d. 40 000 ft"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "What are the constituents of the atmosphere?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Oxygen 22% Nitrogen 77% Other gases 1%",
+        "b. Oxygen 22% Nitrogen 78% Other gases 2%",
+        "c. Oxygen 21% Nitrogen 78% Other gases 1%",
+        "d. Oxygen 22% Nitrogen 77% Other gases 1%"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "What is the % of oxygen and carbon dioxide in the alveoli at sea level?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 15.5% and 6.6% respectively",
+        "b. 16.5% and 7.6% respectively",
+        "c. 14.0% and 5.3% respectively",
+        "d. 21.0% and 0.5% respectively"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "On 100% oxygen at 40 000 feet, what height in the atmosphere does the partial pressure of oxygen in the alveoli equate to?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The same as at 20000 ft",
+        "b. The same as at 10000 ft",
+        "c. The same as at 25000 ft",
+        "d. The same as at 30000 ft"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "At what height is the partial pressure of oxygen in the lungs approximately half that at sea level?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10000 ft",
+        "b. 25 000 ft",
+        "c. 30 000 ft",
+        "d. 18000 ft"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "What is the percentage of oxygen in the atmosphere at 35 000 ft?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 25%",
+        "b. 21%",
+        "c. 32%",
+        "d. Approximately 30%"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "What is one of the initial indications of hypoxia?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Blue tinge in the lips",
+        "b. Stomach cramps",
+        "c. Pain in the joints",
+        "d. Impaired judgement"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Why does cold make you more susceptible to hypoxia?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Heart beats faster which uses up more oxygen",
+        "b. More energy is required when shivering therefore more oxygen used",
+        "c. Lowers temperature of the body which makes it less efficient",
+        "d. Lowers temperature of the body and especially the head which has a debilitating effect on the brain"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "What is the first action that should be taken by the pilot in the event of a cabin decompression above 10000 ft?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Descend as soon as possible",
+        "b. Don oxygen mask and check oxygen flow",
+        "c. Warn the passengers",
+        "d. Descend and check passengers"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "In flight someone complains of feeling alternately hot and cold, anxious, dizzy, tingling at the fingertips and is breathing rapidly. What may they be suffering from?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Hypoxic hypoxia",
+        "b. Formication",
+        "c. Cyanosis",
+        "d. Hyperventilation"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "The carbon dioxide level of the blood level is higher than normal. The brain:",
+      "question_type": "MCQ",
+      "options": [
+        "a. increases the rate of breathing and pulse rate",
+        "b. decreases the rate of breathing and pulse rate",
+        "c. increases the pulse rate and decreases rate of breathing",
+        "d. decreases the pulse rate and increases rate of breathing"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "What are the times of useful consciousness at 20000 ft (moderate activity):",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 minutes",
+        "b. 1 minute",
+        "c. 10 minutes",
+        "d. 30 seconds"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "If the symptoms of hyperventilation occur at an altitude where hypoxia is not a consideration, what is the correct remedial action?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Descend to MSL",
+        "b. Decrease rate and depth of breathing",
+        "c. Increase rate of breathing",
+        "d. If possible lay flat and help to calm sufferer"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "What increases the risk of DCS occurring in flight?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Scuba diving shortly before flight",
+        "b. Snorkel diving shortly before flight",
+        "c. Alcohol",
+        "d. Smoking"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "What are the restrictions to flying after scuba diving?",
+      "question_type": "MCQ",
+      "options": [
+        "a. No flying within 48 hours if a depth of 40 ft has been exceeded, otherwise the limit is 12 hours",
+        "b. No flying within 48 hours if a depth of 30 ft has been exceeded, otherwise the limit is 24 hours",
+        "c. No flying within 12 hours if a depth of 30 ft has been reached, otherwise the limit is 24 hours",
+        "d. No flying within 24 hours if a depth of 30 ft has been exceeded, otherwise the limit is 12 hours"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "A pilot has been snorkelling and has exceeded a depth of 30 ft. Are there any restrictions to him/her flying?",
+      "question_type": "MCQ",
+      "options": [
+        "a. No flying within 12 hours",
+        "b. No flying for 12 hours plus 30 minutes for every 10 feet deeper than 30 ft",
+        "c. No",
+        "d. No flying within 6 hours"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "Tidal volume is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the volume of air inhaled with each normal breath",
+        "b. the volume of air exhaled with each normal breath",
+        "c. the volume of air breathed when diving",
+        "d. the volume of air inhaled and exhaled with each normal breath"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "The altitude that pressure will be half that of MSL in the standard atmosphere is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 8000 ft",
+        "b. 18000 ft",
+        "c. 34000 ft",
+        "d. 33 700 ft"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "Henry's Law has application in Human Performance to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. otic barotrauma",
+        "b. DCS",
+        "c. carbon monoxide poisoning",
+        "d. partial pressure in the alveoli"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "Hypoxic hypoxia affects night vision.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "Anaemic hypoxia can be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. brought on by altitude",
+        "b. caused by decompression",
+        "c. caused by smoking",
+        "d. brought on by fatigue"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "In commercial aircraft cabin pressure is normally maintained at:",
+      "question_type": "MCQ",
+      "options": [
+        "a. sea level",
+        "b. 6000-8000 ft",
+        "c. 10 000 ft",
+        "d. below 5000 ft"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "In the event of a passenger showing symptoms of DCS, the aircraft must:",
+      "question_type": "MCQ",
+      "options": [
+        "a. descend to MSL",
+        "b. descend to 10000 ft",
+        "c. land as soon as possible",
+        "d. descend to below 10000 ft"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "24",
+      "question": "The \"chokes\" are associated with:",
+      "question_type": "MCQ",
+      "options": [
+        "a. NIHL",
+        "b. DCS",
+        "c. blockage of the alveoli",
+        "d. oxygen loss"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "25",
+      "question": "Breathing 100% oxygen at 40 000 ft is equivalent of breathing normally at:",
+      "question_type": "MCQ",
+      "options": [
+        "a. sea level",
+        "b. 20 000 ft",
+        "c. 40 000 ft",
+        "d. 10000 ft"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "26",
+      "question": "What are the times of useful consciousness at 35000 ft (at rest):",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 minutes",
+        "b. 15-20 seconds",
+        "c. 2 minutes",
+        "d. 30-90 seconds"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    }
+  ]
+}
+

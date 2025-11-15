@@ -1,0 +1,218 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 2,
+  "chapter_title": "Pressure",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The barometric pressure at the airfield datum point is known as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. QFF",
+        "b. QNH",
+        "c. QFE",
+        "d. Standard Pressure"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "The instrument that gives a continuous printed reading and record of the atmospheric pressure is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. barometer",
+        "b. hygrometer",
+        "c. anemograph",
+        "d. barograph"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "The pressure of the atmosphere:",
+      "question_type": "MCQ",
+      "options": [
+        "a. decreases at an increasing rate as height increases",
+        "b. decreases at a constant rate as height increases",
+        "c. decreases at a decreasing rate as height increases",
+        "d. decreases at a constant rate up to the tropopause and then remains constant"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "When considering the actual tropopause which statement is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "a. It is low over the poles and high over the Equator",
+        "b. It is high over the poles and low over the Equator",
+        "c. It is the same height of 36 090 ft all over the world",
+        "d. It is at a constant altitude of 26000'"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "Atmospheric pressure may be defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the weight of the atmosphere exerted on any surface with which it is in contact",
+        "b. the weight of the atmosphere at standard sea level",
+        "c. the force per unit area exerted by the atmosphere on any surface with which it is in contact",
+        "d. a pressure exerted by the atmosphere of 1013.2 hPa"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "The QFF is the atmospheric pressure:",
+      "question_type": "MCQ",
+      "options": [
+        "a. at the place where the reading is taken",
+        "b. corrected for temperature difference from standard and adjusted to MSL assuming standard atmospheric conditions exist",
+        "c. at a place where the reading is taken corrected to MSL taking into account the prevailing temperature conditions",
+        "d. as measured by a barometer at the aerodrome reference point"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "The pressure of 1013 hPa is known as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. standard pressure setting",
+        "b. QNH",
+        "c. QFE",
+        "d. QFF"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "The aircraft altimeter will read zero at aerodrome level with which pressure setting set on the altimeter subscale:",
+      "question_type": "MCQ",
+      "options": [
+        "a. OFF",
+        "b. QNH",
+        "c. SPS",
+        "d. QFE"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "The aerodrome QFE is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the reading on the altimeter on an aerodrome when the aerodrome barometric pressure is set on the subscale",
+        "b. the reading on the altimeter on touchdown at an aerodrome when 1013 is set on the subscale",
+        "c. the reading on the altimeter on an aerodrome when the sea level barometric pressure is set on the subscale",
+        "d. the aerodrome barometric pressure"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "When an altimeter subscale is set to the aerodrome QFE, the altimeter reads:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the elevation of the aerodrome at the aerodrome reference point",
+        "b. zero at the aerodrome reference point",
+        "c. the pressure altitude at the aerodrome reference point",
+        "d. the appropriate altitude of the aircraft"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "The aerodrome QNH is the aerodrome barometric pressure:",
+      "question_type": "MCQ",
+      "options": [
+        "a. corrected to mean sea level assuming standard atmospheric conditions exist",
+        "b. corrected to mean sea level, assuming isothermal conditions exist",
+        "c. corrected for temperature and adjusted to MSL assuming standard atmosphere conditions exist",
+        "d. corrected to MSL using ambient temperature"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "A line drawn on a chart joining places having the same barometric pressure at the same level and at the same time is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. an isotherm",
+        "b. an isallobar",
+        "c. a contour",
+        "d. an isobar"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "An isobar on a meteorological chart joins all places having the same:",
+      "question_type": "MCQ",
+      "options": [
+        "a. QFE",
+        "b. QFF",
+        "c. QNH",
+        "d. standard pressure"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "Pressure will ______ with increase of height and will be about ______ at 10 000 ft and ______ at 30000 ft.",
+      "question_type": "MCQ",
+      "options": [
+        "a. Increase 800 hPa 400 hPa",
+        "b. Decrease 700 hPa 300 hPa",
+        "c. Increase 200 hPa 800 hPa",
+        "d. Decrease 500 hPa 200 hPa"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "An airfield in England is 100 m above sea level, QFF is 1030 hPa, temperature at the surface is $-15^{\\circ}C.$ What is the value of QNH?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Impossible to determine",
+        "b. Less than 1030 hPa",
+        "c. Same as QFF",
+        "d. More than 1030 hPa"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

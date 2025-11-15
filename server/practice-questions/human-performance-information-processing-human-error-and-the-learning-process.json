@@ -1,0 +1,286 @@
+{
+  "book_name": "CAE Oxford Human Performance and Limitations",
+  "chapter_number": "8",
+  "chapter_title": "Information Processing, Human Error and the Learning Process",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Where are visual and auditory stimuli initially stored?",
+      "question_type": "MCQ",
+      "options": [
+        "a. They are stored in the short-term/working memory for a period of time",
+        "b. They are stored in the short-term memory for a short time",
+        "c. They are stored in the echoic and iconic memory",
+        "d. They are stored in the semantic and episodic memory"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "How long will the iconic memory store information?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1-2 seconds",
+        "b. 2-3 seconds",
+        "c. 0.5-1 second",
+        "d. 7 seconds ±2 seconds maximum"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "How long will the Echoic memory store information?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2 - 8 seconds",
+        "b. 10-15 minutes",
+        "c. 10-20 seconds",
+        "d. Normally up to 15 minutes"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "In sensory memory/stores there is a separate store for each sensory system.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True",
+        "b. False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "What is the \"cocktail party\" effect?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The ability to divide attention when surrounded by many different stimuli",
+        "b. The ability to hear, for example, your own name or call sign, whilst concentrating on something else",
+        "c. The ability to divide attention when surrounded by a number of stressors",
+        "d. The ability to divide attention when surrounded by noise"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "On what is our mental model of the world based?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Our perception of the environment surrounding us",
+        "b. Our experiences and our sensitivities",
+        "c. Our experiences and learning",
+        "d. Each of us are different and each models the world individually"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "Having created a mental model, what is the danger?",
+      "question_type": "MCQ",
+      "options": [
+        "a. To only seek information which supports it (confirmation bias)",
+        "b. Other clues outside do not tie up (environmental bias)",
+        "c. We need confirmation (confirmation bias)",
+        "d. We are easily swayed by outside influences (environmental bias)"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "How many separate items can be held in the short-term memory?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 8 ± 2",
+        "b. 9 ± 2",
+        "c. 7 ± 2",
+        "d. 6 ± 2"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "What is the main feature of a fully developed motor programme?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Skilled based behaviour not easily explained to other people",
+        "b. Skilled based behaviour not requiring conscious thought",
+        "c. Skilled based behaviour slowly learned",
+        "d. Skilled based behaviour quickly learned"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "What is the relationship between arousal and performance?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Performance is increased at high levels of arousal",
+        "b. Performance is increased by both low and high arousal levels",
+        "c. Performance is degraded by both low and high arousal levels",
+        "d. Performance is increased at low levels of arousal"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "Define \"episodic\" memory:",
+      "question_type": "MCQ",
+      "options": [
+        "a. it is the memory of events which are held in the long-term memory and is influenced by experience",
+        "b. it is the memory of events which are held in the short-term memory and is influenced by experience",
+        "c. it is the memory of events which are held in the long-term memory and is influenced by meaning",
+        "d. it is the memory of events which are held in the short-term memory and is influenced by meaning"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "Define \"semantic\" memory:",
+      "question_type": "MCQ",
+      "options": [
+        "a. it is the meaning of words and lasts shorter than episodic memory and is less accurate",
+        "b. it is the memory of events which are held in the short-term memory and is influenced by experience",
+        "c. it is the meaning of words and lasts longer than episodic memory as well as being more accurate",
+        "d. it is the memory of events which are held in the short-term memory and is influenced by meaning"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Environmental capture is associated with:",
+      "question_type": "MCQ",
+      "options": [
+        "a. long-term memory",
+        "b. working memory",
+        "c. short-term memory",
+        "d. motor programmes"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "With reference to human information processing, why is the attention mechanism required?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Because the number of stimuli around us are too many",
+        "b. Because the stimuli around us all happen at the same time and we need a filter mechanism of some kind",
+        "c. Because the capacity of the short-term memory and the rate of information processing are limited",
+        "d. Because the brain needs to prioritize"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "What is qualitative overload?",
+      "question_type": "MCQ",
+      "options": [
+        "a. When there are too many responses to be made in the time available",
+        "b. When the amount of information is perceived to be beyond the attentional capacity and the task is too difficult",
+        "c. When too many responses are required",
+        "d. When responses get transposed due to overload of work"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "What are the two types of attention?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Cognitive and intuitive",
+        "b. Intuitive and behavioural",
+        "c. Divided and intuitive",
+        "d. Selective and divided"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "Two of the factors affecting long-term memory are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. expectation and suggestion",
+        "b. repetition and echoism",
+        "c. amnesia and anxiety",
+        "d. anxiety and concentration"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "Generally human error can be split into two categories:",
+      "question_type": "MCQ",
+      "options": [
+        "a. faults and static errors",
+        "b. static errors and faults",
+        "c. dynamic and static errors",
+        "d. faults and slips"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "Information retention can be increased by the use of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. study and rote learning",
+        "b. instinct",
+        "c. mnemonics and memory training",
+        "d. tertiary education"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "An experienced pilot reacting to an engine failure is demonstrating?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Imitation learning",
+        "b. Operant conditioning learning",
+        "c. Skill learning",
+        "d. Insight learning"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

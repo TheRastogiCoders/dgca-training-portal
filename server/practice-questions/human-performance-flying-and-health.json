@@ -1,0 +1,367 @@
+{
+  "book_name": "CAE Oxford Human Performance and Limitations",
+  "chapter_number": "6",
+  "chapter_title": "Flying and Health",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A pilot is 2 metres tall and weighs 80 kg, his BMI is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 22",
+        "b. 24",
+        "c. 18",
+        "d. 20"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "A pilot has a BMI of 26 and is 1.75 metres tall, his/her weight is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 92 kg",
+        "b. 78.5 kg",
+        "c. 85 kg",
+        "d. 79.5 kg"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "Using the BMI formula, when will pilots be considered overweight?",
+      "question_type": "MCQ",
+      "options": [
+        "a. When they score over 30 for males and 29 for females",
+        "b. When they score over 26 for males and 22 for females",
+        "c. When they score 30 for males and 29 for females",
+        "d. When they score over 25 for males and 24 for females"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "Using the BMI formula, when will a pilot be obese?",
+      "question_type": "MCQ",
+      "options": [
+        "a. When they score over 30 for males and 28 for females",
+        "b. When they score over 26 for males and 29 for females",
+        "c. When they score over 30 for males and 29 for females",
+        "d. When they score over 32 for males and 26 for females"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "What is the weekly level of alcohol consumption that will cause physical damage?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Consuming 22 units for men and 14 units for women",
+        "b. Consuming 21 units for men and 15 units for women",
+        "c. Consuming 24 units for men and 14 units for women",
+        "d. Consuming 21 units for men and 14 units for women"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "What is the World Health Organization's definition of alcoholism?",
+      "question_type": "Open-ended",
+      "options": [],
+      "answer": "\"When the excessive use of alcohol repeatedly damages a person's physical, mental or social life\"",
+      "solution": "\"When the excessive use of alcohol repeatedly damages a person's physical, mental or social life\"",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "At what rate does the body remove alcohol from the system?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Approximately 1.5 units an hour",
+        "b. Approximately 2 units an hour",
+        "c. Approximately 2.5 units an hour",
+        "d. Approximately 1 unit an hour"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "What is the absolute minimum time a pilot should stop drinking before flying?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 6 hours but it depends upon the amount of alcohol that has been consumed",
+        "b. 24 hours but it depends upon the amount of alcohol that has been consumed",
+        "c. 12 hours but it depends upon the amount of alcohol that has been consumed",
+        "d. 8 hours but it depends upon the amount of alcohol that has been consumed"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "Which of the following diseases is considered to be the world's biggest killer?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Typhoid",
+        "b. Malaria",
+        "c. Yellow Fever",
+        "d. Influenza"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "How much exercise is sufficient to reduce the risk of coronary disease?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Regular and raise the pulse by 100% for at least 20 minutes 2 times a week",
+        "b. Raise the pulse by 100% for at least 20 minutes 3 times a week",
+        "c. Raise the pulse by 100% for at least 30 minutes 3 times a week",
+        "d. Regular and raise the pulse by 100% for at least 20 minutes 3 times a week"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "What causes otic barotrauma and when is it likely to occur?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Blockage in the eustachian tube which is most likely to occur in the descent",
+        "b. Blockage in the eustachian tube which is most likely to occur in the climb",
+        "c. Blockage in the eustachian tube and around the eardrum which is most likely to occur in the descent",
+        "d. Blockage in the eustachian tube and around the eardrum which is most likely to occur in the climb"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "A prudent pilot should avoid flying for .......... hours having consumed small amounts of alcohol.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 12 hours",
+        "b. 8 hours",
+        "c. 24 hours",
+        "d. 6 hours"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "The human body can tolerate a maximum short duration g-force of ........... in the ........... axis.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 25g vertical",
+        "b. 45g vertical",
+        "c. 25g fore/aft",
+        "d. -3g fore/aft"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "The most common cause of in-flight incapacitation is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. heart attack",
+        "b. influenza",
+        "c. the common cold",
+        "d. gastroenteritis"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "If a passenger of a helicopter is feeling unwell due to the rotation of the rotors causing a stroboscopic effect, what is the best course of action?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Move the passenger away from the window",
+        "b. Give the passenger oxygen as soon as possible",
+        "c. Land as soon as possible and seek medical assistance",
+        "d. No action is necessary as the effect is not dangerous"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "The two types of radiation are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. galactic and sun spots",
+        "b. galactic and solar",
+        "c. high frequency and low frequency",
+        "d. solar flares and galactic"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "If, having tried all normal methods, the ears cannot be cleared in flight, the following action should be taken:",
+      "question_type": "MCQ",
+      "options": [
+        "a. ignore and it will go away",
+        "b. descend to 10000 ft, or MSA - whichever is the higher",
+        "c. seek medical advice as soon as possible",
+        "d. descend as quickly as possible to minimize pain"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "To remove mercury spillage ........... must not be used:",
+      "question_type": "MCQ",
+      "options": [
+        "a. water",
+        "b. white spirits",
+        "c. acid",
+        "d. compressed air"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "The best method for losing weight is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the use of appetite suppressants",
+        "b. to take plenty of exercise",
+        "c. to go on a crash diet",
+        "d. to eat less"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "Hypoglycaemia can be caused by:",
+      "question_type": "MCQ",
+      "options": [
+        "a. not eating regularly or fasting",
+        "b. too much sugar in the blood",
+        "c. excessive g-forces",
+        "d. stress"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "Trace Elements should be obtained from:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a healthy and balanced daily diet",
+        "b. the use of supplementary pills",
+        "c. a high-fibre diet",
+        "d. a high-fibre and very low-fat diet"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "Food poisoning normally takes effect within ........... of eating contaminated food.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 30 minutes",
+        "b. 60 minutes",
+        "c. 90 minutes",
+        "d. 120 minutes"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "Alcohol is removed from the body at the rate of ........... milligrams per ........... millilitres per hour.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10 50",
+        "b. 10 100",
+        "c. 10 120",
+        "d. 15 100"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "24",
+      "question": "Permanent damage to the body of a man may occur if the consumption of alcohol level is ...........units daily and .......... units weekly.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5 20",
+        "b. 5 21",
+        "c. 5 22",
+        "d. 3 14"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "25",
+      "question": "A pilot's performance can be affected by an intake of caffeine above ........... mg and should limit him/herself to a daily intake of approximately ............ mg.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 100 100-500",
+        "b. 100 100-900",
+        "c. 200 250-300",
+        "d. 200 200-600"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "26",
+      "question": "Galactic or cosmic radiation:",
+      "question_type": "MCQ",
+      "options": [
+        "a. decreases with altitude",
+        "b. increases as latitude increases",
+        "c. increases as latitude decreases",
+        "d. increases as longitude increases"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}
+

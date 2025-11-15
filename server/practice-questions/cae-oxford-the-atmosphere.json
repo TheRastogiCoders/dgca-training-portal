@@ -1,0 +1,344 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 1,
+  "chapter_title": "The Atmosphere",
+  "questions": [
+    {
+      "id": "1",
+      "question": "How does the height of the tropopause normally vary with latitude in the Northern Hemisphere?",
+      "question_type": "MCQ",
+      "options": [
+        "a. It decreases from south to north",
+        "b. It increases from south to north",
+        "c. It remains constant from north to south",
+        "d. It remains constant throughout the year"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "What, approximately, is the average height of the tropopause over the Equator?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 8 km",
+        "b. 16 km",
+        "c. 11 km",
+        "d. 50 km"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "In the International Standard Atmosphere the decrease in temperature with height below 11 km is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. $0.5^{\\circ}C/100~m$",
+        "b. $0.6^{\\circ}C/100~m$",
+        "c. $0.65^{\\circ}/100~m$",
+        "d. $1^{\\circ}C/100~m$"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "The 200 hPa pressure altitude level can vary in height. In temperate regions which of the following average heights is applicable?",
+      "question_type": "MCQ",
+      "options": [
+        "a. FL390",
+        "b. FL300",
+        "c. FL100",
+        "d. FL50"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "The temperature at FL110 is $-12^{\\circ}C$. What will the temperature be at FL140 if the ICAO standard lapse rate is applied?",
+      "question_type": "MCQ",
+      "options": [
+        "a. $-6^{\\circ}C$",
+        "b. $-18^{\\circ}C$",
+        "c. $-9^{\\circ}C$",
+        "d. $-15^{\\circ}C$"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "At a certain position the temperature on the 300 hPa chart is $-54^{\\circ}C$, and according to the significant weather chart the tropopause is at FL330. What is the most likely temperature at FL350?",
+      "question_type": "MCQ",
+      "options": [
+        "a. $-48^{\\circ}C$",
+        "b. $-60^{\\circ}C$",
+        "c. $-56.5^{\\circ}C$",
+        "d. $-64^{\\circ}c$"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "What is the boundary between the troposphere and the stratosphere called?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Ionosphere",
+        "b. Stratosphere",
+        "c. Atmosphere",
+        "d. Tropopause"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Which constant pressure altitude chart is standard for 4781 ft pressure level (FL50)?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 500 hPa",
+        "b. 300 hPa",
+        "c. 850 hPa",
+        "d. 700 hPa"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "An outside air temperature of $-30^{\\circ}C$ is measured whilst cruising at FL200. What is the temperature deviation from the ISA at this level?",
+      "question_type": "MCQ",
+      "options": [
+        "a. $5^{\\circ}C$ colder than ISA",
+        "b. $5^{\\circ}C$ warmer than ISA",
+        "c. $10^{\\circ}C$ colder than ISA",
+        "d. $10^{\\circ}C$ warmer than ISA"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "What is the most likely temperature at the tropical tropopause?",
+      "question_type": "MCQ",
+      "options": [
+        "a. $-56.5^{\\circ}C$",
+        "b. $-75^{\\circ}C$",
+        "c. $-40^{\\circ}C$",
+        "d. $-25^{\\circ}C$"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "Which one of the following statements applies to the tropopause?",
+      "question_type": "MCQ",
+      "options": [
+        "a. It is, by definition, an isothermal layer",
+        "b. It indicates a strong temperature lapse rate",
+        "c. It is, by definition a temperature inversion",
+        "d. It separates the troposphere from the stratosphere"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "In the lower part of the stratosphere the temperature:",
+      "question_type": "MCQ",
+      "options": [
+        "a. is almost constant",
+        "b. decreases with altitude",
+        "c. increases with altitude",
+        "d. increases at first and decreases afterwards"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "What is the approximate composition of the dry air by volume in the troposphere?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10% oxygen, 89% nitrogen and the rest other gases",
+        "b. 88% oxygen, 9% nitrogen and the rest other gases",
+        "c. 50% oxygen, 40% nitrogen and the rest other gases",
+        "d. 21% oxygen, 78% nitrogen and the rest other gases"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "How does temperature vary with increasing altitude in the ICAO standard atmosphere below the tropopause?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Remains constant",
+        "b. Decreases",
+        "c. Increases",
+        "d. At first it increases and higher up it decreases"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "How would you characterize an air temperature of $-15^{\\circ}C$ at the 700 hPa level over western Europe?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Within $+/-5^{\\circ}C$ of ISA",
+        "b. $20^{\\circ}C$ below standard",
+        "c. Low",
+        "d. High"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "If you are flying at FL300 in an air mass that is $15^{\\circ}C$ warmer than a standard atmosphere what is the outside temperature likely to be?",
+      "question_type": "MCQ",
+      "options": [
+        "a. $-15^{\\circ}C$",
+        "b. $-30^{\\circ}C$",
+        "c. $-45^{\\circ}C$",
+        "d. $-60^{\\circ}C$"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "If you are flying at FL140 and the outside temperature is $-8^{\\circ}C$ at what altitude will the freezing level be?",
+      "question_type": "MCQ",
+      "options": [
+        "a. FL75",
+        "b. FL100",
+        "c. FL130",
+        "d. FL180"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "What is the most important constituent in the atmosphere from a weather standpoint?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Carbon dioxide",
+        "b. Oxygen",
+        "c. Water vapour",
+        "d. Methane"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "The average height of the tropopause at a latitude of $50^{\\circ}$ is about:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 8 km",
+        "b. 11 km",
+        "c. 14 km",
+        "d. 16 km"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "Between mean sea level and a height of 20 km the lowest temperature in the international standard atmosphere (ISA) is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. $-273^{\\circ}C$",
+        "b. $-44.7^{\\circ}C$",
+        "c. $-56.5^{\\circ}C$",
+        "d. $-100^{\\circ}C$"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "The international standard atmosphere (ISA) assumes that the temperature will reduce at a rate of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. $1.98^{\\circ}C$ per 1000 feet up to 36090 feet after which it remains constant to 65 617 feet",
+        "b. $1.98^{\\circ}C$ per 1000 feet up to 36090 feet and then will rise at $0.3^{\\circ}C$ per 1000 feet up to 65617 feet when it will remain constant",
+        "c. $2^{\\circ}C$ per 1000 feet up to 65 617 feet after which it will remain constant to 104 987 feet",
+        "d. $2^{\\circ}C$ per 1000 feet up to 36090 feet and will then increase at $0.3^{\\circ}C$ per 1000 feet up to 65 617 feet"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "In the mid-latitudes the stratosphere extends on average from:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 0 to 11 km",
+        "b. 11 to 50 km",
+        "c. 50 to 85 km",
+        "d. 11 to 20 km"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "In relation to the total weight of the atmosphere, the weight of the atmosphere between mean sea level and a height of 5500 m is approximately:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1%",
+        "b. 25%",
+        "c. 50%",
+        "d. 99%"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "24",
+      "question": "A temperature of $+15^{\\circ}C$ is recorded at an altitude of 500 metres above mean sea level. If the vertical temperature gradient is that of a standard atmosphere, what will be the temperature at the summit of a mountain 2500 metres above mean sea level?",
+      "question_type": "MCQ",
+      "options": [
+        "a. $0^{\\circ}C$",
+        "b. $+2^{\\circ}C$",
+        "c. $+4^{\\circ}C$",
+        "d. $-2^{\\circ}C$"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

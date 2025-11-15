@@ -1,0 +1,1170 @@
+{
+  "book_name": "Performance",
+  "chapter_number": 2,
+  "chapter_title": "Definitions and Calculations",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The operating mass of an aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the dry operating mass plus the take-off fuel mass.",
+        "b. the empty mass plus the take-off fuel mass.",
+        "c. the empty mass plus crew, crew baggage and catering.",
+        "d. the empty mass plus the trip fuel mass."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "What effect has a centre of gravity close to the forward limit?",
+      "question_type": "MCQ",
+      "options": [
+        "a. a better rate of climb capability.",
+        "b. a reduction in the specific fuel consumption.",
+        "c. a reduced rate of climb for a particular flight path.",
+        "d. a decreased induced drag."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "The DOM of an aeroplane is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. TOM minus operating mass.",
+        "b. LM plus trip fuel.",
+        "c. useful load minus operating mass.",
+        "d. TOM minus useful load."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "The traffic load of an aeroplane is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. TOM minus operating mass.",
+        "b. LM plus trip fuel.",
+        "c. useful load minus operating mass.",
+        "d. TOM minus useful load."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "1 (SEP1)",
+      "question": "Where is the reference datum?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 74 inches aft of the fwd CG position",
+        "b. 80.4 inches aft of the rear CG position",
+        "c. 87.7 inches aft of the rear CG position",
+        "d. 39 inches forward of the firewall"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "2 (SEP1)",
+      "question": "What are the CG limits?",
+      "question_type": "MCQ",
+      "options": [
+        "a. fwd limit = 74 inches to 80.4 inches",
+        "b. fwd limit = 74 inches, aft limit = 80.4 inches",
+        "c. fwd limit = 74 inches, aft limit = 87.7 inches",
+        "d. fwd limit = 74 inches to 80.4 inches and aft limit = 87.7 inches"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "3 (SEP1)",
+      "question": "What is the CG at the BEM?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 77 inches",
+        "b. 87 inches",
+        "c. 77.7 metres",
+        "d. 77.7 inches"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "4 (SEP1)",
+      "question": "What is the structural load limit for the floor at baggage zone 'C'?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 50 lb per square foot",
+        "b. 100 lb per cubic foot",
+        "c. 100 lb per square foot",
+        "d. 100 kg per square inch"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "5 (SEP1)",
+      "question": "What is the distance of the main undercarriage from the firewall?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 97 inches",
+        "b. 58 inches",
+        "c. 87.7 inches",
+        "d. 39 inches"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "6 (SEP1)",
+      "question": "The aircraft has six seats. Assuming no other cargo or baggage, what is the maximum fuel that can be carried if all six seats are occupied and the mass of each occupant is 180 lb?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 50 lb but the CG would be dangerously out of limits",
+        "b. 155 lb but the CG would be dangerously out of limits",
+        "c. 50 lb and the CG would be in limits",
+        "d. 155 lb and the CG would be in limits"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "7 (SEP1)",
+      "question": "Where is the centroid of baggage zone B?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 108 inches from the datum",
+        "b. 120 inches from the datum",
+        "c. 150 inches from the datum",
+        "d. 180 inches from the datum"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "8 (SEP1)",
+      "question": "Assuming the weight and access is not a problem, where can a box of mass 500 lb be positioned if the dimensions are 0.75 ft x 1.5 ft x 5 ft:",
+      "question_type": "MCQ",
+      "options": [
+        "a. In any of the baggage zones if placed on its smallest area",
+        "b. In zones 'B' or 'C' if placed on its largest area",
+        "c. In zone 'C' only if placed on its middle area",
+        "d. In zone 'A' only if placed on its largest area"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "9 (SEP1)",
+      "question": "Assuming the weight and access is not a problem, where can a cubic box of mass 500 lb be positioned if the dimensions are 3.15 ft?",
+      "question_type": "MCQ",
+      "options": [
+        "a. In any of the baggage zones",
+        "b. In zone 'B' or 'C' only",
+        "c. In zone 'A' only",
+        "d. In zone 'C' only"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "10 (SEP1)",
+      "question": "If the landing mass is 3155 lb and the trip fuel was 40 gallons, what was the ZFM if the fuel tanks held 60 gallons of fuel prior to take-off?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3001 lb",
+        "b. 3035 lb",
+        "c. 3098 lb",
+        "d. 3111 lb"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "11 (SEP1)",
+      "question": "What is the maximum ramp mass?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3650 lb",
+        "b. 3663 lb",
+        "c. 3780 lb",
+        "d. 3870 lb"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "12 (SEP1)",
+      "question": "How far is the main wheel from the aft CG limit?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 0.7 inches behind the rear datum",
+        "b. 0.7 inches forward of the rear datum",
+        "c. 6.6 inches forward of the rear datum",
+        "d. 9.3 inches aft of the rear datum"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13 (SEP1)",
+      "question": "How far is the firewall from the fuel tank centroid?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 36 inches",
+        "b. 37 inches",
+        "c. 38 inches",
+        "d. 39 inches"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "14 (SEP1)",
+      "question": "If the total moment is less than the minimum moment allowed:",
+      "question_type": "MCQ",
+      "options": [
+        "a. useful load items must be shifted aft",
+        "b. useful load items must be shifted forward",
+        "c. forward load items must be increased",
+        "d. aft load items must be reduced"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "15 (SEP1)",
+      "question": "The CG is on the lower of the fwd CG limits:",
+      "question_type": "MCQ",
+      "options": [
+        "a. at a mass of 2500 lb and moment of 185 000 lb in",
+        "b. at a moment of 175 000 lb in and a mass of 2365 lb",
+        "c. at a moment of 192000 lb in and a mass of 2594 lb",
+        "d. all the above"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "1 (MEP1)",
+      "question": "What performance class does the aircraft belong to?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Performance Class 'A'",
+        "b. Performance Class 'B'",
+        "c. Performance Class 'C'",
+        "d. Performance Class 'D'"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "2 (MEP1)",
+      "question": "Where is the reference datum?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 78.4 inches forward of the wing leading edge at the inboard edge of the inboard fuel tank",
+        "b. 25.3 inches forward of the nose wheel",
+        "c. 109.8 inches forward of the main wheel",
+        "d. All the above"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "3 (MEP1)",
+      "question": "The main wheel is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 19 inches forward of the fwd CG limit at the maximum take-off mass",
+        "b. 27.8 inches behind the fwd CG limit at a take-off mass of 3400 lb",
+        "c. 15.2 inches forward of the rear CG limit at the maximum take-off mass",
+        "d. all the above"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4 (MEP1)",
+      "question": "The nose wheel is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 56.7 inches forward of the fwd CG limit at maximum take-off mass",
+        "b. 65.5 inches forward of the fwd CG limit at maximum take-off mass",
+        "c. 69.3 inches aft of the rear CG limit at maximum take-off mass",
+        "d. all the above"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5 (MEP1)",
+      "question": "What is the minimum fuel mass that must be consumed if the aircraft, having become airborne at maximum weight, decides to abort the flight?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1260 lb",
+        "b. 280 lb",
+        "c. 237 lb",
+        "d. 202 lb"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6 (MEP1)",
+      "question": "If the pilot has a mass of 200 lb, what is the maximum traffic load?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1060 lb",
+        "b. 1600 lb",
+        "c. 1006 lb",
+        "d. 6001 lb"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "7 (MEP1)",
+      "question": "Assuming the maximum zero fuel mass and maximum take-off mass, what fuel load can be carried?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 38.9 imperial gallons",
+        "b. 46.6 US gallons",
+        "c. 176.8 litres",
+        "d. Any one of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "8 (MEP1)",
+      "question": "A box of mass 100 lb is to be transported. The box dimensions are 9 x 9 x 12 inches. Which zones can it be carried in?",
+      "question_type": "MCQ",
+      "options": [
+        "a. All zones, both the mass and structural loading are within limits",
+        "b. Zones 2 and 3 only",
+        "c. No zones, both the mass and structural loading would be exceeded",
+        "d. No zones, the structural loading would be exceeded"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "9 (MEP1)",
+      "question": "A box of mass 360 lb is to be transported. The dimensions of the box are 1.7 ft x 1.7 ft x 1.8 ft. Which zones can it be carried in?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Zones 2 and 3 only but placed on the 1.7 x 1.7 face",
+        "b. Zones 2 and 3 only but placed on the 1.7 x 1.8 face",
+        "c. No zones, both the mass and structural loading would be exceeded",
+        "d. No zones, the structural loading would be exceeded"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10 (MEP1)",
+      "question": "Assuming floor loading limits are acceptable, how much freight and fuel load can be carried for MSTOM if the pilot's mass was 200 lb?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A full load in each zone plus 380 lb of fuel",
+        "b. 50 lb in zones 1 or 4 but full loads in each of the other zones, plus 280 lb of fuel",
+        "c. 350 lb load in zone 4 but full loads in all the other zones, plus 280 lb of fuel",
+        "d. A full freight load in each zone plus 280 lb of fuel"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "11 (MEP1)",
+      "question": "What is the maximum fuel tank capacity?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Not given",
+        "b. 123 US gallons",
+        "c. 46.6 US gallons",
+        "d. TOM minus ZFM"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "12 (MEP1)",
+      "question": "If the aircraft is at MSTOM with full fuel tanks and a pilot of mass 200 lb, what traffic load can be carried?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Nil",
+        "b. 579 lb providing at least 20.5 gallons of fuel are consumed in start, taxi and flight",
+        "c. 625 lb providing at least 43.3 gallons of fuel are consumed in start, taxi and flight",
+        "d. 759 lb providing at least 59.5 gallons of fuel are consumed in start, taxi and flight"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "13 (MEP1)",
+      "question": "The CG when the TOM is 4300 lb and the corresponding moment is 408 500 lb in is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 95 inches",
+        "b. 59 inches",
+        "c. 0.4 inches tail heavy",
+        "d. 0.6 inches rear of the aft limit"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "14 (MEP1)",
+      "question": "If the CG is 86 inches and the TOM is 4100 lb the aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. just on the forward CG limit",
+        "b. just outside the forward CG limit",
+        "c. just inside the aft CG limit",
+        "d. within the two forward limits"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "1 (MRJT1)",
+      "question": "What is the total length of the fuselage?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1365 inches",
+        "b. 1375 inches",
+        "c. 1387 inches",
+        "d. 1395 inches"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2 (MRJT1)",
+      "question": "How far is the front spar from the datum?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 562 inches",
+        "b. 540 inches",
+        "c. 500 inches",
+        "d. 458 inches"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "3 (MRJT1)",
+      "question": "What is the distance between the two main access doors?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 940 inches",
+        "b. 947 inches",
+        "c. 974 inches",
+        "d. 984 inches"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "4 (MRJT1)",
+      "question": "How far is the leading edge of the mean aerodynamic chord from the datum?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 540 inches forward of the datum",
+        "b. 589.5 inches forward of the datum",
+        "c. 625.6 inches aft of the datum",
+        "d. 627.5 inches aft of the datum"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "5 (MRJT1)",
+      "question": "What is the length of the mean aerodynamic chord?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 104.5 inches",
+        "b. 114.5 inches",
+        "c. 124.5 inches",
+        "d. 134.5 inches"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "6 (MRJT1)",
+      "question": "What moment change occurs when the flaps are fully retracted from the 15 degree position?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A reduction of 14 kg.in",
+        "b. An increase of 14 kg.in",
+        "c. A reduction of 14000 kg.in",
+        "d. An increase of 14000 kg.in"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "7 (MRJT1)",
+      "question": "What change in moment occurs when the flaps are retracted from 40 degrees to 5 degrees?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A negative moment of 5 kg.in",
+        "b. A negative moment of 11 kg.in",
+        "c. A negative moment of 16 kg.in",
+        "d. A negative moment of 5000 kg.in"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "8 (MRJT1)",
+      "question": "What stabilizer trim setting is required for take-off when the CG is 19% MAC for 5 degrees of take-off flap?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 2.75",
+        "b. 3.75",
+        "c. 4.75",
+        "d. 5.75"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "9 (MRJT1)",
+      "question": "What is the maximum structural take-off mass?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 63 060 kg",
+        "b. 62 800 kg",
+        "c. 54900 kg",
+        "d. 51 300 kg"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10 (MRJT1)",
+      "question": "What is the CG range for maximum zero fuel mass?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 8% MAC to 27% MAC",
+        "b. 12%MAC to 20% MAC",
+        "c. 7.5% MAC to 27.5% MAC",
+        "d. 8.5% MAC to 26% MAC"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "11 (MRJT1)",
+      "question": "Assuming the MZFM, what is the maximum allowable fuel mass for take-off?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10015 kg",
+        "b. 10 150 kg",
+        "c. 11 500 kg",
+        "d. 15 000 kg"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "12 (MRJT1)",
+      "question": "Assuming the standard masses have been used for both passengers and baggage, what is the mass of a full passenger and baggage load?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 13 027 kg",
+        "b. 13 677 kg",
+        "c. 14 127 kg",
+        "d. 15 127 kg"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "13 (MRJT1)",
+      "question": "What is the allowable hold baggage load for an aircraft with a full passenger complement?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1533 kg",
+        "b. 1633 kg",
+        "c. 1733 kg",
+        "d. 1833 kg"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "14 (MRJT1)",
+      "question": "What is the underload if only maximum passenger hold baggage is carried?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 3305 kg - 1833 kg = 1472 kg",
+        "b. 4187 kg - 1833 kg = 2354 kg",
+        "c. 7492 kg - 1833 kg = 5659 kg",
+        "d. 9247 kg - 1833 kg = 7414 kg"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "15 (MRJT1)",
+      "question": "If the crew mass is 450 kg and the Zero Fuel Mass is 51 300 kg, what is the Basic Empty Mass if a full traffic load is carried?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 31 514 kg",
+        "b. 31 773 kg",
+        "c. 37713 kg",
+        "d. 33 177 kg"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "16 (MRJT1)",
+      "question": "Using the values for the data given in the Loading Manual, would the aircraft be able to carry both a full fuel load and a full traffic load at take-off?",
+      "question_type": "MCQ",
+      "options": [
+        "a. No.",
+        "b. Yes, providing the BEM was not more than 31 145 kg.",
+        "c. Yes, providing the BEM was not less than 31 451 kg.",
+        "d. Yes, providing the BEM was not more than 31 514 kg."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "17 (MRJT1)",
+      "question": "If the DOM is given as 34300 kg and the aircraft has a full load of passengers and baggage, what additional cargo mass could it carry i.e. what is the underload?",
+      "question_type": "MCQ",
+      "options": [
+        "a. None.",
+        "b. 3123 kg.",
+        "c. 3223 kg.",
+        "d. 3323 kg."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "18 (MRJT1)",
+      "question": "What is the maximum usable fuel quantity?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 5311 US gallons.",
+        "b. 5294 US gallons.",
+        "c. 5123 US gallons.",
+        "d. 5032 US gallons."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "19 (MRJT1)",
+      "question": "What is the maximum usable fuel mass?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 16 092 kg.",
+        "b. 16 078 kg.",
+        "c. 16 064 kg.",
+        "d. 16 040 kg."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "20 (MRJT1)",
+      "question": "What is the allowable start and taxi fuel?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 160 kg.",
+        "b. 260 kg.",
+        "c. 360 kg.",
+        "d. 460 kg."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "21 (MRJT1)",
+      "question": "What are the preferred zones for passenger loads if the pax load is low?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Zones E, F and G.",
+        "b. Zones C, D and E.",
+        "c. Zones B, C and D.",
+        "d. A, B and C."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "22 (MRJT1)",
+      "question": "How many seats are there in zone B?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 15",
+        "b. 18",
+        "c. 21",
+        "d. 24"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "23 (MRJT1)",
+      "question": "The leading edge of the MAC is given as 625.6 inches aft of the datum. What is the distance of the CG from the datum if it is found to be 16% of the MAC?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 547 inches.",
+        "b. 647 inches.",
+        "c. 747 inches.",
+        "d. 674 inches."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "24 (MRJT1)",
+      "question": "The CG is found to be 652.5 inches aft of the datum. What percentage is the CG of the MAC?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 10%.",
+        "b. 15%.",
+        "c. 20%.",
+        "d. 25%."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "25 (MRJT1)",
+      "question": "If a passenger moves from a seat position corresponding to the balance arm at zone D to a position corresponding to the balance arm at zone F, what distance will the passenger have travelled and how many seat rows will he have passed?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 255 inches and 8 seat rows.",
+        "b. 260 inches and 7 seat rows.",
+        "c. 265 inches and 6 seat rows.",
+        "d. 270 inches and 5 seat rows."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "26 (MRJT1)",
+      "question": "The balance arm for each of the seat zones is measured from the datum to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the front border line of the zone.",
+        "b. the centre line of the zone.",
+        "c. the rear border line of the zone.",
+        "d. the front border line of the next zone in sequence."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "27 (MRJT1)",
+      "question": "What is the maximum and minimum running load of a box of mass 500 kg and dimensions of 1 m x 1.2 m x 1.2 m?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 12.7 kg/in and 10.6 kg/in",
+        "b. 10 kg/in and 12.4 kg/in",
+        "c. 11 kg/in and 9.5 kg/in.",
+        "d. 15 kg/in and 13.1 kg/in."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "28 (MRJT1)",
+      "question": "What is the maximum and minimum distribution load intensity for a box of mass 500 kg and dimensions of 1 m x 1.2 m x 1.2 m?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 50.5 kg/sq ft and 40.6 kg/sq ft.",
+        "b. 47.3 kg/sq ft and 37.7 kg/sq ft.",
+        "c. 45.1 kg/sq ft and 35.8 kg/sq ft.",
+        "d. 38.7 kg/sq ft and 32.3 kg/sq."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "29 (MRJT1)",
+      "question": "All other parameters being acceptable, a box with a maximum and minimum running load of 12 kg/in and 7 kg/in and a mass of 800 kg can be fitted into:",
+      "question_type": "MCQ",
+      "options": [
+        "a. any compartment of either the forward or aft cargo compartment.",
+        "b. the front section of the aft cargo compartment or the rear section of the forward cargo compartment.",
+        "c. the rear section of the forward cargo compartment or the rear section of the aft cargo compartment.",
+        "d. the centre section of the forward cargo compartment only."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "30 (MRJT1)",
+      "question": "A box with a mass of 500 kg and dimensions 0.8 m and 0.9 m x 1.3 m has a maximum and minimum distribution load intensity of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 64.6 kg/sq ft max and 39.7 kg/sq ft min.",
+        "b. 39.7 kg/sq ft max and 64.6 kg/sq ft min.",
+        "c. 4.7 kg/sq ft max and 39.7 kg/sq ft min.",
+        "d. 64.6 kg/sq ft max and 44.7 kg/sq ft min."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "31 (MRJT1)",
+      "question": "The maximum freight mass allowed is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 17017 lb.",
+        "b. 16 520 lb.",
+        "c. 16017 lb.",
+        "d. 15 517 lb."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "32 (MRJT1)",
+      "question": "Assuming all other parameters are acceptable, a box with a mass of 500 kg and with equal sides of 8.5 ft would fit into:",
+      "question_type": "MCQ",
+      "options": [
+        "a. either the front or rear cargo compartment.",
+        "b. the forward cargo compartment only.",
+        "c. neither cargo compartment.",
+        "d. the aft cargo compartment only."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "33 (MRJT1)",
+      "question": "The front compartment of the front cargo hold is situated below:",
+      "question_type": "MCQ",
+      "options": [
+        "a. passenger zone A.",
+        "b. passenger zone B.",
+        "c. passenger zone C.",
+        "d. passenger zone D."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "34 (MRJT1)",
+      "question": "The balance arm of the centroid of the forward hold compartment is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 228 inches.",
+        "b. midway between 228 inches and 286 inches.",
+        "c. midway between 286 inches and 343 inches.",
+        "d. 367.9 inches."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "35 (MRJT1)",
+      "question": "The maximum distribution load intensity for the cargo compartments is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 68 lb per sq ft.",
+        "b. 68 kg per sq metre.",
+        "c. 68 kg per sq in.",
+        "d. 68 kg per sq ft."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "36 (MRJT1)",
+      "question": "Between 44000 kg and 63000 kg the rear CG limit as a percentage of the MAC:",
+      "question_type": "MCQ",
+      "options": [
+        "a. is constant at 28%.",
+        "b. increases from 28% to 29.5%.",
+        "c. decreases from 28% to 26%.",
+        "d. decreases from 28% to 9%."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "37 (MRJT1)",
+      "question": "The traffic load is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 39 800 kg obtained from ZFM, 51 300 kg less fuel mass 11500 kg.",
+        "b. obtained from the sum of pax mass plus baggage mass plus total cargo compartment mass.",
+        "c. 13 370 kg obtained from 10920 kg pax mass plus 2450 kg baggage mass plus 630 kg cargo mass.",
+        "d. 13 370 kg obtained from 10920 kg pax mass, 1820 kg baggage mass and 630 kg cargo mass."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "38 (MRJT1)",
+      "question": "The cargo distribution in section 4 is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1220 kg.",
+        "b. 630 kg.",
+        "c. 1850 kg.",
+        "d. 1820 kg plus 630 kg."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "39 (MRJT1)",
+      "question": "The actual take-off mass is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 51 300 kg ZFM plus 14500 kg take-off fuel.",
+        "b. 62 800 kg less 8500 kg trip fuel.",
+        "c. 53 670 kg less 14500 kg take-off fuel.",
+        "d. 47 670 kg ZFM plus 14500 kg take-off fuel mass."
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "40 (MRJT1)",
+      "question": "The landing mass is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 62 800 kg take-off mass less 8500 kg trip fuel.",
+        "b. 62 170 kg take-off mass less 8500 kg trip fuel.",
+        "c. 62 170 kg take-off mass plus 8500 kg trip fuel.",
+        "d. 62 800 kg take-off mass plus 8500 kg trip fuel."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "41 (MRJT1)",
+      "question": "In order to determine the underload the pilot starts by selecting the lowest mass from the three key masses given. The key masses are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. maximum zero fuel mass, take-off mass and landing mass.",
+        "b. dry operating mass, maximum zero fuel mass and take-off mass.",
+        "c. dry operating mass, maximum zero fuel mass and landing mass.",
+        "d. traffic load, take-off mass and landing mass."
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "42 (MRJT1)",
+      "question": "From the figures given, if the actual take-off fuel mass (14 500 kg) was added to the Maximum Zero Fuel Mass the aircraft would be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. below the maximum take-off mass by 350 kg.",
+        "b. over the maximum take-off mass by 530 kg.",
+        "c. over the maximum take-off mass by 3000 kg.",
+        "d. below the maximum take-off mass by 630 kg."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "43 (MRJT1)",
+      "question": "The actual underload for the aircraft after the traffic load and fuel load have been accounted for is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. zero.",
+        "b. 720 kg.",
+        "c. 630 kg.",
+        "d. 960 kg."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "44 (MRJT1)",
+      "question": "What is the Dry Operating Index?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 45",
+        "b. 12",
+        "c. 54",
+        "d. 10"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "45 (MRJT1)",
+      "question": "What are the seat row numbers in pax zone 'Oc'?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 4-6",
+        "b. 6-8",
+        "c. 7-10",
+        "d. 8-13"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "46 (MRJT1)",
+      "question": "What is the Take-off Mass as a percentage of the MAC?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 18.3%.",
+        "b. 19.3%.",
+        "c. 20.3%.",
+        "d. 21.3%."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "47 (MRJT1)",
+      "question": "Prior to take-off there is a change in destination and so the pilot decides to take 2000 kg of fuel less. Using the Load and Trim Sheet, calculate the new Take-off Mass and CG position:",
+      "question_type": "MCQ",
+      "options": [
+        "a. can not be calculated because the landing mass will be too high.",
+        "b. 60 800 kg take-off mass and CG 17.5% MAC.",
+        "c. 60 170 kg take-off mass and CG 18.8% MAC.",
+        "d. 60 170 kg take-off mass and 19.3% MAC."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "48 (MRJT1)",
+      "question": "When adjusting the CG index for the fuel load, why is the line moved to the left as a minus index?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Because the fuel will be consumed in flight.",
+        "b. Because the fuel is given a minus index in the fuel index correction table.",
+        "c. Because the centroid of the tanks is behind the CG position.",
+        "d. Because the graph would run out of range."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "49 (MRJT1)",
+      "question": "For a fuel mass of 11 800 kg the index is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. minus 4.5.",
+        "b. minus 5.7.",
+        "c. minus 6.3.",
+        "d. none of the above."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "50 (MRJT1)",
+      "question": "A scheduled flight of three hours estimated flight time, within Europe, is being planned. Calculate the maximum mass of freight that may be loaded in the following circumstances:\nStructural limited take-off mass: 62 800 kg\nStructural limited landing mass: 54900 kg\nMZFM: 51 300 kg\nDry Operating Mass: 34960 kg\nFuel on board at ramp: 5800 kg\nTaxi fuel: 450 kg\nTrip fuel: 10200 kg\nPassengers (adults each 84 kg): 115\nPassengers (children each 35 kg): 6\nFlight crew (each 85 kg): 2\nCabin crew (each 75 kg): 3\nStandard baggage for each passenger: 13 kg",
+      "question_type": "MCQ",
+      "options": [
+        "a. 4647 kg.",
+        "b. 4102 kg.",
+        "c. 1047 kg.",
+        "d. 5545 kg."
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}
+

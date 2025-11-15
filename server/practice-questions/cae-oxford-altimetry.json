@@ -1,0 +1,540 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 9,
+  "chapter_title": "Altimetry",
+  "questions": [
+    {
+      "id": "1",
+      "question": "MSA given as 12000 ft, flying over mountains in temperatures $+9^{\\circ}C,$ QNH set as 1023 (obtained from a nearby airfield). What will the true altitude be when 12000 ft is reached?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 11940",
+        "b. 11 148",
+        "c. 12210",
+        "d. 12864"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "When flying at FL180 in the Southern Hemisphere you experience a left to right crosswind. What is happening to your true altitude if indicated altitude is constant?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Remains the same",
+        "b. Increasing",
+        "c. Decreasing",
+        "d. Impossible to tell"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "Flying from Marseilles (QNH 1012) to Palma (QNH 1015) at FL100. You do not reset the altimeter, why would true altitude be the same throughout the flight?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Not possible to tell",
+        "b. Air at Palma is warmer than air at Marseilles",
+        "c. Air at Marseilles is warmer than air at Palma",
+        "d. Blocked static vent"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "Which of these would cause your true altitude to decrease with a constant indicated altitude?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Cold/Low",
+        "b. Hot/Low",
+        "c. Cold/High",
+        "d. Hot/High"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "An aircraft flying in the Alps on a very cold day, QNH 1013 set in the altimeter, flies level with the summit of the mountains. Altitude from aneroid altimeter reads:",
+      "question_type": "MCQ",
+      "options": [
+        "a. same as mountain elevation",
+        "b. lower than mountain elevation",
+        "c. higher than mountain elevation",
+        "d. impossible to determine"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "You are flying in an atmosphere which is warmer than ISA, what might you expect?",
+      "question_type": "MCQ",
+      "options": [
+        "a. True altitude to be the same as indicated altitude",
+        "b. True altitude to be lower than indicated altitude",
+        "c. True altitude to be the decreasing",
+        "d. True altitude to be higher than indicated altitude"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "The QNH is 1030 hPa and at the transition level you set the SPS. What happens to your indicated altitude (assume 27 ft per 1 hPa)?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Drops by 459 ft",
+        "b. Rises by 459 ft",
+        "c. No change",
+        "d. Rises"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "You are flying from Madrid (QNH 1012) to Paris (QNH 1015) at FL80. If your true altitude and indicated altitude remain the same then:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the air at Madrid is warmer than Paris",
+        "b. the air at Paris is warmer than Madrid",
+        "c. the altimeters are incorrect",
+        "d. your indicated altitude must be changing"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "If you are flying on a QNH 1009 on very cold day and you circle the top of a peak in the Alps, your altimeter will read:",
+      "question_type": "MCQ",
+      "options": [
+        "a. the same as the elevation of the peak",
+        "b. lower than the elevation of the peak",
+        "c. higher than the elevation of the peak",
+        "d. not enough information to tell"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "How do you calculate the lowest usable flight level?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Lowest QNH and lowest negative temperature below ISA",
+        "b. Lowest QNH and highest negative temperature below ISA",
+        "c. Highest QNH and highest temperature above ISA",
+        "d. Highest QNH and lowest temperature"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "QNH is 1003. At FL100 true altitude is 10000 ft. It is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. warmer than ISA",
+        "b. colder than ISA",
+        "c. same as ISA",
+        "d. cannot tell"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "How is QNH determined from QFE?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Using the temperature of the airfield and the elevation of the airfield",
+        "b. Using the temperature",
+        "c. Using the elevation",
+        "d. Using the temperature at MSL and the elevation of the airfield"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Using the diagram below you are on a flight from A to B at 1500 ft. Which statement is true?",
+      "question_type": "MCQ",
+      "options": [
+        "a. True altitude at A is greater than B",
+        "b. True altitude at B is greater than A",
+        "c. True altitude is the same",
+        "d. Cannot tell"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "QFE is 1000 hPa with an airfield elevation of 200 m AMSL. What is QNH? (use 8 m per hPa).",
+      "question_type": "MCQ",
+      "options": [
+        "a. 975 hPa",
+        "b. 1025 hPa",
+        "c. 1008 hPa",
+        "d. 992 hPa"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "Which of the following is true? QNH is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Always more than 1013.25 hPa",
+        "b. Always less than 1013.25 hPa",
+        "c. Never 1013.25 hPa",
+        "d. Can never be above or below 1013 hPa"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "Flying from Marseilles to Palma you discover your true altitude is increasing, but oddly the QNH is identical at both places. What could be the reason?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Re-check the QNH",
+        "b. Re-check the radio altimeter",
+        "c. The air at Palma is warmer",
+        "d. Palma is lower than Marseilles"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "QNH is 1030. Aerodrome is 200 m AMSL. What is QFF?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Higher than 1030",
+        "b. Lower than 1030",
+        "c. Same",
+        "d. Not enough info"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "If an aerodrome is 1500 ft AMSL on QNH 1038, what will the actual height AGL to get to FL75 be?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 6675 ft",
+        "b. 8175 ft",
+        "c. 8325 ft",
+        "d. 5325 ft"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "Altimeter set to 1023 at aerodrome. On climb to altitude the SPS is set at transition altitude. What will the indication on the altimeter do on resetting to QNH?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Dependent on temperature",
+        "b. Decrease",
+        "c. Increase",
+        "d. Same"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "What temperature and pressure conditions would be safest to ensure that your flight level clears all the obstacles by the greatest margin?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Cold temp/low pressure",
+        "b. Warm temp/high pressure",
+        "c. Temp less than or equal to ISA and a QNH less than 1013",
+        "d. Temp more than or equal to ISA and a QNH greater than 1013"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "You are flying from Marseilles (QNH 1012 hPa) to Palma de Mallorca (QNH 1012 hPa) at FL100. You notice that the effective height above MSL (radio altitude) increases constantly. Hence:",
+      "question_type": "MCQ",
+      "options": [
+        "a. one of the QNH values must be wrong",
+        "b. you have the altimeters checked, as their indications are obviously wrong",
+        "c. the air mass above Palma is warmer than that above Marseilles",
+        "d. you have to adjust for a crosswind from the right"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "You are flying from Marseilles (QNH 1026 hPa) to Palma de Mallorca (QNH 1026 hPa) at FL100. You notice that the effective height above MSL (Radio Altitude) decreases constantly. Hence:",
+      "question_type": "MCQ",
+      "options": [
+        "a. one of the QNH values must be wrong",
+        "b. the air mass above Marseilles is warmer than that above Palma",
+        "c. you have the altimeters checked, as their indications are obviously wrong",
+        "d. you have to adjust for a crosswind from the right"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "Flying at FL135 above the sea, the radio altimeter indicates a true altitude of 13 500 ft. The local QNH is 1019 hPa. Hence the crossed air mass is, on average:",
+      "question_type": "MCQ",
+      "options": [
+        "a. at ISA standard temperature",
+        "b. colder than ISA",
+        "c. warmer than ISA",
+        "d. there is insufficient information to determine the average temperature deviation"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "24",
+      "question": "You are flying in the Alps at the same level as the summit on a hot day. What does the altimeter read?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Same altitude as the summit",
+        "b. Higher altitude as the summit",
+        "c. Lower altitude as the summit",
+        "d. Impossible to tell"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "25",
+      "question": "An airfield has an elevation of 540 ft with a QNH of 993 hPa. An aircraft descends and lands at the airfield with 1013 hPa set. What will its altimeter read on landing?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 380 ft",
+        "b. 1080 ft",
+        "c. 0 ft",
+        "d. 540 ft"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "26",
+      "question": "When is pressure altitude equal to true altitude?",
+      "question_type": "MCQ",
+      "options": [
+        "a. In standard conditions",
+        "b. When surface pressure is 1013.25 hPa",
+        "c. When the temperature is standard",
+        "d. When the indicated altitude is equal to the pressure altitude"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "27",
+      "question": "What is the relationship between QFE and QNH at an airport 50 ft below MSL?",
+      "question_type": "MCQ",
+      "options": [
+        "a. $QFE=QNH$",
+        "b. $QFE<QNH$",
+        "c. $QFE>QNH$",
+        "d. There is no clear relationship"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "28",
+      "question": "You are flying at FL160 with an OAT of $-27^{\\circ}C.$ QNH is 1003 hPa. What is your true altitude?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 15540 ft",
+        "b. 15090 ft",
+        "c. 16330 ft",
+        "d. 15730 ft"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "29",
+      "question": "Flying from A to B at a constant indicated altitude in the Northern Hemisphere.",
+      "question_type": "MCQ",
+      "options": [
+        "a. True altitude increases",
+        "b. Wind is northerly",
+        "c. True altitude decreases",
+        "d. Wind is southerly"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "30",
+      "question": "Up to FL180 ISA Deviation is $ISA+10^{\\circ}C.$ What is the actual depth of the layer between FL60 and FL120?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 6000 ft",
+        "b. 6240 ft",
+        "c. 5760 ft",
+        "d. 5700 ft"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "31",
+      "question": "Up to FL 180 ISA Deviation is ISA $-10^{\\circ}C.$ What is the actual depth of the layer between FL60 and FL120?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 6000 ft",
+        "b. 6240 ft",
+        "c. 5760 ft",
+        "d. 5700 ft"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "32",
+      "question": "What condition would cause your indicated altitude to be lower than that being actually flown?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Pressure lower than standard",
+        "b. Pressure is standard",
+        "c. Temperature lower than standard",
+        "d. Temperature higher than standard"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "33",
+      "question": "You fly over the sea at FL90, your true altitude is 9100 ft and QNH is unknown. What can be said about the atmosphere temperature?",
+      "question_type": "MCQ",
+      "options": [
+        "a. QNH is lower than standard",
+        "b. It is colder than ISA",
+        "c. It is warmer than ISA",
+        "d. Nothing, insufficient information"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "34",
+      "question": "You are flying at FL100 in an air mass that is $15^{\\circ}C$ colder than ISA. Local QNH is 983 hPa. What would the true altitude be?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 8590 ft",
+        "b. 11 410 ft",
+        "c. 10000 ft",
+        "d. 10210 ft"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "35",
+      "question": "Which statement is true?",
+      "question_type": "MCQ",
+      "options": [
+        "a. QFE is always lower than QNH",
+        "b. QNH is always lower than QFE",
+        "c. QNH can be equal to QFE",
+        "d. QFE can be equal to QFF only"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "36",
+      "question": "You fly from east to west at the 500 hPa level in the Northern Hemisphere;",
+      "question_type": "MCQ",
+      "options": [
+        "a. if the wind is from the north there will be a gain in altitude",
+        "b. if the wind is from the south there is again in altitude",
+        "c. if you encounter northerly drift, there is a gain in altitude",
+        "d. you fly towards an area of lower pressure, and therefore, experience a loss in altitude"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "37",
+      "question": "You have landed on an airport elevation 1240 ft and QNH 1008 hPa. Your altimeter subscale is erroneously set to 1013 hPa. The indication on the altimeter will be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1200 ft",
+        "b. 1375 ft",
+        "c. 1105 ft",
+        "d. 1280 ft"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "38",
+      "question": "You are cruising at FL200, OAT is $-40^{\\circ}C,$ sea level pressure is 1033 hPa. Calculate the true altitude.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 20660 ft",
+        "b. 21740 ft",
+        "c. 18260 ft",
+        "d. 19340 ft"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    }
+  ]
+}
+

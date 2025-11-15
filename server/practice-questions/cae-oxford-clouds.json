@@ -1,0 +1,553 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 12,
+  "chapter_title": "Clouds",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What cloud does hail fall from?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Cb",
+        "b. Ns",
+        "c. Cu",
+        "d. Ci"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "Flying conditions in Ci cloud and horizontal visibility:",
+      "question_type": "MCQ",
+      "options": [
+        "a. less than 500 m vis, light/mod clear icing",
+        "b. greater than 1000 m vis, light/mod rime ice",
+        "c. less then 500 m vis, no icing",
+        "d. greater than 1000 m vis, no icing"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "What is the composition of Ci cloud?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Super cooled water droplets",
+        "b. Ice crystals",
+        "c. Water droplets",
+        "d. Smoke particles"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "What cloud types are classified as medium cloud?",
+      "question_type": "MCQ",
+      "options": [
+        "a. $Ns+Sc$",
+        "b. $Ac+As$",
+        "c. $Cb+St$",
+        "d. $Ci+Cs$"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "What type of cloud is associated with drizzle?",
+      "question_type": "MCQ",
+      "options": [
+        "a. St",
+        "b. Cb",
+        "c. Ci",
+        "d. Ac"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "Fair weather cumulus gives an indication of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. poor visibility",
+        "b. thunderstorms",
+        "c. turbulence",
+        "d. smooth flying below"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "What best shows Altocumulus Lenticularis?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A",
+        "b. B",
+        "c. C"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "What are lenticularis clouds a possible indication of?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Mountain waves",
+        "b. Instability",
+        "c. Developing Cu and Cb",
+        "d. Horizontal windshear in the upper atmosphere"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "In what cloud is icing and turbulence most severe?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Cb",
+        "b. Ns",
+        "c. Sc",
+        "d. Ci"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "What will snow most likely fall from?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Ns",
+        "b. Cs",
+        "c. Ac",
+        "d. Sc"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "A plain in Western Europe at 500 m (1600 ft) AMSL is covered with a uniform altocumulus cloud during summer months. At what height AGL is the base of the cloud expected?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 100-1500 ft",
+        "b. 15000-25000 ft",
+        "c. 7000-15000 ft",
+        "d. 1500-7000 ft"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "What best shows Cumulonimbus capillatus?",
+      "question_type": "MCQ",
+      "options": [
+        "a. C",
+        "b. A",
+        "c. B",
+        "d. D"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "Clouds classified as low level are considered to have a base height of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 500-1000 ft",
+        "b. 1000-2000 ft",
+        "c. the surface - 6500 ft",
+        "d. 100-200 ft"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "In a tropical downpour the visibility is sometimes reduced to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 1000 m",
+        "b. 500 m",
+        "c. 200 m",
+        "d. less than 100 m"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "What type of cloud is usually found at high level?",
+      "question_type": "MCQ",
+      "options": [
+        "a. St",
+        "b. Ac",
+        "c. Cc",
+        "d. Ns"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "What best shows Acc?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A",
+        "b. B",
+        "c. C",
+        "d. D"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "Altostratus is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a low level cloud",
+        "b. a medium level cloud",
+        "c. a high level cloud",
+        "d. a heap type cloud"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "What would be reflected to radar?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Fog",
+        "b. Hail",
+        "c. Cloud",
+        "d. Mist"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "Which cloud would you encounter the most intensive rain?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Ci",
+        "b. Ns",
+        "c. St",
+        "d. Sc"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "CB cloud in summer contains:",
+      "question_type": "MCQ",
+      "options": [
+        "a. water droplets",
+        "b. ice crystals",
+        "c. water droplets, ice crystals and super cooled water droplets",
+        "d. water droplets and ice crystals"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "21",
+      "question": "Which cloud would produce showers?",
+      "question_type": "MCQ",
+      "options": [
+        "a. NS",
+        "b. AS",
+        "c. CS",
+        "d. CB"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "22",
+      "question": "When would you mostly likely get fair weather Cu?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 15:00",
+        "b. 12:00",
+        "c. 17:00",
+        "d. 07:00"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "23",
+      "question": "What type of cloud extends into another level?",
+      "question_type": "MCQ",
+      "options": [
+        "a. As",
+        "b. Acc",
+        "c. Ns",
+        "d. Ci"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "24",
+      "question": "Ceilometers measure:",
+      "question_type": "MCQ",
+      "options": [
+        "a. RVR",
+        "b. cloud height",
+        "c. met vis",
+        "d. turbulence"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "25",
+      "question": "Which of the following will indicate medium level instability, possibly leading to thunderstorms?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Halo",
+        "b. Altocumulus Castellanus",
+        "c. Altocumulus Capillatus",
+        "d. Red Cirrus"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "26",
+      "question": "What is the base of altocumulus in summer?",
+      "question_type": "MCQ",
+      "options": [
+        "a. 0-1500'",
+        "b. 1500-7000'",
+        "c. 7000'- $-15000^{\\prime}$",
+        "d. 7000'-16 500'"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "27",
+      "question": "When a CC layer lies over a West European plain in summer, with a mean terrain height of 500 m above sea level, the average cloud base could be expected to be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 0-100 ft above ground level",
+        "b. 5000-15000 ft above ground level",
+        "c. 15000-25000 ft above ground level",
+        "d. 15000-35000 ft above ground level"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "28",
+      "question": "Which of the following cloud types can stretch across all three cloud levels (low, medium and high level)?",
+      "question_type": "MCQ",
+      "options": [
+        "a. CI",
+        "b. ST",
+        "c. AC",
+        "d. CB"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "29",
+      "question": "Which of the following cloud types can stretch across at least two cloud levels?",
+      "question_type": "MCQ",
+      "options": [
+        "a. ST",
+        "b. NS",
+        "c. CI",
+        "d. SC"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "30",
+      "question": "From which cloud do you get hail?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Sc",
+        "b. Cb",
+        "c. Ns",
+        "d. Ts"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "31",
+      "question": "If you see Alto Cu Castellanus what does it indicate?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The upper atmosphere is stable",
+        "b. Subsistence",
+        "c. Instability in the lower atmosphere",
+        "d. Middle level instability"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "32",
+      "question": "To dissipate cloud requires:",
+      "question_type": "MCQ",
+      "options": [
+        "a. subsidence",
+        "b. a decrease in temperature",
+        "c. an increase pressure",
+        "d. convection"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "33",
+      "question": "Cu is an indication of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. vertical movement of air",
+        "b. stability",
+        "c. the approach of a warm front",
+        "d. the approach of a cold front"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "34",
+      "question": "Which clouds are evidence of stable air?",
+      "question_type": "MCQ",
+      "options": [
+        "a. St, As",
+        "b. Cb, Cc",
+        "c. Cu, Ns",
+        "d. Cu, Cb"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "35",
+      "question": "Lack of cloud at low level in a stationary high is due to:",
+      "question_type": "MCQ",
+      "options": [
+        "a. instability",
+        "b. rising air",
+        "c. sinking air",
+        "d. divergence at high level"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "36",
+      "question": "What is the most common freezing precipitation?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Freezing pellets",
+        "b. Freezing rain and freezing drizzle",
+        "c. Freezing graupel",
+        "d. Freezing hail and freezing snow"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "37",
+      "question": "From which of the following clouds are you least likely to get precipitation in summer?",
+      "question_type": "MCQ",
+      "options": [
+        "a. $CS/NS$",
+        "b. $CS/AS$",
+        "c. $CB/CU$",
+        "d. $CU/ST$"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "38",
+      "question": "A layer of air cooling at the SALR compared to the DALR would give what kind of cloud?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Stratus if saturated",
+        "b. Cumulus if saturated",
+        "c. No cloud if saturated",
+        "d. Convective cloud"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "39",
+      "question": "Over flat dry land what would cause cloud?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Orographic uplift",
+        "b. Convective uplift during the day",
+        "c. Release of latent heat",
+        "d. Advection"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}
+

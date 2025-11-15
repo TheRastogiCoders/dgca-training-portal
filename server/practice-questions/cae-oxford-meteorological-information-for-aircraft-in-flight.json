@@ -1,0 +1,148 @@
+{
+  "book_name": "CAE Oxford Meteorology",
+  "chapter_number": 29,
+  "chapter_title": "Meteorological Information for Aircraft in Flight",
+  "questions": [
+    {
+      "id": "1",
+      "question": "An aerodrome VOLMET report for 0450 UTC, during the autumn in the United Kingdom is:\nSurface wind 150/05 kt\nVisibility 2000 m\nWeather Nil\nTemperature $9^{\\circ}C$\nDew point $8^{\\circ}C$\nQNH 1029 hPa\nTrend NOSIG\nFrom the information above, what type of pressure system, do you deduce, is dominating the region?",
+      "question_type": "MCQ",
+      "options": [
+        "a. An anti-cyclone",
+        "b. A cyclone",
+        "c. A low pressure",
+        "d. A trough"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "A VOLMET is defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a radio broadcast of selected aerodrome forecasts",
+        "b. a continuous telephone message of selected aerodrome METARS",
+        "c. a continuous radio broadcast of selected aerodrome actual weather observations and forecasts",
+        "d. a teleprinter message of selected aerodrome TAFs and METARS"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "VOLMETs are updated:",
+      "question_type": "MCQ",
+      "options": [
+        "a. every hour",
+        "b. 4 times a day",
+        "c. 2 times a day",
+        "d. every half hour"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "VOLMETs are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. air to ground radio transmissions on HF and VHF",
+        "b. air to ground radio transmissions on HF and SVHF",
+        "c. ground to air radio transmissions on LF and VHF",
+        "d. ground to air radio transmissions on HF and VHF"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "An aerodrome VOLMET report for 0450 UTC, during the autumn in the United Kingdom is:\nSurface wind 150/05 kt\nVisibility 2000 m\nWeather Nil\nTemperature $9^{\\circ}C$\nDew point $8^{\\circ}C$\nQNH 1029 hPa\nTrend NOSIG\nGiven that sunrise is at 0600 UTC, what might you expect during the 2 hours following this report?",
+      "question_type": "MCQ",
+      "options": [
+        "a. CAVOK",
+        "b. Radiation Fog",
+        "c. Low Stratus",
+        "d. Advection Fog"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "When are ATIS broadcasts updated?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Any time the aerodrome or weather information changes",
+        "b. Only when the aerodrome information changes",
+        "c. Every 30 minutes",
+        "d. Every hour"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "To minimize VHF frequency use, the ATIS can be broadcast on the voice frequency of which navigation aid?",
+      "question_type": "MCQ",
+      "options": [
+        "a. ILS",
+        "b. NDB",
+        "c. VOR",
+        "d. GPS"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "In an ATIS broadcast, what is used to identify the current report?",
+      "question_type": "MCQ",
+      "options": [
+        "a. An alphabetical code",
+        "b. A number",
+        "c. A validity number",
+        "d. An issue time"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "What is the ATIS?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A chart of current aerodrome and weather information",
+        "b. A continuous broadcast of current aerodrome and weather information",
+        "c. A continuous broadcast of weather information",
+        "d. A printed text report of current aerodrome and weather information"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "In what frequency band is the ATIS normally broadcast?",
+      "question_type": "MCQ",
+      "options": [
+        "a. LF",
+        "b. HF",
+        "c. ADF",
+        "d. VHF"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    }
+  ]
+}
+

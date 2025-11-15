@@ -1,0 +1,288 @@
+{
+  "book_name": "CAE Oxford Human Performance and Limitations",
+  "chapter_number": "7",
+  "chapter_title": "Stress",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Having successfully overcome a stressful situation once, how will the person react if placed in the same or similar situation a second time?",
+      "question_type": "MCQ",
+      "options": [
+        "a. There will be little difference",
+        "b. He/she will know what is ahead and be already in a stressful condition thus stress will increase",
+        "c. He/she will feel more confident and therefore stress will reduce",
+        "d. It will depend on the individual"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "2",
+      "question": "How is performance affected by over and under arousal?",
+      "question_type": "MCQ",
+      "options": [
+        "a. It is improved",
+        "b. There is little difference",
+        "c. It is degraded",
+        "d. It will depend on the individual"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "3",
+      "question": "What is the purpose of the \"sympathetic\" nervous system?",
+      "question_type": "MCQ",
+      "options": [
+        "a. To control the emotional response under stressful conditions",
+        "b. To control the effects of adrenalin",
+        "c. To return the body to homeostasis after the \"fight or flee\" syndrome",
+        "d. To prepare the body for \"fight or flight\""
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "4",
+      "question": "What is the purpose of the \"parasympathetic\" nervous system?",
+      "question_type": "MCQ",
+      "options": [
+        "a. To prolong the body's mobilisation and return the body to normal after the \"fight or flight\" syndrome",
+        "b. To prepare the body for \"fight or flee\"",
+        "c. To direct the adrenalin to the correct organs of the body",
+        "d. To return the body to normal after an emotional response under stressful conditions"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "5",
+      "question": "What part of the body is affected with the vibration in the 4 to 10 Hz frequency range?",
+      "question_type": "MCQ",
+      "options": [
+        "a. The brain plus there will be a headache",
+        "b. The chest plus there will be an abdominal pain",
+        "c. The respiration plus pains in the chest",
+        "d. The pulse rate"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "6",
+      "question": "Which graph shows the relationship between arousal and performance?",
+      "question_type": "MCQ",
+      "options": [
+        "a. A U-shaped graph",
+        "b. An inverted U-shaped graph",
+        "c. A straight line graph",
+        "d. An M-shaped graph"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "7",
+      "question": "The three phases of the GAS Syndrome are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. alarm, fear, resistance",
+        "b. alarm, resistance, exhaustion",
+        "c. alarm, fear, exhaustion",
+        "d. fear, resistance, exhaustion"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "8",
+      "question": "Which life stressor is said to cause the most stress?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Home/work interface",
+        "b. Divorce",
+        "c. Death of a family member",
+        "d. Death of a spouse, partner or child"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "9",
+      "question": "During the resistance phase of the GAS Syndrome ........... is released to assist the body to convert fats to sugar.",
+      "question_type": "MCQ",
+      "options": [
+        "a. Adrenaline",
+        "b. Glucose",
+        "c. White blood cells",
+        "d. Cortisol"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "10",
+      "question": "Broadly speaking the GAS Syndrome consists of three categories of reactions. These are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. somatic, psychosomatic, physiological",
+        "b. physiological, psychosomatic, psychological",
+        "c. somatic, physiological, psychological",
+        "d. somatic, psychosomatic, psychological"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "11",
+      "question": "Stress factors are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. non-cumulative",
+        "b. cumulative",
+        "c. stress reactions",
+        "d. stress coactions"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "12",
+      "question": "A comfortable temperature for most people in normal clothing is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 25°C",
+        "b. 15°C",
+        "c. 20°C",
+        "d. 30°C"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "13",
+      "question": "The autonomic nervous system comprises:",
+      "question_type": "MCQ",
+      "options": [
+        "a. sympathetic, neo-sympathetic and parasympathetic systems",
+        "b. sympathetic and parasympathetic systems",
+        "c. neo-sympathetic and parasympathetic systems",
+        "d. none of the above"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "14",
+      "question": "Define three methods of coping with stress:",
+      "question_type": "MCQ",
+      "options": [
+        "a. action coping, forced coping, symptom directed coping",
+        "b. action coping, cognitive coping, symptom directed coping",
+        "c. slip coping, cognitive coping, symptom directed coping",
+        "d. slip coping, action coping, symptom directed coping"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "15",
+      "question": "Which of the following statements, with regard to the five major guidelines to prevent stress in the cockpit from affecting safety, are correct:",
+      "question_type": "MCQ",
+      "options": [
+        "a. planned sleep patterns and use all crew resources",
+        "b. planned sleep patterns and keep it simple",
+        "c. use all crew resources and keep a good flight deck atmosphere",
+        "d. never give up - there is always a suitable response"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "16",
+      "question": "The best strategies to increase stress tolerance are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. planning, experience and self-control (fewer unexpected situations)",
+        "b. learning, experience and anticipation",
+        "c. learning, experience and CRM",
+        "d. planning, experience and CRM"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "17",
+      "question": "Once the blood temperature rises above ........... the homeostatic mechanisms within the body can no longer cope.",
+      "question_type": "MCQ",
+      "options": [
+        "a. 40°C",
+        "b. 35°C",
+        "c. 50°C",
+        "d. 41°C"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "18",
+      "question": "A comfortable humidity for most people in normal clothing is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. 40%-50%",
+        "b. 30%-40%",
+        "c. 20%-50%",
+        "d. 40%-60%"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "19",
+      "question": "In a dynamic situation, an additional stress factor (stressor) can be:",
+      "question_type": "MCQ",
+      "options": [
+        "a. a lack of time",
+        "b. homeostasis",
+        "c. a moderate amount of noise",
+        "d. the operation of the parasympathetic system"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "20",
+      "question": "The \"break point\" is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. when the pilot \"overloads\" due to stress",
+        "b. the point in time when the pilot is unable to think positively",
+        "c. the point in time when the pilot is unable to think rationally",
+        "d. the point of optimum performance after which, if stress continues, performance will be degraded"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    }
+  ]
+}
+
