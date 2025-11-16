@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ch1",
+    "bookId": "cae-oxford-air-regulations",
+    "name": "International Agreements and Organizations",
+    "topics": [
+      {
+        "id": "topic-icao",
+        "title": "ICAO",
+        "pageNumber": 5
+      },
+      {
+        "id": "topic-annexes",
+        "title": "ICAO Annexes",
+        "pageNumber": 12
+      }
+    ]
+  },
+  {
+    "id": "met-ch2",
+    "bookId": "cae-oxford-meteorology",
+    "name": "Pressure",
+    "topics": [
+      {
+        "id": "topic-1",
+        "title": "Airwash",
+        "pageNumber": 52
+      },
+      {
+        "id": "topic-3",
+        "title": "Pressure Systems",
+        "pageNumber": 40
+      }
+    ]
+  }
+]
+

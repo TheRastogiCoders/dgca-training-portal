@@ -1,0 +1,363 @@
+[
+  {
+    "id": "def-1",
+    "term": "Airwash",
+    "simpleExplanation": "Airwash is the distortion of airflow around an aircraft caused by the propeller or jet engine exhaust.",
+    "detailedExplanation": "Airwash refers to the disturbance in the airflow pattern that occurs around an aircraft, primarily caused by the rotation of propellers or the exhaust from jet engines. This distortion can affect various aircraft systems, including airspeed indicators, angle of attack sensors, and other pitot-static instruments. The airwash effect is most pronounced at low speeds and high power settings, where the prop wash or jet blast creates significant turbulence in the surrounding air. Pilots must be aware of this effect as it can lead to inaccurate instrument readings, particularly affecting the accuracy of airspeed indicators and other pressure-based instruments.",
+    "formulas": [
+      {
+        "name": "Airwash Velocity",
+        "formula": "V_airwash = V_prop × (1 + k × (r/R))",
+        "description": "Where V_prop is propeller velocity, r is distance from center, R is propeller radius, k is a constant"
+      }
+    ],
+    "examples": [
+      "During takeoff, the airwash from the propeller can cause the airspeed indicator to read higher than the actual airspeed.",
+      "In multi-engine aircraft, the airwash from one engine can affect the airflow over the wing, potentially causing asymmetric lift.",
+      "Helicopter pilots must account for airwash when hovering, as the downwash can create ground effect and affect control inputs."
+    ],
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-ch2",
+    "pageNumber": 52,
+    "relatedTerms": ["Prop Wash", "Jet Blast", "Airspeed Indicator Error"]
+  },
+  {
+    "id": "def-2",
+    "term": "Pressure Gradient",
+    "simpleExplanation": "A pressure gradient is the rate of change of atmospheric pressure over a distance.",
+    "detailedExplanation": "A pressure gradient represents the change in atmospheric pressure between two points in space. In meteorology, pressure gradients are crucial for understanding wind patterns and weather systems. The pressure gradient force is what drives air movement from areas of high pressure to areas of low pressure. The strength of the gradient determines wind speed - steeper gradients result in stronger winds. On weather charts, pressure gradients are visualized using isobars (lines of equal pressure), where closely spaced isobars indicate strong pressure gradients and high wind speeds.",
+    "formulas": [
+      {
+        "name": "Pressure Gradient Force",
+        "formula": "F = -∇P / ρ",
+        "description": "Where F is force, ∇P is pressure gradient, ρ is air density"
+      }
+    ],
+    "examples": [
+      "A strong pressure gradient between a high-pressure system and a low-pressure system creates strong winds.",
+      "In aviation, pilots use pressure gradient information from weather charts to anticipate wind conditions during flight planning.",
+      "The pressure gradient across a front determines the intensity of weather changes associated with that front."
+    ],
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-ch2",
+    "pageNumber": 45,
+    "relatedTerms": ["Isobar", "Wind Speed", "Pressure System"]
+  },
+  {
+    "id": "def-vor",
+    "term": "VOR",
+    "simpleExplanation": "VOR (VHF Omni-directional Range) is a ground-based navigation aid that provides aircraft with bearing information relative to the station.",
+    "detailedExplanation": "VOR (VHF Omni-directional Range) is a type of short-range radio navigation system for aircraft, enabling aircraft with a receiving unit to determine its position and stay on course by receiving radio signals transmitted by a network of fixed ground radio beacons. It uses frequencies in the VHF band from 108.0 to 117.95 MHz. A VOR station broadcasts a VHF radio composite signal including the station's identifier, voice (if equipped), and navigation signal. The navigation signal allows the airborne receiving equipment to determine a bearing to the station (direction from the VOR station in relation to Magnetic North). The VOR system provides 360 radials (directions) from the station, each identified by its magnetic bearing from the station.",
+    "formulas": [],
+    "examples": [
+      "When flying TO a VOR station, the CDI (Course Deviation Indicator) will center when the aircraft is on the selected radial.",
+      "VOR accuracy is typically ±1 degree, which means at 60 nautical miles from the station, the position error can be up to 1 nautical mile.",
+      "VOR stations are identified by a three-letter Morse code identifier that is broadcast continuously."
+    ],
+    "bookId": "cae-oxford-navigation",
+    "chapterId": "nav-vor",
+    "pageNumber": 120,
+    "relatedTerms": ["DME", "VOR/DME", "CDI", "OBS", "Radial"]
+  },
+  {
+    "id": "def-dme",
+    "term": "DME",
+    "simpleExplanation": "DME (Distance Measuring Equipment) is a radio navigation system that measures the slant range distance between an aircraft and a ground station.",
+    "detailedExplanation": "DME (Distance Measuring Equipment) is a transponder-based radio navigation technology that measures slant range distance by timing the propagation delay of VHF or UHF radio signals. The aircraft sends out a signal and the ground station responds. The time taken for the signal to travel to the station and back is measured, and this is converted to distance. DME provides distance information in nautical miles. It's important to note that DME measures slant range (the direct distance through the air), not horizontal distance. At high altitudes, the slant range will be greater than the horizontal distance. DME is often co-located with VOR stations (VOR/DME) or ILS localizers (ILS/DME).",
+    "formulas": [
+      {
+        "name": "Slant Range",
+        "formula": "Slant Range = √(Horizontal Distance² + Altitude²)",
+        "description": "At high altitudes, slant range is greater than horizontal distance"
+      }
+    ],
+    "examples": [
+      "When 10 nautical miles from a DME station at 10,000 feet altitude, the DME will read approximately 10.1 nautical miles due to slant range.",
+      "DME accuracy is typically ±0.1 nautical miles or 3% of the distance, whichever is greater.",
+      "DME provides distance information but not direction - it's often paired with VOR for complete navigation."
+    ],
+    "bookId": "cae-oxford-navigation",
+    "chapterId": "nav-dme",
+    "pageNumber": 145,
+    "relatedTerms": ["VOR", "VOR/DME", "Slant Range", "TACAN"]
+  },
+  {
+    "id": "def-ils",
+    "term": "ILS",
+    "simpleExplanation": "ILS (Instrument Landing System) is a precision approach aid that provides both horizontal and vertical guidance to aircraft during approach and landing.",
+    "detailedExplanation": "ILS (Instrument Landing System) is a ground-based instrument approach system that provides precision guidance to an aircraft approaching and landing on a runway, using a combination of radio signals and, in many cases, high-intensity lighting arrays to enable a safe landing during instrument meteorological conditions (IMC), such as low ceilings or reduced visibility due to fog, rain, or blowing snow. The ILS consists of two independent subsystems: the localizer providing horizontal guidance (azimuth) and the glideslope providing vertical guidance (elevation). The localizer antenna array is located at the far end of the runway, while the glideslope antenna is positioned beside the runway near the touchdown zone. ILS approaches are categorized into three categories: CAT I (decision height 200 ft, visibility 550 m), CAT II (decision height 100 ft, visibility 300 m), and CAT III (no decision height, very low visibility).",
+    "formulas": [],
+    "examples": [
+      "A CAT I ILS approach allows landing with a decision height of 200 feet and visibility of 550 meters.",
+      "The localizer provides left/right guidance, while the glideslope provides up/down guidance to maintain the correct approach path.",
+      "ILS is the most common precision approach system used in commercial aviation."
+    ],
+    "bookId": "cae-oxford-navigation",
+    "chapterId": "nav-ils",
+    "pageNumber": 180,
+    "relatedTerms": ["Localizer", "Glideslope", "Marker Beacons", "CAT I", "CAT II", "CAT III", "Decision Height"]
+  },
+  {
+    "id": "def-jet-stream",
+    "term": "Jet Stream",
+    "simpleExplanation": "A jet stream is a narrow band of strong winds in the upper atmosphere, typically found at the tropopause level.",
+    "detailedExplanation": "Jet streams are fast flowing, narrow air currents found in the atmospheres of some planets, including Earth. On Earth, the main jet streams are located near the altitude of the tropopause and are westerly winds (flowing west to east). Their paths typically have a meandering shape. Jet streams may start, stop, split into two or more parts, combine into one stream, or flow in various directions including opposite to the direction of the remainder of the jet. The strongest jet streams are the polar jets, at around 7–12 km (23,000–39,000 ft) above sea level, and the higher altitude and somewhat weaker subtropical jets at around 10–16 km (33,000–52,000 ft). The polar jet stream is typically found between 30,000 and 40,000 feet, with wind speeds often exceeding 100 knots. Jet streams are important in aviation as they can significantly affect flight time and fuel consumption.",
+    "formulas": [],
+    "examples": [
+      "Flying eastbound in a jet stream can reduce flight time and fuel consumption, while westbound flights against the jet stream will take longer and burn more fuel.",
+      "The polar jet stream is typically strongest in winter and can reach speeds of 150-200 knots.",
+      "Clear air turbulence (CAT) is often associated with jet streams, especially near the tropopause."
+    ],
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-jetstream",
+    "pageNumber": 95,
+    "relatedTerms": ["Tropopause", "Upper Winds", "Clear Air Turbulence", "Wind Shear"]
+  },
+  {
+    "id": "def-tropopause",
+    "term": "Tropopause",
+    "simpleExplanation": "The tropopause is the boundary between the troposphere and the stratosphere, typically located around 36,000 feet at mid-latitudes.",
+    "detailedExplanation": "The tropopause is the atmospheric boundary layer between the troposphere and the stratosphere. It is characterized by a temperature inversion (temperature stops decreasing with altitude and begins to increase). The height of the tropopause varies with latitude and season. At the equator, it's typically around 55,000-60,000 feet, while at the poles it can be as low as 25,000-30,000 feet. In mid-latitudes, the tropopause is typically around 36,000 feet. The tropopause is important in aviation because it marks the level where the jet stream is typically strongest, and it's also the level where clear air turbulence is most common. Above the tropopause, in the stratosphere, temperature increases with altitude due to ozone absorption of ultraviolet radiation.",
+    "formulas": [],
+    "examples": [
+      "The tropopause height varies with latitude - higher at the equator (around 55,000 ft) and lower at the poles (around 25,000 ft).",
+      "Jet streams are typically found at or near the tropopause level.",
+      "The tropopause marks the boundary where temperature stops decreasing with altitude."
+    ],
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-atmosphere",
+    "pageNumber": 25,
+    "relatedTerms": ["Troposphere", "Stratosphere", "Jet Stream", "Atmosphere"]
+  },
+  {
+    "id": "def-hypoxia",
+    "term": "Hypoxia",
+    "simpleExplanation": "Hypoxia is a condition where the body or a region of the body is deprived of adequate oxygen supply at the tissue level.",
+    "detailedExplanation": "Hypoxia in aviation refers to oxygen deficiency in the body tissues. There are four main types of hypoxia: 1) Hypoxic Hypoxia - caused by reduced oxygen pressure at altitude, 2) Hypemic (Anemic) Hypoxia - caused by reduced oxygen-carrying capacity of the blood (e.g., carbon monoxide poisoning, anemia), 3) Stagnant Hypoxia - caused by reduced blood flow (e.g., G-forces, shock), and 4) Histotoxic Hypoxia - caused by the inability of cells to use oxygen (e.g., alcohol, drugs). The most common type in aviation is hypoxic hypoxia, which occurs as altitude increases and atmospheric pressure decreases. Symptoms include impaired judgment, euphoria, headache, cyanosis (bluish skin), and eventually unconsciousness. Time of useful consciousness decreases rapidly with altitude - at 25,000 feet it's about 3-5 minutes, while at 40,000 feet it's only 15-20 seconds.",
+    "formulas": [],
+    "examples": [
+      "At 18,000 feet, the partial pressure of oxygen is approximately half that at sea level, leading to hypoxic hypoxia.",
+      "Symptoms of hypoxia include impaired judgment, which is particularly dangerous as the pilot may not recognize the condition.",
+      "Time of useful consciousness at 35,000 feet is only 30-90 seconds at rest."
+    ],
+    "bookId": "cae-oxford-human-performance",
+    "chapterId": "hp-oxygen",
+    "pageNumber": 35,
+    "relatedTerms": ["Time of Useful Consciousness", "Hyperventilation", "Oxygen", "Altitude", "Hypoxic Hypoxia"]
+  },
+  {
+    "id": "def-time-of-useful-consciousness",
+    "term": "Time of Useful Consciousness",
+    "simpleExplanation": "Time of Useful Consciousness (TUC) is the period during which a person can perform useful functions in an oxygen-deficient environment.",
+    "detailedExplanation": "Time of Useful Consciousness (TUC), also known as Effective Performance Time, is the period of time from the interruption of the oxygen supply or exposure to an oxygen-poor environment until the time when useful function is lost, where 'useful function' is defined as the ability to recognize an emergency and take corrective action. TUC decreases rapidly with increasing altitude. At 25,000 feet, TUC is approximately 3-5 minutes during moderate activity. At 30,000 feet, it's about 1-2 minutes. At 35,000 feet, TUC is only 30-90 seconds at rest, and at 40,000 feet, it's reduced to just 15-20 seconds. Physical activity, individual fitness, and acclimatization can affect TUC. It's important to note that TUC is not the same as time to unconsciousness - useful function is lost before unconsciousness occurs.",
+    "formulas": [],
+    "examples": [
+      "At 25,000 feet, a pilot has approximately 3-5 minutes of useful consciousness during moderate activity.",
+      "At 40,000 feet, time of useful consciousness is only 15-20 seconds, making rapid donning of oxygen masks critical.",
+      "Physical activity reduces TUC - a pilot exercising at altitude will have less time than one at rest."
+    ],
+    "bookId": "cae-oxford-human-performance",
+    "chapterId": "hp-oxygen",
+    "pageNumber": 40,
+    "relatedTerms": ["Hypoxia", "Altitude", "Oxygen", "Unconsciousness"]
+  },
+  {
+    "id": "def-gas-syndrome",
+    "term": "GAS Syndrome",
+    "simpleExplanation": "GAS (General Adaptation Syndrome) is the body's three-stage response to stress: alarm, resistance, and exhaustion.",
+    "detailedExplanation": "General Adaptation Syndrome (GAS) is a three-stage process that describes the physiological changes the body goes through when under stress. The three stages are: 1) Alarm Phase - The initial reaction to a stressor, where the body recognizes the threat and activates the 'fight or flight' response. The sympathetic nervous system is activated, releasing adrenaline and cortisol. Heart rate increases, blood pressure rises, and the body prepares for action. 2) Resistance Phase - If the stressor continues, the body attempts to adapt and return to normal functioning while still dealing with the stressor. Cortisol levels remain elevated. 3) Exhaustion Phase - If stress continues for too long, the body's resources become depleted, leading to decreased stress tolerance, fatigue, and potential health problems. In aviation, understanding GAS helps pilots recognize stress responses and manage them effectively.",
+    "formulas": [],
+    "examples": [
+      "During the alarm phase of GAS, a pilot's heart rate and blood pressure increase in response to an emergency situation.",
+      "Prolonged stress can lead to the exhaustion phase, where performance degrades significantly.",
+      "The resistance phase allows the body to maintain performance while dealing with ongoing stress."
+    ],
+    "bookId": "cae-oxford-human-performance",
+    "chapterId": "hp-stress",
+    "pageNumber": 55,
+    "relatedTerms": ["Stress", "Alarm Phase", "Resistance Phase", "Exhaustion Phase", "Cortisol", "Adrenaline"]
+  },
+  {
+    "id": "def-circadian-rhythm",
+    "term": "Circadian Rhythm",
+    "simpleExplanation": "Circadian rhythm is the body's natural 24-hour biological clock that regulates sleep-wake cycles and other physiological processes.",
+    "detailedExplanation": "Circadian rhythm is a natural, internal process that regulates the sleep-wake cycle and repeats roughly every 24 hours. It can refer to any biological process that displays an endogenous, entrainable oscillation of about 24 hours. The term 'circadian' comes from the Latin 'circa' (around) and 'dies' (day). In humans, the free-running circadian rhythm is approximately 25 hours, but it's entrained to 24 hours by external cues called zeitgebers (time-givers), primarily light. Key aspects include: body temperature (lowest around 3-5 AM, highest in late afternoon), hormone secretion (cortisol peaks in morning, melatonin at night), and alertness levels. For pilots, circadian rhythm disruption (jet lag) occurs when crossing time zones, as the body's internal clock is out of sync with the local time. It takes approximately 1 day per 1-1.5 hours of time change to fully adjust.",
+    "formulas": [],
+    "examples": [
+      "The free-running circadian rhythm is approximately 25 hours, but is entrained to 24 hours by light cues.",
+      "Body temperature is lowest around 3-5 AM, which corresponds with the lowest alertness levels.",
+      "It takes approximately 1 day per 1-1.5 hours of time zone change for the circadian rhythm to adjust."
+    ],
+    "bookId": "cae-oxford-human-performance",
+    "chapterId": "hp-sleep",
+    "pageNumber": 70,
+    "relatedTerms": ["Sleep", "Fatigue", "Jet Lag", "Time Zones", "Melatonin", "Body Temperature"]
+  },
+  {
+    "id": "def-certificate-of-airworthiness",
+    "term": "Certificate of Airworthiness",
+    "simpleExplanation": "A Certificate of Airworthiness (C of A) is a document issued by the aviation authority certifying that an aircraft is airworthy and safe to fly.",
+    "detailedExplanation": "A Certificate of Airworthiness (C of A) is a document issued by the national aviation authority (such as DGCA in India) that certifies an aircraft is airworthy and conforms to its type design. The certificate remains valid as long as the aircraft is maintained in accordance with approved maintenance schedules and continues to meet the requirements under which it was issued. There are different types of C of A: Standard C of A (for normal operations), Restricted C of A (for specific purposes like training or experimental), and Special C of A (for aircraft that don't fully meet standard requirements). The certificate must be carried on board the aircraft at all times. The continuing validity depends on compliance with maintenance requirements, modifications, and inspections as specified by the State of Registry.",
+    "formulas": [],
+    "examples": [
+      "A Standard Certificate of Airworthiness is required for commercial operations.",
+      "The C of A must be carried on board the aircraft and presented to authorities upon request.",
+      "The certificate remains valid as long as the aircraft is maintained according to approved schedules."
+    ],
+    "bookId": "cae-oxford-air-regulations",
+    "chapterId": "ar-airworthiness",
+    "pageNumber": 50,
+    "relatedTerms": ["Airworthiness", "Aircraft Registration", "Maintenance", "State of Registry"]
+  },
+  {
+    "id": "def-icao",
+    "term": "ICAO",
+    "simpleExplanation": "ICAO (International Civil Aviation Organization) is a specialized agency of the United Nations that sets international standards for aviation safety and efficiency.",
+    "detailedExplanation": "The International Civil Aviation Organization (ICAO) is a specialized agency of the United Nations that codifies the principles and techniques of international air navigation and fosters the planning and development of international air transport to ensure safe and orderly growth. ICAO was established in 1944 by the Chicago Convention. ICAO sets Standards and Recommended Practices (SARPs) which are published as Annexes to the Chicago Convention. There are 19 Annexes covering various aspects of aviation including: Annex 1 (Personnel Licensing), Annex 2 (Rules of the Air), Annex 6 (Operation of Aircraft), Annex 8 (Airworthiness), Annex 10 (Aeronautical Telecommunications), and Annex 14 (Aerodromes). Member states are required to notify ICAO of any differences between their national regulations and ICAO standards. ICAO also provides assistance in aviation safety, security, efficiency, and environmental protection.",
+    "formulas": [],
+    "examples": [
+      "ICAO Annex 1 covers Personnel Licensing requirements for pilots, engineers, and air traffic controllers.",
+      "ICAO Annex 2 contains the Rules of the Air that apply internationally.",
+      "Member states must notify ICAO of any differences between their national regulations and ICAO standards."
+    ],
+    "bookId": "cae-oxford-air-regulations",
+    "chapterId": "ar-international",
+    "pageNumber": 5,
+    "relatedTerms": ["Chicago Convention", "ICAO Annexes", "SARPs", "International Standards"]
+  },
+  {
+    "id": "def-separation",
+    "term": "Separation",
+    "simpleExplanation": "Separation is the spacing maintained between aircraft to prevent collisions and ensure safe flight operations.",
+    "detailedExplanation": "Separation in aviation refers to the spacing maintained between aircraft to prevent collisions. There are three main types of separation: 1) Vertical Separation - maintaining different altitudes/flight levels (typically 1000 feet below FL290, 2000 feet at and above FL290, or 1000 feet in RVSM airspace), 2) Horizontal Separation - maintaining distance between aircraft at the same altitude (can be lateral or longitudinal), and 3) Time-based Separation - maintaining time intervals between aircraft. Separation minima vary depending on the type of airspace, equipment on board the aircraft, and the type of air traffic control service being provided. In controlled airspace, ATC is responsible for providing separation. In uncontrolled airspace, pilots are responsible for maintaining separation through 'see and avoid' principles. Reduced Vertical Separation Minima (RVSM) allows 1000-foot vertical separation between FL290 and FL410 for properly equipped aircraft.",
+    "formulas": [],
+    "examples": [
+      "Vertical separation below FL290 is typically 1000 feet, while above FL290 it's 2000 feet (or 1000 feet in RVSM airspace).",
+      "In RVSM airspace (FL290-FL410), properly equipped aircraft can maintain 1000-foot vertical separation.",
+      "Horizontal separation can be maintained through distance (e.g., 5 nautical miles) or time intervals."
+    ],
+    "bookId": "cae-oxford-air-regulations",
+    "chapterId": "ar-separation",
+    "pageNumber": 150,
+    "relatedTerms": ["Vertical Separation", "Horizontal Separation", "RVSM", "Air Traffic Control", "Separation Minima"]
+  },
+  {
+    "id": "def-rvsm",
+    "term": "RVSM",
+    "simpleExplanation": "RVSM (Reduced Vertical Separation Minima) allows 1000-foot vertical separation between aircraft at flight levels 290-410.",
+    "detailedExplanation": "RVSM (Reduced Vertical Separation Minima) is a set of standards that allow aircraft to fly with only 1000 feet of vertical separation between FL290 (29,000 feet) and FL410 (41,000 feet), instead of the standard 2000 feet. This effectively doubles the number of available flight levels in this altitude range, allowing more efficient use of airspace and fuel. To operate in RVSM airspace, aircraft must be equipped with: 1) Two independent altitude measurement systems, 2) An altitude alerting system, 3) An automatic altitude control system (autopilot with altitude hold), and 4) A transponder with Mode S or Mode C. The aircraft must also be certified for RVSM operations. Pilots must be trained and qualified for RVSM operations. RVSM significantly increases airspace capacity and allows more direct routing, saving fuel and reducing flight times.",
+    "formulas": [],
+    "examples": [
+      "RVSM allows 1000-foot vertical separation between FL290 and FL410, doubling available flight levels.",
+      "Aircraft must be equipped with dual altimeters and altitude alerting systems to operate in RVSM airspace.",
+      "RVSM increases airspace capacity and allows more efficient routing, saving fuel and reducing flight times."
+    ],
+    "bookId": "cae-oxford-air-regulations",
+    "chapterId": "ar-separation",
+    "pageNumber": 165,
+    "relatedTerms": ["Separation", "Vertical Separation", "Flight Levels", "Altitude", "Mode S"]
+  },
+  {
+    "id": "def-wind-shear",
+    "term": "Wind Shear",
+    "simpleExplanation": "Wind shear is a sudden change in wind speed or direction over a short distance, which can be hazardous to aircraft.",
+    "detailedExplanation": "Wind shear is a difference in wind speed or direction over a relatively short distance in the atmosphere. It can occur horizontally or vertically. Wind shear is particularly dangerous to aircraft during takeoff and landing, as it can cause sudden changes in airspeed and altitude. There are several types: 1) Low-Level Wind Shear (LLWS) - occurs below 2000 feet AGL, often associated with thunderstorms, frontal boundaries, or temperature inversions, 2) Microburst - a small-scale, intense downdraft that spreads out horizontally near the ground, creating both headwind and tailwind conditions, 3) Vertical Wind Shear - change in wind with altitude, 4) Horizontal Wind Shear - change in wind across a horizontal distance. Wind shear can cause sudden airspeed changes, altitude deviations, and control difficulties. Modern aircraft are equipped with wind shear detection and warning systems. Pilots should be especially cautious during approach and departure in conditions conducive to wind shear.",
+    "formulas": [],
+    "examples": [
+      "A microburst can cause an aircraft to experience a headwind during approach, followed by a tailwind, leading to altitude loss.",
+      "Low-level wind shear is most dangerous during takeoff and landing phases of flight.",
+      "Wind shear warnings are provided by airport equipment and aircraft systems to alert pilots of hazardous conditions."
+    ],
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-winds",
+    "pageNumber": 110,
+    "relatedTerms": ["Microburst", "Low Level Wind Shear", "Thunderstorms", "Turbulence"]
+  },
+  {
+    "id": "def-clear-air-turbulence",
+    "term": "Clear Air Turbulence",
+    "simpleExplanation": "Clear Air Turbulence (CAT) is turbulence occurring in clear air, typically near the tropopause or jet streams, with no visible warning signs.",
+    "detailedExplanation": "Clear Air Turbulence (CAT) is turbulence encountered in air where there are no clouds or visible indicators. It's most commonly found near the tropopause and in association with jet streams. CAT is caused by wind shear, particularly vertical wind shear, where wind speed or direction changes rapidly with altitude. It's most common at altitudes between 23,000 and 39,000 feet, especially near the jet stream core. Unlike turbulence associated with clouds or thunderstorms, CAT provides no visual warning, making it particularly hazardous. Factors that increase CAT likelihood include: strong jet streams, temperature inversions, and mountain waves. CAT can range from light to severe, and severe CAT can cause injuries to passengers and crew, as well as structural stress on the aircraft. Pilots receive CAT forecasts and reports from other aircraft to help avoid areas of known turbulence.",
+    "formulas": [],
+    "examples": [
+      "CAT is most common near the tropopause and jet streams, typically between 23,000 and 39,000 feet.",
+      "Unlike cloud turbulence, CAT provides no visual warning, making it particularly dangerous.",
+      "Severe CAT can cause passenger injuries and structural stress on the aircraft."
+    ],
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-turbulence",
+    "pageNumber": 85,
+    "relatedTerms": ["Turbulence", "Jet Stream", "Tropopause", "Wind Shear"]
+  },
+  {
+    "id": "def-microburst",
+    "term": "Microburst",
+    "simpleExplanation": "A microburst is a small-scale, intense downdraft that spreads out horizontally near the ground, creating dangerous wind shear conditions.",
+    "detailedExplanation": "A microburst is a small-scale, intense downdraft that spreads out horizontally when it reaches the ground. It typically covers an area less than 4 kilometers in diameter and lasts 5-15 minutes. Microbursts are particularly dangerous to aircraft during takeoff and landing because they create rapidly changing wind conditions. An aircraft approaching a microburst will first encounter a strong headwind (increasing lift and airspeed), then pass through the downdraft (causing altitude loss), and finally encounter a strong tailwind (decreasing lift and airspeed). This sequence can cause the aircraft to lose altitude rapidly, potentially leading to a crash. Microbursts are often associated with thunderstorms but can also occur in virga (precipitation that evaporates before reaching the ground). Modern airports are equipped with Low-Level Wind Shear Alert Systems (LLWAS) and Terminal Doppler Weather Radar (TDWR) to detect and warn of microburst conditions.",
+    "formulas": [],
+    "examples": [
+      "An aircraft approaching a microburst will experience headwind, downdraft, then tailwind - a dangerous sequence.",
+      "Microbursts typically last 5-15 minutes and cover an area less than 4 kilometers in diameter.",
+      "Terminal Doppler Weather Radar (TDWR) is used at major airports to detect microburst conditions."
+    ],
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-thunderstorms",
+    "pageNumber": 140,
+    "relatedTerms": ["Wind Shear", "Thunderstorms", "Downdraft", "Low Level Wind Shear"]
+  },
+  {
+    "id": "def-rnav",
+    "term": "RNAV",
+    "simpleExplanation": "RNAV (Area Navigation) allows aircraft to navigate on any desired flight path within coverage of ground- or space-based navigation aids.",
+    "detailedExplanation": "RNAV (Area Navigation) is a method of navigation that permits aircraft operation on any desired flight path within the coverage of ground-based or space-based navigation aids, or within the limits of the capability of self-contained aids, or a combination of these. RNAV routes allow aircraft to fly more direct paths between waypoints, reducing flight distance and time, and improving fuel efficiency. RNAV can use various navigation sources including VOR/DME, GPS, GNSS, or inertial navigation systems. RNAV approaches allow aircraft to fly precision approaches without requiring ground-based navigation aids at the destination airport. RNAV is part of Performance-Based Navigation (PBN), which includes both RNAV and RNP (Required Navigation Performance) specifications. RNAV routes are designated with names like 'Tango' routes in the US, and RNAV approaches are designated with identifiers like 'RNAV (GPS) RWY 27'.",
+    "formulas": [],
+    "examples": [
+      "RNAV allows aircraft to fly direct routes between waypoints, reducing flight distance and fuel consumption.",
+      "RNAV approaches enable precision landings at airports without traditional ground-based navigation aids.",
+      "RNAV is part of Performance-Based Navigation (PBN), which includes both RNAV and RNP specifications."
+    ],
+    "bookId": "cae-oxford-navigation",
+    "chapterId": "nav-rnav",
+    "pageNumber": 220,
+    "relatedTerms": ["GPS", "GNSS", "PBN", "RNP", "Area Navigation"]
+  },
+  {
+    "id": "def-pbn",
+    "term": "PBN",
+    "simpleExplanation": "PBN (Performance-Based Navigation) is a navigation framework that specifies aircraft performance requirements rather than specific equipment requirements.",
+    "detailedExplanation": "Performance-Based Navigation (PBN) is a framework for defining navigation requirements in terms of accuracy, integrity, availability, continuity, and functionality needed for the proposed operation in the context of a particular airspace concept. PBN specifies performance requirements for aircraft navigation systems rather than requiring specific equipment. PBN includes two main navigation specifications: 1) RNAV (Area Navigation) - defines navigation requirements but allows flexibility in how they're met, and 2) RNP (Required Navigation Performance) - includes additional on-board performance monitoring and alerting capability. PBN enables more efficient use of airspace, reduces environmental impact through optimized flight paths, and improves safety through more precise navigation. PBN routes and procedures are being implemented worldwide to modernize airspace and take advantage of satellite-based navigation systems like GPS and GNSS.",
+    "formulas": [],
+    "examples": [
+      "PBN specifies what performance is required rather than what equipment must be used, allowing flexibility in implementation.",
+      "RNP includes on-board performance monitoring and alerting, providing additional safety features.",
+      "PBN enables more efficient airspace use and optimized flight paths, reducing fuel consumption and emissions."
+    ],
+    "bookId": "cae-oxford-navigation",
+    "chapterId": "nav-pbn",
+    "pageNumber": 240,
+    "relatedTerms": ["RNAV", "RNP", "GPS", "GNSS", "Performance Requirements"]
+  },
+  {
+    "id": "def-adf",
+    "term": "ADF",
+    "simpleExplanation": "ADF (Automatic Direction Finder) is a radio navigation system that provides bearing to a Non-Directional Beacon (NDB).",
+    "detailedExplanation": "ADF (Automatic Direction Finder) is an aircraft radio navigation system that automatically indicates the relative bearing of the aircraft to a Non-Directional Beacon (NDB) ground station. The ADF consists of a loop antenna that rotates to find the direction of the strongest signal from the NDB. The ADF indicator shows the relative bearing (the angle from the aircraft's nose to the station). To determine the magnetic bearing to the station, the pilot must add the relative bearing to the aircraft's heading. ADF operates in the low and medium frequency bands (190-1750 kHz). Unlike VOR, which provides accurate bearings, ADF is subject to errors from electrical storms, night effect (skywave interference), and terrain. ADF is being phased out in many regions in favor of GPS and other modern navigation systems, but it's still used in some areas, particularly for approaches to remote airports.",
+    "formulas": [
+      {
+        "name": "Magnetic Bearing to Station",
+        "formula": "Magnetic Bearing = Aircraft Heading + Relative Bearing",
+        "description": "To find the magnetic bearing to the NDB, add the relative bearing shown on the ADF to the aircraft's magnetic heading"
+      }
+    ],
+    "examples": [
+      "If the aircraft heading is 090° and the ADF shows a relative bearing of 045°, the magnetic bearing to the station is 135°.",
+      "ADF is subject to errors from electrical storms and night effect (skywave interference).",
+      "ADF is being phased out in favor of GPS but is still used at some remote airports."
+    ],
+    "bookId": "cae-oxford-navigation",
+    "chapterId": "nav-adf",
+    "pageNumber": 100,
+    "relatedTerms": ["NDB", "Non-Directional Beacon", "Relative Bearing", "Magnetic Bearing"]
+  }
+]
+

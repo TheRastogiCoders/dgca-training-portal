@@ -1,0 +1,27 @@
+[
+  {
+    "id": "pyq1",
+    "year": 2023,
+    "exam": "DGCA CPL",
+    "question": "Define airwash and explain its effect on aircraft instruments.",
+    "answer": "Airwash is the distortion of airflow caused by propeller or jet engine exhaust. It affects airspeed indicators by creating false dynamic pressure readings, typically showing higher than actual airspeed.",
+    "topicId": "topic-1",
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-ch2",
+    "pageNumber": 52,
+    "marks": 5
+  },
+  {
+    "id": "pyq2",
+    "year": 2022,
+    "exam": "DGCA ATPL",
+    "question": "What is pressure gradient? How does it affect wind patterns?",
+    "answer": "Pressure gradient is the rate of change of pressure over distance. Strong gradients create strong winds, while weak gradients produce light winds. Wind flows from high to low pressure areas.",
+    "topicId": "topic-3",
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-ch2",
+    "pageNumber": 45,
+    "marks": 4
+  }
+]
+

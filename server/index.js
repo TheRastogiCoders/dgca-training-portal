@@ -21,6 +21,7 @@ const noteRoutes = require('./routes/notes');
 const reportRoutes = require('./routes/reports');
 const aiRoutes = require('./routes/ai');
 const adminRoutes = require('./routes/admin');
+const searchRoutes = require('./routes/search');
 const Log = require('./models/Log');
 const { ZodError } = require('zod');
 // const { errorHandler, notFound } = require('./utils/errorHandler');
@@ -135,6 +136,7 @@ app.use('/api/notes', noteRoutes);
 app.use('/api/reports', reportRoutes);
 app.use('/api/ai', aiLimiter, aiRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/search', searchRoutes);
 
 // Lightweight endpoint to serve practice books from JSON file
 app.get('/api/practice-books', (req, res) => {

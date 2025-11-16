@@ -1,0 +1,133 @@
+[
+  {
+    "id": "cae-oxford-air-regulations",
+    "name": "CAE Oxford Air Regulations",
+    "author": "CAE Oxford",
+    "subject": "Air Regulations",
+    "chapters": [
+      {
+        "id": "ch1",
+        "name": "International Agreements and Organizations",
+        "pageStart": 1,
+        "pageEnd": 45
+      },
+      {
+        "id": "ch2",
+        "name": "Airworthiness of Aircraft",
+        "pageStart": 46,
+        "pageEnd": 78
+      }
+    ]
+  },
+  {
+    "id": "cae-oxford-meteorology",
+    "name": "CAE Oxford Meteorology",
+    "author": "CAE Oxford",
+    "subject": "Meteorology",
+    "chapters": [
+      {
+        "id": "met-ch1",
+        "name": "The Atmosphere",
+        "pageStart": 1,
+        "pageEnd": 35
+      },
+      {
+        "id": "met-ch2",
+        "name": "Pressure",
+        "pageStart": 36,
+        "pageEnd": 68
+      }
+    ]
+  },
+  {
+    "id": "cae-oxford-navigation",
+    "name": "CAE Oxford Navigation",
+    "author": "CAE Oxford",
+    "subject": "Navigation",
+    "chapters": [
+      {
+        "id": "nav-vor",
+        "name": "VOR Navigation",
+        "pageStart": 100,
+        "pageEnd": 140
+      },
+      {
+        "id": "nav-dme",
+        "name": "DME Navigation",
+        "pageStart": 141,
+        "pageEnd": 180
+      },
+      {
+        "id": "nav-ils",
+        "name": "ILS Approach",
+        "pageStart": 181,
+        "pageEnd": 220
+      },
+      {
+        "id": "nav-gps",
+        "name": "GPS Navigation",
+        "pageStart": 201,
+        "pageEnd": 240
+      },
+      {
+        "id": "nav-rnav",
+        "name": "RNAV",
+        "pageStart": 221,
+        "pageEnd": 260
+      },
+      {
+        "id": "nav-pbn",
+        "name": "PBN",
+        "pageStart": 241,
+        "pageEnd": 280
+      },
+      {
+        "id": "nav-adf",
+        "name": "ADF",
+        "pageStart": 81,
+        "pageEnd": 120
+      }
+    ]
+  },
+  {
+    "id": "cae-oxford-human-performance",
+    "name": "CAE Oxford Human Performance and Limitations",
+    "author": "CAE Oxford",
+    "subject": "Human Performance",
+    "chapters": [
+      {
+        "id": "hp-oxygen",
+        "name": "Oxygen and Respiration",
+        "pageStart": 30,
+        "pageEnd": 60
+      },
+      {
+        "id": "hp-stress",
+        "name": "Stress",
+        "pageStart": 50,
+        "pageEnd": 80
+      },
+      {
+        "id": "hp-sleep",
+        "name": "Sleep and Fatigue",
+        "pageStart": 65,
+        "pageEnd": 95
+      }
+    ]
+  },
+  {
+    "id": "rk-bali-air-regulations",
+    "name": "RK Bali Air Regulations",
+    "author": "RK Bali",
+    "subject": "Air Regulations",
+    "chapters": [
+      {
+        "id": "rk-ch1",
+        "name": "Civil Aviation Rules",
+        "pageStart": 1,
+        "pageEnd": 120
+      }
+    ]
+  }
+]
+

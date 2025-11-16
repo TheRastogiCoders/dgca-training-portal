@@ -26,6 +26,8 @@ const BookPracticeRunner = () => {
   const [reportComment, setReportComment] = useState('');
   const [isSubmittingReport, setIsSubmittingReport] = useState(false);
   const [reportSubmitted, setReportSubmitted] = useState(false);
+  const [loadingExplanation, setLoadingExplanation] = useState(false);
+  const [explanationCache, setExplanationCache] = useState({});
   const startTimeRef = useRef(Date.now());
 
   const bookName = useMemo(() => {
@@ -161,7 +163,52 @@ const BookPracticeRunner = () => {
     }
   }, [questions, current, selected, done, score, loading, storageKey]);
 
-  const submitAnswer = (optionIndex) => {
+  const fetchExplanation = async (questionId, questionText, options, correctAnswer, selectedAnswer) => {
+    // Check cache first
+    const cacheKey = `${questionId}-${selectedAnswer || 'none'}`;
+    if (explanationCache[cacheKey]) {
+      return explanationCache[cacheKey];
+    }
+
+    setLoadingExplanation(true);
+    try {
+      const explainUrl = API_ENDPOINTS.SEARCH_ASK.replace('/api/search/ask', '/api/search/explain-question');
+      const response = await fetch(explainUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          question: questionText,
+          options: options,
+          correctAnswer: correctAnswer,
+          selectedAnswer: selectedAnswer,
+          bookName: bookName,
+          chapterName: chapterSlug ? friendly(chapterSlug) : undefined
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to fetch explanation');
+      }
+
+      const data = await response.json();
+      const explanation = data.explanation || 'Explanation not available.';
+      
+      // Cache the explanation
+      setExplanationCache(prev => ({
+        ...prev,
+        [cacheKey]: explanation
+      }));
+      
+      return explanation;
+    } catch (error) {
+      console.error('Error fetching explanation:', error);
+      return 'Unable to load explanation at this time. Please try again.';
+    } finally {
+      setLoadingExplanation(false);
+    }
+  };
+
+  const submitAnswer = async (optionIndex) => {
     if (selected !== null) return;
     setSelected(optionIndex);
     const currentQuestion = questions[current];
@@ -169,6 +216,24 @@ const BookPracticeRunner = () => {
     const chosenLabel = labels[optionIndex];
     const isCorrect = String(chosenLabel).toLowerCase() === String(currentQuestion.correctLabel).toLowerCase();
     if (isCorrect) setScore(prev => prev + 1);
+    
+    // If wrong answer or no explanation exists, fetch explanation
+    if (!isCorrect || !currentQuestion.explanation) {
+      const explanation = await fetchExplanation(
+        currentQuestion.id,
+        currentQuestion.text,
+        currentQuestion.options,
+        currentQuestion.correctLabel,
+        !isCorrect ? chosenLabel : undefined
+      );
+      
+      // Update the question with the explanation
+      setQuestions(prev => prev.map((q, idx) => 
+        idx === current 
+          ? { ...q, explanation: explanation || q.explanation }
+          : q
+      ));
+    }
   };
 
   const next = () => {
@@ -422,7 +487,7 @@ const BookPracticeRunner = () => {
                 })}
                 
                 {/* Explanation Box - appears after answer is selected */}
-                {selected !== null && q.explanation && (
+                {selected !== null && (
                   <div className="mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
                     <div className="flex items-start">
                       <div className="flex-shrink-0">
@@ -442,17 +507,55 @@ const BookPracticeRunner = () => {
                         })()}
                       </div>
                       <div className="ml-3 flex-1">
-                        <h4 className="text-sm font-semibold text-gray-900 mb-1">
-                          {(() => {
-                            const correct = String(q.correctLabel).toLowerCase();
-                            const chosen = ['a','b','c','d','e','f'][selected];
-                            const isCorrect = chosen === correct;
-                            return isCorrect ? 'Correct!' : 'Explanation:';
-                          })()}
-                        </h4>
-                        <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-line">
-                          {q.explanation}
-                        </p>
+                        <div className="flex items-center justify-between mb-1">
+                          <h4 className="text-sm font-semibold text-gray-900">
+                            {(() => {
+                              const correct = String(q.correctLabel).toLowerCase();
+                              const chosen = ['a','b','c','d','e','f'][selected];
+                              const isCorrect = chosen === correct;
+                              return isCorrect ? 'Correct!' : 'Explanation:';
+                            })()}
+                          </h4>
+                          {!q.explanation && !loadingExplanation && (
+                            <button
+                              onClick={async () => {
+                                const explanation = await fetchExplanation(
+                                  q.id,
+                                  q.text,
+                                  q.options,
+                                  q.correctLabel,
+                                  ['a','b','c','d','e','f'][selected]
+                                );
+                                setQuestions(prev => prev.map((question, idx) => 
+                                  idx === current 
+                                    ? { ...question, explanation }
+                                    : question
+                                ));
+                              }}
+                              className="text-xs text-blue-600 hover:text-blue-800 font-medium"
+                            >
+                              Show Explanation
+                            </button>
+                          )}
+                        </div>
+                        {loadingExplanation ? (
+                          <div className="flex items-center gap-2">
+                            <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-blue-600"></div>
+                            <p className="text-sm text-gray-600">Loading explanation...</p>
+                          </div>
+                        ) : q.explanation ? (
+                          <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-line">
+                            {q.explanation}
+                          </p>
+                        ) : (
+                          <p className="text-sm text-gray-500 italic">
+                            Click "Show Explanation" to see why this answer is {(() => {
+                              const correct = String(q.correctLabel).toLowerCase();
+                              const chosen = ['a','b','c','d','e','f'][selected];
+                              return chosen === correct ? 'correct' : 'incorrect';
+                            })()}.
+                          </p>
+                        )}
                       </div>
                     </div>
                   </div>

@@ -1,0 +1,243 @@
+[
+  {
+    "id": "topic-1",
+    "title": "Airwash",
+    "aliases": ["Airwash Effect", "Airwash Error", "Airflow Distortion"],
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-ch2",
+    "pageNumber": 52,
+    "category": "Aerodynamics",
+    "relatedTopics": ["topic-2", "topic-3"]
+  },
+  {
+    "id": "topic-2",
+    "title": "Airflow Distortion (Airwash Effect)",
+    "aliases": ["Airwash", "Airwash Error"],
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-ch2",
+    "pageNumber": 52,
+    "category": "Aerodynamics",
+    "relatedTopics": ["topic-1"]
+  },
+  {
+    "id": "topic-3",
+    "title": "Pressure Systems",
+    "aliases": ["High Pressure", "Low Pressure", "Pressure Gradient"],
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-ch2",
+    "pageNumber": 40,
+    "category": "Meteorology",
+    "relatedTopics": []
+  },
+  {
+    "id": "vor-navigation",
+    "title": "VOR Navigation",
+    "aliases": ["VOR", "VHF Omni-directional Range", "VOR Station", "VOR Receiver", "VOR Radial", "VOR Bearing"],
+    "bookId": "cae-oxford-navigation",
+    "chapterId": "nav-vor",
+    "pageNumber": 120,
+    "category": "Navigation",
+    "relatedTopics": ["dme-navigation", "vor-dme", "vor-accuracy"]
+  },
+  {
+    "id": "dme-navigation",
+    "title": "DME Navigation",
+    "aliases": ["DME", "Distance Measuring Equipment", "DME Distance", "DME Slant Range"],
+    "bookId": "cae-oxford-navigation",
+    "chapterId": "nav-dme",
+    "pageNumber": 145,
+    "category": "Navigation",
+    "relatedTopics": ["vor-navigation", "vor-dme", "tacan"]
+  },
+  {
+    "id": "ils-approach",
+    "title": "ILS Approach",
+    "aliases": ["ILS", "Instrument Landing System", "Localizer", "Glideslope", "ILS Approach", "CAT I", "CAT II", "CAT III"],
+    "bookId": "cae-oxford-navigation",
+    "chapterId": "nav-ils",
+    "pageNumber": 180,
+    "category": "Navigation",
+    "relatedTopics": ["approach-procedures", "mls-approach", "precision-approach"]
+  },
+  {
+    "id": "gps-navigation",
+    "title": "GPS Navigation",
+    "aliases": ["GPS", "Global Positioning System", "GNSS", "Satellite Navigation", "GPS Accuracy", "RAIM"],
+    "bookId": "cae-oxford-navigation",
+    "chapterId": "nav-gps",
+    "pageNumber": 200,
+    "category": "Navigation",
+    "relatedTopics": ["gnss", "rnav", "waas", "egnos"]
+  },
+  {
+    "id": "jet-stream",
+    "title": "Jet Stream",
+    "aliases": ["Jet Stream", "Polar Jet Stream", "Subtropical Jet Stream", "Jet Stream Winds"],
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-jetstream",
+    "pageNumber": 95,
+    "category": "Meteorology",
+    "relatedTopics": ["upper-winds", "wind-shear", "clear-air-turbulence"]
+  },
+  {
+    "id": "tropopause",
+    "title": "Tropopause",
+    "aliases": ["Tropopause", "Tropopause Level", "Tropopause Height"],
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-atmosphere",
+    "pageNumber": 25,
+    "category": "Meteorology",
+    "relatedTopics": ["atmosphere", "stratosphere", "troposphere"]
+  },
+  {
+    "id": "isobar",
+    "title": "Isobar",
+    "aliases": ["Isobar", "Isobars", "Pressure Isobar", "Isobaric Chart"],
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-pressure",
+    "pageNumber": 42,
+    "category": "Meteorology",
+    "relatedTopics": ["pressure-gradient", "pressure-systems", "weather-charts"]
+  },
+  {
+    "id": "hypoxia",
+    "title": "Hypoxia",
+    "aliases": ["Hypoxia", "Hypoxic Hypoxia", "Hypoxic", "Oxygen Deficiency"],
+    "bookId": "cae-oxford-human-performance",
+    "chapterId": "hp-oxygen",
+    "pageNumber": 35,
+    "category": "Human Performance",
+    "relatedTopics": ["oxygen-respiration", "time-of-useful-consciousness", "hyperventilation"]
+  },
+  {
+    "id": "time-of-useful-consciousness",
+    "title": "Time of Useful Consciousness",
+    "aliases": ["TUC", "Time of Useful Consciousness", "Effective Performance Time", "Useful Consciousness Time"],
+    "bookId": "cae-oxford-human-performance",
+    "chapterId": "hp-oxygen",
+    "pageNumber": 40,
+    "category": "Human Performance",
+    "relatedTopics": ["hypoxia", "altitude", "oxygen-respiration"]
+  },
+  {
+    "id": "gas-syndrome",
+    "title": "GAS Syndrome",
+    "aliases": ["GAS", "GAS Syndrome", "General Adaptation Syndrome", "Stress Response"],
+    "bookId": "cae-oxford-human-performance",
+    "chapterId": "hp-stress",
+    "pageNumber": 55,
+    "category": "Human Performance",
+    "relatedTopics": ["stress", "alarm-phase", "resistance-phase", "exhaustion-phase"]
+  },
+  {
+    "id": "circadian-rhythm",
+    "title": "Circadian Rhythm",
+    "aliases": ["Circadian Rhythm", "Circadian Cycle", "Body Clock", "Biological Rhythm"],
+    "bookId": "cae-oxford-human-performance",
+    "chapterId": "hp-sleep",
+    "pageNumber": 70,
+    "category": "Human Performance",
+    "relatedTopics": ["sleep", "fatigue", "jet-lag", "time-zones"]
+  },
+  {
+    "id": "certificate-of-airworthiness",
+    "title": "Certificate of Airworthiness",
+    "aliases": ["C of A", "Certificate of Airworthiness", "Airworthiness Certificate", "CoA"],
+    "bookId": "cae-oxford-air-regulations",
+    "chapterId": "ar-airworthiness",
+    "pageNumber": 50,
+    "category": "Air Regulations",
+    "relatedTopics": ["airworthiness", "aircraft-registration", "maintenance"]
+  },
+  {
+    "id": "icao",
+    "title": "ICAO",
+    "aliases": ["ICAO", "International Civil Aviation Organization", "ICAO Standards", "ICAO Annexes"],
+    "bookId": "cae-oxford-air-regulations",
+    "chapterId": "ar-international",
+    "pageNumber": 5,
+    "category": "Air Regulations",
+    "relatedTopics": ["international-agreements", "icao-annexes", "sarps"]
+  },
+  {
+    "id": "separation",
+    "title": "Separation",
+    "aliases": ["Separation", "Aircraft Separation", "Vertical Separation", "Horizontal Separation", "Lateral Separation"],
+    "bookId": "cae-oxford-air-regulations",
+    "chapterId": "ar-separation",
+    "pageNumber": 150,
+    "category": "Air Regulations",
+    "relatedTopics": ["air-traffic-control", "separation-minima", "rvsm"]
+  },
+  {
+    "id": "rvsm",
+    "title": "RVSM",
+    "aliases": ["RVSM", "Reduced Vertical Separation Minima", "RVSM Airspace"],
+    "bookId": "cae-oxford-air-regulations",
+    "chapterId": "ar-separation",
+    "pageNumber": 165,
+    "category": "Air Regulations",
+    "relatedTopics": ["separation", "vertical-separation", "flight-levels"]
+  },
+  {
+    "id": "wind-shear",
+    "title": "Wind Shear",
+    "aliases": ["Wind Shear", "Windshear", "Low Level Wind Shear", "LLWS"],
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-winds",
+    "pageNumber": 110,
+    "category": "Meteorology",
+    "relatedTopics": ["winds", "turbulence", "microburst", "thunderstorms"]
+  },
+  {
+    "id": "clear-air-turbulence",
+    "title": "Clear Air Turbulence",
+    "aliases": ["CAT", "Clear Air Turbulence", "CAT Zone"],
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-turbulence",
+    "pageNumber": 85,
+    "category": "Meteorology",
+    "relatedTopics": ["turbulence", "jet-stream", "wind-shear"]
+  },
+  {
+    "id": "microburst",
+    "title": "Microburst",
+    "aliases": ["Microburst", "Microburst Winds", "Downburst"],
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-thunderstorms",
+    "pageNumber": 140,
+    "category": "Meteorology",
+    "relatedTopics": ["thunderstorms", "wind-shear", "severe-weather"]
+  },
+  {
+    "id": "rnav",
+    "title": "RNAV",
+    "aliases": ["RNAV", "Area Navigation", "RNAV Approach", "RNAV Route"],
+    "bookId": "cae-oxford-navigation",
+    "chapterId": "nav-rnav",
+    "pageNumber": 220,
+    "category": "Navigation",
+    "relatedTopics": ["gps-navigation", "gnss", "pbn"]
+  },
+  {
+    "id": "pbn",
+    "title": "PBN",
+    "aliases": ["PBN", "Performance Based Navigation", "PBN Routes"],
+    "bookId": "cae-oxford-navigation",
+    "chapterId": "nav-pbn",
+    "pageNumber": 240,
+    "category": "Navigation",
+    "relatedTopics": ["rnav", "rnp", "gnss"]
+  },
+  {
+    "id": "adf",
+    "title": "ADF",
+    "aliases": ["ADF", "Automatic Direction Finder", "NDB", "Non-Directional Beacon", "ADF Bearing"],
+    "bookId": "cae-oxford-navigation",
+    "chapterId": "nav-adf",
+    "pageNumber": 100,
+    "category": "Navigation",
+    "relatedTopics": ["ndb", "magnetic-bearing", "relative-bearing"]
+  }
+]
+

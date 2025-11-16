@@ -29,6 +29,8 @@ export const API_ENDPOINTS = {
   REPORTS: `${API_BASE_URL}/api/reports`,
   PRACTICE_BOOKS: `${API_BASE_URL}/api/practice-books`,
   PRACTICE_QUESTIONS: (bookSlug) => `${API_BASE_URL}/api/practice-questions/${bookSlug}`,
+  SEARCH_SUGGEST: `${API_BASE_URL}/api/search/suggest`,
+  SEARCH_ASK: `${API_BASE_URL}/api/search/ask`,
 };
 
 // Debug logging for production

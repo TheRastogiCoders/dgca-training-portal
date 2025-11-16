@@ -1,0 +1,23 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the effect of airwash on airspeed indicators?",
+    "answer": "Airwash can cause airspeed indicators to read inaccurately, typically showing higher than actual airspeed due to the increased dynamic pressure from propeller wash or jet exhaust.",
+    "topicId": "topic-1",
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-ch2",
+    "pageNumber": 52,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "q2",
+    "question": "Explain the relationship between pressure gradient and wind speed.",
+    "answer": "Wind speed is directly proportional to the pressure gradient. A steeper pressure gradient (closer isobars) results in stronger winds, while a weak gradient (widely spaced isobars) produces light winds.",
+    "topicId": "topic-3",
+    "bookId": "cae-oxford-meteorology",
+    "chapterId": "met-ch2",
+    "pageNumber": 45,
+    "difficulty": "Easy"
+  }
+]
+
