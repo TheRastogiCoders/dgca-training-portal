@@ -1,0 +1,24 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "24",
+  "chapter_title": "Time (1)",
+  "questions": [
+    { "id": "1", "question": "When does perihelion occur?", "question_type": "MCQ", "options": ["early January", "mid March", "early July", "September 21"], "solution": "early January" },
+    { "id": "2", "question": "When does aphelion occur?", "question_type": "MCQ", "options": ["early January", "mid March", "early July", "September 21"], "solution": "early July" },
+    { "id": "3", "question": "Viewed from the North Celestial Pole (above the North Pole), the Earth orbits the Sun:", "question_type": "MCQ", "options": ["clockwise in a circular orbit", "anticlockwise in a circular orbit", "clockwise in an elliptical orbit", "anticlockwise in an elliptical orbit"], "solution": "anticlockwise in an elliptical orbit" },
+    { "id": "4", "question": "When do the 'equinoxes' occur?", "question_type": "MCQ", "options": ["December and June", "February and November", "March and September", "January and July"], "solution": "March and September" },
+    { "id": "5", "question": "When it is the Winter Solstice in the Southern hemisphere, the Declination of the Sun is:", "question_type": "MCQ", "options": ["0°N/S", "23½°N", "66½°N", "23½°S"], "solution": "23½°N" },
+    { "id": "6", "question": "In the situation given above in Question 5, the Sun will be overhead:", "question_type": "MCQ", "options": ["the Arctic Circle", "the Tropic of Capricorn", "the Equator", "the Tropic of Cancer"], "solution": "the Tropic of Cancer" },
+    { "id": "7", "question": "What is the angle between the Equinoctial and the Ecliptic?", "question_type": "MCQ", "options": ["66½°", "23½°", "varies between 23½°N and 23½°S", "varies between 66½°N and 66½°S"], "solution": "23½°" },
+    { "id": "8", "question": "The declination of a celestial body (the Sun) measured on the Celestial Sphere is analogous (equivalent) to on the Earth?", "question_type": "MCQ", "options": ["longitude", "latitude", "altitude of the body measured from the sensible horizon", "co-latitude"], "solution": "latitude" },
+    { "id": "9", "question": "'The length of daylight/night depends upon the declination of the Sun and the latitude of the observer'. When is the rate of change of the length of daylight greatest?", "question_type": "MCQ", "options": ["February/November", "January/July", "at the Equinoxes", "at the Solstices"], "solution": "at the Equinoxes" },
+    { "id": "10", "question": "A sidereal day is:", "question_type": "MCQ", "options": ["longer than an apparent solar day", "longer than a real solar day", "shorter than an apparent solar day", "equal to a real solar day"], "solution": "shorter than an apparent solar day" },
+    { "id": "11", "question": "The maximum difference between mean noon (1200LMT) and real/apparent noon occurs in", "question_type": "MCQ", "options": ["January/July", "March/September", "November/February", "December/June"], "solution": "November/February" },
+    { "id": "12", "question": "The maximum difference between mean time and apparent time is:", "question_type": "MCQ", "options": ["21 minutes", "16 minutes", "30 minutes", "there is no difference"], "solution": "16 minutes" },
+    { "id": "13", "question": "What is the length of a Sidereal Year?", "question_type": "MCQ", "options": ["365 days", "366 days", "365 days 6 hrs", "365 days 5 hrs 48.75 minutes"], "solution": "365 days 6 hrs" },
+    { "id": "14", "question": "'The Calendar Year and the Tropical Year are of different lengths. The difference is adjusted partly by using leap years every fourth calendar year. However, some years are not designated as leap years'. Which of the following years will be a leap year?", "question_type": "MCQ", "options": ["2001", "2100", "2300", "2400"], "solution": "2400" },
+    { "id": "15", "question": "The Hour Angle (Greenwich Hour Angle) of a celestial body is analogous/equivalent on the Earth to ?", "question_type": "MCQ", "options": ["latitude", "longitude", "co-latitude", "UTC"], "solution": "longitude" },
+    { "id": "16", "question": "A star has a Greenwich Hour Angle (GHA) of 220°. Which meridian is the star transiting (crossing)?", "question_type": "MCQ", "options": ["040W", "040E", "140W", "140E"], "solution": "140E" }
+  ]
+}
+

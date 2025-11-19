@@ -1,0 +1,151 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "26",
+  "chapter_title": "Time (3)",
+  "questions": [
+    { "id": "1", "question": "On June 21, what is the lowest northerly latitude (listed in the Air Almanac) at which the Sun will be above the horizon for 24 hrs (all day)?", "question_type": "MCQ", "options": ["64N", "66N", "68N", "70N"], "solution": "66N" },
+    { "id": "2", "question": "On December 21, what is the lowest northerly latitude (listed in the Air Almanac) at which the Sun never rises (or sets)?", "question_type": "MCQ", "options": ["64N", "66N", "68N", "70N"], "solution": "68N" },
+    { "id": "3", "question": "Civil twilight is:", "question_type": "MCQ", "options": ["the period between sunset and the end of evening civil twilight (ECT)", "the period between the start of morning civil twilight (MCT) and sunrise", "related to the position of the centre of the Sun being 6° below the sensible horizon", "a period when it is possible to carry out daylight tasks without artificial lighting", "used in the EU-OPS definition of day flying/night flying", "all of the above"], "solution": "all of the above" },
+    { "id": "4", "question": "Nautical twilight and astronomic twilight are the twilight periods that follow civil twilight. Nautical twilight occurs when the Sun is between and below the sensible horizon:", "question_type": "MCQ", "options": ["0°/6°", "6°/12°", "12°/18°", "18°/24°"], "solution": "6°/12°" },
+    { "id": "5", "question": "Between 60N and 60S, the minimum duration of Civil Twilight is?", "question_type": "MCQ", "options": ["21 minutes.", "16 minutes", "14 minutes", "30 minutes"], "solution": "21 minutes." },
+    { "id": "6", "question": "Sunrise/sunset twilight tables in the Air Almanac are listed for a sea level situation. An aircraft flying at FL350 would experience sunrise sunset and the length of twilight would", "question_type": "MCQ", "options": ["later, earlier, be longer", "earlier, later, not change", "later, earlier, not change", "earlier, later, be shorter"], "solution": "earlier, later, be shorter" },
+    {
+      "id": "7",
+      "question": "For position 3000S 12414E on 9th August, what is the LMT of:",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. Sunrise", "solution": "0640 LMT" },
+        { "subQuestionText": "b. Sunset", "solution": "1732 LMT" },
+        { "subQuestionText": "c. Beginning of morning of civil twilight", "solution": "0615 LMT" },
+        { "subQuestionText": "d. End of evening of civil twilight", "solution": "1757 LMT" }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Give the duration of morning civil twilight for all positions in latitude 55N on 28th June.",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "58 minutes."
+    },
+    {
+      "id": "9",
+      "question": "What is the meaning of the following symbols which appear in the Air Almanac Extract?\ni) ii) iii) ⊙",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "i) ⊙", "solution": "Sun remains continuously above the horizon." },
+        { "subQuestionText": "ii) ⊗", "solution": "Sun remains continuously below the horizon." },
+        { "subQuestionText": "iii) ⊘", "solution": "Permanent twilight during the time the Sun is below the horizon." }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "What is the UTC of sunset at KARACHI (2454N 06710E) PAKISTAN on 18th August? Give also the duration of evening civil twilight there on the same date.",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "SS 1404 UTC; Duration of ECT 24 minutes."
+    },
+    {
+      "id": "11",
+      "question": "Determine the interval between the end of evening civil twilight on 14th October and the beginning of morning civil twilight on 15th October for any position in latitude 60N.",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "1218"
+    },
+    {
+      "id": "12",
+      "question": "For PERTH (3157S 11557E) WESTERN AUSTRALIA on 3rd January:-",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. What is the LMT of sunrise?", "solution": "0458 LMT" },
+        { "subQuestionText": "b. What is the UTC of sunset?", "solution": "1126 UTC" },
+        { "subQuestionText": "c. What is the Standard Time of the end of evening civil twilight?", "solution": "1954 ST" }
+      ]
+    },
+    {
+      "id": "13",
+      "question": "For BUENOS AIRES (3500S 05229W) ARGENTINA:-",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. Give the UTC of sunrise on 9th September", "solution": "0939 UTC" },
+        { "subQuestionText": "b. Give the Standard Time of sunset on 25th July", "solution": "1743 ST" }
+      ]
+    },
+    {
+      "id": "14",
+      "question": "At 1500 UTC on 4th July, what is the Standard Time at the places listed below?",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. NEW YORK, USA (Daylight Saving Time).", "solution": "1100 DST 4 July" },
+        { "subQuestionText": "b. CHRISTMAS ISLAND, INDIAN OCEAN.", "solution": "2200 ST 4 July" },
+        { "subQuestionText": "c. ALGERIA.", "solution": "1600 ST 4 July" },
+        { "subQuestionText": "d. TONGA ISLAND.", "solution": "0400 ST 5 July" }
+      ]
+    },
+    {
+      "id": "15",
+      "question": "What is the UTC and date at the times shown below?",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. 0400 Standard Time on 5th November in MADRID (4026N 00332W) SPAIN?", "solution": "0300 UTC 5 November" },
+        { "subQuestionText": "b. 1215 LMT on 10th July in WELLINGTON (4100S 17446E) NEW ZEALAND?", "solution": "0036 UTC 10 July" },
+        { "subQuestionText": "c. 2200 UTC on 18th September on the Flight Operations clock at SINGAPORE INTERNATIONAL?", "solution": "2200 18 September" }
+      ]
+    },
+    {
+      "id": "16",
+      "question": "What is the difference in hours and minutes between the LMT in KABUL (3430N 07000E) and the LMT in THULE (6930N 05400W) and which place is fast on the other?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "Kabul is 8 Hrs 16 minutes FAST on Thule"
+    },
+    {
+      "id": "17",
+      "question": "An aircraft leaves ROME (4150N 01230E) at sunset on 3rd August and after a direct flight lands at NEW YORK (4000N 07500W) USA, at the end of evening civil twilight on the same day. Calculate the flight time.",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "06:15"
+    },
+    {
+      "id": "18",
+      "question": "An aircraft leaves TOKYO (3600N 14000E) JAPAN an hour after sunrise on 14th November and lands in HAWAII (2200N 15752W) USA 6 hours 12 minutes later. What is the Standard Time and date of landing in HAWAII?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "1826 ST Hawaii 13 November"
+    },
+    {
+      "id": "19",
+      "question": "On 29th October an observer in longitude 01815E sees the Sun rise at 0355 UTC. What is his latitude?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "30S"
+    },
+    {
+      "id": "20",
+      "question": "An observer in SOUTH GEORGIA (6000S 03715W) sees the Sun set at a watch time of 2257 on 19th November. Is the watch fast or slow on UTC and by how much?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "Observer's watch is 2 minutes FAST on UTC."
+    },
+    {
+      "id": "21",
+      "question": "An aircraft must land at ANCHORAGE (6100N 14900W) ALASKA, USA, at the end of the evening civil twilight on 25th September. The estimated flight time from HONG KONG (2200N 10914E) is 10 hours 45 minutes. What is the latest possible Standard Time and date of departure from HONG KONG?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "0147 ST Hong Kong 26 September"
+    },
+    {
+      "id": "22",
+      "question": "What is the LMT and date at A (35N 178W) when it is 2020 LMT on 28th October at B (70S 176E)?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "2044 LMT 27 October"
+    }
+  ]
+}
+

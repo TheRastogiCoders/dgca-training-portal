@@ -1,0 +1,92 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "10",
+  "chapter_title": "The 1 in 60 Rule",
+  "questions": [
+    {
+      "id": "1",
+      "question": "You are flying from A to B. You find that your position is 60 NM outbound from A and 7 NM left of the required track. What is your track error angle?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "7°L"
+    },
+    {
+      "id": "2",
+      "question": "You are flying from C to D. You find that your position is 120 NM outbound from C and 8 NM right of the required track. What is your track error angle?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "4°R"
+    },
+    {
+      "id": "3",
+      "question": "You are flying from E to F. You find that your position is 90 NM outbound from E and 6 NM right of the required track. What is your track error angle?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "4°R"
+    },
+    {
+      "id": "4",
+      "question": "You are flying from G to H. You find that your position is 30 NM outbound from G and 4 NM left of the required track. What is your track error angle?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "8°L"
+    },
+    {
+      "id": "5",
+      "question": "You are flying from J to K, which is a required track of 045°(T). You find that your position is 80 NM outbound from J and 4 NM left of the required track. What is your track made good?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "042°(T)"
+    },
+    {
+      "id": "6",
+      "question": "You are flying from L to M, which is a required track of 220°(T). You find that your position is 45 NM outbound from L and 3 NM right of the required track. What is your track made good?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "224°(T)"
+    },
+    {
+      "id": "7",
+      "question": "You are flying from N to P, which is a required track of 315°(T). You find that your position is 40 NM outbound from N and 6 NM left of the required track. What is your track made good?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "306°(T)"
+    },
+    {
+      "id": "8",
+      "question": "A surveyor places himself 660 metres from a mast and measures an elevation angle of 4°. What is the height of the mast?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "44 m"
+    },
+    {
+      "id": "9",
+      "question": "You are flying an instrument approach to an airfield and the required glide slope angle is 3.00°. What height should you be passing when you are exactly 2 nautical miles from the touchdown point? (NOTE: For this question, assume 1 NM = 6000 feet).",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "600 ft"
+    },
+    {
+      "id": "10",
+      "question": "You are flying an instrument approach to an airfield and the required glide slope angle is 2.5°. You are correctly on the glide slope and you are passing a height of 1000 feet QFE. What is your range from the touchdown point? (Assume 1 NM = 6000 feet).",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "4 NM"
+    },
+    {
+      "id": "11",
+      "question": "You are flying from Q to R, which is a required track of 125°(T). You find that your position is 40 NM from R and 2 NM left of the required track. What track must you fly to arrive overhead R?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "128°(T)"
+    },
+    {
+      "id": "12",
+      "question": "You are flying from S to T, which is a required track of 272°(T). You find that your position is 50 NM from T and 5 NM right of the required track. What track must you fly to arrive overhead T?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "266°(T)"
+    }
+  ]
+}
+

@@ -1,0 +1,74 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "11",
+  "chapter_title": "Navigation Using the 1 in 60 Rule",
+  "questions": [
+    {
+      "id": "1",
+      "question": "If an aircraft is 3° off required track at a range of 120 NM, how far in nautical miles (NM) is the aircraft off required track?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "6 NM"
+    },
+    {
+      "id": "2",
+      "question": "If an aircraft is 2 miles off required track at a range of 40 NM, what is the angle off track (track error)?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "3°"
+    },
+    {
+      "id": "3",
+      "question": "An aircraft leaves A to fly to B, 95 NM distance. Having flown 35 NM, the aircraft position is found from a 'pinpoint' (a geographical point over which the aircraft has flown); the pinpoint is 7 NM right of track.",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        {
+          "subQuestionText": "a. What is the track error?",
+          "solution": "12° right"
+        },
+        {
+          "subQuestionText": "b. What alteration of heading is required to fly direct to B?",
+          "solution": "19° left (TE=12°, CA=7°)"
+        },
+        {
+          "subQuestionText": "c. What is the drift? (Trap question).",
+          "solution": "Cannot calculate as heading not given. Drift requires heading vs track."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "An aircraft is flying from Oxford to Cambridge, planned track 074°(M) distance 70 NM, heading 065°(M). Having flown 30 NM, the pilot 'pinpoints' the aircraft position overhead Cranfield, 4 NM left of planned track.",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. What is the track error overhead Cranfield?", "solution": "8° left" },
+        { "subQuestionText": "b. What is the Track Made Good (TMG) from Oxford?", "solution": "066°(M)" },
+        { "subQuestionText": "c. What was the expected drift?", "solution": "9°S" },
+        { "subQuestionText": "d. What has the actual drift been?", "solution": "1°S" },
+        { "subQuestionText": "e. What alteration of heading should be made over Cranfield to fly direct to Cambridge?", "solution": "14° right (TE=8°, CA=6°)" },
+        { "subQuestionText": "f. What is the new heading to be flown from overhead Cranfield?", "solution": "079°(M)" }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "An aircraft is flying from Norwich to Oxford, planned track 250°(M), distance 96 NM, heading 260°(M), ground speed 180 kt. The aircraft departs Norwich at 1000 hrs. At 1012, the aircraft is overhead Ely, 3 NM right of planned track. Use the 1:60 to estimate the following.",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. What was the planned drift?", "solution": "10°P" },
+        { "subQuestionText": "b. What is the track error at 1012 hrs?", "solution": "5° right" },
+        { "subQuestionText": "c. What TMG has been flown between 1000 hrs and 1012 hrs.", "solution": "255°(M)" },
+        { "subQuestionText": "d. What has the actual drift been between 1000 hrs and 1012 hrs?", "solution": "5° port (left)" },
+        { "subQuestionText": "e. What alteration of heading should be made to track directly to Oxford?", "solution": "8° left (TE=5°, CA=3°)" },
+        { "subQuestionText": "f. What heading is required to fly directly to Oxford?", "solution": "252°(M)" },
+        { "subQuestionText": "g. What alteration of heading should be made to regain track at 1024 hrs?", "solution": "10° left" },
+        { "subQuestionText": "h. What heading should be flown between 1012 and 1024 hrs to regain track at 1024 hrs?", "solution": "250°(M)" },
+        { "subQuestionText": "i. Given the situation in g. and h. above, what heading change should be made at 1024 hrs and what heading should be flown from 1024 hrs onwards?", "solution": "Fly 255°(M) after regaining track." },
+        { "subQuestionText": "j. Estimate the ETA at Oxford.", "solution": "1032 hrs" }
+      ]
+    }
+  ]
+}
+

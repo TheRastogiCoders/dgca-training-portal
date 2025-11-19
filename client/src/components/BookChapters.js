@@ -121,6 +121,39 @@ const defaultChapters = {
       'Time, Position & ETA',
       'Advanced RNAV'
     ],
+    'cae-oxford-general-navigation': [
+      'Direction, Latitude and Longitude',
+      'Great Circles, Rhumb Lines & Directions on the Earth',
+      'Earth Magnetism',
+      'The Navigation Computer - Slide Rule Face',
+      'The Navigation Computer - Distance, Speed, Time and Conversions',
+      'The Navigation Computer - TAS and Altitude Conversions',
+      'The Navigation Computer - Triangle of Velocities',
+      'The Navigation Computer - Calculation of Heading and Wind Finding',
+      'The Navigation Computer - Multi-drift Winds and Wind Components',
+      'The 1 in 60 Rule',
+      'Navigation Using the 1 in 60 Rule',
+      'Other Applications of the 1 in 60 Rule',
+      'Topographical Maps and Map Reading 1',
+      'Convergency and Conversion Angle',
+      'Departure',
+      'Scale',
+      'General Chart Properties',
+      'Mercator Charts - Properties',
+      'Mercator Charts - Scale',
+      'Mid Course Test',
+      "Lambert's Conformal Chart - 1",
+      "Lambert's Conformal Chart - 2",
+      'The Polar Stereographic Chart',
+      'Time (1)',
+      'Time (2)',
+      'Time (3)',
+      'Gridded Charts',
+      'Plotting',
+      'The Direct Indicating Compass',
+      'Aircraft Magnetism',
+      'General Navigation Problems'
+    ],
     'cae-oxford-flight-planning-monitoring': [
       'Air Information Publications',
       'Fuel Policy and Fuel Monitoring',
@@ -135,6 +168,28 @@ const defaultChapters = {
       'ATC Flight Plan',
       'Point of Equal Time (PET)',
       'Point of Safe Return (PSR)'
+    ],
+    'operational-procedures': [
+      'ICAO Annex 6',
+      'CS-OPS General Requirements',
+      'Operator Supervision and Certification',
+      'Operational Procedures',
+      'All Weather Operations',
+      'Aeroplane Equipment and Instruments',
+      'Crew, Logs and Records',
+      'Long Range Flight and Polar Navigation',
+      'MNPSA',
+      'Special Operational Procedures and Hazards',
+      'Fire and Smoke',
+      'Pressurisation Failure',
+      'Windshear and Microburst',
+      'Wake Turbulence',
+      'Security',
+      'Emergency and Precautionary Landings',
+      'Fuel Jettison',
+      'Transport of Dangerous Goods by Air',
+      'Contaminated Runways',
+      'Revision Questions'
     ],
     'performance': [
       'Mass and Balance and Performance',
@@ -262,7 +317,8 @@ const defaultChapters = {
       'Distance Measuring Equipment (DME)',
       'Area Navigation Systems (RNAV)',
       'Electronic Flight Information System (EFIS)',
-      'Global Navigation Satellite System (GNSS)'
+      'Global Navigation Satellite System (GNSS)',
+      'Communications'
     ]
   }
 };

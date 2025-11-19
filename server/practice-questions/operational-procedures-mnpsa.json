@@ -1,0 +1,94 @@
+{
+  "book_name": "ATPL Ground Training 2014",
+  "chapter_number": "9",
+  "chapter_title": "MNPSA",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the procedure if unable to continue in accordance with your clearance on the NAT OTS?",
+      "question_type": "MCQ",
+      "options": [
+        "Attempt to obtain a re-clearance, but if unable turn to take up a track offset by 1 or 2 nautical miles to the right and climb/descend 500 ft",
+        "Immediately climb to above FL410 or descend to below FL290",
+        "Turn to take up a track offset by 500 NM and climb or descend 15 ft",
+        "Turn to take up a track offset by 15 NM and climb/descend 500 ft"
+      ],
+      "solution": "Turn to take up a track offset by 15 NM and climb/descend 500 ft"
+    },
+    {
+      "id": "2",
+      "question": "What is the procedure for loss of HF comms on the North Atlantic?",
+      "question_type": "MCQ",
+      "options": [
+        "Return to point of departure",
+        "Continue in accordance with flight plan or, if cleared to do something else immediately return to flight plan route",
+        "Turn to take up a track offset by 15 NM from track, and climb/descend 500 ft",
+        "Continue in accordance with your last acknowledged clearance"
+      ],
+      "solution": "Continue in accordance with your last acknowledged clearance"
+    },
+    {
+      "id": "3",
+      "question": "If travelling west at 72°N how often would you make a position report?",
+      "question_type": "MCQ",
+      "options": [
+        "Every hour",
+        "Every 10° of longitude",
+        "Every 20° of latitude",
+        "Every 20° of longitude"
+      ],
+      "solution": "Every 20° of longitude"
+    },
+    {
+      "id": "4",
+      "question": "What does MASPS stand for?",
+      "question_type": "MCQ",
+      "options": [
+        "Minimum Aeroplane Separation Procedures",
+        "Maximum Altitude Separation Parameters",
+        "Minimum Aircraft System Performance Specification",
+        "Maximum Aircraft Seating for Passengers Specification"
+      ],
+      "solution": "Minimum Aircraft System Performance Specification"
+    },
+    {
+      "id": "5",
+      "question": "What specifically must be checked prior to oceanic flight?",
+      "question_type": "MCQ",
+      "options": [
+        "Altimeters, waypoint insertion, master clock",
+        "Altimeters, FMS, master clock, machmeter",
+        "FMS, FGS, NOTAMS, in-flight catering",
+        "ELTS, TLAS, FMS, FGS"
+      ],
+      "solution": "Altimeters, waypoint insertion, master clock"
+    },
+    {
+      "id": "6",
+      "question": "Over the North Atlantic, outside the times of the OTS which of the following aircraft would be on the correct FL?",
+      "question_type": "MCQ",
+      "options": [
+        "Flying 045° at FL340",
+        "Flying 090° at FL340",
+        "Flying 270° at FL340",
+        "Flying 315° at FL430"
+      ],
+      "solution": "Flying 270° at FL340"
+    },
+    {
+      "id": "7",
+      "question": "What information must a pilot give when calling for oceanic clearance?",
+      "question_type": "MCQ",
+      "options": [
+        "Time of entry, FL and type of aircraft",
+        "Maximum Mach number and FL",
+        "Maximum attainable FL and POB",
+        "FL requested and maximum attainable FL"
+      ],
+      "solution": "FL requested and maximum attainable FL"
+    }
+  ]
+}
+
+
+

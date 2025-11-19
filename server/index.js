@@ -166,8 +166,10 @@ app.get('/api/practice-questions/:book', (req, res) => {
     const bookSlugMapping = {
       'air-law': 'oxford',  // Air Law uses oxford- prefixed files
       'human-performance-and-limitations': 'human-performance',  // Human Performance uses human-performance- prefixed files
-      'cae-oxford': 'oxford',  // Backward compatibility
-      'oxford': 'oxford'  // Direct mapping
+      'oxford': 'oxford',  // Direct mapping
+      // CAE Oxford General Navigation practice files
+      // are stored with a "cae-oxford-general-navigation-" prefix
+      'general-navigation': 'cae-oxford-general-navigation'
     };
     
     // Apply mapping if exists, otherwise use the book slug as-is

@@ -1,0 +1,81 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "30",
+  "chapter_title": "Aircraft Magnetism",
+  "questions": [
+    {
+      "id": "1",
+      "question": "European regulations (CS Ops-1) state that the maximum permissible deviations after compensation for the DRC are:",
+      "question_type": "MCQ",
+      "options": [
+        "Ten degrees",
+        "Three degrees",
+        "One degree",
+        "Two degrees"
+      ],
+      "solution": "Ten degrees"
+    },
+    {
+      "id": "2",
+      "question": "Compass swings should be carried out:",
+      "question_type": "MCQ",
+      "options": [
+        "on the apron.",
+        "only on the compass swinging base or site.",
+        "at the holding point.",
+        "on the active runway."
+      ],
+      "solution": "only on the compass swinging base or site."
+    },
+    {
+      "id": "3",
+      "question": "Aircraft magnetism caused by vertical soft iron:",
+      "question_type": "MCQ",
+      "options": [
+        "varies with magnetic heading but not with magnetic latitude.",
+        "varies with magnetic latitude but not with heading.",
+        "it is not affected magnetic latitude or heading.",
+        "varies as the cosine of the compass heading."
+      ],
+      "solution": "varies with magnetic latitude but not with heading."
+    },
+    {
+      "id": "4",
+      "question": "Aircraft magnetism caused by hard iron:",
+      "question_type": "MCQ",
+      "options": [
+        "is not usually influenced by the Earth's magnetic field.",
+        "varies directly with magnetic latitude.",
+        "varies indirectly with magnetic latitude.",
+        "is maximum on east and west."
+      ],
+      "solution": "varies directly with magnetic latitude."
+    },
+    {
+      "id": "5",
+      "question": "The aim of a compass swing is:\\n1. to find deviation on the cardinal headings and to calculate coefficients A, B and C.\\n2. to eliminate or reduce the coefficients found.\\n3. to record any residual deviation and to prepare a compass correction card.",
+      "question_type": "MCQ",
+      "options": [
+        "only answer 1 is correct.",
+        "answers 1 and 3 are correct.",
+        "answers 1, 2 and 3 are all correct.",
+        "none of the above answers are correct."
+      ],
+      "solution": "answers 1, 2 and 3 are all correct."
+    },
+    {
+      "id": "6",
+      "question": "Deviation due to coefficient A is mainly caused by:",
+      "question_type": "MCQ",
+      "options": [
+        "hard iron force acting along the longitudinal axis.",
+        "hard and soft iron forces acting along the lateral axis.",
+        "vertical soft iron forces.",
+        "a misaligned lubber line."
+      ],
+      "solution": "a misaligned lubber line."
+    }
+  ]
+}
+
+

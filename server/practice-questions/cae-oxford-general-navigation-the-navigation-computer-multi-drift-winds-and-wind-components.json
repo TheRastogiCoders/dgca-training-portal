@@ -1,0 +1,171 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "9",
+  "chapter_title": "The Navigation Computer - Multi-drift Winds and Wind Components",
+  "questions": [
+    {
+      "id": "1",
+      "question": "TAS=180 knots",
+      "question_type": "Table Fill-in",
+      "options": [],
+      "table": {
+        "headers": [
+          "Heading",
+          "Drift"
+        ],
+        "rows": [
+          ["130", "6°P"],
+          ["070", "4°P"],
+          ["190", "2°P"],
+          ["W/V", ""]
+        ]
+      },
+      "solution": {
+        "headers": [
+          "Heading",
+          "Drift"
+        ],
+        "rows": [
+          ["130", "6°P"],
+          ["070", "4°P"],
+          ["190", "2°P"],
+          ["W/V", "205/18"]
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "question": "TAS=150 knots",
+      "question_type": "Table Fill-in",
+      "options": [],
+      "table": {
+        "headers": [
+          "Heading",
+          "Drift"
+        ],
+        "rows": [
+          ["045", "3°S"],
+          ["345", "6°P"],
+          ["105", "8°S"],
+          ["W/V", ""]
+        ]
+      },
+      "solution": {
+        "headers": [
+          "Heading",
+          "Drift"
+        ],
+        "rows": [
+          ["045", "3°S"],
+          ["345", "6°P"],
+          ["105", "8°S"],
+          ["W/V", "026/22"]
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "question": "TAS=120 knots",
+      "question_type": "Table Fill-in",
+      "options": [],
+      "table": {
+        "headers": [
+          "Heading",
+          "Drift"
+        ],
+        "rows": [
+          ["270", "2°S"],
+          ["210", "12°S"],
+          ["330", "9 1/2°P"],
+          ["W/V", ""]
+        ]
+      },
+      "solution": {
+        "headers": [
+          "Heading",
+          "Drift"
+        ],
+        "rows": [
+          ["270", "2°S"],
+          ["210", "12°S"],
+          ["330", "9 1/2°P"],
+          ["W/V", "098/30"]
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "question": "TAS=165 knots",
+      "question_type": "Table Fill-in",
+      "options": [],
+      "table": {
+        "headers": [
+          "Heading",
+          "Drift"
+        ],
+        "rows": [
+          ["100", "2°P"],
+          ["040", "14°P"],
+          ["160", "12°S"],
+          ["W/V", ""]
+        ]
+      },
+      "solution": {
+        "headers": [
+          "Heading",
+          "Drift"
+        ],
+        "rows": [
+          ["100", "2°P"],
+          ["040", "14°P"],
+          ["160", "12°S"],
+          ["W/V", "107/40"]
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "question": "An airfield has runways 18/36 and 07/25, all of equal length. The TAF W/V is 310/25. Variation is 20°E. Which will be the best runway for take-off and landing?",
+      "question_type": "MCQ",
+      "options": ["18", "36", "07", "25"],
+      "solution": "25"
+    },
+    {
+      "id": "6",
+      "question": "In the Question 1 situation, what will be the head and crosswind components on this runway?",
+      "question_type": "MCQ",
+      "options": [
+        "Head: 24, Cross: 17",
+        "Head: 13, Cross: 19",
+        "Head: 19, Cross: 16",
+        "Head: 17, Cross: 12"
+      ],
+      "solution": "Head: 19, Cross: 16"
+    },
+    {
+      "id": "7",
+      "question": "An aircraft requires 10 knots headwind component for take-off. The crosswind limit for the aircraft is 20 knots. The only runway available is 25. The ATIS W/V is 290/10G40. What are the minimum and maximum wind speeds for take-off?",
+      "question_type": "MCQ",
+      "options": [
+        "Min: 17, Max: 31",
+        "Min: 13, Max: 17",
+        "Min: 13, Max: 31",
+        "Min: 17, Max: 26"
+      ],
+      "solution": "Min: 13, Max: 31"
+    },
+    {
+      "id": "8",
+      "question": "On a particular take-off, you can accept up to 10 knots tailwind. The runway QDM is 047, the variation is 17°E and the ATIS gives the wind direction as 210. What is the maximum wind strength you can accept?",
+      "question_type": "MCQ",
+      "options": [
+        "18 knots",
+        "11 knots",
+        "8 knots",
+        "4 knots"
+      ],
+      "solution": "11 knots"
+    }
+  ]
+}
+

@@ -1,0 +1,164 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "28",
+  "chapter_title": "Plotting",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the average magnetic course and distance between 60°00'N 020°00'W and Sumburgh VOR? (in the exam they gave an attached chart as an Annex - for revision practice use your Jeppesen Manual chart AT(H/L)1 or 5 AT(HI))",
+      "question_type": "MCQ",
+      "options": [
+        "Course 095, Distance 562",
+        "Course 095, Distance 468",
+        "Course 105, Distance 562",
+        "Course 105, Distance 468"
+      ],
+      "solution": "Course 105, Distance 562"
+    },
+    {
+      "id": "2",
+      "question": "What is the average true track and distance between WTD NDB (52°11.3'N 007°05.0'W) and FOY NDB (52°34.0'N 009°11.7'W)? - use your Jeppesen E(LO)1",
+      "question_type": "MCQ",
+      "options": [
+        "Track 294, Distance 76",
+        "Track 286, Distance 76",
+        "Track 294, Distance 81",
+        "Track 286, Distance 81"
+      ],
+      "solution": "Track 286, Distance 81"
+    },
+    {
+      "id": "3",
+      "question": "You are on a heading of 105°(C), deviation 3°E. WTD NDB (52°11.3'N 007°05.0'W) bears 013°(R), CRK VOR (51°50.4'N 008°29.7'W) QDM is 211°. What is your position? (Use Jeppesen E(LO)1)",
+      "question_type": "MCQ",
+      "options": [
+        "52°45'N 007°57'W",
+        "52°28'N 008°02'W",
+        "54°12'N 006°39'W",
+        "52°17'N 007°45'W"
+      ],
+      "solution": "52°28'N 008°02'W"
+    },
+    {
+      "id": "4",
+      "question": "The airport at 52°11'N 009°32'W is: (use Jeppesen E(LO)1)",
+      "question_type": "MCQ",
+      "options": [
+        "Kerry",
+        "Cork",
+        "Shannon",
+        "Waterford"
+      ],
+      "solution": "Kerry"
+    },
+    {
+      "id": "5",
+      "question": "Reference Jeppesen E(LO)1, position 52°11'N 009°31'W, which of the following denotes all the symbols?",
+      "question_type": "MCQ",
+      "options": [
+        "military airport, ILS, NDB",
+        "civil airport, VOR, ILS",
+        "military airport, VOR, ILS",
+        "civil airport, ILS, NDB"
+      ],
+      "solution": "civil airport, ILS, NDB"
+    },
+    {
+      "id": "6",
+      "question": "What is the aircraft position in lat and long given the following (use Jeppesen chart E(LO)1): CRN (53°18'N 008°57'W) 18 DME, SHA (52°43'N 008°53'W) 20 DME, Heading 270°(M) Both ranges DME decreasing",
+      "question_type": "MCQ",
+      "options": [
+        "52°01'N 009°08'W",
+        "53°01'N 009°08'W",
+        "53°02'N 008°43'W",
+        "52°03'N 008°43'W"
+      ],
+      "solution": "53°02'N 008°43'W"
+    },
+    {
+      "id": "7",
+      "question": "What is at 52°11'N 009°32'W? - (use E(LO)1)",
+      "question_type": "MCQ",
+      "options": [
+        "Kerry VOR",
+        "Cork Airport",
+        "Waterford NDB",
+        "Kerry Airport"
+      ],
+      "solution": "Kerry Airport"
+    },
+    {
+      "id": "8",
+      "question": "What is the mean true track and distance from the BAL VOR (53°18'N 006°27'W) to CFN NDB (55°02'N 008°20'W)? - (use E(LO)1)",
+      "question_type": "MCQ",
+      "options": [
+        "328° 125 NM",
+        "148° 125 NM",
+        "328° 134 NM",
+        "148° 134 NM"
+      ],
+      "solution": "328° 125 NM"
+    },
+    {
+      "id": "9",
+      "question": "You are at position 53°40'N 008°00'W. What is the QDR from the SHA VOR (52°43'N 008°53'W)? - (use E(LO)1)",
+      "question_type": "MCQ",
+      "options": [
+        "217",
+        "037",
+        "209",
+        "029"
+      ],
+      "solution": "037"
+    },
+    {
+      "id": "10",
+      "question": "Your radial from the SHA VOR (52°43'N 008°53'W) is 120°(M). From the CRK VOR (51°51'N 008°30'W), the radial is 033°(M). What is your position? - (use E(LO)1)",
+      "question_type": "MCQ",
+      "options": [
+        "53°20'N 008°00'W",
+        "52°40'N 008°21'W",
+        "52°20'N 008°21'W",
+        "52°30'N 008°00'W"
+      ],
+      "solution": "52°30'N 008°00'W"
+    },
+    {
+      "id": "11",
+      "question": "QTE 'H' 326°(T) QTE 'G' 101°(T) Give the latitude and longitude of where the 2 position lines cross.",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "64°00′N 10°00′W"
+    },
+    {
+      "id": "12",
+      "question": "QTE 'G' 140°(T) QTE 'H' 270°(T) Give the latitude and longitude of where the 2 position lines cross.",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "62°30′N 13°30′W"
+    },
+    {
+      "id": "13",
+      "question": "DME 'L' 150 NM DME 'M' 150 NM Give the latitude and longitude of where the 2 position lines cross.",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "64°45′N 08°30′W"
+    },
+    {
+      "id": "14",
+      "question": "VOR 'I' QDR 339°(M) DME 'I' 120 NM Give the latitude and longitude of where the 2 position lines cross. Do not forget to apply variation to the VOR. Your DR position is 64°N 004°W.",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "65°00′N 13°00′W"
+    },
+    {
+      "id": "15",
+      "question": "RMI QDM NDB 'J' (in Norway) 120°(M) (Meridian Transfer) QTE 'H' 042°(T) Give the latitude and longitude of where the 2 position lines cross.",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "66°00′N 12°00′W"
+    }
+  ]
+}
+
+

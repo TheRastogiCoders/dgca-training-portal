@@ -1,0 +1,129 @@
+{
+  "book_name": "ATPL Ground Training 2014",
+  "chapter_number": "11",
+  "chapter_title": "Fire and Smoke",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The correct actions to be taken in the event of a carburettor fire on a piston engined aeroplane depend upon:",
+      "question_type": "MCQ",
+      "options": [
+        "the type of fuel.",
+        "whether the engine has started.",
+        "the OAT.",
+        "the accessibility of a fire extinguisher."
+      ],
+      "solution": "whether the engine has started."
+    },
+    {
+      "id": "2",
+      "question": "The initial actions to be taken in the event of an engine fire depend upon:",
+      "question_type": "MCQ",
+      "options": [
+        "the type of engine.",
+        "whether the aeroplane is in the air or on the ground.",
+        "how many passengers are on board.",
+        "the availability of crash/fire crews."
+      ],
+      "solution": "the type of engine."
+    },
+    {
+      "id": "3",
+      "question": "What equipment is required to be carried to combat the effects of smoke in the flight deck area?",
+      "question_type": "MCQ",
+      "options": [
+        "Fire extinguishers.",
+        "A drop out oxygen system.",
+        "Smoke hoods with emergency 100% oxygen supply.",
+        "Battery operated torches."
+      ],
+      "solution": "Smoke hoods with emergency 100% oxygen supply."
+    },
+    {
+      "id": "4",
+      "question": "Would you use a dry powder extinguisher on a liquid fire in an aeroplane?",
+      "question_type": "MCQ",
+      "options": [
+        "Yes, but not on the flight deck.",
+        "No, it is only for use on electrical fires.",
+        "Yes anywhere.",
+        "Yes, but only in confined spaces not accessible to passengers."
+      ],
+      "solution": "Yes, but not on the flight deck."
+    },
+    {
+      "id": "5",
+      "question": "Fire detection equipment fitted to aeroplanes is designed to:",
+      "question_type": "MCQ",
+      "options": [
+        "detect fire and smoke by optical means.",
+        "detect heat by electrical means and smoke by optical means.",
+        "operate sprinkler systems.",
+        "operate fire alarms and automatically operate CO₂ flooding of inaccessible spaces."
+      ],
+      "solution": "detect heat by electrical means and smoke by optical means."
+    },
+    {
+      "id": "6",
+      "question": "If an aeroplane is certificated for 6 passengers, how many hand-held fire extinguishers are required to be carried in the aeroplane?",
+      "question_type": "MCQ",
+      "options": [
+        "1.",
+        "Nil.",
+        "2.",
+        "It depends upon the max take-off mass permitted."
+      ],
+      "solution": "1."
+    },
+    {
+      "id": "7",
+      "question": "If an aeroplane is certificated for 10 passengers, how many hand-held fire extinguishers are required to be carried in the passenger compartment?",
+      "question_type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "solution": "1"
+    },
+    {
+      "id": "8",
+      "question": "If the galley is not located on the main passenger deck:",
+      "question_type": "MCQ",
+      "options": [
+        "the closest extinguisher in the passenger compartment must be not more than 10 metres from the galley.",
+        "the galley must have an automatic extinguisher system and fire detection system.",
+        "separate extinguishers suitable for both oil and solid fires are to be available in the galley.",
+        "at least one extinguisher is to be positioned in the galley."
+      ],
+      "solution": "at least one extinguisher is to be positioned in the galley."
+    },
+    {
+      "id": "9",
+      "question": "A crash axe and/or crowbar is/are required to be carried on the flight deck of aeroplanes:",
+      "question_type": "MCQ",
+      "options": [
+        "in the public transport (passenger) role.",
+        "with a max take-off mass exceeding 5700 kg or 10 or more passenger seats.",
+        "with a max take-off mass of 5700 kg and 9 passenger seats.",
+        "that are carrying more than 200 passengers."
+      ],
+      "solution": "with a max take-off mass exceeding 5700 kg or 10 or more passenger seats."
+    },
+    {
+      "id": "10",
+      "question": "Which combination of the following statements correctly identifies the problems associated with overheated brakes after a heavyweight landing or an aborted take-off?\\n1. Reduced braking efficiency.\\n2. Inadvertent operation of fire extinguishers.\\n3. Extended brake cooling time.\\n4. Inadvertent operation of brake overheat sensors.\\n5. Problems with heat dispersal.\\n6. Risk of tyre explosion.",
+      "question_type": "MCQ",
+      "options": [
+        "1, 2, 3, 5 and 6.",
+        "All.",
+        "1, 3, 5 and 6.",
+        "2, 3, 4 and 5."
+      ],
+      "solution": "1, 3, 5 and 6."
+    }
+  ]
+}
+
+

@@ -1,0 +1,82 @@
+{
+  "book_name": "ATPL Ground Training 2014",
+  "chapter_number": "1",
+  "chapter_title": "ICAO Annex 6",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Which ICAO document concerns international Commercial Air Transport (CAT) for fixed wing aeroplanes?",
+      "question_type": "MCQ",
+      "options": [
+        "Annex 8 part 3",
+        "Annex 8 part 1",
+        "Annex 6 part 1",
+        "Annex 6 part 3"
+      ],
+      "solution": "Annex 6 part 1"
+    },
+    {
+      "id": "2",
+      "question": "What does SARPs stand for?",
+      "question_type": "MCQ",
+      "options": [
+        "Suitable Aeroplane Reporting Points",
+        "Standards And Recommended Practices",
+        "Standard Aircraft Reporting Procedures",
+        "Survival And Rescue Procedures"
+      ],
+      "solution": "Standards And Recommended Practices"
+    },
+    {
+      "id": "3",
+      "question": "Does a take-off alternate always need to be nominated?",
+      "question_type": "MCQ",
+      "options": [
+        "Yes for commercial air transport",
+        "Yes for all flights",
+        "No, only if the weather at destination is below limits for landing.",
+        "No, only if the weather at the departure airport is below limits for landing."
+      ],
+      "solution": "No, only if the weather at the departure airport is below limits for landing."
+    },
+    {
+      "id": "4",
+      "question": "For purposes of recording, when does flight time start?",
+      "question_type": "MCQ",
+      "options": [
+        "Take-off",
+        "Taxi with the intention of take-off",
+        "Taxi from the parking stand",
+        "Push-back"
+      ],
+      "solution": "Taxi with the intention of take-off"
+    },
+    {
+      "id": "5",
+      "question": "What colour, and through what angle can the port wing-tip navigation light be seen?",
+      "question_type": "MCQ",
+      "options": [
+        "Red-70°",
+        "Red-110°",
+        "Green-70°",
+        "Green-110°"
+      ],
+      "solution": "Red-110°"
+    },
+    {
+      "id": "6",
+      "question": "Are SARPs legally binding?",
+      "question_type": "MCQ",
+      "options": [
+        "Yes",
+        "Yes if a country is a signatory to the ICAO conventions",
+        "No but signatory states must agree to incorporate them into national regulations",
+        "No, only in EASA member states"
+      ],
+      "solution": "No but signatory states must agree to incorporate them into national regulations"
+    }
+  ]
+}
+
+
+

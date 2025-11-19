@@ -90,6 +90,200 @@
     ]
   },
   {
+    "id": "cae-oxford-general-navigation",
+    "name": "CAE Oxford General Navigation",
+    "author": "CAE Oxford",
+    "subject": "Navigation",
+    "chapters": [
+      {
+        "id": "gn-ch1",
+        "name": "Direction, Latitude and Longitude",
+        "pageStart": 1,
+        "pageEnd": 20
+      },
+      {
+        "id": "gn-ch2",
+        "name": "Great Circles, Rhumb Lines & Directions on the Earth",
+        "pageStart": 21,
+        "pageEnd": 42
+      },
+      {
+        "id": "gn-ch3",
+        "name": "Earth Magnetism",
+        "pageStart": 43,
+        "pageEnd": 66
+      },
+      {
+        "id": "gn-ch4",
+        "name": "The Navigation Computer - Slide Rule Face",
+        "pageStart": 67,
+        "pageEnd": 82
+      },
+      {
+        "id": "gn-ch5",
+        "name": "The Navigation Computer - Distance, Speed, Time and Conversions",
+        "pageStart": 83,
+        "pageEnd": 102
+      },
+      {
+        "id": "gn-ch6",
+        "name": "The Navigation Computer - TAS and Altitude Conversions",
+        "pageStart": 103,
+        "pageEnd": 122
+      },
+      {
+        "id": "gn-ch7",
+        "name": "The Navigation Computer - Triangle of Velocities",
+        "pageStart": 123,
+        "pageEnd": 136
+      },
+      {
+        "id": "gn-ch8",
+        "name": "The Navigation Computer - Calculation of Heading and Wind Finding",
+        "pageStart": 137,
+        "pageEnd": 166
+      },
+      {
+        "id": "gn-ch9",
+        "name": "The Navigation Computer - Multi-drift Winds and Wind Components",
+        "pageStart": 167,
+        "pageEnd": 186
+      },
+      {
+        "id": "gn-ch10",
+        "name": "The 1 in 60 Rule",
+        "pageStart": 187,
+        "pageEnd": 196
+      },
+      {
+        "id": "gn-ch11",
+        "name": "Navigation Using the 1 in 60 Rule",
+        "pageStart": 197,
+        "pageEnd": 208
+      },
+      {
+        "id": "gn-ch12",
+        "name": "Other Applications of the 1 in 60 Rule",
+        "pageStart": 209,
+        "pageEnd": 218
+      },
+      {
+        "id": "gn-ch13",
+        "name": "Topographical Maps and Map Reading",
+        "pageStart": 219,
+        "pageEnd": 236
+      },
+      {
+        "id": "gn-ch14",
+        "name": "Convergency and Conversion Angle",
+        "pageStart": 237,
+        "pageEnd": 258
+      },
+      {
+        "id": "gn-ch15",
+        "name": "Departure",
+        "pageStart": 259,
+        "pageEnd": 272
+      },
+      {
+        "id": "gn-ch16",
+        "name": "Scale",
+        "pageStart": 273,
+        "pageEnd": 280
+      },
+      {
+        "id": "gn-ch17",
+        "name": "General Chart Properties",
+        "pageStart": 281,
+        "pageEnd": 290
+      },
+      {
+        "id": "gn-ch18",
+        "name": "Mercator Charts - Properties",
+        "pageStart": 291,
+        "pageEnd": 306
+      },
+      {
+        "id": "gn-ch19",
+        "name": "Mercator Charts - Scale",
+        "pageStart": 307,
+        "pageEnd": 318
+      },
+      {
+        "id": "gn-ch20",
+        "name": "Mid Course Test",
+        "pageStart": 319,
+        "pageEnd": 332
+      },
+      {
+        "id": "gn-ch21",
+        "name": "Lambert’s Conformal Chart - 1",
+        "pageStart": 333,
+        "pageEnd": 348
+      },
+      {
+        "id": "gn-ch22",
+        "name": "Lambert’s Conformal Chart - 2",
+        "pageStart": 349,
+        "pageEnd": 362
+      },
+      {
+        "id": "gn-ch23",
+        "name": "The Polar Stereographic Chart",
+        "pageStart": 363,
+        "pageEnd": 376
+      },
+      {
+        "id": "gn-ch24",
+        "name": "Time (1)",
+        "pageStart": 377,
+        "pageEnd": 390
+      },
+      {
+        "id": "gn-ch25",
+        "name": "Time (2)",
+        "pageStart": 391,
+        "pageEnd": 418
+      },
+      {
+        "id": "gn-ch26",
+        "name": "Time (3)",
+        "pageStart": 419,
+        "pageEnd": 452
+      },
+      {
+        "id": "gn-ch27",
+        "name": "Gridded Charts",
+        "pageStart": 453,
+        "pageEnd": 474
+      },
+      {
+        "id": "gn-ch28",
+        "name": "Plotting",
+        "pageStart": 475,
+        "pageEnd": 490
+      },
+      {
+        "id": "gn-ch29",
+        "name": "The Direct Indicating Compass",
+        "pageStart": 491,
+        "pageEnd": 498
+      },
+      {
+        "id": "gn-ch30",
+        "name": "Aircraft Magnetism",
+        "pageStart": 499,
+        "pageEnd": 506
+      },
+      {
+        "id": "gn-ch31",
+        "name": "General Navigation Problems",
+        "pageStart": 507,
+        "pageEnd": null
+      }
+    ]
+  },
+  {
     "id": "cae-oxford-human-performance",
     "name": "CAE Oxford Human Performance and Limitations",
     "author": "CAE Oxford",

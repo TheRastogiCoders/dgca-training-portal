@@ -75,6 +75,26 @@
       "subjects": [
         "air-navigation"
       ]
+    },
+    {
+      "slug": "cae-oxford-general-navigation",
+      "title": "CAE ATPL 10. General Navigation",
+      "description": "General Navigation (CAE Oxford)",
+      "icon": "🧭",
+      "color": "#2563eb",
+      "subjects": [
+        "air-navigation"
+      ]
+    },
+    {
+      "slug": "operational-procedures",
+      "title": "CAE ATPL 70. Operational Procedures",
+      "description": "Operational Procedures (CAE Oxford)",
+      "icon": "🛡️",
+      "color": "#f43f5e",
+      "subjects": [
+        "air-navigation"
+      ]
     }
   ]
 }

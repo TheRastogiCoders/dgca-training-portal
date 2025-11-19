@@ -1,0 +1,93 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "18",
+  "chapter_title": "Mercator Charts - Properties",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A normal Mercator chart is a (i) Cylindrical (ii) Perspective (iii) Non-perspective (iv) Conformal (v) Conical (vi) Azimuthal projection? The correct combination is:",
+      "question_type": "MCQ",
+      "options": [
+        "(i), (ii) and (iii)",
+        "(ii), (iv) and (v)",
+        "(i), (iii) and (iv)",
+        "(iii), (iv) and (vi)"
+      ],
+      "solution": "(i), (iii) and (iv)"
+    },
+    {
+      "id": "2",
+      "question": "A direct Mercator graticule is:",
+      "question_type": "MCQ",
+      "options": ["Rectangular", "Square", "Circular", "Convergent"],
+      "solution": "Rectangular"
+    },
+    {
+      "id": "3",
+      "question": "On a normal Mercator chart, rhumb lines are represented as:",
+      "question_type": "MCQ",
+      "options": ["Curves concave to the Equator", "Curves convex to the Equator", "Complex curves", "Straight lines"],
+      "solution": "Straight lines"
+    },
+    {
+      "id": "4",
+      "question": "On a direct Mercator, great circles can be represented as:",
+      "question_type": "MCQ",
+      "options": ["Straight lines", "Curves", "Straight lines and curves"],
+      "solution": "Straight lines and curves"
+    },
+    {
+      "id": "5",
+      "question": "On a direct Mercator, with the exception of the meridians and the Equator, great circles are represented as:",
+      "question_type": "MCQ",
+      "options": [
+        "Curves concave to the Nearer Pole",
+        "Curves convex to the Equator",
+        "Curves concave to the Equator",
+        "Straight lines"
+      ],
+      "solution": "Curves concave to the Equator"
+    },
+    {
+      "id": "6",
+      "question": "The angle between a straight line on a Mercator chart and the corresponding great circle is:",
+      "question_type": "MCQ",
+      "options": ["Zero", "Earth convergency", "Conversion angle", "Chart convergence"],
+      "solution": "Conversion angle"
+    },
+    {
+      "id": "7",
+      "question": "If the rhumb line track from Turin (45N 008E) to Khartoum (15N 032E) is 145°(T), what is the direction of the great circle track measured at Turin?",
+      "question_type": "MCQ",
+      "options": ["133°(T)", "139°(T)", "145°(T)", "151°(T)"],
+      "solution": "139°(T)"
+    },
+    {
+      "id": "8",
+      "question": "In Question 7, what is the direction of the great circle track from Khartoum to Turin?",
+      "question_type": "MCQ",
+      "options": ["319°(T)", "325°(T)", "331°(T)", "337°(T)"],
+      "solution": "331°(T)"
+    },
+    {
+      "id": "9",
+      "question": "On a Mercator chart, the rhumb line track from Durban (30S 032E) to Perth (30S 116E) is 090°(T). What is the great circle track from Perth to Durban?",
+      "question_type": "MCQ",
+      "options": ["291°(T)", "312°(T)", "228°(T)", "249°(T)"],
+      "solution": "249°(T)"
+    },
+    {
+      "id": "10",
+      "question": "At 60S on a Mercator chart, chart convergence is:",
+      "question_type": "MCQ",
+      "options": [
+        "greater than Earth convergency",
+        "\"correct\"",
+        "less than Earth convergency",
+        "equal to ch.long 0.866"
+      ],
+      "solution": "less than Earth convergency"
+    }
+  ]
+}
+

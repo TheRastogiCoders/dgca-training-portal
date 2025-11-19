@@ -1,0 +1,82 @@
+{
+  "book_name": "ATPL Ground Training 2014",
+  "chapter_number": "7",
+  "chapter_title": "Crew, Logs and Records",
+  "questions": [
+    {
+      "id": "1",
+      "question": "If an Operator Proficiency Check is due on 31 July, but the crew member completes it on 12 May, when would the next one need to be completed by?",
+      "question_type": "MCQ",
+      "options": [
+        "12 November",
+        "30 November",
+        "12 January",
+        "31 January"
+      ],
+      "solution": "31 January"
+    },
+    {
+      "id": "2",
+      "question": "What are the rules regarding OPCs?",
+      "question_type": "MCQ",
+      "options": [
+        "Can be completed in the simulator, but no passengers to be carried",
+        "Can be completed in the aircraft but only if the aircraft is certified by the Authority as a suitable substitute for the simulator",
+        "Can be completed in the simulator but only if the simulator is certified by the Authority",
+        "Can be completed in conjunction with a line check"
+      ],
+      "solution": "Can be completed in the simulator but only if the simulator is certified by the Authority"
+    },
+    {
+      "id": "3",
+      "question": "Who could be nominated as Senior Cabin Crew?",
+      "question_type": "MCQ",
+      "options": [
+        "Any flight crew",
+        "Cabin crew with more than a year's experience",
+        "Any cabin crew over the age of 18",
+        "Cabin crew as long as they are not qualified on more than 3 types or variants"
+      ],
+      "solution": "Cabin crew with more than a year's experience"
+    },
+    {
+      "id": "4",
+      "question": "What are the limits on crew duty?",
+      "question_type": "MCQ",
+      "options": [
+        "190 hours in a year, 60 duty hours in any seven consecutive days",
+        "900 block hours in a year, 60 block hours in any consecutive 7 days",
+        "900 block hours in a year, 100 block hours in any consecutive 28 days",
+        "190 block hours in any consecutive 7 days, 900 block hours in any consecutive 28 days"
+      ],
+      "solution": "900 block hours in a year, 100 block hours in any consecutive 28 days"
+    },
+    {
+      "id": "5",
+      "question": "What is the minimum crew rest period before flight?",
+      "question_type": "MCQ",
+      "options": [
+        "12 hours when operating away from home base",
+        "13 hours, reducing by 30 minutes for every sector after the 3rd sector in a day",
+        "10 hours when operating from home base",
+        "12 hours when operating from home base"
+      ],
+      "solution": "12 hours when operating from home base"
+    },
+    {
+      "id": "6",
+      "question": "What is the maximum Flight Duty Period (without extension)?",
+      "question_type": "MCQ",
+      "options": [
+        "11 hours if flying 7 sectors in a day",
+        "12 hours if flying 12 sectors in a day",
+        "10.5 if flying 7 sectors in a day",
+        "13 hours under all circumstances"
+      ],
+      "solution": "11 hours if flying 7 sectors in a day"
+    }
+  ]
+}
+
+
+

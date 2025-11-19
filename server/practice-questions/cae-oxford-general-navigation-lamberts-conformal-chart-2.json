@@ -1,0 +1,85 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "22",
+  "chapter_title": "Lambert’s Conformal Chart - 2",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A Lambert's conformal chart extends from 29°N to 45°N. Standard parallels are at 31°N and 43°N. Chart convergency is ch. Long ×0.6. On this chart is the scale at 43°N the same, greater or less than the scale at:",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "i. 45°N", "solution": "Less" },
+        { "subQuestionText": "ii. 37°N", "solution": "Greater" },
+        { "subQuestionText": "iii. 31°N", "solution": "Same" }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Using the same chart as Question 1, a straight line track on this chart from A (40°N 12°E) to C which is at 18°W passes through B. The direction of this track is 292°(T) at A and 283°(T) at B.",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. What is the longitude of B?", "solution": "003°00'W" },
+        { "subQuestionText": "b. Give the approximate values of the rhumb line track angle on this route:", "solution": "" },
+        { "subQuestionText": "i. at A", "solution": "283°(T)" },
+        { "subQuestionText": "ii. at B", "solution": "283°(T)" }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "A Lambert's Conformal chart extends from 42°S to 64°S. Chart convergency is ch.Long ×0.8. A straight line track on this chart from K (48°S 178°E) to M at longitude 152°W passes through L. The direction of this track at K is 102°(T) and at L is 096°(T).",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. What is the longitude of position L?", "solution": "174°30'W" },
+        { "subQuestionText": "b. What is the approximate value of the rhumb line track from K to M?", "solution": "090°(T)" },
+        { "subQuestionText": "c. What is the approximate value of the rhumb line track from K to L?", "solution": "099°(T)" },
+        { "subQuestionText": "d. What is the latitude of M?", "solution": "48S" }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "A Lambert's conical conformal chart has standard parallels at 63N and 41N. What is the constant of the cone?",
+      "question_type": "MCQ",
+      "options": [".891", ".788", ".656", ".707"],
+      "solution": ".788"
+    },
+    {
+      "id": "5",
+      "question": "Scale on a Lambert's conformal conic chart",
+      "question_type": "MCQ",
+      "options": ["is constant", "is constant along a meridian of longitude", "varies slightly as a function of latitude and longitude", "is constant along a parallel of latitude"],
+      "solution": "is constant along a parallel of latitude"
+    },
+    {
+      "id": "6",
+      "question": "On a conformal chart, the standard parallels are 41°20'N and 11°40'N What is the constant of the cone?",
+      "question_type": "MCQ",
+      "options": [".660", ".202", ".446", ".895"],
+      "solution": ".446"
+    },
+    {
+      "id": "7",
+      "question": "Scale on a Lambert conformal chart is:",
+      "question_type": "MCQ",
+      "options": ["constant along a line of latitude", "constant along a line of longitude", "constant everywhere", "correct at the parallel of origin"],
+      "solution": "constant along a line of latitude"
+    },
+    {
+      "id": "8",
+      "question": "On a Lambert chart, the constant of the cone is .78585. What is the parallel of tangency?",
+      "question_type": "MCQ",
+      "options": ["51°02'", "51°36'", "51°15'", "51°48'"],
+      "solution": "51°48'"
+    },
+    {
+      "id": "9",
+      "question": "On a Lambert's chart the constant of the cone is 0.80. A is at 53N 04W. You plan to fly to B. The initial Lambert's chart straight-line track is 070°(T) and the rhumb line track from A to B is 082°(T). What is the longitude of B?",
+      "question_type": "MCQ",
+      "options": ["26E", "34W", "11E", "15E"],
+      "solution": "26E"
+    }
+  ]
+}
+

@@ -1,0 +1,129 @@
+{
+  "book_name": "ATPL Ground Training 2014",
+  "chapter_number": "13",
+  "chapter_title": "Windshear and Microburst",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is meant by 'low altitude windshear'?",
+      "question_type": "MCQ",
+      "options": [
+        "Turbulence at or below FL50",
+        "A sudden change in wind direction at any altitude below 2000 ft",
+        "A sudden change in wind velocity on the runway, final approach or in the climb-out",
+        "An unexpected crosswind when the aeroplane is on the runway"
+      ],
+      "solution": "A sudden change in wind velocity on the runway, final approach or in the climb-out"
+    },
+    {
+      "id": "2",
+      "question": "Vertical windshear is defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "a change in wind velocity with height",
+        "a change in wind speed with an increase in altitude",
+        "a change in wind direction, contrary to that expected, with an increase in altitude",
+        "a rapid change in speed of an ascending current of air"
+      ],
+      "solution": "a change in wind velocity with height"
+    },
+    {
+      "id": "3",
+      "question": "Horizontal windshear is defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "a change in wind direction with a change in horizontal distance",
+        "a change in wind force over a defined area",
+        "a change of wind velocity with horizontal distance",
+        "any change in speed of a wind that is blowing horizontally"
+      ],
+      "solution": "a change of wind velocity with horizontal distance"
+    },
+    {
+      "id": "4",
+      "question": "What would you expect to happen in an 'up and down draught' windshear?",
+      "question_type": "MCQ",
+      "options": [
+        "The wind velocity to vary with both altitude and horizontal displacement from a datum",
+        "Initially an updraught causing the aeroplane to rise uncontrollably, and subsequently a downdraught causing uncontrolled descent",
+        "Encountering alternately rising and descending air currents in the vicinity of large cloud formations",
+        "Vertical excursions in horizontal flight"
+      ],
+      "solution": "Vertical excursions in horizontal flight"
+    },
+    {
+      "id": "5",
+      "question": "With what met phenomena is windshear most associated?",
+      "question_type": "MCQ",
+      "options": [
+        "Thunderstorms",
+        "Passage of a warm front",
+        "Tropical revolving storms",
+        "Standing mountain waves"
+      ],
+      "solution": "Thunderstorms"
+    },
+    {
+      "id": "6",
+      "question": "Apart from the answer to Q5, windshear can also be found in the vicinity of hills and structures. Where particularly would windshear in this instance be found?",
+      "question_type": "MCQ",
+      "options": [
+        "Upwind and above the hills or structures",
+        "In the lee of hills and structures but well above the ground",
+        "Downwind of hills and structures from ground level upwards",
+        "On the seaward side of hills and structures where no other obstructions are found"
+      ],
+      "solution": "Downwind of hills and structures from ground level upwards"
+    },
+    {
+      "id": "7",
+      "question": "If, during an approach to land you encounter an abrupt decrease in wind speed or a shift to a tail wind the aircraft will........ and you should...........",
+      "question_type": "MCQ",
+      "options": [
+        "suffer a loss of lift / apply power",
+        "increase speed due to reduced drag / lift the nose",
+        "yaw to starboard / apply right rudder",
+        "suffer an energy gain / reduce power and lower the nose"
+      ],
+      "solution": "suffer a loss of lift / apply power"
+    },
+    {
+      "id": "8",
+      "question": "Shortly after take-off the attitude of the aeroplane suffers an abrupt pitch-up and IAS rapidly decreases followed quickly by a decrease in altitude. Engine indications are normal. You should suspect what, and what should you do?",
+      "question_type": "MCQ",
+      "options": [
+        "Marked temperature drop; apply full power",
+        "Loss of headwind or an increase in tailwind; apply full power",
+        "Incipient engine failure (ignore instruments); lower the nose to gain airspeed",
+        "Local clear air turbulence; reduce speed to VRA and ride it out"
+      ],
+      "solution": "Loss of headwind or an increase in tailwind; apply full power"
+    },
+    {
+      "id": "9",
+      "question": "On an ILS final approach, you notice that the sky is darkening, visibility is reducing and turbulence is increasing. At the same time you encounter an energy gain situation causing you to 'balloon' above the glide path. What should you do?",
+      "question_type": "MCQ",
+      "options": [
+        "Suspect windshear and correct power and attitude to regain the glide path",
+        "Suspect that you have passed through the top of the turbulence layer and that the wind is no longer geostrophic, so corrections to power and attitude are required",
+        "Suspect microburst activity and pre-empt the inevitable energy loss situation by leaving power and attitude settings as before and then correct once clear of the microburst",
+        "Suspect microburst activity, apply full power, climb as per the missed approach procedure and go around for a further approach after the microburst has cleared the approach area"
+      ],
+      "solution": "Suspect microburst activity, apply full power, climb as per the missed approach procedure and go around for a further approach after the microburst has cleared the approach area"
+    },
+    {
+      "id": "10",
+      "question": "With which of the following should you be aware of the possibility of microburst activity?\\n1. Thunderstorms\\n2. Cumulonimbus clouds\\n3. Gust front activity (rising dust clouds)\\n4. Unexpected windshear\\n5. Sudden rain squalls\\n6. Virga",
+      "question_type": "MCQ",
+      "options": [
+        "All the above",
+        "2, 4 and 5",
+        "1, 3, 4, 5 and 6",
+        "2, 5 and 6"
+      ],
+      "solution": "All the above"
+    }
+  ]
+}
+
+

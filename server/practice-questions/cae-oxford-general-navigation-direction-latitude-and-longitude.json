@@ -1,0 +1,56 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "1",
+  "chapter_title": "Direction, Latitude and Longitude",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the approximate compression of the Earth?",
+      "question_type": "MCQ",
+      "options": ["3%", "0.03%", "0.3%", "1/3000"],
+      "solution": "0.3%"
+    },
+    {
+      "id": "2",
+      "question": "A Graticule is the name given to:",
+      "question_type": "MCQ",
+      "options": [
+        "a series of lines drawn on a chart",
+        "a series of Latitude and Longitude lines drawn on a chart or map",
+        "a selection of small circles as you get nearer to either pole"
+      ],
+      "solution": "a series of Latitude and Longitude lines drawn on a chart or map"
+    },
+    {
+      "id": "3",
+      "question": "A great circle has its North vertex at 70N 130E. What is the position of its South vertex?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "70S 050W"
+    },
+    {
+      "id": "4",
+      "question": "In Question 3, at what longitudes and in what direction would the Great Circle cross the Equator assuming:",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        {
+          "subQuestionText": "initial direction is east from the northern vertex?",
+          "solution": "140W 160°(T)"
+        },
+        {
+          "subQuestionText": "initial direction is west from the northern vertex?",
+          "solution": "040E 200°(T)"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Given that the compression value of the Earth is 1/297 and that the semi-major axis of the Earth, measured at the axis of the Equator, is 6378.4 km, what is the semi-minor (i.e. radius) axis of the Earth measured at the axis of the Poles?",
+      "question_type": "MCQ",
+      "options": ["6399.9 km", "6356.9 km", "6378.4 km", "6367.0 km"],
+      "solution": "6356.9 km"
+    }
+  ]
+}
+

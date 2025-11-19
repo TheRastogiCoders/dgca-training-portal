@@ -1,0 +1,94 @@
+{
+  "book_name": "ATPL Ground Training 2014",
+  "chapter_number": "6",
+  "chapter_title": "Aeroplane Equipment and Instruments",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Where should the emergency medical kit normally be stowed?",
+      "question_type": "MCQ",
+      "options": [
+        "In the rearmost galley",
+        "Near any passenger qualified to administer drugs",
+        "On the flight deck",
+        "In the cargo hold"
+      ],
+      "solution": "On the flight deck"
+    },
+    {
+      "id": "2",
+      "question": "On which aircraft do CVRs need to record for 2 hours?",
+      "question_type": "MCQ",
+      "options": [
+        "All aircraft > 5700 kg",
+        "All aircraft > 9 passenger seats",
+        "Aircraft > 5700 kg registered after 01/04/1998",
+        "Aircraft > 9 passenger seats registered after 01/04/1998"
+      ],
+      "solution": "Aircraft > 5700 kg registered after 01/04/1998"
+    },
+    {
+      "id": "3",
+      "question": "On which aircraft can the FDR recording time be reduced to 10 hours?",
+      "question_type": "MCQ",
+      "options": [
+        "All aircraft < 5700 kg",
+        "All aircraft < 9 passenger seats",
+        "Aircraft < 5700 kg registered after 01/04/1998",
+        "Aircraft < 9 passenger seats registered after 01/04/1998"
+      ],
+      "solution": "Aircraft < 5700 kg registered after 01/04/1998"
+    },
+    {
+      "id": "4",
+      "question": "Which aircraft must be fitted with ACAS II?",
+      "question_type": "MCQ",
+      "options": [
+        ">5700 kg or > 19 passenger seats",
+        ">5700 kg and > 19 passenger seats",
+        ">5700 kg or > 9 passenger seats",
+        ">5700 kg and > 9 passenger seats"
+      ],
+      "solution": ">5700 kg or > 19 passenger seats"
+    },
+    {
+      "id": "5",
+      "question": "When must flight deck operating crew be on oxygen in a pressurized aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "The entire flight time when the aircraft is above 13000 ft",
+        "The entire flight time when the cabin is above 10000 ft",
+        "The entire flight time when the cabin is above 13000 ft",
+        "Flight deck crew do not need oxygen in a pressurized aircraft"
+      ],
+      "solution": "The entire flight time when the cabin is above 13000 ft"
+    },
+    {
+      "id": "6",
+      "question": "When deciding on how much oxygen is required for a particular flight, what must the crew allow for?",
+      "question_type": "MCQ",
+      "options": [
+        "Oxygen for 100% of the passenger seat fit for cabin alt above 15000 ft",
+        "Oxygen for 100% of the passengers for the entire time the cabin is between 10-13 000 ft",
+        "Oxygen for 30% of the passengers for the entire time the cabin of a pressurized aircraft is above 14000 ft",
+        "Oxygen for all passengers and all crew for the entire flight above 12000 ft"
+      ],
+      "solution": "Oxygen for 30% of the passengers for the entire time the cabin of a pressurized aircraft is above 14000 ft"
+    },
+    {
+      "id": "7",
+      "question": "How many ELTs must be fitted to an aircraft with 19 passenger seats?",
+      "question_type": "MCQ",
+      "options": [
+        "1 automatic, or 2 of any type",
+        "2, one of which must be automatic if registered after July 2008",
+        "1, which must be automatic if registered after July 2008",
+        "ELTs are for life rafts only, not aircraft"
+      ],
+      "solution": "1, which must be automatic if registered after July 2008"
+    }
+  ]
+}
+
+
+

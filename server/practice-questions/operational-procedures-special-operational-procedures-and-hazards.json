@@ -1,0 +1,82 @@
+{
+  "book_name": "ATPL Ground Training 2014",
+  "chapter_number": "10",
+  "chapter_title": "Special Operational Procedures and Hazards",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the types of de-icing/anti-icing fluid in common use for turbojet aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "Type I,II,III",
+        "Type II, III, IV",
+        "Type I, III, IV",
+        "Type I,II,IV"
+      ],
+      "solution": "Type I,II,IV"
+    },
+    {
+      "id": "2",
+      "question": "What can affect holdover time?",
+      "question_type": "MCQ",
+      "options": [
+        "Type of fluid, OAT, precipitant, wind",
+        "Skin temperature, OAT, precipitant, location of de-ice pan",
+        "OAT, wind, type of fluid, whether engines are running or not",
+        "Wind, MTOM, whether it is daytime or night-time, airfield altitude"
+      ],
+      "solution": "Type of fluid, OAT, precipitant, wind"
+    },
+    {
+      "id": "3",
+      "question": "How can icing conditions affect performance?",
+      "question_type": "MCQ",
+      "options": [
+        "Increase lift by 30%, decrease drag by 40%",
+        "Increase lift by 40% decrease drag by 30%",
+        "Decrease lift by 40% increase drag by 30%",
+        "Decrease lift by 30% increase drag by 40%"
+      ],
+      "solution": "Decrease lift by 30% increase drag by 40%"
+    },
+    {
+      "id": "4",
+      "question": "Which of the following is formally listed as incompatible land use around airports?",
+      "question_type": "MCQ",
+      "options": [
+        "Zoo",
+        "Landfill",
+        "School",
+        "Coal mine"
+      ],
+      "solution": "Landfill"
+    },
+    {
+      "id": "5",
+      "question": "What is the minimum height for a power reduction on a Noise Abatement Departure Procedure?",
+      "question_type": "MCQ",
+      "options": [
+        "500 ft",
+        "600 ft",
+        "700 ft",
+        "800 ft"
+      ],
+      "solution": "800 ft"
+    },
+    {
+      "id": "6",
+      "question": "Which of the following statements would not be acceptable in aerodrome procedures?",
+      "question_type": "MCQ",
+      "options": [
+        "Use of reverse thrust should be avoided between the hours of 2200-0600",
+        "Use of reverse thrust is to be minimized between the hours of 2200-0600",
+        "Use of reverse thrust is prohibited between the hours of 2200-0600",
+        "Use of reverse thrust should be minimized at all times"
+      ],
+      "solution": "Use of reverse thrust is prohibited between the hours of 2200-0600"
+    }
+  ]
+}
+
+
+

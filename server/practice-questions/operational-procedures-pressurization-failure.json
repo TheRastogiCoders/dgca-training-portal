@@ -1,0 +1,81 @@
+{
+  "book_name": "ATPL Ground Training 2014",
+  "chapter_number": "12",
+  "chapter_title": "Pressurisation Failure",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is a minimum supplemental oxygen requirement to be supplied in a pressurized aeroplane during an emergency descent?",
+      "question_type": "MCQ",
+      "options": [
+        "A supply of oxygen sufficient for all crew and passengers to enable a shallow rate of descent to 10000 ft or 2 hours whichever is the longer",
+        "A supply of oxygen for the crew only for the entire time the aeroplane cabin pressure is above 8000 ft",
+        "A supply for all crew and passengers sufficient for a constant rate of descent from the aeroplane's maximum certificated operating altitude to 15000 ft in 10 minutes",
+        "A supply for 10% of passengers whilst the cabin pressure is over 13000 ft"
+      ],
+      "solution": "A supply for all crew and passengers sufficient for a constant rate of descent from the aeroplane's maximum certificated operating altitude to 15000 ft in 10 minutes"
+    },
+    {
+      "id": "2",
+      "question": "In a rapid or explosive decompression:",
+      "question_type": "MCQ",
+      "options": [
+        "the cabin pressure control system immediately reduces the cabin pressure to ambient pressure to prevent the fuselage integrity being destroyed",
+        "the cabin altitude quickly or instantaneously reduces to ambient (outside) pressure",
+        "the cause of the decompression is usually catastrophic failure of the pressure hull",
+        "cabin pressurization system failure will be the first indication that something is wrong"
+      ],
+      "solution": "the cabin altitude quickly or instantaneously reduces to ambient (outside) pressure"
+    },
+    {
+      "id": "3",
+      "question": "The difference between slow and rapid decompression is:",
+      "question_type": "MCQ",
+      "options": [
+        "a rapid decompression will be immediately noticeable, a slow decompression will require instrumentation to detect the failure",
+        "a rapid decompression is caused by a pressure hull rupture whereas a slow decompression is caused by system failure",
+        "the rate at which the cabin altitude climbs with respect to the desired climb setting or the automatic control setting",
+        "the speed with which the cabin altitude rises with respect to the ambient (outside) pressure"
+      ],
+      "solution": "the speed with which the cabin altitude rises with respect to the ambient (outside) pressure"
+    },
+    {
+      "id": "4",
+      "question": "During a slow decompression, passengers will notice:",
+      "question_type": "MCQ",
+      "options": [
+        "the cabin temperature will fall as the pressure reduces",
+        "body cavities (sinuses, ears etc.) will become pressurized and may require assistance in venting",
+        "as soon as the pressure falls, the oxygen drop-out system will operate",
+        "no contra effects, as slow depressurization has no effect on the human body"
+      ],
+      "solution": "body cavities (sinuses, ears etc.) will become pressurized and may require assistance in venting"
+    },
+    {
+      "id": "5",
+      "question": "During a rapid or explosive decompression, passengers may notice:",
+      "question_type": "MCQ",
+      "options": [
+        "gross discomfort, breathlessness, possible damage to sinus cavities",
+        "tunnel vision and sensorial depletion",
+        "marked reduction in night vision",
+        "pain in muscles and joints caused by the bends"
+      ],
+      "solution": "gross discomfort, breathlessness, possible damage to sinus cavities"
+    },
+    {
+      "id": "6",
+      "question": "In the event of a cabin depressurization, the actions of the pilot will be to:",
+      "question_type": "MCQ",
+      "options": [
+        "immediately commence a diversion to a suitable alternate",
+        "increase engine power to provide additional airflow to the pressurization systems",
+        "maintain the aeroplane attitude to prevent further damage to the airframe by over loading of the structure",
+        "commence a descent to an altitude where the supplemental oxygen supply is sufficient for all crew and passengers"
+      ],
+      "solution": "commence a descent to an altitude where the supplemental oxygen supply is sufficient for all crew and passengers"
+    }
+  ]
+}
+
+

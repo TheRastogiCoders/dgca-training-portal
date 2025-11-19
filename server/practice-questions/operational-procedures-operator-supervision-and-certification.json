@@ -1,0 +1,82 @@
+{
+  "book_name": "ATPL Ground Training 2014",
+  "chapter_number": "3",
+  "chapter_title": "Operator Supervision and Certification",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the general rules regarding the issue of an AOC?",
+      "question_type": "MCQ",
+      "options": [
+        "Operators must own enough aeroplanes to conduct safe operations",
+        "Aeroplanes should be registered in the state where the AOC is issued",
+        "Operators must be certified in accordance with EASA part 145",
+        "The Accountable Manager must be the holder of a full ATPL"
+      ],
+      "solution": "Aeroplanes should be registered in the state where the AOC is issued"
+    },
+    {
+      "id": "2",
+      "question": "What must be stated on the AOC?",
+      "question_type": "Multiple Select",
+      "options": [
+        "Name of the Accountable Manager",
+        "Registration markings of all aeroplanes",
+        "Aerodrome operating minima for all aerodromes cleared for use",
+        "Date of expiry of the AOC"
+      ],
+      "solution": "Registration markings of all aeroplanes; Aerodrome operating minima for all aerodromes cleared for use"
+    },
+    {
+      "id": "3",
+      "question": "Where would a pilot find the MEL for his aeroplane?",
+      "question_type": "MCQ",
+      "options": [
+        "AFM",
+        "Ops Manual part C",
+        "Ops Manual part B",
+        "Company Procedures Manual"
+      ],
+      "solution": "Ops Manual part B"
+    },
+    {
+      "id": "4",
+      "question": "Can the Ops Manual be stored electronically?",
+      "question_type": "MCQ",
+      "options": [
+        "Yes but not on the aircraft",
+        "No",
+        "Yes",
+        "Yes but only on the aircraft"
+      ],
+      "solution": "Yes but not on the aircraft"
+    },
+    {
+      "id": "5",
+      "question": "What language must the Ops Manual normally be produced in?",
+      "question_type": "MCQ",
+      "options": [
+        "English",
+        "French",
+        "Spanish",
+        "All major languages used in the EU"
+      ],
+      "solution": "All major languages used in the EU"
+    },
+    {
+      "id": "6",
+      "question": "If, during the pre-flight inspection, the pilot notices an aerial missing from the airframe:",
+      "question_type": "MCQ",
+      "options": [
+        "he must refer to the CDL, and if it is listed he can continue",
+        "he must refer to the MEL and if it is listed he can continue",
+        "he must report it after flight",
+        "he must report it before flight"
+      ],
+      "solution": "he must refer to the MEL and if it is listed he can continue"
+    }
+  ]
+}
+
+
+

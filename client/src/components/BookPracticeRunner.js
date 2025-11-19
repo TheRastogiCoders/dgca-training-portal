@@ -127,13 +127,28 @@ const BookPracticeRunner = () => {
 
         const list = Array.isArray(data.questions) ? data.questions : [];
         console.log(`[Frontend] Received questions count: ${list.length}`);
-        const normalized = list.map(q => ({
+        const optionLabels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+        const normalized = list.map(q => {
+          const mappedOptions = (q.options || []).map(o => o.text || o);
+          let correctLabel = q.answer ?? q.correctAnswer ?? q.correct_answer ?? '';
+          if (!correctLabel && q.solution) {
+            const matchIndex = mappedOptions.findIndex(
+              opt => String(opt).trim().toLowerCase() === String(q.solution).trim().toLowerCase()
+            );
+            if (matchIndex >= 0) {
+              correctLabel = optionLabels[matchIndex] || '';
+            }
+          }
+
+          return {
           id: q.id || crypto.randomUUID?.() || String(Math.random()),
           text: q.question || q.text,
-          options: (q.options || []).map(o => o.text || o),
-          correctLabel: q.answer,
+            options: mappedOptions,
+            correctLabel: correctLabel || '',
           explanation: q.explanation || q.solution || '',
-        }));
+            solution: q.solution || '',
+          };
+        });
         setQuestions(normalized);
         restoreState(normalized);
       } catch (e) {
@@ -163,7 +178,7 @@ const BookPracticeRunner = () => {
     }
   }, [questions, current, selected, done, score, loading, storageKey]);
 
-  const fetchExplanation = async (questionId, questionText, options, correctAnswer, selectedAnswer) => {
+  const fetchExplanation = async (questionId, questionText, options, correctAnswer, selectedAnswer, fallbackText = 'Explanation not available.') => {
     // Check cache first
     const cacheKey = `${questionId}-${selectedAnswer || 'none'}`;
     if (explanationCache[cacheKey]) {
@@ -191,7 +206,7 @@ const BookPracticeRunner = () => {
       }
 
       const data = await response.json();
-      const explanation = data.explanation || 'Explanation not available.';
+      const explanation = data.explanation || fallbackText;
       
       // Cache the explanation
       setExplanationCache(prev => ({
@@ -202,7 +217,7 @@ const BookPracticeRunner = () => {
       return explanation;
     } catch (error) {
       console.error('Error fetching explanation:', error);
-      return 'Unable to load explanation at this time. Please try again.';
+      return fallbackText;
     } finally {
       setLoadingExplanation(false);
     }
@@ -217,20 +232,24 @@ const BookPracticeRunner = () => {
     const isCorrect = String(chosenLabel).toLowerCase() === String(currentQuestion.correctLabel).toLowerCase();
     if (isCorrect) setScore(prev => prev + 1);
     
-    // If wrong answer or no explanation exists, fetch explanation
+    // If we need an explanation (no local copy or AI needed), fetch with graceful fallback
     if (!isCorrect || !currentQuestion.explanation) {
+      const fallbackExplanation = (currentQuestion.explanation && currentQuestion.explanation.trim())
+        ? currentQuestion.explanation
+        : (currentQuestion.solution || 'Explanation not available.');
       const explanation = await fetchExplanation(
         currentQuestion.id,
         currentQuestion.text,
         currentQuestion.options,
         currentQuestion.correctLabel,
-        !isCorrect ? chosenLabel : undefined
+        !isCorrect ? chosenLabel : undefined,
+        fallbackExplanation
       );
       
       // Update the question with the explanation
       setQuestions(prev => prev.map((q, idx) => 
         idx === current 
-          ? { ...q, explanation: explanation || q.explanation }
+          ? { ...q, explanation: explanation || q.explanation || fallbackExplanation }
           : q
       ));
     }

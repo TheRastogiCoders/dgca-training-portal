@@ -1,0 +1,82 @@
+{
+  "book_name": "ATPL Ground Training 2014",
+  "chapter_number": "4",
+  "chapter_title": "Operational Procedures",
+  "questions": [
+    {
+      "id": "1",
+      "question": "How far from the aerodrome of departure can a take-off alternate be?",
+      "question_type": "MCQ",
+      "options": [
+        "2 hour flight time at the 1 engine cruise speed for a 4-engine aeroplane",
+        "2 hours 40 for an ETOPS aircraft if its ETOPS limit is 2 hours 40",
+        "1 hour flight time at the all engine cruise speed for a 2-engine aircraft",
+        "2 hours flight time at the 1 engine inop cruise speed for a 3-engine aircraft"
+      ],
+      "solution": "2 hours flight time at the 1 engine inop cruise speed for a 3-engine aircraft"
+    },
+    {
+      "id": "2",
+      "question": "At time of departure what are the rules regarding aerodromes?",
+      "question_type": "MCQ",
+      "options": [
+        "The destination aerodrome must be within limits for landing",
+        "ETOPS en route aerodromes must be VMC",
+        "Destination and destination alternate aerodromes must be forecast to be at or above minima at ETA",
+        "Departure aerodrome must be forecast to be in limits from 1 hour before to 1 hour after ETA"
+      ],
+      "solution": "Destination and destination alternate aerodromes must be forecast to be at or above minima at ETA"
+    },
+    {
+      "id": "3",
+      "question": "Is the commander of a commercial air transport aeroplane required to use ATC?",
+      "question_type": "MCQ",
+      "options": [
+        "Only in class A airspace",
+        "Yes wherever it is available",
+        "Only if flying IFR",
+        "Only at aerodromes"
+      ],
+      "solution": "Yes wherever it is available"
+    },
+    {
+      "id": "4",
+      "question": "When can a pilot deviate from a SID?",
+      "question_type": "MCQ",
+      "options": [
+        "If in VMC",
+        "Once below MDH",
+        "Once above transition altitude",
+        "When cleared by Air Traffic"
+      ],
+      "solution": "When cleared by Air Traffic"
+    },
+    {
+      "id": "5",
+      "question": "What are the requirements concerning special categories of passengers?",
+      "question_type": "MCQ",
+      "options": [
+        "Inadmissible passengers cannot be carried on commercial air transport aircraft",
+        "PRMs cannot sit next to emergency exits.",
+        "The captain is to be informed when deportees are carried",
+        "Persons in custody are to be seated on the flight deck"
+      ],
+      "solution": "The captain is to be informed when deportees are carried"
+    },
+    {
+      "id": "6",
+      "question": "What are the rules regarding the stowage of baggage and cargo?",
+      "question_type": "MCQ",
+      "options": [
+        "The captain must physically check all baggage and cargo is secure before take-off",
+        "The senior cabin crew is responsible for ensuring it is secure",
+        "The flight despatcher must sign to say it is secure",
+        "The captain is responsible for ensuring it is secure"
+      ],
+      "solution": "The captain is responsible for ensuring it is secure"
+    }
+  ]
+}
+
+
+

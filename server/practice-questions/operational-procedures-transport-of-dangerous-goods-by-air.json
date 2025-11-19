@@ -1,0 +1,153 @@
+{
+  "book_name": "ATPL Ground Training 2014",
+  "chapter_number": "18",
+  "chapter_title": "Transport of Dangerous Goods by Air",
+  "questions": [
+    {
+      "id": "1",
+      "question": "With regard to the transportation of dangerous goods by air, operators are required to comply with:",
+      "question_type": "MCQ",
+      "options": [
+        "the United Nations' embargo on the transportation of hazardous materials",
+        "ICAO Annex 18 SARPS",
+        "the manufacturer's specification for the storage of items with low flash points",
+        "the Health and Safety requirements of the World Health Organization"
+      ],
+      "solution": "the Health and Safety requirements of the World Health Organization"
+    },
+    {
+      "id": "2",
+      "question": "Dangerous goods are defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "articles or substances which are capable of significant risk to health, safety or property",
+        "any item which contains toxic liquids or solids.",
+        "any item which has the capability to be used for purposes other than that intended.",
+        "guns, ammunition, explosives, toxic waste, or chemical, biological or nuclear agents or reagents."
+      ],
+      "solution": "articles or substances which are capable of significant risk to health, safety or property"
+    },
+    {
+      "id": "3",
+      "question": "With regard to dangerous goods, what does a UN number identify?",
+      "question_type": "MCQ",
+      "options": [
+        "The international code for the country of destination.",
+        "A substance or particular group of substances.",
+        "The registered dangerous goods consignee.",
+        "The identity of the registered carrier of dangerous goods."
+      ],
+      "solution": "A substance or particular group of substances."
+    },
+    {
+      "id": "4",
+      "question": "The document that identifies the technical instructions for the classification and safe transport of dangerous goods by air is called:",
+      "question_type": "MCQ",
+      "options": [
+        "the Operations Manual.",
+        "the Technical Instructions.",
+        "the Loading Manual.",
+        "ICAO Annex 19 (Carriage of Dangerous Goods by Air)."
+      ],
+      "solution": "the Technical Instructions."
+    },
+    {
+      "id": "5",
+      "question": "Certain items, which by their nature are dangerous goods, may be carried in aeroplanes excluded from the provisions. Which of the following lists correctly identifies such items?",
+      "question_type": "MCQ",
+      "options": [
+        "Veterinary aids or humane killers, ammunition, gas cylinders, catering supplies, personal items.",
+        "Veterinary aids or humane killers, ammunition, equipment with wet cell batteries, catering supplies, personal items.",
+        "Veterinary aids or humane killers, drugs, equipment with batteries, gas cylinders, catering supplies, personal items.",
+        "Veterinary aids or humane killers, items required for operational reasons, medical aids for a patient, catering supplies, personal items."
+      ],
+      "solution": "Veterinary aids or humane killers, items required for operational reasons, medical aids for a patient, catering supplies, personal items."
+    },
+    {
+      "id": "6",
+      "question": "If an item which is excluded from the provisions is carried as a replacement (e.g. a replacement O₂ bottle for a patient) it must be classified as dangerous goods.",
+      "question_type": "MCQ",
+      "options": [
+        "True.",
+        "False.",
+        "Class 7.",
+        "Class 1."
+      ],
+      "solution": "True."
+    },
+    {
+      "id": "7",
+      "question": "Who is responsible for ensuring that dangerous goods are packed, labelled and carried in accordance with the regulations?",
+      "question_type": "MCQ",
+      "options": [
+        "The commander.",
+        "The operator.",
+        "The shipping agent.",
+        "The consignee."
+      ],
+      "solution": "The operator."
+    },
+    {
+      "id": "8",
+      "question": "The requirements for packaging and labelling are to be found in:",
+      "question_type": "MCQ",
+      "options": [
+        "the Technical Instructions.",
+        "the OM.",
+        "ICAO Annex 18.",
+        "EU-OPS 1.1215."
+      ],
+      "solution": "the Technical Instructions."
+    },
+    {
+      "id": "9",
+      "question": "What is the purpose of the 'acceptance checklist'?",
+      "question_type": "MCQ",
+      "options": [
+        "To ensure that the requirements of the Technical Instructions are complied with.",
+        "To enable the loading supervisor to take appropriate precautions.",
+        "To enable performance calculations to be made with regard to total cargo weight.",
+        "To ensure that the shipper is not trying to smuggle munitions of war."
+      ],
+      "solution": "To ensure that the requirements of the Technical Instructions are complied with."
+    },
+    {
+      "id": "10",
+      "question": "Can dangerous goods be carried in the passenger cabin or on the flight deck?",
+      "question_type": "MCQ",
+      "options": [
+        "Yes, but only goods specified in the Technical Instructions.",
+        "No.",
+        "Yes, if authorized by the Authority.",
+        "Yes, provided they are non-toxic."
+      ],
+      "solution": "Yes, but only goods specified in the Technical Instructions."
+    },
+    {
+      "id": "11",
+      "question": "If dangerous goods are to be carried, the commander is to be given information as specified in the Technical Instructions. Who is responsible for the provision of this information?",
+      "question_type": "MCQ",
+      "options": [
+        "The loading supervisor.",
+        "The Authority.",
+        "The operator.",
+        "The shipper."
+      ],
+      "solution": "The Authority."
+    },
+    {
+      "id": "12",
+      "question": "Operators are to establish Dangerous Goods training programmes. Where are details of the training required, published?",
+      "question_type": "MCQ",
+      "options": [
+        "In the OM.",
+        "In the Training Manual.",
+        "In ICAO Annex 18.",
+        "In the Technical Instructions."
+      ],
+      "solution": "In the Technical Instructions."
+    }
+  ]
+}
+
+

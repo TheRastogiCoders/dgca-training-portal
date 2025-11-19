@@ -1,0 +1,153 @@
+{
+  "book_name": "ATPL Ground Training 2014",
+  "chapter_number": "19",
+  "chapter_title": "Contaminated Runways",
+  "questions": [
+    {
+      "id": "1",
+      "question": "If 30% of the surface area of a runway is covered by surface water more than 3 mm deep, by slush, by loose snow or compacted snow which resists further compression, or ice (including wet ice), the runway is classified as:",
+      "question_type": "MCQ",
+      "options": [
+        "wet",
+        "contaminated",
+        "unusable",
+        "useable with care"
+      ],
+      "solution": "contaminated"
+    },
+    {
+      "id": "2",
+      "question": "If the surface of a runway is not dry, but the moisture on it does not give a shiny appearance, the runway is:",
+      "question_type": "MCQ",
+      "options": [
+        "wet",
+        "wet but not contaminated",
+        "dry",
+        "damp"
+      ],
+      "solution": "damp"
+    },
+    {
+      "id": "3",
+      "question": "If a runway is covered with water which is less than 3 mm deep, or where the surface appears reflective but without standing water patches, it is said to be:",
+      "question_type": "MCQ",
+      "options": [
+        "wet",
+        "wet but not contaminated",
+        "dry",
+        "damp"
+      ],
+      "solution": "wet"
+    },
+    {
+      "id": "4",
+      "question": "A dry runway is one which:",
+      "question_type": "MCQ",
+      "options": [
+        "can be wet if it has sufficient camber to allow the water to drain quickly off the surface therefore maintaining an 'effective dry' braking action",
+        "is wet but not to a depth of water greater than 3 mm",
+        "is not contaminated",
+        "can be wet if it has specially prepared grooved or porous surfaces, which maintain 'effectively dry' braking action"
+      ],
+      "solution": "can be wet if it has specially prepared grooved or porous surfaces, which maintain 'effectively dry' braking action"
+    },
+    {
+      "id": "5",
+      "question": "If a runway is contaminated with dry snow, the depth that will preclude operations is:",
+      "question_type": "MCQ",
+      "options": [
+        "60 mm",
+        "15 mm",
+        "10 mm",
+        "3 mm"
+      ],
+      "solution": "60 mm"
+    },
+    {
+      "id": "6",
+      "question": "If a runway is contaminated with wet snow, slush or water, the depth that will preclude operations is:",
+      "question_type": "MCQ",
+      "options": [
+        "60 mm",
+        "15 mm",
+        "10 mm",
+        "3 mm"
+      ],
+      "solution": "15 mm"
+    },
+    {
+      "id": "7",
+      "question": "The effect whereby a tyre is lifted from the runway due to aeroplane speed along the runway is known as:",
+      "question_type": "MCQ",
+      "options": [
+        "surface water effect",
+        "hydroplaning",
+        "aqua-skimming",
+        "surface tension"
+      ],
+      "solution": "hydroplaning"
+    },
+    {
+      "id": "8",
+      "question": "For any given contaminant (by specific gravity), the aquaplaning speed is given by:",
+      "question_type": "MCQ",
+      "options": [
+        "nine times the square of the tyre pressure (lb/sqin)",
+        "the tyre pressure (bars) divided by nine",
+        "nine times the square root of the tyre pressure (lb/sqin)",
+        "the square root of the tyre pressure (bars) multiplied by nine"
+      ],
+      "solution": "nine times the square root of the tyre pressure (lb/sqin)"
+    },
+    {
+      "id": "9",
+      "question": "One bar (barometric pressure unit) is equal to:",
+      "question_type": "MCQ",
+      "options": [
+        "14.5 psi",
+        "28.82 in Hg",
+        "9.92 lb/sq in",
+        "1013.25 hPa m−2"
+      ],
+      "solution": "14.5 psi"
+    },
+    {
+      "id": "10",
+      "question": "Braking action on contaminated runways is given by:",
+      "question_type": "MCQ",
+      "options": [
+        "a simple code (1-5) or a description (excellent - bad)",
+        "a simple code (0.25-0.4) or a description (good - bad)",
+        "a simple code (1-5), a description (good - poor) or the measured coefficient of braking effect (<0.25->0.40)",
+        "the coefficient of braking action related to a simple code where 1 is poor and 5 is good, supplemented by a description of the braking effect and an aquaplaning warning"
+      ],
+      "solution": "a simple code (1-5), a description (good - poor) or the measured coefficient of braking effect (<0.25->0.40)"
+    },
+    {
+      "id": "11",
+      "question": "Apart from aquaplaning and reduced braking efficiency, what other hazards are associated with heavy rain contamination of runways?",
+      "question_type": "MCQ",
+      "options": [
+        "Wet aeroplanes do not perform as well as dry ones",
+        "The efficiency of jet engines is reduced by the ingress of water diluting the fuel",
+        "The refraction of light from landing lights causes visual impairment",
+        "Water ingress into engines can cause flame-out"
+      ],
+      "solution": "Water ingress into engines can cause flame-out"
+    },
+    {
+      "id": "12",
+      "question": "In a SNOWTAM information is given concerning friction measurements (braking coefficient × 100) in which field of the message?",
+      "question_type": "MCQ",
+      "options": [
+        "F",
+        "G",
+        "H",
+        "N"
+      ],
+      "solution": "H"
+    }
+  ]
+}
+
+

@@ -1,0 +1,71 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "16",
+  "chapter_title": "Scale",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Give the scale, as a representative fraction, of the following charts:-",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. One centimetre represents five kilometres", "solution": "1:500 000" },
+        { "subQuestionText": "b. one centimetre represents 5.4 nautical miles", "solution": "1:1 000 000" },
+        { "subQuestionText": "c. one inch represents 15.4 kilometres", "solution": "1:600 000 (approx)" },
+        { "subQuestionText": "d. 3.5 inches represents 70 kilometres", "solution": "1:788 000" },
+        { "subQuestionText": "e. five inches represents eight nautical miles", "solution": "1:116 740" }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "The representative fraction of a chart is given as 1:500000 (Half Mil Chart)",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. how many (1) centimetres and (2) inches would represent 30 kilometres on the ground?", "solution": "(1) 6 centimetres; (2) 2.36 inches" },
+        { "subQuestionText": "b. how many (1) inches and (2) centimetres would represent 30 nautical miles on the ground?", "solution": "(1) 4.38 inches; (2) 11.12 centimetres" }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "The representative fraction of a chart is given as 1:1000000",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. What is the chart length of a line representing an Earth distance of 50 kilometres on this chart? give your answer in both centimetres and inches", "solution": "5 cm = 1.97 in" },
+        { "subQuestionText": "b. is this scale larger or smaller than the one used in question two above?", "solution": "Smaller" }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "On a chart 5 centimetres represents 7 nautical miles",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. Give the scale of this chart as a representative fraction", "solution": "1:260 000" },
+        { "subQuestionText": "b. Determine the distance in inches on this chart which would represent the distance flown by an aircraft in 5 minutes at a groundspeed of 156 knots.", "solution": "3.65 inches" }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "On a chart 14.8 centimetres represents 20 nautical miles on the ground",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. Give the chart scale as a representative fraction", "solution": "1:250 000" },
+        { "subQuestionText": "b. Determine the length in inches on this chart which would represent the distance flown by an aircraft in 9 minutes at a ground speed of 185 Knots.", "solution": "8.1 inches" }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "On a chart, one centimetre represents 3.5 kilometres",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. Give the scale as a representative fraction", "solution": "1:350 000" },
+        { "subQuestionText": "b. What is the length in inches on the chart which would represent the distance flown in 4 minutes at a ground speed of 204 kilometres per hour?", "solution": "1.53 inches" }
+      ]
+    }
+  ]
+}
+

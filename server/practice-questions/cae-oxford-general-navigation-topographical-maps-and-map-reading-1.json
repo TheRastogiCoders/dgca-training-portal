@@ -1,0 +1,129 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "13",
+  "chapter_title": "Topographical Maps and Map Reading 1",
+  "questions": [
+    {
+      "id": "1",
+      "question": "You are flying a VFR route and have become uncertain of your position. Which is the best course of action?",
+      "question_type": "MCQ",
+      "options": [
+        "set heading towards a line feature - coastline, river or motorway",
+        "turn round and fly your flight plan tracks in reverse until you see something you recognised before",
+        "fly a series of ever-expanding circles from your present position till you find your next checkpoint",
+        "turn round and fly your flight plan in reverse back to base"
+      ],
+      "solution": "set heading towards a line feature - coastline, river or motorway"
+    },
+    {
+      "id": "2",
+      "question": "Please refer to Appendix A (Page 233). What is the symbol for an unlighted obstacle?",
+      "question_type": "MCQ",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "15"
+      ],
+      "solution": "15"
+    },
+    {
+      "id": "3",
+      "question": "Using the Jeppesen E(LO)1, position 5211N 00931W, which of the following denotes all the symbols?",
+      "question_type": "MCQ",
+      "options": [
+        "military airport, ILS, NDB",
+        "civil airport, VOR, ILS",
+        "military airport, VOR, ILS",
+        "civil airport, ILS, NDB"
+      ],
+      "solution": "civil airport, ILS, NDB"
+    },
+    {
+      "id": "4",
+      "question": "Using the Jeppesen E(LO)1 chart, what are the symbols at Galway Carnmore (5318.1N 00856.5W)?",
+      "question_type": "MCQ",
+      "options": [
+        "civil airport, NDB, DME, non-compulsory reporting point",
+        "VOR, NDB, DME, compulsory reporting point",
+        "civil airport, VOR, DME, non-compulsory reporting point",
+        "VOR, NDB, DME, non-compulsory reporting point"
+      ],
+      "solution": "VOR, NDB, DME, compulsory reporting point"
+    },
+    {
+      "id": "5",
+      "question": "Which of the following is the symbol for an exceptionally high (over 1000 feet AGL) lighted obstruction?",
+      "question_type": "MCQ",
+      "options": [
+        "6",
+        "9",
+        "10",
+        "15"
+      ],
+      "solution": "10"
+    },
+    {
+      "id": "6",
+      "question": "What symbol is used to show a VORTAC on a map/chart?",
+      "question_type": "MCQ",
+      "options": [
+        "5",
+        "7",
+        "13",
+        "14"
+      ],
+      "solution": "14"
+    },
+    {
+      "id": "7",
+      "question": "Which is the symbol for a VOR?",
+      "question_type": "MCQ",
+      "options": [
+        "4",
+        "5",
+        "13",
+        "14"
+      ],
+      "solution": "13"
+    },
+    {
+      "id": "8",
+      "question": "What does symbol 3 represent?",
+      "question_type": "MCQ",
+      "options": [
+        "lit obstacle",
+        "lighthouse",
+        "VRP",
+        "aeronautical ground light"
+      ],
+      "solution": "aeronautical ground light"
+    },
+    {
+      "id": "9",
+      "question": "An aircraft flying VFR using visual navigation crosses two parallel roads at right angles to the track. For what purpose could that information be used?",
+      "question_type": "MCQ",
+      "options": [
+        "Tracking check",
+        "Ground speed check",
+        "Heading check",
+        "Deviation check"
+      ],
+      "solution": "Ground speed check"
+    },
+    {
+      "id": "10",
+      "question": "Which of the following would be most useful as a visual checkpoint when planning a flight?",
+      "question_type": "MCQ",
+      "options": [
+        "A small copse",
+        "A large wood",
+        "A large motorway junction",
+        "A bend in a river"
+      ],
+      "solution": "A large motorway junction"
+    }
+  ]
+}
+
+

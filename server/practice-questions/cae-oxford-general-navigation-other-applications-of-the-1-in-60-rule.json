@@ -1,0 +1,76 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "12",
+  "chapter_title": "Other Applications of the 1 in 60 Rule",
+  "questions": [
+    {
+      "id": "1",
+      "question": "An aircraft is flying due South. At 1000 hrs, point P bears 267°(T) from the aircraft. At 1006 hrs, point P bears 275°(T) from the aircraft. If the aircraft has a ground speed of 120 kt, estimate the range of the aircraft from point P.",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "90 NM"
+    },
+    {
+      "id": "2",
+      "question": "You are approaching Innsbruck, Austria on a glide slope of 3.5°. What height (QFE) should you be at 2 miles range?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "700 ft"
+    },
+    {
+      "id": "3",
+      "question": "You are approaching Rota, Spain on runway 28 which has a glide slope of 2.6°. At what height should you be at 4 miles range?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "1040 ft"
+    },
+    {
+      "id": "4",
+      "question": "You are approaching Paris/Charles de Gaulle on a glide slope of 3°. At what height (QFE) should you be at a range of 2 NM?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "600 ft"
+    },
+    {
+      "id": "5",
+      "question": "Using the detail in questions 2-4, what rates of descent (ROD) are required to maintain the glide slopes in:",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. question 2 if ground speed is 120 kt", "solution": "700 ft/min" },
+        { "subQuestionText": "b. question 3 if ground speed is 180 kt", "solution": "780 ft/min" },
+        { "subQuestionText": "c. question 4 if ground speed is 150 kt.", "solution": "750 ft/min" }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "On the approach to London Heathrow runway 27, glide slope 3°, you reduce speed from 150 kt to 120 kt. What change should you make to your ROD to maintain glide slope?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "Decrease ROD by 150 ft/min"
+    },
+    {
+      "id": "7",
+      "question": "You are flying an aircraft into Gioia Del Colle, Italy, on a glide slope of 2.5°. Having had a hydraulic failure, you cannot select any flaps. You approach at 220 kt TAS and have a headwind component of 10 kt.",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. What rate of descent do you need to maintain the glide slope?", "solution": "875 ft/min" },
+        { "subQuestionText": "b. With 'mid' flaps and approach speed 190 kt TAS, what change in the ROD is required?", "solution": "Decrease ROD by 125 ft/min" },
+        { "subQuestionText": "c. What is your new ROD?", "solution": "750 ft/min" }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "You are flying an airway with a centre line QDM of 137°(M) towards VOR/DME 'A'. Your RMI reads 141°(M)/DME 90 NM.",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. Are you left or right of centre line?", "solution": "left" },
+        { "subQuestionText": "b. What is your distance off the airway centre line?", "solution": "6 NM" },
+        { "subQuestionText": "c. Are you in trouble with ATC? (Airways normally extend 5 NM either side of the centre line).", "solution": "Usually, yes." }
+      ]
+    }
+  ]
+}
+

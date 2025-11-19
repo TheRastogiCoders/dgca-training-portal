@@ -1,0 +1,82 @@
+{
+  "book_name": "ATPL Ground Training 2014",
+  "chapter_number": "2",
+  "chapter_title": "CS-OPS General Requirements",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the language requirements for crew?",
+      "question_type": "MCQ",
+      "options": [
+        "Flight Crew must be able to speak the language in common use in all countries through which they operate",
+        "Cabin crew must be able to speak English",
+        "Cabin crew must learn the language of the flight crew",
+        "Flight crew must be able to communicate with cabin crew in a common language"
+      ],
+      "solution": "Flight crew must be able to communicate with cabin crew in a common language"
+    },
+    {
+      "id": "2",
+      "question": "What must the Flight Safety Programme of all Operators include?",
+      "question_type": "MCQ",
+      "options": [
+        "Risk awareness and accident evaluation.",
+        "Instances of AUM exceedance.",
+        "Details of flight hours for Flight crew",
+        "Occasions when aeroplanes land with minimum fuel."
+      ],
+      "solution": "Risk awareness and accident evaluation."
+    },
+    {
+      "id": "3",
+      "question": "What must the Operator ensure with regard to additional crew?",
+      "question_type": "MCQ",
+      "options": [
+        "They must be allocated seats in business class",
+        "They must be type rated and current on type",
+        "They must not occupy seats by emergency exits",
+        "They must be easily distinguishable from cabin crew"
+      ],
+      "solution": "They must be easily distinguishable from cabin crew"
+    },
+    {
+      "id": "4",
+      "question": "What are the rules for aircraft to comply with ditching requirements?",
+      "question_type": "MCQ",
+      "options": [
+        "400 minutes or 120 NM from an aerodrome",
+        "400 NM or 120 minutes from an aerodrome",
+        "400 NM or 120 minutes from land",
+        "400 minutes or 120 NM from land"
+      ],
+      "solution": "400 NM or 120 minutes from land"
+    },
+    {
+      "id": "5",
+      "question": "Which of the following are not required to be carried on each flight?",
+      "question_type": "MCQ",
+      "options": [
+        "CofA",
+        "NOTAMS and AIS briefing material",
+        "European Health Insurance Card (EHIC) for all crew",
+        "Third party insurance certificate"
+      ],
+      "solution": "European Health Insurance Card (EHIC) for all crew"
+    },
+    {
+      "id": "6",
+      "question": "If EU Operator A wet leases an aeroplane from EU operator B, who is responsible for the airworthiness of the aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "A",
+        "B",
+        "Both are equally responsible",
+        "It depends on the year the aircraft was first registered."
+      ],
+      "solution": "B"
+    }
+  ]
+}
+
+
+

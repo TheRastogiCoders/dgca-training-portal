@@ -1,0 +1,58 @@
+{
+  "book_name": "ATPL Ground Training 2014",
+  "chapter_number": "8",
+  "chapter_title": "Long Range Flight and Polar Navigation",
+  "questions": [
+    {
+      "id": "1",
+      "question": "How should the accuracy of long range navigation systems be checked?",
+      "question_type": "MCQ",
+      "options": [
+        "With 2 systems, a voting system is employed",
+        "With reference to a map and compass",
+        "A voting system if 3 systems are installed, by cross-checking with DME with only 2 systems",
+        "Ask ATC"
+      ],
+      "solution": "A voting system if 3 systems are installed, by cross-checking with DME with only 2 systems"
+    },
+    {
+      "id": "2",
+      "question": "If an aircraft is unable to continue in accordance with the clearance what should they do?",
+      "question_type": "MCQ",
+      "options": [
+        "Attempt to obtain a revised clearance from ATC, via radio relay if required",
+        "Continue in accordance with the last acknowledged clearance until in sight of land",
+        "Follow the contrails of another aircraft",
+        "Land at the nearest suitable aerodrome"
+      ],
+      "solution": "Attempt to obtain a revised clearance from ATC, via radio relay if required"
+    },
+    {
+      "id": "3",
+      "question": "An aircraft on the ground at latitude 51°50'S is parked on a heading of 180° with ground power applied and all flight instruments powered. After 2 hours, what will the DGI indicate?",
+      "question_type": "MCQ",
+      "options": [
+        "156°",
+        "204°",
+        "168°",
+        "192°"
+      ],
+      "solution": "204°"
+    },
+    {
+      "id": "4",
+      "question": "What is a minimum time route?",
+      "question_type": "MCQ",
+      "options": [
+        "The shortest distance between 2 points",
+        "The great circle track between 2 points",
+        "The minimum time between 2 points taking into account wind and time zone changes",
+        "The minimum time between 2 points taking into account wind and ATC restrictions"
+      ],
+      "solution": "The minimum time between 2 points taking into account wind and ATC restrictions"
+    }
+  ]
+}
+
+
+

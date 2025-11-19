@@ -1,0 +1,151 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "25",
+  "chapter_title": "Time (2)",
+  "questions": [
+    { "id": "1", "question": "Without using the Air Almanac, convert 153°30' of arc of longitude into time.", "question_type": "MCQ", "options": ["10 hrs 24 min", "10 hrs 22 min", "10 hrs 14 min", "10 hrs 8 min"], "solution": "10 hrs 14 min" },
+    { "id": "2", "question": "The definition of Local Mean Time (LMT) is:", "question_type": "MCQ", "options": ["time based upon the average movement of the Earth around the Sun.", "when the mean Sun is transiting (crossing) your meridian, it is 1200hrs LMT.", "when the mean Sun is transiting (crossing) your anti-meridian, it is 0000hrs LMT (2400 hrs LMT, previous day).", "all of the above."], "solution": "all of the above." },
+    { "id": "3", "question": "Local Mean Time (LMT) always changes by a day when crossing:", "question_type": "MCQ", "options": ["the Greenwich Meridian", "180°E/W", "the International Date Line", "the Equator"], "solution": "180°E/W" },
+    { "id": "4", "question": "Zone Time (ZT) is used:", "question_type": "MCQ", "options": ["by aircraft on trans-oceanic routes", "as legal time in all countries", "by ships at sea", "in polar regions"], "solution": "by ships at sea" },
+    { "id": "5", "question": "A ship at longitude 83E observes sunrise at a Zone Time of 0500 ZT on Zone Date 15th May. What is the UTC?", "question_type": "MCQ", "options": ["2300 UTC 14th May", "1100 UTC 15th May", "2328 UTC 14th May", "1032 UTC 15th May"], "solution": "2300 UTC 14th May" },
+    { "id": "6", "question": "On Mid-summer Day in the Southern hemisphere, the Sun will be overhead:", "question_type": "MCQ", "options": ["66½S", "23½N", "23½S", "the Equator"], "solution": "23½S" },
+    { "id": "7", "question": "On Mid-winter Day in the Northern hemisphere, the Sun will be overhead:", "question_type": "MCQ", "options": ["66½S", "23½N", "23½S", "the Equator"], "solution": "23½S" },
+    {
+      "id": "8",
+      "question": "At position 4830N 10315E the time is 1045 LMT on the 17th May. What is the LMT and local date at 4830S 00715E?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "0421 LMT 17 May"
+    },
+    {
+      "id": "9",
+      "question": "When LMT at 4600N 00830W is 2300 on the 9th May, what is the LMT and local date at:",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. 4600N 10830W?", "solution": "1620 LMT 9 May at 108°30W" },
+        { "subQuestionText": "b. 4600N 10830E?", "solution": "0648 LMT 10 May" }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "The time is 1300 UTC on 1st April. Calculate the LMT and local date at:",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. 5430N 00715E", "solution": "1329 LMT 1 April at 07°15'E" },
+        { "subQuestionText": "b. 1627S 10743W", "solution": "0549 LMT 1 April at 107°43'W" },
+        { "subQuestionText": "c. 1846N 16835E", "solution": "0014 LMT 2 April at 168°35'E" }
+      ]
+    },
+    {
+      "id": "11",
+      "question": "At 3000N 4630E the time is 0300 LMT. What is the time at 6000N 01615W in:",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. UTC?", "solution": "2354 UTC previous day" },
+        { "subQuestionText": "b. LMT?", "solution": "2249 LMT previous day" }
+      ]
+    },
+    {
+      "id": "12",
+      "question": "At 1400 UTC on 6th November what is the Standard Time at the following locations:",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        { "subQuestionText": "a. Iraq", "solution": "1700 ST 6 Nov" },
+        { "subQuestionText": "b. Libya", "solution": "1500 ST 6 Nov" },
+        { "subQuestionText": "c. Tonga", "solution": "0300 ST 7 Nov" },
+        { "subQuestionText": "d. Canada, Labrador", "solution": "1000 ST 6 Nov" },
+        { "subQuestionText": "e. New York", "solution": "0900 ST 6 Nov" },
+        { "subQuestionText": "f. Ghana", "solution": "1400 ST 6 Nov" }
+      ]
+    },
+    {
+      "id": "13",
+      "question": "In position 4830N 6357W the LMT is 1430 on the 10th February. What is the Standard Time in Hong Kong (2220N 11407E)?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "0246 ST 11 Feb in Hong Kong"
+    },
+    {
+      "id": "14",
+      "question": "An aircraft is to fly from Wellington, New Zealand (4110S 17454E) to Samoa (1350S 17145W). The estimated flight time is 6 hours 15 minutes. Give the Standard Time and date of departure from Wellington if the ETA for Samoa is 2350 LMT on the 8th September.",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "1702 ST 9 Sep"
+    },
+    {
+      "id": "15",
+      "question": "Determine the LMT in WELLINGTON, NEW ZEALAND (17446E) at 0730 UTC.",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "1909 LMT Wellington"
+    },
+    {
+      "id": "16",
+      "question": "LMT in BOSTON, MASSACHUSETTS, USA (07108W) is 1200. What is the UTC?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "1645 UTC"
+    },
+    {
+      "id": "17",
+      "question": "Determine the LMT in HONOLULU, HAWAII, USA (15752W) and the Standard Time in SYDNEY, NEW SOUTH WALES, AUSTRALIA (15113E) for 1335 UTC.",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "LMT Hawaii 0304, ST New South Wales 2335"
+    },
+    {
+      "id": "18",
+      "question": "An aircraft leaves BRISBANE, QUEENSLAND, AUSTRALIA (15302E) at 2200 UTC on 4th May and lands in MANILA, PHILIPPINE REPUBLIC (12058E) some 6 hours and 45 minutes later. What is the LMT and Standard Time of landing?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "1249 LMT 5 May, 1245 ST"
+    },
+    {
+      "id": "19",
+      "question": "By how much is LMT, BANGKOK, THAILAND (10100E) later than LMT, SAN FRANCISCO, CALIFORNIA, USA (12225W)?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "1454 Bangkok later than San Francisco"
+    },
+    {
+      "id": "20",
+      "question": "An aircraft left NEW YORK, USA (07500W) on a 5 hour 25 minute scheduled flight to VANCOUVER, BRITISH COLUMBIA, CANADA (12320W). If the ATD was 0915 NEW YORK Summer Time, what will be the ETA (Standard Time) VANCOUVER?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "1040 ST"
+    },
+    {
+      "id": "21",
+      "question": "Inclusive of flying and refuelling time, the scheduled time from ROME, ITALY (01230E) to HONG KONG (11400E) is 21 hours 40 minutes. If the flight must land at HONG KONG at 1835 Standard Time, at what Standard Time must the flight leave ROME to arrive on schedule?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "1355 ST"
+    },
+    {
+      "id": "22",
+      "question": "The flight time between SYDNEY, NEW SOUTH WALES, AUSTRALIA and HONOLULU, HAWAII (15752W) is 9 hours 50 minutes. If an aircraft leaves SYDNEY at 0930 Standard Time on the 8th May, what is the LMT and local date of arrival?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "2249 LMT 7 May"
+    },
+    {
+      "id": "23",
+      "question": "An aircraft leaves HONOLULU, HAWAII at 2300 Standard Time on the 10th May. If the flight time to SYDNEY, NEW SOUTH WALES, AUSTRALIA is 10 hours 20 minutes, what is the Standard Time of arrival at SYDNEY?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "0520 ST 12 May"
+    },
+    {
+      "id": "24",
+      "question": "A flight from NEW YORK, USA (07345W) to MADRID, SPAIN (00333W) is planned to leave at 2000 Standard Time on 16th February. If the flight time is 7 hours 45 minutes, give the Standard Time and local date of arrival at MADRID.",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "0945 ST Madrid 17 Feb"
+    }
+  ]
+}
+

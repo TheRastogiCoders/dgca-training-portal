@@ -1,0 +1,106 @@
+{
+  "book_name": "ATPL Ground Training 2014",
+  "chapter_number": "5",
+  "chapter_title": "All Weather Operations",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the speed range for a category C aeroplane?",
+      "question_type": "MCQ",
+      "options": [
+        "Up to 90 kt",
+        "91-120 kt",
+        "121-140 kt",
+        "141-165 kt"
+      ],
+      "solution": "121-140 kt"
+    },
+    {
+      "id": "2",
+      "question": "What constitutes Low Vis Procedures?",
+      "question_type": "MCQ",
+      "options": [
+        "RVR less than 400 m",
+        "Precision approaches",
+        "Low Vis Take-off and Cat II/III approaches",
+        "Low Vis Take-off and precision approaches"
+      ],
+      "solution": "Low Vis Take-off and Cat II/III approaches"
+    },
+    {
+      "id": "3",
+      "question": "What is the minimum RVR for a Cat D aircraft taking off from an aerodrome with full facilities and multiple RVR information?",
+      "question_type": "MCQ",
+      "options": [
+        "200 m",
+        "150 m",
+        "125 m",
+        "400 m"
+      ],
+      "solution": "200 m"
+    },
+    {
+      "id": "4",
+      "question": "What is the system minima for an SRA approach terminating at 2 miles?",
+      "question_type": "MCQ",
+      "options": [
+        "250 ft",
+        "300 ft",
+        "350 ft",
+        "400 ft"
+      ],
+      "solution": "350 ft"
+    },
+    {
+      "id": "5",
+      "question": "Unless otherwise cleared, what is the minimum RVR for a non-precision approach?",
+      "question_type": "MCQ",
+      "options": [
+        "700 m",
+        "750 m",
+        "800 m",
+        "850 m"
+      ],
+      "solution": "750 m"
+    },
+    {
+      "id": "6",
+      "question": "What is the system minima for a Cat I approach manually flown by a single pilot?",
+      "question_type": "MCQ",
+      "options": [
+        "200 ft/550 m",
+        "200 ft/800 m",
+        "100 ft/350 m",
+        "100 ft/550 m"
+      ],
+      "solution": "200 ft/800 m"
+    },
+    {
+      "id": "7",
+      "question": "What is the minimum met vis for a cat B aircraft on a circling approach where the aerodrome stipulates a minimum circling height of 900 ft?",
+      "question_type": "MCQ",
+      "options": [
+        "1500 m",
+        "1600 m",
+        "2400 m",
+        "3600 m"
+      ],
+      "solution": "1600 m"
+    },
+    {
+      "id": "8",
+      "question": "For VFR flight (in a cat C aircraft) what is the minimum horizontal visibility below 10000 ft?",
+      "question_type": "MCQ",
+      "options": [
+        "8 km",
+        "5 km",
+        "1500 m",
+        "300 m"
+      ],
+      "solution": "5 km"
+    }
+  ]
+}
+
+
+

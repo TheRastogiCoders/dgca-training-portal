@@ -1,0 +1,177 @@
+{
+  "book_name": "ATPL Ground Training 2014",
+  "chapter_number": "16",
+  "chapter_title": "Emergency and Precautionary Landings",
+  "questions": [
+    {
+      "id": "1",
+      "question": "An emergency landing or ditching is defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "a procedure that is not a normal landing where the intent is to attempt to preserve the integrity of the airframe to permit orderly and controlled evacuation of passengers from the aeroplane.",
+        "any landing where the pilot does not have full control of the aeroplane.",
+        "any landing where the structural integrity of the aeroplane has been seriously affected.",
+        "a landing for which ATC permission has not been previously obtained."
+      ],
+      "solution": "a procedure that is not a normal landing where the intent is to attempt to preserve the integrity of the airframe to permit orderly and controlled evacuation of passengers from the aeroplane."
+    },
+    {
+      "id": "2",
+      "question": "The aim of a ditching procedure is:",
+      "question_type": "MCQ",
+      "options": [
+        "to enable the pilot to land the aeroplane on water rather than a crash landing on land.",
+        "to land on water if the undercarriage is not able to be lowered correctly.",
+        "to land the aeroplane on water if it is not possible to reach land.",
+        "to land the aeroplane on water if it is on fire."
+      ],
+      "solution": "to land the aeroplane on water if it is not possible to reach land."
+    },
+    {
+      "id": "3",
+      "question": "A precautionary landing is a procedure that:",
+      "question_type": "MCQ",
+      "options": [
+        "enables the aeroplane to land at the destination with unserviceabilities that prevent a normal instrument approach being carried out.",
+        "enables a landing after the declaration of a state of emergency or urgency.",
+        "enables a landing if it is suspected that the undercarriage is not properly lowered.",
+        "is carried out in the event of landing at an alternate aerodrome."
+      ],
+      "solution": "enables a landing after the declaration of a state of emergency or urgency."
+    },
+    {
+      "id": "4",
+      "question": "What is the purpose of the passenger briefing given in the event of a precautionary landing being necessary?",
+      "question_type": "MCQ",
+      "options": [
+        "To find out if there are any other pilots on board who may have experienced the situation and can help.",
+        "To prepare the passengers for the worst outcome.",
+        "To stop the passengers pestering the cabin staff so that they can get on with their preparations for crash-landing or ditching.",
+        "By involving the passengers and sharing information, fear may be overcome and greater survivability achieved."
+      ],
+      "solution": "By involving the passengers and sharing information, fear may be overcome and greater survivability achieved."
+    },
+    {
+      "id": "5",
+      "question": "In the event of a successful crash landing or ditching, rapid and controlled evacuation from the aeroplane is essential. In order to achieve this:",
+      "question_type": "MCQ",
+      "options": [
+        "all doors and windows should be opened as soon as the aeroplane comes to rest.",
+        "the use of slides/chutes is preferred.",
+        "women and children should be evacuated first.",
+        "the cabin staff have to impress their authority and frequently carry out drills and practices."
+      ],
+      "solution": "the cabin staff have to impress their authority and frequently carry out drills and practices."
+    },
+    {
+      "id": "6",
+      "question": "One way in which passengers can be reassured during an emergency is:",
+      "question_type": "MCQ",
+      "options": [
+        "to regularly see members of the flight crew calmly moving about the cabin in a relaxed manner.",
+        "for the captain or first officer to keep a running commentary going over the PA.",
+        "for the cabin staff to ensure that the passengers are aware of what is happening and that they are complying with instructions.",
+        "for the cabin staff to direct the passengers' attention to the emergency passenger brief cards and make sure that they have read them."
+      ],
+      "solution": "for the cabin staff to ensure that the passengers are aware of what is happening and that they are complying with instructions."
+    },
+    {
+      "id": "7",
+      "question": "Briefing the passengers about the emergency prior to the crash landing/ditching must include:",
+      "question_type": "MCQ",
+      "options": [
+        "comprehensive brief concerning evacuation.",
+        "how to tackle any fires that may result, including the use of extinguishers.",
+        "a short brief concerning survival in the environment to be encountered.",
+        "deputizing passengers to take over from the crew if they are all killed."
+      ],
+      "solution": "comprehensive brief concerning evacuation."
+    },
+    {
+      "id": "8",
+      "question": "If a ditching is inevitable:",
+      "question_type": "MCQ",
+      "options": [
+        "non-swimmers are to be evacuated first.",
+        "life jackets are to be inflated before leaving the aeroplane.",
+        "the use of life jackets is to be reiterated before the ditching.",
+        "passengers should be briefed that even if they successfully evacuate the aeroplane it is inevitable that some of them will die from drowning."
+      ],
+      "solution": "the use of life jackets is to be reiterated before the ditching."
+    },
+    {
+      "id": "9",
+      "question": "Where are details of drills and crew training requirements for evacuation of an aeroplane in an emergency published?",
+      "question_type": "MCQ",
+      "options": [
+        "In the Training Manual (Part B section 11 - Emergency Procedures).",
+        "In the Aeroplane Manual.",
+        "In the aircrew training notes.",
+        "In the Operations Manual (Part B section 11 Emergency Evacuation Procedures)."
+      ],
+      "solution": "In the Operations Manual (Part B section 11 Emergency Evacuation Procedures)."
+    },
+    {
+      "id": "10",
+      "question": "If the captain elects to ditch the aeroplane, it is recommended to:",
+      "question_type": "MCQ",
+      "options": [
+        "land along the swell.",
+        "land into the swell but downwind.",
+        "land into the swell but into wind.",
+        "land into wind regardless of the swell direction if the wind speed is over 20 kt."
+      ],
+      "solution": "land along the swell."
+    },
+    {
+      "id": "11",
+      "question": "The method of alighting the aeroplane on water during a ditching is to:",
+      "question_type": "MCQ",
+      "options": [
+        "carry out a normal approach with flaps and gear selected as normal but to calculate all speeds plus 10 kt.",
+        "reduce the approach angle to 1.5° (150 ft per mile), add 15 kt to all speeds, keep the aeroplane clean (no flaps or gear) and fly it onto the surface.",
+        "fly a normal approach but keep the gear up and land at the lowest possible speed with the nose raised for the tail to strike first.",
+        "fly a normal approach to stalling speed and then drop the aeroplane vertically onto the water."
+      ],
+      "solution": "fly a normal approach but keep the gear up and land at the lowest possible speed with the nose raised for the tail to strike first."
+    },
+    {
+      "id": "12",
+      "question": "During a ditching passenger injuries can be limited by:",
+      "question_type": "MCQ",
+      "options": [
+        "ensuring that all seat belts are fastened as tightly as possible and passengers brace themselves against the seat in front.",
+        "ensuring that seat belts are fastened and passengers adopt a braced position with heads as far forward with hands clasped behind the neck so as to minimize further forward movement of the body at impact, and the wearing of life jackets.",
+        "ensure that all loose objects in passenger cabin are held tightly by passengers.",
+        "illuminating the No Smoking light, ensuring seats are fully forward, internally stowed dinghies are placed by emergency exits for quick deployment."
+      ],
+      "solution": "ensuring that seat belts are fastened and passengers adopt a braced position with heads as far forward with hands clasped behind the neck so as to minimize further forward movement of the body at impact, and the wearing of life jackets."
+    },
+    {
+      "id": "13",
+      "question": "During a ditching:",
+      "question_type": "MCQ",
+      "options": [
+        "there will be one or two minor skips after the main impact.",
+        "it is inevitable that the nose will dig in and the aeroplane will immediately start to submerge.",
+        "the main effect will be rapid deceleration and the preparation in the cabin will be to counter the effects of this deceleration.",
+        "as sea state (wave height and swell height) increases, the effect of the initial high rotation will be reduced and the accompanying uncontrolled roll will disappear."
+      ],
+      "solution": "the main effect will be rapid deceleration and the preparation in the cabin will be to counter the effects of this deceleration."
+    },
+    {
+      "id": "14",
+      "question": "In the event of a precautionary landing, who is responsible for alerting the emergency services?",
+      "question_type": "MCQ",
+      "options": [
+        "ATC.",
+        "The commander.",
+        "The local constabulary.",
+        "The operations despatcher."
+      ],
+      "solution": "ATC."
+    }
+  ]
+}
+
+

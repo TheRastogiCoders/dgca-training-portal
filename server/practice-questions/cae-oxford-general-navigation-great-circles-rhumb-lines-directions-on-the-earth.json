@@ -1,0 +1,187 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "2",
+  "chapter_title": "Great Circles, Rhumb Lines & Directions on the Earth",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the change of latitude between the following positions:-",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        {
+          "subQuestionText": "a. 52°15'N to 39°35'N",
+          "solution": "12°40'S"
+        },
+        {
+          "subQuestionText": "b. 49°35'N to 60°20'S",
+          "solution": "109°55'S"
+        },
+        {
+          "subQuestionText": "c. 74°20'S to 34°30'S",
+          "solution": "39°50'N"
+        },
+        {
+          "subQuestionText": "d. 71°20'N to 86°45'N over the North Pole.",
+          "solution": "21°55'"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "What is the difference in nautical miles and in kilometres from position A (41°25'N) to position B (79°30'N)? Both are on the same meridian.",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "2285 NM is 4232 km"
+    },
+    {
+      "id": "3",
+      "question": "What is the change of longitude between the following positions:-",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        {
+          "subQuestionText": "a. 075°40'W to 125°35'W",
+          "solution": "49°55'W"
+        },
+        {
+          "subQuestionText": "b. 001°20'E to 004°20'W",
+          "solution": "05°40'W"
+        },
+        {
+          "subQuestionText": "c. 150°40'E to 179°30'E",
+          "solution": "28°50'E"
+        },
+        {
+          "subQuestionText": "d. 162°36'W to 140°42'E",
+          "solution": "56°42'W"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Give the direction and change of latitude and longitude from X to Y in each case:",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        {
+          "subQuestionText": "a. X 50°31'N 006°30'W to Y 52°00'N 008°35'W",
+          "solution": "01°29'N 002°05'W"
+        },
+        {
+          "subQuestionText": "b. X 47°32'N 002°46'W to Y 43°56'N 001°33'W",
+          "solution": "03°36'S 001°13'E"
+        },
+        {
+          "subQuestionText": "c. X 61°47'N 003°46'W to Y 62°13'N 001°36'E",
+          "solution": "00°26'N 005°22'E"
+        },
+        {
+          "subQuestionText": "d. X 31°27'S 091°47'E to Y 35°57'N 096°31'E",
+          "solution": "67°24'N 004°44'E"
+        },
+        {
+          "subQuestionText": "e. X 51°05'N 177°42'E to Y 51°06'N 167°42'W",
+          "solution": "00°01'N 014°36'E"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Give the shortest distance in nautical miles and kilometres between the following positions:",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        {
+          "subQuestionText": "a. 52°06'N 002°32'E and 53°36'N 002°32'E",
+          "solution": "90 NM 167 km"
+        },
+        {
+          "subQuestionText": "b. 04°41'S 163°36'W and 03°21'N 163°36'W",
+          "solution": "482 NM 893 km"
+        },
+        {
+          "subQuestionText": "c. 62°00'N 093°00'E and 62°00'N 087°00'W",
+          "solution": "3360 NM 6223 km"
+        },
+        {
+          "subQuestionText": "d. 00°00'N 176°00'E and 00°00'N 173°00'W",
+          "solution": "660 NM 1222 km"
+        },
+        {
+          "subQuestionText": "e. 43°57'N 071°37'W and 43°57'S 108°23'E",
+          "solution": "10800 NM 20000 km"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "An aircraft is to fly from position 72°00'N 002°30'E to position 72°00'N 177°30'W on the shortest possible route.",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        {
+          "subQuestionText": "a. Give the initial (True) track direction",
+          "solution": "360°(T)"
+        },
+        {
+          "subQuestionText": "b. Will the track direction remain the same for the whole flight?",
+          "solution": "No"
+        },
+        {
+          "subQuestionText": "c. Give a reason for the answer given in b above.",
+          "solution": "Route over the North Pole, initial track True North, then once over the Pole, True South."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "You are at position A at 54°20'N 002°30'W Given a ch.lat of 16°20'N and a ch.long of 20°30'W to B, what is the position of B?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "70°40'N 023°00'W"
+    },
+    {
+      "id": "8",
+      "question": "You are at position C at 36°47'S 179°21'E. Given a ch.lat of 46°47'N and a ch.long of 20°30'E to D, what is the position of D?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "10°00'N 160°09'W"
+    },
+    {
+      "id": "9",
+      "question": "What is the position of the Rhumb Line between 2 points relative to the Great Circle between the same points if the points are:",
+      "question_type": "Grouped Free Text",
+      "options": [],
+      "subQuestions": [
+        {
+          "subQuestionText": "a. In the Northern hemisphere?",
+          "solution": "Nearer the Equator (South of the Great Circle)"
+        },
+        {
+          "subQuestionText": "b. In the Southern hemisphere?",
+          "solution": "Nearer the Equator (North of the Great Circle)"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Any Meridian Line is a:",
+      "question_type": "MCQ",
+      "options": ["Rhumb Line", "Semi Great Circle", "Rhumb Line and a semi Great Circle"],
+      "solution": "Rhumb Line and a semi Great Circle"
+    },
+    {
+      "id": "11",
+      "question": "A Rhumb Line cuts all meridians at the same angle. This gives:",
+      "question_type": "MCQ",
+      "options": [
+        "The shortest distance between two points.",
+        "A line which could never be a Great Circle track",
+        "A line of constant direction"
+      ],
+      "solution": "A line of constant direction"
+    }
+  ]
+}
+

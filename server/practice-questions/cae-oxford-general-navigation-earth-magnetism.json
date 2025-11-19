@@ -1,0 +1,197 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "3",
+  "chapter_title": "Earth Magnetism",
+  "questions": [
+    {
+      "id": "1",
+      "question": "The sensitivity of a direct reading magnetic compass is:",
+      "question_type": "MCQ",
+      "options": [
+        "inversely proportional to the horizontal component of the Earth's magnetic field",
+        "proportional to the horizontal component of the Earth's magnetic field",
+        "inversely proportional to the vertical component of the Earth's magnetic field",
+        "inversely proportional to the vertical and horizontal components of the Earth's magnetic field"
+      ],
+      "solution": "proportional to the horizontal component of the Earth's magnetic field"
+    },
+    {
+      "id": "2",
+      "question": "What is the definition of magnetic variation?",
+      "question_type": "MCQ",
+      "options": [
+        "The angle between the direction indicated by a compass and Magnetic North",
+        "The angle between True North and Compass North",
+        "The angle between Magnetic North and True North",
+        "The angle between Magnetic Heading and Magnetic North"
+      ],
+      "solution": "The angle between Magnetic North and True North"
+    },
+    {
+      "id": "3",
+      "question": "At the magnetic equator:",
+      "question_type": "MCQ",
+      "options": ["Dip is zero", "Variation is zero", "Deviation is zero", "The isogonal is an agonic line"],
+      "solution": "Dip is zero"
+    },
+    {
+      "id": "4",
+      "question": "Which of these is a correct statement about the Earth's magnetic field?",
+      "question_type": "MCQ",
+      "options": [
+        "It acts as though there is a large blue magnetic pole in Northern Canada",
+        "The angle of dip is the angle between the vertical and the total magnetic force",
+        "It may be temporary, transient, or permanent",
+        "It has no effect on aircraft deviation"
+      ],
+      "solution": "It acts as though there is a large blue magnetic pole in Northern Canada"
+    },
+    {
+      "id": "5",
+      "question": "Where is a compass most effective?",
+      "question_type": "MCQ",
+      "options": [
+        "About midway between the Earth's magnetic poles",
+        "In the region of the magnetic South Pole",
+        "In the region of the magnetic North Pole",
+        "On the geographic equator"
+      ],
+      "solution": "About midway between the Earth's magnetic poles"
+    },
+    {
+      "id": "6",
+      "question": "The value of variation:",
+      "question_type": "MCQ",
+      "options": [
+        "is zero at the magnetic equator",
+        "has a maximum value of 180°",
+        "has a maximum value of 45°E or 45°W",
+        "cannot exceed 90°"
+      ],
+      "solution": "has a maximum value of 180°"
+    },
+    {
+      "id": "7",
+      "question": "The agonic line:",
+      "question_type": "MCQ",
+      "options": [
+        "is midway between the magnetic North and South poles",
+        "follows the geographic equator",
+        "is the shorter distance between the respective True and Magnetic North and South poles",
+        "follows separate paths out of the North polar regions, one currently running through Western Europe and the other through the USA"
+      ],
+      "solution": "follows separate paths out of the North polar regions, one currently running through Western Europe and the other through the USA"
+    },
+    {
+      "id": "8",
+      "question": "The angle between True North and Magnetic North is known as:",
+      "question_type": "MCQ",
+      "options": ["deviation", "variation", "alignment error", "dip"],
+      "solution": "variation"
+    },
+    {
+      "id": "9",
+      "question": "The value of magnetic variation on a chart changes with time. This is due to:",
+      "question_type": "MCQ",
+      "options": [
+        "Movement of the magnetic poles, causing an increase",
+        "Increase in the magnetic field, causing an increase",
+        "Reduction in the magnetic field, causing a decrease",
+        "Movement of the magnetic poles, which can cause either an increase or a decrease"
+      ],
+      "solution": "Movement of the magnetic poles, which can cause either an increase or a decrease"
+    },
+    {
+      "id": "10",
+      "question": "Isogonal lines converge as follows:",
+      "question_type": "MCQ",
+      "options": [
+        "At the North Magnetic Pole",
+        "At the North and South Magnetic and Geographical Poles",
+        "At the North and South Magnetic Poles",
+        "At the Magnetic equator"
+      ],
+      "solution": "At the North and South Magnetic and Geographical Poles"
+    },
+    {
+      "id": "11",
+      "question": "What is the maximum possible value of dip angle?",
+      "question_type": "MCQ",
+      "options": ["66°", "180°", "90°", "45°"],
+      "solution": "90°"
+    },
+    {
+      "id": "12",
+      "question": "What is the dip angle at the South Magnetic Pole?",
+      "question_type": "MCQ",
+      "options": ["0°", "90°", "180°", "64°"],
+      "solution": "90°"
+    },
+    {
+      "id": "13",
+      "question": "What is a line of equal magnetic variation?",
+      "question_type": "MCQ",
+      "options": ["An isocline", "An isogonal", "An isogriv", "An isovar"],
+      "solution": "An isogonal"
+    },
+    {
+      "id": "14",
+      "question": "If variation is West, then:",
+      "question_type": "MCQ",
+      "options": [
+        "True North is West of Magnetic North",
+        "Compass North is West of Magnetic North",
+        "True North is East of Magnetic North",
+        "Magnetic North is West of Compass North"
+      ],
+      "solution": "True North is East of Magnetic North"
+    },
+    {
+      "id": "15",
+      "question": "Fill in the blank spaces in the table below.",
+      "question_type": "Table Fill-in",
+      "options": [],
+      "table": {
+        "headers": ["°TRUE", "VARN", "°MAG", "DEVN", "°COMP"],
+        "rows": [
+          ["260", "31W", "291", "3E", "288"],
+          ["061", "10W", "071", "1E", "070"],
+          ["354", "7W", "001", "2E", "359"],
+          ["003", "17W", "020", "0", "020"],
+          ["306", "10E", "296", "1W", "297"],
+          ["036", "5E", "031", "2W", "033"],
+          ["030", "5E", "025", "2E", "023"],
+          ["359", "3W", "002", "2E", "000"],
+          ["242", "23E", "219", "2W", "221"],
+          ["312", "10W", "322", "3E", "319"],
+          ["002", "3W", "005", "1W", "006"],
+          ["260", "31W", "291", "-3", "294"],
+          ["076", "5E", "071", "+1", "070"],
+          ["358", "3W", "001", "+2", "359"],
+          ["022", "10W", "032", "3W", "035"]
+        ]
+      },
+      "solution": {
+        "headers": ["°TRUE", "VARN", "°MAG", "DEVN", "°COMP"],
+        "rows": [
+          ["260", "31W", "291", "3E", "288"],
+          ["061", "10W", "071", "1E", "070"],
+          ["354", "7W", "001", "2E", "359"],
+          ["003", "17W", "020", "0", "020"],
+          ["306", "10E", "296", "1W", "297"],
+          ["036", "5E", "031", "2W", "033"],
+          ["030", "5E", "025", "2E", "023"],
+          ["359", "3W", "002", "2E", "000"],
+          ["242", "23E", "219", "2W", "221"],
+          ["312", "10W", "322", "3E", "319"],
+          ["002", "3W", "005", "1W", "006"],
+          ["260", "31W", "291", "-3", "294"],
+          ["076", "5E", "071", "+1", "070"],
+          ["358", "3W", "001", "+2", "359"],
+          ["022", "10W", "032", "3W", "035"]
+        ]
+      }
+    }
+  ]
+}
+

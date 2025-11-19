@@ -1,0 +1,81 @@
+{
+  "book_name": "ATPL Ground Training 2014",
+  "chapter_number": "15",
+  "chapter_title": "Security",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Who is responsible for instigating training programmes, the aim of which is to minimize the opportunities for unlawful interference with flights?",
+      "question_type": "MCQ",
+      "options": [
+        "The Authority of the State of Registration",
+        "The Authority of the State of the operator",
+        "The operator",
+        "The law enforcement agency with responsibility under the law of the state of registration of the aeroplane"
+      ],
+      "solution": "The operator"
+    },
+    {
+      "id": "2",
+      "question": "Who is responsible for reporting acts of unlawful interference?",
+      "question_type": "MCQ",
+      "options": [
+        "The commander or the operator",
+        "The ATCU for the airspace in which the event occurred",
+        "Any member of the flight crew",
+        "Any person on board the aeroplane"
+      ],
+      "solution": "The commander or the operator"
+    },
+    {
+      "id": "3",
+      "question": "The operator is responsible for ensuring that a search procedure of an aeroplane is published. By what means are these procedures published?",
+      "question_type": "MCQ",
+      "options": [
+        "In the operations manual",
+        "As a checklist",
+        "As a standing order or standard operating procedure",
+        "As an enclosure to the aeroplane handbook"
+      ],
+      "solution": "As a checklist"
+    },
+    {
+      "id": "4",
+      "question": "After an act of unlawful interference a report is to be made. When and to whom?",
+      "question_type": "MCQ",
+      "options": [
+        "Within 10 days and to the Authority of the state of registry",
+        "Immediately and to the Authority of the state of the airspace in which the event occurred",
+        "Without delay, to the designated local Authority and the Authority of the state of registration",
+        "Without delay, to the designated local Authority and the Authority of the state of the operator"
+      ],
+      "solution": "Without delay, to the designated local Authority and the Authority of the state of the operator"
+    },
+    {
+      "id": "5",
+      "question": "When an unlawful interference occurs, the state over which the event occurs is required by international law to take adequate measures to protect passengers and crew. Such measures will include:",
+      "question_type": "MCQ",
+      "options": [
+        "the provision of a fully functioning ATC system and a landing clearance if required",
+        "if the aeroplane lands, it is to be disabled to prevent subsequent take-off",
+        "facilities for the armed forces of the state of registry (if not the same as the state in which the aeroplane has landed) to storm the aeroplane by force",
+        "notification to ICAO that the event has occurred"
+      ],
+      "solution": "the provision of a fully functioning ATC system and a landing clearance if required"
+    },
+    {
+      "id": "6",
+      "question": "If it is suspected that a bomb is on board an aeroplane the measures that should be taken are designed to:",
+      "question_type": "MCQ",
+      "options": [
+        "disable the device",
+        "find out what will trigger the device",
+        "prevent knowledge of the device on board getting to the passengers",
+        "locate and move the device to the 'least-risk' location and apply as much padding as possible"
+      ],
+      "solution": "locate and move the device to the 'least-risk' location and apply as much padding as possible"
+    }
+  ]
+}
+
+

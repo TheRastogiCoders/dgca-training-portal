@@ -1,0 +1,81 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "27",
+  "chapter_title": "Gridded Charts",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A North Polar Stereographic chart is overprinted with a false grid aligned with the prime meridian. At position 80°N 135°E the grid track is 235°. What will the true track be?",
+      "question_type": "MCQ",
+      "options": [
+        "010°",
+        "100°",
+        "190°",
+        "280°"
+      ],
+      "solution": "010°"
+    },
+    {
+      "id": "2",
+      "question": "A South Polar Stereographic chart is overprinted with a false grid aligned with the prime meridian. At position 87°S 123°W the true track of an aircraft is 179°. What will the grid track be?",
+      "question_type": "MCQ",
+      "options": [
+        "056°",
+        "123°",
+        "237°",
+        "302°"
+      ],
+      "solution": "056°"
+    },
+    {
+      "id": "3",
+      "question": "A South Polar Stereographic chart is overprinted with a false grid aligned with the anti-meridian of the prime meridian. At 78°S 101°E with a grid track of 180° the true track will be:",
+      "question_type": "MCQ",
+      "options": [
+        "079°",
+        "101°",
+        "259°",
+        "281°"
+      ],
+      "solution": "259°"
+    },
+    {
+      "id": "4",
+      "question": "A North Polar Stereographic chart is overprinted with a false grid. At 77°N 37°W the grid track is 175° and the true track is 093°. At which longitude is the false grid aligned?",
+      "question_type": "MCQ",
+      "options": [
+        "045°W",
+        "045°E",
+        "082°E",
+        "119°W"
+      ],
+      "solution": "045°E"
+    },
+    {
+      "id": "5",
+      "question": "Using the data in the diagram, the false grid datum is........ and we are in the....... hemisphere.",
+      "question_type": "MCQ",
+      "options": [
+        "180°E/W, Northern",
+        "180°E/W, Southern",
+        "000°E/W, Northern",
+        "000°E/W, Southern"
+      ],
+      "solution": "000°E/W, Southern"
+    },
+    {
+      "id": "6",
+      "question": "A Southern Lambert's conformal conic chart is overprinted with a false grid aligned with the 180°W meridian. The constant of the cone is 0.843. If the true track at 145°E is 333°, what will the grid track be?",
+      "question_type": "MCQ",
+      "options": [
+        "002.5°",
+        "029.5°",
+        "303.5°",
+        "360°"
+      ],
+      "solution": "303.5°"
+    }
+  ]
+}
+
+

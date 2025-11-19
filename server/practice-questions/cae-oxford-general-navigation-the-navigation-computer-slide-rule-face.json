@@ -1,0 +1,65 @@
+{
+  "book_name": "CAE ATPL 10. General Navigation",
+  "chapter_number": "4",
+  "chapter_title": "The Navigation Computer - Slide Rule Face",
+  "questions": [
+    { "id": "1", "question": "9×8=", "question_type": "Free Text", "options": [], "solution": "72.0" },
+    { "id": "2", "question": "11×30=", "question_type": "Free Text", "options": [], "solution": "330" },
+    { "id": "3", "question": "111×12=", "question_type": "Free Text", "options": [], "solution": "1332" },
+    { "id": "4", "question": "202×2.1=", "question_type": "Free Text", "options": [], "solution": "424.2" },
+    { "id": "5", "question": "315×0.3=", "question_type": "Free Text", "options": [], "solution": "94.5" },
+    { "id": "6", "question": "275×45=", "question_type": "Free Text", "options": [], "solution": "12375" },
+    { "id": "7", "question": "121.5×14=", "question_type": "Free Text", "options": [], "solution": "1700" },
+    { "id": "8", "question": "12×12×12=", "question_type": "Free Text", "options": [], "solution": "1728" },
+    { "id": "9", "question": "237×7×0.5=", "question_type": "Free Text", "options": [], "solution": "830" },
+    { "id": "10", "question": "12×15×13=", "question_type": "Free Text", "options": [], "solution": "2340" },
+    { "id": "11", "question": "35÷7=", "question_type": "Free Text", "options": [], "solution": "5.00" },
+    { "id": "12", "question": "210÷7=", "question_type": "Free Text", "options": [], "solution": "30.0" },
+    { "id": "13", "question": "32÷8=", "question_type": "Free Text", "options": [], "solution": "4.00" },
+    { "id": "14", "question": "325÷5=", "question_type": "Free Text", "options": [], "solution": "65.0" },
+    { "id": "15", "question": "39÷60=", "question_type": "Free Text", "options": [], "solution": "0.65" },
+    { "id": "16", "question": "275÷45=", "question_type": "Free Text", "options": [], "solution": "6.11" },
+    { "id": "17", "question": "2705÷4.5=", "question_type": "Free Text", "options": [], "solution": "601.1" },
+    { "id": "18", "question": "72,960÷12=", "question_type": "Free Text", "options": [], "solution": "6080" },
+    { "id": "19", "question": "755÷0.8=", "question_type": "Free Text", "options": [], "solution": "944" },
+    { "id": "20", "question": "20.2÷22=", "question_type": "Free Text", "options": [], "solution": "0.917" },
+    {
+      "id": "21",
+      "question": "In the Ruritanian currency, there are 73 skroats to a blat. Fill in the following table:",
+      "question_type": "Table Fill-in",
+      "options": [],
+      "table": {
+        "headers": ["Skroats", "73"],
+        "rows": [
+          ["Blats", "1"],
+          ["Blats", "2"],
+          ["Blats", "5"],
+          ["Blats", "7"],
+          ["Blats", "13"],
+          ["Blats", "17"]
+        ]
+      },
+      "solution": {
+        "headers": ["Skroats", "73", "146", "365", "511", "949", "1241"],
+        "rows": [
+          ["Blats", "1", "2", "5", "7", "13", "17"]
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "question": "Your rate of descent is 270 metres per minute. How many minutes to descend through 2100 metres?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "7.8 minutes"
+    },
+    {
+      "id": "23",
+      "question": "How far do you descend in 7 minutes?",
+      "question_type": "Free Text",
+      "options": [],
+      "solution": "1890 metres"
+    }
+  ]
+}
+

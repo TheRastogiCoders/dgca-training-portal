@@ -340,6 +340,82 @@ const airNavigationOxfordBooks = [
     ]
   },
   {
+    id: 4,
+    title: "General Nav",
+    description: "CPL/ATPL Ground Training Series",
+    icon: "🧭",
+    color: "from-slate-600 to-blue-600",
+    slug: "cae-oxford-general-navigation",
+    totalQuestions: 0,
+    difficulty: "Medium",
+    chapters: [
+      // Mark chapters with connected practice sets as having questions (>0)
+      { id: 1, name: "Direction, Latitude and Longitude", questions: 50, difficulty: "Medium", pageStart: 1, pageEnd: 20 },
+      { id: 2, name: "Great Circles, Rhumb Lines & Directions on the Earth", questions: 60, difficulty: "Medium", pageStart: 21, pageEnd: 42 },
+      { id: 3, name: "Earth Magnetism", questions: 40, difficulty: "Medium", pageStart: 43, pageEnd: 66 },
+      { id: 4, name: "The Navigation Computer - Slide Rule Face", questions: 40, difficulty: "Medium", pageStart: 67, pageEnd: 82 },
+      { id: 5, name: "The Navigation Computer - Distance, Speed, Time and Conversions", questions: 40, difficulty: "Medium", pageStart: 83, pageEnd: 102 },
+      { id: 6, name: "The Navigation Computer - TAS and Altitude Conversions", questions: 40, difficulty: "Medium", pageStart: 103, pageEnd: 122 },
+      { id: 7, name: "The Navigation Computer - Triangle of Velocities", questions: 40, difficulty: "Medium", pageStart: 123, pageEnd: 136 },
+      { id: 8, name: "The Navigation Computer - Calculation of Heading and Wind Finding", questions: 40, difficulty: "Medium", pageStart: 137, pageEnd: 166 },
+      { id: 9, name: "The Navigation Computer - Multi-drift Winds and Wind Components", questions: 40, difficulty: "Medium", pageStart: 167, pageEnd: 186 },
+      { id: 10, name: "The 1 in 60 Rule", questions: 20, difficulty: "Medium", pageStart: 187, pageEnd: 196 },
+      { id: 11, name: "Navigation Using the 1 in 60 Rule", questions: 25, difficulty: "Medium", pageStart: 197, pageEnd: 208 },
+      { id: 12, name: "Other Applications of the 1 in 60 Rule", questions: 20, difficulty: "Medium", pageStart: 209, pageEnd: 218 },
+      { id: 13, name: "Topographical Maps and Map Reading", questions: 10, difficulty: "Medium", pageStart: 219, pageEnd: 236 },
+      { id: 14, name: "Convergency and Conversion Angle", questions: 13, difficulty: "Medium", pageStart: 237, pageEnd: 258 },
+      { id: 15, name: "Departure", questions: 16, difficulty: "Medium", pageStart: 259, pageEnd: 272 },
+      { id: 16, name: "Scale", questions: 20, difficulty: "Medium", pageStart: 273, pageEnd: 280 },
+      { id: 17, name: "General Chart Properties", questions: 0, difficulty: "Medium", pageStart: 281, pageEnd: 290 },
+      { id: 18, name: "Mercator Charts - Properties", questions: 20, difficulty: "Medium", pageStart: 291, pageEnd: 306 },
+      { id: 19, name: "Mercator Charts - Scale", questions: 30, difficulty: "Medium", pageStart: 307, pageEnd: 318 },
+      { id: 20, name: "Mid Course Test", questions: 54, difficulty: "Medium", pageStart: 319, pageEnd: 332 },
+      { id: 21, name: "Lambert’s Conformal Chart - 1", questions: 0, difficulty: "Medium", pageStart: 333, pageEnd: 348 },
+      { id: 22, name: "Lambert’s Conformal Chart - 2", questions: 20, difficulty: "Medium", pageStart: 349, pageEnd: 362 },
+      { id: 23, name: "The Polar Stereographic Chart", questions: 0, difficulty: "Medium", pageStart: 363, pageEnd: 376 },
+      { id: 24, name: "Time (1)", questions: 16, difficulty: "Medium", pageStart: 377, pageEnd: 390 },
+      { id: 25, name: "Time (2)", questions: 24, difficulty: "Medium", pageStart: 391, pageEnd: 418 },
+      { id: 26, name: "Time (3)", questions: 22, difficulty: "Medium", pageStart: 419, pageEnd: 452 },
+      { id: 27, name: "Gridded Charts", questions: 6, difficulty: "Medium", pageStart: 453, pageEnd: 474 },
+      { id: 28, name: "Plotting", questions: 15, difficulty: "Medium", pageStart: 475, pageEnd: 490 },
+      { id: 29, name: "The Direct Indicating Compass", questions: 0, difficulty: "Medium", pageStart: 491, pageEnd: 498 },
+      { id: 30, name: "Aircraft Magnetism", questions: 6, difficulty: "Medium", pageStart: 499, pageEnd: 506 },
+      { id: 31, name: "General Navigation Problems", questions: 0, difficulty: "Medium", pageStart: 507, pageEnd: null }
+    ]
+  },
+  {
+    id: 5,
+    title: "Operational Procedures",
+    description: "CPL/ATPL Ground Training Series",
+    icon: "🛡️",
+    color: "from-rose-500 to-pink-600",
+    slug: "operational-procedures",
+    totalQuestions: 255,
+    difficulty: "Medium",
+    chapters: [
+      { id: 1, name: "ICAO Annex 6", questions: 6, difficulty: "Medium", pageStart: 1, pageEnd: 6 },
+      { id: 2, name: "CS-OPS General Requirements", questions: 6, difficulty: "Medium", pageStart: 7, pageEnd: 18 },
+      { id: 3, name: "Operator Supervision and Certification", questions: 6, difficulty: "Medium", pageStart: 19, pageEnd: 26 },
+      { id: 4, name: "Operational Procedures", questions: 6, difficulty: "Medium", pageStart: 27, pageEnd: 44 },
+      { id: 5, name: "All Weather Operations", questions: 8, difficulty: "Medium", pageStart: 45, pageEnd: 64 },
+      { id: 6, name: "Aeroplane Equipment and Instruments", questions: 7, difficulty: "Medium", pageStart: 65, pageEnd: 82 },
+      { id: 7, name: "Crew, Logs and Records", questions: 6, difficulty: "Medium", pageStart: 83, pageEnd: 98 },
+      { id: 8, name: "Long Range Flight and Polar Navigation", questions: 4, difficulty: "Medium", pageStart: 99, pageEnd: 104 },
+      { id: 9, name: "MNPSA", questions: 7, difficulty: "Medium", pageStart: 105, pageEnd: 124 },
+      { id: 10, name: "Special Operational Procedures and Hazards", questions: 6, difficulty: "Medium", pageStart: 125, pageEnd: 138 },
+      { id: 11, name: "Fire and Smoke", questions: 10, difficulty: "Medium", pageStart: 139, pageEnd: 150 },
+      { id: 12, name: "Pressurisation Failure", questions: 6, difficulty: "Medium", pageStart: 151, pageEnd: 158 },
+      { id: 13, name: "Windshear and Microburst", questions: 10, difficulty: "Medium", pageStart: 159, pageEnd: 166 },
+      { id: 14, name: "Wake Turbulence", questions: 18, difficulty: "Medium", pageStart: 167, pageEnd: 174 },
+      { id: 15, name: "Security", questions: 6, difficulty: "Medium", pageStart: 175, pageEnd: 182 },
+      { id: 16, name: "Emergency and Precautionary Landings", questions: 14, difficulty: "Medium", pageStart: 183, pageEnd: 192 },
+      { id: 17, name: "Fuel Jettison", questions: 8, difficulty: "Medium", pageStart: 193, pageEnd: 198 },
+      { id: 18, name: "Transport of Dangerous Goods by Air", questions: 12, difficulty: "Medium", pageStart: 199, pageEnd: 208 },
+      { id: 19, name: "Contaminated Runways", questions: 12, difficulty: "Medium", pageStart: 209, pageEnd: null },
+      { id: 20, name: "Revision Questions", questions: 97, difficulty: "Medium", pageStart: 0, pageEnd: 0 }
+    ]
+  },
+  {
     id: 2,
     title: "Flight Planning & Monitoring",
     description: "CPL/ATPL Ground Training Series",
@@ -549,7 +625,7 @@ const radioTelephonyOxfordBooks = [
     icon: "📻",
     color: "from-cyan-500 to-blue-600",
     slug: "cae-oxford",
-    totalQuestions: 229,
+    totalQuestions: 289,
     difficulty: "Medium",
     chapters: [
       { id: 1, name: "Properties of Radio Waves", questions: 22, difficulty: "Medium" },
@@ -569,7 +645,8 @@ const radioTelephonyOxfordBooks = [
       { id: 15, name: "Distance Measuring Equipment (DME)", questions: 19, difficulty: "Medium" },
       { id: 16, name: "Area Navigation Systems (RNAV)", questions: 15, difficulty: "Medium" },
       { id: 17, name: "Electronic Flight Information System (EFIS)", questions: 9, difficulty: "Medium" },
-      { id: 18, name: "Global Navigation Satellite System (GNSS)", questions: 26, difficulty: "Medium" }
+      { id: 18, name: "Global Navigation Satellite System (GNSS)", questions: 26, difficulty: "Medium" },
+      { id: 19, name: "Communications", questions: 60, difficulty: "Medium" }
     ]
   }
 ];
@@ -1101,6 +1178,18 @@ const radioTelephonyOxfordBooks = [
                                 </svg>
                                 {chapter.questions ? `${chapter.questions} questions` : 'Chapter overview'}
                               </span>
+                        {(Number.isFinite(chapter.pageStart) || Number.isFinite(chapter.pageEnd)) && (
+                          <span className="flex items-center">
+                            <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M4 3a2 2 0 00-2 2v11.5A1.5 1.5 0 003.5 18H15a3 3 0 003-3V5a2 2 0 00-2-2H4zm0 2h12v10a1 1 0 01-1 1H4V5zm3 2v2h6V7H7zm0 4v2h6v-2H7z" />
+                            </svg>
+                            {Number.isFinite(chapter.pageStart) && Number.isFinite(chapter.pageEnd)
+                              ? `Pages ${chapter.pageStart}–${chapter.pageEnd}`
+                              : Number.isFinite(chapter.pageStart)
+                              ? `Page ${chapter.pageStart}+`
+                              : `Up to page ${chapter.pageEnd}`}
+                          </span>
+                        )}
                             </div>
                           </div>
                           <span className={`px-3 py-1 rounded-full text-xs font-medium ${getDifficultyColor(chapter.difficulty)}`}>
