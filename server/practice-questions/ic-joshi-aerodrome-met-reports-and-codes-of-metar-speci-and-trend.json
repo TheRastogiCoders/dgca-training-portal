@@ -1,0 +1,597 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 24,
+  "chapter_title": "Aerodrome Met Reports and Codes of METAR, SPECI and TREND",
+  "chapter_slug": "aerodrome-met-reports-and-codes-of-metar-speci-and-trend",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "aerodrome-met-reports-q1",
+      "question_number": "Q1",
+      "question": "The METAR has been issued on day",
+      "question_type": "MCQ",
+      "options": [
+        "15th",
+        "16th",
+        "17th"
+      ],
+      "answer": "b",
+      "solution": "16th",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q2",
+      "question_number": "Q2",
+      "question": "The METAR has been issued at",
+      "question_type": "MCQ",
+      "options": [
+        "0630 IST",
+        "0230UTC",
+        "0230 IST"
+      ],
+      "answer": "b",
+      "solution": "0230UTC",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q3",
+      "question_number": "Q3",
+      "question": "The surface wind speed is",
+      "question_type": "MCQ",
+      "options": [
+        "2-6 kt",
+        "3-7 kt",
+        "4-6 kt"
+      ],
+      "answer": "b",
+      "solution": "3-7 kt",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q4",
+      "question_number": "Q4",
+      "question": "Wind direction is varying from",
+      "question_type": "MCQ",
+      "options": [
+        "290 to 050°",
+        "050 to 290°",
+        "200 to 050°"
+      ],
+      "answer": "a",
+      "solution": "290 to 050°",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q5",
+      "question_number": "Q5",
+      "question": "Visibility 1500 m is towards",
+      "question_type": "MCQ",
+      "options": [
+        "N",
+        "S",
+        "All over the airport"
+      ],
+      "answer": "b",
+      "solution": "S",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q6",
+      "question_number": "Q6",
+      "question": "Visibility towards N is",
+      "question_type": "MCQ",
+      "options": [
+        "1500m",
+        "5000 m",
+        "3000 m"
+      ],
+      "answer": "b",
+      "solution": "5000 m",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q7",
+      "question_number": "Q7",
+      "question": "Height of base of low clouds above station level is",
+      "question_type": "MCQ",
+      "options": [
+        "2000 ft",
+        "2500 ft",
+        "2500 m"
+      ],
+      "answer": "a",
+      "solution": "2000 ft",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q8",
+      "question_number": "Q8",
+      "question": "Runway Visual range is",
+      "question_type": "MCQ",
+      "options": [
+        "1500 m",
+        ">1500 m",
+        "< 1500 m"
+      ],
+      "answer": "b",
+      "solution": ">1500 m",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q9",
+      "question_number": "Q9",
+      "question": "Runway Visual range has",
+      "question_type": "MCQ",
+      "options": [
+        "Decreased",
+        "Increased",
+        "Remained same"
+      ],
+      "answer": "b",
+      "solution": "Increased",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q10",
+      "question_number": "Q10",
+      "question": "The poor visibility is due to the Present weather, which is",
+      "question_type": "MCQ",
+      "options": [
+        "Fog",
+        "Brown Dust",
+        "Mist"
+      ],
+      "answer": "c",
+      "solution": "Mist",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q11",
+      "question_number": "Q11",
+      "question": "Amount of lowest cloud is",
+      "question_type": "MCQ",
+      "options": [
+        "1-2/8",
+        "2-4/8",
+        "5-7/8"
+      ],
+      "answer": "a",
+      "solution": "1-2/8",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q12",
+      "question_number": "Q12",
+      "question": "Amount of CB cloud is",
+      "question_type": "MCQ",
+      "options": [
+        "1-2/8",
+        "2-4/8",
+        "5-7/8"
+      ],
+      "answer": "a",
+      "solution": "1-2/8",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q13",
+      "question_number": "Q13",
+      "question": "Height of base of CB is",
+      "question_type": "MCQ",
+      "options": [
+        "2500 m",
+        "3000 ft",
+        "2500 ft"
+      ],
+      "answer": "c",
+      "solution": "2500 ft",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q14",
+      "question_number": "Q14",
+      "question": "The height of topmost layer of cloud is",
+      "question_type": "MCQ",
+      "options": [
+        "3000 m",
+        "30000 m",
+        "30000 ft"
+      ],
+      "answer": "c",
+      "solution": "30000 ft",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q15",
+      "question_number": "Q15",
+      "question": "The landing forecast appended to any METAR is valid for",
+      "question_type": "MCQ",
+      "options": [
+        "1 hr",
+        "2hr",
+        "3 hr"
+      ],
+      "answer": "b",
+      "solution": "2hr",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q16",
+      "question_number": "Q16",
+      "question": "The wind in TREND from 0330 UTC is valid up to ........... UTC",
+      "question_type": "MCQ",
+      "options": [
+        "0400",
+        "0430",
+        "0415"
+      ],
+      "answer": "c",
+      "solution": "0415",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q17",
+      "question_number": "Q17",
+      "question": "Expected visibility after 0415 UTC is",
+      "question_type": "MCQ",
+      "options": [
+        "6000 m",
+        "10 km",
+        "10 km"
+      ],
+      "answer": "c",
+      "solution": "10 km",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q18",
+      "question_number": "Q18",
+      "question": "The group Q1003 in the METAR indicates",
+      "question_type": "MCQ",
+      "options": [
+        "QFE",
+        "QFF",
+        "QNH"
+      ],
+      "answer": "c",
+      "solution": "QNH",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q19",
+      "question_number": "Q19",
+      "question": "The difference between TT and TdTd is 3°C The atmosphere is",
+      "question_type": "MCQ",
+      "options": [
+        "Very Dry",
+        "Moist",
+        "Saturated"
+      ],
+      "answer": "b",
+      "solution": "Moist",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q20",
+      "question_number": "Q20",
+      "question": "Just before the METAR was issued the weather was",
+      "question_type": "MCQ",
+      "options": [
+        "Rain",
+        "Mist",
+        "Fog"
+      ],
+      "answer": "c",
+      "solution": "Fog",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q21",
+      "question_number": "Q21",
+      "question": "The range of pressure reported as Q1003 is",
+      "question_type": "MCQ",
+      "options": [
+        "1002.5 to 1003.5 hPa",
+        "1003.0 to 1003.9 hPa",
+        "1003.1 to 1003.5 hPa"
+      ],
+      "answer": "b",
+      "solution": "1003.0 to 1003.9 hPa",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q22",
+      "question_number": "Q22",
+      "question": "The range of temperature reported as 32°C is",
+      "question_type": "MCQ",
+      "options": [
+        "31.4 to 32.3°C",
+        "32.1 to 32.4°C",
+        "31.5 to 32.4°C"
+      ],
+      "answer": "c",
+      "solution": "31.5 to 32.4°C",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q23",
+      "question_number": "Q23",
+      "question": "Visibility is reported in steps of 50 m when visibility is",
+      "question_type": "MCQ",
+      "options": [
+        "800 m to 5000 m",
+        "0 to 800 m",
+        "5000 m to 10 km"
+      ],
+      "answer": "a",
+      "solution": "800 m to 5000 m",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q24",
+      "question_number": "Q24",
+      "question": "Visibility is reported in steps of 100 m when visibility is",
+      "question_type": "MCQ",
+      "options": [
+        "800 m to 5000 m",
+        "0 to 800 m",
+        "5000 m to 10 km"
+      ],
+      "answer": "b",
+      "solution": "0 to 800 m",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q25",
+      "question_number": "Q25",
+      "question": "Visibility is reported in steps of 1000 m when visibility is",
+      "question_type": "MCQ",
+      "options": [
+        "800 m to 5000 m",
+        "0 to 800 m",
+        "5000 m to 9999 m"
+      ],
+      "answer": "c",
+      "solution": "5000 m to 9999 m",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q26",
+      "question_number": "Q26",
+      "question": "Visibility is reported 9999 when visibility is",
+      "question_type": "MCQ",
+      "options": [
+        "800 m to 5000 m",
+        "9000 to 9999 m",
+        "10 km or more"
+      ],
+      "answer": "c",
+      "solution": "10 km or more",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q27",
+      "question_number": "Q27",
+      "question": "Temperature +2.5°C is reported as",
+      "question_type": "MCQ",
+      "options": [
+        "02",
+        "03",
+        "2.5°C"
+      ],
+      "answer": "b",
+      "solution": "03",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q28",
+      "question_number": "Q28",
+      "question": "Temperature -12.5°C is reported as",
+      "question_type": "MCQ",
+      "options": [
+        "-12",
+        "-13",
+        "M 12"
+      ],
+      "answer": "c",
+      "solution": "M 12",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q29",
+      "question_number": "Q29",
+      "question": "Pressure is rounded down to the nearest whole number in hectopascal",
+      "question_type": "MCQ",
+      "options": [
+        "exact value",
+        "upper value",
+        "lower value"
+      ],
+      "answer": "c",
+      "solution": "lower value",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q30",
+      "question_number": "Q30",
+      "question": "QNH 1002.6 hPa is reported as",
+      "question_type": "MCQ",
+      "options": [
+        "Q1002",
+        "Q1003",
+        "Q1002.6"
+      ],
+      "answer": "a",
+      "solution": "Q1002",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q31",
+      "question_number": "Q31",
+      "question": "QNH 29.92 inches is reported as",
+      "question_type": "MCQ",
+      "options": [
+        "Q2900",
+        "A2992",
+        "A 3000"
+      ],
+      "answer": "b",
+      "solution": "A2992",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q32",
+      "question_number": "Q32",
+      "question": "Fog is reported when visibility is",
+      "question_type": "MCQ",
+      "options": [
+        "< 1000 m",
+        "1000 m",
+        "> 1000 m"
+      ],
+      "answer": "a",
+      "solution": "< 1000 m",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q33",
+      "question_number": "Q33",
+      "question": "Mist is reported when visibility is",
+      "question_type": "MCQ",
+      "options": [
+        "1000 m to 2000m",
+        "1000 to 5000m",
+        ">1000 m"
+      ],
+      "answer": "b",
+      "solution": "1000 to 5000m",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q34",
+      "question_number": "Q34",
+      "question": "CAVOK signifies Visibility, Cloud ........... and present weather better than the prescribed values or conditions",
+      "question_type": "MCQ",
+      "options": [
+        "ceiling",
+        "base",
+        "amount"
+      ],
+      "answer": "c",
+      "solution": "amount",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q35",
+      "question_number": "Q35",
+      "question": "CAVOK is issued when visibility is",
+      "question_type": "MCQ",
+      "options": [
+        "9-10 km",
+        "10 km or more",
+        "10 km only"
+      ],
+      "answer": "b",
+      "solution": "10 km or more",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q36",
+      "question_number": "Q36",
+      "question": "CAVOK is issued when (i) Visibility 10 km or more (ii) No weather of significance. (iii) No clouds below 1500 m or below the highest minimum sector altitude, which ever is greater and no CB.",
+      "question_type": "MCQ",
+      "options": [
+        "Any one condition",
+        "Any two conditions",
+        "All the three conditions"
+      ],
+      "answer": "c",
+      "solution": "All the three conditions",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q37",
+      "question_number": "Q37",
+      "question": "SPECI is issued when (i) Change in wind direction is 60° and speed before and/ after change 10 kt (ii) Mean speed has changed by 10 kt (iii) Variation from mean speed by 10 kt and speed before and/ after change 15 kt",
+      "question_type": "MCQ",
+      "options": [
+        "Any two conditions",
+        "Any one condition",
+        "All the three conditions"
+      ],
+      "answer": "a",
+      "solution": "Any two conditions",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q38",
+      "question_number": "Q38",
+      "question": "SPECI is issued when Clouds are (i) BKN or OVC base at 30, 60, 150, 300, 450 m (ii) Cloud amount below 450 m changes: From SKC/FEW/SCT to BKN/OVC OR (iii) From BKN/OVC to SKC/FEW/SCT.",
+      "question_type": "MCQ",
+      "options": [
+        "Any one condition",
+        "Any two conditions",
+        "All the above conditions"
+      ],
+      "answer": "a",
+      "solution": "Any one condition",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q39",
+      "question_number": "Q39",
+      "question": "SPECI is issued for vertical visibility, by stations having Ceilograph, when sky is obscured",
+      "question_type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "a",
+      "solution": "True",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q40",
+      "question_number": "Q40",
+      "question": "SPECI is issued when surface temperature has increased by........... or more from the last observation.",
+      "question_type": "MCQ",
+      "options": [
+        "3°C",
+        "4°C",
+        "2°C"
+      ],
+      "answer": "c",
+      "solution": "2°C",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q41",
+      "question_number": "Q41",
+      "question": "WSRWY28 indicates that the wind shear has been reported for RW 28 in",
+      "question_type": "MCQ",
+      "options": [
+        "take off path",
+        "approach path",
+        "both take off and approach paths"
+      ],
+      "answer": "c",
+      "solution": "both take off and approach paths",
+      "explanation": ""
+    },
+    {
+      "id": "aerodrome-met-reports-q42",
+      "question_number": "Q42",
+      "question": "R26/M0150 in a METAR indicates that",
+      "question_type": "MCQ",
+      "options": [
+        "maximum RVR is 150 m",
+        "minimum RVR is 150 m",
+        "150 m is the lowest RVR instrument can measure and RVR is < 150 m"
+      ],
+      "answer": "c",
+      "solution": "150 m is the lowest RVR instrument can measure and RVR is < 150 m",
+      "explanation": ""
+    }
+  ]
+}
+

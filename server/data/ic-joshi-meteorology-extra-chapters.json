@@ -1,0 +1,2070 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapters": [
+    {
+      "chapter_number": "14",
+      "chapter_title": "AIR MASSES, FRONTS AND WD",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "question_text": "The airmass which originates at sea in high Latitudes is called",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Polar maritime", "is_correct": true },
+            { "option_text": "Tropical continental", "is_correct": false },
+            { "option_text": "Tropical maritime", "is_correct": false }
+          ],
+          "correct_option_text": "Polar maritime"
+        },
+        {
+          "question_number": "Q2",
+          "question_text": "The airmass which originates over equatorial region is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Warm and dry", "is_correct": false },
+            { "option_text": "Warm and Moist", "is_correct": false },
+            { "option_text": "Cold and dry", "is_correct": true }
+          ],
+          "correct_option_text": "Cold and dry"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "If the advancing cold front is colder than the cool air mass of the warm front, the advancing cold front undercuts and lifts both the warm and cool air masses of the warm front. This is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Warm Occlusion", "is_correct": true },
+            { "option_text": "Cold Occlusion", "is_correct": false }
+          ],
+          "correct_option_text": "Warm Occlusion"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "The airmass which originated over land area located in polar region is:",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Warm and dry", "is_correct": true },
+            { "option_text": "Warm and Moist", "is_correct": false },
+            { "option_text": "Cold and dry", "is_correct": false }
+          ],
+          "correct_option_text": "Warm and dry"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "If a warm airmass overtakes a cold air mass, it is called",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Cold Front", "is_correct": false },
+            { "option_text": "Warm Front", "is_correct": true }
+          ],
+          "correct_option_text": "Warm Front"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "At warm front",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Warm air overtakes the cold air", "is_correct": false },
+            { "option_text": "Cold air undercuts the warm air", "is_correct": false },
+            { "option_text": "Option C Text Missing in Source", "is_correct": true }
+          ],
+          "correct_option_text": "Option C Text Missing in Source"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "The conditions are always unstable at a",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Option A Text Missing in Source", "is_correct": false },
+            { "option_text": "Warm front", "is_correct": true },
+            { "option_text": "Occluded Front", "is_correct": false }
+          ],
+          "correct_option_text": "Warm front"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "Sometimes Line squall occurs about 100-300 km ahead of a",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Warm front", "is_correct": false },
+            { "option_text": "Cold front", "is_correct": false },
+            { "option_text": "Option C Text Missing in Source", "is_correct": true }
+          ],
+          "correct_option_text": "Option C Text Missing in Source"
+        },
+        {
+          "question_number": "Q9",
+          "question_text": "Precipitation occurs over a belt of 30-50 km on both side of front",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Cold front", "is_correct": false },
+            { "option_text": "Warm front", "is_correct": true }
+          ],
+          "correct_option_text": "Warm front"
+        },
+        {
+          "question_number": "Q10",
+          "question_text": "Cold front moves at ... the speed of a warm front moves",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Same", "is_correct": false },
+            { "option_text": "Double", "is_correct": false },
+            { "option_text": "Half", "is_correct": false }
+          ],
+          "correct_option_text": "Answer Missing in Source Key"
+        },
+        {
+          "question_number": "Q11",
+          "question_text": "Line Squalls occur...... of Cold front",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Ahead", "is_correct": true },
+            { "option_text": "Behind", "is_correct": false },
+            { "option_text": "At the", "is_correct": false }
+          ],
+          "correct_option_text": "Ahead"
+        },
+        {
+          "question_number": "Q12",
+          "question_text": "Fronts are associated with",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Tropical cyclone", "is_correct": false },
+            { "option_text": "Monsoon Depression", "is_correct": false },
+            { "option_text": "Extra-tropical Cyclones", "is_correct": true }
+          ],
+          "correct_option_text": "Extra-tropical Cyclones"
+        },
+        {
+          "question_number": "Q13",
+          "question_text": "CB, Roll-type clouds, SC, AC with embedded CB are associated",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Cold front", "is_correct": false },
+            { "option_text": "Warm front", "is_correct": false },
+            { "option_text": "Option C Text Missing in Source", "is_correct": true }
+          ],
+          "correct_option_text": "Option C Text Missing in Source"
+        },
+        {
+          "question_number": "Q14",
+          "question_text": "The surface of discontinuity between the Polar Ely and the temperate Wly is called",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Equatorial Front", "is_correct": false },
+            { "option_text": "Tropopause", "is_correct": true },
+            { "option_text": "Polar Front", "is_correct": false }
+          ],
+          "correct_option_text": "Tropopause"
+        },
+        {
+          "question_number": "Q15",
+          "question_text": "The air mass which originates from sea area located in lower Lat is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Warm and Dry", "is_correct": false },
+            { "option_text": "Warm and Moist", "is_correct": false },
+            { "option_text": "Cold and Moist", "is_correct": true }
+          ],
+          "correct_option_text": "Cold and Moist"
+        },
+        {
+          "question_number": "Q16",
+          "question_text": "WDs approach India as",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Cols", "is_correct": true },
+            { "option_text": "Occluded Fronts", "is_correct": false },
+            { "option_text": "Highs", "is_correct": false }
+          ],
+          "correct_option_text": "Cols"
+        },
+        {
+          "question_number": "Q17",
+          "question_text": "Maximum WDs occur in",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Summers", "is_correct": false },
+            { "option_text": "Post Monsoon", "is_correct": false },
+            { "option_text": "Winters", "is_correct": true }
+          ],
+          "correct_option_text": "Winters"
+        },
+        {
+          "question_number": "Q18",
+          "question_text": "Ahead of a warm front the surface wind",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Backs & weakens", "is_correct": true },
+            { "option_text": "Veers & strengthens", "is_correct": false },
+            { "option_text": "Backs & strengthens", "is_correct": false }
+          ],
+          "correct_option_text": "Backs & weakens"
+        },
+        {
+          "question_number": "Q19",
+          "question_text": "On approach of a Warm Front temperature",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Fall", "is_correct": false },
+            { "option_text": "Rise", "is_correct": true },
+            { "option_text": "Remain same", "is_correct": false }
+          ],
+          "correct_option_text": "Rise"
+        }
+      ]
+    },
+    {
+      "chapter_number": "12",
+      "chapter_title": "ICE ACCRETION",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "question_text": "Hoar frost occurs on airframe in clear air when the temperature of airframe is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "below the frost point", "is_correct": true },
+            { "option_text": "frost point", "is_correct": false },
+            { "option_text": "just above the frost point", "is_correct": false }
+          ],
+          "correct_option_text": "below the frost point"
+        },
+        {
+          "question_number": "Q2",
+          "question_text": "In clouds at temperatures below $0^{\\circ}$ C an aircraft may encounter icing of the type",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "only Glazed two", "is_correct": false },
+            { "option_text": "only Rime", "is_correct": false },
+            { "option_text": "intermediate between these", "is_correct": true }
+          ],
+          "correct_option_text": "intermediate between these"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "Opaque Rime ice is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Light porous", "is_correct": true },
+            { "option_text": "Solid", "is_correct": false },
+            { "option_text": "Mixture of porous and solid", "is_correct": false }
+          ],
+          "correct_option_text": "Light porous"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "Rime is formed by freezing of supercooled water droplets on airframe when aircraft is flying through clouds",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Small", "is_correct": true },
+            { "option_text": "Large", "is_correct": false },
+            { "option_text": "Medium", "is_correct": false }
+          ],
+          "correct_option_text": "Small"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "Glazed ice is formed by freezing of supercooled water droplets on airframe when aircraft is flying through clouds",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Small", "is_correct": false },
+            { "option_text": "Large", "is_correct": true },
+            { "option_text": "Medium", "is_correct": false }
+          ],
+          "correct_option_text": "Large"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "The ........... ice poses serious aviation hazard",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Rime", "is_correct": false },
+            { "option_text": "Hoar Frost", "is_correct": false },
+            { "option_text": "Glazed", "is_correct": true }
+          ],
+          "correct_option_text": "Glazed"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "Airframe icing occurs below $0^{\\circ}C$. Its probability of occurrence decreases progressively below $-20^{\\circ}C$, as at lower temperatures the proportion of super-cooled water drops in a cloud",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Increases", "is_correct": false },
+            { "option_text": "Decreases", "is_correct": true },
+            { "option_text": "Does not change", "is_correct": false }
+          ],
+          "correct_option_text": "Decreases"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "CI, CS and CC clouds consist mostly ice crystals. Icing hazard is therefore",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Maximum", "is_correct": false },
+            { "option_text": "Medium", "is_correct": false },
+            { "option_text": "Negligible", "is_correct": true }
+          ],
+          "correct_option_text": "Negligible"
+        },
+        {
+          "question_number": "Q9",
+          "question_text": "AS, NS consist of supercooled water drops and ice crystals in varying proportion icing is possible.",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Maximum", "is_correct": false },
+            { "option_text": "Moderate", "is_correct": true },
+            { "option_text": "Negligible", "is_correct": false }
+          ],
+          "correct_option_text": "Moderate"
+        },
+        {
+          "question_number": "Q10",
+          "question_text": "In AC clouds icing is possible in mountainous areas",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Light", "is_correct": false },
+            { "option_text": "Light or moderate", "is_correct": true },
+            { "option_text": "Severe", "is_correct": false }
+          ],
+          "correct_option_text": "Light or moderate"
+        },
+        {
+          "question_number": "Q11",
+          "question_text": "In TCU icing may range from light to severe type at least up to",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "$-40^{\\circ}C$ level", "is_correct": false },
+            { "option_text": "$30^{\\circ}C$ level", "is_correct": false },
+            { "option_text": "$-20^{\\circ}C$ level", "is_correct": false }
+          ],
+          "correct_option_text": "Answer Missing in Source Key"
+        },
+        {
+          "question_number": "Q12",
+          "question_text": "In CB icing may range from light to severe type up to $-20^{\\circ}C$ level. Below this $-20^{\\circ}C$ level temperature severe icing is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "not significant", "is_correct": false },
+            { "option_text": "significant", "is_correct": true },
+            { "option_text": "maximum", "is_correct": false }
+          ],
+          "correct_option_text": "significant"
+        },
+        {
+          "question_number": "Q13",
+          "question_text": "Liquid water content is an important factor in icing. As the maximum water concentration is around maximum ice formation in clouds may also be expected around that level.",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "$-25^{\\circ}$ C level", "is_correct": false },
+            { "option_text": "$-20^{\\circ}$ C level", "is_correct": false },
+            { "option_text": "$-15^{\\circ}$ C level", "is_correct": true }
+          ],
+          "correct_option_text": "$-15^{\\circ}$ C level"
+        },
+        {
+          "question_number": "Q14",
+          "question_text": "Serious icing can occur at extreme temperatures",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "$13^{\\circ}C$", "is_correct": false },
+            { "option_text": "$30^{\\circ}C$ to $-10^{\\circ}C$", "is_correct": true },
+            { "option_text": "$20^{\\circ}C$", "is_correct": false }
+          ],
+          "correct_option_text": "$30^{\\circ}C$ to $-10^{\\circ}C$"
+        },
+        {
+          "question_number": "Q15",
+          "question_text": ".................. occurs in a moist cloudless air on an aircraft surface having temp. below $0^{\\circ}C$, due to sublimation of water vapour onto feathery ice crystals.",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Rime", "is_correct": false },
+            { "option_text": "Glazed", "is_correct": false },
+            { "option_text": "Hoar Frost", "is_correct": true }
+          ],
+          "correct_option_text": "Hoar Frost"
+        },
+        {
+          "question_number": "Q16",
+          "question_text": ".................. occurs in St, Sc, Ac, Cu, Ns at temperature -10 to $-40^{\\circ}$ C and in Cb at temperature -20 to $-40^{\\circ}C$",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Rime", "is_correct": true },
+            { "option_text": "Glazed", "is_correct": false },
+            { "option_text": "Hoar Frost", "is_correct": false }
+          ],
+          "correct_option_text": "Rime"
+        },
+        {
+          "question_number": "Q17",
+          "question_text": "In clouds ................... occurs when a wide range of water drop sizes are present at temperatures between $0^{\\circ}C$ and $-40^{\\circ}C$",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Rime", "is_correct": false },
+            { "option_text": "Glazed", "is_correct": false },
+            { "option_text": "Mixture of rime and clear ice", "is_correct": true }
+          ],
+          "correct_option_text": "Mixture of rime and clear ice"
+        },
+        {
+          "question_number": "Q18",
+          "question_text": ".................. occurs in AS, NS, AC and towering CU or CB between $0^{\\circ}C$ and $-20^{\\circ}C$ in warm front below $0^{\\circ}C$, especially if the aircraft has rapidly descended from a colder region.",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Glazed", "is_correct": true },
+            { "option_text": "Rime", "is_correct": false },
+            { "option_text": "Mixture of Rime and Clear ice", "is_correct": false }
+          ],
+          "correct_option_text": "Glazed"
+        },
+        {
+          "question_number": "Q19",
+          "question_text": "When fog freezes on parked aircraft it produces",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Hoar Frost", "is_correct": false },
+            { "option_text": "Rime", "is_correct": true },
+            { "option_text": "Clear ice", "is_correct": false }
+          ],
+          "correct_option_text": "Rime"
+        },
+        {
+          "question_number": "Q20",
+          "question_text": "Icing ................. the stalling speed appreciably",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Decreases", "is_correct": false },
+            { "option_text": "Increases", "is_correct": true },
+            { "option_text": "Does not increase/decrease", "is_correct": false }
+          ],
+          "correct_option_text": "Increases"
+        }
+      ]
+    },
+    {
+      "chapter_number": "15",
+      "chapter_title": "JET STREAMS",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "question_text": "The arbitrary lower limit of jet core velocity has been assigned by WMO as",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "60 kt", "is_correct": true },
+            { "option_text": "$60~m/s$", "is_correct": false },
+            { "option_text": "$70~m/s$", "is_correct": false }
+          ],
+          "correct_option_text": "60 kt"
+        },
+        {
+          "question_number": "Q2",
+          "question_text": "Jet stream has",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "one maxima", "is_correct": false },
+            { "option_text": "one or more maxima", "is_correct": true },
+            { "option_text": "only two maxima", "is_correct": false }
+          ],
+          "correct_option_text": "one or more maxima"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "The vertical wind shear in a Jet stream is about",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "$5~m/s/km$", "is_correct": true },
+            { "option_text": "$6m/s/km$", "is_correct": false },
+            { "option_text": "$8~m/s/km$", "is_correct": false }
+          ],
+          "correct_option_text": "$5~m/s/km$"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "Compared to horizontal wind shear the vertical wind shear in a Jet stream is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "weaker", "is_correct": false },
+            { "option_text": "stronger", "is_correct": true },
+            { "option_text": "same", "is_correct": false }
+          ],
+          "correct_option_text": "stronger"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "In a jet stream, the path of the maximum speed is known as",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Core", "is_correct": false },
+            { "option_text": "Axis", "is_correct": true },
+            { "option_text": "Jet streak", "is_correct": false }
+          ],
+          "correct_option_text": "Axis"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "The wind speed along the axis of a jet stream is always",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Uniform", "is_correct": false },
+            { "option_text": "Not uniform", "is_correct": true },
+            { "option_text": "same", "is_correct": false }
+          ],
+          "correct_option_text": "Not uniform"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "Along the axis of a jet stream there are centres of high speed winds, these are called",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Jet streaks", "is_correct": true },
+            { "option_text": "Core", "is_correct": false },
+            { "option_text": "Axis", "is_correct": false }
+          ],
+          "correct_option_text": "Jet streaks"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "In a wavy jet the Jet streaks are located over or near the",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Ridge", "is_correct": true },
+            { "option_text": "Trough", "is_correct": false },
+            { "option_text": "Between Trough and Ridge", "is_correct": false }
+          ],
+          "correct_option_text": "Ridge"
+        },
+        {
+          "question_number": "Q9",
+          "question_text": "Sub-tropical Jet Stream (STJ) is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Westerly", "is_correct": true },
+            { "option_text": "Easterly", "is_correct": false },
+            { "option_text": "Southerly", "is_correct": false }
+          ],
+          "correct_option_text": "Westerly"
+        },
+        {
+          "question_number": "Q10",
+          "question_text": "The normal position of Sub-tropical Jet Stream is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "$30^{\\circ}N$", "is_correct": false },
+            { "option_text": "27° N", "is_correct": true },
+            { "option_text": "$35^{\\circ}N$", "is_correct": false }
+          ],
+          "correct_option_text": "27° N"
+        },
+        {
+          "question_number": "Q11",
+          "question_text": "The southern most position of STJ is in February is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "$22^{\\circ}N$", "is_correct": true },
+            { "option_text": "20° N", "is_correct": false },
+            { "option_text": "$18^{\\circ}N$", "is_correct": false }
+          ],
+          "correct_option_text": "$22^{\\circ}N$"
+        },
+        {
+          "question_number": "Q12",
+          "question_text": "The STJ affects India from",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Jun to Jul", "is_correct": false },
+            { "option_text": "Oct to May", "is_correct": true },
+            { "option_text": "Aug to Sep", "is_correct": false }
+          ],
+          "correct_option_text": "Oct to May"
+        },
+        {
+          "question_number": "Q13",
+          "question_text": "STJ has a layered structure. There are often two layers of max wind to the.........of jet core",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "S", "is_correct": true },
+            { "option_text": "N", "is_correct": false },
+            { "option_text": "SW", "is_correct": false }
+          ],
+          "correct_option_text": "S"
+        },
+        {
+          "question_number": "Q14",
+          "question_text": "The STJ strengthens",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Northwards", "is_correct": false },
+            { "option_text": "Upstream", "is_correct": false },
+            { "option_text": "Downstream", "is_correct": true }
+          ],
+          "correct_option_text": "Downstream"
+        },
+        {
+          "question_number": "Q15",
+          "question_text": "At and near the STJ the temperature gradient is very",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Small", "is_correct": true },
+            { "option_text": "Large", "is_correct": false },
+            { "option_text": "Moderate", "is_correct": false }
+          ],
+          "correct_option_text": "Small"
+        },
+        {
+          "question_number": "Q16",
+          "question_text": "Vertical wind shear in STJ is greater",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "above", "is_correct": true },
+            { "option_text": "below", "is_correct": false },
+            { "option_text": "along", "is_correct": false }
+          ],
+          "correct_option_text": "above"
+        },
+        {
+          "question_number": "Q17",
+          "question_text": "The TJ prevails over the Indian Peninsula from",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "May to Jun", "is_correct": false },
+            { "option_text": "Sep to Oct", "is_correct": false },
+            { "option_text": "Jun to Aug", "is_correct": true }
+          ],
+          "correct_option_text": "Jun to Aug"
+        },
+        {
+          "question_number": "Q18",
+          "question_text": "The TJ is located over the Indian Peninsula, approximately at",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "$13^{\\circ}N$", "is_correct": true },
+            { "option_text": "17° N", "is_correct": false },
+            { "option_text": "$18^{\\circ}N$", "is_correct": false }
+          ],
+          "correct_option_text": "$13^{\\circ}N$"
+        },
+        {
+          "question_number": "Q19",
+          "question_text": "The TJ is located over Indian, approximately at a height of",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "15-16 km", "is_correct": true },
+            { "option_text": "12-13 km", "is_correct": false },
+            { "option_text": "11-12 km", "is_correct": false }
+          ],
+          "correct_option_text": "15-16 km"
+        },
+        {
+          "question_number": "Q20",
+          "question_text": "The TJ is strongest in",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "July - Aug", "is_correct": true },
+            { "option_text": "Sep - Oct", "is_correct": false },
+            { "option_text": "June", "is_correct": false }
+          ],
+          "correct_option_text": "July - Aug"
+        },
+        {
+          "question_number": "Q21",
+          "question_text": "In the TJ the wind shears are much ... than the STJ",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "more", "is_correct": false },
+            { "option_text": "less", "is_correct": true },
+            { "option_text": "same", "is_correct": false }
+          ],
+          "correct_option_text": "less"
+        },
+        {
+          "question_number": "Q22",
+          "question_text": "TJ is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Westerly", "is_correct": false },
+            { "option_text": "Easterly", "is_correct": false },
+            { "option_text": "Southerly", "is_correct": true }
+          ],
+          "correct_option_text": "Southerly"
+        },
+        {
+          "question_number": "Q23",
+          "question_text": "A jet stream can be recognized by",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "High level dust", "is_correct": false },
+            { "option_text": "High Pressure", "is_correct": false },
+            { "option_text": "Streaks of CI", "is_correct": true },
+            { "option_text": "Lenticular clouds", "is_correct": false }
+          ],
+          "correct_option_text": "Streaks of CI"
+        },
+        {
+          "question_number": "Q24",
+          "question_text": "Flying at right angles to a jet stream with falling pressure you will experience",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Wind from left", "is_correct": true },
+            { "option_text": "Increasing head wind", "is_correct": false },
+            { "option_text": "Increasing tail wind", "is_correct": false },
+            { "option_text": "Wind from right", "is_correct": false }
+          ],
+          "correct_option_text": "Wind from left"
+        },
+        {
+          "question_number": "Q25",
+          "question_text": "When and where tropical jet stream occurs",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "All year along equator", "is_correct": false },
+            { "option_text": "In Middle East in summers", "is_correct": false },
+            { "option_text": "In winters over Russia", "is_correct": false },
+            { "option_text": "In summers over SE Asia and Central Africa", "is_correct": true }
+          ],
+          "correct_option_text": "In summers over SE Asia and Central Africa"
+        }
+      ]
+    },
+    {
+      "chapter_number": "17",
+      "chapter_title": "CAT AND MOUNTAIN WAVES",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "question_text": "For mountain waves to form there should be flow of air across the ridge, generally within ... of the perpendicular to the ridge.",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "$30^{\\circ}$", "is_correct": true },
+            { "option_text": "$45^{\\circ}$", "is_correct": false },
+            { "option_text": "$60^{\\circ}$", "is_correct": false }
+          ],
+          "correct_option_text": "$30^{\\circ}$"
+        },
+        {
+          "question_number": "Q2",
+          "question_text": "For mountain waves to form the wind speed for small mountains should be atleast",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "$15~m/s$", "is_correct": false },
+            { "option_text": "$10~m/s$", "is_correct": false },
+            { "option_text": "$7~m/s$", "is_correct": true }
+          ],
+          "correct_option_text": "$7~m/s$"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "For mountain waves to form the wind speed for large mountains should be atleast",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "$15~m/s$", "is_correct": true },
+            { "option_text": "$10~m/s$", "is_correct": false },
+            { "option_text": "$7~m/s$", "is_correct": false }
+          ],
+          "correct_option_text": "$15~m/s$"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "For mountain waves to form there should be ..... air below the ridge and less stable air above.",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Stable", "is_correct": true },
+            { "option_text": "Unstable", "is_correct": false },
+            { "option_text": "Indifferent", "is_correct": false }
+          ],
+          "correct_option_text": "Stable"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "The worst kind of turbulence is encountered in the vicinity of rotor clouds. (Question is: Which cloud is associated with the worst kind of turbulence?)",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Rotor Clouds", "is_correct": true },
+            { "option_text": "Lenticular Clouds", "is_correct": false },
+            { "option_text": "Cap Clouds", "is_correct": false }
+          ],
+          "correct_option_text": "Rotor Clouds"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "In Mountain waves the Rotor clouds form in",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Troughs", "is_correct": false },
+            { "option_text": "Ridges", "is_correct": true },
+            { "option_text": "Valley", "is_correct": false }
+          ],
+          "correct_option_text": "Ridges"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "Clear air turbulence is often encountered",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "At the boundary of a jet stream", "is_correct": true },
+            { "option_text": "In the wake of a passing airplane", "is_correct": false },
+            { "option_text": "In the wake of a larger airplane at take off and landing", "is_correct": false },
+            { "option_text": "All of the above", "is_correct": false }
+          ],
+          "correct_option_text": "At the boundary of a jet stream"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "Most CAT occurs on the ... of a jet stream and in the vicinity of upper level frontal zones where temperature contrasts are strong.",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Fringes", "is_correct": true },
+            { "option_text": "Within the core", "is_correct": false },
+            { "option_text": "Axis", "is_correct": false }
+          ],
+          "correct_option_text": "Fringes"
+        },
+        {
+          "question_number": "Q9",
+          "question_text": "CAT is the bumpiness experienced by aircraft at high altitudes. Over North India its maximum frequency is during :",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Oct - May", "is_correct": true },
+            { "option_text": "Jul - Aug", "is_correct": false },
+            { "option_text": "Jun - Sep", "is_correct": false }
+          ],
+          "correct_option_text": "Oct - May"
+        },
+        {
+          "question_number": "Q10",
+          "question_text": "When approaching an area where mountain waves have been reported, a pilot should expect:",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Possible presence of roll clouds and lenticular clouds", "is_correct": false },
+            { "option_text": "Intense up draughts and down draughts on the lee side of the mountains.", "is_correct": false },
+            { "option_text": "Moderate to severe turbulence as far as 20 to 30 nm from range on leeward side.", "is_correct": false },
+            { "option_text": "All of the above", "is_correct": true }
+          ],
+          "correct_option_text": "All of the above"
+        }
+      ]
+    },
+    {
+      "chapter_number": "18",
+      "chapter_title": "TROPICAL SYSTEMS",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "question_text": "Wind speed in a tropical severe cyclone is:",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "27-33 kt", "is_correct": false },
+            { "option_text": "48-63 kt", "is_correct": true },
+            { "option_text": "17-27 kt", "is_correct": false }
+          ],
+          "correct_option_text": "48-63 kt"
+        },
+        {
+          "question_number": "Q2",
+          "question_text": "Fronts are characteristic of:",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Tropical cyclone", "is_correct": false },
+            { "option_text": "Extra-tropical depressions", "is_correct": true },
+            { "option_text": "Monsoon depressions", "is_correct": false }
+          ],
+          "correct_option_text": "Extra-tropical depressions"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "In a mature tropical cyclone, the eye area is characterised by:",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "moderate winds and heavy rains", "is_correct": false },
+            { "option_text": "hurricane force winds and squalls", "is_correct": false },
+            { "option_text": "calm wind, little clouding and practically no rainfall", "is_correct": true }
+          ],
+          "correct_option_text": "calm wind, little clouding and practically no rainfall"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "Cyclonic storm cross Tamil Nadu coast in:",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Oct-Nov", "is_correct": true },
+            { "option_text": "Jul-Aug", "is_correct": false },
+            { "option_text": "Feb-May", "is_correct": false }
+          ],
+          "correct_option_text": "Oct-Nov"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "Cyclonic storms form over Indian seas during",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "SW monsoon", "is_correct": false },
+            { "option_text": "Winter Season", "is_correct": false },
+            { "option_text": "Pre-Monsoon & Post Monsoon", "is_correct": true }
+          ],
+          "correct_option_text": "Pre-Monsoon & Post Monsoon"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "TRS occurs over Indian seas in:-",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Equatorial Region", "is_correct": false },
+            { "option_text": "$5-15^{\\circ}N$", "is_correct": true },
+            { "option_text": "$0-5^{\\circ}N$", "is_correct": false }
+          ],
+          "correct_option_text": "$5-15^{\\circ}N$"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "In the Bay of Bengal during the months of Jul, August, Monsoon Depression form",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Over Head Bay", "is_correct": false },
+            { "option_text": "Central Bay", "is_correct": false },
+            { "option_text": "South Bay", "is_correct": false }
+          ],
+          "correct_option_text": "Answer Missing in Source Key"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "In a monsoon depression maximum weather occurs in",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "SE sector", "is_correct": true },
+            { "option_text": "NW sector", "is_correct": false },
+            { "option_text": "SW sector", "is_correct": false }
+          ],
+          "correct_option_text": "SE sector"
+        },
+        {
+          "question_number": "Q9",
+          "question_text": "During re-curvature maximum weather in a monsoon depression occurs in",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "SE sector", "is_correct": false },
+            { "option_text": "NW sector", "is_correct": true },
+            { "option_text": "SW sector", "is_correct": false },
+            { "option_text": "NE sector", "is_correct": false }
+          ],
+          "correct_option_text": "NW sector"
+        },
+        {
+          "question_number": "Q10",
+          "question_text": "On whatever compass course the cyclone is approached, strong winds from the port indicate that the centre lies somewhere",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Ahead", "is_correct": true },
+            { "option_text": "Behind", "is_correct": false },
+            { "option_text": "Port", "is_correct": false },
+            { "option_text": "Starboard", "is_correct": false }
+          ],
+          "correct_option_text": "Ahead"
+        },
+        {
+          "question_number": "Q11",
+          "question_text": "The well developed extra tropical cyclonic storm is composed of two main frontal systems and an occluded front, which varies in extent:",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "A stationary Front followed by a warm front", "is_correct": false },
+            { "option_text": "A low with a warm front radiating out Southwards followed by a cold front.", "is_correct": true },
+            { "option_text": "A warm front and an occluded front", "is_correct": false },
+            { "option_text": "None of the above", "is_correct": false }
+          ],
+          "correct_option_text": "A low with a warm front radiating out Southwards followed by a cold front."
+        },
+        {
+          "question_number": "Q12",
+          "question_text": "Cyclonic storms are confined almost entirely to the",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Latitudes near Equator", "is_correct": false },
+            { "option_text": "Tropical latitudes", "is_correct": true },
+            { "option_text": "Polar lat.", "is_correct": false },
+            { "option_text": "Mid lat.", "is_correct": false }
+          ],
+          "correct_option_text": "Tropical latitudes"
+        },
+        {
+          "question_number": "Q13",
+          "question_text": "The weather expected in a well developed cyclonic storm is:",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Moderate Weather", "is_correct": false },
+            { "option_text": "Stormy weather", "is_correct": true },
+            { "option_text": "Clear skies", "is_correct": false },
+            { "option_text": "No wind or temperature change", "is_correct": false }
+          ],
+          "correct_option_text": "Stormy weather"
+        },
+        {
+          "question_number": "Q14",
+          "question_text": "After entering land the Cyclones gradually die down",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "True", "is_correct": true },
+            { "option_text": "False", "is_correct": false }
+          ],
+          "correct_option_text": "True"
+        },
+        {
+          "question_number": "Q15",
+          "question_text": "The ............ is the most dangerous part of the cyclone is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "eye wall", "is_correct": true },
+            { "option_text": "eye", "is_correct": false },
+            { "option_text": "Outer storm area", "is_correct": false },
+            { "option_text": "complete cyclone", "is_correct": false }
+          ],
+          "correct_option_text": "eye wall"
+        },
+        {
+          "question_number": "Q16",
+          "question_text": "No Tropical CS form",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "At Poles", "is_correct": false },
+            { "option_text": "At Equator", "is_correct": false },
+            { "option_text": "At Lat 40 deg", "is_correct": false },
+            { "option_text": "All these", "is_correct": true }
+          ],
+          "correct_option_text": "All these"
+        },
+        {
+          "question_number": "Q17",
+          "question_text": "Average life of a tropical cyclone in India is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "10 Days", "is_correct": false },
+            { "option_text": "6-8 Days", "is_correct": false },
+            { "option_text": "3-4 Days", "is_correct": true }
+          ],
+          "correct_option_text": "3-4 Days"
+        },
+        {
+          "question_number": "Q18",
+          "question_text": "CS in India are mostly of intensity",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Severe", "is_correct": false },
+            { "option_text": "Very Weak", "is_correct": true },
+            { "option_text": "Moderate", "is_correct": false }
+          ],
+          "correct_option_text": "Very Weak"
+        },
+        {
+          "question_number": "Q19",
+          "question_text": "Eye of a CS is surrounded by",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Shelf Clouds", "is_correct": false },
+            { "option_text": "Wall Clouds", "is_correct": false },
+            { "option_text": "Rotor Clouds", "is_correct": true },
+            { "option_text": "Roll clouds", "is_correct": false }
+          ],
+          "correct_option_text": "Rotor Clouds"
+        },
+        {
+          "question_number": "Q20",
+          "question_text": "CS in Indian region are less intense because",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "They have a very short travel over the sea", "is_correct": true },
+            { "option_text": "Sea surface temp. are not high", "is_correct": false },
+            { "option_text": "India is close to Equator", "is_correct": false }
+          ],
+          "correct_option_text": "They have a very short travel over the sea"
+        },
+        {
+          "question_number": "Q21",
+          "question_text": "Surge is sudden strengthening of wind in the ... air mass",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Same", "is_correct": true },
+            { "option_text": "Different", "is_correct": false },
+            { "option_text": "Both", "is_correct": false }
+          ],
+          "correct_option_text": "Same"
+        },
+        {
+          "question_number": "Q22",
+          "question_text": "Surge and Shear Line are features of ... monsoon",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Vigorous", "is_correct": true },
+            { "option_text": "Weak", "is_correct": false },
+            { "option_text": "Moderate", "is_correct": false }
+          ],
+          "correct_option_text": "Vigorous"
+        },
+        {
+          "question_number": "Q23",
+          "question_text": "Peninsular discontinuity occurs along",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "West Coast", "is_correct": false },
+            { "option_text": "East coast", "is_correct": false },
+            { "option_text": "Central Peninsula", "is_correct": true }
+          ],
+          "correct_option_text": "Central Peninsula"
+        },
+        {
+          "question_number": "Q24",
+          "question_text": "Peninsular discontinuity occurs during",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Monsoon", "is_correct": false },
+            { "option_text": "NE Monsoon", "is_correct": false },
+            { "option_text": "Pre Monsoon", "is_correct": true }
+          ],
+          "correct_option_text": "Pre Monsoon"
+        },
+        {
+          "question_number": "Q25",
+          "question_text": "Surge is also",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Velocity Divergence", "is_correct": false },
+            { "option_text": "Velocity Convergence", "is_correct": true },
+            { "option_text": "like ITCZ", "is_correct": false }
+          ],
+          "correct_option_text": "Velocity Convergence"
+        },
+        {
+          "question_number": "Q26",
+          "question_text": "In a depression the wind speed is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "$<17~kt$", "is_correct": false },
+            { "option_text": "34-47 kt", "is_correct": false },
+            { "option_text": "17-27 kt", "is_correct": true },
+            { "option_text": "48-63 kt", "is_correct": false }
+          ],
+          "correct_option_text": "17-27 kt"
+        },
+        {
+          "question_number": "Q27",
+          "question_text": "In a CS the wind speed is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "$<17~kt$", "is_correct": false },
+            { "option_text": "34-47 kt", "is_correct": true },
+            { "option_text": "17-27 kt", "is_correct": false },
+            { "option_text": "28-33 kt", "is_correct": false }
+          ],
+          "correct_option_text": "34-47 kt"
+        },
+        {
+          "question_number": "Q28",
+          "question_text": "A monsoon depression slopes ... with height",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "SE", "is_correct": false },
+            { "option_text": "NW", "is_correct": false },
+            { "option_text": "SW", "is_correct": true },
+            { "option_text": "NE", "is_correct": false }
+          ],
+          "correct_option_text": "SW"
+        },
+        {
+          "question_number": "Q29",
+          "question_text": "Average life of a monsoon depression is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "2-3 days", "is_correct": false },
+            { "option_text": "8-9 days", "is_correct": true },
+            { "option_text": "3-5 days", "is_correct": false },
+            { "option_text": "10-12 days", "is_correct": false }
+          ],
+          "correct_option_text": "8-9 days"
+        },
+        {
+          "question_number": "Q30",
+          "question_text": "Monsoon depressions move faster over",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Sea", "is_correct": false },
+            { "option_text": "Plains", "is_correct": false },
+            { "option_text": "Hills", "is_correct": true },
+            { "option_text": "Rivers", "is_correct": false }
+          ],
+          "correct_option_text": "Hills"
+        },
+        {
+          "question_number": "Q31",
+          "question_text": "For formation of a CS sea surface temperature should be",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "$26-27^{\\circ}C$", "is_correct": true },
+            { "option_text": "$23-24^{\\circ}C$", "is_correct": false },
+            { "option_text": "$24-25^{\\circ}C$", "is_correct": false },
+            { "option_text": "$30^{\\circ}C$", "is_correct": false }
+          ],
+          "correct_option_text": "$26-27^{\\circ}C$"
+        },
+        {
+          "question_number": "Q32",
+          "question_text": "In extra tropical cyclone family there are 3-4 CS or depressions, one to the ... of the other",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "SE", "is_correct": false },
+            { "option_text": "NW", "is_correct": true },
+            { "option_text": "SW", "is_correct": false },
+            { "option_text": "NE", "is_correct": false }
+          ],
+          "correct_option_text": "NW"
+        },
+        {
+          "question_number": "Q33",
+          "question_text": "In TRS the central pressure is about",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "1002-1010 hPa", "is_correct": false },
+            { "option_text": "1000-900 hPa", "is_correct": false },
+            { "option_text": "1010-1020 hPa", "is_correct": true }
+          ],
+          "correct_option_text": "1010-1020 hPa"
+        },
+        {
+          "question_number": "Q34",
+          "question_text": "TRS develop over",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Sea", "is_correct": true },
+            { "option_text": "Land", "is_correct": false },
+            { "option_text": "Islands", "is_correct": false },
+            { "option_text": "at equator", "is_correct": false }
+          ],
+          "correct_option_text": "Sea"
+        },
+        {
+          "question_number": "Q35",
+          "question_text": "TRS develop over ... deg Lat",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "0-5", "is_correct": false },
+            { "option_text": "5-15", "is_correct": true },
+            { "option_text": "25-30", "is_correct": false },
+            { "option_text": "30-40", "is_correct": false }
+          ],
+          "correct_option_text": "5-15"
+        },
+        {
+          "question_number": "Q36",
+          "question_text": "In TRS pressure gradient is very steep up to a radius of",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "30 km", "is_correct": false },
+            { "option_text": "50 km", "is_correct": false },
+            { "option_text": "100 km", "is_correct": true },
+            { "option_text": "400 km", "is_correct": false }
+          ],
+          "correct_option_text": "100 km"
+        },
+        {
+          "question_number": "Q37",
+          "question_text": "Extra Tropical Storms originate in",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Equatorial Front", "is_correct": false },
+            { "option_text": "Tropical Front", "is_correct": false },
+            { "option_text": "Polar Front", "is_correct": true }
+          ],
+          "correct_option_text": "Polar Front"
+        },
+        {
+          "question_number": "Q38",
+          "question_text": "Extra-tropical Storms generally move in the direction",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "S to E", "is_correct": false },
+            { "option_text": "W to E", "is_correct": true },
+            { "option_text": "S to W", "is_correct": false },
+            { "option_text": "E to W", "is_correct": false }
+          ],
+          "correct_option_text": "W to E"
+        },
+        {
+          "question_number": "Q39",
+          "question_text": "A Tropical Cyclone moves ... in a day",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "300-500 km", "is_correct": true },
+            { "option_text": "500-700 km", "is_correct": false },
+            { "option_text": "700-900 km", "is_correct": false }
+          ],
+          "correct_option_text": "300-500 km"
+        },
+        {
+          "question_number": "Q40",
+          "question_text": "A Tropical CS has outer storm area of about",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": ">400 km", "is_correct": true },
+            { "option_text": ">700 km", "is_correct": false },
+            { "option_text": ">900 km", "is_correct": false }
+          ],
+          "correct_option_text": ">400 km"
+        }
+      ]
+    },
+    {
+      "chapter_number": "19",
+      "chapter_title": "CLIMATOLOGY OF INDIA",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "question_text": "During winters",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Advection fog occurs over northern & central parts of India", "is_correct": false },
+            { "option_text": "Radiation fog occurs in southern parts of India", "is_correct": false },
+            { "option_text": "Activity of Radiation fog increases after the passage of a WD over N India", "is_correct": true }
+          ],
+          "correct_option_text": "Activity of Radiation fog increases after the passage of a WD over N India"
+        },
+        {
+          "question_number": "Q2",
+          "question_text": "Low Temperatures and low humidity is the characteristic of",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Post Monsoon", "is_correct": false },
+            { "option_text": "Summer", "is_correct": false },
+            { "option_text": "Monsoon", "is_correct": false },
+            { "option_text": "Winter", "is_correct": true }
+          ],
+          "correct_option_text": "Winter"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "The Summer Season period is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Jan-Feb", "is_correct": false },
+            { "option_text": "Mar-May", "is_correct": true },
+            { "option_text": "Jul - Sept", "is_correct": false },
+            { "option_text": "Oct-Dec", "is_correct": false }
+          ],
+          "correct_option_text": "Mar-May"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "During Summer season",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "WDs cause TS / DS over Punjab & Rajasthan", "is_correct": true },
+            { "option_text": "No WD affect N-parts of country", "is_correct": false },
+            { "option_text": "Track of WD is southern most", "is_correct": false }
+          ],
+          "correct_option_text": "WDs cause TS / DS over Punjab & Rajasthan"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "The monsoon current over the West coast of India is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "SWly", "is_correct": true },
+            { "option_text": "SEly", "is_correct": false },
+            { "option_text": "NEly", "is_correct": false },
+            { "option_text": "NWly", "is_correct": false }
+          ],
+          "correct_option_text": "SWly"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "Monsoon period is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Jan to Feb", "is_correct": false },
+            { "option_text": "March to May", "is_correct": false },
+            { "option_text": "Jun to Sep", "is_correct": true },
+            { "option_text": "Oct to Dec", "is_correct": false }
+          ],
+          "correct_option_text": "Jun to Sep"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "The monsoon advances with",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Bay of Bengal current only", "is_correct": false },
+            { "option_text": "Arabian Sea current only", "is_correct": false },
+            { "option_text": "Bay of Bengal and Arabian sea currents", "is_correct": true }
+          ],
+          "correct_option_text": "Bay of Bengal and Arabian sea currents"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "The rainfall over India during monsoon depends on",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Low over Pakistan", "is_correct": false },
+            { "option_text": "Depression over Bay of Bengal", "is_correct": false },
+            { "option_text": "The position of the axis of Monsoon Trough.", "is_correct": true }
+          ],
+          "correct_option_text": "The position of the axis of Monsoon Trough."
+        },
+        {
+          "question_number": "Q9",
+          "question_text": "Rainfall occurs all over the country during monsoon when",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Axis of MT is in its normal position along Gangetic plains", "is_correct": true },
+            { "option_text": "Axis of MT is along Himalayas", "is_correct": false },
+            { "option_text": "Depression formed over Bay of Bengal", "is_correct": false }
+          ],
+          "correct_option_text": "Axis of MT is in its normal position along Gangetic plains"
+        },
+        {
+          "question_number": "Q10",
+          "question_text": "Break in monsoon occurs when the axis of monsoon trough is along the",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Gangetic plains", "is_correct": false },
+            { "option_text": "Foot hills of Himalayas", "is_correct": true },
+            { "option_text": "Bay of Bengal.", "is_correct": false }
+          ],
+          "correct_option_text": "Foot hills of Himalayas"
+        },
+        {
+          "question_number": "Q11",
+          "question_text": "With a Depression over the Head Bay fair weather during monsoon occurs over",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Assam", "is_correct": true },
+            { "option_text": "W Bengal", "is_correct": false },
+            { "option_text": "Orissa", "is_correct": false }
+          ],
+          "correct_option_text": "Assam"
+        },
+        {
+          "question_number": "Q12",
+          "question_text": "Monsoon is also called",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Pre monsoon", "is_correct": false },
+            { "option_text": "Rainy Season", "is_correct": true },
+            { "option_text": "Post monsoon", "is_correct": false }
+          ],
+          "correct_option_text": "Rainy Season"
+        },
+        {
+          "question_number": "Q13",
+          "question_text": "Autumn Season period is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Mar to May", "is_correct": false },
+            { "option_text": "Jun to Sept", "is_correct": false },
+            { "option_text": "Oct to Nov", "is_correct": true },
+            { "option_text": "Jan to Feb", "is_correct": false }
+          ],
+          "correct_option_text": "Oct to Nov"
+        },
+        {
+          "question_number": "Q14",
+          "question_text": "During post monsoon, pressure gradient over India is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "weak", "is_correct": true },
+            { "option_text": "steep", "is_correct": false },
+            { "option_text": "same as winters", "is_correct": false }
+          ],
+          "correct_option_text": "weak"
+        },
+        {
+          "question_number": "Q15",
+          "question_text": "During monsoon season, low pressure lies over",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Bay of Bengal", "is_correct": false },
+            { "option_text": "NE India", "is_correct": false },
+            { "option_text": "Central India", "is_correct": false },
+            { "option_text": "Pakistan", "is_correct": true }
+          ],
+          "correct_option_text": "Pakistan"
+        },
+        {
+          "question_number": "Q16",
+          "question_text": "During vigorous monsoon period the pressure gradient over west coast is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Weak", "is_correct": false },
+            { "option_text": "Steep", "is_correct": true },
+            { "option_text": "Normal", "is_correct": false }
+          ],
+          "correct_option_text": "Steep"
+        },
+        {
+          "question_number": "Q17",
+          "question_text": "Flying in Monsoon from Chennai to Kolkata at 14 km a/c will experience winds",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Easterly", "is_correct": true },
+            { "option_text": "Westerly", "is_correct": false },
+            { "option_text": "Nly", "is_correct": false },
+            { "option_text": "Southerly", "is_correct": false }
+          ],
+          "correct_option_text": "Easterly"
+        },
+        {
+          "question_number": "Q18",
+          "question_text": "An A/C flying in Winter season from Chennai to Kolkata at 12 km will experience",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Ely", "is_correct": false },
+            { "option_text": "Wly", "is_correct": true },
+            { "option_text": "Nly", "is_correct": false },
+            { "option_text": "Sly", "is_correct": false }
+          ],
+          "correct_option_text": "Wly"
+        },
+        {
+          "question_number": "Q19",
+          "question_text": "An aircraft flying in Summer season from Delhi to Kolkata at 10 km will experience",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Easterly", "is_correct": false },
+            { "option_text": "Westerly", "is_correct": true },
+            { "option_text": "Northerly", "is_correct": false },
+            { "option_text": "Southerly", "is_correct": false }
+          ],
+          "correct_option_text": "Westerly"
+        },
+        {
+          "question_number": "Q20",
+          "question_text": "An A/C flying in Monsoon from Mumbai to Ahmadabad at 03 km will experience",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "SEly", "is_correct": false },
+            { "option_text": "SWly", "is_correct": true },
+            { "option_text": "Nly", "is_correct": false },
+            { "option_text": "NWly", "is_correct": false }
+          ],
+          "correct_option_text": "SWly"
+        },
+        {
+          "question_number": "Q21",
+          "question_text": "A/C flying in winter season from Delhi to Kolkata at 06 km will experience winds",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "SEly", "is_correct": false },
+            { "option_text": "SWly", "is_correct": false },
+            { "option_text": "Nly", "is_correct": false },
+            { "option_text": "NW - Wly", "is_correct": true }
+          ],
+          "correct_option_text": "NW - Wly"
+        },
+        {
+          "question_number": "Q22",
+          "question_text": "An aircraft flying in winter season from Delhi to Kolkata at 06 km will experience",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Port drift", "is_correct": true },
+            { "option_text": "Starboard drift", "is_correct": false },
+            { "option_text": "Tail wind", "is_correct": false },
+            { "option_text": "Head wind", "is_correct": false }
+          ],
+          "correct_option_text": "Port drift"
+        },
+        {
+          "question_number": "Q23",
+          "question_text": "Flying in winter season from Kolkata to Nagpur at 02 km will experience",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Port drift", "is_correct": true },
+            { "option_text": "Starboard drift", "is_correct": false },
+            { "option_text": "Tail wind", "is_correct": false },
+            { "option_text": "Head wind", "is_correct": false }
+          ],
+          "correct_option_text": "Port drift"
+        },
+        {
+          "question_number": "Q24",
+          "question_text": "During break monsoon the pressures all over the country",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Rise", "is_correct": true },
+            { "option_text": "Fall", "is_correct": false },
+            { "option_text": "Do not change", "is_correct": false }
+          ],
+          "correct_option_text": "Rise"
+        },
+        {
+          "question_number": "Q25",
+          "question_text": "During break monsoon sometimes surface winds over East UP and Bihar are",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "very strong", "is_correct": true },
+            { "option_text": "weak", "is_correct": false },
+            { "option_text": "normal", "is_correct": false }
+          ],
+          "correct_option_text": "very strong"
+        },
+        {
+          "question_number": "Q26",
+          "question_text": "Mid tropospheric cyclone occurs during",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Summer Season", "is_correct": false },
+            { "option_text": "Winters", "is_correct": false },
+            { "option_text": "Post monsoon", "is_correct": false },
+            { "option_text": "Monsoon", "is_correct": true }
+          ],
+          "correct_option_text": "Monsoon"
+        },
+        {
+          "question_number": "Q27",
+          "question_text": "Mid tropospheric cyclone during monsoon form over",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Orissa", "is_correct": false },
+            { "option_text": "Punjab", "is_correct": false },
+            { "option_text": "Gujarat", "is_correct": true },
+            { "option_text": "Chennai", "is_correct": false }
+          ],
+          "correct_option_text": "Gujarat"
+        },
+        {
+          "question_number": "Q28",
+          "question_text": "El Nino is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Warm phase of ENSO", "is_correct": true },
+            { "option_text": "Cold Phase of ENSO", "is_correct": false },
+            { "option_text": "Good for Indian Monsoon causing more rains", "is_correct": false }
+          ],
+          "correct_option_text": "Warm phase of ENSO"
+        },
+        {
+          "question_number": "Q29",
+          "question_text": "Maximum cyclones occur over India in",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Pre monsoon", "is_correct": false },
+            { "option_text": "Winters", "is_correct": false },
+            { "option_text": "Post monsoon", "is_correct": true },
+            { "option_text": "Monsoon", "is_correct": false }
+          ],
+          "correct_option_text": "Post monsoon"
+        },
+        {
+          "question_number": "Q30",
+          "question_text": "Tropical Jet stream occurs in India during",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Pre monsoon", "is_correct": false },
+            { "option_text": "Winters", "is_correct": false },
+            { "option_text": "Post monsoon", "is_correct": false },
+            { "option_text": "Monsoon", "is_correct": true }
+          ],
+          "correct_option_text": "Monsoon"
+        },
+        {
+          "question_number": "Q31",
+          "question_text": "Pressure gradient over West Coast of India is steep during",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Pre monsoon", "is_correct": false },
+            { "option_text": "Winters", "is_correct": false },
+            { "option_text": "Post monsoon", "is_correct": false },
+            { "option_text": "Monsoon", "is_correct": true }
+          ],
+          "correct_option_text": "Monsoon"
+        },
+        {
+          "question_number": "Q32",
+          "question_text": "During break monsoon more rain occurs",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "along foot hills", "is_correct": true },
+            { "option_text": "NW India", "is_correct": false },
+            { "option_text": "S India", "is_correct": false }
+          ],
+          "correct_option_text": "along foot hills"
+        }
+      ]
+    },
+    {
+      "chapter_number": "13",
+      "chapter_title": "THUNDERSTORM",
+      "questions": [
+        {
+          "question_number": "Q2",
+          "question_text": "Hail is most likely to fall from a cloud",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Having layers", "is_correct": false },
+            { "option_text": "Composed of Ice crystals", "is_correct": false },
+            { "option_text": "Having strong vertical development", "is_correct": true }
+          ],
+          "correct_option_text": "Having strong vertical development"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "Norwesters are",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "The western disturbances which affect NW India", "is_correct": false },
+            { "option_text": "Severe thunderstorms which occur over NE India during hot weather period", "is_correct": true },
+            { "option_text": "Severe thunderstorms which occur over Peninsula during hot weather period", "is_correct": false }
+          ],
+          "correct_option_text": "Severe thunderstorms which occur over NE India during hot weather period"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "Duststorm usually occurs over NW India during",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Post-monsoon", "is_correct": false },
+            { "option_text": "Winter", "is_correct": false },
+            { "option_text": "Pre-Monsoon", "is_correct": true }
+          ],
+          "correct_option_text": "Pre-Monsoon"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "A 'mature' thunderstorm has strong",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "updraft only", "is_correct": false },
+            { "option_text": "downdraft only", "is_correct": false },
+            { "option_text": "updrafts and downdrafts", "is_correct": true }
+          ],
+          "correct_option_text": "updrafts and downdrafts"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "Aircraft icing is most favoured in the cloud which have temperatures ranging between",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "$-20^{\\circ}C$ and $-40^{\\circ}C$", "is_correct": false },
+            { "option_text": "$0^{\\circ}C$ and $-20^{\\circ}C$", "is_correct": true },
+            { "option_text": "below $-40^{\\circ}C$", "is_correct": false }
+          ],
+          "correct_option_text": "$0^{\\circ}C$ and $-20^{\\circ}C$"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "A short duration, showery precipitation is associated with",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "ST", "is_correct": false },
+            { "option_text": "AS", "is_correct": false },
+            { "option_text": "CB", "is_correct": true }
+          ],
+          "correct_option_text": "CB"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "Hail is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Solid precipitation commonly occurring over the mountainous regions in winters.", "is_correct": false },
+            { "option_text": "Frozen or partly frozen rain falling from sheet type of clouds", "is_correct": false },
+            { "option_text": "Solid precipitation falling from a deep convective cloud", "is_correct": true }
+          ],
+          "correct_option_text": "Solid precipitation falling from a deep convective cloud"
+        },
+        {
+          "question_number": "Q9",
+          "question_text": "The most hazardous cloud for aviation is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "CB", "is_correct": true },
+            { "option_text": "CU", "is_correct": false },
+            { "option_text": "NS", "is_correct": false }
+          ],
+          "correct_option_text": "CB"
+        },
+        {
+          "question_number": "Q10",
+          "question_text": "The life of a Cb cell is usually",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "7 to 8 hrs", "is_correct": false },
+            { "option_text": "3 to 4 hrs", "is_correct": false },
+            { "option_text": "2-3 hr", "is_correct": true }
+          ],
+          "correct_option_text": "2-3 hr"
+        },
+        {
+          "question_number": "Q11",
+          "question_text": "Generally the severest activity of a, heat type, TS is for",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "2 hrs", "is_correct": false },
+            { "option_text": "30 to 45 min", "is_correct": true },
+            { "option_text": "3 to 4 hr", "is_correct": false }
+          ],
+          "correct_option_text": "30 to 45 min"
+        },
+        {
+          "question_number": "Q12",
+          "question_text": "Norwesters occur during",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Jan-Feb", "is_correct": false },
+            { "option_text": "Mar-May", "is_correct": true },
+            { "option_text": "June-Sep", "is_correct": false },
+            { "option_text": "Oct-Dec", "is_correct": false }
+          ],
+          "correct_option_text": "Mar-May"
+        },
+        {
+          "question_number": "Q13",
+          "question_text": "Norwesters occur during",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Winter", "is_correct": false },
+            { "option_text": "Hot weather", "is_correct": true },
+            { "option_text": "Monsoon", "is_correct": false },
+            { "option_text": "Post Monsoon", "is_correct": false }
+          ],
+          "correct_option_text": "Hot weather"
+        },
+        {
+          "question_number": "Q14",
+          "question_text": "Norwesters affect",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "N India", "is_correct": false },
+            { "option_text": "Bengal, Bihar, Orissa and Assam", "is_correct": true },
+            { "option_text": "Central India", "is_correct": false }
+          ],
+          "correct_option_text": "Bengal, Bihar, Orissa and Assam"
+        },
+        {
+          "question_number": "Q15",
+          "question_text": "The trigger action may take place due to",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Clear night sky, no wind", "is_correct": false },
+            { "option_text": "Orographic lifting", "is_correct": true },
+            { "option_text": "high pressure", "is_correct": false }
+          ],
+          "correct_option_text": "Orographic lifting"
+        },
+        {
+          "question_number": "Q16",
+          "question_text": "Norwesters normally occur during",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Mornings", "is_correct": false },
+            { "option_text": "Afternoons", "is_correct": true },
+            { "option_text": "Nights", "is_correct": false }
+          ],
+          "correct_option_text": "Afternoons"
+        },
+        {
+          "question_number": "Q17",
+          "question_text": "Norwesters originates over",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Chota-Nagpur hills", "is_correct": true },
+            { "option_text": "Deccan Plato", "is_correct": false },
+            { "option_text": "Khasi hills", "is_correct": false }
+          ],
+          "correct_option_text": "Chota-Nagpur hills"
+        },
+        {
+          "question_number": "Q18",
+          "question_text": "Andhi (blinding storms) occur generally over",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "S India", "is_correct": false },
+            { "option_text": "N India", "is_correct": true },
+            { "option_text": "NE India", "is_correct": false }
+          ],
+          "correct_option_text": "N India"
+        },
+        {
+          "question_number": "Q19",
+          "question_text": "Wind speed in Light DS is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "25 kt", "is_correct": false },
+            { "option_text": "30 kt", "is_correct": false },
+            { "option_text": "up to 21 kt", "is_correct": true }
+          ],
+          "correct_option_text": "up to 21 kt"
+        },
+        {
+          "question_number": "Q20",
+          "question_text": "The diametre of Microburst is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "less than 4 km", "is_correct": true },
+            { "option_text": "less than 2 km", "is_correct": false },
+            { "option_text": "less than 6 km", "is_correct": false }
+          ],
+          "correct_option_text": "less than 4 km"
+        },
+        {
+          "question_number": "Q21",
+          "question_text": "The diametre of and Macroburst is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "<4 km", "is_correct": false },
+            { "option_text": "4 km or more", "is_correct": true },
+            { "option_text": "> 8 km", "is_correct": false }
+          ],
+          "correct_option_text": "4 km or more"
+        },
+        {
+          "question_number": "Q22",
+          "question_text": "For detecting precipitation a Radar wavelength in the range is suitable",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "30 to 200 mm", "is_correct": true },
+            { "option_text": "400-500 mm", "is_correct": false },
+            { "option_text": "600-700 mm", "is_correct": false }
+          ],
+          "correct_option_text": "30 to 200 mm"
+        },
+        {
+          "question_number": "Q23",
+          "question_text": "For airborne radars wavelength generally used",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "20 mm", "is_correct": false },
+            { "option_text": "40 mm", "is_correct": false },
+            { "option_text": "60 mm", "is_correct": true }
+          ],
+          "correct_option_text": "60 mm"
+        },
+        {
+          "question_number": "Q24",
+          "question_text": "The wavelength of TS detection X band radar is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "10 mm", "is_correct": false },
+            { "option_text": "20 mm", "is_correct": false },
+            { "option_text": "30 mm", "is_correct": true }
+          ],
+          "correct_option_text": "30 mm"
+        },
+        {
+          "question_number": "Q25",
+          "question_text": "The wavelength of storm detection S band radar is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "50 mm", "is_correct": false },
+            { "option_text": "100 mm", "is_correct": true },
+            { "option_text": "200 mm", "is_correct": false }
+          ],
+          "correct_option_text": "100 mm"
+        },
+        {
+          "question_number": "Q26",
+          "question_text": "Over plains TS mostly occur during the",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "afternoon", "is_correct": true },
+            { "option_text": "night", "is_correct": false },
+            { "option_text": "early morning", "is_correct": false }
+          ],
+          "correct_option_text": "afternoon"
+        },
+        {
+          "question_number": "Q27",
+          "question_text": "Over valley and foot hills TS generally occur during",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "afternoon", "is_correct": false },
+            { "option_text": "night & early morning", "is_correct": true },
+            { "option_text": "early morning", "is_correct": false }
+          ],
+          "correct_option_text": "night & early morning"
+        },
+        {
+          "question_number": "Q28",
+          "question_text": "Over the sea TS are more frequent",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "afternoon", "is_correct": false },
+            { "option_text": "night", "is_correct": true },
+            { "option_text": "early morning", "is_correct": false }
+          ],
+          "correct_option_text": "night"
+        },
+        {
+          "question_number": "Q29",
+          "question_text": "The life of Mesoscale Convective Complex TS is",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "2-3 hr", "is_correct": false },
+            { "option_text": "3-4 hr", "is_correct": false },
+            { "option_text": "6 to 24 hr", "is_correct": true }
+          ],
+          "correct_option_text": "6 to 24 hr"
+        },
+        {
+          "question_number": "Q30",
+          "question_text": "Loud peals of thunder, frequent flashes of lightning, moderate or heavy showers accompanied by light hail with maximum wind speed 15-40 kt is classified as",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Light TS", "is_correct": false },
+            { "option_text": "Moderate TS", "is_correct": true },
+            { "option_text": "Severe TS", "is_correct": false }
+          ],
+          "correct_option_text": "Moderate TS"
+        },
+        {
+          "question_number": "Q31",
+          "question_text": "For a severe TS one of the requirements is strong Wind Shear",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Horizontal", "is_correct": false },
+            { "option_text": "Vertical", "is_correct": true },
+            { "option_text": "Slant", "is_correct": false }
+          ],
+          "correct_option_text": "Vertical"
+        },
+        {
+          "question_number": "Q32",
+          "question_text": "Severe TS cells are tilted",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "in vertical", "is_correct": true },
+            { "option_text": "to the South", "is_correct": false },
+            { "option_text": "to the North", "is_correct": false }
+          ],
+          "correct_option_text": "in vertical"
+        },
+        {
+          "question_number": "Q33",
+          "question_text": "When flying through on active TS, lighting strikes are most likely",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Above 5000 ft and under the anvil.", "is_correct": false },
+            { "option_text": "In the clear air below the cloud in rain", "is_correct": false },
+            { "option_text": "In the temperature band between $+10^{\\circ}$ and $-10^{\\circ}C$", "is_correct": true },
+            { "option_text": "At or about 10000 ft", "is_correct": false }
+          ],
+          "correct_option_text": "In the temperature band between $+10^{\\circ}$ and $-10^{\\circ}C$"
+        },
+        {
+          "question_number": "Q34",
+          "question_text": "Hazards of the mature stage of a TS Cell include lighting, turbulence and:",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "Microburst, wind-shear and anvil", "is_correct": false },
+            { "option_text": "Icing, microburst and WS", "is_correct": true },
+            { "option_text": "Icing, drizzle and microburst", "is_correct": false },
+            { "option_text": "WS, hail and fog", "is_correct": false }
+          ],
+          "correct_option_text": "Icing, microburst and WS"
+        },
+        {
+          "question_number": "Q35",
+          "question_text": "Hail grows by",
+          "question_type": "MCQ",
+          "options": [
+            { "option_text": "freezing as it leaves the cloud", "is_correct": false },
+            { "option_text": "up and down forces in CU cloud", "is_correct": false },
+            { "option_text": "collision with ice crystals", "is_correct": false },
+            { "option_text": "collision with supercooled water drops", "is_correct": true }
+          ],
+          "correct_option_text": "collision with supercooled water drops"
+        }
+      ]
+    }
+  ]
+}

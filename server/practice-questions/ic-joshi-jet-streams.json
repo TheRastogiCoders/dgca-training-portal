@@ -1,0 +1,362 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 15,
+  "chapter_title": "Jet Streams",
+  "chapter_slug": "jet-streams",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "jet-streams-q1",
+      "question_number": "Q1",
+      "question": "The arbitrary lower limit of jet core velocity has been assigned by WMO as",
+      "question_type": "MCQ",
+      "options": [
+        "60 kt",
+        "$60~m/s$",
+        "$70~m/s$"
+      ],
+      "answer": "a",
+      "solution": "60 kt",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q2",
+      "question_number": "Q2",
+      "question": "Jet stream has",
+      "question_type": "MCQ",
+      "options": [
+        "one maxima",
+        "one or more maxima",
+        "only two maxima"
+      ],
+      "answer": "b",
+      "solution": "one or more maxima",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q3",
+      "question_number": "Q3",
+      "question": "The vertical wind shear in a Jet stream is about",
+      "question_type": "MCQ",
+      "options": [
+        "$5~m/s/km$",
+        "$6m/s/km$",
+        "$8~m/s/km$"
+      ],
+      "answer": "a",
+      "solution": "$5~m/s/km$",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q4",
+      "question_number": "Q4",
+      "question": "Compared to horizontal wind shear the vertical wind shear in a Jet stream is",
+      "question_type": "MCQ",
+      "options": [
+        "weaker",
+        "stronger",
+        "same"
+      ],
+      "answer": "b",
+      "solution": "stronger",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q5",
+      "question_number": "Q5",
+      "question": "In a jet stream, the path of the maximum speed is known as",
+      "question_type": "MCQ",
+      "options": [
+        "Core",
+        "Axis",
+        "Jet streak"
+      ],
+      "answer": "b",
+      "solution": "Axis",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q6",
+      "question_number": "Q6",
+      "question": "The wind speed along the axis of a jet stream is always",
+      "question_type": "MCQ",
+      "options": [
+        "Uniform",
+        "Not uniform",
+        "same"
+      ],
+      "answer": "b",
+      "solution": "Not uniform",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q7",
+      "question_number": "Q7",
+      "question": "Along the axis of a jet stream there are centres of high speed winds, these are called",
+      "question_type": "MCQ",
+      "options": [
+        "Jet streaks",
+        "Core",
+        "Axis"
+      ],
+      "answer": "a",
+      "solution": "Jet streaks",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q8",
+      "question_number": "Q8",
+      "question": "In a wavy jet the Jet streaks are located over or near the",
+      "question_type": "MCQ",
+      "options": [
+        "Ridge",
+        "Trough",
+        "Between Trough and Ridge"
+      ],
+      "answer": "a",
+      "solution": "Ridge",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q9",
+      "question_number": "Q9",
+      "question": "Sub-tropical Jet Stream (STJ) is",
+      "question_type": "MCQ",
+      "options": [
+        "Westerly",
+        "Easterly",
+        "Southerly"
+      ],
+      "answer": "a",
+      "solution": "Westerly",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q10",
+      "question_number": "Q10",
+      "question": "The normal position of Sub-tropical Jet Stream is",
+      "question_type": "MCQ",
+      "options": [
+        "$30^{\\circ}N$",
+        "27° N",
+        "$35^{\\circ}N$"
+      ],
+      "answer": "b",
+      "solution": "27° N",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q11",
+      "question_number": "Q11",
+      "question": "The southern most position of STJ is in February is",
+      "question_type": "MCQ",
+      "options": [
+        "$22^{\\circ}N$",
+        "20° N",
+        "$18^{\\circ}N$"
+      ],
+      "answer": "a",
+      "solution": "$22^{\\circ}N$",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q12",
+      "question_number": "Q12",
+      "question": "The STJ affects India from",
+      "question_type": "MCQ",
+      "options": [
+        "Jun to Jul",
+        "Oct to May",
+        "Aug to Sep"
+      ],
+      "answer": "b",
+      "solution": "Oct to May",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q13",
+      "question_number": "Q13",
+      "question": "STJ has a layered structure. There are often two layers of max wind to the.........of jet core",
+      "question_type": "MCQ",
+      "options": [
+        "S",
+        "N",
+        "SW"
+      ],
+      "answer": "a",
+      "solution": "S",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q14",
+      "question_number": "Q14",
+      "question": "The STJ strengthens",
+      "question_type": "MCQ",
+      "options": [
+        "Northwards",
+        "Upstream",
+        "Downstream"
+      ],
+      "answer": "c",
+      "solution": "Downstream",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q15",
+      "question_number": "Q15",
+      "question": "At and near the STJ the temperature gradient is very",
+      "question_type": "MCQ",
+      "options": [
+        "Small",
+        "Large",
+        "Moderate"
+      ],
+      "answer": "a",
+      "solution": "Small",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q16",
+      "question_number": "Q16",
+      "question": "Vertical wind shear in STJ is greater",
+      "question_type": "MCQ",
+      "options": [
+        "above",
+        "below",
+        "along"
+      ],
+      "answer": "a",
+      "solution": "above",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q17",
+      "question_number": "Q17",
+      "question": "The TJ prevails over the Indian Peninsula from",
+      "question_type": "MCQ",
+      "options": [
+        "May to Jun",
+        "Sep to Oct",
+        "Jun to Aug"
+      ],
+      "answer": "c",
+      "solution": "Jun to Aug",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q18",
+      "question_number": "Q18",
+      "question": "The TJ is located over the Indian Peninsula, approximately at",
+      "question_type": "MCQ",
+      "options": [
+        "$13^{\\circ}N$",
+        "17° N",
+        "$18^{\\circ}N$"
+      ],
+      "answer": "a",
+      "solution": "$13^{\\circ}N$",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q19",
+      "question_number": "Q19",
+      "question": "The TJ is located over Indian, approximately at a height of",
+      "question_type": "MCQ",
+      "options": [
+        "15-16 km",
+        "12-13 km",
+        "11-12 km"
+      ],
+      "answer": "a",
+      "solution": "15-16 km",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q20",
+      "question_number": "Q20",
+      "question": "The TJ is strongest in",
+      "question_type": "MCQ",
+      "options": [
+        "July - Aug",
+        "Sep - Oct",
+        "June"
+      ],
+      "answer": "a",
+      "solution": "July - Aug",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q21",
+      "question_number": "Q21",
+      "question": "In the TJ the wind shears are much ... than the STJ",
+      "question_type": "MCQ",
+      "options": [
+        "more",
+        "less",
+        "same"
+      ],
+      "answer": "b",
+      "solution": "less",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q22",
+      "question_number": "Q22",
+      "question": "TJ is",
+      "question_type": "MCQ",
+      "options": [
+        "Westerly",
+        "Easterly",
+        "Southerly"
+      ],
+      "answer": "c",
+      "solution": "Southerly",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q23",
+      "question_number": "Q23",
+      "question": "A jet stream can be recognized by",
+      "question_type": "MCQ",
+      "options": [
+        "High level dust",
+        "High Pressure",
+        "Streaks of CI",
+        "Lenticular clouds"
+      ],
+      "answer": "c",
+      "solution": "Streaks of CI",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q24",
+      "question_number": "Q24",
+      "question": "Flying at right angles to a jet stream with falling pressure you will experience",
+      "question_type": "MCQ",
+      "options": [
+        "Wind from left",
+        "Increasing head wind",
+        "Increasing tail wind",
+        "Wind from right"
+      ],
+      "answer": "a",
+      "solution": "Wind from left",
+      "explanation": ""
+    },
+    {
+      "id": "jet-streams-q25",
+      "question_number": "Q25",
+      "question": "When and where tropical jet stream occurs",
+      "question_type": "MCQ",
+      "options": [
+        "All year along equator",
+        "In Middle East in summers",
+        "In winters over Russia",
+        "In summers over SE Asia and Central Africa"
+      ],
+      "answer": "d",
+      "solution": "In summers over SE Asia and Central Africa",
+      "explanation": ""
+    }
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 3,
+  "chapter_title": "TEMPERATURE",
+  "questions": [
+    {
+      "question_number": "Q1",
+      "question": "Diurnal variation of temperature is greatest when wind is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) calm",
+        "(b) light",
+        "(c) strong"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q2",
+      "question": "Diurnal variation of temperature is maximum over",
+      "question_type": "MCQ",
+      "options": [
+        "(a) forest",
+        "(b) ocean",
+        "(c) land"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q3",
+      "question": "On a clear day the amount of solar radiation received by earth surface is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 3/4",
+        "(b) 30%",
+        "(c) 5/6"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q4",
+      "question": "ALBEDO is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Radiation received by earth",
+        "(b) Amount of heat",
+        "(c) Reflecting power of earth"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q5",
+      "question": "During Day the ambient temperature is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Lower than ground",
+        "(b) Higher than ground",
+        "(c) Same"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q6",
+      "question": "Diurnal variation of temperature over ocean is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) More than land",
+        "(b) Above 3°C",
+        "(c) Less than 1°C"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q7",
+      "question": "At a coastal station the diurnal variation of temperature depends on",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Wind direction",
+        "(b) Wind speed",
+        "(c) Radiation"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q8",
+      "question": "Snow surface reflects about ___ % of solar radiation.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 75%",
+        "(b) 80%",
+        "(c) 90%"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q9",
+      "question": "Amount of Solar radiation received per unit area is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Insolation",
+        "(b) Convection",
+        "(c) Radiation"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q10",
+      "question": "Solar radiation received by the earth is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Long Wave",
+        "(b) Albedo",
+        "(c) Shortwave"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q11",
+      "question": "Rise in temperature of a surface is proportional to its specific heat",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Directly",
+        "(b) Inversely",
+        "(c) Higher"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q12",
+      "question": "Specific heat of land is ___ than that of water",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Lower",
+        "(b) Same",
+        "(c) Higher"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q13",
+      "question": "Minimum temperature is reached at",
+      "question_type": "MCQ",
+      "options": [
+        "(a) sunrise",
+        "(b) midnight",
+        "(c) ½-1 hour after dawn"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q14",
+      "question": "An air parcel is lifted till it gets saturated. The temperature attained by it is called",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Potential temperature",
+        "(b) Dew Point",
+        "(c) Wet bulb"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q15",
+      "question": "Cloudy nights are.........",
+      "question_type": "MCQ",
+      "options": [
+        "(a) cold",
+        "(b) normal",
+        "(c) warm"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q16",
+      "question": "Water vapour is transparent to terrestrial radiation",
+      "question_type": "MCQ",
+      "options": [
+        "(a) completely",
+        "(b) partially",
+        "(c) indifferent"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q17",
+      "question": "Higher the temperature, ........ would be the wavelength of emitted radiation",
+      "question_type": "MCQ",
+      "options": [
+        "(a) longer",
+        "(b) shorter"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q18",
+      "question": "Air is a bad conductor of heat. A parcel of air can therefore be regarded as insulated from the environment",
+      "question_type": "MCQ",
+      "options": [
+        "(a) False",
+        "(b) True"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q19",
+      "question": "Warmer the earth............ will be the Nocturnal radiation",
+      "question_type": "MCQ",
+      "options": [
+        "(a) intense",
+        "(b) weaker",
+        "(c) moderate"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q20",
+      "question": "Heat is the ...... of the KE of all the molecules and atoms of a substance",
+      "question_type": "MCQ",
+      "options": [
+        "(a) sum total",
+        "(b) average"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q21",
+      "question": "The solar radiation consists of about 46%.....",
+      "question_type": "MCQ",
+      "options": [
+        "(a) UV",
+        "(b) IR",
+        "(c) Visible"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q22",
+      "question": "The total energy radiated by a black body is proportional to its temperature(T)",
+      "question_type": "MCQ",
+      "options": [
+        "(a) T^2",
+        "(b) T^3",
+        "(c) T^4"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q23",
+      "question": "Intense radiation are emitted by",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Hot bodies",
+        "(b) Cold bodies",
+        "(c) Stars"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q24",
+      "question": "The wavelength of most intense radiation is inversely proportional to its........",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Absolute temperature",
+        "(b) Humidity",
+        "(c) Albedo"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q25",
+      "question": "Hot bodies (like sun) radiate",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Short Waves",
+        "(b) Long Waves",
+        "(c) Both"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q26",
+      "question": "The flow of heat from earth surface is 77% by",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Sensible Heat",
+        "(b) Latent Heat"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q27",
+      "question": "-40° C = -40° F",
+      "question_type": "MCQ",
+      "options": [
+        "(a) True",
+        "(b) False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q28",
+      "question": "Surface Temperature is recorded at a height of .. above ground",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1.5 m",
+        "(b) 1.25m",
+        "(c) 2 m"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q29",
+      "question": "The door of Stevenson's screen should open",
+      "question_type": "MCQ",
+      "options": [
+        "(a) opposite to sun",
+        "(b) into sun",
+        "(c) any direction"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q30",
+      "question": "The liquid used in Minimum Thermometer is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) mercury",
+        "(b) alcohol",
+        "(c) sprit"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q31",
+      "question": "Freezing point of water is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 0°F",
+        "(b) 12°F",
+        "(c) 22°F",
+        "(d) 32°F"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q32",
+      "question": "Boiling point of water is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 100°F",
+        "(b) 112°F",
+        "(c) 212°F",
+        "(d) 312°F"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q33",
+      "question": "Freezing point of water is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 173 K",
+        "(b) 273 K",
+        "(c) 373 K",
+        "(d) 473 K"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q34",
+      "question": "Boiling point of water is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 373K",
+        "(b) 273 K",
+        "(c) 173K",
+        "(d) 312 K"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q35",
+      "question": "Convert 68°F into Kelvin temperature",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 233 K",
+        "(b) 283K",
+        "(c) 294 K",
+        "(d) 293 K"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q36",
+      "question": "Diurnal variation of temperature is least on a day when it is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Clear",
+        "(b) Partly cloudy",
+        "(c) Cloudy",
+        "(d) Overcast"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q37",
+      "question": "A clear and calm night is cooler than a cloudy night, because nocturnal radiation",
+      "question_type": "MCQ",
+      "options": [
+        "(a) escape through cloud",
+        "(b) are partly radiated back by clouds to earth",
+        "(c) are fully absorbed by H2O",
+        "(d) are fully prevented by clouds to escape"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q38",
+      "question": "Which surface will cause higher diurnal variation",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Forest",
+        "(b) Desert",
+        "(c) Water",
+        "(d) Snow"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q39",
+      "question": "If temperature does not change in a layer with height on a day, indicates",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Isothermal layer",
+        "(b) Inversion",
+        "(c) Instability",
+        "(d) Uniform Lapse Rate"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    }
+  ]
+}
+

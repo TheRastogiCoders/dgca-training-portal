@@ -1,0 +1,573 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 18,
+  "chapter_title": "Tropical Systems",
+  "chapter_slug": "tropical-systems",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "tropical-systems-q1",
+      "question_number": "Q1",
+      "question": "Wind speed in a tropical severe cyclone is:",
+      "question_type": "MCQ",
+      "options": [
+        "27-33 kt",
+        "48-63 kt",
+        "17-27 kt"
+      ],
+      "answer": "b",
+      "solution": "48-63 kt",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q2",
+      "question_number": "Q2",
+      "question": "Fronts are characteristic of:",
+      "question_type": "MCQ",
+      "options": [
+        "Tropical cyclone",
+        "Extra-tropical depressions",
+        "Monsoon depressions"
+      ],
+      "answer": "b",
+      "solution": "Extra-tropical depressions",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q3",
+      "question_number": "Q3",
+      "question": "In a mature tropical cyclone, the eye area is characterised by:",
+      "question_type": "MCQ",
+      "options": [
+        "moderate winds and heavy rains",
+        "hurricane force winds and squalls",
+        "calm wind, little clouding and practically no rainfall"
+      ],
+      "answer": "c",
+      "solution": "calm wind, little clouding and practically no rainfall",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q4",
+      "question_number": "Q4",
+      "question": "Cyclonic storm cross Tamil Nadu coast in:",
+      "question_type": "MCQ",
+      "options": [
+        "Oct-Nov",
+        "Jul-Aug",
+        "Feb-May"
+      ],
+      "answer": "a",
+      "solution": "Oct-Nov",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q5",
+      "question_number": "Q5",
+      "question": "Cyclonic storms form over Indian seas during",
+      "question_type": "MCQ",
+      "options": [
+        "SW monsoon",
+        "Winter Season",
+        "Pre-Monsoon & Post Monsoon"
+      ],
+      "answer": "c",
+      "solution": "Pre-Monsoon & Post Monsoon",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q6",
+      "question_number": "Q6",
+      "question": "TRS occurs over Indian seas in:-",
+      "question_type": "MCQ",
+      "options": [
+        "Equatorial Region",
+        "$5-15^{\\circ}N$",
+        "$0-5^{\\circ}N$"
+      ],
+      "answer": "b",
+      "solution": "$5-15^{\\circ}N$",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q8",
+      "question_number": "Q8",
+      "question": "In a monsoon depression maximum weather occurs in",
+      "question_type": "MCQ",
+      "options": [
+        "SE sector",
+        "NW sector",
+        "SW sector"
+      ],
+      "answer": "a",
+      "solution": "SE sector",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q9",
+      "question_number": "Q9",
+      "question": "During re-curvature maximum weather in a monsoon depression occurs in",
+      "question_type": "MCQ",
+      "options": [
+        "SE sector",
+        "NW sector",
+        "SW sector",
+        "NE sector"
+      ],
+      "answer": "b",
+      "solution": "NW sector",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q10",
+      "question_number": "Q10",
+      "question": "On whatever compass course the cyclone is approached, strong winds from the port indicate that the centre lies somewhere",
+      "question_type": "MCQ",
+      "options": [
+        "Ahead",
+        "Behind",
+        "Port",
+        "Starboard"
+      ],
+      "answer": "a",
+      "solution": "Ahead",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q11",
+      "question_number": "Q11",
+      "question": "The well developed extra tropical cyclonic storm is composed of two main frontal systems and an occluded front, which varies in extent:",
+      "question_type": "MCQ",
+      "options": [
+        "A stationary Front followed by a warm front",
+        "A low with a warm front radiating out Southwards followed by a cold front.",
+        "A warm front and an occluded front",
+        "None of the above"
+      ],
+      "answer": "b",
+      "solution": "A low with a warm front radiating out Southwards followed by a cold front.",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q12",
+      "question_number": "Q12",
+      "question": "Cyclonic storms are confined almost entirely to the",
+      "question_type": "MCQ",
+      "options": [
+        "Latitudes near Equator",
+        "Tropical latitudes",
+        "Polar lat.",
+        "Mid lat."
+      ],
+      "answer": "b",
+      "solution": "Tropical latitudes",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q13",
+      "question_number": "Q13",
+      "question": "The weather expected in a well developed cyclonic storm is:",
+      "question_type": "MCQ",
+      "options": [
+        "Moderate Weather",
+        "Stormy weather",
+        "Clear skies",
+        "No wind or temperature change"
+      ],
+      "answer": "b",
+      "solution": "Stormy weather",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q14",
+      "question_number": "Q14",
+      "question": "After entering land the Cyclones gradually die down",
+      "question_type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "a",
+      "solution": "True",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q15",
+      "question_number": "Q15",
+      "question": "The ............ is the most dangerous part of the cyclone is",
+      "question_type": "MCQ",
+      "options": [
+        "eye wall",
+        "eye",
+        "Outer storm area",
+        "complete cyclone"
+      ],
+      "answer": "a",
+      "solution": "eye wall",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q16",
+      "question_number": "Q16",
+      "question": "No Tropical CS form",
+      "question_type": "MCQ",
+      "options": [
+        "At Poles",
+        "At Equator",
+        "At Lat 40 deg",
+        "All these"
+      ],
+      "answer": "d",
+      "solution": "All these",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q17",
+      "question_number": "Q17",
+      "question": "Average life of a tropical cyclone in India is",
+      "question_type": "MCQ",
+      "options": [
+        "10 Days",
+        "6-8 Days",
+        "3-4 Days"
+      ],
+      "answer": "c",
+      "solution": "3-4 Days",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q18",
+      "question_number": "Q18",
+      "question": "CS in India are mostly of intensity",
+      "question_type": "MCQ",
+      "options": [
+        "Severe",
+        "Very Weak",
+        "Moderate"
+      ],
+      "answer": "b",
+      "solution": "Very Weak",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q19",
+      "question_number": "Q19",
+      "question": "Eye of a CS is surrounded by",
+      "question_type": "MCQ",
+      "options": [
+        "Shelf Clouds",
+        "Wall Clouds",
+        "Rotor Clouds",
+        "Roll clouds"
+      ],
+      "answer": "c",
+      "solution": "Rotor Clouds",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q20",
+      "question_number": "Q20",
+      "question": "CS in Indian region are less intense because",
+      "question_type": "MCQ",
+      "options": [
+        "They have a very short travel over the sea",
+        "Sea surface temp. are not high",
+        "India is close to Equator"
+      ],
+      "answer": "a",
+      "solution": "They have a very short travel over the sea",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q21",
+      "question_number": "Q21",
+      "question": "Surge is sudden strengthening of wind in the ... air mass",
+      "question_type": "MCQ",
+      "options": [
+        "Same",
+        "Different",
+        "Both"
+      ],
+      "answer": "a",
+      "solution": "Same",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q22",
+      "question_number": "Q22",
+      "question": "Surge and Shear Line are features of ... monsoon",
+      "question_type": "MCQ",
+      "options": [
+        "Vigorous",
+        "Weak",
+        "Moderate"
+      ],
+      "answer": "a",
+      "solution": "Vigorous",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q23",
+      "question_number": "Q23",
+      "question": "Peninsular discontinuity occurs along",
+      "question_type": "MCQ",
+      "options": [
+        "West Coast",
+        "East coast",
+        "Central Peninsula"
+      ],
+      "answer": "c",
+      "solution": "Central Peninsula",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q24",
+      "question_number": "Q24",
+      "question": "Peninsular discontinuity occurs during",
+      "question_type": "MCQ",
+      "options": [
+        "Monsoon",
+        "NE Monsoon",
+        "Pre Monsoon"
+      ],
+      "answer": "c",
+      "solution": "Pre Monsoon",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q25",
+      "question_number": "Q25",
+      "question": "Surge is also",
+      "question_type": "MCQ",
+      "options": [
+        "Velocity Divergence",
+        "Velocity Convergence",
+        "like ITCZ"
+      ],
+      "answer": "b",
+      "solution": "Velocity Convergence",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q26",
+      "question_number": "Q26",
+      "question": "In a depression the wind speed is",
+      "question_type": "MCQ",
+      "options": [
+        "$<17~kt$",
+        "34-47 kt",
+        "17-27 kt",
+        "48-63 kt"
+      ],
+      "answer": "c",
+      "solution": "17-27 kt",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q27",
+      "question_number": "Q27",
+      "question": "In a CS the wind speed is",
+      "question_type": "MCQ",
+      "options": [
+        "$<17~kt$",
+        "34-47 kt",
+        "17-27 kt",
+        "28-33 kt"
+      ],
+      "answer": "b",
+      "solution": "34-47 kt",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q28",
+      "question_number": "Q28",
+      "question": "A monsoon depression slopes ... with height",
+      "question_type": "MCQ",
+      "options": [
+        "SE",
+        "NW",
+        "SW",
+        "NE"
+      ],
+      "answer": "c",
+      "solution": "SW",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q29",
+      "question_number": "Q29",
+      "question": "Average life of a monsoon depression is",
+      "question_type": "MCQ",
+      "options": [
+        "2-3 days",
+        "8-9 days",
+        "3-5 days",
+        "10-12 days"
+      ],
+      "answer": "b",
+      "solution": "8-9 days",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q30",
+      "question_number": "Q30",
+      "question": "Monsoon depressions move faster over",
+      "question_type": "MCQ",
+      "options": [
+        "Sea",
+        "Plains",
+        "Hills",
+        "Rivers"
+      ],
+      "answer": "c",
+      "solution": "Hills",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q31",
+      "question_number": "Q31",
+      "question": "For formation of a CS sea surface temperature should be",
+      "question_type": "MCQ",
+      "options": [
+        "$26-27^{\\circ}C$",
+        "$23-24^{\\circ}C$",
+        "$24-25^{\\circ}C$",
+        "$30^{\\circ}C$"
+      ],
+      "answer": "a",
+      "solution": "$26-27^{\\circ}C$",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q32",
+      "question_number": "Q32",
+      "question": "In extra tropical cyclone family there are 3-4 CS or depressions, one to the ... of the other",
+      "question_type": "MCQ",
+      "options": [
+        "SE",
+        "NW",
+        "SW",
+        "NE"
+      ],
+      "answer": "b",
+      "solution": "NW",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q33",
+      "question_number": "Q33",
+      "question": "In TRS the central pressure is about",
+      "question_type": "MCQ",
+      "options": [
+        "1002-1010 hPa",
+        "1000-900 hPa",
+        "1010-1020 hPa"
+      ],
+      "answer": "c",
+      "solution": "1010-1020 hPa",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q34",
+      "question_number": "Q34",
+      "question": "TRS develop over",
+      "question_type": "MCQ",
+      "options": [
+        "Sea",
+        "Land",
+        "Islands",
+        "at equator"
+      ],
+      "answer": "a",
+      "solution": "Sea",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q35",
+      "question_number": "Q35",
+      "question": "TRS develop over ... deg Lat",
+      "question_type": "MCQ",
+      "options": [
+        "0-5",
+        "5-15",
+        "25-30",
+        "30-40"
+      ],
+      "answer": "b",
+      "solution": "5-15",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q36",
+      "question_number": "Q36",
+      "question": "In TRS pressure gradient is very steep up to a radius of",
+      "question_type": "MCQ",
+      "options": [
+        "30 km",
+        "50 km",
+        "100 km",
+        "400 km"
+      ],
+      "answer": "c",
+      "solution": "100 km",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q37",
+      "question_number": "Q37",
+      "question": "Extra Tropical Storms originate in",
+      "question_type": "MCQ",
+      "options": [
+        "Equatorial Front",
+        "Tropical Front",
+        "Polar Front"
+      ],
+      "answer": "c",
+      "solution": "Polar Front",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q38",
+      "question_number": "Q38",
+      "question": "Extra-tropical Storms generally move in the direction",
+      "question_type": "MCQ",
+      "options": [
+        "S to E",
+        "W to E",
+        "S to W",
+        "E to W"
+      ],
+      "answer": "b",
+      "solution": "W to E",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q39",
+      "question_number": "Q39",
+      "question": "A Tropical Cyclone moves ... in a day",
+      "question_type": "MCQ",
+      "options": [
+        "300-500 km",
+        "500-700 km",
+        "700-900 km"
+      ],
+      "answer": "a",
+      "solution": "300-500 km",
+      "explanation": ""
+    },
+    {
+      "id": "tropical-systems-q40",
+      "question_number": "Q40",
+      "question": "A Tropical CS has outer storm area of about",
+      "question_type": "MCQ",
+      "options": [
+        ">400 km",
+        ">700 km",
+        ">900 km"
+      ],
+      "answer": "a",
+      "solution": ">400 km",
+      "explanation": ""
+    }
+  ]
+}

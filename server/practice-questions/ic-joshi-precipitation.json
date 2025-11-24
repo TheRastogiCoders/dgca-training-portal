@@ -1,0 +1,288 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 11,
+  "chapter_title": "Precipitation",
+  "chapter_slug": "precipitation",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "precipitation-q1",
+      "question_number": "Q1",
+      "question": "When super cooled water drops and ice particles co-exist, the ice crystals grow at the expense of the water drops because",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Saturation vapour pressure over water drops is less than over the ice crystals",
+        "(b) Saturation vapour pressure over the ice crystals is less than over water drops",
+        "(c) The ice crystals convert into water drops"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q2",
+      "question_number": "Q2",
+      "question": "The clouds whose tops extend well above the freezing level are called",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Warm Clouds",
+        "(b) Cold Clouds",
+        "(c) Moderate Clouds"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q3",
+      "question_number": "Q3",
+      "question": "The clouds whose tops do not extend to the freezing level are called",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Warm Clouds",
+        "(b) Cold Clouds",
+        "(c) Moderate Clouds"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q4",
+      "question_number": "Q4",
+      "question": "Coalescence Theory explains occurrence of rainfall from the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Warm Clouds",
+        "(b) Cold Clouds",
+        "(c) Both types of Clouds"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q5",
+      "question_number": "Q5",
+      "question": "Ice crystal Theory explains occurrence of rainfall from the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Warm Clouds",
+        "(b) Cold Clouds",
+        "(c) Both types of Clouds"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q6",
+      "question_number": "Q6",
+      "question": "Giant Nucleus Theory explains occurrence of rainfall over",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Maritime areas",
+        "(b) Inland areas",
+        "(c) Hilly areas"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q7",
+      "question_number": "Q7",
+      "question": "Very heavy precipitation as showers over a short period is called",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Flash floods",
+        "(b) Cloud Burst",
+        "(c) Orographic Rain"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q8",
+      "question_number": "Q8",
+      "question": "Rain shadow area is on the ___ of the mountain range",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Top",
+        "(b) Windward side",
+        "(c) Leeward side"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q9",
+      "question_number": "Q9",
+      "question": "Sleet is a mixture of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Hail & Snow",
+        "(b) Rain & Snow",
+        "(c) Frozen Rain"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q10",
+      "question_number": "Q10",
+      "question": "Rainfall in the tropics is more in",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Winters",
+        "(b) Summers",
+        "(c) Post monsoon"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q11",
+      "question_number": "Q11",
+      "question": "Rainfall in the tropics is more in the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Morning",
+        "(b) Afternoon",
+        "(c) Night"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q12",
+      "question_number": "Q12",
+      "question": "Rainfall in the temperate latitudes is more in",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Winters",
+        "(b) Summers",
+        "(c) Spring"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q13",
+      "question_number": "Q13",
+      "question": "Over J&K and western Himalayas Rainfall is more in",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Winters",
+        "(b) Summers",
+        "(c) Post monsoon"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q14",
+      "question_number": "Q14",
+      "question": "Rainfall over coastal areas is more in the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Evening",
+        "(b) Afternoon",
+        "(c) Night & early morning"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q15",
+      "question_number": "Q15",
+      "question": "Areas to the ___ of western Ghats of India are rain shadow areas",
+      "question_type": "MCQ",
+      "options": [
+        "(a) W",
+        "(b) S",
+        "(c) E"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q16",
+      "question_number": "Q16",
+      "question": "A sudden rise in the level of rivers or streams causing floods is called",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Cloud Burst",
+        "(b) Catchments flooding",
+        "(c) Flash Floods"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q17",
+      "question_number": "Q17",
+      "question": "Artificial rain making is also termed as",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Simulation",
+        "(b) Cloud seeding",
+        "(c) Nucleation"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q18",
+      "question_number": "Q18",
+      "question": "Fog can be dispersed for a short period by artificial stimulation",
+      "question_type": "MCQ",
+      "options": [
+        "(a) True",
+        "(b) False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q19",
+      "question_number": "Q19",
+      "question": "Showery precipitation occurs from",
+      "question_type": "MCQ",
+      "options": [
+        "(a) NS",
+        "(b) AC",
+        "(c) CB"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "precipitation-q20",
+      "question_number": "Q20",
+      "question": "A day is called Rainy day when rainfall in 24 hr is ___ mm or more",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1.5",
+        "(b) 2",
+        "(c) 2.5"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}

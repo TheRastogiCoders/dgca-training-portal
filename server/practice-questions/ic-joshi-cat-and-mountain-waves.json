@@ -1,0 +1,151 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 17,
+  "chapter_title": "CAT and Mountain Waves",
+  "chapter_slug": "cat-and-mountain-waves",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "cat-and-mountain-waves-q1",
+      "question_number": "Q1",
+      "question": "For mountain waves to form there should be flow of air across the ridge, generally within ... of the perpendicular to the ridge.",
+      "question_type": "MCQ",
+      "options": [
+        "$30^{\\circ}$",
+        "$45^{\\circ}$",
+        "$60^{\\circ}$"
+      ],
+      "answer": "a",
+      "solution": "$30^{\\circ}$",
+      "explanation": ""
+    },
+    {
+      "id": "cat-and-mountain-waves-q2",
+      "question_number": "Q2",
+      "question": "For mountain waves to form the wind speed for small mountains should be atleast",
+      "question_type": "MCQ",
+      "options": [
+        "$15~m/s$",
+        "$10~m/s$",
+        "$7~m/s$"
+      ],
+      "answer": "c",
+      "solution": "$7~m/s$",
+      "explanation": ""
+    },
+    {
+      "id": "cat-and-mountain-waves-q3",
+      "question_number": "Q3",
+      "question": "For mountain waves to form the wind speed for large mountains should be atleast",
+      "question_type": "MCQ",
+      "options": [
+        "$15~m/s$",
+        "$10~m/s$",
+        "$7~m/s$"
+      ],
+      "answer": "a",
+      "solution": "$15~m/s$",
+      "explanation": ""
+    },
+    {
+      "id": "cat-and-mountain-waves-q4",
+      "question_number": "Q4",
+      "question": "For mountain waves to form there should be ..... air below the ridge and less stable air above.",
+      "question_type": "MCQ",
+      "options": [
+        "Stable",
+        "Unstable",
+        "Indifferent"
+      ],
+      "answer": "a",
+      "solution": "Stable",
+      "explanation": ""
+    },
+    {
+      "id": "cat-and-mountain-waves-q5",
+      "question_number": "Q5",
+      "question": "The worst kind of turbulence is encountered in the vicinity of rotor clouds. (Question is: Which cloud is associated with the worst kind of turbulence?)",
+      "question_type": "MCQ",
+      "options": [
+        "Rotor Clouds",
+        "Lenticular Clouds",
+        "Cap Clouds"
+      ],
+      "answer": "a",
+      "solution": "Rotor Clouds",
+      "explanation": ""
+    },
+    {
+      "id": "cat-and-mountain-waves-q6",
+      "question_number": "Q6",
+      "question": "In Mountain waves the Rotor clouds form in",
+      "question_type": "MCQ",
+      "options": [
+        "Troughs",
+        "Ridges",
+        "Valley"
+      ],
+      "answer": "b",
+      "solution": "Ridges",
+      "explanation": ""
+    },
+    {
+      "id": "cat-and-mountain-waves-q7",
+      "question_number": "Q7",
+      "question": "Clear air turbulence is often encountered",
+      "question_type": "MCQ",
+      "options": [
+        "At the boundary of a jet stream",
+        "In the wake of a passing airplane",
+        "In the wake of a larger airplane at take off and landing",
+        "All of the above"
+      ],
+      "answer": "a",
+      "solution": "At the boundary of a jet stream",
+      "explanation": ""
+    },
+    {
+      "id": "cat-and-mountain-waves-q8",
+      "question_number": "Q8",
+      "question": "Most CAT occurs on the ... of a jet stream and in the vicinity of upper level frontal zones where temperature contrasts are strong.",
+      "question_type": "MCQ",
+      "options": [
+        "Fringes",
+        "Within the core",
+        "Axis"
+      ],
+      "answer": "a",
+      "solution": "Fringes",
+      "explanation": ""
+    },
+    {
+      "id": "cat-and-mountain-waves-q9",
+      "question_number": "Q9",
+      "question": "CAT is the bumpiness experienced by aircraft at high altitudes. Over North India its maximum frequency is during :",
+      "question_type": "MCQ",
+      "options": [
+        "Oct - May",
+        "Jul - Aug",
+        "Jun - Sep"
+      ],
+      "answer": "a",
+      "solution": "Oct - May",
+      "explanation": ""
+    },
+    {
+      "id": "cat-and-mountain-waves-q10",
+      "question_number": "Q10",
+      "question": "When approaching an area where mountain waves have been reported, a pilot should expect:",
+      "question_type": "MCQ",
+      "options": [
+        "Possible presence of roll clouds and lenticular clouds",
+        "Intense up draughts and down draughts on the lee side of the mountains.",
+        "Moderate to severe turbulence as far as 20 to 30 nm from range on leeward side.",
+        "All of the above"
+      ],
+      "answer": "d",
+      "solution": "All of the above",
+      "explanation": ""
+    }
+  ]
+}

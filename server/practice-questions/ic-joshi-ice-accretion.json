@@ -1,0 +1,275 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 12,
+  "chapter_title": "Ice Accretion",
+  "chapter_slug": "ice-accretion",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "ice-accretion-q1",
+      "question_number": "Q1",
+      "question": "Hoar frost occurs on airframe in clear air when the temperature of airframe is",
+      "question_type": "MCQ",
+      "options": [
+        "below the frost point",
+        "frost point",
+        "just above the frost point"
+      ],
+      "answer": "a",
+      "solution": "below the frost point",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q2",
+      "question_number": "Q2",
+      "question": "In clouds at temperatures below $0^{\\circ}$ C an aircraft may encounter icing of the type",
+      "question_type": "MCQ",
+      "options": [
+        "only Glazed two",
+        "only Rime",
+        "intermediate between these"
+      ],
+      "answer": "c",
+      "solution": "intermediate between these",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q3",
+      "question_number": "Q3",
+      "question": "Opaque Rime ice is",
+      "question_type": "MCQ",
+      "options": [
+        "Light porous",
+        "Solid",
+        "Mixture of porous and solid"
+      ],
+      "answer": "a",
+      "solution": "Light porous",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q4",
+      "question_number": "Q4",
+      "question": "Rime is formed by freezing of supercooled water droplets on airframe when aircraft is flying through clouds",
+      "question_type": "MCQ",
+      "options": [
+        "Small",
+        "Large",
+        "Medium"
+      ],
+      "answer": "a",
+      "solution": "Small",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q5",
+      "question_number": "Q5",
+      "question": "Glazed ice is formed by freezing of supercooled water droplets on airframe when aircraft is flying through clouds",
+      "question_type": "MCQ",
+      "options": [
+        "Small",
+        "Large",
+        "Medium"
+      ],
+      "answer": "b",
+      "solution": "Large",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q6",
+      "question_number": "Q6",
+      "question": "The ........... ice poses serious aviation hazard",
+      "question_type": "MCQ",
+      "options": [
+        "Rime",
+        "Hoar Frost",
+        "Glazed"
+      ],
+      "answer": "c",
+      "solution": "Glazed",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q7",
+      "question_number": "Q7",
+      "question": "Airframe icing occurs below $0^{\\circ}C$. Its probability of occurrence decreases progressively below $-20^{\\circ}C$, as at lower temperatures the proportion of super-cooled water drops in a cloud",
+      "question_type": "MCQ",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Does not change"
+      ],
+      "answer": "b",
+      "solution": "Decreases",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q8",
+      "question_number": "Q8",
+      "question": "CI, CS and CC clouds consist mostly ice crystals. Icing hazard is therefore",
+      "question_type": "MCQ",
+      "options": [
+        "Maximum",
+        "Medium",
+        "Negligible"
+      ],
+      "answer": "c",
+      "solution": "Negligible",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q9",
+      "question_number": "Q9",
+      "question": "AS, NS consist of supercooled water drops and ice crystals in varying proportion icing is possible.",
+      "question_type": "MCQ",
+      "options": [
+        "Maximum",
+        "Moderate",
+        "Negligible"
+      ],
+      "answer": "b",
+      "solution": "Moderate",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q10",
+      "question_number": "Q10",
+      "question": "In AC clouds icing is possible in mountainous areas",
+      "question_type": "MCQ",
+      "options": [
+        "Light",
+        "Light or moderate",
+        "Severe"
+      ],
+      "answer": "b",
+      "solution": "Light or moderate",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q12",
+      "question_number": "Q12",
+      "question": "In CB icing may range from light to severe type up to $-20^{\\circ}C$ level. Below this $-20^{\\circ}C$ level temperature severe icing is",
+      "question_type": "MCQ",
+      "options": [
+        "not significant",
+        "significant",
+        "maximum"
+      ],
+      "answer": "b",
+      "solution": "significant",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q13",
+      "question_number": "Q13",
+      "question": "Liquid water content is an important factor in icing. As the maximum water concentration is around maximum ice formation in clouds may also be expected around that level.",
+      "question_type": "MCQ",
+      "options": [
+        "$-25^{\\circ}$ C level",
+        "$-20^{\\circ}$ C level",
+        "$-15^{\\circ}$ C level"
+      ],
+      "answer": "c",
+      "solution": "$-15^{\\circ}$ C level",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q14",
+      "question_number": "Q14",
+      "question": "Serious icing can occur at extreme temperatures",
+      "question_type": "MCQ",
+      "options": [
+        "$13^{\\circ}C$",
+        "$30^{\\circ}C$ to $-10^{\\circ}C$",
+        "$20^{\\circ}C$"
+      ],
+      "answer": "b",
+      "solution": "$30^{\\circ}C$ to $-10^{\\circ}C$",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q15",
+      "question_number": "Q15",
+      "question": ".................. occurs in a moist cloudless air on an aircraft surface having temp. below $0^{\\circ}C$, due to sublimation of water vapour onto feathery ice crystals.",
+      "question_type": "MCQ",
+      "options": [
+        "Rime",
+        "Glazed",
+        "Hoar Frost"
+      ],
+      "answer": "c",
+      "solution": "Hoar Frost",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q16",
+      "question_number": "Q16",
+      "question": ".................. occurs in St, Sc, Ac, Cu, Ns at temperature -10 to $-40^{\\circ}$ C and in Cb at temperature -20 to $-40^{\\circ}C$",
+      "question_type": "MCQ",
+      "options": [
+        "Rime",
+        "Glazed",
+        "Hoar Frost"
+      ],
+      "answer": "a",
+      "solution": "Rime",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q17",
+      "question_number": "Q17",
+      "question": "In clouds ................... occurs when a wide range of water drop sizes are present at temperatures between $0^{\\circ}C$ and $-40^{\\circ}C$",
+      "question_type": "MCQ",
+      "options": [
+        "Rime",
+        "Glazed",
+        "Mixture of rime and clear ice"
+      ],
+      "answer": "c",
+      "solution": "Mixture of rime and clear ice",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q18",
+      "question_number": "Q18",
+      "question": ".................. occurs in AS, NS, AC and towering CU or CB between $0^{\\circ}C$ and $-20^{\\circ}C$ in warm front below $0^{\\circ}C$, especially if the aircraft has rapidly descended from a colder region.",
+      "question_type": "MCQ",
+      "options": [
+        "Glazed",
+        "Rime",
+        "Mixture of Rime and Clear ice"
+      ],
+      "answer": "a",
+      "solution": "Glazed",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q19",
+      "question_number": "Q19",
+      "question": "When fog freezes on parked aircraft it produces",
+      "question_type": "MCQ",
+      "options": [
+        "Hoar Frost",
+        "Rime",
+        "Clear ice"
+      ],
+      "answer": "b",
+      "solution": "Rime",
+      "explanation": ""
+    },
+    {
+      "id": "ice-accretion-q20",
+      "question_number": "Q20",
+      "question": "Icing ................. the stalling speed appreciably",
+      "question_type": "MCQ",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Does not increase/decrease"
+      ],
+      "answer": "b",
+      "solution": "Increases",
+      "explanation": ""
+    }
+  ]
+}

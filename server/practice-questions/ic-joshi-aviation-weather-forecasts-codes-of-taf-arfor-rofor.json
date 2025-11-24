@@ -1,0 +1,599 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 25,
+  "chapter_title": "Aviation Weather Forecasts (Codes of TAF, ARFOR, ROFOR)",
+  "chapter_slug": "aviation-weather-forecasts-codes-of-taf-arfor-rofor",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "aviation-weather-forecasts-q288",
+      "question_number": "Q288",
+      "question": "The TAF has been issued on",
+      "question_type": "MCQ",
+      "options": [
+        "23rd day",
+        "18th",
+        "24th"
+      ],
+      "answer": "c",
+      "solution": "24th",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q289",
+      "question_number": "Q289",
+      "question": "The TAF has been issued at",
+      "question_type": "MCQ",
+      "options": [
+        "2330 IST",
+        "1830 UTC",
+        "24 UTC"
+      ],
+      "answer": "a",
+      "solution": "2330 IST",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q290",
+      "question_number": "Q290",
+      "question": "The expected surface wind speed is",
+      "question_type": "MCQ",
+      "options": [
+        "09 kt",
+        "06 kt",
+        "08 kt"
+      ],
+      "answer": "c",
+      "solution": "08 kt",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q291",
+      "question_number": "Q291",
+      "question": "Initially expected wind direction is",
+      "question_type": "MCQ",
+      "options": [
+        "120°",
+        "090°",
+        "050°"
+      ],
+      "answer": "b",
+      "solution": "090°",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q292",
+      "question_number": "Q292",
+      "question": "TAF is Valid for Date",
+      "question_type": "MCQ",
+      "options": [
+        "23rd",
+        "24th",
+        "25th"
+      ],
+      "answer": "c",
+      "solution": "25th",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q293",
+      "question_number": "Q293",
+      "question": "Lowest forecast visibility in TAF is",
+      "question_type": "MCQ",
+      "options": [
+        "1500m",
+        "0800 m",
+        "0200 m"
+      ],
+      "answer": "b",
+      "solution": "0800 m",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q294",
+      "question_number": "Q294",
+      "question": "Height of base of lowest clouds in TAF is",
+      "question_type": "MCQ",
+      "options": [
+        "1000 m",
+        "1000 ft",
+        "0800 ft"
+      ],
+      "answer": "c",
+      "solution": "0800 ft",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q295",
+      "question_number": "Q295",
+      "question": "Weather TSRA is expected after",
+      "question_type": "MCQ",
+      "options": [
+        "0600 UTC",
+        "0600 IST",
+        "0800 UTC"
+      ],
+      "answer": "a",
+      "solution": "0600 UTC",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q296",
+      "question_number": "Q296",
+      "question": "Direction of gusty wind is",
+      "question_type": "MCQ",
+      "options": [
+        "090°",
+        "100°",
+        "120°"
+      ],
+      "answer": "a",
+      "solution": "090°",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q297",
+      "question_number": "Q297",
+      "question": "Expected weather up to 25/0400UTC is",
+      "question_type": "MCQ",
+      "options": [
+        "Fog",
+        "TSRA",
+        "Mist"
+      ],
+      "answer": "a",
+      "solution": "Fog",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q298",
+      "question_number": "Q298",
+      "question": "Amount of lowest cloud is",
+      "question_type": "MCQ",
+      "options": [
+        "1-2/8",
+        "3-4/8",
+        "5-7/8"
+      ],
+      "answer": "b",
+      "solution": "3-4/8",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q299",
+      "question_number": "Q299",
+      "question": "Amount of CB cloud is",
+      "question_type": "MCQ",
+      "options": [
+        "1-2/8",
+        "2-4/8",
+        "5-7/8"
+      ],
+      "answer": "a",
+      "solution": "1-2/8",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q300",
+      "question_number": "Q300",
+      "question": "Height of base of CB is",
+      "question_type": "MCQ",
+      "options": [
+        "2500 ft",
+        "3000 m",
+        "2500 m"
+      ],
+      "answer": "a",
+      "solution": "2500 ft",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q301",
+      "question_number": "Q301",
+      "question": "The height of topmost layer of cloud is",
+      "question_type": "MCQ",
+      "options": [
+        "2800 m",
+        "28000 m",
+        "28000 ft"
+      ],
+      "answer": "c",
+      "solution": "28000 ft",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q302",
+      "question_number": "Q302",
+      "question": "Period of validity of TAF is",
+      "question_type": "MCQ",
+      "options": [
+        "23 to 00 IST",
+        "00 to 09 UTC",
+        "20 to 12 UTC"
+      ],
+      "answer": "b",
+      "solution": "00 to 09 UTC",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q303",
+      "question_number": "Q303",
+      "question": "Group 1500/1509 in a TAF indicates",
+      "question_type": "MCQ",
+      "options": [
+        "TAF is issued on 15th at 0000 UTC",
+        "TAF is valid from 15th 0000 to 0900 UTC",
+        "TAF is valid from 1500 to 0900 UTC"
+      ],
+      "answer": "b",
+      "solution": "TAF is valid from 15th 0000 to 0900 UTC",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q304",
+      "question_number": "Q304",
+      "question": "What is true of a TAF",
+      "question_type": "MCQ",
+      "options": [
+        "9 hr TAF is for international dissemination",
+        "TAF valid for 9 hr is issued every 6 hr",
+        "TAF valid for 12-30 hr is issued every 3 hr",
+        "TAF for national use are valid for 9 hr and issued every 3 hr"
+      ],
+      "answer": "d",
+      "solution": "TAF for national use are valid for 9 hr and issued every 3 hr",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q305",
+      "question_number": "Q305",
+      "question": "Period of validity of ROFOR is",
+      "question_type": "MCQ",
+      "options": [
+        "0000 to 0000 IST",
+        "0600 to 0100 IST",
+        "0600 to 1000 UTC"
+      ],
+      "answer": "c",
+      "solution": "0600 to 1000 UTC",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q306",
+      "question_number": "Q306",
+      "question": "Wind speed in ROFOR is in",
+      "question_type": "MCQ",
+      "options": [
+        "KT",
+        "MPS",
+        "KMH"
+      ],
+      "answer": "a",
+      "solution": "KT",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q307",
+      "question_number": "Q307",
+      "question": "Base of CB cloud is",
+      "question_type": "MCQ",
+      "options": [
+        "300 m",
+        "300 ft",
+        "3000 ft"
+      ],
+      "answer": "c",
+      "solution": "3000 ft",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q308",
+      "question_number": "Q308",
+      "question": "Height of Freezing level?",
+      "question_type": "MCQ",
+      "options": [
+        "1700 m",
+        "17,000 ft",
+        "1.7 km"
+      ],
+      "answer": "c",
+      "solution": "1.7 km",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q309",
+      "question_number": "Q309",
+      "question": "Icing group in the ROFOR is",
+      "question_type": "MCQ",
+      "options": [
+        "7///170",
+        "621800",
+        "54//609"
+      ],
+      "answer": "b",
+      "solution": "621800",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q310",
+      "question_number": "Q310",
+      "question": "Type of Icing?",
+      "question_type": "MCQ",
+      "options": [
+        "Nil",
+        "Light",
+        "Light icing in cloud"
+      ],
+      "answer": "c",
+      "solution": "Light icing in cloud",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q311",
+      "question_number": "Q311",
+      "question": "Indicator figure for turbulence group in the ROFOR is",
+      "question_type": "MCQ",
+      "options": [
+        "7",
+        "6",
+        "5"
+      ],
+      "answer": "c",
+      "solution": "5",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q312",
+      "question_number": "Q312",
+      "question": "Height at which Icing is expected?",
+      "question_type": "MCQ",
+      "options": [
+        "21,000 ft",
+        "18,000 m",
+        "15,000 ft"
+      ],
+      "answer": "c",
+      "solution": "15,000 ft",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q313",
+      "question_number": "Q313",
+      "question": "Thickness of Icing is expected to be?",
+      "question_type": "MCQ",
+      "options": [
+        "300 m",
+        "600 m",
+        "Up to Cloud Top"
+      ],
+      "answer": "c",
+      "solution": "Up to Cloud Top",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q314",
+      "question_number": "Q314",
+      "question": "Height at which Turbulence is expected?",
+      "question_type": "MCQ",
+      "options": [
+        "15,000 ft",
+        "5,000 ft",
+        "12,000 ft"
+      ],
+      "answer": "c",
+      "solution": "12,000 ft",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q315",
+      "question_number": "Q315",
+      "question": "Thickness of turbulence expected is?",
+      "question_type": "MCQ",
+      "options": [
+        "2000 ft",
+        "300 m",
+        "Up to Top of cloud"
+      ],
+      "answer": "b",
+      "solution": "300 m",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q316",
+      "question_number": "Q316",
+      "question": "Wind at 5000 ft expected is?",
+      "question_type": "MCQ",
+      "options": [
+        "280/10 kt",
+        "280/15 kt",
+        "280/20 kt"
+      ],
+      "answer": "c",
+      "solution": "280/20 kt",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q317",
+      "question_number": "Q317",
+      "question": "Wind at 20000 ft expected is?",
+      "question_type": "MCQ",
+      "options": [
+        "270/45 kt",
+        "270/45 KMΗ",
+        "270/40 kt"
+      ],
+      "answer": "c",
+      "solution": "270/40 kt",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q318",
+      "question_number": "Q318",
+      "question": "Temperature at 20000 ft expected is?",
+      "question_type": "MCQ",
+      "options": [
+        "-05°C",
+        "05°C",
+        "265 K"
+      ],
+      "answer": "a",
+      "solution": "-05°C",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q319",
+      "question_number": "Q319",
+      "question": "Temperature at 40,000 ft expected is?",
+      "question_type": "MCQ",
+      "options": [
+        "-45°C",
+        "41°C",
+        "233 K"
+      ],
+      "answer": "a",
+      "solution": "-45°C",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q320",
+      "question_number": "Q320",
+      "question": "Date of issue of forecast is?",
+      "question_type": "MCQ",
+      "options": [
+        "10",
+        "01",
+        "02"
+      ],
+      "answer": "c",
+      "solution": "02",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q321",
+      "question_number": "Q321",
+      "question": "Indicator group for Jet stream in ROFOR is",
+      "question_type": "MCQ",
+      "options": [
+        "22222",
+        "11111",
+        "111111"
+      ],
+      "answer": "a",
+      "solution": "22222",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q322",
+      "question_number": "Q322",
+      "question": "Indicator group for Maximum Wind in ROFOR is",
+      "question_type": "MCQ",
+      "options": [
+        "22222",
+        "11111",
+        "111111"
+      ],
+      "answer": "b",
+      "solution": "11111",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q323",
+      "question_number": "Q323",
+      "question": "Maximum Wind speed expected is",
+      "question_type": "MCQ",
+      "options": [
+        "120 kt",
+        "130 kt",
+        "140 kt"
+      ],
+      "answer": "b",
+      "solution": "130 kt",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q324",
+      "question_number": "Q324",
+      "question": "Maximum Wind speed expected at height",
+      "question_type": "MCQ",
+      "options": [
+        "40000 ft",
+        "36000 ft",
+        "38000 ft"
+      ],
+      "answer": "c",
+      "solution": "38000 ft",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q325",
+      "question_number": "Q325",
+      "question": "Jet stream is expected at Lat/Long",
+      "question_type": "MCQ",
+      "options": [
+        "27 N/70 E",
+        "28 N/75 E",
+        "28 N/70 E"
+      ],
+      "answer": "c",
+      "solution": "28 N/70 E",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q326",
+      "question_number": "Q326",
+      "question": "Vertical Wind Shear per 300 m expected is",
+      "question_type": "MCQ",
+      "options": [
+        "25 kt",
+        "30 kt",
+        "38 kt"
+      ],
+      "answer": "a",
+      "solution": "25 kt",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q327",
+      "question_number": "Q327",
+      "question": "Jet stream core speed is expected to be",
+      "question_type": "MCQ",
+      "options": [
+        "125 kt",
+        "120 kt",
+        "140 kt"
+      ],
+      "answer": "c",
+      "solution": "140 kt",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q328",
+      "question_number": "Q328",
+      "question": "Jet stream is expected at a height of",
+      "question_type": "MCQ",
+      "options": [
+        "40,000 ft",
+        "36,000 ft",
+        "38,000 ft"
+      ],
+      "answer": "b",
+      "solution": "36,000 ft",
+      "explanation": ""
+    },
+    {
+      "id": "aviation-weather-forecasts-q329",
+      "question_number": "Q329",
+      "question": "Wind at 40,000 ft expected is ?",
+      "question_type": "MCQ",
+      "options": [
+        "270/105 kt",
+        "270/115 KΜΗ",
+        "270/140 k"
+      ],
+      "answer": "a",
+      "solution": "270/105 kt",
+      "explanation": ""
+    }
+  ]
+}
+

@@ -1,0 +1,290 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 10,
+  "chapter_title": "Optical Phenomena",
+  "chapter_slug": "optical-phenomena",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "optical-phenomena-q1",
+      "question_number": "Q1",
+      "question": "Aurora Australis occur in the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) S hemisphere",
+        "(b) N hemisphere",
+        "(c) Equator"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q2",
+      "question_number": "Q2",
+      "question": "Aurora Australis called ___ Lights",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Northern",
+        "(b) Southern",
+        "(c) Temperate"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q3",
+      "question_number": "Q3",
+      "question": "Aurora Borealis occur in the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) S hemisphere",
+        "(b) N hemisphere",
+        "(c) Equator"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q4",
+      "question_number": "Q4",
+      "question": "Aurora Borealis are called ___ Lights",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Northern",
+        "(b) Southern",
+        "(c) Temperate"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q5",
+      "question_number": "Q5",
+      "question": "Corona occur in ___ clouds",
+      "question_type": "MCQ",
+      "options": [
+        "(a) AS",
+        "(b) NS",
+        "(c) CS"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q6",
+      "question_number": "Q6",
+      "question": "Bishop's ring is due to the diffraction of light by fine particles of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) water",
+        "(b) dust",
+        "(c) ice"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q7",
+      "question_number": "Q7",
+      "question": "The radius of the Bishop's ring is about",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 32°",
+        "(b) 22°",
+        "(c) 42°"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q8",
+      "question_number": "Q8",
+      "question": "Superior Mirage occurs in marked",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Lapse",
+        "(b) Isothermal",
+        "(c) Inversion"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q9",
+      "question_number": "Q9",
+      "question": "Inferior Mirage occurs when there is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Lapse",
+        "(b) Isothermal",
+        "(c) Inversion"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q10",
+      "question_number": "Q10",
+      "question": "Corona are formed due to the ___ of light",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Refraction",
+        "(b) Diffraction",
+        "(c) Scattering"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q11",
+      "question_number": "Q11",
+      "question": "Corona are formed due to light, passing through",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Mist only",
+        "(b) Fog only",
+        "(c) small water or ice particles only",
+        "(d) Any one of all these"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q12",
+      "question_number": "Q12",
+      "question": "Halo is produced by",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Refraction",
+        "(b) Diffraction",
+        "(c) Scattering"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q13",
+      "question_number": "Q13",
+      "question": "Halo is produced when light passes through",
+      "question_type": "MCQ",
+      "options": [
+        "(a) water particles",
+        "(b) ice crystals",
+        "(c) both"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q14",
+      "question_number": "Q14",
+      "question": "Halo occur in the cloud",
+      "question_type": "MCQ",
+      "options": [
+        "(a) AS",
+        "(b) NS",
+        "(c) CS"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q15",
+      "question_number": "Q15",
+      "question": "Halo is luminous ring of ___ radius",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 32°",
+        "(b) 22°",
+        "(c) 42°"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q16",
+      "question_number": "Q16",
+      "question": "Halo round the sun shows a pure clear ___ on the outside",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Red",
+        "(b) Yellow",
+        "(c) Violet"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q17",
+      "question_number": "Q17",
+      "question": "Halo signifies predominance in the cloud of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Supercooled water drops",
+        "(b) Ice crystals",
+        "(c) medium"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q18",
+      "question_number": "Q18",
+      "question": "The cloud which cause Halo has ___ chances of ice accretion",
+      "question_type": "MCQ",
+      "options": [
+        "(a) negligible",
+        "(b) maximum",
+        "(c) medium"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q19",
+      "question_number": "Q19",
+      "question": "Sometimes a halo with a radius of ___ is observed, called Large Halo",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 32°",
+        "(b) 42°",
+        "(c) 22°"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "optical-phenomena-q20",
+      "question_number": "Q20",
+      "question": "Halo occurs from ___ cloud",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Low",
+        "(b) Medium",
+        "(c) High"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}

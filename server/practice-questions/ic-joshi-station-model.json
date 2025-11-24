@@ -1,0 +1,290 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 23,
+  "chapter_title": "Station Model",
+  "chapter_slug": "station-model",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "station-model-q330",
+      "question_number": "Q330",
+      "question": "The direction of surface wind is",
+      "question_type": "MCQ",
+      "options": [
+        "NW",
+        "NE",
+        "SE"
+      ],
+      "answer": "a",
+      "solution": "NW",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q331",
+      "question_number": "Q331",
+      "question": "The range of wind speed is",
+      "question_type": "MCQ",
+      "options": [
+        "20-25 kt",
+        "16-22 kt",
+        "18-22 kt"
+      ],
+      "answer": "c",
+      "solution": "18-22 kt",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q332",
+      "question_number": "Q332",
+      "question": "The type of medium cloud is",
+      "question_type": "MCQ",
+      "options": [
+        "AC",
+        "AS",
+        "AC &AS"
+      ],
+      "answer": "a",
+      "solution": "AC",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q333",
+      "question_number": "Q333",
+      "question": "Low clouds are",
+      "question_type": "MCQ",
+      "options": [
+        "CU",
+        "SC",
+        "ST"
+      ],
+      "answer": "c",
+      "solution": "ST",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q334",
+      "question_number": "Q334",
+      "question": "High clouds are",
+      "question_type": "MCQ",
+      "options": [
+        "CC",
+        "CI",
+        "CS"
+      ],
+      "answer": "b",
+      "solution": "CI",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q335",
+      "question_number": "Q335",
+      "question": "Height of base of low clouds is",
+      "question_type": "MCQ",
+      "options": [
+        "200 m",
+        "250 m",
+        "100 to 199m"
+      ],
+      "answer": "c",
+      "solution": "100 to 199m",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q336",
+      "question_number": "Q336",
+      "question": "Amount of lowest cloud is",
+      "question_type": "MCQ",
+      "options": [
+        "2/8",
+        "4/8",
+        "3/8"
+      ],
+      "answer": "c",
+      "solution": "3/8",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q337",
+      "question_number": "Q337",
+      "question": "Dew Point temperature range is",
+      "question_type": "MCQ",
+      "options": [
+        "29.5 to 30.4°C",
+        "29.1 to 30.4°C",
+        "30.6 to 30.4°C"
+      ],
+      "answer": "a",
+      "solution": "29.5 to 30.4°C",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q338",
+      "question_number": "Q338",
+      "question": "Temperature 34°C is",
+      "question_type": "MCQ",
+      "options": [
+        "Dry",
+        "Wet",
+        "Dew Point"
+      ],
+      "answer": "a",
+      "solution": "Dry",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q339",
+      "question_number": "Q339",
+      "question": "962 represents",
+      "question_type": "MCQ",
+      "options": [
+        "QFE",
+        "QFF",
+        "QNH"
+      ],
+      "answer": "b",
+      "solution": "QFF",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q340",
+      "question_number": "Q340",
+      "question": "Pressure value in hPa is",
+      "question_type": "MCQ",
+      "options": [
+        "996",
+        "996.2",
+        "1096.2"
+      ],
+      "answer": "b",
+      "solution": "996.2",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q341",
+      "question_number": "Q341",
+      "question": "Pressure change of 1.4 hPa is in",
+      "question_type": "MCQ",
+      "options": [
+        "6 hr",
+        "3hr",
+        "24 hr"
+      ],
+      "answer": "c",
+      "solution": "24 hr",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q342",
+      "question_number": "Q342",
+      "question": "Past weather is",
+      "question_type": "MCQ",
+      "options": [
+        "Moderate Light Rain",
+        "Continuous Rain",
+        "Heavy Rain"
+      ],
+      "answer": "a",
+      "solution": "Moderate Light Rain",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q343",
+      "question_number": "Q343",
+      "question": "Rainfall amount is",
+      "question_type": "MCQ",
+      "options": [
+        "2 mm",
+        "1.5 mm",
+        "1.6 to 2.4 mm"
+      ],
+      "answer": "c",
+      "solution": "1.6 to 2.4 mm",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q344",
+      "question_number": "Q344",
+      "question": "Rainfall reported is from",
+      "question_type": "MCQ",
+      "options": [
+        "0300Z of yesterday to 0300Z of today",
+        "0100 to 2400Z",
+        "0530 to 0830 IST"
+      ],
+      "answer": "a",
+      "solution": "0300Z of yesterday to 0300Z of today",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q345",
+      "question_number": "Q345",
+      "question": "Speed of Ship is",
+      "question_type": "MCQ",
+      "options": [
+        "5 KMH",
+        "5 MPS",
+        "5 KT"
+      ],
+      "answer": "c",
+      "solution": "5 KT",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q346",
+      "question_number": "Q346",
+      "question": "Direction of movement of Ship",
+      "question_type": "MCQ",
+      "options": [
+        "NW",
+        "SW",
+        "NE"
+      ],
+      "answer": "c",
+      "solution": "NE",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q347",
+      "question_number": "Q347",
+      "question": "Speed of Ship reported is averaged for",
+      "question_type": "MCQ",
+      "options": [
+        "3 hr",
+        "6 hr",
+        "12 hr"
+      ],
+      "answer": "a",
+      "solution": "3 hr",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q348",
+      "question_number": "Q348",
+      "question": "Surface visibility is",
+      "question_type": "MCQ",
+      "options": [
+        "500 to <1000 m",
+        "1000 to 2000m",
+        "2000 to <4000 m"
+      ],
+      "answer": "c",
+      "solution": "2000 to <4000 m",
+      "explanation": ""
+    },
+    {
+      "id": "station-model-q349",
+      "question_number": "Q349",
+      "question": "Weather reported is",
+      "question_type": "MCQ",
+      "options": [
+        "Rain at the time of observation",
+        "Rain during last one hour",
+        "Rain not at station but within 5 km"
+      ],
+      "answer": "b",
+      "solution": "Rain during last one hour",
+      "explanation": ""
+    }
+  ]
+}
+

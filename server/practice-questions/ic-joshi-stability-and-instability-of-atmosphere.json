@@ -1,0 +1,288 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 9,
+  "chapter_title": "Stability and Instability of Atmosphere",
+  "chapter_slug": "stability-and-instability-of-atmosphere",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "stability-and-instability-of-atmosphere-q1",
+      "question_number": "Q1",
+      "question": "DALR=9.8°C; ELR=6.8°C; atmosphere is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) stable",
+        "(b) unstable",
+        "(c) indifferent"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q2",
+      "question_number": "Q2",
+      "question": "SALR=5.5°C; ELR=4.5°C; atmosphere is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) unstable",
+        "(b) stable",
+        "(c) indifferent"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q3",
+      "question_number": "Q3",
+      "question": "DALR>ELR>SALR",
+      "question_type": "MCQ",
+      "options": [
+        "(a) conditionally unstable",
+        "(b) latently stable",
+        "(c) potentially stable"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q4",
+      "question_number": "Q4",
+      "question": "Dry air is unstable when:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ELR=DALR",
+        "(b) ELR>DALR",
+        "(c) ELR<DALR"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q5",
+      "question_number": "Q5",
+      "question": "The saturated air is said to be unstable if",
+      "question_type": "MCQ",
+      "options": [
+        "(a) SALR=ELR",
+        "(b) SALR<ELR",
+        "(c) SALR > ELR"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q6",
+      "question_number": "Q6",
+      "question": "If ELR=SALR=DALR the atmosphere is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Stable",
+        "(b) Instable",
+        "(c) Indifferent"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q7",
+      "question_number": "Q7",
+      "question": "DALR means:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The rate at which temperature of unsaturated parcel of air falls with height when made to ascend adiabatically",
+        "(b) The rate at which temp falls with height",
+        "(c) The rate at which ascending parcel of saturated air cools"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q8",
+      "question_number": "Q8",
+      "question": "Surface temp. is 30°C Assuming DALR what is the temperature at 2 km",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 18°C",
+        "(b) 10°C",
+        "(c) 42°C"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q9",
+      "question_number": "Q9",
+      "question": "An Isothermal atmosphere is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Stable",
+        "(b) Unstable",
+        "(c) Neutral"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q10",
+      "question_number": "Q10",
+      "question": "If ELR is less than SALR, the atmosphere is said to be:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Absolutely unstable",
+        "(b) Conditionally unstable",
+        "(c) Absolutely stable"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q11",
+      "question_number": "Q11",
+      "question": "DALR is approximately",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 5°C/km",
+        "(b) 15°C/km",
+        "(c) 10°C/km"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q12",
+      "question_number": "Q12",
+      "question": "SALR at mean sea level is about",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 10°C/Km",
+        "(b) 5°C/Km",
+        "(c) 5°F/Km"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q13",
+      "question_number": "Q13",
+      "question": "SALR approaches DALR",
+      "question_type": "MCQ",
+      "options": [
+        "(a) at 0°C",
+        "(b) at -15°F",
+        "(c) at -40°C"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q14",
+      "question_number": "Q14",
+      "question": "Dry air having a temperature of 35°C on surface when forced to rise adiabatically by 1 km would attain a temperature of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 29°C",
+        "(b) 25°C",
+        "(c) 45°C"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q15",
+      "question_number": "Q15",
+      "question": "Inversion in the atmosphere indicates",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Stability",
+        "(b) Instability",
+        "(c) Neutrality"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q16",
+      "question_number": "Q16",
+      "question": "Inversion is ......... Lapse Rate (LR)",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Positive",
+        "(b) Negative",
+        "(c) Neutral"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q17",
+      "question_number": "Q17",
+      "question": "Environmental LR can be more than DALR",
+      "question_type": "MCQ",
+      "options": [
+        "(a) True",
+        "(b) False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q18",
+      "question_number": "Q18",
+      "question": "The process which to a large extent determines the vertical distribution of temperature in atmosphere is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Adiabatic",
+        "(b) Isothermal",
+        "(c) Isentropic"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q19",
+      "question_number": "Q19",
+      "question": "Rise in temperature with height is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Inversion",
+        "(b) Lapse",
+        "(c) Normal"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "stability-and-instability-of-atmosphere-q20",
+      "question_number": "Q20",
+      "question": "Inversion is common in",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Post Monsoon",
+        "(b) Monsoon",
+        "(c) Winters"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}

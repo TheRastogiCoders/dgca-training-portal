@@ -1,0 +1,641 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 21,
+  "chapter_title": "Meteorological Services for Aviation",
+  "chapter_slug": "meteorological-services-for-aviation",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "met-services-aviation-q43",
+      "question_number": "Q43",
+      "question": "For non-scheduled National Flights an advance notice (before ETD) is required to be given to AMOS",
+      "question_type": "MCQ",
+      "options": [
+        "3 hr",
+        "18-24 hr",
+        "6 hr"
+      ],
+      "answer": "a",
+      "solution": "3 hr",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q44",
+      "question_number": "Q44",
+      "question": "For non-scheduled National Flights an advance notice (before ETD) is required to be given to AMSS",
+      "question_type": "MCQ",
+      "options": [
+        "3 hr",
+        "18-24 hr",
+        "6 hr"
+      ],
+      "answer": "b",
+      "solution": "18-24 hr",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q45",
+      "question_number": "Q45",
+      "question": "WAFS provides high quality en-route forecasts of ..... to Met Offices.",
+      "question_type": "MCQ",
+      "options": [
+        "high quality en-route forecasts of winds and temperature Regional Met offices",
+        "SIGMET",
+        "TREND"
+      ],
+      "answer": "a",
+      "solution": "high quality en-route forecasts of winds and temperature Regional Met offices",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q46",
+      "question_number": "Q46",
+      "question": "IMD has Aerodrome Met Offices",
+      "question_type": "MCQ",
+      "options": [
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "c",
+      "solution": "6",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q47",
+      "question_number": "Q47",
+      "question": "There are Aerodrome Met Offices",
+      "question_type": "MCQ",
+      "options": [
+        "17",
+        "18",
+        "19"
+      ],
+      "answer": "b",
+      "solution": "18",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q48",
+      "question_number": "Q48",
+      "question": "There are Aeronautical Met Stations",
+      "question_type": "MCQ",
+      "options": [
+        "56",
+        "54",
+        "52"
+      ],
+      "answer": "b",
+      "solution": "54",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q49",
+      "question_number": "Q49",
+      "question": "In AIREP the Met Information is contained in Section",
+      "question_type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": "c",
+      "solution": "3",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q50",
+      "question_number": "Q50",
+      "question": "TAF are generally valid for",
+      "question_type": "MCQ",
+      "options": [
+        "18 hr",
+        "12 hr",
+        "9hr"
+      ],
+      "answer": "c",
+      "solution": "9hr",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q51",
+      "question_number": "Q51",
+      "question": "The validity of Landing Forecast (TREND) is",
+      "question_type": "MCQ",
+      "options": [
+        "1 hr",
+        "2 hr",
+        "3 hr"
+      ],
+      "answer": "b",
+      "solution": "2 hr",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q52",
+      "question_number": "Q52",
+      "question": "Landing Forecast is append to",
+      "question_type": "MCQ",
+      "options": [
+        "METAR and SPECI",
+        "TAF",
+        "AIREP"
+      ],
+      "answer": "a",
+      "solution": "METAR and SPECI",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q53",
+      "question_number": "Q53",
+      "question": "Local/Area Forecast is issued three times a day valid for next",
+      "question_type": "MCQ",
+      "options": [
+        "18 hr",
+        "12hr",
+        "9hr"
+      ],
+      "answer": "b",
+      "solution": "12hr",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q54",
+      "question_number": "Q54",
+      "question": "Area Forecast covers an area",
+      "question_type": "MCQ",
+      "options": [
+        "100 NM",
+        "100 km",
+        "50 NM"
+      ],
+      "answer": "a",
+      "solution": "100 NM",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q55",
+      "question_number": "Q55",
+      "question": "Global SIGWX Charts are issued by",
+      "question_type": "MCQ",
+      "options": [
+        "WMO",
+        "AMO",
+        "WAFC"
+      ],
+      "answer": "c",
+      "solution": "WAFC",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q56",
+      "question_number": "Q56",
+      "question": "Global SIGWX Charts are valid for",
+      "question_type": "MCQ",
+      "options": [
+        "18 hr",
+        "24 hr",
+        "9hr"
+      ],
+      "answer": "b",
+      "solution": "24 hr",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q57",
+      "question_number": "Q57",
+      "question": "Global SIGWX Charts for high-level are issued for Flight Levels",
+      "question_type": "MCQ",
+      "options": [
+        "250 & 630",
+        "460 & 100",
+        "460 & 260"
+      ],
+      "answer": "a",
+      "solution": "250 & 630",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q58",
+      "question_number": "Q58",
+      "question": "CODAR is",
+      "question_type": "MCQ",
+      "options": [
+        "Radar Report",
+        "Coded ARFOR",
+        "Upper report from an aircraft, other than weather reconnaissance aircraft"
+      ],
+      "answer": "c",
+      "solution": "Upper report from an aircraft, other than weather reconnaissance aircraft",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q59",
+      "question_number": "Q59",
+      "question": "WINTEM is",
+      "question_type": "MCQ",
+      "options": [
+        "Actual upper winds",
+        "Forecast upper wind and temperature",
+        "Actual temperature and upper winds"
+      ],
+      "answer": "b",
+      "solution": "Forecast upper wind and temperature",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q60",
+      "question_number": "Q60",
+      "question": "SIGMET is a notice of severe weather for aircraft",
+      "question_type": "MCQ",
+      "options": [
+        "actual",
+        "expected",
+        "both"
+      ],
+      "answer": "c",
+      "solution": "both",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q61",
+      "question_number": "Q61",
+      "question": "SIGMET is issued for",
+      "question_type": "MCQ",
+      "options": [
+        "in flight",
+        "on ground",
+        "both"
+      ],
+      "answer": "a",
+      "solution": "in flight",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q62",
+      "question_number": "Q62",
+      "question": "SIGMET is issued by",
+      "question_type": "MCQ",
+      "options": [
+        "WAFC",
+        "AMO",
+        "MWO"
+      ],
+      "answer": "c",
+      "solution": "MWO",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q63",
+      "question_number": "Q63",
+      "question": "SIGMET is valid for",
+      "question_type": "MCQ",
+      "options": [
+        "4 hr",
+        "8 hr",
+        "9 hr"
+      ],
+      "answer": "a",
+      "solution": "4 hr",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q64",
+      "question_number": "Q64",
+      "question": "SIGMET is not issued for",
+      "question_type": "MCQ",
+      "options": [
+        "Rain",
+        "Volcanic Ash",
+        "SEV Icing"
+      ],
+      "answer": "a",
+      "solution": "Rain",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q65",
+      "question_number": "Q65",
+      "question": "AIRMET is SIGMET issued by a MWO for the safety of",
+      "question_type": "MCQ",
+      "options": [
+        "low-level aircraft",
+        "high-level aircraft",
+        "both"
+      ],
+      "answer": "a",
+      "solution": "low-level aircraft",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q66",
+      "question_number": "Q66",
+      "question": "GAMET is an area forecast in abbreviated plain language for",
+      "question_type": "MCQ",
+      "options": [
+        "low level flights",
+        "high level flights",
+        "all level flights"
+      ],
+      "answer": "a",
+      "solution": "low level flights",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q67",
+      "question_number": "Q67",
+      "question": "The validity of Airfield warnings is not exceeding",
+      "question_type": "MCQ",
+      "options": [
+        "3 hr",
+        "4 hr",
+        "6 hr"
+      ],
+      "answer": "b",
+      "solution": "4 hr",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q68",
+      "question_number": "Q68",
+      "question": "Airfield warning is issued for expected wind speed",
+      "question_type": "MCQ",
+      "options": [
+        "30 kt",
+        "24 kt",
+        "15 kt"
+      ],
+      "answer": "a",
+      "solution": "30 kt",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q69",
+      "question_number": "Q69",
+      "question": "Airfield warning is issued for wind direction of 20 kt changes by",
+      "question_type": "MCQ",
+      "options": [
+        "45°",
+        "30°",
+        "60°"
+      ],
+      "answer": "a",
+      "solution": "45°",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q70",
+      "question_number": "Q70",
+      "question": "Airfield Warning for gliders, light aircraft and helicopters is issued for expected wind speed",
+      "question_type": "MCQ",
+      "options": [
+        "15 kt",
+        "17 kt",
+        "30 kt"
+      ],
+      "answer": "b",
+      "solution": "17 kt",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q71",
+      "question_number": "Q71",
+      "question": "Wind Shear Warning is issued for the observed or expected wind shear above runway",
+      "question_type": "MCQ",
+      "options": [
+        "up to 500 m",
+        "above 500 m",
+        "300 m"
+      ],
+      "answer": "a",
+      "solution": "up to 500 m",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q72",
+      "question_number": "Q72",
+      "question": "VOLMET is a MET information for aircraft",
+      "question_type": "MCQ",
+      "options": [
+        "on ground",
+        "in flight",
+        "both"
+      ],
+      "answer": "b",
+      "solution": "in flight",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q73",
+      "question_number": "Q73",
+      "question": "VOLMET Radio Telephony Broadcast made on HF Channel from",
+      "question_type": "MCQ",
+      "options": [
+        "Mumbai only",
+        "Kolkata only",
+        "both Kolkata and Mumbai"
+      ],
+      "answer": "c",
+      "solution": "both Kolkata and Mumbai",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q74",
+      "question_number": "Q74",
+      "question": "VOLMET consists of",
+      "question_type": "MCQ",
+      "options": [
+        "SIGMET",
+        "TAF only",
+        "TAF and METAR"
+      ],
+      "answer": "c",
+      "solution": "TAF and METAR",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q75",
+      "question_number": "Q75",
+      "question": "In ROBEX the METAR/SPECI of international aerodromes and their alternates is exchanged",
+      "question_type": "MCQ",
+      "options": [
+        "within India",
+        "outside India"
+      ],
+      "answer": "b",
+      "solution": "outside India",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q76",
+      "question_number": "Q76",
+      "question": "Global SIGWX Charts are issued times a day",
+      "question_type": "MCQ",
+      "options": [
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answer": "c",
+      "solution": "Four",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q77",
+      "question_number": "Q77",
+      "question": "Global SIGWX Charts for Medium-level are issued for Flight Levels",
+      "question_type": "MCQ",
+      "options": [
+        "150 & 200",
+        "100 & 250",
+        "100 & 150"
+      ],
+      "answer": "b",
+      "solution": "100 & 250",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q78",
+      "question_number": "Q78",
+      "question": "In India who compiles a single National SIGWX chart:",
+      "question_type": "MCQ",
+      "options": [
+        "New Delhi",
+        "Mumbai",
+        "Kolkata",
+        "Chennai"
+      ],
+      "answer": "d",
+      "solution": "Chennai",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q79",
+      "question_number": "Q79",
+      "question": "The Indian National SIGWX chart is made for Medium Levels between Flight Levels",
+      "question_type": "MCQ",
+      "options": [
+        "150 & 200",
+        "100 & 250",
+        "100 & 150"
+      ],
+      "answer": "b",
+      "solution": "100 & 250",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q80",
+      "question_number": "Q80",
+      "question": "The Indian National SIGWX chart is valid for",
+      "question_type": "MCQ",
+      "options": [
+        "24 hr",
+        "18 hr",
+        "12 hr"
+      ],
+      "answer": "a",
+      "solution": "24 hr",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q81",
+      "question_number": "Q81",
+      "question": "In India the National SIGWX chart is issued",
+      "question_type": "MCQ",
+      "options": [
+        "2 times a day",
+        "4 times a day",
+        "6 times a day"
+      ],
+      "answer": "b",
+      "solution": "4 times a day",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q82",
+      "question_number": "Q82",
+      "question": "Individual TS which cover less than 50% area, is termed as",
+      "question_type": "MCQ",
+      "options": [
+        "FRQ",
+        "ISOL",
+        "OCNL"
+      ],
+      "answer": "b",
+      "solution": "ISOL",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q83",
+      "question_number": "Q83",
+      "question": "If TS cells have no separation between adjacent TS and cover an area more than 75%, it is termed as",
+      "question_type": "MCQ",
+      "options": [
+        "FRQ",
+        "ISOL",
+        "OCNL"
+      ],
+      "answer": "a",
+      "solution": "FRQ",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q84",
+      "question_number": "Q84",
+      "question": "If TS cells are well separated and cover an area 50 - 75%, it is termed as",
+      "question_type": "MCQ",
+      "options": [
+        "FRQ",
+        "ISOL",
+        "OCNL"
+      ],
+      "answer": "c",
+      "solution": "OCNL",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q85",
+      "question_number": "Q85",
+      "question": "The Indian National SIGWX chart is made for High Levels between Flight Levels",
+      "question_type": "MCQ",
+      "options": [
+        "150 & 200",
+        "100 & 250",
+        "100 & 150",
+        "FL250 and FL630"
+      ],
+      "answer": "d",
+      "solution": "FL250 and FL630",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q86",
+      "question_number": "Q86",
+      "question": "Local Forecast covers an area",
+      "question_type": "MCQ",
+      "options": [
+        "100 NM",
+        "100 km",
+        "50 NM"
+      ],
+      "answer": "c",
+      "solution": "50 NM",
+      "explanation": ""
+    },
+    {
+      "id": "met-services-aviation-q87",
+      "question_number": "Q87",
+      "question": "Nowcasting forecast is valid for :",
+      "question_type": "MCQ",
+      "options": [
+        "30 hr",
+        "48 hr",
+        "less than 24 hr"
+      ],
+      "answer": "c",
+      "solution": "less than 24 hr",
+      "explanation": ""
+    }
+  ]
+}
+

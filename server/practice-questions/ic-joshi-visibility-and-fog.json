@@ -1,0 +1,293 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 7,
+  "chapter_title": "Visibility and Fog",
+  "chapter_slug": "visibility-and-fog",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "visibility-and-fog-q1",
+      "question_number": "Q1",
+      "question": "Fog is reported when visibility is reduced to",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Less than 1000 m",
+        "(b) 1000m",
+        "(c) 1000 to 2000"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q2",
+      "question_number": "Q2",
+      "question": "RVR is reported when visibility falls below",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 500 m",
+        "(b) 1000 m",
+        "(c) 1500 m",
+        "(d) 2000 m"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q3",
+      "question_number": "Q3",
+      "question": "Radiation fog occurs",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Over land",
+        "(b) Over sea",
+        "(c) During day"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q4",
+      "question_number": "Q4",
+      "question": "When visibility reduces between 5000 m and 1000 m and RH is almost 100%, it is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Mist",
+        "(b) Haze",
+        "(c) Fog"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q5",
+      "question_number": "Q5",
+      "question": "Radiation Fog forms over N India during",
+      "question_type": "MCQ",
+      "options": [
+        "(a) May to June",
+        "(b) Dec to Feb",
+        "(c) Oct to Nov."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q6",
+      "question_number": "Q6",
+      "question": "Warm and moist air moving over a cold ground gives rise to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Thunder clouds",
+        "(b) Fog and stratus",
+        "(c) Frontal clouds"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q7",
+      "question_number": "Q7",
+      "question": "Warm and moist air moving over a cold surface causes",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Radiation Fog",
+        "(b) Advection Fog",
+        "(c) Frontal Fog"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q8",
+      "question_number": "Q8",
+      "question": "The radiation fog forms due to",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Heating of the earth during day",
+        "(b) Radiational cooling of earth at night",
+        "(c) Advection of cold air"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q9",
+      "question_number": "Q9",
+      "question": "The radiation fog activity increases after the passage of a",
+      "question_type": "MCQ",
+      "options": [
+        "(a) WD",
+        "(b) Depression",
+        "(c) Col"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q10",
+      "question_number": "Q10",
+      "question": "Radiation fog is essentially a ___ phenomena",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Nocturnal",
+        "(b) Dusk",
+        "(c) Day"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q11",
+      "question_number": "Q11",
+      "question": "The radiation fog forms over",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Water",
+        "(b) Land",
+        "(c) Both"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q12",
+      "question_number": "Q12",
+      "question": "The ...... fog forms due to horizontal movement of warm moist air over cold surface",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Radiation",
+        "(b) Advection",
+        "(c) Frontal"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q13",
+      "question_number": "Q13",
+      "question": "Advection fog forms during",
+      "question_type": "MCQ",
+      "options": [
+        "(a) night only",
+        "(b) day time only",
+        "(c) any time of day and night"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q14",
+      "question_number": "Q14",
+      "question": "For formation of Radiation fog",
+      "question_type": "MCQ",
+      "options": [
+        "(a) There should be sufficient moisture in atmosphere, cloudy sky, nil wind",
+        "(b) There should be sufficient moisture in atmosphere, clear sky, light wind.",
+        "(c) There should be sufficient moisture in atmosphere, cloudy sky, strong wind."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q15",
+      "question_number": "Q15",
+      "question": "Instrument used for measuring visibility is called",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Visiometer",
+        "(b) Transmissometer",
+        "(c) Ceilometer"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q16",
+      "question_number": "Q16",
+      "question": "Advection fog forms",
+      "question_type": "MCQ",
+      "options": [
+        "(a) over sea",
+        "(b) over Land",
+        "(c) both over land and sea"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q17",
+      "question_number": "Q17",
+      "question": "Fog is ___ cloud on ground",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Stratocumulus",
+        "(b) Stratus",
+        "(c) Nimbostratus"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q18",
+      "question_number": "Q18",
+      "question": "Frontal Fog is more common with a",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Western Disturbance",
+        "(b) Cyclone",
+        "(c) Warm Front",
+        "(d) Cold Front"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q19",
+      "question_number": "Q19",
+      "question": "The favourable pressure system for formation of fog is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Lows and Cols",
+        "(b) High and Trough",
+        "(c) Lows and Ridges",
+        "(d) Highs and Cols"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "visibility-and-fog-q20",
+      "question_number": "Q20",
+      "question": "Thermal processes / temperature distribution which favours formation of fog is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Isothermal",
+        "(b) Adiabatic",
+        "(c) Inversion",
+        "(d) SALR"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 6,
+  "chapter_title": "Winds",
+  "chapter_slug": "winds",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "winds-q1",
+      "question_number": "Q1",
+      "question": "In S hemisphere if an observer faces wind, low will be to his",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Right",
+        "(b) Left"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q2",
+      "question_number": "Q2",
+      "question": "In N hemisphere due to rotation of earth winds are deflected to .........",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Left",
+        "(b) Right"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q3",
+      "question_number": "Q3",
+      "question": "Local Winds follow Buys Ballots law.......",
+      "question_type": "MCQ",
+      "options": [
+        "(a) False",
+        "(b) True"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q4",
+      "question_number": "Q4",
+      "question": "Coriolis force acts perpendicular to the ............. of wind direction in N hemisphere",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Left",
+        "(b) Right"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q5",
+      "question_number": "Q5",
+      "question": "Geostrophic wind is due to the balance between the forces",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Coriolis and Frictional",
+        "(b) Pressure gradient and Cyclostrophic",
+        "(c) Pressure gradient and Coriolis"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q6",
+      "question_number": "Q6",
+      "question": "Coriolis force is strongest at",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Mid latitudes",
+        "(b) Poles",
+        "(c) Equator"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q7",
+      "question_number": "Q7",
+      "question": "Geostrophic rule breaks down at",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Mid latitudes",
+        "(b) Poles",
+        "(c) Equator"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q8",
+      "question_number": "Q8",
+      "question": "Fohn winds are ___ on the Leeward side of a mountain.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Dry & Warm",
+        "(b) Cold & Humid"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q9",
+      "question_number": "Q9",
+      "question": "The wind sliding down a hill during night is called ....... wind.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Fohn",
+        "(b) Anabatic",
+        "(c) Katabatic"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q10",
+      "question_number": "Q10",
+      "question": "With the onset of sea breeze there is a ___ in temperature and ___ in RH.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Fall/Rise",
+        "(b) Rise/Fall",
+        "(c) Fall/Fall"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q11",
+      "question_number": "Q11",
+      "question": "Sea breeze sets in by ........... and dies off at",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Night/Day",
+        "(b) Day/Night",
+        "(c) Both Day and Night"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q12",
+      "question_number": "Q12",
+      "question": "If an aircraft in N-hemisphere flies from H to L it will experience",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Starboard drift",
+        "(b) Port drift"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q13",
+      "question_number": "Q13",
+      "question": "In N-Hemisphere if you experience Port drift, altimeter will read",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Under",
+        "(b) Over"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q14",
+      "question_number": "Q14",
+      "question": "Lines of constant wind speed drawn on weather charts are called",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Isobars",
+        "(b) Isotachs",
+        "(c) Isogons"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q15",
+      "question_number": "Q15",
+      "question": "Squall are distinguished from gusts by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Shorter duration",
+        "(b) Longer duration",
+        "(c) Lower wind speed"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q16",
+      "question_number": "Q16",
+      "question": "The thermal wind is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The wind that blows because of thermals",
+        "(b) The warm wind that blows down the hill on the leeward side",
+        "(c) The wind which must be added vectorially to the lower level geostrophic wind to obtain the upper level geostrophic wind"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q17",
+      "question_number": "Q17",
+      "question": "On a weather map if isobars are closely packed, the surface winds are likely to be",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Light and parallel to isobars",
+        "(b) Strong and parallel to isobars",
+        "(c) Strong and blowing across the isobars"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q18",
+      "question_number": "Q18",
+      "question": "Anabatic wind occurs",
+      "question_type": "MCQ",
+      "options": [
+        "(a) At night",
+        "(b) Any time of day and night",
+        "(c) During day"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q19",
+      "question_number": "Q19",
+      "question": "Anabatic wind is stronger than katabatic",
+      "question_type": "MCQ",
+      "options": [
+        "(a) True",
+        "(b) False"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q20",
+      "question_number": "Q20",
+      "question": "Katabatic wind is down slope cold wind due to nocturnal cooling",
+      "question_type": "MCQ",
+      "options": [
+        "(a) True",
+        "(b) False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q21",
+      "question_number": "Q21",
+      "question": "Katabatic wind occur due to sinking of cold air down the hill slope",
+      "question_type": "MCQ",
+      "options": [
+        "(a) True",
+        "(b) False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q22",
+      "question_number": "Q22",
+      "question": "Anabatic wind occur due to downward movement of air along valley",
+      "question_type": "MCQ",
+      "options": [
+        "(a) True",
+        "(b) False"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q23",
+      "question_number": "Q23",
+      "question": "Sea breeze is stronger than land breeze",
+      "question_type": "MCQ",
+      "options": [
+        "(a) True",
+        "(b) False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q24",
+      "question_number": "Q24",
+      "question": "The wind blows clockwise around a low in N-hemisphere",
+      "question_type": "MCQ",
+      "options": [
+        "(a) True",
+        "(b) False"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q25",
+      "question_number": "Q25",
+      "question": "The wind blows clockwise around a low in S-hemisphere",
+      "question_type": "MCQ",
+      "options": [
+        "(a) True",
+        "(b) False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q26",
+      "question_number": "Q26",
+      "question": "The wind blows anticlockwise around a low in N-hemisphere",
+      "question_type": "MCQ",
+      "options": [
+        "(a) True",
+        "(b) False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q27",
+      "question_number": "Q27",
+      "question": "The wind blows anticlockwise around a low in S- hemisphere",
+      "question_type": "MCQ",
+      "options": [
+        "(a) True",
+        "(b) False"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q28",
+      "question_number": "Q28",
+      "question": "The resultant wind that blows under the influence of pressure gradient force, geostrophic force and cyclostrophic force is called",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Gradient wind",
+        "(b) Geostrophic wind",
+        "(c) Cyclostrophic wind"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q29",
+      "question_number": "Q29",
+      "question": "Due to friction, from day to night for an isobaric pattern (in N hemisphere) the surface wind backs and weakens",
+      "question_type": "MCQ",
+      "options": [
+        "(a) True",
+        "(b) False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q30",
+      "question_number": "Q30",
+      "question": "The winds which spirals inward counter-clockwise in the N Hemisphere are associated with",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Turbulence",
+        "(b) High pressure area",
+        "(c) Low pressure area"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q31",
+      "question_number": "Q31",
+      "question": "Lower level wind 05010 kt, upper level wind 23005 kt, what is the thermal wind",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 05005 kt",
+        "(b) 23015 kt",
+        "(c) 05015 kt"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q32",
+      "question_number": "Q32",
+      "question": "A change in wind direction from 310° to 020° is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Backing",
+        "(b) Veering"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q33",
+      "question_number": "Q33",
+      "question": "A change from 270° to 250° is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Backing",
+        "(b) Veering"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q34",
+      "question_number": "Q34",
+      "question": "Sudden changes in wind speed from 10 kt to 30 kt and then to 15 kt are",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Gust",
+        "(b) Squall",
+        "(c) gale"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q35",
+      "question_number": "Q35",
+      "question": "Sudden change in wind speed from 10 kt to 30 kt for 2 - 3 minutes",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Squall",
+        "(b) Gust"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q36",
+      "question_number": "Q36",
+      "question": "A significant wind shear is generally associated with TS or line squall",
+      "question_type": "MCQ",
+      "options": [
+        "(a) False",
+        "(b) True"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q37",
+      "question_number": "Q37",
+      "question": "Cyclostrophic wind gives a good approximation of the 2000' wind in an intense tropical storm",
+      "question_type": "MCQ",
+      "options": [
+        "(a) True",
+        "(b) False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q38",
+      "question_number": "Q38",
+      "question": "Rotor clouds have extremely turbulent flying conditions",
+      "question_type": "MCQ",
+      "options": [
+        "(a) False",
+        "(b) True"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q39",
+      "question_number": "Q39",
+      "question": "Friction causes winds to flow cross isobaric by ...... over land and ...... over sea",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 20°/10°",
+        "(b) 30°/15°",
+        "(c) 40°/30°"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q40",
+      "question_number": "Q40",
+      "question": "If the S is warmer than the N, level by level, from surface up to higher levels, then the ___ wind will strengthen with height with no change in direction in N hemisphere",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Ely",
+        "(b) Wly",
+        "(c) Sly",
+        "(d) Nly"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q41",
+      "question_number": "Q41",
+      "question": "Gradient wind is ___ of the geostrophic wind in an anticyclone",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Under estimate",
+        "(b) Accurate",
+        "(c) Over estimate"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q42",
+      "question_number": "Q42",
+      "question": "Gale is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Persistent strong winds with mean speed 44 kt, associated with thunderstorm",
+        "(b) Marked increase in wind speed lasing few minutes associated with CB or DS",
+        "(c) Persistent strong winds exceeding 33 kt, associated with depression"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q43",
+      "question_number": "Q43",
+      "question": "In N hemisphere thermal wind is parallel to ...... with low value to left",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Isobars",
+        "(b) Isotherms",
+        "(c) Isallobars"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q44",
+      "question_number": "Q44",
+      "question": "The inertial flow is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) cyclonic in both the Hemispheres",
+        "(b) anti cyclonic in both the Hemispheres",
+        "(c) anti cyclonic around an anticyclone"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "winds-q45",
+      "question_number": "Q45",
+      "question": "Upper level wind is 24025 kt, lower level wind is 06015 kt, the thermal wind is?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 16010 kt",
+        "(b) 24040 kt",
+        "(c) 24010 kt"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    }
+  ]
+}

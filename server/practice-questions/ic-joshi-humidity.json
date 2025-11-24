@@ -1,0 +1,138 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 5,
+  "chapter_title": "HUMIDITY",
+  "questions": [
+    {
+      "question_number": "Q1",
+      "question": "The ratio in % between the amount of water vapour present in the air to the amount of water vapour that it can hold at the same temperature is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Humidity",
+        "(b) Relative humidity",
+        "(c) Dew point"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q2",
+      "question": "The temperature to which air be cooled at constant pressure to become saturated, is called",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Wet bulb temperature",
+        "(b) Dry bulb temperature",
+        "(c) Dew point",
+        "(d) Humidity"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q3",
+      "question": "Free air temperature, Wet bulb temperature and Dew point temperature are equal when",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Air temperature is 0°C",
+        "(b) Relative humidity is 100%",
+        "(c) Air temperature is not below 0°C"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q4",
+      "question": "On a rainy day compared to sunny day the length of runway required is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) More",
+        "(b) Less",
+        "(c) Same"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q5",
+      "question": "The spread (difference) between Free air temperature and Dew point temperature is ___ when air is saturated",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Large",
+        "(b) Least"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q6",
+      "question": "The saturation vapour pressure over water is ___ than the ice",
+      "question_type": "MCQ",
+      "options": [
+        "(a) More",
+        "(b) Less",
+        "(c) Same"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q7",
+      "question": "As the temperature of the air increases, the amount of water vapour required to saturate it",
+      "question_type": "MCQ",
+      "options": [
+        "(a) decreases",
+        "(b) increases",
+        "(c) remains same"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q8",
+      "question": "The actual amount of water vapour contained in a given volume of air at a given temperature is termed as",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Relative Humidity",
+        "(b) Specific Humidity",
+        "(c) Absolute Humidity"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q9",
+      "question": "Humidity Mixing Ratio ___ when air is lifted adiabatically",
+      "question_type": "MCQ",
+      "options": [
+        "(a) decreases",
+        "(b) remains constant",
+        "(c) increases"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q10",
+      "question": "It is the lowest temperature which air would attain by evaporating water into it to saturate it.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Wet bulb temp",
+        "(b) Dry bulb temp",
+        "(c) Dew point"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    }
+  ]
+}
+

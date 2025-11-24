@@ -1,0 +1,601 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 1,
+  "chapter_title": "ATMOSPHERE",
+  "questions": [
+    {
+      "question_number": "Q1",
+      "question": "Lowest layer of atmosphere is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Troposphere",
+        "(b) Tropopause",
+        "(c) Stratosphere"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q2",
+      "question": "Height of Tropopause at equator is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 8-10 km",
+        "(b) 16-18 km",
+        "(c) 14 km"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q3",
+      "question": "Height of Tropopause at Poles is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 12 km",
+        "(b) 13 km",
+        "(c) 08 km"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q4",
+      "question": "Higher the surface temperature would be the tropopause",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Higher",
+        "(b) Lower",
+        "(c) Same"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q5",
+      "question": "Height of tropopause",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Is constant",
+        "(b) Varies with altitude",
+        "(c) Varies with Latitude"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q6",
+      "question": "Above 8 km the lower temperatures are over",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Equator",
+        "(b) Mid Latitudes",
+        "(c) Poles"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q7",
+      "question": "Atmosphere is heated by",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Solar Radiation",
+        "(b) Heat from earth surface",
+        "(c) From above"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q8",
+      "question": "The temperature at 80 km is ...",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 173 K",
+        "(b) 100 K",
+        "(c) -137°C"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q9",
+      "question": "CO2 and H2O are also called",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Green House Gases",
+        "(b) Rare Earth Gases",
+        "(c) Neutral"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q10",
+      "question": "Troposphere is generally",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Stable",
+        "(b) Unstable",
+        "(c) Neutral"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q11",
+      "question": "Stratosphere is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Unstable",
+        "(b) Stable",
+        "(c) Neutral"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q12",
+      "question": "Tropopause is discontinuous at about",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 30°lat",
+        "(b) 40°lat",
+        "(c) 80°lat"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q13",
+      "question": "Most of atmospheric mass is contained in",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Troposphere",
+        "(b) Stratosphere",
+        "(c) Heterosphere"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q14",
+      "question": "Stratosphere extends from Tropopause to",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 40 km",
+        "(b) 60 km",
+        "(c) 50 km"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q15",
+      "question": "The middle atmosphere layer with temperature inversion and stability",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Tropopause",
+        "(b) Troposphere",
+        "(c) Stratosphere"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q16",
+      "question": "Mother of Pearl clouds occur in",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Stratosphere",
+        "(b) Mesosphere",
+        "(c) Thermosphere"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q17",
+      "question": "The temperature in ISA at 17 km is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) -56.5°C",
+        "(b) -35.5°C",
+        "(c) -65.5°C"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q18",
+      "question": "By weight, approximate ratio of O2 to N2 in the atmosphere is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1:4",
+        "(b) 1:3",
+        "(c) 1:5"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q19",
+      "question": "By volume, the approximate ratio of O2 to N2 in the atmosphere is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1:4",
+        "(b) 1:3",
+        "(c) 1:5"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q20",
+      "question": "By volume, the proportion of CO2 in the atmosphere is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 0.3%",
+        "(b) 3%",
+        "(c) 0.03%"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q21",
+      "question": "In ISA, the mean sea level temperature is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 10°C",
+        "(b) 15°C",
+        "(c) 25°C"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q22",
+      "question": "Maximum concentration of ozone is at a height of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 10-15 km",
+        "(b) 20-25 km",
+        "(c) 30-35 km"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q23",
+      "question": "Additional oxygen is needed while flying above",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 5000 ft",
+        "(b) 7000 ft",
+        "(c) 10000 ft"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q24",
+      "question": "CO2 and H2O keep the atmosphere",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Warm",
+        "(b) Cold",
+        "(c) Have no effect"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q25",
+      "question": "Noctilucent clouds occur in",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Thermosphere",
+        "(b) Mesosphere",
+        "(c) Stratosphere"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q26",
+      "question": "Temperature at 2 km is 05°C what is ISA deviation. Hint: (Actual - ISA)",
+      "question_type": "MCQ",
+      "options": [
+        "(a) -05°C",
+        "(b) -02°C",
+        "(c) 03°C"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q27",
+      "question": "Pressure at MSL is 1002.25 hPa. Find the ISA deviation Hint: (Actual - ISA)",
+      "question_type": "MCQ",
+      "options": [
+        "(a) -11 hPa",
+        "(b) 10 hPa",
+        "(c) 12 hPa"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q28",
+      "question": "In actual atmosphere temp. at 19 km is -60°C Find the ISA deviation?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) -05.5°C",
+        "(b) -4.5°C",
+        "(c) -03.5°C"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q29",
+      "question": "Nacreous clouds occur in",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Thermosphere",
+        "(b) Mesosphere",
+        "(c) Upper Stratosphere"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q30",
+      "question": "The atmosphere up to 80 km has a nearly similar composition and is called the Homosphere. Its uniform composition is due to",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Pressure",
+        "(b) Gravitation of earth",
+        "(c) Mixing due to turbulence"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q31",
+      "question": "Half of the atmospheric air mass is contained below",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 20,000 ft",
+        "(b) 15,000 ft",
+        "(c) 10,000 ft"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q32",
+      "question": "In jet standard atmosphere the Lapse Rate is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2°C/1000 ft",
+        "(b) 2°C/km",
+        "(c) 5°C/km"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q33",
+      "question": "The rate of fall of temperatures with height, called",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Isothermal rate",
+        "(b) Inversion Rate",
+        "(c) Lapse Rate"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q34",
+      "question": "In actual atmosphere the lapse rate could",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Assume any value",
+        "(b) fall up to 8 km.",
+        "(c) rise up to 50 km"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q35",
+      "question": "Tropical Tropopause extends from the equator to Lat. 35°-40°. Over India it is at",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 20-21 km",
+        "(b) 14-15 km",
+        "(c) 16-16.5 km"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q36",
+      "question": "Lapse rate in the troposphere is produced by ___ and in the stratosphere by ___",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Evaporation; condensation",
+        "(b) Terrestrial radiation; solar radiation",
+        "(c) rising air; solar radiation",
+        "(d) solar radiation; convection"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q37",
+      "question": "Most of the water vapour in the atmosphere is confined up to",
+      "question_type": "MCQ",
+      "options": [
+        "(a) stratosphere",
+        "(b) 30,000 ft",
+        "(c) Mid troposphere",
+        "(d) lower troposphere"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q38",
+      "question": "Negative lapse rate of temperature is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Isothermal rate",
+        "(b) temperature rise with lowering height",
+        "(c) Temperature rise with height",
+        "(d) temperature fall with height"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q39",
+      "question": "In ICAO ISA the atmosphere is assumed to be isothermal",
+      "question_type": "MCQ",
+      "options": [
+        "(a) in stratosphere",
+        "(b) 11 to 16 km",
+        "(c) 11 to 20 km",
+        "(d) 11 to 32 km"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q40",
+      "question": "One of the characteristics of our atmosphere is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Poor conductor of heat and electricity",
+        "(b) Equator is warmer than poles above 10 km",
+        "(c) Lapse rate in the stratosphere is positive",
+        "(d) Density is constant above 8 km"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q41",
+      "question": "Heat transfer in the atmosphere is maximum due to",
+      "question_type": "MCQ",
+      "options": [
+        "(a) convection",
+        "(b) radiation",
+        "(c) sensible heat",
+        "(d) latent heat"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q42",
+      "question": "The knowledge of the height of tropopause is important for a pilot because",
+      "question_type": "MCQ",
+      "options": [
+        "(a) weather is mainly confined up to this level",
+        "(b) clouds rarely reach up to this height due to jetstream",
+        "(c) stratosphere starts at this height where all solar radiation are absorbed"
+      ],
+      "answer": "ab",
+      "solution": "ab",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q43",
+      "question": "In ISA atmosphere the tropopause occurs at a height of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 8-10 km",
+        "(b) 11 km",
+        "(c) 16-18 km"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q44",
+      "question": "Most of the transfer of heat in the atmosphere is due to",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Conduction and freezing",
+        "(b) convection and evaporation",
+        "(c) Condensation, sublimation and freezing",
+        "(d) sublimation and radiation"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q45",
+      "question": "There is reversal of temperature in the atmosphere at 8 km because MTAS",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Lapse rate at poles is always higher than at equator",
+        "(b) Lapse rate at equator is always higher than at poles",
+        "(c) Lapse rate at equator is the same as at poles even above the poles",
+        "(d) Lapse rate reverses at poles and becomes negative"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    }
+  ]
+}
+

@@ -4,6 +4,7 @@ import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 import Modal from './ui/Modal';
 import { API_ENDPOINTS } from '../config/api';
+import { resolveChapterSlug } from '../utils/chapterSlug';
 
 const friendly = (slug) => (slug || '')
   .split('-')
@@ -40,9 +41,14 @@ const BookPracticeRunner = () => {
     name = name.replace(/\s*2014\s*/gi, ' ').trim();
     return name;
   }, [bookSlug]);
-  const storageKey = useMemo(
-    () => `bookPractice:${bookSlug}:${chapterSlug || 'all'}`,
+  const resolvedChapterSlug = useMemo(
+    () => (chapterSlug ? resolveChapterSlug(bookSlug, chapterSlug) : ''),
     [bookSlug, chapterSlug]
+  );
+
+  const storageKey = useMemo(
+    () => `bookPractice:${bookSlug}:${resolvedChapterSlug || 'all'}`,
+    [bookSlug, resolvedChapterSlug]
   );
 
   const restoreState = (items) => {
@@ -87,7 +93,7 @@ const BookPracticeRunner = () => {
       try {
         setLoading(true);
         setError('');
-        const query = chapterSlug ? `?chapter=${encodeURIComponent(chapterSlug)}` : '';
+        const query = resolvedChapterSlug ? `?chapter=${encodeURIComponent(resolvedChapterSlug)}` : '';
         const primaryUrl = `${API_ENDPOINTS.PRACTICE_QUESTIONS(bookSlug)}${query}`;
         const fallbackUrl = `/api/practice-questions/${bookSlug}${query}`;
 
@@ -129,6 +135,7 @@ const BookPracticeRunner = () => {
         console.log(`[Frontend] Received questions count: ${list.length}`);
         const optionLabels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
         const normalized = list.map(q => {
+          const stableId = q.id ?? q.question_number ?? q.questionNumber ?? q.question_text ?? q.question;
           const mappedOptions = (q.options || []).map(o => o.text || o);
           let correctLabel = q.answer ?? q.correctAnswer ?? q.correct_answer ?? '';
           if (!correctLabel && q.solution) {
@@ -141,8 +148,8 @@ const BookPracticeRunner = () => {
           }
 
           return {
-          id: q.id || crypto.randomUUID?.() || String(Math.random()),
-          text: q.question || q.text,
+            id: stableId ? String(stableId) : crypto.randomUUID?.() || String(Math.random()),
+            text: q.question || q.text || q.question_text,
             options: mappedOptions,
             correctLabel: correctLabel || '',
           explanation: q.explanation || q.solution || '',
@@ -159,7 +166,7 @@ const BookPracticeRunner = () => {
     };
 
     load();
-  }, [bookSlug, chapterSlug, navigate]);
+  }, [bookSlug, resolvedChapterSlug, navigate]);
 
   useEffect(() => {
     if (loading || questions.length === 0) return;
@@ -196,8 +203,10 @@ const BookPracticeRunner = () => {
           options: options,
           correctAnswer: correctAnswer,
           selectedAnswer: selectedAnswer,
-          bookName: bookName,
-          chapterName: chapterSlug ? friendly(chapterSlug) : undefined
+          bookName,
+          chapterName: (chapterSlug || resolvedChapterSlug)
+            ? friendly(chapterSlug || resolvedChapterSlug)
+            : undefined
         })
       });
 
@@ -324,8 +333,9 @@ const BookPracticeRunner = () => {
       let body = `Report Type: ${reportType}\n\n`;
       body += `Question ID: ${currentQuestion.id || `Question ${current + 1}`}\n`;
       body += `Book: ${bookName}\n`;
-      if (chapterSlug) {
-        body += `Chapter: ${friendly(chapterSlug)}\n`;
+      const chapterLabel = chapterSlug || resolvedChapterSlug;
+      if (chapterLabel) {
+        body += `Chapter: ${friendly(chapterLabel)}\n`;
       }
       body += `\nQuestion Text:\n${currentQuestion.text}\n\n`;
       
@@ -397,7 +407,7 @@ const BookPracticeRunner = () => {
             <div className="max-w-3xl mx-auto w-full">
               <Card className="p-6 md:p-8 text-center rounded-3xl shadow-xl">
                 <h2 className="text-2xl font-bold text-gray-900 mb-2">No questions available yet</h2>
-                <p className="text-gray-600 mb-6">We’re preparing questions for {bookName}{chapterSlug ? ` • ${friendly(chapterSlug)}` : ''}. Please check back soon.</p>
+                <p className="text-gray-600 mb-6">We’re preparing questions for {bookName}{(chapterSlug || resolvedChapterSlug) ? ` • ${friendly(chapterSlug || resolvedChapterSlug)}` : ''}. Please check back soon.</p>
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <button onClick={() => navigate('/question-bank')} className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">Go to Question Bank</button>
                   <button onClick={() => navigate('/pyq')} className="px-6 py-3 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors">Back to Practice</button>

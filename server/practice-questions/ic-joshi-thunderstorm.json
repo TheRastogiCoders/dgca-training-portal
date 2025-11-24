@@ -1,0 +1,490 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 13,
+  "chapter_title": "Thunderstorm",
+  "chapter_slug": "thunderstorm",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "thunderstorm-q2",
+      "question_number": "Q2",
+      "question": "Hail is most likely to fall from a cloud",
+      "question_type": "MCQ",
+      "options": [
+        "Having layers",
+        "Composed of Ice crystals",
+        "Having strong vertical development"
+      ],
+      "answer": "c",
+      "solution": "Having strong vertical development",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q3",
+      "question_number": "Q3",
+      "question": "Norwesters are",
+      "question_type": "MCQ",
+      "options": [
+        "The western disturbances which affect NW India",
+        "Severe thunderstorms which occur over NE India during hot weather period",
+        "Severe thunderstorms which occur over Peninsula during hot weather period"
+      ],
+      "answer": "b",
+      "solution": "Severe thunderstorms which occur over NE India during hot weather period",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q4",
+      "question_number": "Q4",
+      "question": "Duststorm usually occurs over NW India during",
+      "question_type": "MCQ",
+      "options": [
+        "Post-monsoon",
+        "Winter",
+        "Pre-Monsoon"
+      ],
+      "answer": "c",
+      "solution": "Pre-Monsoon",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q5",
+      "question_number": "Q5",
+      "question": "A 'mature' thunderstorm has strong",
+      "question_type": "MCQ",
+      "options": [
+        "updraft only",
+        "downdraft only",
+        "updrafts and downdrafts"
+      ],
+      "answer": "c",
+      "solution": "updrafts and downdrafts",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q6",
+      "question_number": "Q6",
+      "question": "Aircraft icing is most favoured in the cloud which have temperatures ranging between",
+      "question_type": "MCQ",
+      "options": [
+        "$-20^{\\circ}C$ and $-40^{\\circ}C$",
+        "$0^{\\circ}C$ and $-20^{\\circ}C$",
+        "below $-40^{\\circ}C$"
+      ],
+      "answer": "b",
+      "solution": "$0^{\\circ}C$ and $-20^{\\circ}C$",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q7",
+      "question_number": "Q7",
+      "question": "A short duration, showery precipitation is associated with",
+      "question_type": "MCQ",
+      "options": [
+        "ST",
+        "AS",
+        "CB"
+      ],
+      "answer": "c",
+      "solution": "CB",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q8",
+      "question_number": "Q8",
+      "question": "Hail is",
+      "question_type": "MCQ",
+      "options": [
+        "Solid precipitation commonly occurring over the mountainous regions in winters.",
+        "Frozen or partly frozen rain falling from sheet type of clouds",
+        "Solid precipitation falling from a deep convective cloud"
+      ],
+      "answer": "c",
+      "solution": "Solid precipitation falling from a deep convective cloud",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q9",
+      "question_number": "Q9",
+      "question": "The most hazardous cloud for aviation is",
+      "question_type": "MCQ",
+      "options": [
+        "CB",
+        "CU",
+        "NS"
+      ],
+      "answer": "a",
+      "solution": "CB",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q10",
+      "question_number": "Q10",
+      "question": "The life of a Cb cell is usually",
+      "question_type": "MCQ",
+      "options": [
+        "7 to 8 hrs",
+        "3 to 4 hrs",
+        "2-3 hr"
+      ],
+      "answer": "c",
+      "solution": "2-3 hr",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q11",
+      "question_number": "Q11",
+      "question": "Generally the severest activity of a, heat type, TS is for",
+      "question_type": "MCQ",
+      "options": [
+        "2 hrs",
+        "30 to 45 min",
+        "3 to 4 hr"
+      ],
+      "answer": "b",
+      "solution": "30 to 45 min",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q12",
+      "question_number": "Q12",
+      "question": "Norwesters occur during",
+      "question_type": "MCQ",
+      "options": [
+        "Jan-Feb",
+        "Mar-May",
+        "June-Sep",
+        "Oct-Dec"
+      ],
+      "answer": "b",
+      "solution": "Mar-May",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q13",
+      "question_number": "Q13",
+      "question": "Norwesters occur during",
+      "question_type": "MCQ",
+      "options": [
+        "Winter",
+        "Hot weather",
+        "Monsoon",
+        "Post Monsoon"
+      ],
+      "answer": "b",
+      "solution": "Hot weather",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q14",
+      "question_number": "Q14",
+      "question": "Norwesters affect",
+      "question_type": "MCQ",
+      "options": [
+        "N India",
+        "Bengal, Bihar, Orissa and Assam",
+        "Central India"
+      ],
+      "answer": "b",
+      "solution": "Bengal, Bihar, Orissa and Assam",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q15",
+      "question_number": "Q15",
+      "question": "The trigger action may take place due to",
+      "question_type": "MCQ",
+      "options": [
+        "Clear night sky, no wind",
+        "Orographic lifting",
+        "high pressure"
+      ],
+      "answer": "b",
+      "solution": "Orographic lifting",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q16",
+      "question_number": "Q16",
+      "question": "Norwesters normally occur during",
+      "question_type": "MCQ",
+      "options": [
+        "Mornings",
+        "Afternoons",
+        "Nights"
+      ],
+      "answer": "b",
+      "solution": "Afternoons",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q17",
+      "question_number": "Q17",
+      "question": "Norwesters originates over",
+      "question_type": "MCQ",
+      "options": [
+        "Chota-Nagpur hills",
+        "Deccan Plato",
+        "Khasi hills"
+      ],
+      "answer": "a",
+      "solution": "Chota-Nagpur hills",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q18",
+      "question_number": "Q18",
+      "question": "Andhi (blinding storms) occur generally over",
+      "question_type": "MCQ",
+      "options": [
+        "S India",
+        "N India",
+        "NE India"
+      ],
+      "answer": "b",
+      "solution": "N India",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q19",
+      "question_number": "Q19",
+      "question": "Wind speed in Light DS is",
+      "question_type": "MCQ",
+      "options": [
+        "25 kt",
+        "30 kt",
+        "up to 21 kt"
+      ],
+      "answer": "c",
+      "solution": "up to 21 kt",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q20",
+      "question_number": "Q20",
+      "question": "The diametre of Microburst is",
+      "question_type": "MCQ",
+      "options": [
+        "less than 4 km",
+        "less than 2 km",
+        "less than 6 km"
+      ],
+      "answer": "a",
+      "solution": "less than 4 km",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q21",
+      "question_number": "Q21",
+      "question": "The diametre of and Macroburst is",
+      "question_type": "MCQ",
+      "options": [
+        "<4 km",
+        "4 km or more",
+        "> 8 km"
+      ],
+      "answer": "b",
+      "solution": "4 km or more",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q22",
+      "question_number": "Q22",
+      "question": "For detecting precipitation a Radar wavelength in the range is suitable",
+      "question_type": "MCQ",
+      "options": [
+        "30 to 200 mm",
+        "400-500 mm",
+        "600-700 mm"
+      ],
+      "answer": "a",
+      "solution": "30 to 200 mm",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q23",
+      "question_number": "Q23",
+      "question": "For airborne radars wavelength generally used",
+      "question_type": "MCQ",
+      "options": [
+        "20 mm",
+        "40 mm",
+        "60 mm"
+      ],
+      "answer": "c",
+      "solution": "60 mm",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q24",
+      "question_number": "Q24",
+      "question": "The wavelength of TS detection X band radar is",
+      "question_type": "MCQ",
+      "options": [
+        "10 mm",
+        "20 mm",
+        "30 mm"
+      ],
+      "answer": "c",
+      "solution": "30 mm",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q25",
+      "question_number": "Q25",
+      "question": "The wavelength of storm detection S band radar is",
+      "question_type": "MCQ",
+      "options": [
+        "50 mm",
+        "100 mm",
+        "200 mm"
+      ],
+      "answer": "b",
+      "solution": "100 mm",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q26",
+      "question_number": "Q26",
+      "question": "Over plains TS mostly occur during the",
+      "question_type": "MCQ",
+      "options": [
+        "afternoon",
+        "night",
+        "early morning"
+      ],
+      "answer": "a",
+      "solution": "afternoon",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q27",
+      "question_number": "Q27",
+      "question": "Over valley and foot hills TS generally occur during",
+      "question_type": "MCQ",
+      "options": [
+        "afternoon",
+        "night & early morning",
+        "early morning"
+      ],
+      "answer": "b",
+      "solution": "night & early morning",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q28",
+      "question_number": "Q28",
+      "question": "Over the sea TS are more frequent",
+      "question_type": "MCQ",
+      "options": [
+        "afternoon",
+        "night",
+        "early morning"
+      ],
+      "answer": "b",
+      "solution": "night",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q29",
+      "question_number": "Q29",
+      "question": "The life of Mesoscale Convective Complex TS is",
+      "question_type": "MCQ",
+      "options": [
+        "2-3 hr",
+        "3-4 hr",
+        "6 to 24 hr"
+      ],
+      "answer": "c",
+      "solution": "6 to 24 hr",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q30",
+      "question_number": "Q30",
+      "question": "Loud peals of thunder, frequent flashes of lightning, moderate or heavy showers accompanied by light hail with maximum wind speed 15-40 kt is classified as",
+      "question_type": "MCQ",
+      "options": [
+        "Light TS",
+        "Moderate TS",
+        "Severe TS"
+      ],
+      "answer": "b",
+      "solution": "Moderate TS",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q31",
+      "question_number": "Q31",
+      "question": "For a severe TS one of the requirements is strong Wind Shear",
+      "question_type": "MCQ",
+      "options": [
+        "Horizontal",
+        "Vertical",
+        "Slant"
+      ],
+      "answer": "b",
+      "solution": "Vertical",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q32",
+      "question_number": "Q32",
+      "question": "Severe TS cells are tilted",
+      "question_type": "MCQ",
+      "options": [
+        "in vertical",
+        "to the South",
+        "to the North"
+      ],
+      "answer": "a",
+      "solution": "in vertical",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q33",
+      "question_number": "Q33",
+      "question": "When flying through on active TS, lighting strikes are most likely",
+      "question_type": "MCQ",
+      "options": [
+        "Above 5000 ft and under the anvil.",
+        "In the clear air below the cloud in rain",
+        "In the temperature band between $+10^{\\circ}$ and $-10^{\\circ}C$",
+        "At or about 10000 ft"
+      ],
+      "answer": "c",
+      "solution": "In the temperature band between $+10^{\\circ}$ and $-10^{\\circ}C$",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q34",
+      "question_number": "Q34",
+      "question": "Hazards of the mature stage of a TS Cell include lighting, turbulence and:",
+      "question_type": "MCQ",
+      "options": [
+        "Microburst, wind-shear and anvil",
+        "Icing, microburst and WS",
+        "Icing, drizzle and microburst",
+        "WS, hail and fog"
+      ],
+      "answer": "b",
+      "solution": "Icing, microburst and WS",
+      "explanation": ""
+    },
+    {
+      "id": "thunderstorm-q35",
+      "question_number": "Q35",
+      "question": "Hail grows by",
+      "question_type": "MCQ",
+      "options": [
+        "freezing as it leaves the cloud",
+        "up and down forces in CU cloud",
+        "collision with ice crystals",
+        "collision with supercooled water drops"
+      ],
+      "answer": "d",
+      "solution": "collision with supercooled water drops",
+      "explanation": ""
+    }
+  ]
+}

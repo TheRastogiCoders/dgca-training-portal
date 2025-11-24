@@ -1,0 +1,140 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 4,
+  "chapter_title": "AIR DENSITY",
+  "questions": [
+    {
+      "question_number": "Q1",
+      "question": "Density is ___ at poles than equator",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Higher",
+        "(b) Lower",
+        "(c) Same"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q2",
+      "question": "Above 8 km density is ___ at poles than at equator",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Higher",
+        "(b) Lower",
+        "(c) Same"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q3",
+      "question": "The altitude in ISA at which air density is the same as the observed density is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Density Altitude",
+        "(b) ISA Density",
+        "(c) Real Density"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q4",
+      "question": "Density is usually expressed as",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Kg/sq m",
+        "(b) g/cum",
+        "(c) N/sq m"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q5",
+      "question": "Higher density altitude means",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Higher density",
+        "(b) Lower density",
+        "(c) Same"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q6",
+      "question": "For given pressure and temperature moist air has density",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Higher",
+        "(b) Lower",
+        "(c) Same"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q7",
+      "question": "Air is less denser in",
+      "question_type": "MCQ",
+      "options": [
+        "(a) High Altitudes",
+        "(b) Warm Air",
+        "(c) High humidity",
+        "(d) All these"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q8",
+      "question": "Density altitude may be defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The altitude in ISA at which the prevailing pressure occurs.",
+        "(b) The altitude in ISA at which the prevailing density occurs.",
+        "(c) The altitude in actual atmosphere at which the prevailing density occurs."
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q9",
+      "question": "Temperature being constant, if pressure increases the density altitude",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases",
+        "(b) lowers",
+        "(c) remains the same"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q10",
+      "question": "For every 1°C change in temperature, density altitude differs from pressure altitude by",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 33 ft",
+        "(b) 100 ft",
+        "(c) 120 ft",
+        "(d) 210 ft"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    }
+  ]
+}
+

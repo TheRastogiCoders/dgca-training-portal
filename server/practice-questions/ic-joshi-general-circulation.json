@@ -1,0 +1,221 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 20,
+  "chapter_title": "General Circulation",
+  "chapter_slug": "general-circulation",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "general-circulation-q273",
+      "question_number": "Q273",
+      "question": "The polewards moving air piles up in the subtropical regions and forms high pressure belt at the surface, it is called",
+      "question_type": "MCQ",
+      "options": [
+        "Subtropical high",
+        "Polar High",
+        "Equatorial high"
+      ],
+      "answer": "a",
+      "solution": "Subtropical high",
+      "explanation": ""
+    },
+    {
+      "id": "general-circulation-q274",
+      "question_number": "Q274",
+      "question": "occurs over subtropical high",
+      "question_type": "MCQ",
+      "options": [
+        "advection",
+        "convection",
+        "subsidence"
+      ],
+      "answer": "c",
+      "solution": "subsidence",
+      "explanation": ""
+    },
+    {
+      "id": "general-circulation-q275",
+      "question_number": "Q275",
+      "question": "The occurrence of large deserts near 30N and 30S are due to large scale",
+      "question_type": "MCQ",
+      "options": [
+        "subsidence",
+        "convection",
+        "advection"
+      ],
+      "answer": "a",
+      "solution": "subsidence",
+      "explanation": ""
+    },
+    {
+      "id": "general-circulation-q276",
+      "question_number": "Q276",
+      "question": "A part of the sinking air over the subtropical highs flows towards the equator, turning west (in the northern hemisphere) due to the Coriolis force. This surface air is called",
+      "question_type": "MCQ",
+      "options": [
+        "Trade winds",
+        "Roaring forties",
+        "Doldrums"
+      ],
+      "answer": "a",
+      "solution": "Trade winds",
+      "explanation": ""
+    },
+    {
+      "id": "general-circulation-q277",
+      "question_number": "Q277",
+      "question": "The huge vertical circulations, one between the equator and 30N and another between equator and 30S, are called",
+      "question_type": "MCQ",
+      "options": [
+        "Hadley Cells",
+        "Ferrel Cells",
+        "Polar cells"
+      ],
+      "answer": "a",
+      "solution": "Hadley Cells",
+      "explanation": ""
+    },
+    {
+      "id": "general-circulation-q278",
+      "question_number": "Q278",
+      "question": "The descending branch of the Hadley cell marked by calm winds and high pressure at the surface are called",
+      "question_type": "MCQ",
+      "options": [
+        "Tropical Latitudes",
+        "Middle latitudes",
+        "Horse Latitudes"
+      ],
+      "answer": "c",
+      "solution": "Horse Latitudes",
+      "explanation": ""
+    },
+    {
+      "id": "general-circulation-q279",
+      "question_number": "Q279",
+      "question": "The winds in the upper troposphere are westerly. These are known as",
+      "question_type": "MCQ",
+      "options": [
+        "Natural Westerlies",
+        "Steady Westerlies",
+        "Zonal Westerlies"
+      ],
+      "answer": "c",
+      "solution": "Zonal Westerlies",
+      "explanation": ""
+    },
+    {
+      "id": "general-circulation-q280",
+      "question_number": "Q280",
+      "question": "In the equatorial regions the upper tropospheric winds are",
+      "question_type": "MCQ",
+      "options": [
+        "Westerlies",
+        "Easterlies"
+      ],
+      "answer": "b",
+      "solution": "Easterlies",
+      "explanation": ""
+    },
+    {
+      "id": "general-circulation-q281",
+      "question_number": "Q281",
+      "question": "The disturbances of middle latitudes move from",
+      "question_type": "MCQ",
+      "options": [
+        "W to E",
+        "E to W",
+        "N to S",
+        "S to N"
+      ],
+      "answer": "a",
+      "solution": "W to E",
+      "explanation": ""
+    },
+    {
+      "id": "general-circulation-q282",
+      "question_number": "Q282",
+      "question": "The tropical disturbances which form in the equatorial low pressure belt move in",
+      "question_type": "MCQ",
+      "options": [
+        "Easterly direction",
+        "Westerly direction",
+        "Southerly direction",
+        "Zonal Westerlies"
+      ],
+      "answer": "b",
+      "solution": "Westerly direction",
+      "explanation": ""
+    },
+    {
+      "id": "general-circulation-q283",
+      "question_number": "Q283",
+      "question": "Tropical disturbance which reach the zone of transition in the upper level flow change course and begin to move in a",
+      "question_type": "MCQ",
+      "options": [
+        "Perpendicular direction",
+        "Opposite direction",
+        "Southwards"
+      ],
+      "answer": "b",
+      "solution": "Opposite direction",
+      "explanation": ""
+    },
+    {
+      "id": "general-circulation-q284",
+      "question_number": "Q284",
+      "question": "Latitudinally, on the average there is radiation in the tropics than in the polar regions",
+      "question_type": "MCQ",
+      "options": [
+        "surplus",
+        "deficit",
+        "balance"
+      ],
+      "answer": "a",
+      "solution": "surplus",
+      "explanation": ""
+    },
+    {
+      "id": "general-circulation-q285",
+      "question_number": "Q285",
+      "question": "The systems like highs, lows, cyclonic circulation etc are associated with distinct types of weather. A study of the behaviour of these systems, known as",
+      "question_type": "MCQ",
+      "options": [
+        "Synoptic Meteorology",
+        "Climatology",
+        "Physical Meteorology"
+      ],
+      "answer": "a",
+      "solution": "Synoptic Meteorology",
+      "explanation": ""
+    },
+    {
+      "id": "general-circulation-q286",
+      "question_number": "Q286",
+      "question": "Rising air creates calms or doldrums in the equatorial region.",
+      "question_type": "MCQ",
+      "options": [
+        "ITCZ",
+        "Horse Latitudes",
+        "Equatorial Doldrums"
+      ],
+      "answer": "c",
+      "solution": "Equatorial Doldrums",
+      "explanation": ""
+    },
+    {
+      "id": "general-circulation-q287",
+      "question_number": "Q287",
+      "question": "Steady NE winds in the N hemisphere and SE winds in the S hemisphere are called.",
+      "question_type": "MCQ",
+      "options": [
+        "Easterly winds",
+        "Trade Winds",
+        "Tropical Winds"
+      ],
+      "answer": "b",
+      "solution": "Trade Winds",
+      "explanation": ""
+    }
+  ]
+}
+

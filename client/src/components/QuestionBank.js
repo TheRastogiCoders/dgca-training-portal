@@ -4,6 +4,7 @@ import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 import Modal from './ui/Modal';
 import usePersistentState from '../hooks/usePersistentState';
+import { slugifyChapterName, resolveChapterSlug } from '../utils/chapterSlug';
 
 const EXCLUDED_CHAPTER_NAMES = new Set([
   'Overview and Definitions',
@@ -26,16 +27,6 @@ const sanitizeBook = (book) =>
         chapters: sanitizeChapters(book.chapters)
       }
     : book;
-
-const slugify = (name) => {
-  if (!name) return '';
-  // Handle special cases like "Directional Gyro Indicator (DGI)" -> "directional-gyro-indicator-dgi"
-  return name
-    .toLowerCase()
-    .replace(/\(([^)]+)\)/g, (match, acronym) => `-${acronym.toLowerCase()}`) // Extract acronyms from parentheses
-    .replace(/[^a-z0-9]+/g, '-') // Replace non-alphanumeric with hyphens
-    .replace(/(^-|-$)+/g, ''); // Remove leading/trailing hyphens
-};
 
 const QuestionBank = () => {
   const navigate = useNavigate();
@@ -573,6 +564,91 @@ const airRegulationsSubBooks = [
   }
 ];
 
+const icJoshiChapterQuestionCounts = {
+  Atmosphere: 45,
+  'Atmospheric Pressure': 41,
+  Temperature: 39,
+  'Air Density': 10,
+  Humidity: 10,
+  Winds: 45,
+  'Visibility and Fog': 20,
+  'Vertical Motion and Clouds': 20,
+  'Stability and Instability of Atmosphere': 20,
+  'Optical Phenomena': 20,
+  Precipitation: 20,
+  'Ice Accretion': 19,
+  Thunderstorm: 34,
+  'Air Masses Fronts and Western Disturbances': 15,
+  'Jet Streams': 25,
+  'CAT and Mountain Waves': 10,
+  'Tropical Systems': 39,
+  'Climatology of India': 32,
+  'General Circulation': 15,
+  'Meteorological Services for Aviation': 45,
+  'Station Model': 20,
+  'Aerodrome Met Reports and Codes of METAR, SPECI and TREND': 42,
+  'Aviation Weather Forecasts (Codes of TAF, ARFOR, ROFOR)': 42,
+  'Met Documentation and Briefing': 10,
+  'Flight Forecast (Tabular Form) and Cross Section Forecast of Route Conditions': 0
+};
+
+const icJoshiMeteorologyChapterNames = [
+  'Atmosphere',
+  'Atmospheric Pressure',
+  'Temperature',
+  'Air Density',
+  'Humidity',
+  'Winds',
+  'Visibility and Fog',
+  'Vertical Motion and Clouds',
+  'Stability and Instability of Atmosphere',
+  'Optical Phenomena',
+  'Precipitation',
+  'Ice Accretion',
+  'Thunderstorm',
+  'Air Masses Fronts and Western Disturbances',
+  'Jet Streams',
+  'CAT and Mountain Waves',
+  'Tropical Systems',
+  'Climatology of India',
+  'General Circulation',
+  'Meteorological Services for Aviation',
+  'Weather Radar and Met Satellites',
+  'Met Instruments',
+  'Station Model',
+  'Aerodrome Met Reports and Codes of METAR, SPECI and TREND',
+  'Aviation Weather Forecasts (Codes of TAF, ARFOR, ROFOR)',
+  'Radar Report, Sigmet Message and Satellite Bulletin',
+  'Met Documentation and Briefing',
+  'Flight Forecast (Tabular Form) and Cross Section Forecast of Route Conditions'
+];
+
+const icJoshiMeteorologyChapters = icJoshiMeteorologyChapterNames.map((name, index) => ({
+  id: index + 1,
+  name,
+  questions: icJoshiChapterQuestionCounts[name] || 0,
+  difficulty: 'Medium'
+}));
+
+const icJoshiMeteorologyTotalQuestions = icJoshiMeteorologyChapters.reduce(
+  (sum, chapter) => sum + (chapter.questions || 0),
+  0
+);
+
+const meteorologyIcJoshiBooks = [
+  {
+    id: 101,
+    title: 'IC Joshi Meteorology',
+    description: 'DGCA meteorology syllabus (IC Joshi)',
+    icon: '📖',
+    color: 'from-yellow-500 to-orange-500',
+    slug: 'ic-joshi',
+    totalQuestions: icJoshiMeteorologyTotalQuestions,
+    difficulty: 'Medium',
+    chapters: icJoshiMeteorologyChapters
+  }
+];
+
 const meteorologyOxfordBooks = [
   {
     id: 1,
@@ -723,7 +799,15 @@ const radioTelephonyOxfordBooks = [
           return sanitizeBook(meteorologyBook);
         }
       }
-      // Otherwise, check if a specific meteorology book is selected
+
+      // Provide IC Joshi specific chapter listing
+      const meteorologyIcJoshiBook = meteorologyIcJoshiBooks.find((book) => book.slug === selectedBookKey);
+      if (meteorologyIcJoshiBook) {
+        console.log('Meteorology: Returning IC Joshi book with chapters:', meteorologyIcJoshiBook.chapters?.length);
+        return sanitizeBook(meteorologyIcJoshiBook);
+      }
+
+      // Otherwise, check if a specific other meteorology book is selected
       const meteorologyBook = meteorologyOxfordBooks.find((book) => book.slug === selectedBookKey);
       if (meteorologyBook) {
         console.log('Meteorology: Returning specific meteorology book with chapters:', meteorologyBook.chapters?.length);
@@ -793,8 +877,9 @@ const radioTelephonyOxfordBooks = [
       return;
     }
     
-    const chapterSlug = slugify(chapter?.name || 'overview');
-    navigate(`/pyq/book/${book.slug}/${chapterSlug}`);
+    const baseSlug = slugifyChapterName(chapter?.name || 'overview');
+    const resolvedSlug = resolveChapterSlug(book?.slug, baseSlug);
+    navigate(`/pyq/book/${book.slug}/${resolvedSlug}`);
   };
 
   const handleViewNextChapter = () => {
@@ -819,8 +904,9 @@ const radioTelephonyOxfordBooks = [
     setShowComingSoonModal(false);
     
     if (nextChapter) {
-      const chapterSlug = slugify(nextChapter?.name || 'overview');
-      navigate(`/pyq/book/${book.slug}/${chapterSlug}`);
+      const baseSlug = slugifyChapterName(nextChapter?.name || 'overview');
+      const resolvedSlug = resolveChapterSlug(book?.slug, baseSlug);
+      navigate(`/pyq/book/${book.slug}/${resolvedSlug}`);
     } else {
       // If no next chapter with questions, just close the modal
       setClickedChapter(null);

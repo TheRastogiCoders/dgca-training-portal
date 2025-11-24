@@ -203,11 +203,34 @@ const defaultChapters = {
   },
   'meteorology': {
     'ic-joshi': [
-      'Atmosphere & Temperature',
-      'Pressure, Wind & Clouds',
-      'Fronts & Frontal Weather',
-      'Visibility & Hazards',
-      'Forecasts & Reports (METAR/TAF)'
+      'Atmosphere',
+      'Atmospheric Pressure',
+      'Temperature',
+      'Air Density',
+      'Humidity',
+      'Winds',
+      'Visibility and Fog',
+      'Vertical Motion and Clouds',
+      'Stability and Instability of Atmosphere',
+      'Optical Phenomena',
+      'Precipitation',
+      'Ice Accretion',
+      'Thunderstorm',
+      'Air Masses Fronts and Western Disturbances',
+      'Jet Streams',
+      'CAT and Mountain Waves',
+      'Tropical Systems',
+      'Climatology of India',
+      'General Circulation',
+      'Meteorological Services for Aviation',
+      'Weather Radar and Met Satellites',
+      'Met Instruments',
+      'Station Model',
+      'Aerodrome Met Reports and Codes of METAR, SPECI and TREND',
+      'Aviation Weather Forecasts (Codes of TAF, ARFOR, ROFOR)',
+      'Radar Report, Sigmet Message and Satellite Bulletin',
+      'Met Documentation and Briefing',
+      'Flight Forecast (Tabular Form) and Cross Section Forecast of Route Conditions'
     ],
     'oxford': [
       'Synoptic Meteorology',
@@ -323,6 +346,35 @@ const defaultChapters = {
   }
 };
 
+// Chapter question counts for IC Joshi Meteorology
+const icJoshiChapterQuestionCounts = {
+  'Atmosphere': 45,
+  'Atmospheric Pressure': 41,
+  'Temperature': 39,
+  'Air Density': 10,
+  'Humidity': 10,
+  'Winds': 45,
+  'Visibility and Fog': 20,
+  'Vertical Motion and Clouds': 20,
+  'Stability and Instability of Atmosphere': 20,
+  'Optical Phenomena': 20,
+  'Precipitation': 20,
+  'Ice Accretion': 19,
+  'Thunderstorm': 34,
+  'Air Masses Fronts and Western Disturbances': 15,
+  'Jet Streams': 25,
+  'CAT and Mountain Waves': 10,
+  'Tropical Systems': 39,
+  'Climatology of India': 32,
+  'General Circulation': 15,
+  'Meteorological Services for Aviation': 45,
+  'Station Model': 20,
+  'Aerodrome Met Reports and Codes of METAR, SPECI and TREND': 42,
+  'Aviation Weather Forecasts (Codes of TAF, ARFOR, ROFOR)': 42,
+  'Met Documentation and Briefing': 10,
+  'Flight Forecast (Tabular Form) and Cross Section Forecast of Route Conditions': 0
+};
+
 const BookChapters = () => {
   const { subjectSlug, bookSlug } = useParams();
   const navigate = useNavigate();
@@ -344,12 +396,20 @@ const BookChapters = () => {
     if (list.length === 0) {
       console.log('No chapters found for:', { subjectSlug, bookSlug, availableBooks: Object.keys(bySubject) });
     }
-    return list.map((title, index) => ({
-      id: `${index + 1}`,
-      title,
-      // placeholder values for future uploads
-      status: 'coming-soon',
-    }));
+    return list.map((title, index) => {
+      // Check if chapter has questions available (for IC Joshi Meteorology)
+      const questionCount = (subjectSlug === 'meteorology' && bookSlug === 'ic-joshi') 
+        ? (icJoshiChapterQuestionCounts[title] || 0)
+        : 0;
+      const isAvailable = questionCount > 0;
+      
+      return {
+        id: `${index + 1}`,
+        title,
+        questionCount,
+        status: isAvailable ? 'available' : 'coming-soon',
+      };
+    });
   }, [subjectSlug, bookSlug]);
 
   const subjectName = friendly(subjectSlug);
@@ -399,19 +459,60 @@ const BookChapters = () => {
               </div>
             ) : (
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {chapters.map((ch) => (
-                  <Card key={ch.id} className="p-6 flex flex-col">
-                    <div className="flex-1">
-                      <h3 className="text-lg font-semibold text-gray-900 mb-2">Chapter {ch.id}</h3>
-                      <p className="text-gray-700">{ch.title}</p>
-                    </div>
-                    <div className="mt-4">
-                      <Button className="w-full" onClick={() => startChapter(ch)}>
-                        Start Practice
-                      </Button>
-                    </div>
-                  </Card>
-                ))}
+                {chapters.map((ch) => {
+                  const isAvailable = ch.status === 'available';
+                  return (
+                    <Card key={ch.id} className="p-6 flex flex-col">
+                      <div className="flex-1">
+                        <div className="flex items-start justify-between mb-2">
+                          <h3 className="text-lg font-semibold text-gray-900">Chapter {ch.id}</h3>
+                          <div className="flex gap-2">
+                            {!isAvailable && (
+                              <span className="px-2 py-1 bg-amber-100 text-amber-700 text-xs font-medium rounded-full">
+                                Coming Soon
+                              </span>
+                            )}
+                            <span className="px-2 py-1 bg-green-100 text-green-700 text-xs font-medium rounded-full">
+                              Medium
+                            </span>
+                          </div>
+                        </div>
+                        <p className="text-gray-700 mb-3">{ch.title}</p>
+                        {isAvailable ? (
+                          <p className="text-sm text-gray-600 mb-2">
+                            {ch.questionCount} questions
+                          </p>
+                        ) : (
+                          <p className="text-sm text-gray-500 mb-2 flex items-center">
+                            <span className="mr-1">📄</span>
+                            Chapter overview
+                          </p>
+                        )}
+                      </div>
+                      <div className="mt-4">
+                        {isAvailable ? (
+                          <Button 
+                            className="w-full bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-white font-semibold" 
+                            onClick={() => startChapter(ch)}
+                          >
+                            <span className="flex items-center justify-center">
+                              <span className="mr-2">▶</span>
+                              Start Practice
+                            </span>
+                          </Button>
+                        ) : (
+                          <button
+                            className="w-full py-3 px-6 bg-amber-50 text-amber-700 font-semibold rounded-lg border border-amber-200 hover:bg-amber-100 transition-colors cursor-not-allowed flex items-center justify-center"
+                            disabled
+                          >
+                            <span className="mr-2">📁</span>
+                            Coming Soon
+                          </button>
+                        )}
+                      </div>
+                    </Card>
+                  );
+                })}
               </div>
             )}
           </div>

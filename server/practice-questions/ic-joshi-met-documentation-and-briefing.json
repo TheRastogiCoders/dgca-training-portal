@@ -1,0 +1,150 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 26,
+  "chapter_title": "Met Documentation and Briefing",
+  "chapter_slug": "met-documentation-and-briefing",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "met-documentation-briefing-q350",
+      "question_number": "Q350",
+      "question": "Who prepares National SIGWX Charts",
+      "question_type": "MCQ",
+      "options": [
+        "AMOS",
+        "WAFC",
+        "MWOs"
+      ],
+      "answer": "c",
+      "solution": "MWOs",
+      "explanation": ""
+    },
+    {
+      "id": "met-documentation-briefing-q351",
+      "question_number": "Q351",
+      "question": "Flight Level of freezing Level is included in SIGWX Charts",
+      "question_type": "MCQ",
+      "options": [
+        "Medium level charts",
+        "High level charts",
+        "Low level charts"
+      ],
+      "answer": "a",
+      "solution": "Medium level charts",
+      "explanation": ""
+    },
+    {
+      "id": "met-documentation-briefing-q352",
+      "question_number": "Q352",
+      "question": "Fog, Precipitation and weather which reduce visibility below 5000 m is considered Significant weather for",
+      "question_type": "MCQ",
+      "options": [
+        "All level flights",
+        "High level flights",
+        "Low level flights"
+      ],
+      "answer": "c",
+      "solution": "Low level flights",
+      "explanation": ""
+    },
+    {
+      "id": "met-documentation-briefing-q353",
+      "question_number": "Q353",
+      "question": "Briefing and Consultation are generally provided to the aircrew ....... hours prior to the scheduled departure",
+      "question_type": "MCQ",
+      "options": [
+        "3 hr",
+        "5 hr",
+        "6 hr"
+      ],
+      "answer": "a",
+      "solution": "3 hr",
+      "explanation": ""
+    },
+    {
+      "id": "met-documentation-briefing-q354",
+      "question_number": "Q354",
+      "question": "SIGMET information is provided to",
+      "question_type": "MCQ",
+      "options": [
+        "Low level flights",
+        "All level flights",
+        "High level flights"
+      ],
+      "answer": "b",
+      "solution": "All level flights",
+      "explanation": ""
+    },
+    {
+      "id": "met-documentation-briefing-q355",
+      "question_number": "Q355",
+      "question": "For Low Level flights, and those under Visual Flight Rules, briefing is given up to",
+      "question_type": "MCQ",
+      "options": [
+        "FL150 or above in mountains",
+        "FL110 above the sea",
+        "FL 120 or over the plains"
+      ],
+      "answer": "a",
+      "solution": "FL150 or above in mountains",
+      "explanation": ""
+    },
+    {
+      "id": "met-documentation-briefing-q356",
+      "question_number": "Q356",
+      "question": "The height indications in the Flight Documentation in all en-route Met conditions : eg upper winds, turbulence, cloud base/top etc is",
+      "question_type": "MCQ",
+      "options": [
+        "Above aerodrome elevation",
+        "Flight Levels",
+        "As requested by the Pilot"
+      ],
+      "answer": "b",
+      "solution": "Flight Levels",
+      "explanation": ""
+    },
+    {
+      "id": "met-documentation-briefing-q357",
+      "question_number": "Q357",
+      "question": "The height indications in the Flight Documentation in all aerodrome Met conditions : eg base and top of clouds",
+      "question_type": "MCQ",
+      "options": [
+        "Above aerodrome elevation",
+        "Flight Levels",
+        "As requested by the Pilot"
+      ],
+      "answer": "a",
+      "solution": "Above aerodrome elevation",
+      "explanation": ""
+    },
+    {
+      "id": "met-documentation-briefing-q358",
+      "question_number": "Q358",
+      "question": "For National Flights the Documents provided are -",
+      "question_type": "MCQ",
+      "options": [
+        "National SIGWX charts only",
+        "WAFC upper wind and temp. charts only",
+        "both WAFC upper wind and temp. charts and National SIGWX charts"
+      ],
+      "answer": "c",
+      "solution": "both WAFC upper wind and temp. charts and National SIGWX charts",
+      "explanation": ""
+    },
+    {
+      "id": "met-documentation-briefing-q359",
+      "question_number": "Q359",
+      "question": "For National Flights the winds and temperatures are provided for LL Flights for altitudes",
+      "question_type": "MCQ",
+      "options": [
+        "600, 1500 and 300 m",
+        "3000 ft, 5000 ft, 10,000 ft",
+        "600, 1000 and 500 m"
+      ],
+      "answer": "a",
+      "solution": "600, 1500 and 300 m",
+      "explanation": ""
+    }
+  ]
+}
+

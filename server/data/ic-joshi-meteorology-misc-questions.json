@@ -1,0 +1,250 @@
+﻿{
+
+  "book_title": "MET_IC_Joshi_7 Edition",
+  "data": [
+    {
+      "chapter_title": "MISCELLANEOUS QUESTIONS",
+      "chapter_number": "N/A",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "question_text": "Translucent rime ice forms due to",
+          "question_type": "MCQ",
+          "options": [
+            "(a) Melting of large snow particles",
+            "(b) Freezing of large supercooled water drops",
+            "(c) Freezing of small supercooled water drops",
+            "(d) Sublimation of large hail"
+          ],
+          "answer": "(c)"
+        },
+        {
+          "question_number": "Q2",
+          "question_text": "Advection fog occurs due to air moving over surface over",
+          "question_type": "MCQ",
+          "options": [
+            "(a) Dry, wet, land only",
+            "(b) Moist and cold, warm, land only",
+            "(c) Warm & moist air, cold, both land & sea."
+          ],
+          "answer": "(c)"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "ELR $6.5^{\\circ}C$ and SALR $7^{\\circ}C$ on lifting a saturated parcel of air the atmosphere would be",
+          "question_type": "MCQ",
+          "options": [
+            "(a) Stable",
+            "(b) Absolutely stable",
+            "(c) Absolutely unstable",
+            "(d) Indifferent"
+          ],
+          "answer": "(b)"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "Gradient wind is weaker than geostrophic wind around a low because",
+          "question_type": "MCQ",
+          "options": [
+            "(a) Centripetal force is provided by pressure gradient force",
+            "(b) Centripetal force is added to the pressure gradient force",
+            "(c) Coriolis force is added to the pressure gradient force",
+            "(d) Coriolis force is opposite to Centripetal"
+          ],
+          "answer": "(a)"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "The altimeter of an aircraft is set to QFE before landing, on landing it will indicate",
+          "question_type": "MCQ",
+          "options": [
+            "(a) Height of A/C wheels above runway",
+            "(b) Flight Level",
+            "(c) A/C altitude AMSL",
+            "(d) Height of A/C above ARP in ISA"
+          ],
+          "answer": "(a)"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "TAF generally has a validity of......... hr and TREND",
+          "question_type": "MCQ",
+          "options": [
+            "(a) 9 hr; 2 hr",
+            "(b) 24 hr; 3 hr",
+            "(c) 12 hr; 2 hr",
+            "(d) 24 hr; 9hr"
+          ],
+          "answer": "(a)"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "CAT is most pronounced on which side of a subtropical jet stream",
+          "question_type": "MCQ",
+          "options": [
+            "(a) About 3 km above the core",
+            "(b) Cold side of core",
+            "(c) South side of core",
+            "(d) at core"
+          ],
+          "answer": "(b)"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "Hail forms by collision with super-cooled water drops by",
+          "question_type": "MCQ",
+          "options": [
+            "(a) Condensation",
+            "(b) Deposition",
+            "(c) Evaporation",
+            "(d) Transpiration"
+          ],
+          "answer": "(b)"
+        },
+        {
+          "question_number": "Q9",
+          "question_text": "Thermal wind blows parallel to keeping to the left",
+          "question_type": "MCQ",
+          "options": [
+            "(a) Isotherms, low temperature",
+            "(b) Isobars, low temperature",
+            "(c) Isobars, low pressure",
+            "(d) Isallobars, high temperature"
+          ],
+          "answer": "(a)"
+        },
+        {
+          "question_number": "Q10",
+          "question_text": "Roaring Forties are winds blow throughout the year and are of very stormy nature in",
+          "question_type": "MCQ",
+          "options": [
+            "(a) Wly, N hemisphere",
+            "(b) Ely, S hemisphere",
+            "(c) Wly, S hemisphere",
+            "(d) Ely, S hemisphere"
+          ],
+          "answer": "(a)"
+        },
+        {
+          "question_number": "Q11",
+          "question_text": "Temperature in the troposphere decreases from equator to poles. The thermal wind throughout troposphere is therefore and as height increases",
+          "question_type": "MCQ",
+          "options": [
+            "(a) Wly, increases",
+            "(b) Wly, decreases",
+            "(c) Wly, remains same",
+            "(d) Ely, increases"
+          ],
+          "answer": "(c)"
+        },
+        {
+          "question_number": "Q12",
+          "question_text": "A Cold Front passes a station, the pressure",
+          "question_type": "MCQ",
+          "options": [
+            "(a) Changes are very small",
+            "(b) first increases and then decreases",
+            "(c) First decreases and then increases",
+            "(d) rises continually"
+          ],
+          "answer": "(c)"
+        },
+        {
+          "question_number": "Q13",
+          "question_text": "Flying conditions associated with CB during pre monsoon are",
+          "question_type": "MCQ",
+          "options": [
+            "(a) Continuous rain, poor visibility, light turbulence",
+            "(b) Good visibility, drizzle, turbulence",
+            "(c) Hail, gusts, shower, and severe turbulence",
+            "(d) Rain, poor visibility, and turbulence"
+          ],
+          "answer": "(c)"
+        },
+        {
+          "question_number": "Q14",
+          "question_text": "Which is true of a cold front",
+          "question_type": "MCQ",
+          "options": [
+            "(a) Less steeper than a warm front",
+            "(b) Associated with continuous rain and ST clouds",
+            "(c) Heavy convective weather and squall line",
+            "(d) Similar slope as warm front"
+          ],
+          "answer": "(c)"
+        },
+        {
+          "question_number": "Q15",
+          "question_text": "The observed temperature is - $40^{\\circ}C$ at FL 300 (10 km). It is termed as",
+          "question_type": "MCQ",
+          "options": [
+            "(a) 10 deg C warmer than ISA",
+            "(b) 10 deg C colder than ISA",
+            "(c) 15 deg C warmer than ISA",
+            "(d) 15 deg C colder than ISA"
+          ],
+          "answer": "(a)"
+        },
+        {
+          "question_number": "Q16",
+          "question_text": "Aquaplaning may occur in",
+          "question_type": "MCQ",
+          "options": [
+            "(a) - GR",
+            "(b) +RA",
+            "(c) -TS",
+            "(d) Thick Fog"
+          ],
+          "answer": "(b)"
+        },
+        {
+          "question_number": "Q17",
+          "question_text": "CAT is most likely to be encountered in",
+          "question_type": "MCQ",
+          "options": [
+            "(a) A high close to a Dust Storm",
+            "(b) After the passage of a severe Sandstorm",
+            "(c) A sharp trough aloft with winds of jet stream speed",
+            "(d) A ridge aloft"
+          ],
+          "answer": "(c)"
+        },
+        {
+          "question_number": "Q18",
+          "question_text": "What are Norwesters",
+          "question_type": "MCQ",
+          "options": [
+            "(a) Warm dry winds coming from NW",
+            "(b) Severe Duststorm from NW",
+            "(c) TS affecting NW India in premonsoon",
+            "(d) TS of E and NE India in premonsoon"
+          ],
+          "answer": "(d)"
+        },
+        {
+          "question_number": "Q19",
+          "question_text": "Example of non frontal stability is",
+          "question_type": "MCQ",
+          "options": [
+            "(a) Squall line",
+            "(b) Inversion",
+            "(c) Frontogenesis",
+            "(d) Occlusion"
+          ],
+          "answer": "(b)"
+        },
+        {
+          "question_number": "Q20",
+          "question_text": "If temperature initially is constant and then increases with height, the atmosphere is",
+          "question_type": "MCQ",
+          "options": [
+            "(a) Stable",
+            "(b) Unstable",
+            "(c) Indifferent",
+            "(d) Adiabatic"
+          ],
+          "answer": "(a)"
+        },
+        
+  ]
+}

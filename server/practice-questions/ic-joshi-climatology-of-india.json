@@ -1,0 +1,475 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 19,
+  "chapter_title": "Climatology of India",
+  "chapter_slug": "climatology-of-india",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "climatology-of-india-q1",
+      "question_number": "Q1",
+      "question": "During winters",
+      "question_type": "MCQ",
+      "options": [
+        "Advection fog occurs over northern & central parts of India",
+        "Radiation fog occurs in southern parts of India",
+        "Activity of Radiation fog increases after the passage of a WD over N India"
+      ],
+      "answer": "c",
+      "solution": "Activity of Radiation fog increases after the passage of a WD over N India",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q2",
+      "question_number": "Q2",
+      "question": "Low Temperatures and low humidity is the characteristic of",
+      "question_type": "MCQ",
+      "options": [
+        "Post Monsoon",
+        "Summer",
+        "Monsoon",
+        "Winter"
+      ],
+      "answer": "d",
+      "solution": "Winter",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q3",
+      "question_number": "Q3",
+      "question": "The Summer Season period is",
+      "question_type": "MCQ",
+      "options": [
+        "Jan-Feb",
+        "Mar-May",
+        "Jul - Sept",
+        "Oct-Dec"
+      ],
+      "answer": "b",
+      "solution": "Mar-May",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q4",
+      "question_number": "Q4",
+      "question": "During Summer season",
+      "question_type": "MCQ",
+      "options": [
+        "WDs cause TS / DS over Punjab & Rajasthan",
+        "No WD affect N-parts of country",
+        "Track of WD is southern most"
+      ],
+      "answer": "a",
+      "solution": "WDs cause TS / DS over Punjab & Rajasthan",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q5",
+      "question_number": "Q5",
+      "question": "The monsoon current over the West coast of India is",
+      "question_type": "MCQ",
+      "options": [
+        "SWly",
+        "SEly",
+        "NEly",
+        "NWly"
+      ],
+      "answer": "a",
+      "solution": "SWly",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q6",
+      "question_number": "Q6",
+      "question": "Monsoon period is",
+      "question_type": "MCQ",
+      "options": [
+        "Jan to Feb",
+        "March to May",
+        "Jun to Sep",
+        "Oct to Dec"
+      ],
+      "answer": "c",
+      "solution": "Jun to Sep",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q7",
+      "question_number": "Q7",
+      "question": "The monsoon advances with",
+      "question_type": "MCQ",
+      "options": [
+        "Bay of Bengal current only",
+        "Arabian Sea current only",
+        "Bay of Bengal and Arabian sea currents"
+      ],
+      "answer": "c",
+      "solution": "Bay of Bengal and Arabian sea currents",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q8",
+      "question_number": "Q8",
+      "question": "The rainfall over India during monsoon depends on",
+      "question_type": "MCQ",
+      "options": [
+        "Low over Pakistan",
+        "Depression over Bay of Bengal",
+        "The position of the axis of Monsoon Trough."
+      ],
+      "answer": "c",
+      "solution": "The position of the axis of Monsoon Trough.",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q9",
+      "question_number": "Q9",
+      "question": "Rainfall occurs all over the country during monsoon when",
+      "question_type": "MCQ",
+      "options": [
+        "Axis of MT is in its normal position along Gangetic plains",
+        "Axis of MT is along Himalayas",
+        "Depression formed over Bay of Bengal"
+      ],
+      "answer": "a",
+      "solution": "Axis of MT is in its normal position along Gangetic plains",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q10",
+      "question_number": "Q10",
+      "question": "Break in monsoon occurs when the axis of monsoon trough is along the",
+      "question_type": "MCQ",
+      "options": [
+        "Gangetic plains",
+        "Foot hills of Himalayas",
+        "Bay of Bengal."
+      ],
+      "answer": "b",
+      "solution": "Foot hills of Himalayas",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q11",
+      "question_number": "Q11",
+      "question": "With a Depression over the Head Bay fair weather during monsoon occurs over",
+      "question_type": "MCQ",
+      "options": [
+        "Assam",
+        "W Bengal",
+        "Orissa"
+      ],
+      "answer": "a",
+      "solution": "Assam",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q12",
+      "question_number": "Q12",
+      "question": "Monsoon is also called",
+      "question_type": "MCQ",
+      "options": [
+        "Pre monsoon",
+        "Rainy Season",
+        "Post monsoon"
+      ],
+      "answer": "b",
+      "solution": "Rainy Season",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q13",
+      "question_number": "Q13",
+      "question": "Autumn Season period is",
+      "question_type": "MCQ",
+      "options": [
+        "Mar to May",
+        "Jun to Sept",
+        "Oct to Nov",
+        "Jan to Feb"
+      ],
+      "answer": "c",
+      "solution": "Oct to Nov",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q14",
+      "question_number": "Q14",
+      "question": "During post monsoon, pressure gradient over India is",
+      "question_type": "MCQ",
+      "options": [
+        "weak",
+        "steep",
+        "same as winters"
+      ],
+      "answer": "a",
+      "solution": "weak",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q15",
+      "question_number": "Q15",
+      "question": "During monsoon season, low pressure lies over",
+      "question_type": "MCQ",
+      "options": [
+        "Bay of Bengal",
+        "NE India",
+        "Central India",
+        "Pakistan"
+      ],
+      "answer": "d",
+      "solution": "Pakistan",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q16",
+      "question_number": "Q16",
+      "question": "During vigorous monsoon period the pressure gradient over west coast is",
+      "question_type": "MCQ",
+      "options": [
+        "Weak",
+        "Steep",
+        "Normal"
+      ],
+      "answer": "b",
+      "solution": "Steep",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q17",
+      "question_number": "Q17",
+      "question": "Flying in Monsoon from Chennai to Kolkata at 14 km a/c will experience winds",
+      "question_type": "MCQ",
+      "options": [
+        "Easterly",
+        "Westerly",
+        "Nly",
+        "Southerly"
+      ],
+      "answer": "a",
+      "solution": "Easterly",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q18",
+      "question_number": "Q18",
+      "question": "An A/C flying in Winter season from Chennai to Kolkata at 12 km will experience",
+      "question_type": "MCQ",
+      "options": [
+        "Ely",
+        "Wly",
+        "Nly",
+        "Sly"
+      ],
+      "answer": "b",
+      "solution": "Wly",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q19",
+      "question_number": "Q19",
+      "question": "An aircraft flying in Summer season from Delhi to Kolkata at 10 km will experience",
+      "question_type": "MCQ",
+      "options": [
+        "Easterly",
+        "Westerly",
+        "Northerly",
+        "Southerly"
+      ],
+      "answer": "b",
+      "solution": "Westerly",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q20",
+      "question_number": "Q20",
+      "question": "An A/C flying in Monsoon from Mumbai to Ahmadabad at 03 km will experience",
+      "question_type": "MCQ",
+      "options": [
+        "SEly",
+        "SWly",
+        "Nly",
+        "NWly"
+      ],
+      "answer": "b",
+      "solution": "SWly",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q21",
+      "question_number": "Q21",
+      "question": "A/C flying in winter season from Delhi to Kolkata at 06 km will experience winds",
+      "question_type": "MCQ",
+      "options": [
+        "SEly",
+        "SWly",
+        "Nly",
+        "NW - Wly"
+      ],
+      "answer": "d",
+      "solution": "NW - Wly",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q22",
+      "question_number": "Q22",
+      "question": "An aircraft flying in winter season from Delhi to Kolkata at 06 km will experience",
+      "question_type": "MCQ",
+      "options": [
+        "Port drift",
+        "Starboard drift",
+        "Tail wind",
+        "Head wind"
+      ],
+      "answer": "a",
+      "solution": "Port drift",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q23",
+      "question_number": "Q23",
+      "question": "Flying in winter season from Kolkata to Nagpur at 02 km will experience",
+      "question_type": "MCQ",
+      "options": [
+        "Port drift",
+        "Starboard drift",
+        "Tail wind",
+        "Head wind"
+      ],
+      "answer": "a",
+      "solution": "Port drift",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q24",
+      "question_number": "Q24",
+      "question": "During break monsoon the pressures all over the country",
+      "question_type": "MCQ",
+      "options": [
+        "Rise",
+        "Fall",
+        "Do not change"
+      ],
+      "answer": "a",
+      "solution": "Rise",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q25",
+      "question_number": "Q25",
+      "question": "During break monsoon sometimes surface winds over East UP and Bihar are",
+      "question_type": "MCQ",
+      "options": [
+        "very strong",
+        "weak",
+        "normal"
+      ],
+      "answer": "a",
+      "solution": "very strong",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q26",
+      "question_number": "Q26",
+      "question": "Mid tropospheric cyclone occurs during",
+      "question_type": "MCQ",
+      "options": [
+        "Summer Season",
+        "Winters",
+        "Post monsoon",
+        "Monsoon"
+      ],
+      "answer": "d",
+      "solution": "Monsoon",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q27",
+      "question_number": "Q27",
+      "question": "Mid tropospheric cyclone during monsoon form over",
+      "question_type": "MCQ",
+      "options": [
+        "Orissa",
+        "Punjab",
+        "Gujarat",
+        "Chennai"
+      ],
+      "answer": "c",
+      "solution": "Gujarat",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q28",
+      "question_number": "Q28",
+      "question": "El Nino is",
+      "question_type": "MCQ",
+      "options": [
+        "Warm phase of ENSO",
+        "Cold Phase of ENSO",
+        "Good for Indian Monsoon causing more rains"
+      ],
+      "answer": "a",
+      "solution": "Warm phase of ENSO",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q29",
+      "question_number": "Q29",
+      "question": "Maximum cyclones occur over India in",
+      "question_type": "MCQ",
+      "options": [
+        "Pre monsoon",
+        "Winters",
+        "Post monsoon",
+        "Monsoon"
+      ],
+      "answer": "c",
+      "solution": "Post monsoon",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q30",
+      "question_number": "Q30",
+      "question": "Tropical Jet stream occurs in India during",
+      "question_type": "MCQ",
+      "options": [
+        "Pre monsoon",
+        "Winters",
+        "Post monsoon",
+        "Monsoon"
+      ],
+      "answer": "d",
+      "solution": "Monsoon",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q31",
+      "question_number": "Q31",
+      "question": "Pressure gradient over West Coast of India is steep during",
+      "question_type": "MCQ",
+      "options": [
+        "Pre monsoon",
+        "Winters",
+        "Post monsoon",
+        "Monsoon"
+      ],
+      "answer": "d",
+      "solution": "Monsoon",
+      "explanation": ""
+    },
+    {
+      "id": "climatology-of-india-q32",
+      "question_number": "Q32",
+      "question": "During break monsoon more rain occurs",
+      "question_type": "MCQ",
+      "options": [
+        "along foot hills",
+        "NW India",
+        "S India"
+      ],
+      "answer": "a",
+      "solution": "along foot hills",
+      "explanation": ""
+    }
+  ]
+}

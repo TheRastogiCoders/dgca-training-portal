@@ -1,0 +1,216 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 14,
+  "chapter_title": "Air Masses, Fronts and Western Disturbances",
+  "chapter_slug": "air-masses-fronts-and-western-disturbances",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "air-masses-fronts-and-western-disturbances-q1",
+      "question_number": "Q1",
+      "question": "The airmass which originates at sea in high Latitudes is called",
+      "question_type": "MCQ",
+      "options": [
+        "Polar maritime",
+        "Tropical continental",
+        "Tropical maritime"
+      ],
+      "answer": "a",
+      "solution": "Polar maritime",
+      "explanation": ""
+    },
+    {
+      "id": "air-masses-fronts-and-western-disturbances-q2",
+      "question_number": "Q2",
+      "question": "The airmass which originates over equatorial region is",
+      "question_type": "MCQ",
+      "options": [
+        "Warm and dry",
+        "Warm and Moist",
+        "Cold and dry"
+      ],
+      "answer": "c",
+      "solution": "Cold and dry",
+      "explanation": ""
+    },
+    {
+      "id": "air-masses-fronts-and-western-disturbances-q3",
+      "question_number": "Q3",
+      "question": "If the advancing cold front is colder than the cool air mass of the warm front, the advancing cold front undercuts and lifts both the warm and cool air masses of the warm front. This is",
+      "question_type": "MCQ",
+      "options": [
+        "Warm Occlusion",
+        "Cold Occlusion"
+      ],
+      "answer": "a",
+      "solution": "Warm Occlusion",
+      "explanation": ""
+    },
+    {
+      "id": "air-masses-fronts-and-western-disturbances-q4",
+      "question_number": "Q4",
+      "question": "The airmass which originated over land area located in polar region is:",
+      "question_type": "MCQ",
+      "options": [
+        "Warm and dry",
+        "Warm and Moist",
+        "Cold and dry"
+      ],
+      "answer": "a",
+      "solution": "Warm and dry",
+      "explanation": ""
+    },
+    {
+      "id": "air-masses-fronts-and-western-disturbances-q5",
+      "question_number": "Q5",
+      "question": "If a warm airmass overtakes a cold air mass, it is called",
+      "question_type": "MCQ",
+      "options": [
+        "Cold Front",
+        "Warm Front"
+      ],
+      "answer": "b",
+      "solution": "Warm Front",
+      "explanation": ""
+    },
+    {
+      "id": "air-masses-fronts-and-western-disturbances-q7",
+      "question_number": "Q7",
+      "question": "The conditions are always unstable at a",
+      "question_type": "MCQ",
+      "options": [
+        "Option A Text Missing in Source",
+        "Warm front",
+        "Occluded Front"
+      ],
+      "answer": "b",
+      "solution": "Warm front",
+      "explanation": ""
+    },
+    {
+      "id": "air-masses-fronts-and-western-disturbances-q9",
+      "question_number": "Q9",
+      "question": "Precipitation occurs over a belt of 30-50 km on both side of front",
+      "question_type": "MCQ",
+      "options": [
+        "Cold front",
+        "Warm front"
+      ],
+      "answer": "b",
+      "solution": "Warm front",
+      "explanation": ""
+    },
+    {
+      "id": "air-masses-fronts-and-western-disturbances-q11",
+      "question_number": "Q11",
+      "question": "Line Squalls occur...... of Cold front",
+      "question_type": "MCQ",
+      "options": [
+        "Ahead",
+        "Behind",
+        "At the"
+      ],
+      "answer": "a",
+      "solution": "Ahead",
+      "explanation": ""
+    },
+    {
+      "id": "air-masses-fronts-and-western-disturbances-q12",
+      "question_number": "Q12",
+      "question": "Fronts are associated with",
+      "question_type": "MCQ",
+      "options": [
+        "Tropical cyclone",
+        "Monsoon Depression",
+        "Extra-tropical Cyclones"
+      ],
+      "answer": "c",
+      "solution": "Extra-tropical Cyclones",
+      "explanation": ""
+    },
+    {
+      "id": "air-masses-fronts-and-western-disturbances-q14",
+      "question_number": "Q14",
+      "question": "The surface of discontinuity between the Polar Ely and the temperate Wly is called",
+      "question_type": "MCQ",
+      "options": [
+        "Equatorial Front",
+        "Tropopause",
+        "Polar Front"
+      ],
+      "answer": "b",
+      "solution": "Tropopause",
+      "explanation": ""
+    },
+    {
+      "id": "air-masses-fronts-and-western-disturbances-q15",
+      "question_number": "Q15",
+      "question": "The air mass which originates from sea area located in lower Lat is",
+      "question_type": "MCQ",
+      "options": [
+        "Warm and Dry",
+        "Warm and Moist",
+        "Cold and Moist"
+      ],
+      "answer": "c",
+      "solution": "Cold and Moist",
+      "explanation": ""
+    },
+    {
+      "id": "air-masses-fronts-and-western-disturbances-q16",
+      "question_number": "Q16",
+      "question": "WDs approach India as",
+      "question_type": "MCQ",
+      "options": [
+        "Cols",
+        "Occluded Fronts",
+        "Highs"
+      ],
+      "answer": "a",
+      "solution": "Cols",
+      "explanation": ""
+    },
+    {
+      "id": "air-masses-fronts-and-western-disturbances-q17",
+      "question_number": "Q17",
+      "question": "Maximum WDs occur in",
+      "question_type": "MCQ",
+      "options": [
+        "Summers",
+        "Post Monsoon",
+        "Winters"
+      ],
+      "answer": "c",
+      "solution": "Winters",
+      "explanation": ""
+    },
+    {
+      "id": "air-masses-fronts-and-western-disturbances-q18",
+      "question_number": "Q18",
+      "question": "Ahead of a warm front the surface wind",
+      "question_type": "MCQ",
+      "options": [
+        "Backs & weakens",
+        "Veers & strengthens",
+        "Backs & strengthens"
+      ],
+      "answer": "a",
+      "solution": "Backs & weakens",
+      "explanation": ""
+    },
+    {
+      "id": "air-masses-fronts-and-western-disturbances-q19",
+      "question_number": "Q19",
+      "question": "On approach of a Warm Front temperature",
+      "question_type": "MCQ",
+      "options": [
+        "Fall",
+        "Rise",
+        "Remain same"
+      ],
+      "answer": "b",
+      "solution": "Rise",
+      "explanation": ""
+    }
+  ]
+}

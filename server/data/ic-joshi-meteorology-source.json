@@ -1,0 +1,1107 @@
+[
+  {
+    "book_name": "MET_IC_Joshi_7 Edition",
+    "chapter_number": 8,
+    "chapter_title": "Vertical Motion and Clouds",
+    "questions": [
+      {
+        "question_number": "Q1",
+        "question_text": "Drizzle occurs from",
+        "question_type": "MCQ",
+        "options": ["(a) CS", "(b) ST", "(c) NS", "(d) CU"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q2",
+        "question_text": "Altostratus (AS) is",
+        "question_type": "MCQ",
+        "options": [
+          "(a) Low cloud of sheet type",
+          "(b) A medium cloud of sheet type",
+          "(c) A cloud of large vertical growth",
+          "(d) A high cloud of sheet type"
+        ],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q3",
+        "question_text": "Showers occurs from",
+        "question_type": "MCQ",
+        "options": ["(a) CU", "(b) CB", "(c) AS", "(d) AC"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q4",
+        "question_text": "Heavy icing is possible in",
+        "question_type": "MCQ",
+        "options": ["(a) CI", "(b) CS", "(c) ST", "(d) CB"],
+        "solution": "d"
+      },
+      {
+        "question_number": "Q5",
+        "question_text": "To avoid icing in cloudy conditions, a pilot is advised to fly through a cloud which shows optical phenomena",
+        "question_type": "MCQ",
+        "options": ["(a) Halo", "(b) Corona", "(c) With multi-coloured clouds", "(d) CB"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q6",
+        "question_text": "Dark gray cloud giving continuous rain is called",
+        "question_type": "MCQ",
+        "options": ["(a) AS", "(b) NS", "(c) ST", "(d) CB"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q7",
+        "question_text": "A uniform layer of cloud resembling fog but not on the ground",
+        "question_type": "MCQ",
+        "options": ["(a) AS", "(b) NS", "(c) ST"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q8",
+        "question_text": "The clouds composed of ice crystals having feathery appearance",
+        "question_type": "MCQ",
+        "options": ["(a) CI", "(b) NS", "(c) AS"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q9",
+        "question_text": "NS clouds occur",
+        "question_type": "MCQ",
+        "options": ["(a) At cold front", "(b) At warm front"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q10",
+        "question_text": "Halo is associated with the cloud",
+        "question_type": "MCQ",
+        "options": ["(a) AC", "(b) AS", "(c) CS", "(d) CI"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q11",
+        "question_text": "Corona is associated with the cloud",
+        "question_type": "MCQ",
+        "options": ["(a) AS", "(b) AC", "(c) CC", "(d) CS"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q12",
+        "question_text": "Lenticular clouds indicate presence of",
+        "question_type": "MCQ",
+        "options": ["(a) Warm Front", "(b) Cold front", "(c) Mountain waves"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q13",
+        "question_text": "The lowest level below which condensation trails will not form is",
+        "question_type": "MCQ",
+        "options": ["(a) Mintra Level", "(b) Drytra Level", "(c) Maxtra Level"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q14",
+        "question_text": "Rain falling from cloud but not reaching ground is",
+        "question_type": "MCQ",
+        "options": ["(a) Virgo", "(b) Virga", "(c) Mirage"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q15",
+        "question_text": "CB with distinct anvil is called",
+        "question_type": "MCQ",
+        "options": ["(a) Castellaneous", "(b) Capillatus", "(c) Uncinus"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q16",
+        "question_text": "Cloud ceiling is the height of the cloud covering...........",
+        "question_type": "MCQ",
+        "options": ["(a) 3-4/8", "(b) 8/8", "(c) 5/8 or more"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q17",
+        "question_text": "No condensation trails occur above",
+        "question_type": "MCQ",
+        "options": ["(a) Maxtra Level", "(b) Drytra Level", "(c) Mintra Level"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q18",
+        "question_text": "Cloud of operational significance has base below.......m or below the highest minimum sector altitude, which is greater",
+        "question_type": "MCQ",
+        "options": ["(a) 1500", "(b) 2000", "(c) 1000"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q19",
+        "question_text": "AC cloud with cumuliform protuberances are indicative of",
+        "question_type": "MCQ",
+        "options": ["(a) Stability", "(b) Instability", "(c) Neutrality"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q20",
+        "question_text": "Hail may be experienced under the anvil of a CB",
+        "question_type": "MCQ",
+        "options": ["(a) True", "(b) False"],
+        "solution": "a"
+      }
+    ]
+  },
+  {
+    "book_name": "MET_IC_Joshi_7 Edition",
+    "chapter_number": 6,
+    "chapter_title": "Winds",
+    "questions": [
+      {
+        "question_number": "Q1",
+        "question_text": "In S hemisphere if an observer faces wind, low will be to his",
+        "question_type": "MCQ",
+        "options": ["(a) Right", "(b) Left"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q2",
+        "question_text": "In N hemisphere due to rotation of earth winds are deflected to .........",
+        "question_type": "MCQ",
+        "options": ["(a) Left", "(b) Right"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q3",
+        "question_text": "Local Winds follow Buys Ballots law.......",
+        "question_type": "MCQ",
+        "options": ["(a) False", "(b) True"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q4",
+        "question_text": "Coriolis force acts perpendicular to the ............. of wind direction in N hemisphere",
+        "question_type": "MCQ",
+        "options": ["(a) Left", "(b) Right"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q5",
+        "question_text": "Geostrophic wind is due to the balance between the forces",
+        "question_type": "MCQ",
+        "options": [
+          "(a) Coriolis and Frictional",
+          "(b) Pressure gradient and Cyclostrophic",
+          "(c) Pressure gradient and Coriolis"
+        ],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q6",
+        "question_text": "Coriolis force is strongest at",
+        "question_type": "MCQ",
+        "options": ["(a) Mid latitudes", "(b) Poles", "(c) Equator"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q7",
+        "question_text": "Geostrophic rule breaks down at",
+        "question_type": "MCQ",
+        "options": ["(a) Mid latitudes", "(b) Poles", "(c) Equator"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q8",
+        "question_text": "Fohn winds are ___ on the Leeward side of a mountain.",
+        "question_type": "MCQ",
+        "options": ["(a) Dry & Warm", "(b) Cold & Humid"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q9",
+        "question_text": "The wind sliding down a hill during night is called ....... wind.",
+        "question_type": "MCQ",
+        "options": ["(a) Fohn", "(b) Anabatic", "(c) Katabatic"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q10",
+        "question_text": "With the onset of sea breeze there is a ___ in temperature and ___ in RH.",
+        "question_type": "MCQ",
+        "options": ["(a) Fall/Rise", "(b) Rise/Fall", "(c) Fall/Fall"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q11",
+        "question_text": "Sea breeze sets in by ........... and dies off at",
+        "question_type": "MCQ",
+        "options": ["(a) Night/Day", "(b) Day/Night", "(c) Both Day and Night"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q12",
+        "question_text": "If an aircraft in N-hemisphere flies from H to L it will experience",
+        "question_type": "MCQ",
+        "options": ["(a) Starboard drift", "(b) Port drift"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q13",
+        "question_text": "In N-Hemisphere if you experience Port drift, altimeter will read",
+        "question_type": "MCQ",
+        "options": ["(a) Under", "(b) Over"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q14",
+        "question_text": "Lines of constant wind speed drawn on weather charts are called",
+        "question_type": "MCQ",
+        "options": ["(a) Isobars", "(b) Isotachs", "(c) Isogons"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q15",
+        "question_text": "Squall are distinguished from gusts by:",
+        "question_type": "MCQ",
+        "options": ["(a) Shorter duration", "(b) Longer duration", "(c) Lower wind speed"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q16",
+        "question_text": "The thermal wind is:",
+        "question_type": "MCQ",
+        "options": [
+          "(a) The wind that blows because of thermals",
+          "(b) The warm wind that blows down the hill on the leeward side",
+          "(c) The wind which must be added vectorially to the lower level geostrophic wind to obtain the upper level geostrophic wind"
+        ],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q17",
+        "question_text": "On a weather map if isobars are closely packed, the surface winds are likely to be",
+        "question_type": "MCQ",
+        "options": [
+          "(a) Light and parallel to isobars",
+          "(b) Strong and parallel to isobars",
+          "(c) Strong and blowing across the isobars"
+        ],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q18",
+        "question_text": "Anabatic wind occurs",
+        "question_type": "MCQ",
+        "options": ["(a) At night", "(b) Any time of day and night", "(c) During day"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q19",
+        "question_text": "Anabatic wind is stronger than katabatic",
+        "question_type": "MCQ",
+        "options": ["(a) True", "(b) False"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q20",
+        "question_text": "Katabatic wind is down slope cold wind due to nocturnal cooling",
+        "question_type": "MCQ",
+        "options": ["(a) True", "(b) False"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q21",
+        "question_text": "Katabatic wind occur due to sinking of cold air down the hill slope",
+        "question_type": "MCQ",
+        "options": ["(a) True", "(b) False"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q22",
+        "question_text": "Anabatic wind occur due to downward movement of air along valley",
+        "question_type": "MCQ",
+        "options": ["(a) True", "(b) False"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q23",
+        "question_text": "Sea breeze is stronger than land breeze",
+        "question_type": "MCQ",
+        "options": ["(a) True", "(b) False"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q24",
+        "question_text": "The wind blows clockwise around a low in N-hemisphere",
+        "question_type": "MCQ",
+        "options": ["(a) True", "(b) False"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q25",
+        "question_text": "The wind blows clockwise around a low in S-hemisphere",
+        "question_type": "MCQ",
+        "options": ["(a) True", "(b) False"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q26",
+        "question_text": "The wind blows anticlockwise around a low in N-hemisphere",
+        "question_type": "MCQ",
+        "options": ["(a) True", "(b) False"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q27",
+        "question_text": "The wind blows anticlockwise around a low in S- hemisphere",
+        "question_type": "MCQ",
+        "options": ["(a) True", "(b) False"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q28",
+        "question_text": "The resultant wind that blows under the influence of pressure gradient force, geostrophic force and cyclostrophic force is called",
+        "question_type": "MCQ",
+        "options": ["(a) Gradient wind", "(b) Geostrophic wind", "(c) Cyclostrophic wind"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q29",
+        "question_text": "Due to friction, from day to night for an isobaric pattern (in N hemisphere) the surface wind backs and weakens",
+        "question_type": "MCQ",
+        "options": ["(a) True", "(b) False"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q30",
+        "question_text": "The winds which spirals inward counter-clockwise in the N Hemisphere are associated with",
+        "question_type": "MCQ",
+        "options": ["(a) Turbulence", "(b) High pressure area", "(c) Low pressure area"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q31",
+        "question_text": "Lower level wind 05010 kt, upper level wind 23005 kt, what is the thermal wind",
+        "question_type": "MCQ",
+        "options": ["(a) 05005 kt", "(b) 23015 kt", "(c) 05015 kt"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q32",
+        "question_text": "A change in wind direction from 310° to 020° is",
+        "question_type": "MCQ",
+        "options": ["(a) Backing", "(b) Veering"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q33",
+        "question_text": "A change from 270° to 250° is",
+        "question_type": "MCQ",
+        "options": ["(a) Backing", "(b) Veering"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q34",
+        "question_text": "Sudden changes in wind speed from 10 kt to 30 kt and then to 15 kt are",
+        "question_type": "MCQ",
+        "options": ["(a) Gust", "(b) Squall", "(c) gale"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q35",
+        "question_text": "Sudden change in wind speed from 10 kt to 30 kt for 2 - 3 minutes",
+        "question_type": "MCQ",
+        "options": ["(a) Squall", "(b) Gust"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q36",
+        "question_text": "A significant wind shear is generally associated with TS or line squall",
+        "question_type": "MCQ",
+        "options": ["(a) False", "(b) True"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q37",
+        "question_text": "Cyclostrophic wind gives a good approximation of the 2000' wind in an intense tropical storm",
+        "question_type": "MCQ",
+        "options": ["(a) True", "(b) False"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q38",
+        "question_text": "Rotor clouds have extremely turbulent flying conditions",
+        "question_type": "MCQ",
+        "options": ["(a) False", "(b) True"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q39",
+        "question_text": "Friction causes winds to flow cross isobaric by ...... over land and ...... over sea",
+        "question_type": "MCQ",
+        "options": ["(a) 20°/10°", "(b) 30°/15°", "(c) 40°/30°"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q40",
+        "question_text": "If the S is warmer than the N, level by level, from surface up to higher levels, then the ___ wind will strengthen with height with no change in direction in N hemisphere",
+        "question_type": "MCQ",
+        "options": ["(a) Ely", "(b) Wly", "(c) Sly", "(d) Nly"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q41",
+        "question_text": "Gradient wind is ___ of the geostrophic wind in an anticyclone",
+        "question_type": "MCQ",
+        "options": ["(a) Under estimate", "(b) Accurate", "(c) Over estimate"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q42",
+        "question_text": "Gale is",
+        "question_type": "MCQ",
+        "options": [
+          "(a) Persistent strong winds with mean speed 44 kt, associated with thunderstorm",
+          "(b) Marked increase in wind speed lasing few minutes associated with CB or DS",
+          "(c) Persistent strong winds exceeding 33 kt, associated with depression"
+        ],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q43",
+        "question_text": "In N hemisphere thermal wind is parallel to ...... with low value to left",
+        "question_type": "MCQ",
+        "options": ["(a) Isobars", "(b) Isotherms", "(c) Isallobars"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q44",
+        "question_text": "The inertial flow is",
+        "question_type": "MCQ",
+        "options": [
+          "(a) cyclonic in both the Hemispheres",
+          "(b) anti cyclonic in both the Hemispheres",
+          "(c) anti cyclonic around an anticyclone"
+        ],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q45",
+        "question_text": "Upper level wind is 24025 kt, lower level wind is 06015 kt, the thermal wind is?",
+        "question_type": "MCQ",
+        "options": ["(a) 16010 kt", "(b) 24040 kt", "(c) 24010 kt"],
+        "solution": "b"
+      }
+    ]
+  },
+  {
+    "book_name": "MET_IC_Joshi_7 Edition",
+    "chapter_number": 9,
+    "chapter_title": "Stability and Instability of Atmosphere",
+    "questions": [
+      {
+        "question_number": "Q1",
+        "question_text": "DALR=9.8°C; ELR=6.8°C; atmosphere is",
+        "question_type": "MCQ",
+        "options": ["(a) stable", "(b) unstable", "(c) indifferent"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q2",
+        "question_text": "SALR=5.5°C; ELR=4.5°C; atmosphere is",
+        "question_type": "MCQ",
+        "options": ["(a) unstable", "(b) stable", "(c) indifferent"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q3",
+        "question_text": "DALR>ELR>SALR",
+        "question_type": "MCQ",
+        "options": ["(a) conditionally unstable", "(b) latently stable", "(c) potentially stable"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q4",
+        "question_text": "Dry air is unstable when:",
+        "question_type": "MCQ",
+        "options": ["(a) ELR=DALR", "(b) ELR>DALR", "(c) ELR<DALR"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q5",
+        "question_text": "The saturated air is said to be unstable if",
+        "question_type": "MCQ",
+        "options": ["(a) SALR=ELR", "(b) SALR<ELR", "(c) SALR > ELR"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q6",
+        "question_text": "If ELR=SALR=DALR the atmosphere is",
+        "question_type": "MCQ",
+        "options": ["(a) Stable", "(b) Instable", "(c) Indifferent"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q7",
+        "question_text": "DALR means:",
+        "question_type": "MCQ",
+        "options": [
+          "(a) The rate at which temperature of unsaturated parcel of air falls with height when made to ascend adiabatically",
+          "(b) The rate at which temp falls with height",
+          "(c) The rate at which ascending parcel of saturated air cools"
+        ],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q8",
+        "question_text": "Surface temp. is 30°C Assuming DALR what is the temperature at 2 km",
+        "question_type": "MCQ",
+        "options": ["(a) 18°C", "(b) 10°C", "(c) 42°C"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q9",
+        "question_text": "An Isothermal atmosphere is:",
+        "question_type": "MCQ",
+        "options": ["(a) Stable", "(b) Unstable", "(c) Neutral"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q10",
+        "question_text": "If ELR is less than SALR, the atmosphere is said to be:",
+        "question_type": "MCQ",
+        "options": ["(a) Absolutely unstable", "(b) Conditionally unstable", "(c) Absolutely stable"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q11",
+        "question_text": "DALR is approximately",
+        "question_type": "MCQ",
+        "options": ["(a) 5°C/km", "(b) 15°C/km", "(c) 10°C/km"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q12",
+        "question_text": "SALR at mean sea level is about",
+        "question_type": "MCQ",
+        "options": ["(a) 10°C/Km", "(b) 5°C/Km", "(c) 5°F/Km"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q13",
+        "question_text": "SALR approaches DALR",
+        "question_type": "MCQ",
+        "options": ["(a) at 0°C", "(b) at -15°F", "(c) at -40°C"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q14",
+        "question_text": "Dry air having a temperature of 35°C on surface when forced to rise adiabatically by 1 km would attain a temperature of",
+        "question_type": "MCQ",
+        "options": ["(a) 29°C", "(b) 25°C", "(c) 45°C"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q15",
+        "question_text": "Inversion in the atmosphere indicates",
+        "question_type": "MCQ",
+        "options": ["(a) Stability", "(b) Instability", "(c) Neutrality"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q16",
+        "question_text": "Inversion is ......... Lapse Rate (LR)",
+        "question_type": "MCQ",
+        "options": ["(a) Positive", "(b) Negative", "(c) Neutral"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q17",
+        "question_text": "Environmental LR can be more than DALR",
+        "question_type": "MCQ",
+        "options": ["(a) True", "(b) False"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q18",
+        "question_text": "The process which to a large extent determines the vertical distribution of temperature in atmosphere is",
+        "question_type": "MCQ",
+        "options": ["(a) Adiabatic", "(b) Isothermal", "(c) Isentropic"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q19",
+        "question_text": "Rise in temperature with height is",
+        "question_type": "MCQ",
+        "options": ["(a) Inversion", "(b) Lapse", "(c) Normal"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q20",
+        "question_text": "Inversion is common in",
+        "question_type": "MCQ",
+        "options": ["(a) Post Monsoon", "(b) Monsoon", "(c) Winters"],
+        "solution": "c"
+      }
+    ]
+  },
+  {
+    "book_name": "MET_IC_Joshi_7 Edition",
+    "chapter_number": 7,
+    "chapter_title": "Visibility and Fog",
+    "questions": [
+      {
+        "question_number": "Q1",
+        "question_text": "Fog is reported when visibility is reduced to",
+        "question_type": "MCQ",
+        "options": ["(a) Less than 1000 m", "(b) 1000m", "(c) 1000 to 2000"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q2",
+        "question_text": "RVR is reported when visibility falls below",
+        "question_type": "MCQ",
+        "options": ["(a) 500 m", "(b) 1000 m", "(c) 1500 m", "(d) 2000 m"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q3",
+        "question_text": "Radiation fog occurs",
+        "question_type": "MCQ",
+        "options": ["(a) Over land", "(b) Over sea", "(c) During day"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q4",
+        "question_text": "When visibility reduces between 5000 m and 1000 m and RH is almost 100%, it is",
+        "question_type": "MCQ",
+        "options": ["(a) Mist", "(b) Haze", "(c) Fog"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q5",
+        "question_text": "Radiation Fog forms over N India during",
+        "question_type": "MCQ",
+        "options": ["(a) May to June", "(b) Dec to Feb", "(c) Oct to Nov."],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q6",
+        "question_text": "Warm and moist air moving over a cold ground gives rise to:",
+        "question_type": "MCQ",
+        "options": ["(a) Thunder clouds", "(b) Fog and stratus", "(c) Frontal clouds"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q7",
+        "question_text": "Warm and moist air moving over a cold surface causes",
+        "question_type": "MCQ",
+        "options": ["(a) Radiation Fog", "(b) Advection Fog", "(c) Frontal Fog"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q8",
+        "question_text": "The radiation fog forms due to",
+        "question_type": "MCQ",
+        "options": ["(a) Heating of the earth during day", "(b) Radiational cooling of earth at night", "(c) Advection of cold air"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q9",
+        "question_text": "The radiation fog activity increases after the passage of a",
+        "question_type": "MCQ",
+        "options": ["(a) WD", "(b) Depression", "(c) Col"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q10",
+        "question_text": "Radiation fog is essentially a ___ phenomena",
+        "question_type": "MCQ",
+        "options": ["(a) Nocturnal", "(b) Dusk", "(c) Day"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q11",
+        "question_text": "The radiation fog forms over",
+        "question_type": "MCQ",
+        "options": ["(a) Water", "(b) Land", "(c) Both"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q12",
+        "question_text": "The ...... fog forms due to horizontal movement of warm moist air over cold surface",
+        "question_type": "MCQ",
+        "options": ["(a) Radiation", "(b) Advection", "(c) Frontal"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q13",
+        "question_text": "Advection fog forms during",
+        "question_type": "MCQ",
+        "options": ["(a) night only", "(b) day time only", "(c) any time of day and night"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q14",
+        "question_text": "For formation of Radiation fog",
+        "question_type": "MCQ",
+        "options": [
+          "(a) There should be sufficient moisture in atmosphere, cloudy sky, nil wind",
+          "(b) There should be sufficient moisture in atmosphere, clear sky, light wind.",
+          "(c) There should be sufficient moisture in atmosphere, cloudy sky, strong wind."
+        ],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q15",
+        "question_text": "Instrument used for measuring visibility is called",
+        "question_type": "MCQ",
+        "options": ["(a) Visiometer", "(b) Transmissometer", "(c) Ceilometer"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q16",
+        "question_text": "Advection fog forms",
+        "question_type": "MCQ",
+        "options": ["(a) over sea", "(b) over Land", "(c) both over land and sea"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q17",
+        "question_text": "Fog is ___ cloud on ground",
+        "question_type": "MCQ",
+        "options": ["(a) Stratocumulus", "(b) Stratus", "(c) Nimbostratus"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q18",
+        "question_text": "Frontal Fog is more common with a",
+        "question_type": "MCQ",
+        "options": ["(a) Western Disturbance", "(b) Cyclone", "(c) Warm Front", "(d) Cold Front"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q19",
+        "question_text": "The favourable pressure system for formation of fog is",
+        "question_type": "MCQ",
+        "options": [
+          "(a) Lows and Cols",
+          "(b) High and Trough",
+          "(c) Lows and Ridges",
+          "(d) Highs and Cols"
+        ],
+        "solution": "d"
+      },
+      {
+        "question_number": "Q20",
+        "question_text": "Thermal processes / temperature distribution which favours formation of fog is",
+        "question_type": "MCQ",
+        "options": ["(a) Isothermal", "(b) Adiabatic", "(c) Inversion", "(d) SALR"],
+        "solution": "c"
+      }
+    ]
+  },
+  {
+    "book_name": "MET_IC_Joshi_7 Edition",
+    "chapter_number": 11,
+    "chapter_title": "Precipitation",
+    "questions": [
+      {
+        "question_number": "Q1",
+        "question_text": "When super cooled water drops and ice particles co-exist, the ice crystals grow at the expense of the water drops because",
+        "question_type": "MCQ",
+        "options": [
+          "(a) Saturation vapour pressure over water drops is less than over the ice crystals",
+          "(b) Saturation vapour pressure over the ice crystals is less than over water drops",
+          "(c) The ice crystals convert into water drops"
+        ],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q2",
+        "question_text": "The clouds whose tops extend well above the freezing level are called",
+        "question_type": "MCQ",
+        "options": ["(a) Warm Clouds", "(b) Cold Clouds", "(c) Moderate Clouds"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q3",
+        "question_text": "The clouds whose tops do not extend to the freezing level are called",
+        "question_type": "MCQ",
+        "options": ["(a) Warm Clouds", "(b) Cold Clouds", "(c) Moderate Clouds"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q4",
+        "question_text": "Coalescence Theory explains occurrence of rainfall from the",
+        "question_type": "MCQ",
+        "options": ["(a) Warm Clouds", "(b) Cold Clouds", "(c) Both types of Clouds"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q5",
+        "question_text": "Ice crystal Theory explains occurrence of rainfall from the",
+        "question_type": "MCQ",
+        "options": ["(a) Warm Clouds", "(b) Cold Clouds", "(c) Both types of Clouds"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q6",
+        "question_text": "Giant Nucleus Theory explains occurrence of rainfall over",
+        "question_type": "MCQ",
+        "options": ["(a) Maritime areas", "(b) Inland areas", "(c) Hilly areas"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q7",
+        "question_text": "Very heavy precipitation as showers over a short period is called",
+        "question_type": "MCQ",
+        "options": ["(a) Flash floods", "(b) Cloud Burst", "(c) Orographic Rain"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q8",
+        "question_text": "Rain shadow area is on the ___ of the mountain range",
+        "question_type": "MCQ",
+        "options": ["(a) Top", "(b) Windward side", "(c) Leeward side"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q9",
+        "question_text": "Sleet is a mixture of",
+        "question_type": "MCQ",
+        "options": ["(a) Hail & Snow", "(b) Rain & Snow", "(c) Frozen Rain"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q10",
+        "question_text": "Rainfall in the tropics is more in",
+        "question_type": "MCQ",
+        "options": ["(a) Winters", "(b) Summers", "(c) Post monsoon"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q11",
+        "question_text": "Rainfall in the tropics is more in the",
+        "question_type": "MCQ",
+        "options": ["(a) Morning", "(b) Afternoon", "(c) Night"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q12",
+        "question_text": "Rainfall in the temperate latitudes is more in",
+        "question_type": "MCQ",
+        "options": ["(a) Winters", "(b) Summers", "(c) Spring"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q13",
+        "question_text": "Over J&K and western Himalayas Rainfall is more in",
+        "question_type": "MCQ",
+        "options": ["(a) Winters", "(b) Summers", "(c) Post monsoon"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q14",
+        "question_text": "Rainfall over coastal areas is more in the",
+        "question_type": "MCQ",
+        "options": ["(a) Evening", "(b) Afternoon", "(c) Night & early morning"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q15",
+        "question_text": "Areas to the ___ of western Ghats of India are rain shadow areas",
+        "question_type": "MCQ",
+        "options": ["(a) W", "(b) S", "(c) E"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q16",
+        "question_text": "A sudden rise in the level of rivers or streams causing floods is called",
+        "question_type": "MCQ",
+        "options": ["(a) Cloud Burst", "(b) Catchments flooding", "(c) Flash Floods"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q17",
+        "question_text": "Artificial rain making is also termed as",
+        "question_type": "MCQ",
+        "options": ["(a) Simulation", "(b) Cloud seeding", "(c) Nucleation"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q18",
+        "question_text": "Fog can be dispersed for a short period by artificial stimulation",
+        "question_type": "MCQ",
+        "options": ["(a) True", "(b) False"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q19",
+        "question_text": "Showery precipitation occurs from",
+        "question_type": "MCQ",
+        "options": ["(a) NS", "(b) AC", "(c) CB"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q20",
+        "question_text": "A day is called Rainy day when rainfall in 24 hr is ___ mm or more",
+        "question_type": "MCQ",
+        "options": ["(a) 1.5", "(b) 2", "(c) 2.5"],
+        "solution": "c"
+      }
+    ]
+  },
+  {
+    "book_name": "MET_IC_Joshi_7 Edition",
+    "chapter_number": 10,
+    "chapter_title": "Optical Phenomena",
+    "questions": [
+      {
+        "question_number": "Q1",
+        "question_text": "Aurora Australis occur in the",
+        "question_type": "MCQ",
+        "options": ["(a) S hemisphere", "(b) N hemisphere", "(c) Equator"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q2",
+        "question_text": "Aurora Australis called ___ Lights",
+        "question_type": "MCQ",
+        "options": ["(a) Northern", "(b) Southern", "(c) Temperate"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q3",
+        "question_text": "Aurora Borealis occur in the",
+        "question_type": "MCQ",
+        "options": ["(a) S hemisphere", "(b) N hemisphere", "(c) Equator"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q4",
+        "question_text": "Aurora Borealis are called ___ Lights",
+        "question_type": "MCQ",
+        "options": ["(a) Northern", "(b) Southern", "(c) Temperate"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q5",
+        "question_text": "Corona occur in ___ clouds",
+        "question_type": "MCQ",
+        "options": ["(a) AS", "(b) NS", "(c) CS"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q6",
+        "question_text": "Bishop's ring is due to the diffraction of light by fine particles of",
+        "question_type": "MCQ",
+        "options": ["(a) water", "(b) dust", "(c) ice"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q7",
+        "question_text": "The radius of the Bishop's ring is about",
+        "question_type": "MCQ",
+        "options": ["(a) 32°", "(b) 22°", "(c) 42°"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q8",
+        "question_text": "Superior Mirage occurs in marked",
+        "question_type": "MCQ",
+        "options": ["(a) Lapse", "(b) Isothermal", "(c) Inversion"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q9",
+        "question_text": "Inferior Mirage occurs when there is",
+        "question_type": "MCQ",
+        "options": ["(a) Lapse", "(b) Isothermal", "(c) Inversion"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q10",
+        "question_text": "Corona are formed due to the ___ of light",
+        "question_type": "MCQ",
+        "options": ["(a) Refraction", "(b) Diffraction", "(c) Scattering"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q11",
+        "question_text": "Corona are formed due to light, passing through",
+        "question_type": "MCQ",
+        "options": [
+          "(a) Mist only",
+          "(b) Fog only",
+          "(c) small water or ice particles only",
+          "(d) Any one of all these"
+        ],
+        "solution": "d"
+      },
+      {
+        "question_number": "Q12",
+        "question_text": "Halo is produced by",
+        "question_type": "MCQ",
+        "options": ["(a) Refraction", "(b) Diffraction", "(c) Scattering"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q13",
+        "question_text": "Halo is produced when light passes through",
+        "question_type": "MCQ",
+        "options": ["(a) water particles", "(b) ice crystals", "(c) both"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q14",
+        "question_text": "Halo occur in the cloud",
+        "question_type": "MCQ",
+        "options": ["(a) AS", "(b) NS", "(c) CS"],
+        "solution": "c"
+      },
+      {
+        "question_number": "Q15",
+        "question_text": "Halo is luminous ring of ___ radius",
+        "question_type": "MCQ",
+        "options": ["(a) 32°", "(b) 22°", "(c) 42°"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q16",
+        "question_text": "Halo round the sun shows a pure clear ___ on the outside",
+        "question_type": "MCQ",
+        "options": ["(a) Red", "(b) Yellow", "(c) Violet"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q17",
+        "question_text": "Halo signifies predominance in the cloud of",
+        "question_type": "MCQ",
+        "options": ["(a) Supercooled water drops", "(b) Ice crystals", "(c) medium"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q18",
+        "question_text": "The cloud which cause Halo has ___ chances of ice accretion",
+        "question_type": "MCQ",
+        "options": ["(a) negligible", "(b) maximum", "(c) medium"],
+        "solution": "a"
+      },
+      {
+        "question_number": "Q19",
+        "question_text": "Sometimes a halo with a radius of ___ is observed, called Large Halo",
+        "question_type": "MCQ",
+        "options": ["(a) 32°", "(b) 42°", "(c) 22°"],
+        "solution": "b"
+      },
+      {
+        "question_number": "Q20",
+        "question_text": "Halo occurs from ___ cloud",
+        "question_type": "MCQ",
+        "options": ["(a) Low", "(b) Medium", "(c) High"],
+        "solution": "c"
+      }
+    ]
+  }
+]
+

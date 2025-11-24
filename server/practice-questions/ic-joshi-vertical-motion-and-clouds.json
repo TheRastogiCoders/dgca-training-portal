@@ -1,0 +1,295 @@
+{
+  "book_name": "MET_IC_Joshi_7 Edition",
+  "chapter_number": 8,
+  "chapter_title": "Vertical Motion and Clouds",
+  "chapter_slug": "vertical-motion-and-clouds",
+  "source": "ic-joshi",
+  "questions": [
+    {
+      "id": "vertical-motion-and-clouds-q1",
+      "question_number": "Q1",
+      "question": "Drizzle occurs from",
+      "question_type": "MCQ",
+      "options": [
+        "(a) CS",
+        "(b) ST",
+        "(c) NS",
+        "(d) CU"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q2",
+      "question_number": "Q2",
+      "question": "Altostratus (AS) is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Low cloud of sheet type",
+        "(b) A medium cloud of sheet type",
+        "(c) A cloud of large vertical growth",
+        "(d) A high cloud of sheet type"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q3",
+      "question_number": "Q3",
+      "question": "Showers occurs from",
+      "question_type": "MCQ",
+      "options": [
+        "(a) CU",
+        "(b) CB",
+        "(c) AS",
+        "(d) AC"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q4",
+      "question_number": "Q4",
+      "question": "Heavy icing is possible in",
+      "question_type": "MCQ",
+      "options": [
+        "(a) CI",
+        "(b) CS",
+        "(c) ST",
+        "(d) CB"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q5",
+      "question_number": "Q5",
+      "question": "To avoid icing in cloudy conditions, a pilot is advised to fly through a cloud which shows optical phenomena",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Halo",
+        "(b) Corona",
+        "(c) With multi-coloured clouds",
+        "(d) CB"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q6",
+      "question_number": "Q6",
+      "question": "Dark gray cloud giving continuous rain is called",
+      "question_type": "MCQ",
+      "options": [
+        "(a) AS",
+        "(b) NS",
+        "(c) ST",
+        "(d) CB"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q7",
+      "question_number": "Q7",
+      "question": "A uniform layer of cloud resembling fog but not on the ground",
+      "question_type": "MCQ",
+      "options": [
+        "(a) AS",
+        "(b) NS",
+        "(c) ST"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q8",
+      "question_number": "Q8",
+      "question": "The clouds composed of ice crystals having feathery appearance",
+      "question_type": "MCQ",
+      "options": [
+        "(a) CI",
+        "(b) NS",
+        "(c) AS"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q9",
+      "question_number": "Q9",
+      "question": "NS clouds occur",
+      "question_type": "MCQ",
+      "options": [
+        "(a) At cold front",
+        "(b) At warm front"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q10",
+      "question_number": "Q10",
+      "question": "Halo is associated with the cloud",
+      "question_type": "MCQ",
+      "options": [
+        "(a) AC",
+        "(b) AS",
+        "(c) CS",
+        "(d) CI"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q11",
+      "question_number": "Q11",
+      "question": "Corona is associated with the cloud",
+      "question_type": "MCQ",
+      "options": [
+        "(a) AS",
+        "(b) AC",
+        "(c) CC",
+        "(d) CS"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q12",
+      "question_number": "Q12",
+      "question": "Lenticular clouds indicate presence of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Warm Front",
+        "(b) Cold front",
+        "(c) Mountain waves"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q13",
+      "question_number": "Q13",
+      "question": "The lowest level below which condensation trails will not form is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Mintra Level",
+        "(b) Drytra Level",
+        "(c) Maxtra Level"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q14",
+      "question_number": "Q14",
+      "question": "Rain falling from cloud but not reaching ground is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Virgo",
+        "(b) Virga",
+        "(c) Mirage"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q15",
+      "question_number": "Q15",
+      "question": "CB with distinct anvil is called",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Castellaneous",
+        "(b) Capillatus",
+        "(c) Uncinus"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q16",
+      "question_number": "Q16",
+      "question": "Cloud ceiling is the height of the cloud covering...........",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 3-4/8",
+        "(b) 8/8",
+        "(c) 5/8 or more"
+      ],
+      "answer": "c",
+      "solution": "c",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q17",
+      "question_number": "Q17",
+      "question": "No condensation trails occur above",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Maxtra Level",
+        "(b) Drytra Level",
+        "(c) Mintra Level"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q18",
+      "question_number": "Q18",
+      "question": "Cloud of operational significance has base below.......m or below the highest minimum sector altitude, which is greater",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1500",
+        "(b) 2000",
+        "(c) 1000"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q19",
+      "question_number": "Q19",
+      "question": "AC cloud with cumuliform protuberances are indicative of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Stability",
+        "(b) Instability",
+        "(c) Neutrality"
+      ],
+      "answer": "b",
+      "solution": "b",
+      "explanation": ""
+    },
+    {
+      "id": "vertical-motion-and-clouds-q20",
+      "question_number": "Q20",
+      "question": "Hail may be experienced under the anvil of a CB",
+      "question_type": "MCQ",
+      "options": [
+        "(a) True",
+        "(b) False"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": ""
+    }
+  ]
+}
