@@ -590,13 +590,20 @@ const BookPracticeRunner = () => {
                   </div>
                 )}
                 
-                {selected !== null && (
-                  <div className="pt-4 text-center">
-                    <button onClick={next} className="w-full sm:w-auto px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg shadow-md">
-                      {current >= questions.length - 1 ? 'Finish Practice' : 'Next Question'}
-                    </button>
-                  </div>
-                )}
+                {/* Next Button - Always visible, disabled until answer is selected */}
+                <div className="pt-4 text-center">
+                  <button 
+                    onClick={next} 
+                    disabled={selected === null}
+                    className={`w-full sm:w-auto px-8 py-3 font-semibold rounded-lg shadow-md transition-all duration-200 ${
+                      selected === null
+                        ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                        : 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:shadow-lg transform hover:scale-[1.02]'
+                    }`}
+                  >
+                    {current >= questions.length - 1 ? 'Finish Practice' : 'Next Question'}
+                  </button>
+                </div>
               </div>
             </Card>
           </div>
