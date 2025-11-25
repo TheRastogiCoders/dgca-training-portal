@@ -6,6 +6,7 @@ import Card from './ui/Card';
 import Button from './ui/Button';
 import { useAuth } from '../context/AuthContext';
 import LoginModal from './LoginModal';
+import debugLog from '../utils/debug';
 
 const normalize = (str) => {
   if (!str) return '';
@@ -394,7 +395,7 @@ const BookChapters = () => {
     }
     // Debug: log what we're looking for
     if (list.length === 0) {
-      console.log('No chapters found for:', { subjectSlug, bookSlug, availableBooks: Object.keys(bySubject) });
+      debugLog('No chapters found for:', { subjectSlug, bookSlug, availableBooks: Object.keys(bySubject) });
     }
     return list.map((title, index) => {
       // Check if chapter has questions available (for IC Joshi Meteorology)
@@ -404,8 +405,8 @@ const BookChapters = () => {
       const isAvailable = questionCount > 0;
       
       return {
-        id: `${index + 1}`,
-        title,
+      id: `${index + 1}`,
+      title,
         questionCount,
         status: isAvailable ? 'available' : 'coming-soon',
       };
@@ -462,8 +463,8 @@ const BookChapters = () => {
                 {chapters.map((ch) => {
                   const isAvailable = ch.status === 'available';
                   return (
-                    <Card key={ch.id} className="p-6 flex flex-col">
-                      <div className="flex-1">
+                  <Card key={ch.id} className="p-6 flex flex-col">
+                    <div className="flex-1">
                         <div className="flex items-start justify-between mb-2">
                           <h3 className="text-lg font-semibold text-gray-900">Chapter {ch.id}</h3>
                           <div className="flex gap-2">
@@ -488,8 +489,8 @@ const BookChapters = () => {
                             Chapter overview
                           </p>
                         )}
-                      </div>
-                      <div className="mt-4">
+                    </div>
+                    <div className="mt-4">
                         {isAvailable ? (
                           <Button 
                             className="w-full bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-white font-semibold" 
@@ -497,9 +498,9 @@ const BookChapters = () => {
                           >
                             <span className="flex items-center justify-center">
                               <span className="mr-2">▶</span>
-                              Start Practice
+                        Start Practice
                             </span>
-                          </Button>
+                      </Button>
                         ) : (
                           <button
                             className="w-full py-3 px-6 bg-amber-50 text-amber-700 font-semibold rounded-lg border border-amber-200 hover:bg-amber-100 transition-colors cursor-not-allowed flex items-center justify-center"
@@ -509,8 +510,8 @@ const BookChapters = () => {
                             Coming Soon
                           </button>
                         )}
-                      </div>
-                    </Card>
+                    </div>
+                  </Card>
                   );
                 })}
               </div>

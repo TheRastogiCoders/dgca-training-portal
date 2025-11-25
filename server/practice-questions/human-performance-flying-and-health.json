@@ -77,8 +77,13 @@
       "id": "6",
       "question": "What is the World Health Organization's definition of alcoholism?",
       "question_type": "Open-ended",
-      "options": [],
-      "answer": "\"When the excessive use of alcohol repeatedly damages a person's physical, mental or social life\"",
+      "options": [
+        "\"When the excessive use of alcohol repeatedly damages a person's physical, mental or social life\"",
+        "See explanation above",
+        "Refer to the relevant documentation",
+        "Check the appropriate reference material"
+      ],
+      "answer": "a",
       "solution": "\"When the excessive use of alcohol repeatedly damages a person's physical, mental or social life\"",
       "explanation": ""
     },
@@ -364,4 +369,3 @@
     }
   ]
 }
-

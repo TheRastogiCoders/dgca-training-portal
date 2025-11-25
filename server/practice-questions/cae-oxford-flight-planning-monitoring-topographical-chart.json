@@ -6,72 +6,112 @@
     {
       "id": "1",
       "question": "What type of airfield is at N4728 E00833.",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
       "explanation": "This question requires reference to the VFR + GPS Chart GERMANY EDITION 1999 ED - 6 to identify the type of airfield at the specified coordinates."
     },
     {
       "id": "2",
       "question": "Reference N4811 E01052. What is the significance of:\na. ET in the Location Indicator ETSL?\nb. 141.25 and 2442 m?",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
       "explanation": "This question requires reference to the VFR + GPS Chart GERMANY EDITION 1999 ED - 6 to decode the location indicator and understand the significance of the frequency and elevation values at the specified coordinates."
     },
     {
       "id": "3",
       "question": "What type of airfield is at N4727 E00814?",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
       "explanation": "This question requires reference to the VFR + GPS Chart GERMANY EDITION 1999 ED - 6 to identify the type of airfield at the specified coordinates."
     },
     {
       "id": "4",
       "question": "What does the symbol at N4755 E01055 mean?",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
       "explanation": "This question requires reference to the VFR + GPS Chart GERMANY EDITION 1999 ED - 6 to decode the symbol meaning at the specified coordinates."
     },
     {
       "id": "5",
       "question": "What does (v) after 125.700 at N4858 E00820 signify?",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
       "explanation": "This question requires reference to the VFR + GPS Chart GERMANY EDITION 1999 ED - 6 to understand the significance of the (v) notation after a frequency."
     },
     {
       "id": "6",
       "question": "Flight from A, N4823 E00839 to B, N4803 E00922;\na. What is the track direction (°T) and distance in nautical miles/kilometres?\nb. What is the highest terrain/obstacle within the area extending 5 NM either side of the track and 5 NM radii, centred on and beyond, A and B?\nc. What would be the correct flight level to clear this terrain/obstacle by a minimum of 1000 ft?\nd. Fully describe the navigational facilities at A and B.\ne. What does the symbol 10.5 NM, on track, from A signify?\nf. What is the highest Minimum Grid Area Altitude (Grid MORA) on this route?\ng. What are the STUTTGART INFORMATION (FIS) and ATIS frequencies?",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
       "explanation": "This comprehensive question requires reference to the VFR + GPS Chart GERMANY EDITION 1999 ED - 6 to calculate track and distance, identify terrain/obstacles, determine appropriate flight level, describe navigation facilities, interpret chart symbols, find Grid MORA, and identify communication frequencies."
     },
     {
       "id": "7",
       "question": "What are the Airspace Designator and Control Frequency for Munchen?",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
       "explanation": "This question requires reference to the VFR + GPS Chart GERMANY EDITION 1999 ED - 6 to identify the airspace designator and control frequency for Munchen."
     },
     {
       "id": "8",
       "question": "Decode the three symbols in the vicinity of N4733 E01018.",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires VFR + GPS Chart GERMANY EDITION 1999 ED - 6.",
       "explanation": "This question requires reference to the VFR + GPS Chart GERMANY EDITION 1999 ED - 6 to decode the three symbols near the specified coordinates."
     },
@@ -245,4 +285,3 @@
     }
   ]
 }
-

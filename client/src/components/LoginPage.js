@@ -4,6 +4,7 @@ import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
 import { API_ENDPOINTS } from '../config/api';
 import GoogleSignInButton from './GoogleSignInButton';
+import debugLog from '../utils/debug';
 
 const LoginPage = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -127,7 +128,7 @@ const LoginPage = () => {
         ? { username: formData.username, password: formData.password }
         : { username: formData.username, email: formData.email, password: formData.password };
 
-      console.log('Making request to:', endpoint);
+      debugLog('Making request to:', endpoint);
       
       const response = await fetch(endpoint, {
         method: 'POST',
@@ -137,7 +138,7 @@ const LoginPage = () => {
         body: JSON.stringify(body),
       });
 
-      console.log('Response status:', response.status);
+      debugLog('Response status:', response.status);
       
       if (!response.ok) {
         const errorText = await response.text();

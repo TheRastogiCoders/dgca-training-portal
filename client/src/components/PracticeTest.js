@@ -5,6 +5,7 @@ import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 import ModernAlert from './ui/ModernAlert';
 import useModernAlert from '../hooks/useModernAlert';
+import debugLog from '../utils/debug';
 
 const PracticeTest = () => {
   const { isAuthenticated } = useAuth();
@@ -35,10 +36,10 @@ const PracticeTest = () => {
   // Load real results for the logged-in user
   const fetchResults = async () => {
     if (!isAuthenticated) {
-      console.log('User not authenticated, skipping results fetch');
+      debugLog('User not authenticated, skipping results fetch');
       return;
     }
-    console.log('Fetching results for user...');
+    debugLog('Fetching results for user...');
     setLoadingResults(true);
     try {
       const token = localStorage.getItem('token');
@@ -54,25 +55,25 @@ const PracticeTest = () => {
         const testRes = await fetch('/api/results/test');
         if (testRes.ok) {
           const testData = await testRes.json();
-          console.log('API test response:', testData);
+          debugLog('API test response:', testData);
         } else {
-          console.log('API test failed:', testRes.status);
+          debugLog('API test failed:', testRes.status);
         }
       } catch (e) {
-        console.log('API test error:', e.message);
-        console.log('Server might not be running. Please start the server with: cd server && npm start');
+        debugLog('API test error:', e.message);
+        debugLog('Server might not be running. Please start the server with: cd server && npm start');
         setLoadingResults(false);
         return;
       }
       
-      console.log('Fetching results with token:', token.substring(0, 20) + '...');
+      debugLog('Fetching results with token (masked) for authenticated user');
       const res = await fetch('/api/results', { 
         headers: { 
           'Authorization': `Bearer ${token}`,
           'Content-Type': 'application/json'
         } 
       });
-      console.log('Results fetch response status:', res.status);
+      debugLog('Results fetch response status:', res.status);
       
       if (!res.ok) {
         const errorText = await res.text();
@@ -91,12 +92,12 @@ const PracticeTest = () => {
       }
       
       const data = await res.json();
-      console.log('Fetched results data:', data);
-      console.log('Results count:', Array.isArray(data) ? data.length : 'Not an array');
+      debugLog('Fetched results data:', data);
+      debugLog('Results count:', Array.isArray(data) ? data.length : 'Not an array');
       
       if (Array.isArray(data)) {
         setResults(data);
-        console.log('Successfully set results:', data.length, 'items');
+        debugLog('Successfully set results:', data.length, 'items');
       } else {
         console.error('Invalid data format received:', data);
         setResults([]);
@@ -117,14 +118,14 @@ const PracticeTest = () => {
   useEffect(() => {
     const handleVisibilityChange = () => {
       if (!document.hidden && isAuthenticated) {
-        console.log('Page became visible, refreshing results...');
+        debugLog('Page became visible, refreshing results...');
         fetchResults();
       }
     };
 
     const handleFocus = () => {
       if (isAuthenticated) {
-        console.log('Window focused, refreshing results...');
+        debugLog('Window focused, refreshing results...');
         fetchResults();
       }
     };
@@ -141,7 +142,7 @@ const PracticeTest = () => {
   // Also refresh when component mounts (in case user navigated back)
   useEffect(() => {
     if (isAuthenticated) {
-      console.log('Component mounted, fetching results...');
+      debugLog('Component mounted, fetching results...');
       fetchResults();
     }
   }, []);
@@ -149,7 +150,7 @@ const PracticeTest = () => {
   // Listen for custom refresh event from AI practice results
   useEffect(() => {
     const handleRefreshEvent = () => {
-      console.log('Received refresh event from AI practice results');
+      debugLog('Received refresh event from AI practice results');
       fetchResults();
     };
 
@@ -493,7 +494,7 @@ const PracticeTest = () => {
                                 }
                               ];
                               
-                              console.log('Creating test results...');
+                              debugLog('Creating test results...');
                               for (const testResult of testResults) {
                                 const res = await fetch('/api/results', {
                                   method: 'POST',
@@ -501,7 +502,7 @@ const PracticeTest = () => {
                                   body: JSON.stringify(testResult)
                                 });
                                 if (res.ok) {
-                                  console.log('Test result saved:', await res.json());
+                                  debugLog('Test result saved:', await res.json());
                                 } else {
                                   console.error('Failed to save test result:', await res.text());
                                 }

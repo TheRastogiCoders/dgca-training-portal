@@ -3,63 +3,357 @@
   "chapter_number": "4",
   "chapter_title": "The Navigation Computer - Slide Rule Face",
   "questions": [
-    { "id": "1", "question": "9×8=", "question_type": "Free Text", "options": [], "solution": "72.0" },
-    { "id": "2", "question": "11×30=", "question_type": "Free Text", "options": [], "solution": "330" },
-    { "id": "3", "question": "111×12=", "question_type": "Free Text", "options": [], "solution": "1332" },
-    { "id": "4", "question": "202×2.1=", "question_type": "Free Text", "options": [], "solution": "424.2" },
-    { "id": "5", "question": "315×0.3=", "question_type": "Free Text", "options": [], "solution": "94.5" },
-    { "id": "6", "question": "275×45=", "question_type": "Free Text", "options": [], "solution": "12375" },
-    { "id": "7", "question": "121.5×14=", "question_type": "Free Text", "options": [], "solution": "1700" },
-    { "id": "8", "question": "12×12×12=", "question_type": "Free Text", "options": [], "solution": "1728" },
-    { "id": "9", "question": "237×7×0.5=", "question_type": "Free Text", "options": [], "solution": "830" },
-    { "id": "10", "question": "12×15×13=", "question_type": "Free Text", "options": [], "solution": "2340" },
-    { "id": "11", "question": "35÷7=", "question_type": "Free Text", "options": [], "solution": "5.00" },
-    { "id": "12", "question": "210÷7=", "question_type": "Free Text", "options": [], "solution": "30.0" },
-    { "id": "13", "question": "32÷8=", "question_type": "Free Text", "options": [], "solution": "4.00" },
-    { "id": "14", "question": "325÷5=", "question_type": "Free Text", "options": [], "solution": "65.0" },
-    { "id": "15", "question": "39÷60=", "question_type": "Free Text", "options": [], "solution": "0.65" },
-    { "id": "16", "question": "275÷45=", "question_type": "Free Text", "options": [], "solution": "6.11" },
-    { "id": "17", "question": "2705÷4.5=", "question_type": "Free Text", "options": [], "solution": "601.1" },
-    { "id": "18", "question": "72,960÷12=", "question_type": "Free Text", "options": [], "solution": "6080" },
-    { "id": "19", "question": "755÷0.8=", "question_type": "Free Text", "options": [], "solution": "944" },
-    { "id": "20", "question": "20.2÷22=", "question_type": "Free Text", "options": [], "solution": "0.917" },
+    {
+      "id": "1",
+      "question": "9×8=",
+      "question_type": "MCQ",
+      "options": [
+        "72.0",
+        "36",
+        "54",
+        "90"
+      ],
+      "solution": "72.0",
+      "answer": "a"
+    },
+    {
+      "id": "2",
+      "question": "11×30=",
+      "question_type": "MCQ",
+      "options": [
+        "165",
+        "248",
+        "330",
+        "413"
+      ],
+      "solution": "330",
+      "answer": "c"
+    },
+    {
+      "id": "3",
+      "question": "111×12=",
+      "question_type": "MCQ",
+      "options": [
+        "1665",
+        "999",
+        "1332",
+        "666"
+      ],
+      "solution": "1332",
+      "answer": "c"
+    },
+    {
+      "id": "4",
+      "question": "202×2.1=",
+      "question_type": "MCQ",
+      "options": [
+        "530.25",
+        "318.15",
+        "212.10",
+        "424.2"
+      ],
+      "solution": "424.2",
+      "answer": "d"
+    },
+    {
+      "id": "5",
+      "question": "315×0.3=",
+      "question_type": "MCQ",
+      "options": [
+        "47.25",
+        "70.88",
+        "118.13",
+        "94.5"
+      ],
+      "solution": "94.5",
+      "answer": "d"
+    },
+    {
+      "id": "6",
+      "question": "275×45=",
+      "question_type": "MCQ",
+      "options": [
+        "6188",
+        "15469",
+        "12375",
+        "9281"
+      ],
+      "solution": "12375",
+      "answer": "c"
+    },
+    {
+      "id": "7",
+      "question": "121.5×14=",
+      "question_type": "MCQ",
+      "options": [
+        "1700",
+        "850",
+        "1275",
+        "2125"
+      ],
+      "solution": "1700",
+      "answer": "a"
+    },
+    {
+      "id": "8",
+      "question": "12×12×12=",
+      "question_type": "MCQ",
+      "options": [
+        "1296",
+        "864",
+        "1728",
+        "2160"
+      ],
+      "solution": "1728",
+      "answer": "c"
+    },
+    {
+      "id": "9",
+      "question": "237×7×0.5=",
+      "question_type": "MCQ",
+      "options": [
+        "1038",
+        "623",
+        "415",
+        "830"
+      ],
+      "solution": "830",
+      "answer": "d"
+    },
+    {
+      "id": "10",
+      "question": "12×15×13=",
+      "question_type": "MCQ",
+      "options": [
+        "1170",
+        "2340",
+        "1755",
+        "2925"
+      ],
+      "solution": "2340",
+      "answer": "b"
+    },
+    {
+      "id": "11",
+      "question": "35÷7=",
+      "question_type": "MCQ",
+      "options": [
+        "5.00",
+        "3",
+        "6",
+        "4"
+      ],
+      "solution": "5.00",
+      "answer": "a"
+    },
+    {
+      "id": "12",
+      "question": "210÷7=",
+      "question_type": "MCQ",
+      "options": [
+        "30.0",
+        "15",
+        "38",
+        "23"
+      ],
+      "solution": "30.0",
+      "answer": "a"
+    },
+    {
+      "id": "13",
+      "question": "32÷8=",
+      "question_type": "MCQ",
+      "options": [
+        "5",
+        "4.00",
+        "2",
+        "3"
+      ],
+      "solution": "4.00",
+      "answer": "b"
+    },
+    {
+      "id": "14",
+      "question": "325÷5=",
+      "question_type": "MCQ",
+      "options": [
+        "81",
+        "33",
+        "65.0",
+        "49"
+      ],
+      "solution": "65.0",
+      "answer": "c"
+    },
+    {
+      "id": "15",
+      "question": "39÷60=",
+      "question_type": "MCQ",
+      "options": [
+        "0.65",
+        "0.33",
+        "0.49",
+        "0.81"
+      ],
+      "solution": "0.65",
+      "answer": "a"
+    },
+    {
+      "id": "16",
+      "question": "275÷45=",
+      "question_type": "MCQ",
+      "options": [
+        "7.64",
+        "4.58",
+        "3.06",
+        "6.11"
+      ],
+      "solution": "6.11",
+      "answer": "d"
+    },
+    {
+      "id": "17",
+      "question": "2705÷4.5=",
+      "question_type": "MCQ",
+      "options": [
+        "751.38",
+        "601.1",
+        "300.55",
+        "450.83"
+      ],
+      "solution": "601.1",
+      "answer": "b"
+    },
+    {
+      "id": "18",
+      "question": "72,960÷12=",
+      "question_type": "MCQ",
+      "options": [
+        "6080",
+        "3040",
+        "7600",
+        "4560"
+      ],
+      "solution": "6080",
+      "answer": "a"
+    },
+    {
+      "id": "19",
+      "question": "755÷0.8=",
+      "question_type": "MCQ",
+      "options": [
+        "944",
+        "472",
+        "708",
+        "1180"
+      ],
+      "solution": "944",
+      "answer": "a"
+    },
+    {
+      "id": "20",
+      "question": "20.2÷22=",
+      "question_type": "MCQ",
+      "options": [
+        "0.46",
+        "0.69",
+        "0.917",
+        "1.15"
+      ],
+      "solution": "0.917",
+      "answer": "c"
+    },
     {
       "id": "21",
       "question": "In the Ruritanian currency, there are 73 skroats to a blat. Fill in the following table:",
       "question_type": "Table Fill-in",
-      "options": [],
+      "options": [
+        "Complete the table using navigation computer",
+        "See explanation above",
+        "Refer to the relevant documentation",
+        "Check the appropriate reference material"
+      ],
       "table": {
-        "headers": ["Skroats", "73"],
+        "headers": [
+          "Skroats",
+          "73"
+        ],
         "rows": [
-          ["Blats", "1"],
-          ["Blats", "2"],
-          ["Blats", "5"],
-          ["Blats", "7"],
-          ["Blats", "13"],
-          ["Blats", "17"]
+          [
+            "Blats",
+            "1"
+          ],
+          [
+            "Blats",
+            "2"
+          ],
+          [
+            "Blats",
+            "5"
+          ],
+          [
+            "Blats",
+            "7"
+          ],
+          [
+            "Blats",
+            "13"
+          ],
+          [
+            "Blats",
+            "17"
+          ]
         ]
       },
       "solution": {
-        "headers": ["Skroats", "73", "146", "365", "511", "949", "1241"],
+        "headers": [
+          "Skroats",
+          "73",
+          "146",
+          "365",
+          "511",
+          "949",
+          "1241"
+        ],
         "rows": [
-          ["Blats", "1", "2", "5", "7", "13", "17"]
+          [
+            "Blats",
+            "1",
+            "2",
+            "5",
+            "7",
+            "13",
+            "17"
+          ]
         ]
-      }
+      },
+      "answer": "a"
     },
     {
       "id": "22",
       "question": "Your rate of descent is 270 metres per minute. How many minutes to descend through 2100 metres?",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "7.8 minutes"
+      "question_type": "MCQ",
+      "options": [
+        "7.8 minutes",
+        "5.85",
+        "9.75",
+        "3.90"
+      ],
+      "solution": "7.8 minutes",
+      "answer": "a"
     },
     {
       "id": "23",
       "question": "How far do you descend in 7 minutes?",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "1890 metres"
+      "question_type": "MCQ",
+      "options": [
+        "1890 metres",
+        "2363",
+        "945",
+        "1418"
+      ],
+      "solution": "1890 metres",
+      "answer": "a"
     }
   ]
 }
-

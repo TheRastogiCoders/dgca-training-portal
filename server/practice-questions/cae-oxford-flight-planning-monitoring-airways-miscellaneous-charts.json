@@ -132,171 +132,266 @@
     {
       "id": "10",
       "question": "The route distance London to N57 W030 is",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires NCP chart.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires NCP chart.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires NCP chart.",
       "explanation": "This question requires reference to the NCP (North Atlantic Control Procedures) chart to calculate the route distance."
     },
     {
       "id": "11",
       "question": "The mean Great Circle track London to N57 W030 is ........ (T)",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires NCP chart.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires NCP chart.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires NCP chart.",
       "explanation": "This question requires reference to the NCP chart to determine the mean Great Circle track."
     },
     {
       "id": "12",
       "question": "The mean magnetic variation N55 W010 to N57 W020 is",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires NCP chart.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires NCP chart.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires NCP chart.",
       "explanation": "This question requires reference to the NCP chart to determine the mean magnetic variation."
     },
     {
       "id": "13",
       "question": "The mean Great Circle track N57 W020 to N57 W030 is (T)",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires NCP chart.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires NCP chart.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires NCP chart.",
       "explanation": "This question requires reference to the NCP chart to determine the mean Great Circle track."
     },
     {
       "id": "14",
       "question": "The initial heading from N55 W010 is (M)",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires NCP chart and calculation.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires NCP chart and calculation.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires NCP chart and calculation.",
       "explanation": "This question requires reference to the NCP chart and calculation to determine the initial magnetic heading."
     },
     {
       "id": "15",
       "question": "The aircraft's ATA at N55 W010 is 1038Z. The ETA at N57 W020 is",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires NCP chart and calculation.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires NCP chart and calculation.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires NCP chart and calculation.",
       "explanation": "This question requires reference to the NCP chart and calculation to determine the Estimated Time of Arrival."
     },
     {
       "id": "16",
       "question": "The aircraft's ATA at N57 W020 is 1126Z. The ETA at N57 W030 is",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires NCP chart and calculation.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires NCP chart and calculation.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires NCP chart and calculation.",
       "explanation": "This question requires reference to the NCP chart and calculation to determine the Estimated Time of Arrival."
     },
     {
       "id": "17",
       "question": "The aircraft is cleared to be at N57 W030 at 1211Z. Its revised Mach No. is",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires NCP chart and calculation.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires NCP chart and calculation.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires NCP chart and calculation.",
       "explanation": "This question requires reference to the NCP chart and calculation to determine the revised Mach number."
     },
     {
       "id": "18",
       "question": "The mean Great Circle track and distance from N57 W030 to N55 W040 are and (T)",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires NCP chart and calculation.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires NCP chart and calculation.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires NCP chart and calculation.",
       "explanation": "This question requires reference to the NCP chart and calculation to determine the mean Great Circle track and distance."
     },
     {
       "id": "19",
       "question": "The ETA at N55 W040 is",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires NCP chart and calculation.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires NCP chart and calculation.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires NCP chart and calculation.",
       "explanation": "This question requires reference to the NCP chart and calculation to determine the Estimated Time of Arrival."
     },
     {
       "id": "20",
       "question": "At CARPE (N5305.0 W05405.0) the aircraft leaves the CTA/ FIR and enters СТА/ FIR.",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires NCP chart.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires NCP chart.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires NCP chart.",
       "explanation": "This question requires reference to the NCP chart to identify the FIR boundaries at CARPE."
     },
     {
       "id": "21",
       "question": "The distance from CARPE to REDBY (N5215.0 W05636.1) is NM.",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires NCP chart.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires NCP chart.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires NCP chart.",
       "explanation": "This question requires reference to the NCP chart to calculate the distance between waypoints."
     },
     {
       "id": "22",
       "question": "What does RVSM means?",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Reduced Vertical Separation Minima",
+      "question_type": "MCQ",
+      "options": [
+        "Reduced Vertical Separation Minima",
+        "See explanation above",
+        "Refer to the relevant documentation",
+        "Check the appropriate reference material"
+      ],
+      "answer": "a",
       "solution": "Reduced Vertical Separation Minima",
       "explanation": "RVSM stands for Reduced Vertical Separation Minima, which allows aircraft to fly with reduced vertical separation (1000 ft instead of 2000 ft) between FL290 and FL410."
     },
     {
       "id": "23",
       "question": "What does MNPS means?",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Minimum Navigation Performance Specifications",
+      "question_type": "MCQ",
+      "options": [
+        "Minimum Navigation Performance Specifications",
+        "See explanation above",
+        "Refer to the relevant documentation",
+        "Check the appropriate reference material"
+      ],
+      "answer": "a",
       "solution": "Minimum Navigation Performance Specifications",
       "explanation": "MNPS stands for Minimum Navigation Performance Specifications, which define the navigation accuracy requirements for aircraft operating in certain airspace."
     },
     {
       "id": "24",
       "question": "On the CENTRAL NORTH ATLANTIC BLOW-UP AREA chart:\na. Plot the route: Shannon (EINN) N5242 W 00855, to Gander (CYQX) N4856 W05434, to Keflavik (BIKF) N6359 W02236, to Shannon.\nb. Identify the 120 MIN and 180 MIN range circles from each airfield.\nc. The midpoint line cuts the Shannon/Gander track at position and is NM from each.\nd. The midpoint line cuts the Gander/Keflavik track at position and is NM from each.\ne. The midpoint line cuts the Keflavik/Shannon track at position and is NM from each.",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires CENTRAL NORTH ATLANTIC BLOW-UP AREA chart.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires CENTRAL NORTH ATLANTIC BLOW-UP AREA chart.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires CENTRAL NORTH ATLANTIC BLOW-UP AREA chart.",
       "explanation": "This question requires reference to the CENTRAL NORTH ATLANTIC BLOW-UP AREA chart to plot routes, identify range circles, and determine midpoint positions."
     },
     {
       "id": "25",
       "question": "Use the CENTRAL NORTH ATLANTIC BLOW-UP AREA chart, and the ETP graph when required.\nGiven:\nRoute Shannon to Gander at Example 4\nCruise FL310; All-engine TAS 426 kt\nEngine-out stabilizing height FL240; Engine-out TAS 370 kt\nWind Components\nMIDPOINT to GANDER: FL310 -80 kt, FL240 -40 kt\nMIDPOINT to SHANNON: FL310 +50 kt, FL240 +20 kt\nCalculate the distance and time to the all-engine ETP/CP between Shannon and Gander.\na. The equi-time number is\nb. The number of miles from the midpoint is NM.\nc. The distance to the ETP/CP from Shannon is NM.\nd. The time to the ETP/CP is min.",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires CENTRAL NORTH ATLANTIC BLOW-UP AREA chart and ETP graph.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires CENTRAL NORTH ATLANTIC BLOW-UP AREA chart and ETP graph.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires CENTRAL NORTH ATLANTIC BLOW-UP AREA chart and ETP graph.",
       "explanation": "This question requires reference to the CENTRAL NORTH ATLANTIC BLOW-UP AREA chart and ETP graph to calculate the Equi-Time Point/Critical Point."
     },
     {
       "id": "26",
       "question": "Cross-check using the formula:\nX = ...\ne. The distance X to the ETP/CP from EINN + NM.\nf. The time to the ETP/CP min.",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires calculation.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires calculation.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires calculation.",
       "explanation": "This question requires calculation using the ETP formula to cross-check the results from the previous question."
     },
     {
       "id": "27",
       "question": "Given:\nRoute Shannon to Gander at Example 4\nCruise FL310\nAll-engine TAS 426 kt\nEngine-out stabilizing height FL240\nEngine-out TAS 370 kt\nWind Components\nMIDPOINT to GANDER: FL310 -80 kt, FL240 -40 kt\nMIDPOINT to SHANNON: FL310 +50 kt, FL240 +20 kt\nUsing the same chart and route calculate the distance and time to the engine-failure ETP/CP.\na. The equi-time number is\nb. The number of miles from the midpoint is NM.\nc. The distance to the ETP/CP from Shannon is NM.\nd. The time to the ETP/CP is min.",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires CENTRAL NORTH ATLANTIC BLOW-UP AREA chart and ETP graph.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires CENTRAL NORTH ATLANTIC BLOW-UP AREA chart and ETP graph.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires CENTRAL NORTH ATLANTIC BLOW-UP AREA chart and ETP graph.",
       "explanation": "This question requires reference to the CENTRAL NORTH ATLANTIC BLOW-UP AREA chart and ETP graph to calculate the engine-failure Equi-Time Point/Critical Point."
     },
     {
       "id": "28",
       "question": "Cross-check using the formula:\nX = ...\ne. The distance from the ETP/CP X= + NM.\nf. The time to the ETP/CP = min.",
-      "question_type": "Non-MCQ",
-      "options": [],
-      "answer": "Answer requires calculation.",
+      "question_type": "MCQ",
+      "options": [
+        "Answer requires calculation.",
+        "See the relevant navigation chart",
+        "Check the flight planning chart",
+        "Consult the aeronautical chart"
+      ],
+      "answer": "a",
       "solution": "Answer requires calculation.",
       "explanation": "This question requires calculation using the ETP formula to cross-check the engine-failure ETP results."
     },
@@ -512,4 +607,3 @@
     }
   ]
 }
-

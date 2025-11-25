@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect, forwardRef, useImperativeHandle } from 'react';
+import debugLog from '../utils/debug';
 
 const ChatBot = forwardRef(({ isOpenByDefault = false }, ref) => {
   const [messages, setMessages] = useState([]);
@@ -11,7 +12,7 @@ const ChatBot = forwardRef(({ isOpenByDefault = false }, ref) => {
   useEffect(() => {
     const testAPI = async () => {
       try {
-        console.log('Testing AI API connection...');
+        debugLog('Testing AI API connection...');
         const response = await fetch('/api/ai/chat', {
           method: 'POST',
           headers: {
@@ -20,7 +21,7 @@ const ChatBot = forwardRef(({ isOpenByDefault = false }, ref) => {
           body: JSON.stringify({ message: 'Hello' })
         });
         const data = await response.json();
-        console.log('API test successful:', data);
+        debugLog('API test successful:', data);
       } catch (error) {
         console.error('API test failed:', error);
       }
@@ -59,7 +60,7 @@ const ChatBot = forwardRef(({ isOpenByDefault = false }, ref) => {
     setIsTyping(true);
 
     try {
-      console.log('Sending message to backend AI API...');
+      debugLog('Sending message to backend AI API...');
       
       const response = await fetch('/api/ai/chat', {
         method: 'POST',
@@ -74,7 +75,7 @@ const ChatBot = forwardRef(({ isOpenByDefault = false }, ref) => {
       }
 
       const data = await response.json();
-      console.log('Received response from AI API:', data);
+      debugLog('Received response from AI API:', data);
       const aiMessage = {
         id: Date.now() + 1,
         text: data.response,

@@ -126,39 +126,67 @@
     {
       "id": "11",
       "question": "QTE 'H' 326°(T) QTE 'G' 101°(T) Give the latitude and longitude of where the 2 position lines cross.",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "64°00′N 10°00′W"
+      "question_type": "MCQ",
+      "options": [
+        "32",
+        "48",
+        "64°00′N 10°00′W",
+        "80"
+      ],
+      "solution": "64°00′N 10°00′W",
+      "answer": "c"
     },
     {
       "id": "12",
       "question": "QTE 'G' 140°(T) QTE 'H' 270°(T) Give the latitude and longitude of where the 2 position lines cross.",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "62°30′N 13°30′W"
+      "question_type": "MCQ",
+      "options": [
+        "47",
+        "31",
+        "62°30′N 13°30′W",
+        "78"
+      ],
+      "solution": "62°30′N 13°30′W",
+      "answer": "c"
     },
     {
       "id": "13",
       "question": "DME 'L' 150 NM DME 'M' 150 NM Give the latitude and longitude of where the 2 position lines cross.",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "64°45′N 08°30′W"
+      "question_type": "MCQ",
+      "options": [
+        "64°45′N 08°30′W",
+        "32",
+        "80",
+        "48"
+      ],
+      "solution": "64°45′N 08°30′W",
+      "answer": "a"
     },
     {
       "id": "14",
       "question": "VOR 'I' QDR 339°(M) DME 'I' 120 NM Give the latitude and longitude of where the 2 position lines cross. Do not forget to apply variation to the VOR. Your DR position is 64°N 004°W.",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "65°00′N 13°00′W"
+      "question_type": "MCQ",
+      "options": [
+        "49",
+        "65°00′N 13°00′W",
+        "33",
+        "81"
+      ],
+      "solution": "65°00′N 13°00′W",
+      "answer": "b"
     },
     {
       "id": "15",
       "question": "RMI QDM NDB 'J' (in Norway) 120°(M) (Meridian Transfer) QTE 'H' 042°(T) Give the latitude and longitude of where the 2 position lines cross.",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "66°00′N 12°00′W"
+      "question_type": "MCQ",
+      "options": [
+        "83",
+        "66°00′N 12°00′W",
+        "50",
+        "33"
+      ],
+      "solution": "66°00′N 12°00′W",
+      "answer": "b"
     }
   ]
 }
-
-

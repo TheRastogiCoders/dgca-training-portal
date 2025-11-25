@@ -6,50 +6,91 @@
     {
       "id": "1",
       "question": "A flight is to be made along the parallel of latitude from A at 48°00'N 04°00'W to B at 48°00'N 02°27'E. Calculate the distance.",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "259 NM"
+      "question_type": "MCQ",
+      "options": [
+        "259 NM",
+        "324",
+        "130",
+        "194"
+      ],
+      "solution": "259 NM",
+      "answer": "a"
     },
     {
       "id": "2",
       "question": "An aircraft flies for 1000 NM along a rhumb line track of 090°(T) from C at 36°00'N 174°45'E to D. What is the longitude of D?",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "164°39'W"
+      "question_type": "MCQ",
+      "options": [
+        "82",
+        "164°39'W",
+        "205",
+        "123"
+      ],
+      "solution": "164°39'W",
+      "answer": "b"
     },
     {
       "id": "3",
       "question": "The following rhumb line tracks and distances are flown; starting from E in latitude 50°N.\\nE to F 000°(T) 300 NM\\nF to G 090°(T) 300 NM\\nG to H 180°(T) 300 NM\\nWhat is the rhumb line bearing and distance of H from E?",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "090° at 336 NM"
+      "question_type": "MCQ",
+      "options": [
+        "68",
+        "090° at 336 NM",
+        "45",
+        "113"
+      ],
+      "solution": "090° at 336 NM",
+      "answer": "b"
     },
     {
       "id": "4",
       "question": "What is the track and distance measured along the parallel of latitude of 80°S from 176°15'W to 179°45'E?",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "270°(T) Dist 41.7 NM"
+      "question_type": "MCQ",
+      "options": [
+        "338",
+        "203",
+        "135",
+        "270°(T) Dist 41.7 NM"
+      ],
+      "solution": "270°(T) Dist 41.7 NM",
+      "answer": "d"
     },
     {
       "id": "5",
       "question": "In which latitude is a difference in longitude of 44°10' the equivalent of a departure of 2295 NM?",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "30°N or S"
+      "question_type": "MCQ",
+      "options": [
+        "38",
+        "30°N or S",
+        "15",
+        "23"
+      ],
+      "solution": "30°N or S",
+      "answer": "b"
     },
     {
       "id": "6",
       "question": "An aircraft leaves J (36°00'S 130°14'E) at 0946 UTC, flying a rhumb line track of 270° at Flight Level 100, temperature 0°C, Mach No. 0.81, wind component 35 kt tail. What is the aircraft's position at 1004 UTC?",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "36°00'S 126°48'E"
+      "question_type": "MCQ",
+      "options": [
+        "27",
+        "45",
+        "18",
+        "36°00'S 126°48'E"
+      ],
+      "solution": "36°00'S 126°48'E",
+      "answer": "d"
     },
     {
       "id": "7",
-      "question": "At which latitude is the departure in NM between two points equal to:",
+      "question": "At which latitude is the departure in NM between two points equal to: i. their difference in longitude in minutes?",
       "question_type": "Grouped Free Text",
-      "options": [],
+      "options": [
+        "At Equator",
+        "See explanation above",
+        "Refer to the relevant documentation",
+        "Check the appropriate reference material"
+      ],
       "subQuestions": [
         {
           "subQuestionText": "i. their difference in longitude in minutes?",
@@ -59,13 +100,20 @@
           "subQuestionText": "ii. half their difference in longitude in minutes?",
           "solution": "At 60°N/S"
         }
-      ]
+      ],
+      "answer": "a",
+      "solution": "At Equator"
     },
     {
       "id": "8",
-      "question": "At latitude 52°N,",
+      "question": "At latitude 52°N, i. what is the departure between the meridians of 136°16'W and 43°44'E?",
       "question_type": "Grouped Free Text",
-      "options": [],
+      "options": [
+        "6653 NM",
+        "3327",
+        "4990",
+        "8316"
+      ],
       "subQuestions": [
         {
           "subQuestionText": "i. what is the departure between the meridians of 136°16'W and 43°44'E?",
@@ -75,27 +123,46 @@
           "subQuestionText": "ii. what is the shortest distance between the same points?",
           "solution": "4560 NM"
         }
-      ]
+      ],
+      "answer": "a",
+      "solution": "6653 NM"
     },
     {
       "id": "9",
       "question": "An aircraft leaves position L in latitude 37°S and makes good the following tracks and ground speeds:\\nL to M 270°(T) 310 kt\\nM to N 180°(T) 280 kt\\nN to P 090°(T) 250 kt\\nP is due south of L\\nM is reached 80 minutes after leaving L\\nP is reached 93.5 minutes after leaving N\\nCalculate the distance and time from M to N.",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "Distance M to N = 240 NM, Time M to N = 51.25 min."
+      "question_type": "MCQ",
+      "options": [
+        "Distance M to N = 240 NM, Time M to N = 51.25 min.",
+        "300",
+        "120",
+        "180"
+      ],
+      "solution": "Distance M to N = 240 NM, Time M to N = 51.25 min.",
+      "answer": "a"
     },
     {
       "id": "10",
       "question": "Aircraft Q, ground speed 301 kt flies parallel of latitude 46°N through 10° of longitude.\\nAircraft R, ground speed 364 kt flies between the same meridians in the same time as aircraft Q.\\nWhat is the latitude of the track of aircraft R?",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "33°00' N/S"
+      "question_type": "MCQ",
+      "options": [
+        "17",
+        "33°00' N/S",
+        "41",
+        "25"
+      ],
+      "solution": "33°00' N/S",
+      "answer": "b"
     },
     {
       "id": "11",
-      "question": "Aircraft S leaves position 36°N 10°E at 1522 hours, and flies a rhumb line track of 090°(T) at ground speed 470 kt until it reaches the 13°E meridian when it turns onto a track of 180°(T) at a ground speed of 460 kt.\\nAircraft T leaves position 30°N 10°E at 1522 hours and flies a rhumb line track of 090°(T) at ground speed 150 kt.\\n1. Which aircraft reaches position 30°N 13°E first?\\n2. At what time does this occur?\\n3. Give the position of the other aircraft at this time.",
+      "question": "Aircraft S leaves position 36°N 10°E at 1522 hours, and flies a rhumb line track of 090°(T) at ground speed 470 kt until it reaches the 13°E meridian when it turns onto a track of 180°(T) at a ground speed of 460 kt.\\nAircraft T leaves position 30°N 10°E at 1522 hours and flies a rhumb line track of 090°(T) at ground speed 150 kt.\\n1. Which aircraft reaches position 30°N 13°E first?\\n2. At what time does this occur?\\n3. Give the position of the other aircraft at this time. 1. Which aircraft reaches position 30°N 13°E first?",
       "question_type": "Grouped Free Text",
-      "options": [],
+      "options": [
+        "Aircraft T",
+        "See explanation above",
+        "Refer to the relevant documentation",
+        "Check the appropriate reference material"
+      ],
       "subQuestions": [
         {
           "subQuestionText": "1. Which aircraft reaches position 30°N 13°E first?",
@@ -109,7 +176,9 @@
           "subQuestionText": "3. Give the position of the other aircraft at this time.",
           "solution": "30°27'N 13°00'E"
         }
-      ]
+      ],
+      "answer": "a",
+      "solution": "Aircraft T"
     },
     {
       "id": "12",
@@ -173,5 +242,3 @@
     }
   ]
 }
-
-

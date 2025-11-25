@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
 import { API_ENDPOINTS } from '../config/api';
+import debugLog from '../utils/debug';
 
 const HomePage = () => {
   return (
@@ -116,8 +117,8 @@ const MainHero = () => {
     setShowSuggestions(false);
     
     try {
-      console.log('Fetching answer from:', API_ENDPOINTS.SEARCH_ASK);
-      console.log('Request body:', {
+      debugLog('Fetching answer from:', API_ENDPOINTS.SEARCH_ASK);
+      debugLog('Request body:', {
         query,
         suggestionId: suggestionId || selectedSuggestion?.id,
         suggestionType: suggestionType || selectedSuggestion?.type
@@ -133,7 +134,7 @@ const MainHero = () => {
         })
       });
       
-      console.log('Response status:', res.status);
+      debugLog('Response status:', res.status);
       
       if (!res.ok) {
         const errorText = await res.text();
@@ -142,7 +143,7 @@ const MainHero = () => {
       }
       
       const data = await res.json();
-      console.log('Response data:', data);
+      debugLog('Response data:', data);
       setAnswer(data);
     } catch (error) {
       console.error('Error fetching answer:', error);

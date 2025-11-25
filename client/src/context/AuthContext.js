@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import debugLog from '../utils/debug';
 
 const AuthContext = createContext();
 
@@ -40,14 +41,14 @@ export const AuthProvider = ({ children }) => {
   };
 
   const logout = () => {
-    console.log('AuthContext logout called, current user:', user);
+    debugLog('AuthContext logout called, current user:', user);
     localStorage.removeItem('token');
     localStorage.removeItem('user');
     // Also clear admin tokens to prevent conflicts
     localStorage.removeItem('adminToken');
     localStorage.removeItem('adminUser');
     setUser(null);
-    console.log('AuthContext logout completed, user set to null');
+    debugLog('AuthContext logout completed, user set to null');
   };
 
   const isAuthenticated = !!user;

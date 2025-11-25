@@ -1,3 +1,5 @@
+import debugLog from '../utils/debug';
+
 // Production API Configuration
 const getApiBaseUrl = () => {
   // Check if we're in production
@@ -33,10 +35,10 @@ export const API_ENDPOINTS = {
   SEARCH_ASK: `${API_BASE_URL}/api/search/ask`,
 };
 
-// Debug logging for production
-if (process.env.NODE_ENV === 'production') {
-  console.log('API Base URL:', API_BASE_URL);
-  console.log('Auth Login URL:', API_ENDPOINTS.AUTH_LOGIN);
+// Debug logging only outside production
+if (process.env.NODE_ENV !== 'production') {
+  debugLog('API Base URL:', API_BASE_URL);
+  debugLog('Auth Login URL:', API_ENDPOINTS.AUTH_LOGIN);
 }
 
 export default API_ENDPOINTS;

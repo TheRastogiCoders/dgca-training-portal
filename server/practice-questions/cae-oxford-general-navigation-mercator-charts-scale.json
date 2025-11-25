@@ -6,109 +6,227 @@
     {
       "id": "1",
       "question": "On a Mercator chart, the scale at the Equator is 1:3500000. What is the scale at 37°S?",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "1:2795224"
+      "question_type": "MCQ",
+      "options": [
+        "1",
+        "1:2795224",
+        "1",
+        "1"
+      ],
+      "solution": "1:2795224",
+      "answer": "a"
     },
     {
       "id": "2",
       "question": "On a Mercator chart, the scale at 50°N is 1:4500000. What is the scale at the Equator?",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "1:7000757"
+      "question_type": "MCQ",
+      "options": [
+        "1:7000757",
+        "1",
+        "1",
+        "1"
+      ],
+      "solution": "1:7000757",
+      "answer": "a"
     },
     {
       "id": "3",
       "question": "On a Mercator chart, the scale at 15°N is 1:1 500 000. What is the scale at 47°S?",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "1:1 059 085"
+      "question_type": "MCQ",
+      "options": [
+        "1:1 059 085",
+        "1",
+        "1",
+        "1"
+      ],
+      "solution": "1:1 059 085",
+      "answer": "a"
     },
     {
       "id": "4",
       "question": "The chart length between meridians 1° apart is 3.2 inches. What is the scale of the chart as a representative fraction at 50N?",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "1:879624"
+      "question_type": "MCQ",
+      "options": [
+        "1",
+        "1",
+        "1",
+        "1:879624"
+      ],
+      "solution": "1:879624",
+      "answer": "a"
     },
     {
       "id": "5",
       "question": "A Mercator is to be constructed at a scale of 1:2237000 in latitude 44N. What is the required spacing in centimetres between meridians 1° apart?",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "3.576 cm"
+      "question_type": "MCQ",
+      "options": [
+        "3.576 cm",
+        "1.79",
+        "2.68",
+        "4.47"
+      ],
+      "solution": "3.576 cm",
+      "answer": "a"
     },
     {
       "id": "6",
       "question": "The scale of a Mercator chart is 1:3500000 at 52N. Give the length in inches of a straight line on the chart from A (58N 42E) to B (58N 34E).",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "6.16 inches"
+      "question_type": "MCQ",
+      "options": [
+        "6.16 inches",
+        "3.08",
+        "4.62",
+        "7.70"
+      ],
+      "solution": "6.16 inches",
+      "answer": "a"
     },
     {
       "id": "7",
       "question": "On a Mercator chart the spacing of meridians 1° apart is 2.82 cm. In which latitude will the scale be 1:2319000?",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "54°N/S"
+      "question_type": "MCQ",
+      "options": [
+        "54°N/S",
+        "27",
+        "41",
+        "68"
+      ],
+      "solution": "54°N/S",
+      "answer": "a"
     },
     {
       "id": "8",
       "question": "On a Mercator chart the spacing of meridians 1° apart is 5.42 cm. What is the scale of the chart as a representative fraction in latitude 56N?",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "1:1 147 000"
+      "question_type": "MCQ",
+      "options": [
+        "1:1 147 000",
+        "1",
+        "1",
+        "1"
+      ],
+      "solution": "1:1 147 000",
+      "answer": "a"
     },
     {
       "id": "9",
       "question": "The scale of a Mercator chart is 1:3500000 in latitude 52N. What is the spacing, in centimetres, between meridians 1° apart?",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "1.956 cm"
+      "question_type": "MCQ",
+      "options": [
+        "1.956 cm",
+        "0.98",
+        "1.47",
+        "2.44"
+      ],
+      "solution": "1.956 cm",
+      "answer": "a"
     },
     {
       "id": "10",
-      "question": "The scale of a Mercator chart is 1:5 107 200 in latitude 47N.",
+      "question": "The scale of a Mercator chart is 1:5 107 200 in latitude 47N. a. What distance in NM does one inch on the chart represent in 47N ?",
       "question_type": "Grouped Free Text",
-      "options": [],
+      "options": [
+        "53",
+        "70 NM",
+        "88",
+        "35"
+      ],
       "subQuestions": [
-        { "subQuestionText": "a. What distance in NM does one inch on the chart represent in 47N ?", "solution": "70 NM" },
-        { "subQuestionText": "b. What is the spacing in cm between meridians 10° apart ?", "solution": "14.85 cm" },
-        { "subQuestionText": "c. Would the scale at 30N have a larger or smaller denominator than 5 107 000?", "solution": "Larger" },
-        { "subQuestionText": "Give a reason for your answer.", "solution": "Scale increases away from the Equator; denominator becomes larger." }
-      ]
+        {
+          "subQuestionText": "a. What distance in NM does one inch on the chart represent in 47N ?",
+          "solution": "70 NM"
+        },
+        {
+          "subQuestionText": "b. What is the spacing in cm between meridians 10° apart ?",
+          "solution": "14.85 cm"
+        },
+        {
+          "subQuestionText": "c. Would the scale at 30N have a larger or smaller denominator than 5 107 000?",
+          "solution": "Larger"
+        },
+        {
+          "subQuestionText": "Give a reason for your answer.",
+          "solution": "Scale increases away from the Equator; denominator becomes larger."
+        }
+      ],
+      "answer": "b",
+      "solution": "70 NM"
     },
     {
       "id": "11",
-      "question": "On a Mercator chart a line drawn along the parallel of 60N, and measuring 4 inches, represents a distance of 200 km.",
+      "question": "On a Mercator chart a line drawn along the parallel of 60N, and measuring 4 inches, represents a distance of 200 km. a. Give the scale at 60N as a representative fraction.",
       "question_type": "Grouped Free Text",
-      "options": [],
+      "options": [
+        "1",
+        "1",
+        "1",
+        "1:1 968 000"
+      ],
       "subQuestions": [
-        { "subQuestionText": "a. Give the scale at 60N as a representative fraction.", "solution": "1:1 968 000" },
-        { "subQuestionText": "b. How many nautical miles will be represented by a line drawn along the same parallel and measuring 7 cm in length ?", "solution": "74.336 NM" }
-      ]
+        {
+          "subQuestionText": "a. Give the scale at 60N as a representative fraction.",
+          "solution": "1:1 968 000"
+        },
+        {
+          "subQuestionText": "b. How many nautical miles will be represented by a line drawn along the same parallel and measuring 7 cm in length ?",
+          "solution": "74.336 NM"
+        }
+      ],
+      "answer": "a",
+      "solution": "1:1 968 000"
     },
     {
       "id": "12",
-      "question": "The scale of a Mercator chart is 1:2 179 000 at the Equator.",
+      "question": "The scale of a Mercator chart is 1:2 179 000 at the Equator. a. What is the spacing in centimetres between meridians 10° apart ?",
       "question_type": "Grouped Free Text",
-      "options": [],
+      "options": [
+        "63.80",
+        "38.28",
+        "25.52",
+        "51.04 cm"
+      ],
       "subQuestions": [
-        { "subQuestionText": "a. What is the spacing in centimetres between meridians 10° apart ?", "solution": "51.04 cm" },
-        { "subQuestionText": "b. In which latitude does one inch represent 18.4 NM ?", "solution": "52°N or S" }
-      ]
+        {
+          "subQuestionText": "a. What is the spacing in centimetres between meridians 10° apart ?",
+          "solution": "51.04 cm"
+        },
+        {
+          "subQuestionText": "b. In which latitude does one inch represent 18.4 NM ?",
+          "solution": "52°N or S"
+        }
+      ],
+      "answer": "d",
+      "solution": "51.04 cm"
     },
     {
       "id": "13",
-      "question": "A Mercator chart has a scale of 1:3000000 at 60N.",
+      "question": "A Mercator chart has a scale of 1:3000000 at 60N. a. In what latitude is the scale:",
       "question_type": "Grouped Free Text",
-      "options": [],
+      "options": [
+        "1",
+        "1",
+        "1",
+        "At the Equator the scale is 1:6 000 000"
+      ],
       "subQuestions": [
-        { "subQuestionText": "a. In what latitude is the scale:", "solution": "At the Equator the scale is 1:6 000 000" },
-        { "subQuestionText": "i. 1:6000000?", "solution": "0°" },
-        { "subQuestionText": "ii. 1:5300000?", "solution": "28°N/S" },
-        { "subQuestionText": "b. Is there a latitude on this chart where the scale is 1:6500000?", "solution": "No. Minimum scale is at the Equator." }
-      ]
+        {
+          "subQuestionText": "a. In what latitude is the scale:",
+          "solution": "At the Equator the scale is 1:6 000 000"
+        },
+        {
+          "subQuestionText": "i. 1:6000000?",
+          "solution": "0°"
+        },
+        {
+          "subQuestionText": "ii. 1:5300000?",
+          "solution": "28°N/S"
+        },
+        {
+          "subQuestionText": "b. Is there a latitude on this chart where the scale is 1:6500000?",
+          "solution": "No. Minimum scale is at the Equator."
+        }
+      ],
+      "answer": "a",
+      "solution": "At the Equator the scale is 1:6 000 000"
     },
     {
       "id": "14",
@@ -124,4 +242,3 @@
     }
   ]
 }
-

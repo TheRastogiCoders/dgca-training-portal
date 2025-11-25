@@ -5,6 +5,7 @@ import Card from './ui/Card';
 import Modal from './ui/Modal';
 import usePersistentState from '../hooks/usePersistentState';
 import { slugifyChapterName, resolveChapterSlug } from '../utils/chapterSlug';
+import debugLog from '../utils/debug';
 
 const EXCLUDED_CHAPTER_NAMES = new Set([
   'Overview and Definitions',
@@ -762,13 +763,13 @@ const radioTelephonyOxfordBooks = [
       // Check if a sub-book is selected (air-law or human-performance-and-limitations)
       const subBook = airRegulationsSubBooks.find((book) => book.slug === selectedBookKey);
       if (subBook) {
-        console.log('Air Regulations: Returning sub-book with chapters:', subBook.chapters?.length);
+        debugLog('Air Regulations: Returning sub-book with chapters:', subBook.chapters?.length);
         return sanitizeBook(subBook);
       }
       // Otherwise, check if a specific air regulations book is selected
       const airRegBook = airRegulationsOxfordBooks.find((book) => book.slug === selectedBookKey);
       if (airRegBook) {
-        console.log('Air Regulations: Returning specific book with chapters:', airRegBook.chapters?.length);
+        debugLog('Air Regulations: Returning specific book with chapters:', airRegBook.chapters?.length);
         return sanitizeBook(airRegBook);
       }
     }
@@ -778,14 +779,14 @@ const radioTelephonyOxfordBooks = [
       if (selectedBookKey === 'cae-oxford') {
         const radioBook = radioTelephonyOxfordBooks[0];
         if (radioBook) {
-          console.log('Radio Telephony: Returning radio book with chapters:', radioBook.chapters?.length);
+          debugLog('Radio Telephony: Returning radio book with chapters:', radioBook.chapters?.length);
           return sanitizeBook(radioBook);
         }
       }
       // Otherwise, check if a specific radio book is selected
       const radioBook = radioTelephonyOxfordBooks.find((book) => book.slug === selectedBookKey);
       if (radioBook) {
-        console.log('Radio Telephony: Returning specific radio book with chapters:', radioBook.chapters?.length);
+        debugLog('Radio Telephony: Returning specific radio book with chapters:', radioBook.chapters?.length);
         return sanitizeBook(radioBook);
       }
     }
@@ -795,7 +796,7 @@ const radioTelephonyOxfordBooks = [
       if (selectedBookKey === 'cae-oxford' || selectedBookKey === 'oxford') {
         const meteorologyBook = meteorologyOxfordBooks[0];
         if (meteorologyBook) {
-          console.log('Meteorology: Returning CAE Oxford book with chapters:', meteorologyBook.chapters?.length);
+          debugLog('Meteorology: Returning CAE Oxford book with chapters:', meteorologyBook.chapters?.length);
           return sanitizeBook(meteorologyBook);
         }
       }
@@ -803,14 +804,14 @@ const radioTelephonyOxfordBooks = [
       // Provide IC Joshi specific chapter listing
       const meteorologyIcJoshiBook = meteorologyIcJoshiBooks.find((book) => book.slug === selectedBookKey);
       if (meteorologyIcJoshiBook) {
-        console.log('Meteorology: Returning IC Joshi book with chapters:', meteorologyIcJoshiBook.chapters?.length);
+        debugLog('Meteorology: Returning IC Joshi book with chapters:', meteorologyIcJoshiBook.chapters?.length);
         return sanitizeBook(meteorologyIcJoshiBook);
       }
 
       // Otherwise, check if a specific other meteorology book is selected
       const meteorologyBook = meteorologyOxfordBooks.find((book) => book.slug === selectedBookKey);
       if (meteorologyBook) {
-        console.log('Meteorology: Returning specific meteorology book with chapters:', meteorologyBook.chapters?.length);
+        debugLog('Meteorology: Returning specific meteorology book with chapters:', meteorologyBook.chapters?.length);
         return sanitizeBook(meteorologyBook);
       }
     }
@@ -1140,7 +1141,7 @@ const radioTelephonyOxfordBooks = [
               const subjectChapters = sanitizeChapters(selectedSubject?.chapters) || [];
               const chapters = bookChapters.length > 0 ? bookChapters : subjectChapters;
               
-              console.log('Rendering chapters:', { 
+              debugLog('Rendering chapters:', {
                 bookChapters: bookChapters.length, 
                 subjectChapters: subjectChapters.length,
                 finalChapters: chapters.length,

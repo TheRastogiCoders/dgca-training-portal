@@ -7,7 +7,12 @@
       "id": "1",
       "question": "What is the approximate compression of the Earth?",
       "question_type": "MCQ",
-      "options": ["3%", "0.03%", "0.3%", "1/3000"],
+      "options": [
+        "3%",
+        "0.03%",
+        "0.3%",
+        "1/3000"
+      ],
       "solution": "0.3%"
     },
     {
@@ -24,15 +29,26 @@
     {
       "id": "3",
       "question": "A great circle has its North vertex at 70N 130E. What is the position of its South vertex?",
-      "question_type": "Free Text",
-      "options": [],
-      "solution": "70S 050W"
+      "question_type": "MCQ",
+      "options": [
+        "53",
+        "35",
+        "70S 050W",
+        "88"
+      ],
+      "solution": "70S 050W",
+      "answer": "c"
     },
     {
       "id": "4",
-      "question": "In Question 3, at what longitudes and in what direction would the Great Circle cross the Equator assuming:",
+      "question": "In Question 3, at what longitudes and in what direction would the Great Circle cross the Equator assuming: initial direction is east from the northern vertex?",
       "question_type": "Grouped Free Text",
-      "options": [],
+      "options": [
+        "70",
+        "140W 160°(T)",
+        "105",
+        "175"
+      ],
       "subQuestions": [
         {
           "subQuestionText": "initial direction is east from the northern vertex?",
@@ -42,15 +58,21 @@
           "subQuestionText": "initial direction is west from the northern vertex?",
           "solution": "040E 200°(T)"
         }
-      ]
+      ],
+      "answer": "b",
+      "solution": "140W 160°(T)"
     },
     {
       "id": "5",
       "question": "Given that the compression value of the Earth is 1/297 and that the semi-major axis of the Earth, measured at the axis of the Equator, is 6378.4 km, what is the semi-minor (i.e. radius) axis of the Earth measured at the axis of the Poles?",
       "question_type": "MCQ",
-      "options": ["6399.9 km", "6356.9 km", "6378.4 km", "6367.0 km"],
+      "options": [
+        "6399.9 km",
+        "6356.9 km",
+        "6378.4 km",
+        "6367.0 km"
+      ],
       "solution": "6356.9 km"
     }
   ]
 }
-

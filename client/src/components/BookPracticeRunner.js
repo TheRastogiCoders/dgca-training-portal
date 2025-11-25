@@ -5,6 +5,7 @@ import Card from './ui/Card';
 import Modal from './ui/Modal';
 import { API_ENDPOINTS } from '../config/api';
 import { resolveChapterSlug } from '../utils/chapterSlug';
+import debugLog from '../utils/debug';
 
 const friendly = (slug) => (slug || '')
   .split('-')
@@ -98,7 +99,7 @@ const BookPracticeRunner = () => {
         const fallbackUrl = `/api/practice-questions/${bookSlug}${query}`;
 
         const attemptFetch = async (url, label) => {
-          console.log(`[Frontend] Loading questions (${label}) → ${url}`);
+          debugLog(`[Frontend] Loading questions (${label}) → ${url}`);
         const res = await fetch(url);
         if (!res.ok) {
           const text = await res.text();
@@ -132,7 +133,7 @@ const BookPracticeRunner = () => {
         }
 
         const list = Array.isArray(data.questions) ? data.questions : [];
-        console.log(`[Frontend] Received questions count: ${list.length}`);
+        debugLog(`[Frontend] Received questions count: ${list.length}`);
         const optionLabels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
         const normalized = list.map(q => {
           const stableId = q.id ?? q.question_number ?? q.questionNumber ?? q.question_text ?? q.question;
@@ -492,31 +493,39 @@ const BookPracticeRunner = () => {
                 </div>
               </div>
               <div className="p-5 sm:p-6 space-y-3">
-                {q.options.map((opt, idx) => {
-                  const isSelected = selected === idx;
-                  const labels = ['A','B','C','D','E','F'];
-                  let cls = 'w-full text-left p-4 border-2 rounded-lg transition-all duration-200 ';
-                  if (selected !== null) {
-                    const correct = String(q.correctLabel).toLowerCase();
-                    const chosen = ['a','b','c','d','e','f'][idx];
-                    if (chosen === correct) cls += 'border-green-500 bg-green-50 text-green-800 font-medium';
-                    else if (isSelected) cls += 'border-red-500 bg-red-50 text-red-800';
-                    else cls += 'border-gray-200 bg-gray-50 text-gray-600';
-                  } else {
-                    cls += 'border-gray-200 bg-white hover:border-blue-300 hover:bg-blue-50 cursor-pointer';
-                  }
-                  return (
-                    <button key={idx} onClick={() => submitAnswer(idx)} disabled={selected !== null} className={cls}>
-                      <div className="flex items-center">
-                        <span className="inline-flex items-center justify-center w-6 h-6 mr-3 rounded-full bg-gray-100 text-gray-700 text-xs font-bold border border-gray-300 flex-shrink-0">{labels[idx]}</span>
-                        <span className="text-sm sm:text-base">{opt}</span>
-                      </div>
-                    </button>
-                  );
-                })}
+                {q.options && q.options.length > 0 ? (
+                  q.options.map((opt, idx) => {
+                    const isSelected = selected === idx;
+                    const labels = ['A','B','C','D','E','F'];
+                    let cls = 'w-full text-left p-4 border-2 rounded-lg transition-all duration-200 ';
+                    if (selected !== null) {
+                      const correct = String(q.correctLabel).toLowerCase();
+                      const chosen = ['a','b','c','d','e','f'][idx];
+                      if (chosen === correct) cls += 'border-green-500 bg-green-50 text-green-800 font-medium';
+                      else if (isSelected) cls += 'border-red-500 bg-red-50 text-red-800';
+                      else cls += 'border-gray-200 bg-gray-50 text-gray-600';
+                    } else {
+                      cls += 'border-gray-200 bg-white hover:border-blue-300 hover:bg-blue-50 cursor-pointer';
+                    }
+                    return (
+                      <button key={idx} onClick={() => submitAnswer(idx)} disabled={selected !== null} className={cls}>
+                        <div className="flex items-center">
+                          <span className="inline-flex items-center justify-center w-6 h-6 mr-3 rounded-full bg-gray-100 text-gray-700 text-xs font-bold border border-gray-300 flex-shrink-0">{labels[idx]}</span>
+                          <span className="text-sm sm:text-base">{opt}</span>
+                        </div>
+                      </button>
+                    );
+                  })
+                ) : (
+                  <div className="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
+                    <p className="text-sm text-yellow-800">
+                      <strong>Note:</strong> This is a non-MCQ question. You can proceed to the next question directly.
+                    </p>
+                  </div>
+                )}
                 
                 {/* Explanation Box - appears after answer is selected */}
-                {selected !== null && (
+                {selected !== null && q.options && q.options.length > 0 && (
                   <div className="mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
                     <div className="flex items-start">
                       <div className="flex-shrink-0">
@@ -590,13 +599,13 @@ const BookPracticeRunner = () => {
                   </div>
                 )}
                 
-                {/* Next Button - Always visible, disabled until answer is selected */}
+                {/* Next Button - Always visible, disabled until answer is selected (or if no options, always enabled) */}
                 <div className="pt-4 text-center">
                   <button 
                     onClick={next} 
-                    disabled={selected === null}
+                    disabled={selected === null && q.options && q.options.length > 0}
                     className={`w-full sm:w-auto px-8 py-3 font-semibold rounded-lg shadow-md transition-all duration-200 ${
-                      selected === null
+                      (selected === null && q.options && q.options.length > 0)
                         ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
                         : 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:shadow-lg transform hover:scale-[1.02]'
                     }`}
