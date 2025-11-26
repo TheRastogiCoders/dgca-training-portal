@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
@@ -31,6 +31,7 @@ const BookPracticeRunner = () => {
   const [loadingExplanation, setLoadingExplanation] = useState(false);
   const [explanationCache, setExplanationCache] = useState({});
   const startTimeRef = useRef(Date.now());
+  const [answersHistory, setAnswersHistory] = useState({});
 
   const bookName = useMemo(() => {
     // Show "Air Law" for Oxford book (used in Air Regulations)
@@ -46,6 +47,11 @@ const BookPracticeRunner = () => {
     () => (chapterSlug ? resolveChapterSlug(bookSlug, chapterSlug) : ''),
     [bookSlug, chapterSlug]
   );
+
+  const chapterName = useMemo(() => {
+    if (!chapterSlug && !resolvedChapterSlug) return '';
+    return friendly(chapterSlug || resolvedChapterSlug);
+  }, [chapterSlug, resolvedChapterSlug]);
 
   const storageKey = useMemo(
     () => `bookPractice:${bookSlug}:${resolvedChapterSlug || 'all'}`,
@@ -73,6 +79,11 @@ const BookPracticeRunner = () => {
       }
       if (typeof saved.selected === 'number' || saved.selected === null) {
         setSelected(saved.selected);
+      }
+      if (saved.answersHistory && typeof saved.answersHistory === 'object') {
+        setAnswersHistory(saved.answersHistory);
+      } else {
+        setAnswersHistory({});
       }
       if (typeof saved.done === 'boolean') {
         setDone(saved.done);
@@ -158,6 +169,7 @@ const BookPracticeRunner = () => {
           };
         });
         setQuestions(normalized);
+        setAnswersHistory({});
         restoreState(normalized);
       } catch (e) {
         setError(e.message || 'Failed to load questions');
@@ -178,13 +190,14 @@ const BookPracticeRunner = () => {
       done,
       score,
       startTime: startTimeRef.current,
+      answersHistory,
     };
     try {
       localStorage.setItem(storageKey, JSON.stringify(payload));
     } catch (err) {
       console.warn('Unable to persist practice state:', err);
     }
-  }, [questions, current, selected, done, score, loading, storageKey]);
+  }, [questions, current, selected, done, score, loading, storageKey, answersHistory]);
 
   const fetchExplanation = async (questionId, questionText, options, correctAnswer, selectedAnswer, fallbackText = 'Explanation not available.') => {
     // Check cache first
@@ -236,6 +249,10 @@ const BookPracticeRunner = () => {
   const submitAnswer = async (optionIndex) => {
     if (selected !== null) return;
     setSelected(optionIndex);
+    setAnswersHistory(prev => ({
+      ...prev,
+      [current]: optionIndex
+    }));
     const currentQuestion = questions[current];
     const labels = ['a','b','c','d','e','f'];
     const chosenLabel = labels[optionIndex];
@@ -265,13 +282,26 @@ const BookPracticeRunner = () => {
     }
   };
 
+  const goToQuestion = useCallback((index) => {
+    if (index < 0 || index >= questions.length) return;
+    setCurrent(index);
+    const savedSelection = Object.prototype.hasOwnProperty.call(answersHistory, index)
+      ? answersHistory[index]
+      : null;
+    setSelected(savedSelection);
+  }, [answersHistory, questions.length]);
+
   const next = () => {
     if (current >= questions.length - 1) {
       setDone(true);
       return;
     }
-    setCurrent(prev => prev + 1);
-    setSelected(null);
+    goToQuestion(current + 1);
+  };
+
+  const previous = () => {
+    if (current === 0) return;
+    goToQuestion(current - 1);
   };
 
   const restart = () => {
@@ -279,6 +309,7 @@ const BookPracticeRunner = () => {
     setSelected(null);
     setDone(false);
     setScore(0);
+    setAnswersHistory({});
     startTimeRef.current = Date.now();
     localStorage.removeItem(storageKey);
   };
@@ -370,8 +401,13 @@ const BookPracticeRunner = () => {
           <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-10 md:ml-56 lg:ml-64 xl:ml-72">
             <div className="max-w-4xl mx-auto text-center py-20">
               <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-blue-600 mx-auto mb-4"></div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-2">Loading {bookName} Questions</h2>
-              <p className="text-gray-600">Please wait…</p>
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">
+                Loading {bookName}
+                {chapterName ? ` • ${chapterName}` : ''} Questions
+              </h2>
+              <p className="text-gray-600">
+                Fetching chapter content{chapterName ? ` for ${chapterName}` : ''}…
+              </p>
             </div>
           </main>
         </div>
@@ -456,11 +492,14 @@ const BookPracticeRunner = () => {
         <SiteSidebar />
         <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-10 md:ml-56 lg:ml-64 xl:ml-72">
           <div className="max-w-4xl mx-auto w-full space-y-5">
-            <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-              <div className="space-y-1">
-                <h1 className="text-2xl md:text-3xl font-bold text-gray-900 leading-snug">{bookName}</h1>
-                <p className="text-gray-600 text-sm md:text-base">Question {current + 1} of {questions.length}</p>
-              </div>
+                <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+                  <div className="space-y-1">
+                    <h1 className="text-2xl md:text-3xl font-bold text-gray-900 leading-snug">{bookName}</h1>
+                    {chapterName && (
+                      <p className="text-sm text-gray-500">{chapterName}</p>
+                    )}
+                    <p className="text-gray-600 text-sm md:text-base">Question {current + 1} of {questions.length}</p>
+                  </div>
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full md:w-auto">
                 <div className="w-full sm:w-48">
                   <div className="w-full bg-gray-200 rounded-full h-2 overflow-hidden">
@@ -495,26 +534,26 @@ const BookPracticeRunner = () => {
               <div className="p-5 sm:p-6 space-y-3">
                 {q.options && q.options.length > 0 ? (
                   q.options.map((opt, idx) => {
-                    const isSelected = selected === idx;
-                    const labels = ['A','B','C','D','E','F'];
-                    let cls = 'w-full text-left p-4 border-2 rounded-lg transition-all duration-200 ';
-                    if (selected !== null) {
-                      const correct = String(q.correctLabel).toLowerCase();
-                      const chosen = ['a','b','c','d','e','f'][idx];
-                      if (chosen === correct) cls += 'border-green-500 bg-green-50 text-green-800 font-medium';
-                      else if (isSelected) cls += 'border-red-500 bg-red-50 text-red-800';
-                      else cls += 'border-gray-200 bg-gray-50 text-gray-600';
-                    } else {
-                      cls += 'border-gray-200 bg-white hover:border-blue-300 hover:bg-blue-50 cursor-pointer';
-                    }
-                    return (
-                      <button key={idx} onClick={() => submitAnswer(idx)} disabled={selected !== null} className={cls}>
-                        <div className="flex items-center">
-                          <span className="inline-flex items-center justify-center w-6 h-6 mr-3 rounded-full bg-gray-100 text-gray-700 text-xs font-bold border border-gray-300 flex-shrink-0">{labels[idx]}</span>
-                          <span className="text-sm sm:text-base">{opt}</span>
-                        </div>
-                      </button>
-                    );
+                  const isSelected = selected === idx;
+                  const labels = ['A','B','C','D','E','F'];
+                  let cls = 'w-full text-left p-4 border-2 rounded-lg transition-all duration-200 ';
+                  if (selected !== null) {
+                    const correct = String(q.correctLabel).toLowerCase();
+                    const chosen = ['a','b','c','d','e','f'][idx];
+                    if (chosen === correct) cls += 'border-green-500 bg-green-50 text-green-800 font-medium';
+                    else if (isSelected) cls += 'border-red-500 bg-red-50 text-red-800';
+                    else cls += 'border-gray-200 bg-gray-50 text-gray-600';
+                  } else {
+                    cls += 'border-gray-200 bg-white hover:border-blue-300 hover:bg-blue-50 cursor-pointer';
+                  }
+                  return (
+                    <button key={idx} onClick={() => submitAnswer(idx)} disabled={selected !== null} className={cls}>
+                      <div className="flex items-center">
+                        <span className="inline-flex items-center justify-center w-6 h-6 mr-3 rounded-full bg-gray-100 text-gray-700 text-xs font-bold border border-gray-300 flex-shrink-0">{labels[idx]}</span>
+                        <span className="text-sm sm:text-base">{opt}</span>
+                      </div>
+                    </button>
+                  );
                   })
                 ) : (
                   <div className="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
@@ -524,83 +563,37 @@ const BookPracticeRunner = () => {
                   </div>
                 )}
                 
-                {/* Explanation Box - appears after answer is selected */}
+                {/* Correct Answer Summary */}
                 {selected !== null && q.options && q.options.length > 0 && (
                   <div className="mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
-                    <div className="flex items-start">
-                      <div className="flex-shrink-0">
-                        {(() => {
-                          const correct = String(q.correctLabel).toLowerCase();
-                          const chosen = ['a','b','c','d','e','f'][selected];
-                          const isCorrect = chosen === correct;
-                          return isCorrect ? (
-                            <svg className="w-5 h-5 text-green-600 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                          ) : (
-                            <svg className="w-5 h-5 text-red-600 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                          );
-                        })()}
-                      </div>
-                      <div className="ml-3 flex-1">
-                        <div className="flex items-center justify-between mb-1">
-                          <h4 className="text-sm font-semibold text-gray-900">
-                            {(() => {
-                              const correct = String(q.correctLabel).toLowerCase();
-                              const chosen = ['a','b','c','d','e','f'][selected];
-                              const isCorrect = chosen === correct;
-                              return isCorrect ? 'Correct!' : 'Explanation:';
-                            })()}
-                          </h4>
-                          {!q.explanation && !loadingExplanation && (
-                            <button
-                              onClick={async () => {
-                                const explanation = await fetchExplanation(
-                                  q.id,
-                                  q.text,
-                                  q.options,
-                                  q.correctLabel,
-                                  ['a','b','c','d','e','f'][selected]
-                                );
-                                setQuestions(prev => prev.map((question, idx) => 
-                                  idx === current 
-                                    ? { ...question, explanation }
-                                    : question
-                                ));
-                              }}
-                              className="text-xs text-blue-600 hover:text-blue-800 font-medium"
-                            >
-                              Show Explanation
-                            </button>
-                          )}
-                        </div>
-                        {loadingExplanation ? (
-                          <div className="flex items-center gap-2">
-                            <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-blue-600"></div>
-                            <p className="text-sm text-gray-600">Loading explanation...</p>
-                          </div>
-                        ) : q.explanation ? (
-                          <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-line">
-                            {q.explanation}
-                          </p>
-                        ) : (
-                          <p className="text-sm text-gray-500 italic">
-                            Click "Show Explanation" to see why this answer is {(() => {
-                              const correct = String(q.correctLabel).toLowerCase();
-                              const chosen = ['a','b','c','d','e','f'][selected];
-                              return chosen === correct ? 'correct' : 'incorrect';
-                            })()}.
-                          </p>
-                        )}
-                      </div>
-                    </div>
+                    {(() => {
+                      const labels = ['a', 'b', 'c', 'd', 'e', 'f'];
+                      const correctIndex = labels.indexOf(String(q.correctLabel).toLowerCase());
+                      const correctOption = correctIndex >= 0 ? q.options[correctIndex] : '';
+                      const displayLabel = String(q.correctLabel || '').toUpperCase();
+                      return (
+                        <p className="text-sm font-semibold text-gray-800">
+                          Correct Answer: {displayLabel}
+                          {correctOption ? ` • ${correctOption}` : ''}
+                        </p>
+                      );
+                    })()}
                   </div>
                 )}
                 
-                {/* Next Button - Always visible, disabled until answer is selected (or if no options, always enabled) */}
-                <div className="pt-4 text-center">
+                {/* Navigation Buttons */}
+                <div className="pt-4 flex flex-col sm:flex-row gap-3 justify-center">
+                  <button
+                    onClick={previous}
+                    disabled={current === 0}
+                    className={`w-full sm:w-auto px-8 py-3 font-semibold rounded-lg shadow-md transition-all duration-200 ${
+                      current === 0
+                        ? 'bg-gray-200 text-gray-500 cursor-not-allowed'
+                        : 'bg-white text-gray-700 border border-gray-300 hover:bg-gray-50'
+                    }`}
+                  >
+                    Previous Question
+                  </button>
                   <button 
                     onClick={next} 
                     disabled={selected === null && q.options && q.options.length > 0}

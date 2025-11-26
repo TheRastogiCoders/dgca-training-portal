@@ -37,6 +37,24 @@ const QuestionBank = () => {
   const [clickedChapter, setClickedChapter] = useState(null);
   const [showBookComingSoonModal, setShowBookComingSoonModal] = useState(false);
   const subBooksRef = useRef(null);
+  const overviewHighlights = [
+    {
+      title: 'Terms & Conditions',
+      description: 'Practice content is available for personal pilot prep only and must not be redistributed.'
+    },
+    {
+      title: 'Content Authenticity',
+      description: 'All PYQ questions are sourced from DGCA exams and modernized without altering intent.'
+    },
+    {
+      title: 'Usage Etiquette',
+      description: 'Respect question difficulty tags and report any discrepancies or outdated information.'
+    },
+    {
+      title: 'Support & Compliance',
+      description: 'Contact our support team for clarifications; we keep materials aligned with DGCA guidelines.'
+    }
+  ];
 
   const subjects = [
     {
@@ -923,15 +941,6 @@ const radioTelephonyOxfordBooks = [
     setSelectedBookKey(null);
   };
 
-  const getDifficultyColor = (difficulty) => {
-    switch (difficulty) {
-      case 'Easy': return 'text-green-600 bg-green-100';
-      case 'Medium': return 'text-yellow-600 bg-yellow-100';
-      case 'Hard': return 'text-red-600 bg-red-100';
-      default: return 'text-gray-600 bg-gray-100';
-    }
-  };
-
   return (
     <div className="min-h-screen gradient-bg">
       <div className="flex">
@@ -1011,24 +1020,19 @@ const radioTelephonyOxfordBooks = [
                     <p className="text-gray-600">Comprehensive coverage of all DGCA subjects</p>
                   </div>
                   
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                    <div className="text-center">
-                      <div className="text-3xl font-bold text-blue-600 mb-2">5,580</div>
-                      <div className="text-gray-600">Total Questions</div>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-3xl font-bold text-green-600 mb-2">6</div>
-                      <div className="text-gray-600">Subjects</div>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-3xl font-bold text-purple-600 mb-2">30</div>
-                      <div className="text-gray-600">Chapters</div>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-3xl font-bold text-orange-600 mb-2">100%</div>
-                      <div className="text-gray-600">DGCA Aligned</div>
-                    </div>
-                  </div>
+                  <ul className="space-y-4 max-w-3xl mx-auto text-left">
+                    {overviewHighlights.map((item) => (
+                      <li key={item.title} className="flex items-start gap-4">
+                        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 text-white flex items-center justify-center text-lg font-semibold">
+                          •
+                        </span>
+                        <div>
+                          <p className="font-semibold text-gray-900">{item.title}</p>
+                          <p className="text-gray-600 text-sm">{item.description}</p>
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
                 </Card>
               </>
             )}
@@ -1279,9 +1283,6 @@ const radioTelephonyOxfordBooks = [
                         )}
                             </div>
                           </div>
-                          <span className={`px-3 py-1 rounded-full text-xs font-medium ${getDifficultyColor(chapter.difficulty)}`}>
-                            {chapter.difficulty}
-                          </span>
                         </div>
 
                         <div className="flex justify-center">

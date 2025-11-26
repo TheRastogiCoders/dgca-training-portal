@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Link, useParams, useLocation, useNavigate } from 'react-router-dom';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useParams, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
@@ -11,14 +11,11 @@ const friendly = (slug) => (slug || '')
   .map(p => p.charAt(0).toUpperCase() + p.slice(1))
   .join(' ');
 
-// Remove hardcoded AI sample questions — return null to indicate no generator
-const generateQuestion = () => null;
-
 const AIPracticeRunner = () => {
   const { subjectSlug, bookSlug, chapterSlug } = useParams();
   const location = useLocation();
   const navigate = useNavigate();
-  const { user, isAuthenticated, loading: authLoading } = useAuth();
+  const { isAuthenticated, loading: authLoading } = useAuth();
   
   const [current, setCurrent] = useState(0);
   const [questions, setQuestions] = useState([]);
@@ -27,9 +24,7 @@ const AIPracticeRunner = () => {
   const [loading, setLoading] = useState(true);
   const [timeLeft, setTimeLeft] = useState(null);
   const [startTime, setStartTime] = useState(null);
-  const [showExplanation, setShowExplanation] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
-  const [isCorrect, setIsCorrect] = useState(null);
   const [score, setScore] = useState(0);
   const [streak, setStreak] = useState(0);
   const [maxStreak, setMaxStreak] = useState(0);
@@ -40,7 +35,6 @@ const AIPracticeRunner = () => {
   const [reportSubmitted, setReportSubmitted] = useState(false);
   
   const timerRef = useRef(null);
-  const questionStartTime = useRef(null);
 
   // Get data from location state
   const practiceSettings = location.state?.practiceSettings || {
@@ -77,6 +71,19 @@ const AIPracticeRunner = () => {
     initializePractice();
   }, [isAuthenticated, authLoading, navigate, practiceSettings.questionCount, subjectName, chapterName, practiceSettings.difficulty]);
 
+  const handleTimeUp = useCallback(() => {
+    if (timerRef.current) {
+      clearInterval(timerRef.current);
+    }
+    // Auto-submit current question if time runs out
+    if (selectedAnswer === null) {
+      setSelectedAnswer(-1); // Mark as unanswered
+      setTimeout(() => {
+        nextQuestion();
+      }, 2000);
+    }
+  }, [selectedAnswer]);
+
   // Timer logic
   useEffect(() => {
     if (practiceSettings.timeLimit !== 'unlimited' && !done && !loading) {
@@ -99,27 +106,13 @@ const AIPracticeRunner = () => {
         clearInterval(timerRef.current);
       }
     };
-  }, [current, done, loading, practiceSettings.timeLimit]);
-
-  const handleTimeUp = () => {
-    if (timerRef.current) {
-      clearInterval(timerRef.current);
-    }
-    // Auto-submit current question if time runs out
-    if (selectedAnswer === null) {
-      setSelectedAnswer(-1); // Mark as unanswered
-      setTimeout(() => {
-        nextQuestion();
-      }, 2000);
-    }
-  };
+  }, [current, done, loading, practiceSettings.timeLimit, handleTimeUp]);
 
   const selectAnswer = (idx) => {
     if (selectedAnswer !== null) return; // Prevent changing answer after selection
     
     setSelectedAnswer(idx);
     const isAnswerCorrect = idx === questions[current].answerIndex;
-    setIsCorrect(isAnswerCorrect);
     
     if (isAnswerCorrect) {
       setScore(prev => prev + 1);
@@ -134,9 +127,7 @@ const AIPracticeRunner = () => {
     
     setAnswers(prev => ({ ...prev, [current]: idx }));
     
-    if (practiceSettings.showExplanations) {
-      setShowExplanation(true);
-    }
+    // no-op for explanation display
   };
 
   const saveResults = async () => {
@@ -203,9 +194,12 @@ const AIPracticeRunner = () => {
     }
     
     setCurrent(prev => prev + 1);
-    setSelectedAnswer(null);
-    setIsCorrect(null);
-    setShowExplanation(false);
+    setTimeLeft(practiceSettings.timeLimit !== 'unlimited' ? parseInt(practiceSettings.timeLimit) : null);
+  };
+
+  const previousQuestion = () => {
+    if (current === 0) return;
+    setCurrent(prev => prev - 1);
     setTimeLeft(practiceSettings.timeLimit !== 'unlimited' ? parseInt(practiceSettings.timeLimit) : null);
   };
 
@@ -214,8 +208,6 @@ const AIPracticeRunner = () => {
     setAnswers({});
     setDone(false);
     setSelectedAnswer(null);
-    setIsCorrect(null);
-    setShowExplanation(false);
     setScore(0);
     setStreak(0);
     setMaxStreak(0);
@@ -224,6 +216,16 @@ const AIPracticeRunner = () => {
     // Do not regenerate any sample questions
     setQuestions([]);
   };
+
+  useEffect(() => {
+    if (!questions.length) return;
+    const savedAnswer = answers[current];
+    if (typeof savedAnswer === 'number') {
+      setSelectedAnswer(savedAnswer);
+    } else {
+      setSelectedAnswer(null);
+    }
+  }, [current, questions.length, answers]);
 
   const handleReportClick = () => {
     setShowReportModal(true);
@@ -534,13 +536,8 @@ const AIPracticeRunner = () => {
             <Card className="p-0 mb-8">
               <div className="p-6 border-b border-gray-200">
                 <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center">
-                    <span className="px-3 py-1 bg-blue-100 text-blue-700 text-sm font-medium rounded-full mr-3">
-                      Question {current + 1}
-                    </span>
-                    <span className="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">
-                      {currentQuestion.difficulty}
-                    </span>
+                  <div className="px-3 py-1 bg-blue-100 text-blue-700 text-sm font-medium rounded-full">
+                    Question {current + 1}
                   </div>
                   {timeLeft !== null && (
                     <div className={`text-lg font-bold ${timeLeft <= 10 ? 'text-red-600' : 'text-gray-600'}`}>
@@ -570,48 +567,48 @@ const AIPracticeRunner = () => {
                 <div className="space-y-3">
                   {currentQuestion.options && currentQuestion.options.length > 0 ? (
                     currentQuestion.options.map((option, idx) => {
-                      let buttonClass = "w-full text-left p-4 border-2 rounded-lg transition-all duration-200 ";
-                      
-                      if (selectedAnswer !== null) {
-                        if (idx === currentQuestion.answerIndex) {
-                          buttonClass += "border-green-500 bg-green-50 text-green-800 font-medium";
-                        } else if (idx === selectedAnswer && idx !== currentQuestion.answerIndex) {
-                          buttonClass += "border-red-500 bg-red-50 text-red-800";
-                        } else {
-                          buttonClass += "border-gray-200 bg-gray-50 text-gray-600";
-                        }
+                    let buttonClass = "w-full text-left p-4 border-2 rounded-lg transition-all duration-200 ";
+                    
+                    if (selectedAnswer !== null) {
+                      if (idx === currentQuestion.answerIndex) {
+                        buttonClass += "border-green-500 bg-green-50 text-green-800 font-medium";
+                      } else if (idx === selectedAnswer && idx !== currentQuestion.answerIndex) {
+                        buttonClass += "border-red-500 bg-red-50 text-red-800";
                       } else {
-                        buttonClass += "border-gray-200 bg-white hover:border-blue-300 hover:bg-blue-50 cursor-pointer";
+                        buttonClass += "border-gray-200 bg-gray-50 text-gray-600";
                       }
-                      
-                      return (
-                        <button
-                          key={idx}
-                          onClick={() => selectAnswer(idx)}
-                          disabled={selectedAnswer !== null}
-                          className={buttonClass}
-                        >
-                          <div className="flex items-center">
-                            <div className={`w-6 h-6 rounded-full border-2 mr-3 flex items-center justify-center ${
-                              selectedAnswer !== null && idx === currentQuestion.answerIndex ? 'border-green-500 bg-green-500' :
-                              selectedAnswer !== null && idx === selectedAnswer && idx !== currentQuestion.answerIndex ? 'border-red-500 bg-red-500' :
-                              'border-gray-300'
-                            }`}>
-                              {selectedAnswer !== null && idx === currentQuestion.answerIndex && (
-                                <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                                </svg>
-                              )}
-                              {selectedAnswer !== null && idx === selectedAnswer && idx !== currentQuestion.answerIndex && (
-                                <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                                  <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
-                                </svg>
-                              )}
-                            </div>
-                            <span>{option}</span>
+                    } else {
+                      buttonClass += "border-gray-200 bg-white hover:border-blue-300 hover:bg-blue-50 cursor-pointer";
+                    }
+                    
+                    return (
+                      <button
+                        key={idx}
+                        onClick={() => selectAnswer(idx)}
+                        disabled={selectedAnswer !== null}
+                        className={buttonClass}
+                      >
+                        <div className="flex items-center">
+                          <div className={`w-6 h-6 rounded-full border-2 mr-3 flex items-center justify-center ${
+                            selectedAnswer !== null && idx === currentQuestion.answerIndex ? 'border-green-500 bg-green-500' :
+                            selectedAnswer !== null && idx === selectedAnswer && idx !== currentQuestion.answerIndex ? 'border-red-500 bg-red-500' :
+                            'border-gray-300'
+                          }`}>
+                            {selectedAnswer !== null && idx === currentQuestion.answerIndex && (
+                              <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                              </svg>
+                            )}
+                            {selectedAnswer !== null && idx === selectedAnswer && idx !== currentQuestion.answerIndex && (
+                              <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+                              </svg>
+                            )}
                           </div>
-                        </button>
-                      );
+                          <span>{option}</span>
+                        </div>
+                      </button>
+                    );
                     })
                   ) : (
                     <div className="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
@@ -622,25 +619,47 @@ const AIPracticeRunner = () => {
                   )}
                 </div>
                 
-                {/* Explanation */}
-                {showExplanation && currentQuestion.explanation && (
+                {/* Correct Answer Summary */}
+                {selectedAnswer !== null && currentQuestion.options && currentQuestion.options.length > 0 && (
                   <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
-                    <h4 className="font-semibold text-blue-900 mb-2">Explanation:</h4>
-                    <p className="text-blue-800 text-sm">{currentQuestion.explanation}</p>
+                    {(() => {
+                      const correctIndex = currentQuestion.answerIndex;
+                      const correctOption = currentQuestion.options[correctIndex] || '';
+                      const label = String.fromCharCode(65 + correctIndex);
+                      return (
+                        <p className="text-sm font-semibold text-blue-900">
+                          Correct Answer: {label}{correctOption ? ` • ${correctOption}` : ''}
+                        </p>
+                      );
+                    })()}
                   </div>
                 )}
                 
-                {/* Next Button - Show if answer is selected OR if question has no options */}
-                {(selectedAnswer !== null || !currentQuestion.options || currentQuestion.options.length === 0) && (
-                  <div className="mt-6 text-center">
-                    <button
-                      onClick={nextQuestion}
-                      className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
-                    >
-                      {current >= practiceSettings.questionCount - 1 ? 'Finish Practice' : 'Next Question'}
-                      </button>
-                  </div>
-                )}
+                {/* Navigation Buttons */}
+                <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+                  <button
+                    onClick={previousQuestion}
+                    disabled={current === 0}
+                    className={`w-full sm:w-auto px-8 py-3 font-semibold rounded-lg shadow-md transition-all duration-200 ${
+                      current === 0
+                        ? 'bg-gray-200 text-gray-500 cursor-not-allowed'
+                        : 'bg-white text-gray-700 border border-gray-300 hover:bg-gray-50'
+                    }`}
+                  >
+                    Previous Question
+                  </button>
+                  <button
+                    onClick={nextQuestion}
+                    disabled={currentQuestion.options && currentQuestion.options.length > 0 && selectedAnswer === null}
+                    className={`w-full sm:w-auto px-8 py-3 font-semibold rounded-lg shadow-md transition-all duration-200 ${
+                      currentQuestion.options && currentQuestion.options.length > 0 && selectedAnswer === null
+                        ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                        : 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:shadow-lg transform hover:scale-[1.02]'
+                    }`}
+                  >
+                    {current >= practiceSettings.questionCount - 1 ? 'Finish Practice' : 'Next Question'}
+                  </button>
+                </div>
                 </div>
               </Card>
           </div>

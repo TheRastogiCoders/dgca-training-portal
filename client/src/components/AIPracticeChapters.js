@@ -174,14 +174,10 @@ const AIPracticeChapters = () => {
                 <p className="text-gray-600">These settings will be applied to your AI practice session</p>
               </div>
               
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <div className="text-center p-3 bg-white rounded-lg border border-gray-200">
                   <div className="text-lg font-bold text-blue-600">{practiceSettings.questionCount}</div>
                   <div className="text-xs text-gray-500">Questions</div>
-                </div>
-                <div className="text-center p-3 bg-white rounded-lg border border-gray-200">
-                  <div className="text-lg font-bold text-purple-600 capitalize">{practiceSettings.difficulty}</div>
-                  <div className="text-xs text-gray-500">Difficulty</div>
                 </div>
                 <div className="text-center p-3 bg-white rounded-lg border border-gray-200">
                   <div className="text-lg font-bold text-green-600">{practiceSettings.timeLimit === 'unlimited' ? 'No limit' : `${practiceSettings.timeLimit}s`}</div>
@@ -236,15 +232,9 @@ const AIPracticeChapters = () => {
                       </div>
                       
                       {/* Stats */}
-                      <div className="grid grid-cols-2 gap-4 mb-4">
-                        <div className="text-center">
-                          <div className="text-lg font-bold text-blue-600">{chapter.questions}</div>
-                          <div className="text-xs text-gray-500">Questions</div>
-                        </div>
-                        <div className="text-center">
-                          <div className="text-lg font-bold text-purple-600">{chapter.difficulty}</div>
-                          <div className="text-xs text-gray-500">Difficulty</div>
-                        </div>
+                      <div className="text-center mb-4">
+                        <div className="text-lg font-bold text-blue-600">{chapter.questions}</div>
+                        <div className="text-xs text-gray-500">Questions</div>
                       </div>
                       
                       <button className="w-full py-2 px-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
@@ -309,14 +299,10 @@ const AIPracticeChapters = () => {
                   {/* Chapter Stats */}
                   <div className="mt-8 p-6 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg border border-blue-200">
                     <h3 className="text-lg font-bold text-gray-900 mb-4 text-center">Chapter Statistics</h3>
-                    <div className="grid md:grid-cols-3 gap-4 text-center">
+                    <div className="grid md:grid-cols-2 gap-4 text-center">
                       <div>
                         <div className="text-2xl font-bold text-blue-600">{selectedChapter.questions}</div>
                         <div className="text-sm text-gray-600">Available Questions</div>
-                      </div>
-                      <div>
-                        <div className="text-2xl font-bold text-purple-600">{selectedChapter.difficulty}</div>
-                        <div className="text-sm text-gray-600">Difficulty Level</div>
                       </div>
                       <div>
                         <div className="text-2xl font-bold text-green-600">{selectedChapter.topics.length}</div>
