@@ -36,7 +36,7 @@ const WhatsAppFloat = () => {
           /* Floating Action Buttons: responsive layout */
           .fab-container {
             position: fixed;
-            z-index: 60; /* above most UI */
+            z-index: 60; /* below navigation bar on mobile */
             display: flex;
             flex-direction: column;
             align-items: flex-end;
@@ -50,9 +50,10 @@ const WhatsAppFloat = () => {
             .fab-container {
               left: auto;
               right: calc(var(--safe-right, 0px) + 12px);
-              bottom: calc(var(--safe-bottom, 0px) + 30px);
+              bottom: calc(var(--safe-bottom, 0px) + 90px);
               align-items: flex-end;
               gap: 8px;
+              z-index: 60; /* Below navigation bar */
             }
           }
 

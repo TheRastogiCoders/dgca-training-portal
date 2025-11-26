@@ -209,37 +209,38 @@ const SiteSidebar = () => {
       </aside>
 
       {/* Mobile/Tablet: Bottom horizontal bar - responsive padding */}
-      <nav className="md:hidden fixed inset-x-0 bottom-0 z-50">
-        <div className="relative bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-xl border-t border-white/30 px-3 sm:px-4 pt-3 pb-4 flex items-center justify-between shadow-2xl">
+      <nav className="md:hidden fixed inset-x-0 bottom-0 z-[100]" style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}>
+        <div className="relative bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-xl border-t border-white/30 px-2 sm:px-3 pt-2.5 pb-3 sm:pb-4 flex items-center justify-around gap-1 shadow-2xl" style={{ paddingBottom: 'calc(0.75rem + env(safe-area-inset-bottom))' }}>
           {/* Show admin navigation if user is admin, otherwise show regular navigation */}
           <>
             {userNavItems.map((item) => (
-              <div key={item.to} className="flex flex-col items-center min-w-0 flex-1">
+              <div key={item.to} className="flex flex-col items-center justify-center min-w-0 flex-1 max-w-[20%]">
                 {isInPracticeTest ? (
                   <div
                     title={item.label}
-                    className={`w-11 h-11 sm:w-12 sm:h-12 rounded-2xl flex items-center justify-center border backdrop-blur-sm transition-all duration-200 opacity-50 cursor-not-allowed ${
+                    className={`w-11 h-11 sm:w-12 sm:h-12 rounded-2xl flex items-center justify-center border backdrop-blur-sm transition-all duration-200 opacity-50 cursor-not-allowed touch-none ${
                       isActivePath(item.to)
                         ? 'bg-gradient-to-br from-purple-500/90 to-indigo-600/90 text-white border-purple-400/60 shadow-xl'
                         : 'bg-white/40 text-gray-800 border-white/50 shadow-lg'
                     }`}
                   >
-                    <span className="text-base sm:text-lg">{item.icon}</span>
+                    <span className="text-base sm:text-lg" aria-hidden="true">{item.icon}</span>
                   </div>
                 ) : (
                   <Link
                     to={item.to}
                     title={item.label}
-                    className={`w-11 h-11 sm:w-12 sm:h-12 rounded-2xl flex items-center justify-center border backdrop-blur-sm transition-all duration-200 ${
+                    className={`w-11 h-11 sm:w-12 sm:h-12 rounded-2xl flex items-center justify-center border backdrop-blur-sm transition-all duration-200 active:scale-95 ${
                       isActivePath(item.to)
                         ? 'bg-gradient-to-br from-purple-500/90 to-indigo-600/90 text-white border-purple-400/60 shadow-xl scale-105'
-                        : 'bg-white/40 text-gray-800 border-white/50 shadow-lg hover:bg-white/60 hover:scale-105'
+                        : 'bg-white/40 text-gray-800 border-white/50 shadow-lg active:bg-white/60 active:scale-95'
                     }`}
+                    aria-label={item.label}
                   >
-                    <span className="text-base sm:text-lg">{item.icon}</span>
+                    <span className="text-base sm:text-lg" aria-hidden="true">{item.icon}</span>
                   </Link>
                 )}
-                <span className="text-[9px] sm:text-[10px] text-white/90 mt-1 font-medium leading-tight text-center truncate w-full px-0.5">
+                <span className="text-[9px] sm:text-[10px] text-white/90 mt-1 font-medium leading-tight text-center w-full px-0.5 truncate">
                   {item.label}
                 </span>
               </div>
@@ -247,41 +248,50 @@ const SiteSidebar = () => {
           </>
 
           
-          {/* Mobile User Profile */}
+          {/* Mobile User Profile or Login */}
           {currentIsAuthenticated ? (
             <button
               onClick={() => navigate('/profile')}
-              className="flex flex-col items-center transition-all duration-200 hover:scale-105 min-w-0 flex-shrink-0"
+              className="flex flex-col items-center justify-center transition-all duration-200 active:scale-95 min-w-0 flex-1 max-w-[20%] touch-manipulation"
               title="View Profile"
+              aria-label="View Profile"
             >
               <div className={`w-11 h-11 sm:w-12 sm:h-12 rounded-2xl flex items-center justify-center shadow-xl backdrop-blur-sm border ${
                 'bg-gradient-to-br from-blue-500/90 to-purple-600/90 border-blue-400/60'
               }`}>
-                <span className="text-white font-semibold text-xs sm:text-sm">
+                <span className="text-white font-semibold text-xs sm:text-sm" aria-hidden="true">
                   {getUserInitials()}
                 </span>
               </div>
-              <span className="text-[9px] sm:text-[10px] text-white/90 mt-1 truncate max-w-[60px] font-medium leading-tight">
+              <span className="text-[9px] sm:text-[10px] text-white/90 mt-1 font-medium leading-tight text-center w-full truncate px-0.5">
                 Profile
               </span>
             </button>
           ) : (
-            <div className="flex flex-col items-center min-w-0 flex-shrink-0">
-              <Link 
-                to="/login" 
-                title="Login" 
+            <Link 
+              to="/login" 
+              onClick={(e) => {
+                // Ensure navigation works
+                e.stopPropagation();
+                navigate('/login');
+              }}
+              title="Login"
+              className="flex flex-col items-center justify-center min-w-0 flex-1 max-w-[20%] touch-manipulation active:scale-95 transition-all duration-200 cursor-pointer"
+              aria-label="Login"
+            >
+              <div 
                 className={`w-11 h-11 sm:w-12 sm:h-12 rounded-2xl flex items-center justify-center border backdrop-blur-sm transition-all duration-200 ${
                   isActivePath('/login') 
                     ? 'bg-gradient-to-br from-purple-500/90 to-indigo-600/90 text-white border-purple-400/60 shadow-xl scale-105' 
-                    : 'bg-white/40 text-gray-800 border-white/50 shadow-lg hover:bg-white/60 hover:scale-105'
+                    : 'bg-white/40 text-gray-800 border-white/50 shadow-lg'
                 }`}
               >
-                <span className="text-base sm:text-lg">👤</span>
-              </Link>
-              <span className="text-[9px] sm:text-[10px] text-white/90 mt-1 font-medium leading-tight">
+                <span className="text-base sm:text-lg pointer-events-none" aria-hidden="true">👤</span>
+              </div>
+              <span className="text-[9px] sm:text-[10px] text-white/90 mt-1 font-medium leading-tight text-center w-full truncate px-0.5 pointer-events-none">
                 Login
               </span>
-            </div>
+            </Link>
           )}
         </div>
       </nav>

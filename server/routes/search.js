@@ -253,6 +253,9 @@ Explanation:`;
       explanation = generateKeywordBasedExplanation(question, options, correctAnswer, relevantContent);
     }
     
+    // Clean up duplicate answer labels in the explanation
+    explanation = cleanExplanationLabels(explanation);
+    
     res.json({
       explanation,
       relevantDefinitions: relevantContent.definitions.map(d => ({
@@ -269,6 +272,77 @@ Explanation:`;
     res.status(500).json({ error: 'Failed to generate explanation', message: error.message });
   }
 });
+
+// Clean up duplicate answer labels in explanations (e.g., "A a." -> "A" or "B • b." -> "B")
+const cleanExplanationLabels = (text) => {
+  if (!text) return text;
+  
+  // Pattern 1: Remove "A a." or "B b." or "C c." or "D d." (space between uppercase and lowercase)
+  text = text.replace(/\b([A-F])\s+([a-f])\.?\b/gi, (match, upper, lower) => {
+    if (upper.toUpperCase() === lower.toUpperCase()) {
+      return upper;
+    }
+    return match;
+  });
+  
+  // Pattern 2: Remove "A • a." or "B • b." (bullet separator)
+  text = text.replace(/\b([A-F])\s*[•·]\s*([a-f])\.?\b/gi, (match, upper, lower) => {
+    if (upper.toUpperCase() === lower.toUpperCase()) {
+      return upper;
+    }
+    return match;
+  });
+  
+  // Pattern 3: Remove "A + a." or "A + a" (plus sign)
+  text = text.replace(/\b([A-F])\s*\+\s*([a-f])\.?\b/gi, (match, upper, lower) => {
+    if (upper.toUpperCase() === lower.toUpperCase()) {
+      return upper;
+    }
+    return match;
+  });
+  
+  // Pattern 4: Remove "a. A" or "b. B" (lowercase first, then uppercase)
+  text = text.replace(/\b([a-f])\.?\s+([A-F])\b/gi, (match, lower, upper) => {
+    if (upper.toUpperCase() === lower.toUpperCase()) {
+      return upper;
+    }
+    return match;
+  });
+  
+  // Pattern 5: Remove "Correct Answer: A • a." or "Answer: B b."
+  text = text.replace(/([Cc]orrect\s+)?[Aa]nswer:\s*([A-F])\s*[•·\+\s]+\s*([a-f])\.?/gi, (match, correct, upper, lower) => {
+    if (upper.toUpperCase() === lower.toUpperCase()) {
+      return (correct ? 'Correct Answer: ' : 'Answer: ') + upper;
+    }
+    return match;
+  });
+  
+  // Pattern 6: Remove "A a" or "B b" at the start of sentences or after colons
+  text = text.replace(/(^|:\s*)([A-F])\s+([a-f])(\s|\.|$)/gi, (match, prefix, upper, lower, suffix) => {
+    if (upper.toUpperCase() === lower.toUpperCase()) {
+      return prefix + upper + (suffix === '.' ? '.' : suffix);
+    }
+    return match;
+  });
+  
+  // Pattern 7: Remove "A. a." or "B. b." (both with periods)
+  text = text.replace(/\b([A-F])\.\s*([a-f])\./gi, (match, upper, lower) => {
+    if (upper.toUpperCase() === lower.toUpperCase()) {
+      return upper + '.';
+    }
+    return match;
+  });
+  
+  // Pattern 8: Remove "A, a." or "B, b." (comma separator)
+  text = text.replace(/\b([A-F]),\s*([a-f])\.?\b/gi, (match, upper, lower) => {
+    if (upper.toUpperCase() === lower.toUpperCase()) {
+      return upper;
+    }
+    return match;
+  });
+  
+  return text;
+};
 
 // Generate keyword-based explanation when AI is not available
 const generateKeywordBasedExplanation = (question, options, correctAnswer, relevantContent) => {

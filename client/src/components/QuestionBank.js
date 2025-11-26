@@ -901,6 +901,18 @@ const technicalSpecificBooks = [
   }, [selectedSubject, selectedBookKey, resolveSelectedBook]);
 
   const handleSubjectClick = (subject) => {
+    // For Technical Specific, directly navigate to practice questions
+    if (subject?.title === 'Technical Specific') {
+      const technicalSpecificBook = technicalSpecificBooks[0];
+      if (technicalSpecificBook && technicalSpecificBook.chapters && technicalSpecificBook.chapters.length > 0) {
+        const chapter = technicalSpecificBook.chapters[0];
+        const baseSlug = slugifyChapterName(chapter.name || 'piper-archer-iii-dx');
+        const resolvedSlug = resolveChapterSlug(technicalSpecificBook.slug, baseSlug);
+        navigate(`/pyq/book/${technicalSpecificBook.slug}/${resolvedSlug}`);
+        return;
+      }
+    }
+    
     setSelectedSubjectId(subject?.id ?? null);
     setSelectedBookKey(null);
   };
@@ -1064,7 +1076,7 @@ const technicalSpecificBooks = [
             )}
 
             {/* Book Selection View */}
-            {selectedSubject && !resolveSelectedBook && (
+            {selectedSubject && !resolveSelectedBook && selectedSubject.title !== 'Technical Specific' && (
               <div>
                 <div className="text-center mb-8">
                   <div className={`w-20 h-20 bg-gradient-to-r ${selectedSubject.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-4`}>

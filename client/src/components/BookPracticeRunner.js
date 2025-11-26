@@ -58,6 +58,77 @@ const BookPracticeRunner = () => {
     [bookSlug, resolvedChapterSlug]
   );
 
+  // Clean up duplicate answer labels in explanations (e.g., "A a." -> "A" or "B • b." -> "B")
+  const cleanExplanationLabels = (text) => {
+    if (!text) return text;
+    
+    // Pattern 1: Remove "A a." or "B b." or "C c." or "D d." (space between uppercase and lowercase)
+    text = text.replace(/\b([A-F])\s+([a-f])\.?\b/gi, (match, upper, lower) => {
+      if (upper.toUpperCase() === lower.toUpperCase()) {
+        return upper;
+      }
+      return match;
+    });
+    
+    // Pattern 2: Remove "A • a." or "B • b." (bullet separator)
+    text = text.replace(/\b([A-F])\s*[•·]\s*([a-f])\.?\b/gi, (match, upper, lower) => {
+      if (upper.toUpperCase() === lower.toUpperCase()) {
+        return upper;
+      }
+      return match;
+    });
+    
+    // Pattern 3: Remove "A + a." or "A + a" (plus sign)
+    text = text.replace(/\b([A-F])\s*\+\s*([a-f])\.?\b/gi, (match, upper, lower) => {
+      if (upper.toUpperCase() === lower.toUpperCase()) {
+        return upper;
+      }
+      return match;
+    });
+    
+    // Pattern 4: Remove "a. A" or "b. B" (lowercase first, then uppercase)
+    text = text.replace(/\b([a-f])\.?\s+([A-F])\b/gi, (match, lower, upper) => {
+      if (upper.toUpperCase() === lower.toUpperCase()) {
+        return upper;
+      }
+      return match;
+    });
+    
+    // Pattern 5: Remove "Correct Answer: A • a." or "Answer: B b."
+    text = text.replace(/([Cc]orrect\s+)?[Aa]nswer:\s*([A-F])\s*[•·\+\s]+\s*([a-f])\.?/gi, (match, correct, upper, lower) => {
+      if (upper.toUpperCase() === lower.toUpperCase()) {
+        return (correct ? 'Correct Answer: ' : 'Answer: ') + upper;
+      }
+      return match;
+    });
+    
+    // Pattern 6: Remove "A a" or "B b" at the start of sentences or after colons
+    text = text.replace(/(^|:\s*)([A-F])\s+([a-f])(\s|\.|$)/gi, (match, prefix, upper, lower, suffix) => {
+      if (upper.toUpperCase() === lower.toUpperCase()) {
+        return prefix + upper + (suffix === '.' ? '.' : suffix);
+      }
+      return match;
+    });
+    
+    // Pattern 7: Remove "A. a." or "B. b." (both with periods)
+    text = text.replace(/\b([A-F])\.\s*([a-f])\./gi, (match, upper, lower) => {
+      if (upper.toUpperCase() === lower.toUpperCase()) {
+        return upper + '.';
+      }
+      return match;
+    });
+    
+    // Pattern 8: Remove "A, a." or "B, b." (comma separator)
+    text = text.replace(/\b([A-F]),\s*([a-f])\.?\b/gi, (match, upper, lower) => {
+      if (upper.toUpperCase() === lower.toUpperCase()) {
+        return upper;
+      }
+      return match;
+    });
+    
+    return text;
+  };
+
   const restoreState = (items) => {
     try {
       const raw = localStorage.getItem(storageKey);
@@ -159,12 +230,15 @@ const BookPracticeRunner = () => {
             }
           }
 
+          const rawExplanation = q.explanation || q.solution || '';
+          const cleanedExplanation = cleanExplanationLabels(rawExplanation);
+          
           return {
             id: stableId ? String(stableId) : crypto.randomUUID?.() || String(Math.random()),
             text: q.question || q.text || q.question_text,
             options: mappedOptions,
             correctLabel: correctLabel || '',
-          explanation: q.explanation || q.solution || '',
+            explanation: cleanedExplanation,
             solution: q.solution || '',
           };
         });
@@ -198,12 +272,13 @@ const BookPracticeRunner = () => {
       console.warn('Unable to persist practice state:', err);
     }
   }, [questions, current, selected, done, score, loading, storageKey, answersHistory]);
+    
 
   const fetchExplanation = async (questionId, questionText, options, correctAnswer, selectedAnswer, fallbackText = 'Explanation not available.') => {
     // Check cache first
     const cacheKey = `${questionId}-${selectedAnswer || 'none'}`;
     if (explanationCache[cacheKey]) {
-      return explanationCache[cacheKey];
+      return cleanExplanationLabels(explanationCache[cacheKey]);
     }
 
     setLoadingExplanation(true);
@@ -229,9 +304,12 @@ const BookPracticeRunner = () => {
       }
 
       const data = await response.json();
-      const explanation = data.explanation || fallbackText;
+      let explanation = data.explanation || fallbackText;
       
-      // Cache the explanation
+      // Clean up duplicate answer labels
+      explanation = cleanExplanationLabels(explanation);
+      
+      // Cache the cleaned explanation
       setExplanationCache(prev => ({
         ...prev,
         [cacheKey]: explanation
@@ -240,7 +318,7 @@ const BookPracticeRunner = () => {
       return explanation;
     } catch (error) {
       console.error('Error fetching explanation:', error);
-      return fallbackText;
+      return cleanExplanationLabels(fallbackText);
     } finally {
       setLoadingExplanation(false);
     }
@@ -569,12 +647,33 @@ const BookPracticeRunner = () => {
                     {(() => {
                       const labels = ['a', 'b', 'c', 'd', 'e', 'f'];
                       const correctIndex = labels.indexOf(String(q.correctLabel).toLowerCase());
-                      const correctOption = correctIndex >= 0 ? q.options[correctIndex] : '';
+                      let correctOption = correctIndex >= 0 ? q.options[correctIndex] : '';
+                      
+                      // Clean the option text to remove duplicate labels (e.g., "c. QFE" or "C • c. QFE" -> "QFE")
+                      if (correctOption) {
+                        // Remove patterns like "C • c. " or "A • a. " (bullet with duplicate)
+                        correctOption = correctOption.replace(/^[A-F]\s*[•·]\s*[a-f]\.\s*/i, '');
+                        // Remove patterns like "c. c. " or "a. a. " (double labels)
+                        correctOption = correctOption.replace(/^([a-f])\.\s*\1\.\s*/i, '');
+                        // Remove patterns like "C c. " or "A a. " (uppercase + lowercase)
+                        correctOption = correctOption.replace(/^([A-F])\s+\1\.\s*/i, '');
+                        // Remove patterns like "a. ", "b. ", "c. ", "A. ", "B. ", "C. " at the start
+                        correctOption = correctOption.replace(/^[A-Fa-f]\.\s*/i, '');
+                        // Remove patterns like "a) ", "b) ", "c) " at the start
+                        correctOption = correctOption.replace(/^[A-Fa-f]\)\s*/i, '');
+                        // Remove patterns like "(a) ", "(b) ", "(c) " at the start
+                        correctOption = correctOption.replace(/^\([A-Fa-f]\)\s*/i, '');
+                        // Remove patterns like "a ", "b ", "c " at the start (just letter and space)
+                        correctOption = correctOption.replace(/^[A-Fa-f]\s+/i, '');
+                        // Trim any leading whitespace
+                        correctOption = correctOption.trim();
+                      }
+                      
                       const displayLabel = String(q.correctLabel || '').toUpperCase();
+                      
                       return (
                         <p className="text-sm font-semibold text-gray-800">
-                          Correct Answer: {displayLabel}
-                          {correctOption ? ` • ${correctOption}` : ''}
+                          Correct Answer: {displayLabel}{correctOption ? ` • ${correctOption}` : ''}
                         </p>
                       );
                     })()}

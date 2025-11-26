@@ -60,6 +60,51 @@
   }
 }
 
+/* Mobile navigation improvements */
+@layer utilities {
+  .touch-manipulation {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Safe area support for iOS */
+  .safe-area-inset-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+/* Ensure mobile navigation links are fully clickable */
+@media (max-width: 768px) {
+  nav[class*="md:hidden"] {
+    z-index: 100 !important;
+    pointer-events: auto !important;
+  }
+  
+  nav[class*="md:hidden"] a,
+  nav[class*="md:hidden"] button {
+    position: relative;
+    z-index: 101 !important;
+    -webkit-tap-highlight-color: rgba(147, 51, 234, 0.3);
+    cursor: pointer;
+    pointer-events: auto !important;
+  }
+  
+  nav[class*="md:hidden"] a:active,
+  nav[class*="md:hidden"] button:active {
+    opacity: 0.8;
+  }
+  
+  /* Ensure WhatsApp button doesn't overlap navigation */
+  .fab-container {
+    z-index: 60 !important;
+    pointer-events: auto;
+  }
+  
+  .fab-container button {
+    pointer-events: auto;
+  }
+}
+
 
 /* Dark mode overrides (class strategy) */
 .dark body { @apply bg-gray-900; }
