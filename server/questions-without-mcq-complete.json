@@ -1,0 +1,2731 @@
+{
+  "summary": {
+    "total_questions": 83,
+    "books": [
+      "ATPL Ground Training 2014",
+      "CAE ATPL 10. General Navigation",
+      "CAE Oxford Human Performance and Limitations",
+      "Radio Navigation 2014",
+      "Unknown Book"
+    ],
+    "chapters": [
+      "ATPL Ground Training 2014 - Operator Supervision and Certification",
+      "CAE ATPL 10. General Navigation - Convergency and Conversion Angle",
+      "CAE ATPL 10. General Navigation - Departure",
+      "CAE ATPL 10. General Navigation - Direction, Latitude and Longitude",
+      "CAE ATPL 10. General Navigation - Great Circles, Rhumb Lines & Directions on the Earth",
+      "CAE ATPL 10. General Navigation - Lambert’s Conformal Chart - 2",
+      "CAE ATPL 10. General Navigation - Mercator Charts - Scale",
+      "CAE ATPL 10. General Navigation - Navigation Using the 1 in 60 Rule",
+      "CAE ATPL 10. General Navigation - Other Applications of the 1 in 60 Rule",
+      "CAE ATPL 10. General Navigation - Scale",
+      "CAE ATPL 10. General Navigation - The Navigation Computer - Calculation of Heading and Wind Finding",
+      "CAE ATPL 10. General Navigation - The Navigation Computer - Distance, Speed, Time and Conversions",
+      "CAE ATPL 10. General Navigation - The Navigation Computer - Multi-drift Winds and Wind Components",
+      "CAE ATPL 10. General Navigation - The Navigation Computer - Triangle of Velocities",
+      "CAE ATPL 10. General Navigation - Time (2)",
+      "CAE ATPL 10. General Navigation - Time (3)",
+      "CAE Oxford Human Performance and Limitations - Flying and Health",
+      "Radio Navigation 2014 - Properties of Radio Waves",
+      "Radio Navigation 2014 - VHF Omni-directional Range (VOR)",
+      "Unknown Book - Unknown Chapter"
+    ],
+    "generated_at": "2025-11-26T19:03:01.715Z",
+    "files_scanned": 257
+  },
+  "questions": [
+    {
+      "question_number": "2",
+      "question_text": "What must be stated on the AOC?",
+      "question_type": "Multiple Select",
+      "book_name": "ATPL Ground Training 2014",
+      "chapter_title": "Operator Supervision and Certification",
+      "chapter_number": "3",
+      "source_file": "practice-questions/operational-procedures-operator-supervision-and-certification.json",
+      "solution": "Registration markings of all aeroplanes; Aerodrome operating minima for all aerodromes cleared for use",
+      "explanation": "",
+      "answer": "",
+      "id": "2"
+    },
+    {
+      "question_number": "1",
+      "question_text": "The convergency of the meridians through M and N which are in the Southern hemisphere is 12°. If the rhumb line track from M to N is 249°(T), what is the great circle track: a. from M to N?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Convergency and Conversion Angle",
+      "chapter_number": "14",
+      "source_file": "practice-questions/cae-oxford-general-navigation-convergency-and-conversion-angle.json",
+      "solution": "243°(T)",
+      "explanation": "",
+      "answer": "a",
+      "id": "1"
+    },
+    {
+      "question_number": "2",
+      "question_text": "The great circle bearing of position B in latitude 30°00'S from position A (30°00'S 165°00'E) is 100°(T). What is: a. The great circle track from B to A?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Convergency and Conversion Angle",
+      "chapter_number": "14",
+      "source_file": "practice-questions/cae-oxford-general-navigation-convergency-and-conversion-angle.json",
+      "solution": "260°(T)",
+      "explanation": "",
+      "answer": "a",
+      "id": "2"
+    },
+    {
+      "question_number": "3",
+      "question_text": "The rhumb line from position D (30°00'N 179°00'W) to position C is 090°(T). The initial great circle track from C to D is 287°(T). What is: a. The great circle track from D to C?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Convergency and Conversion Angle",
+      "chapter_number": "14",
+      "source_file": "practice-questions/cae-oxford-general-navigation-convergency-and-conversion-angle.json",
+      "solution": "073°(T)",
+      "explanation": "",
+      "answer": "a",
+      "id": "3"
+    },
+    {
+      "question_number": "7",
+      "question_text": "A and B are in the same hemisphere. The initial great circle track from B to A is 268°(T) and the initial great circle track from A to B is 092°(T). i) In which hemisphere are A and B?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Convergency and Conversion Angle",
+      "chapter_number": "14",
+      "source_file": "practice-questions/cae-oxford-general-navigation-convergency-and-conversion-angle.json",
+      "solution": "Southern hemisphere",
+      "explanation": "",
+      "answer": "a",
+      "id": "7"
+    },
+    {
+      "question_number": "8",
+      "question_text": "C and D are in the same hemisphere. The initial great circle track from C to D is 063°(T) and the rhumb line track from D to C is 240°(T). i) In which hemisphere are C and D?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Convergency and Conversion Angle",
+      "chapter_number": "14",
+      "source_file": "practice-questions/cae-oxford-general-navigation-convergency-and-conversion-angle.json",
+      "solution": "Southern hemisphere",
+      "explanation": "",
+      "answer": "a",
+      "id": "8"
+    },
+    {
+      "question_number": "9",
+      "question_text": "Position X 64°00'S 11°50'W. Position Y 64°00'S 05°10'W. Give: a. The convergency between the meridians of X and Y.",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Convergency and Conversion Angle",
+      "chapter_number": "14",
+      "source_file": "practice-questions/cae-oxford-general-navigation-convergency-and-conversion-angle.json",
+      "solution": "6°",
+      "explanation": "",
+      "answer": "a",
+      "id": "9"
+    },
+    {
+      "question_number": "7",
+      "question_text": "At which latitude is the departure in NM between two points equal to: i. their difference in longitude in minutes?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Departure",
+      "chapter_number": "15",
+      "source_file": "practice-questions/cae-oxford-general-navigation-departure.json",
+      "solution": "At Equator",
+      "explanation": "",
+      "answer": "a",
+      "id": "7"
+    },
+    {
+      "question_number": "8",
+      "question_text": "At latitude 52°N, i. what is the departure between the meridians of 136°16'W and 43°44'E?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Departure",
+      "chapter_number": "15",
+      "source_file": "practice-questions/cae-oxford-general-navigation-departure.json",
+      "solution": "6653 NM",
+      "explanation": "",
+      "answer": "a",
+      "id": "8"
+    },
+    {
+      "question_number": "11",
+      "question_text": "Aircraft S leaves position 36°N 10°E at 1522 hours, and flies a rhumb line track of 090°(T) at ground speed 470 kt until it reaches the 13°E meridian when it turns onto a track of 180°(T) at a ground speed of 460 kt.\\nAircraft T leaves position 30°N 10°E at 1522 hours and flies a rhumb line track of 090°(T) at ground speed 150 kt.\\n1. Which aircraft reaches position 30°N 13°E first?\\n2. At what time does this occur?\\n3. Give the position of the other aircraft at this time. 1. Which aircraft reaches position 30°N 13°E first?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Departure",
+      "chapter_number": "15",
+      "source_file": "practice-questions/cae-oxford-general-navigation-departure.json",
+      "solution": "Aircraft T",
+      "explanation": "",
+      "answer": "a",
+      "id": "11"
+    },
+    {
+      "question_number": "4",
+      "question_text": "In Question 3, at what longitudes and in what direction would the Great Circle cross the Equator assuming: initial direction is east from the northern vertex?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Direction, Latitude and Longitude",
+      "chapter_number": "1",
+      "source_file": "practice-questions/cae-oxford-general-navigation-direction-latitude-and-longitude.json",
+      "solution": "140W 160°(T)",
+      "explanation": "",
+      "answer": "b",
+      "id": "4"
+    },
+    {
+      "question_number": "1",
+      "question_text": "What is the change of latitude between the following positions:- a. 52°15'N to 39°35'N",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Great Circles, Rhumb Lines & Directions on the Earth",
+      "chapter_number": "2",
+      "source_file": "practice-questions/cae-oxford-general-navigation-great-circles-rhumb-lines-directions-on-the-earth.json",
+      "solution": "12°40'S",
+      "explanation": "",
+      "answer": "b",
+      "id": "1"
+    },
+    {
+      "question_number": "3",
+      "question_text": "What is the change of longitude between the following positions:- a. 075°40'W to 125°35'W",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Great Circles, Rhumb Lines & Directions on the Earth",
+      "chapter_number": "2",
+      "source_file": "practice-questions/cae-oxford-general-navigation-great-circles-rhumb-lines-directions-on-the-earth.json",
+      "solution": "49°55'W",
+      "explanation": "",
+      "answer": "b",
+      "id": "3"
+    },
+    {
+      "question_number": "4",
+      "question_text": "Give the direction and change of latitude and longitude from X to Y in each case: a. X 50°31'N 006°30'W to Y 52°00'N 008°35'W",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Great Circles, Rhumb Lines & Directions on the Earth",
+      "chapter_number": "2",
+      "source_file": "practice-questions/cae-oxford-general-navigation-great-circles-rhumb-lines-directions-on-the-earth.json",
+      "solution": "01°29'N 002°05'W",
+      "explanation": "",
+      "answer": "a",
+      "id": "4"
+    },
+    {
+      "question_number": "5",
+      "question_text": "Give the shortest distance in nautical miles and kilometres between the following positions: a. 52°06'N 002°32'E and 53°36'N 002°32'E",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Great Circles, Rhumb Lines & Directions on the Earth",
+      "chapter_number": "2",
+      "source_file": "practice-questions/cae-oxford-general-navigation-great-circles-rhumb-lines-directions-on-the-earth.json",
+      "solution": "90 NM 167 km",
+      "explanation": "",
+      "answer": "d",
+      "id": "5"
+    },
+    {
+      "question_number": "6",
+      "question_text": "An aircraft is to fly from position 72°00'N 002°30'E to position 72°00'N 177°30'W on the shortest possible route. a. Give the initial (True) track direction",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Great Circles, Rhumb Lines & Directions on the Earth",
+      "chapter_number": "2",
+      "source_file": "practice-questions/cae-oxford-general-navigation-great-circles-rhumb-lines-directions-on-the-earth.json",
+      "solution": "360°(T)",
+      "explanation": "",
+      "answer": "d",
+      "id": "6"
+    },
+    {
+      "question_number": "9",
+      "question_text": "What is the position of the Rhumb Line between 2 points relative to the Great Circle between the same points if the points are: a. In the Northern hemisphere?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Great Circles, Rhumb Lines & Directions on the Earth",
+      "chapter_number": "2",
+      "source_file": "practice-questions/cae-oxford-general-navigation-great-circles-rhumb-lines-directions-on-the-earth.json",
+      "solution": "Nearer the Equator (South of the Great Circle)",
+      "explanation": "",
+      "answer": "a",
+      "id": "9"
+    },
+    {
+      "question_number": "1",
+      "question_text": "A Lambert's conformal chart extends from 29°N to 45°N. Standard parallels are at 31°N and 43°N. Chart convergency is ch. Long ×0.6. On this chart is the scale at 43°N the same, greater or less than the scale at: i. 45°N",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Lambert’s Conformal Chart - 2",
+      "chapter_number": "22",
+      "source_file": "practice-questions/cae-oxford-general-navigation-lamberts-conformal-chart-2.json",
+      "solution": "Less",
+      "explanation": "",
+      "answer": "a",
+      "id": "1"
+    },
+    {
+      "question_number": "2",
+      "question_text": "Using the same chart as Question 1, a straight line track on this chart from A (40°N 12°E) to C which is at 18°W passes through B. The direction of this track is 292°(T) at A and 283°(T) at B. a. What is the longitude of B?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Lambert’s Conformal Chart - 2",
+      "chapter_number": "22",
+      "source_file": "practice-questions/cae-oxford-general-navigation-lamberts-conformal-chart-2.json",
+      "solution": "003°00'W",
+      "explanation": "",
+      "answer": "d",
+      "id": "2"
+    },
+    {
+      "question_number": "3",
+      "question_text": "A Lambert's Conformal chart extends from 42°S to 64°S. Chart convergency is ch.Long ×0.8. A straight line track on this chart from K (48°S 178°E) to M at longitude 152°W passes through L. The direction of this track at K is 102°(T) and at L is 096°(T). a. What is the longitude of position L?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Lambert’s Conformal Chart - 2",
+      "chapter_number": "22",
+      "source_file": "practice-questions/cae-oxford-general-navigation-lamberts-conformal-chart-2.json",
+      "solution": "174°30'W",
+      "explanation": "",
+      "answer": "a",
+      "id": "3"
+    },
+    {
+      "question_number": "10",
+      "question_text": "The scale of a Mercator chart is 1:5 107 200 in latitude 47N. a. What distance in NM does one inch on the chart represent in 47N ?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Mercator Charts - Scale",
+      "chapter_number": "19",
+      "source_file": "practice-questions/cae-oxford-general-navigation-mercator-charts-scale.json",
+      "solution": "70 NM",
+      "explanation": "",
+      "answer": "b",
+      "id": "10"
+    },
+    {
+      "question_number": "11",
+      "question_text": "On a Mercator chart a line drawn along the parallel of 60N, and measuring 4 inches, represents a distance of 200 km. a. Give the scale at 60N as a representative fraction.",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Mercator Charts - Scale",
+      "chapter_number": "19",
+      "source_file": "practice-questions/cae-oxford-general-navigation-mercator-charts-scale.json",
+      "solution": "1:1 968 000",
+      "explanation": "",
+      "answer": "a",
+      "id": "11"
+    },
+    {
+      "question_number": "12",
+      "question_text": "The scale of a Mercator chart is 1:2 179 000 at the Equator. a. What is the spacing in centimetres between meridians 10° apart ?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Mercator Charts - Scale",
+      "chapter_number": "19",
+      "source_file": "practice-questions/cae-oxford-general-navigation-mercator-charts-scale.json",
+      "solution": "51.04 cm",
+      "explanation": "",
+      "answer": "d",
+      "id": "12"
+    },
+    {
+      "question_number": "13",
+      "question_text": "A Mercator chart has a scale of 1:3000000 at 60N. a. In what latitude is the scale:",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Mercator Charts - Scale",
+      "chapter_number": "19",
+      "source_file": "practice-questions/cae-oxford-general-navigation-mercator-charts-scale.json",
+      "solution": "At the Equator the scale is 1:6 000 000",
+      "explanation": "",
+      "answer": "a",
+      "id": "13"
+    },
+    {
+      "question_number": "3",
+      "question_text": "An aircraft leaves A to fly to B, 95 NM distance. Having flown 35 NM, the aircraft position is found from a 'pinpoint' (a geographical point over which the aircraft has flown); the pinpoint is 7 NM right of track. a. What is the track error?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Navigation Using the 1 in 60 Rule",
+      "chapter_number": "11",
+      "source_file": "practice-questions/cae-oxford-general-navigation-navigation-using-the-1-in-60-rule.json",
+      "solution": "12° right",
+      "explanation": "",
+      "answer": "c",
+      "id": "3"
+    },
+    {
+      "question_number": "4",
+      "question_text": "An aircraft is flying from Oxford to Cambridge, planned track 074°(M) distance 70 NM, heading 065°(M). Having flown 30 NM, the pilot 'pinpoints' the aircraft position overhead Cranfield, 4 NM left of planned track. a. What is the track error overhead Cranfield?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Navigation Using the 1 in 60 Rule",
+      "chapter_number": "11",
+      "source_file": "practice-questions/cae-oxford-general-navigation-navigation-using-the-1-in-60-rule.json",
+      "solution": "8° left",
+      "explanation": "",
+      "answer": "d",
+      "id": "4"
+    },
+    {
+      "question_number": "5",
+      "question_text": "An aircraft is flying from Norwich to Oxford, planned track 250°(M), distance 96 NM, heading 260°(M), ground speed 180 kt. The aircraft departs Norwich at 1000 hrs. At 1012, the aircraft is overhead Ely, 3 NM right of planned track. Use the 1:60 to estimate the following. a. What was the planned drift?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Navigation Using the 1 in 60 Rule",
+      "chapter_number": "11",
+      "source_file": "practice-questions/cae-oxford-general-navigation-navigation-using-the-1-in-60-rule.json",
+      "solution": "10°P",
+      "explanation": "",
+      "answer": "a",
+      "id": "5"
+    },
+    {
+      "question_number": "5",
+      "question_text": "Using the detail in questions 2-4, what rates of descent (ROD) are required to maintain the glide slopes in: a. question 2 if ground speed is 120 kt",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Other Applications of the 1 in 60 Rule",
+      "chapter_number": "12",
+      "source_file": "practice-questions/cae-oxford-general-navigation-other-applications-of-the-1-in-60-rule.json",
+      "solution": "700 ft/min",
+      "explanation": "",
+      "answer": "c",
+      "id": "5"
+    },
+    {
+      "question_number": "7",
+      "question_text": "You are flying an aircraft into Gioia Del Colle, Italy, on a glide slope of 2.5°. Having had a hydraulic failure, you cannot select any flaps. You approach at 220 kt TAS and have a headwind component of 10 kt. a. What rate of descent do you need to maintain the glide slope?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Other Applications of the 1 in 60 Rule",
+      "chapter_number": "12",
+      "source_file": "practice-questions/cae-oxford-general-navigation-other-applications-of-the-1-in-60-rule.json",
+      "solution": "875 ft/min",
+      "explanation": "",
+      "answer": "a",
+      "id": "7"
+    },
+    {
+      "question_number": "8",
+      "question_text": "You are flying an airway with a centre line QDM of 137°(M) towards VOR/DME 'A'. Your RMI reads 141°(M)/DME 90 NM. a. Are you left or right of centre line?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Other Applications of the 1 in 60 Rule",
+      "chapter_number": "12",
+      "source_file": "practice-questions/cae-oxford-general-navigation-other-applications-of-the-1-in-60-rule.json",
+      "solution": "left",
+      "explanation": "",
+      "answer": "a",
+      "id": "8"
+    },
+    {
+      "question_number": "1",
+      "question_text": "Give the scale, as a representative fraction, of the following charts:- a. One centimetre represents five kilometres",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Scale",
+      "chapter_number": "16",
+      "source_file": "practice-questions/cae-oxford-general-navigation-scale.json",
+      "solution": "1:500 000",
+      "explanation": "",
+      "answer": "a",
+      "id": "1"
+    },
+    {
+      "question_number": "2",
+      "question_text": "The representative fraction of a chart is given as 1:500000 (Half Mil Chart) a. how many (1) centimetres and (2) inches would represent 30 kilometres on the ground?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Scale",
+      "chapter_number": "16",
+      "source_file": "practice-questions/cae-oxford-general-navigation-scale.json",
+      "solution": "(1) 6 centimetres; (2) 2.36 inches",
+      "explanation": "",
+      "answer": "a",
+      "id": "2"
+    },
+    {
+      "question_number": "3",
+      "question_text": "The representative fraction of a chart is given as 1:1000000 a. What is the chart length of a line representing an Earth distance of 50 kilometres on this chart? give your answer in both centimetres and inches",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Scale",
+      "chapter_number": "16",
+      "source_file": "practice-questions/cae-oxford-general-navigation-scale.json",
+      "solution": "5 cm = 1.97 in",
+      "explanation": "",
+      "answer": "a",
+      "id": "3"
+    },
+    {
+      "question_number": "4",
+      "question_text": "On a chart 5 centimetres represents 7 nautical miles a. Give the scale of this chart as a representative fraction",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Scale",
+      "chapter_number": "16",
+      "source_file": "practice-questions/cae-oxford-general-navigation-scale.json",
+      "solution": "1:260 000",
+      "explanation": "",
+      "answer": "a",
+      "id": "4"
+    },
+    {
+      "question_number": "5",
+      "question_text": "On a chart 14.8 centimetres represents 20 nautical miles on the ground a. Give the chart scale as a representative fraction",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Scale",
+      "chapter_number": "16",
+      "source_file": "practice-questions/cae-oxford-general-navigation-scale.json",
+      "solution": "1:250 000",
+      "explanation": "",
+      "answer": "a",
+      "id": "5"
+    },
+    {
+      "question_number": "6",
+      "question_text": "On a chart, one centimetre represents 3.5 kilometres a. Give the scale as a representative fraction",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Scale",
+      "chapter_number": "16",
+      "source_file": "practice-questions/cae-oxford-general-navigation-scale.json",
+      "solution": "1:350 000",
+      "explanation": "",
+      "answer": "a",
+      "id": "6"
+    },
+    {
+      "question_number": "1",
+      "question_text": "To calculate heading and ground speed:",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Calculation of Heading and Wind Finding",
+      "chapter_number": "8",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-calculation-of-heading-and-wind-finding.json",
+      "solution": {
+        "headers": [
+          "HDG°(T)",
+          "W/V",
+          "TRACK REQUIRED",
+          "TAS",
+          "GS"
+        ],
+        "rows": [
+          [
+            "140",
+            "040/40",
+            "155",
+            "140",
+            "152"
+          ],
+          [
+            "239",
+            "280/27",
+            "226",
+            "94",
+            "75"
+          ],
+          [
+            "203",
+            "320/14",
+            "198",
+            "136",
+            "142"
+          ],
+          [
+            "272",
+            "190/52",
+            "284",
+            "132",
+            "258"
+          ],
+          [
+            "138",
+            "270/83",
+            "132",
+            "544",
+            "600"
+          ],
+          [
+            "270",
+            "310/105",
+            "262",
+            "572",
+            "496"
+          ],
+          [
+            "350",
+            "300/60",
+            "355",
+            "620",
+            "585"
+          ],
+          [
+            "116",
+            "270/75",
+            "113",
+            "570",
+            "637"
+          ],
+          [
+            "292",
+            "240/80",
+            "301",
+            "455",
+            "413"
+          ],
+          [
+            "307",
+            "210/55",
+            "313",
+            "545",
+            "555"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "1"
+    },
+    {
+      "question_number": "2",
+      "question_text": "To calculate heading and ground speed:",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Calculation of Heading and Wind Finding",
+      "chapter_number": "8",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-calculation-of-heading-and-wind-finding.json",
+      "solution": {
+        "headers": [
+          "HDG°(T)",
+          "W/V",
+          "TRACK REQUIRED",
+          "TAS",
+          "GS"
+        ],
+        "rows": [
+          [
+            "227",
+            "335/75",
+            "220",
+            "553",
+            "582"
+          ],
+          [
+            "011",
+            "040/20",
+            "113",
+            "110",
+            "92"
+          ],
+          [
+            "055",
+            "125/35",
+            "021",
+            "196",
+            "187"
+          ],
+          [
+            "118",
+            "170/23",
+            "287",
+            "210",
+            "198"
+          ],
+          [
+            "033",
+            "145/20",
+            "005",
+            "80",
+            "89"
+          ],
+          [
+            "280",
+            "170/30",
+            "045",
+            "220",
+            "232"
+          ],
+          [
+            "212",
+            "300/30",
+            "200",
+            "137",
+            "140"
+          ],
+          [
+            "139",
+            "180/40",
+            "130",
+            "190",
+            "161"
+          ],
+          [
+            "118",
+            "280/24",
+            "116",
+            "199",
+            "221"
+          ],
+          [
+            "238",
+            "262/90",
+            "234",
+            "605",
+            "526"
+          ],
+          [
+            "076",
+            "210/80",
+            "071",
+            "620",
+            "675"
+          ],
+          [
+            "334",
+            "190/80",
+            "339",
+            "523",
+            "592"
+          ],
+          [
+            "035",
+            "305/30",
+            "038",
+            "585",
+            "585"
+          ],
+          [
+            "349",
+            "295/60",
+            "355",
+            "515",
+            "480"
+          ],
+          [
+            "083",
+            "340/85",
+            "091",
+            "588",
+            "610"
+          ],
+          [
+            "029",
+            "235/66",
+            "032",
+            "485",
+            "545"
+          ],
+          [
+            "190",
+            "055/35",
+            "197",
+            "176",
+            "202"
+          ],
+          [
+            "014",
+            "255/15",
+            "018",
+            "180",
+            "188"
+          ],
+          [
+            "137",
+            "090/15",
+            "147",
+            "74",
+            "65"
+          ],
+          [
+            "127",
+            "020/25",
+            "140",
+            "99",
+            "108"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "2"
+    },
+    {
+      "question_number": "3",
+      "question_text": "FLIGHT PLAN 1",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Calculation of Heading and Wind Finding",
+      "chapter_number": "8",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-calculation-of-heading-and-wind-finding.json",
+      "solution": {
+        "headers": [
+          "FT ALT",
+          "TEMP °C",
+          "CAS KT",
+          "TAS KT",
+          "TRACK (T) °",
+          "W/V",
+          "HDG (T) °",
+          "VAR",
+          "HDG (M) °",
+          "DEV",
+          "HDG (C) °",
+          "GS KT",
+          "NM DIST",
+          "MIN TIME"
+        ],
+        "rows": [
+          [
+            "2000",
+            "-10",
+            "160",
+            "159",
+            "100",
+            "330/17",
+            "095",
+            "5°W",
+            "100",
+            "1°W",
+            "101",
+            "169",
+            "50",
+            "18"
+          ],
+          [
+            "4700",
+            "-2",
+            "170",
+            "180",
+            "227",
+            "300/10",
+            "230",
+            "3°E",
+            "227",
+            "2°E",
+            "225",
+            "177",
+            "112",
+            "38"
+          ],
+          [
+            "4000",
+            "-10",
+            "175",
+            "180",
+            "134",
+            "262/17",
+            "138",
+            "3°W",
+            "141",
+            "1°E",
+            "140",
+            "190",
+            "30",
+            "9.5"
+          ],
+          [
+            "2000",
+            "+2",
+            "170",
+            "172",
+            "157",
+            "110/12",
+            "154",
+            "6°W",
+            "160",
+            "2°W",
+            "162",
+            "165",
+            "38.5",
+            "14"
+          ],
+          [
+            "6000",
+            "-3",
+            "154",
+            "167",
+            "100",
+            "320/18",
+            "096",
+            "4°E",
+            "092",
+            "1°W",
+            "093",
+            "180",
+            "60",
+            "20"
+          ],
+          [
+            "5000",
+            "-15",
+            "150",
+            "155",
+            "050",
+            "110/45",
+            "064",
+            "8°W",
+            "072",
+            "2°E",
+            "070",
+            "127",
+            "13",
+            "6"
+          ],
+          [
+            "10000",
+            "-8",
+            "173",
+            "200",
+            "320",
+            "181/27",
+            "315",
+            "3°E",
+            "312",
+            "-3",
+            "315",
+            "219",
+            "44",
+            "12"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "3"
+    },
+    {
+      "question_number": "4",
+      "question_text": "FLIGHT PLAN 2",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Calculation of Heading and Wind Finding",
+      "chapter_number": "8",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-calculation-of-heading-and-wind-finding.json",
+      "solution": {
+        "headers": [
+          "FT ALT",
+          "TEMP °C",
+          "CAS KT",
+          "TAS KT",
+          "TRACK (T) °",
+          "W/V",
+          "HDG (T) °",
+          "VAR",
+          "HDG (M) °",
+          "DEV",
+          "HDG (C) °",
+          "GS KT",
+          "NM DIST",
+          "MIN TIME"
+        ],
+        "rows": [
+          [
+            "5000",
+            "+5",
+            "170",
+            "183",
+            "070",
+            "230/25",
+            "073",
+            "5°W",
+            "078",
+            "1°E",
+            "077",
+            "206",
+            "86",
+            "25"
+          ],
+          [
+            "6500",
+            "-2",
+            "170",
+            "186",
+            "234",
+            "210/30",
+            "230",
+            "3°W",
+            "233",
+            "2°E",
+            "231",
+            "158",
+            "71",
+            "27"
+          ],
+          [
+            "6000",
+            "+2",
+            "174",
+            "190",
+            "240",
+            "210/22",
+            "237",
+            "4°W",
+            "241",
+            "1°E",
+            "240",
+            "171",
+            "57",
+            "20"
+          ],
+          [
+            "7500",
+            "+2",
+            "175",
+            "197",
+            "166",
+            "110/30",
+            "159",
+            "6°W",
+            "165",
+            "3°E",
+            "162",
+            "179",
+            "89",
+            "30"
+          ],
+          [
+            "8000",
+            "-2",
+            "174",
+            "196",
+            "190",
+            "245/36",
+            "196",
+            "4°E",
+            "192",
+            "1°W",
+            "193",
+            "180",
+            "60",
+            "20"
+          ],
+          [
+            "9000",
+            "-5",
+            "180",
+            "206",
+            "050",
+            "110/45",
+            "061",
+            "11°W",
+            "072",
+            "2°E",
+            "070",
+            "180",
+            "13",
+            "4"
+          ],
+          [
+            "12000",
+            "-11",
+            "184",
+            "220",
+            "324",
+            "190/47",
+            "315",
+            "3°E",
+            "312",
+            "+2",
+            "310",
+            "250",
+            "50",
+            "12"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "4"
+    },
+    {
+      "question_number": "5",
+      "question_text": "FLIGHT PLAN 3",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Calculation of Heading and Wind Finding",
+      "chapter_number": "8",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-calculation-of-heading-and-wind-finding.json",
+      "solution": {
+        "headers": [
+          "Tr",
+          "W/V",
+          "Hdg T",
+          "Var",
+          "Hdg M",
+          "Dev",
+          "Hdg C",
+          "CAS",
+          "PA/ Temp",
+          "TAS",
+          "GS",
+          "Dist",
+          "Time"
+        ],
+        "rows": [
+          [
+            "315",
+            "045/33",
+            "325",
+            "7W",
+            "332",
+            "2E",
+            "330",
+            "190",
+            "3000 +15",
+            "200",
+            "197",
+            "88",
+            "27"
+          ],
+          [
+            "324",
+            "335/21",
+            "325",
+            "6E",
+            "319",
+            "1W",
+            "320",
+            "205",
+            "9000 -10",
+            "230",
+            "210",
+            "105",
+            "30"
+          ],
+          [
+            "071",
+            "030/55",
+            "059",
+            "11W",
+            "070",
+            "1W",
+            "071",
+            "142",
+            "14000 +5",
+            "182",
+            "137",
+            "80",
+            "35"
+          ],
+          [
+            "300",
+            "190/25",
+            "290",
+            "8E",
+            "282",
+            "3E",
+            "279",
+            "132",
+            "4000 -10",
+            "135",
+            "141",
+            "332",
+            "141"
+          ],
+          [
+            "019",
+            "300/28",
+            "007",
+            "9W",
+            "016",
+            "2E",
+            "014",
+            "130",
+            "3500 -17",
+            "132",
+            "122",
+            "110",
+            "54"
+          ],
+          [
+            "342",
+            "130/40",
+            "349",
+            "3E",
+            "346",
+            "1W",
+            "347",
+            "160",
+            "7500 0",
+            "179",
+            "211",
+            "92",
+            "26"
+          ],
+          [
+            "262",
+            "010/38",
+            "272",
+            "34E",
+            "238",
+            "2W",
+            "240",
+            "180",
+            "9500 0",
+            "208",
+            "217",
+            "145",
+            "40"
+          ],
+          [
+            "021",
+            "265/32",
+            "012",
+            "16W",
+            "028",
+            "4W",
+            "032",
+            "159",
+            "7000 +15",
+            "180",
+            "192",
+            "112",
+            "35"
+          ],
+          [
+            "033",
+            "310/50",
+            "023",
+            "7W",
+            "030",
+            "2E",
+            "028",
+            "202",
+            "22500 -30",
+            "284",
+            "274",
+            "46",
+            "10"
+          ],
+          [
+            "162",
+            "210/20",
+            "165",
+            "14W",
+            "179",
+            "3E",
+            "176",
+            "194",
+            "28000 -55",
+            "291",
+            "279",
+            "1312",
+            "281"
+          ],
+          [
+            "228",
+            "280/20",
+            "234",
+            "10W",
+            "244",
+            "2E",
+            "242",
+            "148",
+            "2000 +4",
+            "150",
+            "137",
+            "84",
+            "37"
+          ],
+          [
+            "351",
+            "060/30",
+            "003",
+            "12W",
+            "015",
+            "2W",
+            "017",
+            "123",
+            "3000 +16",
+            "130",
+            "116",
+            "95",
+            "49"
+          ],
+          [
+            "043",
+            "123/46",
+            "058",
+            "9E",
+            "049",
+            "1W",
+            "050",
+            "166",
+            "5000 -5",
+            "175",
+            "161",
+            "62",
+            "23"
+          ],
+          [
+            "032",
+            "120/30",
+            "046",
+            "4E",
+            "042",
+            "1E",
+            "041",
+            "123",
+            "2500 0",
+            "124",
+            "120",
+            "49",
+            "25"
+          ],
+          [
+            "162",
+            "140/40",
+            "153",
+            "9W",
+            "162",
+            "1W",
+            "163",
+            "96",
+            "3500 +8",
+            "101",
+            "63",
+            "130",
+            "124"
+          ],
+          [
+            "343",
+            "220/30",
+            "330",
+            "11E",
+            "319",
+            "1W",
+            "320",
+            "111",
+            "4000 -5",
+            "115",
+            "129",
+            "82",
+            "38"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "5"
+    },
+    {
+      "question_number": "6",
+      "question_text": "To calculate the wind velocity:",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Calculation of Heading and Wind Finding",
+      "chapter_number": "8",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-calculation-of-heading-and-wind-finding.json",
+      "solution": {
+        "headers": [
+          "HDG°(T)",
+          "W/V",
+          "TRACK MADE GOOD °(T)",
+          "TAS",
+          "GS"
+        ],
+        "rows": [
+          [
+            "209",
+            "155/30",
+            "219",
+            "150",
+            "134"
+          ],
+          [
+            "270",
+            "055/25",
+            "266",
+            "180",
+            "202"
+          ],
+          [
+            "223",
+            "050/40",
+            "224",
+            "206",
+            "246"
+          ],
+          [
+            "069",
+            "014/26",
+            "079",
+            "138",
+            "124"
+          ],
+          [
+            "299",
+            "002/14",
+            "293",
+            "125",
+            "120"
+          ],
+          [
+            "167",
+            "217/22",
+            "162",
+            "202",
+            "190"
+          ],
+          [
+            "213",
+            "144/26",
+            "231",
+            "85",
+            "80"
+          ],
+          [
+            "014",
+            "129/38",
+            "005",
+            "200",
+            "218"
+          ],
+          [
+            "330",
+            "250/28",
+            "348",
+            "90",
+            "90"
+          ],
+          [
+            "179",
+            "300/50",
+            "168",
+            "196",
+            "226"
+          ],
+          [
+            "098",
+            "300/30",
+            "100",
+            "310",
+            "338"
+          ],
+          [
+            "091",
+            "172/80",
+            "080",
+            "440",
+            "435"
+          ],
+          [
+            "050",
+            "298/40",
+            "055",
+            "398",
+            "415"
+          ],
+          [
+            "351",
+            "085/75",
+            "340",
+            "393",
+            "405"
+          ],
+          [
+            "288",
+            "155/41",
+            "292",
+            "434",
+            "462"
+          ],
+          [
+            "276",
+            "224/35",
+            "281",
+            "335",
+            "316"
+          ],
+          [
+            "280",
+            "014/40",
+            "275",
+            "430",
+            "435"
+          ],
+          [
+            "291",
+            "125/30",
+            "292",
+            "330",
+            "360"
+          ],
+          [
+            "097",
+            "124/25",
+            "095",
+            "343",
+            "322"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "6"
+    },
+    {
+      "question_number": "7",
+      "question_text": "To calculate the wind velocity:",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Calculation of Heading and Wind Finding",
+      "chapter_number": "8",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-calculation-of-heading-and-wind-finding.json",
+      "solution": {
+        "headers": [
+          "HDG°(T)",
+          "W/V",
+          "TRACK MADE GOOD °(T)",
+          "TAS",
+          "GS"
+        ],
+        "rows": [
+          [
+            "056",
+            "227/32",
+            "055",
+            "287",
+            "320"
+          ],
+          [
+            "108",
+            "298/50",
+            "109",
+            "480",
+            "530"
+          ],
+          [
+            "176",
+            "277/40",
+            "171",
+            "428",
+            "438"
+          ],
+          [
+            "270",
+            "312/40",
+            "265",
+            "335",
+            "308"
+          ],
+          [
+            "248",
+            "270/80",
+            "243",
+            "406",
+            "332"
+          ],
+          [
+            "247",
+            "200/41",
+            "252",
+            "380",
+            "352"
+          ],
+          [
+            "200",
+            "172/32",
+            "202",
+            "435",
+            "403"
+          ],
+          [
+            "198",
+            "143/25",
+            "202",
+            "340",
+            "325"
+          ],
+          [
+            "275",
+            "275/40",
+            "275",
+            "435",
+            "395"
+          ],
+          [
+            "274",
+            "245/22",
+            "275",
+            "290",
+            "270"
+          ],
+          [
+            "321",
+            "298/60",
+            "326",
+            "338",
+            "280"
+          ],
+          [
+            "045",
+            "308/85",
+            "061",
+            "285",
+            "305"
+          ],
+          [
+            "196",
+            "065/50",
+            "205",
+            "210",
+            "245"
+          ],
+          [
+            "311",
+            "011/135",
+            "295",
+            "482",
+            "435"
+          ],
+          [
+            "011",
+            "110/50",
+            "358",
+            "198",
+            "211"
+          ],
+          [
+            "355",
+            "262/62",
+            "008",
+            "248",
+            "270"
+          ],
+          [
+            "111",
+            "060/10",
+            "115",
+            "120",
+            "114"
+          ],
+          [
+            "228",
+            "130/148",
+            "245",
+            "460",
+            "505"
+          ],
+          [
+            "175",
+            "233/16",
+            "168",
+            "121",
+            "114"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "7"
+    },
+    {
+      "question_number": "1",
+      "question_text": "Complete the tabulations:-",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Distance, Speed, Time and Conversions",
+      "chapter_number": "5",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-distance-speed-time-and-conversions.json",
+      "solution": {
+        "headers": [
+          "Groundspeed (kt)",
+          "Distance (NM)",
+          "Time (min)"
+        ],
+        "rows": [
+          [
+            "230",
+            "33",
+            "8.6"
+          ],
+          [
+            "175",
+            "234",
+            "80"
+          ],
+          [
+            "182",
+            "510",
+            "168"
+          ],
+          [
+            "145",
+            "36",
+            "15"
+          ],
+          [
+            "260",
+            "334",
+            "77"
+          ],
+          [
+            "200",
+            "170",
+            "51"
+          ],
+          [
+            "169",
+            "46.5",
+            "16.5"
+          ],
+          [
+            "143",
+            "231",
+            "97"
+          ],
+          [
+            "218",
+            "156",
+            "43"
+          ],
+          [
+            "320",
+            "18.5",
+            "3.5"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "1"
+    },
+    {
+      "question_number": "2",
+      "question_text": "Complete the tabulations:-",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Distance, Speed, Time and Conversions",
+      "chapter_number": "5",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-distance-speed-time-and-conversions.json",
+      "solution": {
+        "headers": [
+          "Fuel Flow",
+          "Time",
+          "Fuel Used"
+        ],
+        "rows": [
+          [
+            "140 litres/hr",
+            "1 h 20 min",
+            "187 litres"
+          ],
+          [
+            "2120 kg/hr",
+            "16 min",
+            "570 kg"
+          ],
+          [
+            "117 imp.gal",
+            "3 h 25 min",
+            "400 imp.gal"
+          ],
+          [
+            "8.7 gal/hr",
+            "2 h 15 min",
+            "19.6 US.gal"
+          ],
+          [
+            "9800 lb/hr",
+            "5 h 20 min",
+            "52267 lb"
+          ],
+          [
+            "165 kg/hr",
+            "2 h 33 min",
+            "420 kg"
+          ],
+          [
+            "603 lb/hr",
+            "1 h 47 min",
+            "1075 lb/hr"
+          ],
+          [
+            "295 US.gal/hr",
+            "4 h 40 min",
+            "1377 US.gal"
+          ],
+          [
+            "160 litres/hr",
+            "1 h 45 min",
+            "280 litres"
+          ],
+          [
+            "260 imp.gal/hr",
+            "4 h 18 min",
+            "1120 imp.gal"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "2"
+    },
+    {
+      "question_number": "3",
+      "question_text": "Complete the following conversions:-",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Distance, Speed, Time and Conversions",
+      "chapter_number": "5",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-distance-speed-time-and-conversions.json",
+      "solution": {
+        "headers": [
+          "Nautical Mile",
+          "Statute Mile",
+          "Kilometre"
+        ],
+        "rows": [
+          [
+            "88",
+            "101",
+            "163"
+          ],
+          [
+            "23.4",
+            "27",
+            "43.5"
+          ],
+          [
+            "47",
+            "54",
+            "87"
+          ],
+          [
+            "141",
+            "162",
+            "261.5"
+          ],
+          [
+            "127.7",
+            "147",
+            "237"
+          ],
+          [
+            "167",
+            "192",
+            "310"
+          ],
+          [
+            "5400",
+            "6210",
+            "10 000"
+          ],
+          [
+            "433",
+            "499",
+            "805"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "3"
+    },
+    {
+      "question_number": "4",
+      "question_text": "Complete the following conversions:-",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Distance, Speed, Time and Conversions",
+      "chapter_number": "5",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-distance-speed-time-and-conversions.json",
+      "solution": {
+        "headers": [
+          "Metres",
+          "Feet"
+        ],
+        "rows": [
+          [
+            "1000",
+            "3280"
+          ],
+          [
+            "8.8",
+            "29"
+          ],
+          [
+            "120",
+            "393"
+          ],
+          [
+            "356",
+            "1166"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "4"
+    },
+    {
+      "question_number": "5",
+      "question_text": "Complete the following conversions:-",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Distance, Speed, Time and Conversions",
+      "chapter_number": "5",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-distance-speed-time-and-conversions.json",
+      "solution": {
+        "headers": [
+          "Litres",
+          "imp.gal",
+          "US.gal",
+          "SG",
+          "kg",
+          "lb"
+        ],
+        "rows": [
+          [
+            "1000",
+            "220",
+            "264",
+            ".78",
+            "780",
+            "1716"
+          ],
+          [
+            "1909",
+            "420",
+            "504",
+            ".81",
+            "1546",
+            "3402"
+          ],
+          [
+            "3031",
+            "667",
+            "800",
+            ".84",
+            "2546",
+            "5600"
+          ],
+          [
+            "1250",
+            "275",
+            "330",
+            ".80",
+            "1000",
+            "2200"
+          ],
+          [
+            "1263",
+            "278",
+            "333",
+            ".72",
+            "909",
+            "2000"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "5"
+    },
+    {
+      "question_number": "1",
+      "question_text": "TAS=180 knots",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Multi-drift Winds and Wind Components",
+      "chapter_number": "9",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-multi-drift-winds-and-wind-components.json",
+      "solution": {
+        "headers": [
+          "Heading",
+          "Drift"
+        ],
+        "rows": [
+          [
+            "130",
+            "6°P"
+          ],
+          [
+            "070",
+            "4°P"
+          ],
+          [
+            "190",
+            "2°P"
+          ],
+          [
+            "W/V",
+            "205/18"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "1"
+    },
+    {
+      "question_number": "2",
+      "question_text": "TAS=150 knots",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Multi-drift Winds and Wind Components",
+      "chapter_number": "9",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-multi-drift-winds-and-wind-components.json",
+      "solution": {
+        "headers": [
+          "Heading",
+          "Drift"
+        ],
+        "rows": [
+          [
+            "045",
+            "3°S"
+          ],
+          [
+            "345",
+            "6°P"
+          ],
+          [
+            "105",
+            "8°S"
+          ],
+          [
+            "W/V",
+            "026/22"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "2"
+    },
+    {
+      "question_number": "3",
+      "question_text": "TAS=120 knots",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Multi-drift Winds and Wind Components",
+      "chapter_number": "9",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-multi-drift-winds-and-wind-components.json",
+      "solution": {
+        "headers": [
+          "Heading",
+          "Drift"
+        ],
+        "rows": [
+          [
+            "270",
+            "2°S"
+          ],
+          [
+            "210",
+            "12°S"
+          ],
+          [
+            "330",
+            "9 1/2°P"
+          ],
+          [
+            "W/V",
+            "098/30"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "3"
+    },
+    {
+      "question_number": "4",
+      "question_text": "TAS=165 knots",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Multi-drift Winds and Wind Components",
+      "chapter_number": "9",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-multi-drift-winds-and-wind-components.json",
+      "solution": {
+        "headers": [
+          "Heading",
+          "Drift"
+        ],
+        "rows": [
+          [
+            "100",
+            "2°P"
+          ],
+          [
+            "040",
+            "14°P"
+          ],
+          [
+            "160",
+            "12°S"
+          ],
+          [
+            "W/V",
+            "107/40"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "4"
+    },
+    {
+      "question_number": "1",
+      "question_text": "To calculate track and ground speed:",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Triangle of Velocities",
+      "chapter_number": "7",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-triangle-of-velocities.json",
+      "solution": {
+        "headers": [
+          "HDG°(T)",
+          "W/V",
+          "TRACK MADE GOOD °(T)",
+          "TAS",
+          "GS"
+        ],
+        "rows": [
+          [
+            "273",
+            "230/40",
+            "286",
+            "150",
+            "124"
+          ],
+          [
+            "181",
+            "150/30",
+            "194",
+            "90",
+            "66"
+          ],
+          [
+            "054",
+            "350/28",
+            "073",
+            "88",
+            "80"
+          ],
+          [
+            "084",
+            "255/55",
+            "082",
+            "210",
+            "264"
+          ],
+          [
+            "141",
+            "280/35",
+            "135",
+            "190",
+            "217"
+          ],
+          [
+            "274",
+            "030/40",
+            "262",
+            "150",
+            "171"
+          ],
+          [
+            "213",
+            "060/35",
+            "218",
+            "150",
+            "181"
+          ],
+          [
+            "029",
+            "090/40",
+            "016",
+            "170",
+            "155"
+          ],
+          [
+            "305",
+            "350/16",
+            "297",
+            "100",
+            "89"
+          ],
+          [
+            "187",
+            "270/60",
+            "157",
+            "110",
+            "119"
+          ],
+          [
+            "310",
+            "045/45",
+            "302",
+            "320",
+            "327"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "1"
+    },
+    {
+      "question_number": "2",
+      "question_text": "To calculate track and ground speed:",
+      "question_type": "Table Fill-in",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "The Navigation Computer - Triangle of Velocities",
+      "chapter_number": "7",
+      "source_file": "practice-questions/cae-oxford-general-navigation-the-navigation-computer-triangle-of-velocities.json",
+      "solution": {
+        "headers": [
+          "HDG°(T)",
+          "W/V",
+          "TRACK MADE GOOD°T",
+          "TAS",
+          "GS"
+        ],
+        "rows": [
+          [
+            "138",
+            "125/50",
+            "140",
+            "390",
+            "340"
+          ],
+          [
+            "253",
+            "180/70",
+            "263",
+            "415",
+            "400"
+          ],
+          [
+            "131",
+            "210/40",
+            "126",
+            "485",
+            "480"
+          ],
+          [
+            "100",
+            "315/55",
+            "104",
+            "480",
+            "525"
+          ],
+          [
+            "270",
+            "315/55",
+            "242",
+            "110",
+            "81"
+          ],
+          [
+            "200",
+            "125/50",
+            "214",
+            "210",
+            "204"
+          ],
+          [
+            "180",
+            "210/40",
+            "168",
+            "135",
+            "102"
+          ],
+          [
+            "140",
+            "180/70",
+            "119",
+            "170",
+            "125"
+          ],
+          [
+            "093",
+            "045/45",
+            "103",
+            "210",
+            "182"
+          ],
+          [
+            "103",
+            "060/35",
+            "109",
+            "240",
+            "215"
+          ],
+          [
+            "237",
+            "270/60",
+            "225",
+            "205",
+            "158"
+          ],
+          [
+            "343",
+            "030/40",
+            "338",
+            "350",
+            "322"
+          ],
+          [
+            "030",
+            "350/16",
+            "032",
+            "390",
+            "379"
+          ],
+          [
+            "315",
+            "280/35",
+            "318",
+            "375",
+            "346"
+          ],
+          [
+            "145",
+            "090/40",
+            "150",
+            "420",
+            "400"
+          ],
+          [
+            "290",
+            "255/55",
+            "294",
+            "490",
+            "445"
+          ],
+          [
+            "191",
+            "150/30",
+            "193",
+            "480",
+            "459"
+          ],
+          [
+            "257",
+            "350/28",
+            "254",
+            "475",
+            "480"
+          ],
+          [
+            "157",
+            "230/140",
+            "139",
+            "460",
+            "440"
+          ]
+        ]
+      },
+      "explanation": "",
+      "answer": "a",
+      "id": "2"
+    },
+    {
+      "question_number": "9",
+      "question_text": "When LMT at 4600N 00830W is 2300 on the 9th May, what is the LMT and local date at: a. 4600N 10830W?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Time (2)",
+      "chapter_number": "25",
+      "source_file": "practice-questions/cae-oxford-general-navigation-time-2.json",
+      "solution": "1620 LMT 9 May at 108°30W",
+      "explanation": "",
+      "answer": "a",
+      "id": "9"
+    },
+    {
+      "question_number": "10",
+      "question_text": "The time is 1300 UTC on 1st April. Calculate the LMT and local date at: a. 5430N 00715E",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Time (2)",
+      "chapter_number": "25",
+      "source_file": "practice-questions/cae-oxford-general-navigation-time-2.json",
+      "solution": "1329 LMT 1 April at 07°15'E",
+      "explanation": "",
+      "answer": "d",
+      "id": "10"
+    },
+    {
+      "question_number": "11",
+      "question_text": "At 3000N 4630E the time is 0300 LMT. What is the time at 6000N 01615W in: a. UTC?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Time (2)",
+      "chapter_number": "25",
+      "source_file": "practice-questions/cae-oxford-general-navigation-time-2.json",
+      "solution": "2354 UTC previous day",
+      "explanation": "",
+      "answer": "a",
+      "id": "11"
+    },
+    {
+      "question_number": "12",
+      "question_text": "At 1400 UTC on 6th November what is the Standard Time at the following locations: a. Iraq",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Time (2)",
+      "chapter_number": "25",
+      "source_file": "practice-questions/cae-oxford-general-navigation-time-2.json",
+      "solution": "1700 ST 6 Nov",
+      "explanation": "",
+      "answer": "d",
+      "id": "12"
+    },
+    {
+      "question_number": "7",
+      "question_text": "For position 3000S 12414E on 9th August, what is the LMT of: a. Sunrise",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Time (3)",
+      "chapter_number": "26",
+      "source_file": "practice-questions/cae-oxford-general-navigation-time-3.json",
+      "solution": "0640 LMT",
+      "explanation": "",
+      "answer": "a",
+      "id": "7"
+    },
+    {
+      "question_number": "9",
+      "question_text": "What is the meaning of the following symbols which appear in the Air Almanac Extract?\ni) ii) iii) ⊙ i) ⊙",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Time (3)",
+      "chapter_number": "26",
+      "source_file": "practice-questions/cae-oxford-general-navigation-time-3.json",
+      "solution": "Sun remains continuously above the horizon.",
+      "explanation": "",
+      "answer": "a",
+      "id": "9"
+    },
+    {
+      "question_number": "12",
+      "question_text": "For PERTH (3157S 11557E) WESTERN AUSTRALIA on 3rd January:- a. What is the LMT of sunrise?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Time (3)",
+      "chapter_number": "26",
+      "source_file": "practice-questions/cae-oxford-general-navigation-time-3.json",
+      "solution": "0458 LMT",
+      "explanation": "",
+      "answer": "b",
+      "id": "12"
+    },
+    {
+      "question_number": "13",
+      "question_text": "For BUENOS AIRES (3500S 05229W) ARGENTINA:- a. Give the UTC of sunrise on 9th September",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Time (3)",
+      "chapter_number": "26",
+      "source_file": "practice-questions/cae-oxford-general-navigation-time-3.json",
+      "solution": "0939 UTC",
+      "explanation": "",
+      "answer": "a",
+      "id": "13"
+    },
+    {
+      "question_number": "14",
+      "question_text": "At 1500 UTC on 4th July, what is the Standard Time at the places listed below? a. NEW YORK, USA (Daylight Saving Time).",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Time (3)",
+      "chapter_number": "26",
+      "source_file": "practice-questions/cae-oxford-general-navigation-time-3.json",
+      "solution": "1100 DST 4 July",
+      "explanation": "",
+      "answer": "d",
+      "id": "14"
+    },
+    {
+      "question_number": "15",
+      "question_text": "What is the UTC and date at the times shown below? a. 0400 Standard Time on 5th November in MADRID (4026N 00332W) SPAIN?",
+      "question_type": "Grouped Free Text",
+      "book_name": "CAE ATPL 10. General Navigation",
+      "chapter_title": "Time (3)",
+      "chapter_number": "26",
+      "source_file": "practice-questions/cae-oxford-general-navigation-time-3.json",
+      "solution": "0300 UTC 5 November",
+      "explanation": "",
+      "answer": "b",
+      "id": "15"
+    },
+    {
+      "question_number": "6",
+      "question_text": "What is the World Health Organization's definition of alcoholism?",
+      "question_type": "Open-ended",
+      "book_name": "CAE Oxford Human Performance and Limitations",
+      "chapter_title": "Flying and Health",
+      "chapter_number": "6",
+      "source_file": "practice-questions/human-performance-flying-and-health.json",
+      "solution": "\"When the excessive use of alcohol repeatedly damages a person's physical, mental or social life\"",
+      "explanation": "",
+      "answer": "a",
+      "id": "6"
+    },
+    {
+      "question_number": "calc-1",
+      "question_text": "Frequency: 198 kHz. Calculate Wavelength and Frequency Band.",
+      "question_type": "Calculation",
+      "book_name": "Radio Navigation 2014",
+      "chapter_title": "Properties of Radio Waves",
+      "chapter_number": "1",
+      "source_file": "practice-questions/cae-oxford-properties-of-radio-waves.json",
+      "solution": "Wavelength: 1515 m, Frequency Band: LF",
+      "explanation": "Using the formula: wavelength = speed of light / frequency. Speed of light = 3 × 10⁸ m/s. Wavelength = (3 × 10⁸) / (198 × 10³) = 1515 m. Frequency band: LF (Low Frequency, 30-300 kHz).",
+      "answer": "a",
+      "id": "calc-1"
+    },
+    {
+      "question_number": "calc-2",
+      "question_text": "Wavelength: 2.7 m. Calculate Frequency and Frequency Band.",
+      "question_type": "Calculation",
+      "book_name": "Radio Navigation 2014",
+      "chapter_title": "Properties of Radio Waves",
+      "chapter_number": "1",
+      "source_file": "practice-questions/cae-oxford-properties-of-radio-waves.json",
+      "solution": "Frequency: 111.1 MHz, Frequency Band: VHF",
+      "explanation": "Using the formula: frequency = speed of light / wavelength. Frequency = (3 × 10⁸) / 2.7 = 111.1 × 10⁶ Hz = 111.1 MHz. Frequency band: VHF (Very High Frequency, 30-300 MHz).",
+      "answer": "a",
+      "id": "calc-2"
+    },
+    {
+      "question_number": "calc-3",
+      "question_text": "Frequency: 5.025 GHz. Calculate Wavelength and Frequency Band.",
+      "question_type": "Calculation",
+      "book_name": "Radio Navigation 2014",
+      "chapter_title": "Properties of Radio Waves",
+      "chapter_number": "1",
+      "source_file": "practice-questions/cae-oxford-properties-of-radio-waves.json",
+      "solution": "Wavelength: 5.97 cm, Frequency Band: SHF",
+      "explanation": "Using the formula: wavelength = speed of light / frequency. Wavelength = (3 × 10⁸) / (5.025 × 10⁹) = 0.0597 m = 5.97 cm. Frequency band: SHF (Super High Frequency, 3-30 GHz).",
+      "answer": "a",
+      "id": "calc-3"
+    },
+    {
+      "question_number": "calc-4",
+      "question_text": "Wavelength: 137.5 m. Calculate Frequency and Frequency Band.",
+      "question_type": "Calculation",
+      "book_name": "Radio Navigation 2014",
+      "chapter_title": "Properties of Radio Waves",
+      "chapter_number": "1",
+      "source_file": "practice-questions/cae-oxford-properties-of-radio-waves.json",
+      "solution": "Frequency: 2181.8 kHz, Frequency Band: MF",
+      "explanation": "Using the formula: frequency = speed of light / wavelength. Frequency = (3 × 10⁸) / 137.5 = 2.1818 × 10⁶ Hz = 2181.8 kHz. Frequency band: MF (Medium Frequency, 300-3000 kHz).",
+      "answer": "a",
+      "id": "calc-4"
+    },
+    {
+      "question_number": "calc-5",
+      "question_text": "Frequency: 137.5 MHz. Calculate Wavelength and Frequency Band.",
+      "question_type": "Calculation",
+      "book_name": "Radio Navigation 2014",
+      "chapter_title": "Properties of Radio Waves",
+      "chapter_number": "1",
+      "source_file": "practice-questions/cae-oxford-properties-of-radio-waves.json",
+      "solution": "Wavelength: 2.18 m, Frequency Band: VHF",
+      "explanation": "Using the formula: wavelength = speed of light / frequency. Wavelength = (3 × 10⁸) / (137.5 × 10⁶) = 2.18 m. Frequency band: VHF (Very High Frequency, 30-300 MHz).",
+      "answer": "a",
+      "id": "calc-5"
+    },
+    {
+      "question_number": "calc-6",
+      "question_text": "Wavelength: 3 km. Calculate Frequency and Frequency Band.",
+      "question_type": "Calculation",
+      "book_name": "Radio Navigation 2014",
+      "chapter_title": "Properties of Radio Waves",
+      "chapter_number": "1",
+      "source_file": "practice-questions/cae-oxford-properties-of-radio-waves.json",
+      "solution": "Frequency: 100 kHz, Frequency Band: LF",
+      "explanation": "Using the formula: frequency = speed of light / wavelength. Frequency = (3 × 10⁸) / (3 × 10³) = 100 × 10³ Hz = 100 kHz. Frequency band: LF (Low Frequency, 30-300 kHz).",
+      "answer": "a",
+      "id": "calc-6"
+    },
+    {
+      "question_number": "calc-7",
+      "question_text": "Frequency: 329 MHz. Calculate Wavelength and Frequency Band.",
+      "question_type": "Calculation",
+      "book_name": "Radio Navigation 2014",
+      "chapter_title": "Properties of Radio Waves",
+      "chapter_number": "1",
+      "source_file": "practice-questions/cae-oxford-properties-of-radio-waves.json",
+      "solution": "Wavelength: 91.2 cm, Frequency Band: UHF",
+      "explanation": "Using the formula: wavelength = speed of light / frequency. Wavelength = (3 × 10⁸) / (329 × 10⁶) = 0.912 m = 91.2 cm. Frequency band: UHF (Ultra High Frequency, 300-3000 MHz).",
+      "answer": "a",
+      "id": "calc-7"
+    },
+    {
+      "question_number": "calc-8",
+      "question_text": "Wavelength: 29 cm. Calculate Frequency and Frequency Band.",
+      "question_type": "Calculation",
+      "book_name": "Radio Navigation 2014",
+      "chapter_title": "Properties of Radio Waves",
+      "chapter_number": "1",
+      "source_file": "practice-questions/cae-oxford-properties-of-radio-waves.json",
+      "solution": "Frequency: 1034 MHz, Frequency Band: UHF",
+      "explanation": "Using the formula: frequency = speed of light / wavelength. Frequency = (3 × 10⁸) / 0.29 = 1.034 × 10⁹ Hz = 1034 MHz. Frequency band: UHF (Ultra High Frequency, 300-3000 MHz).",
+      "answer": "a",
+      "id": "calc-8"
+    },
+    {
+      "question_number": "calc-9",
+      "question_text": "Frequency: 500 kHz. Calculate Wavelength and Frequency Band.",
+      "question_type": "Calculation",
+      "book_name": "Radio Navigation 2014",
+      "chapter_title": "Properties of Radio Waves",
+      "chapter_number": "1",
+      "source_file": "practice-questions/cae-oxford-properties-of-radio-waves.json",
+      "solution": "Wavelength: 600 m, Frequency Band: MF",
+      "explanation": "Using the formula: wavelength = speed of light / frequency. Wavelength = (3 × 10⁸) / (500 × 10³) = 600 m. Frequency band: MF (Medium Frequency, 300-3000 kHz).",
+      "answer": "a",
+      "id": "calc-9"
+    },
+    {
+      "question_number": "calc-10",
+      "question_text": "Wavelength: 5 cm. Calculate Frequency and Frequency Band.",
+      "question_type": "Calculation",
+      "book_name": "Radio Navigation 2014",
+      "chapter_title": "Properties of Radio Waves",
+      "chapter_number": "1",
+      "source_file": "practice-questions/cae-oxford-properties-of-radio-waves.json",
+      "solution": "Frequency: 6 GHz, Frequency Band: SHF",
+      "explanation": "Using the formula: frequency = speed of light / wavelength. Frequency = (3 × 10⁸) / 0.05 = 6 × 10⁹ Hz = 6 GHz. Frequency band: SHF (Super High Frequency, 3-30 GHz).",
+      "answer": "a",
+      "id": "calc-10"
+    },
+    {
+      "question_number": "img-1",
+      "question_text": "Using the CDI shown, what is the aircraft's QDR? (Figure 8.19)",
+      "question_type": "Image",
+      "book_name": "Radio Navigation 2014",
+      "chapter_title": "VHF Omni-directional Range (VOR)",
+      "chapter_number": "8",
+      "source_file": "practice-questions/cae-oxford-vhf-omni-directional-range-vor.json",
+      "solution": "071°",
+      "explanation": "This question requires visual analysis of a Course Deviation Indicator (CDI) display. The QDR (magnetic bearing from the station) is determined by reading the radial from the VOR display. [Note: This question requires Figure 8.19 from the source material]",
+      "answer": "a",
+      "id": "img-1"
+    },
+    {
+      "question_number": "img-2",
+      "question_text": "Using the CDI shown, what is the aircraft's QDM? (Figure 8.20)",
+      "question_type": "Image",
+      "book_name": "Radio Navigation 2014",
+      "chapter_title": "VHF Omni-directional Range (VOR)",
+      "chapter_number": "8",
+      "source_file": "practice-questions/cae-oxford-vhf-omni-directional-range-vor.json",
+      "solution": "159°",
+      "explanation": "This question requires visual analysis of a Course Deviation Indicator (CDI) display. The QDM (magnetic bearing to the station) is the reciprocal of the QDR. [Note: This question requires Figure 8.20 from the source material]",
+      "answer": "a",
+      "id": "img-2"
+    },
+    {
+      "question_number": "img-3",
+      "question_text": "Using the HSI shown, what is the aircraft's QDR? (Figure 8.21)",
+      "question_type": "Image",
+      "book_name": "Radio Navigation 2014",
+      "chapter_title": "VHF Omni-directional Range (VOR)",
+      "chapter_number": "8",
+      "source_file": "practice-questions/cae-oxford-vhf-omni-directional-range-vor.json",
+      "solution": "345°",
+      "explanation": "This question requires visual analysis of a Horizontal Situation Indicator (HSI) display. The QDR is read from the VOR radial indication. [Note: This question requires Figure 8.21 from the source material]",
+      "answer": "a",
+      "id": "img-3"
+    },
+    {
+      "question_number": "img-4",
+      "question_text": "Using the HSI shown, what is the aircraft's QDM? (Figure 8.22)",
+      "question_type": "Image",
+      "book_name": "Radio Navigation 2014",
+      "chapter_title": "VHF Omni-directional Range (VOR)",
+      "chapter_number": "8",
+      "source_file": "practice-questions/cae-oxford-vhf-omni-directional-range-vor.json",
+      "solution": "063°",
+      "explanation": "This question requires visual analysis of a Horizontal Situation Indicator (HSI) display. The QDM is the reciprocal of the QDR shown. [Note: This question requires Figure 8.22 from the source material]",
+      "answer": "a",
+      "id": "img-4"
+    },
+    {
+      "question_number": "q1",
+      "question_text": "What is the effect of airwash on airspeed indicators?",
+      "question_type": "Non-MCQ",
+      "book_name": "Unknown Book",
+      "chapter_title": "Unknown Chapter",
+      "chapter_number": null,
+      "source_file": "data/questions.json",
+      "solution": "Airwash can cause airspeed indicators to read inaccurately, typically showing higher than actual airspeed due to the increased dynamic pressure from propeller wash or jet exhaust.",
+      "explanation": "",
+      "answer": "Airwash can cause airspeed indicators to read inaccurately, typically showing higher than actual airspeed due to the increased dynamic pressure from propeller wash or jet exhaust.",
+      "id": "q1",
+      "difficulty": "Medium",
+      "page_number": 52,
+      "topic_id": "topic-1",
+      "book_id": "cae-oxford-meteorology",
+      "chapter_id": "met-ch2"
+    },
+    {
+      "question_number": "q2",
+      "question_text": "Explain the relationship between pressure gradient and wind speed.",
+      "question_type": "Non-MCQ",
+      "book_name": "Unknown Book",
+      "chapter_title": "Unknown Chapter",
+      "chapter_number": null,
+      "source_file": "data/questions.json",
+      "solution": "Wind speed is directly proportional to the pressure gradient. A steeper pressure gradient (closer isobars) results in stronger winds, while a weak gradient (widely spaced isobars) produces light winds.",
+      "explanation": "",
+      "answer": "Wind speed is directly proportional to the pressure gradient. A steeper pressure gradient (closer isobars) results in stronger winds, while a weak gradient (widely spaced isobars) produces light winds.",
+      "id": "q2",
+      "difficulty": "Easy",
+      "page_number": 45,
+      "topic_id": "topic-3",
+      "book_id": "cae-oxford-meteorology",
+      "chapter_id": "met-ch2"
+    },
+    {
+      "question_number": "pyq1",
+      "question_text": "Define airwash and explain its effect on aircraft instruments.",
+      "question_type": "Non-MCQ",
+      "book_name": "Unknown Book",
+      "chapter_title": "Unknown Chapter",
+      "chapter_number": null,
+      "source_file": "data/pyq.json",
+      "solution": "Airwash is the distortion of airflow caused by propeller or jet engine exhaust. It affects airspeed indicators by creating false dynamic pressure readings, typically showing higher than actual airspeed.",
+      "explanation": "",
+      "answer": "Airwash is the distortion of airflow caused by propeller or jet engine exhaust. It affects airspeed indicators by creating false dynamic pressure readings, typically showing higher than actual airspeed.",
+      "id": "pyq1",
+      "page_number": 52,
+      "topic_id": "topic-1",
+      "book_id": "cae-oxford-meteorology",
+      "chapter_id": "met-ch2"
+    },
+    {
+      "question_number": "pyq2",
+      "question_text": "What is pressure gradient? How does it affect wind patterns?",
+      "question_type": "Non-MCQ",
+      "book_name": "Unknown Book",
+      "chapter_title": "Unknown Chapter",
+      "chapter_number": null,
+      "source_file": "data/pyq.json",
+      "solution": "Pressure gradient is the rate of change of pressure over distance. Strong gradients create strong winds, while weak gradients produce light winds. Wind flows from high to low pressure areas.",
+      "explanation": "",
+      "answer": "Pressure gradient is the rate of change of pressure over distance. Strong gradients create strong winds, while weak gradients produce light winds. Wind flows from high to low pressure areas.",
+      "id": "pyq2",
+      "page_number": 45,
+      "topic_id": "topic-3",
+      "book_id": "cae-oxford-meteorology",
+      "chapter_id": "met-ch2"
+    }
+  ]
+}

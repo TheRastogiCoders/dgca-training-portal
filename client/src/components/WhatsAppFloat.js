@@ -115,10 +115,10 @@ const WhatsAppFloat = () => {
             <div className="w-2 h-2 bg-white rounded-full"></div>
           </div>
 
-          {/* Tooltip */}
-          <div className="absolute -left-24 top-1/2 transform -translate-y-1/2 bg-gray-900/90 backdrop-blur-sm text-white text-sm font-medium px-3 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap pointer-events-none">
+          {/* Tooltip - Desktop only */}
+          <div className="hidden md:block absolute -left-28 top-1/2 transform -translate-y-1/2 bg-gray-900/95 backdrop-blur-sm text-white text-sm font-medium px-3 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap pointer-events-none z-50 shadow-xl">
             Follow Us! ✨
-            <div className="absolute right-0 top-1/2 transform translate-x-1 -translate-y-1/2 w-0 h-0 border-l-4 border-l-gray-900/90 border-t-4 border-t-transparent border-b-4 border-b-transparent"></div>
+            <div className="absolute right-0 top-1/2 transform translate-x-full -translate-y-1/2 w-0 h-0 border-l-4 border-l-gray-900/95 border-t-4 border-t-transparent border-b-4 border-b-transparent"></div>
           </div>
         </button>
       </div>
