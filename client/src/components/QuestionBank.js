@@ -746,8 +746,27 @@ const radioTelephonyOxfordBooks = [
   }
 ];
 
+const technicalSpecificBooks = [
+  {
+    id: 1,
+    title: "Question Bank",
+    description: "Aircraft type specific PYQ practice for Piper Archer III DX",
+    icon: "✈️",
+    color: "from-purple-500 to-purple-600",
+    slug: "question-bank",
+    totalQuestions: 140,
+    difficulty: "Medium",
+    chapters: [
+      { id: 1, name: "Piper Archer III DX", questions: 140, difficulty: "Medium" }
+    ]
+  }
+];
+
   // Filter books based on selected subject
   const getAvailableBooks = (subject) => {
+    if (subject?.title === "Technical Specific") {
+      return technicalSpecificBooks;
+    }
     if (subject?.title === "Technical General") {
       // First step for Technical General: show only CAE Oxford
       return allBooks.filter(book => book.title === "CAE Oxford");
@@ -771,6 +790,13 @@ const radioTelephonyOxfordBooks = [
 
   const resolveSelectedBook = useMemo(() => {
     if (!selectedSubject) return null;
+
+    if (selectedSubject.title === 'Technical Specific') {
+      const technicalSpecificBook = technicalSpecificBooks.find((book) => book.slug === selectedBookKey);
+      if (technicalSpecificBook) {
+        return sanitizeBook(technicalSpecificBook);
+      }
+    }
 
     // Check special cases first (before direct book match)
     if (selectedSubject.title === 'Air Regulations') {
