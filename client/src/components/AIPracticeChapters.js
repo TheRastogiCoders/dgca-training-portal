@@ -60,7 +60,7 @@ const subjectData = {
   'meteorology': { name: 'Meteorology', icon: '🌤️', color: 'from-yellow-500 to-orange-500' },
   'technical-general': { name: 'Technical General', icon: '⚙️', color: 'from-red-500 to-red-600' },
   'technical-specific': { name: 'Technical Specific', icon: '✈️', color: 'from-purple-500 to-purple-600' },
-  'radio-telephony': { name: 'Radio Telephony', icon: '📻', color: 'from-cyan-500 to-cyan-600' }
+  'radio-telephony': { name: 'Radio Telephony', icon: '🎧', color: 'from-cyan-500 to-cyan-600' }
 };
 
 const bookData = {

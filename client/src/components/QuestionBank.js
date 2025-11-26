@@ -129,7 +129,7 @@ const QuestionBank = () => {
     {
       id: 6,
       title: "Radio Telephony (RTR)-A",
-      icon: "📻",
+      icon: "🎧",
       description: "Radio Communication Procedures",
       color: "from-cyan-500 to-cyan-600",
       totalQuestions: 650,

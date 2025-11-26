@@ -58,7 +58,7 @@ const subjects = [
   { 
     slug: 'radio-telephony', 
     name: 'Radio Telephony (RTR)-A', 
-    icon: '📻', 
+    icon: '🎧', 
     color: 'from-cyan-500 to-cyan-600',
     description: 'Radio Communication Procedures',
     questions: 'Unlimited',
