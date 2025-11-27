@@ -60,7 +60,15 @@ const BookPracticeRunner = () => {
 
   // Clean up duplicate answer labels in explanations (e.g., "A a." -> "A" or "B • b." -> "B")
   const cleanExplanationLabels = (text) => {
-    if (!text) return text;
+    if (text === undefined || text === null) return '';
+    
+    if (typeof text !== 'string') {
+      if (typeof text === 'object') {
+        text = text.text || text.description || text.value || JSON.stringify(text);
+      } else {
+        text = String(text);
+      }
+    }
     
     // Pattern 1: Remove "A a." or "B b." or "C c." or "D d." (space between uppercase and lowercase)
     text = text.replace(/\b([A-F])\s+([a-f])\.?\b/gi, (match, upper, lower) => {
