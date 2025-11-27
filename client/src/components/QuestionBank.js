@@ -1303,7 +1303,7 @@ const technicalSpecificBooks = [
                           ) : (
                             <div className="w-full py-3 px-6 bg-gray-100 text-gray-600 rounded-lg text-center">
                               <p className="text-sm font-medium">
-                                This chapter does not include questions yet. Please check back later.
+                                This chapter does not include questions yet.
                               </p>
                             </div>
                           )}
