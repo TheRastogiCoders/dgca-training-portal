@@ -268,14 +268,14 @@ const SiteSidebar = () => {
               </span>
             </button>
           ) : (
-            <Link 
-              to="/login" 
+              <Link 
+                to="/login" 
               onClick={(e) => {
                 // Ensure navigation works
                 e.stopPropagation();
                 navigate('/login');
               }}
-              title="Login"
+                title="Login" 
               className="flex flex-col items-center justify-center min-w-0 flex-1 max-w-[20%] touch-manipulation active:scale-95 transition-all duration-200 cursor-pointer"
               aria-label="Login"
             >

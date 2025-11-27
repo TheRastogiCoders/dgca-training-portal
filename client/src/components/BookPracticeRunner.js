@@ -232,7 +232,7 @@ const BookPracticeRunner = () => {
 
           const rawExplanation = q.explanation || q.solution || '';
           const cleanedExplanation = cleanExplanationLabels(rawExplanation);
-          
+
           return {
             id: stableId ? String(stableId) : crypto.randomUUID?.() || String(Math.random()),
             text: q.question || q.text || q.question_text,

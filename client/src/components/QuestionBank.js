@@ -33,8 +33,6 @@ const QuestionBank = () => {
   const navigate = useNavigate();
   const [selectedSubjectId, setSelectedSubjectId] = usePersistentState('questionBank:selectedSubjectId', null);
   const [selectedBookKey, setSelectedBookKey] = usePersistentState('questionBank:selectedBookKey', null);
-  const [showComingSoonModal, setShowComingSoonModal] = useState(false);
-  const [clickedChapter, setClickedChapter] = useState(null);
   const [showBookComingSoonModal, setShowBookComingSoonModal] = useState(false);
   const subBooksRef = useRef(null);
   const overviewHighlights = [
@@ -791,11 +789,17 @@ const technicalSpecificBooks = [
   const resolveSelectedBook = useMemo(() => {
     if (!selectedSubject) return null;
 
+    // For Technical Specific, return the book if selected
     if (selectedSubject.title === 'Technical Specific') {
       const technicalSpecificBook = technicalSpecificBooks.find((book) => book.slug === selectedBookKey);
       if (technicalSpecificBook) {
         return sanitizeBook(technicalSpecificBook);
       }
+      // If no book key is set, return the first book to show chapters directly
+      if (technicalSpecificBooks.length > 0) {
+        return sanitizeBook(technicalSpecificBooks[0]);
+      }
+      return null;
     }
 
     // Check special cases first (before direct book match)
@@ -901,14 +905,13 @@ const technicalSpecificBooks = [
   }, [selectedSubject, selectedBookKey, resolveSelectedBook]);
 
   const handleSubjectClick = (subject) => {
-    // For Technical Specific, directly navigate to practice questions
+    // For Technical Specific, set state to show book/chapter selection
     if (subject?.title === 'Technical Specific') {
+      // Auto-select the first (and only) book for Technical Specific
       const technicalSpecificBook = technicalSpecificBooks[0];
-      if (technicalSpecificBook && technicalSpecificBook.chapters && technicalSpecificBook.chapters.length > 0) {
-        const chapter = technicalSpecificBook.chapters[0];
-        const baseSlug = slugifyChapterName(chapter.name || 'piper-archer-iii-dx');
-        const resolvedSlug = resolveChapterSlug(technicalSpecificBook.slug, baseSlug);
-        navigate(`/pyq/book/${technicalSpecificBook.slug}/${resolvedSlug}`);
+      if (technicalSpecificBook) {
+        setSelectedSubjectId(subject?.id ?? null);
+        setSelectedBookKey(technicalSpecificBook.slug);
         return;
       }
     }
@@ -927,47 +930,14 @@ const technicalSpecificBooks = [
   };
 
   const handleChapterClick = (subject, chapter, book) => {
-    // If chapter has no questions, show the coming soon modal
+    // Only navigate if chapter has questions
     if (!chapter.questions) {
-      setClickedChapter({ subject, chapter, book });
-      setShowComingSoonModal(true);
       return;
     }
     
     const baseSlug = slugifyChapterName(chapter?.name || 'overview');
     const resolvedSlug = resolveChapterSlug(book?.slug, baseSlug);
     navigate(`/pyq/book/${book.slug}/${resolvedSlug}`);
-  };
-
-  const handleViewNextChapter = () => {
-    if (!clickedChapter) {
-      setShowComingSoonModal(false);
-      return;
-    }
-
-    const { subject, chapter, book } = clickedChapter;
-    const allChapters = sanitizeChapters(book.chapters) || sanitizeChapters(subject.chapters) || [];
-    const currentIndex = allChapters.findIndex(ch => ch.id === chapter.id);
-    
-    // Find the next chapter with questions
-    let nextChapter = null;
-    for (let i = currentIndex + 1; i < allChapters.length; i++) {
-      if (allChapters[i].questions && allChapters[i].questions > 0) {
-        nextChapter = allChapters[i];
-        break;
-      }
-    }
-
-    setShowComingSoonModal(false);
-    
-    if (nextChapter) {
-      const baseSlug = slugifyChapterName(nextChapter?.name || 'overview');
-      const resolvedSlug = resolveChapterSlug(book?.slug, baseSlug);
-      navigate(`/pyq/book/${book.slug}/${resolvedSlug}`);
-    } else {
-      // If no next chapter with questions, just close the modal
-      setClickedChapter(null);
-    }
   };
 
   const handleBackToSubjects = () => {
@@ -1294,11 +1264,6 @@ const technicalSpecificBooks = [
                           <div className="flex-1">
                             <div className="flex items-center gap-2 mb-2">
                               <h3 className="text-lg font-bold text-gray-900">{chapter.name}</h3>
-                              {!chapter.questions && (
-                                <span className="px-2 py-1 bg-amber-100 text-amber-800 text-xs font-semibold rounded-full border border-amber-300">
-                                  Coming Soon
-                                </span>
-                              )}
                             </div>
                             <div className="flex items-center space-x-4 text-sm text-gray-600">
                               <span className="flex items-center">
@@ -1324,20 +1289,24 @@ const technicalSpecificBooks = [
                         </div>
 
                         <div className="flex justify-center">
-                          <button
-                            onClick={() => handleChapterClick(selectedSubject, chapter, resolveSelectedBook)}
-                            className={`w-full py-3 px-6 font-semibold rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all duration-200 transform ${
-                              chapter.questions
-                                ? `bg-gradient-to-r ${resolveSelectedBook.color} text-white hover:shadow-lg hover:scale-[1.02]`
-                                : 'bg-amber-100 text-amber-700 hover:bg-amber-200 hover:shadow-md cursor-pointer'
-                            }`}
-                            title={chapter.questions ? `Practice with ${resolveSelectedBook.title}` : 'Click to view details'}
-                          >
-                            <div className="flex items-center justify-center">
-                              <span className="mr-2">{resolveSelectedBook.icon}</span>
-                              {chapter.questions ? 'Start Practice' : 'Coming Soon'}
+                          {chapter.questions ? (
+                            <button
+                              onClick={() => handleChapterClick(selectedSubject, chapter, resolveSelectedBook)}
+                              className={`w-full py-3 px-6 font-semibold rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all duration-200 transform bg-gradient-to-r ${resolveSelectedBook.color} text-white hover:shadow-lg hover:scale-[1.02]`}
+                              title={`Practice with ${resolveSelectedBook.title}`}
+                            >
+                              <div className="flex items-center justify-center">
+                                <span className="mr-2">{resolveSelectedBook.icon}</span>
+                                Start Practice
+                              </div>
+                            </button>
+                          ) : (
+                            <div className="w-full py-3 px-6 bg-gray-100 text-gray-600 rounded-lg text-center">
+                              <p className="text-sm font-medium">
+                                This chapter does not include questions yet. Please check back later.
+                              </p>
                             </div>
-                          </button>
+                          )}
                         </div>
                       </Card>
                     ))}
@@ -1349,41 +1318,6 @@ const technicalSpecificBooks = [
           </div>
         </main>
       </div>
-
-      {/* Coming Soon Modal */}
-      <Modal
-        open={showComingSoonModal}
-        onClose={() => {
-          setShowComingSoonModal(false);
-          setClickedChapter(null);
-        }}
-        title="Chapter Coming Soon"
-        footer={
-          <>
-            <button
-              onClick={() => {
-                setShowComingSoonModal(false);
-                setClickedChapter(null);
-              }}
-              className="px-4 py-2 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors"
-            >
-              Cancel
-            </button>
-            <button
-              onClick={handleViewNextChapter}
-              className={`px-6 py-2 bg-gradient-to-r ${clickedChapter?.book?.color || 'from-blue-500 to-blue-600'} text-white rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-105`}
-            >
-              View Next Chapter
-            </button>
-          </>
-        }
-      >
-        <div className="py-4">
-          <p className="text-gray-700">
-            This chapter does not include questions. Would you like to view the next chapter?
-          </p>
-        </div>
-      </Modal>
 
       {/* RK Bali Coming Soon Modal */}
       <Modal
