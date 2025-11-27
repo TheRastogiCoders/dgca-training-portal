@@ -647,7 +647,17 @@ const BookPracticeRunner = () => {
                     {(() => {
                       const labels = ['a', 'b', 'c', 'd', 'e', 'f'];
                       const correctIndex = labels.indexOf(String(q.correctLabel).toLowerCase());
-                      let correctOption = correctIndex >= 0 ? q.options[correctIndex] : '';
+                      const rawOption = correctIndex >= 0 ? q.options[correctIndex] : '';
+                      let correctOption = '';
+                      if (rawOption !== undefined && rawOption !== null) {
+                        if (typeof rawOption === 'string') {
+                          correctOption = rawOption;
+                        } else if (typeof rawOption === 'object') {
+                          correctOption = rawOption.text || rawOption.label || '';
+                        } else {
+                          correctOption = String(rawOption);
+                        }
+                      }
                       
                       // Clean the option text to remove duplicate labels (e.g., "c. QFE" or "C • c. QFE" -> "QFE")
                       if (correctOption) {

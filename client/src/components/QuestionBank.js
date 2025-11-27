@@ -1272,18 +1272,6 @@ const technicalSpecificBooks = [
                                 </svg>
                                 {chapter.questions ? `${chapter.questions} questions` : 'Chapter overview'}
                               </span>
-                        {(Number.isFinite(chapter.pageStart) || Number.isFinite(chapter.pageEnd)) && (
-                          <span className="flex items-center">
-                            <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
-                              <path d="M4 3a2 2 0 00-2 2v11.5A1.5 1.5 0 003.5 18H15a3 3 0 003-3V5a2 2 0 00-2-2H4zm0 2h12v10a1 1 0 01-1 1H4V5zm3 2v2h6V7H7zm0 4v2h6v-2H7z" />
-                            </svg>
-                            {Number.isFinite(chapter.pageStart) && Number.isFinite(chapter.pageEnd)
-                              ? `Pages ${chapter.pageStart}–${chapter.pageEnd}`
-                              : Number.isFinite(chapter.pageStart)
-                              ? `Page ${chapter.pageStart}+`
-                              : `Up to page ${chapter.pageEnd}`}
-                          </span>
-                        )}
                             </div>
                           </div>
                         </div>
