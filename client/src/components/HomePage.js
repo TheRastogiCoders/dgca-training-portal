@@ -1,431 +1,376 @@
-import React, { useMemo, useState, useEffect, useRef } from 'react';
+import React, { useMemo, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
 import { API_ENDPOINTS } from '../config/api';
-import debugLog from '../utils/debug';
 
-const HomePage = () => {
-  return (
-    <div className="min-h-screen gradient-bg">
-      <div className="flex">
-        {/* Sidebar */}
-        <SiteSidebar />
+const TOTAL_CHAPTERS = 78;
 
-        {/* Main Content */}
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-24 md:pb-8 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
-          <div className="max-w-6xl mx-auto space-y-6 md:space-y-8">
-            <MainHero />
-          </div>
-        </main>
-      </div>
+const HomePage = () => (
+  <div className="min-h-screen gradient-bg">
+    <div className="flex">
+      <SiteSidebar />
+      <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-24 md:pb-8 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
+        <div className="max-w-6xl mx-auto space-y-10">
+          <DashboardOverview />
+        </div>
+      </main>
     </div>
-  );
-};
+  </div>
+);
 
 export default HomePage;
 
-const MainHero = () => {
+const DashboardOverview = () => {
   const { user } = useAuth();
+  const [statsLoading, setStatsLoading] = useState(true);
+  const [comingSoonLink, setComingSoonLink] = useState(null);
+  const [dashboardStats, setDashboardStats] = useState({
+    chaptersCompleted: 0,
+    chaptersThisWeek: 0,
+    totalChapters: TOTAL_CHAPTERS,
+    accuracy: 0,
+    accuracyLatest: 0,
+    testsAttempted: 0,
+    testsThisWeek: 0,
+    studyHours: 0,
+    studyHoursThisWeek: 0
+  });
 
-  // Extract user's first name (from username or email)
   const firstName = useMemo(() => {
     const raw = user?.username || user?.email || '';
     if (!raw) return '';
     return raw.split(/[\s@._-]+/)[0];
   }, [user]);
 
-  const [prompt, setPrompt] = useState('');
-  const [sending, setSending] = useState(false);
-  const [suggestions, setSuggestions] = useState([]);
-  const [showSuggestions, setShowSuggestions] = useState(false);
-  const [selectedSuggestion, setSelectedSuggestion] = useState(null);
-  const [answer, setAnswer] = useState(null);
-  const [loadingSuggestions, setLoadingSuggestions] = useState(false);
-  const suggestionTimeoutRef = useRef(null);
-  const searchInputRef = useRef(null);
-  const suggestionsRef = useRef(null);
-
-  const normalize = (text) => (text || '').trim();
-
-  // Fetch suggestions with debouncing (200ms)
   useEffect(() => {
-    if (suggestionTimeoutRef.current) {
-      clearTimeout(suggestionTimeoutRef.current);
-    }
+    let isMounted = true;
 
-    if (prompt.length < 2) {
-      setSuggestions([]);
-      setShowSuggestions(false);
-      return;
-    }
-
-    suggestionTimeoutRef.current = setTimeout(async () => {
-      setLoadingSuggestions(true);
+    const fetchStats = async () => {
+      if (!user) {
+        setDashboardStats(calculateDashboardStats([]));
+        setStatsLoading(false);
+        return;
+      }
+      setStatsLoading(true);
       try {
-        const res = await fetch(`${API_ENDPOINTS.SEARCH_SUGGEST}?q=${encodeURIComponent(prompt)}`);
+        const token = localStorage.getItem('token');
+        if (!token) {
+          setDashboardStats(prev => ({ ...prev }));
+          return;
+        }
+
+        const res = await fetch(API_ENDPOINTS.RESULTS, {
+          headers: {
+            Authorization: `Bearer ${token}`
+          }
+        });
+
+        if (!res.ok) {
+          throw new Error('Failed to load stats');
+        }
+
         const data = await res.json();
-        setSuggestions(data.suggestions || []);
-        setShowSuggestions(true);
+        if (!isMounted) return;
+        setDashboardStats(calculateDashboardStats(data));
       } catch (error) {
-        console.error('Error fetching suggestions:', error);
-        setSuggestions([]);
+        console.error('Failed to fetch dashboard stats:', error);
+        if (isMounted) {
+          setDashboardStats(prev => ({ ...prev }));
+        }
       } finally {
-        setLoadingSuggestions(false);
+        if (isMounted) {
+          setStatsLoading(false);
+        }
       }
-    }, 200);
+    };
 
+    fetchStats();
     return () => {
-      if (suggestionTimeoutRef.current) {
-        clearTimeout(suggestionTimeoutRef.current);
-      }
+      isMounted = false;
     };
-  }, [prompt]);
+  }, [user]);
 
-  // Close suggestions when clicking outside
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (
-        suggestionsRef.current &&
-        !suggestionsRef.current.contains(event.target) &&
-        searchInputRef.current &&
-        !searchInputRef.current.contains(event.target)
-      ) {
-        setShowSuggestions(false);
-      }
-    };
+  const quickLinks = [
+    { title: 'Question Bank', description: 'Master subjects chapter by chapter', icon: '📚', color: 'from-purple-500 to-indigo-500', to: '/question-bank', isAvailable: true },
+    { title: 'PYQs', description: 'Practice recent exam questions', icon: '🎯', color: 'from-blue-500 to-cyan-500', to: '/pyq', isAvailable: false },
+    { title: 'Mock Tests', description: 'Simulate exam conditions', icon: '🧠', color: 'from-pink-500 to-rose-500', to: '/pyq', isAvailable: false },
+    { title: 'Library', description: 'Access study notes & PDFs', icon: '📄', color: 'from-green-500 to-emerald-500', to: '/library', isAvailable: false },
+    { title: 'Video Lessons', description: 'Watch concept explainers', icon: '🎥', color: 'from-orange-500 to-amber-500', to: '/videos', isAvailable: false },
+    { title: 'Progress Report', description: 'Track your readiness', icon: '📊', color: 'from-indigo-500 to-sky-500', to: '/profile', isAvailable: false }
+  ];
 
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
-  }, []);
-
-  const handleSuggestionClick = (suggestion) => {
-    setSelectedSuggestion(suggestion);
-    setPrompt(suggestion.text);
-    setShowSuggestions(false);
-    handleAsk(suggestion.id, suggestion.type);
+  const continueLearning = {
+    title: 'Piper Archer III DX',
+    chapter: 'Propeller Control & Limits',
+    subject: 'Technical Specific',
+    progress: 72,
+    to: '/pyq/book/question-bank/piper-archer-iii-dx'
   };
 
-  const handleAsk = async (suggestionId = null, suggestionType = null) => {
-    const query = normalize(prompt);
-    if (!query) return;
+  const announcements = [
+    { title: 'New PYQ Set Added', detail: 'November 2025 Air Navigation PYQs are now live.', badge: 'New' },
+    { title: 'Mock Test Marathon', detail: 'Join the weekend mock series to boost your accuracy.', badge: 'Event' }
+  ];
 
-    setSending(true);
-    setAnswer(null);
-    setShowSuggestions(false);
-    
-    try {
-      debugLog('Fetching answer from:', API_ENDPOINTS.SEARCH_ASK);
-      debugLog('Request body:', {
-        query,
-        suggestionId: suggestionId || selectedSuggestion?.id,
-        suggestionType: suggestionType || selectedSuggestion?.type
-      });
-      
-      const res = await fetch(API_ENDPOINTS.SEARCH_ASK, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          query,
-          suggestionId: suggestionId || selectedSuggestion?.id,
-          suggestionType: suggestionType || selectedSuggestion?.type
-        })
-      });
-      
-      debugLog('Response status:', res.status);
-      
-      if (!res.ok) {
-        const errorText = await res.text();
-        console.error('Response error:', errorText);
-        throw new Error(`Server error: ${res.status} - ${errorText}`);
+  const statCards = useMemo(
+    () => [
+      {
+        label: 'Chapters Completed',
+        value: statsLoading ? '—' : `${dashboardStats.chaptersCompleted} / ${dashboardStats.totalChapters}`,
+        trend: statsLoading
+          ? 'Syncing...'
+          : dashboardStats.chaptersThisWeek
+            ? `+${dashboardStats.chaptersThisWeek} this week`
+            : 'No new chapters this week'
+      },
+      {
+        label: 'Accuracy',
+        value: statsLoading ? '—' : `${dashboardStats.accuracy}%`,
+        trend: statsLoading
+          ? 'Syncing...'
+          : dashboardStats.testsAttempted
+            ? `Last test ${dashboardStats.accuracyLatest}%`
+            : 'Attempt a test to track'
+      },
+      {
+        label: 'Tests Attempted',
+        value: statsLoading ? '—' : dashboardStats.testsAttempted,
+        trend: statsLoading
+          ? 'Syncing...'
+          : dashboardStats.testsThisWeek
+            ? `${dashboardStats.testsThisWeek} this week`
+            : 'No tests this week'
+      },
+      {
+        label: 'Study Time',
+        value: statsLoading ? '—' : `${dashboardStats.studyHours} hrs`,
+        trend: statsLoading
+          ? 'Syncing...'
+          : dashboardStats.studyHoursThisWeek
+            ? `+${dashboardStats.studyHoursThisWeek} hrs this week`
+            : 'No tracked time yet'
       }
-      
-      const data = await res.json();
-      debugLog('Response data:', data);
-      setAnswer(data);
-    } catch (error) {
-      console.error('Error fetching answer:', error);
-      setAnswer({
-        title: 'Error',
-        simpleExplanation: `Failed to fetch answer: ${error.message}. Please make sure the server is running and try again.`,
-        detailedExplanation: error.stack || '',
-        examples: [],
-        formulas: [],
-        bookReferences: [],
-        relatedPYQs: [],
-        relatedSubtopics: []
-      });
-    } finally {
-      setSending(false);
-    }
-  };
-
-  const handleSend = async (e) => {
-    if (e) e.preventDefault();
-    await handleAsk();
-  };
+    ],
+    [dashboardStats, statsLoading]
+  );
 
   return (
-    <div className="px-4 md:px-8 flex flex-col items-center justify-center min-h-[calc(100vh-12rem)] md:min-h-[calc(100vh-8rem)] pb-20 md:pb-8 w-full">
-      <div className="max-w-3xl text-center w-full">
-        <h1 className="text-2xl md:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight">
-          <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-            Hey,
-          </span>{' '}
-          <span className="text-gray-900">
-            {firstName}
-          </span>
-        </h1>
-      </div>
+    <div className="space-y-10">
+      <section className="relative bg-white/10 backdrop-blur-3xl rounded-3xl border border-white/25 shadow-2xl p-6 md:p-10 overflow-hidden">
+        <div className="absolute -right-10 top-0 w-40 h-40 bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-500 opacity-40 blur-[90px] animate-pulse" />
+        <div className="absolute -left-6 -bottom-10 w-48 h-48 bg-gradient-to-br from-cyan-400 to-blue-500 opacity-30 blur-[120px] animate-ping" />
 
+        <div className="relative flex flex-col gap-6">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.5em] text-blue-500">Dashboard</p>
+            <h1 className="text-3xl md:text-5xl font-black text-gray-900 mt-4 flex items-center gap-3">
+              Welcome to VIMAANNA
+              <span className="inline-flex items-center justify-center w-10 h-10 rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-500 text-white animate-bounce shadow-lg">
+                ✈️
+              </span>
+            </h1>
+            <p className="text-base md:text-lg text-gray-500 font-semibold mt-2 tracking-[0.4em] uppercase">
+              Wings within reach
+            </p>
+            <p className="text-gray-600 mt-4 max-w-3xl leading-relaxed">
+              Hey, <span className="font-semibold text-blue-600">{firstName || 'Pilot'}</span>. Stay mission-ready with curated study flows,
+              beautiful analytics, and everything you need to clear your next DGCA attempt with confidence.
+            </p>
+          </div>
 
-      {/* Answer Display */}
-      {answer && (
-        <div className="mt-6 w-full max-w-4xl mx-auto px-4 md:px-0">
-          <div className="bg-white/90 backdrop-blur-md rounded-2xl shadow-xl p-6 md:p-8 border border-gray-200">
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">{answer.title}</h2>
-            
-            {answer.simpleExplanation && (
-              <div className="mb-6">
-                <h3 className="text-lg font-semibold text-gray-700 mb-2">Quick Answer</h3>
-                <p className="text-gray-700 leading-relaxed">{answer.simpleExplanation}</p>
-              </div>
-            )}
+            <div className="flex flex-wrap gap-4">
+              <Link
+                to="/question-bank"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold shadow-lg hover:shadow-xl transition"
+              >
+                Start practicing
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+              <Link
+                to="/pyq"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-full border border-blue-200 text-blue-600 font-semibold bg-white/40 backdrop-blur hover:bg-white/60 transition"
+              >
+                Review PYQs
+              </Link>
+            </div>
+        </div>
 
-            {answer.detailedExplanation && (
-              <div className="mb-6">
-                <h3 className="text-lg font-semibold text-gray-700 mb-2">Detailed Explanation</h3>
-                <div className="text-gray-700 leading-relaxed whitespace-pre-wrap">{answer.detailedExplanation}</div>
-              </div>
-            )}
+        <div className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
+          {statCards.map((stat) => (
+            <div
+              key={stat.label}
+              className="bg-white/10 backdrop-blur-2xl rounded-2xl border border-white/20 p-4 shadow-lg hover:shadow-xl transition"
+            >
+              <p className="text-xs font-semibold tracking-wide text-gray-500 uppercase">{stat.label}</p>
+              <p className="text-2xl md:text-3xl font-bold text-gray-900 mt-3">{stat.value}</p>
+              <p className="text-sm text-emerald-600 mt-1">{stat.trend}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
-            {answer.formulas && answer.formulas.length > 0 && (
-              <div className="mb-6">
-                <h3 className="text-lg font-semibold text-gray-700 mb-2">Formulas</h3>
-                <div className="space-y-3">
-                  {answer.formulas.map((formula, idx) => (
-                    <div key={idx} className="bg-gray-50 p-4 rounded-lg border-l-4 border-blue-500">
-                      <div className="font-mono text-gray-800 mb-1">{formula.formula}</div>
-                      {formula.description && (
-                        <div className="text-sm text-gray-600">{formula.description}</div>
-                      )}
-                    </div>
-                  ))}
+      <section className="bg-white/10 backdrop-blur-2xl rounded-3xl border border-white/25 shadow-xl p-6 md:p-8">
+        <div className="flex items-center justify-between mb-6">
+          <div>
+            <h2 className="text-2xl font-bold text-gray-900">Launchpad</h2>
+            <p className="text-gray-600">Jump quickly to the most-used areas.</p>
+          </div>
+          <Link to="/pyq" className="text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors">
+            View all areas →
+          </Link>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {quickLinks.map((link) => {
+            const CardTag = link.isAvailable ? Link : 'button';
+            const cardProps = link.isAvailable
+              ? { to: link.to }
+              : {
+                  type: 'button',
+                  onClick: () => setComingSoonLink(link),
+                  'aria-label': `${link.title} coming soon`
+                };
+            const baseClasses =
+              'flex flex-col gap-3 p-5 rounded-2xl border border-white/15 bg-white/5 backdrop-blur-2xl shadow-lg transition-all w-full text-left';
+
+            return (
+              <CardTag
+                key={link.title}
+                className={`${baseClasses} ${
+                  link.isAvailable ? 'cursor-pointer hover:shadow-2xl hover:-translate-y-0.5' : 'cursor-not-allowed opacity-90'
+                }`}
+                {...cardProps}
+              >
+                <div className={`w-12 h-12 rounded-2xl bg-gradient-to-r ${link.color} text-white flex items-center justify-center text-xl shadow-lg`}>
+                  {link.icon}
                 </div>
-              </div>
-            )}
-
-            {answer.examples && answer.examples.length > 0 && (
-              <div className="mb-6">
-                <h3 className="text-lg font-semibold text-gray-700 mb-2">Examples</h3>
-                <ul className="list-disc list-inside space-y-2 text-gray-700">
-                  {answer.examples.map((example, idx) => (
-                    <li key={idx}>{example}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-
-            {answer.bookReferences && answer.bookReferences.length > 0 && (
-              <div className="mb-6">
-                <h3 className="text-lg font-semibold text-gray-700 mb-2">Book Reference</h3>
-                <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
-                  {answer.bookReferences.map((ref, idx) => (
-                    <div key={idx} className="text-gray-700">
-                      <div className="font-semibold">{ref.bookName}</div>
-                      {ref.author && <div className="text-sm text-gray-600">by {ref.author}</div>}
-                      <div className="text-sm text-gray-600 mt-1">
-                        {ref.chapterName} - Page {ref.pageNumber}
-                      </div>
-                    </div>
-                  ))}
+                <div>
+                  <p className="text-lg font-semibold text-gray-900 flex items-center gap-2">
+                    {link.title}
+                    {!link.isAvailable && (
+                      <span className="text-[11px] font-bold uppercase tracking-wide text-blue-500 bg-white/40 px-2 py-0.5 rounded-full">
+                        Soon
+                      </span>
+                    )}
+                  </p>
+                  <p className="text-sm text-gray-600">{link.description}</p>
                 </div>
-              </div>
-            )}
-
-            {answer.relatedPYQs && answer.relatedPYQs.length > 0 && (
-              <div className="mb-6">
-                <h3 className="text-lg font-semibold text-gray-700 mb-2">Related PYQs</h3>
-                <div className="space-y-4">
-                  {answer.relatedPYQs.map((pyq, idx) => (
-                    <div key={idx} className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-500">
-                      <div className="flex items-center gap-2 mb-2">
-                        <span className="text-xs font-semibold text-yellow-700 bg-yellow-200 px-2 py-1 rounded">
-                          {pyq.exam} {pyq.year}
-                        </span>
-                        {pyq.marks && (
-                          <span className="text-xs text-gray-600">({pyq.marks} marks)</span>
-                        )}
-                      </div>
-                      <div className="font-semibold text-gray-800 mb-1">{pyq.question}</div>
-                      <div className="text-sm text-gray-700">{pyq.answer}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {answer.relatedQuestions && answer.relatedQuestions.length > 0 && (
-              <div className="mb-6">
-                <h3 className="text-lg font-semibold text-gray-700 mb-2">Related Practice Questions</h3>
-                <div className="space-y-3">
-                  {answer.relatedQuestions.map((q, idx) => (
-                    <div key={idx} className="bg-green-50 p-4 rounded-lg border-l-4 border-green-500">
-                      <div className="font-semibold text-gray-800 mb-2">{q.question}</div>
-                      {q.options && q.options.length > 0 && (
-                        <div className="text-sm text-gray-600 mb-2 space-y-1">
-                          {q.options.map((opt, optIdx) => (
-                            <div key={optIdx}>{opt}</div>
-                          ))}
-                        </div>
-                      )}
-                      {q.answer && (
-                        <div className="text-sm font-medium text-green-700 mt-2">
-                          Answer: {q.answer}
-                        </div>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {answer.relatedSubtopics && answer.relatedSubtopics.length > 0 && (
-              <div className="mb-6">
-                <h3 className="text-lg font-semibold text-gray-700 mb-2">Related Topics</h3>
-                <div className="flex flex-wrap gap-2">
-                  {answer.relatedSubtopics.map((topic, idx) => (
-                    <span
-                      key={idx}
-                      className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm cursor-pointer hover:bg-purple-200 transition-colors"
-                      onClick={() => {
-                        setPrompt(topic.title);
-                        handleAsk(topic.id, 'topic');
-                      }}
-                    >
-                      {topic.title}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            )}
+                <span className="text-sm font-medium text-blue-600 flex items-center gap-1">
+                  {link.isAvailable ? 'Open' : 'Notify me'}
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+              </CardTag>
+            );
+          })}
+        </div>
+      </section>
+      {comingSoonLink && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center">
+          <div className="absolute inset-0 bg-slate-900/60 backdrop-blur-sm" onClick={() => setComingSoonLink(null)} />
+          <div className="relative bg-white/10 border border-white/20 backdrop-blur-2xl rounded-3xl shadow-2xl p-8 max-w-sm mx-4 text-center space-y-4">
+            <span className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-500 text-white text-2xl shadow-lg">
+              ✈️
+            </span>
+            <div className="space-y-2">
+              <p className="text-sm uppercase tracking-[0.3em] text-blue-400 font-semibold">Coming Soon</p>
+              <h3 className="text-2xl font-bold text-white">{comingSoonLink.title}</h3>
+              <p className="text-sm text-blue-50/80">
+                We are polishing this experience. Hang tight—{comingSoonLink.title} will take off shortly!
+              </p>
+            </div>
+            <button
+              type="button"
+              onClick={() => setComingSoonLink(null)}
+              className="w-full px-4 py-3 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold shadow-lg hover:shadow-xl transition"
+            >
+              Got it
+            </button>
           </div>
         </div>
       )}
-
-      {/* Search Interface */}
-      <div className="mt-8 w-full px-4 md:px-0">
-        <form
-          onSubmit={handleSend}
-          className="relative max-w-4xl mx-auto"
-        >
-          <div className="relative">
-            <div className="flex items-center bg-white/30 backdrop-blur-md rounded-full border border-white/40 shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300">
-              <input
-                ref={searchInputRef}
-                type="text"
-                value={prompt}
-                onChange={(e) => {
-                  setPrompt(e.target.value);
-                  setSelectedSuggestion(null);
-                  setAnswer(null);
-                }}
-                placeholder="Ask Doubt?"
-                className="flex-1 px-4 md:px-8 py-3 md:py-6 bg-transparent focus:outline-none text-gray-800 text-sm md:text-lg placeholder-gray-400 min-w-0"
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter') {
-                    e.preventDefault();
-                    handleSend();
-                  } else if (e.key === 'ArrowDown' && suggestions.length > 0) {
-                    e.preventDefault();
-                    // Focus first suggestion
-                  } else if (e.key === 'Escape') {
-                    setShowSuggestions(false);
-                  }
-                }}
-                onFocus={() => {
-                  if (suggestions.length > 0) {
-                    setShowSuggestions(true);
-                  }
-                }}
-              />
-              <div className="px-2 md:px-6 flex-shrink-0">
-                <button
-                  type="submit"
-                  disabled={sending || !prompt.trim()}
-                  className="w-8 h-8 md:w-12 md:h-12 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full flex items-center justify-center text-white hover:from-blue-700 hover:to-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-lg hover:shadow-xl"
-                  aria-label="Send"
-                >
-                  {sending ? (
-                    <div className="w-3 h-3 md:w-5 md:h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                  ) : (
-                    <svg
-                      className="w-4 h-4 md:w-6 md:h-6"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                    </svg>
-                  )}
-                </button>
-              </div>
-            </div>
-
-            {/* Suggestions Dropdown */}
-            {showSuggestions && suggestions.length > 0 && (
-              <div
-                ref={suggestionsRef}
-                className="absolute z-50 w-full mt-2 bg-white rounded-lg shadow-2xl border border-gray-200 max-h-80 overflow-y-auto"
-              >
-                {loadingSuggestions && (
-                  <div className="p-4 text-center text-gray-500">Loading suggestions...</div>
-                )}
-                {!loadingSuggestions && suggestions.map((suggestion, idx) => (
-                  <button
-                    key={idx}
-                    type="button"
-                    onClick={() => handleSuggestionClick(suggestion)}
-                    className="w-full text-left px-4 py-3 hover:bg-blue-50 transition-colors border-b border-gray-100 last:border-b-0"
-                  >
-                    <div className="flex items-center gap-2">
-                      <svg className="w-4 h-4 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                      </svg>
-                      <span className="text-gray-800 text-sm md:text-base">{suggestion.text}</span>
-                    </div>
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
-        </form>
-
-        {/* Contact Support Link */}
-        <div className="mt-4 flex justify-center">
-          <Link 
-            to="/support/contact" 
-            className="text-sm text-gray-600 hover:text-blue-600 font-medium transition-colors flex items-center gap-2 group"
-          >
-            <svg 
-              className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" 
-              fill="none" 
-              stroke="currentColor" 
-              viewBox="0 0 24 24"
-            >
-              <path 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-                strokeWidth={2} 
-                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" 
-              />
-            </svg>
-            Contact Support
-          </Link>
-        </div>
-      </div>
     </div>
   );
 };
+
+function calculateDashboardStats(results = []) {
+  const stats = {
+    chaptersCompleted: 0,
+    chaptersThisWeek: 0,
+    totalChapters: TOTAL_CHAPTERS,
+    accuracy: 0,
+    accuracyLatest: 0,
+    testsAttempted: 0,
+    testsThisWeek: 0,
+    studyHours: 0,
+    studyHoursThisWeek: 0
+  };
+
+  if (!Array.isArray(results) || results.length === 0) {
+    return stats;
+  }
+
+  const weekAgo = new Date();
+  weekAgo.setDate(weekAgo.getDate() - 7);
+
+  const chaptersAll = new Set();
+  const chaptersWeek = new Set();
+  let totalPercent = 0;
+  let attemptsWithScore = 0;
+  let totalSeconds = 0;
+  let weekSeconds = 0;
+  let testsThisWeek = 0;
+
+  const percentOf = (score, total) => {
+    if (!total) return 0;
+    return (score / total) * 100;
+  };
+
+  results.forEach((result) => {
+    const completedAt = result?.createdAt ? new Date(result.createdAt) : null;
+    const percent = percentOf(result?.score || 0, result?.total || 0);
+    if (Number.isFinite(percent)) {
+      totalPercent += percent;
+      attemptsWithScore += 1;
+    }
+
+    totalSeconds += result?.timeSpent || 0;
+
+    const chapterLabel = result?.chapterName || result?.chapter?.name;
+    if (chapterLabel) {
+      chaptersAll.add(chapterLabel);
+    }
+
+    if (completedAt && completedAt >= weekAgo) {
+      testsThisWeek += 1;
+      weekSeconds += result?.timeSpent || 0;
+      if (chapterLabel) {
+        chaptersWeek.add(chapterLabel);
+      }
+    }
+  });
+
+  const averagePercent = attemptsWithScore ? Math.round((totalPercent / attemptsWithScore) * 10) / 10 : 0;
+  const latestPercent = results[0] ? Math.round(percentOf(results[0].score || 0, results[0].total || 0)) : 0;
+
+  return {
+    chaptersCompleted: chaptersAll.size,
+    chaptersThisWeek: chaptersWeek.size,
+    totalChapters: TOTAL_CHAPTERS,
+    accuracy: averagePercent,
+    accuracyLatest: latestPercent,
+    testsAttempted: results.length,
+    testsThisWeek,
+    studyHours: roundOneDecimal(totalSeconds / 3600),
+    studyHoursThisWeek: roundOneDecimal(weekSeconds / 3600)
+  };
+}
+
+function roundOneDecimal(value) {
+  const rounded = Math.round(value * 10) / 10;
+  return Number.isFinite(rounded) ? rounded : 0;
+}
+

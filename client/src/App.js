@@ -29,7 +29,14 @@ const Profile = lazy(() => import('./components/Profile'));
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+
+    const appShell = document.querySelector('.App');
+    if (appShell) {
+      appShell.scrollTop = 0;
+    }
   }, [pathname]);
   return null;
 }

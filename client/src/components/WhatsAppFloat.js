@@ -86,12 +86,12 @@ const WhatsAppFloat = () => {
         {/* 💬 WhatsApp Floating Button */}
         <button
           onClick={handleWhatsAppClick}
-          className="fab-btn whatsapp-float group relative flex items-center justify-center w-12 h-12 md:w-14 md:h-14 bg-gradient-to-r from-green-500 to-green-600 rounded-full shadow-2xl hover:shadow-green-500/25 transition-transform duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-green-500/30"
+          className="fab-btn whatsapp-float group relative flex items-center justify-center w-16 h-16 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-full shadow-2xl hover:shadow-green-500/25 transition-transform duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-green-500/30"
           aria-label="Follow us on WhatsApp"
           title="Follow us on WhatsApp Channel"
         >
           <svg
-            className="w-5 h-5 md:w-7 md:h-7 text-white transition-transform duration-300 group-hover:scale-110 animate-pulse"
+            className="w-5 h-5 md:w-7 md:h-7 lg:w-8 lg:h-8 text-white transition-transform duration-300 group-hover:scale-110 animate-pulse"
             fill="currentColor"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
