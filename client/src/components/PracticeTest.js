@@ -11,12 +11,6 @@ const PracticeTest = () => {
   const [results, setResults] = useState([]);
   const [loadingResults, setLoadingResults] = useState(false);
 
-  const flowSteps = [
-    { label: 'PYQs', detail: 'Kick off practice' },
-    { label: 'Subjects', detail: 'Pick focus area' },
-    { label: 'Sessions', detail: 'Tune settings' },
-    { label: 'Questions', detail: 'Solve & review' }
-  ];
 
   const testTypes = [
     {
