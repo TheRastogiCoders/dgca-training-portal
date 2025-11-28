@@ -393,8 +393,8 @@ const PracticeTest = () => {
                   <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4">How it works</h3>
                   <ol className="space-y-2 sm:space-y-3 text-xs sm:text-sm md:text-base text-gray-700 list-decimal list-inside">
                     <li className="pl-1 sm:pl-2 leading-relaxed">Click "Start PYQ Practice" and select your subject or book</li>
-                    <li className="pl-1 sm:pl-2 leading-relaxed">Choose your chapter and configure practice settings</li>
-                    <li className="pl-1 sm:pl-2 leading-relaxed">Answer questions and review explanations to improve</li>
+                    <li className="pl-1 sm:pl-2 leading-relaxed">Choose your chapter and start practicing</li>
+                    <li className="pl-1 sm:pl-2 leading-relaxed">Login to view your progress and performance insights on your profile</li>
                   </ol>
                 </Card>
               </div>
