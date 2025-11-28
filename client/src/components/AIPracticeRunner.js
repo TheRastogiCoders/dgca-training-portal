@@ -5,6 +5,9 @@ import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 import Modal from './ui/Modal';
 import debugLog from '../utils/debug';
+import regularMarch2024Data from '../data/meteorology-regular-march-2024.json';
+import regularDecemberAttemptData from '../data/meteorology-regular-december-attempt.json';
+import regularSep2023Data from '../data/meteorology-regular-sep-2023.json';
 
 const friendly = (slug) => (slug || '')
   .split('-')
@@ -136,204 +139,31 @@ const questionBank = {
 
 const sessionQuestionSets = {
   'regular-march-2024': {
-    bookName: 'Regular March 2024 Quiz',
-    chapterName: 'Quiz Questions',
-    questions: [
-      {
-        text: 'In the southern hemisphere, if an observer faces the wind, the low will be to his:',
-        options: ['Right', 'Left'],
-        answer: 'Right'
-      },
-      {
-        text: 'Sea breeze sets in by ___ and dies off at ___.',
-        options: ['Night / Day', 'Day / Night', 'Both day and night'],
-        answer: 'Day / Night'
-      },
-      {
-        text: 'The wind blows anticlockwise around a low in the northern hemisphere.',
-        options: ['True', 'False'],
-        answer: 'True'
-      },
-      {
-        text: 'The wind blows anticlockwise around a low in the southern hemisphere.',
-        options: ['True', 'False'],
-        answer: 'False'
-      },
-      {
-        text: 'Gradient wind is ___ of the geostrophic wind in an anticyclone.',
-        options: ['Under estimate', 'Accurate', 'Over estimate'],
-        answer: 'Under estimate'
-      },
-      {
-        text: 'Upper-level wind is 240/25 kt, lower-level wind is 060/15 kt. What is the thermal wind?',
-        options: ['160/10 kt', '240/40 kt', '240/10 kt'],
-        answer: '240/40 kt'
-      },
-      {
-        text: 'Height of the tropopause:',
-        options: ['Is constant', 'Varies with altitude', 'Varies with latitude'],
-        answer: 'Varies with latitude'
-      },
-      {
-        text: 'As the temperature of the air increases, the amount of water vapour required to saturate it:',
-        options: ['Decreases', 'Increases', 'Remains the same'],
-        answer: 'Increases'
-      },
-      {
-        text: 'Flying from low to high pressure, an altimeter would read:',
-        options: ['Over', 'Under', 'Constant'],
-        answer: 'Under'
-      },
-      {
-        text: 'Norwesters are:',
-        options: [
-          'The western disturbances which affect northwest India',
-          'Severe thunderstorms which occur over northeast India during the hot weather period',
-          'Severe thunderstorms which occur over the peninsula during the hot weather period'
-        ],
-        answer: 'Severe thunderstorms which occur over northeast India during the hot weather period'
-      },
-      {
-        text: 'Norwesters normally occur during:',
-        options: ['Mornings', 'Afternoons', 'Nights'],
-        answer: 'Afternoons'
-      },
-      {
-        text: 'Norwesters originate over:',
-        options: ['Chota Nagpur hills', 'Deccan Plateau', 'Khasi hills'],
-        answer: 'Chota Nagpur hills'
-      },
-      {
-        text: 'Norwesters occur during:',
-        options: ['Jan–Feb', 'Mar–May', 'Jun–Sep', 'Oct–Dec'],
-        answer: 'Mar–May'
-      },
-      {
-        text: 'The diameter of a microburst is:',
-        options: ['Less than 4 km', 'Less than 2 km', 'Less than 6 km'],
-        answer: 'Less than 4 km'
-      },
-      {
-        text: 'Radiation fog occurs:',
-        options: ['Over land', 'Over sea', 'During day', 'During night'],
-        answer: 'Over land'
-      },
-      {
-        text: 'Radiation fog forms over north India during:',
-        options: ['May to June', 'Dec to Feb', 'Oct to Nov', 'Sept to Nov'],
-        answer: 'Dec to Feb'
-      },
-      {
-        text: 'Radiation fog forms due to:',
-        options: [
-          'Heating of the earth during the day',
-          'Radiational cooling of earth during the day',
-          'Radiational cooling of earth at night',
-          'Advection of cold air'
-        ],
-        answer: 'Radiational cooling of earth at night'
-      },
-      {
-        text: 'Radiation fog is essentially a ___ phenomenon.',
-        options: ['Dusk', 'Nocturnal', 'Day', 'Afternoon'],
-        answer: 'Nocturnal'
-      },
-      {
-        text: 'Radiation fog forms over:',
-        options: ['Water', 'Land', 'Both', 'On water after rain'],
-        answer: 'Land'
-      },
-      {
-        text: 'For the formation of radiation fog:',
-        options: [
-          'There should be sufficient moisture, cloudy sky, nil wind',
-          'There should be sufficient moisture, clear sky, light wind',
-          'There should be sufficient moisture, cloudy sky, strong wind',
-          'There should be sufficient moisture, clear sky, nil wind'
-        ],
-        answer: 'There should be sufficient moisture, clear sky, light wind'
-      },
-      {
-        text: 'Drizzle occurs from:',
-        options: ['CS', 'ST', 'NS', 'CU'],
-        answer: 'NS'
-      },
-      {
-        text: 'Altostratus (AS) is:',
-        options: [
-          'A low cloud of sheet type',
-          'A medium cloud of sheet type',
-          'A cloud of large vertical growth',
-          'A high cloud of sheet type'
-        ],
-        answer: 'A medium cloud of sheet type'
-      },
-      {
-        text: 'Showers occur from:',
-        options: ['CU', 'CB', 'AS', 'AC'],
-        answer: 'CB'
-      },
-      {
-        text: 'In TCU, icing may range from light to severe at least up to the ___ level.',
-        options: ['Minus 40 deg C level', 'Plus 30 deg C level', 'Minus 20 deg C level'],
-        answer: 'Minus 20 deg C level'
-      },
-      {
-        text: 'Rainfall in the tropics is more in:',
-        options: ['Winters', 'Summers', 'Post monsoon'],
-        answer: 'Summers'
-      },
-      {
-        text: 'Inversion in the atmosphere indicates:',
-        options: ['Stability', 'Instability', 'Neutral'],
-        answer: 'Stability'
-      },
-      {
-        text: 'Flying in monsoon from Chennai to Kolkata at 14 km, the aircraft will experience winds:',
-        options: ['Easterly', 'Westerly', 'Northerly', 'Southerly'],
-        answer: 'Easterly'
-      },
-      {
-        text: 'An aircraft flying in winter from Delhi to Kolkata at 6 km will experience winds:',
-        options: ['SEly', 'SWly', 'Westerly'],
-        answer: 'Westerly'
-      },
-      {
-        text: 'During break monsoon, surface winds over East UP and Bihar are sometimes:',
-        options: ['Very strong', 'NW to Wly', 'Weak', 'Normal'],
-        answer: 'Weak'
-      },
-      {
-        text: 'Dew point temperature range is:',
-        options: ['29.5 to 30.4 deg C', '29.1 to 30.4 deg C', '30.6 to 30.4 deg C'],
-        answer: '29.1 to 30.4 deg C'
-      },
-      {
-        text: 'Temperature of 34 deg C is:',
-        options: ['Dry', 'Wet', 'Dew point'],
-        answer: 'Dry'
-      },
-      {
-        text: 'The dew point temperature:',
-        options: [
-          'Is higher if air contains more water vapour',
-          'Changes by cooling or warming',
-          'Is equal to the air temperature during mist',
-          'Is always higher than wet bulb temperature for unsaturated air'
-        ],
-        answer: 'Is higher if air contains more water vapour'
-      },
-      {
-        text: 'Wingtip vortices created by large aircraft tend to:',
-        options: [
-          'Rise from the surface to traffic pattern altitude',
-          'Sink below the aircraft generating the turbulence',
-          'Accumulate at the point where the takeoff roll began',
-          'Dissipate very slowly when the surface wind is strong'
-        ],
-        answer: 'Sink below the aircraft generating the turbulence'
-      }
-    ]
+    bookName: regularMarch2024Data.book_name,
+    chapterName: regularMarch2024Data.chapter_title,
+    questions: regularMarch2024Data.questions.map((q) => ({
+      text: q.full_question_text,
+      options: q.options,
+      answer: q.solution
+    }))
+  },
+  'regular-december-attempt': {
+    bookName: regularDecemberAttemptData.book_name,
+    chapterName: regularDecemberAttemptData.chapter_title,
+    questions: regularDecemberAttemptData.questions.map((q) => ({
+      text: q.full_question_text,
+      options: q.options,
+      answer: q.solution
+    }))
+  },
+  'regular-sep-2023': {
+    bookName: regularSep2023Data.book_name,
+    chapterName: regularSep2023Data.chapter_title,
+    questions: regularSep2023Data.questions.map((q) => ({
+      text: q.full_question_text,
+      options: q.options,
+      answer: q.solution
+    }))
   }
 };
 
@@ -419,9 +249,6 @@ const AIPracticeRunner = () => {
   const [isSubmittingReport, setIsSubmittingReport] = useState(false);
   const [reportSubmitted, setReportSubmitted] = useState(false);
   
-  const timerRef = useRef(null);
-  const totalQuestions = questions.length || practiceSettings.questionCount;
-
   // Get data from location state
   const practiceSettings = location.state?.practiceSettings || {
     questionCount: 10,
@@ -438,6 +265,9 @@ const AIPracticeRunner = () => {
   const subjectName = sessionOverride?.subjectName || subject?.name || friendly(subjectSlug);
   const bookName = sessionOverride?.bookName || book?.name || friendly(bookSlug);
   const chapterName = sessionOverride?.chapterName || chapter?.name || friendly(chapterSlug);
+
+  const timerRef = useRef(null);
+  const totalQuestions = questions.length || practiceSettings.questionCount;
 
   const initializeSession = useCallback(() => {
     setLoading(true);

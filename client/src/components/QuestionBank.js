@@ -748,7 +748,7 @@ const technicalSpecificBooks = [
   {
     id: 1,
     title: "Question Bank",
-    description: "Aircraft type specific PYQ practice for Piper Archer III DX",
+    description: "",
     icon: "✈️",
     color: "from-purple-500 to-purple-600",
     slug: "question-bank",

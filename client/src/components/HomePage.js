@@ -1,10 +1,7 @@
-import React, { useMemo, useState, useEffect } from 'react';
+import React, { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
-import { API_ENDPOINTS } from '../config/api';
-
-const TOTAL_CHAPTERS = 78;
 
 const HomePage = () => (
   <div className="min-h-screen gradient-bg overflow-hidden">
@@ -23,18 +20,9 @@ export default HomePage;
 
 const DashboardOverview = () => {
   const { user } = useAuth();
-  const [statsLoading, setStatsLoading] = useState(true);
-  const [dashboardStats, setDashboardStats] = useState({
-    chaptersCompleted: 0,
-    chaptersThisWeek: 0,
-    totalChapters: TOTAL_CHAPTERS,
-    accuracy: 0,
-    accuracyLatest: 0,
-    testsAttempted: 0,
-    testsThisWeek: 0,
-    studyHours: 0,
-    studyHoursThisWeek: 0
-  });
+  const [feedback, setFeedback] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
 
   const firstName = useMemo(() => {
     const raw = user?.username || user?.email || '';
@@ -42,108 +30,49 @@ const DashboardOverview = () => {
     return raw.split(/[\s@._-]+/)[0];
   }, [user]);
 
-  useEffect(() => {
-    let isMounted = true;
-
-    const fetchStats = async () => {
-      if (!user) {
-        setDashboardStats(calculateDashboardStats([]));
-        setStatsLoading(false);
-        return;
-      }
-      setStatsLoading(true);
-      try {
-        const token = localStorage.getItem('token');
-        if (!token) {
-          setDashboardStats(prev => ({ ...prev }));
-          return;
-        }
-
-        const res = await fetch(API_ENDPOINTS.RESULTS, {
-          headers: {
-            Authorization: `Bearer ${token}`
-          }
-        });
-
-        if (!res.ok) {
-          throw new Error('Failed to load stats');
-        }
-
-        const data = await res.json();
-        if (!isMounted) return;
-        setDashboardStats(calculateDashboardStats(data));
-      } catch (error) {
-        console.error('Failed to fetch dashboard stats:', error);
-        if (isMounted) {
-          setDashboardStats(prev => ({ ...prev }));
-        }
-      } finally {
-        if (isMounted) {
-          setStatsLoading(false);
-        }
-      }
-    };
-
-    fetchStats();
-    return () => {
-      isMounted = false;
-    };
+  const userEmail = useMemo(() => {
+    return user?.email || '';
   }, [user]);
 
-  const continueLearning = {
-    title: 'Piper Archer III DX',
-    chapter: 'Propeller Control & Limits',
-    subject: 'Technical Specific',
-    progress: 72,
-    to: '/pyq/book/question-bank/piper-archer-iii-dx'
-  };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    
+    if (!feedback.trim()) {
+      return;
+    }
 
-  const announcements = [
-    { title: 'New PYQ Set Added', detail: 'November 2025 Air Navigation PYQs are now live.', badge: 'New' },
-    { title: 'Mock Test Marathon', detail: 'Join the weekend mock series to boost your accuracy.', badge: 'Event' }
-  ];
-
-  const statCards = useMemo(
-    () => [
-      {
-        label: 'Chapters Completed',
-        value: statsLoading ? '—' : `${dashboardStats.chaptersCompleted} / ${dashboardStats.totalChapters}`,
-        trend: statsLoading
-          ? 'Syncing...'
-          : dashboardStats.chaptersThisWeek
-            ? `+${dashboardStats.chaptersThisWeek} this week`
-            : 'No new chapters this week'
-      },
-      {
-        label: 'Accuracy',
-        value: statsLoading ? '—' : `${dashboardStats.accuracy}%`,
-        trend: statsLoading
-          ? 'Syncing...'
-          : dashboardStats.testsAttempted
-            ? `Last test ${dashboardStats.accuracyLatest}%`
-            : 'Attempt a test to track'
-      },
-      {
-        label: 'Tests Attempted',
-        value: statsLoading ? '—' : dashboardStats.testsAttempted,
-        trend: statsLoading
-          ? 'Syncing...'
-          : dashboardStats.testsThisWeek
-            ? `${dashboardStats.testsThisWeek} this week`
-            : 'No tests this week'
-      },
-      {
-        label: 'Study Time',
-        value: statsLoading ? '—' : `${dashboardStats.studyHours} hrs`,
-        trend: statsLoading
-          ? 'Syncing...'
-          : dashboardStats.studyHoursThisWeek
-            ? `+${dashboardStats.studyHoursThisWeek} hrs this week`
-            : 'No tracked time yet'
+    setIsSubmitting(true);
+    
+    try {
+      const supportEmail = 'contactvimaanna@gmail.com';
+      const subject = 'Feedback & Suggestion from VIMAANNA Portal';
+      
+      let body = `User: ${firstName || 'Guest'}\n`;
+      if (userEmail) {
+        body += `Email: ${userEmail}\n`;
       }
-    ],
-    [dashboardStats, statsLoading]
-  );
+      body += `\n--- FEEDBACK & SUGGESTION ---\n${feedback.trim()}\n\n`;
+      body += `---\nSubmitted from: ${window.location.href}\n`;
+      body += `Timestamp: ${new Date().toLocaleString()}`;
+      
+      // Open Gmail compose window
+      const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(supportEmail)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.open(gmailUrl, '_blank');
+      
+      // Show success message
+      setSubmitted(true);
+      setFeedback('');
+      
+      setTimeout(() => {
+        setSubmitted(false);
+        setIsSubmitting(false);
+      }, 3000);
+    } catch (error) {
+      console.error('Error preparing feedback:', error);
+      alert('Failed to prepare feedback. Please try again.');
+      setIsSubmitting(false);
+    }
+  };
 
   return (
     <div className="space-y-10">
@@ -188,98 +117,80 @@ const DashboardOverview = () => {
             </div>
         </div>
 
-        <div className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
-          {statCards.map((stat) => (
-            <div
-              key={stat.label}
-              className="bg-white/10 backdrop-blur-2xl rounded-2xl border border-white/20 p-4 shadow-lg hover:shadow-xl transition"
-            >
-              <p className="text-xs font-semibold tracking-wide text-gray-500 uppercase">{stat.label}</p>
-              <p className="text-2xl md:text-3xl font-bold text-gray-900 mt-3">{stat.value}</p>
-              <p className="text-sm text-emerald-600 mt-1">{stat.trend}</p>
+        {/* Feedback and Suggestion Section */}
+        <div className="relative mt-8">
+          <div className="bg-white/10 backdrop-blur-2xl rounded-2xl border border-white/20 p-6 md:p-8 shadow-lg">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-500 flex items-center justify-center">
+                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                </svg>
+              </div>
+              <div>
+                <h2 className="text-2xl font-bold text-gray-900">Feedback & Suggestions</h2>
+                <p className="text-sm text-gray-600 mt-1">We value your input! Share your thoughts to help us improve.</p>
+              </div>
             </div>
-          ))}
+
+            {submitted && (
+              <div className="mb-6 p-4 bg-emerald-500/20 border border-emerald-500/30 rounded-xl flex items-center gap-3">
+                <svg className="w-5 h-5 text-emerald-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <p className="text-emerald-700 font-medium">Feedback submitted! Gmail compose window should open shortly.</p>
+              </div>
+            )}
+
+            <form onSubmit={handleSubmit} className="space-y-4">
+              <div>
+                <label htmlFor="feedback" className="block text-sm font-semibold text-gray-700 mb-2">
+                  Feedback & Suggestions
+                </label>
+                <textarea
+                  id="feedback"
+                  value={feedback}
+                  onChange={(e) => setFeedback(e.target.value)}
+                  placeholder="Share your feedback, suggestions, or any ideas to help us improve..."
+                  rows={3}
+                  className="w-full px-4 py-3 bg-white/50 backdrop-blur-sm border border-white/30 rounded-xl text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition resize-none"
+                />
+              </div>
+
+              <div className="flex items-center justify-between pt-2">
+                <p className="text-xs text-gray-500">
+                  <svg className="w-4 h-4 inline mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  Your feedback will be sent via Gmail
+                </p>
+                <button
+                  type="submit"
+                  disabled={isSubmitting || !feedback.trim()}
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold shadow-lg hover:shadow-xl transition disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {isSubmitting ? (
+                    <>
+                      <svg className="animate-spin h-5 w-5" fill="none" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                      </svg>
+                      Sending...
+                    </>
+                  ) : (
+                    <>
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      </svg>
+                      Send Feedback
+                    </>
+                  )}
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </section>
 
     </div>
   );
 };
-
-function calculateDashboardStats(results = []) {
-  const stats = {
-    chaptersCompleted: 0,
-    chaptersThisWeek: 0,
-    totalChapters: TOTAL_CHAPTERS,
-    accuracy: 0,
-    accuracyLatest: 0,
-    testsAttempted: 0,
-    testsThisWeek: 0,
-    studyHours: 0,
-    studyHoursThisWeek: 0
-  };
-
-  if (!Array.isArray(results) || results.length === 0) {
-    return stats;
-  }
-
-  const weekAgo = new Date();
-  weekAgo.setDate(weekAgo.getDate() - 7);
-
-  const chaptersAll = new Set();
-  const chaptersWeek = new Set();
-  let totalPercent = 0;
-  let attemptsWithScore = 0;
-  let totalSeconds = 0;
-  let weekSeconds = 0;
-  let testsThisWeek = 0;
-
-  const percentOf = (score, total) => {
-    if (!total) return 0;
-    return (score / total) * 100;
-  };
-
-  results.forEach((result) => {
-    const completedAt = result?.createdAt ? new Date(result.createdAt) : null;
-    const percent = percentOf(result?.score || 0, result?.total || 0);
-    if (Number.isFinite(percent)) {
-      totalPercent += percent;
-      attemptsWithScore += 1;
-    }
-
-    totalSeconds += result?.timeSpent || 0;
-
-    const chapterLabel = result?.chapterName || result?.chapter?.name;
-    if (chapterLabel) {
-      chaptersAll.add(chapterLabel);
-    }
-
-    if (completedAt && completedAt >= weekAgo) {
-      testsThisWeek += 1;
-      weekSeconds += result?.timeSpent || 0;
-      if (chapterLabel) {
-        chaptersWeek.add(chapterLabel);
-      }
-    }
-  });
-
-  const averagePercent = attemptsWithScore ? Math.round((totalPercent / attemptsWithScore) * 10) / 10 : 0;
-  const latestPercent = results[0] ? Math.round(percentOf(results[0].score || 0, results[0].total || 0)) : 0;
-
-  return {
-    chaptersCompleted: chaptersAll.size,
-    chaptersThisWeek: chaptersWeek.size,
-    totalChapters: TOTAL_CHAPTERS,
-    accuracy: averagePercent,
-    accuracyLatest: latestPercent,
-    testsAttempted: results.length,
-    testsThisWeek,
-    studyHours: roundOneDecimal(totalSeconds / 3600),
-    studyHoursThisWeek: roundOneDecimal(weekSeconds / 3600)
-  };
-}
-
-function roundOneDecimal(value) {
-  const rounded = Math.round(value * 10) / 10;
-  return Number.isFinite(rounded) ? rounded : 0;
-}

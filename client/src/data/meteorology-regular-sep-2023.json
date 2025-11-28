@@ -1,0 +1,406 @@
+{
+  "book_name": "Regular Sep 2023 Quiz",
+  "chapter_title": "Quiz Questions",
+  "questions": [
+    {
+      "question_number": 1,
+      "full_question_text": "Lines of constant wind speed drawn on weather charts are called",
+      "question_type": "MCQ",
+      "options": [
+        "Isobars",
+        "Isotachs",
+        "Isogons"
+      ],
+      "solution": "Isotachs"
+    },
+    {
+      "question_number": 2,
+      "full_question_text": "Trade winds are most prominent or strongest",
+      "question_type": "MCQ",
+      "options": [
+        "Upper troposphere over sea",
+        "Lower troposphere over ocean",
+        "Lower troposphere over land",
+        "Upper troposphere over land"
+      ],
+      "solution": "Lower troposphere over ocean"
+    },
+    {
+      "question_number": 3,
+      "full_question_text": "What causes wind?",
+      "question_type": "MCQ",
+      "options": [
+        "Difference in pressure",
+        "Rotation of the earth",
+        "Frontal systems",
+        "Difference in temperature"
+      ],
+      "solution": "Difference in pressure"
+    },
+    {
+      "question_number": 4,
+      "full_question_text": "In which of these cloud types can icing be virtually ruled out?",
+      "question_type": "MCQ",
+      "options": [
+        "NS",
+        "CU",
+        "CI",
+        "SC"
+      ],
+      "solution": "CI"
+    },
+    {
+      "question_number": 5,
+      "full_question_text": "At the top of orographic waves, in mountainous regions, the cloud most likely to be encountered is",
+      "question_type": "MCQ",
+      "options": [
+        "cirrus.",
+        "cumulus mediocris",
+        "altocumulus lenticularis.",
+        "cirrostratus."
+      ],
+      "solution": "altocumulus lenticularis."
+    },
+    {
+      "question_number": 6,
+      "full_question_text": "Fog occurs in Cold Front",
+      "question_type": "MCQ",
+      "options": [
+        "Ahead",
+        "During",
+        "After"
+      ],
+      "solution": "After"
+    },
+    {
+      "question_number": 7,
+      "full_question_text": "Flying from Low to High an altimeter would read",
+      "question_type": "MCQ",
+      "options": [
+        "Over",
+        "Under",
+        "constant"
+      ],
+      "solution": "Under"
+    },
+    {
+      "question_number": 8,
+      "full_question_text": "The movement of wind in relation to a cyclone is",
+      "question_type": "MCQ",
+      "options": [
+        "Descending and subsiding",
+        "Ascending and converging",
+        "Descending and cooling",
+        "Ascending and diverging"
+      ],
+      "solution": "Ascending and converging"
+    },
+    {
+      "question_number": 9,
+      "full_question_text": "An aerodrome is at the mean sea level. Its QNH is 1014.0 hPa. Its QFF will be",
+      "question_type": "MCQ",
+      "options": [
+        "1014.0 hPa",
+        "1013.25",
+        "Difficult to tell",
+        "More than QNH"
+      ],
+      "solution": "1014.0 hPa"
+    },
+    {
+      "question_number": 10,
+      "full_question_text": "The total energy radiated by a black body is proportional to its temperature(T)",
+      "question_type": "MCQ",
+      "options": [
+        "$T^{2}$",
+        "$T^{3}$",
+        "$T^{4}$"
+      ],
+      "solution": "$T^{4}$"
+    },
+    {
+      "question_number": 11,
+      "full_question_text": "Hot bodies (like sun) radiate",
+      "question_type": "MCQ",
+      "options": [
+        "Short Waves",
+        "Long Waves",
+        "Both"
+      ],
+      "solution": "Short Waves"
+    },
+    {
+      "question_number": 12,
+      "full_question_text": "Generally the severest activity of a, heat type, TS is for",
+      "question_type": "MCQ",
+      "options": [
+        "2 hrs",
+        "30 to 45 min",
+        "3 to 4 hr"
+      ],
+      "solution": "30 to 45 min"
+    },
+    {
+      "question_number": 13,
+      "full_question_text": "Norwesters normally occur during",
+      "question_type": "MCQ",
+      "options": [
+        "Mornings",
+        "Afternoons",
+        "Nights"
+      ],
+      "solution": "Afternoons"
+    },
+    {
+      "question_number": 14,
+      "full_question_text": "Norwesters occur during",
+      "question_type": "MCQ",
+      "options": [
+        "Jan-Feb",
+        "Mar-May",
+        "June-Sep",
+        "Oct-Dec"
+      ],
+      "solution": "Mar-May"
+    },
+    {
+      "question_number": 15,
+      "full_question_text": "Opaque Rime ice is",
+      "question_type": "MCQ",
+      "options": [
+        "Light porous",
+        "Solid",
+        "Mixture of porous and solid"
+      ],
+      "solution": "Light porous"
+    },
+    {
+      "question_number": 16,
+      "full_question_text": "Rime is formed by freezing of ___ supercooled water droplets on airframe when air is flying through clouds",
+      "question_type": "MCQ",
+      "options": [
+        "Small",
+        "Large",
+        "Medium"
+      ],
+      "solution": "Small"
+    },
+    {
+      "question_number": 17,
+      "full_question_text": "Flying at right angles to a jet stream with falling pressure you will experience",
+      "question_type": "MCQ",
+      "options": [
+        "Wind from left",
+        "Increasing head wind",
+        "Increasing tail wind",
+        "Wind from right"
+      ],
+      "solution": "Increasing tail wind"
+    },
+    {
+      "question_number": 18,
+      "full_question_text": "Rainfall in the tropics is more in the",
+      "question_type": "MCQ",
+      "options": [
+        "Morning",
+        "Afternoon",
+        "Night"
+      ],
+      "solution": "Afternoon"
+    },
+    {
+      "question_number": 19,
+      "full_question_text": "Inversion in the atmosphere indicates",
+      "question_type": "MCQ",
+      "options": [
+        "Stability",
+        "Instability",
+        "Neutral"
+      ],
+      "solution": "Stability"
+    },
+    {
+      "question_number": 20,
+      "full_question_text": "Rise in temperature with height is",
+      "question_type": "MCQ",
+      "options": [
+        "Inversion",
+        "Lapse",
+        "Normal"
+      ],
+      "solution": "Inversion"
+    },
+    {
+      "question_number": 21,
+      "full_question_text": "For mountain waves to form the wind speed for small mountains should be atleast",
+      "question_type": "MCQ",
+      "options": [
+        "$15~m/s$",
+        "$10~m/s$",
+        "$7~m/s$"
+      ],
+      "solution": "$7~m/s$"
+    },
+    {
+      "question_number": 22,
+      "full_question_text": "Wind speed in a tropical severe cyclone is:",
+      "question_type": "MCQ",
+      "options": [
+        "$27-33kt$",
+        "$48-63kt$",
+        "$17-27kt$"
+      ],
+      "solution": "$48-63kt$"
+    },
+    {
+      "question_number": 23,
+      "full_question_text": "Average life of a tropical cyclone in India is",
+      "question_type": "MCQ",
+      "options": [
+        "10 Days",
+        "6-8 Days",
+        "3-4 Days"
+      ],
+      "solution": "6-8 Days"
+    },
+    {
+      "question_number": 24,
+      "full_question_text": "CS in Indian region are less intense because",
+      "question_type": "MCQ",
+      "options": [
+        "They have a very short travel over the sea",
+        "Sea surface temp. are not high",
+        "India is close to Equator"
+      ],
+      "solution": "They have a very short travel over the sea"
+    },
+    {
+      "question_number": 25,
+      "full_question_text": "An aircraft flying in Summer season from Delhi to Kolkata at 10 km will experience",
+      "question_type": "MCQ",
+      "options": [
+        "Easterly",
+        "Westerly",
+        "Northerly",
+        "Southerly"
+      ],
+      "solution": "Easterly"
+    },
+    {
+      "question_number": 26,
+      "full_question_text": "The occurrence of large deserts near 30N and 30S are due to large scale",
+      "question_type": "MCQ",
+      "options": [
+        "subsidence",
+        "convection",
+        "advection"
+      ],
+      "solution": "subsidence"
+    },
+    {
+      "question_number": 27,
+      "full_question_text": "A part of the sinking air over the subtropical high flows towards the equator, turning west (in the northern hemisphere) due to the Coriolis force. This surface air is called",
+      "question_type": "MCQ",
+      "options": [
+        "Trade winds",
+        "Roaring forties",
+        "Doldrums"
+      ],
+      "solution": "Trade winds"
+    },
+    {
+      "question_number": 28,
+      "full_question_text": "The validity of Landing Forecast (TREND) is",
+      "question_type": "MCQ",
+      "options": [
+        "1 hr",
+        "2 hr",
+        "3 hr"
+      ],
+      "solution": "2 hr"
+    },
+    {
+      "question_number": 29,
+      "full_question_text": "Relative humidity depends on",
+      "question_type": "MCQ",
+      "options": [
+        "moisture content and pressure of the air",
+        "moisture content of the air only",
+        "temperature of the air only",
+        "moisture content and temperature of the air"
+      ],
+      "solution": "moisture content and temperature of the air"
+    },
+    {
+      "question_number": 30,
+      "full_question_text": "Which of the following conditions is most likely to lead to the formation of advection fog?",
+      "question_type": "MCQ",
+      "options": [
+        "Moist cold air moving over a warm surface",
+        "Moist warm air moving over a cold surface",
+        "Dry warm air moving over a cold surface",
+        "Dry cold air moving over a warm surface"
+      ],
+      "solution": "Moist warm air moving over a cold surface"
+    },
+    {
+      "question_number": 31,
+      "full_question_text": "Low level wind shear is likely to be greatest",
+      "question_type": "MCQ",
+      "options": [
+        "at the condensation level when there is no night radiation",
+        "at the condensation level when there is strong surface friction.",
+        "at the top of a marked surface-based inversion.",
+        "at the top of the friction layer."
+      ],
+      "solution": "at the top of a marked surface-based inversion."
+    },
+    {
+      "question_number": 32,
+      "full_question_text": "Where is a squall line to be expected?",
+      "question_type": "MCQ",
+      "options": [
+        "In front of an active cold front.",
+        "Behind a cold front.",
+        "In front of a cold front occlusion at higher levels.",
+        "At the surface position of a warm front."
+      ],
+      "solution": "In front of an active cold front."
+    },
+    {
+      "question_number": 33,
+      "full_question_text": "Which constant pressure altitude chart is standard for a 18289 FT pressure level (FL 180)?",
+      "question_type": "MCQ",
+      "options": [
+        "300 hPa",
+        "500 hPa",
+        "200 hPa",
+        "700 hPa"
+      ],
+      "solution": "500 hPa"
+    },
+    {
+      "question_number": 34,
+      "full_question_text": "Advection fog occurs due to ___ air moving over ___ surface over ___",
+      "question_type": "MCQ",
+      "options": [
+        "Dry, wet, land only",
+        "Moist and cold, warm, land only",
+        "Warm & moist air, cold, both land & sea"
+      ],
+      "solution": "Warm & moist air, cold, both land & sea"
+    },
+    {
+      "question_number": 35,
+      "full_question_text": "The hailstones occur from",
+      "question_type": "MCQ",
+      "options": [
+        "both warm and cold clouds",
+        "cold clouds only",
+        "warm clouds only",
+        "NS clouds"
+      ],
+      "solution": "both warm and cold clouds"
+    }
+  ]
+}
