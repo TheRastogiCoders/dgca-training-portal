@@ -376,28 +376,25 @@ const PracticeTest = () => {
                   <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm md:text-base text-gray-700">
                     <li className="flex items-start gap-2">
                       <span className="text-green-600 font-bold flex-shrink-0 mt-0.5">✓</span>
-                      <span className="flex-1">Learn the exact question patterns used in DGCA exams</span>
+                      <span className="flex-1">Practice with authentic DGCA Previous Year Questions</span>
+                    </li>
+
+                    <li className="flex items-start gap-2">
+                      <span className="text-green-600 font-bold flex-shrink-0 mt-0.5">✓</span>
+                      <span className="flex-1">Keep your weak areas in focus with adaptive difficulty</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-green-600 font-bold flex-shrink-0 mt-0.5">✓</span>
-                      <span className="flex-1">Adaptive sets that focus on your weak areas</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-600 font-bold flex-shrink-0 mt-0.5">✓</span>
-                      <span className="flex-1">Instant explanations to convert mistakes into learning</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-600 font-bold flex-shrink-0 mt-0.5">✓</span>
-                      <span className="flex-1">Track performance over time with clean analytics</span>
+                      <span className="flex-1">Real-time feedback and performance insights</span>
                     </li>
                   </ul>
                 </Card>
                 <Card className="p-5 sm:p-6 md:p-8 bg-white border border-gray-200 rounded-xl">
                   <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4">How it works</h3>
                   <ol className="space-y-2 sm:space-y-3 text-xs sm:text-sm md:text-base text-gray-700 list-decimal list-inside">
-                    <li className="pl-1 sm:pl-2 leading-relaxed">Select PYQ Practice and choose your subject or mixed set</li>
-                    <li className="pl-1 sm:pl-2 leading-relaxed">Answer timed questions with instant feedback</li>
-                    <li className="pl-1 sm:pl-2 leading-relaxed">Review solutions and focus topics to improve</li>
+                    <li className="pl-1 sm:pl-2 leading-relaxed">Click "Start PYQ Practice" and select your subject or book</li>
+                    <li className="pl-1 sm:pl-2 leading-relaxed">Choose your chapter and configure practice settings</li>
+                    <li className="pl-1 sm:pl-2 leading-relaxed">Answer questions and review explanations to improve</li>
                   </ol>
                 </Card>
               </div>
