@@ -28,6 +28,8 @@ const BookPracticeRunner = () => {
   const [reportComment, setReportComment] = useState('');
   const [isSubmittingReport, setIsSubmittingReport] = useState(false);
   const [reportSubmitted, setReportSubmitted] = useState(false);
+  const [questionToReport, setQuestionToReport] = useState(null);
+  const [questionIndexToReport, setQuestionIndexToReport] = useState(null);
   const [loadingExplanation, setLoadingExplanation] = useState(false);
   const [explanationCache, setExplanationCache] = useState({});
   const startTimeRef = useRef(Date.now());
@@ -413,7 +415,10 @@ const BookPracticeRunner = () => {
     setShowCloseConfirm(false);
   };
 
-  const handleReportClick = () => {
+  const handleReportClick = (question, questionIndex) => {
+    // Store the question and index directly to avoid stale state
+    setQuestionToReport(question);
+    setQuestionIndexToReport(questionIndex);
     setShowReportModal(true);
     setReportType('');
     setReportComment('');
@@ -425,6 +430,8 @@ const BookPracticeRunner = () => {
     setReportType('');
     setReportComment('');
     setReportSubmitted(false);
+    setQuestionToReport(null);
+    setQuestionIndexToReport(null);
   };
 
   const handleReportSubmit = async () => {
@@ -439,23 +446,26 @@ const BookPracticeRunner = () => {
     setIsSubmittingReport(true);
     
     try {
-      const currentQuestion = questions[current];
-      if (!currentQuestion) {
+      // Use the stored question instead of reading from state to avoid stale data
+      const questionToReportNow = questionToReport || questions[questionIndexToReport ?? current];
+      if (!questionToReportNow) {
         throw new Error('Question not found');
       }
+      
+      const questionIndex = questionIndexToReport ?? current;
       
       // Format the report details for Gmail compose
       const supportEmail = 'contactvimaanna@gmail.com';
       const subject = `Question Report: ${reportType}`;
       
       let body = `Report Type: ${reportType}\n\n`;
-      body += `Question ID: ${currentQuestion.id || `Question ${current + 1}`}\n`;
+      body += `Question ID: ${questionToReportNow.id || `Question ${questionIndex + 1}`}\n`;
       body += `Book: ${bookName}\n`;
       const chapterLabel = chapterSlug || resolvedChapterSlug;
       if (chapterLabel) {
         body += `Chapter: ${friendly(chapterLabel)}\n`;
       }
-      body += `\nQuestion Text:\n${currentQuestion.text}\n\n`;
+      body += `\nQuestion Text:\n${questionToReportNow.text}\n\n`;
       
       if (reportComment.trim()) {
         body += `Additional Details:\n${reportComment.trim()}\n\n`;
@@ -606,7 +616,7 @@ const BookPracticeRunner = () => {
                 <div className="flex items-start justify-between gap-4">
                   <h2 className="text-lg sm:text-xl font-semibold text-gray-900 leading-relaxed whitespace-pre-line flex-1">{q.text}</h2>
                   <button
-                    onClick={handleReportClick}
+                    onClick={() => handleReportClick(q, current)}
                     className="flex-shrink-0 px-3 py-1.5 text-xs font-medium text-gray-600 hover:text-red-600 hover:bg-red-50 border border-gray-300 hover:border-red-300 rounded-lg transition-all duration-200 flex items-center gap-1.5"
                     title="Report an issue with this question"
                   >

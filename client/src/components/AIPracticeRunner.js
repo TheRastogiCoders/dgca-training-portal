@@ -248,6 +248,8 @@ const AIPracticeRunner = () => {
   const [reportComment, setReportComment] = useState('');
   const [isSubmittingReport, setIsSubmittingReport] = useState(false);
   const [reportSubmitted, setReportSubmitted] = useState(false);
+  const [questionToReport, setQuestionToReport] = useState(null);
+  const [questionIndexToReport, setQuestionIndexToReport] = useState(null);
   
   // Get data from location state
   const practiceSettings = location.state?.practiceSettings || {
@@ -451,7 +453,10 @@ const AIPracticeRunner = () => {
     }
   }, [current, questions.length, answers]);
 
-  const handleReportClick = () => {
+  const handleReportClick = (question, questionIndex) => {
+    // Store the question and index directly to avoid stale state
+    setQuestionToReport(question);
+    setQuestionIndexToReport(questionIndex);
     setShowReportModal(true);
     setReportType('');
     setReportComment('');
@@ -463,6 +468,8 @@ const AIPracticeRunner = () => {
     setReportType('');
     setReportComment('');
     setReportSubmitted(false);
+    setQuestionToReport(null);
+    setQuestionIndexToReport(null);
   };
 
   const handleReportSubmit = async () => {
@@ -477,17 +484,20 @@ const AIPracticeRunner = () => {
     setIsSubmittingReport(true);
     
     try {
-      const currentQuestion = questions[current];
-      if (!currentQuestion) {
+      // Use the stored question instead of reading from state to avoid stale data
+      const questionToReportNow = questionToReport || questions[questionIndexToReport ?? current];
+      if (!questionToReportNow) {
         throw new Error('Question not found');
       }
+      
+      const questionIndex = questionIndexToReport ?? current;
       
       // Format the report details for Gmail compose
       const supportEmail = 'contactvimaanna@gmail.com';
       const subject = `Question Report: ${reportType}`;
       
       let body = `Report Type: ${reportType}\n\n`;
-      body += `Question: ${current + 1} of ${totalQuestions}\n`;
+      body += `Question: ${questionIndex + 1} of ${totalQuestions}\n`;
       body += `Subject: ${subjectName}\n`;
       if (bookName) {
         body += `Book: ${bookName}\n`;
@@ -495,7 +505,7 @@ const AIPracticeRunner = () => {
       if (chapterName) {
         body += `Chapter: ${chapterName}\n`;
       }
-      body += `\nQuestion Text:\n${currentQuestion.text}\n\n`;
+      body += `\nQuestion Text:\n${questionToReportNow.text}\n\n`;
       
       if (reportComment.trim()) {
         body += `Additional Details:\n${reportComment.trim()}\n\n`;
@@ -776,7 +786,7 @@ const AIPracticeRunner = () => {
                   {currentQuestion.text}
                 </h2>
                   <button
-                    onClick={handleReportClick}
+                    onClick={() => handleReportClick(currentQuestion, current)}
                     className="flex-shrink-0 px-3 py-1.5 text-xs font-medium text-gray-600 hover:text-red-600 hover:bg-red-50 border border-gray-300 hover:border-red-300 rounded-lg transition-all duration-200 flex items-center gap-1.5"
                     title="Report an issue with this question"
                   >
