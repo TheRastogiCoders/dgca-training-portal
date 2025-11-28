@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
@@ -13,7 +13,7 @@ const subjects = [
     description: 'Civil Aviation Rules & Regulations',
     questions: 'Unlimited',
     difficulty: 'Adaptive',
-    features: ['Smart difficulty adjustment', 'Real-time feedback', 'Performance tracking']
+    features: ['Latest DGCA amendments', 'Pattern insights', 'Time-tracking analytics']
   },
   { 
     slug: 'air-navigation', 
@@ -23,7 +23,7 @@ const subjects = [
     description: 'Navigation Systems & Procedures',
     questions: 'Unlimited',
     difficulty: 'Adaptive',
-    features: ['Personalized learning path', 'Weakness identification', 'Progress analytics']
+    features: ['Mixed plotting drills', 'Weak-topic callouts', 'Speed vs accuracy meters']
   },
   { 
     slug: 'meteorology', 
@@ -33,7 +33,7 @@ const subjects = [
     description: 'Weather Systems & Aviation Weather',
     questions: 'Unlimited',
     difficulty: 'Adaptive',
-    features: ['Weather pattern analysis', 'Concept reinforcement', 'Visual learning']
+    features: ['Live MET data cues', 'Concept refresh cards', 'Visual storm timelines']
   },
   { 
     slug: 'technical-general', 
@@ -43,7 +43,7 @@ const subjects = [
     description: 'Aircraft Systems & General Knowledge',
     questions: 'Unlimited',
     difficulty: 'Adaptive',
-    features: ['System understanding', 'Technical concepts', 'Practical applications']
+    features: ['System schematics', 'Formula quick-notes', 'Checks & limitations']
   },
   { 
     slug: 'technical-specific', 
@@ -53,7 +53,7 @@ const subjects = [
     description: 'Aircraft Type Specific Knowledge',
     questions: 'Unlimited',
     difficulty: 'Adaptive',
-    features: ['Aircraft-specific content', 'Detailed explanations', 'Expert insights']
+    features: ['Type-rating trivia', 'Procedural pitfalls', 'Expert tips']
   },
   { 
     slug: 'radio-telephony', 
@@ -63,29 +63,59 @@ const subjects = [
     description: 'Radio Communication Procedures',
     questions: 'Unlimited',
     difficulty: 'Adaptive',
-    features: ['Communication protocols', 'Phraseology practice', 'Real-world scenarios']
+    features: ['Phraseology drills', 'Emergency prompts', 'Scenario-based feedback']
   },
 ];
 
-const AIPracticeSubject = () => {
-  const { user, isAuthenticated } = useAuth();
-  const navigate = useNavigate();
-  const [selectedSubject, setSelectedSubject] = useState(null);
-  const [showFeatures, setShowFeatures] = useState(false);
+const heroStats = [
+  { label: 'DGCA Papers', value: '120+', detail: '2018–2025 curated PYQs' },
+  { label: 'Smart Reviews', value: '4.9★', detail: 'Instant analytics & tips' },
+  { label: 'Adaptive Sets', value: '∞', detail: 'Personalized every launch' }
+];
 
-  const handleSubjectClick = (subject) => {
+const flowTimeline = [
+  { tag: '01', title: 'Select Subject', detail: 'Lock onto the paper you’re targeting this week.' },
+  { tag: '02', title: 'Tune Session', detail: 'Pick the mood: deep revision, sprint, or mock mode.' },
+  { tag: '03', title: 'Solve & Review', detail: 'DGCA-style timer, rich explanations, quick export.' }
+];
+
+const comingSoonSlugs = ['technical-specific', 'radio-telephony'];
+
+const AIPracticeSubject = () => {
+  const { isAuthenticated } = useAuth();
+  const navigate = useNavigate();
+  const [comingSoonSubject, setComingSoonSubject] = useState(null);
+  const noticeTimeoutRef = useRef(null);
+
+  useEffect(() => {
+    return () => {
+      if (noticeTimeoutRef.current) {
+        clearTimeout(noticeTimeoutRef.current);
+      }
+    };
+  }, []);
+
+  const handleSubjectClick = (subject, event) => {
+    if (event) {
+      event.stopPropagation();
+      event.preventDefault();
+    }
+
     if (!isAuthenticated) {
       navigate('/login');
       return;
     }
-    setSelectedSubject(subject);
-    setShowFeatures(true);
-  };
 
-  const startAIPractice = () => {
-    if (selectedSubject) {
-      navigate(`/pyq/ai/${selectedSubject.slug}`);
+    if (comingSoonSlugs.includes(subject.slug)) {
+      setComingSoonSubject(subject.name);
+      if (noticeTimeoutRef.current) {
+        clearTimeout(noticeTimeoutRef.current);
+      }
+      noticeTimeoutRef.current = setTimeout(() => setComingSoonSubject(null), 3000);
+      return;
     }
+
+    navigate(`/pyq/ai/${subject.slug}`);
   };
 
   return (
@@ -95,199 +125,81 @@ const AIPracticeSubject = () => {
         <SiteSidebar />
 
         {/* Main Content */}
-        <main className="flex-1 p-8">
-          <div className="max-w-7xl mx-auto">
-            {/* Header */}
-            <div className="text-center mb-12">
-              <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent mb-4">
-                AI Generated Questions
-              </h1>
-              <p className="text-xl text-gray-600 mb-6">
-                Smart adaptive practice powered by VIMAANNA AI
-              </p>
-              {!isAuthenticated && (
-                <div className="inline-flex items-center px-4 py-2 bg-yellow-100 border border-yellow-300 rounded-full mb-4">
-                  <span className="text-yellow-800 font-medium text-sm">🔒 Login required to access AI practice</span>
-                </div>
-              )}
+        <main className="flex-1 px-4 py-8 sm:px-6 lg:px-10 pt-20 sm:pt-24 md:pt-24 pb-20 sm:pb-24 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72">
+          <div className="max-w-6xl w-full mx-auto space-y-10">
+            <div className="flex flex-wrap items-center justify-between gap-3 mb-2 text-sm">
+              <Link 
+                to="/pyq"
+                className="inline-flex items-center text-blue-200 hover:text-white transition-colors"
+              >
+                <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+                Back to PYQs
+              </Link>
+              <span className="px-3 py-1 rounded-full bg-white/10 text-white/80 border border-white/20">
+                Step 2 · Choose Subject
+              </span>
             </div>
 
-            {/* AI Features Overview */}
-            <Card className="p-8 mb-12 bg-gradient-to-r from-purple-50 to-indigo-50 border-2 border-purple-200">
-              <div className="text-center mb-8">
-                <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-indigo-600 rounded-full flex items-center justify-center text-white text-4xl mx-auto mb-4">
-                  🤖
-                </div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-2">Advanced AI Learning System</h2>
-                <p className="text-gray-600">Experience the future of aviation exam preparation</p>
-              </div>
-              
-              <div className="grid md:grid-cols-3 gap-6">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-4">
-                    🎯
-                  </div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-2">Adaptive Difficulty</h3>
-                  <p className="text-gray-600 text-sm">AI adjusts question difficulty based on your performance</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-4">
-                    🧠
-                  </div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-2">Personalized Learning</h3>
-                  <p className="text-gray-600 text-sm">Custom learning paths tailored to your strengths and weaknesses</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-4">
-                    📊
-                  </div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-2">Real-time Analytics</h3>
-                  <p className="text-gray-600 text-sm">Instant feedback and performance insights</p>
-                </div>
-              </div>
-            </Card>
+          
 
             {/* Subject Selection */}
-            <div className="mb-12">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
-                Choose Your Subject
-              </h2>
+            <section className="space-y-6">
+              {comingSoonSubject && (
+                <div className="mx-auto max-w-3xl rounded-2xl border border-yellow-200 bg-yellow-50/90 px-4 py-3 text-center text-sm font-medium text-yellow-900 shadow">
+                  {comingSoonSubject} PYQs are coming soon. Stay tuned!
+                </div>
+              )}
+              <div className="text-center">
+                <p className="text-sm uppercase tracking-[0.4em] text-gray-500">Step 2</p>
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mt-2">Choose Your Subject</h2>
+                <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto">
+                  Jump into the DGCA paper that matters right now. Adaptive streak tracking keeps every session fresh.
+                </p>
+              </div>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {subjects.map((subject) => (
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {subjects.map((subject, index) => (
                   <Card 
                     key={subject.slug} 
-                    className="p-6 cursor-pointer hover:shadow-xl transition-all duration-300 group"
+                    className={`relative overflow-hidden rounded-3xl p-6 cursor-pointer transition-all duration-300 group animate-fade-in-up backdrop-blur border border-white/30 hover:ring-2 hover:ring-white/60 ${
+                      comingSoonSlugs.includes(subject.slug) ? 'opacity-90' : ''
+                    }`}
+                    style={{ animationDelay: `${index * 0.04}s` }}
                     onClick={() => handleSubjectClick(subject)}
                   >
-                    <div className="text-center">
-                      <div className={`w-16 h-16 bg-gradient-to-r ${subject.color} rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}>
-                        {subject.icon}
-                      </div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-purple-600 transition-colors">
-                        {subject.name}
-                      </h3>
-                      <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                        {subject.description}
-                      </p>
-                      
-                      {/* Features */}
-                      <div className="mb-4">
-                        <h4 className="font-semibold text-gray-900 mb-2 text-sm">AI Features:</h4>
-                        <ul className="space-y-1 text-xs text-gray-600">
-                          {subject.features.map((feature, index) => (
-                            <li key={index} className="flex items-center">
-                              <svg className="w-3 h-3 text-purple-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                              </svg>
-                              {feature}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                      
-                      {/* Stats */}
-                      <div className="grid grid-cols-2 gap-4 mb-4">
-                        <div className="text-center">
-                          <div className="text-lg font-bold text-purple-600">{subject.questions}</div>
-                          <div className="text-xs text-gray-500">Questions</div>
+                    <div className={`absolute inset-0 bg-gradient-to-br ${subject.color} opacity-90`} />
+                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.25),_transparent_55%)]" />
+                    <div className="relative flex flex-col h-full text-white space-y-5">
+                      <div className="flex items-start justify-between gap-3">
+                        <div className="flex items-center gap-4">
+                          <div className="w-14 h-14 rounded-2xl bg-white/15 flex items-center justify-center text-3xl backdrop-blur group-hover:scale-110 transition-transform duration-300">
+                            {subject.icon}
+                          </div>
+                          <div>
+                            <p className="text-[10px] uppercase tracking-[0.35em] text-white/70">DGCA PYQ</p>
+                            <h3 className="text-xl font-semibold leading-tight">{subject.name}</h3>
+                          </div>
                         </div>
-                        <div className="text-center">
-                          <div className="text-lg font-bold text-purple-600">{subject.difficulty}</div>
-                          <div className="text-xs text-gray-500">Difficulty</div>
-                        </div>
+                        <span className="text-[11px] font-semibold uppercase px-3 py-1 rounded-full bg-white/15 border border-white/20 tracking-[0.2em]">
+                          {comingSoonSlugs.includes(subject.slug) ? 'Soon' : 'Stack'}
+                        </span>
                       </div>
-                      
-                      <button className={`w-full py-2 px-4 bg-gradient-to-r ${subject.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2`}>
-                        Start AI Practice
+
+                      <p className="text-sm text-white/80 flex-1">{subject.description}</p>
+
+                      <button
+                        className="mt-auto w-full py-3 px-4 bg-white text-gray-900 font-semibold rounded-2xl hover:shadow-2xl transition-all duration-200 transform hover:-translate-y-0.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white"
+                        onClick={(event) => handleSubjectClick(subject, event)}
+                      >
+                        Launch Adaptive PYQs
                       </button>
                     </div>
                   </Card>
                 ))}
               </div>
-            </div>
-
-            {/* Selected Subject Features Modal */}
-            {showFeatures && selectedSubject && (
-              <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-                <div className="bg-white rounded-2xl p-8 max-w-2xl w-full max-h-[90vh] overflow-y-auto">
-                  <div className="text-center mb-6">
-                    <div className={`w-20 h-20 bg-gradient-to-r ${selectedSubject.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-4`}>
-                      {selectedSubject.icon}
-                    </div>
-                    <h2 className="text-2xl font-bold text-gray-900 mb-2">{selectedSubject.name}</h2>
-                    <p className="text-gray-600">{selectedSubject.description}</p>
-                  </div>
-
-                  <div className="space-y-6">
-                    {/* AI Features */}
-                    <div>
-                      <h3 className="text-lg font-bold text-gray-900 mb-3">AI-Powered Features</h3>
-                      <div className="grid md:grid-cols-2 gap-4">
-                        {selectedSubject.features.map((feature, index) => (
-                          <div key={index} className="flex items-center p-3 bg-gray-50 rounded-lg">
-                            <svg className="w-5 h-5 text-purple-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                              <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                            </svg>
-                            <span className="text-sm font-medium text-gray-900">{feature}</span>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-
-                    {/* How AI Works */}
-                    <div>
-                      <h3 className="text-lg font-bold text-gray-900 mb-3">How AI Adapts to You</h3>
-                      <div className="space-y-3">
-                        <div className="flex items-start">
-                          <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-3 mt-1">
-                            <span className="text-purple-600 font-bold text-sm">1</span>
-                          </div>
-                          <div>
-                            <h4 className="font-semibold text-gray-900">Initial Assessment</h4>
-                            <p className="text-sm text-gray-600">AI analyzes your starting knowledge level</p>
-                          </div>
-                        </div>
-                        <div className="flex items-start">
-                          <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-3 mt-1">
-                            <span className="text-purple-600 font-bold text-sm">2</span>
-                          </div>
-                          <div>
-                            <h4 className="font-semibold text-gray-900">Adaptive Questioning</h4>
-                            <p className="text-sm text-gray-600">Questions adjust difficulty based on your responses</p>
-                          </div>
-                        </div>
-                        <div className="flex items-start">
-                          <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-3 mt-1">
-                            <span className="text-purple-600 font-bold text-sm">3</span>
-                          </div>
-                          <div>
-                            <h4 className="font-semibold text-gray-900">Personalized Learning</h4>
-                            <p className="text-sm text-gray-600">Focus on areas that need improvement</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Action Buttons */}
-                    <div className="flex space-x-4 pt-4">
-                      <button
-                        onClick={startAIPractice}
-                        className={`flex-1 py-3 px-6 bg-gradient-to-r ${selectedSubject.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2`}
-                      >
-                        Start AI Practice
-                      </button>
-                      <button
-                        onClick={() => setShowFeatures(false)}
-                        className="px-6 py-3 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors"
-                      >
-                        Cancel
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )}
+            </section>
 
             {/* Back to Practice */}
             <div className="text-center">

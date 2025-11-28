@@ -3,8 +3,6 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
-import ModernAlert from './ui/ModernAlert';
-import useModernAlert from '../hooks/useModernAlert';
 import debugLog from '../utils/debug';
 
 const PracticeTest = () => {
@@ -12,7 +10,13 @@ const PracticeTest = () => {
   const navigate = useNavigate();
   const [results, setResults] = useState([]);
   const [loadingResults, setLoadingResults] = useState(false);
-  const { alertState, hideAlert, showComingSoon } = useModernAlert();
+
+  const flowSteps = [
+    { label: 'PYQs', detail: 'Kick off practice' },
+    { label: 'Subjects', detail: 'Pick focus area' },
+    { label: 'Sessions', detail: 'Tune settings' },
+    { label: 'Questions', detail: 'Solve & review' }
+  ];
 
   const testTypes = [
     {
@@ -268,9 +272,9 @@ const PracticeTest = () => {
       navigate('/login');
       return;
     }
-    // Show Coming Soon for PYQ
-    showComingSoon('PYQ Practice');
-    return;
+    if (typeof test.onClick === 'function') {
+      test.onClick();
+    }
   };
 
   const formatTime = (minutes) => {
@@ -296,7 +300,7 @@ const PracticeTest = () => {
         <main className="flex-1 p-4 sm:p-6 md:p-8 pt-20 sm:pt-24 md:pt-24 pb-20 sm:pb-24 md:pb-8 md:ml-56 lg:ml-64 xl:ml-72">
           <div className="max-w-6xl mx-auto w-full">
             {/* Hero */}
-            <div className="text-center mb-6 sm:mb-8 md:mb-12">
+            <div className="text-center mb-6 sm:mb-8 md:mb-12 animate-fade-in-up">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 tracking-tight mb-3 sm:mb-4 px-2">
                 PYQ Practice
               </h1>
@@ -310,6 +314,23 @@ const PracticeTest = () => {
                   </div>
                 )}
               </div>
+
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-3 mt-6">
+                {flowSteps.map((step, index) => (
+                  <div key={step.label} className="flex items-center gap-2 animate-fade-in-up" style={{ animationDelay: `${index * 0.08}s` }}>
+                    <div className="px-3 py-2 rounded-2xl bg-white/60 backdrop-blur text-left shadow-sm border border-white/40">
+                      <p className="text-xs font-semibold text-indigo-600 uppercase tracking-wide">Step {index + 1}</p>
+                      <p className="text-sm font-bold text-gray-900">{step.label}</p>
+                      <p className="text-xs text-gray-500">{step.detail}</p>
+                    </div>
+                    {index < flowSteps.length - 1 && (
+                      <svg className="w-4 h-4 text-indigo-400 hidden sm:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    )}
+                  </div>
+                ))}
+              </div>
             </div>
 
             {/* Main grid */}
@@ -319,7 +340,7 @@ const PracticeTest = () => {
                 {testTypes.map((test) => (
                   <Card
                     key={test.id}
-                    className="p-5 sm:p-6 md:p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group bg-white border border-gray-200 rounded-xl"
+                    className="p-5 sm:p-6 md:p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group bg-white border border-gray-200 rounded-xl animate-fade-in-up"
                     onClick={() => handleTestClick(test)}
                   >
                     <div className="flex flex-col text-center md:text-left">
@@ -382,290 +403,10 @@ const PracticeTest = () => {
               </div>
             </div>
 
-            {/* Results Section - Only show if authenticated */}
-            {isAuthenticated && (
-              <div className="space-y-4 sm:space-y-6 md:space-y-8">
-                {/* Quick Stats Overview */}
-                <Card className="p-4 sm:p-6 md:p-8 bg-gradient-to-r from-blue-50 to-purple-50 border-2 border-blue-200 rounded-xl">
-                  <div className="text-center mb-4 sm:mb-6 md:mb-8">
-                    <h3 className="text-base sm:text-lg md:text-2xl font-bold text-gray-900 mb-1 sm:mb-2">Your Performance Overview</h3>
-                    <p className="text-xs sm:text-sm md:text-base text-gray-600">Track your progress and improvement</p>
-                  </div>
-                  
-                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
-                    <div className="text-center">
-                      <div className="text-xl sm:text-2xl md:text-3xl font-bold text-blue-600 mb-1 sm:mb-2">{stats.tests}</div>
-                      <div className="text-xs sm:text-sm text-gray-600">Tests Taken</div>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-600 mb-1 sm:mb-2">{stats.avg}%</div>
-                      <div className="text-xs sm:text-sm text-gray-600">Average Score</div>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-xl sm:text-2xl md:text-3xl font-bold text-purple-600 mb-1 sm:mb-2">{stats.best}%</div>
-                      <div className="text-xs sm:text-sm text-gray-600">Best Score</div>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-xl sm:text-2xl md:text-3xl font-bold text-orange-600 mb-1 sm:mb-2">{stats.streakDays}</div>
-                      <div className="text-xs sm:text-sm text-gray-600">Day Streak</div>
-                    </div>
-                  </div>
-                  
-                  {stats.improvement !== 0 && (
-                    <div className="mt-4 sm:mt-6 text-center">
-                      <div className={`inline-flex items-center px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm ${stats.improvement > 0 ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
-                        <svg className={`w-4 h-4 sm:w-5 sm:h-5 mr-1 sm:mr-2 ${stats.improvement > 0 ? 'text-green-600' : 'text-red-600'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={stats.improvement > 0 ? "M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" : "M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"} />
-                        </svg>
-                        {stats.improvement > 0 ? '+' : ''}{stats.improvement}% Improvement
-                      </div>
-                    </div>
-                  )}
-                </Card>
-
-                {/* Detailed Analytics */}
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
-                  {/* Recent Tests */}
-                  <Card className="p-4 sm:p-6 md:p-8 rounded-xl">
-                    <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-4 sm:mb-6 gap-3 sm:gap-0">
-                      <h3 className="text-lg sm:text-xl font-bold text-gray-900">Recent Tests</h3>
-                      <div className="flex flex-wrap items-center gap-2 sm:gap-3">
-                        <button 
-                          onClick={fetchResults}
-                          className="text-blue-600 hover:text-blue-700 font-medium text-xs sm:text-sm flex items-center"
-                        >
-                          <svg className="w-3 h-3 sm:w-4 sm:h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-                          </svg>
-                          Refresh
-                        </button>
-                        <button 
-                          onClick={async () => {
-                            try {
-                              const token = localStorage.getItem('token');
-                              if (!token) {
-                                alert('Please login first to create test data');
-                                return;
-                              }
-                              
-                              // Create multiple test results for better demo
-                              const testResults = [
-                                {
-                                  testType: 'ai',
-                                  subjectName: 'Air Regulations',
-                                  bookName: 'IC Joshi',
-                                  chapterName: 'Licensing',
-                                  score: 8,
-                                  total: 10,
-                                  timeSpent: 300,
-                                  difficulty: 'medium',
-                                  answers: [
-                                    { questionText: 'What is the minimum age for PPL?', selected: 'A', correct: true, explanation: 'Minimum age is 17 years' },
-                                    { questionText: 'VFR visibility requirements?', selected: 'B', correct: false, explanation: 'VFR requires 3 miles visibility' }
-                                  ]
-                                },
-                                {
-                                  testType: 'ai',
-                                  subjectName: 'Navigation',
-                                  bookName: 'Oxford',
-                                  chapterName: 'VOR/DME',
-                                  score: 7,
-                                  total: 10,
-                                  timeSpent: 450,
-                                  difficulty: 'hard',
-                                  answers: [
-                                    { questionText: 'VOR frequency range?', selected: 'C', correct: true, explanation: 'VOR operates in 108-118 MHz' },
-                                    { questionText: 'DME accuracy?', selected: 'A', correct: false, explanation: 'DME accuracy is ±0.25 nm' }
-                                  ]
-                                },
-                                {
-                                  testType: 'book',
-                                  subjectName: 'Meteorology',
-                                  bookName: 'IC Joshi',
-                                  chapterName: 'Weather Systems',
-                                  score: 9,
-                                  total: 10,
-                                  timeSpent: 200,
-                                  difficulty: 'easy',
-                                  answers: [
-                                    { questionText: 'What causes thunderstorms?', selected: 'B', correct: true, explanation: 'Convective activity causes thunderstorms' },
-                                    { questionText: 'Cold front characteristics?', selected: 'A', correct: true, explanation: 'Cold fronts have steep slopes' }
-                                  ]
-                                }
-                              ];
-                              
-                              debugLog('Creating test results...');
-                              for (const testResult of testResults) {
-                                const res = await fetch('/api/results', {
-                                  method: 'POST',
-                                  headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
-                                  body: JSON.stringify(testResult)
-                                });
-                                if (res.ok) {
-                                  debugLog('Test result saved:', await res.json());
-                                } else {
-                                  console.error('Failed to save test result:', await res.text());
-                                }
-                              }
-                              
-                              // Refresh results after creating test data
-                              setTimeout(() => {
-                                fetchResults();
-                              }, 1000);
-                              
-                              alert('Test data created successfully! Check the dashboard now.');
-                            } catch (e) {
-                              console.error('Error saving test result:', e);
-                              alert('Error creating test data: ' + e.message);
-                            }
-                          }}
-                          className="text-green-600 hover:text-green-700 font-medium text-xs sm:text-sm"
-                        >
-                          Create Test Data
-                        </button>
-                        <button className="text-blue-600 hover:text-blue-700 font-medium text-xs sm:text-sm">
-                          View All
-                        </button>
-                      </div>
-                    </div>
-                    
-                    <div className="space-y-3 sm:space-y-4">
-                      {loadingResults ? (
-                        <div className="text-center text-gray-600 py-6 sm:py-8">
-                          <div className="animate-spin rounded-full h-6 w-6 sm:h-8 sm:w-8 border-b-2 border-blue-600 mx-auto mb-3 sm:mb-4"></div>
-                          <p className="text-sm sm:text-base">Loading your results...</p>
-                        </div>
-                      ) : recentTests.length === 0 ? (
-                        <div className="text-center text-gray-600 py-6 sm:py-8">
-                          <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
-                            <svg className="w-6 h-6 sm:w-8 sm:h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                            </svg>
-                          </div>
-                          <p className="text-base sm:text-lg font-medium mb-1 sm:mb-2">No tests taken yet</p>
-                          <p className="text-xs sm:text-sm">Start your first practice test to see results here!</p>
-                        </div>
-                      ) : (
-                        recentTests.map((test, index) => (
-                          <div key={index} className="p-3 sm:p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-                            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-0 mb-2">
-                              <div className="flex-1 min-w-0">
-                                <div className="flex flex-wrap items-center gap-1 sm:gap-2 mb-1">
-                                  <h4 className="font-semibold text-sm sm:text-base text-gray-900 truncate">{test.subject}</h4>
-                                  {test.testType === 'ai' && (
-                                    <span className="px-2 py-0.5 sm:py-1 bg-purple-100 text-purple-700 text-xs font-medium rounded-full whitespace-nowrap">
-                                      AI Practice
-                                    </span>
-                                  )}
-                                  {test.testType === 'admin' && (
-                                    <span className="px-2 py-0.5 sm:py-1 bg-blue-100 text-blue-700 text-xs font-medium rounded-full whitespace-nowrap">
-                                      Admin Analysis
-                                    </span>
-                                  )}
-                                </div>
-                                <p className="text-xs sm:text-sm text-gray-600 truncate">
-                                  {test.testType === 'ai' ? 'AI Generated' : test.testType} • {test.questions} questions • {test.date}
-                                </p>
-                              </div>
-                              <div className="text-left sm:text-right flex-shrink-0">
-                                <div className={`text-xl sm:text-2xl font-bold ${getScoreColor(test.score).split(' ')[0]}`}>
-                                  {test.score}%
-                                </div>
-                                <div className="text-xs sm:text-sm text-gray-500">
-                                  {test.timeSpent ? formatTime(test.timeSpent) : 'N/A'}
-                                </div>
-                              </div>
-                            </div>
-                            <div className="w-full bg-gray-200 rounded-full h-2">
-                              <div 
-                                className={`h-2 rounded-full ${test.score >= 80 ? 'bg-green-500' : test.score >= 60 ? 'bg-yellow-500' : 'bg-red-500'}`} 
-                                style={{ width: `${test.score}%` }}
-                              ></div>
-                            </div>
-                          </div>
-                        ))
-                      )}
-                    </div>
-                  </Card>
-
-                  {/* Subject Performance */}
-                  <Card className="p-4 sm:p-6 md:p-8 rounded-xl">
-                    <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-4 sm:mb-6">Subject Performance</h3>
-                    
-                    <div className="space-y-3 sm:space-y-4">
-                      {stats.bySubject.length === 0 ? (
-                        <div className="text-center text-gray-600 py-6 sm:py-8">
-                          <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
-                            <svg className="w-6 h-6 sm:w-8 sm:h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                            </svg>
-                          </div>
-                          <p className="text-base sm:text-lg font-medium mb-1 sm:mb-2">No performance data yet</p>
-                          <p className="text-xs sm:text-sm">Take tests to see your subject-wise performance</p>
-                        </div>
-                      ) : (
-                        stats.bySubject.map((subject) => (
-                          <div key={subject.name} className="p-3 sm:p-4 bg-gray-50 rounded-lg">
-                            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-0 mb-2">
-                              <h4 className="font-semibold text-sm sm:text-base text-gray-900 truncate">{subject.name}</h4>
-                              <div className="text-left sm:text-right flex-shrink-0">
-                                <div className="text-base sm:text-lg font-bold text-blue-600">{subject.value}%</div>
-                                <div className="text-xs sm:text-sm text-gray-500">{subject.count} tests</div>
-                              </div>
-                            </div>
-                            <div className="w-full bg-gray-200 rounded-full h-2 sm:h-3">
-                              <div 
-                                className={`h-2 sm:h-3 rounded-full ${subject.value >= 80 ? 'bg-green-500' : subject.value >= 60 ? 'bg-yellow-500' : 'bg-red-500'}`} 
-                                style={{ width: `${subject.value}%` }}
-                              ></div>
-                            </div>
-                          </div>
-                        ))
-                      )}
-                    </div>
-                  </Card>
-                </div>
-
-                {/* Test Type Performance */}
-                {stats.byTestType.length > 0 && (
-                  <Card className="p-4 sm:p-6 md:p-8 rounded-xl">
-                    <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-4 sm:mb-6">Performance by Test Type</h3>
-                    
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
-                      {stats.byTestType.map((type) => (
-                        <div key={type.name} className="p-4 sm:p-6 bg-gray-50 rounded-lg text-center">
-                          <div className="text-xl sm:text-2xl font-bold text-blue-600 mb-1 sm:mb-2">{type.value}%</div>
-                          <div className="font-semibold text-sm sm:text-base text-gray-900 mb-1">{type.name}</div>
-                          <div className="text-xs sm:text-sm text-gray-600">{type.count} tests</div>
-                          <div className="w-full bg-gray-200 rounded-full h-2 mt-2 sm:mt-3">
-                            <div 
-                              className={`h-2 rounded-full ${type.value >= 80 ? 'bg-green-500' : type.value >= 60 ? 'bg-yellow-500' : 'bg-red-500'}`} 
-                              style={{ width: `${type.value}%` }}
-                            ></div>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </Card>
-                )}
-              </div>
-            )}
           </div>
         </main>
       </div>
-      
-      {/* Modern Alert */}
-      <ModernAlert
-        isOpen={alertState.isOpen}
-        onClose={hideAlert}
-        title={alertState.title}
-        message={alertState.message}
-        type={alertState.type}
-        autoClose={alertState.autoClose}
-        autoCloseDelay={alertState.autoCloseDelay}
-      />
     </div>
   );
 };
-
 export default PracticeTest;

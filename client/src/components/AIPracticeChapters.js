@@ -128,37 +128,40 @@ const AIPracticeChapters = () => {
         <SiteSidebar />
 
         {/* Main Content */}
-        <main className="flex-1 p-8">
+        <main className="flex-1 px-4 py-8 md:p-8 pt-20 md:pt-24 pb-28 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
           <div className="max-w-7xl mx-auto">
             {/* Breadcrumb Navigation */}
-            <div className="mb-6">
-              <nav className="flex items-center space-x-2 text-sm">
-                <Link to="/pyq/ai" className="text-blue-600 hover:text-blue-700">AI Subjects</Link>
-                <span className="text-gray-400">›</span>
-                <Link to={`/pyq/ai/${subjectSlug}`} className="text-blue-600 hover:text-blue-700">{subject.name}</Link>
-                <span className="text-gray-400">›</span>
-                <span className="text-gray-600">Chapters</span>
+            <div className="flex items-center justify-between mb-6 text-sm">
+              <nav className="flex items-center space-x-2 text-white/80">
+                <Link to="/pyq/ai" className="hover:text-white transition-colors">Subjects</Link>
+                <span className="text-white/40">›</span>
+                <Link to={`/pyq/ai/${subjectSlug}`} className="hover:text-white transition-colors">{subject.name}</Link>
+                <span className="text-white/40">›</span>
+                <span className="text-white">Chapters</span>
               </nav>
+              <span className="px-3 py-1 rounded-full bg-white/10 text-white/80 border border-white/20">
+                Step 4 · Focus Session
+              </span>
             </div>
 
             {/* Header */}
-            <div className="text-center mb-12">
+            <div className="text-center mb-12 animate-fade-in-up">
               <div className="flex items-center justify-center mb-6">
                 <div className={`w-16 h-16 bg-gradient-to-r ${subject.color} rounded-2xl flex items-center justify-center text-white text-3xl mr-4`}>
                   {subject.icon}
                 </div>
                 <div className={`w-16 h-16 bg-gradient-to-r ${book.color} rounded-2xl flex items-center justify-center text-white text-3xl`}>
                   {book.icon}
-            </div>
-          </div>
-              <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent mb-4">
+                </div>
+              </div>
+              <h1 className="text-4xl md:text-5xl font-black text-white drop-shadow mb-4">
                 Choose Your Chapter
               </h1>
-              <p className="text-xl text-gray-600 mb-2">
+              <p className="text-xl text-white/80 mb-2">
                 {subject.name} • {book.name}
               </p>
-              <p className="text-gray-500">
-                AI will generate questions based on your selected chapter
+              <p className="text-white/60">
+                Each session replays authentic DGCA PYQs laser-focused on the chapter you pick.
               </p>
               {!isAuthenticated && (
                 <div className="inline-flex items-center px-4 py-2 bg-yellow-100 border border-yellow-300 rounded-full mt-4">
@@ -168,10 +171,10 @@ const AIPracticeChapters = () => {
             </div>
 
             {/* Practice Settings Summary */}
-            <Card className="p-6 mb-12 bg-gradient-to-r from-blue-50 to-purple-50 border-2 border-blue-200">
+            <Card className="p-6 mb-12 bg-gradient-to-r from-blue-50/80 to-purple-50/80 border-2 border-white/40 backdrop-blur animate-fade-in">
               <div className="text-center mb-4">
                 <h2 className="text-lg font-bold text-gray-900 mb-2">Your Practice Settings</h2>
-                <p className="text-gray-600">These settings will be applied to your AI practice session</p>
+                <p className="text-gray-600">These settings will be applied to your PYQ session</p>
               </div>
               
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -200,7 +203,7 @@ const AIPracticeChapters = () => {
                 {chapters.map((chapter) => (
                   <Card 
                     key={chapter.slug} 
-                    className="p-6 cursor-pointer hover:shadow-xl transition-all duration-300 group"
+                    className="p-6 cursor-pointer hover:shadow-xl transition-all duration-300 group animate-fade-in-up"
                     onClick={() => handleChapterClick(chapter)}
                   >
                     <div className="text-center">
@@ -279,18 +282,18 @@ const AIPracticeChapters = () => {
                       <h3 className="text-xl font-bold text-gray-900 mb-4">Practice Preview</h3>
                       <div className="space-y-4">
                         <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
-                          <h4 className="font-semibold text-blue-900 mb-2">AI-Generated Questions</h4>
-                          <p className="text-blue-700 text-sm">Questions will be dynamically generated based on this chapter's content and your performance level.</p>
+                          <h4 className="font-semibold text-blue-900 mb-2">Authentic PYQs</h4>
+                          <p className="text-blue-700 text-sm">Sets remix the latest DGCA papers for this chapter while watching your timing.</p>
                         </div>
                         
                         <div className="p-4 bg-purple-50 rounded-lg border border-purple-200">
                           <h4 className="font-semibold text-purple-900 mb-2">Adaptive Learning</h4>
-                          <p className="text-purple-700 text-sm">AI will adjust question difficulty based on your responses to optimize your learning experience.</p>
+                          <p className="text-purple-700 text-sm">Difficulty and question styles adjust automatically based on your responses.</p>
                         </div>
                         
                         <div className="p-4 bg-green-50 rounded-lg border border-green-200">
                           <h4 className="font-semibold text-green-900 mb-2">Real-time Feedback</h4>
-                          <p className="text-green-700 text-sm">Get instant explanations and performance insights after each question.</p>
+                          <p className="text-green-700 text-sm">Instant explanations mirror DGCA mark schemes for faster retention.</p>
                         </div>
                       </div>
                     </div>
@@ -302,7 +305,7 @@ const AIPracticeChapters = () => {
                     <div className="grid md:grid-cols-2 gap-4 text-center">
                       <div>
                         <div className="text-2xl font-bold text-blue-600">{selectedChapter.questions}</div>
-                        <div className="text-sm text-gray-600">Available Questions</div>
+                        <div className="text-sm text-gray-600">Available PYQs</div>
                       </div>
                       <div>
                         <div className="text-2xl font-bold text-green-600">{selectedChapter.topics.length}</div>
@@ -317,11 +320,11 @@ const AIPracticeChapters = () => {
                       onClick={startChapterPractice}
                       className="flex-1 py-4 px-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
                     >
-                      <div className="flex items-center justify-center">
+                        <div className="flex items-center justify-center">
                         <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                         </svg>
-                        Start AI Practice
+                        Start PYQ Session
                       </div>
                     </button>
                     <button
@@ -335,10 +338,10 @@ const AIPracticeChapters = () => {
               </div>
             )}
 
-            {/* AI Benefits */}
-            <Card className="p-8 bg-gradient-to-r from-purple-50 to-indigo-50 border-2 border-purple-200">
+            {/* PYQ Benefits */}
+            <Card className="p-8 bg-gradient-to-r from-purple-50/80 to-indigo-50/80 border-2 border-white/30 backdrop-blur animate-fade-in">
               <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Why AI Chapter Practice?</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Why PYQ Chapter Practice?</h3>
                 <p className="text-gray-600">Experience targeted learning with intelligent question generation</p>
               </div>
               
@@ -348,14 +351,14 @@ const AIPracticeChapters = () => {
                     🎯
                   </div>
                   <h4 className="text-lg font-bold text-gray-900 mb-2">Focused Learning</h4>
-                  <p className="text-gray-600 text-sm">Questions specifically generated for your chosen chapter</p>
+                  <p className="text-gray-600 text-sm">PYQs filtered for your chosen chapter and question type</p>
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-4">
                     🧠
                   </div>
                   <h4 className="text-lg font-bold text-gray-900 mb-2">Smart Adaptation</h4>
-                  <p className="text-gray-600 text-sm">AI adjusts to your knowledge level within the chapter</p>
+                  <p className="text-gray-600 text-sm">Difficulty shifts automatically as you improve mid-session</p>
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-4">

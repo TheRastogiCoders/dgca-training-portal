@@ -7,7 +7,7 @@ import { API_ENDPOINTS } from '../config/api';
 const TOTAL_CHAPTERS = 78;
 
 const HomePage = () => (
-  <div className="min-h-screen gradient-bg">
+  <div className="min-h-screen gradient-bg overflow-hidden">
     <div className="flex">
       <SiteSidebar />
       <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-24 md:pb-8 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
@@ -24,7 +24,6 @@ export default HomePage;
 const DashboardOverview = () => {
   const { user } = useAuth();
   const [statsLoading, setStatsLoading] = useState(true);
-  const [comingSoonLink, setComingSoonLink] = useState(null);
   const [dashboardStats, setDashboardStats] = useState({
     chaptersCompleted: 0,
     chaptersThisWeek: 0,
@@ -90,15 +89,6 @@ const DashboardOverview = () => {
       isMounted = false;
     };
   }, [user]);
-
-  const quickLinks = [
-    { title: 'Question Bank', description: 'Master subjects chapter by chapter', icon: '📚', color: 'from-purple-500 to-indigo-500', to: '/question-bank', isAvailable: true },
-    { title: 'PYQs', description: 'Practice recent exam questions', icon: '🎯', color: 'from-blue-500 to-cyan-500', to: '/pyq', isAvailable: false },
-    { title: 'Mock Tests', description: 'Simulate exam conditions', icon: '🧠', color: 'from-pink-500 to-rose-500', to: '/pyq', isAvailable: false },
-    { title: 'Library', description: 'Access study notes & PDFs', icon: '📄', color: 'from-green-500 to-emerald-500', to: '/library', isAvailable: false },
-    { title: 'Video Lessons', description: 'Watch concept explainers', icon: '🎥', color: 'from-orange-500 to-amber-500', to: '/videos', isAvailable: false },
-    { title: 'Progress Report', description: 'Track your readiness', icon: '📊', color: 'from-indigo-500 to-sky-500', to: '/profile', isAvailable: false }
-  ];
 
   const continueLearning = {
     title: 'Piper Archer III DX',
@@ -212,86 +202,6 @@ const DashboardOverview = () => {
         </div>
       </section>
 
-      <section className="bg-white/10 backdrop-blur-2xl rounded-3xl border border-white/25 shadow-xl p-6 md:p-8">
-        <div className="flex items-center justify-between mb-6">
-          <div>
-            <h2 className="text-2xl font-bold text-gray-900">Launchpad</h2>
-            <p className="text-gray-600">Jump quickly to the most-used areas.</p>
-          </div>
-          <Link to="/pyq" className="text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors">
-            View all areas →
-          </Link>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {quickLinks.map((link) => {
-            const CardTag = link.isAvailable ? Link : 'button';
-            const cardProps = link.isAvailable
-              ? { to: link.to }
-              : {
-                  type: 'button',
-                  onClick: () => setComingSoonLink(link),
-                  'aria-label': `${link.title} coming soon`
-                };
-            const baseClasses =
-              'flex flex-col gap-3 p-5 rounded-2xl border border-white/15 bg-white/5 backdrop-blur-2xl shadow-lg transition-all w-full text-left';
-
-            return (
-              <CardTag
-                key={link.title}
-                className={`${baseClasses} ${
-                  link.isAvailable ? 'cursor-pointer hover:shadow-2xl hover:-translate-y-0.5' : 'cursor-not-allowed opacity-90'
-                }`}
-                {...cardProps}
-              >
-                <div className={`w-12 h-12 rounded-2xl bg-gradient-to-r ${link.color} text-white flex items-center justify-center text-xl shadow-lg`}>
-                  {link.icon}
-                </div>
-                <div>
-                  <p className="text-lg font-semibold text-gray-900 flex items-center gap-2">
-                    {link.title}
-                    {!link.isAvailable && (
-                      <span className="text-[11px] font-bold uppercase tracking-wide text-blue-500 bg-white/40 px-2 py-0.5 rounded-full">
-                        Soon
-                      </span>
-                    )}
-                  </p>
-                  <p className="text-sm text-gray-600">{link.description}</p>
-                </div>
-                <span className="text-sm font-medium text-blue-600 flex items-center gap-1">
-                  {link.isAvailable ? 'Open' : 'Notify me'}
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </span>
-              </CardTag>
-            );
-          })}
-        </div>
-      </section>
-      {comingSoonLink && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center">
-          <div className="absolute inset-0 bg-slate-900/60 backdrop-blur-sm" onClick={() => setComingSoonLink(null)} />
-          <div className="relative bg-white/10 border border-white/20 backdrop-blur-2xl rounded-3xl shadow-2xl p-8 max-w-sm mx-4 text-center space-y-4">
-            <span className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-500 text-white text-2xl shadow-lg">
-              ✈️
-            </span>
-            <div className="space-y-2">
-              <p className="text-sm uppercase tracking-[0.3em] text-blue-400 font-semibold">Coming Soon</p>
-              <h3 className="text-2xl font-bold text-white">{comingSoonLink.title}</h3>
-              <p className="text-sm text-blue-50/80">
-                We are polishing this experience. Hang tight—{comingSoonLink.title} will take off shortly!
-              </p>
-            </div>
-            <button
-              type="button"
-              onClick={() => setComingSoonLink(null)}
-              className="w-full px-4 py-3 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold shadow-lg hover:shadow-xl transition"
-            >
-              Got it
-            </button>
-          </div>
-        </div>
-      )}
     </div>
   );
 };
@@ -373,4 +283,3 @@ function roundOneDecimal(value) {
   const rounded = Math.round(value * 10) / 10;
   return Number.isFinite(rounded) ? rounded : 0;
 }
-

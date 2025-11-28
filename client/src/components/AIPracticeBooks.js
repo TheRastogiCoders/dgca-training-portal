@@ -1,31 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
-
-const books = [
-  { 
-    slug: 'ic-joshi', 
-    name: 'IC Joshi', 
-    icon: '📖', 
-    color: 'from-blue-500 to-blue-600',
-    description: 'Comprehensive aviation reference guide',
-    features: ['Detailed explanations', 'DGCA aligned', 'Expert reviewed'],
-    questions: '500+',
-    difficulty: 'Medium to Hard'
-  },
-  { 
-    slug: 'oxford', 
-    name: 'Oxford Aviation', 
-    icon: '📘', 
-    color: 'from-emerald-500 to-green-600',
-    description: 'International aviation standards',
-    features: ['Global standards', 'Modern approach', 'Visual learning'],
-    questions: '400+',
-    difficulty: 'Easy to Medium'
-  },
-];
 
 const subjectData = {
   'air-regulations': {
@@ -72,6 +49,20 @@ const subjectData = {
   }
 };
 
+const subjectSessions = {
+  'meteorology': [
+    { slug: 'regular-march-2024', title: 'Regular March 2024', window: 'Regular Series', badge: 'Latest', questionCount: 45, duration: '120 mins', accent: 'from-[#6a11cb] to-[#2575fc]' },
+    { slug: 'regular-december-attempt', title: 'Regular December Attempt', window: 'Regular Series', badge: 'High Yield', questionCount: 50, duration: '120 mins', accent: 'from-[#ff512f] to-[#dd2476]' },
+    { slug: 'regular-sep-2023', title: 'Regular Sep 2023', window: 'Regular Series', badge: 'Archive', questionCount: 40, duration: '110 mins', accent: 'from-[#1d976c] to-[#93f9b9]' },
+    { slug: 'regular-june-session', title: 'Regular June Session', window: 'Regular Series', badge: 'Archive', questionCount: 42, duration: '110 mins', accent: 'from-[#396afc] to-[#2948ff]' },
+    { slug: 'regular-march-2025', title: 'Regular March 2025', window: 'Regular Series', badge: 'Upcoming', questionCount: 48, duration: '120 mins', accent: 'from-[#f7971e] to-[#ffd200]' },
+    { slug: 'olode-may-2025', title: 'Olode May 2025', window: 'Olode Paper', badge: 'Upcoming', questionCount: 55, duration: '130 mins', accent: 'from-[#fc5c7d] to-[#6a82fb]' },
+    { slug: 'olode-jan-2025', title: 'Olode Jan 2025', window: 'Olode Paper', badge: 'Archive', questionCount: 48, duration: '125 mins', accent: 'from-[#00c6ff] to-[#0072ff]' },
+    { slug: 'olode-march-2025', title: 'Olode March 2025', window: 'Olode Paper', badge: 'Upcoming', questionCount: 52, duration: '125 mins', accent: 'from-[#7f00ff] to-[#e100ff]' },
+    { slug: 'olode-question-nov-24', title: 'Olode Question Nov 24', window: 'Olode Paper', badge: 'Archive', questionCount: 47, duration: '120 mins', accent: 'from-[#f953c6] to-[#b91d73]' }
+  ]
+};
+
 // Helper to create URL-friendly slugs from names
 const slugify = (name) => (name || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '');
 
@@ -89,14 +80,6 @@ const AIPracticeBooks = () => {
   const { subjectSlug } = useParams();
   const { isAuthenticated } = useAuth();
   const navigate = useNavigate();
-  const [selectedBook, setSelectedBook] = useState(null);
-  const [showBookDetails, setShowBookDetails] = useState(false);
-  const [practiceSettings, setPracticeSettings] = useState({
-    questionCount: 10,
-    difficulty: 'adaptive',
-    timeLimit: 'unlimited',
-    showExplanations: true
-  });
 
   const subject = subjectData[subjectSlug] || {
     name: 'Unknown Subject',
@@ -106,325 +89,107 @@ const AIPracticeBooks = () => {
     topics: []
   };
 
-  const handleBookClick = (book) => {
+  const sessions = subjectSessions[subjectSlug] || [];
+  const defaultBookSlug = 'ic-joshi';
+  const practiceSettings = {
+    questionCount: 10,
+    difficulty: 'adaptive',
+    timeLimit: 'unlimited',
+    showExplanations: true
+  };
+
+  const ensureAuth = () => {
     if (!isAuthenticated) {
       navigate('/login');
-      return;
+      return false;
     }
-    setSelectedBook(book);
-    setShowBookDetails(true);
+    return true;
   };
 
-  const startAIPractice = () => {
-    if (selectedBook) {
-      // Jump directly to runner with the first chapter for this subject
-      const chapterSlug = defaultChapterBySubject[subjectSlug] || 'chapter-1';
-      navigate(`/pyq/ai/${subjectSlug}/${selectedBook.slug}/${chapterSlug}`, {
-        state: { practiceSettings }
-      });
-    }
-  };
-
-  const handleSettingChange = (setting, value) => {
-    setPracticeSettings(prev => ({
-      ...prev,
-      [setting]: value
-    }));
+  const launchSession = (session) => {
+    if (!ensureAuth()) return;
+    const chapterSlug = defaultChapterBySubject[subjectSlug] || 'chapter-1';
+    navigate(`/pyq/ai/${subjectSlug}/${defaultBookSlug}/${chapterSlug}`, {
+      state: { practiceSettings, session }
+    });
   };
 
   return (
     <div className="min-h-screen gradient-bg">
       <div className="flex">
-        {/* Sidebar */}
         <SiteSidebar />
 
-        {/* Main Content */}
-        <main className="flex-1 p-8">
-          <div className="max-w-7xl mx-auto">
-            {/* Back Navigation */}
-            <div className="mb-6">
+        <main className="flex-1 px-4 py-8 sm:px-6 lg:px-10 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
+          <div className="max-w-5xl mx-auto space-y-8">
+            <div className="flex items-center justify-between text-sm">
               <Link 
                 to="/pyq/ai"
-                className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors"
+                className="inline-flex items-center text-blue-200 hover:text-white transition-colors"
               >
-                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                 </svg>
-                Back to AI Subjects
+                Back to Subjects
               </Link>
+              <span className="px-3 py-1 rounded-full bg-white/10 text-white/80 border border-white/20">
+                PYQ Sessions
+              </span>
             </div>
 
-            {/* Header */}
-            <div className="text-center mb-12">
-              <div className={`w-20 h-20 bg-gradient-to-r ${subject.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-6`}>
-                {subject.icon}
+            <div className="space-y-3">
+              <div className="inline-flex items-center px-3 py-1 rounded-full bg-white/10 text-white/80 text-xs uppercase tracking-[0.4em]">
+                DGCA PYQ
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent mb-4">
-                {subject.name} - AI Practice
+              <h1 className="text-3xl sm:text-4xl font-bold text-white drop-shadow">
+                {subject.name} Session List
               </h1>
-              <p className="text-xl text-gray-600 mb-6">
-                {subject.description}
+              <p className="text-white/80 text-sm sm:text-base max-w-3xl">
+                {subject.description}. Pick one of the curated DGCA windows below and jump straight into its PYQ mix.
               </p>
-              {!isAuthenticated && (
-                <div className="inline-flex items-center px-4 py-2 bg-yellow-100 border border-yellow-300 rounded-full mb-4">
-                  <span className="text-yellow-800 font-medium text-sm">🔒 Login required to start AI practice</span>
-                </div>
+            </div>
+
+            <section className="space-y-4">
+              {sessions.map((session, index) => (
+                <Card 
+                  key={session.slug} 
+                  className="p-5 sm:p-6 flex flex-col gap-4 md:flex-row md:items-center md:justify-between"
+                >
+                  <div className="flex-1">
+                    <div className="flex items-center gap-3">
+                      <div className={`w-12 h-12 rounded-2xl flex items-center justify-center text-white font-semibold bg-gradient-to-br ${session.accent}`}>
+                        {index + 1}
+                      </div>
+                      <div>
+                        <p className="text-xs uppercase text-gray-400 tracking-[0.3em]">{session.window}</p>
+                        <h2 className="text-xl font-semibold text-gray-900">{session.title}</h2>
+                      </div>
+                    </div>
+                    <div className="mt-3 flex flex-wrap items-center gap-3 text-sm text-gray-500">
+                      <span>{session.questionCount} PYQs</span>
+                      <span>⏱ {session.duration}</span>
+                      <span className="inline-flex items-center px-3 py-1 rounded-full bg-gray-100 text-gray-700 text-xs font-semibold">
+                        {session.badge}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="w-full md:w-auto">
+                    <button
+                      className="w-full px-4 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold hover:shadow-lg transition"
+                      onClick={() => launchSession(session)}
+                    >
+                      Launch PYQ Session
+                    </button>
+                  </div>
+                </Card>
+              ))}
+
+              {!sessions.length && (
+                <Card className="p-6 text-center text-gray-500">
+                  No session data available for this subject yet.
+                </Card>
               )}
-            </div>
-
-            {/* Subject Topics Overview */}
-            <Card className="p-8 mb-12 bg-gradient-to-r from-blue-50 to-purple-50 border-2 border-blue-200">
-              <div className="text-center mb-6">
-                <h2 className="text-2xl font-bold text-gray-900 mb-2">Topics Covered</h2>
-                <p className="text-gray-600">AI will generate questions from these key areas</p>
-              </div>
-              
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-                {subject.topics.map((topic, index) => (
-                  <div key={index} className="text-center p-4 bg-white rounded-lg border border-gray-200">
-                    <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white text-lg mx-auto mb-2">
-                      {index + 1}
-                    </div>
-                    <h3 className="text-sm font-semibold text-gray-900">{topic}</h3>
-                  </div>
-                ))}
-              </div>
-            </Card>
-
-            {/* Book Selection */}
-            <div className="mb-12">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
-                Choose Your Reference Book
-              </h2>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                {books.map((book) => (
-                  <Card 
-                    key={book.slug} 
-                    className="p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group"
-                    onClick={() => handleBookClick(book)}
-                  >
-                    <div className="text-center">
-                      <div className={`w-20 h-20 bg-gradient-to-r ${book.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                        {book.icon}
-                      </div>
-                      <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-purple-600 transition-colors">
-                        {book.name}
-                      </h3>
-                      <p className="text-gray-600 mb-6 leading-relaxed">
-                        {book.description}
-                      </p>
-                      
-                      {/* Features */}
-                      <div className="mb-6">
-                        <h4 className="font-semibold text-gray-900 mb-3">Key Features:</h4>
-                        <ul className="space-y-2 text-sm text-gray-600">
-                          {book.features.map((feature, index) => (
-                            <li key={index} className="flex items-center">
-                              <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                              </svg>
-                              {feature}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                      
-                      {/* Stats */}
-                      <div className="grid grid-cols-2 gap-4 mb-6">
-                        <div className="text-center">
-                          <div className="text-lg font-bold text-blue-600">{book.questions}</div>
-                          <div className="text-xs text-gray-500">Questions</div>
-                        </div>
-                        <div className="text-center">
-                          <div className="text-lg font-bold text-purple-600">{book.difficulty}</div>
-                          <div className="text-xs text-gray-500">Difficulty</div>
-                        </div>
-                      </div>
-                      
-                      <button className={`w-full py-3 px-6 bg-gradient-to-r ${book.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2`}>
-                        Select This Book
-                      </button>
-                    </div>
-                  </Card>
-                ))}
-              </div>
-            </div>
-
-            {/* Book Details Modal */}
-            {showBookDetails && selectedBook && (
-              <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-                <div className="bg-white rounded-2xl p-8 max-w-4xl w-full max-h-[90vh] overflow-y-auto">
-                  <div className="text-center mb-8">
-                    <div className={`w-24 h-24 bg-gradient-to-r ${selectedBook.color} rounded-2xl flex items-center justify-center text-white text-5xl mx-auto mb-4`}>
-                      {selectedBook.icon}
-                    </div>
-                    <h2 className="text-3xl font-bold text-gray-900 mb-2">{selectedBook.name}</h2>
-                    <p className="text-gray-600">{selectedBook.description}</p>
-                  </div>
-
-                  <div className="grid lg:grid-cols-2 gap-8">
-                    {/* Book Features */}
-                    <div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-4">Book Features</h3>
-                      <div className="space-y-3">
-                        {selectedBook.features.map((feature, index) => (
-                          <div key={index} className="flex items-center p-3 bg-gray-50 rounded-lg">
-                            <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                              <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                            </svg>
-                            <span className="font-medium text-gray-900">{feature}</span>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-
-                    {/* Practice Settings */}
-                    <div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-4">Practice Settings</h3>
-                      <div className="space-y-4">
-                        {/* Question Count */}
-                        <div>
-                          <label className="block text-sm font-semibold text-gray-700 mb-2">
-                            Number of Questions
-                          </label>
-                          <select
-                            value={practiceSettings.questionCount}
-                            onChange={(e) => handleSettingChange('questionCount', parseInt(e.target.value))}
-                            className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
-                          >
-                            <option value={5}>5 Questions (Quick Practice)</option>
-                            <option value={10}>10 Questions (Standard)</option>
-                            <option value={20}>20 Questions (Extended)</option>
-                            <option value={50}>50 Questions (Comprehensive)</option>
-                          </select>
-                        </div>
-
-                        {/* Difficulty */}
-                        <div>
-                          <label className="block text-sm font-semibold text-gray-700 mb-2">
-                            Difficulty Level
-                          </label>
-                          <select
-                            value={practiceSettings.difficulty}
-                            onChange={(e) => handleSettingChange('difficulty', e.target.value)}
-                            className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
-                          >
-                            <option value="adaptive">Adaptive (AI adjusts)</option>
-                            <option value="easy">Easy</option>
-                            <option value="medium">Medium</option>
-                            <option value="hard">Hard</option>
-                          </select>
-                        </div>
-
-                        {/* Time Limit */}
-                        <div>
-                          <label className="block text-sm font-semibold text-gray-700 mb-2">
-                            Time Limit
-                          </label>
-                          <select
-                            value={practiceSettings.timeLimit}
-                            onChange={(e) => handleSettingChange('timeLimit', e.target.value)}
-                            className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
-                          >
-                            <option value="unlimited">Unlimited Time</option>
-                            <option value="30">30 seconds per question</option>
-                            <option value="60">1 minute per question</option>
-                            <option value="90">1.5 minutes per question</option>
-                          </select>
-                        </div>
-
-                        {/* Show Explanations */}
-                        <div className="flex items-center">
-                          <input
-                            type="checkbox"
-                            id="showExplanations"
-                            checked={practiceSettings.showExplanations}
-                            onChange={(e) => handleSettingChange('showExplanations', e.target.checked)}
-                            className="w-4 h-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"
-                          />
-                          <label htmlFor="showExplanations" className="ml-2 text-sm font-medium text-gray-700">
-                            Show detailed explanations after each question
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* AI Practice Preview */}
-                  <div className="mt-8 p-6 bg-gradient-to-r from-purple-50 to-indigo-50 rounded-lg border border-purple-200">
-                    <h3 className="text-lg font-bold text-gray-900 mb-3">🤖 AI Practice Preview</h3>
-                    <div className="grid md:grid-cols-3 gap-4 text-sm">
-                      <div className="text-center">
-                        <div className="font-semibold text-purple-600">{practiceSettings.questionCount} Questions</div>
-                        <div className="text-gray-600">Total questions</div>
-                      </div>
-                      <div className="text-center">
-                        <div className="font-semibold text-purple-600">{practiceSettings.difficulty}</div>
-                        <div className="text-gray-600">Difficulty level</div>
-                      </div>
-                      <div className="text-center">
-                        <div className="font-semibold text-purple-600">{practiceSettings.timeLimit === 'unlimited' ? 'No limit' : `${practiceSettings.timeLimit}s`}</div>
-                        <div className="text-gray-600">Per question</div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Action Buttons */}
-                  <div className="flex space-x-4 mt-8">
-                    <button
-                      onClick={startAIPractice}
-                      className={`flex-1 py-4 px-8 bg-gradient-to-r ${selectedBook.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2`}
-                    >
-                      <div className="flex items-center justify-center">
-                        <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                        </svg>
-                        Start AI Practice
-                      </div>
-                    </button>
-                    <button
-                      onClick={() => setShowBookDetails(false)}
-                      className="px-8 py-4 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors"
-                    >
-                      Cancel
-                    </button>
-                  </div>
-                </div>
-              </div>
-            )}
-
-            {/* AI Benefits */}
-            <Card className="p-8 bg-gradient-to-r from-purple-50 to-indigo-50 border-2 border-purple-200">
-              <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Why Choose AI Practice?</h3>
-                <p className="text-gray-600">Experience the future of aviation exam preparation</p>
-              </div>
-              
-              <div className="grid md:grid-cols-3 gap-6">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-4">
-                    🎯
-                  </div>
-                  <h4 className="text-lg font-bold text-gray-900 mb-2">Adaptive Learning</h4>
-                  <p className="text-gray-600 text-sm">AI adjusts difficulty based on your performance</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-4">
-                    🧠
-                  </div>
-                  <h4 className="text-lg font-bold text-gray-900 mb-2">Personalized Path</h4>
-                  <p className="text-gray-600 text-sm">Focus on areas that need improvement</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-4">
-                    📊
-                  </div>
-                  <h4 className="text-lg font-bold text-gray-900 mb-2">Real-time Analytics</h4>
-                  <p className="text-gray-600 text-sm">Instant feedback and performance insights</p>
-                </div>
-              </div>
-            </Card>
+            </section>
           </div>
         </main>
       </div>

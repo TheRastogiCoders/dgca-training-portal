@@ -11,6 +11,391 @@ const friendly = (slug) => (slug || '')
   .map(p => p.charAt(0).toUpperCase() + p.slice(1))
   .join(' ');
 
+const questionBank = {
+  'air-regulations': [
+    {
+      text: 'According to {subject}, what is the minimum visibility required for day VFR departures inside controlled airspace?',
+      options: ['1 km', '3 km', '5 km', '10 km'],
+      answerIndex: 1,
+      explanation: 'DGCA guidelines require at least 3 km day VFR visibility so that pilots can maintain separation visually.'
+    },
+    {
+      text: 'While covering {chapter}, which document must always be carried on board to demonstrate aircraft airworthiness?',
+      options: ['Journey log book', 'Certificate of Registration', 'Certificate of Airworthiness', 'Radio license'],
+      answerIndex: 2,
+      explanation: 'The Certificate of Airworthiness must remain on board to prove the aircraft complies with safety standards.'
+    },
+    {
+      text: 'What phraseology should be used to cancel IFR and continue VFR under {subject}?',
+      options: ['Cancel IFR, continuing VFR', 'IFR terminated', 'Switching to VFR now', 'IFR service complete'],
+      answerIndex: 0,
+      explanation: '“Cancel IFR, continuing VFR” is the concise DGCA-approved call to terminate IFR responsibility.'
+    }
+  ],
+  'air-navigation': [
+    {
+      text: 'During {chapter}, which instrument provides magnetic bearing information relative to a ground station?',
+      options: ['ADF', 'DME', 'HSI', 'VSI'],
+      answerIndex: 0,
+      explanation: 'An Automatic Direction Finder (ADF) needle points to the station, giving magnetic bearing information.'
+    },
+    {
+      text: 'In a navigation plan showing “W/V 240/20”, what does 20 stand for?',
+      options: ['20° drift', '20 knots wind speed', '20 NM track error', '20° variation'],
+      answerIndex: 1,
+      explanation: 'The second number is wind speed, so 240/20 indicates wind from 240° at 20 kt.'
+    },
+    {
+      text: 'When calculating ETA for {chapter}, which component ensures fuel reserves for contingencies?',
+      options: ['Taxi fuel', 'Contingency fuel', 'Holding fuel', 'Trip fuel'],
+      answerIndex: 1,
+      explanation: 'Contingency fuel is added to cover unforeseen delays and maintain legal reserves.'
+    }
+  ],
+  'meteorology': [
+    {
+      text: 'Within {chapter}, the standard ISA sea-level pressure equals which value?',
+      options: ['991 hPa', '1000 hPa', '1013.2 hPa', '1020 hPa'],
+      answerIndex: 2,
+      explanation: 'International Standard Atmosphere assumes sea-level pressure of 1013.2 hPa (29.92 inHg).'
+    },
+    {
+      text: 'What cloud family is typically associated with the first stage of thunderstorm development?',
+      options: ['Stratus', 'Cumulus', 'Cirrus', 'Nimbostratus'],
+      answerIndex: 1,
+      explanation: 'Towering cumulus clouds signal the beginning of convective thunderstorm activity.'
+    },
+    {
+      text: 'Icing risk peaks near which temperature band when moisture is present during {chapter}?',
+      options: ['0°C to +5°C', '-5°C to -15°C', '-20°C to -30°C', 'Below -40°C'],
+      answerIndex: 1,
+      explanation: 'Super-cooled droplets in the -5°C to -15°C band adhere rapidly, creating serious icing.'
+    }
+  ],
+  'technical-general': [
+    {
+      text: 'When leaning a piston engine mixture during {chapter}, which indicator confirms best power?',
+      options: ['Decrease in RPM', 'Peak EGT then 50°F rich', 'Peak CHT then lean 100°F', 'Fuel flow minimum'],
+      answerIndex: 1,
+      explanation: 'Best power is typically achieved slightly rich of peak EGT—about 50°F on most engines.'
+    },
+    {
+      text: 'A fully charged 24V aircraft battery should read approximately what voltage at rest?',
+      options: ['22 V', '23.4 V', '24.5 V', '26 V'],
+      answerIndex: 2,
+      explanation: 'A healthy 24 V battery often indicates around 24.5–25 V with no load.'
+    },
+    {
+      text: 'Hydraulic accumulators primarily serve what purpose in {chapter}?',
+      options: ['Store electrical energy', 'Dampen pressure spikes & provide reserve pressure', 'Reduce oil temperature', 'Monitor brake wear'],
+      answerIndex: 1,
+      explanation: 'Accumulators smooth surges and maintain residual pressure for emergency actuations.'
+    }
+  ],
+  'technical-specific': [
+    {
+      text: 'For {chapter}, why is best glide speed critical during engine failure?',
+      options: ['Maximizes climb', 'Provides minimum sink rate', 'Ensures structural safety speed', 'Maintains most range per altitude lost'],
+      answerIndex: 3,
+      explanation: 'Best glide delivers the greatest horizontal distance for each unit of altitude lost—vital after failures.'
+    },
+    {
+      text: 'Piper-style fuel selectors typically feature which protective design?',
+      options: ['Guarded OFF detent', 'Automatic balancing valve', 'Electric crossfeed only', 'No detents'],
+      answerIndex: 0,
+      explanation: 'A raised guard protects the OFF detent to prevent accidental shutdown in-flight.'
+    },
+    {
+      text: 'In multi-engine procedures, the mnemonic “Dead Foot, Dead Engine” helps identify what?',
+      options: ['Failed magneto', 'Failed alternator', 'Failed engine side', 'Failed hydraulic line'],
+      answerIndex: 2,
+      explanation: 'The rudder pedal requiring no pressure (“dead foot”) sits on the same side as the failed engine.'
+    }
+  ],
+  'radio-telephony': [
+    {
+      text: 'Which phrase indicates urgency but not immediate distress when communicating {chapter} items?',
+      options: ['Pan Pan', 'Mayday', 'Standby', 'Wilco'],
+      answerIndex: 0,
+      explanation: '“Pan Pan” is the ICAO radiotelephony prefix for urgency transmissions.'
+    },
+    {
+      text: 'On initial call to a new frequency, which element should precede your message?',
+      options: ['Aircraft type then call sign', 'Call sign then position', 'Controller call sign then your call sign', 'Runway in use then call sign'],
+      answerIndex: 2,
+      explanation: 'Proper etiquette: “<Tower>, <Your Call Sign> …” so ATC knows the message is addressed to them.'
+    },
+    {
+      text: 'What does the instruction “Standby” require during {chapter} communication? ',
+      options: ['Change to standby frequency', 'Stop transmitting and wait', 'Switch to guard frequency', 'Report fuel remaining'],
+      answerIndex: 1,
+      explanation: '“Standby” directs the pilot to pause and wait for further ATC instructions.'
+    }
+  ]
+};
+
+const sessionQuestionSets = {
+  'regular-march-2024': {
+    bookName: 'Regular March 2024 Quiz',
+    chapterName: 'Quiz Questions',
+    questions: [
+      {
+        text: 'In the southern hemisphere, if an observer faces the wind, the low will be to his:',
+        options: ['Right', 'Left'],
+        answer: 'Right'
+      },
+      {
+        text: 'Sea breeze sets in by ___ and dies off at ___.',
+        options: ['Night / Day', 'Day / Night', 'Both day and night'],
+        answer: 'Day / Night'
+      },
+      {
+        text: 'The wind blows anticlockwise around a low in the northern hemisphere.',
+        options: ['True', 'False'],
+        answer: 'True'
+      },
+      {
+        text: 'The wind blows anticlockwise around a low in the southern hemisphere.',
+        options: ['True', 'False'],
+        answer: 'False'
+      },
+      {
+        text: 'Gradient wind is ___ of the geostrophic wind in an anticyclone.',
+        options: ['Under estimate', 'Accurate', 'Over estimate'],
+        answer: 'Under estimate'
+      },
+      {
+        text: 'Upper-level wind is 240/25 kt, lower-level wind is 060/15 kt. What is the thermal wind?',
+        options: ['160/10 kt', '240/40 kt', '240/10 kt'],
+        answer: '240/40 kt'
+      },
+      {
+        text: 'Height of the tropopause:',
+        options: ['Is constant', 'Varies with altitude', 'Varies with latitude'],
+        answer: 'Varies with latitude'
+      },
+      {
+        text: 'As the temperature of the air increases, the amount of water vapour required to saturate it:',
+        options: ['Decreases', 'Increases', 'Remains the same'],
+        answer: 'Increases'
+      },
+      {
+        text: 'Flying from low to high pressure, an altimeter would read:',
+        options: ['Over', 'Under', 'Constant'],
+        answer: 'Under'
+      },
+      {
+        text: 'Norwesters are:',
+        options: [
+          'The western disturbances which affect northwest India',
+          'Severe thunderstorms which occur over northeast India during the hot weather period',
+          'Severe thunderstorms which occur over the peninsula during the hot weather period'
+        ],
+        answer: 'Severe thunderstorms which occur over northeast India during the hot weather period'
+      },
+      {
+        text: 'Norwesters normally occur during:',
+        options: ['Mornings', 'Afternoons', 'Nights'],
+        answer: 'Afternoons'
+      },
+      {
+        text: 'Norwesters originate over:',
+        options: ['Chota Nagpur hills', 'Deccan Plateau', 'Khasi hills'],
+        answer: 'Chota Nagpur hills'
+      },
+      {
+        text: 'Norwesters occur during:',
+        options: ['Jan–Feb', 'Mar–May', 'Jun–Sep', 'Oct–Dec'],
+        answer: 'Mar–May'
+      },
+      {
+        text: 'The diameter of a microburst is:',
+        options: ['Less than 4 km', 'Less than 2 km', 'Less than 6 km'],
+        answer: 'Less than 4 km'
+      },
+      {
+        text: 'Radiation fog occurs:',
+        options: ['Over land', 'Over sea', 'During day', 'During night'],
+        answer: 'Over land'
+      },
+      {
+        text: 'Radiation fog forms over north India during:',
+        options: ['May to June', 'Dec to Feb', 'Oct to Nov', 'Sept to Nov'],
+        answer: 'Dec to Feb'
+      },
+      {
+        text: 'Radiation fog forms due to:',
+        options: [
+          'Heating of the earth during the day',
+          'Radiational cooling of earth during the day',
+          'Radiational cooling of earth at night',
+          'Advection of cold air'
+        ],
+        answer: 'Radiational cooling of earth at night'
+      },
+      {
+        text: 'Radiation fog is essentially a ___ phenomenon.',
+        options: ['Dusk', 'Nocturnal', 'Day', 'Afternoon'],
+        answer: 'Nocturnal'
+      },
+      {
+        text: 'Radiation fog forms over:',
+        options: ['Water', 'Land', 'Both', 'On water after rain'],
+        answer: 'Land'
+      },
+      {
+        text: 'For the formation of radiation fog:',
+        options: [
+          'There should be sufficient moisture, cloudy sky, nil wind',
+          'There should be sufficient moisture, clear sky, light wind',
+          'There should be sufficient moisture, cloudy sky, strong wind',
+          'There should be sufficient moisture, clear sky, nil wind'
+        ],
+        answer: 'There should be sufficient moisture, clear sky, light wind'
+      },
+      {
+        text: 'Drizzle occurs from:',
+        options: ['CS', 'ST', 'NS', 'CU'],
+        answer: 'NS'
+      },
+      {
+        text: 'Altostratus (AS) is:',
+        options: [
+          'A low cloud of sheet type',
+          'A medium cloud of sheet type',
+          'A cloud of large vertical growth',
+          'A high cloud of sheet type'
+        ],
+        answer: 'A medium cloud of sheet type'
+      },
+      {
+        text: 'Showers occur from:',
+        options: ['CU', 'CB', 'AS', 'AC'],
+        answer: 'CB'
+      },
+      {
+        text: 'In TCU, icing may range from light to severe at least up to the ___ level.',
+        options: ['Minus 40 deg C level', 'Plus 30 deg C level', 'Minus 20 deg C level'],
+        answer: 'Minus 20 deg C level'
+      },
+      {
+        text: 'Rainfall in the tropics is more in:',
+        options: ['Winters', 'Summers', 'Post monsoon'],
+        answer: 'Summers'
+      },
+      {
+        text: 'Inversion in the atmosphere indicates:',
+        options: ['Stability', 'Instability', 'Neutral'],
+        answer: 'Stability'
+      },
+      {
+        text: 'Flying in monsoon from Chennai to Kolkata at 14 km, the aircraft will experience winds:',
+        options: ['Easterly', 'Westerly', 'Northerly', 'Southerly'],
+        answer: 'Easterly'
+      },
+      {
+        text: 'An aircraft flying in winter from Delhi to Kolkata at 6 km will experience winds:',
+        options: ['SEly', 'SWly', 'Westerly'],
+        answer: 'Westerly'
+      },
+      {
+        text: 'During break monsoon, surface winds over East UP and Bihar are sometimes:',
+        options: ['Very strong', 'NW to Wly', 'Weak', 'Normal'],
+        answer: 'Weak'
+      },
+      {
+        text: 'Dew point temperature range is:',
+        options: ['29.5 to 30.4 deg C', '29.1 to 30.4 deg C', '30.6 to 30.4 deg C'],
+        answer: '29.1 to 30.4 deg C'
+      },
+      {
+        text: 'Temperature of 34 deg C is:',
+        options: ['Dry', 'Wet', 'Dew point'],
+        answer: 'Dry'
+      },
+      {
+        text: 'The dew point temperature:',
+        options: [
+          'Is higher if air contains more water vapour',
+          'Changes by cooling or warming',
+          'Is equal to the air temperature during mist',
+          'Is always higher than wet bulb temperature for unsaturated air'
+        ],
+        answer: 'Is higher if air contains more water vapour'
+      },
+      {
+        text: 'Wingtip vortices created by large aircraft tend to:',
+        options: [
+          'Rise from the surface to traffic pattern altitude',
+          'Sink below the aircraft generating the turbulence',
+          'Accumulate at the point where the takeoff roll began',
+          'Dissipate very slowly when the surface wind is strong'
+        ],
+        answer: 'Sink below the aircraft generating the turbulence'
+      }
+    ]
+  }
+};
+
+const fallbackQuestions = [
+  {
+    text: 'A standardized PYQ session always begins with which good habit?',
+    options: ['Skipping briefings', 'Confirming session goals', 'Ignoring timers', 'Practicing random topics'],
+    answerIndex: 1,
+    explanation: 'Setting goals keeps practice deliberate and mirrors examiner expectations.'
+  },
+  {
+    text: 'Why is reviewing explanations immediately after a question powerful?',
+    options: ['It wastes time', 'It hard-codes mistakes', 'It strengthens memory while context is fresh', 'It only helps advanced pilots'],
+    answerIndex: 2,
+    explanation: 'Neurologically, pairing feedback with the question cements correct reasoning.'
+  },
+  {
+    text: 'What does an adaptive PYQ session adjust in real time?',
+    options: ['Screen brightness', 'Question difficulty and topic mix', 'Aircraft weight', 'ATC phrases'],
+    answerIndex: 1,
+    explanation: 'Adaptive engines tweak difficulty and subjects according to your answers.'
+  }
+];
+
+const buildSessionQuestions = (sessionSlug) => {
+  const sessionConfig = sessionQuestionSets[sessionSlug];
+  if (!sessionConfig) return null;
+
+  return sessionConfig.questions.map((item, index) => {
+    const normalizedOptions = item.options.map(option => option.trim());
+    let answerIndex = typeof item.answerIndex === 'number' ? item.answerIndex : normalizedOptions.findIndex(
+      (opt) => opt.toLowerCase() === (item.answer || '').trim().toLowerCase()
+    );
+    if (answerIndex < 0) {
+      console.warn(`Answer mismatch in session ${sessionSlug} at question ${index + 1}. Defaulting to option 0.`);
+      answerIndex = 0;
+    }
+    const answerText = normalizedOptions[answerIndex];
+    return {
+      text: item.text,
+      options: normalizedOptions,
+      answerIndex,
+      explanation: item.explanation || `Correct answer: ${answerText}.`
+    };
+  });
+};
+
+const generateQuestions = (subjectSlug, chapterSlug, subjectName, chapterName, count) => {
+  const templates = questionBank[subjectSlug] || fallbackQuestions;
+  const safeSubject = subjectName || friendly(subjectSlug);
+  const safeChapter = chapterName || friendly(chapterSlug);
+
+  const personalize = (template) => ({
+    text: template.text.replace(/{subject}/g, safeSubject).replace(/{chapter}/g, safeChapter),
+    options: [...template.options],
+    answerIndex: template.answerIndex,
+    explanation: template.explanation.replace(/{subject}/g, safeSubject).replace(/{chapter}/g, safeChapter)
+  });
+
+  return Array.from({ length: count }).map((_, index) => personalize(templates[index % templates.length]));
+};
+
 const AIPracticeRunner = () => {
   const { subjectSlug, bookSlug, chapterSlug } = useParams();
   const location = useLocation();
@@ -35,6 +420,7 @@ const AIPracticeRunner = () => {
   const [reportSubmitted, setReportSubmitted] = useState(false);
   
   const timerRef = useRef(null);
+  const totalQuestions = questions.length || practiceSettings.questionCount;
 
   // Get data from location state
   const practiceSettings = location.state?.practiceSettings || {
@@ -46,10 +432,38 @@ const AIPracticeRunner = () => {
   const chapter = location.state?.chapter;
   const subject = location.state?.subject;
   const book = location.state?.book;
+  const sessionInfo = location.state?.session;
+  const sessionOverride = sessionInfo?.slug ? sessionQuestionSets[sessionInfo.slug] : null;
 
-  const subjectName = subject?.name || friendly(subjectSlug);
-  const bookName = book?.name || friendly(bookSlug);
-  const chapterName = chapter?.name || friendly(chapterSlug);
+  const subjectName = sessionOverride?.subjectName || subject?.name || friendly(subjectSlug);
+  const bookName = sessionOverride?.bookName || book?.name || friendly(bookSlug);
+  const chapterName = sessionOverride?.chapterName || chapter?.name || friendly(chapterSlug);
+
+  const initializeSession = useCallback(() => {
+    setLoading(true);
+    setStartTime(Date.now());
+    const generated = sessionInfo?.slug && sessionQuestionSets[sessionInfo.slug]
+      ? buildSessionQuestions(sessionInfo.slug)
+      : generateQuestions(subjectSlug, chapterSlug, subjectName, chapterName, practiceSettings.questionCount);
+    setQuestions(generated);
+    setAnswers({});
+    setCurrent(0);
+    setSelectedAnswer(null);
+    setScore(0);
+    setStreak(0);
+    setMaxStreak(0);
+    setDone(false);
+    setTimeLeft(practiceSettings.timeLimit !== 'unlimited' ? parseInt(practiceSettings.timeLimit) : null);
+    setLoading(false);
+  }, [
+    subjectSlug,
+    chapterSlug,
+    subjectName,
+    chapterName,
+    practiceSettings.questionCount,
+    practiceSettings.timeLimit,
+    sessionInfo?.slug
+  ]);
 
   // Initialize practice session
   useEffect(() => {
@@ -58,18 +472,8 @@ const AIPracticeRunner = () => {
       navigate('/login');
       return;
     }
-
-    const initializePractice = () => {
-      setLoading(true);
-      setStartTime(Date.now());
-      
-      // Do not generate any sample questions
-      setQuestions([]);
-      setLoading(false);
-    };
-
-    initializePractice();
-  }, [isAuthenticated, authLoading, navigate, practiceSettings.questionCount, subjectName, chapterName, practiceSettings.difficulty]);
+    initializeSession();
+  }, [isAuthenticated, authLoading, navigate, initializeSession]);
 
   const handleTimeUp = useCallback(() => {
     if (timerRef.current) {
@@ -132,7 +536,7 @@ const AIPracticeRunner = () => {
 
   const saveResults = async () => {
     try {
-      debugLog('Saving AI practice results...', { score, total: practiceSettings.questionCount, subjectName, bookName, chapterName });
+      debugLog('Saving PYQ session results...', { score, total: totalQuestions, subjectName, bookName, chapterName });
       
       const token = localStorage.getItem('token');
       if (!token) {
@@ -146,7 +550,7 @@ const AIPracticeRunner = () => {
         bookName: bookName,
         chapterName: chapterName,
         score: score,
-        total: practiceSettings.questionCount,
+        total: totalQuestions,
         timeSpent: Math.round((Date.now() - startTime) / 1000),
         difficulty: practiceSettings.difficulty,
         answers: questions.map((question, index) => ({
@@ -183,7 +587,7 @@ const AIPracticeRunner = () => {
   };
 
   const nextQuestion = () => {
-    if (current >= practiceSettings.questionCount - 1) {
+    if (current >= totalQuestions - 1) {
       setDone(true);
       if (timerRef.current) {
         clearInterval(timerRef.current);
@@ -204,17 +608,7 @@ const AIPracticeRunner = () => {
   };
 
   const restart = () => {
-    setCurrent(0);
-    setAnswers({});
-    setDone(false);
-    setSelectedAnswer(null);
-    setScore(0);
-    setStreak(0);
-    setMaxStreak(0);
-    setStartTime(Date.now());
-    
-    // Do not regenerate any sample questions
-    setQuestions([]);
+    initializeSession();
   };
 
   useEffect(() => {
@@ -263,7 +657,7 @@ const AIPracticeRunner = () => {
       const subject = `Question Report: ${reportType}`;
       
       let body = `Report Type: ${reportType}\n\n`;
-      body += `Question: ${current + 1} of ${practiceSettings.questionCount}\n`;
+      body += `Question: ${current + 1} of ${totalQuestions}\n`;
       body += `Subject: ${subjectName}\n`;
       if (bookName) {
         body += `Book: ${bookName}\n`;
@@ -296,7 +690,8 @@ const AIPracticeRunner = () => {
   };
 
   const getScorePercentage = () => {
-    return Math.round((score / practiceSettings.questionCount) * 100);
+    if (totalQuestions === 0) return 0;
+    return Math.round((score / totalQuestions) * 100);
   };
 
   const getScoreColor = (percentage) => {
@@ -318,12 +713,12 @@ const AIPracticeRunner = () => {
       <div className="min-h-screen gradient-bg">
         <div className="flex">
           <SiteSidebar />
-          <main className="flex-1 p-8">
+          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-28 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
             <div className="max-w-4xl mx-auto">
               <div className="text-center py-20">
                 <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-blue-600 mx-auto mb-4"></div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-2">Preparing Your AI Practice</h2>
-                <p className="text-gray-600">Generating personalized questions...</p>
+                <h2 className="text-2xl font-bold text-gray-900 mb-2">Preparing Your PYQ Session</h2>
+                <p className="text-gray-600">Loading curated DGCA questions...</p>
               </div>
             </div>
           </main>
@@ -337,11 +732,11 @@ const AIPracticeRunner = () => {
       <div className="min-h-screen gradient-bg">
         <div className="flex">
           <SiteSidebar />
-          <main className="flex-1 p-8">
+          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
             <div className="max-w-4xl mx-auto">
               <Card className="p-8 text-center">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Login Required</h2>
-                <p className="text-gray-600 mb-6">Please log in to access AI practice sessions.</p>
+                <p className="text-gray-600 mb-6">Please log in to access PYQ practice sessions.</p>
                 <button
                   onClick={() => navigate('/login')}
                   className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
@@ -366,7 +761,7 @@ const AIPracticeRunner = () => {
     <div className="min-h-screen gradient-bg">
       <div className="flex">
           <SiteSidebar />
-          <main className="flex-1 p-8">
+          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
             <div className="max-w-6xl mx-auto">
               {/* Results Header */}
               <div className="text-center mb-12">
@@ -389,7 +784,7 @@ const AIPracticeRunner = () => {
                   </div>
                   <h2 className="text-2xl font-bold text-gray-900 mb-2">{getScoreMessage(percentage)}</h2>
                   <p className="text-gray-600">
-                    You scored {score} out of {practiceSettings.questionCount} questions correctly
+                    You scored {score} out of {totalQuestions} questions correctly
                   </p>
                 </div>
 
@@ -399,7 +794,7 @@ const AIPracticeRunner = () => {
                     <div className="text-sm text-gray-500">Correct Answers</div>
                   </div>
                   <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
-                    <div className="text-2xl font-bold text-red-600">{practiceSettings.questionCount - score}</div>
+                    <div className="text-2xl font-bold text-red-600">{totalQuestions - score}</div>
                     <div className="text-sm text-gray-500">Incorrect Answers</div>
                   </div>
                   <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
@@ -466,12 +861,12 @@ const AIPracticeRunner = () => {
       <div className="min-h-screen gradient-bg">
         <div className="flex">
           <SiteSidebar />
-          <main className="flex-1 p-8">
+          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
             <div className="max-w-4xl mx-auto">
               <Card className="p-8 text-center">
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">Questions Coming Soon</h1>
                 <p className="text-gray-600 mb-6">
-                  AI-generated questions are not available right now for this chapter.
+                  PYQ sets are not available right now for this chapter.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <button onClick={() => navigate(`/pyq/ai/${subjectSlug}`)} className="px-6 py-3 bg-blue-600 text-white rounded-lg">
@@ -491,13 +886,13 @@ const AIPracticeRunner = () => {
 
   // Current question interface
   const currentQuestion = questions[current];
-  const progress = ((current + 1) / practiceSettings.questionCount) * 100;
+  const progress = totalQuestions ? ((current + 1) / totalQuestions) * 100 : 0;
 
   return (
     <div className="min-h-screen gradient-bg">
       <div className="flex">
         <SiteSidebar />
-        <main className="flex-1 p-8">
+        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
           <div className="max-w-4xl mx-auto">
             {/* Progress Header */}
             <div className="mb-8">
@@ -507,7 +902,7 @@ const AIPracticeRunner = () => {
                   <p className="text-gray-600">{chapterName} • {bookName}</p>
                 </div>
                 <div className="text-right">
-                  <div className="text-sm text-gray-500">Question {current + 1} of {practiceSettings.questionCount}</div>
+                  <div className="text-sm text-gray-500">Question {current + 1} of {totalQuestions}</div>
                   <div className="text-lg font-bold text-blue-600">Score: {score}</div>
                 </div>
               </div>
@@ -657,7 +1052,7 @@ const AIPracticeRunner = () => {
                         : 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:shadow-lg transform hover:scale-[1.02]'
                     }`}
                   >
-                    {current >= practiceSettings.questionCount - 1 ? 'Finish Practice' : 'Next Question'}
+                    {current >= totalQuestions - 1 ? 'Finish Practice' : 'Next Question'}
                   </button>
                 </div>
                 </div>
