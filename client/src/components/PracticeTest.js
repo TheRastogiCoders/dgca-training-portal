@@ -11,7 +11,6 @@ const PracticeTest = () => {
   const [results, setResults] = useState([]);
   const [loadingResults, setLoadingResults] = useState(false);
 
-
   const testTypes = [
     {
       id: 'ai',
@@ -309,22 +308,6 @@ const PracticeTest = () => {
                 )}
               </div>
 
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-3 mt-6">
-                {flowSteps.map((step, index) => (
-                  <div key={step.label} className="flex items-center gap-2 animate-fade-in-up" style={{ animationDelay: `${index * 0.08}s` }}>
-                    <div className="px-3 py-2 rounded-2xl bg-white/60 backdrop-blur text-left shadow-sm border border-white/40">
-                      <p className="text-xs font-semibold text-indigo-600 uppercase tracking-wide">Step {index + 1}</p>
-                      <p className="text-sm font-bold text-gray-900">{step.label}</p>
-                      <p className="text-xs text-gray-500">{step.detail}</p>
-                    </div>
-                    {index < flowSteps.length - 1 && (
-                      <svg className="w-4 h-4 text-indigo-400 hidden sm:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    )}
-                  </div>
-                ))}
-              </div>
             </div>
 
             {/* Main grid */}
@@ -347,12 +330,15 @@ const PracticeTest = () => {
                         </h3>
                         <p className="text-xs sm:text-sm md:text-base text-gray-600 mb-3 sm:mb-4 leading-relaxed">{test.description}</p>
                         <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 sm:gap-4 mb-4 sm:mb-5">
-                          {Object.entries(test.stats).map(([key, value]) => (
-                            <div key={key} className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
-                              <div className="text-sm sm:text-base md:text-lg font-bold text-blue-600">{value}</div>
-                              <div className="text-xs text-gray-500 capitalize">{key}</div>
-                            </div>
-                          ))}
+                          {Object.entries(test.stats).map(([key, value]) => {
+                            const label = key === 'ai' ? 'AI-Powered' : key === 'adaptive' ? 'Adaptive' : key.charAt(0).toUpperCase() + key.slice(1);
+                            return (
+                              <div key={key} className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
+                                <div className="text-sm sm:text-base md:text-lg font-bold text-blue-600">{value}</div>
+                                <div className="text-xs text-gray-500">{label}</div>
+                              </div>
+                            );
+                          })}
                         </div>
                         <button className={`w-full py-2.5 sm:py-3 px-4 sm:px-6 bg-gradient-to-r ${test.color} text-white font-semibold text-sm sm:text-base rounded-lg shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2`}>
                           Start PYQ Practice

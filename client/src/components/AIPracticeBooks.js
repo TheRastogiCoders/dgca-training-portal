@@ -66,6 +66,35 @@ const subjectSessions = {
 // Helper to create URL-friendly slugs from names
 const slugify = (name) => (name || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '');
 
+// Helper to extract year from session title
+const extractYear = (title) => {
+  // Match 4-digit years (e.g., 2024, 2025)
+  const fourDigitMatch = title.match(/\b(20\d{2})\b/);
+  if (fourDigitMatch) {
+    return parseInt(fourDigitMatch[1], 10);
+  }
+  
+  // Match 2-digit years (e.g., "Nov 24" -> 2024)
+  const twoDigitMatch = title.match(/\b(\d{2})\b/);
+  if (twoDigitMatch) {
+    const year = parseInt(twoDigitMatch[1], 10);
+    // Assume 20xx format (24 -> 2024, 25 -> 2025)
+    return year < 50 ? 2000 + year : 1900 + year;
+  }
+  
+  // Default to 0 if no year found (will be sorted last)
+  return 0;
+};
+
+// Helper to sort sessions by year (descending)
+const sortSessionsByYear = (sessions) => {
+  return [...sessions].sort((a, b) => {
+    const yearA = extractYear(a.title);
+    const yearB = extractYear(b.title);
+    return yearB - yearA; // Descending order (newest first)
+  });
+};
+
 // Default first chapter per subject (matches AIPracticeChapters order)
 const defaultChapterBySubject = {
   'air-regulations': slugify('Civil Aviation Rules'),
@@ -89,7 +118,7 @@ const AIPracticeBooks = () => {
     topics: []
   };
 
-  const sessions = subjectSessions[subjectSlug] || [];
+  const sessions = sortSessionsByYear(subjectSessions[subjectSlug] || []);
   const defaultBookSlug = 'ic-joshi';
   const practiceSettings = {
     questionCount: 10,

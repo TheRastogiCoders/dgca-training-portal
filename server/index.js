@@ -169,7 +169,8 @@ app.get('/api/practice-questions/:book', (req, res) => {
       'oxford': 'oxford',  // Direct mapping
       // CAE Oxford General Navigation practice files
       // are stored with a "cae-oxford-general-navigation-" prefix
-      'general-navigation': 'cae-oxford-general-navigation'
+      'general-navigation': 'cae-oxford-general-navigation',
+      'cae-oxford-general-navigation': 'cae-oxford-general-navigation'  // Handle both slug variations
     };
     
     // Apply mapping if exists, otherwise use the book slug as-is
