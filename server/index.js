@@ -171,7 +171,15 @@ app.get('/api/practice-questions/:book', (req, res) => {
       // CAE Oxford General Navigation practice files
       // are stored with a "cae-oxford-general-navigation-" prefix
       'general-navigation': 'cae-oxford-general-navigation',
-      'cae-oxford-general-navigation': 'cae-oxford-general-navigation'  // Handle both slug variations
+      'cae-oxford-general-navigation': 'cae-oxford-general-navigation',  // Handle both slug variations
+      // Revision questions book mappings
+      'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
+      'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
+      'cae-oxford-performance': 'cae-oxford-performance',
+      'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
+      'cae-oxford-powerplant': 'cae-oxford-powerplant',
+      'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
+      'cae-oxford-navigation': 'cae-oxford-navigation'
     };
     
     // Apply mapping if exists, otherwise use the book slug as-is

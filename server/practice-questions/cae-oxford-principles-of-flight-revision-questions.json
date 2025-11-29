@@ -1,0 +1,4957 @@
+{
+  "book_name": "CAE Oxford Principles of Flight",
+  "chapter_number": "N/A",
+  "chapter_title": "Revision Questions",
+  "chapter_slug": "cae-oxford-principles-of-flight-revision-questions",
+  "source": "cae-oxford",
+  "questions": [
+    {
+      "question_number": "Q1",
+      "question": "A unit of measurement of pressure is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) kg/square          dm.",
+        "(b) kg/cubic          metre.",
+        "(c) newtons.",
+        "(d) psi."
+      ],
+      "answer": "a",
+      "solution": "(a) kg/square          dm.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q2",
+      "question": "Which of the following are the correct SI units?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Density is kilograms per cubic metre,  force is newtons.",
+        "(b) Density is newtons per cubic metre, force is kilograms.",
+        "(c) Density is kilograms per newton, force is newton-metre squared.",
+        "(d) Density is kilograms per square metre, force is kilograms."
+      ],
+      "answer": "a",
+      "solution": "(a) Density is kilograms per cubic metre,  force is newtons.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q3",
+      "question": "What is the SI unit of density?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) m V squared.",
+        "(b) kg/square          cm.",
+        "(c) kg - metres.",
+        "(d) kg/cubic          metre."
+      ],
+      "answer": "a",
+      "solution": "(a) m V squared.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q4",
+      "question": "What is the SI unit which results from multiplying kg and m/s squared?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Newton.",
+        "(b) Psi.",
+        "(c) Joule.",
+        "(d) Watt."
+      ],
+      "answer": "a",
+      "solution": "(a) Newton.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q5",
+      "question": "Which of the following expressions is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) A = F × M",
+        "(b) F = M × A",
+        "(c) M = F × A",
+        "(d) A = M / F"
+      ],
+      "answer": "a",
+      "solution": "(a) A = F × M",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q6",
+      "question": "Which of the following is the equation for power?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) N/m.",
+        "(b) Nm/s.",
+        "(c) Pa/s          squared.",
+        "(d) Kg/m/s          squared."
+      ],
+      "answer": "a",
+      "solution": "(a) N/m.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q7",
+      "question": "At a constant CAS when flying below sea level an aircraft will have:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a higher TAS than at sea level.",
+        "(b) a lower TAS than at sea level at ISA conditions.",
+        "(c) the same TAS as at sea level.",
+        "(d) the same TAS, but an increased IAS."
+      ],
+      "answer": "a",
+      "solution": "(a) a higher TAS than at sea level.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q8",
+      "question": "Static pressure acts:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) parallel to airflow.",
+        "(b) parallel to dynamic pressure.",
+        "(c) in all directions.",
+        "(d) downwards."
+      ],
+      "answer": "a",
+      "solution": "(a) parallel to airflow.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q9",
+      "question": "TAS          is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) higher than the speed of the undisturbed airstream around the aircraft.",
+        "(b) lower than the speed of the undisturbed airstream around the aircraft.",
+        "(c) lower than IAS at ISA altitudes below sea level.",
+        "(d) equal to IAS, multiplied by air density at sea level."
+      ],
+      "answer": "a",
+      "solution": "(a) higher than the speed of the undisturbed airstream around the aircraft.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q10",
+      "question": "The difference between IAS and TAS will:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase with decreasing temperature.",
+        "(b) increase with increasing density.",
+        "(c) remain constant at all times.",
+        "(d) decrease with decreasing altitude."
+      ],
+      "answer": "a",
+      "solution": "(a) increase with decreasing temperature.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q11",
+      "question": "As a smooth flow of subsonic air at a velocity less than M 0.4 flows through a",
+      "question_type": "MCQ",
+      "options": [
+        "(a) (i) increases and (ii) decreases",
+        "(b) (i) increases and (ii) increases",
+        "(c) (i) decreases and (ii) decreases",
+        "(d) (i) decreases and (ii) increases"
+      ],
+      "answer": "a",
+      "solution": "(a) (i) increases and (ii) decreases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q12",
+      "question": "As subsonic air flows through a convergent duct:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) (i) increases and (ii) decreases",
+        "(b) (i) increases and (ii) increases",
+        "(c) (i) decreases and (ii) decreases",
+        "(d) (i) decreases and (ii) increases"
+      ],
+      "answer": "a",
+      "solution": "(a) (i) increases and (ii) decreases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q13",
+      "question": "Bernoulli’s Theorem states:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) dynamic pressure increases and static pressure increases.",
+        "(b) dynamic pressure increases and static pressure decreases.",
+        "(c) dynamic pressure is maximum at stagnation point.",
+        "(d) there is zero pressure at zero dynamic pressure."
+      ],
+      "answer": "a",
+      "solution": "(a) dynamic pressure increases and static pressure increases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q14",
+      "question": "Consider a uniform flow of air at velocity V in a streamtube.  If the temperature of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the mass flow remains constant and velocity V decreases.",
+        "(b) the mass flow will increase and velocity V remain constant.",
+        "(c) the mass flow will decrease and velocity V will remain constant.",
+        "(d) the mass flow remains constant and the velocity V will increase."
+      ],
+      "answer": "a",
+      "solution": "(a) the mass flow remains constant and velocity V decreases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q15",
+      "question": "In a subsonic flow venturi, the relationship between the total pressure, static",
+      "question_type": "MCQ",
+      "options": [
+        "(a) both (i) and (ii) are correct.",
+        "(b) (i) is correct and (ii) is incorrect.",
+        "(c) (i) is incorrect and (ii) is correct.",
+        "(d) both (i) and (ii) are incorrect."
+      ],
+      "answer": "a",
+      "solution": "(a) both (i) and (ii) are correct.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q16",
+      "question": "In accordance with Bernoulli’s Theorem, where PT = Total Pressure, PS = Static",
+      "question_type": "MCQ",
+      "options": [
+        "(a) PT + PS = q",
+        "(b) PT = PS - q",
+        "(c) PT - PS = q",
+        "(d) PS + PT = q"
+      ],
+      "answer": "a",
+      "solution": "(a) PT + PS = q",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q17",
+      "question": "The Principle of Continuity states that in a streamtube of decreasing cross-sectional",
+      "question_type": "MCQ",
+      "options": [
+        "(a) remain the same.",
+        "(b) decrease.",
+        "(c) increase.",
+        "(d) sonic."
+      ],
+      "answer": "a",
+      "solution": "(a) remain the same.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q18",
+      "question": "The Principle of Continuity states that in a tube of increasing cross-sectional area,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) remain the same.",
+        "(b) decrease.",
+        "(c) sonic.",
+        "(d) increase."
+      ],
+      "answer": "a",
+      "solution": "(a) remain the same.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q19",
+      "question": "What are the units for wing loading and dynamic pressure?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) N/square metre and N/square metre.",
+        "(b) Nm and Nm.",
+        "(c) N and N/square metre.",
+        "(d) N/square metre and joules."
+      ],
+      "answer": "a",
+      "solution": "(a) N/square metre and N/square metre.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q20",
+      "question": "When considering the Principle of Continuity for incompressible subsonic flow,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The density at the throat will be the same as the density at the mouth.",
+        "(b) The density at the throat will be less than the density at the mouth.",
+        "(c) The density at the throat will be greater than the density at the mouth.",
+        "(d) Cannot say without knowing the change in cross-sectional area of the"
+      ],
+      "answer": "a",
+      "solution": "(a) The density at the throat will be the same as the density at the mouth.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q21",
+      "question": "When considering the Principle of Continuity for subsonic flow, what happens in a",
+      "question_type": "MCQ",
+      "options": [
+        "(a) RHO 1 = RHO 2",
+        "(b) RHO 1 > RHO 2",
+        "(c) RHO 2 > RHO 1",
+        "(d) Cannot say without knowing the change in cross-sectional area of the"
+      ],
+      "answer": "a",
+      "solution": "(a) RHO 1 = RHO 2",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q22",
+      "question": "Which of the following creates lift?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) An accelerated air mass.",
+        "(b) A retarded air mass.",
+        "(c) A change in direction of mass flow.",
+        "(d) A symmetrical aerofoil at zero angle of attack in a high speed flow."
+      ],
+      "answer": "a",
+      "solution": "(a) An accelerated air mass.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q23",
+      "question": "Which of the following statements about a venturi in a subsonic airflow is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) (i) is correct and (ii) is incorrect.",
+        "(b) (i) is incorrect and (ii) is correct.",
+        "(c) (i) and (ii) are correct.",
+        "(d) (i) and (ii) are incorrect."
+      ],
+      "answer": "a",
+      "solution": "(a) (i) is correct and (ii) is incorrect.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q24",
+      "question": "A line from the centre of curvature of the leading edge to the trailing edge,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) camber          line.",
+        "(b) upper camber line.",
+        "(c) mean          chord.",
+        "(d) mean aerodynamic chord."
+      ],
+      "answer": "a",
+      "solution": "(a) camber          line.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q25",
+      "question": "A symmetrical aerofoil section at C",
+      "question_type": "MCQ",
+      "options": [
+        "(a) A negative (nose-down) pitching moment.",
+        "(b) A positive (nose-up) pitching moment.",
+        "(c) Zero pitching moment.",
+        "(d) No aerodynamic force."
+      ],
+      "answer": "a",
+      "solution": "(a) A negative (nose-down) pitching moment.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q26",
+      "question": "Angle of attack is the angle between:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) undisturbed airflow and chord line.",
+        "(b) undisturbed airflow and mean camber line.",
+        "(c) local airflow and chord line.",
+        "(d) local airflow and mean camber line."
+      ],
+      "answer": "a",
+      "solution": "(a) undisturbed airflow and chord line.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q27",
+      "question": "How is the thickness of an aerofoil section measured?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) As the ratio of wing angle.",
+        "(b) Related to camber.",
+        "(c) As the percentage of chord.",
+        "(d) In          metres."
+      ],
+      "answer": "a",
+      "solution": "(a) As the ratio of wing angle.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q28",
+      "question": "Lift and drag respectively are normal and parallel to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the chord line.",
+        "(b) the longitudinal axis.",
+        "(c) the          horizon.",
+        "(d) the relative airflow."
+      ],
+      "answer": "a",
+      "solution": "(a) the chord line.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q29",
+      "question": "The angle between the aeroplane longitudinal axis and the chord line is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) angle of incidence.",
+        "(b) glide path angle.",
+        "(c) angle of attack.",
+        "(d) climb path angle."
+      ],
+      "answer": "a",
+      "solution": "(a) angle of incidence.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q30",
+      "question": "The term angle of attack is defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the angle between the relative airflow and the horizontal axis.",
+        "(b) the angle between the wing chord line and the relative wind.",
+        "(c) the angle that determines the magnitude of the lift force.",
+        "(d) the angle between the wing and tailplane incidence."
+      ],
+      "answer": "a",
+      "solution": "(a) the angle between the relative airflow and the horizontal axis.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q31",
+      "question": "What is the angle of attack?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Angle of the chord line to the relative free stream flow.",
+        "(b) Angle of the chord line to the fuselage datum.",
+        "(c) Angle of the tailplane chord to the wing chord.",
+        "(d) Angle of the tailplane chord to the fuselage datum."
+      ],
+      "answer": "a",
+      "solution": "(a) Angle of the chord line to the relative free stream flow.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q32",
+      "question": "When considering the coefficient of lift and angle of attack of aerofoil sections:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a symmetrical section at zero angle of attack will produce a small positive",
+        "(b) an asymmetrical section at zero angle of attack will produce zero coefficient",
+        "(c) a symmetrical section at zero angle of attack will produce zero coefficient of",
+        "(d) aerofoil section symmetry has no effect on lift coefficient."
+      ],
+      "answer": "a",
+      "solution": "(a) a symmetrical section at zero angle of attack will produce a small positive",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q33",
+      "question": "When considering the lift and drag forces on an aerofoil section:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) they are only normal to each other at one angle of attack.",
+        "(b) they both depend on the pressure distribution on the aerofoil section.",
+        "(c) they vary linearly.",
+        "(d) lift is proportional to drag."
+      ],
+      "answer": "a",
+      "solution": "(a) they are only normal to each other at one angle of attack.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q34",
+      "question": "Where does the lift act on the wing?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Suction.",
+        "(b) Always forward of the CG.",
+        "(c) Centre of Gravity.",
+        "(d) Centre of Pressure."
+      ],
+      "answer": "a",
+      "solution": "(a) Suction.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q35",
+      "question": "Which of the following creates lift?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) A slightly cambered aerofoil.",
+        "(b) An aerofoil in a high speed flow.",
+        "(c) Air accelerated upwards.",
+        "(d) Air accelerated downwards."
+      ],
+      "answer": "a",
+      "solution": "(a) A slightly cambered aerofoil.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q36",
+      "question": "Which of the following is the greatest factor causing lift?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Suction above the wing.",
+        "(b) Increased pressure below the wing.",
+        "(c) Increased airflow velocity below the wing.",
+        "(d) Decreased airflow velocity above the wing."
+      ],
+      "answer": "a",
+      "solution": "(a) Suction above the wing.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q37",
+      "question": "Which of the following statements is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Lift acts perpendicular to the horizontal and drag parallel in a rearwards",
+        "(b) Drag acts parallel to the chord and opposite to the direction of motion of the",
+        "(c) Lift acts at right angles to the top surface of the wing and drag acts at right",
+        "(d) Drag acts in the same direction as the relative wind and lift perpendicular to"
+      ],
+      "answer": "a",
+      "solution": "(a) Lift acts perpendicular to the horizontal and drag parallel in a rearwards",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q38",
+      "question": "If IAS is doubled, by which of the following factors should the original C",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 0·25",
+        "(b) 0·5",
+        "(c) 2·0",
+        "(d) 4·0"
+      ],
+      "answer": "a",
+      "solution": "(a) 0·25",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q39",
+      "question": "On entering ground effect:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) more thrust is required.",
+        "(b) less thrust is required.",
+        "(c) ground effect has no effect on thrust required.",
+        "(d) lift          decreases."
+      ],
+      "answer": "a",
+      "solution": "(a) more thrust is required.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q40",
+      "question": "On the approach to land, ground effect will begin to be felt at:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) twice the wingspan above the ground.",
+        "(b) half the wingspan above the ground.",
+        "(c) when the angle of attack is increased.",
+        "(d) upon elevator deflection."
+      ],
+      "answer": "a",
+      "solution": "(a) twice the wingspan above the ground.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q41",
+      "question": "The formula for lift is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) L = W",
+        "(b) L = 2 rho V squared S C",
+        "(c) L = 1/2 rho V squared S C",
+        "(d) L = rho V S C"
+      ],
+      "answer": "a",
+      "solution": "(a) L = W",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q42",
+      "question": "The influence of ground effect on landing distance will:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase landing distance.",
+        "(b) decrease landing distance.",
+        "(c) have no effect on landing distance.",
+        "(d) depend on flap position."
+      ],
+      "answer": "a",
+      "solution": "(a) increase landing distance.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q43",
+      "question": "Two identical aircraft of the same weight fly at different altitudes. All other",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The          same.",
+        "(b) Greater in the higher aircraft.",
+        "(c) Greater in the lower aircraft.",
+        "(d) Less in the higher aircraft."
+      ],
+      "answer": "a",
+      "solution": "(a) The          same.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q44",
+      "question": "What do ‘S’ and ‘q’ represent in the lift equation?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Static pressure and chord.",
+        "(b) Wingspan and dynamic pressure.",
+        "(c) Wing area and dynamic pressure.",
+        "(d) Wing area and static pressure."
+      ],
+      "answer": "a",
+      "solution": "(a) Static pressure and chord.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q45",
+      "question": "What effect on induced drag does entering ground effect have?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increase.",
+        "(b) Decrease.",
+        "(c) Remain the same.",
+        "(d) Induced drag will increase, but profile drag will decrease."
+      ],
+      "answer": "a",
+      "solution": "(a) Increase.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q46",
+      "question": "What is the C",
+      "question_type": "MCQ",
+      "options": [
+        "(a) C",
+        "(b) C",
+        "(c) the          same.",
+        "(d) C"
+      ],
+      "answer": "a",
+      "solution": "(a) C",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q47",
+      "question": "What is the MAC of a wing?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Area of wing divided by the span.",
+        "(b) The same as the mean chord of a rectangular wing of the same span.",
+        "(c) The mean chord of the whole aeroplane.",
+        "(d) The 25% chord of a swept wing."
+      ],
+      "answer": "a",
+      "solution": "(a) Area of wing divided by the span.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q48",
+      "question": "When an aircraft enters ground effect:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the lift vector is inclined rearwards which increases the thrust required.",
+        "(b) the lift vector is inclined forwards which reduces the thrust required.",
+        "(c) the lift vector is unaffected, the cushion of air increases.",
+        "(d) the lift vector is inclined forward which increases the thrust required."
+      ],
+      "answer": "a",
+      "solution": "(a) the lift vector is inclined rearwards which increases the thrust required.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q49",
+      "question": "When an aircraft enters ground effect:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the induced angle of attack increases.",
+        "(b) lift decreases and drag increases.",
+        "(c) lift increases and drag decreases.",
+        "(d) the aircraft will be partially supported on a cushion of air."
+      ],
+      "answer": "a",
+      "solution": "(a) the induced angle of attack increases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q50",
+      "question": "When considering an angle of attack versus coefficient of lift graph for a cambered",
+      "question_type": "MCQ",
+      "options": [
+        "(a) above the origin.",
+        "(b) below the origin.",
+        "(c) at the point of origin.",
+        "(d) to the left of the origin."
+      ],
+      "answer": "a",
+      "solution": "(a) above the origin.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q51",
+      "question": "When in level flight at 1·3V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 59%.",
+        "(b) 77%.",
+        "(c) 130%.",
+        "(d) 169%."
+      ],
+      "answer": "a",
+      "solution": "(a) 59%.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q52",
+      "question": "Which of the following is the cause of wing tip vortices?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Air spilling from the top surface to the bottom surface at the wing tip.",
+        "(b) Air spilling from the bottom surface to the top surface at the wing tip.",
+        "(c) Air spilling from the bottom surface to the top surface at the left wing tip and",
+        "(d) Spanwise flow vector from the tip to the root on the bottom surface of the"
+      ],
+      "answer": "a",
+      "solution": "(a) Air spilling from the top surface to the bottom surface at the wing tip.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q53",
+      "question": "Which of the following is the correct definition of aspect ratio?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Span divided by tip chord.",
+        "(b) Chord divided by span.",
+        "(c) Span divided by mean chord.",
+        "(d) Chord divided by span, measured at the 25% chord position."
+      ],
+      "answer": "a",
+      "solution": "(a) Span divided by tip chord.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q54",
+      "question": "Which of the following most accurately describes the airflow which causes wing tip",
+      "question_type": "MCQ",
+      "options": [
+        "(a) From the root to the tip on the top surface and from the tip to the root on the",
+        "(b) From the root to the tip on the top surface and from the tip to the root on the",
+        "(c) From the tip to the root on the top surface and from the root to the tip on the",
+        "(d) From the tip to the root on the top surface and from the root to the tip on the"
+      ],
+      "answer": "a",
+      "solution": "(a) From the root to the tip on the top surface and from the tip to the root on the",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q55",
+      "question": "Wing tip vortices are caused by unequal pressure distribution on the wing which",
+      "question_type": "MCQ",
+      "options": [
+        "(a) bottom to top round the trailing edge.",
+        "(b) top to bottom round the trailing edge.",
+        "(c) bottom to top round wing tip.",
+        "(d) top to bottom round wing tip."
+      ],
+      "answer": "a",
+      "solution": "(a) bottom to top round the trailing edge.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q56",
+      "question": "With flaps deployed, at a constant IAS in straight and level flight, the magnitude of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases or decreases depending upon the initial angle of attack.",
+        "(b) increases.",
+        "(c) decreases.",
+        "(d) remains the same."
+      ],
+      "answer": "a",
+      "solution": "(a) increases or decreases depending upon the initial angle of attack.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q57",
+      "question": "A high aspect ratio wing:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases induced drag.",
+        "(b) decreases induced drag.",
+        "(c) is structurally stiffer than a low aspect ratio.",
+        "(d) has a higher stall angle than a low aspect ratio."
+      ],
+      "answer": "a",
+      "solution": "(a) increases induced drag.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q58",
+      "question": "An aircraft is flying straight and level; if density halves, aerodynamic drag will:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase by a factor of four.",
+        "(b) increase by a factor of two.",
+        "(c) decrease by a factor of two.",
+        "(d) decrease by a factor of four."
+      ],
+      "answer": "a",
+      "solution": "(a) increase by a factor of four.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q59",
+      "question": "At a constant IAS, induced drag is affected by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) aircraft          weight.",
+        "(b) changes in thrust.",
+        "(c) angle between chord line and longitudinal axis.",
+        "(d) wing          location."
+      ],
+      "answer": "a",
+      "solution": "(a) aircraft          weight.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q60",
+      "question": "Considering the lift to drag ratio, in straight and level flight which of the following",
+      "question_type": "MCQ",
+      "options": [
+        "(a) L/D is maximum at the speed for minimum total drag.",
+        "(b) L/D maximum decreases with increasing lift.",
+        "(c) L/D is maximum when lift equals weight.",
+        "(d) L/D is maximum when lift equals zero."
+      ],
+      "answer": "a",
+      "solution": "(a) L/D is maximum at the speed for minimum total drag.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q61",
+      "question": "High aspect ratio:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) reduces parasite drag.",
+        "(b) reduces induced drag.",
+        "(c) increases stalling speed.",
+        "(d) increases          manoeuvrability."
+      ],
+      "answer": "a",
+      "solution": "(a) reduces parasite drag.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q62",
+      "question": "How does aerodynamic drag vary when airspeed is doubled?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 4",
+        "(b) 16",
+        "(c) 1",
+        "(d) 2"
+      ],
+      "answer": "a",
+      "solution": "(a) 4",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q63",
+      "question": "If dynamic (kinetic) pressure increases, what is the effect on total drag (if all",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Drag          decreases.",
+        "(b) Drag          increases.",
+        "(c) It has no effect on drag.",
+        "(d) Drag only changes with changing ground speed."
+      ],
+      "answer": "a",
+      "solution": "(a) Drag          decreases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q64",
+      "question": "If IAS is increased from 80 kt to 160 kt at a constant air density, TAS will double.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) (i)   2     (ii)   2",
+        "(b) (i)   4     (ii)   2",
+        "(c) (i)   ¼      (ii)   4",
+        "(d) (i)"
+      ],
+      "answer": "a",
+      "solution": "(a) (i)   2     (ii)   2",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q65",
+      "question": "If pressure increases, with OAT and TAS constant, what happens to drag?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increase.",
+        "(b) Decrease.",
+        "(c) Remain          constant."
+      ],
+      "answer": "a",
+      "solution": "(a) Increase.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q66",
+      "question": "If the frontal area of an object in an airstream is increased by a factor of three, by",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 9",
+        "(b) 3",
+        "(c) 6",
+        "(d) 1·5"
+      ],
+      "answer": "a",
+      "solution": "(a) 9",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q67",
+      "question": "If the IAS is increased by a factor of 4, by what factor would the drag increase?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 4",
+        "(b) 8",
+        "(c) 12",
+        "(d) 16"
+      ],
+      "answer": "a",
+      "solution": "(a) 4",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q68",
+      "question": "In a stream tube, if density is halved, drag will be reduced by a factor of:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 3",
+        "(b) 4",
+        "(c) 6",
+        "(d) 2"
+      ],
+      "answer": "a",
+      "solution": "(a) 3",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q69",
+      "question": "In straight and level flight, which of the following would cause induced drag to",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1/V.",
+        "(b) V.",
+        "(c) 1/V          squared.",
+        "(d) V          squared."
+      ],
+      "answer": "a",
+      "solution": "(a) 1/V.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q70",
+      "question": "In subsonic flight, which is correct for V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Parasite drag greater than induced drag.",
+        "(b) C",
+        "(c) Parasite and induced drag are equal.",
+        "(d) Induced drag is greater than parasite drag."
+      ],
+      "answer": "a",
+      "solution": "(a) Parasite drag greater than induced drag.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q71",
+      "question": "Induced drag can be reduced by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increased taper ratio.",
+        "(b) decreased aspect ratio.",
+        "(c) use of a wing tip with a thinner aerofoil section.",
+        "(d) increased aspect ratio."
+      ],
+      "answer": "a",
+      "solution": "(a) increased taper ratio.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q72",
+      "question": "The advantage of a turbulent boundary layer over a laminar boundary layer is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) decreases          energy.",
+        "(b) thinner.",
+        "(c) increased skin friction.",
+        "(d) less tendency to separate."
+      ],
+      "answer": "a",
+      "solution": "(a) decreases          energy.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q73",
+      "question": "The effect of winglets is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) elliptical pressure distribution increases.",
+        "(b) reduction in induced drag.",
+        "(c) decrease in stall speed.",
+        "(d) longitudinal static stability increases."
+      ],
+      "answer": "a",
+      "solution": "(a) elliptical pressure distribution increases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q74",
+      "question": "What does parasite drag vary with?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Square of the speed.",
+        "(b) C",
+        "(c) Speed.",
+        "(d) Surface          area."
+      ],
+      "answer": "a",
+      "solution": "(a) Square of the speed.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q75",
+      "question": "What effect does aspect ratio have on induced drag?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increased aspect ratio increases induced drag.",
+        "(b) Increased aspect ratio reduces induced drag.",
+        "(c) Changing aspect ratio has no effect.",
+        "(d) Induced drag will equal 1·3 × aspect ratio/chord ratio."
+      ],
+      "answer": "a",
+      "solution": "(a) Increased aspect ratio increases induced drag.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q76",
+      "question": "What happens to total drag when accelerating from C",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increases.",
+        "(b) Increases then decreases.",
+        "(c) Decreases.",
+        "(d) Decreases then increases."
+      ],
+      "answer": "a",
+      "solution": "(a) Increases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q77",
+      "question": "What is interference drag?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Airflow retardation over the aircraft structure due to surface irregularities.",
+        "(b) Drag caused by high total pressure at the leading edges when compared to",
+        "(c) Drag caused by the generation of lift.",
+        "(d) Drag due to the interaction of individual boundary layers at the junction of"
+      ],
+      "answer": "a",
+      "solution": "(a) Airflow retardation over the aircraft structure due to surface irregularities.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q78",
+      "question": "What is the cause of induced angle of attack?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Downwash from trailing edge in the vicinity of the wing tips.",
+        "(b) Change in flow from effective angle of attack.",
+        "(c) The upward inclination of the free stream flow around the wing tips.",
+        "(d) Wing downwash altering the angle at which the airflow meets the tailplane."
+      ],
+      "answer": "a",
+      "solution": "(a) Downwash from trailing edge in the vicinity of the wing tips.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q79",
+      "question": "What phenomena causes induced drag?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Wing tip vortices.",
+        "(b) Wing          tanks.",
+        "(c) The increased pressure at the leading edge.",
+        "(d) The spanwise flow, inward below the wing and outward above."
+      ],
+      "answer": "a",
+      "solution": "(a) Wing tip vortices.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q80",
+      "question": "When compared to a laminar boundary layer:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a turbulent boundary layer has more kinetic energy.",
+        "(b) a turbulent boundary layer is thinner.",
+        "(c) less skin friction is generated by a turbulent layer.",
+        "(d) a turbulent boundary layer is more likely to separate."
+      ],
+      "answer": "a",
+      "solution": "(a) a turbulent boundary layer has more kinetic energy.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q81",
+      "question": "When considering the aerodynamic forces acting on an aerofoil section:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) lift and drag increase linearly with an increase in angle of attack.",
+        "(b) lift and drag act normal to each other only at one angle of attack.",
+        "(c) lift and drag increase exponentially with an increase in angle of attack.",
+        "(d) lift increases linearly and drag increases exponentially with an increase in angle"
+      ],
+      "answer": "a",
+      "solution": "(a) lift and drag increase linearly with an increase in angle of attack.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q82",
+      "question": "When considering the properties of a laminar and turbulent boundary layer, which",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Friction drag is the same.",
+        "(b) Friction drag higher in laminar.",
+        "(c) Friction drag higher in turbulent.",
+        "(d) Separation point is most forward with a turbulent layer."
+      ],
+      "answer": "a",
+      "solution": "(a) Friction drag is the same.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q83",
+      "question": "When the undercarriage is lowered in flight:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) form drag will increase and the aircraft’s nose-down pitching moment will be",
+        "(b) induced drag will increase and the aircraft’s nose-down pitching moment will",
+        "(c) form drag will increase and the aircraft’s nose-down pitching moment will",
+        "(d) induced drag will decrease and the aircraft’s nose-down pitching moment will"
+      ],
+      "answer": "a",
+      "solution": "(a) form drag will increase and the aircraft’s nose-down pitching moment will be",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q84",
+      "question": "Which of the following decreases induced drag?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Wing          fences.",
+        "(b) Anhedral.",
+        "(c) Winglets.",
+        "(d) Low aspect ratio planform."
+      ],
+      "answer": "a",
+      "solution": "(a) Wing          fences.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q85",
+      "question": "Which of the following is a characteristic of laminar flow boundary layer?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Constant          velocity.",
+        "(b) Constant          temperature.",
+        "(c) No flow normal to the surface.",
+        "(d) No          vortices."
+      ],
+      "answer": "a",
+      "solution": "(a) Constant          velocity.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q86",
+      "question": "Which of the following is the correct formula for drag?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ½ rho   V squared   C",
+        "(b) ½ rho   V   (C",
+        "(c) ½ rho   V squared   AR   C",
+        "(d) ½ rho   V squared   C"
+      ],
+      "answer": "a",
+      "solution": "(a) ½ rho   V squared   C",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q87",
+      "question": "Which statement about induced drag and tip vortices is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Vortex generators diminish tip vortices.",
+        "(b) Flow on upper and lower wing surfaces is towards the tip.",
+        "(c) They both decrease at high angle of attack.",
+        "(d) On the upper surface there is a component of flow towards the root, whilst"
+      ],
+      "answer": "a",
+      "solution": "(a) Vortex generators diminish tip vortices.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q88",
+      "question": "A jet aircraft flying at high altitude encounters severe turbulence without",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Low speed stall.",
+        "(b) Accelerated          stall.",
+        "(c) Deep          stall.",
+        "(d) Shock          stall."
+      ],
+      "answer": "a",
+      "solution": "(a) Low speed stall.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q89",
+      "question": "A swept wing aircraft stalls and the wake contacts the horizontal tail. What would",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Nose          down.",
+        "(b) Nose up and/or elevator ineffectiveness.",
+        "(c) Tendency to increase speed after stall.",
+        "(d) Nose          up."
+      ],
+      "answer": "a",
+      "solution": "(a) Nose          down.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q90",
+      "question": "An aircraft at a weight of 237 402N stalls at 132 kt. At a weight of 356 103N it would",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 88          kt.",
+        "(b) 162          kt.",
+        "(c) 108          kt.",
+        "(d) 172          kt."
+      ],
+      "answer": "a",
+      "solution": "(a) 88          kt.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q91",
+      "question": "An aircraft at low subsonic speed will never stall:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) as long as the CAS is kept above the power-on stall speed.",
+        "(b) as long as the IAS is kept above the power-on stall speed.",
+        "(c) as long as the maximum angle of attack is not exceeded.",
+        "(d) as long as the pitch angle is negative."
+      ],
+      "answer": "a",
+      "solution": "(a) as long as the CAS is kept above the power-on stall speed.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q92",
+      "question": "At high angle of attack, where does airflow separation begin?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Upper surface, towards the leading edge.",
+        "(b) Lower surface, towards the trailing edge.",
+        "(c) Upper surface, towards the trailing edge.",
+        "(d) Lower surface, towards the leading edge."
+      ],
+      "answer": "a",
+      "solution": "(a) Upper surface, towards the leading edge.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q93",
+      "question": "At the point of stall:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) lift decreases, drag decreases.",
+        "(b) lift constant, drag increases.",
+        "(c) lift decreases, drag increases.",
+        "(d) lift decreases, drag constant."
+      ],
+      "answer": "a",
+      "solution": "(a) lift decreases, drag decreases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q94",
+      "question": "During erect spin recovery the correct recovery actions are:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) control stick pulled aft.",
+        "(b) ailerons held neutral.",
+        "(c) control stick sideways against bank.",
+        "(d) control stick sideways towards bank."
+      ],
+      "answer": "a",
+      "solution": "(a) control stick pulled aft.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q95",
+      "question": "Force on the tail and its effect on V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) if rearward movement of the CG gives a reduced down-force on the tail, V",
+        "(b) if forward movement of the CG gives a reduced down-force on the tail, V",
+        "(c) if rearward movement of the CG gives a reduced down-force on the tail, V",
+        "(d) if rearward movement of the CG gives an increased down-force on the tail, V"
+      ],
+      "answer": "a",
+      "solution": "(a) if rearward movement of the CG gives a reduced down-force on the tail, V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q96",
+      "question": "How do vortex generators work?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Re-direct spanwise flow.",
+        "(b) Take energy from free stream and introduce it into the boundary layer.",
+        "(c) Reduce kinetic energy to delay separation.",
+        "(d) Reduce the adverse pressure gradient."
+      ],
+      "answer": "a",
+      "solution": "(a) Re-direct spanwise flow.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q97",
+      "question": "If a jet aircraft is at 60 degrees bank angle during a constant altitude turn, the stall",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1· 60 greater.",
+        "(b) 1· 19 greater.",
+        "(c) 1· 41 greater.",
+        "(d) 2· 00 greater."
+      ],
+      "answer": "a",
+      "solution": "(a) 1· 60 greater.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q98",
+      "question": "If the stalling speed in a 15 degree bank turn is 60 kt, what would the stall speed",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 83          kt.",
+        "(b) 70          kt.",
+        "(c) 85          kt.",
+        "(d) 60          kt."
+      ],
+      "answer": "a",
+      "solution": "(a) 83          kt.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q99",
+      "question": "If the straight and level stall speed is 100 kt, what will be the stall speed in a 1·5g",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 122          kt.",
+        "(b) 150          kt.",
+        "(c) 81          kt.",
+        "(d) 100          kt."
+      ],
+      "answer": "a",
+      "solution": "(a) 122          kt.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q100",
+      "question": "In level flight at 1.4V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 44          degrees.",
+        "(b) 30          degrees.",
+        "(c) 60          degrees.",
+        "(d) 32          degrees."
+      ],
+      "answer": "a",
+      "solution": "(a) 44          degrees.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q101",
+      "question": "In recovery from a spin:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ailerons should be kept neutral.",
+        "(b) airspeed          increases.",
+        "(c) ailerons are used to stop the spin.",
+        "(d) rudder and ailerons are used against the direction of spin rotation."
+      ],
+      "answer": "a",
+      "solution": "(a) ailerons should be kept neutral.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q102",
+      "question": "Stall speed in a turn is proportional to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) lift.",
+        "(b) weight.",
+        "(c) the square root of the load factor.",
+        "(d) TAS          squared."
+      ],
+      "answer": "a",
+      "solution": "(a) lift.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q103",
+      "question": "Stalling speed increases when:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) recovering from a steep dive.",
+        "(b) the aircraft is subjected to minor altitude changes, i.e. 0 to 10 000 ft.",
+        "(c) the aircraft weight decreases.",
+        "(d) flaps are deployed."
+      ],
+      "answer": "a",
+      "solution": "(a) recovering from a steep dive.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q104",
+      "question": "The angle of attack at the stall:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases with forward CG.",
+        "(b) increases with aft CG.",
+        "(c) decreases with decrease in weight.",
+        "(d) is not affected by changes in weight."
+      ],
+      "answer": "a",
+      "solution": "(a) increases with forward CG.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q105",
+      "question": "The CP on a swept wing aircraft will move forward due to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) boundary layer fences and spanwise flow.",
+        "(b) tip stall of the wing.",
+        "(c) flow separation at the root due to spanwise flow.",
+        "(d) change in wing angle of incidence."
+      ],
+      "answer": "a",
+      "solution": "(a) boundary layer fences and spanwise flow.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q106",
+      "question": "The effect of tropical rain on drag and stall speed would be to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase drag and increase stall speed.",
+        "(b) increase drag and decrease stall speed.",
+        "(c) decrease drag and increase stall speed.",
+        "(d) decrease drag and decrease stall speed."
+      ],
+      "answer": "a",
+      "solution": "(a) increase drag and increase stall speed.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q107",
+      "question": "The IAS of a stall:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases with high altitude; more flaps; slats.",
+        "(b) may increase with increasing altitude, especially high altitude; forward CG and",
+        "(c) decreases with forward CG and increasing altitude.",
+        "(d) altitude never affects stall speed IAS."
+      ],
+      "answer": "a",
+      "solution": "(a) increases with high altitude; more flaps; slats.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q108",
+      "question": "Vortex      generators:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) take energy from the laminar flow to induce boundary layer separation.",
+        "(b) use free stream flow to induce laminar flow.",
+        "(c) prevent spanwise flow.",
+        "(d) use free stream flow to increase energy in the turbulent boundary layer."
+      ],
+      "answer": "a",
+      "solution": "(a) take energy from the laminar flow to induce boundary layer separation.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q109",
+      "question": "What are the effects of tropical rain on:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) (i) increase  (ii) decrease",
+        "(b) (i) decrease  (ii) increase",
+        "(c) (i) increase  (ii) increase",
+        "(d) (i) decrease  (ii) decrease"
+      ],
+      "answer": "a",
+      "solution": "(a) (i) increase  (ii) decrease",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q110",
+      "question": "What causes a swept wing aircraft to pitch-up at the stall?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Negative camber at the root.",
+        "(b) Separated airflow at the root.",
+        "(c) Spanwise          flow.",
+        "(d) Rearward movement of the CP."
+      ],
+      "answer": "a",
+      "solution": "(a) Negative camber at the root.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q111",
+      "question": "What causes deep stall in a swept-back wing?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) CP moves aft.",
+        "(b) CP moves forward.",
+        "(c) Root          stall.",
+        "(d) Spanwise flow from tip to root on wing upper surface."
+      ],
+      "answer": "a",
+      "solution": "(a) CP moves aft.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q112",
+      "question": "What does a stick pusher do?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Activate at a certain angle of attack and pull the control column backwards.",
+        "(b) Activate at a certain angle of attack and push the stick forward.",
+        "(c) Activate at a certain IAS and vibrate the stick.",
+        "(d) Activate at a certain IAS and push the stick forward."
+      ],
+      "answer": "a",
+      "solution": "(a) Activate at a certain angle of attack and pull the control column backwards.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q113",
+      "question": "What effect on stall speed do the following have?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increased anhedral increases stall speed.",
+        "(b) Fitting a ‘T’ tail will reduce stall speed.",
+        "(c) Increasing sweepback decreases stall speed.",
+        "(d) Decreasing sweep angle decreases stall speed."
+      ],
+      "answer": "a",
+      "solution": "(a) Increased anhedral increases stall speed.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q114",
+      "question": "What happens to the stall speed with flaps down, when compared to flaps up?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increase.",
+        "(b) Decrease.",
+        "(c) Remain the same."
+      ],
+      "answer": "a",
+      "solution": "(a) Increase.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q115",
+      "question": "What influence does the CG being on the forward limit have on V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) V",
+        "(c) V",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q116",
+      "question": "What is a high speed stall?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Separation of the airflow due to shock wave formation.",
+        "(b) A stall caused by increasing the load factor (g) during a manoeuvre.",
+        "(c) A stall due to decreasing C",
+        "(d) Excessive dynamic pressure causing airflow separation."
+      ],
+      "answer": "a",
+      "solution": "(a) Separation of the airflow due to shock wave formation.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q117",
+      "question": "What is load factor?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1 / Bank angle.",
+        "(b) Weight / Lift.",
+        "(c) Lift / Weight.",
+        "(d) Weight / Wing area."
+      ],
+      "answer": "a",
+      "solution": "(a) 1 / Bank angle.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q118",
+      "question": "What is the percentage increase in stall speed in a 45°  bank turn?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 45%.",
+        "(b) 41%.",
+        "(c) 19%.",
+        "(d) 10%."
+      ],
+      "answer": "a",
+      "solution": "(a) 45%.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q119",
+      "question": "What is the standard stall recovery for a light aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Pitch down, stick neutral roll, correct for bank with rudder.",
+        "(b) Pitch down, stick neutral roll, correct for bank with aileron.",
+        "(c) Pitch down, stick neutral, wait for neutral tendency.",
+        "(d) Pitch down, stick neutral roll, do not correct for bank."
+      ],
+      "answer": "a",
+      "solution": "(a) Pitch down, stick neutral roll, correct for bank with rudder.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q120",
+      "question": "What percentage increase in lift is required to maintain altitude while in a 45",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 19%.",
+        "(b) 41%.",
+        "(c) 50%.",
+        "(d) 10%."
+      ],
+      "answer": "a",
+      "solution": "(a) 19%.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q121",
+      "question": "When an aircraft wing stalls:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a swept-back wing will stall from the root and the CP will move aft.",
+        "(b) a non-swept rectangular wing will stall from the root and the CP will move",
+        "(c) a non-swept rectangular  wing will tend to stall from the tip and the CP will",
+        "(d) a swept-back wing will stall from the tip and the CP will move forward."
+      ],
+      "answer": "a",
+      "solution": "(a) a swept-back wing will stall from the root and the CP will move aft.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q122",
+      "question": "When entering a stall, the CP of a straight rectangular wing (i) and a strongly",
+      "question_type": "MCQ",
+      "options": [
+        "(a) (i) move aft      (ii) move forward.",
+        "(b) (i) move aft      (ii) move aft.",
+        "(c) (i) move aft      (ii) not move.",
+        "(d) (i) not move     (ii) not move."
+      ],
+      "answer": "a",
+      "solution": "(a) (i) move aft      (ii) move forward.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q123",
+      "question": "Which is the most critical phase regarding ice on a wing leading edge?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) During the take-off run.",
+        "(b) The last part of rotation.",
+        "(c) Climb with all engines operating.",
+        "(d) All phases are equally important."
+      ],
+      "answer": "a",
+      "solution": "(a) During the take-off run.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q124",
+      "question": "Which kind of stall occurs at the lowest angle of attack?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Deep          stall.",
+        "(b) Accelerated          stall.",
+        "(c) Low speed stall.",
+        "(d) Shock          stall."
+      ],
+      "answer": "a",
+      "solution": "(a) Deep          stall.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q125",
+      "question": "Which of the following aircraft designs would be most prone to super stall?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ‘T’          tail.",
+        "(b) Swept forward wing.",
+        "(c) Swept-back          wing.",
+        "(d) Pod mounted engines beneath the wing."
+      ],
+      "answer": "a",
+      "solution": "(a) ‘T’          tail.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q126",
+      "question": "Which of the following combination of characteristics would be most likely make",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Swept wing and wing mounted engines.",
+        "(b) Swept wing and ‘T’ tail.",
+        "(c) Straight wing and wing mounted engines.",
+        "(d) Straight wing and ‘T’ tail."
+      ],
+      "answer": "a",
+      "solution": "(a) Swept wing and wing mounted engines.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q127",
+      "question": "Which of the following is the correct designation of stall speed in the landing",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) V",
+        "(c) V",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q128",
+      "question": "Which of the following is the most important result/problem caused by ice",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increased          drag.",
+        "(b) Increased          weight.",
+        "(c) Blockage of the controls.",
+        "(d) Reduction in C"
+      ],
+      "answer": "a",
+      "solution": "(a) Increased          drag.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q129",
+      "question": "Which of the following is the speed that would activate the stick shaker?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1.5          V",
+        "(b) 1.15          V",
+        "(c) 1.2          V",
+        "(d) Above          V"
+      ],
+      "answer": "a",
+      "solution": "(a) 1.5          V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q130",
+      "question": "Which of the following is used to activate a stall warning device?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Movement of the CP.",
+        "(b) Movement of the CG.",
+        "(c) Movement of the stagnation point.",
+        "(d) A reduction in dynamic pressure."
+      ],
+      "answer": "a",
+      "solution": "(a) Movement of the CP.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q131",
+      "question": "Which of the following would indicate an impending stall?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Stall strip and stick shaker.",
+        "(b) Stall strip and angle of attack indicator.",
+        "(c) Airspeed indicator and stick shaker.",
+        "(d) Stick shaker and angle of attack indicator."
+      ],
+      "answer": "a",
+      "solution": "(a) Stall strip and stick shaker.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q132",
+      "question": "Which stall has the greatest angle of attack?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Low speed stall.",
+        "(b) High speed stall (shock stall).",
+        "(c) Deep          stall.",
+        "(d) Accelerated          stall."
+      ],
+      "answer": "a",
+      "solution": "(a) Low speed stall.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q133",
+      "question": "With a swept wing the nose-up phenomena is caused by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) deploying lift augmentation devices.",
+        "(b) wing          fences.",
+        "(c) wing sweep prevents the nose-up phenomena.",
+        "(d) tip          stall."
+      ],
+      "answer": "a",
+      "solution": "(a) deploying lift augmentation devices.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q134",
+      "question": "When flying straight and level in 1g flight, slightly below maximum all up weight,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase because increasing weight increases the 1g stall speed.",
+        "(b) decrease because the 1g stall speed is an IAS.",
+        "(c) decrease because increasing weight increases the 1g stall speed.",
+        "(d) remain the same because increased weight increases the IAS that corresponds"
+      ],
+      "answer": "a",
+      "solution": "(a) increase because increasing weight increases the 1g stall speed.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q135",
+      "question": "A slat on an aerofoil:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases the energy of the boundary layer and decreases the critical angle of",
+        "(b) increases the wing leading edge radius by rotating forward and down from its",
+        "(c) deploys automatically under the influence of increased stagnation pressure at",
+        "(d) increases the energy of the boundary layer and increases the maximum angle"
+      ],
+      "answer": "a",
+      "solution": "(a) increases the energy of the boundary layer and decreases the critical angle of",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q136",
+      "question": "After take-off why are the slats (if installed) always retracted later than the trailing",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Because          V",
+        "(b) Because flaps extended gives a large decrease in stall speed with relatively less",
+        "(c) Because slats extended provides a better view from the cockpit than flaps",
+        "(d) Because slats extended gives a large decrease in stall speed with relatively less"
+      ],
+      "answer": "a",
+      "solution": "(a) Because          V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q137",
+      "question": "An aircraft has trailing edge flap positions of  0, 15, 30 and 45 degrees plus slats can",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Deploying          slats.",
+        "(b) 0 - 15 flaps.",
+        "(c) 15 - 30 flaps.",
+        "(d) 30 - 45 flaps."
+      ],
+      "answer": "a",
+      "solution": "(a) Deploying          slats.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q138",
+      "question": "Extending the flaps while maintaining a constant angle of attack (all other factors",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the aircraft will sink suddenly.",
+        "(b) the aircraft will yaw.",
+        "(c) the aircraft will climb.",
+        "(d) the aircraft will roll."
+      ],
+      "answer": "a",
+      "solution": "(a) the aircraft will sink suddenly.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q139",
+      "question": "For an aircraft flying straight and level at constant IAS, when flaps are deployed",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases.",
+        "(b) decreases.",
+        "(c) increases or decreases depending on the aircraft.",
+        "(d) stays the same."
+      ],
+      "answer": "a",
+      "solution": "(a) increases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q140",
+      "question": "How does a plain flap increase C",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increases          camber.",
+        "(b) Increases angle of attack.",
+        "(c) Changes position of CP.",
+        "(d) Decreases the Aspect Ratio."
+      ],
+      "answer": "a",
+      "solution": "(a) Increases          camber.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q141",
+      "question": "How is the pitching moment affected if flaps are deployed in straight and level",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Pitch          up.",
+        "(b) Pitch          down.",
+        "(c) Depends on CG position."
+      ],
+      "answer": "a",
+      "solution": "(a) Pitch          up.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q142",
+      "question": "If flaps are extended in level flight:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) lift and drag increase.",
+        "(b) C",
+        "(c) C",
+        "(d) C"
+      ],
+      "answer": "a",
+      "solution": "(a) lift and drag increase.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q143",
+      "question": "If the angle of attack is maintained constant, what happens to the coefficient of lift",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increased.",
+        "(b) Decreased.",
+        "(c) Changes with the square of IAS.",
+        "(d) Remains constant because angle of attack remains the same."
+      ],
+      "answer": "a",
+      "solution": "(a) Increased.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q144",
+      "question": "In order to maintain straight and level flight when trailing edge flaps are retracted,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) be increased or decreased depending on type of flap.",
+        "(b) be          decreased.",
+        "(c) be          increased.",
+        "(d) stay the same because the lift requirement will be the same."
+      ],
+      "answer": "a",
+      "solution": "(a) be increased or decreased depending on type of flap.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q145",
+      "question": "On a highly swept back wing with leading edge flaps and leading edge slats, which",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Slats inboard, leading edge flaps outboard.",
+        "(b) Slats outboard, leading edge flaps inboard.",
+        "(c) Alternate leading edge flaps and slats along the wing leading edge.",
+        "(d) There is no preferred position for these two devices."
+      ],
+      "answer": "a",
+      "solution": "(a) Slats inboard, leading edge flaps outboard.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q146",
+      "question": "On a swept-back wing, in which of the following locations would Krueger flaps be",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Inboard leading edge.",
+        "(b) Outboard leading edge.",
+        "(c) The leading edge.",
+        "(d) The trailing edge."
+      ],
+      "answer": "a",
+      "solution": "(a) Inboard leading edge.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q147",
+      "question": "The effects of leading edge slats:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase boundary layer energy, move suction peak on to slat and increase",
+        "(b) increase camber, increase suction peak on main wing, increase effective angle",
+        "(c) increase boundary layer energy, increase suction peak on main wing section,",
+        "(d) decrease boundary layer energy, move suction peak onto slat, move C"
+      ],
+      "answer": "a",
+      "solution": "(a) increase boundary layer energy, move suction peak on to slat and increase",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q148",
+      "question": "The maximum angle of attack for the flaps down configuration, compared to flaps",
+      "question_type": "MCQ",
+      "options": [
+        "(a) greater.",
+        "(b) smaller.",
+        "(c) unchanged.",
+        "(d) smaller or greater, depending on CG position."
+      ],
+      "answer": "a",
+      "solution": "(a) greater.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q149",
+      "question": "What is the effect of deploying leading edge flaps?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Decrease          C",
+        "(b) Decrease the critical angle of attack.",
+        "(c) Not affect the critical angle of attack.",
+        "(d) Increase the critical angle of attack."
+      ],
+      "answer": "a",
+      "solution": "(a) Decrease          C",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q150",
+      "question": "What is the effect of deploying trailing edge flaps?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increased minimum glide angle.",
+        "(b) Decreased minimum glide angle.",
+        "(c) Increased glide range.",
+        "(d) Decreased sink rate."
+      ],
+      "answer": "a",
+      "solution": "(a) Increased minimum glide angle.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q151",
+      "question": "What is the purpose of a slat on the leading edge?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Decelerate the air over the top surface.",
+        "(b) Thicken the laminar boundary layer over the top surface.",
+        "(c) Increase the camber of the wing.",
+        "(d) Allow greater angle of attack."
+      ],
+      "answer": "a",
+      "solution": "(a) Decelerate the air over the top surface.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q152",
+      "question": "What is true regarding deployment of slats / Krueger flaps?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Slats increase the critical angle of attack, Krueger flaps do not.",
+        "(b) Krueger flaps increase the critical angle of attack, slats do not.",
+        "(c) Krueger flaps form a slot, Slats do not.",
+        "(d) Slats form a slot, Krueger flaps do not."
+      ],
+      "answer": "a",
+      "solution": "(a) Slats increase the critical angle of attack, Krueger flaps do not.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q153",
+      "question": "What must happen to the C",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increase then decrease.",
+        "(b) Remain          constant.",
+        "(c) Decrease.",
+        "(d) Increase."
+      ],
+      "answer": "a",
+      "solution": "(a) Increase then decrease.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q154",
+      "question": "What pitching moment will be generated when Fowler flaps are deployed on an",
+      "question_type": "MCQ",
+      "options": [
+        "(a) An aircraft nose-up pitching moment.",
+        "(b) An aircraft nose-down pitching moment.",
+        "(c) The nose-up pitching moment will be balanced by the nose-down pitching",
+        "(d) The resultant aircraft pitching moment will depend upon the relative position"
+      ],
+      "answer": "a",
+      "solution": "(a) An aircraft nose-up pitching moment.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q155",
+      "question": "When trailing edge flaps are deployed:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a higher angle of attack is required for maximum lift.",
+        "(b) glide distance is degraded.",
+        "(c) C",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) a higher angle of attack is required for maximum lift.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q156",
+      "question": "Which of the following increases the stall angle?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Slats.",
+        "(b) Flaps.",
+        "(c) Spoilers.",
+        "(d) Ailerons."
+      ],
+      "answer": "a",
+      "solution": "(a) Slats.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q157",
+      "question": "A low wing jet aircraft is flaring to land.  The greatest stick force will be",
+      "question_type": "MCQ",
+      "options": [
+        "(a) flaps up and CG at the aft limit.",
+        "(b) flaps fully down and Cg at the aft limit.",
+        "(c) flaps fully down and CG at the forward limit.",
+        "(d) flaps fully up and Cg at the forward limit."
+      ],
+      "answer": "a",
+      "solution": "(a) flaps up and CG at the aft limit.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q158",
+      "question": "Positive static lateral stability is the tendency of an aeroplane to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) roll to the right in the case of a positive sideslip angle (aeroplane nose to the",
+        "(b) roll to the left in the case of a positive sideslip angle (aeroplane nose to the",
+        "(c) roll to the left in a right turn.",
+        "(d) roll to the right in a right turn."
+      ],
+      "answer": "a",
+      "solution": "(a) roll to the right in the case of a positive sideslip angle (aeroplane nose to the",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q159",
+      "question": "Positive static longitudinal stability means:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) nose-down pitching moment when encountering an up gust.",
+        "(b) nose-up pitching moment with a speed change at a constant angle of attack.",
+        "(c) nose-down pitching moment with a speed change at a constant angle of",
+        "(d) nose-up moment when encountering an up gust."
+      ],
+      "answer": "a",
+      "solution": "(a) nose-down pitching moment when encountering an up gust.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q160",
+      "question": "The CG of an aeroplane is in a fixed position forward of the neutral point.  Speed",
+      "question_type": "MCQ",
+      "options": [
+        "(a) An increase of 10 kt from the trimmed position at low speed has more affect",
+        "(b) Increase of speed generates pull forces.",
+        "(c) Aeroplane nose-up trim decreases the stick force stability.",
+        "(d) Stick force stability is not affected by trim."
+      ],
+      "answer": "a",
+      "solution": "(a) An increase of 10 kt from the trimmed position at low speed has more affect",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q161",
+      "question": "Too much lateral static stability is undesirable because:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) too much aileron needed in a cross-wind landing.",
+        "(b) too much rudder needed in a cross-wind landing.",
+        "(c) constant aileron in cruise in a cross-wind."
+      ],
+      "answer": "a",
+      "solution": "(a) too much aileron needed in a cross-wind landing.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q162",
+      "question": "What is the effect of an aft shift of the CG on (1) static longitudinal stability and (2)",
+      "question_type": "MCQ",
+      "options": [
+        "(a) (1) reduces (2) increases.",
+        "(b) (1) increases     (2) increases.",
+        "(c) (1) increases     (2) reduces.",
+        "(d) (1) reduces (2) reduces."
+      ],
+      "answer": "a",
+      "solution": "(a) (1) reduces (2) increases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q163",
+      "question": "Which statement is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The stick force per ‘g’ increases when the CG is moved aft.",
+        "(b) The stick force per ‘g’ must have both upper and lower limits in order to",
+        "(c) If the slope of the fe-n line becomes negative, generally speaking this is not a",
+        "(d) The stick force per ‘g’ can only be corrected by means of electronic devices"
+      ],
+      "answer": "a",
+      "solution": "(a) The stick force per ‘g’ increases when the CG is moved aft.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q164",
+      "question": "What is pitch angle?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The angle between the chord line and the horizontal plane.",
+        "(b) The angle between the longitudinal axis and the horizontal plane.",
+        "(c) The angle between the chord line and the longitudinal axis.",
+        "(d) The angle between the relative airflow and the longitudinal axis."
+      ],
+      "answer": "a",
+      "solution": "(a) The angle between the chord line and the horizontal plane.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q165",
+      "question": "An aircraft of 50 tonnes mass, with two engines each of 60 000 N Thrust and with",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 12%.",
+        "(b) 24%.",
+        "(c) 15.7%.",
+        "(d) 3.7%."
+      ],
+      "answer": "a",
+      "solution": "(a) 12%.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q166",
+      "question": "In a straight steady descent:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Lift is less than weight, load factor is equal to one.",
+        "(b) Lift is less than weight, load factor is less than one.",
+        "(c) Lift is equal to weight, load factor is equal to one.",
+        "(d) Lift is equal to weight, load factor is less than one."
+      ],
+      "answer": "a",
+      "solution": "(a) Lift is less than weight, load factor is equal to one.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q167",
+      "question": "Two aircraft of the same weight and under identical atmospheric conditions are",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the turn radius of ‘A’ will be greater than ‘B’.",
+        "(b) the coefficient of lift of ‘A’ will be less than ‘B’.",
+        "(c) the load factor of ‘A’ is greater than ‘B’.",
+        "(d) rate of turn of ‘A’ is greater than ‘B’."
+      ],
+      "answer": "a",
+      "solution": "(a) the turn radius of ‘A’ will be greater than ‘B’.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q168",
+      "question": "Assuming ISA conditions, which statement with respect to the climb is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) At constant TAS the Mach number decreases.",
+        "(b) At constant Mach number the IAS increases.",
+        "(c) At constant IAS the TAS decreases.",
+        "(d) At constant IAS the Mach number increases."
+      ],
+      "answer": "a",
+      "solution": "(a) At constant TAS the Mach number decreases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q169",
+      "question": "The regime of flight from the critical Mach number (M",
+      "question_type": "MCQ",
+      "options": [
+        "(a) transonic.",
+        "(b) hypersonic.",
+        "(c) subsonic.",
+        "(d) supersonic."
+      ],
+      "answer": "a",
+      "solution": "(a) transonic.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q170",
+      "question": "The speed range between high and low speed buffet:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) decreases during a descent at a constant Mach number.",
+        "(b) is always positive at Mach numbers below M",
+        "(c) increases during a descent at a constant IAS.",
+        "(d) increases during climb."
+      ],
+      "answer": "a",
+      "solution": "(a) decreases during a descent at a constant Mach number.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q171",
+      "question": "When does the bow wave first appear?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) At          M",
+        "(b) At Mach 1.",
+        "(c) Just above Mach 1.",
+        "(d) Just below Mach 1."
+      ],
+      "answer": "a",
+      "solution": "(a) At          M",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q172",
+      "question": "What can happen to the aeroplane structure flying at a speed just exceeding V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) It may suffer permanent deformation if the elevator is fully deflected upwards.",
+        "(b) It may break if the elevator is fully deflected upwards.",
+        "(c) It may suffer permanent deformation because the flight is performed at to",
+        "(d) It will collapse if a turn is made."
+      ],
+      "answer": "a",
+      "solution": "(a) It may suffer permanent deformation if the elevator is fully deflected upwards.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q173",
+      "question": "Which of the following can affect V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Mass and pressure altitude.",
+        "(b) Mass          only.",
+        "(c) Pressure altitude only.",
+        "(d) It remains a constant IAS."
+      ],
+      "answer": "a",
+      "solution": "(a) Mass and pressure altitude.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q174",
+      "question": "With a vertical gust, what is the point called where the change in the vertical",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Neutral          point.",
+        "(b) Aerodynamic          Centre.",
+        "(c) Centre of Gravity.",
+        "(d) Centre of Thrust."
+      ],
+      "answer": "a",
+      "solution": "(a) Neutral          point.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q175",
+      "question": "A single-engine aircraft with a constant speed propeller is in a gliding descent with",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increased          L/D",
+        "(b) Decreased          L/D",
+        "(c) Increased          L/D",
+        "(d) Decreased          L/D"
+      ],
+      "answer": "a",
+      "solution": "(a) Increased          L/D",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q176",
+      "question": "The advantage of a constant speed propeller over a fixed pitch propeller is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) higher maximum thrust available.",
+        "(b) higher maximum efficiency.",
+        "(c) more blade surface area available.",
+        "(d) nearly maximum efficiency over wide speed range."
+      ],
+      "answer": "a",
+      "solution": "(a) higher maximum thrust available.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q177",
+      "question": "You are about to take off in an aircraft with a variable pitch propeller.  At brake",
+      "question_type": "MCQ",
+      "options": [
+        "(a) (i) reduced,  (ii) increase.",
+        "(b) (i) reduced,  (ii) decrease.",
+        "(c) (i) increased,    (ii) decrease.",
+        "(d) (i) increased,    (ii) increase."
+      ],
+      "answer": "a",
+      "solution": "(a) (i) reduced,  (ii) increase.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q178",
+      "question": "A unit of measurement of pressure is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) kg/square          dm.",
+        "(b) kg/cubic          metre.",
+        "(c) newtons.",
+        "(d) psi."
+      ],
+      "answer": "a",
+      "solution": "(a) kg/square          dm.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q179",
+      "question": "Which of the following are the correct SI units?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Density is kilograms per cubic metre,  force is newtons.",
+        "(b) Density is newtons per cubic metre, force is kilograms.",
+        "(c) Density is kilograms per newton, force is newton-metre squared.",
+        "(d) Density is kilograms per square metre, force is kilograms."
+      ],
+      "answer": "a",
+      "solution": "(a) Density is kilograms per cubic metre,  force is newtons.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q180",
+      "question": "What is the SI unit of density?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) m V squared.",
+        "(b) kg/square          cm.",
+        "(c) kg - metres.",
+        "(d) kg/cubic          metre."
+      ],
+      "answer": "a",
+      "solution": "(a) m V squared.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q181",
+      "question": "What is the SI unit which results from multiplying kg and m/s squared?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Newton.",
+        "(b) Psi.",
+        "(c) Joule.",
+        "(d) Watt."
+      ],
+      "answer": "a",
+      "solution": "(a) Newton.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q182",
+      "question": "Which of the following expressions is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) A = F × M",
+        "(b) F = M × A",
+        "(c) M = F × A",
+        "(d) A = M / F"
+      ],
+      "answer": "a",
+      "solution": "(a) A = F × M",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q183",
+      "question": "Which of the following is the equation for power?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) N/m.",
+        "(b) Nm/s.",
+        "(c) Pa/s          squared.",
+        "(d) Kg/m/s          squared."
+      ],
+      "answer": "a",
+      "solution": "(a) N/m.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q184",
+      "question": "At a constant CAS when flying below sea level an aircraft will have:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a higher TAS than at sea level.",
+        "(b) a lower TAS than at sea level at ISA conditions.",
+        "(c) the same TAS as at sea level.",
+        "(d) the same TAS, but an increased IAS."
+      ],
+      "answer": "a",
+      "solution": "(a) a higher TAS than at sea level.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q185",
+      "question": "Static pressure acts:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) parallel to airflow.",
+        "(b) parallel to dynamic pressure.",
+        "(c) in all directions.",
+        "(d) downwards."
+      ],
+      "answer": "a",
+      "solution": "(a) parallel to airflow.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q186",
+      "question": "TAS          is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) higher than the speed of the undisturbed airstream around the aircraft.",
+        "(b) lower than the speed of the undisturbed airstream around the aircraft.",
+        "(c) lower than IAS at ISA altitudes below sea level.",
+        "(d) equal to IAS, multiplied by air density at sea level."
+      ],
+      "answer": "a",
+      "solution": "(a) higher than the speed of the undisturbed airstream around the aircraft.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q187",
+      "question": "The difference between IAS and TAS will:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase with decreasing temperature.",
+        "(b) increase with increasing density.",
+        "(c) remain constant at all times.",
+        "(d) decrease with decreasing altitude."
+      ],
+      "answer": "a",
+      "solution": "(a) increase with decreasing temperature.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q188",
+      "question": "As a smooth flow of subsonic air at a velocity less than M 0.4 flows through a",
+      "question_type": "MCQ",
+      "options": [
+        "(a) (i) increases and (ii) decreases",
+        "(b) (i) increases and (ii) increases",
+        "(c) (i) decreases and (ii) decreases",
+        "(d) (i) decreases and (ii) increases"
+      ],
+      "answer": "a",
+      "solution": "(a) (i) increases and (ii) decreases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q189",
+      "question": "As subsonic air flows through a convergent duct:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) (i) increases and (ii) decreases",
+        "(b) (i) increases and (ii) increases",
+        "(c) (i) decreases and (ii) decreases",
+        "(d) (i) decreases and (ii) increases"
+      ],
+      "answer": "a",
+      "solution": "(a) (i) increases and (ii) decreases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q190",
+      "question": "Bernoulli’s Theorem states:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) dynamic pressure increases and static pressure increases.",
+        "(b) dynamic pressure increases and static pressure decreases.",
+        "(c) dynamic pressure is maximum at stagnation point.",
+        "(d) there is zero pressure at zero dynamic pressure."
+      ],
+      "answer": "a",
+      "solution": "(a) dynamic pressure increases and static pressure increases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q191",
+      "question": "Consider a uniform flow of air at velocity V in a streamtube.  If the temperature of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the mass flow remains constant and velocity V decreases.",
+        "(b) the mass flow will increase and velocity V remain constant.",
+        "(c) the mass flow will decrease and velocity V will remain constant.",
+        "(d) the mass flow remains constant and the velocity V will increase."
+      ],
+      "answer": "a",
+      "solution": "(a) the mass flow remains constant and velocity V decreases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q192",
+      "question": "In a subsonic flow venturi, the relationship between the total pressure, static",
+      "question_type": "MCQ",
+      "options": [
+        "(a) both (i) and (ii) are correct.",
+        "(b) (i) is correct and (ii) is incorrect.",
+        "(c) (i) is incorrect and (ii) is correct.",
+        "(d) both (i) and (ii) are incorrect."
+      ],
+      "answer": "a",
+      "solution": "(a) both (i) and (ii) are correct.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q193",
+      "question": "In accordance with Bernoulli’s Theorem, where PT = Total Pressure, PS = Static",
+      "question_type": "MCQ",
+      "options": [
+        "(a) PT + PS = q",
+        "(b) PT = PS - q",
+        "(c) PT - PS = q",
+        "(d) PS + PT = q"
+      ],
+      "answer": "a",
+      "solution": "(a) PT + PS = q",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q194",
+      "question": "The Principle of Continuity states that in a streamtube of decreasing cross-sectional",
+      "question_type": "MCQ",
+      "options": [
+        "(a) remain the same.",
+        "(b) decrease.",
+        "(c) increase.",
+        "(d) sonic."
+      ],
+      "answer": "a",
+      "solution": "(a) remain the same.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q195",
+      "question": "The Principle of Continuity states that in a tube of increasing cross-sectional area,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) remain the same.",
+        "(b) decrease.",
+        "(c) sonic.",
+        "(d) increase."
+      ],
+      "answer": "a",
+      "solution": "(a) remain the same.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q196",
+      "question": "What are the units for wing loading and dynamic pressure?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) N/square metre and N/square metre.",
+        "(b) Nm and Nm.",
+        "(c) N and N/square metre.",
+        "(d) N/square metre and joules."
+      ],
+      "answer": "a",
+      "solution": "(a) N/square metre and N/square metre.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q197",
+      "question": "When considering the Principle of Continuity for incompressible subsonic flow,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The density at the throat will be the same as the density at the mouth.",
+        "(b) The density at the throat will be less than the density at the mouth.",
+        "(c) The density at the throat will be greater than the density at the mouth.",
+        "(d) Cannot say without knowing the change in cross-sectional area of the"
+      ],
+      "answer": "a",
+      "solution": "(a) The density at the throat will be the same as the density at the mouth.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q198",
+      "question": "When considering the Principle of Continuity for subsonic flow, what happens in a",
+      "question_type": "MCQ",
+      "options": [
+        "(a) RHO 1 = RHO 2",
+        "(b) RHO 1 > RHO 2",
+        "(c) RHO 2 > RHO 1",
+        "(d) Cannot say without knowing the change in cross-sectional area of the"
+      ],
+      "answer": "a",
+      "solution": "(a) RHO 1 = RHO 2",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q199",
+      "question": "Which of the following creates lift?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) An accelerated air mass.",
+        "(b) A retarded air mass.",
+        "(c) A change in direction of mass flow.",
+        "(d) A symmetrical aerofoil at zero angle of attack in a high speed flow."
+      ],
+      "answer": "a",
+      "solution": "(a) An accelerated air mass.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q200",
+      "question": "Which of the following statements about a venturi in a subsonic airflow is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) (i) is correct and (ii) is incorrect.",
+        "(b) (i) is incorrect and (ii) is correct.",
+        "(c) (i) and (ii) are correct.",
+        "(d) (i) and (ii) are incorrect."
+      ],
+      "answer": "a",
+      "solution": "(a) (i) is correct and (ii) is incorrect.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q201",
+      "question": "A line from the centre of curvature of the leading edge to the trailing edge,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) camber          line.",
+        "(b) upper camber line.",
+        "(c) mean          chord.",
+        "(d) mean aerodynamic chord."
+      ],
+      "answer": "a",
+      "solution": "(a) camber          line.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q202",
+      "question": "A symmetrical aerofoil section at C",
+      "question_type": "MCQ",
+      "options": [
+        "(a) A negative (nose-down) pitching moment.",
+        "(b) A positive (nose-up) pitching moment.",
+        "(c) Zero pitching moment.",
+        "(d) No aerodynamic force."
+      ],
+      "answer": "a",
+      "solution": "(a) A negative (nose-down) pitching moment.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q203",
+      "question": "Angle of attack is the angle between:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) undisturbed airflow and chord line.",
+        "(b) undisturbed airflow and mean camber line.",
+        "(c) local airflow and chord line.",
+        "(d) local airflow and mean camber line."
+      ],
+      "answer": "a",
+      "solution": "(a) undisturbed airflow and chord line.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q204",
+      "question": "How is the thickness of an aerofoil section measured?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) As the ratio of wing angle.",
+        "(b) Related to camber.",
+        "(c) As the percentage of chord.",
+        "(d) In          metres."
+      ],
+      "answer": "a",
+      "solution": "(a) As the ratio of wing angle.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q205",
+      "question": "Lift and drag respectively are normal and parallel to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the chord line.",
+        "(b) the longitudinal axis.",
+        "(c) the          horizon.",
+        "(d) the relative airflow."
+      ],
+      "answer": "a",
+      "solution": "(a) the chord line.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q206",
+      "question": "The angle between the aeroplane longitudinal axis and the chord line is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) angle of incidence.",
+        "(b) glide path angle.",
+        "(c) angle of attack.",
+        "(d) climb path angle."
+      ],
+      "answer": "a",
+      "solution": "(a) angle of incidence.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q207",
+      "question": "The term angle of attack is defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the angle between the relative airflow and the horizontal axis.",
+        "(b) the angle between the wing chord line and the relative wind.",
+        "(c) the angle that determines the magnitude of the lift force.",
+        "(d) the angle between the wing and tailplane incidence."
+      ],
+      "answer": "a",
+      "solution": "(a) the angle between the relative airflow and the horizontal axis.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q208",
+      "question": "What is the angle of attack?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Angle of the chord line to the relative free stream flow.",
+        "(b) Angle of the chord line to the fuselage datum.",
+        "(c) Angle of the tailplane chord to the wing chord.",
+        "(d) Angle of the tailplane chord to the fuselage datum."
+      ],
+      "answer": "a",
+      "solution": "(a) Angle of the chord line to the relative free stream flow.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q209",
+      "question": "When considering the coefficient of lift and angle of attack of aerofoil sections:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a symmetrical section at zero angle of attack will produce a small positive",
+        "(b) an asymmetrical section at zero angle of attack will produce zero coefficient",
+        "(c) a symmetrical section at zero angle of attack will produce zero coefficient of",
+        "(d) aerofoil section symmetry has no effect on lift coefficient."
+      ],
+      "answer": "a",
+      "solution": "(a) a symmetrical section at zero angle of attack will produce a small positive",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q210",
+      "question": "When considering the lift and drag forces on an aerofoil section:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) they are only normal to each other at one angle of attack.",
+        "(b) they both depend on the pressure distribution on the aerofoil section.",
+        "(c) they vary linearly.",
+        "(d) lift is proportional to drag."
+      ],
+      "answer": "a",
+      "solution": "(a) they are only normal to each other at one angle of attack.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q211",
+      "question": "Where does the lift act on the wing?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Suction.",
+        "(b) Always forward of the CG.",
+        "(c) Centre of Gravity.",
+        "(d) Centre of Pressure."
+      ],
+      "answer": "a",
+      "solution": "(a) Suction.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q212",
+      "question": "Which of the following creates lift?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) A slightly cambered aerofoil.",
+        "(b) An aerofoil in a high speed flow.",
+        "(c) Air accelerated upwards.",
+        "(d) Air accelerated downwards."
+      ],
+      "answer": "a",
+      "solution": "(a) A slightly cambered aerofoil.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q213",
+      "question": "Which of the following is the greatest factor causing lift?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Suction above the wing.",
+        "(b) Increased pressure below the wing.",
+        "(c) Increased airflow velocity below the wing.",
+        "(d) Decreased airflow velocity above the wing."
+      ],
+      "answer": "a",
+      "solution": "(a) Suction above the wing.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q214",
+      "question": "Which of the following statements is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Lift acts perpendicular to the horizontal and drag parallel in a rearwards",
+        "(b) Drag acts parallel to the chord and opposite to the direction of motion of the",
+        "(c) Lift acts at right angles to the top surface of the wing and drag acts at right",
+        "(d) Drag acts in the same direction as the relative wind and lift perpendicular to"
+      ],
+      "answer": "a",
+      "solution": "(a) Lift acts perpendicular to the horizontal and drag parallel in a rearwards",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q215",
+      "question": "If IAS is doubled, by which of the following factors should the original C",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 0·25",
+        "(b) 0·5",
+        "(c) 2·0",
+        "(d) 4·0"
+      ],
+      "answer": "a",
+      "solution": "(a) 0·25",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q216",
+      "question": "On entering ground effect:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) more thrust is required.",
+        "(b) less thrust is required.",
+        "(c) ground effect has no effect on thrust required.",
+        "(d) lift          decreases."
+      ],
+      "answer": "a",
+      "solution": "(a) more thrust is required.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q217",
+      "question": "On the approach to land, ground effect will begin to be felt at:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) twice the wingspan above the ground.",
+        "(b) half the wingspan above the ground.",
+        "(c) when the angle of attack is increased.",
+        "(d) upon elevator deflection."
+      ],
+      "answer": "a",
+      "solution": "(a) twice the wingspan above the ground.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q218",
+      "question": "The formula for lift is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) L = W",
+        "(b) L = 2 rho V squared S C",
+        "(c) L = 1/2 rho V squared S C",
+        "(d) L = rho V S C"
+      ],
+      "answer": "a",
+      "solution": "(a) L = W",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q219",
+      "question": "The influence of ground effect on landing distance will:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase landing distance.",
+        "(b) decrease landing distance.",
+        "(c) have no effect on landing distance.",
+        "(d) depend on flap position."
+      ],
+      "answer": "a",
+      "solution": "(a) increase landing distance.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q220",
+      "question": "Two identical aircraft of the same weight fly at different altitudes. All other",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The          same.",
+        "(b) Greater in the higher aircraft.",
+        "(c) Greater in the lower aircraft.",
+        "(d) Less in the higher aircraft."
+      ],
+      "answer": "a",
+      "solution": "(a) The          same.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q221",
+      "question": "What do ‘S’ and ‘q’ represent in the lift equation?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Static pressure and chord.",
+        "(b) Wingspan and dynamic pressure.",
+        "(c) Wing area and dynamic pressure.",
+        "(d) Wing area and static pressure."
+      ],
+      "answer": "a",
+      "solution": "(a) Static pressure and chord.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q222",
+      "question": "What effect on induced drag does entering ground effect have?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increase.",
+        "(b) Decrease.",
+        "(c) Remain the same.",
+        "(d) Induced drag will increase, but profile drag will decrease."
+      ],
+      "answer": "a",
+      "solution": "(a) Increase.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q223",
+      "question": "What is the C",
+      "question_type": "MCQ",
+      "options": [
+        "(a) C",
+        "(b) C",
+        "(c) the          same.",
+        "(d) C"
+      ],
+      "answer": "a",
+      "solution": "(a) C",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q224",
+      "question": "What is the MAC of a wing?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Area of wing divided by the span.",
+        "(b) The same as the mean chord of a rectangular wing of the same span.",
+        "(c) The mean chord of the whole aeroplane.",
+        "(d) The 25% chord of a swept wing."
+      ],
+      "answer": "a",
+      "solution": "(a) Area of wing divided by the span.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q225",
+      "question": "When an aircraft enters ground effect:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the lift vector is inclined rearwards which increases the thrust required.",
+        "(b) the lift vector is inclined forwards which reduces the thrust required.",
+        "(c) the lift vector is unaffected, the cushion of air increases.",
+        "(d) the lift vector is inclined forward which increases the thrust required."
+      ],
+      "answer": "a",
+      "solution": "(a) the lift vector is inclined rearwards which increases the thrust required.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q226",
+      "question": "When an aircraft enters ground effect:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the induced angle of attack increases.",
+        "(b) lift decreases and drag increases.",
+        "(c) lift increases and drag decreases.",
+        "(d) the aircraft will be partially supported on a cushion of air."
+      ],
+      "answer": "a",
+      "solution": "(a) the induced angle of attack increases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q227",
+      "question": "When considering an angle of attack versus coefficient of lift graph for a cambered",
+      "question_type": "MCQ",
+      "options": [
+        "(a) above the origin.",
+        "(b) below the origin.",
+        "(c) at the point of origin.",
+        "(d) to the left of the origin."
+      ],
+      "answer": "a",
+      "solution": "(a) above the origin.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q228",
+      "question": "When in level flight at 1·3V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 59%.",
+        "(b) 77%.",
+        "(c) 130%.",
+        "(d) 169%."
+      ],
+      "answer": "a",
+      "solution": "(a) 59%.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q229",
+      "question": "Which of the following is the cause of wing tip vortices?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Air spilling from the top surface to the bottom surface at the wing tip.",
+        "(b) Air spilling from the bottom surface to the top surface at the wing tip.",
+        "(c) Air spilling from the bottom surface to the top surface at the left wing tip and",
+        "(d) Spanwise flow vector from the tip to the root on the bottom surface of the"
+      ],
+      "answer": "a",
+      "solution": "(a) Air spilling from the top surface to the bottom surface at the wing tip.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q230",
+      "question": "Which of the following is the correct definition of aspect ratio?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Span divided by tip chord.",
+        "(b) Chord divided by span.",
+        "(c) Span divided by mean chord.",
+        "(d) Chord divided by span, measured at the 25% chord position."
+      ],
+      "answer": "a",
+      "solution": "(a) Span divided by tip chord.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q231",
+      "question": "Which of the following most accurately describes the airflow which causes wing tip",
+      "question_type": "MCQ",
+      "options": [
+        "(a) From the root to the tip on the top surface and from the tip to the root on the",
+        "(b) From the root to the tip on the top surface and from the tip to the root on the",
+        "(c) From the tip to the root on the top surface and from the root to the tip on the",
+        "(d) From the tip to the root on the top surface and from the root to the tip on the"
+      ],
+      "answer": "a",
+      "solution": "(a) From the root to the tip on the top surface and from the tip to the root on the",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q232",
+      "question": "Wing tip vortices are caused by unequal pressure distribution on the wing which",
+      "question_type": "MCQ",
+      "options": [
+        "(a) bottom to top round the trailing edge.",
+        "(b) top to bottom round the trailing edge.",
+        "(c) bottom to top round wing tip.",
+        "(d) top to bottom round wing tip."
+      ],
+      "answer": "a",
+      "solution": "(a) bottom to top round the trailing edge.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q233",
+      "question": "With flaps deployed, at a constant IAS in straight and level flight, the magnitude of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases or decreases depending upon the initial angle of attack.",
+        "(b) increases.",
+        "(c) decreases.",
+        "(d) remains the same."
+      ],
+      "answer": "a",
+      "solution": "(a) increases or decreases depending upon the initial angle of attack.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q234",
+      "question": "A high aspect ratio wing:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases induced drag.",
+        "(b) decreases induced drag.",
+        "(c) is structurally stiffer than a low aspect ratio.",
+        "(d) has a higher stall angle than a low aspect ratio."
+      ],
+      "answer": "a",
+      "solution": "(a) increases induced drag.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q235",
+      "question": "An aircraft is flying straight and level; if density halves, aerodynamic drag will:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase by a factor of four.",
+        "(b) increase by a factor of two.",
+        "(c) decrease by a factor of two.",
+        "(d) decrease by a factor of four."
+      ],
+      "answer": "a",
+      "solution": "(a) increase by a factor of four.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q236",
+      "question": "At a constant IAS, induced drag is affected by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) aircraft          weight.",
+        "(b) changes in thrust.",
+        "(c) angle between chord line and longitudinal axis.",
+        "(d) wing          location."
+      ],
+      "answer": "a",
+      "solution": "(a) aircraft          weight.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q237",
+      "question": "Considering the lift to drag ratio, in straight and level flight which of the following",
+      "question_type": "MCQ",
+      "options": [
+        "(a) L/D is maximum at the speed for minimum total drag.",
+        "(b) L/D maximum decreases with increasing lift.",
+        "(c) L/D is maximum when lift equals weight.",
+        "(d) L/D is maximum when lift equals zero."
+      ],
+      "answer": "a",
+      "solution": "(a) L/D is maximum at the speed for minimum total drag.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q238",
+      "question": "High aspect ratio:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) reduces parasite drag.",
+        "(b) reduces induced drag.",
+        "(c) increases stalling speed.",
+        "(d) increases          manoeuvrability."
+      ],
+      "answer": "a",
+      "solution": "(a) reduces parasite drag.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q239",
+      "question": "How does aerodynamic drag vary when airspeed is doubled?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 4",
+        "(b) 16",
+        "(c) 1",
+        "(d) 2"
+      ],
+      "answer": "a",
+      "solution": "(a) 4",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q240",
+      "question": "If dynamic (kinetic) pressure increases, what is the effect on total drag (if all",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Drag          decreases.",
+        "(b) Drag          increases.",
+        "(c) It has no effect on drag.",
+        "(d) Drag only changes with changing ground speed."
+      ],
+      "answer": "a",
+      "solution": "(a) Drag          decreases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q241",
+      "question": "If IAS is increased from 80 kt to 160 kt at a constant air density, TAS will double.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) (i)   2     (ii)   2",
+        "(b) (i)   4     (ii)   2",
+        "(c) (i)   ¼      (ii)   4",
+        "(d) (i)"
+      ],
+      "answer": "a",
+      "solution": "(a) (i)   2     (ii)   2",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q242",
+      "question": "If pressure increases, with OAT and TAS constant, what happens to drag?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increase.",
+        "(b) Decrease.",
+        "(c) Remain          constant."
+      ],
+      "answer": "a",
+      "solution": "(a) Increase.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q243",
+      "question": "If the frontal area of an object in an airstream is increased by a factor of three, by",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 9",
+        "(b) 3",
+        "(c) 6",
+        "(d) 1·5"
+      ],
+      "answer": "a",
+      "solution": "(a) 9",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q244",
+      "question": "If the IAS is increased by a factor of 4, by what factor would the drag increase?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 4",
+        "(b) 8",
+        "(c) 12",
+        "(d) 16"
+      ],
+      "answer": "a",
+      "solution": "(a) 4",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q245",
+      "question": "In a stream tube, if density is halved, drag will be reduced by a factor of:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 3",
+        "(b) 4",
+        "(c) 6",
+        "(d) 2"
+      ],
+      "answer": "a",
+      "solution": "(a) 3",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q246",
+      "question": "In straight and level flight, which of the following would cause induced drag to",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1/V.",
+        "(b) V.",
+        "(c) 1/V          squared.",
+        "(d) V          squared."
+      ],
+      "answer": "a",
+      "solution": "(a) 1/V.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q247",
+      "question": "In subsonic flight, which is correct for V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Parasite drag greater than induced drag.",
+        "(b) C",
+        "(c) Parasite and induced drag are equal.",
+        "(d) Induced drag is greater than parasite drag."
+      ],
+      "answer": "a",
+      "solution": "(a) Parasite drag greater than induced drag.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q248",
+      "question": "Induced drag can be reduced by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increased taper ratio.",
+        "(b) decreased aspect ratio.",
+        "(c) use of a wing tip with a thinner aerofoil section.",
+        "(d) increased aspect ratio."
+      ],
+      "answer": "a",
+      "solution": "(a) increased taper ratio.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q249",
+      "question": "The advantage of a turbulent boundary layer over a laminar boundary layer is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) decreases          energy.",
+        "(b) thinner.",
+        "(c) increased skin friction.",
+        "(d) less tendency to separate."
+      ],
+      "answer": "a",
+      "solution": "(a) decreases          energy.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q250",
+      "question": "The effect of winglets is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) elliptical pressure distribution increases.",
+        "(b) reduction in induced drag.",
+        "(c) decrease in stall speed.",
+        "(d) longitudinal static stability increases."
+      ],
+      "answer": "a",
+      "solution": "(a) elliptical pressure distribution increases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q251",
+      "question": "What does parasite drag vary with?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Square of the speed.",
+        "(b) C",
+        "(c) Speed.",
+        "(d) Surface          area."
+      ],
+      "answer": "a",
+      "solution": "(a) Square of the speed.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q252",
+      "question": "What effect does aspect ratio have on induced drag?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increased aspect ratio increases induced drag.",
+        "(b) Increased aspect ratio reduces induced drag.",
+        "(c) Changing aspect ratio has no effect.",
+        "(d) Induced drag will equal 1·3 × aspect ratio/chord ratio."
+      ],
+      "answer": "a",
+      "solution": "(a) Increased aspect ratio increases induced drag.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q253",
+      "question": "What happens to total drag when accelerating from C",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increases.",
+        "(b) Increases then decreases.",
+        "(c) Decreases.",
+        "(d) Decreases then increases."
+      ],
+      "answer": "a",
+      "solution": "(a) Increases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q254",
+      "question": "What is interference drag?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Airflow retardation over the aircraft structure due to surface irregularities.",
+        "(b) Drag caused by high total pressure at the leading edges when compared to",
+        "(c) Drag caused by the generation of lift.",
+        "(d) Drag due to the interaction of individual boundary layers at the junction of"
+      ],
+      "answer": "a",
+      "solution": "(a) Airflow retardation over the aircraft structure due to surface irregularities.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q255",
+      "question": "What is the cause of induced angle of attack?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Downwash from trailing edge in the vicinity of the wing tips.",
+        "(b) Change in flow from effective angle of attack.",
+        "(c) The upward inclination of the free stream flow around the wing tips.",
+        "(d) Wing downwash altering the angle at which the airflow meets the tailplane."
+      ],
+      "answer": "a",
+      "solution": "(a) Downwash from trailing edge in the vicinity of the wing tips.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q256",
+      "question": "What phenomena causes induced drag?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Wing tip vortices.",
+        "(b) Wing          tanks.",
+        "(c) The increased pressure at the leading edge.",
+        "(d) The spanwise flow, inward below the wing and outward above."
+      ],
+      "answer": "a",
+      "solution": "(a) Wing tip vortices.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q257",
+      "question": "When compared to a laminar boundary layer:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a turbulent boundary layer has more kinetic energy.",
+        "(b) a turbulent boundary layer is thinner.",
+        "(c) less skin friction is generated by a turbulent layer.",
+        "(d) a turbulent boundary layer is more likely to separate."
+      ],
+      "answer": "a",
+      "solution": "(a) a turbulent boundary layer has more kinetic energy.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q258",
+      "question": "When considering the aerodynamic forces acting on an aerofoil section:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) lift and drag increase linearly with an increase in angle of attack.",
+        "(b) lift and drag act normal to each other only at one angle of attack.",
+        "(c) lift and drag increase exponentially with an increase in angle of attack.",
+        "(d) lift increases linearly and drag increases exponentially with an increase in angle"
+      ],
+      "answer": "a",
+      "solution": "(a) lift and drag increase linearly with an increase in angle of attack.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q259",
+      "question": "When considering the properties of a laminar and turbulent boundary layer, which",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Friction drag is the same.",
+        "(b) Friction drag higher in laminar.",
+        "(c) Friction drag higher in turbulent.",
+        "(d) Separation point is most forward with a turbulent layer."
+      ],
+      "answer": "a",
+      "solution": "(a) Friction drag is the same.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q260",
+      "question": "When the undercarriage is lowered in flight:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) form drag will increase and the aircraft’s nose-down pitching moment will be",
+        "(b) induced drag will increase and the aircraft’s nose-down pitching moment will",
+        "(c) form drag will increase and the aircraft’s nose-down pitching moment will",
+        "(d) induced drag will decrease and the aircraft’s nose-down pitching moment will"
+      ],
+      "answer": "a",
+      "solution": "(a) form drag will increase and the aircraft’s nose-down pitching moment will be",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q261",
+      "question": "Which of the following decreases induced drag?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Wing          fences.",
+        "(b) Anhedral.",
+        "(c) Winglets.",
+        "(d) Low aspect ratio planform."
+      ],
+      "answer": "a",
+      "solution": "(a) Wing          fences.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q262",
+      "question": "Which of the following is a characteristic of laminar flow boundary layer?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Constant          velocity.",
+        "(b) Constant          temperature.",
+        "(c) No flow normal to the surface.",
+        "(d) No          vortices."
+      ],
+      "answer": "a",
+      "solution": "(a) Constant          velocity.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q263",
+      "question": "Which of the following is the correct formula for drag?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ½ rho   V squared   C",
+        "(b) ½ rho   V   (C",
+        "(c) ½ rho   V squared   AR   C",
+        "(d) ½ rho   V squared   C"
+      ],
+      "answer": "a",
+      "solution": "(a) ½ rho   V squared   C",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q264",
+      "question": "Which statement about induced drag and tip vortices is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Vortex generators diminish tip vortices.",
+        "(b) Flow on upper and lower wing surfaces is towards the tip.",
+        "(c) They both decrease at high angle of attack.",
+        "(d) On the upper surface there is a component of flow towards the root, whilst"
+      ],
+      "answer": "a",
+      "solution": "(a) Vortex generators diminish tip vortices.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q265",
+      "question": "A jet aircraft flying at high altitude encounters severe turbulence without",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Low speed stall.",
+        "(b) Accelerated          stall.",
+        "(c) Deep          stall.",
+        "(d) Shock          stall."
+      ],
+      "answer": "a",
+      "solution": "(a) Low speed stall.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q266",
+      "question": "A swept wing aircraft stalls and the wake contacts the horizontal tail. What would",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Nose          down.",
+        "(b) Nose up and/or elevator ineffectiveness.",
+        "(c) Tendency to increase speed after stall.",
+        "(d) Nose          up."
+      ],
+      "answer": "a",
+      "solution": "(a) Nose          down.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q267",
+      "question": "An aircraft at a weight of 237 402N stalls at 132 kt. At a weight of 356 103N it would",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 88          kt.",
+        "(b) 162          kt.",
+        "(c) 108          kt.",
+        "(d) 172          kt."
+      ],
+      "answer": "a",
+      "solution": "(a) 88          kt.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q268",
+      "question": "An aircraft at low subsonic speed will never stall:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) as long as the CAS is kept above the power-on stall speed.",
+        "(b) as long as the IAS is kept above the power-on stall speed.",
+        "(c) as long as the maximum angle of attack is not exceeded.",
+        "(d) as long as the pitch angle is negative."
+      ],
+      "answer": "a",
+      "solution": "(a) as long as the CAS is kept above the power-on stall speed.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q269",
+      "question": "At high angle of attack, where does airflow separation begin?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Upper surface, towards the leading edge.",
+        "(b) Lower surface, towards the trailing edge.",
+        "(c) Upper surface, towards the trailing edge.",
+        "(d) Lower surface, towards the leading edge."
+      ],
+      "answer": "a",
+      "solution": "(a) Upper surface, towards the leading edge.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q270",
+      "question": "At the point of stall:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) lift decreases, drag decreases.",
+        "(b) lift constant, drag increases.",
+        "(c) lift decreases, drag increases.",
+        "(d) lift decreases, drag constant."
+      ],
+      "answer": "a",
+      "solution": "(a) lift decreases, drag decreases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q271",
+      "question": "During erect spin recovery the correct recovery actions are:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) control stick pulled aft.",
+        "(b) ailerons held neutral.",
+        "(c) control stick sideways against bank.",
+        "(d) control stick sideways towards bank."
+      ],
+      "answer": "a",
+      "solution": "(a) control stick pulled aft.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q272",
+      "question": "Force on the tail and its effect on V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) if rearward movement of the CG gives a reduced down-force on the tail, V",
+        "(b) if forward movement of the CG gives a reduced down-force on the tail, V",
+        "(c) if rearward movement of the CG gives a reduced down-force on the tail, V",
+        "(d) if rearward movement of the CG gives an increased down-force on the tail, V"
+      ],
+      "answer": "a",
+      "solution": "(a) if rearward movement of the CG gives a reduced down-force on the tail, V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q273",
+      "question": "How do vortex generators work?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Re-direct spanwise flow.",
+        "(b) Take energy from free stream and introduce it into the boundary layer.",
+        "(c) Reduce kinetic energy to delay separation.",
+        "(d) Reduce the adverse pressure gradient."
+      ],
+      "answer": "a",
+      "solution": "(a) Re-direct spanwise flow.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q274",
+      "question": "If a jet aircraft is at 60 degrees bank angle during a constant altitude turn, the stall",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1· 60 greater.",
+        "(b) 1· 19 greater.",
+        "(c) 1· 41 greater.",
+        "(d) 2· 00 greater."
+      ],
+      "answer": "a",
+      "solution": "(a) 1· 60 greater.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q275",
+      "question": "If the stalling speed in a 15 degree bank turn is 60 kt, what would the stall speed",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 83          kt.",
+        "(b) 70          kt.",
+        "(c) 85          kt.",
+        "(d) 60          kt."
+      ],
+      "answer": "a",
+      "solution": "(a) 83          kt.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q276",
+      "question": "If the straight and level stall speed is 100 kt, what will be the stall speed in a 1·5g",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 122          kt.",
+        "(b) 150          kt.",
+        "(c) 81          kt.",
+        "(d) 100          kt."
+      ],
+      "answer": "a",
+      "solution": "(a) 122          kt.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q277",
+      "question": "In level flight at 1.4V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 44          degrees.",
+        "(b) 30          degrees.",
+        "(c) 60          degrees.",
+        "(d) 32          degrees."
+      ],
+      "answer": "a",
+      "solution": "(a) 44          degrees.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q278",
+      "question": "In recovery from a spin:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ailerons should be kept neutral.",
+        "(b) airspeed          increases.",
+        "(c) ailerons are used to stop the spin.",
+        "(d) rudder and ailerons are used against the direction of spin rotation."
+      ],
+      "answer": "a",
+      "solution": "(a) ailerons should be kept neutral.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q279",
+      "question": "Stall speed in a turn is proportional to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) lift.",
+        "(b) weight.",
+        "(c) the square root of the load factor.",
+        "(d) TAS          squared."
+      ],
+      "answer": "a",
+      "solution": "(a) lift.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q280",
+      "question": "Stalling speed increases when:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) recovering from a steep dive.",
+        "(b) the aircraft is subjected to minor altitude changes, i.e. 0 to 10 000 ft.",
+        "(c) the aircraft weight decreases.",
+        "(d) flaps are deployed."
+      ],
+      "answer": "a",
+      "solution": "(a) recovering from a steep dive.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q281",
+      "question": "The angle of attack at the stall:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases with forward CG.",
+        "(b) increases with aft CG.",
+        "(c) decreases with decrease in weight.",
+        "(d) is not affected by changes in weight."
+      ],
+      "answer": "a",
+      "solution": "(a) increases with forward CG.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q282",
+      "question": "The CP on a swept wing aircraft will move forward due to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) boundary layer fences and spanwise flow.",
+        "(b) tip stall of the wing.",
+        "(c) flow separation at the root due to spanwise flow.",
+        "(d) change in wing angle of incidence."
+      ],
+      "answer": "a",
+      "solution": "(a) boundary layer fences and spanwise flow.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q283",
+      "question": "The effect of tropical rain on drag and stall speed would be to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase drag and increase stall speed.",
+        "(b) increase drag and decrease stall speed.",
+        "(c) decrease drag and increase stall speed.",
+        "(d) decrease drag and decrease stall speed."
+      ],
+      "answer": "a",
+      "solution": "(a) increase drag and increase stall speed.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q284",
+      "question": "The IAS of a stall:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases with high altitude; more flaps; slats.",
+        "(b) may increase with increasing altitude, especially high altitude; forward CG and",
+        "(c) decreases with forward CG and increasing altitude.",
+        "(d) altitude never affects stall speed IAS."
+      ],
+      "answer": "a",
+      "solution": "(a) increases with high altitude; more flaps; slats.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q285",
+      "question": "Vortex      generators:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) take energy from the laminar flow to induce boundary layer separation.",
+        "(b) use free stream flow to induce laminar flow.",
+        "(c) prevent spanwise flow.",
+        "(d) use free stream flow to increase energy in the turbulent boundary layer."
+      ],
+      "answer": "a",
+      "solution": "(a) take energy from the laminar flow to induce boundary layer separation.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q286",
+      "question": "What are the effects of tropical rain on:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) (i) increase  (ii) decrease",
+        "(b) (i) decrease  (ii) increase",
+        "(c) (i) increase  (ii) increase",
+        "(d) (i) decrease  (ii) decrease"
+      ],
+      "answer": "a",
+      "solution": "(a) (i) increase  (ii) decrease",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q287",
+      "question": "What causes a swept wing aircraft to pitch-up at the stall?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Negative camber at the root.",
+        "(b) Separated airflow at the root.",
+        "(c) Spanwise          flow.",
+        "(d) Rearward movement of the CP."
+      ],
+      "answer": "a",
+      "solution": "(a) Negative camber at the root.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q288",
+      "question": "What causes deep stall in a swept-back wing?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) CP moves aft.",
+        "(b) CP moves forward.",
+        "(c) Root          stall.",
+        "(d) Spanwise flow from tip to root on wing upper surface."
+      ],
+      "answer": "a",
+      "solution": "(a) CP moves aft.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q289",
+      "question": "What does a stick pusher do?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Activate at a certain angle of attack and pull the control column backwards.",
+        "(b) Activate at a certain angle of attack and push the stick forward.",
+        "(c) Activate at a certain IAS and vibrate the stick.",
+        "(d) Activate at a certain IAS and push the stick forward."
+      ],
+      "answer": "a",
+      "solution": "(a) Activate at a certain angle of attack and pull the control column backwards.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q290",
+      "question": "What effect on stall speed do the following have?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increased anhedral increases stall speed.",
+        "(b) Fitting a ‘T’ tail will reduce stall speed.",
+        "(c) Increasing sweepback decreases stall speed.",
+        "(d) Decreasing sweep angle decreases stall speed."
+      ],
+      "answer": "a",
+      "solution": "(a) Increased anhedral increases stall speed.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q291",
+      "question": "What happens to the stall speed with flaps down, when compared to flaps up?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increase.",
+        "(b) Decrease.",
+        "(c) Remain the same."
+      ],
+      "answer": "a",
+      "solution": "(a) Increase.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q292",
+      "question": "What influence does the CG being on the forward limit have on V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) V",
+        "(c) V",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q293",
+      "question": "What is a high speed stall?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Separation of the airflow due to shock wave formation.",
+        "(b) A stall caused by increasing the load factor (g) during a manoeuvre.",
+        "(c) A stall due to decreasing C",
+        "(d) Excessive dynamic pressure causing airflow separation."
+      ],
+      "answer": "a",
+      "solution": "(a) Separation of the airflow due to shock wave formation.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q294",
+      "question": "What is load factor?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1 / Bank angle.",
+        "(b) Weight / Lift.",
+        "(c) Lift / Weight.",
+        "(d) Weight / Wing area."
+      ],
+      "answer": "a",
+      "solution": "(a) 1 / Bank angle.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q295",
+      "question": "What is the percentage increase in stall speed in a 45°  bank turn?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 45%.",
+        "(b) 41%.",
+        "(c) 19%.",
+        "(d) 10%."
+      ],
+      "answer": "a",
+      "solution": "(a) 45%.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q296",
+      "question": "What is the standard stall recovery for a light aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Pitch down, stick neutral roll, correct for bank with rudder.",
+        "(b) Pitch down, stick neutral roll, correct for bank with aileron.",
+        "(c) Pitch down, stick neutral, wait for neutral tendency.",
+        "(d) Pitch down, stick neutral roll, do not correct for bank."
+      ],
+      "answer": "a",
+      "solution": "(a) Pitch down, stick neutral roll, correct for bank with rudder.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q297",
+      "question": "What percentage increase in lift is required to maintain altitude while in a 45",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 19%.",
+        "(b) 41%.",
+        "(c) 50%.",
+        "(d) 10%."
+      ],
+      "answer": "a",
+      "solution": "(a) 19%.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q298",
+      "question": "When an aircraft wing stalls:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a swept-back wing will stall from the root and the CP will move aft.",
+        "(b) a non-swept rectangular wing will stall from the root and the CP will move",
+        "(c) a non-swept rectangular  wing will tend to stall from the tip and the CP will",
+        "(d) a swept-back wing will stall from the tip and the CP will move forward."
+      ],
+      "answer": "a",
+      "solution": "(a) a swept-back wing will stall from the root and the CP will move aft.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q299",
+      "question": "When entering a stall, the CP of a straight rectangular wing (i) and a strongly",
+      "question_type": "MCQ",
+      "options": [
+        "(a) (i) move aft      (ii) move forward.",
+        "(b) (i) move aft      (ii) move aft.",
+        "(c) (i) move aft      (ii) not move.",
+        "(d) (i) not move     (ii) not move."
+      ],
+      "answer": "a",
+      "solution": "(a) (i) move aft      (ii) move forward.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q300",
+      "question": "Which is the most critical phase regarding ice on a wing leading edge?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) During the take-off run.",
+        "(b) The last part of rotation.",
+        "(c) Climb with all engines operating.",
+        "(d) All phases are equally important."
+      ],
+      "answer": "a",
+      "solution": "(a) During the take-off run.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q301",
+      "question": "Which kind of stall occurs at the lowest angle of attack?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Deep          stall.",
+        "(b) Accelerated          stall.",
+        "(c) Low speed stall.",
+        "(d) Shock          stall."
+      ],
+      "answer": "a",
+      "solution": "(a) Deep          stall.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q302",
+      "question": "Which of the following aircraft designs would be most prone to super stall?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ‘T’          tail.",
+        "(b) Swept forward wing.",
+        "(c) Swept-back          wing.",
+        "(d) Pod mounted engines beneath the wing."
+      ],
+      "answer": "a",
+      "solution": "(a) ‘T’          tail.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q303",
+      "question": "Which of the following combination of characteristics would be most likely make",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Swept wing and wing mounted engines.",
+        "(b) Swept wing and ‘T’ tail.",
+        "(c) Straight wing and wing mounted engines.",
+        "(d) Straight wing and ‘T’ tail."
+      ],
+      "answer": "a",
+      "solution": "(a) Swept wing and wing mounted engines.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q304",
+      "question": "Which of the following is the correct designation of stall speed in the landing",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) V",
+        "(c) V",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q305",
+      "question": "Which of the following is the most important result/problem caused by ice",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increased          drag.",
+        "(b) Increased          weight.",
+        "(c) Blockage of the controls.",
+        "(d) Reduction in C"
+      ],
+      "answer": "a",
+      "solution": "(a) Increased          drag.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q306",
+      "question": "Which of the following is the speed that would activate the stick shaker?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1.5          V",
+        "(b) 1.15          V",
+        "(c) 1.2          V",
+        "(d) Above          V"
+      ],
+      "answer": "a",
+      "solution": "(a) 1.5          V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q307",
+      "question": "Which of the following is used to activate a stall warning device?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Movement of the CP.",
+        "(b) Movement of the CG.",
+        "(c) Movement of the stagnation point.",
+        "(d) A reduction in dynamic pressure."
+      ],
+      "answer": "a",
+      "solution": "(a) Movement of the CP.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q308",
+      "question": "Which of the following would indicate an impending stall?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Stall strip and stick shaker.",
+        "(b) Stall strip and angle of attack indicator.",
+        "(c) Airspeed indicator and stick shaker.",
+        "(d) Stick shaker and angle of attack indicator."
+      ],
+      "answer": "a",
+      "solution": "(a) Stall strip and stick shaker.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q309",
+      "question": "Which stall has the greatest angle of attack?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Low speed stall.",
+        "(b) High speed stall (shock stall).",
+        "(c) Deep          stall.",
+        "(d) Accelerated          stall."
+      ],
+      "answer": "a",
+      "solution": "(a) Low speed stall.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q310",
+      "question": "With a swept wing the nose-up phenomena is caused by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) deploying lift augmentation devices.",
+        "(b) wing          fences.",
+        "(c) wing sweep prevents the nose-up phenomena.",
+        "(d) tip          stall."
+      ],
+      "answer": "a",
+      "solution": "(a) deploying lift augmentation devices.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q311",
+      "question": "When flying straight and level in 1g flight, slightly below maximum all up weight,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase because increasing weight increases the 1g stall speed.",
+        "(b) decrease because the 1g stall speed is an IAS.",
+        "(c) decrease because increasing weight increases the 1g stall speed.",
+        "(d) remain the same because increased weight increases the IAS that corresponds"
+      ],
+      "answer": "a",
+      "solution": "(a) increase because increasing weight increases the 1g stall speed.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q312",
+      "question": "A slat on an aerofoil:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases the energy of the boundary layer and decreases the critical angle of",
+        "(b) increases the wing leading edge radius by rotating forward and down from its",
+        "(c) deploys automatically under the influence of increased stagnation pressure at",
+        "(d) increases the energy of the boundary layer and increases the maximum angle"
+      ],
+      "answer": "a",
+      "solution": "(a) increases the energy of the boundary layer and decreases the critical angle of",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q313",
+      "question": "After take-off why are the slats (if installed) always retracted later than the trailing",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Because          V",
+        "(b) Because flaps extended gives a large decrease in stall speed with relatively less",
+        "(c) Because slats extended provides a better view from the cockpit than flaps",
+        "(d) Because slats extended gives a large decrease in stall speed with relatively less"
+      ],
+      "answer": "a",
+      "solution": "(a) Because          V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q314",
+      "question": "An aircraft has trailing edge flap positions of  0, 15, 30 and 45 degrees plus slats can",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Deploying          slats.",
+        "(b) 0 - 15 flaps.",
+        "(c) 15 - 30 flaps.",
+        "(d) 30 - 45 flaps."
+      ],
+      "answer": "a",
+      "solution": "(a) Deploying          slats.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q315",
+      "question": "Extending the flaps while maintaining a constant angle of attack (all other factors",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the aircraft will sink suddenly.",
+        "(b) the aircraft will yaw.",
+        "(c) the aircraft will climb.",
+        "(d) the aircraft will roll."
+      ],
+      "answer": "a",
+      "solution": "(a) the aircraft will sink suddenly.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q316",
+      "question": "For an aircraft flying straight and level at constant IAS, when flaps are deployed",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases.",
+        "(b) decreases.",
+        "(c) increases or decreases depending on the aircraft.",
+        "(d) stays the same."
+      ],
+      "answer": "a",
+      "solution": "(a) increases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q317",
+      "question": "How does a plain flap increase C",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increases          camber.",
+        "(b) Increases angle of attack.",
+        "(c) Changes position of CP.",
+        "(d) Decreases the Aspect Ratio."
+      ],
+      "answer": "a",
+      "solution": "(a) Increases          camber.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q318",
+      "question": "How is the pitching moment affected if flaps are deployed in straight and level",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Pitch          up.",
+        "(b) Pitch          down.",
+        "(c) Depends on CG position."
+      ],
+      "answer": "a",
+      "solution": "(a) Pitch          up.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q319",
+      "question": "If flaps are extended in level flight:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) lift and drag increase.",
+        "(b) C",
+        "(c) C",
+        "(d) C"
+      ],
+      "answer": "a",
+      "solution": "(a) lift and drag increase.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q320",
+      "question": "If the angle of attack is maintained constant, what happens to the coefficient of lift",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increased.",
+        "(b) Decreased.",
+        "(c) Changes with the square of IAS.",
+        "(d) Remains constant because angle of attack remains the same."
+      ],
+      "answer": "a",
+      "solution": "(a) Increased.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q321",
+      "question": "In order to maintain straight and level flight when trailing edge flaps are retracted,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) be increased or decreased depending on type of flap.",
+        "(b) be          decreased.",
+        "(c) be          increased.",
+        "(d) stay the same because the lift requirement will be the same."
+      ],
+      "answer": "a",
+      "solution": "(a) be increased or decreased depending on type of flap.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q322",
+      "question": "On a highly swept back wing with leading edge flaps and leading edge slats, which",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Slats inboard, leading edge flaps outboard.",
+        "(b) Slats outboard, leading edge flaps inboard.",
+        "(c) Alternate leading edge flaps and slats along the wing leading edge.",
+        "(d) There is no preferred position for these two devices."
+      ],
+      "answer": "a",
+      "solution": "(a) Slats inboard, leading edge flaps outboard.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q323",
+      "question": "On a swept-back wing, in which of the following locations would Krueger flaps be",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Inboard leading edge.",
+        "(b) Outboard leading edge.",
+        "(c) The leading edge.",
+        "(d) The trailing edge."
+      ],
+      "answer": "a",
+      "solution": "(a) Inboard leading edge.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q324",
+      "question": "The effects of leading edge slats:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase boundary layer energy, move suction peak on to slat and increase",
+        "(b) increase camber, increase suction peak on main wing, increase effective angle",
+        "(c) increase boundary layer energy, increase suction peak on main wing section,",
+        "(d) decrease boundary layer energy, move suction peak onto slat, move C"
+      ],
+      "answer": "a",
+      "solution": "(a) increase boundary layer energy, move suction peak on to slat and increase",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q325",
+      "question": "The maximum angle of attack for the flaps down configuration, compared to flaps",
+      "question_type": "MCQ",
+      "options": [
+        "(a) greater.",
+        "(b) smaller.",
+        "(c) unchanged.",
+        "(d) smaller or greater, depending on CG position."
+      ],
+      "answer": "a",
+      "solution": "(a) greater.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q326",
+      "question": "What is the effect of deploying leading edge flaps?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Decrease          C",
+        "(b) Decrease the critical angle of attack.",
+        "(c) Not affect the critical angle of attack.",
+        "(d) Increase the critical angle of attack."
+      ],
+      "answer": "a",
+      "solution": "(a) Decrease          C",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q327",
+      "question": "What is the effect of deploying trailing edge flaps?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increased minimum glide angle.",
+        "(b) Decreased minimum glide angle.",
+        "(c) Increased glide range.",
+        "(d) Decreased sink rate."
+      ],
+      "answer": "a",
+      "solution": "(a) Increased minimum glide angle.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q328",
+      "question": "What is the purpose of a slat on the leading edge?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Decelerate the air over the top surface.",
+        "(b) Thicken the laminar boundary layer over the top surface.",
+        "(c) Increase the camber of the wing.",
+        "(d) Allow greater angle of attack."
+      ],
+      "answer": "a",
+      "solution": "(a) Decelerate the air over the top surface.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q329",
+      "question": "What is true regarding deployment of slats / Krueger flaps?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Slats increase the critical angle of attack, Krueger flaps do not.",
+        "(b) Krueger flaps increase the critical angle of attack, slats do not.",
+        "(c) Krueger flaps form a slot, Slats do not.",
+        "(d) Slats form a slot, Krueger flaps do not."
+      ],
+      "answer": "a",
+      "solution": "(a) Slats increase the critical angle of attack, Krueger flaps do not.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q330",
+      "question": "What must happen to the C",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increase then decrease.",
+        "(b) Remain          constant.",
+        "(c) Decrease.",
+        "(d) Increase."
+      ],
+      "answer": "a",
+      "solution": "(a) Increase then decrease.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q331",
+      "question": "What pitching moment will be generated when Fowler flaps are deployed on an",
+      "question_type": "MCQ",
+      "options": [
+        "(a) An aircraft nose-up pitching moment.",
+        "(b) An aircraft nose-down pitching moment.",
+        "(c) The nose-up pitching moment will be balanced by the nose-down pitching",
+        "(d) The resultant aircraft pitching moment will depend upon the relative position"
+      ],
+      "answer": "a",
+      "solution": "(a) An aircraft nose-up pitching moment.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q332",
+      "question": "When trailing edge flaps are deployed:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a higher angle of attack is required for maximum lift.",
+        "(b) glide distance is degraded.",
+        "(c) C",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) a higher angle of attack is required for maximum lift.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q333",
+      "question": "Which of the following increases the stall angle?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Slats.",
+        "(b) Flaps.",
+        "(c) Spoilers.",
+        "(d) Ailerons."
+      ],
+      "answer": "a",
+      "solution": "(a) Slats.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q334",
+      "question": "A low wing jet aircraft is flaring to land.  The greatest stick force will be",
+      "question_type": "MCQ",
+      "options": [
+        "(a) flaps up and CG at the aft limit.",
+        "(b) flaps fully down and Cg at the aft limit.",
+        "(c) flaps fully down and CG at the forward limit.",
+        "(d) flaps fully up and Cg at the forward limit."
+      ],
+      "answer": "a",
+      "solution": "(a) flaps up and CG at the aft limit.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q335",
+      "question": "Positive static lateral stability is the tendency of an aeroplane to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) roll to the right in the case of a positive sideslip angle (aeroplane nose to the",
+        "(b) roll to the left in the case of a positive sideslip angle (aeroplane nose to the",
+        "(c) roll to the left in a right turn.",
+        "(d) roll to the right in a right turn."
+      ],
+      "answer": "a",
+      "solution": "(a) roll to the right in the case of a positive sideslip angle (aeroplane nose to the",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q336",
+      "question": "Positive static longitudinal stability means:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) nose-down pitching moment when encountering an up gust.",
+        "(b) nose-up pitching moment with a speed change at a constant angle of attack.",
+        "(c) nose-down pitching moment with a speed change at a constant angle of",
+        "(d) nose-up moment when encountering an up gust."
+      ],
+      "answer": "a",
+      "solution": "(a) nose-down pitching moment when encountering an up gust.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q337",
+      "question": "The CG of an aeroplane is in a fixed position forward of the neutral point.  Speed",
+      "question_type": "MCQ",
+      "options": [
+        "(a) An increase of 10 kt from the trimmed position at low speed has more affect",
+        "(b) Increase of speed generates pull forces.",
+        "(c) Aeroplane nose-up trim decreases the stick force stability.",
+        "(d) Stick force stability is not affected by trim."
+      ],
+      "answer": "a",
+      "solution": "(a) An increase of 10 kt from the trimmed position at low speed has more affect",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q338",
+      "question": "Too much lateral static stability is undesirable because:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) too much aileron needed in a cross-wind landing.",
+        "(b) too much rudder needed in a cross-wind landing.",
+        "(c) constant aileron in cruise in a cross-wind."
+      ],
+      "answer": "a",
+      "solution": "(a) too much aileron needed in a cross-wind landing.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q339",
+      "question": "What is the effect of an aft shift of the CG on (1) static longitudinal stability and (2)",
+      "question_type": "MCQ",
+      "options": [
+        "(a) (1) reduces (2) increases.",
+        "(b) (1) increases     (2) increases.",
+        "(c) (1) increases     (2) reduces.",
+        "(d) (1) reduces (2) reduces."
+      ],
+      "answer": "a",
+      "solution": "(a) (1) reduces (2) increases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q340",
+      "question": "Which statement is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The stick force per ‘g’ increases when the CG is moved aft.",
+        "(b) The stick force per ‘g’ must have both upper and lower limits in order to",
+        "(c) If the slope of the fe-n line becomes negative, generally speaking this is not a",
+        "(d) The stick force per ‘g’ can only be corrected by means of electronic devices"
+      ],
+      "answer": "a",
+      "solution": "(a) The stick force per ‘g’ increases when the CG is moved aft.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q341",
+      "question": "What is pitch angle?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The angle between the chord line and the horizontal plane.",
+        "(b) The angle between the longitudinal axis and the horizontal plane.",
+        "(c) The angle between the chord line and the longitudinal axis.",
+        "(d) The angle between the relative airflow and the longitudinal axis."
+      ],
+      "answer": "a",
+      "solution": "(a) The angle between the chord line and the horizontal plane.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q342",
+      "question": "An aircraft of 50 tonnes mass, with two engines each of 60 000 N Thrust and with",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 12%.",
+        "(b) 24%.",
+        "(c) 15.7%.",
+        "(d) 3.7%."
+      ],
+      "answer": "a",
+      "solution": "(a) 12%.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q343",
+      "question": "In a straight steady descent:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Lift is less than weight, load factor is equal to one.",
+        "(b) Lift is less than weight, load factor is less than one.",
+        "(c) Lift is equal to weight, load factor is equal to one.",
+        "(d) Lift is equal to weight, load factor is less than one."
+      ],
+      "answer": "a",
+      "solution": "(a) Lift is less than weight, load factor is equal to one.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q344",
+      "question": "Two aircraft of the same weight and under identical atmospheric conditions are",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the turn radius of ‘A’ will be greater than ‘B’.",
+        "(b) the coefficient of lift of ‘A’ will be less than ‘B’.",
+        "(c) the load factor of ‘A’ is greater than ‘B’.",
+        "(d) rate of turn of ‘A’ is greater than ‘B’."
+      ],
+      "answer": "a",
+      "solution": "(a) the turn radius of ‘A’ will be greater than ‘B’.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q345",
+      "question": "Assuming ISA conditions, which statement with respect to the climb is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) At constant TAS the Mach number decreases.",
+        "(b) At constant Mach number the IAS increases.",
+        "(c) At constant IAS the TAS decreases.",
+        "(d) At constant IAS the Mach number increases."
+      ],
+      "answer": "a",
+      "solution": "(a) At constant TAS the Mach number decreases.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q346",
+      "question": "The regime of flight from the critical Mach number (M",
+      "question_type": "MCQ",
+      "options": [
+        "(a) transonic.",
+        "(b) hypersonic.",
+        "(c) subsonic.",
+        "(d) supersonic."
+      ],
+      "answer": "a",
+      "solution": "(a) transonic.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q347",
+      "question": "The speed range between high and low speed buffet:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) decreases during a descent at a constant Mach number.",
+        "(b) is always positive at Mach numbers below M",
+        "(c) increases during a descent at a constant IAS.",
+        "(d) increases during climb."
+      ],
+      "answer": "a",
+      "solution": "(a) decreases during a descent at a constant Mach number.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q348",
+      "question": "When does the bow wave first appear?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) At          M",
+        "(b) At Mach 1.",
+        "(c) Just above Mach 1.",
+        "(d) Just below Mach 1."
+      ],
+      "answer": "a",
+      "solution": "(a) At          M",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q349",
+      "question": "What can happen to the aeroplane structure flying at a speed just exceeding V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) It may suffer permanent deformation if the elevator is fully deflected upwards.",
+        "(b) It may break if the elevator is fully deflected upwards.",
+        "(c) It may suffer permanent deformation because the flight is performed at to",
+        "(d) It will collapse if a turn is made."
+      ],
+      "answer": "a",
+      "solution": "(a) It may suffer permanent deformation if the elevator is fully deflected upwards.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q350",
+      "question": "Which of the following can affect V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Mass and pressure altitude.",
+        "(b) Mass          only.",
+        "(c) Pressure altitude only.",
+        "(d) It remains a constant IAS."
+      ],
+      "answer": "a",
+      "solution": "(a) Mass and pressure altitude.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q351",
+      "question": "With a vertical gust, what is the point called where the change in the vertical",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Neutral          point.",
+        "(b) Aerodynamic          Centre.",
+        "(c) Centre of Gravity.",
+        "(d) Centre of Thrust."
+      ],
+      "answer": "a",
+      "solution": "(a) Neutral          point.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q352",
+      "question": "A single-engine aircraft with a constant speed propeller is in a gliding descent with",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increased          L/D",
+        "(b) Decreased          L/D",
+        "(c) Increased          L/D",
+        "(d) Decreased          L/D"
+      ],
+      "answer": "a",
+      "solution": "(a) Increased          L/D",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q353",
+      "question": "The advantage of a constant speed propeller over a fixed pitch propeller is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) higher maximum thrust available.",
+        "(b) higher maximum efficiency.",
+        "(c) more blade surface area available.",
+        "(d) nearly maximum efficiency over wide speed range."
+      ],
+      "answer": "a",
+      "solution": "(a) higher maximum thrust available.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q354",
+      "question": "You are about to take off in an aircraft with a variable pitch propeller.  At brake",
+      "question_type": "MCQ",
+      "options": [
+        "(a) (i) reduced,  (ii) increase.",
+        "(b) (i) reduced,  (ii) decrease.",
+        "(c) (i) increased,    (ii) decrease.",
+        "(d) (i) increased,    (ii) increase."
+      ],
+      "answer": "a",
+      "solution": "(a) (i) reduced,  (ii) increase.",
+      "explanation": ""
+    }
+  ]
+}

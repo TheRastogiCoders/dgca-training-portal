@@ -1,106 +1,1508 @@
 {
-  "book_name": "ATPL Ground Training 2014",
-  "chapter_number": "20",
+  "book_name": "Operational Procedures",
+  "chapter_number": "N/A",
   "chapter_title": "Revision Questions",
+  "chapter_slug": "operational-procedures-revision-questions",
+  "source": "operational-procedures",
   "questions": [
-    { "id": "1", "question": "Who checks, before flight, that the aircraft's weight is such that the flight can be safely made, and that any transported cargo is properly distributed and secured?", "question_type": "MCQ", "options": ["The company's cargo technicians", "The captain", "The mechanic on board, or in his absence the co-pilot", "The operator"], "solution": "The captain" },
-    { "id": "2", "question": "FDRs must keep data and parameters for at least the last:", "question_type": "MCQ", "options": ["30 hours of operation", "48 hours of operation", "10 hours of operation", "the whole flight"], "solution": "10 hours of operation" },
-    { "id": "3", "question": "When refuelling is being conducted with passengers embarking or disembarking:", "question_type": "MCQ", "options": ["refuelling is strictly prohibited whilst passengers are embarking/ disembarking", "all flight crew must be on board", "communications shall be maintained by ground crew and qualified crew on board", "the stairs shall be fully extended"], "solution": "communications shall be maintained by ground crew and qualified crew on board" },
-    { "id": "4", "question": "To act as co-pilot for take-off or landing you must have:", "question_type": "MCQ", "options": ["acted as PIC or co-pilot on type in the last 90 days", "acted as PIC or co-pilot on type in the last 30 days", "acted as PIC or co-pilot on type in the last 60 days", "been at the controls for landing in the same type recently"], "solution": "acted as PIC or co-pilot on type in the last 90 days" },
-    { "id": "5", "question": "When are life jackets required?", "question_type": "MCQ", "options": ["50 NM from land", "100 NM from land", "300 NM from land", "400 NM from land"], "solution": "50 NM from land" },
-    { "id": "6", "question": "Where is the Minimum Equipment List?", "question_type": "MCQ", "options": ["Appended to the AFM", "In the OM", "In the maintenance documents", "In the operations room"], "solution": "In the OM" },
-    { "id": "7", "question": "Aeroplanes with a take-off mass greater than 5700 kg shall be fitted with an independent automatically operated emergency power supply to operate and illuminate the artificial horizon for:", "question_type": "MCQ", "options": ["15 mins", "30 mins", "60 mins", "2 hrs"], "solution": "30 mins" },
-    { "id": "8", "question": "One shall not initiate any flight made in accordance with instrument flight rules unless the available information indicates that the conditions at the aerodrome of intended destination and destination alternate (if one is required) are, at the predicted time of:", "question_type": "MCQ", "options": ["take-off equal to or better than the minimum conditions required for aerodrome use", "arrival, and for a reasonable time before and after such a predicted time, equal to minimum conditions required for aerodrome use", "arrival equal to or better than the minimum conditions required for aerodrome use", "arrival better than the minimum conditions required for aerodrome use"], "solution": "arrival equal to or better than the minimum conditions required for aerodrome use" },
-    { "id": "9", "question": "What is the co-pilot currency requirement?", "question_type": "MCQ", "options": ["3 flights in the last 90 days", "3 take-offs and landings in the last 60 days", "At the controls for 3 flights in the last 60 days", "At the controls for 3 take-offs and landings in the last 90 days"], "solution": "At the controls for 3 take-offs and landings in the last 90 days" },
-    { "id": "10", "question": "Supplemental oxygen is used to:", "question_type": "MCQ", "options": ["provide oxygen to passengers who might require it, following a cabin depressurization", "assist a passenger with breathing difficulties", "protect a crew member who fights a fire", "provide passengers on board with oxygen during a cabin depressurization"], "solution": "provide oxygen to passengers who might require it, following a cabin depressurization" },
-    { "id": "11", "question": "Information concerning evacuation procedures can be found in the:", "question_type": "MCQ", "options": ["OM", "AFM", "journey logbook", "OFP"], "solution": "OM" },
-    { "id": "12", "question": "Where is the general information about the carriage of dangerous goods to be found?", "question_type": "MCQ", "options": ["OM", "AIC", "Aircraft flight notes", "Journey logbook"], "solution": "OM" },
-    { "id": "13", "question": "The Minimum Equipment List (MEL) is established by the:", "question_type": "MCQ", "options": ["airline operator", "manufacturer", "aeronautical Authority the airline operator depends on", "Civil Aviation Authority of the European states"], "solution": "airline operator" },
-    { "id": "14", "question": "The recent experience conditions of a captain assigned to a flight on an aircraft by an operator must not be less than:", "question_type": "MCQ", "options": ["6 take-offs and 6 landings as pilot in command on this type of aircraft during the last 90 days", "3 take-offs and 3 landings as pilot in command on this type of aircraft during the last 6 months", "6 take-offs and 6 landings as pilot in command on this type of aircraft during the last 6 months", "3 take-offs and 3 landings as pilot in command on this type of aircraft during the last 90 days"], "solution": "3 take-offs and 3 landings as pilot in command on this type of aircraft during the last 90 days" },
-    { "id": "15", "question": "A piece of equipment on your public transport aeroplane fails while you are still parked. The reference document you use to decide on the procedure to follow is the:", "question_type": "MCQ", "options": ["OM chapter 'Abnormal and Emergency procedures'", "AFM", "EU-OPS", "MEL"], "solution": "MEL" },
-    { "id": "16", "question": "When do you not need a destination alternate aerodrome?", "question_type": "MCQ", "options": ["If the flight time is more than 6 hours and a reasonable time before and after you can expect VMC", "If your operator deems the weather to be suitable for a visual landing", "If the flight time is less than 1 hour", "If there is a reasonable certainty that at the ETA at the destination aerodrome"], "solution": "If there is a reasonable certainty that at the ETA at the destination aerodrome" },
-    { "id": "17", "question": "When are all flight crew members required to be at their stations?", "question_type": "MCQ", "options": ["As specified in the OM", "At all times except when they need to leave for operational or physiological reasons", "Throughout the flight", "At all times other than take-off and landing"], "solution": "As specified in the OM" },
-    { "id": "18", "question": "When are flight crew allowed to leave their stations?", "question_type": "MCQ", "options": ["In the performance of their duties", "At any time specified by the OM", "When having lunch", "Only when the captain allows it"], "solution": "In the performance of their duties" },
-    { "id": "19", "question": "Who is the operator to provide an operations manual for?", "question_type": "MCQ", "options": ["Operations staff", "All company personnel", "Only for flight crew", "For the Authority"], "solution": "Operations staff" },
-    { "id": "20", "question": "What must be ensured with respect to navigation equipment?", "question_type": "MCQ", "options": ["The failure of one piece does not affect another", "All navigation equipment must be serviceable at the start of flight", "All equipment must conform to ICAO specifications", "If one piece of equipment fails there must be a spare available"], "solution": "The failure of one piece does not affect another" },
-    { "id": "21", "question": "What skills constitute pilot proficiency checks?", "question_type": "MCQ", "options": ["Simulator flying skills", "The ability to land safely", "Flying technique, emergency procedures and IFR", "The ability to conform with set procedures"], "solution": "Flying technique, emergency procedures and IFR" },
-    { "id": "22", "question": "How often should pilot proficiency checks be performed?", "question_type": "MCQ", "options": ["No less than 6 months between checks", "2 checks every 13 months", "3 checks within the year with no less than 4 months between checks", "2 within a year, more than 4 months between checks"], "solution": "2 within a year, more than 4 months between checks" },
-    { "id": "23", "question": "Who is to ensure safe handling of flights?", "question_type": "MCQ", "options": ["The Operator", "The Authority", "The State of Registration", "The operations officer"], "solution": "The Operator" },
-    { "id": "24", "question": "Destination alternate for a turbojet - what is the required fuel overhead?", "question_type": "MCQ", "options": ["30 minutes at cruise speed", "30 minutes at 1500 ft in standard conditions", "2 hours at 1500 ft in standard conditions", "30 minutes at endurance speed"], "solution": "30 minutes at 1500 ft in standard conditions" },
-    { "id": "25", "question": "Who is responsible for ensuring that the aeroplane is airworthy prior to flight?", "question_type": "MCQ", "options": ["Operator", "State of Registration", "Captain", "State of the operator"], "solution": "Captain" },
-    { "id": "26", "question": "Following an indication of an unserviceability whilst taxiing to the holding point, what do you consult first?", "question_type": "MCQ", "options": ["AFM", "Operator", "State of Registration", "MEL"], "solution": "MEL" },
-    { "id": "27", "question": "Above what altitude are quick-donning masks required?", "question_type": "MCQ", "options": ["25 000 ft", "15 000 ft", "10000 ft", "32 000 ft"], "solution": "25 000 ft" },
-    { "id": "28", "question": "What is the oxygen requirement for the crew and 100% of the passengers in an unpressurized aircraft?", "question_type": "MCQ", "options": ["10 000 ft", "11 000 ft", "12 000 ft", "13 000 ft"], "solution": "13 000 ft" },
-    { "id": "29", "question": "What is the requirement regarding the carriage of a CVR for aircraft registered before April 1998?", "question_type": "MCQ", "options": ["Record last 30 mins of flight", "Record for the duration of the flight", "Record the last 25 hours of operation", "Record the last 48 hours of flight"], "solution": "Record last 30 mins of flight" },
-    { "id": "30", "question": "What is the requirement for the carriage of life rafts?", "question_type": "MCQ", "options": ["30 mins or 120 NM whichever is less", "50 NM from land", "120 mins or 400 NM whichever is less", "60 mins flying time at the one engine out cruise speed"], "solution": "120 mins or 400 NM whichever is less" },
-    { "id": "31", "question": "Flight crew members on the flight deck shall keep their safety belt fastened:", "question_type": "MCQ", "options": ["only during take-off and landing", "while at their station", "from take-off to landing", "only during take-off and landing and whenever necessary by the commander in the interest of safety"], "solution": "while at their station" },
-    { "id": "32", "question": "The EU-OPS document is based on:", "question_type": "MCQ", "options": ["Federal Aviation Requirements. (FAR)", "a JAA guide line", "Rules of the Air", "ICAO Annex 6"], "solution": "ICAO Annex 6" },
-    { "id": "33", "question": "On an ILS, you are told that the weather has dropped below company minima. When must you abort the approach?", "question_type": "MCQ", "options": ["Start of the glide slope descent", "FAF", "Inner marker", "Outer marker"], "solution": "Outer marker" },
-    { "id": "34", "question": "The MEL is drawn up by the:", "question_type": "MCQ", "options": ["operator and may be more restrictive than the MMEL", "operator and may be less restrictive than the MMEL", "manufacturer and may be more restrictive than the MMEL", "manufacturer and may be less restrictive than the MMEL"], "solution": "operator and may be more restrictive than the MMEL" },
-    { "id": "35", "question": "On board a pressurized aircraft, a flight shall be undertaken only if the aircraft is provided with an oxygen reserve enabling all crew members and part of the passengers to be supplied with oxygen in the event of cabin depressurization, throughout the flight period, during which the pressure altitude is greater than:", "question_type": "MCQ", "options": ["11 000 ft", "10000 ft", "12 000 ft", "13000 ft"], "solution": "13000 ft" },
-    { "id": "36", "question": "A modern aircraft must be provided with a flight data recorder when its certified MTOM is greater than:", "question_type": "MCQ", "options": ["27 000 kg", "5700 kg", "20000 kg", "14000 kg"], "solution": "5700 kg" },
-    { "id": "37", "question": "Who provides the operations personnel with the OM and the amendments to keep it up to date?", "question_type": "MCQ", "options": ["Aircraft manufacturer", "ATS authority of the State of Registry", "Aircraft operator", "Owner of aircraft"], "solution": "Aircraft operator" },
-    { "id": "38", "question": "What is required for navigation in IMC?", "question_type": "MCQ", "options": ["Radio equipment and equipment for guidance until the visual point", "Anti-icing equipment", "A serviceable weather radar", "One VHF box and one HF box"], "solution": "Radio equipment and equipment for guidance until the visual point" },
-    { "id": "39", "question": "Who compiles the MEL and where does it go?", "question_type": "MCQ", "options": ["The manufacturer and in the AFM", "The manufacturer and in the OM", "The operator and in the AFM", "The operator and in the OM"], "solution": "The operator and in the OM" },
-    { "id": "40", "question": "On an NDB approach with an MDH of 360 ft and a required RVR of 1500 m and a reported met vis of 2500 m, when can you start an approach; i.e. which is most correct?", "question_type": "MCQ", "options": ["When the cloud base is above the system minimum", "With any cloud base", "When the cloud base is above 36 ft", "When the cloud base report is received"], "solution": "With any cloud base" },
-    { "id": "41", "question": "Where is permanent approval for the carriage of dangerous goods given?", "question_type": "MCQ", "options": ["Certificate of airworthiness (CofA)", "Aircraft registration", "Air Operator's Certificate (AOC)", "Insurance certificate"], "solution": "Air Operator's Certificate (AOC)" },
-    { "id": "42", "question": "How far away can a take-off alternate be for a 2-engine aeroplane?", "question_type": "MCQ", "options": ["60 mins at one engine cruise speed", "60 mins at normal cruise speed", "120 mins at one engine cruise speed", "120 mins at normal cruise speed"], "solution": "60 mins at one engine cruise speed" },
-    { "id": "43", "question": "Who issues and updates the MEL?", "question_type": "MCQ", "options": ["The Authority", "The designer", "The manufacturer", "The operator"], "solution": "The operator" },
-    { "id": "44", "question": "Who accepts the MEL?", "question_type": "MCQ", "options": ["The country where the flight takes place", "The country of the operator", "The country of the designers", "The country of the manufacturers"], "solution": "The country of the operator" },
-    { "id": "45", "question": "A Flight Data Recorder is required in aeroplanes over:", "question_type": "MCQ", "options": ["20 000 kg", "5700 kg", "10000 kg", "7000 kg"], "solution": "5700 kg" },
-    { "id": "46", "question": "In determining Aerodrome Operating Minima, what of the following needs to be considered? 1. Crew composition 2. Ability to communicate/receive meteorological information 3. Significant obstacles in the missed approach area 4. Dimensions and characteristics of the runway 5. Navigation equipment in the aeroplane", "question_type": "MCQ", "options": ["1, 2, 4 & 5", "1, 2 & 3", "2, 3, 4 & 5", "all of the above"], "solution": "all of the above" },
-    { "id": "47", "question": "A list to be carried in the aeroplane detailing minimum equipment required must be approved by:", "question_type": "MCQ", "options": ["country of operations", "country of operator", "country of manufacturer", "no such book is required to be approved by an authority"], "solution": "country of operator" },
-    { "id": "48", "question": "A pilot in command: 1. must comply with ATC instructions immediately 2. is only responsible when airborne 3. may deviate in an emergency 4. may deviate from complying with rules of the air in order to comply with an ATC instruction 5. may request a new clearance if unsatisfied", "question_type": "MCQ", "options": ["1, 3, 4 & 5", "3 & 5", "3, 4 & 5", "all of the above"], "solution": "3 & 5" },
-    { "id": "49", "question": "If there is unauthorized use of equipment that affects the aeroplane's system, the commander:", "question_type": "MCQ", "options": ["may authorize its use for take-off and landing", "must not authorize its use", "may authorize its use for the whole flight", "may authorize its use at his discretion"], "solution": "must not authorize its use" },
-    { "id": "50", "question": "What is the currency requirement for a co-pilot?", "question_type": "MCQ", "options": ["3 take-offs and landings on an aeroplane of the same type within the last 90 days", "3 take-offs and landings on an aeroplane of the same type within the last 60 days", "3 take-offs and landings on an aeroplane of the same type or approved simulator within the last 90 days", "3 take-offs and landings on an aeroplane of the same type or approved simulator within the last 60 days"], "solution": "3 take-offs and landings on an aeroplane of the same type or approved simulator within the last 90 days" },
-    { "id": "51", "question": "From the flight deck you observe an aeroplane in the forward left position on an opposite parallel track. What Nav light will be observed?", "question_type": "MCQ", "options": ["Green", "Red", "White", "All of the above"], "solution": "Red" },
-    { "id": "52", "question": "The MMEL is:", "question_type": "MCQ", "options": ["compiled by the manufacturer and approved by the operator", "compiled by the manufacturer and approved by the state of design or state of the manufacturer", "compiled by the operator and approved by the state of design", "compiled by the manufacturer and not approved by the operator"], "solution": "compiled by the manufacturer and approved by the state of design or state of the manufacturer" },
-    { "id": "53", "question": "All aeroplanes which individual certificates of airworthiness were issued after 1 January 1990 must be fitted with a flight data recorder when their maximum certificated take-off mass is greater than:", "question_type": "MCQ", "options": ["20 000 kg", "27 000 kg", "5700 kg", "14000 kg"], "solution": "5700 kg" },
-    { "id": "54", "question": "The operator shall include in the OM a MEL which shall be approved by the authority of:", "question_type": "MCQ", "options": ["none, no approval is required", "the country where the aeroplane is operated", "the country where the aeroplane was manufactured", "the country of the operator"], "solution": "the country of the operator" },
-    { "id": "55", "question": "At the alternate aerodrome, the commander of a turbojet engine aeroplane should have a fuel quantity (final reserve) sufficient for flying during:", "question_type": "MCQ", "options": ["30 minutes at holding flight speed at 1500 ft", "45 minutes at holding flight speed at 1500 ft", "30 minutes at cruising speed", "45 minutes at cruising speed"], "solution": "30 minutes at holding flight speed at 1500 ft" },
-    { "id": "56", "question": "The Minimum Equipment List (MEL) gives the equipment which can be inoperative when undertaking a flight and the additional procedures to be observed accordingly. This list is prepared by:", "question_type": "MCQ", "options": ["the operator, and it is inserted in the OM", "the manufacturer, and it is inserted in the OM", "the operator, and it is appended in the AFM", "the manufacturer, and it is appended to the AFM"], "solution": "the operator, and it is inserted in the OM" },
-    { "id": "57", "question": "After an accident, the operator of an aeroplane equipped with a flight recorder must keep the original recordings for a minimum period of:", "question_type": "MCQ", "options": ["30 days", "90 days", "45 days", "60 days"], "solution": "60 days" },
-    { "id": "58", "question": "During a flight, the captain is informed that a passenger is using a portable electronic device, which is adversely affecting the aircraft's electrical avionics. The captain must:", "question_type": "MCQ", "options": ["stop the passenger from using the device", "allow the device to be used at take-off and landing", "allow the device to be used from take-off to landing", "allow the device to be used for certain exceptions"], "solution": "stop the passenger from using the device" },
-    { "id": "59", "question": "A copy of which of the following documents must be kept on the ground by an operator for the duration of each flight?", "question_type": "MCQ", "options": ["The journey log", "The ATC (Air Traffic Control) flight plan", "The operational flight plan", "The meteorological forecast"], "solution": "The operational flight plan" },
-    { "id": "60", "question": "What manuals are to be carried?", "question_type": "MCQ", "options": ["Operations Manual in toto", "Company instructions for all flight crew", "All those specified in the CofA", "Relevant parts of the ops manual and AFM"], "solution": "Relevant parts of the ops manual and AFM" },
-    { "id": "61", "question": "A copy of what info is to be left on the ground?", "question_type": "MCQ", "options": ["Passenger manifests, notification of special passengers", "Route specific maps and charts", "NOTAMS, tech log, op flight plan, mass & Balance, spec load notification", "AICs, AISs, and all company NOTAMS"], "solution": "NOTAMS, tech log, op flight plan, mass & Balance, spec load notification" },
-    { "id": "62", "question": "Which of the following is to be left on the ground?", "question_type": "MCQ", "options": ["The aeroplane noise certificate", "The operations manual", "Parts of the operations manual relevant to the flight", "Operational flight plan"], "solution": "Operational flight plan" },
-    { "id": "63", "question": "Each flight is subject to a preliminary file collecting a certain amount of information. The operator will see that this file is kept on ground. It particularly contains: 1. one copy of the operational flight plan and, if required, the weight and balance sheet 2. the weather conditions for the day including the weather forecast at destination 3. charts 4. copies of the relevant aircraft's technical log 5. the en route NOTAM documentation when specifically issued by the operator 6. special loads notification. The combination regrouping all the correct statements is:", "question_type": "MCQ", "options": ["1, 3 & 5", "2, 3, 4 & 5", "2 & 4", "1, 2, 3, 4, 5 & 6"], "solution": "2, 3, 4 & 5" },
-    { "id": "64", "question": "The first part of EU-OPS is applicable to:", "question_type": "MCQ", "options": ["civil air transport", "international commercial air transport of JAA state members", "military & police transport", "any operations overflying JAA states"], "solution": "international commercial air transport of JAA state members" },
-    { "id": "65", "question": "After an incident, the FDR recordings must be kept for:", "question_type": "MCQ", "options": ["30 days", "60 days", "90 days", "120 days"], "solution": "60 days" },
-    { "id": "66", "question": "Coverage of permanently illuminated white lights at the rear of the aircraft is:", "question_type": "MCQ", "options": ["140°", "70°", "110°", "220°"], "solution": "140°" },
-    { "id": "67", "question": "The first part of the EU-OPS document relates to:", "question_type": "MCQ", "options": ["aircraft proceeding from or over flying European States", "JAA state operators flying civil commercial air transport aeroplanes", "aeroplanes in the police/defence", "treatment of passengers with pathological respiratory disorders"], "solution": "JAA state operators flying civil commercial air transport aeroplanes" },
-    { "id": "68", "question": "What is the requirement for the issue of an AOC?", "question_type": "MCQ", "options": ["Not already hold an AOC issued by another authority", "Have a fleet of serviceable aeroplanes", "Have registered offices in all countries of operations", "Have facilities for all maintenance"], "solution": "Not already hold an AOC issued by another authority" },
-    { "id": "69", "question": "The \"NO SMOKING\" sign must be illuminated:", "question_type": "MCQ", "options": ["when oxygen is being supplied in the cabin", "in each cabin section if oxygen is being carried", "during climb and descent", "during take-off and landing"], "solution": "when oxygen is being supplied in the cabin" },
-    { "id": "70", "question": "What are the rules on the carriage of PRMs?", "question_type": "MCQ", "options": ["Cannot impede the performance of crew duty", "Must be seated away from emergency exits", "No more than 5% of passengers may be PRMs", "They must provide their own food"], "solution": "Cannot impede the performance of crew duty" },
-    { "id": "71", "question": "What is the system minimum for an NDB approach?", "question_type": "MCQ", "options": ["200 ft", "250 ft", "300 ft", "350 ft"], "solution": "350 ft" },
-    { "id": "72", "question": "A category A aircraft can carry out an indirect (circling) approach followed by a visual manoeuvre only if the horizontal visibility is higher than or equal to:", "question_type": "MCQ", "options": ["1600 m", "2400 m", "1500 m", "3600 m"], "solution": "1500 m" },
-    { "id": "73", "question": "What are the circling minimum visibility and MDH for a Cat B aeroplane?", "question_type": "MCQ", "options": ["1600 m / 400 ft", "1600 m / 500 ft", "1500 m / 450 ft", "1500 m / 600 ft"], "solution": "1600 m / 500 ft" },
-    { "id": "74", "question": "According to EU-OPS 1.430, Airfield Operating Minima, what is the lowest MDH using ILS no glide path (LLZ only), VOR, NDB, SRA?", "question_type": "MCQ", "options": ["NDB-MDH 350 ft", "VOR - MDH 250 ft", "ILS (LLZ only) - MDH 200 ft", "VOR/DME - MDH 300 ft"], "solution": "NDB-MDH 350 ft" },
-    { "id": "75", "question": "What is the minimum RVR for a CAT IIIC approach?", "question_type": "MCQ", "options": ["No minimum", "50 m", "75 m", "100 m"], "solution": "No minimum" },
-    { "id": "76", "question": "The considerations for a non-precision approach are: 1. MDA (H) 2. DH 3. ceiling 4. horizontal visibility", "question_type": "MCQ", "options": ["2, 3 & 4", "1, 3 & 4", "1 & 3", "2 & 4"], "solution": "1, 3 & 4" },
-    { "id": "77", "question": "What is the minimum required RVR for CAT IIIB operations?", "question_type": "MCQ", "options": ["100 m", "75 m", "150 m", "200 m"], "solution": "75 m" },
-    { "id": "78", "question": "What is the minimum visibility for a Cat A aircraft during a circling approach?", "question_type": "MCQ", "options": ["1500 m", "1600 m", "2400 m", "3600 m"], "solution": "1500 m" },
-    { "id": "79", "question": "A category II precision approach (CAT II) is an approach with:", "question_type": "MCQ", "options": ["a decision height of at least 100 ft", "no decision height", "a decision height of at least 200 ft", "a decision height of at least 50 ft"], "solution": "a decision height of at least 100 ft" },
-    { "id": "80", "question": "When can special VFR be commenced?", "question_type": "MCQ", "options": ["Visibility greater than 1500 m", "Greater than 3 km vis", "Visibility no more than 3000 m", "Greater than 5 km vis"], "solution": "Greater than 3 km vis" },
-    { "id": "81", "question": "What is VA?", "question_type": "MCQ", "options": ["VS1g × 1.3", "VS0 × 1.3", "The lesser of VS0 or VS1g", "VS0 × 1.23"], "solution": "VS1g × 1.3" },
-    { "id": "82", "question": "According to EU-OPS 1.430 (Aerodrome Operating Minima) a Category IIIA approach has a Decision Height of less than 100 ft and a minimum RVR of:", "question_type": "MCQ", "options": ["200 m", "250 m", "300 m", "230 m"], "solution": "200 m" },
-    { "id": "83", "question": "What is the take-off RVR limit for a Cat A aeroplane, when high intensity centre line lights and edge lights are on and the crew is IFR qualified and approved?", "question_type": "MCQ", "options": ["150 m if threshold RVR is available", "150 m", "200 m", "250 m"], "solution": "200 m" },
-    { "id": "84", "question": "When is MDH referenced to the threshold as opposed to the aerodrome elevation?", "question_type": "MCQ", "options": ["The threshold is more than 2 m above the ARP", "The threshold is less than 2 m above the ARP", "The threshold is less than 2 m below the ARP", "The threshold is more than 2 m below the ARP"], "solution": "The threshold is more than 2 m below the ARP" },
-    { "id": "85", "question": "What are the threshold speeds for a Cat D aeroplane?", "question_type": "MCQ", "options": ["121-140 kt", "131-155 kt", "141-165 kt", "145-160 kt"], "solution": "141-165 kt" },
-    { "id": "86", "question": "What is the minimum horizontal visibility for a Cat D aircraft on a circling approach?", "question_type": "MCQ", "options": ["1500 m", "1600 m", "2400 m", "3600 m"], "solution": "3600 m" },
-    { "id": "87", "question": "What is DH used for?", "question_type": "MCQ", "options": ["Visual manoeuvring", "Circling to land", "Precision approaches", "Non-precision approaches"], "solution": "Precision approaches" },
-    { "id": "88", "question": "A category I precision approach (CAT I) is an approach which may be carried out with a runway visual range of at least:", "question_type": "MCQ", "options": ["550 m", "350 m", "800 m", "500 m"], "solution": "550 m" },
-    { "id": "89", "question": "When establishing an instrument approach procedure, 5 aircraft categories according to their speed at the threshold (VAT) are established. This speed is equal to the stalling speed in the landing configuration multiplied by a factor of:", "question_type": "MCQ", "options": ["1.5", "1.45", "1.15", "1.3"], "solution": "1.3" },
-    { "id": "90", "question": "EU-OPS 1.465 (VFR operating minima), establishes that, the operator shall ensure about VFR flights, that:", "question_type": "MCQ", "options": ["for conducted VFR flights in airspace F, vertical distance from clouds is 250 m at least", "Special VFR flights are not commenced when visibility is less than 3 km", "for conducted VFR flights in airspace B, horizontal distance from clouds is 1000 m at least", "for conducted VFR flights in airspace E, flight visibility at and above 3050 m (10000 ft) is 5 km at least (clear of cloud)"], "solution": "Special VFR flights are not commenced when visibility is less than 3 km" },
-    { "id": "91", "question": "The Cat I minimum decision height is:", "question_type": "MCQ", "options": ["no decision height", "50 ft", "100 ft", "200 ft"], "solution": "200 ft" },
-    { "id": "92", "question": "What is the Cat IIIA RVR minimum?", "question_type": "MCQ", "options": ["50 m", "100 m", "200 m", "250 m"], "solution": "200 m" },
-    { "id": "93", "question": "The minimum visibility for a Cat C aeroplane on a circling approach is:", "question_type": "MCQ", "options": ["2400 m", "2500 m", "2600 m", "2700 m"], "solution": "2400 m" },
-    { "id": "94", "question": "Aircraft are categorized according to their threshold speeds, multiplied by a factor. What aircraft category corresponds to a range of speeds 141 kt - 165 kt?", "question_type": "MCQ", "options": ["B", "E", "D", "C"], "solution": "D" },
-    { "id": "95", "question": "An aeroplane is starting a non-precision approach with an MDH of 250 ft and minimum visibility of 800 m. ATC gives threshold, mid-runway and final third RVRs. When may the approach be started?", "question_type": "MCQ", "options": ["When threshold and mid-runway RVRs are greater than 800 m", "When all 3 RVRs are greater than 800 m", "When the met viz is greater than 800 m. RVR is for precision approaches only", "When threshold RVR is greater than 800 m"], "solution": "When threshold RVR is greater than 800 m" },
-    { "id": "96", "question": "The information to be considered for a non-precision approach is: 1. horizontal visibility 2. ceiling 3. minimum descent altitude 4. decision altitude", "question_type": "MCQ", "options": ["1, 2 & 4", "1 & 3", "1 & 4", "1, 2 & 3"], "solution": "1, 2 & 3" },
-    { "id": "97", "question": "A category D aeroplane can carry out a circling approach only if the meteorological visibility is higher than or equal to:", "question_type": "MCQ", "options": ["1500 m", "1600 m", "2400 m", "3600 m"], "solution": "3600 m" }
+    {
+      "question_number": "Q1",
+      "question": "Who checks, before flight, that the aircraft’s weight is such that the flight can be",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The company’s cargo technicians",
+        "(b) The          captain",
+        "(c) The mechanic on board, or in his absence the co-pilot",
+        "(d) The          operator"
+      ],
+      "answer": "a",
+      "solution": "(a) The company’s cargo technicians",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q2",
+      "question": "FDRs must keep data and parameters for at least the last:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 30 hours of operation",
+        "(b) 48 hours of operation",
+        "(c) 10 hours of operation",
+        "(d) the whole flight"
+      ],
+      "answer": "a",
+      "solution": "(a) 30 hours of operation",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q3",
+      "question": "When refuelling is being conducted with passengers embarking or disembarking:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) refuelling is strictly prohibited whilst passengers are embarking/ disembarking",
+        "(b) all flight crew must be on board",
+        "(c) communications shall be maintained by ground crew and qualified crew on",
+        "(d) the stairs shall be fully extended"
+      ],
+      "answer": "a",
+      "solution": "(a) refuelling is strictly prohibited whilst passengers are embarking/ disembarking",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q4",
+      "question": "To act as co-pilot for take-off or landing you must have:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) acted as PIC or co-pilot on type in the last 90 days",
+        "(b) acted as PIC or co-pilot on type in the last 30 days",
+        "(c) acted as PIC or co-pilot on type in the last 60 days",
+        "(d) been at the controls for landing in the same type recently"
+      ],
+      "answer": "a",
+      "solution": "(a) acted as PIC or co-pilot on type in the last 90 days",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q5",
+      "question": "When are life jackets required?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 50 NM from land",
+        "(b) 100 NM from land",
+        "(c) 300 NM from land",
+        "(d) 400 NM from land"
+      ],
+      "answer": "a",
+      "solution": "(a) 50 NM from land",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q6",
+      "question": "Where is the Minimum Equipment List?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Appended to the AFM",
+        "(b) In the OM",
+        "(c) In the maintenance documents",
+        "(d) In the operations room"
+      ],
+      "answer": "a",
+      "solution": "(a) Appended to the AFM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q7",
+      "question": "Aeroplanes with a take-off mass greater than 5700 kg shall be fitted with an",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 15          mins",
+        "(b) 30          mins",
+        "(c) 60          mins",
+        "(d) 2          hrs"
+      ],
+      "answer": "a",
+      "solution": "(a) 15          mins",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q8",
+      "question": "One shall not initiate any flight made in accordance with instrument flight rules",
+      "question_type": "MCQ",
+      "options": [
+        "(a) take-off equal to or better than the minimum conditions required for",
+        "(b) arrival, and for a reasonable time before and after such a predicted time,",
+        "(c) arrival equal to or better than the minimum conditions required for",
+        "(d) arrival better than the minimum conditions required for aerodrome use"
+      ],
+      "answer": "a",
+      "solution": "(a) take-off equal to or better than the minimum conditions required for",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q9",
+      "question": "What is the co-pilot currency requirement?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 3 flights in the last 90 days",
+        "(b) 3 take-offs and landings in the last 60 days",
+        "(c) At the controls for 3 flights in the last 60 days",
+        "(d) At the controls for 3 take-offs and landings in the last 90 days"
+      ],
+      "answer": "a",
+      "solution": "(a) 3 flights in the last 90 days",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q10",
+      "question": "Supplemental oxygen is used to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) provide oxygen to passengers who might require it, following a cabin",
+        "(b) assist a passenger with breathing difficulties",
+        "(c) protect a crew member who fights a fire",
+        "(d) provide passengers on board with oxygen during a cabin depressurization"
+      ],
+      "answer": "a",
+      "solution": "(a) provide oxygen to passengers who might require it, following a cabin",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q11",
+      "question": "Information concerning evacuation procedures can be found in the:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) OM",
+        "(b) AFM",
+        "(c) journey          logbook",
+        "(d) OFP"
+      ],
+      "answer": "a",
+      "solution": "(a) OM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q12",
+      "question": "Where is the general information about the carriage of dangerous goods to be",
+      "question_type": "MCQ",
+      "options": [
+        "(a) OM",
+        "(b) AIC",
+        "(c) Aircraft flight notes",
+        "(d) Journey          logbook"
+      ],
+      "answer": "a",
+      "solution": "(a) OM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q13",
+      "question": "The Minimum Equipment List (MEL) is established by the:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) airline          operator",
+        "(b) manufacturer",
+        "(c) aeronautical Authority the airline operator depends on",
+        "(d) Civil Aviation Authority of the European states"
+      ],
+      "answer": "a",
+      "solution": "(a) airline          operator",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q14",
+      "question": "The recent experience conditions of a captain assigned to a flight on an aircraft by",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 6 take-offs and 6 landings as pilot in command on this type of aircraft during",
+        "(b) 3 take-offs and 3 landings as pilot in command on this type of aircraft during",
+        "(c) 6 take-offs and 6 landings as pilot in command on this type of aircraft during",
+        "(d) 3 take-offs and 3 landings as pilot in command on this type of aircraft during"
+      ],
+      "answer": "a",
+      "solution": "(a) 6 take-offs and 6 landings as pilot in command on this type of aircraft during",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q15",
+      "question": "A piece of equipment on your public transport aeroplane fails while you are still",
+      "question_type": "MCQ",
+      "options": [
+        "(a) OM          chapter ‘Abnormal and Emergency procedures’",
+        "(b) AFM",
+        "(c) EU-OPS",
+        "(d) MEL"
+      ],
+      "answer": "a",
+      "solution": "(a) OM          chapter ‘Abnormal and Emergency procedures’",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q16",
+      "question": "When do you not need a destination alternate aerodrome?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) If there is a reasonable certainty that at the ETA at the destination aerodrome",
+        "(b) If the flight time is more than 6 hours",
+        "(c) If the flight time is less than 1 hour",
+        "(d) If your operator deems the weather to be suitable for a visual landing"
+      ],
+      "answer": "a",
+      "solution": "(a) If there is a reasonable certainty that at the ETA at the destination aerodrome",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q17",
+      "question": "When are all flight crew members required to be at their stations?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) At all times except when they need to leave for operational or physiological",
+        "(b) Throughout the flight",
+        "(c) At all times other than take-off and landing",
+        "(d) As specified in the OM"
+      ],
+      "answer": "a",
+      "solution": "(a) At all times except when they need to leave for operational or physiological",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q18",
+      "question": "When are flight crew allowed to leave their stations?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) In the performance of their duties",
+        "(b) At any time specified by the OM",
+        "(c) When having lunch",
+        "(d) Only when the captain allows it"
+      ],
+      "answer": "a",
+      "solution": "(a) In the performance of their duties",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q19",
+      "question": "Who is the operator to provide an operations manual for?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Operations          staff",
+        "(b) All company personnel",
+        "(c) Only for flight crew",
+        "(d) For the Authority"
+      ],
+      "answer": "a",
+      "solution": "(a) Operations          staff",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q20",
+      "question": "What must be ensured with respect to navigation equipment?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The failure of one piece does not affect another",
+        "(b) All navigation equipment must be serviceable at the start of flight",
+        "(c) All equipment must conform to ICAO specifications",
+        "(d) If one piece of equipment fails there must be a spare available"
+      ],
+      "answer": "a",
+      "solution": "(a) The failure of one piece does not affect another",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q21",
+      "question": "What skills constitute pilot proficiency checks?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Simulator flying skills",
+        "(b) The ability to land safely",
+        "(c) Flying technique, emergency procedures and IFR",
+        "(d) The ability to conform with set procedures"
+      ],
+      "answer": "a",
+      "solution": "(a) Simulator flying skills",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q22",
+      "question": "How often should pilot proficiency checks be performed?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) No less than 6 months between checks",
+        "(b) 2 checks every 13 months",
+        "(c) 3 checks within the year with no less than 4 months between checks",
+        "(d) 2 within a year, more than 4 months between checks"
+      ],
+      "answer": "a",
+      "solution": "(a) No less than 6 months between checks",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q23",
+      "question": "Who is to ensure safe handling of flights?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The          Operator",
+        "(b) The          Authority",
+        "(c) The State of Registration",
+        "(d) The operations officer"
+      ],
+      "answer": "a",
+      "solution": "(a) The          Operator",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q24",
+      "question": "Destination alternate for a turbojet – what is the required fuel overhead?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 30 minutes at cruise speed",
+        "(b) 30 minutes at 1500 ft in standard conditions",
+        "(c) 2 hours at 1500 ft in standard conditions",
+        "(d) 30 minutes at endurance speed"
+      ],
+      "answer": "a",
+      "solution": "(a) 30 minutes at cruise speed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q25",
+      "question": "Who is responsible for ensuring that the aeroplane is airworthy prior to flight?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Operator",
+        "(b) State of Registration",
+        "(c) Captain",
+        "(d) State of the operator"
+      ],
+      "answer": "a",
+      "solution": "(a) Operator",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q26",
+      "question": "Following an indication of an unserviceability whilst taxiing to the holding point,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) AFM",
+        "(b) Operator",
+        "(c) State of Registration",
+        "(d) MEL"
+      ],
+      "answer": "a",
+      "solution": "(a) AFM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q27",
+      "question": "Above what altitude are quick-donning masks required?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 25          000          ft",
+        "(b) 15          000          ft",
+        "(c) 10          000          ft",
+        "(d) 32          000          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 25          000          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q28",
+      "question": "What is the oxygen requirement for the crew and 100% of the passengers in an",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 10          000          ft",
+        "(b) 11          000          ft",
+        "(c) 12          000          ft",
+        "(d) 13          000          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 10          000          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q29",
+      "question": "What is the requirement regarding the carriage of a CVR for aircraft registered",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Record last 30 mins of flight",
+        "(b) Record for the duration of the flight",
+        "(c) Record the last 25 hours of operation",
+        "(d) Record the last 48 hours of flight"
+      ],
+      "answer": "a",
+      "solution": "(a) Record last 30 mins of flight",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q30",
+      "question": "What is the requirement for the carriage of life rafts?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 30 mins or 120 NM whichever is less",
+        "(b) 50 NM from land",
+        "(c) 120 mins or 400 NM whichever is less",
+        "(d) 60 mins flying time at the one engine out cruise speed"
+      ],
+      "answer": "a",
+      "solution": "(a) 30 mins or 120 NM whichever is less",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q31",
+      "question": "Flight crew members on the flight deck shall keep their safety belt fastened:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) only during take-off and landing",
+        "(b) while at their station",
+        "(c) from take-off to landing",
+        "(d) only during take-off and landing and whenever necessary by the commander"
+      ],
+      "answer": "a",
+      "solution": "(a) only during take-off and landing",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q32",
+      "question": "The EU-OPS document is based on:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Federal Aviation Requirements. (FAR)",
+        "(b) a JAA guide line",
+        "(c) Rules of the Air",
+        "(d) ICAO Annex 6"
+      ],
+      "answer": "a",
+      "solution": "(a) Federal Aviation Requirements. (FAR)",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q33",
+      "question": "On an ILS, you are told that the weather has dropped below company minima.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Start of the glide slope descent",
+        "(b) FAF",
+        "(c) Inner          marker",
+        "(d) Outer          marker"
+      ],
+      "answer": "a",
+      "solution": "(a) Start of the glide slope descent",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q34",
+      "question": "The MEL is drawn up by the:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) operator and may be more restrictive than the MMEL",
+        "(b) operator and may be less restrictive than the MMEL",
+        "(c) manufacturer and may be more restrictive than the MMEL",
+        "(d) manufacturer and may be less restrictive than the MMEL"
+      ],
+      "answer": "a",
+      "solution": "(a) operator and may be more restrictive than the MMEL",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q35",
+      "question": "On board a pressurized aircraft, a flight shall be undertaken only if the aircraft",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 11          000          ft",
+        "(b) 10          000          ft",
+        "(c) 12          000          ft",
+        "(d) 13          000          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 11          000          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q36",
+      "question": "A modern aircraft must be provided with a flight data recorder when its certified",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 27          000          kg",
+        "(b) 5700          kg",
+        "(c) 20          000          kg",
+        "(d) 14          000          kg"
+      ],
+      "answer": "a",
+      "solution": "(a) 27          000          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q37",
+      "question": "Who provides the operations personnel with the OM and the amendments to keep",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Aircraft          manufacturer",
+        "(b) ATS authority of the State of Registry",
+        "(c) Aircraft          operator",
+        "(d) Owner of aircraft"
+      ],
+      "answer": "a",
+      "solution": "(a) Aircraft          manufacturer",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q38",
+      "question": "What is required for navigation in IMC?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Radio equipment and equipment for guidance until the visual point",
+        "(b) Anti-icing          equipment",
+        "(c) A serviceable weather radar",
+        "(d) One VHF box and one HF box"
+      ],
+      "answer": "a",
+      "solution": "(a) Radio equipment and equipment for guidance until the visual point",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q39",
+      "question": "Who compiles the MEL and where does it go?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The manufacturer and in the AFM",
+        "(b) The manufacturer and in the OM",
+        "(c) The operator and in the AFM",
+        "(d) The operator and in the OM"
+      ],
+      "answer": "a",
+      "solution": "(a) The manufacturer and in the AFM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q40",
+      "question": "On an NDB approach with an MDH of 360 ft and a required RVR of 1500 m and a",
+      "question_type": "MCQ",
+      "options": [
+        "(a) When the cloud base is above the system minimum",
+        "(b) With any cloud base",
+        "(c) When the cloud base is above 36 ft",
+        "(d) When the cloud base report is received"
+      ],
+      "answer": "a",
+      "solution": "(a) When the cloud base is above the system minimum",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q41",
+      "question": "Where is permanent approval for the carriage of dangerous goods given?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Certificate of airworthiness (CofA)",
+        "(b) Aircraft          registration",
+        "(c) Air Operator’s Certificate (AOC)",
+        "(d) Insurance          certificate"
+      ],
+      "answer": "a",
+      "solution": "(a) Certificate of airworthiness (CofA)",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q42",
+      "question": "How far away can a take-off alternate be for a 2-engine aeroplane?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 60 mins at one engine cruise speed",
+        "(b) 60 mins at normal cruise speed",
+        "(c) 120 mins at one engine cruise speed",
+        "(d) 120 mins at normal cruise speed"
+      ],
+      "answer": "a",
+      "solution": "(a) 60 mins at one engine cruise speed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q43",
+      "question": "Who issues and updates the MEL?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The          Authority",
+        "(b) The          designer",
+        "(c) The          manufacturer",
+        "(d) The          operator"
+      ],
+      "answer": "a",
+      "solution": "(a) The          Authority",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q44",
+      "question": "Who accepts the MEL?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The country where the flight takes place",
+        "(b) The country of the operator",
+        "(c) The country of the designers",
+        "(d) The country of the manufacturers"
+      ],
+      "answer": "a",
+      "solution": "(a) The country where the flight takes place",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q45",
+      "question": "A Flight Data Recorder is required in aeroplanes over:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 20          000          kg",
+        "(b) 5700          kg",
+        "(c) 10          000          kg",
+        "(d) 7000          kg"
+      ],
+      "answer": "a",
+      "solution": "(a) 20          000          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q46",
+      "question": "46.  In determining Aerodrome Operating Minima, what of the following needs to be",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q47",
+      "question": "1.          Crew          composition",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q48",
+      "question": "2. Ability to communicate/receive meteorological information",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q49",
+      "question": "3. Significant obstacles in the missed approach area",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q50",
+      "question": "4. Dimensions and characteristics of the runway",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q51",
+      "question": "Navigation equipment in the aeroplane",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1, 2, 4 & 5",
+        "(b) 1, 2 & 3",
+        "(c) 2, 3, 4 & 5",
+        "(d) all of the above"
+      ],
+      "answer": "a",
+      "solution": "(a) 1, 2, 4 & 5",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q52",
+      "question": "A list to be carried in the aeroplane detailing minimum equipment required must",
+      "question_type": "MCQ",
+      "options": [
+        "(a) country of operations",
+        "(b) country of operator",
+        "(c) country of manufacturer",
+        "(d) no such book is required to be approved by an authority"
+      ],
+      "answer": "a",
+      "solution": "(a) country of operations",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q53",
+      "question": "48. A pilot in command:",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q54",
+      "question": "1. must comply with ATC instructions immediately",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q55",
+      "question": "2. is only responsible when airborne",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q56",
+      "question": "3. may deviate in an emergency",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q57",
+      "question": "4.  may deviate from complying with rules of the air in order to comply with an",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q58",
+      "question": "may request a new clearance if unsatisfied",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1, 3, 4 & 5",
+        "(b) 3 & 5",
+        "(c) 3, 4 & 5",
+        "(d) all of the above"
+      ],
+      "answer": "a",
+      "solution": "(a) 1, 3, 4 & 5",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q59",
+      "question": "If there is unauthorized use of equipment that affects the aeroplane’s system, the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) may authorize its use for take-off and landing",
+        "(b) must not authorize its use",
+        "(c) may authorize its use for the whole flight",
+        "(d) may authorize its use at his discretion"
+      ],
+      "answer": "a",
+      "solution": "(a) may authorize its use for take-off and landing",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q60",
+      "question": "What is the currency requirement for a co-pilot?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 3 take-offs and landings on an aeroplane of the same type within the last 90",
+        "(b) 3 take-offs and landings on an aeroplane of the same type within the last 60",
+        "(c) 3 take-offs and landings on an aeroplane of the same type or approved",
+        "(d) 3 take-offs and landings on an aeroplane of the same type or approved",
+        "(a) Green",
+        "(b) Red",
+        "(c) White",
+        "(d) All of the above"
+      ],
+      "answer": "a",
+      "solution": "(a) 3 take-offs and landings on an aeroplane of the same type within the last 90",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q61",
+      "question": "The MMEL is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) compiled by the manufacturer and approved by the operator",
+        "(b) compiled by the manufacturer and approved by the state of design or state of",
+        "(c) compiled by the operator and approved by the state of design",
+        "(d) compiled by the manufacturer and not approved by the operator"
+      ],
+      "answer": "a",
+      "solution": "(a) compiled by the manufacturer and approved by the operator",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q62",
+      "question": "All aeroplanes which individual certificates of airworthiness were issued after",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 20          000          kg",
+        "(b) 27          000          kg",
+        "(c) 5700          kg",
+        "(d) 14          000          kg"
+      ],
+      "answer": "a",
+      "solution": "(a) 20          000          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q63",
+      "question": "The operator shall include in the OM a MEL which shall be approved by the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) none, no approval is required",
+        "(b) the country where the aeroplane is operated",
+        "(c) the country where the aeroplane was manufactured",
+        "(d) the country of the operator"
+      ],
+      "answer": "a",
+      "solution": "(a) none, no approval is required",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q64",
+      "question": "At the alternate aerodrome, the commander of a turbojet engine aeroplane should",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 30 minutes at holding flight speed at 1500 ft",
+        "(b) 45 minutes at holding flight speed at 1500 ft",
+        "(c) 30 minutes at cruising speed",
+        "(d) 45 minutes at cruising speed"
+      ],
+      "answer": "a",
+      "solution": "(a) 30 minutes at holding flight speed at 1500 ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q65",
+      "question": "The Minimum Equipment List (MEL) gives the equipment which can be inoperative",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the operator, and it is inserted in the OM",
+        "(b) the manufacturer, and it is inserted in the OM",
+        "(c) the operator, and it is appended in the AFM",
+        "(d) the manufacturer, and it is appended to the AFM"
+      ],
+      "answer": "a",
+      "solution": "(a) the operator, and it is inserted in the OM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q66",
+      "question": "After an accident, the operator of an aeroplane equipped with a flight recorder",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 30          days",
+        "(b) 90          days",
+        "(c) 45          days",
+        "(d) 60          days"
+      ],
+      "answer": "a",
+      "solution": "(a) 30          days",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q67",
+      "question": "During a flight, the captain is informed that a passenger is using a portable",
+      "question_type": "MCQ",
+      "options": [
+        "(a) stop the passenger from using the device",
+        "(b) allow the device to be used at take-off and landing",
+        "(c) allow the device to be used from take-off to landing",
+        "(d) allow the device to be used for certain exceptions"
+      ],
+      "answer": "a",
+      "solution": "(a) stop the passenger from using the device",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q68",
+      "question": "A copy of which of the following documents must be kept on the ground by an",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The journey log",
+        "(b) The ATC (Air Traffic Control) flight plan",
+        "(c) The operational flight plan",
+        "(d) The meteorological forecast"
+      ],
+      "answer": "a",
+      "solution": "(a) The journey log",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q69",
+      "question": "What manuals are to be carried?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Operations Manual in toto",
+        "(b) Company instructions for all flight crew",
+        "(c) All those specified in the CofA",
+        "(d) Relevant parts of the ops manual and AFM",
+        "(a) Passenger manifests, notification of special passengers",
+        "(b) Route specific maps and charts",
+        "(c) NOTAMs, tech log, op flight plan, mass & Balance, spec load notification",
+        "(d) AICs, AISs, and all company NOTAMs"
+      ],
+      "answer": "a",
+      "solution": "(a) Operations Manual in toto",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q70",
+      "question": "Which of the following is to be left on the ground?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The aeroplane noise certificate",
+        "(b) The operations manual",
+        "(c) Parts of the operations manual relevant to the flight",
+        "(d) Operational flight plan"
+      ],
+      "answer": "a",
+      "solution": "(a) The aeroplane noise certificate",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q71",
+      "question": "63.  Each flight is subject to a preliminary file collecting a certain amount of",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q72",
+      "question": "1.  the weather conditions for the day including the weather forecast at",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q73",
+      "question": "2.  one copy of the operational flight plan and, if required, the weight and",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q74",
+      "question": "3. copies of the relevant aircraft’s technical log",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q75",
+      "question": "4.  the en route NOTAM documentation when specifically issued by the",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q76",
+      "question": "5. special loads notification",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q77",
+      "question": "The first part of EU-OPS is applicable to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) civil air transport",
+        "(b) international commercial air transport of JAA state members",
+        "(c) military & police transport",
+        "(d) any operations overflying JAA states"
+      ],
+      "answer": "a",
+      "solution": "(a) civil air transport",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q78",
+      "question": "After an incident, the FDR recordings must be kept for:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 30          days",
+        "(b) 60          days",
+        "(c) 90          days",
+        "(d) 120          days"
+      ],
+      "answer": "a",
+      "solution": "(a) 30          days",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q79",
+      "question": "Coverage of permanently illuminated white lights at the rear of the aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 140°",
+        "(b) 70°",
+        "(c) 110°",
+        "(d) 220°"
+      ],
+      "answer": "a",
+      "solution": "(a) 140°",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q80",
+      "question": "The first part of the EU-OPS document relates to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) aircraft proceeding from or over flying European States",
+        "(b) JAA state operators flying civil commercial air transport aeroplanes",
+        "(c) aeroplanes in the police/defence",
+        "(d) treatment of passengers with pathological respiratory disorders"
+      ],
+      "answer": "a",
+      "solution": "(a) aircraft proceeding from or over flying European States",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q81",
+      "question": "What is the requirement for the issue of an AOC?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Not already hold an AOC issued by another authority",
+        "(b) Have a fleet of serviceable aeroplanes",
+        "(c) Have registered offices in all countries of operations",
+        "(d) Have facilities for all maintenance"
+      ],
+      "answer": "a",
+      "solution": "(a) Not already hold an AOC issued by another authority",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q82",
+      "question": "The “NO SMOKING” sign must be illuminated:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) when oxygen is being supplied in the cabin",
+        "(b) in each cabin section if oxygen is being carried",
+        "(c) during climb and descent",
+        "(d) during take-off and landing"
+      ],
+      "answer": "a",
+      "solution": "(a) when oxygen is being supplied in the cabin",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q83",
+      "question": "What are the rules on the carriage of PRMs?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Cannot impede the performance of crew duty",
+        "(b) Must be seated away from emergency exits",
+        "(c) No more than 5% of passengers may be PRMs",
+        "(d) They must provide their own food"
+      ],
+      "answer": "a",
+      "solution": "(a) Cannot impede the performance of crew duty",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q84",
+      "question": "What is the system minimum for an NDB approach?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 200          ft",
+        "(b) 250          ft",
+        "(c) 300          ft",
+        "(d) 350          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 200          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q85",
+      "question": "A category A aircraft can carry out an indirect (circling) approach followed by a",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1600          m",
+        "(b) 2400          m",
+        "(c) 1500          m",
+        "(d) 3600          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 1600          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q86",
+      "question": "What are the circling minimum visibility and MDH for a Cat B aeroplane?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1600 m  400 ft",
+        "(b) 1600 m  500 ft",
+        "(c) 1500 m  450 ft",
+        "(d) 1500 m  600 ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 1600 m  400 ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q87",
+      "question": "According to EU-OPS 1.430, Airfield Operating Minima, what is the lowest MDH",
+      "question_type": "MCQ",
+      "options": [
+        "(a) NDB – MDH 350 ft",
+        "(b) VOR – MDH 250 ft",
+        "(c) ILS (LLZ only) – MDH 200 ft",
+        "(d) VOR/DME – MDH 300 ft"
+      ],
+      "answer": "a",
+      "solution": "(a) NDB – MDH 350 ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q88",
+      "question": "What is the minimum RVR for a CAT IIIC approach?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) No          minimum",
+        "(b) 50          m",
+        "(c) 75          m",
+        "(d) 100          m"
+      ],
+      "answer": "a",
+      "solution": "(a) No          minimum",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q89",
+      "question": "76. The considerations for a non-precision approach are:",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q90",
+      "question": "1.          MDA          (H)",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q91",
+      "question": "horizontal          visibility",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2, 3 & 4",
+        "(b) 1, 3 & 4",
+        "(c) 1 & 3",
+        "(d) 2 & 4"
+      ],
+      "answer": "a",
+      "solution": "(a) 2, 3 & 4",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q92",
+      "question": "What is the minimum required RVR for CAT IIIB operations?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 100          m",
+        "(b) 75          m",
+        "(c) 150          m",
+        "(d) 200          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 100          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q93",
+      "question": "What is the minimum visibility for a Cat A aircraft during a circling approach?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1500          m",
+        "(b) 1600          m",
+        "(c) 2400          m",
+        "(d) 3600          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 1500          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q94",
+      "question": "A category II precision approach (CAT II) is an approach with:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a decision height of at least 100 ft",
+        "(b) no decision height",
+        "(c) a decision height of at least 200 ft",
+        "(d) a decision height of at least 50 ft"
+      ],
+      "answer": "a",
+      "solution": "(a) a decision height of at least 100 ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q95",
+      "question": "When can special VFR be commenced?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Visibility greater than 1500 m",
+        "(b) Greater than 3 km vis",
+        "(c) Visibility no more than 3000 m",
+        "(d) Greater than 5 km vis"
+      ],
+      "answer": "a",
+      "solution": "(a) Visibility greater than 1500 m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q96",
+      "question": "According to EU-OPS 1.430 (Aerodrome Operating Minima) a Category IIIA",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 200          m",
+        "(b) 250          m",
+        "(c) 300          m",
+        "(d) 230          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 200          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q97",
+      "question": "What is the take-off RVR limit for a Cat A aeroplane, when high intensity centre line",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 150 m if threshold RVR is available",
+        "(b) 150          m",
+        "(c) 200          m",
+        "(d) 250          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 150 m if threshold RVR is available",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q98",
+      "question": "When is MDH referenced to the threshold as apposed to the aerodrome elevation?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The threshold is more than 2 m above the ARP",
+        "(b) The threshold is less than 2 m above the ARP",
+        "(c) The threshold is less than 2 m below the ARP",
+        "(d) The threshold is more than 2 m below the ARP"
+      ],
+      "answer": "a",
+      "solution": "(a) The threshold is more than 2 m above the ARP",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q99",
+      "question": "What are the threshold speeds for a Cat D aeroplane?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 121 – 140 kt",
+        "(b) 131 – 155 kt",
+        "(c) 141 – 165 kt",
+        "(d) 145 – 160 kt"
+      ],
+      "answer": "a",
+      "solution": "(a) 121 – 140 kt",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q100",
+      "question": "What is the minimum horizontal visibility for a Cat D aircraft on a circling approach?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1500          m",
+        "(b) 1600          m",
+        "(c) 2400          m",
+        "(d) 3600          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 1500          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q101",
+      "question": "What is DH used for?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Visual          manoeuvring",
+        "(b) Circling to land",
+        "(c) Precision          approaches",
+        "(d) Non-precision          approaches"
+      ],
+      "answer": "a",
+      "solution": "(a) Visual          manoeuvring",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q102",
+      "question": "A category I precision approach (CAT I) is an approach which may be carried out",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 550          m",
+        "(b) 350          m",
+        "(c) 800          m",
+        "(d) 500          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 550          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q103",
+      "question": "When establishing an instrument approach procedure, 5 aircraft categories",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1.5",
+        "(b) 1.45",
+        "(c) 1.15",
+        "(d) 1.3"
+      ],
+      "answer": "a",
+      "solution": "(a) 1.5",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q104",
+      "question": "EU-OPS 1.465 (VFR operating minima), establishes that, the operator shall ensure",
+      "question_type": "MCQ",
+      "options": [
+        "(a) for conducted VFR flights in airspace F, vertical distance from clouds is 250 m",
+        "(b) Special VFR flights are not commenced when visibility is less than 3 km",
+        "(c) for conducted VFR flights in airspace B, horizontal distance from clouds is",
+        "(d) for conducted VFR flights in airspace E, flight visibility at and above 3050 m"
+      ],
+      "answer": "a",
+      "solution": "(a) for conducted VFR flights in airspace F, vertical distance from clouds is 250 m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q105",
+      "question": "The Cat I minimum decision height is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) no decision height",
+        "(b) 50          ft",
+        "(c) 100          ft",
+        "(d) 200          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) no decision height",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q106",
+      "question": "What is the Cat IIIA RVR minimum?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 50          m",
+        "(b) 100          m",
+        "(c) 200          m",
+        "(d) 250          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 50          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q107",
+      "question": "The minimum visibility for a Cat C aeroplane on a circling approach is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2400          m",
+        "(b) 2500          m",
+        "(c) 2600          m",
+        "(d) 2700          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 2400          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q108",
+      "question": "Aircraft are categorized according to their threshold speeds, multiplied by a factor.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) B",
+        "(b) E",
+        "(c) D",
+        "(d) C"
+      ],
+      "answer": "a",
+      "solution": "(a) B",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q109",
+      "question": "An aeroplane is starting a non-precision approach with an MDH of 250 ft and",
+      "question_type": "MCQ",
+      "options": [
+        "(a) When threshold and mid-runway RVRs are greater than 800 m",
+        "(b) When all 3 RVRs are greater than 800 m",
+        "(c) When the met viz is greater than 800 m. RVR is for precision approaches only",
+        "(d) When threshold RVR is greater than 800 m"
+      ],
+      "answer": "a",
+      "solution": "(a) When threshold and mid-runway RVRs are greater than 800 m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q110",
+      "question": "96. The information to be considered for a non-precision approach is:",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q111",
+      "question": "1.          horizontal          visibility",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q112",
+      "question": "3. minimum descent altitude",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q113",
+      "question": "decision          altitude",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1, 2 & 4",
+        "(b) 1 & 3",
+        "(c) 1 & 4",
+        "(d) 1, 2 & 3"
+      ],
+      "answer": "a",
+      "solution": "(a) 1, 2 & 4",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q114",
+      "question": "A category D aeroplane can carry out a circling approach only if the meteorological",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1500          m",
+        "(b) 1600          m",
+        "(c) 2400          m",
+        "(d) 3600          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 1500          m",
+      "explanation": ""
+    }
   ]
 }
-
-

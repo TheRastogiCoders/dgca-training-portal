@@ -1,0 +1,3365 @@
+{
+  "book_name": "CAE Oxford Flight Planning & Monitoring",
+  "chapter_number": "N/A",
+  "chapter_title": "Revision Questions",
+  "chapter_slug": "cae-oxford-flight-planning-revision-questions",
+  "source": "cae-oxford",
+  "questions": [
+    {
+      "question_number": "Q1",
+      "question": "A turbine-engined aircraft burns fuel at 200 gals per hour (gph) with a Fuel Density",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 213          gph",
+        "(b) 208          gph",
+        "(c) 200          gph",
+        "(d) 188          gph"
+      ],
+      "answer": "a",
+      "solution": "(a) 213          gph",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q2",
+      "question": "An aircraft flying at 7500 ft, is cleared to descend to be level at 1000 ft, 6 NM before",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 15.0",
+        "(b) 30.2",
+        "(c) 27.1",
+        "(d) 11.1"
+      ],
+      "answer": "a",
+      "solution": "(a) 15.0",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q3",
+      "question": "After flying for 16 minutes at 100 kt TAS with a 20 kt tailwind, you have to return to",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 10 min 40 sec",
+        "(b) 20          min",
+        "(c) 24          min",
+        "(d) 16          min"
+      ],
+      "answer": "a",
+      "solution": "(a) 10 min 40 sec",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q4",
+      "question": "An aircraft is in cruising flight at FL095, IAS 155 kt.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 42          NM",
+        "(b) 40          NM",
+        "(c) 45          NM",
+        "(d) 48          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 42          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q5",
+      "question": "At a fuel check you have 60 US gallons (US.gal)  of usable fuel remaining.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 33.0          US.gal/h",
+        "(b) 37.9          US.gal/h",
+        "(c) 30.3          US.gal/h",
+        "(d) 21.3          US.gal/h"
+      ],
+      "answer": "a",
+      "solution": "(a) 33.0          US.gal/h",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q6",
+      "question": "ATC require a descent from FL270 to FL160 to be level 6 NM before a VOR.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 65          NM",
+        "(c) 144          NM",
+        "(d) 150          NM"
+      ],
+      "answer": "a",
+      "solution": "(b) 65          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q7",
+      "question": "The fuel burn-off is 200 kg/h with a relative fuel density of 0.8. If the relative fuel",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 213          kg/h",
+        "(c) 200          kg/h",
+        "(d) 188          kg/h"
+      ],
+      "answer": "a",
+      "solution": "(b) 213          kg/h",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q8",
+      "question": "You are flying at FL330, M 0.84, OAT -48°C, headwind 52 kt. The time is 1338 UTC.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 0.76",
+        "(c) 0.80",
+        "(d) 0.84"
+      ],
+      "answer": "a",
+      "solution": "(b) 0.76",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q9",
+      "question": "Where would you find information regarding Customs and Health facilities?",
+      "question_type": "MCQ",
+      "options": [
+        "(b) NOTAMs",
+        "(c) NAV/RAD          supplememnts",
+        "(d) AIPs"
+      ],
+      "answer": "a",
+      "solution": "(b) NOTAMs",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q10",
+      "question": "Where would you find information regarding Search and Rescue procedures?",
+      "question_type": "MCQ",
+      "options": [
+        "(b) NOTAMs",
+        "(c) SIGMETs",
+        "(d) AIPs"
+      ],
+      "answer": "a",
+      "solution": "(b) NOTAMs",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q11",
+      "question": "An aircraft climbs from an airfield, elevation 1500 ft, QNH 1023 hPa, to FL75. What",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 7800          ft",
+        "(c) 6300          ft",
+        "(d) 6000          ft"
+      ],
+      "answer": "a",
+      "solution": "(b) 7800          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q12",
+      "question": "Given by a met station elevation at 4000 ft where QNH is 1003 hPa. The minimum",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 8500          ft",
+        "(c) 8200          ft",
+        "(d) 8800          ft"
+      ],
+      "answer": "a",
+      "solution": "(b) 8500          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q13",
+      "question": "Multi-engine a/c on IFR flight.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) At departure reserve fuel was 28 US.gal",
+        "(b) At destination required reserves remain intact",
+        "(c) Remaining fuel is insufficient to reach destination with reserves intact",
+        "(d) Remaining fuel is insufficient to reach the destination"
+      ],
+      "answer": "a",
+      "solution": "(a) At departure reserve fuel was 28 US.gal",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q14",
+      "question": "Refer to ED-6. You are at position N4759 E01015. Which Flight Information Service",
+      "question_type": "MCQ",
+      "options": [
+        "(a) MEMMINGEN  117.20 MHz",
+        "(b) MEMMINGEM   135.60 MHz",
+        "(c) MUNCHEN  126.95  MHz",
+        "(d) MUNCHEN  131.22 MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) MEMMINGEN  117.20 MHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q15",
+      "question": "Refer to Jeppesen Manual  ED-6.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) VORTAC 112.50 kHz",
+        "(b) DME 112.50 MHz",
+        "(c) VOR 112.50 with no DME",
+        "(d) VORTAC 112.50 MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) VORTAC 112.50 kHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q16",
+      "question": "Refer to Jeppesen Manual  ED-6.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 252/41          NM",
+        "(c) 287/41          NM",
+        "(d) 287/60          NM"
+      ],
+      "answer": "a",
+      "solution": "(b) 252/41          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q17",
+      "question": "Refer to Jeppesen Manual  ED-6.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 086/22          NM",
+        "(c) 267/22          NM",
+        "(d) 086/32          NM"
+      ],
+      "answer": "a",
+      "solution": "(b) 086/22          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q18",
+      "question": "Refer to Jeppesen Manual ED-6.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 243",
+        "(c) 257",
+        "(d) 063"
+      ],
+      "answer": "a",
+      "solution": "(b) 243",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q19",
+      "question": "Refer to Jeppesen Manual  ED-6.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 29          km",
+        "(c) 29          NM",
+        "(d) 33          NM"
+      ],
+      "answer": "a",
+      "solution": "(b) 29          km",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q20",
+      "question": "Refer to Jeppesen Manual  ED-6.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 326          kHz",
+        "(c) channel          23",
+        "(d) 120.1          MHz"
+      ],
+      "answer": "a",
+      "solution": "(b) 326          kHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q21",
+      "question": "Refer to Jeppesen Manual  ED-6.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 127.2          kHz",
+        "(c) 128.525          MHz",
+        "(d) 118.1          MHz"
+      ],
+      "answer": "a",
+      "solution": "(b) 127.2          kHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q22",
+      "question": "Refer to Jeppesen Manual  ED-6.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) only to be used during daylight",
+        "(c) available for VFR flight only",
+        "(d) VDF          available"
+      ],
+      "answer": "a",
+      "solution": "(b) only to be used during daylight",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q23",
+      "question": "Refer to Jeppesen Manual  ED-6.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 004",
+        "(c) 185",
+        "(d) 356"
+      ],
+      "answer": "a",
+      "solution": "(b) 004",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q24",
+      "question": "Refer to Jeppesen Manual  ED-6.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 128.95          MHz",
+        "(c) 118.60          MHz",
+        "(d) 115.45          MHz"
+      ],
+      "answer": "a",
+      "solution": "(b) 128.95          MHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q25",
+      "question": "Refer to Jeppesen Manual ED-6.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) NDB",
+        "(c) TACAN",
+        "(d) VOR/DME"
+      ],
+      "answer": "a",
+      "solution": "(b) NDB",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q26",
+      "question": "Refer to Jeppesen Manual  ED-6.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) TACAN",
+        "(c) VOR/DME",
+        "(d) VORTAC"
+      ],
+      "answer": "a",
+      "solution": "(b) TACAN",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q27",
+      "question": "Refer to Jeppesen Manual  ED-6.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) VOR",
+        "(c) VOR/DME",
+        "(d) VORTAC"
+      ],
+      "answer": "a",
+      "solution": "(b) VOR",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q28",
+      "question": "The quantity of fuel which is calculated to be necessary for a jet aeroplane to fly IFR",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 14          500          kg",
+        "(c) 12          970          kg",
+        "(d) 13          370          kg"
+      ],
+      "answer": "a",
+      "solution": "(b) 14          500          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q29",
+      "question": "Turbojet a/c, flying to an isolated airfield, with no destination alternative. On top",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Greater of 45 min + 15% of trip or 2 hours",
+        "(b) 30 min holding @ 450 m AMSL",
+        "(c) 30 min holding @ 450 m AAL",
+        "(d) 2 hours at normal cruise consumption"
+      ],
+      "answer": "a",
+      "solution": "(a) Greater of 45 min + 15% of trip or 2 hours",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q30",
+      "question": "CAP 697 SEP1 Fig 2.5.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 5.3          h",
+        "(c) 6.1          h",
+        "(d) 6.55          h"
+      ],
+      "answer": "a",
+      "solution": "(b) 5.3          h",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q31",
+      "question": "Minimum planned take-off fuel is 160 kg (30% total reserve is included). Assume the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Diversion to a nearby alternate is necessary, because the remaining fuel is not",
+        "(b) Diversion to a nearby alternate is not necessary, because the reserve fuel has",
+        "(c) Diversion to a nearby alternate is necessary, because it is allowed to calculate",
+        "(d) Diversion to a nearby alternate is necessary, unless the captain decides to"
+      ],
+      "answer": "a",
+      "solution": "(a) Diversion to a nearby alternate is necessary, because the remaining fuel is not",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q32",
+      "question": "Refer to CAP 697 MRJT Fig 4.4",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2360          Alternate          elevation",
+        "(b) 1180          Destination          elevation",
+        "(c) 1180          Alternate          elevation",
+        "(d) 2360          Destination          elevation"
+      ],
+      "answer": "a",
+      "solution": "(a) 2360          Alternate          elevation",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q33",
+      "question": "Refer to CAP 697 SEP1, Fig 2.1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 22 min,  6.5 US.gal,  46 NAM",
+        "(b) 24 min,  7.5 US.gal,  50 NAM",
+        "(c) 2 min,  1.0 US.gal,    4 NAM",
+        "(d) 26 min,  8.5 US.gal,  54 NAM"
+      ],
+      "answer": "a",
+      "solution": "(a) 22 min,  6.5 US.gal,  46 NAM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q34",
+      "question": "Refer to CAP 697 SEP1,  Fig 2.1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 11 min,  3.6 US.gal",
+        "(b) 7 min,  2.6 US.gal",
+        "(c) 9 min,  2.7 US.gal",
+        "(d) 9 min,  3.3 US.gal"
+      ],
+      "answer": "a",
+      "solution": "(a) 11 min,  3.6 US.gal",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q35",
+      "question": "Refer to CAP 697 SEP1, Fig 2.2.3.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 11.6 GPH  160 kt",
+        "(b) 68.5 GPH  160 kt",
+        "(c) 71.1 GPH  143 kt",
+        "(d) 11.6 GPH  143 kt"
+      ],
+      "answer": "a",
+      "solution": "(a) 11.6 GPH  160 kt",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q36",
+      "question": "Refer to CAP 697 SEP1 Fig 2.4",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 844          NM",
+        "(c) 730          NM",
+        "(d) 547.5          NM"
+      ],
+      "answer": "a",
+      "solution": "(b) 844          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q37",
+      "question": "Refer to CAP 697, SEP1, Fig 2.5.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 5 h 12 min",
+        "(b) 5 h 20 min",
+        "(c) 4 h 42 min",
+        "(d) 5 h 23 min"
+      ],
+      "answer": "a",
+      "solution": "(a) 5 h 12 min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q38",
+      "question": "The still air distance in the climb is 189 nautical air miles and time 30 minutes. What",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 203          NM",
+        "(c) 174          NM",
+        "(d) 193          NM"
+      ],
+      "answer": "a",
+      "solution": "(b) 203          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q39",
+      "question": "Turbojet        a/c;",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 79          200          kg",
+        "(c) 77          800          kg",
+        "(d) 76          100          kg"
+      ],
+      "answer": "a",
+      "solution": "(b) 79          200          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q40",
+      "question": "What is Decision Point Procedure?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) reducing contingency fuel from 10% to 5% of trip fuel",
+        "(b) reducing contingency fuel to only that required from Decision Point to",
+        "(c) reducing trip fuel to only that required from Decision Aerodrome to",
+        "(d) reducing trip distance"
+      ],
+      "answer": "a",
+      "solution": "(a) reducing contingency fuel from 10% to 5% of trip fuel",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q41",
+      "question": "What is the purpose of Decision Point Procedure?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Carry minimum fuel to increase Traffic Load",
+        "(b) Increase safety of the flight",
+        "(c) Reduce landing mass to avoid stressing the aircraft",
+        "(d) To assist in decision making at refuelling"
+      ],
+      "answer": "a",
+      "solution": "(a) Carry minimum fuel to increase Traffic Load",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q42",
+      "question": "When calculating the fuel required to carry out a given flight, one must take into",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 2,4",
+        "(c) 1,2,3,4",
+        "(d) 1,2,3"
+      ],
+      "answer": "a",
+      "solution": "(b) 2,4",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q43",
+      "question": "Refer to CAP 697 MEP1 Fig 3.2.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 852          NM",
+        "(c) 610          NM",
+        "(d) 602          NM"
+      ],
+      "answer": "a",
+      "solution": "(b) 852          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q44",
+      "question": "CAP 697 MRJT1 Fig 4.5.2 & 4.5.3.2",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 4570          kg",
+        "(b) 4600          kg",
+        "(c) 4630          kg",
+        "(d) 4170          kg"
+      ],
+      "answer": "a",
+      "solution": "(a) 4570          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q45",
+      "question": "CAP 697 MRJT1 Fig 4.7.2.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 794",
+        "(c) 810",
+        "(d) 875"
+      ],
+      "answer": "a",
+      "solution": "(b) 794",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q46",
+      "question": "Ref CAP 697 MRJT1 Fig 4.2 & 4.5.3.2",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 25 000 ft & 445 kt",
+        "(b) 33 000 ft & 420 kt",
+        "(c) 25 000 ft & 435 kt",
+        "(d) 33 000 ft & 430 kt"
+      ],
+      "answer": "a",
+      "solution": "(a) 25 000 ft & 445 kt",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q47",
+      "question": "Ref CAP 697 MRJT1, Fig 4.5.3.1. Aircraft mass at top of climb 61 500 kg. Distance",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2200          kg",
+        "(b) 2100          kg",
+        "(c) 2300          kg",
+        "(d) 2000          kg"
+      ],
+      "answer": "a",
+      "solution": "(a) 2200          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q48",
+      "question": "Refer CAP 697 MRJT Fig 4.3.5",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 3740",
+        "(c) 3500",
+        "(d) 3250"
+      ],
+      "answer": "a",
+      "solution": "(b) 3740",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q49",
+      "question": "Refer CAP 697 MRJT Fig 4.4",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 1690",
+        "(c) 1635",
+        "(d) 1125"
+      ],
+      "answer": "a",
+      "solution": "(b) 1690",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q50",
+      "question": "Refer to CAP 697 Fig 4.1",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 1%",
+        "(c) 4%",
+        "(d) 10%"
+      ],
+      "answer": "a",
+      "solution": "(b) 1%",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q51",
+      "question": "Refer to CAP 697 Fig 4.5.1.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 1150          kg",
+        "(c) 1138          kg",
+        "(d) 2200 kg"
+      ],
+      "answer": "a",
+      "solution": "(b) 1150          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q52",
+      "question": "Refer to CAP 697  Fig 4.5.1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 15 min,  1100 kg.",
+        "(b) 12 min,  1100 kg.",
+        "(c) 10 min,  1000 kg.",
+        "(d) 11 min,  1000 kg."
+      ],
+      "answer": "a",
+      "solution": "(a) 15 min,  1100 kg.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q53",
+      "question": "Refer to CAP 697  MRJT Fig 4.3.1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 17          000          ft",
+        "(b) 10          000          ft",
+        "(c) FL370",
+        "(d) FL250"
+      ],
+      "answer": "a",
+      "solution": "(a) 17          000          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q54",
+      "question": "Refer to CAP 697 MRJT1 Fig 4.2 and 4.5.3.2.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) FL370 / 424 kt",
+        "(b) FL250 / 435 kt",
+        "(c) FL370 / 414 kt",
+        "(d) FL250 / 445 kt"
+      ],
+      "answer": "a",
+      "solution": "(a) FL370 / 424 kt",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q55",
+      "question": "Refer to CAP 697, MRJT1 Fig 4.1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 35          300          ft",
+        "(b) 34          600          ft",
+        "(c) maximum operating altitude",
+        "(d) 33          800          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 35          300          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q56",
+      "question": "Refer to CAP 697 MRJT1, Fig 4.2.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 11          000          ft",
+        "(b) 12          500          ft",
+        "(c) 10          000          ft",
+        "(d) 7500          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 11          000          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q57",
+      "question": "Refer to CAP 697 MRJT1 Fig 4.3.1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) (i)   16 000 kg      (ii)   6 h 25 min",
+        "(b) (i)   18 000 kg      (ii)   5 h 50 min",
+        "(c) (i)   20 000 kg      (ii)   6 h 40 min",
+        "(d) (i)   17 100 kg      (ii)   6 h 07 min"
+      ],
+      "answer": "a",
+      "solution": "(a) (i)   16 000 kg      (ii)   6 h 25 min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q58",
+      "question": "Refer to CAP 697, MRJT1 Fig 4.3.1c.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 15          kt",
+        "(c) 0",
+        "(d) 70          kt"
+      ],
+      "answer": "a",
+      "solution": "(b) 15          kt",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q59",
+      "question": "Refer to CAP 697 MRJT1 Fig 4.3.3a",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 1740          kg",
+        "(c) 1620          kg",
+        "(d) 1970          kg"
+      ],
+      "answer": "a",
+      "solution": "(b) 1740          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q60",
+      "question": "Refer  to  CAP 697 MRJT1, Fig 4.3.6.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) distance in NM, wind component, zero fuel mass",
+        "(b) distance in NM, wind component, dry operating mass plus holding fuel",
+        "(c) distance in NM, wind component, landing mass at alternate",
+        "(d) distance in NM (NAM), wind component, landing mass at alternate"
+      ],
+      "answer": "a",
+      "solution": "(a) distance in NM, wind component, zero fuel mass",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q61",
+      "question": "Refer to CAP 697, MRJT1, Fig 4.5.1. Given:",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 1400          kg",
+        "(c) 1450          kg",
+        "(d) 1250          kg"
+      ],
+      "answer": "a",
+      "solution": "(b) 1400          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q62",
+      "question": "Refer to CAP 697 MRJT1 Fig 4.5.2 & 4.5.3.1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 17          500          kg",
+        "(b) 14          300          kg",
+        "(c) 17          700          kg",
+        "(d) 14          500          kg"
+      ],
+      "answer": "a",
+      "solution": "(a) 17          500          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q63",
+      "question": "Refer to CAP 697 MRJT1, Fig 4.5.2 and 4.5.3.4.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 4250          kg",
+        "(b) 4620          kg",
+        "(c) 3680          kg",
+        "(d) 3350          kg"
+      ],
+      "answer": "a",
+      "solution": "(a) 4250          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q64",
+      "question": "Refer to CAP 697 MRJT1, Fig 4.5.3.1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 437 NAM,  2106 kg",
+        "(b) 350 NAM,  2000 kg",
+        "(c) 345 NAM,  1994 kg",
+        "(d) 345 NAM,  2006 kg"
+      ],
+      "answer": "a",
+      "solution": "(a) 437 NAM,  2106 kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q65",
+      "question": "Refer to CAP 697, MRJT1, Fig 4.1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 33          800          ft",
+        "(b) 34          500          ft",
+        "(c) 35          300          ft",
+        "(d) maximum operating altitude"
+      ],
+      "answer": "a",
+      "solution": "(a) 33          800          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q66",
+      "question": "Refer to CAP 697 MRJT1, Fig 4.3.1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 4800 kg / 01 h 45 min",
+        "(b) 4400 kg / 02 h 05 min",
+        "(c) 4750 kg / 02 h 00 min",
+        "(d) 4600 kg / 02 h 05 min"
+      ],
+      "answer": "a",
+      "solution": "(a) 4800 kg / 01 h 45 min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q67",
+      "question": "Refer to CAP 697 MRJT1 Fig 4.3.1c.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) +5%",
+        "(c) +8%",
+        "(d) -7%"
+      ],
+      "answer": "a",
+      "solution": "(b) +5%",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q68",
+      "question": "Refer to CAP 697 MRJT1 Fig 4.3.2a.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 1740          kg",
+        "(c) 1900          kg",
+        "(d) 1450          kg"
+      ],
+      "answer": "a",
+      "solution": "(b) 1740          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q69",
+      "question": "Refer to CAP 697 MRJT1 Fig 4.3.3c",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 12 250 kg, 04 h 00 min",
+        "(b) 11 400 kg, 04 h 12 min",
+        "(c) 11 600 kg, 04 h 15 min",
+        "(d) 12 000 kg, 03 h 51 min"
+      ],
+      "answer": "a",
+      "solution": "(a) 12 250 kg, 04 h 00 min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q70",
+      "question": "Refer to CAP 697 MRJT1 Fig 4.3.5.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 2540          NGM",
+        "(c) 3100          NGM",
+        "(d) 2740          NGM"
+      ],
+      "answer": "a",
+      "solution": "(b) 2540          NGM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q71",
+      "question": "Refer to CAP 697 MRJT1 Fig 4.3.6.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 2800          kg",
+        "(c) 2900          kg",
+        "(d) 2650          kg"
+      ],
+      "answer": "a",
+      "solution": "(b) 2800          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q72",
+      "question": "Refer to CAP 697 MRJT1, Fig 4.3.6.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 800 kg / 24 min",
+        "(b) 1100 kg / 44 min",
+        "(c) 1100 kg / 25 min",
+        "(d) 800 kg / 40 min"
+      ],
+      "answer": "a",
+      "solution": "(a) 800 kg / 24 min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q73",
+      "question": "Refer to CAP 697 MRJT1 Fig 4.4.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2180          kg",
+        "(b) 1850          kg",
+        "(c) 1817          kg",
+        "(d) 1125          kg"
+      ],
+      "answer": "a",
+      "solution": "(a) 2180          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q74",
+      "question": "Refer to CAP 697 MRJT1, Fig 4.4.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) pressure altitude, aeroplane mass and flaps up with minimum drag airspeed",
+        "(b) pressure altitude, aeroplane mass and flaps down with maximum range speed",
+        "(c) pressure altitude, aeroplane mass and flaps up with maximum range speed",
+        "(d) pressure altitude, aeroplane mass and flaps down with minimum drag"
+      ],
+      "answer": "a",
+      "solution": "(a) pressure altitude, aeroplane mass and flaps up with minimum drag airspeed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q75",
+      "question": "Refer to CAP 697 MRJT1, fig 4.5.1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 67 NAM / 71 NM",
+        "(b) 59 NAM / 62 NM",
+        "(c) 62 NAM / 59 NM",
+        "(d) 71 NAM / 67 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 67 NAM / 71 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q76",
+      "question": "Refer to CAP 697 MRJT1, fig 4.5.1.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 11          min",
+        "(c) 12          min",
+        "(d) 15          min"
+      ],
+      "answer": "a",
+      "solution": "(b) 11          min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q77",
+      "question": "Refer to CAP 697 MRJT1 fig 4.5.3.1.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 433          kt",
+        "(c) 421          kt",
+        "(d) 423          kt"
+      ],
+      "answer": "a",
+      "solution": "(b) 433          kt",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q78",
+      "question": "Refer to CAP 697 MRJT1 fig 4.5.3.1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) TAS 433 kt,  227 NAM",
+        "(b) TAS 423 kt,  227 NAM",
+        "(c) TAS  433 kt,  1163 NAM",
+        "(d) TAS  423 kt,  936 NAM"
+      ],
+      "answer": "a",
+      "solution": "(a) TAS 433 kt,  227 NAM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q79",
+      "question": "Refer to CAP 697 MRJT1  fig 4.5.3.1.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 1191          kg",
+        "(c) 1092          kg",
+        "(d) 1107          kg"
+      ],
+      "answer": "a",
+      "solution": "(b) 1191          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q80",
+      "question": "Refer to CAP 697 MRJT1 fig 4.5.4.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 290          kg",
+        "(c) 150          kg",
+        "(d) 140          kg"
+      ],
+      "answer": "a",
+      "solution": "(b) 290          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q81",
+      "question": "Refer to CAP 697 MRJT1 fig 4.5.4a and Jeppesen Manual LONDON Heathrow 10-2",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 10          min",
+        "(c) 17          min",
+        "(d) 19          min"
+      ],
+      "answer": "a",
+      "solution": "(b) 10          min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q82",
+      "question": "Refer to CAP 697 MRJT1 simplified flight planning.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1200 kg,  20 min",
+        "(b) 1300 kg,  28 min",
+        "(c) 1600 kg,  36 min",
+        "(d) 1450 kg,  32 min"
+      ],
+      "answer": "a",
+      "solution": "(a) 1200 kg,  20 min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q83",
+      "question": "Reference computer flight plans. Are they able to account for bad weather in",
+      "question_type": "MCQ",
+      "options": [
+        "(a) can automatically allow extra consumption for anti-icing use",
+        "(b) can automatically divert route around forecast thunderstorms",
+        "(c) no",
+        "(d) can automatically allow for poorly maintained engines"
+      ],
+      "answer": "a",
+      "solution": "(a) can automatically allow extra consumption for anti-icing use",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q84",
+      "question": "Which statements are correct about computer flight plans?",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 2          only",
+        "(c) Neither",
+        "(d) Both"
+      ],
+      "answer": "a",
+      "solution": "(b) 2          only",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q85",
+      "question": "A flight is planned from L to M, distance 850 NM. Wind component out is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1 h 30 min,  660 NM",
+        "(b) 1 h 30 min,  616 NM",
+        "(c) 1 h 16 min,  606 NM",
+        "(d) 1 h 16 min,  616 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 1 h 30 min,  660 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q86",
+      "question": "Find the distance to the POINT OF SAFE RETURN (PSR).",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 1125          NM",
+        "(c) 1143          NM",
+        "(d) 1463          NM"
+      ],
+      "answer": "a",
+      "solution": "(b) 1125          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q87",
+      "question": "Distance between airports = 340 NM",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 219          NM",
+        "(c) 112          NM",
+        "(d) 228          NM"
+      ],
+      "answer": "a",
+      "solution": "(b) 219          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q88",
+      "question": "Flying from A to B, 270 NM, true track 030, wind velocity 120/35, TAS 125 kt.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 141 NM, 65 min",
+        "(b) 141 NM, 68 min",
+        "(c) 135 NM, 68 min",
+        "(d) 150 NM, 65 min"
+      ],
+      "answer": "a",
+      "solution": "(a) 141 NM, 65 min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q89",
+      "question": "If CAS is 190 kt,    altitude 9000 ft,    temperature ISA -10°C    True course 350,",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 1221          UTC",
+        "(c) 1214          UTC",
+        "(d) 1203          UTC"
+      ],
+      "answer": "a",
+      "solution": "(b) 1221          UTC",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q90",
+      "question": "If CAS is 190 kt, altitude 9000 ft, temperature ISA - 10°C",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 170          NM",
+        "(c) 211          NM",
+        "(d) 330          NM"
+      ],
+      "answer": "a",
+      "solution": "(b) 170          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q91",
+      "question": "An appropriate flight level for IFR flight in accordance with semi-circular height",
+      "question_type": "MCQ",
+      "options": [
+        "(b) FL90",
+        "(c) FL95",
+        "(d) FL100"
+      ],
+      "answer": "a",
+      "solution": "(b) FL90",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q92",
+      "question": "For an IFR flight using ICAO semi-circular cruising levels on a magnetic track of 200,",
+      "question_type": "MCQ",
+      "options": [
+        "(b) FL300",
+        "(c) FL310",
+        "(d) FL320"
+      ],
+      "answer": "a",
+      "solution": "(b) FL300",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q93",
+      "question": "Refer to Annex A and Jeppesen E(HI)4   SID Paris (Charles de Gaulle) 20-3.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) MC 349, GS 416 kt, WCA -5",
+        "(b) MC 169, GS 416 kt, WCA +5",
+        "(c) MC 349, GS 416 kt, WCA +5",
+        "(d) MC 169, GS 450 kt, WCA +4"
+      ],
+      "answer": "a",
+      "solution": "(a) MC 349, GS 416 kt, WCA -5",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q94",
+      "question": "Refer to Jeppesen E(LO)1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) BEL          117.2          MHz",
+        "(b) OY          332          kHz",
+        "(c) HB          420          kHz",
+        "(d) BEL          117.2          kHz"
+      ],
+      "answer": "a",
+      "solution": "(a) BEL          117.2          MHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q95",
+      "question": "Refer to Jeppesen E(LO)6.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) FL70",
+        "(c) FL80",
+        "(d) FL50"
+      ],
+      "answer": "a",
+      "solution": "(b) FL70",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q96",
+      "question": "Refer to Jeppesen Manual AMSTERDAM SCHIPOL 11-6.  ILS DME RWY 22.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) left, 005, 2000’ 2012’",
+        "(b) left, 266, 2000’ 2102’",
+        "(c) right, 240, 2000’ 2011’",
+        "(d) left, 160, 2000’ 2014’"
+      ],
+      "answer": "a",
+      "solution": "(a) left, 005, 2000’ 2012’",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q97",
+      "question": "Refer to Jeppesen Manual, any SID chart for London Heathrow.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) East sector 2300 ft within 50 NM",
+        "(b) West sector 2300 ft within 25 NM",
+        "(c) East sector 2100 ft within 50 NM",
+        "(d) West sector 2100 ft within 25 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) East sector 2300 ft within 50 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q98",
+      "question": "Refer to Jeppesen Manual  chart E(HI) 4 FOR EXAMS.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The minimum obstacle clearance altitude (MOCA) on this route is 10 800 ft",
+        "(b) The minimum en route altitude (MEA) is 13 400 ft",
+        "(c) The minimum sector altitude (MSA) is 13 400 ft",
+        "(d) The minimum grid safe altitude is 13 400 AMSL"
+      ],
+      "answer": "a",
+      "solution": "(a) The minimum obstacle clearance altitude (MOCA) on this route is 10 800 ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q99",
+      "question": "Refer to Jeppesen Manual chart E(HI)4 FOR EXAMS.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) FL290",
+        "(c) FL310",
+        "(d) FL320"
+      ],
+      "answer": "a",
+      "solution": "(b) FL290",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q100",
+      "question": "Refer to Jeppesen Manual chart E(HI)4 FOR EXAMS.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 048 / 46 NM",
+        "(b) 061 / 37 NM",
+        "(c) 061 / 28 NM",
+        "(d) 041 / 78 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 048 / 46 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q101",
+      "question": "Refer to Jeppesen Manual  chart E(HI)4 FOR EXAMS.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) an NDB , frequency 386 kHz",
+        "(b) a VOR frequency 386 MHz",
+        "(c) a VOR/DME on channel 386",
+        "(d) a TACAN on channel 386"
+      ],
+      "answer": "a",
+      "solution": "(a) an NDB , frequency 386 kHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q102",
+      "question": "Refer to Jeppesen Manual chart E(HI)4 FOR EXAMS.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) an NDB , frequency 115.0 kHz",
+        "(b) a VOR , frequency 115.0 MHz",
+        "(c) a VOR/DME, frequency 115.0 MHz",
+        "(d) a TACAN on channel 11"
+      ],
+      "answer": "a",
+      "solution": "(a) an NDB , frequency 115.0 kHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q103",
+      "question": "Refer to Jeppesen Manual chart E(HI)5 FOR EXAMS.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) FL290",
+        "(c) FL300",
+        "(d) FL310"
+      ],
+      "answer": "a",
+      "solution": "(b) FL290",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q104",
+      "question": "Refer to Jeppesen Manual chart E(HI)5.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 046 / 70 NM",
+        "(b) 067 / 122 NM",
+        "(c) 113 / 142 NM",
+        "(d) 094 / 90 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 046 / 70 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q105",
+      "question": "Refer to Jeppesen Manual chart E(LO)1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 279 / 114 NM",
+        "(b) 279 / 85 NM",
+        "(c) 311 / 114 NM",
+        "(d) 311 / 85 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 279 / 114 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q106",
+      "question": "Refer to Jeppesen Manual  chart E(LO)5.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a fan marker call sign LP",
+        "(b) a TACAN call sign  RON",
+        "(c) an NDB call sign N",
+        "(d) an NDB call sign  LF"
+      ],
+      "answer": "a",
+      "solution": "(a) a fan marker call sign LP",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q107",
+      "question": "Refer to Jeppesen Manual chart E(LO)5.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 024 / 023 / 73 NM",
+        "(b) 024 / 023 / 47 NM",
+        "(c) 024 / 023 / 67 NM",
+        "(d) 037 / 038 / 50 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 024 / 023 / 73 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q108",
+      "question": "Refer to Jeppesen Manual  E(HI)3.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) VOR/DME          only",
+        "(c) VOR/NDB          only",
+        "(d) No"
+      ],
+      "answer": "a",
+      "solution": "(b) VOR/DME          only",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q109",
+      "question": "Refer to Jeppesen Manual  E(HI)4 for exams.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the average true course of the great circle from Biggin to Abbeville",
+        "(b) the magnetic course to fly inbound to Biggin",
+        "(c) the magnetic great circle course from Biggin to Abbeville",
+        "(d) the radial, referenced to true north, of Biggin to fly inbound"
+      ],
+      "answer": "a",
+      "solution": "(a) the average true course of the great circle from Biggin to Abbeville",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q110",
+      "question": "Refer to Jeppesen Manual E(HI)4 for exams.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 310",
+        "(c) 320",
+        "(d) 330"
+      ],
+      "answer": "a",
+      "solution": "(b) 310",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q111",
+      "question": "Refer to Jeppesen Manual  E(HI)4 for exams.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 300",
+        "(c) 120",
+        "(d) 140"
+      ],
+      "answer": "a",
+      "solution": "(b) 300",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q112",
+      "question": "Refer to Jeppesen Manual  E(HI)4 for exams.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) UR10 NTM UB6 BUB ATS",
+        "(b) UG108 SPI UG1",
+        "(c) UB69 DINKI UB6 BUB ATS",
+        "(d) UG1"
+      ],
+      "answer": "a",
+      "solution": "(a) UR10 NTM UB6 BUB ATS",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q113",
+      "question": "Refer to Jeppesen Manual  E(HI)4 for exams.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 052/ 97 NM",
+        "(b) 050/ 47 NM",
+        "(c) 133/ 85 NM",
+        "(d) 230/ 97 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 052/ 97 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q114",
+      "question": "Refer to Jeppesen Manual  E(HI)4 for exams.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 346/ 43 NM",
+        "(b) 166/ 64 NM",
+        "(c) 346/ 64 NM",
+        "(d) 346/ 45 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 346/ 43 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q115",
+      "question": "Refer to Jeppesen Manual E(HI)4 for exams.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) TRIPO UR1 LAM UR1",
+        "(c) UR123",
+        "(d) UB29 LAM UR1"
+      ],
+      "answer": "a",
+      "solution": "(b) TRIPO UR1 LAM UR1",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q116",
+      "question": "Refer to Jeppesen Manual E(HI)4 for exams.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) FL290",
+        "(c) 5300          ft",
+        "(d) 16          800          ft"
+      ],
+      "answer": "a",
+      "solution": "(b) FL290",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q117",
+      "question": "Refer to Jeppesen Manual E(HI)5 for exams.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) UG12,  69 NM",
+        "(b) D,  44 NM",
+        "(c) UG21,  26 NM",
+        "(d) Direct route,  69 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) UG12,  69 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q118",
+      "question": "Refer to Jeppesen Manual E(HI)5 for exams.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) UB19 POI UB195",
+        "(b) UH40 FOUCO UH20 PERIG UA34",
+        "(c) UA34",
+        "(d) UB19 CGC UA25"
+      ],
+      "answer": "a",
+      "solution": "(a) UB19 POI UB195",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q119",
+      "question": "Refer to Jeppesen Manual E(HI)5 for Exams.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) FL260",
+        "(c) FL210",
+        "(d) FL200"
+      ],
+      "answer": "a",
+      "solution": "(b) FL260",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q120",
+      "question": "Refer to Jeppesen Manual E(HI)5 for exams.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) VOR/DME freq 114.1, NDB freq 408",
+        "(b) VOR freq 114.1, TACAN freq 408",
+        "(c) VOR freq 114.1, TACAN channel 408",
+        "(d) VOR/DME 114.1, DME freq 408"
+      ],
+      "answer": "a",
+      "solution": "(a) VOR/DME freq 114.1, NDB freq 408",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q121",
+      "question": "Refer to Jeppesen Manual E(LO)1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) MORA 5000 ft",
+        "(b) MAA 5000 ft",
+        "(c) MOCA 5000 ft",
+        "(d) MEA 5000 ft"
+      ],
+      "answer": "a",
+      "solution": "(a) MORA 5000 ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q122",
+      "question": "Refer to Jeppesen Manual E(LO)1.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) FL110",
+        "(c) 4100 ft AMSL",
+        "(d) 2900 ft AMSL"
+      ],
+      "answer": "a",
+      "solution": "(b) FL110",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q123",
+      "question": "Refer to Jeppesen Manual E(LO)1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) TACAN only, channel 84, TOP",
+        "(b) TACAN and VOR, channel 84, 113.7, TOP",
+        "(c) NDB 92 kHz, AB",
+        "(d) VOR, 113.7 MHz, TOP"
+      ],
+      "answer": "a",
+      "solution": "(a) TACAN only, channel 84, TOP",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q124",
+      "question": "Refer to Jeppesen Manual E(LO)1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) VOR SHA 113.3 MHz only",
+        "(b) VOR DME SHA 113.3 MHz",
+        "(c) NDB frequency 353 kHz",
+        "(d) TACAN frequency 113.3 kHz"
+      ],
+      "answer": "a",
+      "solution": "(a) VOR SHA 113.3 MHz only",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q125",
+      "question": "Refer to Jeppesen Manual E(LO)2.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 1000          ft",
+        "(c) FL60",
+        "(d) 2800          ft"
+      ],
+      "answer": "a",
+      "solution": "(b) 1000          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q126",
+      "question": "Refer to Jeppesen Manual E(LO)5.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) FL60",
+        "(c) FL70",
+        "(d) FL80"
+      ],
+      "answer": "a",
+      "solution": "(b) FL60",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q127",
+      "question": "Refer to Jeppesen Manual E(LO)5",
+      "question_type": "MCQ",
+      "options": [
+        "(a) They are frequency paired",
+        "(b) They are not frequency paired",
+        "(c) They are frequency paired and have the same ident",
+        "(d) They are not frequency paired and have different idents"
+      ],
+      "answer": "a",
+      "solution": "(a) They are frequency paired",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q128",
+      "question": "Refer to Jeppesen Manual E(LO)5. See DENKO (N5249 E01550)",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 440 kHz plus ident",
+        "(b) 440 kHz plus ident only when BFO switched on",
+        "(c) 440 kHz plus ident only when BFO switched off",
+        "(d) 440 MHz plus ADF only when BFO off"
+      ],
+      "answer": "a",
+      "solution": "(a) 440 kHz plus ident",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q129",
+      "question": "Refer to Jeppesen Manual E(LO)5.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 1000          ft",
+        "(c) FL60",
+        "(d) 2500          ft"
+      ],
+      "answer": "a",
+      "solution": "(b) 1000          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q130",
+      "question": "Refer to Jeppesen Manual instrument approach chart:",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 480          ft",
+        "(c) 275          ft",
+        "(d) 200          ft"
+      ],
+      "answer": "a",
+      "solution": "(b) 480          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q131",
+      "question": "Refer to Jeppesen Manual instrument approach chart ZURICH ILS Rwy 16 (11-2).",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 600          m",
+        "(c) 720          m",
+        "(d) 1500          m"
+      ],
+      "answer": "a",
+      "solution": "(b) 600          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q132",
+      "question": "Refer to Jeppesen Manual  LONDON HEATHROW ILS DME Rwy 09L (11-2).",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 280          ft",
+        "(c) 200          ft",
+        "(d) 400          ft"
+      ],
+      "answer": "a",
+      "solution": "(b) 280          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q133",
+      "question": "Refer to Jeppesen Manual, London page 10-2D, Ockham STARs.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 7000 ft, IAS 250 kt",
+        "(b) 7000 ft, IAS 220 kt",
+        "(c) FL140, IAS 220 kt",
+        "(d) FL140,  IAS 250 kt"
+      ],
+      "answer": "a",
+      "solution": "(a) 7000 ft, IAS 250 kt",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q134",
+      "question": "Refer to Jeppesen Manual MADRID BARAJAS 10-2B STAR.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) CJN          VOR",
+        "(c) CENTA",
+        "(d) MOTIL"
+      ],
+      "answer": "a",
+      "solution": "(b) CJN          VOR",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q135",
+      "question": "Refer to Jeppesen Manual MADRID, BARAJAS page 11-1. ILS DME Rwy 33.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 4000          ft",
+        "(c) 2067          ft",
+        "(d) 1567          ft"
+      ],
+      "answer": "a",
+      "solution": "(b) 4000          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q136",
+      "question": "Refer to Jeppesen Manual MUNICH ILS Rwy 26R (11-4).",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 108.7          IMSW",
+        "(c) 108.3          IMNW",
+        "(d) 108.3          IMSW"
+      ],
+      "answer": "a",
+      "solution": "(b) 108.7          IMSW",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q137",
+      "question": "Refer to Jeppesen Manual  MUNICH NDB DME Rwy 26L approach (16-3)",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 108.6          DMS",
+        "(c) 338          MNW",
+        "(d) 400          MSW"
+      ],
+      "answer": "a",
+      "solution": "(b) 108.6          DMS",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q138",
+      "question": "Refer to Jeppesen Manual Munich SID (10-3D).",
+      "question_type": "MCQ",
+      "options": [
+        "(b) KEMPTEN  FIVE SIERRA",
+        "(c) KEMPTEN THREE QUEBEC",
+        "(d) KEMPTEN THREE NOVEMBER"
+      ],
+      "answer": "a",
+      "solution": "(b) KEMPTEN  FIVE SIERRA",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q139",
+      "question": "Refer to Jeppesen Manual Munich STAR plates.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Kempten 2T / BETOS",
+        "(b) NDG 1T / ROKIL",
+        "(c) RODING 1R / MOOSBURG",
+        "(d) AALEN 1T / ROKIL"
+      ],
+      "answer": "a",
+      "solution": "(a) Kempten 2T / BETOS",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q140",
+      "question": "Refer to Jeppesen Manual Paris Charles-de-Gaulle, (21-7), ILS rwy 10.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 100",
+        "(c) 118",
+        "(d) 268"
+      ],
+      "answer": "a",
+      "solution": "(b) 100",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q141",
+      "question": "Refer to Jeppesen Manual SID chart for AMSTERDAM ARNEM (10-3B).",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 35          NM",
+        "(c) 59          NM",
+        "(d) 52          NM"
+      ],
+      "answer": "a",
+      "solution": "(b) 35          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q142",
+      "question": "Refer to Jeppesen Manual SID chart for AMSTERDAM SCHIPOL (10-3).",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Maximum IAS 250 kt turning left at SPL 3.1 DME",
+        "(b) Cross ANDIK below FL60",
+        "(c) Contact SCHIPOL DEPARTURE 119.05 passing 2000 ft and report altitude",
+        "(d) The distance to ANDIK is 25 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) Maximum IAS 250 kt turning left at SPL 3.1 DME",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q143",
+      "question": "Refer to Jeppesen Manual, SID charts for Paris Charles-de-Gaulle.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 74          NM",
+        "(c) 72.5          NM",
+        "(d) 74.5          NM"
+      ],
+      "answer": "a",
+      "solution": "(b) 74          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q144",
+      "question": "Refer to Jeppesen Manual  STAR 10-2 and instrument approach chart 11-4 ILS/DME",
+      "question_type": "MCQ",
+      "options": [
+        "(a) EPM          316          kHz",
+        "(b) BIG          115.1          kHz",
+        "(c) BIG          115.1          MHz",
+        "(d) OCK          115.3          MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) EPM          316          kHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q145",
+      "question": "Refer to Jeppesen Manual STAR charts PARIS (Charles-de-Gaulle) (20-2).",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 83          NM",
+        "(c) 88          NM",
+        "(d) 96          NM"
+      ],
+      "answer": "a",
+      "solution": "(b) 83          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q146",
+      "question": "Refer to Jeppesen SPM, Paris, France plate 21-8 (ILS Rwy 10). What is the localizer",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 088",
+        "(c) 108.7",
+        "(d) 178"
+      ],
+      "answer": "a",
+      "solution": "(b) 088",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q147",
+      "question": "Refer to the Zurich 10 - 2 STAR plate.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) From Denel Int, proceed to Sopim Int, intercept BLM 111 radial to Golke Int,",
+        "(b) Leave HOC VORDME on 067 radial (TRA 067 radial inbound) to Ekron",
+        "(c) Leave WIL VORDME on 018 radial to Ekron",
+        "(d) Leave BLM VORDME on 111 radial toGolke Int, intercept TRA 247 radial"
+      ],
+      "answer": "a",
+      "solution": "(a) From Denel Int, proceed to Sopim Int, intercept BLM 111 radial to Golke Int,",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q148",
+      "question": "Unless otherwise stated on charts for standard instrument departures the routes",
+      "question_type": "MCQ",
+      "options": [
+        "(b) true          course",
+        "(c) magnetic          course",
+        "(d) true          headings"
+      ],
+      "answer": "a",
+      "solution": "(b) true          course",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q149",
+      "question": "Refer to Jeppesen Manual  5AT(HI).",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 357",
+        "(c) 347",
+        "(d) 167"
+      ],
+      "answer": "a",
+      "solution": "(b) 357",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q150",
+      "question": "Refer to Jeppesen Manual chart 5AT(HI).",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 269",
+        "(c) 256",
+        "(d) 246"
+      ],
+      "answer": "a",
+      "solution": "(b) 269",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q151",
+      "question": "Refer to Jeppesen Manual chart 5AT(HI).",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 140",
+        "(c) 313",
+        "(d) 133"
+      ],
+      "answer": "a",
+      "solution": "(b) 140",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q152",
+      "question": "Refer to Jeppesen Manual chart 5AT(HI).",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 344",
+        "(c) 173",
+        "(d) 349"
+      ],
+      "answer": "a",
+      "solution": "(b) 344",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q153",
+      "question": "Refer to Jeppesen Manual chart NAP.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 267",
+        "(c) 271",
+        "(d) 262"
+      ],
+      "answer": "a",
+      "solution": "(b) 267",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q154",
+      "question": "Refer to Jeppesen Manual North Atlantic Plotting chart.",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 755          NM",
+        "(c) 740          NM",
+        "(d) 720          NM"
+      ],
+      "answer": "a",
+      "solution": "(b) 755          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q155",
+      "question": "A “current flight plan” is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) flight plan in the course of which radio communication should be practised",
+        "(c) flight plan with the correct time of departure",
+        "(d) filed flight plan with amendments and clearances included"
+      ],
+      "answer": "a",
+      "solution": "(a) flight plan in the course of which radio communication should be practised",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q156",
+      "question": "A repetitive flight plan (RPL) is filed for a scheduled flight: Paris-Orly to Angouleme,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) It is not possible to plan another destination and that flight has to be simply",
+        "(b) The airline’s Operations department has to transmit a change to the RPL to",
+        "(c) The pilot in command must advise ATC of his intention to divert to Limoges at",
+        "(d) The RPL must be cancelled for that day and an individual flight plan must be"
+      ],
+      "answer": "a",
+      "solution": "(a) It is not possible to plan another destination and that flight has to be simply",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q157",
+      "question": "An aircraft in the cruise has a calibrated airspeed of 150 kt, a true airspeed of 180 kt",
+      "question_type": "MCQ",
+      "options": [
+        "(b) N0150",
+        "(c) N0180",
+        "(d) K0180"
+      ],
+      "answer": "a",
+      "solution": "(b) N0150",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q158",
+      "question": "For a flight plan filed before flight, the indicated time of departure is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the time overhead the first reporting point after take-off",
+        "(b) the time at which the flight plan is filed",
+        "(c) the estimated off-block time",
+        "(d) the time of take-off"
+      ],
+      "answer": "a",
+      "solution": "(a) the time overhead the first reporting point after take-off",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q159",
+      "question": "For a  radio equipped aircraft, the identifier in the ATS flight plan item 7 must",
+      "question_type": "MCQ",
+      "options": [
+        "(a) be the RTF call sign to be used",
+        "(b) include the aircraft registration",
+        "(c) include the operating agency designator",
+        "(d) include an indication of the aircraft type"
+      ],
+      "answer": "a",
+      "solution": "(a) be the RTF call sign to be used",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q160",
+      "question": "For which flights are flight plans required?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ii,  iii and iv",
+        "(b) i,  iii and v",
+        "(c) i and iii",
+        "(d) ii,  iii,  i and v"
+      ],
+      "answer": "a",
+      "solution": "(a) ii,  iii and iv",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q161",
+      "question": "Given the following flight plan information:",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 0334",
+        "(c) 0245",
+        "(d) 0249"
+      ],
+      "answer": "a",
+      "solution": "(b) 0334",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q162",
+      "question": "How many hours in advance of departure time should a flight plan be filed in the",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 0.30          h",
+        "(c) 1.00          h",
+        "(d) 0.10          h"
+      ],
+      "answer": "a",
+      "solution": "(b) 0.30          h",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q163",
+      "question": "If a pilot lands at an aerodrome other than the destination aerodrome specified",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 30          min",
+        "(c) 15          min",
+        "(d) 10          min"
+      ],
+      "answer": "a",
+      "solution": "(b) 30          min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q164",
+      "question": "If equipment listed in item 19 is not carried:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) circle boxes of equipment not carried",
+        "(b) tick the boxes of equipment carried",
+        "(c) cross out the boxes for equipment not carried",
+        "(d) list equipment carried in box 18 (other information)"
+      ],
+      "answer": "a",
+      "solution": "(a) circle boxes of equipment not carried",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q165",
+      "question": "If the destination airport has no ICAO indicator, in box 16 of your ATS flight plan,",
+      "question_type": "MCQ",
+      "options": [
+        "(b) AAAA",
+        "(c) XXXX",
+        "(d) ZZZZ"
+      ],
+      "answer": "a",
+      "solution": "(b) AAAA",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q166",
+      "question": "In an ATS flight plan an aircraft will be classified as “L”  if its MTOM is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 27          000          kg",
+        "(b) 10          000          kg",
+        "(c) 57          000          kg",
+        "(d) 7000          kg"
+      ],
+      "answer": "a",
+      "solution": "(a) 27          000          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q167",
+      "question": "In an ATS flight plan item 15 where either a route for which standard departure",
+      "question_type": "MCQ",
+      "options": [
+        "(a) SID should be entered but not STAR",
+        "(b) both should be entered",
+        "(c) STAR should be entered but not SID",
+        "(d) neither SID nor STAR should be entered"
+      ],
+      "answer": "a",
+      "solution": "(a) SID should be entered but not STAR",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q168",
+      "question": "In flight, it is possible to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) i   and  iii",
+        "(b) i ,   ii,   iii  and  iv",
+        "(c) ii,  iii  and iv",
+        "(d) i  and   iv"
+      ],
+      "answer": "a",
+      "solution": "(a) i   and  iii",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q169",
+      "question": "In order to comply with PANS-RAC, during an IFR flight, deviations from flight plan",
+      "question_type": "MCQ",
+      "options": [
+        "(a) TAS 3% and time 3 minutes",
+        "(b) TAS 5% and time 3 minutes",
+        "(c) TAS 5 kt and time 5 minutes",
+        "(d) TAS 10 kt and time 2 minutes"
+      ],
+      "answer": "a",
+      "solution": "(a) TAS 3% and time 3 minutes",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q170",
+      "question": "In the ATS flight plan item 15, for a flight along a designated route, where the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) it is not necessary to indicate the point of joining that route as it will be",
+        "(b) it is necessary only to give the first reporting point on that route",
+        "(c) the letters “DCT” should be entered, followed by the point of joining the ATS",
+        "(d) the words “as cleared” should be entered"
+      ],
+      "answer": "a",
+      "solution": "(a) it is not necessary to indicate the point of joining that route as it will be",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q171",
+      "question": "In the ATS flight plan item 15, it is necessary to enter any point at which a change",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 10% TAS or 0.05 Mach or more",
+        "(b) 20 kt or 0.05 Mach or more",
+        "(c) 5% TAS or 0.01 Mach or more",
+        "(d) 20 km per hour or 0.1 Mach or more"
+      ],
+      "answer": "a",
+      "solution": "(a) 10% TAS or 0.05 Mach or more",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q172",
+      "question": "In the event that SELCAL is prescribed by an appropriate authority, in which",
+      "question_type": "MCQ",
+      "options": [
+        "(b) Route",
+        "(c) Aircraft          identification",
+        "(d) Other          information"
+      ],
+      "answer": "a",
+      "solution": "(b) Route",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q173",
+      "question": "Item 7 of the flight plan in accordance with PANS-RAC (DOC 4444) should always",
+      "question_type": "MCQ",
+      "options": [
+        "(b) aircraft          type",
+        "(c) aircraft call sign",
+        "(d) aircraft          operator"
+      ],
+      "answer": "a",
+      "solution": "(b) aircraft          type",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q174",
+      "question": "Prior to an IFR flight, when filling in the ICAO flight plan, the time information",
+      "question_type": "MCQ",
+      "options": [
+        "(a) take-off until reaching the IAF (initial approach fix) of the destination",
+        "(b) taxi-out prior to take-off until the IAF",
+        "(c) take-off until landing",
+        "(d) taxi-out prior to take-off until completion of taxiing after landing"
+      ],
+      "answer": "a",
+      "solution": "(a) take-off until reaching the IAF (initial approach fix) of the destination",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q175",
+      "question": "Reference ICAO flight plan.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 30 min / 200 NM",
+        "(b) 60 min / 370 NM",
+        "(c) 90 min / 370 km",
+        "(d) 120 min / 370 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 30 min / 200 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q176",
+      "question": "Reference item 19 of the ICAO flight plan, endurance is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) maximum flight time plus 45 minutes holding fuel",
+        "(b) maximum flight time plus 30 minutes holding fuel",
+        "(c) fuel endurance of the aircraft",
+        "(d) total usable fuel required for the flight"
+      ],
+      "answer": "a",
+      "solution": "(a) maximum flight time plus 45 minutes holding fuel",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q177",
+      "question": "Reference the ICAO flight plan, in item 15 (speed) this speed refers to:",
+      "question_type": "MCQ",
+      "options": [
+        "(b) equivalent          airspeed",
+        "(c) initial cruising true airspeed",
+        "(d) calculated ground speed"
+      ],
+      "answer": "a",
+      "solution": "(b) equivalent          airspeed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q178",
+      "question": "Standard equipment in item 10 is considered to be:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) VHF, RTF, ADF, VOR, ILS",
+        "(b) HF, RTF, VOR, DME",
+        "(c) VHF, VOR, ADF",
+        "(d) VHF, RTF, ILS, VOR"
+      ],
+      "answer": "a",
+      "solution": "(a) VHF, RTF, ADF, VOR, ILS",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q179",
+      "question": "The navigation plan reads:",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 0240",
+        "(c) 0249",
+        "(d) 0252"
+      ],
+      "answer": "a",
+      "solution": "(b) 0240",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q180",
+      "question": "The planned departure time from the parking area is 1815 UTC. The estimated take-",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 1715          UTC",
+        "(c) 1745          UTC",
+        "(d) 1755          UTC"
+      ],
+      "answer": "a",
+      "solution": "(b) 1715          UTC",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q181",
+      "question": "“Total Elapsed Time” for an IFR flight, when filling in the ICAO flight plan at box 16,",
+      "question_type": "MCQ",
+      "options": [
+        "(b) take-off until reaching the IAF ( Initial Approach Fix) of the destination",
+        "(c) taxi-out prior to take-off until taxiing after landing",
+        "(d) taxiing until the IAF (Initial Approach Fix) of the destination aerodrome"
+      ],
+      "answer": "a",
+      "solution": "(b) take-off until reaching the IAF ( Initial Approach Fix) of the destination",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q182",
+      "question": "What is Total Elapsed Time on a VFR flight plan?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) From take-off to overhead destination",
+        "(b) From take-off to overhead destination + 15 min",
+        "(c) From take-off to landing",
+        "(d) From taxi to arrival on the gate"
+      ],
+      "answer": "a",
+      "solution": "(a) From take-off to overhead destination",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q183",
+      "question": "When filling in a flight plan, wake turbulence category is a function of:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) max certificated landing mass",
+        "(b) max certificated take-off mass",
+        "(c) estimated landing mass",
+        "(d) estimated take-off mass"
+      ],
+      "answer": "a",
+      "solution": "(a) max certificated landing mass",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q184",
+      "question": "When filling in item 9 of the flight plan and there is no aircraft designator listed,",
+      "question_type": "MCQ",
+      "options": [
+        "(b) ZZZZ followed by an entry at item 18",
+        "(c) XXXX followed by an entry at item 18",
+        "(d) A descriptive abbreviation of the aircraft type"
+      ],
+      "answer": "a",
+      "solution": "(b) ZZZZ followed by an entry at item 18",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q185",
+      "question": "When submitting a flight plan before flight, departure time is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) overhead the first reporting point",
+        "(b) at which the aircraft leaves the parking area",
+        "(c) of          take-off",
+        "(d) at which flight plan is filed"
+      ],
+      "answer": "a",
+      "solution": "(a) overhead the first reporting point",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q186",
+      "question": "You have a flight plan, IFR, from Amsterdam to London.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The filed deviation is not accepted",
+        "(b) The route according to the flight plan is accepted",
+        "(c) It is not allowed to file such a flight plan",
+        "(d) You will get a separate clearance for the deviation"
+      ],
+      "answer": "a",
+      "solution": "(a) The filed deviation is not accepted",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q187",
+      "question": "You have a mode A transponder (4 digits, 4096 codes) and mode C. Item 10 of the",
+      "question_type": "MCQ",
+      "options": [
+        "(b) A",
+        "(c) P",
+        "(d) S"
+      ],
+      "answer": "a",
+      "solution": "(b) A",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q188",
+      "question": "You have filed a flight plan for an uncontrolled flight and suffer a delay prior to",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 40          min",
+        "(c) 60          min",
+        "(d) 90          min"
+      ],
+      "answer": "a",
+      "solution": "(b) 40          min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q189",
+      "question": "You make a diversion from the route given in the flight plan and land at an",
+      "question_type": "MCQ",
+      "options": [
+        "(b) 20          min",
+        "(c) 30          min",
+        "(d) 45          min"
+      ],
+      "answer": "a",
+      "solution": "(b) 20          min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q190",
+      "question": "Refer to Jeppesen Manual - VFR Section    Athinai Hellinikon 29-1",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 3°          east",
+        "(b) 3°          west",
+        "(c) Not shown on chart",
+        "(d) 6°          east"
+      ],
+      "answer": "a",
+      "solution": "(a) 3°          east",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q191",
+      "question": "Refer to Jeppesen Manual - VFR Section De Kooy 19-1",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 32          800          ft",
+        "(b) 1500          ft",
+        "(c) 3500          ft",
+        "(d) 6500          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 32          800          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q192",
+      "question": "Refer to Jeppesen Manual - VFR Section De Kooy 19-1",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 109.70 MHz 216° (M)",
+        "(b) 109.70 kHz 220° (M)",
+        "(c) 119.10 MHz 216° (T)",
+        "(d) 109.70 MHz 216° (T)"
+      ],
+      "answer": "a",
+      "solution": "(a) 109.70 MHz 216° (M)",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q193",
+      "question": "Refer to Jeppesen Manual - VFR Section Esbjerg 19-2",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2600 ft by 45 ft",
+        "(b) 8530 ft by 45 ft",
+        "(c) 8530 metres by 45 metres",
+        "(d) 2600 metres by 45 metres"
+      ],
+      "answer": "a",
+      "solution": "(a) 2600 ft by 45 ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q194",
+      "question": "Refer to Jeppesen Manual - VFR Section Sabadell 19-1",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 119.10          MHz",
+        "(b) 120.80          MHz",
+        "(c) 118.65 MHz",
+        "(d) 738          kHz"
+      ],
+      "answer": "a",
+      "solution": "(a) 119.10          MHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q195",
+      "question": "Refer to Jeppesen Manual - VFR Section Aberdeen 10-IV",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 114.30          MHz",
+        "(b) 126.25          MHz",
+        "(c) 119.87          MHz",
+        "(d) 135.17          MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) 114.30          MHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q196",
+      "question": "Refer to Jeppesen Manual - VFR Section Aberdeen 10-IV",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1733          ft",
+        "(b) 1733          m",
+        "(c) 2105          ft",
+        "(d) 1245          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 1733          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q197",
+      "question": "Refer to Jeppesen Manual - VFR Section Aberdeen 19-1",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 114.30 MHz only",
+        "(b) 121.85 MHz only",
+        "(c) 114.30 MHz or 121.85 MHZ",
+        "(d) 121.70          MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) 114.30 MHz only",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q198",
+      "question": "Refer to Jeppesen Manual - VFR Section Aberdeen",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 20          ft",
+        "(b) 20          m",
+        "(c) 23          m",
+        "(d) 10          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 20          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q199",
+      "question": "Refer to Jeppesen Manual - VFR Section  Athinai 29-1",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ATIS 123.40 MHz",
+        "(b) Approach 119.10 MHz",
+        "(c) Ground 121.70 MHz",
+        "(d) Tower 118.10 MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) ATIS 123.40 MHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q200",
+      "question": "Information on Search and Rescue (SAR) procedures may be obtained:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) from          NOTAMs",
+        "(b) from the latest AIC",
+        "(c) from the Aeronautical Information Publication",
+        "(d) by RT communication with the FIR within which the aircraft is operating"
+      ],
+      "answer": "a",
+      "solution": "(a) from          NOTAMs",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q201",
+      "question": "Refer to ED-6.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 350°(M)              62.5 km",
+        "(b) 345°(M)              65 NM",
+        "(c) 349°(M)              62.5 NM",
+        "(d) 351°(M)              116 km"
+      ],
+      "answer": "a",
+      "solution": "(a) 350°(M)              62.5 km",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q202",
+      "question": "Refer to ED-6.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a VOR/DME call sign LBU     frequency 109.20 kHz",
+        "(b) a Tacan  call sign LBU     channel number 109.20",
+        "(c) a VOR/TAC call sign LBU     frequency 109.20 MHz",
+        "(d) a VOR/DME call sign LBU     frequency 109.20 MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) a VOR/DME call sign LBU     frequency 109.20 kHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q203",
+      "question": "Refer to CAP 697 SEP  Figure 2.1.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 16 min  5 gal    31 NGM",
+        "(b) 15 min  6 gal    18 NGM",
+        "(c) 17 min  7 gal    46 NGM",
+        "(d) 16 min  5 gal    52 NGM"
+      ],
+      "answer": "a",
+      "solution": "(a) 16 min  5 gal    31 NGM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q204",
+      "question": "Refer to CAP 697  SEP  Figure 2.2.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 67.3 PPH 140 kt",
+        "(b) 67.3 GPH 157 kt",
+        "(c) 11.4 GPH 139 kt",
+        "(d) 66.2 GPH 137 kt"
+      ],
+      "answer": "a",
+      "solution": "(a) 67.3 PPH 140 kt",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q205",
+      "question": "Refer to CAP 697 MEP Figure 3.4.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 189          kt",
+        "(b) 186          kt",
+        "(c) 183          kt",
+        "(d) 182          kt"
+      ],
+      "answer": "a",
+      "solution": "(a) 189          kt",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q206",
+      "question": "Refer to CAP 697 MEP Figure 3.5",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 4 h 25 min",
+        "(b) 4 h 04 min",
+        "(c) 4 h 57 min",
+        "(d) 6 h 18 min"
+      ],
+      "answer": "a",
+      "solution": "(a) 4 h 25 min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q207",
+      "question": "The air distance and time to climb is 197 NAM and 33 min respectively. What is the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 222          NGM",
+        "(b) 184          NGM",
+        "(c) 157          NGM",
+        "(d) 175          NGM"
+      ],
+      "answer": "a",
+      "solution": "(a) 222          NGM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q208",
+      "question": "An aircraft is airborne from an airfield, elevation 1560 ft AMSL, on a QNH of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) FL145",
+        "(b) FL155",
+        "(c) FL160",
+        "(d) FL165"
+      ],
+      "answer": "a",
+      "solution": "(a) FL145",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q209",
+      "question": "On a Jeppesen chart the figures “FL80 2700a” are displayed below an airway.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The route MORA (a safety altitude)",
+        "(b) Minimum en route altitude",
+        "(c) Maximum authorized altitude",
+        "(d) The base of the airway"
+      ],
+      "answer": "a",
+      "solution": "(a) The route MORA (a safety altitude)",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q210",
+      "question": "In the Jeppesen SID, STARs & IAP directions are given as:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) true          course/track",
+        "(b) magnetic          course/track",
+        "(d) magnetic          heading"
+      ],
+      "answer": "a",
+      "solution": "(a) true          course/track",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q211",
+      "question": "Refer to CAP 697 SIMPLIFIED LRC (use Figures 4.5.3.1 & 4.3.1B)",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 11 200 kg 4 h 09 min",
+        "(b) 5300 kg 1 h 09 min",
+        "(c) 4200 kg 1 h 51 min",
+        "(d) 5000 kg 2 h 00 min"
+      ],
+      "answer": "a",
+      "solution": "(a) 11 200 kg 4 h 09 min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q212",
+      "question": "Refer to CAP 697 MRJT Figure 4.4",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2110          kg",
+        "(b) 1025          kg",
+        "(c) 1038          kg",
+        "(d) 1055          kg"
+      ],
+      "answer": "a",
+      "solution": "(a) 2110          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q213",
+      "question": "Refer to CAP 697 MRJT Figure 4.5.4",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 280 kg  82 NGM",
+        "(b) 270 kg  107 NGM",
+        "(c) 270 kg  79 NGM",
+        "(d) 275 kg  117 NGM"
+      ],
+      "answer": "a",
+      "solution": "(a) 280 kg  82 NGM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q214",
+      "question": "Refer to CAP 697 MRJT Fig 4.3.2b",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 600          NGM",
+        "(b) 750          NGM",
+        "(c) 500          NGM",
+        "(d) 670 NGM"
+      ],
+      "answer": "a",
+      "solution": "(a) 600          NGM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q215",
+      "question": "Refer to CAP 697 MRJT  Figure 4.3.1b",
+      "question_type": "MCQ",
+      "options": [
+        "(a) +10%",
+        "(b) -5%",
+        "(c) -10%",
+        "(d) +7%"
+      ],
+      "answer": "a",
+      "solution": "(a) +10%",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q216",
+      "question": "Refer to CAP 697 MRJT  Figure 4.1",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 35 500 ft pressure altitude",
+        "(b) 36 200 ft pressure altitude",
+        "(c) 35 500 ft altitude",
+        "(d) FL360"
+      ],
+      "answer": "a",
+      "solution": "(a) 35 500 ft pressure altitude",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q217",
+      "question": "Reference CAP 697 MRJT  Figure 4.5.3.2",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 356          NM",
+        "(b) 314          NM",
+        "(c) 277          NM",
+        "(d) 280          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 356          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q218",
+      "question": "Reference CAP 697 MRJT Figure 4.5.1",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 22 min  1625 kg 395 kt      114 NAM",
+        "(b) 20 min  1625 kg 395 kt      117 NAM",
+        "(c) 20 min  1630 kg 395 kt      100 NAM",
+        "(d) 21 min   1675 kg 398 kt      133 NAM"
+      ],
+      "answer": "a",
+      "solution": "(a) 22 min  1625 kg 395 kt      114 NAM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q219",
+      "question": "Reference CAP 697 MRJT Figure 4.3.6",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2500 kg  320 NGM",
+        "(b) 1500 kg   175 NGM",
+        "(c) 2350 kg  355 NGM",
+        "(d) 2200 kg   350 NGM"
+      ],
+      "answer": "a",
+      "solution": "(a) 2500 kg  320 NGM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q220",
+      "question": "Reference CAP 697 MRJT Figure 4.5.3.1",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1093          kg",
+        "(b) 1107          kg",
+        "(c) 1100          kg",
+        "(d) 1207          kg"
+      ],
+      "answer": "a",
+      "solution": "(a) 1093          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q221",
+      "question": "Refer CAP 697 MRJT Fig 4.3.1",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 5600 kg  2 h 15 min",
+        "(b) 4500 kg  2 h 00 min",
+        "(c) 4100 kg  1 h 48 min",
+        "(d) 4400 kg  1 h 48 min"
+      ],
+      "answer": "a",
+      "solution": "(a) 5600 kg  2 h 15 min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q222",
+      "question": "A flight is due to operate between London and Glasgow on a Repetitive Flight Plan",
+      "question_type": "MCQ",
+      "options": [
+        "(a) this cannot be done, go back to airport hotel",
+        "(b) operations should inform the London ATC Unit at least 10 minutes before",
+        "(c) cancel the RPL and file a standard ICAO flight plan to Edinburgh",
+        "(d) take-off for Glasgow and divert along route"
+      ],
+      "answer": "a",
+      "solution": "(a) this cannot be done, go back to airport hotel",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q223",
+      "question": "A normal commercial IFR flight has an estimated EOBT of 1540 UTC with the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1510          UTC",
+        "(b) 1455          UTC",
+        "(c) 1525          UTC",
+        "(d) 1440          UTC"
+      ],
+      "answer": "a",
+      "solution": "(a) 1510          UTC",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q224",
+      "question": "A flight from BIRMINGHAM (EGBB) to DUBLIN (EIDW) has an EOBT of 09:30 UTC,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) EET/EIDW1045",
+        "(c) EET/EISN0055",
+        "(d) EET/EISN0060"
+      ],
+      "answer": "a",
+      "solution": "(a) EET/EIDW1045",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q225",
+      "question": "Refer to Jeppesen MUNICH 10-2B",
+      "question_type": "MCQ",
+      "options": [
+        "(a) AALEN - WLD - ROKIL – MBG   90 NM",
+        "(b) AALEN - WLD - ROKIL    51 NM",
+        "(c) AALEN - WLD - ROKIL – MBG   124 NM",
+        "(d) WLD-ROKIL                                        10 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) AALEN - WLD - ROKIL – MBG   90 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q226",
+      "question": "Refer to Jeppesen E(LO)1",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 279°(M)   85 NM",
+        "(b) 099°(M)   114 NM",
+        "(c) 099°(M)   85 NM",
+        "(d) 099°(M)   59 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 279°(M)   85 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q227",
+      "question": "Refer to Jeppesen Polar High Altitude Chart 5AT(HI).",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 318°",
+        "(b) 298°",
+        "(c) 138°",
+        "(d) 118°"
+      ],
+      "answer": "a",
+      "solution": "(a) 318°",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q228",
+      "question": "Given        :",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1272 NM 2 h 39 min",
+        "(b) 906 NM 1 h 53 min",
+        "(d) 939 NM 1 h 57 min"
+      ],
+      "answer": "a",
+      "solution": "(a) 1272 NM 2 h 39 min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q229",
+      "question": "Given:  GS OUT = 178   GS HOME = 249",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 204          NM",
+        "(b) 311          NM",
+        "(c) 415          NM",
+        "(d) 262          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 204          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q230",
+      "question": "You plan to fly from A to B at a TAS of 230 kt, a GS of 255 kt and an initial cruising",
+      "question_type": "MCQ",
+      "options": [
+        "(a) K0230  F150",
+        "(b) N0230  F150",
+        "(c) N0255  S1500",
+        "(d) N0230  FL150"
+      ],
+      "answer": "a",
+      "solution": "(a) K0230  F150",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q231",
+      "question": "Refer to Jeppesen E(LO)5.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) FL60",
+        "(b) FL70",
+        "(c) FL180",
+        "(d) FL80"
+      ],
+      "answer": "a",
+      "solution": "(a) FL60",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q232",
+      "question": "A current flight plan is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the filed flight plan with amendments and clearances included",
+        "(b) the filed flight plan without any changes",
+        "(c) flight plan with correct time of departure",
+        "(d) one that is stored via repetitive flight plan procedures"
+      ],
+      "answer": "a",
+      "solution": "(a) the filed flight plan with amendments and clearances included",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q233",
+      "question": "Refer CAP 697 MRJT Figure 4.3.6",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1200 kg 20 min",
+        "(b) 1600 kg 36 min",
+        "(c) 1450 kg 32 min",
+        "(d) 1300 kg 28 min"
+      ],
+      "answer": "a",
+      "solution": "(a) 1200 kg 20 min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q234",
+      "question": "Refer CAP 697 MRJT Fig 4.7.2",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 742          NM",
+        "(b) 379          NM",
+        "(c) 768          NM",
+        "(d) 1101          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 742          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q235",
+      "question": "Refer to Jeppesen AMSTERDAM Schiphol SID 10-3",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Contact Schipol Departure on 119.05 MHz when passing 2000 ft and report",
+        "(b) The distance to ANDIK is 25 NM",
+        "(c) Cross ANDIK below FL60",
+        "(d) Maximum IAS 250 kt till turning left at SPL 3.1DME"
+      ],
+      "answer": "a",
+      "solution": "(a) Contact Schipol Departure on 119.05 MHz when passing 2000 ft and report",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q236",
+      "question": "You are cruising at FL250 and need to be at FL50 10 NM before a VOR/DME. Your",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 66.7          NM",
+        "(b) 83.3          NM",
+        "(c) 98.5          NM",
+        "(d) 76.7          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 66.7          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q237",
+      "question": "You are required to uplift 40 US gallons of AVGAS with SG of 0.72.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 109 l   151 kg",
+        "(b) 182 l   131 kg",
+        "(c) 182 l   289 kg",
+        "(d) 151 l   109 kg"
+      ],
+      "answer": "a",
+      "solution": "(a) 109 l   151 kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q238",
+      "question": "Refer CAP 697 MRJT Figure 4.3.2c",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Zero",
+        "(b) 25 kt head",
+        "(c) 25 kt tail",
+        "(d) 60 kt head"
+      ],
+      "answer": "a",
+      "solution": "(a) Zero",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q239",
+      "question": "Refer to Jeppesen E(LO)1",
+      "question_type": "MCQ",
+      "options": [
+        "(a) VOR on 110.4 MHz and NDB on 394 kHz",
+        "(b) TACAN on 110.4 kHz",
+        "(c) VOR on 110.4 MHz",
+        "(d) VOR/DME on 110.4 MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) VOR on 110.4 MHz and NDB on 394 kHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q240",
+      "question": "When completing an IFR flight plan the “Total Elapsed Time” in item 16 is from:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) take-off to overhead the destination airport",
+        "(b) from first taxiing under own power until the IAF for destination airport",
+        "(c) take-off to the IAF for the destination airport",
+        "(d) take-off until landing at the destination airport"
+      ],
+      "answer": "a",
+      "solution": "(a) take-off to overhead the destination airport",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q241",
+      "question": "An aircraft has been planned to fly via a significant point based upon the TIR",
+      "question_type": "MCQ",
+      "options": [
+        "(a) TIR300095",
+        "(b) TIR120095",
+        "(c) TIR30095",
+        "(d) 300095TIR"
+      ],
+      "answer": "a",
+      "solution": "(a) TIR300095",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q242",
+      "question": "Reference E(HI)4 (CAA FOR EXAMS)",
+      "question_type": "MCQ",
+      "options": [
+        "(a) FL200",
+        "(b) FL250",
+        "(c) FL280",
+        "(d) FL310"
+      ],
+      "answer": "a",
+      "solution": "(a) FL200",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q243",
+      "question": "Reference E(HI)5 CAA for examinations",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 290",
+        "(b) 310",
+        "(c) 330",
+        "(d) 350"
+      ],
+      "answer": "a",
+      "solution": "(a) 290",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q244",
+      "question": "Reference E(HI)4 (CAA FOR EXAMS)",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 100 NM  321°(T)",
+        "(b) 162 NM  313°(T)",
+        "(c) 162 NM  316°(T)",
+        "(d) 100 NM  316°(T)"
+      ],
+      "answer": "a",
+      "solution": "(a) 100 NM  321°(T)",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q245",
+      "question": "An aircraft is carrying Maritime Survival Equipment.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) cross out indicators P, D and J; tick M",
+        "(b) circle indicator M",
+        "(c) tick indicator M",
+        "(d) cross out indicators P, D and J"
+      ],
+      "answer": "a",
+      "solution": "(a) cross out indicators P, D and J; tick M",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q246",
+      "question": "Refer to Training Manual, Amsterdam page 10-9X.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 88          ft",
+        "(b) 100          ft",
+        "(c) 300          m",
+        "(d) 103          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 88          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q247",
+      "question": "At a fuel Relative Density of 0.80 an aircraft turbine engine burns 220 litres per",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 235          L/h",
+        "(b) 206          L/h",
+        "(c) 220          L/h",
+        "(d) 176          L/h"
+      ],
+      "answer": "a",
+      "solution": "(a) 235          L/h",
+      "explanation": ""
+    }
+  ]
+}

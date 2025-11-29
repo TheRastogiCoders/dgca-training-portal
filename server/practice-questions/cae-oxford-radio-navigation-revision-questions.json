@@ -1,0 +1,4543 @@
+{
+  "book_name": "CAE Oxford Radio Navigation",
+  "chapter_number": "N/A",
+  "chapter_title": "Revision Questions",
+  "chapter_slug": "cae-oxford-radio-navigation-revision-questions",
+  "source": "cae-oxford",
+  "questions": [
+    {
+      "question_number": "Q1",
+      "question": "When would VDF be used for a position fix?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) When an aircraft declares an emergency on any frequency",
+        "(b) When first talking to an FIR on crossing an international boundary",
+        "(c) When joining controlled airspace from uncontrolled airspace",
+        "(d) When declaring an emergency on 121.500 MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) When an aircraft declares an emergency on any frequency",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q2",
+      "question": "What equipment does an aircraft need when carrying out a VDF let-down?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) VHF          radio",
+        "(b) VOR",
+        "(c) VOR/DME",
+        "(d) None"
+      ],
+      "answer": "a",
+      "solution": "(a) VHF          radio",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q3",
+      "question": "Which of the following is an advantage of a VDF let-down?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) No equipment required in the aircraft",
+        "(b) No special equipment required in the aircraft or on the ground",
+        "(c) Only a VHF radio is needed in the aircraft",
+        "(d) It is pilot interpreted, so ATC is not required"
+      ],
+      "answer": "a",
+      "solution": "(a) No equipment required in the aircraft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q4",
+      "question": "What is the maximum range at which a VDF station at 325 ft can provide a service to",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 134          NM",
+        "(b) 107          NM",
+        "(c) 91          NM",
+        "(d) 114          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 134          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q5",
+      "question": "Which  of  the  following  statements  regarding  VHF  direction  finding  (VDF)  is  most",
+      "question_type": "MCQ",
+      "options": [
+        "(a) It is simple and only requires a VHF radio on the ground",
+        "(b) It is simple and requires a VHF radio and DF equipment in the aircraft",
+        "(c) It is simple requiring only VHF radios on the ground and in the aircraft",
+        "(d) It uses line of sight propagation"
+      ],
+      "answer": "a",
+      "solution": "(a) It is simple and only requires a VHF radio on the ground",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q6",
+      "question": "What is the wavelength corresponding to a frequency of 375 kHz?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 8          m",
+        "(b) 80          m",
+        "(c) 800          m",
+        "(d) 8000          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 8          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q7",
+      "question": "An NDB transmits a signal pattern which is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a 30 Hz polar diagram",
+        "(b) omni-directional",
+        "(c) a bi-lobal pattern",
+        "(d) a beam rotating at 30 Hz"
+      ],
+      "answer": "a",
+      "solution": "(a) a 30 Hz polar diagram",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q8",
+      "question": "The accuracy of ADF within the DOC by day is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) +/-          1°",
+        "(b) +/-          2°",
+        "(c) +/-          5°",
+        "(d) +/-          10°"
+      ],
+      "answer": "a",
+      "solution": "(a) +/-          1°",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q9",
+      "question": "Given that the compass heading is 270°, the deviation is 2°W, the variation is 30°E",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 044",
+        "(b) 048",
+        "(c) 074",
+        "(d) 224"
+      ],
+      "answer": "a",
+      "solution": "(a) 044",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q10",
+      "question": "Two NDBs, one 20 NM from the coast and the other 50 NM further inland.  Assuming",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The NDB at 20 NM",
+        "(b) The NDB at 50 NM",
+        "(c) Same when the relative bering is 090/270",
+        "(d) Same when the relative bearing is 180/360"
+      ],
+      "answer": "a",
+      "solution": "(a) The NDB at 20 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q11",
+      "question": "Which of the following is likely to have the greatest effect on the accuracy of ADF",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Interference from other NDBs particularly by day",
+        "(b) Interference between aircraft aerials",
+        "(c) Interference from other NDBs, particularly at night",
+        "(d) Frequency drift at the ground station"
+      ],
+      "answer": "a",
+      "solution": "(a) Interference from other NDBs particularly by day",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q12",
+      "question": "Which of the following are all errors associated with ADF?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Selective availability, coastal refraction, night effect",
+        "(b) Night effect, quadrantal error, lane slip",
+        "(c) Mountain effect, station interference, static interference",
+        "(d) Selective availability, coastal refraction, quadrantal error"
+      ],
+      "answer": "a",
+      "solution": "(a) Selective availability, coastal refraction, night effect",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q13",
+      "question": "What action must be taken to receive a bearing from an ADF?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) BFO          on",
+        "(b) Select the loop position",
+        "(c) Both the loop and sense aerials must receive the signal",
+        "(d) Select the LOOP position"
+      ],
+      "answer": "a",
+      "solution": "(a) BFO          on",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q14",
+      "question": "When is coastal error at its worst for an aircraft at low level?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Beacon inland at an acute angle to the coast",
+        "(b) Beacon inland at 90° to the coast",
+        "(c) Beacon close to the coast at an acute angle to the coast",
+        "(d) Beacon close to the coast at 90° to the coast"
+      ],
+      "answer": "a",
+      "solution": "(a) Beacon inland at an acute angle to the coast",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q15",
+      "question": "A radio beacon has a range of 10 NM.  By what factor should the power be increased",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 16",
+        "(b) 2",
+        "(c) 4",
+        "(d) 8"
+      ],
+      "answer": "a",
+      "solution": "(a) 16",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q16",
+      "question": "Which of the following is the most significant error in ADF?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Quadrantal          error",
+        "(b) Coastal          refraction",
+        "(c) Precipitation          static",
+        "(d) Static from Cb"
+      ],
+      "answer": "a",
+      "solution": "(a) Quadrantal          error",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q17",
+      "question": "Which of the following may cause inaccuracies in ADF bearings?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Static interference, height effect, lack of failure warning",
+        "(b) Station interference, mountain effect, selective availability",
+        "(c) Coastal refraction, slant range, night effect",
+        "(d) Lack of failure warning, station interference, static interference"
+      ],
+      "answer": "a",
+      "solution": "(a) Static interference, height effect, lack of failure warning",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q18",
+      "question": "The allocated frequency coverage of NDBs is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 250 – 450 kHz",
+        "(b) 190 – 1750 kHz",
+        "(c) 108 – 117.95 MHz",
+        "(d) 200 – 500 kHz"
+      ],
+      "answer": "a",
+      "solution": "(a) 250 – 450 kHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q19",
+      "question": "The principle used to measure VOR bearings is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) phase          comparison",
+        "(b) switched          cardioids",
+        "(c) difference in depth of modulation",
+        "(d) pulse          technique"
+      ],
+      "answer": "a",
+      "solution": "(a) phase          comparison",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q20",
+      "question": "When converting VOR and ADF bearings to true, the variation at the ...... should be",
+      "question_type": "MCQ",
+      "options": [
+        "(a) aircraft                       aircraft",
+        "(b) aircraft                       station",
+        "(c) station                       aircraft",
+        "(d) station                       station"
+      ],
+      "answer": "a",
+      "solution": "(a) aircraft                       aircraft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q21",
+      "question": "An aircraft flies from a VOR at 61N 013W to 58N 013W.  The variation at the beacon",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 013",
+        "(b) 005",
+        "(c) 193",
+        "(d) 187"
+      ],
+      "answer": "a",
+      "solution": "(a) 013",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q22",
+      "question": "I  n  a  conventional  VOR  the  reference  signal  and  the  variable  signal  have  a  30  Hz",
+      "question_type": "MCQ",
+      "options": [
+        "(a) adding 30 Hz to the transmitted signal",
+        "(b) a 30 Hz rotation producing a 30 Hz modulation",
+        "(c) varying the amplitude up and down at +/-30 Hz",
+        "(d) using Doppler techniques to produce a 30 Hz amplitude modulation"
+      ],
+      "answer": "a",
+      "solution": "(a) adding 30 Hz to the transmitted signal",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q23",
+      "question": "If the VOR accuracy has a limit of 1.0°, what is the maximum cross-track error at 200",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 3.0          NM",
+        "(b) 2.5          NM",
+        "(c) 2.0          NM",
+        "(d) 3.5          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 3.0          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q24",
+      "question": "What is the maximum distance apart a VOR and TACAN can be located and have the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2000          m",
+        "(b) 60          m",
+        "(c) 600          m",
+        "(d) 6          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 2000          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q25",
+      "question": "What is the maximum distance between VOR beacons designating the centre line of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 120          NM",
+        "(b) 109          NM",
+        "(c) 60          NM",
+        "(d) 54          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 120          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q26",
+      "question": "In a certain VORTAC installation the VOR is coding STN and the DME is coding STZ.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 600          m",
+        "(b) 100          m",
+        "(c) 2000          m",
+        "(d) 300          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 600          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q27",
+      "question": "Using  a  5  dot  CDI,  how  many  dots  would  show  for  an  aircraft  on  the  edge  of  an",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 5",
+        "(b) 2.5",
+        "(c) 1.5",
+        "(d) 3"
+      ],
+      "answer": "a",
+      "solution": "(a) 5",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q28",
+      "question": "The maximum range an aircraft at FL370 can receive transmissions from a VOR/DME",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 275          NM",
+        "(b) 200          NM",
+        "(c) 243          NM",
+        "(d) 220          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 275          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q29",
+      "question": "When tracking a VOR radial inbound the aircraft would fly:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a constant track",
+        "(b) a great circle track",
+        "(c) a rhumb line track",
+        "(d) a constant heading"
+      ],
+      "answer": "a",
+      "solution": "(a) a constant track",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q30",
+      "question": "Which of the following is a valid frequency (MHz) for a VOR?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 107.75",
+        "(b) 109.90",
+        "(c) 118.35",
+        "(d) 112.20"
+      ],
+      "answer": "a",
+      "solution": "(a) 107.75",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q31",
+      "question": "Using a VOR beyond the limits of the DOC may result in:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) loss of signal due to line of sight limitations",
+        "(b) interference from other VORs operating on the same frequency",
+        "(c) sky wave contamination of the VOR signal",
+        "(d) scalloping          errors"
+      ],
+      "answer": "a",
+      "solution": "(a) loss of signal due to line of sight limitations",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q32",
+      "question": "An aircraft is flying a heading of 090° along the equator, homing to a VOR.  If variation",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 075",
+        "(b) 105",
+        "(c) 255",
+        "(d) 285"
+      ],
+      "answer": "a",
+      "solution": "(a) 075",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q33",
+      "question": "When  identifying  a  co-located  VOR/DME  the  following  signals  are  heard  in  the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 4 identifications in the same tone",
+        "(b) 4 identifications with the DME at a higher tone",
+        "(c) 4 identifications with the DME at a lower tone",
+        "(d) no  DME  identification,  but  if  the  VOR  identification  is  present  and  a  range  is"
+      ],
+      "answer": "a",
+      "solution": "(a) 4 identifications in the same tone",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q34",
+      "question": "What  is  the  maximum  range  a  transmission  from  a  VOR  beacon  at  169  ft  can  be",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 60          NM",
+        "(b) 80          NM",
+        "(c) 120          NM",
+        "(d) 220          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 60          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q35",
+      "question": "An aircraft is tracking inbound to a VOR beacon on the 105 radial.  The setting the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 285,          TO",
+        "(b) 105,          TO",
+        "(c) 285,          FROM",
+        "(d) 105,          FROM"
+      ],
+      "answer": "a",
+      "solution": "(a) 285,          TO",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q36",
+      "question": "When tracking the 090 radial outbound from a VOR, the track flown is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a straight line",
+        "(b) a rhumb line",
+        "(c) a great circle",
+        "(d) a constant true heading"
+      ],
+      "answer": "a",
+      "solution": "(a) a straight line",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q37",
+      "question": "The frequency band of VOR is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) VHF",
+        "(b) UHF",
+        "(c) HF",
+        "(d) LF & MF"
+      ],
+      "answer": "a",
+      "solution": "(a) VHF",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q38",
+      "question": "On which radial from a VOR at 61N025E (VAR 13°E) is an aircraft at 59N025E (VAR",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 160",
+        "(b) 347",
+        "(c) 193",
+        "(d) 167"
+      ],
+      "answer": "a",
+      "solution": "(a) 160",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q39",
+      "question": "What is the minimum height an aircraft must be to receive signals from a VOR at 196",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 26          000          ft",
+        "(b) 16          000          ft",
+        "(c) 24          000          ft",
+        "(d) 20          000          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 26          000          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q40",
+      "question": "For  a  conventional  VOR  a  phase  difference  of  090°  would  be  achieved  by  flying",
+      "question_type": "MCQ",
+      "options": [
+        "(a) west",
+        "(b) north",
+        "(c) east",
+        "(d) south"
+      ],
+      "answer": "a",
+      "solution": "(a) west",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q41",
+      "question": "At a range of 200 NM from a VOR, if there is an error of 1°, how far off the centre line",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 3.5          NM",
+        "(b) 1.75          NM",
+        "(c) 7          NM",
+        "(d) 1          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 3.5          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q42",
+      "question": "The quoted accuracy of VOR is valid:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) at all times",
+        "(b) by day only",
+        "(c) at all times except night",
+        "(d) at all times except dawn and dusk"
+      ],
+      "answer": "a",
+      "solution": "(a) at all times",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q43",
+      "question": "Which of the following provides distance information?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) DME",
+        "(b) VOR",
+        "(c) ADF",
+        "(d) VDF"
+      ],
+      "answer": "a",
+      "solution": "(a) DME",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q44",
+      "question": "Which of the following would give the best indication of speed?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) A VOR on the flight plan route",
+        "(b) A VOR off the flight plan route",
+        "(c) A DME on the flight plan route",
+        "(d) A DME off the flight plan route"
+      ],
+      "answer": "a",
+      "solution": "(a) A VOR on the flight plan route",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q45",
+      "question": "What happens when a DME in the search mode fails to achieve lock-on?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) It  stays  in  the  search  mode,  but  reduces  to  60  pulse  pairs  per  second  (ppps)",
+        "(b) It stays in the search mode, but reduces to 60 ppps after 15 000 pulse pairs",
+        "(c) It stays in the search mode at 150 ppps",
+        "(d) It alternates between search and memory modes every 10 seconds"
+      ],
+      "answer": "a",
+      "solution": "(a) It  stays  in  the  search  mode,  but  reduces  to  60  pulse  pairs  per  second  (ppps)",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q46",
+      "question": "The most accurate measurement of speed by DME for an aircraft at 30 000 ft will be",
+      "question_type": "MCQ",
+      "options": [
+        "(a) tracking towards the beacon at 10 NM",
+        "(b) overhead the beacon",
+        "(c) tracking away from the beacon at 100 NM",
+        "(d) passing abeam the beacon at 5 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) tracking towards the beacon at 10 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q47",
+      "question": "A DME beacon will become saturated when more than about ............... aircraft are",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 10",
+        "(b) 50",
+        "(c) 100",
+        "(d) 200"
+      ],
+      "answer": "a",
+      "solution": "(a) 10",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q48",
+      "question": "A typical DME frequency is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1000          MHz",
+        "(b) 1300          MHz",
+        "(c) 1000          kHz",
+        "(d) 1575          MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) 1000          MHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q49",
+      "question": "The DME in an aircraft, cruising at FL210, fails to achieve lock-on a DME at MSL at a",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the beacon is saturated",
+        "(b) the aircraft is beyond the maximum usable range for DME",
+        "(c) the aircraft is beyond line of sight range",
+        "(d) the aircraft signal is too weak at that range to trigger a response"
+      ],
+      "answer": "a",
+      "solution": "(a) the beacon is saturated",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q50",
+      "question": "The aircraft DME receiver accepts replies to its own transmissions but rejects replies",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the PRF of the interrogations is unique to each aircraft",
+        "(b) the pulse pairs from each aircraft have a unique amplitude modulation",
+        "(c) the interrogation frequencies are 63 MHz different for each aircraft",
+        "(d) the interrogation and reply frequencies are separated by 63 MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) the PRF of the interrogations is unique to each aircraft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q51",
+      "question": "When  an  aircraft  at  FL360  is  directly  above  a  DME,  at  mean  sea  level,  the  range",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 6          NM",
+        "(b) 9          NM",
+        "(c) 0",
+        "(d) 12          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 6          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q52",
+      "question": "A DME frequency could be:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 10          MHz",
+        "(b) 100          MHz",
+        "(c) 1000          MHz",
+        "(d) 10          000          MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) 10          MHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q53",
+      "question": "An aircraft at FL360 is 10 NM plan range from a DME.  The DME reading in the aircraft",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 8          NM",
+        "(b) 11.7          NM",
+        "(c) 10          NM",
+        "(d) 13.6          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 8          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q54",
+      "question": "A DME transceiver does not lock onto its own reflections because:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the PRF of the pulse pairs is jittered",
+        "(b) it uses MTI",
+        "(c) the interrogation and reply frequencies differ",
+        "(d) the reflections will all fall within the flyback period"
+      ],
+      "answer": "a",
+      "solution": "(a) the PRF of the pulse pairs is jittered",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q55",
+      "question": "What information does military TACAN provide for civil aviation users?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Magnetic          bearing",
+        "(b) DME",
+        "(c) Nothing",
+        "(d) DME and magnetic bearing"
+      ],
+      "answer": "a",
+      "solution": "(a) Magnetic          bearing",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q56",
+      "question": "The DME in an aircraft flying at FL430 shows a range of 15 NM from a beacon at an",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 13.5          NM",
+        "(b) 16.5          NM",
+        "(c) 15          NM",
+        "(d) 17.6          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 13.5          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q57",
+      "question": "What are the DME frequencies?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1030 & 1090 MHz",
+        "(b) 1030 – 1090 MHz",
+        "(c) 960 &1215 MHz",
+        "(d) 960 – 1215 MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) 1030 & 1090 MHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q58",
+      "question": "The time from the transmission of the interrogation pulse to the receipt of the reply",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 330          NM",
+        "(b) 185          NM",
+        "(c) 165          NM",
+        "(d) 370          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 330          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q59",
+      "question": "The DME counters are rotating continuously.  This indicates that:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the DME is unserviceable",
+        "(b) the DME is trying to lock onto range",
+        "(c) the DME is trying to lock onto frequency",
+        "(d) the DME is receiving no response from the ground station"
+      ],
+      "answer": "a",
+      "solution": "(a) the DME is unserviceable",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q60",
+      "question": "On a DME presentation the counters are continuously rotating.  This indicates:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the DME is in the search mode",
+        "(b) the DME is unserviceable",
+        "(c) the DME is receiving no response from the transponder",
+        "(d) The transponder is unserviceable"
+      ],
+      "answer": "a",
+      "solution": "(a) the DME is in the search mode",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q61",
+      "question": "An aircraft at FL200 is 220 NM from a DME at MSL.  The aircraft equipment fails to",
+      "question_type": "MCQ",
+      "options": [
+        "(a) DME is limited to 200 NM",
+        "(b) the aircraft is too high to receive the signal",
+        "(c) the aircraft is too low to receive the signal",
+        "(d) the beacon is saturated"
+      ],
+      "answer": "a",
+      "solution": "(a) DME is limited to 200 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q62",
+      "question": "On  an  ILS  approach  you  receive  more  of  the  90  Hz  modulation  than  the  150  Hz",
+      "question_type": "MCQ",
+      "options": [
+        "(a) fly left and up",
+        "(b) fly left and down",
+        "(c) fly right and up",
+        "(d) fly right and down"
+      ],
+      "answer": "a",
+      "solution": "(a) fly left and up",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q63",
+      "question": "The errors of an ILS localizer (LLZ) beam are due to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) emission side lobes",
+        "(b) ground          reflections",
+        "(c) spurious signals from objects near the runway",
+        "(d) interference from other systems operating on the same frequency"
+      ],
+      "answer": "a",
+      "solution": "(a) emission side lobes",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q64",
+      "question": "The amplitude modulation of the ILS outer marker is ............... and it illuminates the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 400          Hz                                    blue",
+        "(b) 1300          Hz                         amber",
+        "(c) 400 Hz   amber",
+        "(d) 1300          Hz                          blue"
+      ],
+      "answer": "a",
+      "solution": "(a) 400          Hz                                    blue",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q65",
+      "question": "The  principle  of  operation  of  the  ILS  localizer  transmitter  is  that  it  transmits  two",
+      "question_type": "MCQ",
+      "options": [
+        "(a) different frequencies with different phases",
+        "(b) the same frequency with different phases",
+        "(c) the same frequency with different amplitude modulations",
+        "(d) different frequencies with different amplitude modulations"
+      ],
+      "answer": "a",
+      "solution": "(a) different frequencies with different phases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q66",
+      "question": "The ILS glide slope transmitter generates false glide paths because of:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ground returns from the vicinity of the transmitter",
+        "(b) back scattering of the signals",
+        "(c) multiple lobes in the radiation pattern",
+        "(d) reflections from obstacles in the vicinity of the transmitter"
+      ],
+      "answer": "a",
+      "solution": "(a) ground returns from the vicinity of the transmitter",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q67",
+      "question": "A category III ILS system provides accurate guidance down to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the surface of the runway",
+        "(b) less than 50 ft",
+        "(c) less than 100 ft",
+        "(d) less than 200 ft"
+      ],
+      "answer": "a",
+      "solution": "(a) the surface of the runway",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q68",
+      "question": "A HSI compass rose is stuck on 200°.  When the aircraft is lined up on the centre line",
+      "question_type": "MCQ",
+      "options": [
+        "(a) left of the centre",
+        "(b) centred",
+        "(c) right of the centre",
+        "(d) centred with the fail flag showing"
+      ],
+      "answer": "a",
+      "solution": "(a) left of the centre",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q69",
+      "question": "The coverage of the ILS glide slope with respect to the localizer centre line is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) +/-10° to 8 NM",
+        "(b) +/-10° to 25 NM",
+        "(c) +/-8° to 10 NM",
+        "(d) +/-35° to 17 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) +/-10° to 8 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q70",
+      "question": "The middle marker is usually located at a range of ................., with an audio frequency",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 4-6 NM  1300 Hz white",
+        "(b) 1 km     400 Hz  white",
+        "(c) 1 km     1300 Hz amber",
+        "(d) 1 km     400 Hz  amber"
+      ],
+      "answer": "a",
+      "solution": "(a) 4-6 NM  1300 Hz white",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q71",
+      "question": "The sequence of marker colours when flying an ILS approach is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) white, blue, amber",
+        "(b) blue, white, amber",
+        "(c) blue, amber, white",
+        "(d) amber, blue, white"
+      ],
+      "answer": "a",
+      "solution": "(a) white, blue, amber",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q72",
+      "question": "The sensitive area of an ILS is the area aircraft may not enter when:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ILS operations are in progress",
+        "(b) category I ILS operations are in progress",
+        "(c) category II/III ILS operations are in progress",
+        "(d) the ILS is undergoing calibration"
+      ],
+      "answer": "a",
+      "solution": "(a) ILS operations are in progress",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q73",
+      "question": "The ILS localizer is normally positioned:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 300 m from the downwind end of the runway",
+        "(b) 300 m from the threshold",
+        "(c) 300 m from the upwind end of the runway",
+        "(d) 200 m abeam the threshold"
+      ],
+      "answer": "a",
+      "solution": "(a) 300 m from the downwind end of the runway",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q74",
+      "question": "The audio frequency of the outer marker is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 3000          Hz",
+        "(b) 400          Hz",
+        "(c) 1300          Hz",
+        "(d) 1000          Hz"
+      ],
+      "answer": "a",
+      "solution": "(a) 3000          Hz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q75",
+      "question": "An aircraft is flying downwind outside the coverage of the ILS.  The CDI indications",
+      "question_type": "MCQ",
+      "options": [
+        "(a) unreliable in azimuth and elevation",
+        "(b) reliable in azimuth, unreliable in elevation",
+        "(c) no indications will be shown",
+        "(d) reliable in azimuth and elevation"
+      ],
+      "answer": "a",
+      "solution": "(a) unreliable in azimuth and elevation",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q76",
+      "question": "The frequency band of the ILS glide path is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) UHF",
+        "(b) VHF",
+        "(c) SHF",
+        "(d) VLF"
+      ],
+      "answer": "a",
+      "solution": "(a) UHF",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q77",
+      "question": "In which band does the ILS glide path operate?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) metric",
+        "(b) centimetric",
+        "(c) decimetric",
+        "(d) hectometric"
+      ],
+      "answer": "a",
+      "solution": "(a) metric",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q78",
+      "question": "The coverage of MLS is ............... either side of the centre line to a distance of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 40°                       40          NM",
+        "(b) 40°                       20          NM",
+        "(c) 20°                       20          NM",
+        "(d) 20°                       40          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 40°                       40          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q79",
+      "question": "Distance on MLS is measured by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) measuring  the  time  taken  for  the  primary  radar  pulse  to  travel  from  the  MLS",
+        "(b) measuring the time taken for the secondary radar pulse to travel from the MLS",
+        "(c) phase comparison between the azimuth and elevation beams",
+        "(d) co-located          DME"
+      ],
+      "answer": "a",
+      "solution": "(a) measuring  the  time  taken  for  the  primary  radar  pulse  to  travel  from  the  MLS",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q80",
+      "question": "Which of the following is an advantage of MLS?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Can be used in inhospitable terrain",
+        "(b) Uses the same aircraft equipment as ILS",
+        "(c) Has a selective access ability",
+        "(d) Is not affected by heavy precipitation"
+      ],
+      "answer": "a",
+      "solution": "(a) Can be used in inhospitable terrain",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q81",
+      "question": "The frequency band of MLS is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) UHF",
+        "(b) VHF",
+        "(c) SHF",
+        "(d) VLF"
+      ],
+      "answer": "a",
+      "solution": "(a) UHF",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q82",
+      "question": "Primary radar operates on the principle of:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) transponder          interrogation",
+        "(b) pulse          technique",
+        "(c) phase          comparison",
+        "(d) continuous wave emission"
+      ],
+      "answer": "a",
+      "solution": "(a) transponder          interrogation",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q83",
+      "question": "The definition of a radar display will be best with:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) narrow beamwidth and narrow pulsewidth",
+        "(b) narrow beamwidth and wide pulsewidth",
+        "(c) wide beamwidth and narrow pulsewidth",
+        "(d) wide beamwidth and wide pulsewidth"
+      ],
+      "answer": "a",
+      "solution": "(a) narrow beamwidth and narrow pulsewidth",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q84",
+      "question": "The main advantage of a continuous wave radar over a pulsed radar is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) more complex equipment but better resolution and accuracy",
+        "(b) removes the minimum range restriction",
+        "(c) smaller more compact equipment",
+        "(d) permits measurement of Doppler in addition to improved range and bearing"
+      ],
+      "answer": "a",
+      "solution": "(a) more complex equipment but better resolution and accuracy",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q85",
+      "question": "85. Which of the following systems use pulse technique?",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q86",
+      "question": "1. secondary surveillance radar",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q87",
+      "question": "2. airborne weather radar",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q88",
+      "question": "3. distance measuring equipment",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q89",
+      "question": "primary          radar",
+      "question_type": "MCQ",
+      "options": [
+        "(a) all the above",
+        "(b) 2 and 4 only",
+        "(c) 2          only",
+        "(d) 1 and 3 only"
+      ],
+      "answer": "a",
+      "solution": "(a) all the above",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q90",
+      "question": "To double the range of a primary radar, the power must be increased by a factor of:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2",
+        "(b) 4",
+        "(c) 8",
+        "(d) 16"
+      ],
+      "answer": "a",
+      "solution": "(a) 2",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q91",
+      "question": "In a primary pulsed radar the ability to discriminate in azimuth is a factor of:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) pulse          width",
+        "(b) beamwidth",
+        "(c) pulse recurrence rate",
+        "(d) rate of rotation"
+      ],
+      "answer": "a",
+      "solution": "(a) pulse          width",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q92",
+      "question": "The maximum range of a ground radar is limited by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) pulse          width",
+        "(b) peak          power",
+        "(c) average          power",
+        "(d) pulse recurrence rate"
+      ],
+      "answer": "a",
+      "solution": "(a) pulse          width",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q93",
+      "question": "What does pulse recurrence rate refer to?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the number of cycles per second",
+        "(b) the number of pulses per second",
+        "(c) the ratio of pulse width to pulse repetition period",
+        "(d) the delay known as flyback or dead time"
+      ],
+      "answer": "a",
+      "solution": "(a) the number of cycles per second",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q94",
+      "question": "The maximum PRF required for a range of 50 NM is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 300 pulses per second (pps)",
+        "(b) 600          pps",
+        "(c) 1620          pps",
+        "(d) 3280          pps"
+      ],
+      "answer": "a",
+      "solution": "(a) 300 pulses per second (pps)",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q95",
+      "question": "The best radar for measuring very short ranges is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a continuous wave primary radar",
+        "(b) a pulsed secondary radar",
+        "(c) a pulsed primary radar",
+        "(d) a continuous wave secondary radar"
+      ],
+      "answer": "a",
+      "solution": "(a) a continuous wave primary radar",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q96",
+      "question": "Which is the most suitable radar for measuring short ranges?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Millimetric          pulse",
+        "(b) Continuous wave primary",
+        "(c) Centimetric          pulse",
+        "(d) Continuous wave secondary"
+      ],
+      "answer": "a",
+      "solution": "(a) Millimetric          pulse",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q97",
+      "question": "The main advantage of a slotted scanner is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) reduces side lobes and directs more energy into the main beam",
+        "(b) removes the need for azimuth slaving",
+        "(c) side lobe suppression",
+        "(d) can produce simultaneous map and weather information"
+      ],
+      "answer": "a",
+      "solution": "(a) reduces side lobes and directs more energy into the main beam",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q98",
+      "question": "The maximum unambiguous (theoretical) range for a PRF of 1200 pps is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 134          NM",
+        "(b) 180          NM",
+        "(c) 67          NM",
+        "(d) 360          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 134          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q99",
+      "question": "The  PRF  of  a  radar  is  450  pps.    If  the  speed  of  light  is  300  000  km/s,  what  is  the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 150          km",
+        "(b) 333          km",
+        "(c) 666          km",
+        "(d) 1326          km"
+      ],
+      "answer": "a",
+      "solution": "(a) 150          km",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q100",
+      "question": "The best picture on a primary radar will be obtained using:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) low frequency, narrow beam",
+        "(b) short wavelength, narrow beam",
+        "(c) high frequency, wide beam",
+        "(d) long wavelength, wide beam"
+      ],
+      "answer": "a",
+      "solution": "(a) low frequency, narrow beam",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q101",
+      "question": "Which of the following is a primary radar system?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) SSR",
+        "(b) DME",
+        "(c) GPS",
+        "(d) AWR"
+      ],
+      "answer": "a",
+      "solution": "(a) SSR",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q102",
+      "question": "On what principle does primary ATC radar work?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Pulse          technique",
+        "(b) Pulse          comparison",
+        "(c) Continuous          wave",
+        "(d) Transponder          interrogation"
+      ],
+      "answer": "a",
+      "solution": "(a) Pulse          technique",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q103",
+      "question": "The airborne weather radar (AWR) cannot detect:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) snow",
+        "(b) moderate          rain",
+        "(c) dry          hail",
+        "(d) wet          hail"
+      ],
+      "answer": "a",
+      "solution": "(a) snow",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q104",
+      "question": "The frequency of AWR is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 9375          MHz",
+        "(b) 937.5          MHz",
+        "(c) 93.75          GHz",
+        "(d) 9375          GHz"
+      ],
+      "answer": "a",
+      "solution": "(a) 9375          MHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q105",
+      "question": "The use of the AWR on the ground is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) not          permitted",
+        "(b) permitted provided reduced power is used",
+        "(c) permitted provided special precautions are taken to safeguard personnel and",
+        "(d) only permitted to assist movement in low visibility conditions"
+      ],
+      "answer": "a",
+      "solution": "(a) not          permitted",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q106",
+      "question": "Which type of cloud does the AWR detect?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Cirrocumulus",
+        "(b) Altostratus",
+        "(c) Cumulus",
+        "(d) Stratus"
+      ],
+      "answer": "a",
+      "solution": "(a) Cirrocumulus",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q107",
+      "question": "The AWR uses the cosecant squared beam in the ............... mode.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) WEA",
+        "(b) CONT",
+        "(c) MAP",
+        "(d) MAN"
+      ],
+      "answer": "a",
+      "solution": "(a) WEA",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q108",
+      "question": "On the AWR display the most severe turbulence will be shown:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) in flashing red",
+        "(b) by a black hole",
+        "(c) by a steep colour gradient",
+        "(d) alternating red and white"
+      ],
+      "answer": "a",
+      "solution": "(a) in flashing red",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q109",
+      "question": "On  an  AWR  colour  display,  the  sequence  of  colours  indicating  increasing  water",
+      "question_type": "MCQ",
+      "options": [
+        "(a) blue, green, red",
+        "(b) green, yellow, red",
+        "(c) black, amber, red",
+        "(d) blue, amber, green"
+      ],
+      "answer": "a",
+      "solution": "(a) blue, green, red",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q110",
+      "question": "In an AWR with a 5° beamwidth, how do you orientate the scanner to receive returns",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 0°          tilt",
+        "(b) 2.5°          uptilt",
+        "(c) 2.5°          downtilt",
+        "(d) 5°          uptilt"
+      ],
+      "answer": "a",
+      "solution": "(a) 0°          tilt",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q111",
+      "question": "The ISO-ECHO circuit is incorporated in the AWR:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) to allow ground mapping",
+        "(b) to alert pilots to the presence of cloud",
+        "(c) to display areas of turbulence in cloud",
+        "(d) to allow simultaneous mapping and cloud detection"
+      ],
+      "answer": "a",
+      "solution": "(a) to allow ground mapping",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q112",
+      "question": "The main factors which affect whether an AWR will detect a cloud are:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the size of the water droplets and the diameter of the antenna reflector",
+        "(b) the scanner rotation rate and the frequency/wavelength",
+        "(c) the size of the water droplets and the wavelength/frequency",
+        "(d) the size of the water droplets and the range of the cloud"
+      ],
+      "answer": "a",
+      "solution": "(a) the size of the water droplets and the diameter of the antenna reflector",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q113",
+      "question": "In an AWR with a colour CRT, areas of greatest turbulence are indicated by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) iso-echo areas coloured black",
+        "(b) large areas of flashing red",
+        "(c) iso-echo areas with no colour",
+        "(d) most rapid change of colour"
+      ],
+      "answer": "a",
+      "solution": "(a) iso-echo areas coloured black",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q114",
+      "question": "As a storm intensifies, the colour sequence on the AWR display will change:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) black, yellow, amber",
+        "(b) green, yellow, red",
+        "(c) blue, green, orange",
+        "(d) green, yellow, amber"
+      ],
+      "answer": "a",
+      "solution": "(a) black, yellow, amber",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q115",
+      "question": "The cosecant squared beam is used for mapping in the AWR because:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a greater range can be achieved",
+        "(b) a wider beam is produced in azimuth to give a greater coverage",
+        "(c) a larger area of ground is illuminated by the beam",
+        "(d) it allows cloud detection to be effected whilst mapping"
+      ],
+      "answer": "a",
+      "solution": "(a) a greater range can be achieved",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q116",
+      "question": "112. The AWR can be used on the ground provided:",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q117",
+      "question": "1. the aircraft is clear of personnel, buildings and vehicles",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q118",
+      "question": "2. conical beam is selected",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q119",
+      "question": "3. maximum uptilt is selected",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q120",
+      "question": "the AWR must never be operated on the ground",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 4",
+        "(b) 1 and 3",
+        "(c) 1, 2 and 3",
+        "(d) 2 and 3"
+      ],
+      "answer": "a",
+      "solution": "(a) 4",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q121",
+      "question": "Doppler  navigation  systems  use  ...............  to  determine  the  aircraft  ground  speed",
+      "question_type": "MCQ",
+      "options": [
+        "(a) DVOR",
+        "(b) phase comparison of signals from ground stations",
+        "(c) frequency shift in signals reflected from the ground",
+        "(d) DME range measurement"
+      ],
+      "answer": "a",
+      "solution": "(a) DVOR",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q122",
+      "question": "Which axes is the AWR stabilized in?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Pitch, roll and yaw",
+        "(b) Roll and yaw",
+        "(c) Pitch and roll",
+        "(d) Pitch          only"
+      ],
+      "answer": "a",
+      "solution": "(a) Pitch, roll and yaw",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q123",
+      "question": "With normal SSR mode C altitude coding the aircraft replies by sending back a train",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 4096 codes in 4 blocks",
+        "(b) 2048 codes in 3 blocks",
+        "(c) 4096 codes in 3 blocks",
+        "(d) 2048 codes in 4 blocks"
+      ],
+      "answer": "a",
+      "solution": "(a) 4096 codes in 4 blocks",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q124",
+      "question": "Why is the effect of returns from storms not a problem with SSR?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The frequency is too high",
+        "(b) SSR does not use the echo principle",
+        "(c) The PRF is jittered",
+        "(d) By the use of MTI to remove stationary and slow moving returns"
+      ],
+      "answer": "a",
+      "solution": "(a) The frequency is too high",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q125",
+      "question": "The advantages of SSR mode S are:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) improved resolution, TCAS",
+        "(b) data link, reduced voice communications",
+        "(c) TCAS, no RT communications",
+        "(d) better resolution, selective interrogation"
+      ],
+      "answer": "a",
+      "solution": "(a) improved resolution, TCAS",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q126",
+      "question": "The accuracy of SSR mode C altitude as displayed to the air traffic controller is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) +/-25          ft",
+        "(b) +/-50          ft",
+        "(c) +/-75          ft",
+        "(d) +/-100          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) +/-25          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q127",
+      "question": "The  SSR  ground  transceiver  interrogates  on  ................  and  receives  responses  on",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1030 MHz 1030 MHz",
+        "(b) 1030 MHz 1090 MHz",
+        "(c) 1090 MHz 1030 MHz",
+        "(d) 1090 MHz 1090 MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) 1030 MHz 1030 MHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q128",
+      "question": "The vertical position provided by SSR mode C is referenced to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) QNH unless QFE is in use",
+        "(b) 1013.25          hPa",
+        "(c) QNH",
+        "(d) WGS84          datum"
+      ],
+      "answer": "a",
+      "solution": "(a) QNH unless QFE is in use",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q129",
+      "question": "Why is a secondary radar display free from weather clutter?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The frequencies are too low to detect water droplets",
+        "(b) The frequencies are too high to detect water droplets",
+        "(c) Moving  target  indication  is  used  to  suppress  the  static  generated  by  water",
+        "(d) The principle of the return of echoes is not used"
+      ],
+      "answer": "a",
+      "solution": "(a) The frequencies are too low to detect water droplets",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q130",
+      "question": "The availability of 4096 codes in SSR is applicable to mode:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) A",
+        "(b) C",
+        "(c) S",
+        "(d) all"
+      ],
+      "answer": "a",
+      "solution": "(a) A",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q131",
+      "question": "With reference to SSR, what code is used to indicate transponder altitude failure?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 9999",
+        "(b) 0000",
+        "(c) 4096",
+        "(d) 7600"
+      ],
+      "answer": "a",
+      "solution": "(a) 9999",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q132",
+      "question": "In NAVSTAR/GPS the PRN codes are used to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) reduce ionospheric and tropospheric errors",
+        "(b) determine satellite range",
+        "(c) eliminate satellite clock and ephemeris errors",
+        "(d) remove receiver clock error"
+      ],
+      "answer": "a",
+      "solution": "(a) reduce ionospheric and tropospheric errors",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q133",
+      "question": "The MDA for a non-precision approach using NAVSTAR/GPS is based on:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) barometric          altitude",
+        "(b) radio          altimeter",
+        "(c) GPS          altitude",
+        "(d) GPS or barometric altitude"
+      ],
+      "answer": "a",
+      "solution": "(a) barometric          altitude",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q134",
+      "question": "If, during a manoeuvre, a satellite being used for position fixing is shadowed by the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) none",
+        "(b) the position will degrade",
+        "(c) another satellite will be selected, so there will be no degradation of position",
+        "(d) the GPS will maintain lock using reflections of the signals from the fuselage"
+      ],
+      "answer": "a",
+      "solution": "(a) none",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q135",
+      "question": "The  time  required  for  a  GNSS  receiver  to  download  the  satellite  almanac  for  the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 12.5          minutes",
+        "(b) 12          hours",
+        "(c) 30          seconds",
+        "(d) 15          minutes"
+      ],
+      "answer": "a",
+      "solution": "(a) 12.5          minutes",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q136",
+      "question": "The effect of the ionosphere on NAVSTAR/GPS accuracy is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) only significant for satellites close to the horizon",
+        "(b) minimized by averaging the signals",
+        "(c) minimized  by  the  receivers  using  a  model  of  the  ionosphere  to  correct  the",
+        "(d) negligible"
+      ],
+      "answer": "a",
+      "solution": "(a) only significant for satellites close to the horizon",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q137",
+      "question": "The height derived by a receiver from the NAVSTAR/GPS is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) above mean sea level",
+        "(b) above ground level",
+        "(c) above the WGS84 ellipsoid",
+        "(d) pressure          altitude"
+      ],
+      "answer": "a",
+      "solution": "(a) above mean sea level",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q138",
+      "question": "The NAVSTAR/GPS constellation comprises:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 24 satellites in 6 orbits",
+        "(b) 24 satellites in 4 orbits",
+        "(c) 24 satellites in 3 orbits",
+        "(d) 24 satellites in 8 orbits"
+      ],
+      "answer": "a",
+      "solution": "(a) 24 satellites in 6 orbits",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q139",
+      "question": "Selective  availability  may  be  used  to  degrade  the  accuracy  of  the  NAVSTAR/GPS",
+      "question_type": "MCQ",
+      "options": [
+        "(a) introducing an offset in the satellites clocks",
+        "(b) random dithering of the broadcast satellites clock time",
+        "(c) random dithering of the broadcast satellites X, Y & Z coordinates",
+        "(d) introducing an offset in the broadcast satellites X, Y & Z coordinates"
+      ],
+      "answer": "a",
+      "solution": "(a) introducing an offset in the satellites clocks",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q140",
+      "question": "The positioning of a GNSS aerial on an aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) in the fin",
+        "(b) on the fuselage as close as possible to the receiver",
+        "(c) on top of the fuselage close to the centre of gravity",
+        "(d) under the fuselage"
+      ],
+      "answer": "a",
+      "solution": "(a) in the fin",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q141",
+      "question": "The NAVSTAR/GPS space segment:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) provides  X,  Y  &  Z  coordinates  and  monitoring  of  the  accuracy  of  the  satellite",
+        "(b) provides X, Y, Z & T coordinates and the constellation data",
+        "(c) monitors the accuracy of the satellite data and provides system time",
+        "(d) provides geographic position and UTC"
+      ],
+      "answer": "a",
+      "solution": "(a) provides  X,  Y  &  Z  coordinates  and  monitoring  of  the  accuracy  of  the  satellite",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q142",
+      "question": "Concerning NAVSTAR/GPS orbits, which of the following statements is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The inclination of the orbits is 55° with an orbital period of 12 hours",
+        "(b) The inclination of the orbits is 55° with an orbital period of 24 hours",
+        "(c) The orbits are geostationary to provide global coverage",
+        "(d) The orbits are inclined at 65° with an orbital period of 11 hours 15 minutes"
+      ],
+      "answer": "a",
+      "solution": "(a) The inclination of the orbits is 55° with an orbital period of 12 hours",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q143",
+      "question": "NAVSTAR GPS receiver clock error is removed by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) regular auto-synchronization with the satellite clocks",
+        "(b) adjusting the pseudo-ranges to determine the error",
+        "(c) synchronization with the satellite clocks on initialization",
+        "(d) having an appropriate atomic time standard within the receiver"
+      ],
+      "answer": "a",
+      "solution": "(a) regular auto-synchronization with the satellite clocks",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q144",
+      "question": "The  contents  of  the  navigation  and  systems  message  from  NAVSTAR/GPS  SVs",
+      "question_type": "MCQ",
+      "options": [
+        "(a) satellite clock error, almanac data, ionospheric propagation information",
+        "(b) satellite clock error, almanac data, satellite position error",
+        "(c) position accuracy verification, satellite clock time and clock error",
+        "(d) ionospheric  propagation  information,  X,  Y  &  Z  coordinates  and  corrections,"
+      ],
+      "answer": "a",
+      "solution": "(a) satellite clock error, almanac data, ionospheric propagation information",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q145",
+      "question": "The NAVSTAR/GPS segments are:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) space, control, user",
+        "(b) space, control, ground",
+        "(c) space, control, air",
+        "(d) space, ground, air"
+      ],
+      "answer": "a",
+      "solution": "(a) space, control, user",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q146",
+      "question": "The preferred GNSS receiver for airborne application is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) multiplex",
+        "(b) multi-channel",
+        "(c) sequential",
+        "(d) fast          multiplex"
+      ],
+      "answer": "a",
+      "solution": "(a) multiplex",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q147",
+      "question": "The orbital height of geostationary satellites is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 19          330          km",
+        "(b) 35          800          km",
+        "(c) 10          898          NM",
+        "(d) 10          313          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 19          330          km",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q148",
+      "question": "The best accuracy from satellite systems will be provided by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) NAVSTAR/GPS and TNSS transit",
+        "(b) GLONASS and COSPAS/SARSAT",
+        "(c) GLONASS and TNSS transit",
+        "(d) NAVSTAR/GPS and GLONASS"
+      ],
+      "answer": "a",
+      "solution": "(a) NAVSTAR/GPS and TNSS transit",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q149",
+      "question": "The azimuth and elevation of the satellites is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) determined by the satellite and transmitted to the receiver",
+        "(b) determined by the receiver from the satellite almanac data",
+        "(c) transmitted by the satellite as part of the almanac",
+        "(d) determined by the receiver from the broadcast satellite X, Y, Z & T data"
+      ],
+      "answer": "a",
+      "solution": "(a) determined by the satellite and transmitted to the receiver",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q150",
+      "question": "The skysearch carried out by a GNSS receiver:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) is done prior to each fix",
+        "(b) is done when the receiver position is in error",
+        "(c) involves  the  receiver  downloading  the  almanac  from  each  satellite  before",
+        "(d) is the procedure carried out by the monitoring stations to check the accuracy of"
+      ],
+      "answer": "a",
+      "solution": "(a) is done prior to each fix",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q151",
+      "question": "An aircraft GNSS receiver is using 5 satellites for RAIM.  If the receiver deselects one",
+      "question_type": "MCQ",
+      "options": [
+        "(a) using 4 satellites with the pilot monitoring the receiver output",
+        "(b) using alternative navigation systems",
+        "(c) using alternative radio navigation systems only",
+        "(d) using inertial reference systems only"
+      ],
+      "answer": "a",
+      "solution": "(a) using 4 satellites with the pilot monitoring the receiver output",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q152",
+      "question": "The WGS84 model of the earth is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a          geoid",
+        "(b) a          sphere",
+        "(c) an exact model of the earth",
+        "(d) an          ellipse"
+      ],
+      "answer": "a",
+      "solution": "(a) a          geoid",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q153",
+      "question": "The frequency band of the NAVSTAR/GPS L1 and L2 frequencies is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) VHF",
+        "(b) UHF",
+        "(c) EHF",
+        "(d) SHF"
+      ],
+      "answer": "a",
+      "solution": "(a) VHF",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q154",
+      "question": "The number of satellites required to produce a 4D fix is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 3",
+        "(b) 4",
+        "(c) 5",
+        "(d) 6"
+      ],
+      "answer": "a",
+      "solution": "(a) 3",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q155",
+      "question": "How many satellites are needed for a 2D fix?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 4",
+        "(b) 2",
+        "(c) 3",
+        "(d) 5"
+      ],
+      "answer": "a",
+      "solution": "(a) 4",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q156",
+      "question": "Which  of  the  following  statements  concerning  ionospheric  propagation  errors  is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) They are significantly reduced by the use of RAIM",
+        "(b) They are eliminated using differential techniques",
+        "(c) They are significantly reduced when a second frequency is available",
+        "(d) Transmitting the state of the ionosphere to the receivers enables the error to"
+      ],
+      "answer": "a",
+      "solution": "(a) They are significantly reduced by the use of RAIM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q157",
+      "question": "Using differential GNSS for a non-precision approach, the height reference is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) barometric",
+        "(b) GNSS",
+        "(c) radio",
+        "(d) radio or GNSS"
+      ],
+      "answer": "a",
+      "solution": "(a) barometric",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q158",
+      "question": "The number of satellites required to provide a 3D fix without RAIM is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 4",
+        "(b) 5",
+        "(c) 6",
+        "(d) 3"
+      ],
+      "answer": "a",
+      "solution": "(a) 4",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q159",
+      "question": "The number of satellites required for a fully operational NAVSTAR/GPS is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 21",
+        "(b) 18",
+        "(c) 24",
+        "(d) 30"
+      ],
+      "answer": "a",
+      "solution": "(a) 21",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q160",
+      "question": "‘Unauthorized’ civilian users of NAVSTAR/GPS can access:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the P and Y codes",
+        "(b) the P code",
+        "(c) the C/A and P codes",
+        "(d) the C/A code"
+      ],
+      "answer": "a",
+      "solution": "(a) the P and Y codes",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q161",
+      "question": "When using GPS to fly airways, what is the vertical reference used?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Barometric",
+        "(b) GPS          height",
+        "(c) Radio          altitude",
+        "(d) Average of barometric and GPS"
+      ],
+      "answer": "a",
+      "solution": "(a) Barometric",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q162",
+      "question": "The nav/system message from GLONASS and NAVSTAR/GPS is found in the ...............",
+      "question_type": "MCQ",
+      "options": [
+        "(a) SHF",
+        "(b) UHF",
+        "(c) VHF",
+        "(d) EHF"
+      ],
+      "answer": "a",
+      "solution": "(a) SHF",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q163",
+      "question": "Which GNSS system can be used for IFR flights in Europe?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) NAVSTAR/GPS",
+        "(b) GLONASS",
+        "(c) COSPAS/SARSAT",
+        "(d) TNSS          transit"
+      ],
+      "answer": "a",
+      "solution": "(a) NAVSTAR/GPS",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q164",
+      "question": "During flight using NAVSTAR/GPS and conventional navigation systems, you see a",
+      "question_type": "MCQ",
+      "options": [
+        "(a) continue the flight in VMC",
+        "(b) continue using the conventional systems",
+        "(c) continue using the GPS",
+        "(d) switch off the faulty system after determining which one is in error"
+      ],
+      "answer": "a",
+      "solution": "(a) continue the flight in VMC",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q165",
+      "question": "What information can a GPS fix using four satellites give you?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Latitude and longitude",
+        "(b) Latitude, longitude, altitude and time",
+        "(c) Latitude, longitude and altitude",
+        "(d) Latitude, longitude and time"
+      ],
+      "answer": "a",
+      "solution": "(a) Latitude and longitude",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q166",
+      "question": "158. What are the basic elements transmitted by NAVSTAR/GPS satellites?",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q167",
+      "question": "1. offset of the satellite clock from GMT",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q168",
+      "question": "2.          ephemeris          data",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q169",
+      "question": "3.          health          data",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q170",
+      "question": "4.          ionospheric          delays",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q171",
+      "question": "solar          activity",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1, 2, 3, 4 and 5",
+        "(b) 1, 2 and 3",
+        "(c) 1, 2 and 4",
+        "(d) 2, 3 and 4"
+      ],
+      "answer": "a",
+      "solution": "(a) 1, 2, 3, 4 and 5",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q172",
+      "question": "What is the purpose of the GPS control segment?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) To control the use of the satellites by unauthorized users",
+        "(b) To monitor the satellites in orbit",
+        "(c) To maintain the satellites in orbit",
+        "(d) Degrade the accuracy of satellites for unauthorized users"
+      ],
+      "answer": "a",
+      "solution": "(a) To control the use of the satellites by unauthorized users",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q173",
+      "question": "In GNSS a fix is obtained by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) measuring the time taken for signals from a minimum number of satellites to",
+        "(b) measuring the time taken for the aircraft transmissions to travel to a number of",
+        "(c) measuring the pulse lengths of the sequential signals from a number of satellites",
+        "(d) measuring the phase angle of the signals from a number of satellites in known"
+      ],
+      "answer": "a",
+      "solution": "(a) measuring the time taken for signals from a minimum number of satellites to",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q174",
+      "question": "The inclination of a satellite is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the angle between the SV orbit and the equator",
+        "(b) the angle between the SV orbit and the polar plane",
+        "(c) 90° minus the angle between the SV orbit and the equator",
+        "(d) 90° minus the angle between the SV orbit and the polar plane"
+      ],
+      "answer": "a",
+      "solution": "(a) the angle between the SV orbit and the equator",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q175",
+      "question": "How is the distance between the NAVSTAR/GPS SV and the receiver determined?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) By referencing the SV and receiver positions to WGS84",
+        "(b) By synchronizing the receiver clock with the SV clock",
+        "(c) By measuring the time from transmission to reception and multiplying by the",
+        "(d) By measuring the time from transmission to reception and dividing by the speed"
+      ],
+      "answer": "a",
+      "solution": "(a) By referencing the SV and receiver positions to WGS84",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q176",
+      "question": "The  distance  measured  between  a  satellite  and  a  receiver  is  known  as  a  pseudo-",
+      "question_type": "MCQ",
+      "options": [
+        "(a) it is measured using pseudo-random codes",
+        "(b) it includes receiver clock error",
+        "(c) satellite and receiver are continually moving in relation to each other",
+        "(d) it is measured against idealized Keplerian orbits"
+      ],
+      "answer": "a",
+      "solution": "(a) it is measured using pseudo-random codes",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q177",
+      "question": "The task of the control segment is to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) determine availability to users",
+        "(b) monitor the SV ephemeris and clock",
+        "(c) apply selective availability",
+        "(d) all of the above"
+      ],
+      "answer": "a",
+      "solution": "(a) determine availability to users",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q178",
+      "question": "To  provide  3D  fixing  with  RAIM  and  allowing  for  the  loss  of  one  satellite  requires",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 4",
+        "(b) 5",
+        "(c) 6",
+        "(d) 7"
+      ],
+      "answer": "a",
+      "solution": "(a) 4",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q179",
+      "question": "In NAVSTAR/GPS the PRN codes are used to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) differentiate between satellites",
+        "(b) pass satellite ephemeris information",
+        "(c) pass satellite time and ephemeris information",
+        "(d) pass satellite time, ephemeris and other information"
+      ],
+      "answer": "a",
+      "solution": "(a) differentiate between satellites",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q180",
+      "question": "An ‘all in view’ satellite navigation receiver is one which:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) monitors all 24 satellites",
+        "(b) tracks selected satellites",
+        "(c) selects and tracks all (in view) satellites and selects the best four",
+        "(d) tracks the closest satellites"
+      ],
+      "answer": "a",
+      "solution": "(a) monitors all 24 satellites",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q181",
+      "question": "Which GPS frequencies are available for commercial air transport?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1227.6 MHz only",
+        "(b) 1575.42 MHz only",
+        "(c) 1227.6 MHz and 1575.42 MHz",
+        "(d) 1227.6 MHz or 1575.42 MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) 1227.6 MHz only",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q182",
+      "question": "Which GNSS is authorized for use on European airways?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) GLONASS",
+        "(b) NAVSTAR/GPS",
+        "(c) Galileo",
+        "(d) COSPAS/SARSAT"
+      ],
+      "answer": "a",
+      "solution": "(a) GLONASS",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q183",
+      "question": "In GPS on which frequencies are both the C/A and P codes transmitted?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Both          frequencies",
+        "(b) The higher frequency",
+        "(c) Neither          frequency",
+        "(d) The lower frequency"
+      ],
+      "answer": "a",
+      "solution": "(a) Both          frequencies",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q184",
+      "question": "The orbits of the NAVSTAR GPS satellites are inclined at:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 55° to the earth’s axis",
+        "(b) 55° to the plane of the equator",
+        "(c) 99° to the earth’s axis",
+        "(d) 99° to the plane of the equator"
+      ],
+      "answer": "a",
+      "solution": "(a) 55° to the earth’s axis",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q185",
+      "question": "RAIM is achieved:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) by ground monitoring stations determining the satellite range errors which are",
+        "(b) by ground stations determining the X, Y & Z errors and passing the corrections",
+        "(c) within the receiver",
+        "(d) any of the above"
+      ],
+      "answer": "a",
+      "solution": "(a) by ground monitoring stations determining the satellite range errors which are",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q186",
+      "question": "The function of the receiver in the GNSS user segment is to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) interrogate the satellites to determine range",
+        "(b) track the satellites to calculate time",
+        "(c) track the satellites to calculate range",
+        "(d) determine position and assess the accuracy of that position"
+      ],
+      "answer": "a",
+      "solution": "(a) interrogate the satellites to determine range",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q187",
+      "question": "In which frequency band are the L1 and L2 frequencies of GNSS?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) SHF",
+        "(b) VHF",
+        "(c) UHF",
+        "(d) EHF"
+      ],
+      "answer": "a",
+      "solution": "(a) SHF",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q188",
+      "question": "Which of the following statements concerning differential GPS (DGPS) is true?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Local area DGPS gives the same improvement in accuracy regardless of distance",
+        "(b) DGPS removes SV ephemeris and clock errors and propagation errors",
+        "(c) DGPS can improve the accuracy of SA affected position information",
+        "(d) Wide area DGPS accuracy improves the closer the aircraft is to a ground station"
+      ],
+      "answer": "a",
+      "solution": "(a) Local area DGPS gives the same improvement in accuracy regardless of distance",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q189",
+      "question": "The visibility of GPS satellites is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) dependent on the location of the user",
+        "(b) greatest at the equator",
+        "(c) greatest at the poles",
+        "(d) the same at all points on and close to the surface of the earth"
+      ],
+      "answer": "a",
+      "solution": "(a) dependent on the location of the user",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q190",
+      "question": "In an RNAV approach phase with a two dot lateral deviation HSI display, a one dot",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 5          NM",
+        "(b) 0.5          NM.",
+        "(c) 5°.",
+        "(d) 0.5°."
+      ],
+      "answer": "a",
+      "solution": "(a) 5          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q191",
+      "question": "The required accuracy of a precision RNAV (P-RNAV) system is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 0.25 NM standard deviation or better",
+        "(b) 0.5 NM standard deviation or better",
+        "(c) 1 NM standard deviation or better",
+        "(d) 1.5 NM standard deviation or better"
+      ],
+      "answer": "a",
+      "solution": "(a) 0.25 NM standard deviation or better",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q192",
+      "question": "The ETA generated by the FMS will be most accurate:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) when  the  forecast  W/V  equals  the  actual  W/V  and  the  FMS  calculated  Mach",
+        "(b) if the ground speed and position are accurate",
+        "(c) if the forecast W/V at take-off is entered",
+        "(d) if the ground speed is correct and the take-off time has been entered"
+      ],
+      "answer": "a",
+      "solution": "(a) when  the  forecast  W/V  equals  the  actual  W/V  and  the  FMS  calculated  Mach",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q193",
+      "question": "When is the FMS position likely to be least accurate?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) TOD",
+        "(b) TOC",
+        "(c) Just after take-off",
+        "(d) On final approach"
+      ],
+      "answer": "a",
+      "solution": "(a) TOD",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q194",
+      "question": "For position fixing the B737-800 FMC uses:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) DME/DME",
+        "(b) VOR/DME",
+        "(c) DME/DME or VOR/DME",
+        "(d) any combination of VOR, DME and ADF"
+      ],
+      "answer": "a",
+      "solution": "(a) DME/DME",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q195",
+      "question": "When using a two dot HSI, a deviation of one dot from the computed track represents",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2°",
+        "(b) 5°",
+        "(c) 5          NM",
+        "(d) 2          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 2°",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q196",
+      "question": "An aircraft, using a 2D RNAV computer, is 12 NM from the phantom station, 25 NM",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 12          NM",
+        "(b) 25 NM plan range",
+        "(c) 35          NM",
+        "(d) 25 NM slant range"
+      ],
+      "answer": "a",
+      "solution": "(a) 12          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q197",
+      "question": "The FMC position is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the average of the IRS positions",
+        "(b) the average of the IRS and radio navigation positions",
+        "(c) computer generated from the IRS and radio navigation positions",
+        "(d) computer generated from the radio navigation positions"
+      ],
+      "answer": "a",
+      "solution": "(a) the average of the IRS positions",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q198",
+      "question": "When midway between two waypoints, how can the pilot best check the progress",
+      "question_type": "MCQ",
+      "options": [
+        "(a) By using the ATD at the previous waypoint",
+        "(b) By using the computed ETA for the next waypoint",
+        "(c) By using the ATA at the previous waypoint",
+        "(d) By using the ETA at the destination"
+      ],
+      "answer": "a",
+      "solution": "(a) By using the ATD at the previous waypoint",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q199",
+      "question": "Which  of  the  following  can  be  input  manually  to  the  FMC  using  a  maximum  of  5",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Waypoints, latitude and longitude, SIDs and STARs",
+        "(b) ICAO aerodrome designators, navigation facilities, SIDs and STARs",
+        "(c) Waypoints, airways designators, latitude and longitude",
+        "(d) Navigation facilities, reporting points, airways designators"
+      ],
+      "answer": "a",
+      "solution": "(a) Waypoints, latitude and longitude, SIDs and STARs",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q200",
+      "question": "The inputs to the EHSI display during automatic flight include:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) auto-throttle, IRS and FMC",
+        "(b) FCC, FMC and ADC",
+        "(c) IRS, FMC and radio navigation facilities",
+        "(d) IRS, ADC and FCC"
+      ],
+      "answer": "a",
+      "solution": "(a) auto-throttle, IRS and FMC",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q201",
+      "question": "The  inputs  the  pilot  will  make  to  the  FMC  during  the  pre-flight  initialization  will",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ETD, aircraft position, and planned route",
+        "(b) planned route, aircraft position, and departure runway",
+        "(c) navigation data base, aircraft position and departure aerodrome",
+        "(d) departure runway, planned route and ETD"
+      ],
+      "answer": "a",
+      "solution": "(a) ETD, aircraft position, and planned route",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q202",
+      "question": "In RNAV mode one dot on the EHSI represents:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2          NM",
+        "(b) 2°",
+        "(c) 5          NM",
+        "(d) 5°"
+      ],
+      "answer": "a",
+      "solution": "(a) 2          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q203",
+      "question": "The phantom station in a 2D RNAV system may be generated by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) VOR/DME",
+        "(b) twin          VOR",
+        "(c) twin          DME",
+        "(d) any of the above"
+      ],
+      "answer": "a",
+      "solution": "(a) VOR/DME",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q204",
+      "question": "The operation of a 2D RNAV system may be seriously downgraded:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) because the computer cannot determine if the aircraft is within the DOC of the",
+        "(b) because the computer cannot determine if the heading and altitude input are",
+        "(c) because the pilot cannot verify the correct frequency has been selected",
+        "(d) if the selected navigation facility is in excess of about 70 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) because the computer cannot determine if the aircraft is within the DOC of the",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q205",
+      "question": "The FMS database can be:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) altered by the pilots between the 28 day updates",
+        "(b) read and altered by the pilots",
+        "(c) only read by the pilots",
+        "(d) altered by the pilots every 28 days"
+      ],
+      "answer": "a",
+      "solution": "(a) altered by the pilots between the 28 day updates",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q206",
+      "question": "Refer to Appendix A diagram C.  What is the current drift?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 4°          left",
+        "(b) 12°          left",
+        "(c) 4°          right",
+        "(d) 12°          right"
+      ],
+      "answer": "a",
+      "solution": "(a) 4°          left",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q207",
+      "question": "In the B737-400 EFIS which component generates the visual display?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Flight control computer (FCC)",
+        "(b) FMC",
+        "(c) Symbol          generator",
+        "(d) Navigation          database"
+      ],
+      "answer": "a",
+      "solution": "(a) Flight control computer (FCC)",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q208",
+      "question": "When is the IRS position updated?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Continuously by the FMC",
+        "(b) At VOR beacons on route by the pilots",
+        "(c) At significant waypoints only",
+        "(d) On the ground only",
+        "(a) D",
+        "(b) F",
+        "(c) E",
+        "(d) C"
+      ],
+      "answer": "a",
+      "solution": "(a) Continuously by the FMC",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q209",
+      "question": "Refer to diagram E of Appendix A.  The track from ZAPPO to BURDY is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 205°(T)",
+        "(b) 205°(M)",
+        "(c) 064°(T)",
+        "(d) 064°(M)"
+      ],
+      "answer": "a",
+      "solution": "(a) 205°(T)",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q210",
+      "question": "Refer to diagram B of Appendix A.  The aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) right of the centre line and above the glide path",
+        "(b) left of the centre line and below the glide path",
+        "(c) right of the centre line and below the glide path",
+        "(d) left of the centre line and above the glide path"
+      ],
+      "answer": "a",
+      "solution": "(a) right of the centre line and above the glide path",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q211",
+      "question": "Refer to Appendix A.  Diagram F represents:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) MAP",
+        "(b) EXP          VOR",
+        "(c) VOR",
+        "(d) ILS"
+      ],
+      "answer": "a",
+      "solution": "(a) MAP",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q212",
+      "question": "The navigation database in the FMS:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) may be modified by the pilot to meet routing requirements",
+        "(b) is read only",
+        "(c) may be modified by the operations staff to meet routing requirements",
+        "(d) may be modified by national aviation authorities to meet national requirements"
+      ],
+      "answer": "a",
+      "solution": "(a) may be modified by the pilot to meet routing requirements",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q213",
+      "question": "In an EHSI the navigation information comes from:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) INS, weather mapping, radio navigation",
+        "(b) FMC, radio navigation",
+        "(c) IRS, radio navigation, TAS and drift",
+        "(d) FMC, weather mapping, radio navigation"
+      ],
+      "answer": "a",
+      "solution": "(a) INS, weather mapping, radio navigation",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q214",
+      "question": "On an EFIS display the pictured symbol represents:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) DME",
+        "(b) VOR/DME",
+        "(c) VORTAC",
+        "(d) aerodrome"
+      ],
+      "answer": "a",
+      "solution": "(a) DME",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q215",
+      "question": "According to ICAO (Annex 11), the definition of an RNAV system is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) one which enables the aircraft to navigate on any desired flight path within the",
+        "(b) one which enables the aircraft to navigate on any desired flight path within the",
+        "(c) one which enables the aircraft to navigate on any desired flight path within the",
+        "(d) one which enables the aircraft to navigate on any desired flight path within the"
+      ],
+      "answer": "a",
+      "solution": "(a) one which enables the aircraft to navigate on any desired flight path within the",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q216",
+      "question": "Which of the following is independent of external inputs?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) INS",
+        "(b) Direct reading magnetic compass",
+        "(c) VOR/DME",
+        "(d) ADF"
+      ],
+      "answer": "a",
+      "solution": "(a) INS",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q217",
+      "question": "The track line on an EFIS display indicates:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) that a manual track has been selected",
+        "(b) that a manual heading has been selected",
+        "(c) the actual aircraft track over the ground, which will coincide with the aircraft",
+        "(d) the aircraft actual track which will coincide with the planned track when there"
+      ],
+      "answer": "a",
+      "solution": "(a) that a manual track has been selected",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q218",
+      "question": "The EHSI is showing 5° fly right with a TO indication.  The aircraft heading is 280°(M)",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 275",
+        "(b) 265",
+        "(c) 085",
+        "(d) 095"
+      ],
+      "answer": "a",
+      "solution": "(a) 275",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q219",
+      "question": "On the B737-400 EHSI what happens if the selected VOR fails?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The display blanks and a fail warning appears",
+        "(b) The deviation bar is removed",
+        "(c) A fail flag is displayed alongside the display bar",
+        "(d) The display flashes"
+      ],
+      "answer": "a",
+      "solution": "(a) The display blanks and a fail warning appears",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q220",
+      "question": "In an RNAV system which combination of external reference will give the most",
+      "question_type": "MCQ",
+      "options": [
+        "(a) GPS/rho",
+        "(b) Rho/theta",
+        "(c) Rho/rho",
+        "(d) GPS/theta"
+      ],
+      "answer": "a",
+      "solution": "(a) GPS/rho",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q221",
+      "question": "If the signal from a VOR is lost, how is this shown on the B737-400 EHSI display?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) By removal of the deviation bar and pointer",
+        "(b) By showing a fail flag alongside the deviation bar",
+        "(c) A flashing red FAIL message appears in the frequency location",
+        "(d) An amber FAIL message appears in the frequency location"
+      ],
+      "answer": "a",
+      "solution": "(a) By removal of the deviation bar and pointer",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q222",
+      "question": "The colour used on the B737-400 EHSI weather display to show turbulence is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) magenta",
+        "(b) flashing          red",
+        "(c) white or magenta",
+        "(d) high colour gradient"
+      ],
+      "answer": "a",
+      "solution": "(a) magenta",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q223",
+      "question": "Refer to diagram D of Appendix A.  The current aircraft track is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 130°",
+        "(b) 133°",
+        "(c) 156°",
+        "(d) 165°"
+      ],
+      "answer": "a",
+      "solution": "(a) 130°",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q224",
+      "question": "Refer to appendix A diagram C.  The wind velocity is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 129°(M)/20          ms",
+        "(b) 129°(T)/20          kt",
+        "(c) 129°(M)/20          kt",
+        "(d) 129°(T)/20          ms"
+      ],
+      "answer": "a",
+      "solution": "(a) 129°(M)/20          ms",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q225",
+      "question": "In order that a waypoint designated by a VOR can be used by a RNAV system:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the VOR must be identified by the pilot",
+        "(b) the VOR must be within range when the waypoint is input",
+        "(c) the VOR need not be in range when input or used",
+        "(d) the VOR need not be in range when input but must be when used"
+      ],
+      "answer": "a",
+      "solution": "(a) the VOR must be identified by the pilot",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q226",
+      "question": "Which EHSI modes cannot show AWR information?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) FULL VOR/ILS and MAP",
+        "(b) PLAN, MAP and EXP VOR/ILS",
+        "(c) MAP and PLAN",
+        "(d) PLAN and FULL VOR/ILS"
+      ],
+      "answer": "a",
+      "solution": "(a) FULL VOR/ILS and MAP",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q227",
+      "question": "Refer to appendix A, diagram C.  The symbol annotated KXYZ is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) destination          aerodrome",
+        "(b) a diversion aerodrome",
+        "(c) an en route aerodrome",
+        "(d) a top of climb/descent point"
+      ],
+      "answer": "a",
+      "solution": "(a) destination          aerodrome",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q228",
+      "question": "Refer to Appendix B.  The distance displayed on the EHSI will be:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 10          NM",
+        "(b) 11          NM",
+        "(c) 12          NM",
+        "(d) 21          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 10          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q229",
+      "question": "The NAVSTAR/GPS constellation comprises:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 6 SVs each in 4 orbits",
+        "(b) 4 SVs each in 6 orbits",
+        "(c) 8 SVs each in 3 orbits",
+        "(d) 3 SVs each in 8 orbits"
+      ],
+      "answer": "a",
+      "solution": "(a) 6 SVs each in 4 orbits",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q230",
+      "question": "Comparing the L1 and L2 signals helps with the reduction of which GNSS error?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Tropospheric          propagation",
+        "(b) SV          ephemeris",
+        "(c) SV          clock",
+        "(d) Ionospheric          propagation"
+      ],
+      "answer": "a",
+      "solution": "(a) Tropospheric          propagation",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q231",
+      "question": "The normal maximum range for an ATC surveillance radar is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 50          NM",
+        "(b) 150          NM",
+        "(c) 250          NM",
+        "(d) 350          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 50          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q232",
+      "question": "The cause of a RNAV giving erratic readings would be:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the aircraft is in the cone of confusion of the phantom station",
+        "(b) the aircraft is beyond line of sight range of the phantom station",
+        "(c) the aircraft is beyond line of sight range of the reference station",
+        "(d) the aircraft is outside the DOC of the reference station"
+      ],
+      "answer": "a",
+      "solution": "(a) the aircraft is in the cone of confusion of the phantom station",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q233",
+      "question": "Flying an ILS approach with a 3° glide slope referenced to 50 ft above the threshold,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1          400          ft",
+        "(b) 1          380          ft",
+        "(c) 1          500          ft",
+        "(d) 1          450          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 1          400          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q234",
+      "question": "The height of the GPS constellation is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 19          300          km",
+        "(b) 20          200          km",
+        "(c) 10          900          km",
+        "(d) 35          800          km"
+      ],
+      "answer": "a",
+      "solution": "(a) 19          300          km",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q235",
+      "question": "What are the ground components of MLS?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Separate azimuth and elevation antennae with DME",
+        "(b) Separate azimuth and elevation antennae with middle and outer markers",
+        "(c) Combined azimuth and elevation antennae with DME",
+        "(d) Combined azimuth and elevation antennae with middle and outer markers"
+      ],
+      "answer": "a",
+      "solution": "(a) Separate azimuth and elevation antennae with DME",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q236",
+      "question": "The accuracy required of a basic area navigation (B-RNAV) system is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) +/-5 NM on 90% of occasions",
+        "(b) all the time",
+        "(c) +/-5 NM on 95% of occasions",
+        "(d) +/-5 NM on 75% of occasions"
+      ],
+      "answer": "a",
+      "solution": "(a) +/-5 NM on 90% of occasions",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q237",
+      "question": "What function does the course line computer perform?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Uses VOR/DME information to direct the aircraft to the facility",
+        "(b) Uses VOR/DME information to direct the aircraft along a specified track",
+        "(c) Converts  VOR/DME  information  into  HSI  directions  to  maintain  the  planned",
+        "(d) Uses VOR/DME information to determine track and distance to a waypoint"
+      ],
+      "answer": "a",
+      "solution": "(a) Uses VOR/DME information to direct the aircraft to the facility",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q238",
+      "question": "The emissions from a non-directional beacon (NDB) are:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a cardioid with a 30 Hz rotation rate",
+        "(b) omni-directional",
+        "(c) a phase-compared signal",
+        "(d) a frequency modulated continuous wave (FMCW)"
+      ],
+      "answer": "a",
+      "solution": "(a) a cardioid with a 30 Hz rotation rate",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q239",
+      "question": "How does night effect affect ADF?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Causes false bearings as the goniometer locks onto the sky wave",
+        "(b) Sky wave interference which affects the null and is worst at dawn and dusk",
+        "(c) Interference from other NDBs which is worst at dusk and when due east of the",
+        "(d) Phase shift in the received signal giving random bearing errors"
+      ],
+      "answer": "a",
+      "solution": "(a) Causes false bearings as the goniometer locks onto the sky wave",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q240",
+      "question": "What is an ADC input to the FMC?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Heading",
+        "(b) VOR/DME          position",
+        "(c) TAS",
+        "(d) Ground speed and drift"
+      ],
+      "answer": "a",
+      "solution": "(a) Heading",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q241",
+      "question": "A typical frequency for DME would be:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 300          MHz",
+        "(b) 600          MHz",
+        "(c) 900          MHz",
+        "(d) 1200          MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) 300          MHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q242",
+      "question": "When flying under IFR using GPS and a multi-sensor system:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) if there is a discrepancy between the GPS and multi-sensor positions, then the",
+        "(b) the GPS must be operating and its information displayed",
+        "(c) the multi-sensor system must be operating and its information displayed",
+        "(d) both systems must be operating but only the primary system information needs"
+      ],
+      "answer": "a",
+      "solution": "(a) if there is a discrepancy between the GPS and multi-sensor positions, then the",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q243",
+      "question": "The indications from a basic RNAV are behaving erratically.  The reason is likely to",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the aircraft is in the cone of confusion of the phantom station",
+        "(b) the aircraft is outside the DOC of the reference VOR/DME",
+        "(c) the aircraft is below line of sight range of the reference VOR/DME",
+        "(d) the aircraft is in the cone of confusion of the reference VOR"
+      ],
+      "answer": "a",
+      "solution": "(a) the aircraft is in the cone of confusion of the phantom station",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q244",
+      "question": "What is the maximum PRF that allows detection of targets to a range of 50 km?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 330 pulses per second (pps)",
+        "(b) 617          pps",
+        "(c) 3000          pps",
+        "(d) 1620          pps"
+      ],
+      "answer": "a",
+      "solution": "(a) 330 pulses per second (pps)",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q245",
+      "question": "In NAVSTAR/GPS the space segment:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) provides the positional information to the receiver",
+        "(b) the  receiver  interrogates  the  satellite  and  the  satellite  provides  positional",
+        "(c) sends information for receiver to determine latitude, longitude and time",
+        "(d) relays positional data from the control segment"
+      ],
+      "answer": "a",
+      "solution": "(a) provides the positional information to the receiver",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q246",
+      "question": "The almanac in the receiver:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) determines selective availability",
+        "(b) assigns the PRN codes to the satellites",
+        "(c) is used to determine receiver clock error",
+        "(d) is used to determine which satellites are above the horizon"
+      ],
+      "answer": "a",
+      "solution": "(a) determines selective availability",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q247",
+      "question": "In a RNAV system the DME is tuned:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) by what is selected on the pilots DME and hence is tuned manually",
+        "(b) automatically by taking pilot’s DME selection",
+        "(c) by selecting DMEs to give suitable angle of cut to get a fix automatically",
+        "(d) by automatically selecting the nearest suitable DME"
+      ],
+      "answer": "a",
+      "solution": "(a) by what is selected on the pilots DME and hence is tuned manually",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q248",
+      "question": "Which input to the FMC is taken from sources external to the aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) INS",
+        "(b) Pressure          altitude",
+        "(c) Magnetic heading from a direct reading compass",
+        "(d) VOR/DME"
+      ],
+      "answer": "a",
+      "solution": "(a) INS",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q249",
+      "question": "In NAVSTAR/GPS range measurement is achieved by measuring:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the time difference between the minimum number of satellites",
+        "(b) the time taken for the signal to travel from the satellite to the receiver",
+        "(c) the synchronization of the satellite and receiver clocks",
+        "(d) the time taken for a signal to travel from the receiver to the satellite and return"
+      ],
+      "answer": "a",
+      "solution": "(a) the time difference between the minimum number of satellites",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q250",
+      "question": "Quadrantal error in the ADF is caused by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the metallic structure of the aircraft",
+        "(b) generative voltages caused by the rotation of the engines",
+        "(c) the electrical wiring running through the aircraft",
+        "(d) multipath          reception"
+      ],
+      "answer": "a",
+      "solution": "(a) the metallic structure of the aircraft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q251",
+      "question": "For the FMC the take-off speeds, V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) in the operating manual and input to the FMC",
+        "(b) in the performance database",
+        "(c) in the checklist and input manually",
+        "(d) in the navigation database"
+      ],
+      "answer": "a",
+      "solution": "(a) in the operating manual and input to the FMC",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q252",
+      "question": "The optimum climb and descent speeds used by the FMC are found:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) in the operating manual and input to the FMC",
+        "(b) in the performance database",
+        "(c) in the checklist and input manually",
+        "(d) in the navigation database"
+      ],
+      "answer": "a",
+      "solution": "(a) in the operating manual and input to the FMC",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q253",
+      "question": "The optimum cruise speeds used by the FMC are found:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) in the operating manual and input to the FMC",
+        "(b) in the performance database",
+        "(c) in the checklist and input manually",
+        "(d) in the navigation database"
+      ],
+      "answer": "a",
+      "solution": "(a) in the operating manual and input to the FMC",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q254",
+      "question": "Which of the following external inputs is required by the FMC to determine W/V?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Magnetic          heading",
+        "(b) Mach          No.",
+        "(c) TAS",
+        "(d) Track and ground speed"
+      ],
+      "answer": "a",
+      "solution": "(a) Magnetic          heading",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q255",
+      "question": "Which of the following is true concerning the use of GNSS position in the FMC?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) It is used to verify and update the IRS position",
+        "(b) An alternate source of position must be used and displayed",
+        "(c) GNSS position is usable stand alone",
+        "(d) GNSS data may only be used in the absence of other positional information"
+      ],
+      "answer": "a",
+      "solution": "(a) It is used to verify and update the IRS position",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q256",
+      "question": "Which wavelength corresponds to a frequency of 5035 MHz?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 5.96          mm",
+        "(b) 5.96          cm",
+        "(c) 59.6          cm",
+        "(d) 5.96          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 5.96          mm",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q257",
+      "question": "The VDF term meaning ‘true bearing from the station’ is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) QDM",
+        "(b) QDR",
+        "(c) QTE",
+        "(d) QUJ"
+      ],
+      "answer": "a",
+      "solution": "(a) QDM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q258",
+      "question": "A class B VDF bearing will have an accuracy of:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ±          2°",
+        "(b) ±          10°",
+        "(c) ±          1°",
+        "(d) ±          5°"
+      ],
+      "answer": "a",
+      "solution": "(a) ±          2°",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q259",
+      "question": "An error applicable to VDF would be:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) synchronous          transmission",
+        "(b) scalloping",
+        "(c) selective availability",
+        "(d) garbling"
+      ],
+      "answer": "a",
+      "solution": "(a) synchronous          transmission",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q260",
+      "question": "The  maximum  range  an  ATC  facility  at  1369  ft  AMSL  can  provide  a  service  to  an",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 276          NM",
+        "(b) 200          NM",
+        "(c) 224          NM",
+        "(d) 238          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 276          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q261",
+      "question": "The Doppler effect is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the change in frequency caused by the movement of a transmitter and receiver",
+        "(b) the change in frequency caused by the movement of a receiver",
+        "(c) the change in frequency caused by the movement of a transmitter",
+        "(d) the change in frequency caused by the relative movement between a transmitter"
+      ],
+      "answer": "a",
+      "solution": "(a) the change in frequency caused by the movement of a transmitter and receiver",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q262",
+      "question": "The least accurate bearing information taken by an aircraft over the sea from a NDB",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a coastal beacon at an acute angle",
+        "(b) an inland beacon at an acute angle",
+        "(c) a coastal beacon perpendicular to the coast",
+        "(d) an inland beacon perpendicular to the coast"
+      ],
+      "answer": "a",
+      "solution": "(a) a coastal beacon at an acute angle",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q263",
+      "question": "The accuracy of ADF may be affected by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) night effect, tropospheric propagation, quadrantal error",
+        "(b) static interference, siting errors, slant range",
+        "(c) angle of bank, mountain effect, station interference",
+        "(d) angle of bank, static from Cb, siting errors"
+      ],
+      "answer": "a",
+      "solution": "(a) night effect, tropospheric propagation, quadrantal error",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q264",
+      "question": "The ADF error which will cause the needle to ‘hunt’ (i.e. oscillate around the correct",
+      "question_type": "MCQ",
+      "options": [
+        "(a) night          effect",
+        "(b) Cb          static",
+        "(c) station          interference",
+        "(d) coastal          refraction"
+      ],
+      "answer": "a",
+      "solution": "(a) night          effect",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q265",
+      "question": "The accuracy of ADF by day and excluding compass error is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) +/-1°",
+        "(b) +/-2°",
+        "(c) +/-5°",
+        "(d) +/-10°"
+      ],
+      "answer": "a",
+      "solution": "(a) +/-1°",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q266",
+      "question": "A NDB has emission designator N0NA1A this will require the use of the BFO for:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) tuning",
+        "(b) identification",
+        "(c) identification and monitoring",
+        "(d) tuning, identification and monitoring"
+      ],
+      "answer": "a",
+      "solution": "(a) tuning",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q267",
+      "question": "The principle of operation of VOR is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) bearing by lobe comparison",
+        "(b) bearing by frequency comparison",
+        "(c) bearing by searchlight principle",
+        "(d) bearing by phase comparison"
+      ],
+      "answer": "a",
+      "solution": "(a) bearing by lobe comparison",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q268",
+      "question": "The pilot of an aircraft flying at FL240 is 250 NM from a VOR at 16 ft AMSL which he",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the VOR is unserviceable",
+        "(b) the range of VOR is limited to 200 NM",
+        "(c) the aircraft is beyond line of sight range",
+        "(d) there are abnormal atmospheric conditions"
+      ],
+      "answer": "a",
+      "solution": "(a) the VOR is unserviceable",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q269",
+      "question": "The phase difference measured at the aircraft from a VOR is 235°. The bearing of the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 055°",
+        "(b) 235°",
+        "(c) 145°",
+        "(d) 325°"
+      ],
+      "answer": "a",
+      "solution": "(a) 055°",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q270",
+      "question": "A pilot intends to home to a VOR on the 147 radial.  The setting he should put on the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 147,          TO",
+        "(b) 147,          FROM",
+        "(c) 327,          FROM",
+        "(d) 327,          TO"
+      ],
+      "answer": "a",
+      "solution": "(a) 147,          TO",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q271",
+      "question": "An aircraft is 100 NM SW of a VOR heading 080°.  The pilot intends to home to the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 030, TO, Fly Right",
+        "(b) 030, TO, Fly Left",
+        "(c) 210, FROM Fly Right",
+        "(d) 210, FROM, Fly Left"
+      ],
+      "answer": "a",
+      "solution": "(a) 030, TO, Fly Right",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q272",
+      "question": "Flying an ILS approach the equipment senses that the 90 Hz modulation predominates",
+      "question_type": "MCQ",
+      "options": [
+        "(a) fly left and fly up",
+        "(b) fly left and fly down",
+        "(c) fly right and fly up",
+        "(d) fly right and fly down"
+      ],
+      "answer": "a",
+      "solution": "(a) fly left and fly up",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q273",
+      "question": "On an ILS approach, using a 3° glide path, the height of an aircraft, ground speed 160",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 800          ft",
+        "(b) 1050          ft",
+        "(c) 900          ft",
+        "(d) 1500          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 800          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q274",
+      "question": "A category II ILS facility is required to provide guidance to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) below 50 ft",
+        "(b) below 200 ft",
+        "(c) the          surface",
+        "(d) below 100 ft"
+      ],
+      "answer": "a",
+      "solution": "(a) below 50 ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q275",
+      "question": "When flying downwind abeam the upwind end of the runway the indications from",
+      "question_type": "MCQ",
+      "options": [
+        "(a) in the correct sense for the localizer and no glide path signal",
+        "(b) erratic on both localizer and glide path",
+        "(c) erratic on the localizer and in the correct sense on the glide path",
+        "(d) no localizer signal and in the correct sense for glide path"
+      ],
+      "answer": "a",
+      "solution": "(a) in the correct sense for the localizer and no glide path signal",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q276",
+      "question": "The azimuth coverage of a 3° glide path is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) +/-35° to 17 NM",
+        "(b) +/-10° to 25 NM",
+        "(c) +/-8° to 10 NM",
+        "(d) +/-10° to 8 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) +/-35° to 17 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q277",
+      "question": "The coverage of the approach azimuth and elevation of a MLS is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) +/-20° to 40 NM",
+        "(b) +/-20° to 20 NM",
+        "(c) +/-40° to 40 NM",
+        "(d) +/-40° to 20 NM"
+      ],
+      "answer": "a",
+      "solution": "(a) +/-20° to 40 NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q278",
+      "question": "A full MLS system comprises a DME and:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 4 elements multiplexing on 2 frequencies",
+        "(b) 4 elements multiplexing on one frequency",
+        "(c) 2 elements using 2 frequencies",
+        "(d) 2 elements multiplexing on one frequency"
+      ],
+      "answer": "a",
+      "solution": "(a) 4 elements multiplexing on 2 frequencies",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q279",
+      "question": "MLS has 200 channels available in the frequency band:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 108 – 112 MHz",
+        "(b) 329 – 335 MHz",
+        "(c) 960 – 1215 MHz",
+        "(d) 5031 – 5090 MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) 108 – 112 MHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q280",
+      "question": "The type of radar which has no minimum range restriction is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) primary CW radar",
+        "(b) primary pulsed radar",
+        "(c) secondary CW radar",
+        "(d) secondary pulsed radar"
+      ],
+      "answer": "a",
+      "solution": "(a) primary CW radar",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q281",
+      "question": "The maximum theoretical range of a radar is determined by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) power",
+        "(b) PW",
+        "(c) beamwidth",
+        "(d) PRF"
+      ],
+      "answer": "a",
+      "solution": "(a) power",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q282",
+      "question": "The time interval between the transmission of a pulse and receipt of the echo from",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 37.5          NM",
+        "(b) 75          NM",
+        "(c) 150          NM",
+        "(d) 300"
+      ],
+      "answer": "a",
+      "solution": "(a) 37.5          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q283",
+      "question": "An advantage of a slotted antenna (planar array) over a parabolic reflector are:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) side lobes removed",
+        "(b) 360° scan without any rotation requirement",
+        "(c) less power required",
+        "(d) higher data rate possible"
+      ],
+      "answer": "a",
+      "solution": "(a) side lobes removed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q284",
+      "question": "The best resolution will be achieved on a radar display with:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) high power output and large parabolic reflector",
+        "(b) narrow beamwidth and narrow pulse width",
+        "(c) low frequency and small parabolic reflector",
+        "(d) wide beamwidth and large pulsewidth"
+      ],
+      "answer": "a",
+      "solution": "(a) high power output and large parabolic reflector",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q285",
+      "question": "A radar transmitting on 600 MHz has a PRF of 300 pps and an aerial rotation rate of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) an area surveillance radar",
+        "(b) an aerodrome surface movement radar",
+        "(c) an aerodrome surveillance radar",
+        "(d) a terminal area radar"
+      ],
+      "answer": "a",
+      "solution": "(a) an area surveillance radar",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q286",
+      "question": "The AWR operating frequency is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 9375          MHz",
+        "(b) 9375          GHz",
+        "(c) 937.5          MHz",
+        "(d) 93.75          GHz"
+      ],
+      "answer": "a",
+      "solution": "(a) 9375          MHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q287",
+      "question": "The AWR frequency is selected because it gives:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) good returns from water droplets",
+        "(b) good returns from turbulence",
+        "(c) good penetration of cloud",
+        "(d) good returns from water vapour"
+      ],
+      "answer": "a",
+      "solution": "(a) good returns from water droplets",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q288",
+      "question": "On a colour AWR display, the heaviest precipitation will be displayed in:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) amber",
+        "(b) red",
+        "(c) yellow",
+        "(d) blue"
+      ],
+      "answer": "a",
+      "solution": "(a) amber",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q289",
+      "question": "The SSR code to select when the aircraft is being unlawfully interfered with is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 7600",
+        "(b) 7700",
+        "(c) 7500",
+        "(d) 7400"
+      ],
+      "answer": "a",
+      "solution": "(a) 7600",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q290",
+      "question": "In  SSR  the  ground  station  interrogates  the  aircraft  on  ..............  MHz  and  receives",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1030                    1090",
+        "(b) 1090                    1030",
+        "(c) 1030                    1030",
+        "(d) 1090                    1090"
+      ],
+      "answer": "a",
+      "solution": "(a) 1030                    1090",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q291",
+      "question": "The  altitude  read-out  at  the  ground  station  from  a  mode  C  response  will  give  the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 300          ft",
+        "(b) 100          ft",
+        "(c) 500          ft",
+        "(d) 50          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 300          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q292",
+      "question": "If the aircraft DME interrogates a ground transponder on a frequency of 1199 MHz,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1262          MHz",
+        "(b) 1030          MHz",
+        "(c) 1090          MHz",
+        "(d) 1136          MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) 1262          MHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q293",
+      "question": "A DME recognizes replies to its own interrogating pulses because:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) each  pulse  pair  has  its  own  unique  modulation  which  is  replicated  by  the",
+        "(b) the PRF of the interrogating pulses is jittered",
+        "(c) each  aircraft  has  a  different  time  interval  within  the  pulses  pairs  which  is",
+        "(d) the  transponder  uses  a  selective  reply  system  to  respond  to  the  aircraft"
+      ],
+      "answer": "a",
+      "solution": "(a) each  pulse  pair  has  its  own  unique  modulation  which  is  replicated  by  the",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q294",
+      "question": "The  DME  in  an  aircraft  at  FL630  measures  a  slant  range  of  16  NM  from  a  ground",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 12.5          NM",
+        "(b) 19          NM",
+        "(c) 16          NM",
+        "(d) 10.5          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 12.5          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q295",
+      "question": "If the identification of a VOR is FKL and the paired DME identification is FKZ, then:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the transmitters are co-located",
+        "(b) the beacons are between 600 m and 6 NM apart",
+        "(c) the transmitters are within 600 m",
+        "(d) the transmitters are in excess of 6 NM apart"
+      ],
+      "answer": "a",
+      "solution": "(a) the transmitters are co-located",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q296",
+      "question": "The NAVSTAR/GPS operational constellation comprises:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 21 satellites in 6 orbits",
+        "(b) 24 satellites in 6 orbits",
+        "(c) 24 satellites in 3 orbits",
+        "(d) 30 satellites in 6 orbits"
+      ],
+      "answer": "a",
+      "solution": "(a) 21 satellites in 6 orbits",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q297",
+      "question": "The model of the earth used for GPS is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) WGS90",
+        "(b) PZ84",
+        "(c) PZ90",
+        "(d) WGS84"
+      ],
+      "answer": "a",
+      "solution": "(a) WGS90",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q298",
+      "question": "The  major  limitation  in  the  use  of  GPS  for  precision  approaches  using  wide  area",
+      "question_type": "MCQ",
+      "options": [
+        "(a) lack of failure warning",
+        "(b) the height difference between the ellipsoid and the earth",
+        "(c) global coverage of WAAS is not available",
+        "(d) degradation of range measurement because of ionospheric propagation errors"
+      ],
+      "answer": "a",
+      "solution": "(a) lack of failure warning",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q299",
+      "question": "The number of SVs required to produce a 3D fix is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 3",
+        "(b) 4",
+        "(c) 5",
+        "(d) 6"
+      ],
+      "answer": "a",
+      "solution": "(a) 3",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q300",
+      "question": "EGNOS provides a WAAS by determining the errors in ................ and broadcasting",
+      "question_type": "MCQ",
+      "options": [
+        "(a) X, Y & Z coordinates     geostationary satellites",
+        "(b) X, Y & Z coordinates     pseudolites",
+        "(c) SV range   geostationary satellites",
+        "(d) SV range   pseudolites"
+      ],
+      "answer": "a",
+      "solution": "(a) X, Y & Z coordinates     geostationary satellites",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q301",
+      "question": "The principle error in GNSS is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ionospheric          propagation",
+        "(b) GDOP",
+        "(c) receiver clock error",
+        "(d) SV ephemeris error"
+      ],
+      "answer": "a",
+      "solution": "(a) ionospheric          propagation",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q302",
+      "question": "If the signal from an SV is lost during an aircraft manoeuvre:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the receiver will select another SV with no loss in accuracy",
+        "(b) the receiver will go into a DR mode with no loss of accuracy",
+        "(c) the  receiver  will  compensate  by  using  the  last  calculated  altitude  to  maintain",
+        "(d) the receiver position will degrade regardless of the action taken"
+      ],
+      "answer": "a",
+      "solution": "(a) the receiver will select another SV with no loss in accuracy",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q303",
+      "question": "The purpose of the PRN codes in NAVSTAR/GPS is to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) identify the satellites",
+        "(b) synchronize the receiver clocks with the SV clocks",
+        "(c) pass navigation and system data to the receiver",
+        "(d) all of the above"
+      ],
+      "answer": "a",
+      "solution": "(a) identify the satellites",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q304",
+      "question": "If  the  receiver  almanac  becomes  corrupted  it  will  download  the  almanac  from  the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 15          minutes",
+        "(b) 2.5          minutes",
+        "(c) 12.5          minutes",
+        "(d) 25          minutes"
+      ],
+      "answer": "a",
+      "solution": "(a) 15          minutes",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q305",
+      "question": "The provision of RAIM requires a minimum of ................ SVs.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 3",
+        "(b) 4",
+        "(c) 5",
+        "(d) 6"
+      ],
+      "answer": "a",
+      "solution": "(a) 3",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q306",
+      "question": "The best position on an aircraft for the GNSS aerial is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) in the cockpit as close as possible to the receiver",
+        "(b) on the fuselage close to the centre of gravity",
+        "(c) on the aircraft as far as possible from other aerials to reduce reflections",
+        "(d) close to each wing tip to compensate for manoeuvre errors"
+      ],
+      "answer": "a",
+      "solution": "(a) in the cockpit as close as possible to the receiver",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q307",
+      "question": "The  NAVSTAR/GPS  constellation  is  inclined  at  ................  to  the  equator  with  an",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 55° 11 h 15 min",
+        "(b) 65°  11 h 15 min",
+        "(c) 65°  12 h",
+        "(d) 55°  12 h"
+      ],
+      "answer": "a",
+      "solution": "(a) 55° 11 h 15 min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q308",
+      "question": "The NAVSTAR/GPS frequency available to non-authorized users is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1227.6          MHz",
+        "(b) 1575.42          MHz",
+        "(c) 1215.0          MHz",
+        "(d) 1090.0          MHz"
+      ],
+      "answer": "a",
+      "solution": "(a) 1227.6          MHz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q309",
+      "question": "The NAV and system data message is contained in the ................ signal.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 50          Hz",
+        "(b) C/A PRN code",
+        "(c) P PRN code",
+        "(d) C/A & P PRN code"
+      ],
+      "answer": "a",
+      "solution": "(a) 50          Hz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q310",
+      "question": "A 2D RNAV system takes fixing inputs from:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) co-located          VOR/DME",
+        "(b) twin          DME",
+        "(c) VOR and/or DME",
+        "(d) any of the above"
+      ],
+      "answer": "a",
+      "solution": "(a) co-located          VOR/DME",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q311",
+      "question": "The accuracy required of a basic RNAV system is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 5          NM",
+        "(b) 5°",
+        "(c) 1          NM",
+        "(d) 1°"
+      ],
+      "answer": "a",
+      "solution": "(a) 5          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q312",
+      "question": "An aircraft using a 2D RNAV system is 23 NM from the waypoint on a 50 NM leg.  The",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 23          NM",
+        "(b) 27          NM",
+        "(c) 37          NM",
+        "(d) 45          NM"
+      ],
+      "answer": "a",
+      "solution": "(a) 23          NM",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q313",
+      "question": "The navigation database in an FMC:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) can be modified by the flight crew to meet the route requirements",
+        "(b) can be modified every 28 days",
+        "(c) can only be read by the flight crew",
+        "(d) cannot be accessed by the flight crew"
+      ],
+      "answer": "a",
+      "solution": "(a) can be modified by the flight crew to meet the route requirements",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q314",
+      "question": "The RNAV function of the FMC produces a position which:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) combines the short term accuracy of the external reference with the long term",
+        "(b) produces  a  long  term  accuracy  from  the  short  term  accuracy  of  the  external",
+        "(c) produces  a  long  term  accuracy  from  the  long  term  accuracy  of  the  external",
+        "(d) combines the long term accuracy of the external reference with the short term"
+      ],
+      "answer": "a",
+      "solution": "(a) combines the short term accuracy of the external reference with the long term",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q315",
+      "question": "The most accurate external reference position will be provided by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) VOR/DME",
+        "(b) Twin          DME",
+        "(c) Twin          VOR",
+        "(d) Suitable combination of VOR and DME"
+      ],
+      "answer": "a",
+      "solution": "(a) VOR/DME",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q316",
+      "question": "Refer to Appendix A.  Which diagram shows the MAP display?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) A",
+        "(b) C",
+        "(c) D",
+        "(d) F"
+      ],
+      "answer": "a",
+      "solution": "(a) A",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q317",
+      "question": "Refer to Appendix A, diagram E.  What is the track from BANTU to ZAPPO?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 360°(M)",
+        "(b) 130°(M)",
+        "(c) 360°(T)",
+        "(d) 130°(T)"
+      ],
+      "answer": "a",
+      "solution": "(a) 360°(M)",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q318",
+      "question": "Refer to Appendix A, diagram A.  What is the deviation from the required track?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 3 NM left",
+        "(b) 3 NM right",
+        "(c) 8°          left",
+        "(d) 8°          right"
+      ],
+      "answer": "a",
+      "solution": "(a) 3 NM left",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q319",
+      "question": "Refer to appendix A, diagram F.  What is the required track?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 165°",
+        "(b) 173°",
+        "(c) 157°",
+        "(d) 130°"
+      ],
+      "answer": "a",
+      "solution": "(a) 165°",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q320",
+      "question": "Refer  to  Appendix  A,  diagram  C.    What  is  the  symbol  designated  DFC  which  is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) an in-use VORTAC",
+        "(b) an available VORTAC",
+        "(c) an in-use NDB",
+        "(d) an available NDB",
+        "(a) the selected IRS position updated by external reference using Kalman filtering",
+        "(b) derived  from  IRS  and  external  reference  positions  using  the  Kalman  filtering",
+        "(c) derived from external reference position and monitored against the IRS position",
+        "(d) the external reference position updated by IRS information through the Kalman"
+      ],
+      "answer": "a",
+      "solution": "(a) an in-use VORTAC",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q321",
+      "question": ".           Use                      \nc \n=\nf\n\u0002",
+      "question_type": "MCQ",
+      "options": [
+        "(c) =",
+        "(f) \u0002"
+      ],
+      "answer": "a",
+      "solution": "(c) =",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q322",
+      "question": "Q5. Line of sight formula:    Range (NM)  =  1.23 (√h",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q323",
+      "question": "Q13.                Line of sight formula again!  Maximum range at which reception can be achieved is",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q324",
+      "question": "Q14. The phase difference is the bearing of the aircraft from the beacon (radial).",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q325",
+      "question": "Q15/16.   Draw a diagram!",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q326",
+      "question": "Q18. Height = Glide path angle × range × 100 ft",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q327",
+      "question": "Q36. The mode C increments in 100 ft steps.",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q328",
+      "question": "Q37. 1262 MHz is outside the allocated band for DME.",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q329",
+      "question": "Q39.        Pythagoras!",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q330",
+      "question": "Q54.                The  50  Hz  modulation  passes  the  Nav  and  System  Data  message.    The  PRN  codes",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q331",
+      "question": "Q57. The range displayed is to the waypoint.",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q332",
+      "question": "Q62. Remember the PLAN display is orientated to TRUE north.",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState, useEffect } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import Header from './Header';
 import SiteSidebar from './SiteSidebar';
@@ -237,7 +237,8 @@ const defaultChapters = {
       'Plotting',
       'The Direct Indicating Compass',
       'Aircraft Magnetism',
-      'General Navigation Problems'
+      'General Navigation Problems',
+      'Revision Questions'
     ],
     'cae-oxford-flight-planning-monitoring': [
       'Air Information Publications',
@@ -252,7 +253,8 @@ const defaultChapters = {
       'Airways - Miscellaneous Charts',
       'ATC Flight Plan',
       'Point of Equal Time (PET)',
-      'Point of Safe Return (PSR)'
+      'Point of Safe Return (PSR)',
+      'Revision Questions'
     ],
     'operational-procedures': [
       'ICAO Annex 6',
@@ -283,7 +285,8 @@ const defaultChapters = {
       'Single-engine Class B Aircraft - Take-off',
       'Multi-engine Class B - Take-off',
       'Class A - En Route',
-      'Landing'
+      'Landing',
+      'Revision Questions'
     ]
   },
   'meteorology': {
@@ -494,6 +497,49 @@ const rkBaliChapterQuestionCounts = {
 const BookChapters = () => {
   const { subjectSlug, bookSlug } = useParams();
   const navigate = useNavigate();
+  const [revisionQuestions, setRevisionQuestions] = useState({});
+
+  // Load revision questions dynamically
+  useEffect(() => {
+    const checkRevisionQuestions = async () => {
+      const revisionSlug = 'revision-questions';
+      // Map book slugs to match file naming convention
+      const bookSlugMap = {
+        'cae-oxford-general-navigation': 'cae-oxford-general-navigation',
+        'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
+        'cae-oxford-performance': 'cae-oxford-performance',
+        'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
+        'cae-oxford-powerplant': 'cae-oxford-powerplant',
+        'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
+        'operational-procedures': 'operational-procedures',
+        'instrument': 'instrument'
+      };
+      
+      const mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
+      
+      try {
+        const response = await fetch(`/api/practice-questions/${mappedBookSlug}?chapter=${revisionSlug}`);
+        if (response.ok) {
+          const data = await response.json();
+          if (data.questions && data.questions.length > 0) {
+            setRevisionQuestions({
+              [bookSlug]: {
+                questionCount: data.questions.length,
+                chapterSlug: data.chapter_slug || `${mappedBookSlug}-${revisionSlug}`
+              }
+            });
+          }
+        }
+      } catch (error) {
+        // Silently fail - revision questions may not exist for this book
+        debugLog('Revision questions check failed:', error);
+      }
+    };
+    
+    if (bookSlug) {
+      checkRevisionQuestions();
+    }
+  }, [bookSlug]);
 
   const chapters = useMemo(() => {
     const bySubject = defaultChapters[subjectSlug] || {};
@@ -506,6 +552,18 @@ const BookChapters = () => {
     if (list.length === 0 && subjectSlug === 'meteorology' && bookSlug === 'cae-oxford') {
       list = bySubject['cae-oxford'] || [];
     }
+    
+    // Add Revision Questions if available (even if book has no other chapters)
+    const revisionInfo = revisionQuestions[bookSlug];
+    if (revisionInfo && !list.includes('Revision Questions')) {
+      list = [...list, 'Revision Questions'];
+    }
+    
+    // If no chapters found but revision questions exist, show only revision questions
+    if (list.length === 0 && revisionInfo) {
+      list = ['Revision Questions'];
+    }
+    
     // Debug: log what we're looking for
     if (list.length === 0) {
       debugLog('No chapters found for:', { subjectSlug, bookSlug, availableBooks: Object.keys(bySubject) });
@@ -518,6 +576,26 @@ const BookChapters = () => {
           title,
           questionCount: 0,
           status: 'available',
+        };
+      }
+      
+      // Special handling for Revision Questions - check dynamically loaded data
+      if (title === 'Revision Questions') {
+        const revInfo = revisionQuestions[bookSlug];
+        if (revInfo) {
+          return {
+            id: `revision-${bookSlug}`,
+            title: 'Revision Questions',
+            questionCount: revInfo.questionCount,
+            status: 'available',
+            chapterSlug: revInfo.chapterSlug
+          };
+        }
+        return {
+          id: `revision-${bookSlug}`,
+          title: 'Revision Questions',
+          questionCount: 0,
+          status: 'coming-soon',
         };
       }
       
@@ -540,7 +618,7 @@ const BookChapters = () => {
         status: isAvailable ? 'available' : 'coming-soon',
       };
     });
-  }, [subjectSlug, bookSlug]);
+  }, [subjectSlug, bookSlug, revisionQuestions]);
 
   const subject = subjectData[subjectSlug] || {
     title: friendly(subjectSlug),
@@ -563,6 +641,11 @@ const BookChapters = () => {
     // Special handling for Sample Question Papers chapter
     if (chapter?.title === 'Sample Question Papers') {
       navigate(`/sample-papers/${subjectSlug}/${bookSlug}`);
+      return;
+    }
+    // Special handling for Revision Questions - use the chapter slug from API
+    if (chapter?.title === 'Revision Questions' && chapter?.chapterSlug) {
+      navigate(`/pyq/book/${bookSlug}/${chapter.chapterSlug}`);
       return;
     }
     // Navigate directly to practice page - matching QuestionBank behavior

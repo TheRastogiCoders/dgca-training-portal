@@ -1263,7 +1263,11 @@ RAW_JSON = r"""{
 
         },
 
-        {
+        }
+      ]
+    }
+  ]
+}"""
 
 slug_map: Dict[str, Dict[str, str]] = {
     "MISCELLANEOUS QUESTIONS": {

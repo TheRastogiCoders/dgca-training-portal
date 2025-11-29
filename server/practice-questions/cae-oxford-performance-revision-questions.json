@@ -1,0 +1,3074 @@
+{
+  "book_name": "CAE Oxford Performance",
+  "chapter_number": "N/A",
+  "chapter_title": "Revision Questions",
+  "chapter_slug": "cae-oxford-performance-revision-questions",
+  "source": "cae-oxford",
+  "questions": [
+    {
+      "question_number": "Q1",
+      "question": "What happens to the speed for V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Both remain constant",
+        "(b) V",
+        "(c) V",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) Both remain constant",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q2",
+      "question": "The effects of a contaminated runway on take-off are:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) decreased weight, increased V",
+        "(b) decreased weight, same V",
+        "(c) decreased weight, same V",
+        "(d) decreased weight, decreased V"
+      ],
+      "answer": "a",
+      "solution": "(a) decreased weight, increased V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q3",
+      "question": "When operating with anti-skid inoperative:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) both landing and take-off performance will be affected",
+        "(b) only landing performance will be affected",
+        "(c) only take-off performance will be affected",
+        "(d) neither take-off nor landing performance will be affected"
+      ],
+      "answer": "a",
+      "solution": "(a) both landing and take-off performance will be affected",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q4",
+      "question": "When comparing V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) V",
+        "(c) V",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q5",
+      "question": "Referring to Fig. 4.24 in CAP 698. Why does the curve for an equivalent weight of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) All the curves start at the same point higher up",
+        "(b) At that altitude the engine takes longer to spool down after failure",
+        "(c) At that weight the aircraft has a higher TAS and therefore more momentum",
+        "(d) At that weight the aircraft takes longer to slow down to the optimum drift"
+      ],
+      "answer": "a",
+      "solution": "(a) All the curves start at the same point higher up",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q6",
+      "question": "With which conditions would one expect V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Cold temp, low altitude, low humidity",
+        "(b) Hot temp, low pressure altitude, high humidity",
+        "(c) Hot temp, high pressure altitude, high humidity",
+        "(d) Cold temp, high altitude, low humidity"
+      ],
+      "answer": "a",
+      "solution": "(a) Cold temp, low altitude, low humidity",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q7",
+      "question": "Give the correct order for the following:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) V",
+        "(c) V",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q8",
+      "question": "If the C of G moves aft from the most forward position:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the range and the fuel consumption will increase",
+        "(b) the range and the fuel consumption will decrease",
+        "(c) the range will increase and the fuel consumption will decrease",
+        "(d) the range will decrease and the fuel consumption will increase"
+      ],
+      "answer": "a",
+      "solution": "(a) the range and the fuel consumption will increase",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q9",
+      "question": "Descending below the tropopause from FL370 to FL250 at a steady Mach Number,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increase            Increase",
+        "(b) Increase            Constant",
+        "(c) Decrease          Decrease",
+        "(d) Constant           Constant"
+      ],
+      "answer": "a",
+      "solution": "(a) Increase            Increase",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q10",
+      "question": "With a constant weight and Mach No., a higher altitude will require:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) lower          C",
+        "(b) lower          C",
+        "(c) higher          AoA",
+        "(d) no          change"
+      ],
+      "answer": "a",
+      "solution": "(a) lower          C",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q11",
+      "question": "When approaching a wet runway, with the risk of hydroplaning, what technique",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Positive touchdown, full reverse and brakes as soon as possible",
+        "(b) Smoothest possible touchdown, full reverse and only brakes below V",
+        "(c) Positive touchdown, full reverse and only brakes below V",
+        "(d) Normal landing, full reverse and brakes at V"
+      ],
+      "answer": "a",
+      "solution": "(a) Positive touchdown, full reverse and brakes as soon as possible",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q12",
+      "question": "An aircraft with a grad of 3.3%, flying at an IAS of 85 kt.  At a P.ALT of 8500’ with a",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 284’/min",
+        "(b) 623’/min",
+        "(c) 1117’/min",
+        "(d) 334’/min"
+      ],
+      "answer": "a",
+      "solution": "(a) 284’/min",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q13",
+      "question": "An aircraft with a mass of 110 000 kg is capable of maintaining a grad of 2.6%.  With",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 119          167          kg",
+        "(b) 101          530          kg",
+        "(c) 110          000          kg",
+        "(d) 121          167          kg"
+      ],
+      "answer": "a",
+      "solution": "(a) 119          167          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q14",
+      "question": "Give the correct sequence:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) V",
+        "(c) V",
+        "(d) max endurance speed, V"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q15",
+      "question": "Flying at an altitude close to coffin corner gives:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) max          speed",
+        "(b) less          manoeuvrability",
+        "(c) greater 1 engine inoperative range",
+        "(d) greater 1 engine inoperative endurance"
+      ],
+      "answer": "a",
+      "solution": "(a) max          speed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q16",
+      "question": "The main reason for using the step climb technique is to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) decrease sector times",
+        "(b) increase          endurance",
+        "(c) adhere to ATC procedures",
+        "(d) increase          range"
+      ],
+      "answer": "a",
+      "solution": "(a) decrease sector times",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q17",
+      "question": "Ignoring the effect of compressibility, what would C",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increase",
+        "(b) Decrease",
+        "(c) Remain the same",
+        "(d) Increase, then decrease"
+      ],
+      "answer": "a",
+      "solution": "(a) Increase",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q18",
+      "question": "In climb limited mass calculations, the climb gradient is a ratio of:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) height gained over distance travelled through the air",
+        "(b) height gained over distance travelled across the ground",
+        "(c) TAS over rate of climb",
+        "(d) TGS over rate of climb"
+      ],
+      "answer": "a",
+      "solution": "(a) height gained over distance travelled through the air",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q19",
+      "question": "In a twin-engine jet aircraft with six passenger seats, and a maximum certified",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2000          ft",
+        "(b) 1500          ft",
+        "(c) 1000          ft",
+        "(d) 50 ft or half the wingspan"
+      ],
+      "answer": "a",
+      "solution": "(a) 2000          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q20",
+      "question": "When does THRUST = DRAG?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Climbing at a constant IAS",
+        "(b) Descending at a constant IAS",
+        "(c) Flying level at a constant IAS",
+        "(d) All of the above"
+      ],
+      "answer": "a",
+      "solution": "(a) Climbing at a constant IAS",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q21",
+      "question": "When take-off mass is limited by V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) have no effect",
+        "(b) require a decrease in the mass",
+        "(c) allow an increase in the mass",
+        "(d) decrease the TODR"
+      ],
+      "answer": "a",
+      "solution": "(a) have no effect",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q22",
+      "question": "SFC        will:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase if C of G is moved further forward of the C of P",
+        "(b) decrease if C of G is moved further forward of the C of P",
+        "(c) not be affected by C of G position",
+        "(d) only be affected by C of G position if it is behind the C of P"
+      ],
+      "answer": "a",
+      "solution": "(a) increase if C of G is moved further forward of the C of P",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q23",
+      "question": "Reference point zero refers to the:",
+      "question_type": "MCQ",
+      "options": [
+        "(b) point where the aircraft reaches V",
+        "(c) point where the aircraft reaches 35 ft",
+        "(d) point where gear is selected up"
+      ],
+      "answer": "a",
+      "solution": "(b) point where the aircraft reaches V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q24",
+      "question": "To maintain the same angle of attack and altitude at a higher gross weight an",
+      "question_type": "MCQ",
+      "options": [
+        "(a) less airspeed and same power",
+        "(b) the same airspeed",
+        "(c) more airspeed and less power",
+        "(d) more airspeed and more power"
+      ],
+      "answer": "a",
+      "solution": "(a) less airspeed and same power",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q25",
+      "question": "The coefficient of lift may be increased by lowering the flaps or:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increasing          CAS",
+        "(b) reducing nose-up elevator trim",
+        "(c) increasing angle of attack",
+        "(d) increasing          TAS"
+      ],
+      "answer": "a",
+      "solution": "(a) increasing          CAS",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q26",
+      "question": "An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. If the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increased landing distance and reduced go-around performance",
+        "(b) increased landing distance and improved go-around performance",
+        "(c) reduced landing distance and improved go-around performance",
+        "(d) reduced landing distance and reduced go-around performance"
+      ],
+      "answer": "a",
+      "solution": "(a) increased landing distance and reduced go-around performance",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q27",
+      "question": "Which conditions are most suited to a selection of lower flap for take-off?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Low airfield elevation, close obstacles, long runway, high temperature",
+        "(b) Low airfield elevation, no obstacles, short runway, low temperature",
+        "(c) High elevation, no obstacles, short runway, low temperature",
+        "(d) High airfield elevations, distant obstacles, long runway, high ambient"
+      ],
+      "answer": "a",
+      "solution": "(a) Low airfield elevation, close obstacles, long runway, high temperature",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q28",
+      "question": "During the certification of an aeroplane, the take-off distance with all engines",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1547          m",
+        "(b) 1779          m",
+        "(c) 1720          m",
+        "(d) 1798          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 1547          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q29",
+      "question": "If the flap setting is changed from 10 degrees to 20 degrees, V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) not          change",
+        "(b) decrease if not limited to V",
+        "(c) increase",
+        "(d) increase or decrease depending on weight"
+      ],
+      "answer": "a",
+      "solution": "(a) not          change",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q30",
+      "question": "For a turbojet aeroplane the second segment of the climb begins when:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) accelerating from V",
+        "(b) the landing gear is fully retracted",
+        "(c) flap retraction begins",
+        "(d) the flaps are fully retracted"
+      ],
+      "answer": "a",
+      "solution": "(a) accelerating from V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q31",
+      "question": "For a turbojet aeroplane the third segment of climb begins when:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) acceleration to flap retraction speed begins (min 400 ft)",
+        "(b) the landing gear is fully retracted",
+        "(c) acceleration from V",
+        "(d) the flaps are fully retracted"
+      ],
+      "answer": "a",
+      "solution": "(a) acceleration to flap retraction speed begins (min 400 ft)",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q32",
+      "question": "The buffet onset boundary chart tells the pilot the:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) critical Mach number for various masses and altitudes",
+        "(b) values for low speed stall and Mach buffet onset for various masses and",
+        "(c) Mach number for low speed buffet and shock buffet for various masses and",
+        "(d) maximum operating M"
+      ],
+      "answer": "a",
+      "solution": "(a) critical Mach number for various masses and altitudes",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q33",
+      "question": "Two identical turbojets are holding at the same altitude and have the same specific",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 3          804          kg/hr",
+        "(b) 4          044          kg/hr",
+        "(c) 3          364          kg/hr",
+        "(d) 3          530          kg/hr"
+      ],
+      "answer": "a",
+      "solution": "(a) 3          804          kg/hr",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q34",
+      "question": "The speed for minimum power required in a turbojet will be:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) slower than the speed for minimum drag",
+        "(b) faster than the speed for minimum drag",
+        "(c) slower in a climb and faster in the decent",
+        "(d) same as speed for minimum drag"
+      ],
+      "answer": "a",
+      "solution": "(a) slower than the speed for minimum drag",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q35",
+      "question": "In wet conditions, what extra percentage over the dry gross landing distance must",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 43%",
+        "(b) 92%",
+        "(c) 67%",
+        "(d) 15%"
+      ],
+      "answer": "a",
+      "solution": "(a) 43%",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q36",
+      "question": "In dry conditions, when landing at an alternate airport in a turbojet by what factor",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 0.6",
+        "(b) 1.0",
+        "(c) 1.67",
+        "(d) 1.43"
+      ],
+      "answer": "a",
+      "solution": "(a) 0.6",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q37",
+      "question": "What landing distance requirements need to be met at an alternate airfield",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Less than destination",
+        "(b) More than destination",
+        "(c) Same as destination",
+        "(d) None          applicable"
+      ],
+      "answer": "a",
+      "solution": "(a) Less than destination",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q38",
+      "question": "For a twin-engine aircraft, which can use either 5 or 15 degrees flap setting, using",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 55          000          kg",
+        "(b) 56          000          kg",
+        "(c) 44          000          kg",
+        "(d) 52          000          kg"
+      ],
+      "answer": "a",
+      "solution": "(a) 55          000          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q39",
+      "question": "Absolute ceiling is defined by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) altitude where theoretical rate of climb is zero",
+        "(b) altitude at which rate of climb is 100 fpm",
+        "(c) altitude obtained when using lowest steady flight speed",
+        "(d) altitude where low speed buffet and high speed buffet speeds are coincident"
+      ],
+      "answer": "a",
+      "solution": "(a) altitude where theoretical rate of climb is zero",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q40",
+      "question": "Landing on a runway with 5 mm wet snow will:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase landing distance",
+        "(b) decrease landing distance",
+        "(c) not affect the landing distance",
+        "(d) give a slightly reduced landing distance, due to increased impingement drag"
+      ],
+      "answer": "a",
+      "solution": "(a) increase landing distance",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q41",
+      "question": "Take off on a runway with standing water, with a depth of 0.5 cm. Compared to a",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase, with a reduced V",
+        "(b) remain the same, with a reduced V",
+        "(c) decrease, with an increased V",
+        "(d) decrease, with a decreased V"
+      ],
+      "answer": "a",
+      "solution": "(a) increase, with a reduced V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q42",
+      "question": "A balanced field length is when:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) distance taken to accelerate to V",
+        "(b) TORA × 1.5 = TODA",
+        "(c) V",
+        "(d) ASDA equals TODA"
+      ],
+      "answer": "a",
+      "solution": "(a) distance taken to accelerate to V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q43",
+      "question": "Increased ambient temperature will result in:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increased field length limited mass",
+        "(b) decreased maximum brake energy limited mass",
+        "(c) increased climb limited mass",
+        "(d) increased obstacle limited mass"
+      ],
+      "answer": "a",
+      "solution": "(a) increased field length limited mass",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q44",
+      "question": "Pitch angle during decent at a constant Mach number will:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase",
+        "(b) decrease",
+        "(c) increase at first then decrease",
+        "(d) stay          constant"
+      ],
+      "answer": "a",
+      "solution": "(a) increase",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q45",
+      "question": "At maximum range speed in a turbojet the angle of attack is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the same as L/D max",
+        "(b) less than L/D max",
+        "(c) maximum",
+        "(d) more than L/D max"
+      ],
+      "answer": "a",
+      "solution": "(a) the same as L/D max",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q46",
+      "question": "If there is an increase in atmospheric pressure and all other factors remain",
+      "question_type": "MCQ",
+      "options": [
+        "(a) decreased take-off distance and increased climb performance",
+        "(b) increased take-off distance and increased climb performance",
+        "(c) decreased take-off distance and decreased climb performance",
+        "(d) increased take-off distance and decreased climb performance"
+      ],
+      "answer": "a",
+      "solution": "(a) decreased take-off distance and increased climb performance",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q47",
+      "question": "Climbing to cruise altitude with a headwind will:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase time to climb",
+        "(b) decrease ground distance covered to climb",
+        "(c) decreased time to climb",
+        "(d) increased ground distance covered to climb"
+      ],
+      "answer": "a",
+      "solution": "(a) increase time to climb",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q48",
+      "question": "Requirements for the third segment of climb are:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) minimum acceleration altitude for one engine inoperative should be used",
+        "(b) a climb gradient of 5% is required in the third segment",
+        "(c) level acceleration with an equivalent gradient of 1.2%",
+        "(d) legal minimum altitude for acceleration is 1500 ft"
+      ],
+      "answer": "a",
+      "solution": "(a) minimum acceleration altitude for one engine inoperative should be used",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q49",
+      "question": "If the calculations for an aeroplane of 3250 lb indicate a service ceiling of 4000 m,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Higher",
+        "(b) Lower",
+        "(c) Higher or lower, more calculations will have to be done",
+        "(d) The          same"
+      ],
+      "answer": "a",
+      "solution": "(a) Higher",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q50",
+      "question": "Why is there a requirement for an approach climb gradient?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) So that an aircraft falling below the glide path will be able to re-intercept it",
+        "(b) Adequate performance for a go-around in the event of an engine failure",
+        "(c) So that the aircraft will not stall when full flap is selected",
+        "(d) To maintain minimum altitude on the approach"
+      ],
+      "answer": "a",
+      "solution": "(a) So that an aircraft falling below the glide path will be able to re-intercept it",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q51",
+      "question": "The drift down is a procedure applied:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) after aircraft depressurization",
+        "(b) for a visual approach to a VASI",
+        "(c) for an instrument approach at an airfield without an ILS",
+        "(d) when the engine fails above the operating altitude for one engine inoperative"
+      ],
+      "answer": "a",
+      "solution": "(a) after aircraft depressurization",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q52",
+      "question": "A light twin-engine aircraft is climbing from the screen height of 50 ft, and has an",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The aircraft will not clear the object",
+        "(b) 85          m",
+        "(c) 100          m",
+        "(d) 115          m"
+      ],
+      "answer": "a",
+      "solution": "(a) The aircraft will not clear the object",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q53",
+      "question": "The dry net take-off run required (TORR) for a jet aircraft, with all engines",
+      "question_type": "MCQ",
+      "options": [
+        "(a) brake release point to midpoint between V",
+        "(b) brake release point to 35 ft",
+        "(c) brake release point to 15 ft",
+        "(d) the same as for all engines"
+      ],
+      "answer": "a",
+      "solution": "(a) brake release point to midpoint between V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q54",
+      "question": "A jet aircraft’s maximum altitude is usually limited by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) its certification maximum altitude",
+        "(b) its pressurization maximum altitude",
+        "(c) the altitude at which low and high-speed buffet will occur",
+        "(d) thrust          limits"
+      ],
+      "answer": "a",
+      "solution": "(a) its certification maximum altitude",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q55",
+      "question": "With respect to en route diversions (using drift down graph), if you believe that",
+      "question_type": "MCQ",
+      "options": [
+        "(a) drift down to clearance height and then start to jettison fuel",
+        "(b) jettison fuel from the beginning of the drift down",
+        "(c) asses remaining fuel requirements, then jettison fuel as soon as possible",
+        "(d) fly slight faster"
+      ],
+      "answer": "a",
+      "solution": "(a) drift down to clearance height and then start to jettison fuel",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q56",
+      "question": "With respect to field length limit, fill in the blanks in the follow statement.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) V",
+        "(c) V",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q57",
+      "question": "How does the power required graph move with an increase in altitude?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Straight          up",
+        "(b) Straight          down",
+        "(c) Up and to the right",
+        "(d) Straight across to the right"
+      ],
+      "answer": "a",
+      "solution": "(a) Straight          up",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q58",
+      "question": "What factors would cause V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Flaps at high settings",
+        "(b) With high pressure",
+        "(c) With low temperature",
+        "(d) Combination of the above"
+      ],
+      "answer": "a",
+      "solution": "(a) Flaps at high settings",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q59",
+      "question": "In a climb, at a constant IAS / Mach No. 300 kt / M 0.78, what happens at the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Accelerate from the IAS to the Mach number, and therefore rate of climb will",
+        "(b) No change in rate of climb since TAS remains constant",
+        "(c) Find that rate of climb would start to increase, because TAS starts to increase",
+        "(d) Find that rate of climb would start to decrease, because TAS would start to"
+      ],
+      "answer": "a",
+      "solution": "(a) Accelerate from the IAS to the Mach number, and therefore rate of climb will",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q60",
+      "question": "What procedure is likely to require V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Improved climb procedure",
+        "(b) Reduced thrust take-off",
+        "(c) When ASDA is greater than TODA",
+        "(d) Take off with anti-skid inoperative"
+      ],
+      "answer": "a",
+      "solution": "(a) Improved climb procedure",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q61",
+      "question": "Which of the following is not affected by a tailwind?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Landing climb limit mass",
+        "(b) Obstacle limit mass",
+        "(c) V",
+        "(d) Tyre speed limit mass"
+      ],
+      "answer": "a",
+      "solution": "(a) Landing climb limit mass",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q62",
+      "question": "When flying an aircraft on the back of the drag curve, maintaining a slower speed",
+      "question_type": "MCQ",
+      "options": [
+        "(a) more          flap",
+        "(b) less thrust due to less parasite drag",
+        "(c) more          thrust",
+        "(d) no          change"
+      ],
+      "answer": "a",
+      "solution": "(a) more          flap",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q63",
+      "question": "During certification test flights for a turbojet aeroplane, the measured take-off",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1759          m",
+        "(b) 1810          m",
+        "(c) 1950          m",
+        "(d) 2081          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 1759          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q64",
+      "question": "Taking into account the following, what would be the minimum required",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 8          kt",
+        "(b) 5          kt",
+        "(c) 0          kt",
+        "(d) 15          kt"
+      ],
+      "answer": "a",
+      "solution": "(a) 8          kt",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q65",
+      "question": "Two identical aircraft at different masses are descending at idle thrust. Which of the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) There is no difference between the descent characteristics of the two",
+        "(b) At a given angle of attack, the heavier aeroplane will always glide further than",
+        "(c) At a given angle of attack, the lighter aeroplane will always glide further than",
+        "(d) At a given angle of attack, both the vertical and the forward speeds are"
+      ],
+      "answer": "a",
+      "solution": "(a) There is no difference between the descent characteristics of the two",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q66",
+      "question": "When flying in a headwind, the speed for max range should be:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) slightly          decreased",
+        "(b) slightly          increased",
+        "(c) unchanged",
+        "(d) should be increased, or decreased depending on the strength of the wind"
+      ],
+      "answer": "a",
+      "solution": "(a) slightly          decreased",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q67",
+      "question": "When flying at the optimum range altitude, over time the:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) fuel consumption gradually decreases",
+        "(b) fuel consumption gradually increases",
+        "(c) fuel consumption initially decreases then gradually increases",
+        "(d) fuel consumption remains constant"
+      ],
+      "answer": "a",
+      "solution": "(a) fuel consumption gradually decreases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q68",
+      "question": "What happens to the field limited take-off mass with runway slope?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) It increases with a downhill slope",
+        "(b) It is unaffected by runway slope",
+        "(c) It decreases with a downhill slope",
+        "(d) It increases with an uphill slope"
+      ],
+      "answer": "a",
+      "solution": "(a) It increases with a downhill slope",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q69",
+      "question": "For a given aircraft mass, flying with a cost index greater than zero set will result",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a cruise at a slower Mach number than the best range Mach number for a",
+        "(b) a cruise at the maximum endurance speed",
+        "(c) climb at the slowest safe speed, taking into account stall and speed stability",
+        "(d) a cruise at a faster Mach number than the Mach number giving best air"
+      ],
+      "answer": "a",
+      "solution": "(a) a cruise at a slower Mach number than the best range Mach number for a",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q70",
+      "question": "Cruising with 1 or 2 engines inoperative at high altitude, compared to all engines",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase",
+        "(b) decrease",
+        "(c) not          change",
+        "(d) decrease with 1 engine inoperative, and increase with 2 engines inoperative"
+      ],
+      "answer": "a",
+      "solution": "(a) increase",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q71",
+      "question": "Taking into account the values given below, what would be the maximum",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 56          850          kg",
+        "(b) 49          300          kg",
+        "(c) 49          850          kg",
+        "(d) 51          250          kg"
+      ],
+      "answer": "a",
+      "solution": "(a) 56          850          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q72",
+      "question": "A turboprop aircraft with a maximum all up mass in excess of 5700 kg is limited to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 10\u0002 angle of bank up to 400 ft",
+        "(b) 15\u0002 angle of bank up to 400 ft",
+        "(c) 20\u0002 angle of bank up to 400 ft",
+        "(d) 25\u0002 angle of bank up to 400 ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 10\u0002 angle of bank up to 400 ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q73",
+      "question": "With regards to the optimum altitude during the cruise, the aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) always flown at the optimum altitude",
+        "(b) always flown 2000 ft below the optimum altitude",
+        "(c) may be flown above or below the optimum altitude, but never at the",
+        "(d) flown as close to the optimum altitude as ATC will allow"
+      ],
+      "answer": "a",
+      "solution": "(a) always flown at the optimum altitude",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q74",
+      "question": "A tailwind on take-off will not affect:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) climb limit mass",
+        "(b) obstacle          clearance",
+        "(c) field limit mass",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) climb limit mass",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q75",
+      "question": "When climbing at a constant Mach number through the troposphere, TAS:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases",
+        "(b) decreases",
+        "(c) remains          constant",
+        "(d) increases then decreases"
+      ],
+      "answer": "a",
+      "solution": "(a) increases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q76",
+      "question": "Concerning landing gear, which factors limit take-off performance?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Brake          temperature",
+        "(b) Tyre speed and V",
+        "(c) Tyre          temperature",
+        "(d) Brake          wear"
+      ],
+      "answer": "a",
+      "solution": "(a) Brake          temperature",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q77",
+      "question": "In a glide (power-off descent) if pitch angle is increased, glide distance will:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase",
+        "(b) decrease",
+        "(c) remain          constant",
+        "(d) depend on the aircraft"
+      ],
+      "answer": "a",
+      "solution": "(a) increase",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q78",
+      "question": "With which conditions would the aircraft need to be flown, in order to achieve",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Thrust set for minimum drag",
+        "(b) Best lift - drag ratio",
+        "(c) Maximum thrust and maximum drag",
+        "(d) Maximum thrust and minimum drag"
+      ],
+      "answer": "a",
+      "solution": "(a) Thrust set for minimum drag",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q79",
+      "question": "If a jet engine fails during take-off, before V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the take-off can be continued or aborted",
+        "(b) the take-off should be aborted",
+        "(c) the take-off should be continued",
+        "(d) the take-off may be continued if aircraft speed is above V"
+      ],
+      "answer": "a",
+      "solution": "(a) the take-off can be continued or aborted",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q80",
+      "question": "Up to which height in NADP 1 noise abatement procedure must V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1500          ft",
+        "(b) 3000          ft",
+        "(c) 1000          ft",
+        "(d) 500          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 1500          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q81",
+      "question": "At MSL, in ISA conditions.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 5.1%",
+        "(b) 6.3%",
+        "(c) 3.8%",
+        "(d) 5.5%"
+      ],
+      "answer": "a",
+      "solution": "(a) 5.1%",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q82",
+      "question": "An aircraft with 180 minutes approval for ETOPS must be:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) no more than 180 minutes from a suitable alternate, in still air, at the one",
+        "(b) no more than 180 minutes from a suitable alternate, in still air, at the all",
+        "(c) no more than 90 minutes from a suitable alternate, and 90 minutes from",
+        "(d) no more than 180 minutes from a suitable alternate, at the one engine"
+      ],
+      "answer": "a",
+      "solution": "(a) no more than 180 minutes from a suitable alternate, in still air, at the one",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q83",
+      "question": "In a balanced turn load factor is dependent on:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) radius of turn and aircraft weight",
+        "(b) TAS and bank angle",
+        "(c) radius of turn and bank angle",
+        "(d) bank angle only"
+      ],
+      "answer": "a",
+      "solution": "(a) radius of turn and aircraft weight",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q84",
+      "question": "Putting in 16 500 litres of fuel with an SG of 780 kg/m",
+      "question_type": "MCQ",
+      "options": [
+        "(a) TOD increasing and ASD decreasing, and the calculated V",
+        "(b) TOD and ASD decreasing, and the calculated V",
+        "(c) TOD and ASD remaining constant, if the calculated speeds are used",
+        "(d) TOD and ASD increasing, if the calculated speeds are used"
+      ],
+      "answer": "a",
+      "solution": "(a) TOD increasing and ASD decreasing, and the calculated V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q85",
+      "question": "If        V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) TOD will be greater than ASD",
+        "(c) ASD will be equal to TOD",
+        "(d) Take-off is not permitted"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q86",
+      "question": "When gliding into a headwind airspeed should be:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) reduced to gust penetration speed",
+        "(b) the same as the max. range glide speed in still air",
+        "(c) lower than the max. range glide speed in still air",
+        "(d) higher than the max. range glide speed in still air"
+      ],
+      "answer": "a",
+      "solution": "(a) reduced to gust penetration speed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q87",
+      "question": "How does the slush thickness affect the V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Greater reduction if thicker",
+        "(b) Smaller reduction if thicker",
+        "(c) No effect if mass is reduced",
+        "(d) No effect at all"
+      ],
+      "answer": "a",
+      "solution": "(a) Greater reduction if thicker",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q88",
+      "question": "Which denotes the stall speed in the landing configuration?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) V",
+        "(c) V",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q89",
+      "question": "When in a gliding manoeuvre, in order to achieve maximum endurance the aircraft",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the speed for max. lift",
+        "(b) the speed for min. drag",
+        "(c) the speed for max. lift / drag",
+        "(d) the speed for min. power"
+      ],
+      "answer": "a",
+      "solution": "(a) the speed for max. lift",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q90",
+      "question": "When descending below the optimum altitude at the long range cruise speed:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Mach number decreases",
+        "(b) TAS          increases",
+        "(c) Mach number remains constant",
+        "(d) Mach number increases"
+      ],
+      "answer": "a",
+      "solution": "(a) Mach number decreases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q91",
+      "question": "What does density altitude signify ?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Pressure          altitude",
+        "(b) Flight          levels",
+        "(c) ISA          altitude",
+        "(d) An accurate indication of aircraft and engine performance"
+      ],
+      "answer": "a",
+      "solution": "(a) Pressure          altitude",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q92",
+      "question": "For a turboprop aircraft, the LDA at an aerodrome is 2200 m. If the conditions are",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1451          m",
+        "(b) 1913          m",
+        "(c) 1538          m",
+        "(d) 1339          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 1451          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q93",
+      "question": "During aircraft certification, the value of V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) nose wheel steering does not affect V",
+        "(b) V",
+        "(c) nose wheel steering does not work after an engine failure",
+        "(d) the aircraft may be operated even if the nose wheel steering is inoperative"
+      ],
+      "answer": "a",
+      "solution": "(a) nose wheel steering does not affect V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q94",
+      "question": "Referring to CAP 698 Fig 4.28.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1700          m",
+        "(b) 2500          m",
+        "(c) 1900          m",
+        "(d) 3100          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 1700          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q95",
+      "question": "Which is true regarding a balanced field?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Provides largest gap between net and gross margins",
+        "(b) Provides minimum field length required in the case of an engine failure",
+        "(c) Take-off distance will always be more than stopping distance",
+        "(d) Distances will remain equal, even if engine failure speed is changed"
+      ],
+      "answer": "a",
+      "solution": "(a) Provides largest gap between net and gross margins",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q96",
+      "question": "Climbing in the troposphere at a constant TAS:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Mach number increases",
+        "(b) Mach number decreases",
+        "(c) CAS          increases",
+        "(d) IAS          increases."
+      ],
+      "answer": "a",
+      "solution": "(a) Mach number increases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q97",
+      "question": "When an MRJT aircraft descends at the maximum range speed:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) IAS          increases",
+        "(b) CAS          increases",
+        "(c) Mach number decreases",
+        "(d) Mach number increases"
+      ],
+      "answer": "a",
+      "solution": "(a) IAS          increases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q98",
+      "question": "What condition is found at the intersection of the thrust available and the drag",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Unaccelerated flight in a climb",
+        "(b) Accelerated          climb",
+        "(c) Unaccelerated level flight",
+        "(d) Accelerated level flight"
+      ],
+      "answer": "a",
+      "solution": "(a) Unaccelerated flight in a climb",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q99",
+      "question": "Out of the four forces acting on the aircraft in flight, what balances thrust in the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Drag",
+        "(b) Weight",
+        "(c) W          Sin          \u0002",
+        "(d) Drag + W Sin\u0003\u0002"
+      ],
+      "answer": "a",
+      "solution": "(a) Drag",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q100",
+      "question": "The information in a light aircraft manual gives two power settings for cruise, 65%",
+      "question_type": "MCQ",
+      "options": [
+        "(a) cruise speed will be higher, fuel consumption will be higher",
+        "(b) cruise speed will be the same, fuel consumption will be the same",
+        "(c) cruise speed will be higher, fuel consumption will be lower",
+        "(d) cruise speed will be higher, fuel consumption will be the same"
+      ],
+      "answer": "a",
+      "solution": "(a) cruise speed will be higher, fuel consumption will be higher",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q101",
+      "question": "With a downward sloping runway:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) V",
+        "(c) V",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q102",
+      "question": "How is fuel consumption affected by the C of G position, in terms of air nautical",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increases with a forward C of G",
+        "(b) Decreases with an aft C of G",
+        "(c) Decreases with a forward C of G",
+        "(d) Fuel consumption is not affected by the C of G position"
+      ],
+      "answer": "a",
+      "solution": "(a) Increases with a forward C of G",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q103",
+      "question": "Rate of Climb 1000 ft/min",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 5.08%",
+        "(b) 3%",
+        "(c) 4%",
+        "(d) 4.98%"
+      ],
+      "answer": "a",
+      "solution": "(a) 5.08%",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q104",
+      "question": "The reduced thrust take-off procedure may not be used when:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) runway          wet",
+        "(b) after          dark",
+        "(c) temperature varies by more than 10°C from ISA",
+        "(d) anti-skid          unserviceable"
+      ],
+      "answer": "a",
+      "solution": "(a) runway          wet",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q105",
+      "question": "If the maximum take-off mass is limited by tyre speed, what effect would a down",
+      "question_type": "MCQ",
+      "options": [
+        "(a) No          effect",
+        "(b) Always increase the mass",
+        "(c) Only increase the mass if not limited by any other limitation",
+        "(d) Decrease the mass"
+      ],
+      "answer": "a",
+      "solution": "(a) No          effect",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q106",
+      "question": "With an obstacle which is 160 m above the airfield elevation and 5000 m away",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 105          m",
+        "(b) 90          m",
+        "(c) 250          m",
+        "(d) 265          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 105          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q107",
+      "question": "Prior to take-off the brake temperature needs to be checked, because:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) they indicate the state of the fusible plugs",
+        "(b) if the brakes are already hot, they may fade / overheat during a RTO",
+        "(c) they would work better if they were warm",
+        "(d) they may need to be warmed up to prevent them from cracking during a RTO"
+      ],
+      "answer": "a",
+      "solution": "(a) they indicate the state of the fusible plugs",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q108",
+      "question": "A turbojet is flying at a constant Mach number in the cruise. How does SFC vary",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Unrelated to T",
+        "(b) Proportional to T",
+        "(c) Proportional to 1/T",
+        "(d) Proportional to 1/T"
+      ],
+      "answer": "a",
+      "solution": "(a) Unrelated to T",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q109",
+      "question": "If an aircraft has a stall speed of 100 kt, what would the speed on short finals have",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 100          kt",
+        "(b) 115          kt",
+        "(c) 130          kt",
+        "(d) 120          kt"
+      ],
+      "answer": "a",
+      "solution": "(a) 100          kt",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q110",
+      "question": "When descending at a constant Mach number, which speed is most likely to be",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Max operating speed",
+        "(b) M",
+        "(c) High speed buffet limit",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) Max operating speed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q111",
+      "question": "What is meant by ‘equivalent weight’ on the drift down profile graph?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Weight compensated for fuel reduction prior to engine failure",
+        "(b) Weight compensated for temperature of ISA +10\u0002C and above",
+        "(c) Weight compensated for density at different heights",
+        "(d) Weight compensated for temperature at different heights"
+      ],
+      "answer": "a",
+      "solution": "(a) Weight compensated for fuel reduction prior to engine failure",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q112",
+      "question": "What happens to the speeds V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) V",
+        "(c) V",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q113",
+      "question": "Maximum      endurance:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) can be achieved in level unaccelerated flight with minimum fuel consumption",
+        "(b) can be achieved by flying at the best rate of climb speed in straight and level",
+        "(c) can be achieved in a steady climb",
+        "(d) can be achieved by flying at the absolute ceiling"
+      ],
+      "answer": "a",
+      "solution": "(a) can be achieved in level unaccelerated flight with minimum fuel consumption",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q114",
+      "question": "What factors affect descent angle in a glide?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Configuration and altitude",
+        "(b) Configuration and angle of attack",
+        "(c) Mass and attitude",
+        "(d) Mass and configuration"
+      ],
+      "answer": "a",
+      "solution": "(a) Configuration and altitude",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q115",
+      "question": "What is meant by balanced field available?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) TORA = TODA",
+        "(b) ASDA = ASDR and TODA =TODR",
+        "(c) TODA = ASDA",
+        "(d) TORA = ASDA"
+      ],
+      "answer": "a",
+      "solution": "(a) TORA = TODA",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q116",
+      "question": "For a piston engine aeroplane at a constant altitude, angle of attack and",
+      "question_type": "MCQ",
+      "options": [
+        "(a) more power but less speed",
+        "(b) more power and the same speed",
+        "(c) more power and more speed",
+        "(d) the same power but more speed"
+      ],
+      "answer": "a",
+      "solution": "(a) more power but less speed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q117",
+      "question": "In the climb an aircraft has a thrust to weight ratio of 1:4 and a lift to drag ratio of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 3.0%",
+        "(b) 8.3%",
+        "(c) 16.7%",
+        "(d) 3.3%"
+      ],
+      "answer": "a",
+      "solution": "(a) 3.0%",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q118",
+      "question": "Which of the following will not decrease the value of V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The C of G in an aft position within the C of G envelope",
+        "(b) Increased          altitude",
+        "(c) Decreased          weight",
+        "(d) Increased flap setting"
+      ],
+      "answer": "a",
+      "solution": "(a) The C of G in an aft position within the C of G envelope",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q119",
+      "question": "All other factors being equal, the speed for minimum drag is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) constant for all weights",
+        "(b) a function of density altitude",
+        "(c) proportional to weight",
+        "(d) a function of pressure altitude"
+      ],
+      "answer": "a",
+      "solution": "(a) constant for all weights",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q120",
+      "question": "Taking into account the values given below, what would be the maximum",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 56          850          kg",
+        "(b) 49          850          kg",
+        "(c) 52          500          kg",
+        "(d) 48          800          kg"
+      ],
+      "answer": "a",
+      "solution": "(a) 56          850          kg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q121",
+      "question": "If a turn is commenced during the take-off climb path:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases decreases decreases",
+        "(b) decreases increases increases",
+        "(c) increases increases decreases",
+        "(d) decreases decreases increases"
+      ],
+      "answer": "a",
+      "solution": "(a) increases decreases decreases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q122",
+      "question": "What effect does an increase in weight have on V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) It will cause it to increase",
+        "(b) It will cause it to decrease",
+        "(c) It will have no effect",
+        "(d) It will cause it to decrease by the same percentage as the weight increase"
+      ],
+      "answer": "a",
+      "solution": "(a) It will cause it to increase",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q123",
+      "question": "As speed is reduced from V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) power required decreases and drag decreases",
+        "(b) power required decreases and drag increases",
+        "(c) power required increases and drag increases",
+        "(d) power required increases and drag decreases"
+      ],
+      "answer": "a",
+      "solution": "(a) power required decreases and drag decreases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q124",
+      "question": "The maximum induced drag occurs at a speed of:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) V",
+        "(c) V",
+        "(d) 1.32V"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q125",
+      "question": "Profile drag is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) inversely proportional to the square root of the EAS",
+        "(b) directly proportional to the square of the EAS",
+        "(c) inversely proportional to the square of the EAS",
+        "(d) directly proportional to the square root of the EAS"
+      ],
+      "answer": "a",
+      "solution": "(a) inversely proportional to the square root of the EAS",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q126",
+      "question": "Losing an engine during the take-off above V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) altitude",
+        "(b) straight and level flight",
+        "(c) heading",
+        "(d) bank          angle"
+      ],
+      "answer": "a",
+      "solution": "(a) altitude",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q127",
+      "question": "The best EAS / drag ratio is approximately:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1.3V",
+        "(b) 1.32V",
+        "(c) 1.6V",
+        "(d) 1.8V"
+      ],
+      "answer": "a",
+      "solution": "(a) 1.3V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q128",
+      "question": "The effect an increase of weight has on the value of stalling speed (IAS) is that V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases",
+        "(b) decreases",
+        "(c) remains          constant",
+        "(d) increases or decreases, depending on the amount of weight increase"
+      ],
+      "answer": "a",
+      "solution": "(a) increases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q129",
+      "question": "Which one of the following statements is true concerning the effect of changes",
+      "question_type": "MCQ",
+      "options": [
+        "(a) An increase will cause a decrease in the landing distance required",
+        "(b) An increase will cause a decrease in take-off distance required",
+        "(c) A decrease will cause an increase in the climb gradient",
+        "(d) A decrease will cause an increase in the take-off ground run"
+      ],
+      "answer": "a",
+      "solution": "(a) An increase will cause a decrease in the landing distance required",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q130",
+      "question": "What percentages of the headwind and tailwind components are taken into",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 100% headwind and 100% tailwind",
+        "(b) 150% headwind and 50% tailwind",
+        "(c) 50% headwind and 100% tailwind",
+        "(d) 50% headwind and 150% tailwind"
+      ],
+      "answer": "a",
+      "solution": "(a) 100% headwind and 100% tailwind",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q131",
+      "question": "For a turbojet aircraft planning to land on a wet runway, the landing distance",
+      "question_type": "MCQ",
+      "options": [
+        "(a) may be less than 15% greater than the dry landing distance if the flight",
+        "(b) may be less than 15% greater than the dry landing distance if all reverse thrust",
+        "(c) may be less than 15% greater than the dry landing distance if permission is",
+        "(d) must always be at least 15% greater than the dry landing distance"
+      ],
+      "answer": "a",
+      "solution": "(a) may be less than 15% greater than the dry landing distance if the flight",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q132",
+      "question": "The effect of installing more powerful engines in a turbojet aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) to increase the aerodynamic ceiling and increase the performance ceiling",
+        "(b) to decrease the aerodynamic ceiling and increase the performance ceiling",
+        "(c) to increase the performance ceiling but not affect the aerodynamic ceiling",
+        "(d) to decrease both the aerodynamic and the performance ceilings"
+      ],
+      "answer": "a",
+      "solution": "(a) to increase the aerodynamic ceiling and increase the performance ceiling",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q133",
+      "question": "In relation to runway strength, the ACN:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) may not exceed 90% of the PCN",
+        "(b) may exceed the PCN by up to 10%",
+        "(c) may never exceed the PCN",
+        "(d) may exceed the PCN by a factor of 2"
+      ],
+      "answer": "a",
+      "solution": "(a) may not exceed 90% of the PCN",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q134",
+      "question": "An aerodrome has a clearway of 500 m and a stopway of 200 m.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the maximum take-off mass will increase, and V",
+        "(b) the maximum take-off mass will increase and V",
+        "(c) the maximum take-off mass will remain the same and V",
+        "(d) the maximum take-off mass will increase and V"
+      ],
+      "answer": "a",
+      "solution": "(a) the maximum take-off mass will increase, and V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q135",
+      "question": "An aircraft is climbing at a constant power setting and a speed of V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) climb gradient will decrease and the rate of climb will increase",
+        "(b) climb gradient will decrease and the rate of climb will decrease",
+        "(c) climb gradient will increase and the rate of climb will increase",
+        "(d) climb gradient will increase and the rate of climb will decrease"
+      ],
+      "answer": "a",
+      "solution": "(a) climb gradient will decrease and the rate of climb will increase",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q136",
+      "question": "When an aircraft is climbing in a standard atmosphere above the tropopause at a",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the IAS decreases and TAS remain constant",
+        "(b) the IAS and TAS remain constant",
+        "(c) the IAS decreases and TAS decreases",
+        "(d) the IAS remains constant and TAS increases"
+      ],
+      "answer": "a",
+      "solution": "(a) the IAS decreases and TAS remain constant",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q137",
+      "question": "An aircraft is climbing at a constant IAS, below the Mach limit. As height increases:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) drag decreases, because density decreases",
+        "(b) drag remains constant, but the climb gradient decreases",
+        "(c) drag increases, because TAS increases",
+        "(d) drag remains constant and the climb gradient remains constant"
+      ],
+      "answer": "a",
+      "solution": "(a) drag decreases, because density decreases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q138",
+      "question": "Optimum altitude can be defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the highest permissible altitude for an aeroplane type",
+        "(b) the altitude at which an aeroplane attains the maximum specific air range",
+        "(c) the altitude at which the ground speed is greatest",
+        "(d) the altitude at which specific fuel consumption is highest"
+      ],
+      "answer": "a",
+      "solution": "(a) the highest permissible altitude for an aeroplane type",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q139",
+      "question": "If an aircraft is descending at a constant Mach number:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the IAS will increase and the margin to low speed buffet will decrease",
+        "(b) the IAS will increase and the margin to low speed buffet will increase",
+        "(c) the IAS will decrease and the margin to low speed buffet will decrease",
+        "(d) the IAS will decrease and the margin to low speed buffet will increase"
+      ],
+      "answer": "a",
+      "solution": "(a) the IAS will increase and the margin to low speed buffet will decrease",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q140",
+      "question": "For a given flight level, the speed range determined by the buffet onset boundary",
+      "question_type": "MCQ",
+      "options": [
+        "(a) decreased          weight",
+        "(b) decreased bank angle",
+        "(c) a more forward CG position",
+        "(d) increased ambient temperature"
+      ],
+      "answer": "a",
+      "solution": "(a) decreased          weight",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q141",
+      "question": "Which of the following variables will not affect the shape or position of the drag vs.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Aspect          ratio",
+        "(b) Configuration",
+        "(c) Altitude",
+        "(d) Weight"
+      ],
+      "answer": "a",
+      "solution": "(a) Aspect          ratio",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q142",
+      "question": "Which of the following would give the greatest gliding endurance?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Flight at V",
+        "(b) Flight at 1.32V",
+        "(c) Flight at the best C",
+        "(d) Flight close to C"
+      ],
+      "answer": "a",
+      "solution": "(a) Flight at V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q143",
+      "question": "The tyre speed limit is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) Max          V",
+        "(c) Max          V",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q144",
+      "question": "What gives one the greatest gliding time?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Being          light",
+        "(b) A          headwind",
+        "(c) A          tailwind",
+        "(d) Being          heavy"
+      ],
+      "answer": "a",
+      "solution": "(a) Being          light",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q145",
+      "question": "For take-off performance calculations, what is taken into account?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) OAT, pressure altitude, wind, weight",
+        "(b) Standard temperature, altitude, wind, weight",
+        "(c) Standard altitude, standard temperature, wind, weight",
+        "(d) Standard temperature, pressure altitude, wind, weight"
+      ],
+      "answer": "a",
+      "solution": "(a) OAT, pressure altitude, wind, weight",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q146",
+      "question": "Which 3 speeds are effectively the same for a jet aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ROC, range, minimum drag",
+        "(b) Range, best angle of climb, minimum drag",
+        "(c) Best angle of climb, minimum drag, endurance",
+        "(d) Best angle of climb, range, endurance"
+      ],
+      "answer": "a",
+      "solution": "(a) ROC, range, minimum drag",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q147",
+      "question": "The long range cruise speed is a speed that gives:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a 1% increase in range and a decrease in IAS",
+        "(b) a 1% increase in TAS",
+        "(c) a 1% increase in IAS",
+        "(d) gives 99% of best cruise range, with an increase in IAS"
+      ],
+      "answer": "a",
+      "solution": "(a) a 1% increase in range and a decrease in IAS",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q148",
+      "question": "When an aircraft takes off at the mass it was limited to by the TODA:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the end of the runway will be cleared by 35 ft following an engine failure just",
+        "(b) the actual take-off mass equals the field length limited take-off mass",
+        "(c) the distance from BRP to V",
+        "(d) the balanced take-off distance equals 115% of the all engine take-off distance"
+      ],
+      "answer": "a",
+      "solution": "(a) the end of the runway will be cleared by 35 ft following an engine failure just",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q149",
+      "question": "Which of the following speeds gives the maximum obstacle clearance in the climb?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) 1.2V",
+        "(c) V",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q150",
+      "question": "The tangent from the origin to the power required curve gives:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Minimum drag coefficient",
+        "(b) L/D          Minimum",
+        "(c) D/L          Maximum",
+        "(d) L/D          Maximum"
+      ],
+      "answer": "a",
+      "solution": "(a) Minimum drag coefficient",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q151",
+      "question": "For a jet flying at a constant altitude, at the maximum range speed, what is the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increase,          Increases",
+        "(b) Decrease,          Constant",
+        "(c) Constant,          Decrease",
+        "(d) Decrease,          Decrease"
+      ],
+      "answer": "a",
+      "solution": "(a) Increase,          Increases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q152",
+      "question": "If an aircraft descends at a constant Mach number, what will the first limiting speed",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Max operating speed",
+        "(b) Never exceed speed",
+        "(c) Max operating Mach number",
+        "(d) Shock stall speed"
+      ],
+      "answer": "a",
+      "solution": "(a) Max operating speed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q153",
+      "question": "For an aircraft gliding at its best glide range speed, if AoA is reduced:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) glide distance will increase",
+        "(b) glide distance will remain unaffected",
+        "(c) glide distance will decrease",
+        "(d) glide distance will remain constant, if speed is increased"
+      ],
+      "answer": "a",
+      "solution": "(a) glide distance will increase",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q154",
+      "question": "If an aircraft’s climb schedule was changed from 280 / M 0.74 to 290 / M 0.74, what",
+      "question_type": "MCQ",
+      "options": [
+        "(a) It would remain unchanged",
+        "(b) It could move up or down, depending on the aircraft",
+        "(c) It will move down",
+        "(d) It will move up"
+      ],
+      "answer": "a",
+      "solution": "(a) It would remain unchanged",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q155",
+      "question": "What happens to the cost index when flying above the optimum long range cruise",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Cost index is not affected by speed",
+        "(b) Cost index will increase with increased speed",
+        "(c) Cost index will decrease with increased speed",
+        "(d) It all depends on how much the speed is changed by"
+      ],
+      "answer": "a",
+      "solution": "(a) Cost index is not affected by speed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q156",
+      "question": "For an aircraft flying at the long range cruise speed, (i) specific range and (ii) fuel to",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ( i )   decreases  ( ii )   increases",
+        "(b) ( i )   increases   ( ii )   increases",
+        "(c) ( i )   decreases  ( ii )   decreases",
+        "(d) ( i )   increases   ( ii )   decreases"
+      ],
+      "answer": "a",
+      "solution": "(a) ( i )   decreases  ( ii )   increases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q157",
+      "question": "By what percentage should V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 30%",
+        "(b) 10%",
+        "(c) 20%",
+        "(d) 15%"
+      ],
+      "answer": "a",
+      "solution": "(a) 30%",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q158",
+      "question": "If a turboprop aircraft has a wet LDA of 2200 m, what would the equivalent dry",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1540          m",
+        "(b) 1148          m",
+        "(c) 1913          m",
+        "(d) 1339          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 1540          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q159",
+      "question": "If a TOD of 800 m is calculated at sea level, on a level, dry runway, with standard",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 836          m",
+        "(b) 940          m",
+        "(c) 1034          m",
+        "(d) 1095          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 836          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q160",
+      "question": "At a constant mass and altitude, a lower airspeed requires:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) more thrust and a lower coefficient of lift",
+        "(b) less thrust and a lower coefficient of lift",
+        "(c) more thrust and a lower coefficient of drag",
+        "(d) a higher coefficient of lift"
+      ],
+      "answer": "a",
+      "solution": "(a) more thrust and a lower coefficient of lift",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q161",
+      "question": "On a piston engine aeroplane, with increasing altitude at a constant gross mass,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) decreases slightly because of the lower air density",
+        "(b) remains unchanged but the TAS increases",
+        "(c) increases but the TAS remains constant",
+        "(d) increases and the TAS increases"
+      ],
+      "answer": "a",
+      "solution": "(a) decreases slightly because of the lower air density",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q162",
+      "question": "Reduced take-off thrust:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) can be used if the headwind component during take-off is at least 10 kt",
+        "(b) can be used if the take-off mass is higher than the performance limited take-",
+        "(c) is not recommended at very low temperatures",
+        "(d) has the benefit of improving engine life"
+      ],
+      "answer": "a",
+      "solution": "(a) can be used if the headwind component during take-off is at least 10 kt",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q163",
+      "question": "Reduced take-off thrust:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) can only be used in daylight",
+        "(b) can not be used on a wet runway",
+        "(c) is not recommended when wind shear is expected on departure",
+        "(d) is not recommended at sea level"
+      ],
+      "answer": "a",
+      "solution": "(a) can only be used in daylight",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q164",
+      "question": "May the anti-skid be considered in determining the take-off and landing mass",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Only          landing",
+        "(b) Only          take-off",
+        "(c) Yes",
+        "(d) No"
+      ],
+      "answer": "a",
+      "solution": "(a) Only          landing",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q165",
+      "question": "Climb limited take-off mass can be increased by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) lower          V",
+        "(b) lower flap setting and higher V",
+        "(c) lower          V",
+        "(d) lower          V"
+      ],
+      "answer": "a",
+      "solution": "(a) lower          V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q166",
+      "question": "An operator shall ensure that the aircraft clears all obstacles in the net take-off",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 90 m + (D / 0.125)",
+        "(b) 90 m + (1.125 × D)",
+        "(c) 90 m + (0.125 × D)",
+        "(d) (0.125 × D)"
+      ],
+      "answer": "a",
+      "solution": "(a) 90 m + (D / 0.125)",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q167",
+      "question": "The take-off performance for a turbojet aircraft using 10° flap results in the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) With 5° flap the clearance limit will increase and the field limit will decrease.",
+        "(b) With 15° flap both will increase",
+        "(c) With 5° flap both will increase",
+        "(d) With 15° flap the clearance limit will increase and the field limit will decrease"
+      ],
+      "answer": "a",
+      "solution": "(a) With 5° flap the clearance limit will increase and the field limit will decrease.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q168",
+      "question": "Induced      drag:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases with increased airspeed",
+        "(b) decreases with increased airspeed",
+        "(c) independent of airspeed",
+        "(d) initially increases and then decreases with speed"
+      ],
+      "answer": "a",
+      "solution": "(a) increases with increased airspeed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q169",
+      "question": "Which of these graphs shows the relationship that thrust required has with",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1",
+        "(b) 2",
+        "(c) 3",
+        "(d) 4"
+      ],
+      "answer": "a",
+      "solution": "(a) 1",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q170",
+      "question": "What is the formula for specific range?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Ground speed divided by fuel flow",
+        "(b) True airspeed divided by fuel flow",
+        "(c) Fuel flow divided by SFC",
+        "(d) Ground speed divided by SFC"
+      ],
+      "answer": "a",
+      "solution": "(a) Ground speed divided by fuel flow",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q171",
+      "question": "When does the first segment of the take-off climb begin?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) When          V",
+        "(b) When 35 feet is reached",
+        "(c) When flaps are up",
+        "(d) When gear and flaps are up"
+      ],
+      "answer": "a",
+      "solution": "(a) When          V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q172",
+      "question": "A headwind component:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases climb flight path angle",
+        "(b) decreases climb flight path angle",
+        "(c) increases best rate of climb",
+        "(d) decreases rate of climb"
+      ],
+      "answer": "a",
+      "solution": "(a) increases climb flight path angle",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q173",
+      "question": "What is the effect of an increase in pressure altitude?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increased take-off distance with increased performance",
+        "(b) Decreased take-off distance and increased performance",
+        "(c) Increased take-off distance and decreased performance",
+        "(d) Decreased take-off distance with decreased performance"
+      ],
+      "answer": "a",
+      "solution": "(a) Increased take-off distance with increased performance",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q174",
+      "question": "What affects endurance?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Speed and weight",
+        "(b) Speed and fuel on board",
+        "(c) Speed, weight and fuel on board",
+        "(d) None of the above"
+      ],
+      "answer": "a",
+      "solution": "(a) Speed and weight",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q175",
+      "question": "What degrades aircraft performance?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Low altitude, low temperature, low humidity",
+        "(b) High altitude, high temperature, high humidity",
+        "(c) Low altitude, high temperature, low humidity",
+        "(d) High temperature, high altitude, low humidity"
+      ],
+      "answer": "a",
+      "solution": "(a) Low altitude, low temperature, low humidity",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q176",
+      "question": "If your take-off is limited by the climb limit mass, what is the effect of a headwind?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) No          effect",
+        "(b) Increased          mass",
+        "(c) Decreased          mass",
+        "(d) Dependant on the strength of the headwind"
+      ],
+      "answer": "a",
+      "solution": "(a) No          effect",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q177",
+      "question": "What is the effect on accelerate-stop distance of the anti-skid system being",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increased",
+        "(b) Decreased",
+        "(c) Constant",
+        "(d) Unable to be determined without further information"
+      ],
+      "answer": "a",
+      "solution": "(a) Increased",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q178",
+      "question": "During planning V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ASDR is smaller than TODR",
+        "(b) ASDR is larger than TODR",
+        "(c) ASDR is the same as TODR",
+        "(d) the aircraft weight must be reduced in order to permit take-off"
+      ],
+      "answer": "a",
+      "solution": "(a) ASDR is smaller than TODR",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q179",
+      "question": "Refer to CAP 698 Fig 2.1.  What is the Gross TODR for an aircraft in the following",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 335          m",
+        "(b) 744          m",
+        "(c) 555          m",
+        "(d) 595          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 335          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q180",
+      "question": "What is the take-off run defined as for a Class A aircraft:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the distance from brakes release to V",
+        "(b) the distance from brakes release to a point on the ground below which the",
+        "(c) the distance from brakes release to a point on the ground below which the",
+        "(d) the distance from brakes release to a point half way between where the"
+      ],
+      "answer": "a",
+      "solution": "(a) the distance from brakes release to V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q181",
+      "question": "A turbo-propeller aircraft is certified with a maximum take-off mass of 5600 kg and",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Class          A",
+        "(b) Class          B",
+        "(c) Class          C",
+        "(d) Either Class A or Class B depending on the number of passengers carried"
+      ],
+      "answer": "a",
+      "solution": "(a) Class          A",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q182",
+      "question": "How does the thrust from a fixed propeller change during the take-off run of an",
+      "question_type": "MCQ",
+      "options": [
+        "(a) It remains constant",
+        "(b) It increases slightly as the aircraft speed builds up",
+        "(c) It decreases slightly as the aircraft speed builds up",
+        "(d) It only varies with changes in mass"
+      ],
+      "answer": "a",
+      "solution": "(a) It remains constant",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q183",
+      "question": "The take-off run is defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) distance to V",
+        "(b) distance from brake release to the point where the aircraft reaches V",
+        "(c) the horizontal distance from the start of the take-off roll to a point equidistant",
+        "(d) the distance to 35 ft with an engine failure at V"
+      ],
+      "answer": "a",
+      "solution": "(a) distance to V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q184",
+      "question": "What effect does a downhill slope have on the take-off speeds?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) It has no effect on V",
+        "(b) It decreases V",
+        "(c) It increases V",
+        "(d) It increases the IAS for take-off"
+      ],
+      "answer": "a",
+      "solution": "(a) It has no effect on V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q185",
+      "question": "Which of the following combinations most reduces the take-off and climb",
+      "question_type": "MCQ",
+      "options": [
+        "(a) High temperature and high pressure",
+        "(b) Low temperature and high pressure",
+        "(c) Low temperature and low pressure",
+        "(d) High temperature and low pressure"
+      ],
+      "answer": "a",
+      "solution": "(a) High temperature and high pressure",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q186",
+      "question": "Density altitude is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the true altitude of the aircraft",
+        "(b) the altitude in the standard atmosphere corresponding to the actual",
+        "(c) the indicated altitude on the altimeter",
+        "(d) used to calculate en route safety altitudes"
+      ],
+      "answer": "a",
+      "solution": "(a) the true altitude of the aircraft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q187",
+      "question": "The take-off climb gradient:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases in a headwind and decreases in a tailwind",
+        "(b) decreases in a headwind and increases in a tailwind",
+        "(c) is independent of the wind component",
+        "(d) is determined with the aircraft in the take-off configuration"
+      ],
+      "answer": "a",
+      "solution": "(a) increases in a headwind and decreases in a tailwind",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q188",
+      "question": "The effect of changing altitude on the maximum rate of climb (ROC) and speed",
+      "question_type": "MCQ",
+      "options": [
+        "(a) as altitude increases the ROC and speed both decrease",
+        "(b) as altitude increases the ROC and speed both increase",
+        "(c) as altitude increases the ROC decreases but the speed remains constant",
+        "(d) as altitude increases the ROC remains constant but the speed increases"
+      ],
+      "answer": "a",
+      "solution": "(a) as altitude increases the ROC and speed both decrease",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q189",
+      "question": "A runway at an aerodrome has a declared take-off run of 3000 m with 2000 m of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 5000          m",
+        "(b) 6000          m",
+        "(c) 3000          m",
+        "(d) 4500          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 5000          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q190",
+      "question": "An aircraft may use either 5° or 15° flap setting for take-off.  The effect of selecting",
+      "question_type": "MCQ",
+      "options": [
+        "(a) take-off distance and take-off climb gradient will both increase",
+        "(b) take-off distance and take-off climb gradient will both decrease",
+        "(c) take-off distance will increase and take-off climb gradient will decrease",
+        "(d) take-off distance will decrease and take-off climb gradient will increase"
+      ],
+      "answer": "a",
+      "solution": "(a) take-off distance and take-off climb gradient will both increase",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q191",
+      "question": "The use of reduced thrust for take-off is permitted:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) if the field length limited take-off mass is greater than the climb limited take-",
+        "(b) if the actual take-off mass is less than the structural limiting mass",
+        "(c) if the actual take-off mass is less than the field length and climb limited take-",
+        "(d) if the take-off distance required at the actual take-off mass does not exceed"
+      ],
+      "answer": "a",
+      "solution": "(a) if the field length limited take-off mass is greater than the climb limited take-",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q192",
+      "question": "Planning the performance for a runway with no obstacles, it is found that the climb",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Use an increased V",
+        "(b) Increase the flap setting",
+        "(c) Reduce the flap setting",
+        "(d) Reduce the V"
+      ],
+      "answer": "a",
+      "solution": "(a) Use an increased V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q193",
+      "question": "The maximum and minimum values of V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) V",
+        "(c) V",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q194",
+      "question": "If the TAS is 175 kt and the rate of climb 1250 ft per minute, the climb gradient is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 7%",
+        "(b) 14%",
+        "(c) 12%",
+        "(d) 10%"
+      ],
+      "answer": "a",
+      "solution": "(a) 7%",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q195",
+      "question": "A pilot inadvertently selects a V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The accelerate-stop distance required will exceed the distance available",
+        "(b) The climb gradient will be increased",
+        "(c) The take-off distance required will exceed that available",
+        "(d) There will be no significant effect on the performance"
+      ],
+      "answer": "a",
+      "solution": "(a) The accelerate-stop distance required will exceed the distance available",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q196",
+      "question": "A turbojet is in a climb at a constant IAS. What happens to the drag?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) It          increases",
+        "(b) It          decreases",
+        "(c) It remains constant",
+        "(d) It increases initially then decreases"
+      ],
+      "answer": "a",
+      "solution": "(a) It          increases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q197",
+      "question": "Comparing the take-off performance of an aircraft from an aerodrome at 1000 ft",
+      "question_type": "MCQ",
+      "options": [
+        "(a) will require a greater take-off distance and have a greater climb gradient",
+        "(b) will require a greater take-off distance and have a lower climb gradient",
+        "(c) will require a shorter take-off distance and have a lower climb gradient",
+        "(d) will require a shorter take-off distance and have a greater climb gradient"
+      ],
+      "answer": "a",
+      "solution": "(a) will require a greater take-off distance and have a greater climb gradient",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q198",
+      "question": "Which is the correct sequence of speeds?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) V",
+        "(c) V",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q199",
+      "question": "Which of the following will increase the accelerate-stop distance on a dry runway?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) A headwind component",
+        "(b) An uphill slope",
+        "(c) Temperatures below ISA",
+        "(d) Low take-off mass, because of the increased acceleration"
+      ],
+      "answer": "a",
+      "solution": "(a) A headwind component",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q200",
+      "question": "A turbojet aircraft is climbing at a constant Mach number in the troposphere.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) TAS and IAS increase",
+        "(b) TAS and IAS decrease",
+        "(c) TAS decreases, IAS increases",
+        "(d) TAS increases, IAS decreases"
+      ],
+      "answer": "a",
+      "solution": "(a) TAS and IAS increase",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q201",
+      "question": "The induced drag in an aeroplane:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases as speed increases",
+        "(b) is independent of speed",
+        "(c) decreases as speed increases",
+        "(d) decreases as weight decreases"
+      ],
+      "answer": "a",
+      "solution": "(a) increases as speed increases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q202",
+      "question": "The speed range between low speed and high speed buffet:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) decreases as altitude increases and weight decreases",
+        "(b) decreases as weight and altitude increase",
+        "(c) decreases as weight decreases and altitude increases",
+        "(d) increases as weight decreases and altitude increases"
+      ],
+      "answer": "a",
+      "solution": "(a) decreases as altitude increases and weight decreases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q203",
+      "question": "Thrust equals drag:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) in unaccelerated level flight",
+        "(b) in an unaccelerated descent",
+        "(c) in an unaccelerated climb",
+        "(d) in a climb, descent or level flight if unaccelerated"
+      ],
+      "answer": "a",
+      "solution": "(a) in unaccelerated level flight",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q204",
+      "question": "A higher mass at a given altitude will reduce the gradient of climb and the rate of",
+      "question_type": "MCQ",
+      "options": [
+        "(a) V",
+        "(b) V",
+        "(c) V",
+        "(d) V"
+      ],
+      "answer": "a",
+      "solution": "(a) V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q205",
+      "question": "If the other factors are unchanged, the fuel mileage (NM per kg) is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) independent of the centre of gravity (C of G)",
+        "(b) lower with a forward C of G",
+        "(c) lower with an aft C of G",
+        "(d) higher with a forward C of G"
+      ],
+      "answer": "a",
+      "solution": "(a) independent of the centre of gravity (C of G)",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q206",
+      "question": "Concerning maximum range in a turbojet aircraft, which of the following is true?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The speed to achieve maximum range is not affected by the wind component",
+        "(b) To achieve maximum range speed should be increased in a headwind and",
+        "(c) To achieve maximum range speed should be decreased in a headwind and",
+        "(d) The change in speed required to achieve maximum range is dependent on the"
+      ],
+      "answer": "a",
+      "solution": "(a) The speed to achieve maximum range is not affected by the wind component",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q207",
+      "question": "A constant headwind in the descent:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) decreases the angle of descent",
+        "(b) increases the rate of descent",
+        "(c) increases the angle of the descent flight path",
+        "(d) increases the ground distance travelled in the descent"
+      ],
+      "answer": "a",
+      "solution": "(a) decreases the angle of descent",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q208",
+      "question": "For a turbojet aircraft what is the reason for the use of maximum range speed?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Greatest flight duration",
+        "(b) Minimum specific fuel consumption",
+        "(c) Minimum flight duration",
+        "(d) Minimum          drag"
+      ],
+      "answer": "a",
+      "solution": "(a) Greatest flight duration",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q209",
+      "question": "Why are step climbs used on long range flights in jet transport aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) To comply with ATC flight level constraints",
+        "(b) Step climbs have no significance for jet aircraft, they are used by piston aircraft",
+        "(c) To fly as close as possible to the optimum altitude as mass reduces",
+        "(d) They are only justified if the actual wind conditions differ significantly from"
+      ],
+      "answer": "a",
+      "solution": "(a) To comply with ATC flight level constraints",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q210",
+      "question": "The absolute ceiling of an aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) where the rate of climb reaches a specified value",
+        "(b) always lower than the aerodynamic ceiling",
+        "(c) where the rate of climb is theoretically zero",
+        "(d) where the gradient of climb is 5%"
+      ],
+      "answer": "a",
+      "solution": "(a) where the rate of climb reaches a specified value",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q211",
+      "question": "In the take-off flight path, the net climb gradient when compared to the gross",
+      "question_type": "MCQ",
+      "options": [
+        "(a) greater",
+        "(b) the          same",
+        "(c) smaller",
+        "(d) dependent on aircraft type"
+      ],
+      "answer": "a",
+      "solution": "(a) greater",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q212",
+      "question": "To answer this question use CAP 698 SEP1 figure 2.1.  Conditions: aerodrome",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2800          ft",
+        "(b) 3220          ft",
+        "(c) 3640          ft",
+        "(d) 3500          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 2800          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q213",
+      "question": "To  answer  this  question  use  CAP  698  MRJT  figure  4.4.  Conditions:  Pressure  altitude",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 59 400 kg, 15°",
+        "(b) 60 200 kg, 5°",
+        "(c) 59 400 kg, 5°",
+        "(d) 60 200 kg, 15°"
+      ],
+      "answer": "a",
+      "solution": "(a) 59 400 kg, 15°",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q214",
+      "question": "The effect of a headwind component on glide range is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the range will increase",
+        "(b) the range will not be affected",
+        "(c) the range will decrease",
+        "(d) the range will only be affected if incorrect speeds are flown"
+      ],
+      "answer": "a",
+      "solution": "(a) the range will increase",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q215",
+      "question": "Refer to CAP 698 MRJT figure 4.24.  At a mass of 35 000 kg, why does the drift down",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The origin of the curve lies outside the chart",
+        "(b) At this altitude it takes longer for the engines to slow down, giving extra",
+        "(c) Because of inertia at the higher TAS it takes longer to establish the optimum",
+        "(d) It takes about this time to decelerate the aircraft to the optimum speed for"
+      ],
+      "answer": "a",
+      "solution": "(a) The origin of the curve lies outside the chart",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q216",
+      "question": "A twin engine turbojet aircraft having lost one engine must clear obstacles in the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 35          ft",
+        "(b) 1000          ft",
+        "(c) 1500          ft",
+        "(d) 2000          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 35          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q217",
+      "question": "The landing speed, V",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1.2V",
+        "(b) 1.1V",
+        "(c) 1.05V",
+        "(d) 1.3V"
+      ],
+      "answer": "a",
+      "solution": "(a) 1.2V",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q218",
+      "question": "What factor must be applied to the landing distance available at the destination",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1.43",
+        "(b) 1.15",
+        "(c) 0.60",
+        "(d) 0.70"
+      ],
+      "answer": "a",
+      "solution": "(a) 1.43",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q219",
+      "question": "An aircraft is certified to use two landing flap positions, 25° and 35°.  If the pilot",
+      "question_type": "MCQ",
+      "options": [
+        "(a) an increased landing distance and reduced go-around performance",
+        "(b) a reduced landing distance and reduced go-around performance",
+        "(c) an increased landing distance and increased go-around performance",
+        "(d) a reduced landing distance and increased go-around performance"
+      ],
+      "answer": "a",
+      "solution": "(a) an increased landing distance and reduced go-around performance",
+      "explanation": ""
+    }
+  ]
+}

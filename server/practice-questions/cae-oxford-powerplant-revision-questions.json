@@ -1,0 +1,3726 @@
+{
+  "book_name": "CAE Oxford Powerplant",
+  "chapter_number": "N/A",
+  "chapter_title": "Revision Questions",
+  "chapter_slug": "cae-oxford-powerplant-revision-questions",
+  "source": "cae-oxford",
+  "questions": [
+    {
+      "question_number": "Q1",
+      "question": "The principle of operation of firewire is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) positive coefficient of impedance, negative coefficient of inductance",
+        "(b) positive coefficient of resistance, negative coefficient of capacitance",
+        "(c) positive coefficient of inductance, negative coefficient of impedance",
+        "(d) positive coefficient of capacitance, negative coefficient of resistance"
+      ],
+      "answer": "a",
+      "solution": "(a) positive coefficient of impedance, negative coefficient of inductance",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q2",
+      "question": "What type of fire extinguisher would be used on a propane fire?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Foam",
+        "(b) Water",
+        "(c) Dry          powder",
+        "(d) Sand"
+      ],
+      "answer": "a",
+      "solution": "(a) Foam",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q3",
+      "question": "On what principle do smoke detectors work?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Resistance and capacitance",
+        "(b) Ionization and impedance",
+        "(c) Optical and ionization",
+        "(d) Inductance and light diffraction"
+      ],
+      "answer": "a",
+      "solution": "(a) Resistance and capacitance",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q4",
+      "question": "An ion detector detects:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) smoke and fire",
+        "(b) smoke",
+        "(c) overheat",
+        "(d) light"
+      ],
+      "answer": "a",
+      "solution": "(a) smoke and fire",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q5",
+      "question": "If an artificial feel unit were fitted it would be connected:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) in parallel with the primary controls",
+        "(b) in series with the primary controls",
+        "(c) in series with the secondary controls",
+        "(d) in parallel with the secondary controls"
+      ],
+      "answer": "a",
+      "solution": "(a) in parallel with the primary controls",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q6",
+      "question": "In a twin jet fuel system what is the function of a feeder box?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) To equally distribute the fuel to each tank during refuelling",
+        "(b) To prevent pump cavitation",
+        "(c) To feed fuel to the volumetric top-off unit",
+        "(d) To control the amount of fuel remaining during fuel dumping"
+      ],
+      "answer": "a",
+      "solution": "(a) To equally distribute the fuel to each tank during refuelling",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q7",
+      "question": "A twin jet aircraft would normally be refuelled by which of the following methods?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Overwing          refuelling",
+        "(b) Suction          refuelling",
+        "(c) Open line refuelling",
+        "(d) Pressure          refuelling"
+      ],
+      "answer": "a",
+      "solution": "(a) Overwing          refuelling",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q8",
+      "question": "The fuel tanks of a modern passenger airliner are filled by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) gravity",
+        "(b) fuel is sucked in by the aircraft pumps",
+        "(c) fuel is pumped in by the fuel truck",
+        "(d) the VTO system"
+      ],
+      "answer": "a",
+      "solution": "(a) gravity",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q9",
+      "question": "The purpose of a refuelling volumetric top off unit (VTO) is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) to keep the feeder box full of fuel at all times",
+        "(b) to close the fuelling valve when the tank is full",
+        "(c) to close the surge check valves in the outboard tanks to keep the tank full",
+        "(d) to close the tank vent system when the tank is full"
+      ],
+      "answer": "a",
+      "solution": "(a) to keep the feeder box full of fuel at all times",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q10",
+      "question": "Fuel tank booster pumps are:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) spur gear pumps – high pressure",
+        "(b) centrifugal pumps – high pressure",
+        "(c) spur gear pumps – low pressure",
+        "(d) centrifugal pumps – Low pressure"
+      ],
+      "answer": "a",
+      "solution": "(a) spur gear pumps – high pressure",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q11",
+      "question": "The advantage of a float type fuel gauging system is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 3 & 4",
+        "(b) 2 & 3",
+        "(c) 1          only",
+        "(d) 1 & 3"
+      ],
+      "answer": "a",
+      "solution": "(a) 3 & 4",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q12",
+      "question": "The function of the baffles in a fuel tank is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) to prevent movement of fuel to the wingtip",
+        "(b) to prevent fuel surge (or sloshing) during manoeuvring",
+        "(c) to prevent pump cavitation",
+        "(d) to reduce fuel flow at altitude"
+      ],
+      "answer": "a",
+      "solution": "(a) to prevent movement of fuel to the wingtip",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q13",
+      "question": "The function of baffle check valves in a fuel tank is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) to reduce fuel flow at altitude",
+        "(b) to prevent fuel surge during manoeuvring",
+        "(c) to prevent pump cavitation",
+        "(d) to prevent movement of fuel to the wingtip"
+      ],
+      "answer": "a",
+      "solution": "(a) to reduce fuel flow at altitude",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q14",
+      "question": "A magneto is switched off by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) open circuiting the primary circuit",
+        "(b) grounding the secondary circuit",
+        "(c) open circuiting the secondary circuit",
+        "(d) grounding the primary circuit"
+      ],
+      "answer": "a",
+      "solution": "(a) open circuiting the primary circuit",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q15",
+      "question": "An impulse coupling in a magneto is provided to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) generate high voltage and advance the spark for starting",
+        "(b) increase the energy to the spark plug as the rpm increases",
+        "(c) generate high voltage and retard the spark for starting",
+        "(d) allows a low energy value when ‘continuous ignition’ is selected"
+      ],
+      "answer": "a",
+      "solution": "(a) generate high voltage and advance the spark for starting",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q16",
+      "question": "A turbosupercharger impeller is driven by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a connection through a gearbox connected to the crankshaft",
+        "(b) diversion of exhaust gases by the wastegate using energy that would",
+        "(c) excess torque from the reduction gearbox",
+        "(d) a ram air turbine"
+      ],
+      "answer": "a",
+      "solution": "(a) a connection through a gearbox connected to the crankshaft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q17",
+      "question": "A cylinder head temperature gauge measures:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the temperature of the hottest cylinder",
+        "(b) the temperature of all the cylinders and gives an average reading",
+        "(c) the temperature of the coolest cylinder",
+        "(d) the temperature of the two cylinders furthest away from each other divided"
+      ],
+      "answer": "a",
+      "solution": "(a) the temperature of the hottest cylinder",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q18",
+      "question": "EPR is measured by the ratio of:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) turbine pressure to combustion chamber inlet pressure",
+        "(b) high pressure compressor inlet pressure to exhaust pressure",
+        "(c) low pressure compressor inlet pressure to high pressure compressor outlet",
+        "(d) exhaust pressure to low pressure compressor inlet pressure"
+      ],
+      "answer": "a",
+      "solution": "(a) turbine pressure to combustion chamber inlet pressure",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q19",
+      "question": "Where is EGT measured?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) In the jet pipe",
+        "(b) HP turbine outlet",
+        "(c) HP compressor outlet",
+        "(d) Combustion          chamber"
+      ],
+      "answer": "a",
+      "solution": "(a) In the jet pipe",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q20",
+      "question": "In a bootstrap air conditioning system what is the first thing the air does?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Goes through the primary heat exchanger, compressor then secondary heat",
+        "(b) Goes through the compressor, turbine, secondary heat exchanger",
+        "(c) Goes through the turbine, compressor and secondary heat exchanger",
+        "(d) Goes through the compressor, secondary heat exchanger, turbine"
+      ],
+      "answer": "a",
+      "solution": "(a) Goes through the primary heat exchanger, compressor then secondary heat",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q21",
+      "question": "How are the loads on an aircraft busbar connected?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) They are in series so that current reduces through the busbar as loads are",
+        "(b) They are in parallel so that voltage reduces through the busbar as loads are",
+        "(c) They are in parallel so that current reduces through the busbar as loads are",
+        "(d) They are in series so that voltage reduces through the busbar as loads are"
+      ],
+      "answer": "a",
+      "solution": "(a) They are in series so that current reduces through the busbar as loads are",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q22",
+      "question": "In a modern airliner what is the hydraulic fluid used?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Synthetic",
+        "(b) Mineral",
+        "(c) Mineral/alcohol",
+        "(d) Vegetable"
+      ],
+      "answer": "a",
+      "solution": "(a) Synthetic",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q23",
+      "question": "The correct extinguisher to use on a brake fire would be:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) foam",
+        "(b) dry          powder",
+        "(c) CO",
+        "(d) water"
+      ],
+      "answer": "a",
+      "solution": "(a) foam",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q24",
+      "question": "An aircraft is certified to fly higher than 25 000 ft and to carry a maximum of 240",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 180",
+        "(b) 200",
+        "(c) 220",
+        "(d) 240"
+      ],
+      "answer": "a",
+      "solution": "(a) 180",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q25",
+      "question": "The passenger oxygen drop-down mask stowage doors are released:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) by a lanyard operated by a barometric capsule",
+        "(b) mechanically",
+        "(c) electrically for chemical oxygen generators and pneumatically for gaseous",
+        "(d) manually by the cabin crew"
+      ],
+      "answer": "a",
+      "solution": "(a) by a lanyard operated by a barometric capsule",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q26",
+      "question": "In a centrifugal compressor:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the air enters the eye tangentially and leaves the periphery axially",
+        "(b) the air enters the periphery axially and leaves the eye tangentially",
+        "(c) the air enters the eye radially and leaves the tip tangentially",
+        "(d) the air enters the impeller axially at the eye and leaves at the periphery"
+      ],
+      "answer": "a",
+      "solution": "(a) the air enters the eye tangentially and leaves the periphery axially",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q27",
+      "question": "What happens to pressure, temperature and velocity of the air in the diffuser of a",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Velocity increase, pressure and temperature decrease",
+        "(b) Velocity decrease, pressure and temperature increase",
+        "(c) Velocity, pressure and temperature increase",
+        "(d) Velocity, pressure and temperature decrease"
+      ],
+      "answer": "a",
+      "solution": "(a) Velocity increase, pressure and temperature decrease",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q28",
+      "question": "The type of smoke detection system fitted to aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) optical and ionization",
+        "(b) chemical",
+        "(c) electrical",
+        "(d) magnetic"
+      ],
+      "answer": "a",
+      "solution": "(a) optical and ionization",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q29",
+      "question": "The flight deck warning on activation of an engine fire detection system is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) warning          bell",
+        "(b) gear          warning",
+        "(c) warning light and warning bell",
+        "(d) warning          light"
+      ],
+      "answer": "a",
+      "solution": "(a) warning          bell",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q30",
+      "question": "Hydraulic reservoirs are pressurized by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ram air in flight only",
+        "(b) separate helium gas system",
+        "(c) air from the air conditioning system",
+        "(d) engine bleed air from turbine engine"
+      ],
+      "answer": "a",
+      "solution": "(a) ram air in flight only",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q31",
+      "question": "The purpose of a hydraulic fuse is to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) allow the parking brake to remain on overnight if required",
+        "(b) allow a reduced pressure to the wheel brake system to avoid locking the",
+        "(c) prevent over-pressurizing the reservoir as altitude increases",
+        "(d) prevent loss of system fluid if the pipeline to a brake unit should rupture"
+      ],
+      "answer": "a",
+      "solution": "(a) allow the parking brake to remain on overnight if required",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q32",
+      "question": "A shuttle valve will:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) allow the accumulator to be emptied after engine shutdown",
+        "(b) reduce pump loading when normal system pressure is reached",
+        "(c) automatically switch to a more appropriate source of hydraulic supply",
+        "(d) operate on a rising pressure, higher than the Full Flow relief valve"
+      ],
+      "answer": "a",
+      "solution": "(a) allow the accumulator to be emptied after engine shutdown",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q33",
+      "question": "With regard to an air cycle type ECS pack, where is the water separator fitted?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) After the humidifier",
+        "(b) Before the cold air unit compressor",
+        "(c) Between the compressor and turbine",
+        "(d) After the cold air unit turbine"
+      ],
+      "answer": "a",
+      "solution": "(a) After the humidifier",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q34",
+      "question": "In the event that an emergency decent causes the cabin pressure to decrease",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the outward relief valve will open",
+        "(b) the outflow valve will close",
+        "(c) the inward relief valve will open",
+        "(d) the safety valve will close"
+      ],
+      "answer": "a",
+      "solution": "(a) the outward relief valve will open",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q35",
+      "question": "The purpose of a ditching control valve is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) to close the outflow valves",
+        "(b) to open outflow valves",
+        "(c) to allow rapid depressurisation",
+        "(d) to dump the toilet water after landing"
+      ],
+      "answer": "a",
+      "solution": "(a) to close the outflow valves",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q36",
+      "question": "In a bleed air anti-icing system the areas that are heated are:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the whole of the wing",
+        "(b) wing leading edge slats and flaps",
+        "(c) wing leading edges and slats",
+        "(d) trailing edge flaps"
+      ],
+      "answer": "a",
+      "solution": "(a) the whole of the wing",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q37",
+      "question": "On a modern turboprop aircraft the method of anti-icing/de-icing the wings is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) fluid",
+        "(b) pneumatic          boots",
+        "(c) electrical heater mats",
+        "(d) hot air bled from the engines"
+      ],
+      "answer": "a",
+      "solution": "(a) fluid",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q38",
+      "question": "If an aircraft maximum operating altitude is limited by the pressure cabin, this limit",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the maximum positive pressure differential at maximum operating ceiling",
+        "(b) the maximum positive pressure differential at maximum cabin altitude",
+        "(c) the maximum number of pressurization cycles",
+        "(d) the maximum zero fuel mass at maximum pressure altitude"
+      ],
+      "answer": "a",
+      "solution": "(a) the maximum positive pressure differential at maximum operating ceiling",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q39",
+      "question": "Long haul aircraft are not used as short haul aircraft because:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) checklists would be too time consuming to complete",
+        "(b) it would use too much fuel",
+        "(c) some tanks will be empty the whole time imposing too much strain on the",
+        "(d) structures are given fatigue lives based on their use"
+      ],
+      "answer": "a",
+      "solution": "(a) checklists would be too time consuming to complete",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q40",
+      "question": "The properties of Duralumin are:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1, 3 and 5",
+        "(b) 2, 3 and 5",
+        "(c) 1, 2 and 3",
+        "(d) 4, 5 and 6"
+      ],
+      "answer": "a",
+      "solution": "(a) 1, 3 and 5",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q41",
+      "question": "An undercarriage leg is considered to be locked when:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) it is down",
+        "(b) the amber light is on",
+        "(c) mechanically locked by an ‘over-centre’ mechanism",
+        "(d) the actuating cylinder is at the end of its travel"
+      ],
+      "answer": "a",
+      "solution": "(a) it is down",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q42",
+      "question": "An underinflated tyre on a dry runway:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases wear on the shoulder",
+        "(b) increases wear on the crown",
+        "(c) increases viscous aquaplaning speed",
+        "(d) will cause the tyre temperature to reduce"
+      ],
+      "answer": "a",
+      "solution": "(a) increases wear on the shoulder",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q43",
+      "question": "Kreuger flaps are positioned:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) towards the wing tip",
+        "(b) at the wing inner leading edge",
+        "(c) along the whole leading edge",
+        "(d) at the wing trailing edge"
+      ],
+      "answer": "a",
+      "solution": "(a) towards the wing tip",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q44",
+      "question": "What are flaperons?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Combined spoiler and flap",
+        "(b) Combined elevators and flaps",
+        "(c) Combined ailerons and elevators",
+        "(d) Combined flap and ailerons"
+      ],
+      "answer": "a",
+      "solution": "(a) Combined spoiler and flap",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q45",
+      "question": "What is the purpose of inboard ailerons:?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) To reduce wing bending at high speed",
+        "(b) To reduce wing twisting at low speed",
+        "(c) To reduce wing bending at low speed",
+        "(d) To reduce wing twist at high speed"
+      ],
+      "answer": "a",
+      "solution": "(a) To reduce wing bending at high speed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q46",
+      "question": "What is the purpose of trim tabs?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) To reduce stick forces in manoeuvres",
+        "(b) To reduce stick holding forces to zero",
+        "(c) To increase control effectiveness",
+        "(d) To reduce control effectiveness"
+      ],
+      "answer": "a",
+      "solution": "(a) To reduce stick forces in manoeuvres",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q47",
+      "question": "Smoke hoods protect:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) full face and provide a continuous flow of oxygen",
+        "(b) mouth and nose and provide a continuous flow of oxygen",
+        "(c) full face and provide oxygen on demand",
+        "(d) mouth and nose and provide oxygen on demand"
+      ],
+      "answer": "a",
+      "solution": "(a) full face and provide a continuous flow of oxygen",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q48",
+      "question": "Oxygen supplied to the flight deck is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) gaseous, diluted with ambient air if required",
+        "(b) chemically generated and diluted with cabin air if required",
+        "(c) gaseous, diluted with cabin air if required",
+        "(d) chemically generated, diluted with ambient air if required"
+      ],
+      "answer": "a",
+      "solution": "(a) gaseous, diluted with ambient air if required",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q49",
+      "question": "If during pressurized flight the outflow valve closes fully due to a fault in the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) skin will be overstressed and could rupture",
+        "(b) safety valve opens when the differential pressure reaches structural max diff",
+        "(c) the inward relief valve will open to prevent excessive negative differential",
+        "(d) ECS packs are automatically closed down"
+      ],
+      "answer": "a",
+      "solution": "(a) skin will be overstressed and could rupture",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q50",
+      "question": "In a fan jet engine the bypass ratio is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) internal mass airflow divided by external mass airflow",
+        "(b) external mass airflow divided by internal mass airflow",
+        "(c) internal mass airflow divided by mass fuel flow",
+        "(d) mass fuel flow divided by mass fuel flow"
+      ],
+      "answer": "a",
+      "solution": "(a) internal mass airflow divided by external mass airflow",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q51",
+      "question": "The thrust reverser light illuminates on the flight deck annunciator when the:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) thrust reverser doors have moved to the reverse thrust position",
+        "(b) thrust reverser doors have been selected but the doors have not moved",
+        "(c) thrust reverser doors are locked",
+        "(d) thrust reverser doors are unlocked"
+      ],
+      "answer": "a",
+      "solution": "(a) thrust reverser doors have moved to the reverse thrust position",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q52",
+      "question": "In very cold weather the pilot notices slightly higher than normal oil pressure on",
+      "question_type": "MCQ",
+      "options": [
+        "(a) indicates an oil change is required.",
+        "(b) is indicative of a blocked oil filter.",
+        "(c) is acceptable providing it returns to normal after start up.",
+        "(d) is abnormal but does not require the engine to be shut down."
+      ],
+      "answer": "a",
+      "solution": "(a) indicates an oil change is required.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q53",
+      "question": "If a fuel tank having a capacitive contents gauging system is empty of fuel but has",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the gauge will show full scale high",
+        "(b) the gauge will show the mass of the water",
+        "(c) the gauge will show empty",
+        "(d) the gauge needle will ‘freeze’"
+      ],
+      "answer": "a",
+      "solution": "(a) the gauge will show full scale high",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q54",
+      "question": "In a four stroke engine, when the piston is at BDC at the end of the power stroke",
+      "question_type": "MCQ",
+      "options": [
+        "(a) closed                                 closed",
+        "(b) open                                open",
+        "(c) open                                closed",
+        "(d) closed                                 open"
+      ],
+      "answer": "a",
+      "solution": "(a) closed                                 closed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q55",
+      "question": "What is the effect on EGT and EPR if a bleed valve is opened?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increase,          increase",
+        "(b) Decrease,          decrease",
+        "(c) Decrease,          increase",
+        "(d) Increase,          decrease"
+      ],
+      "answer": "a",
+      "solution": "(a) Increase,          increase",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q56",
+      "question": "Refer to the following diagram for a modern turbofan engine – where is fuel flow \nmeasured?\nFuel tankEngine\nFirewall\nSOV\nLP\npump\nFCOC\nFilter\nHP\npump\nFuel\nheater\nFCUHP\nSOV\nd\nc\na\nb",
+      "question_type": "MCQ",
+      "options": [
+        "(d) c",
+        "(a) b"
+      ],
+      "answer": "a",
+      "solution": "(d) c",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q57",
+      "question": "Where is torque measured in a turboprop engine?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Accessory          gearbox",
+        "(b) Reduction          gearbox",
+        "(c) At the turbine",
+        "(d) At the constant speed unit oil pump"
+      ],
+      "answer": "a",
+      "solution": "(a) Accessory          gearbox",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q58",
+      "question": "Propeller blade angle is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the angle between the blade chord and the plane of rotation",
+        "(b) the angle between the relative airflow and the chord",
+        "(c) dependent upon rpm and TAS",
+        "(d) the difference between effective pitch and geometric pitch"
+      ],
+      "answer": "a",
+      "solution": "(a) the angle between the blade chord and the plane of rotation",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q59",
+      "question": "Why is a propeller blade twisted?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) To reduce the thrust at the root of the blade",
+        "(b) To prevent the blade from fully feathering",
+        "(c) To reduce the tip speed",
+        "(d) To even out the thrust force along the length of the blade"
+      ],
+      "answer": "a",
+      "solution": "(a) To reduce the thrust at the root of the blade",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q60",
+      "question": "For calculating resistances in parallel the formula is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1      1     1      1",
+        "(b) R",
+        "(c) R",
+        "(d) 1      1     1      1"
+      ],
+      "answer": "a",
+      "solution": "(a) 1      1     1      1",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q61",
+      "question": "When a fuse operates it is ............. and when a circuit breaker operates it is .............",
+      "question_type": "MCQ",
+      "options": [
+        "(a) high current      low current",
+        "(b) low current  high current",
+        "(c) non          re-settable             re-settable",
+        "(d) re-settable                       non          re-settable"
+      ],
+      "answer": "a",
+      "solution": "(a) high current      low current",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q62",
+      "question": "A hot busbar is one that:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) supplies galley power",
+        "(b) is permanently connected to the battery",
+        "(c) carries all of the non-essential loads",
+        "(d) is connected to the battery in an emergency"
+      ],
+      "answer": "a",
+      "solution": "(a) supplies galley power",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q63",
+      "question": "In an AC distribution system what is the purpose of the GCB?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Maintains constant frequency",
+        "(b) Connects the load busbar to the synchronizing busbar",
+        "(c) Controls generator field excitation",
+        "(d) Connects a generator output to its load busbar"
+      ],
+      "answer": "a",
+      "solution": "(a) Maintains constant frequency",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q64",
+      "question": "An aircraft which uses DC as the primary source of power, AC for the instruments",
+      "question_type": "MCQ",
+      "options": [
+        "(a) CSDU",
+        "(b) rectifier",
+        "(c) inverter",
+        "(d) TRU"
+      ],
+      "answer": "a",
+      "solution": "(a) CSDU",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q65",
+      "question": "Persistent over excitation of one generator field will cause:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the GCB and BTB to trip",
+        "(b) the BTB and exciter control relay to trip",
+        "(c) the GCB and exciter control relay to trip",
+        "(d) the GCB and SSB to trip"
+      ],
+      "answer": "a",
+      "solution": "(a) the GCB and BTB to trip",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q66",
+      "question": "When a battery is nearly discharged, the:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) voltage          decreases",
+        "(b) voltage and current decrease",
+        "(c) current increases because voltage has dropped",
+        "(d) electrolyte          boils"
+      ],
+      "answer": "a",
+      "solution": "(a) voltage          decreases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q67",
+      "question": "The state of charge of an aircraft battery on an aircraft with a voltmeter would be",
+      "question_type": "MCQ",
+      "options": [
+        "(a) on          load",
+        "(b) off          load",
+        "(c) with the battery negative terminal disconnected",
+        "(d) by monitoring the electrolyte resistance"
+      ],
+      "answer": "a",
+      "solution": "(a) on          load",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q68",
+      "question": "In a paralleled AC distribution system what regulates the real load?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Torque from the CSDU (CSD)",
+        "(b) Field excitation from the voltage regulator",
+        "(c) Synchronizing circuits in the BTB",
+        "(d) A potentiometer on the flight engineer’s panel"
+      ],
+      "answer": "a",
+      "solution": "(a) Torque from the CSDU (CSD)",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q69",
+      "question": "If the oil temperature gauge of the CSD is in the red what would action is required?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Throttle back and allow to cool down",
+        "(b) Auto          disconnect",
+        "(c) Manually disconnect and reconnect on the ground",
+        "(d) Disconnect, then when cooled reconnect"
+      ],
+      "answer": "a",
+      "solution": "(a) Throttle back and allow to cool down",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q70",
+      "question": "What is a transistorized static inverter in a DC circuit used for?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Convert AC to DC",
+        "(b) Provide field excitation current",
+        "(c) Provide AC for instruments",
+        "(d) To supply power to the emergency lights"
+      ],
+      "answer": "a",
+      "solution": "(a) Convert AC to DC",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q71",
+      "question": "If the load increases on a ‘constant speed AC generator’ what does the voltage",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increases generator speed",
+        "(b) Decreases field excitation",
+        "(c) Remains the same",
+        "(d) Increases field excitation"
+      ],
+      "answer": "a",
+      "solution": "(a) Increases generator speed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q72",
+      "question": "Incorrect bonding of the aircraft structure could cause:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) corrosion at skin joints",
+        "(b) CB          trips",
+        "(c) static on the radio",
+        "(d) VOR          interference"
+      ],
+      "answer": "a",
+      "solution": "(a) corrosion at skin joints",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q73",
+      "question": "The characteristics of a Unipole system are:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2, 4 and 5.",
+        "(b) 1, 2 and 3.",
+        "(c) 2, 4 and 1.",
+        "(d) 1, 4 and 5."
+      ],
+      "answer": "a",
+      "solution": "(a) 2, 4 and 5.",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q74",
+      "question": "The frequency of an AC generator is dependent upon?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the rpm of the rotor",
+        "(b) the number of poles in the rotor",
+        "(c) the rpm and number of poles in the rotor",
+        "(d) the number of poles in the rotor and the number of phase windings in the"
+      ],
+      "answer": "a",
+      "solution": "(a) the rpm of the rotor",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q75",
+      "question": "With an almost discharged battery there will be:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a decrease of voltage with increasing load",
+        "(b) increase of current with decrease of voltage",
+        "(c) decrease of current with increasing load",
+        "(d) increase of voltage with increasing load"
+      ],
+      "answer": "a",
+      "solution": "(a) a decrease of voltage with increasing load",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q76",
+      "question": "When is an engine overheat firewire system activated:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) When an overheat is detected all along the length of both firewire loops",
+        "(b) When an overheat affects one detector loop at a point anywhere along its",
+        "(c) When an overheat is detected all along the length of one firewire loop",
+        "(d) When an overheat affects both detector loops at a point anywhere along"
+      ],
+      "answer": "a",
+      "solution": "(a) When an overheat is detected all along the length of both firewire loops",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q77",
+      "question": "In an air cycle air conditioning system what is the function of the ground-cooling",
+      "question_type": "MCQ",
+      "options": [
+        "(a) To re-circulate air through the mix manifold",
+        "(b) To draw cooling air over the turbine",
+        "(c) To blow air into the compressor",
+        "(d) To draw cooling air over the heat exchangers"
+      ],
+      "answer": "a",
+      "solution": "(a) To re-circulate air through the mix manifold",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q78",
+      "question": "How do you control power in a jet engine?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) By controlling the mixture ratio",
+        "(b) By controlling the fuel flow",
+        "(c) By controlling the airflow",
+        "(d) By controlling the bleed valves"
+      ],
+      "answer": "a",
+      "solution": "(a) By controlling the mixture ratio",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q79",
+      "question": "In a normally aspirated piston engine carburettor icing can occur:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) between 0°C and –10°C",
+        "(b) at more than +10°C",
+        "(c) only at less than +10°C if there is visible moisture",
+        "(d) only above 5000 ft"
+      ],
+      "answer": "a",
+      "solution": "(a) between 0°C and –10°C",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q80",
+      "question": "In a gas turbine engine fuel system why is the fuel heater before the filter?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) To prevent ‘waxing’",
+        "(b) To help vaporization of the fuel",
+        "(c) To prevent water in the fuel freezing and blocking the filter",
+        "(d) To prevent the fuel from freezing and blocking the filter"
+      ],
+      "answer": "a",
+      "solution": "(a) To prevent ‘waxing’",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q81",
+      "question": "What is the purpose of the FCOC (Fuel-cooled Oil Cooler)?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) To maintain the oil at the correct temperature",
+        "(b) To heat the fuel and cool the oil",
+        "(c) To heat the oil and cool the fuel",
+        "(d) To bypass oil to the engine if the oil pressure filter becomes blocked"
+      ],
+      "answer": "a",
+      "solution": "(a) To maintain the oil at the correct temperature",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q82",
+      "question": "What is the purpose of the torque links in a landing gear leg?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) To prevent the wheel rotating around the leg",
+        "(b) To prevent shimmy",
+        "(c) To transfer the brake torque to the wheel",
+        "(d) To position the wheels in the correct attitude prior to landing"
+      ],
+      "answer": "a",
+      "solution": "(a) To prevent the wheel rotating around the leg",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q83",
+      "question": "An artificial feel system is needed in the pitch channel if the:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) airplane has a variable incidence tailplane",
+        "(b) elevators are controlled through a reversible servo system",
+        "(c) elevator is controlled through a servo tab",
+        "(d) elevators are controlled through an irreversible servo system"
+      ],
+      "answer": "a",
+      "solution": "(a) airplane has a variable incidence tailplane",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q84",
+      "question": "Auto brakes are disengaged:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) when the ground spoilers are retracted",
+        "(b) when the speed falls below 20 kt",
+        "(c) on the landing roll when the autopilot is disengaged",
+        "(d) by the pilot"
+      ],
+      "answer": "a",
+      "solution": "(a) when the ground spoilers are retracted",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q85",
+      "question": "85. In the following diagram the landing gear arrangements shown are:",
+      "question_type": "MCQ",
+      "options": [],
+      "answer": "",
+      "solution": "",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q86",
+      "question": "2.           3.                4.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) fork                                cantilever          levered                       tandem",
+        "(b) cantilever          dual                                fork                       tandem",
+        "(c) cantilever fork  half fork dual wheel",
+        "(d) half fork dual wheel cantilever fork"
+      ],
+      "answer": "a",
+      "solution": "(a) fork                                cantilever          levered                       tandem",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q87",
+      "question": "In an aircraft with a fuel dumping system it will allow fuel to be dumped:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) down to a predetermined safe value",
+        "(b) down to unuseable value",
+        "(c) to leave 15 gallons in each tank",
+        "(d) down to maximum landing weight"
+      ],
+      "answer": "a",
+      "solution": "(a) down to a predetermined safe value",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q88",
+      "question": "What does ‘octane rating’ when applied to AVGAS refer to?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The waxing point of the fuel",
+        "(b) The ability of the fuel to disperse water",
+        "(c) The anti-knock value of the fuel",
+        "(d) The volatility of the fuel"
+      ],
+      "answer": "a",
+      "solution": "(a) The waxing point of the fuel",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q89",
+      "question": "How are modern passenger jet aircraft fuel tanks pressurized?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) By nitrogen from a storage cylinder",
+        "(b) By ram air through the vent system",
+        "(c) By bleed air from the pneumatic system",
+        "(d) By a volumetric top off unit"
+      ],
+      "answer": "a",
+      "solution": "(a) By nitrogen from a storage cylinder",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q90",
+      "question": "Refering to the following diagram:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) C1 and C2 only",
+        "(b) C1 and C3 only",
+        "(c) C2 and C4 only",
+        "(d) C3          only"
+      ],
+      "answer": "a",
+      "solution": "(a) C1 and C2 only",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q91",
+      "question": "In which of the following areas would an overheat/fire warning be provided?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Fuel          tank",
+        "(b) Cabin",
+        "(c) Tyres",
+        "(d) Wheel/undercarriage          bay"
+      ],
+      "answer": "a",
+      "solution": "(a) Fuel          tank",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q92",
+      "question": "An axial flow compressor when compared to a centrifugal compressor:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) takes in less air and is less prone to rupturing",
+        "(b) takes in more air and is more prone to rupturing",
+        "(c) takes in more air and is less prone to rupturing",
+        "(d) takes in less air and is more prone to rupturing"
+      ],
+      "answer": "a",
+      "solution": "(a) takes in less air and is less prone to rupturing",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q93",
+      "question": "Hydraulic pressure typically used in the system of large transport aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2000 - 3000 psi",
+        "(b) 3000 - 4000 psi",
+        "(c) 1000 - 2000 psi",
+        "(d) 4000 - 5000 psi"
+      ],
+      "answer": "a",
+      "solution": "(a) 2000 - 3000 psi",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q94",
+      "question": "The EGT indication on a piston engine is used:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) to control the cooling air shutters",
+        "(b) to monitor the oil temperature",
+        "(c) to assist the pilot to adjust the fuel mixture",
+        "(d) to indicate cylinder head temperature"
+      ],
+      "answer": "a",
+      "solution": "(a) to control the cooling air shutters",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q95",
+      "question": "A gas turbine engine having a single spool, the compressor will rotate:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) at the same speed as the turbine",
+        "(b) slower than the turbine",
+        "(c) faster than the turbine",
+        "(d) independently of the turbine"
+      ],
+      "answer": "a",
+      "solution": "(a) at the same speed as the turbine",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q96",
+      "question": "Because of its function an ‘AND’ gate may also be referred to as:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) invert or not gate",
+        "(b) any or all gate",
+        "(c) all or nothing gate.",
+        "(d) either or gate."
+      ],
+      "answer": "a",
+      "solution": "(a) invert or not gate",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q97",
+      "question": "What type of hydraulic fluid is used in a modern passenger jet aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Mineral          based",
+        "(b) Phosphate ester based",
+        "(c) Vegetable          based",
+        "(d) Water          based"
+      ],
+      "answer": "a",
+      "solution": "(a) Mineral          based",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q98",
+      "question": "In a 4 stroke engine when does ignition occur in each cylinder?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) After TDC for starting and then before TDC every 2nd rotation of the",
+        "(b) Before TDC for starting and then after TDC every 2nd rotation of the",
+        "(c) After TDC for starting and then before TDC every rotation of the crankshaft",
+        "(d) Before TDC for starting and then after TDC every rotation of the crankshaft"
+      ],
+      "answer": "a",
+      "solution": "(a) After TDC for starting and then before TDC every 2nd rotation of the",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q99",
+      "question": "When smoke appears in the cockpit, after donning the oxygen mask the pilot",
+      "question_type": "MCQ",
+      "options": [
+        "(a) normal",
+        "(b) 100%.",
+        "(c) diluter",
+        "(d) emergency"
+      ],
+      "answer": "a",
+      "solution": "(a) normal",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q100",
+      "question": "Which part of the gas turbine engine limits the temperature?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Combustion          chamber",
+        "(b) Turbine",
+        "(c) Compressor",
+        "(d) Exhaust"
+      ],
+      "answer": "a",
+      "solution": "(a) Combustion          chamber",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q101",
+      "question": "What makes the non-rigid fittings of compressor and turbine blades rigid when the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Spring          locks",
+        "(b) Thrust and drag forces",
+        "(c) Aerodynamic and centrifugal force",
+        "(d) Tapered bead seats"
+      ],
+      "answer": "a",
+      "solution": "(a) Spring          locks",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q102",
+      "question": "What ice protection system is used on most modern jet transport aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Liquid",
+        "(b) Electrical",
+        "(c) Hot          air",
+        "(d) Pressure operated boots"
+      ],
+      "answer": "a",
+      "solution": "(a) Liquid",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q103",
+      "question": "What frequency is commonly used in aircraft electrical distribution systems?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 200          Hz",
+        "(b) 400          Hz",
+        "(c) 100          Hz",
+        "(d) 50          H"
+      ],
+      "answer": "a",
+      "solution": "(a) 200          Hz",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q104",
+      "question": "When does the engine High Pressure fuel shut off valve close?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) After a booster pump failure",
+        "(b) When the engine fuel switch is selected ‘on’ during engine start",
+        "(c) When flight idle is selected",
+        "(d) When the engine fuel switch is selected ‘off’ during engine shutdown"
+      ],
+      "answer": "a",
+      "solution": "(a) After a booster pump failure",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q105",
+      "question": "When does the Low Pressure fuel shut off valve close?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) When the fire handle is pulled",
+        "(b) When the engine fuel switch is selected ‘on’ during engine start",
+        "(c) When flight idle is selected",
+        "(d) After a booster pump failure"
+      ],
+      "answer": "a",
+      "solution": "(a) When the fire handle is pulled",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q106",
+      "question": "What voltage is supplied to booster pumps on a modern jet airliner?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 115 V AC single phase",
+        "(b) 200 V AC three phase",
+        "(c) 28 V DC from an inverter",
+        "(d) 12 V DC from the battery"
+      ],
+      "answer": "a",
+      "solution": "(a) 115 V AC single phase",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q107",
+      "question": "An engine having a ‘free turbine’:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) there is a mechanical connection between the power output shaft and the",
+        "(b) there is no mechanical connection between the power output shaft and the",
+        "(c) there is a mechanical connection between the compressor and the propeller",
+        "(d) air enters via compressor inlet on the turbine"
+      ],
+      "answer": "a",
+      "solution": "(a) there is a mechanical connection between the power output shaft and the",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q108",
+      "question": "If the pressure controller malfunctions during the cruise and the outflow valve",
+      "question_type": "MCQ",
+      "options": [
+        "(a) i) increase ii) decrease iii) decrease",
+        "(b) i) decrease ii) increase iii) decrease",
+        "(c) i) increase ii) increase iii) decrease",
+        "(d) i) increase ii) increase iii) increase"
+      ],
+      "answer": "a",
+      "solution": "(a) i) increase ii) decrease iii) decrease",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q109",
+      "question": "What controls cabin pressurization?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ECS pack mass flow controller",
+        "(b) outflow          valve",
+        "(c) engine bleed valve",
+        "(d) inflow          valve"
+      ],
+      "answer": "a",
+      "solution": "(a) ECS pack mass flow controller",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q110",
+      "question": "If the fire handle is pulled in an aeroplane with an AC generator system what",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Exciter control relay and GCB",
+        "(b) GCB and BTB",
+        "(c) BTB and GCU",
+        "(d) Exciter control relay only"
+      ],
+      "answer": "a",
+      "solution": "(a) Exciter control relay and GCB",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q111",
+      "question": "Which components constitute a crank assembly?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) crankshaft, camshaft, valve springs",
+        "(b) crankcase, crankshaft, pistons and connecting rods",
+        "(c) crankshaft, pistons and connecting rods",
+        "(d) propeller, crankshaft, connecting rods"
+      ],
+      "answer": "a",
+      "solution": "(a) crankshaft, camshaft, valve springs",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q112",
+      "question": "One stage of an axial compressor:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Comprises a row of stators followed by a rotor disc",
+        "(b) Has a compression ratio of 2:1",
+        "(c) Comprises a rotor disc followed by a row of stators",
+        "(d) Has a compression ratio of 0.8"
+      ],
+      "answer": "a",
+      "solution": "(a) Comprises a row of stators followed by a rotor disc",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q113",
+      "question": "If a CSD overheat warning is shown:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the CSD can be disconnected and the pilot must control the alternator himself",
+        "(b) the pilot must throttle back to reduce the load on the alternator",
+        "(c) the CSD can be disconnected then reconnected later when the temperature",
+        "(d) the CSD can be disconnected but not used for the rest of the flight"
+      ],
+      "answer": "a",
+      "solution": "(a) the CSD can be disconnected and the pilot must control the alternator himself",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q114",
+      "question": "A new tyre with wear on the tread and parallel grooves:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) can be repaired once only",
+        "(b) can be repaired several times",
+        "(c) can never be repaired",
+        "(d) is fit for use only on a nose-wheel"
+      ],
+      "answer": "a",
+      "solution": "(a) can be repaired once only",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q115",
+      "question": "An emergency exit assisted escape device must be fitted if the door sill height is",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 8 ft with the aircraft on the landing gear with the nosewheel extended",
+        "(b) 8 ft with the aircraft on the landing gear with the nosewheel collapsed",
+        "(c) 6 ft with the aircraft on the landing gear with the nosewheel extended",
+        "(d) 6 ft with the aircraft on the landing gear with the nosewheel collapsed"
+      ],
+      "answer": "a",
+      "solution": "(a) 8 ft with the aircraft on the landing gear with the nosewheel extended",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q116",
+      "question": "In a compensated capacitance fuel contents system what happens to a fuel weight",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Decreases by 5%",
+        "(b) Increases by 5%",
+        "(c) Remains the same",
+        "(d) Increases by 5% for every degree rise in temperature"
+      ],
+      "answer": "a",
+      "solution": "(a) Decreases by 5%",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q117",
+      "question": "How do aircraft spoilers work?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Lower surfaces only, symmetrical and asymmetrical operation",
+        "(b) Lower surfaces only, symmetrical operation",
+        "(c) Upper surfaces only, symmetrical and asymmetrical operation",
+        "(d) Upper surfaces only, symmetrical operation"
+      ],
+      "answer": "a",
+      "solution": "(a) Lower surfaces only, symmetrical and asymmetrical operation",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q118",
+      "question": "What is the total volume in the cylinder of a four stroke engine?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) A value equal to the cubic capacity",
+        "(b) Swept volume minus clearance volume",
+        "(c) Volume between TDC and BDC",
+        "(d) Swept volume plus clearance volume"
+      ],
+      "answer": "a",
+      "solution": "(a) A value equal to the cubic capacity",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q119",
+      "question": "After the power stroke on a piston engine the poppet valve sequence is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) exhaust valve opens, inlet valve opens, exhaust valve closes",
+        "(b) exhaust valve closes, inlet valve opens, exhaust valve opens",
+        "(c) inlet valve opens, exhaust valve closes, inlet valve closes",
+        "(d) inlet valve closes, exhaust valve closes, inlet valve opens"
+      ],
+      "answer": "a",
+      "solution": "(a) exhaust valve opens, inlet valve opens, exhaust valve closes",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q120",
+      "question": "What speed does the LP compressor run at?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The speed of the LP turbine",
+        "(b) The speed of the HP turbine",
+        "(c) Half the engine speed",
+        "(d) Constant          speed"
+      ],
+      "answer": "a",
+      "solution": "(a) The speed of the LP turbine",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q121",
+      "question": "What happens to the angle of attack of a fixed pitch propeller as the aircraft",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increases",
+        "(b) Decreases",
+        "(c) Remains the same",
+        "(d) Blade angle changes to compensate for forward speed"
+      ],
+      "answer": "a",
+      "solution": "(a) Increases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q122",
+      "question": "What happens to the AoA of a VP propeller with increasing TAS if the rpm and",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Blade angle remains constant to compensate for forward speed",
+        "(b) Increases",
+        "(c) Decreases",
+        "(d) Remains the same"
+      ],
+      "answer": "a",
+      "solution": "(a) Blade angle remains constant to compensate for forward speed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q123",
+      "question": "Where are smoke detectors fitted?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Toilets",
+        "(b) Toilets and cargo compartments A, B, C, D, E",
+        "(c) All cargo compartments",
+        "(d) Toilets and cargo compartments B, C, E"
+      ],
+      "answer": "a",
+      "solution": "(a) Toilets",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q124",
+      "question": "What colour is the hydraulic liquid in a modern jet airliner?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Purple",
+        "(b) Red",
+        "(c) Yellow",
+        "(d) Pink"
+      ],
+      "answer": "a",
+      "solution": "(a) Purple",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q125",
+      "question": "On what principle does a fuel flowmeter work?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Volume and viscosity",
+        "(b) Quantity of movement",
+        "(c) Capacitive          dielectric",
+        "(d) Pressure and temperature"
+      ],
+      "answer": "a",
+      "solution": "(a) Volume and viscosity",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q126",
+      "question": "What is engine pressure ratio?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The ratio of turbine outlet pressure to compressor inlet pressure",
+        "(b) The ratio of turbine inlet pressure to compressor inlet pressure",
+        "(c) Turbine outlet pressure × compressor outlet pressure",
+        "(d) Compressor inlet pressure divided by turbine outlet pressure"
+      ],
+      "answer": "a",
+      "solution": "(a) The ratio of turbine outlet pressure to compressor inlet pressure",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q127",
+      "question": "On what principle does the fuel contents gauging system work on a modern large",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Capacity affected by dielectric therefore changing EMF of system",
+        "(b) Capacity affected by dielectric therefore changing resistivity of system",
+        "(c) Changes in dielectric causes changes in capacitance",
+        "(d) Change in dielectric causes change in distance between plates and therefore"
+      ],
+      "answer": "a",
+      "solution": "(a) Capacity affected by dielectric therefore changing EMF of system",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q128",
+      "question": "What are the advantages of a nicad battery?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 2, 3, and 4",
+        "(b) 1, 2, 3 and 4",
+        "(c) 1, 2 and 4",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "a",
+      "solution": "(a) 2, 3, and 4",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q129",
+      "question": "What would happen if the wastegate of a turbocharged engine seized in the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Compressor will overspeed",
+        "(b) Blow the turbine blades off",
+        "(c) MAP may exceed its maximum permitted value in the induction manifold",
+        "(d) rpm may exceed its maximum permitted value"
+      ],
+      "answer": "a",
+      "solution": "(a) Compressor will overspeed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q130",
+      "question": "When is spark plug fouling most likely to occur?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) In the climb if you have not adjusted the mixture",
+        "(b) Cruise          power",
+        "(c) In the descent if you have not adjusted the mixture",
+        "(d) Max take-off power"
+      ],
+      "answer": "a",
+      "solution": "(a) In the climb if you have not adjusted the mixture",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q131",
+      "question": "Why, in the bootstrap system, is the air compressed before it enters the heat",
+      "question_type": "MCQ",
+      "options": [
+        "(a) To provide a constant mass flow to the cabin",
+        "(b) To ensure maximum pressure and temperature drop across the turbine",
+        "(c) To ensure most rapid cooling through the heat exchanger",
+        "(d) To provide a constant temperature airflow to the cabin"
+      ],
+      "answer": "a",
+      "solution": "(a) To provide a constant mass flow to the cabin",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q132",
+      "question": "What is a ram air turbine (RAT) which drives a hydraulic pump used for?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Nose wheel steering",
+        "(b) Flap          extension",
+        "(c) Landing gear extension if the normal system fails",
+        "(d) Flight controls in case of failure of the engine driven system"
+      ],
+      "answer": "a",
+      "solution": "(a) Nose wheel steering",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q133",
+      "question": "As altitude increases what does the mixture control do to the fuel flow?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increases flow due to reduced air density",
+        "(b) Increases flow due to increased air density",
+        "(c) Reduces flow due to reduced air density",
+        "(d) Reduces flow due to increased air density"
+      ],
+      "answer": "a",
+      "solution": "(a) Increases flow due to reduced air density",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q134",
+      "question": "What is the coefficient of friction on an aquaplaning (hydroplaning) tyre?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 0",
+        "(b) 0.1",
+        "(c) 0.5",
+        "(d) 1.0"
+      ],
+      "answer": "a",
+      "solution": "(a) 0",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q135",
+      "question": "What is the purpose of the diluter demand valve in the emergency oxygen system?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) To supply air only when inhaling",
+        "(b) To dilute oxygen with air in crew oxygen system",
+        "(c) To dilute oxygen with air in passenger oxygen system",
+        "(d) To supply oxygen only when inhaling"
+      ],
+      "answer": "a",
+      "solution": "(a) To supply air only when inhaling",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q136",
+      "question": "What limits the max. temperature in a gas turbine engine?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Temperature in the combustion chamber",
+        "(b) Temperature at the exhaust",
+        "(c) Temperature at the turbine",
+        "(d) Temperature entering the combustion chamber"
+      ],
+      "answer": "a",
+      "solution": "(a) Temperature in the combustion chamber",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q137",
+      "question": "What is the purpose of a surge box inside a fuel tank?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Collect sediment at the bottom of the tank",
+        "(b) Ventilate the tank during high pressure refuelling",
+        "(c) Allow movement of fuel between tanks while refuelling",
+        "(d) Prevent sloshing of fuel away from pump inlet during abnormal manoeuvres"
+      ],
+      "answer": "a",
+      "solution": "(a) Collect sediment at the bottom of the tank",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q138",
+      "question": "Emergency oxygen is provided by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) one system for both flight deck and cabin",
+        "(b) two independent systems, one for flight deck, one for cabin",
+        "(c) two systems each capable of supplying the flight deck and cabin",
+        "(d) three systems, one for the flight deck, one for the passengers and one for the"
+      ],
+      "answer": "a",
+      "solution": "(a) one system for both flight deck and cabin",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q139",
+      "question": "A 12 volt lead acid battery has a broken connection in a cell, the battery:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) provides 1/12th less voltage for the same time",
+        "(b) provides 1/12th less voltage for 1/12th less time",
+        "(c) is          unserviceable",
+        "(d) will suffer from thermal runaway"
+      ],
+      "answer": "a",
+      "solution": "(a) provides 1/12th less voltage for the same time",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q140",
+      "question": "A changeover relay:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) allows an APU to connect to its busbar",
+        "(b) allows a GPU to connect to its busbar",
+        "(c) allows connection of AC to an unserviceable generator’s busbar",
+        "(d) allows an alternate source to supply an essential busbar"
+      ],
+      "answer": "a",
+      "solution": "(a) allows an APU to connect to its busbar",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q141",
+      "question": "A relay is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a motorway breakdown service",
+        "(b) a mechanically operated switch",
+        "(c) an electrically operated switch",
+        "(d) another name for a solenoid"
+      ],
+      "answer": "a",
+      "solution": "(a) a motorway breakdown service",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q142",
+      "question": "Fuel heaters are fitted:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) in the wing fuel tanks",
+        "(b) in the fuselage fuel tanks",
+        "(c) in the engine fuel system mounted on the engine",
+        "(d) all of the above"
+      ],
+      "answer": "a",
+      "solution": "(a) in the wing fuel tanks",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q143",
+      "question": "The engine fire extinguisher system is activated:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) after the engine has been shut down",
+        "(b) automatically when a fire warning is sensed",
+        "(c) by the pilot when required",
+        "(d) automatically after a time delay to allow the engine to stop"
+      ],
+      "answer": "a",
+      "solution": "(a) after the engine has been shut down",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q144",
+      "question": "An unpressurized aircraft is flying above FL100 and therefore must have sufficient",
+      "question_type": "MCQ",
+      "options": [
+        "(a) both pilots immediately and the cabin crew plus all passengers after 30",
+        "(b) both pilots only",
+        "(c) both pilots and all passengers",
+        "(d) both pilots immediately and the cabin crew plus some passengers after 30"
+      ],
+      "answer": "a",
+      "solution": "(a) both pilots immediately and the cabin crew plus all passengers after 30",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q145",
+      "question": "Aircraft above a certain capacity must carry a crash axe, it is provided to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) cut through the aircraft fuselage to allow escape",
+        "(b) enable access behind panels and soundproofing to aid fire fighting",
+        "(c) cut firewood in a survival situation",
+        "(d) restrain disorderly passengers"
+      ],
+      "answer": "a",
+      "solution": "(a) cut through the aircraft fuselage to allow escape",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q146",
+      "question": "The function of stringers in the construction of the fuselage is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) to withstand shear stress",
+        "(b) to provide an attachment for insulation",
+        "(c) to provide support for the skin and to absorb some of the pressurization strain",
+        "(d) to provide an alternate load path in the event of the failure of a frame"
+      ],
+      "answer": "a",
+      "solution": "(a) to withstand shear stress",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q147",
+      "question": "The requirement for an aircraft to have a fuel dumping system is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) all aircraft in the Transport Category having a maximum take-off mass",
+        "(b) all aircraft manufactured after 1997 having a MTOM of 7500 kg or more",
+        "(c) aircraft whose maximum landing mass (MLM) is significantly lower than its",
+        "(d) all aircraft with a seating capacity of 250 or more"
+      ],
+      "answer": "a",
+      "solution": "(a) all aircraft in the Transport Category having a maximum take-off mass",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q148",
+      "question": "At what height is it mandatory for one of the flight deck crew to wear an oxygen",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 25          000          ft",
+        "(b) 32          000          ft",
+        "(c) 37          000          ft",
+        "(d) 41          000          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 25          000          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q149",
+      "question": "A Volumetric Top-off unit (VTO), is provided in a fuel system to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) vent the tank to atmosphere when its full",
+        "(b) allow a main feed tank to be maintained at a predetermine level",
+        "(c) allow the main tank to automatically maintain a predetermined fuel pressure",
+        "(d) prevent too much fuel from being dumped"
+      ],
+      "answer": "a",
+      "solution": "(a) vent the tank to atmosphere when its full",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q150",
+      "question": "The type of engine layout shown on page 430 is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) two          spool",
+        "(b) turbo          fan",
+        "(c) free          turbine",
+        "(d) prop          fan"
+      ],
+      "answer": "a",
+      "solution": "(a) two          spool",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q151",
+      "question": "The precautions to be taken during refuelling are:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) GPU may not be running during refuelling",
+        "(b) all earthing of aircraft parts to ground equipment must be completed before",
+        "(c) passengers may be boarded (traversing the refuelling zone)",
+        "(d) no radar or HF radios under test within 10 metres"
+      ],
+      "answer": "a",
+      "solution": "(a) GPU may not be running during refuelling",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q152",
+      "question": "What prevents an impulse coupling operating at speeds above start speed,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Electro-magnetic          induction",
+        "(b) Hydraulic          clutch",
+        "(c) Centrifugal          force",
+        "(d) On/off          switch"
+      ],
+      "answer": "a",
+      "solution": "(a) Electro-magnetic          induction",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q153",
+      "question": "What type of fire extinguisher must be on a flight deck?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Water",
+        "(b) Dry          powder",
+        "(c) Special          fluid",
+        "(d) Halon"
+      ],
+      "answer": "a",
+      "solution": "(a) Water",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q154",
+      "question": "In a Bramah press one piston has an area of 0.05 m",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1          N",
+        "(b) 20          N",
+        "(c) 25          N",
+        "(d) 100          N"
+      ],
+      "answer": "a",
+      "solution": "(a) 1          N",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q155",
+      "question": "What is the reason for putting the horizontal stabilizer on top of the fin?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) To be more efficient at high speed",
+        "(b) No need for anti-icing",
+        "(c) Create a pitch up by making the aeroplane tail heavy",
+        "(d) To be out of the way of the wing down wash"
+      ],
+      "answer": "a",
+      "solution": "(a) To be more efficient at high speed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q156",
+      "question": "Where are thermal plugs fitted?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Wheel          rim",
+        "(b) Cargo          bay",
+        "(c) Fuel          tank",
+        "(d) Oil          tank"
+      ],
+      "answer": "a",
+      "solution": "(a) Wheel          rim",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q157",
+      "question": "In a non-stressed skin aircraft, bending loads acting on the wings are taken by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) skin",
+        "(b) spars",
+        "(c) stringers",
+        "(d) ribs"
+      ],
+      "answer": "a",
+      "solution": "(a) skin",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q158",
+      "question": "In a stressed skin aircraft, bending loads acting on the wings are taken by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) ribs and stringers",
+        "(b) stringers and spars",
+        "(c) spars and skin",
+        "(d) spars and stringers"
+      ],
+      "answer": "a",
+      "solution": "(a) ribs and stringers",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q159",
+      "question": "Hydraulic fluid:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) needs no special treatment",
+        "(b) is harmful to eyes and skin",
+        "(c) is a fire hazard",
+        "(d) is harmful to eyes and skin, and is also a fire hazard"
+      ],
+      "answer": "a",
+      "solution": "(a) needs no special treatment",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q160",
+      "question": "In a modern carburettor, mixture is controlled via:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) airflow",
+        "(b) airflow, fuel flow and temperature",
+        "(c) fuel          flow",
+        "(d) airflow and fuel flow"
+      ],
+      "answer": "a",
+      "solution": "(a) airflow",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q161",
+      "question": "The demand valve of a diluter demand oxygen regulator in normal mode operates",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the pressure to the regulator is more than 500 psi",
+        "(b) user breathes in",
+        "(c) user requires 100% oxygen",
+        "(d) diluter control is in the ‘normal’ position"
+      ],
+      "answer": "a",
+      "solution": "(a) the pressure to the regulator is more than 500 psi",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q162",
+      "question": "Torque links on an undercarriage come under most stress:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) during crosswind landings",
+        "(b) during          pushback",
+        "(c) when making tight turns when taxiing",
+        "(d) after          take-off"
+      ],
+      "answer": "a",
+      "solution": "(a) during crosswind landings",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q163",
+      "question": "If cabin pressure is decreasing, the cabin VSI will indicate:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) zero",
+        "(b) climb",
+        "(c) descent",
+        "(d) reducing          pressure"
+      ],
+      "answer": "a",
+      "solution": "(a) zero",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q164",
+      "question": "The battery in a search and rescue beacon (SARB) should last for:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 72          hours",
+        "(b) 48          hours",
+        "(c) 24          hours",
+        "(d) 12          hours"
+      ],
+      "answer": "a",
+      "solution": "(a) 72          hours",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q165",
+      "question": "A shuttle valve is used to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) restrict the rate of operation of a system",
+        "(b) select the most suitable system pressure",
+        "(c) allow two supplies to be available to a service",
+        "(d) to allow a constant volume pump to idle"
+      ],
+      "answer": "a",
+      "solution": "(a) restrict the rate of operation of a system",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q166",
+      "question": "The temperature of hydraulic fluid is measured:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) after the cooler",
+        "(b) in the reservoir",
+        "(c) at the actuator",
+        "(d) at the pumps"
+      ],
+      "answer": "a",
+      "solution": "(a) after the cooler",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q167",
+      "question": "Electrical heating devices:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) consume little power",
+        "(b) are used for preventing ice on small areas (e.g. pitot head, windscreen only)",
+        "(c) are used for de-icing small areas",
+        "(d) can de-ice large areas because there is a large excess of electrical power"
+      ],
+      "answer": "a",
+      "solution": "(a) consume little power",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q168",
+      "question": "Reverse thrust lights come on when:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) reverser doors are unlocked",
+        "(b) when reverse power above idle is selected",
+        "(c) when reverse thrust is selected in flight",
+        "(d) when the doors move towards the stowed position inadvertently"
+      ],
+      "answer": "a",
+      "solution": "(a) reverser doors are unlocked",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q169",
+      "question": "The magnetos are switched off and the engine continues to run normally .The",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a wire from the magneto coming in contact with the metal aircraft skin",
+        "(b) hotspots existing in cylinder",
+        "(c) carbon deposits on spark plug",
+        "(d) grounding wire from magneto being broken"
+      ],
+      "answer": "a",
+      "solution": "(a) a wire from the magneto coming in contact with the metal aircraft skin",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q170",
+      "question": "An aircraft is to fly at 29 000 ft. When should the oxygen briefing take place?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Before 10 000 ft",
+        "(b) Before 14 000 ft",
+        "(c) At 20 000 ft",
+        "(d) Before          take-off"
+      ],
+      "answer": "a",
+      "solution": "(a) Before 10 000 ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q171",
+      "question": "What is the purpose of the magneto impulse coupling?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) To give a retarded spark during starting",
+        "(b) Reduce the rate of rotation of the magneto",
+        "(c) Advance the ignition and give a hotter spark during starting",
+        "(d) Automatically increases spark rate at high engine speeds"
+      ],
+      "answer": "a",
+      "solution": "(a) To give a retarded spark during starting",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q172",
+      "question": "The excess cabin altitude alerting system must operate to warn the crew at:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 8000          ft",
+        "(b) 10          000          ft",
+        "(c) 13          000          ft",
+        "(d) 14          000          ft"
+      ],
+      "answer": "a",
+      "solution": "(a) 8000          ft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q173",
+      "question": "The ‘torsion box’ of a modern aircraft wing structure consists of:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) spars, skin, frames and stringers",
+        "(b) spars, skin, frames and ribs",
+        "(c) spars, skin, longerons and ribs",
+        "(d) spars, skin, stringers and ribs"
+      ],
+      "answer": "a",
+      "solution": "(a) spars, skin, frames and stringers",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q174",
+      "question": "A device in a hydraulic system which acts in the same way as a diode in an",
+      "question_type": "MCQ",
+      "options": [
+        "(a) restrictor          valve",
+        "(b) sequence          valve",
+        "(c) fuse",
+        "(d) one way check valve"
+      ],
+      "answer": "a",
+      "solution": "(a) restrictor          valve",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q175",
+      "question": "What does three green lights represent when the landing gear is selected down?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The gear is down",
+        "(b) The gear is down and locked",
+        "(c) The gear and doors are down and locked",
+        "(d) The gear is travelling between up and down"
+      ],
+      "answer": "a",
+      "solution": "(a) The gear is down",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q176",
+      "question": "Which is the correct statement regarding a large aircraft fitted with both inboard",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The outboard ailerons are used only when the landing gear is selected down",
+        "(b) The outboard ailerons are used only when the landing gear is retracted",
+        "(c) The inboard ailerons are used only when the flaps are retracted",
+        "(d) The inboard ailerons are only used when the flaps are extended"
+      ],
+      "answer": "a",
+      "solution": "(a) The outboard ailerons are used only when the landing gear is selected down",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q177",
+      "question": "How do differential ailerons work?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Increase lift on down going wing and decrease lift on up going wing",
+        "(b) Increase drag on up going wing and decrease drag on down going wing",
+        "(c) Equalize the drag on up going and down going wings",
+        "(d) Equalize the lift on up going and down going wings"
+      ],
+      "answer": "a",
+      "solution": "(a) Increase lift on down going wing and decrease lift on up going wing",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q178",
+      "question": "What is the effect of heating flight deck windows?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) To demist the interior of the window if normal demist does not function",
+        "(b) To protect the windows against bird strike",
+        "(c) To protect the windows against ice formation",
+        "(d) To protect the windows against bird strike and ice formation"
+      ],
+      "answer": "a",
+      "solution": "(a) To demist the interior of the window if normal demist does not function",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q179",
+      "question": "If an aircraft suffers decompression what happens to the indications on a cabin VSI,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) VSI up, altimeter up, differential pressure gauge down",
+        "(b) VSI, altimeter, differential pressure gauge all unchanged",
+        "(c) VSI down, altimeter up, differential pressure gauge down",
+        "(d) VSI up, altimeter down, differential pressure gauge down"
+      ],
+      "answer": "a",
+      "solution": "(a) VSI up, altimeter up, differential pressure gauge down",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q180",
+      "question": "What happens if a gaseous oxygen cylinder is over-pressurized?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) A pressure relief valve vents the excess pressure into the atmosphere",
+        "(b) A bursting disc vents the complete contents of the cylinder(s) to atmosphere",
+        "(c) A pressure regulator will prevent the excess pressure damaging the system",
+        "(d) A pressure relief valve vents the excess pressure into the fuselage"
+      ],
+      "answer": "a",
+      "solution": "(a) A pressure relief valve vents the excess pressure into the atmosphere",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q181",
+      "question": "If a fuel sample appears cloudy, this is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) an indication of air in the fuel",
+        "(b) normal",
+        "(c) due to the addition of FSII",
+        "(d) an indication of water in the fuel"
+      ],
+      "answer": "a",
+      "solution": "(a) an indication of air in the fuel",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q182",
+      "question": "Fuel tanks accumulate moisture, the most practical way to limit this in an aircraft",
+      "question_type": "MCQ",
+      "options": [
+        "(a) secure the filler cap tightly and plug the drains",
+        "(b) drain the tank at the end of each day",
+        "(c) fill the tank after each flight",
+        "(d) drain the water before flight"
+      ],
+      "answer": "a",
+      "solution": "(a) secure the filler cap tightly and plug the drains",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q183",
+      "question": "How much fuel can be jettisoned?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) A specific amount",
+        "(b) The captain decides",
+        "(c) All",
+        "(d) A specified amount must remain"
+      ],
+      "answer": "a",
+      "solution": "(a) A specific amount",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q184",
+      "question": "The DLL of a transport aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1.5g",
+        "(b) 2.5g",
+        "(c) 3.4g",
+        "(d) 3.75g"
+      ],
+      "answer": "a",
+      "solution": "(a) 1.5g",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q185",
+      "question": "A current limiter fuse:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) will rupture below fault conditions",
+        "(b) has a high melting point so carrying a considerable current overload before",
+        "(c) is not used in TRU protection",
+        "(d) has a low melting point so will rupture quickly if a current overload occurs"
+      ],
+      "answer": "a",
+      "solution": "(a) will rupture below fault conditions",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q186",
+      "question": "What type of electrical motor is used as a starter motor?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Series",
+        "(b) Shunt",
+        "(c) Compound",
+        "(d) Induction"
+      ],
+      "answer": "a",
+      "solution": "(a) Series",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q187",
+      "question": "The power for LP fuel pumps is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 28 V DC",
+        "(b) 28 V AC",
+        "(c) 115 V DC",
+        "(d) 200 V AC"
+      ],
+      "answer": "a",
+      "solution": "(a) 28 V DC",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q188",
+      "question": "What is a relay?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Solenoid          valve",
+        "(b) Magnetic          switch",
+        "(c) Converts electrical energy into heat energy",
+        "(d) Used in starter motor circuit"
+      ],
+      "answer": "a",
+      "solution": "(a) Solenoid          valve",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q189",
+      "question": "An aircraft is in straight and level flight at a constant cabin altitude when the crew",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Crew should begin a climb to regain cabin altitude",
+        "(b) Cabin altitude will increase to outside atmospheric pressure",
+        "(c) Cabin altitude will descend to, and continue beyond normal max. diff., at",
+        "(d) Cabin altitude will increase to, and continue beyond normal max. diff., at"
+      ],
+      "answer": "a",
+      "solution": "(a) Crew should begin a climb to regain cabin altitude",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q190",
+      "question": "What is  the frequency band for ADF?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Hectometric and kilometric",
+        "(b) Metric",
+        "(c) Centimetric",
+        "(d) Decimetric"
+      ],
+      "answer": "a",
+      "solution": "(a) Hectometric and kilometric",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q191",
+      "question": "With reference to stringers they:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) integrate the strains due to pressurization to which the skin is subjected and",
+        "(b) provide sound and thermal insulation",
+        "(c) perform no structural role",
+        "(d) withstand shear stresses"
+      ],
+      "answer": "a",
+      "solution": "(a) integrate the strains due to pressurization to which the skin is subjected and",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q192",
+      "question": "How can wing bending moments be reduced in flight?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) By using aileron up float and keeping the centre section fuel tanks full for as",
+        "(b) By having tail mounted engines and using aileron down float",
+        "(c) Using aileron up float and using the fuel in the wing tanks last",
+        "(d) By having wing mounted engines and using the wing fuel tanks first"
+      ],
+      "answer": "a",
+      "solution": "(a) By using aileron up float and keeping the centre section fuel tanks full for as",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q193",
+      "question": "Kreuger flaps are positioned on the:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) trailing          edge",
+        "(b) leading          edge",
+        "(c) outboard leading edge",
+        "(d) inboard leading edge"
+      ],
+      "answer": "a",
+      "solution": "(a) trailing          edge",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q194",
+      "question": "The purpose of inboard ailerons is to reduce wing:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) bending at high speed",
+        "(b) twisting at high speed",
+        "(c) bending at low speed",
+        "(d) twisting at low speed"
+      ],
+      "answer": "a",
+      "solution": "(a) bending at high speed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q195",
+      "question": "The ‘torsion box’ of a modern aircraft wing structure consists of:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) spars, skin, frames and stringers",
+        "(b) spars, skin, frames and ribs",
+        "(c) spars, skin, longerons and ribs",
+        "(d) spars, skin, stringers and ribs"
+      ],
+      "answer": "a",
+      "solution": "(a) spars, skin, frames and stringers",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q196",
+      "question": "Which is the correct statement regarding a large aircraft fitted with both inboard",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The outboard ailerons are used only when the landing gear is selected down",
+        "(b) The outboard ailerons are used only when the landing gear is retracted",
+        "(c) Only the inboard ailerons are used when the flaps are retracted",
+        "(d) Only the inboard ailerons are used when the flaps are extended"
+      ],
+      "answer": "a",
+      "solution": "(a) The outboard ailerons are used only when the landing gear is selected down",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q197",
+      "question": "What is the effect of heating flight deck windows?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) To demist the interior of the window if normal demist does not function",
+        "(b) To protect the windows against bird strike",
+        "(c) To protect the windows against ice formation",
+        "(d) To protect the windows against bird strike and ice formation"
+      ],
+      "answer": "a",
+      "solution": "(a) To demist the interior of the window if normal demist does not function",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q198",
+      "question": "Differential ailerons work by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increasing lift on down going wing and decreasing lift on up going wing",
+        "(b) increasing drag on up going wing and decreasing drag on down going wing",
+        "(c) equalizing the drag on up going and down going wings",
+        "(d) equalizing the lift on up going and down going wings"
+      ],
+      "answer": "a",
+      "solution": "(a) increasing lift on down going wing and decreasing lift on up going wing",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q199",
+      "question": "An artificial feel system is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) connected in series with an irreversible servo system",
+        "(b) connected in parallel with an irreversible servo system",
+        "(c) connected in parallel with a reversible servo system",
+        "(d) connected in series with a reversible servo system"
+      ],
+      "answer": "a",
+      "solution": "(a) connected in series with an irreversible servo system",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q200",
+      "question": "Why are two longitudinal trim switches fitted to the control column?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) There are two trim motors",
+        "(b) Fast trimming at low altitude and a slower rate at higher altitudes",
+        "(c) As a safety precaution to reduce the possibility of trim runaway",
+        "(d) To prevent both pilots operating the trim at the same time"
+      ],
+      "answer": "a",
+      "solution": "(a) There are two trim motors",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q201",
+      "question": "On a modern jet transport the hydraulic reservoirs are normally pressurized:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) by a separate helium gas supply",
+        "(b) by air from the air conditioning system",
+        "(c) by engine bleed air",
+        "(d) in flight only"
+      ],
+      "answer": "a",
+      "solution": "(a) by a separate helium gas supply",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q202",
+      "question": "A device in a hydraulic system which acts in the same way as a diode in an",
+      "question_type": "MCQ",
+      "options": [
+        "(a) restrictor          valve",
+        "(b) sequence          valve",
+        "(c) fuse",
+        "(d) one way check valve"
+      ],
+      "answer": "a",
+      "solution": "(a) restrictor          valve",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q203",
+      "question": "A ram air turbine may be used to provide emergency hydraulic power for:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) landing gear extension",
+        "(b) flight          controls",
+        "(c) nose wheel steering",
+        "(d) leading edge flap extension only"
+      ],
+      "answer": "a",
+      "solution": "(a) landing gear extension",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q204",
+      "question": "An under inflated tyre on a dry runway:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) decreases viscous hydroplaning speed",
+        "(b) causes the tyre temperature to fall",
+        "(c) increases wear on the shoulder",
+        "(d) increases wear on the crown"
+      ],
+      "answer": "a",
+      "solution": "(a) decreases viscous hydroplaning speed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q205",
+      "question": "If an aircraft suffers decompression what happens to the indications on a cabin VSI,",
+      "question_type": "MCQ",
+      "options": [
+        "(a) VSI up, altimeter up, differential pressure gauge down",
+        "(b) VSI, altimeter, differential pressure gauge all unchanged",
+        "(c) VSI down, altimeter up, differential pressure gauge down",
+        "(d) VSI up, altimeter down, differential pressure gauge down"
+      ],
+      "answer": "a",
+      "solution": "(a) VSI up, altimeter up, differential pressure gauge down",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q206",
+      "question": "An aircraft is in straight and level flight at a constant cabin altitude when the crew",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Crew should begin a climb to regain cabin altitude",
+        "(b) Cabin altitude will increase to outside atmospheric pressure",
+        "(c) Cabin altitude will descend to, and continue beyond normal max. diff., at",
+        "(d) Cabin altitude will increase to, and continue beyond normal max. diff., at"
+      ],
+      "answer": "a",
+      "solution": "(a) Crew should begin a climb to regain cabin altitude",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q207",
+      "question": "What is the purpose of the ground cooling fan in a bootstrap air cycle conditioning",
+      "question_type": "MCQ",
+      "options": [
+        "(a) To draw cooling air over the turbine",
+        "(b) To draw cooling air over the heat exchangers",
+        "(c) To blow air onto the compressor",
+        "(d) To re-circulate air through the mixing manifold"
+      ],
+      "answer": "a",
+      "solution": "(a) To draw cooling air over the turbine",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q208",
+      "question": "If the outflow valves failed closed in flight the effect would be:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) to damage the aircraft skin",
+        "(b) to increase cabin pressure to max differential",
+        "(c) to increase cabin altitude",
+        "(d) to shut down the air conditioning system"
+      ],
+      "answer": "a",
+      "solution": "(a) to damage the aircraft skin",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q209",
+      "question": "Modern transport aircraft fuel booster pumps are generally:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) centrifugal and powered by DC induction motors",
+        "(b) centrifugal and powered by AC induction motors",
+        "(c) spur gear and powered by DC induction motors",
+        "(d) spur gear and powered by AC induction motors"
+      ],
+      "answer": "a",
+      "solution": "(a) centrifugal and powered by DC induction motors",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q210",
+      "question": "Modern passenger aircraft fuel tanks are pressurized by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) low pressure bleed air",
+        "(b) low pressure inert gas system",
+        "(c) the air discharged by the air conditioning system",
+        "(d) ram air through the vent system"
+      ],
+      "answer": "a",
+      "solution": "(a) low pressure bleed air",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q211",
+      "question": "Where are the fuel heaters fitted on jet aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) In each tank",
+        "(b) On the engine",
+        "(c) They are not required",
+        "(d) Centre tank only"
+      ],
+      "answer": "a",
+      "solution": "(a) In each tank",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q212",
+      "question": "The fuel cross feed system enables fuel to be:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) supplied to the outboard engines from any outboard tank",
+        "(b) transferred from the centre tank to the wing tanks only",
+        "(c) supplied to any engine mounted on a wing from any tank within that wing",
+        "(d) supplied to any engine from any tank"
+      ],
+      "answer": "a",
+      "solution": "(a) supplied to the outboard engines from any outboard tank",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q213",
+      "question": "The areas heated by a bleed air system on a modern jet passenger transport are:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) leading edges of all aerofoil surfaces",
+        "(b) leading edges of all aerofoil surfaces including flaps",
+        "(c) leading edges of all aerofoil surfaces including slats (where fitted)",
+        "(d) upper surfaces of the wings only"
+      ],
+      "answer": "a",
+      "solution": "(a) leading edges of all aerofoil surfaces",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q214",
+      "question": "The principle upon which the vibrating probe (Rosemount) ice detector is based is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) inferential",
+        "(b) accretion",
+        "(c) ice          removal",
+        "(d) evaporation"
+      ],
+      "answer": "a",
+      "solution": "(a) inferential",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q215",
+      "question": "Which one of the following ice protection systems can only be used as a de-icing",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Mechanical",
+        "(b) Electrical",
+        "(c) Chemical",
+        "(d) Thermal"
+      ],
+      "answer": "a",
+      "solution": "(a) Mechanical",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q216",
+      "question": "Because of its function an AND gate is also referred to as an:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) all or nothing gate",
+        "(b) any or nothing gate",
+        "(c) invert or not gate",
+        "(d) either or gate"
+      ],
+      "answer": "a",
+      "solution": "(a) all or nothing gate",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q217",
+      "question": "The stators of a three phase alternator are separated by:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 60          degrees",
+        "(b) 90          degrees",
+        "(c) 120          degrees",
+        "(d) 180          degrees"
+      ],
+      "answer": "a",
+      "solution": "(a) 60          degrees",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q218",
+      "question": "If a CSDU overheat warning occurs, the:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) CSDU can be disconnected and not used for the rest of the flight",
+        "(b) pilot must throttle back the effected engine",
+        "(c) CSDU can be disconnected and then re-connected when it has cooled down",
+        "(d) CSDU must be disconnected and the alternator is controlled directly by the"
+      ],
+      "answer": "a",
+      "solution": "(a) CSDU can be disconnected and not used for the rest of the flight",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q219",
+      "question": "What is disconnected if the fire handle is pulled in an aircraft with an AC generator",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Generator control relay (exciter control relay) and GCB",
+        "(b) GCB",
+        "(c) BTB",
+        "(d) Generator control relay (exciter control relay) and BTB"
+      ],
+      "answer": "a",
+      "solution": "(a) Generator control relay (exciter control relay) and GCB",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q220",
+      "question": "A generator that produces 400 Hz at 6000 rpm has how many pole pairs?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 12",
+        "(b) 8",
+        "(c) 6",
+        "(d) 4"
+      ],
+      "answer": "a",
+      "solution": "(a) 12",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q221",
+      "question": "If a 12 volt, 6 cell battery has one dead cell:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) it cannot be used",
+        "(b) it can be used but the output voltage is reduced by 1/12",
+        "(c) it can be used but the output voltage and capacity are reduced by 1/12",
+        "(d) it can be used but the output capacity is reduced by 1/12"
+      ],
+      "answer": "a",
+      "solution": "(a) it cannot be used",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q222",
+      "question": "Incorrect bonding of the aircraft structure could cause:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) corrosion at skin joints",
+        "(b) circuit breaker trips",
+        "(c) static on the radio",
+        "(d) VOR          interference"
+      ],
+      "answer": "a",
+      "solution": "(a) corrosion at skin joints",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q223",
+      "question": "‘Earth Return’ system means that:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) both battery and earth terminals are connected to the voltage regulators’",
+        "(b) battery positive and generator negative terminals are connected to a/c",
+        "(c) battery negative terminal is connected to the generator negative terminal",
+        "(d) battery and generator negative terminals are connected to the aircraft"
+      ],
+      "answer": "a",
+      "solution": "(a) both battery and earth terminals are connected to the voltage regulators’",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q224",
+      "question": "The frequency of an AC generator is dependent upon:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) poles          only",
+        "(b) poles and rpm",
+        "(c) rpm          only",
+        "(d) load"
+      ],
+      "answer": "a",
+      "solution": "(a) poles          only",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q225",
+      "question": "In an aircraft which uses DC as the primary source of power, AC for the instruments",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a          rectifier",
+        "(b) the AC busbar",
+        "(c) a          TRU",
+        "(d) an          inverter"
+      ],
+      "answer": "a",
+      "solution": "(a) a          rectifier",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q226",
+      "question": "The wavelength of a VOR is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) metric",
+        "(b) decimetric",
+        "(c) hectometric",
+        "(d) centimetric"
+      ],
+      "answer": "a",
+      "solution": "(a) metric",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q227",
+      "question": "What is the wavelength that corresponds to the frequency 121.95 MHz?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 246          m",
+        "(b) 2.46          cm",
+        "(c) 2.46          m",
+        "(d) 24.6          m"
+      ],
+      "answer": "a",
+      "solution": "(a) 246          m",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q228",
+      "question": "Skip distance is longest by ............. and with a ............ frequency.",
+      "question_type": "MCQ",
+      "options": [
+        "(a) day                       low",
+        "(b) day                       high",
+        "(c) night                       low",
+        "(d) night                       high"
+      ],
+      "answer": "a",
+      "solution": "(a) day                       low",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q229",
+      "question": "The skip zone of an HF transmission will increase with:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) an increase in frequency and an increase in height of the reflective (refractive)",
+        "(b) an increase in frequency and a decrease in height of the reflective (refractive)",
+        "(c) an decrease in frequency and an increase in height of the reflective (refractive)",
+        "(d) an decrease in frequency and a decrease in height of the reflective (refractive)"
+      ],
+      "answer": "a",
+      "solution": "(a) an increase in frequency and an increase in height of the reflective (refractive)",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q230",
+      "question": "How are the loads on an aircraft busbar connected?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) In parallel so that the current reduces through the busbar as loads are",
+        "(b) In parallel so that the voltage reduces through the busbar as loads are",
+        "(c) In series so that the current reduces through the busbar as loads are switched",
+        "(d) In series so that the voltage reduces through the busbar as loads are switched"
+      ],
+      "answer": "a",
+      "solution": "(a) In parallel so that the current reduces through the busbar as loads are",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q231",
+      "question": "Hot or vital busbars are:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) heated by bleed air",
+        "(b) connected directly to the battery",
+        "(c) connected directly to the DC generator",
+        "(d) connected directly to the AC generator"
+      ],
+      "answer": "a",
+      "solution": "(a) heated by bleed air",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q232",
+      "question": "A static inverter is a:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) transistorized unit that converts AC to DC",
+        "(b) transistorized unit that converts DC to AC",
+        "(c) fixed unit that changes DC voltages",
+        "(d) fixed unit that changes AC voltages"
+      ],
+      "answer": "a",
+      "solution": "(a) transistorized unit that converts AC to DC",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q233",
+      "question": "If AC generators are connected in parallel the reactive loads are balanced by",
+      "question_type": "MCQ",
+      "options": [
+        "(a) frequency",
+        "(b) torque of the CSDU",
+        "(c) energizing          current",
+        "(d) voltage"
+      ],
+      "answer": "a",
+      "solution": "(a) frequency",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q234",
+      "question": "The voltage regulator of a DC generator is connected in:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) series with the armature and parallel with the shunt field",
+        "(b) parallel with the armature and parallel with the shunt field",
+        "(c) series with the armature and series with the shunt field",
+        "(d) parallel with the armature and series with the shunt field"
+      ],
+      "answer": "a",
+      "solution": "(a) series with the armature and parallel with the shunt field",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q235",
+      "question": "If the frequency of a series capacitive circuit increases, what happens to the",
+      "question_type": "MCQ",
+      "options": [
+        "(a) It          increases",
+        "(b) It          decreases",
+        "(c) It stays the same",
+        "(d) It increases or decreases"
+      ],
+      "answer": "a",
+      "solution": "(a) It          increases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q236",
+      "question": "Which is the correct statement(s) with regard to flight crew oxygen requirements",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1, 2, 3 and 4",
+        "(b) 1 and 2",
+        "(c) 1, 2 and 3",
+        "(d) 2 and 3"
+      ],
+      "answer": "a",
+      "solution": "(a) 1, 2, 3 and 4",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q237",
+      "question": "The advantages of a chemical oxygen generator system are:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1 and 5",
+        "(b) 1, 2 and 4",
+        "(c) 2 and 4",
+        "(d) 1, 2, 3, 4 and 5"
+      ],
+      "answer": "a",
+      "solution": "(a) 1 and 5",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q238",
+      "question": "An aircraft operating at FL350 must have sufficient supplementary oxygen available",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 13 000 ft in 30 minutes",
+        "(b) 15 000 ft in 4 minutes",
+        "(c) 15 000 ft in 10 minutes",
+        "(d) 10 000 ft in 4 minutes"
+      ],
+      "answer": "a",
+      "solution": "(a) 13 000 ft in 30 minutes",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q239",
+      "question": "The passenger oxygen drop down mask stowage doors are released:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) barometrically operated latch",
+        "(b) electrically for chemical generator systems and pneumatically for gaseous",
+        "(c) electrically for gaseous systems and pneumatically for chemical generator",
+        "(d) by the cabin crew"
+      ],
+      "answer": "a",
+      "solution": "(a) barometrically operated latch",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q240",
+      "question": "The fire extinguisher system for an engine is activated:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) automatically immediately a fire is sensed",
+        "(b) automatically once the engine has been shut down",
+        "(c) by the pilot immediately a fire is detected",
+        "(d) by the pilot once the engine has been shut down"
+      ],
+      "answer": "a",
+      "solution": "(a) automatically immediately a fire is sensed",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q241",
+      "question": "The flight deck warning of an engine fire is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) individual warning lights and bells",
+        "(b) a common light and common aural warning",
+        "(c) aural warning only",
+        "(d) individual warning lights and a common aural warning"
+      ],
+      "answer": "a",
+      "solution": "(a) individual warning lights and bells",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q242",
+      "question": "High cylinder head temperatures on a piston engine are associated with:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) mass ratio of 1:15",
+        "(b) cruise mixture setting",
+        "(c) a weak mixture",
+        "(d) a rich mixture"
+      ],
+      "answer": "a",
+      "solution": "(a) mass ratio of 1:15",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q243",
+      "question": "In a gas turbine the maximum gas temperature is reached:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) in the combustion chamber",
+        "(b) at the turbine exit",
+        "(c) across the turbine",
+        "(d) in the cooling air around the turbine"
+      ],
+      "answer": "a",
+      "solution": "(a) in the combustion chamber",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q244",
+      "question": "When TAS increases the pitch angle of a constant speed propeller:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increases",
+        "(b) decreases",
+        "(c) remains          constant",
+        "(d) decreases and then returns to its original angle"
+      ],
+      "answer": "a",
+      "solution": "(a) increases",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q245",
+      "question": "From the list select the conditions for highest engine performance:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 1, 2 and 6",
+        "(b) 1, 3 and 5",
+        "(c) 3, 4 and 5",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "a",
+      "solution": "(a) 1, 2 and 6",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q246",
+      "question": "A torque meter is situated:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) between the engine and propeller",
+        "(b) on the auxiliary gearbox",
+        "(c) between the turbine and the gearbox",
+        "(d) in the spinner housing"
+      ],
+      "answer": "a",
+      "solution": "(a) between the engine and propeller",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q247",
+      "question": "A reverse thrust door warning light is illuminated when:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) the reverser doors are unlocked",
+        "(b) the thrust levers are lifted beyond ground idle",
+        "(c) the reverse thrust mechanism is not operating correctly",
+        "(d) asymmetric reverse thrust has been selected"
+      ],
+      "answer": "a",
+      "solution": "(a) the reverser doors are unlocked",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q248",
+      "question": "Adjusting the mixture of piston engines as aircraft altitude increases is necessary",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase fuel flow to compensate for decreasing air density",
+        "(b) decrease fuel flow to compensate for decreasing air density",
+        "(c) increase fuel flow to compensate for increasing air density",
+        "(d) decrease fuel flow to compensate for increasing air density"
+      ],
+      "answer": "a",
+      "solution": "(a) increase fuel flow to compensate for decreasing air density",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q249",
+      "question": "The power output of a piston engine can be calculated by multiplying:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) force by distance",
+        "(b) work by velocity",
+        "(c) pressure by moment arm",
+        "(d) torque by rpm"
+      ],
+      "answer": "a",
+      "solution": "(a) force by distance",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q250",
+      "question": "When high pressure bleed valves open they:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) reduce the EPR",
+        "(b) increase the fuel flow",
+        "(c) reduce the EGT",
+        "(d) increase the thrust"
+      ],
+      "answer": "a",
+      "solution": "(a) reduce the EPR",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q251",
+      "question": "The fan stage of a ducted fan engine is driven by the:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) LP          turbine",
+        "(b) IP          turbine",
+        "(c) HP          turbine",
+        "(d) HP compressor through reduction gearing"
+      ],
+      "answer": "a",
+      "solution": "(a) LP          turbine",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q252",
+      "question": "In a four stroke engine, ignition occurs:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) before TDC every 2nd rotation of the crankshaft",
+        "(b) at TDC every 2nd rotation of the crankshaft",
+        "(c) after TDC every 2nd rotation of the crankshaft",
+        "(d) before TDC every rotation of the crankshaft"
+      ],
+      "answer": "a",
+      "solution": "(a) before TDC every 2nd rotation of the crankshaft",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q253",
+      "question": "A fixed pitch propeller blade has wash-out from root to tip in order to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) keep the local angle of attack constant along the blade length",
+        "(b) keep the pitch angle constant along the blade length",
+        "(c) keep the local angle of attack at its optimum value along the blade length",
+        "(d) decrease the blade tangential speed from root to tip"
+      ],
+      "answer": "a",
+      "solution": "(a) keep the local angle of attack constant along the blade length",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q254",
+      "question": "The alpha range of a variable pitch propeller is between:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) feather and flight fine pitch stop",
+        "(b) feather and ground fine pitch stop",
+        "(c) flight fine pitch stop and reverse stop",
+        "(d) ground fine pitch stop and reverse stop"
+      ],
+      "answer": "a",
+      "solution": "(a) feather and flight fine pitch stop",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q255",
+      "question": "With the CSU governor in the underspeed condition, oil will be directed to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase the blade angle",
+        "(b) decrease the blade angle",
+        "(c) decrease the rpm",
+        "(d) open the throttle valve"
+      ],
+      "answer": "a",
+      "solution": "(a) increase the blade angle",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q256",
+      "question": "In a fan jet engine the bypass ratio is:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) internal mass airflow divided by external mass airflow",
+        "(b) external mass airflow divided by internal mass airflow",
+        "(c) internal mass airflow divided by mass fuel flow",
+        "(d) mass fuel flow divided by internal mass airflow"
+      ],
+      "answer": "a",
+      "solution": "(a) internal mass airflow divided by external mass airflow",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q257",
+      "question": "In a normally aspirated piston engine carburettor icing can occur:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) between  0°C and –10°C",
+        "(b) at more than +10°C",
+        "(c) only at less than +10°C if there is visible moisture",
+        "(d) above 5000 ft only"
+      ],
+      "answer": "a",
+      "solution": "(a) between  0°C and –10°C",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q258",
+      "question": "At what speed does the LP compressor run?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) The speed of the LP turbine",
+        "(b) The speed of the IP turbine",
+        "(c) The speed of the HP turbine",
+        "(d) Constant          speed"
+      ],
+      "answer": "a",
+      "solution": "(a) The speed of the LP turbine",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q259",
+      "question": "The magnetos are switched off and the engine continues to run normally. The",
+      "question_type": "MCQ",
+      "options": [
+        "(a) a wire from the magneto coming into contact with aircraft metal skin",
+        "(b) hotspots in the cylinder",
+        "(c) carbon fouling of the spark plugs",
+        "(d) grounding wire from the magneto broken"
+      ],
+      "answer": "a",
+      "solution": "(a) a wire from the magneto coming into contact with aircraft metal skin",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q260",
+      "question": "The volume of the scavenge pump(s) in an engine lubrication system is greater",
+      "question_type": "MCQ",
+      "options": [
+        "(a) prevent cavitation of the oil system feedlines",
+        "(b) ensure heat is dissipated more efficiently",
+        "(c) compensate for thermal expansion of the lubricating fluid",
+        "(d) ensure that the engine sump remains dry"
+      ],
+      "answer": "a",
+      "solution": "(a) prevent cavitation of the oil system feedlines",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q261",
+      "question": "Variable inlet guide vanes are fitted to gas turbine engines to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase the mass flow at high speeds",
+        "(b) prevent a compressor stall at low engine speed",
+        "(c) prevent a compressor stall at high engine speeds",
+        "(d) decelerate the flow into the compressor"
+      ],
+      "answer": "a",
+      "solution": "(a) increase the mass flow at high speeds",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q262",
+      "question": "The theoretically correct air to fuel ratio for efficient combustion in a gas turbine",
+      "question_type": "MCQ",
+      "options": [
+        "(a) 5:1",
+        "(b) 15:1",
+        "(c) 25:1",
+        "(d) 40:1"
+      ],
+      "answer": "a",
+      "solution": "(a) 5:1",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q263",
+      "question": "A gas turbine engine power change is achieved by adjusting the amount of:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) fuel supplied and the amount of air entering the compressor",
+        "(b) fuel          supplied",
+        "(c) air          supplied",
+        "(d) fuel supplied and the amount of air entering the turbine"
+      ],
+      "answer": "a",
+      "solution": "(a) fuel supplied and the amount of air entering the compressor",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q264",
+      "question": "What happens to the pressure and velocity of the gas stream from root to tip",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Both remain constant",
+        "(b) Both          increase",
+        "(c) Velocity increases, pressure decreases",
+        "(d) Velocity decreases, pressure increases"
+      ],
+      "answer": "a",
+      "solution": "(a) Both remain constant",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q265",
+      "question": "What is a crank assembly?",
+      "question_type": "MCQ",
+      "options": [
+        "(a) Crankcase, crankshaft, pistons and connecting rods",
+        "(b) Crankshaft, pistons and connecting rods",
+        "(c) Propeller, crankshaft and connecting rods",
+        "(d) Camshaft, pistons and connecting rods"
+      ],
+      "answer": "a",
+      "solution": "(a) Crankcase, crankshaft, pistons and connecting rods",
+      "explanation": ""
+    },
+    {
+      "question_number": "Q266",
+      "question": "The effect of climbing at rated rpm but less than rated boost is to:",
+      "question_type": "MCQ",
+      "options": [
+        "(a) increase full throttle height",
+        "(b) reduce full throttle height",
+        "(c) produce no change to the full throttle height",
+        "(d) reduce the time to full throttle height"
+      ],
+      "answer": "a",
+      "solution": "(a) increase full throttle height",
+      "explanation": ""
+    }
+  ]
+}
