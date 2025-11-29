@@ -14,6 +14,7 @@ const friendly = (slug) => (slug || '')
 
 const BookPracticeRunner = () => {
   const { bookSlug, chapterSlug } = useParams();
+  
   const navigate = useNavigate();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');

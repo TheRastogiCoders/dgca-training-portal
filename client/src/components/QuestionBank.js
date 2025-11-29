@@ -943,29 +943,18 @@ const technicalSpecificBooks = [
         if (response.ok) {
           const data = await response.json();
           if (data.questions && data.questions.length > 0) {
-            // Use chapter_slug from JSON file, or construct it if not available
-            const chapterSlug = data.chapter_slug || `${mappedBookSlug}-${revisionSlug}`;
-            debugLog(`[QuestionBank] Loaded revision questions for ${resolveSelectedBook.slug}:`, {
-              questionCount: data.questions.length,
-              chapterSlug: chapterSlug,
-              bookName: data.book_name
-            });
             setRevisionQuestions(prev => ({
               ...prev,
               [resolveSelectedBook.slug]: {
                 questionCount: data.questions.length,
-                chapterSlug: chapterSlug
+                chapterSlug: data.chapter_slug || `${mappedBookSlug}-${revisionSlug}`
               }
             }));
-          } else {
-            debugLog(`[QuestionBank] No revision questions found for ${resolveSelectedBook.slug} (mapped: ${mappedBookSlug})`);
           }
-        } else {
-          debugLog(`[QuestionBank] API response not OK for ${resolveSelectedBook.slug}:`, response.status);
         }
       } catch (error) {
         // Silently fail - revision questions may not exist for this book
-        debugLog('[QuestionBank] Revision questions check failed:', error);
+        debugLog('Revision questions check failed:', error);
       }
     };
     
@@ -1000,15 +989,8 @@ const technicalSpecificBooks = [
   const handleChapterClick = (subject, chapter, book) => {
     // Special handling for Revision Question - always allow navigation
     if (chapter?.name === 'Revision Question' || chapter?.name === 'Revision Questions') {
-      // First, try to use the chapterSlug from the chapter object (set when revision questions are loaded)
-      if (chapter?.chapterSlug) {
-        debugLog(`[QuestionBank] Navigating to revision questions using chapterSlug: ${chapter.chapterSlug}`);
-        navigate(`/pyq/book/${book.slug}/${chapter.chapterSlug}`);
-        return;
-      }
-      
-      // Fallback: construct the slug if not loaded yet
       const revisionSlug = 'revision-questions';
+      // Map book slugs to match file naming convention
       const bookSlugMap = {
         'ic-joshi': 'ic-joshi',
         'oxford': 'oxford',
@@ -1036,7 +1018,6 @@ const technicalSpecificBooks = [
       };
       const mappedBookSlug = bookSlugMap[book?.slug] || book?.slug;
       const constructedSlug = `${mappedBookSlug}-${revisionSlug}`;
-      debugLog(`[QuestionBank] Navigating to revision questions using constructed slug: ${constructedSlug}`);
       navigate(`/pyq/book/${book.slug}/${constructedSlug}`);
       return;
     }
@@ -1276,8 +1257,7 @@ const technicalSpecificBooks = [
                   id: chapters.length + 1,
                   name: 'Revision Question',
                   questions: revInfo?.questionCount || 0,
-                  slug: 'revision-question',
-                  chapterSlug: revInfo?.chapterSlug // Store chapterSlug for navigation
+                  slug: 'revision-question'
                 }];
               }
               

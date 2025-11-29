@@ -568,28 +568,17 @@ const BookChapters = () => {
         if (response.ok) {
           const data = await response.json();
           if (data.questions && data.questions.length > 0) {
-            // Use chapter_slug from JSON file, or construct it if not available
-            const chapterSlug = data.chapter_slug || `${mappedBookSlug}-${revisionSlug}`;
-            debugLog(`[BookChapters] Loaded revision questions for ${bookSlug}:`, {
-              questionCount: data.questions.length,
-              chapterSlug: chapterSlug,
-              bookName: data.book_name
-            });
             setRevisionQuestions({
               [bookSlug]: {
                 questionCount: data.questions.length,
-                chapterSlug: chapterSlug
+                chapterSlug: data.chapter_slug || `${mappedBookSlug}-${revisionSlug}`
               }
             });
-          } else {
-            debugLog(`[BookChapters] No revision questions found for ${bookSlug} (mapped: ${mappedBookSlug})`);
           }
-        } else {
-          debugLog(`[BookChapters] API response not OK for ${bookSlug}:`, response.status);
         }
       } catch (error) {
         // Silently fail - revision questions may not exist for this book
-        debugLog('[BookChapters] Revision questions check failed:', error);
+        debugLog('Revision questions check failed:', error);
       }
     };
     
