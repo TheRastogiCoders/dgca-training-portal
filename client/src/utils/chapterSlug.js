@@ -3,6 +3,11 @@ export const CHAPTER_SLUG_OVERRIDES = {
     'clear-air-turbulence': 'cat-and-mountain-waves',
     'mountain-waves': 'cat-and-mountain-waves',
   },
+  // Handle legacy / mistyped slugs for Operational Procedures book
+  'operational-procedures': {
+    // Map older \"cs-ops\" slug to the correct \"eu-ops\" JSON file
+    'cs-ops-general-requirements': 'eu-ops-general-requirements',
+  },
 };
 
 export const slugifyChapterName = (name = '') =>

@@ -376,6 +376,12 @@ const icJoshiChapterQuestionCounts = {
   'Flight Forecast (Tabular Form) and Cross Section Forecast of Route Conditions': 0
 };
 
+// Chapter question counts for Operational Procedures (CAE Oxford)
+// Extend this map as more operational procedures chapters get JSON sets
+const operationalProceduresChapterQuestionCounts = {
+  'EU-OPS General Requirements': 6
+};
+
 const BookChapters = () => {
   const { subjectSlug, bookSlug } = useParams();
   const navigate = useNavigate();
@@ -398,10 +404,13 @@ const BookChapters = () => {
       debugLog('No chapters found for:', { subjectSlug, bookSlug, availableBooks: Object.keys(bySubject) });
     }
     return list.map((title, index) => {
-      // Check if chapter has questions available (for IC Joshi Meteorology)
-      const questionCount = (subjectSlug === 'meteorology' && bookSlug === 'ic-joshi') 
-        ? (icJoshiChapterQuestionCounts[title] || 0)
-        : 0;
+      // Check if chapter has questions available (per-book chapter maps)
+      let questionCount = 0;
+      if (subjectSlug === 'meteorology' && bookSlug === 'ic-joshi') {
+        questionCount = icJoshiChapterQuestionCounts[title] || 0;
+      } else if (subjectSlug === 'air-navigation' && bookSlug === 'operational-procedures') {
+        questionCount = operationalProceduresChapterQuestionCounts[title] || 0;
+      }
       const isAvailable = questionCount > 0;
       
       return {

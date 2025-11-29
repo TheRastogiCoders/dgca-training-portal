@@ -333,10 +333,10 @@ const PracticeTest = () => {
                           {Object.entries(test.stats).map(([key, value]) => {
                             const label = key === 'ai' ? 'AI-Powered' : key === 'adaptive' ? 'Adaptive' : key.charAt(0).toUpperCase() + key.slice(1);
                             return (
-                              <div key={key} className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
-                                <div className="text-sm sm:text-base md:text-lg font-bold text-blue-600">{value}</div>
+                            <div key={key} className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
+                              <div className="text-sm sm:text-base md:text-lg font-bold text-blue-600">{value}</div>
                                 <div className="text-xs text-gray-500">{label}</div>
-                              </div>
+                            </div>
                             );
                           })}
                         </div>
