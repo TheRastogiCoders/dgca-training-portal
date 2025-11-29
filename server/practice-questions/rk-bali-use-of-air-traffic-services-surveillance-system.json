@@ -1,0 +1,260 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": "9",
+  "chapter_title": "ues of air traffic and serveilance",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "The minimum radar separation to be provided to aircraft established on the localizer course shall be:",
+      "question_type": "MCQ",
+      "options": [
+        "2.0NM between aircraft on adjacent localizer course",
+        "2.5NM between aircraft on the same localizer course",
+        "5.0NM between aircraft on the same localizer course"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 2,
+      "question_text": "Unless otherwise prescribed by the appropriate ATS authority, the horizontal radar separation minimum prescribed by ICAO shall be:",
+      "question_type": "MCQ",
+      "options": [
+        "3.5NM",
+        "8NM",
+        "5.0NM"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Where ADS-B is used for Identification, aircraft may be identified by the following procedure:",
+      "question_type": "MCQ",
+      "options": [
+        "Asking him to sqwuak aasigned mode A code C.",
+        "Direct recognition of the aircraft identification in an ADS-B label.",
+        "Recognition of an assigned discrete code, the setting of which has been verified."
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 4,
+      "question_text": "An aircraft is considered to be maintaining its assigned level as long as the SSR mode C derived level information indicated that it is within:",
+      "question_type": "MCQ",
+      "options": [
+        "+/-500ft of the assigned level in non RVSM airspace",
+        "+/-200ft of the assigned level in RVSM airspace",
+        "+/-300ft of the assigned level in RVSM airspace"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 5,
+      "question_text": "An aircraft in climb or descent is considered to have crossed a level when the SSR mode C derived level information indicates that it has passed this level in the required direction by:",
+      "question_type": "MCQ",
+      "options": [
+        "+/-300ft",
+        "More than 300ft",
+        "300ft"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 6,
+      "question_text": "Secondary Surveillance Radar (SSR) information may be used alone in the provision of separation between aircraft provided;",
+      "question_type": "MCQ",
+      "options": [
+        "Instructions to pilot are acknowledged by him by making specific maneuver(s).",
+        "Aircraft identification is established and maintained by use of discrete SSR codes.",
+        "It can not be used for providing separation."
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 7,
+      "question_text": "Radar identification of a departing aircraft can be achieved if a radar blip is observed within a certain distance from the end of the runway. Identification has to be achieved within:",
+      "question_type": "MCQ",
+      "options": [
+        "1NM",
+        "3NM",
+        "5NM"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 8,
+      "question_text": "Separation based on the use of MLAT position symbols and PSR blips shall be applied so that",
+      "question_type": "MCQ",
+      "options": [
+        "the distance between the centres of the position symbols and PSR blips. representing the positions of the aircraft concerned, is never less than a prescribed minimum.",
+        "the distance between the edges of the position symbols and PSR blips, representing the positions of the aircraft concerned, is never less than a prescribed minimum.",
+        "the distance between the furthest edges of the position symbols and PSR blips, representing the positions of the aircraft concerned, is never more than a prescribed minimum."
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 9,
+      "question_text": "The air traffic control unit has reported \"radar contact\". What does that mean to the pilot?",
+      "question_type": "MCQ",
+      "options": [
+        "The aircraft is subject to positive control",
+        "Position reports may be omitted",
+        "The radar identify of the aircraft has been established"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 10,
+      "question_text": "When a RADAR operators says the following to an aircraft: \"fly heading 030\", the pilot must fly heading:",
+      "question_type": "MCQ",
+      "options": [
+        "$030^{\\circ}$ magnetic in still air conditions (thereby flying the magnetic track)",
+        "$030^{\\circ}$ compass in still air conditions (thereby flying the compass heading)",
+        "$030^{\\circ}$ true, in still air conditions (thereby flying the true track)"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 11,
+      "question_text": "Which code shall be used on Mode \"A\" to provide recognition of an aircraft subjected to unlawful interference?",
+      "question_type": "MCQ",
+      "options": [
+        "Code 7700",
+        "Code 7600",
+        "Code 7500"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 12,
+      "question_text": "Upon intercepting the assigned radial, the controller advises you that you are on the airway and to \"resume own navigation\". This phrase means that:",
+      "question_type": "MCQ",
+      "options": [
+        "radar services are terminated and you will be responsible for position reports",
+        "You are to assume responsibility for your own navigation",
+        "You are to contact the center at the next reporting point"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 13,
+      "question_text": "What does the ATC term \"radar contact\" signify?",
+      "question_type": "MCQ",
+      "options": [
+        "Your aircraft has been identified on the radar display and radar flight instructions will be provided until radar identification is terminated",
+        "You will be given traffic advisories until advised that the service has been terminated or that radar contact has been lost",
+        "ATC is receiving your transponder and will furnish vectors and traffic advisories until you are advised that contact has been lost"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 14,
+      "question_text": "Where a \"Secondary Surveillance Radar\" (SSR) is not available, radar identification may be achieved by one of the following procedures:",
+      "question_type": "MCQ",
+      "options": [
+        "To instruct the pilot to execute one or more changes of $10^{\\circ}$",
+        "To instruct the pilot to execute one or more changes of $45^{\\circ}$",
+        "To instruct the pilot to execute one or more changes of $30^{\\circ}$ or more"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 15,
+      "question_text": "When \"Secondary Radar\" is used, an aircraft may be identified by one of the following procedures:",
+      "question_type": "MCQ",
+      "options": [
+        "To request pilot to set transponder on position \"OFF\"",
+        "To request pilot to switch from \"ON\" to \"STBY\"",
+        "Observation of compliance with an instruction to operate transponder from \"ON\" to \"STBY\" and back to \"ON\""
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 16,
+      "question_text": "The Air Traffic Control Service: do not prevent collisions with terrain.",
+      "question_type": "MCQ",
+      "options": [
+        "Wrong, they do prevent collisions with terrain",
+        "Except when an aircraft is flying IFR in IMC",
+        "Correct, except when an IFR flight is vectored by radar"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 17,
+      "question_text": "Which code shall be used on mode \"A\" to provide recognition of an emergency aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "Code 7600",
+        "Code 7500",
+        "Code 7700"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 18,
+      "question_text": "One of the functions ensured by a radar control unit for the provision of approach control service is:",
+      "question_type": "MCQ",
+      "options": [
+        "To conduct surveillance radar approaches",
+        "To apply a horizontal separation less than 5NM",
+        "To provide instructions in order to reduce separations minima, if accepted by the pilots"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 19,
+      "question_text": "The primary duty provided by a radar unit is:",
+      "question_type": "MCQ",
+      "options": [
+        "To assist aircraft on the location of storms",
+        "To provide radar separation",
+        "To assist aircraft where navigation appears unsatisfactory"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 20,
+      "question_text": "What is meant when departure control instructs you to \"resume own navigation\" after you have been vectored to an airway?",
+      "question_type": "MCQ",
+      "options": [
+        "Advisories will no longer be issued by ATC",
+        "You are still in radar contact, but must make position reports",
+        "You should maintain that airway by use of your navigation equipment"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 21,
+      "question_text": "All aircraft carrying serviceable transponder shall operate the transponder:",
+      "question_type": "MCQ",
+      "options": [
+        "At all times during flight, regardless of whether the aircraft is within or outside airspace where SSR is used for ATS purposes.",
+        "Only when the aircraft is flying within airspace where SSR is used for ATS purposes.",
+        "As and when required by the pilot."
+      ],
+      "solution": "A",
+      "answer": "A"
+    }
+  ]
+}
+

@@ -167,6 +167,7 @@ app.get('/api/practice-questions/:book', (req, res) => {
       'air-law': 'oxford',  // Air Law uses oxford- prefixed files
       'human-performance-and-limitations': 'human-performance',  // Human Performance uses human-performance- prefixed files
       'oxford': 'oxford',  // Direct mapping
+      'rk-bali': 'rk-bali',  // RK Bali uses rk-bali- prefixed files
       // CAE Oxford General Navigation practice files
       // are stored with a "cae-oxford-general-navigation-" prefix
       'general-navigation': 'cae-oxford-general-navigation',

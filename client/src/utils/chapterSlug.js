@@ -8,6 +8,12 @@ export const CHAPTER_SLUG_OVERRIDES = {
     // Map older \"cs-ops\" slug to the correct \"eu-ops\" JSON file
     'cs-ops-general-requirements': 'eu-ops-general-requirements',
   },
+  // Handle RK Bali chapter title variations
+  'rk-bali': {
+    'personnel-licensing': 'personnel-licencing',
+    'airworthiness': 'airworthiness-of-aircraft',
+    'environmental-procedures-and-hazards-general-aspects': 'special-operational-procedures-and-hazards-general-aspects',
+  },
 };
 
 export const slugifyChapterName = (name = '') =>

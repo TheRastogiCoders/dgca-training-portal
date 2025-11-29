@@ -1,0 +1,164 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": "3",
+  "chapter_title": "Aircraft Nationality and Registration Marks",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "The registration mark shall be letters, numbers or a combination of letters and numbers and shall be that assigned by:",
+      "question_type": "MCQ",
+      "options": [
+        "The International Telecommunication Union",
+        "The state of registry or common mark registering authority",
+        "The state of registry only"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 2,
+      "question_text": "The common mark shall be selected from the series of symbols included in the radio call signs allocated:",
+      "question_type": "MCQ",
+      "options": [
+        "To state of the operator",
+        "To the International Civil Aviation Organisation by the International Telecommunication Union",
+        "To the state of registry by the International Civil Aviation Organisation"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 3,
+      "question_text": "The assignment of the common mark to a common mark registration authority will be made by:",
+      "question_type": "MCQ",
+      "options": [
+        "The International Civil Aviation Organisation",
+        "The state of registry",
+        "The International Telecommunication Union"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 4,
+      "question_text": "When letters are used for the registration mark combinations shall not be used which might be confused with urgent or distress signals for example",
+      "question_type": "MCQ",
+      "options": [
+        "XXX",
+        "RCC",
+        "DDD"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 5,
+      "question_text": "When letters are used for the registration mark combinations shall not be used which might be confused with",
+      "question_type": "MCQ",
+      "options": [
+        "Three letters combinations used in the international code of signals",
+        "Four letter combinations beginning with Q",
+        "Five letter combinations used in the international code of signals"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 6,
+      "question_text": "The height of the marks on the fuselage (or equivalent structure) and on the vertical tail surfaces of heavier than air aircraft shall be",
+      "question_type": "MCQ",
+      "options": [
+        "At least 20 centimetres",
+        "At least 40 centimetres",
+        "At least 30 centimetres"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 7,
+      "question_text": "The height of the marks on lighter than air aircraft other than unmanned free balloons shall be at least",
+      "question_type": "MCQ",
+      "options": [
+        "60 centimetres",
+        "50 centimetres",
+        "1 meter"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 8,
+      "question_text": "When letters are used for registration mark combinations shall not be used which might be confused with urgent signals for example",
+      "question_type": "MCQ",
+      "options": [
+        "LLL",
+        "PAN",
+        "RCC"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 9,
+      "question_text": "When letters are used for registration mark combinations shall not be used which might be confused with urgent signals for example",
+      "question_type": "MCQ",
+      "options": [
+        "LLL",
+        "TIT",
+        "RCC"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 10,
+      "question_text": "The height of the marks under the wings of heavier than air aircraft shall be at least",
+      "question_type": "MCQ",
+      "options": [
+        "50 centimetres",
+        "Between 40 and 50 centimetres",
+        "60 centimetres"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 11,
+      "question_text": "A certificate of registration is valid from the date of registration to.",
+      "question_type": "MCQ",
+      "options": [
+        "1 year",
+        "Till the aircraft is destroyed in an accident",
+        "Till it is cancelled by DGCA"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 12,
+      "question_text": "Nationality marks alloted to India by ITU are:",
+      "question_type": "MCQ",
+      "options": [
+        "Letters VT and VW, both included",
+        "Letters VT only",
+        "Letters AT to AW"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 13,
+      "question_text": "Nationality marks used in India are:",
+      "question_type": "MCQ",
+      "options": [
+        "Letters VT, VU and U",
+        "Letters VT and VU only",
+        "Letters AT to AW"
+      ],
+      "solution": "A",
+      "answer": "A"
+    }
+  ]
+}
+

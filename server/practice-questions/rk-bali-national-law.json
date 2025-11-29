@@ -1,0 +1,107 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": 14,
+  "chapter_title": "National Law",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "A pilot can fly an aircraft which is not entered in the aircraft rating of his licence for endorsement on his licence",
+      "question_type": "MCQ",
+      "options": [
+        "With in 5 nm of an aerodrome",
+        "With in Local Flying Area of the aerodrome",
+        "Any where"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 2,
+      "question_text": "A pilot can fly in 30 consecutive days",
+      "question_type": "MCQ",
+      "options": [
+        "100 hrs PIC & 50 hrs as Co pilot",
+        "100 hrs PIC & 30 hrs as Co pilot",
+        "120 hrs PIC & 20 hrs as Co pilot"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 3,
+      "question_text": "When an aircraft is being refueled, the refueling must be stopped if a jet aircraft crosses with in a distance of:",
+      "question_type": "MCQ",
+      "options": [
+        "15 meters",
+        "30 meters",
+        "43 meters"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 4,
+      "question_text": "Mathura Refinery is a:",
+      "question_type": "MCQ",
+      "options": [
+        "Danger Area",
+        "Restricted area",
+        "Prohibited area."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 5,
+      "question_text": "A passenger visited a yellow fever infected area on the previous six days, but is not in possession of valid yellow fever certificate, then action taken by PIC of the flight is:",
+      "question_type": "MCQ",
+      "options": [
+        "Send a radio message two hours before the arrival about the state of the health of the passenger",
+        "No action required",
+        "Inform Airlines office after landing"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 6,
+      "question_text": "Prisoners on Board an aircraft can be carried with the permission of",
+      "question_type": "MCQ",
+      "options": [
+        "DGCA",
+        "Controller of Aerodrome",
+        "Director General of Prisons"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 7,
+      "question_text": "Smoking on a private aircraft is permitted:",
+      "question_type": "MCQ",
+      "options": [
+        "Provided the owner has no objection.",
+        "Only if the certificate of airworthiness of the aircraft permits.",
+        "Without restriction if no passengers are carried."
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 8,
+      "question_text": "An aircraft without registration markings can be flown only",
+      "question_type": "MCQ",
+      "options": [
+        "If the sale deed is not yet completed",
+        "For purpose of test flight only, prior to purchase.",
+        "If specially permitted in writing by the central govt."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 9,
+      "question_text": "The member of operating crew shall not have taken alcoholic drinks:",
+      "question_type": "MCQ",
+      "options": [
+        "6 hrs before commencement if flight.",
+        "12 hrs before commencement of flight.",
+        "24 hrs before commencement of flight."
+      ],
+      "answer": ""
+    }
+  ]
+}
+

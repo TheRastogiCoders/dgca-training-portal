@@ -22,6 +22,8 @@ const AIPracticeRunner = lazy(() => import('./components/AIPracticeRunner'));
 const AIPracticeChapters = lazy(() => import('./components/AIPracticeChapters'));
 const ChapterPracticeIntro = lazy(() => import('./components/ChapterPracticeIntro'));
 const BookPracticeRunner = lazy(() => import('./components/BookPracticeRunner'));
+const SamplePapersList = lazy(() => import('./components/SamplePapersList'));
+const SamplePaperViewer = lazy(() => import('./components/SamplePaperViewer'));
 const WhatsAppFloat = lazy(() => import('./components/WhatsAppFloat'));
 const ContactSupport = lazy(() => import('./components/ContactSupport'));
 const Profile = lazy(() => import('./components/Profile'));
@@ -70,6 +72,8 @@ function App() {
               <Route path="/pyq/ai/:subjectSlug/:bookSlug/:chapterSlug" element={<AIPracticeRunner />} />
               <Route path="/pyq/book/:bookSlug" element={<BookPracticeRunner />} />
               <Route path="/pyq/book/:bookSlug/:chapterSlug" element={<BookPracticeRunner />} />
+              <Route path="/sample-papers/:subjectSlug/:bookSlug" element={<SamplePapersList />} />
+              <Route path="/sample-papers/:subjectSlug/:bookSlug/:paperSlug" element={<SamplePaperViewer />} />
               <Route path="/practice/:subjectSlug/:bookSlug/:chapterSlug" element={<ChapterPracticeIntro />} />
               {/* Admin routes removed */}
               {/* Hidden route: not linked from navigation */}

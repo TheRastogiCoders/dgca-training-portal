@@ -1,0 +1,1244 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": "4",
+  "chapter_title": "Rules of the Air",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "Where State has not established minimum IFR altitudes, the minimum height of an aircraft above the highest obstacle over high terrain, or in mountainous areas shall be for an IFR flight:",
+      "question_type": "MCQ",
+      "options": [
+        "At least 2000ft within 8km of the estimated position",
+        "At least 1000ft within 8km of the estimated position",
+        "At least 2000ft within 5km of the estimated position"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 2,
+      "question_text": "Aircraft wishing to conduct IFR flight within advisory airspace, but not electing to use the air traffic advisory service:",
+      "question_type": "MCQ",
+      "options": [
+        "Need to file a flight plan",
+        "Shall nevertheless submit a flight plan but changes made thereto are not necessary to be notified",
+        "Shall nevertheless submit a and notify changes made thereto to the ATS unit providing that service"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 3,
+      "question_text": "The white dumb-bell with black perpendicular bar indicates that:",
+      "question_type": "MCQ",
+      "options": [
+        "Taxiing need to be confined to the taxiways",
+        "Glider flying is performed outside the landing area",
+        "Landing, take-off and taxiing is allowed on runway and/or taxiway only"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 4,
+      "question_text": "Your aircraft is intercepted by a military aircraft. The signals given by this aircraft conflict with ATC instructions. You should:",
+      "question_type": "MCQ",
+      "options": [
+        "Select code 7500 on your transponder",
+        "Follow ATC instructions",
+        "Follow the instructions of the intercepting aircraft"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 5,
+      "question_text": "An aircraft which is being subject to unlawful interference (\"hijacked\") and is forced to divert from the cleared track or cruising level without being able to communicate with ATS shall try to:",
+      "question_type": "MCQ",
+      "options": [
+        "Fly the emergency triangle",
+        "Continue at an altitude that differs from the sernicircular rule with 1000ft when above FL 290 and 500ft when lower than FL 290",
+        "As soon as possible commence emergency descent in order to minimize the difference between cabin pressure and outside pressure"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 6,
+      "question_text": "An aircraft manoeuvering in an airport's circuit receives a series of red flashes from the control tower. This signifles that the aircraft must:",
+      "question_type": "MCQ",
+      "options": [
+        "Not land for the moment regardless of previous instructions",
+        "Return to land and that clearance to land will be communicated in due course",
+        "Not land because the airport is not available for landing"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 7,
+      "question_text": "Whilst flying in an aerodrome's traffic circuit, an aircraft receives a series of green flashes from the tower. The aircraft:",
+      "question_type": "MCQ",
+      "options": [
+        "Is cleared to land",
+        "Must land immediately and clear the landing area",
+        "Must come back to land and the landing clearance will be sent in due time"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 8,
+      "question_text": "Except when a clearance is obtained from an ATC unit, a VFR flight can not enter or leave a control zone when ceiling is less than:",
+      "question_type": "MCQ",
+      "options": [
+        "2000ft or visibility is less than 5km",
+        "1000ft or visibility is less than 5km",
+        "1500ft or visibility is less than 5km"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 9,
+      "question_text": "Which of the following flights has the greatest priority to land?",
+      "question_type": "MCQ",
+      "options": [
+        "Emergency aircraft",
+        "Military aircraft",
+        "VIP (Head of state) aircraft"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 10,
+      "question_text": "An aircraft flying above the sea between 4500ft MSL and 9000ft MSL outside controlled airspace under VFR, must remain on principle at least:",
+      "question_type": "MCQ",
+      "options": [
+        "1500m horizontally, 1000ft vertically from clouds; 8km visibility",
+        "Clear of clouds and in sight of the surface; 8km visibility",
+        "1500m horizontally, 1000ft vertically from clouds; 5km visibility"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 11,
+      "question_text": "The VMC minima for an airspace classified as \"B\" above 10000ft MSL are:",
+      "question_type": "MCQ",
+      "options": [
+        "2000m horizontally, 1000ft vertically from clouds; 8km visibility",
+        "Clear of clouds; 8km visibility",
+        "1 nautical mile horizontally and 1000ft vertically from clouds; 8km visibility"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 12,
+      "question_text": "The VMC minima for an airspace classified as \"G\" above 10000ft MSL are:",
+      "question_type": "MCQ",
+      "options": [
+        "1500m horizontally, 1000ft vertically from clouds; 8km visibility",
+        "1 nautical mile horizontally and 1000ft vertically from clouds; 8km visibility",
+        "1 nautical mile horizontally and 1000ft vertically from clouds; 5km visibility"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 13,
+      "question_text": "Minimum vertical distance from cloud for VFR flight within controlled space is.",
+      "question_type": "MCQ",
+      "options": [
+        "1000 ft",
+        "500 ft",
+        "1000 m"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 14,
+      "question_text": "Green flashes from Tower, this signal means that the aircraft:",
+      "question_type": "MCQ",
+      "options": [
+        "May continue to taxy towards the take-off area",
+        "Must return to its point of departure",
+        "Must stop"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 15,
+      "question_text": "Which of the following actions shall be taken in case of a controlled flight deviates from the track?",
+      "question_type": "MCQ",
+      "options": [
+        "Adjust the heading of the aircraft to regain track as soon as possible",
+        "If VMC, maintain this condition, waiting for the ATC instructions",
+        "Notify ATC of the new track immediately and comply with instructions"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 16,
+      "question_text": "An aircraft is flying under IFR in an area where the visibility is unlimited and the sky is clear (free of clouds), when it totally loses radio communications. The procedure to be followed is:",
+      "question_type": "MCQ",
+      "options": [
+        "Descend to En-route Minimum Safe Altitude and join closest airfield open to IFR operations",
+        "Land on the closest appropriate aerodrome, then advise Air Traffic Services of landing",
+        "Continue flight onto destination, complying with last received clearances in the filed flight plan"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 17,
+      "question_text": "While taxiing an aircraft receives the following light signal from the control tower: series of red flashes. This signal means that the aircraft:",
+      "question_type": "MCQ",
+      "options": [
+        "Must vacate the landing area in use",
+        "May continue to taxi to the take-off area",
+        "Must stop"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 18,
+      "question_text": "An aircraft intercepted by another aircraft shall immediately attempt to establish radio communication with the intercepting aircraft on the following frequencies:",
+      "question_type": "MCQ",
+      "options": [
+        "121.5MHz-282.8MHz",
+        "121.5MHz-125.5MHz",
+        "121.5MHz-243MHz"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 19,
+      "question_text": "If radio contact with the intercepting aircraft is established but communication on a common language is not possible, which phrase should be pronounced by the intercepted aircraft to communicate that he is unable to comply with the instructions received?",
+      "question_type": "MCQ",
+      "options": [
+        "UNABLE TO COMPLY",
+        "CAN NOT",
+        "CAN NOT COMPLY"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 20,
+      "question_text": "If radiocommunication is established during an interception butcommunications in a common language is not possible, which phrase should be pronounced by the intercepting aircraft to request the intercepted aircraft to descend for landing?",
+      "question_type": "MCQ",
+      "options": [
+        "Descend for landing",
+        "Descend",
+        "You land"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 21,
+      "question_text": "A signalman will ask the pilot to apply parking brakes by the following signals:",
+      "question_type": "MCQ",
+      "options": [
+        "Arms down, palms facing inwards, moving arms from extended position inwards",
+        "Crossing arms extended above his head",
+        "Raise arm and hand, with fingers extended, horizontally in front of body, then clinch fist"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 22,
+      "question_text": "Within uncontrolled airspace, the first usable level in IFR must provide a 500 feet margin above the following two levels:",
+      "question_type": "MCQ",
+      "options": [
+        "3000 feet AMSL or 1500 feet AGL",
+        "3000 feet AMSL or 1000 feet AGL",
+        "FL 30 or 1500 feet AGL"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 23,
+      "question_text": "An aircraft shall display, if so equipped, an anti-collision light:",
+      "question_type": "MCQ",
+      "options": [
+        "Outside the daylight-period at engine-start. During the daylight-period this is not applicable",
+        "On the ground when the engines are running",
+        "While taxiing, but not when it is being towed"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 24,
+      "question_text": "A red flare addressed to a flying aircraft means:",
+      "question_type": "MCQ",
+      "options": [
+        "Dangerous airfield. Do not land",
+        "Not withstanding any previous instructions, do not land for the time being",
+        "Come back and land"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 25,
+      "question_text": "A double white cross displayed horizontally in the signal area means:",
+      "question_type": "MCQ",
+      "options": [
+        "An area unit for the movement of aircraft",
+        "Need special precautions while approaching for landing",
+        "The aerodrome is being used by gliders and that glider flights are being performed"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 26,
+      "question_text": "An aircraft is considered to overtake another if it approaches the other aircraft from the rear on a line forming an angle of less than:",
+      "question_type": "MCQ",
+      "options": [
+        "50 degress with the plane of symmetry of the latter",
+        "70 degress with the plane of symmetry of the latter",
+        "60 degress with the plane of symmetry of the latter"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 27,
+      "question_text": "During an IFR flight in VMC in controlled airspace you experience a two-way radio communication failure. You will:",
+      "question_type": "MCQ",
+      "options": [
+        "Land at the nearest suitable aerodrome maintaining VMC and inform ATC",
+        "Select A7600 and continue according current flightplan to destination",
+        "Land at the nearest suitable aerodrome and inform ATC"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 28,
+      "question_text": "When does FLIGHT TIME end?",
+      "question_type": "MCQ",
+      "options": [
+        "When the aeroplane first stops after landing to disembark passengers",
+        "At touchdown",
+        "At engine shut down when the aeroplane has stopped in the parking bay"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 29,
+      "question_text": "The aerodrome at Calicut is not declared suitable for night operations. If the sunrise is at 0550 the earliest time by which an VFR aircraft operation at the station can take place is;",
+      "question_type": "MCQ",
+      "options": [
+        "0530",
+        "0520",
+        "0550"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 30,
+      "question_text": "What is the meaning of AGL?",
+      "question_type": "MCQ",
+      "options": [
+        "Altitude of ground level",
+        "Aerodrome ground level",
+        "Above ground level"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 31,
+      "question_text": "Which of the following defines flight visibility?",
+      "question_type": "MCQ",
+      "options": [
+        "Visibility determined in flight not obscured by cloud, dust, haze or precipitation",
+        "The ability to determine in the air the distance and identity of unlighted objects by day and lighted objects by night",
+        "The forward visibility from the cockpit of an aircraft in flight"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 32,
+      "question_text": "When operating under Special VFR clearance, the responsibility for remaining clear of obstacles on the ground rests with:",
+      "question_type": "MCQ",
+      "options": [
+        "Operator",
+        "The aircraft commander",
+        "Air traffic control"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 33,
+      "question_text": "Who shall have the final authority over the disposition of the aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "The Authority",
+        "The Owner",
+        "The Commander"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 34,
+      "question_text": "The commander of a public transport aircraft must ensure that passenger seat belts are secure for:",
+      "question_type": "MCQ",
+      "options": [
+        "Take-off, landing and turbulence",
+        "Take-off, landing, taxiing and turbulence",
+        "Take-off, landing, taxiing, turbulence and during emergencies"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 35,
+      "question_text": "Who decides whether to fly under IFR or VFR In VMC?",
+      "question_type": "MCQ",
+      "options": [
+        "The PIC",
+        "The Operator",
+        "The ATS authority"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 36,
+      "question_text": "An aircraft being towed by night must display:",
+      "question_type": "MCQ",
+      "options": [
+        "The same lights that are required in flight",
+        "Flashing navigation lights",
+        "Steady navigation lights"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 37,
+      "question_text": "Anti-collision lights on an aircraft must be switched on:",
+      "question_type": "MCQ",
+      "options": [
+        "Between SS and SR or any other period specified by the appropriate authority",
+        "As soon as engines are running",
+        "All aircraft operating on the movement area"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 38,
+      "question_text": "When two aircraft are approaching head on, and there is a danger of collision:",
+      "question_type": "MCQ",
+      "options": [
+        "Both aircraft alter heading to port",
+        "Both aircraft alter course to the right (starboard side)",
+        "The smaller aircraft alters heading to port"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 39,
+      "question_text": "A revised estimate shall be notified if the ETA destination passed by aircraft varies by:",
+      "question_type": "MCQ",
+      "options": [
+        "3 minutes",
+        "2 minutes",
+        "5 minutes"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 40,
+      "question_text": "An aircraft that has the right of way shall maintain its:",
+      "question_type": "MCQ",
+      "options": [
+        "Heading and speed",
+        "Right of progress",
+        "Course, speed and height"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 41,
+      "question_text": "On aerodromes aircraft taxiing on the manoeuvring area of an aerodrome shall give way to:",
+      "question_type": "MCQ",
+      "options": [
+        "Other converging aircraft",
+        "Aircraft taking off or about to take off",
+        "Other vehicles and pedestriants"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 42,
+      "question_text": "What is Special VFR?",
+      "question_type": "MCQ",
+      "options": [
+        "A VFR procedure to enable an aeroplane to transit a control zone or area in IMC without compliance with IFR",
+        "A VFR flight cleared by ATC to operate within a CTR in meteorological conditions below VMC",
+        "Any flight cleared by ATC to operate in conditions less than VMC in which the pilot is required to remain clear of cloud and in sight of the surface"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 43,
+      "question_text": "Which is the correct order of priority:",
+      "question_type": "MCQ",
+      "options": [
+        "Gliders do not give way to balloons.",
+        "Power-driven heavier-than-air aircraft shall give way to airships, gliders and balloons",
+        "Gliders shall give way to airships and balloons"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 44,
+      "question_text": "What is the minimum flight altitude permitted over towns and settlements and populated areas?",
+      "question_type": "MCQ",
+      "options": [
+        "The altitude which permits the aircraft to land safely in the event of an engine failure",
+        "1000 ft above the highest obstacle within 600 m of the aircraft position",
+        "500 ft"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 45,
+      "question_text": "A controlled flight is requested to inform the appropriate ATC unit whenever the average True Air Speed at cruising level varies or is expected to vary from that given in the flight plan by plus or minus:",
+      "question_type": "MCQ",
+      "options": [
+        "Mach 0.02",
+        "5%",
+        "10%"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 46,
+      "question_text": "An aircraft operated on, or in the vicinity of, an aerodrome shall whether or not within an ATZ:\nI) Observe other aerodrome traffic for the purpose of avoiding collision\nII) Conform with or avoid the pattern of traffic formed by other aircraft in operation\nIII) Make all turns to the right, when approaching for landing or taking-off unless otherwise instructed\nIV) Land and take-off into the wind unless safety, the runway configuration, or an air traffic consideration determines that a different direction should be used",
+      "question_type": "MCQ",
+      "options": [
+        "All statements except II) are correct",
+        "All statements except 1) are correct",
+        "All statements except III) are correct"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 47,
+      "question_text": "Aircraft \"A\" with an ATC clearance is flying in VMC conditions within a control area. Aircraft \"B\" with no ATC clearance is approaching at appoximately the same altitude and on a converging course. Which is the right of way?",
+      "question_type": "MCQ",
+      "options": [
+        "Aircraft \"A\" regardless of the direction which \"B\" is approaching",
+        "Aircraft \"B\" if \"A\" is on its left",
+        "Aircraft \"A\" If \"B\" is on its right"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 48,
+      "question_text": "Which action shall be taken by an aircraft in the traffic pattern of an aerodrome, experiencing radio failure to indicate difficulties which compel it to land without requiring immediate assistance?",
+      "question_type": "MCQ",
+      "options": [
+        "Switching on and off four times the landing lights",
+        "The repeated switching on and off of the landing lights",
+        "Switching on and off three times the landing lights"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 49,
+      "question_text": "Aircraft taxling in the manoeuvring area must give way to:",
+      "question_type": "MCQ",
+      "options": [
+        "Follow-me vehicles",
+        "Landing traffic",
+        "Departing and landing traffic"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 50,
+      "question_text": "Two or more white crosses, displayed on runways and taxiways, indicate that:",
+      "question_type": "MCQ",
+      "options": [
+        "The threshold has been displaced",
+        "The section of the runway or taxiway is unfit for aircraft movement",
+        "The runway or taxiway should be used with caution"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 51,
+      "question_text": "During initial climb in uncontrolled airspace, the altimeter setting should be:",
+      "question_type": "MCQ",
+      "options": [
+        "Any desired value",
+        "Local QNH",
+        "Standard pressure setting"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 52,
+      "question_text": "When a controlled flight inadvertently deviates from its current flightplan, ATC has to be informed in case:",
+      "question_type": "MCQ",
+      "options": [
+        "Of an emergency",
+        "The estimated time is in error by more than 10 minutes",
+        "The TAS varies by plus or minus 5% of the TAS notified in the flightplan"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 53,
+      "question_text": "Which manoeuvre shall be executed by an intercepting aircraft if the pilot wants to communicate to the intercepted aircraft \"YOU MAY PROCEED\"?",
+      "question_type": "MCQ",
+      "options": [
+        "Rocking wings and flashing the navigational lights",
+        "Executing a climbing turn of 90 degrees or more without crossing the line of flight of the intercepted aircraft",
+        "Circling the intercepted aircraft in a clock-wise pattern"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 54,
+      "question_text": "Semi-circular system sectors are.",
+      "question_type": "MCQ",
+      "options": [
+        "From $000^{\\circ}$ to $179^{\\circ}$ and $180^{\\circ}$ to $359^{\\circ}$",
+        "From $1~000^{\\circ}$ to $089^{\\circ},$ $090^{\\circ}$ to $179^{\\circ},$ $180^{\\circ}$ to $269^{\\circ}$ and $270^{\\circ}$ to $359^{c}$",
+        "From $090^{\\circ}$ to $260^{\\circ}$ and $270^{\\circ}$ to $089^{\\circ}$"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 55,
+      "question_text": "While on IFR flight, a pilot has an emergency which causes a deviation from an ATC clearance. What action must be taken?",
+      "question_type": "MCQ",
+      "options": [
+        "Squawk 7700",
+        "The appropriate ATC unit shall be notified of the action taken as soon as circumstances permit",
+        "Request an amended clearance or cancel the IFR flightplan"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 56,
+      "question_text": "Outside controlled airspace above 3000'AMSL",
+      "question_type": "MCQ",
+      "options": [
+        "Fly on 1013.2",
+        "QFE",
+        "QNH"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 57,
+      "question_text": "An airborne flight plan must be submitted:",
+      "question_type": "MCQ",
+      "options": [
+        "30 minutes before the intended point of entry into a CTA or advisory area",
+        "10 minutes before the intended point of entry into a CTA or advisory area",
+        "60 minutes before the intended point of entry into a CTA or advisory area"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 58,
+      "question_text": "IFR flight in VMC, weather changes to IMC:",
+      "question_type": "MCQ",
+      "options": [
+        "Fly VMC and land at nearest convenient aerodrome.",
+        "Fly according to flight plan",
+        "Change to VFR plan"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 59,
+      "question_text": "PIC of an aeroplane shall",
+      "question_type": "MCQ",
+      "options": [
+        "Be responsible for safe conduct of navigation",
+        "Be responsible for safe conduct of flight at all times",
+        "All above is correct"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 60,
+      "question_text": "On the ground, when two aircraft are approaching head on:",
+      "question_type": "MCQ",
+      "options": [
+        "Both airplanes must stop or where practicable alter course to the right to keep well clear",
+        "Both should declare an urgency",
+        "Traffic patrol has to be informed"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 61,
+      "question_text": "No aircraft shall be flown over the congested area of cities, towns or settlements unless at a height that will permit, In the event of an emergency a landing to be made safely. Exceptions to this rule are:",
+      "question_type": "MCQ",
+      "options": [
+        "Take-off and landing and permission from the appropriate authority",
+        "Permission from the appropriate authority",
+        "Take-off and landing"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 62,
+      "question_text": "Which type of service is provided in Class F airspace:",
+      "question_type": "MCQ",
+      "options": [
+        "Air traffic control service",
+        "Air traffic advisory service and FIS",
+        "Air traffic advisory service"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 63,
+      "question_text": "When is deviation from the rules of the air permitted?",
+      "question_type": "MCQ",
+      "options": [
+        "Only in the interests of flight safety",
+        "Only when it is economically advantageous",
+        "Anytime the PIC thinks it is necessary"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 64,
+      "question_text": "One of the following statements about aircraft ground movement is correct:",
+      "question_type": "MCQ",
+      "options": [
+        "A taxing aircraft has priority over a vehicle towing an aircraft",
+        "A vehicle towing an aircraft has priority over a taxiing aircraft",
+        "Two airplanes approaching head-on will alter course to the left"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 65,
+      "question_text": "While flying at night another aircraft reports that you are on his 100 degrees relative bearing. In that case you should see his:",
+      "question_type": "MCQ",
+      "options": [
+        "Red navigation light",
+        "Green navigation light",
+        "Green and white navigation lights"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 66,
+      "question_text": "The signal from pilot to marshaller which means - brakes applied - is:",
+      "question_type": "MCQ",
+      "options": [
+        "Fist clenched in front of the face then fingers extended",
+        "Hands crossed in front of the face, palms outwards, then move arms outwards",
+        "Right arm and hand with fingers extended in front of face, then clench fist"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 67,
+      "question_text": "What does a red flashing light from the control tower to an aircraft on the manoeuvring area mean?",
+      "question_type": "MCQ",
+      "options": [
+        "Clear to taxi",
+        "Return to the start point",
+        "Move clear of the landing area"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 68,
+      "question_text": "A series of red flashes sent to an aircraft in flight means:",
+      "question_type": "MCQ",
+      "options": [
+        "Return to the airfield and land",
+        "Airfield is unsafe, do not land",
+        "Notwithstanding any other instructions do not land at the moment"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 69,
+      "question_text": "A white dumbbell with a black bar spaced perpendicularly Indicates",
+      "question_type": "MCQ",
+      "options": [
+        "All aircraft are required to land, takeoff and taxi on taxiways and runways only.",
+        "Are required to land and takeoff on runways only",
+        "A white dumbbell when displayed requires a/c to land and takeoff and taxi on taxiways and runways only."
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 70,
+      "question_text": "A red square panel with a yellow strip along each diagonal, displayed in the signals area of an aerodrome indicates:",
+      "question_type": "MCQ",
+      "options": [
+        "Aerodrome is unfit for aircraft movements, and landing are prohibited",
+        "Exercise special care when landing",
+        "Land on paved surface only"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 71,
+      "question_text": "Two a/c of same category converging...",
+      "question_type": "MCQ",
+      "options": [
+        "Both will turn to right",
+        "Aircraft on right will turn right",
+        "Aircraft on the left will give way"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 72,
+      "question_text": "A signalman will ask the pilot to apply parking brakes by the following signals:",
+      "question_type": "MCQ",
+      "options": [
+        "Raise arm and hand, with fingers extended, horizontally in front of body, then clench fist",
+        "Arms down, palms facing inwards, moving arms from extended position inwards.",
+        "Horizontally moving his hands, fingers extended, palms toward ground"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 73,
+      "question_text": "An aircraft is following a track of $179^{\\circ}$ (M) on a VFR plan. The choice of flight levels available to the pilot are:",
+      "question_type": "MCQ",
+      "options": [
+        "50,70,90,150,170,190,210,230,250,270,290",
+        "55, 75, 95, 115, 135, 155, 175, 195, 215, 235, 255, 275",
+        "50,70,90,110,130,160,180,200,220,240,260,280"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 74,
+      "question_text": "After an aircraft has been intercepted in flight, the intercepted aircraft is rocking its wings. This means:",
+      "question_type": "MCQ",
+      "options": [
+        "Will comply",
+        "NO",
+        "you are not to enter this airspace"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 75,
+      "question_text": "All flights above flight levels are to be cleared IFR Irrespective of weather Conditions",
+      "question_type": "MCQ",
+      "options": [
+        "F 280",
+        "F 150",
+        "F 140"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 76,
+      "question_text": "A flashing intermittent red light from the ground to an aircraft in the air means:",
+      "question_type": "MCQ",
+      "options": [
+        "Continue for another approach",
+        "Go-around",
+        "Aerodrome unsafe, do not land"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 77,
+      "question_text": "When a pilot raises his arms extended palms facing outwards and moves his hands inwards to cross in front of the face this means:",
+      "question_type": "MCQ",
+      "options": [
+        "Remove chocks",
+        "Insert chocks",
+        "Brakes released"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 78,
+      "question_text": "While taxiing, an aircraft receives from the airport controller the following light signal: a series of green flashes. This signal means that the aircraft:",
+      "question_type": "MCQ",
+      "options": [
+        "Must stop",
+        "May continue to taxi towards the take-off area",
+        "Must return to its point of departure"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 79,
+      "question_text": "A black letter \"C\" on a yellow background indicates:",
+      "question_type": "MCQ",
+      "options": [
+        "The location of the control tower.",
+        "The location where visiting pilots should report.",
+        "Rest-room facilities for visiting pilots."
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 80,
+      "question_text": "At an aerodrome special VFR may be authorized when",
+      "question_type": "MCQ",
+      "options": [
+        "Visibility falls below 5 km or cloud ceiling is less than 1500 feet",
+        "Visibility falls below 8 km or cloud ceiling is less than 1500 feet",
+        "Visibility falls below 8 km or cloud ceiling is less than 2500 feet"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 81,
+      "question_text": "A special VFR clearance may be obtained from ATC for the following airspaces:",
+      "question_type": "MCQ",
+      "options": [
+        "CTR, TMA and AWY",
+        "CTR and TMA",
+        "CTR"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 82,
+      "question_text": "If the sustained Mach number/true airspeed at cruising level varies by plus or minus true airspeed or more from the current flight plan, the appropriate air traffic services unit shall be so informed:",
+      "question_type": "MCQ",
+      "options": [
+        "Mach 0.2",
+        "5%",
+        "19 km/h"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 83,
+      "question_text": "On a VFR flight, your magnetic track is $005^{\\circ}$, the magnetic heading $355^{\\circ}$. Which of the following flight level is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "FL 70",
+        "FL 55",
+        "FL 60"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 84,
+      "question_text": "The VMC minima for an airspace classified as \"G\" above 10 000 feet MSL are:",
+      "question_type": "MCQ",
+      "options": [
+        "1500 m horizontally and 1 000 feet vertically from clouds; 8 km visibility.",
+        "1 nautical mile horizontally and 1 000 feet vertically from clouds; 5 km visibility",
+        "1 nautical mile horizontally and 1000 feet vertically from clouds; 8 km visibility"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 85,
+      "question_text": "Which provisions on a VFR-flight in Class E airspace are CORRECT?",
+      "question_type": "MCQ",
+      "options": [
+        "Service provided Traffic Information as far as practical; ATC Clearance: required:",
+        "Service provided: Traffic Information as far as practical; ATC Clearance: not required:",
+        "Service provided: Air Traffic Control Service; ATC Clearance: required;"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 86,
+      "question_text": "If you are flying IFR in IMC conditions and you experience a total communications failure, you should:",
+      "question_type": "MCQ",
+      "options": [
+        "Continue the flight according to flight plan",
+        "Land at the nearest suitable aerodrome and report to ATS",
+        "Try to contact another aircraft for relay"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 87,
+      "question_text": "When flying on an airway on a heading of $255^{\\circ}$ (M) the correct flight level will be:",
+      "question_type": "MCQ",
+      "options": [
+        "Usually EVEN",
+        "Usually ODD",
+        "Always EVEN"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 88,
+      "question_text": "You are outside controlled airspace on a VFR flight above 3,000ft. Your distance from the cloud should be:",
+      "question_type": "MCQ",
+      "options": [
+        "Clear of cloud and in sight of the surface",
+        "1,000 ft vertically and 1.5 km horizontally",
+        "2,000 ft and 3 NM horizontally"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 89,
+      "question_text": "In areas where a separation minimum of 1000 ft. is applied up to FL 410, authorisation for VFR flight shall not be granted above which flight level?",
+      "question_type": "MCQ",
+      "options": [
+        "FL 200",
+        "FL 290",
+        "FL 240"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 90,
+      "question_text": "When an aircraft is operating in class Fairspace below 900 m amsl the minimum horizontal distance from cloud for VFR flight is:",
+      "question_type": "MCQ",
+      "options": [
+        "5 km",
+        "1000 ft",
+        "Clear of cloud and in sight of the surface"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 91,
+      "question_text": "SVFR may be authorized when the ground visibility is not less than:",
+      "question_type": "MCQ",
+      "options": [
+        "1500 m",
+        "1800 m",
+        "1000 m"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 92,
+      "question_text": "Which of the following aerodrome ground signals displayed in the signals area indicates that glider flying is in progress?",
+      "question_type": "MCQ",
+      "options": [
+        "A white double cross",
+        "A white dumb-bell",
+        "A black letter - Con a yellow background"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 93,
+      "question_text": "In areas where a vertical separation minimum (VSM) of 300 m (1000 ft) is applied between FL 290 and FL 410 inclusive an aircraft on a magnetic track of $350^{\\circ}$ would be expected to fly at:",
+      "question_type": "MCQ",
+      "options": [
+        "FL 410",
+        "FL 405",
+        "FL 400"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 94,
+      "question_text": "Above flight level FL 290 (non-RVSM) the vertical flight separation between aircraft on the same direction is:",
+      "question_type": "MCQ",
+      "options": [
+        "3000 ft",
+        "4000 ft",
+        "1500 ft"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 95,
+      "question_text": "Aircraft shall not be flown in formation except:",
+      "question_type": "MCQ",
+      "options": [
+        "Formation flying is not permitted in India for civil aircraft.",
+        "By pre-arrangement among the pilots taking part",
+        "By pre-arrangement among the PICs taking part"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 96,
+      "question_text": "If the ground visibility is reported 1000 m, can a special VFR flight take off from an aerodrome in a control zone?",
+      "question_type": "MCQ",
+      "options": [
+        "Yes, provided the cloud ceiling is higher than 500 ft",
+        "No",
+        "Yes, provided the pilot remains in visual contact with the ground"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 97,
+      "question_text": "A VFR flight when flying inside an ATS airspace classified as C has to maintain the following minima of flight visibility and distance from clouds",
+      "question_type": "MCQ",
+      "options": [
+        "5km at or above 3050m (10000ft) AMSL 1500m horizontal and 300m vertical from clouds",
+        "8km at or above 3050m (10000ft) AMSL, and clear of clouds",
+        "8km at or above 3050m (10000ft) AMSL 1500m horizontal and 300m vertical from clouds"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 98,
+      "question_text": "When, in airspace where VFR are permitted, the pilot in command of an IFR flight wishes to continue his flight in accordance with visual flight rules, until the destination is reached:\n1 He must inform the control unit (\"cancel IFR\")\n2 He must request and obtain clearance\n3 He may request his IFR flightplan to be changed to a VFR flightplan\n4 The flightplan automatically becomes a VFR flightplan\nThe combination of correct statements is:",
+      "question_type": "MCQ",
+      "options": [
+        "2,4",
+        "1,3",
+        "1,4"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 99,
+      "question_text": "In the event of a delay of a controlled flight, the submitted flightplan should be amended or cancelled and a new flightplan submitted when the delay is:",
+      "question_type": "MCQ",
+      "options": [
+        "30 minutes in excess of the estimated time of departure",
+        "30 minutes in excess of the estimated time off blocks",
+        "60 minutes in excess of the estimated time of departure"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 100,
+      "question_text": "Changing of flight rules from IFR to VFR is possible",
+      "question_type": "MCQ",
+      "options": [
+        "If the commander so requests",
+        "If instructed by ATC so long as VMC is forecasted during the next 30 minutes",
+        "Only when leaving controlled airspace"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 101,
+      "question_text": "ADC Validity Period is:",
+      "question_type": "MCQ",
+      "options": [
+        "(-) 15 minutes to (+) 45 minutes of EOBT in RPL/FPL",
+        "(+) 60 minutes of EOBT in RPL/FPL",
+        "(-) 15 minutes to (+) 30 minutes of EOBT in RPL/FPL"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 102,
+      "question_text": "Flight Plan is to be filed atleast?",
+      "question_type": "MCQ",
+      "options": [
+        "One hour before EOBT",
+        "Three hours before EOBT",
+        "One hour before TOBT"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 103,
+      "question_text": "In the event of a proposed delay of or more to the departure time for a flight plan when a flight plan has been previously filed, the Pilot-in-Command or his representative will be required to notify ATC of the revised ETD",
+      "question_type": "MCQ",
+      "options": [
+        "60 minutes",
+        "30 minutes",
+        "15 minutes"
+      ],
+      "solution": "C",
+      "answer": "C"
+    }
+  ]
+}
+

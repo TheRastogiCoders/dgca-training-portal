@@ -1,0 +1,283 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": 15,
+  "chapter_title": "Personnel Licencing",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "An applicant for an Airline Transport Pilot Licence shall have completed in aeroplanes not less than:",
+      "question_type": "MCQ",
+      "options": [
+        "100 hours of instrument time, of which not more than 50 hours may be instrument ground time",
+        "100 hours of instrument time, of which not more than 30 hours may be instrument ground time",
+        "150 hours of instrument time, of which not more than 75 hours may be instrument ground time"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 2,
+      "question_text": "The holder of a pilot's licence should inform the Authority of any illness which they are suffering which involves incapacity to undertake those functions to which the licence relates throughout a period of a certain number of days or more. The number of days is:",
+      "question_type": "MCQ",
+      "options": [
+        "15",
+        "20",
+        "30"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 3,
+      "question_text": "The International Civil Aviation Convention Annex containing standards and recommended practices for Personnel Licensing is:",
+      "question_type": "MCQ",
+      "options": [
+        "Annex 1",
+        "Annex 2",
+        "Annex 11"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 4,
+      "question_text": "The holder of a commercial pilot licence, when acting as copilot of an aircraft required to be operated with a copilot, shall be entitled to be credit with not more than:",
+      "question_type": "MCQ",
+      "options": [
+        "40% of the copilot flight time towards the total flight time required for a higher grade of a pilot licence",
+        "50% of the copilot flight time towards the total flight time required for renewal of a commercial pilot licence",
+        "100 hours of flying time required for a higher grade of a pilot licence"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 5,
+      "question_text": "The minimum age of obtaining a PPL is:",
+      "question_type": "MCQ",
+      "options": [
+        "18 years",
+        "17 years",
+        "21 years"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 6,
+      "question_text": "The privileges of the holder of a Commercial Pilot Licence-aeroplane shall be:",
+      "question_type": "MCQ",
+      "options": [
+        "to act as pilot-in-command in any aeroplane engaged in commercial air transportation",
+        "to act as pilot-in-command in any aeroplane certificate for single pilot operation other than in commercial air transportation",
+        "to act as Pilot-in-Command of any aeroplane having an all-up-weight not exceeding five thousand seven hundred Kgs. and which is entered in the aircraft rating of his licence"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 7,
+      "question_text": "The duration of the period of currency of a medical assessment shall begin on the date:",
+      "question_type": "MCQ",
+      "options": [
+        "the license is issued or renewed",
+        "reckoned from the date of medical examination",
+        "the license is delivered to the pilot"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 8,
+      "question_text": "Type ratings shall be established",
+      "question_type": "MCQ",
+      "options": [
+        "for any type of aircraft whenever considered necessary by the authority",
+        "all the answers are correct",
+        "only aircraft certificated for operation with a minimum crew of at least two pilots"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 9,
+      "question_text": "The holder of a commercial pilot licence when as Co-Pilot performing under the supervision of a pilot who fulfills the flying experience requirements of a check pilot, the duties and functions of a pilot-in-command shall be entitled to be credited:",
+      "question_type": "MCQ",
+      "options": [
+        "in full with his flight time but not more than 300 hours towards the total time required for a higher grade of pilot licence",
+        "50% of the flight time towards the total time required for higher grade of pilot licence in accordance with the requirements of the licensing authority",
+        "in full with his flight time towards the total time required for higher grade of pilot licence"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 10,
+      "question_text": "An applicant holding a private or commercial pilot license aeroplane for the issue of an instrument rating, shall have completed....hours of cross-country flight time as pilot-in-command of aircraft in categories acceptable to the licensing Authority",
+      "question_type": "MCQ",
+      "options": [
+        "150 hours of flight time and 100 hours as pilot-in-command",
+        "200 hours of flight time and 70 hours as pilot-in-command",
+        "200 hours of flight time and 100 hours as pilot-in-command"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 11,
+      "question_text": "An applicant for an Airline Transport Pilot Licence shall have completed in aeroplanes not less than:",
+      "question_type": "MCQ",
+      "options": [
+        "75 hours of night flight as pilot-in-command or as copilot",
+        "100 hours of night flight as pilot-in-command or as copilot",
+        "100 hours of night flight only as pilot-in-command"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 12,
+      "question_text": "For Commercial Pilot Licence aeroplane the applicant shall have completed in aeroplanes not less than..... if the privileges of the licence are to be expected at:",
+      "question_type": "MCQ",
+      "options": [
+        "5 hours of night flight time including 3 take-offs and 3 landings as pilot-in-command",
+        "5 hours of night flight time including 5 take-offs and 5 landings as pilot-in-command",
+        "5 hours of night flight time Including 10 take-offs and 10 landings as pilot-in-command"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 13,
+      "question_text": "An applicant for a Commercial Pilot License aeroplane shall have completed in aeroplanes not less than:",
+      "question_type": "MCQ",
+      "options": [
+        "150 hours of flight time and 100 hours as pilot-in-command",
+        "200 hours of flight time and 70 hours as pilot-in-command",
+        "200 hours of flight time and 100 hours as pilot-in-command"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 14,
+      "question_text": "An applicant for a Commercial Pilot Licence shall have completed in aeroplanes not less than:",
+      "question_type": "MCQ",
+      "options": [
+        "20 hours of instrument instruction time of which not more than 10 hours may be instrument ground time",
+        "20 hours of instrument instruction time of which not more than 5 hours may be instrument ground time",
+        "not less than ten hours of instrument time of which not more than five hours may be on an approved simulator"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 15,
+      "question_text": "When the holders of aircraft transport pilot licenses aeroplane and helicopter have passed their 40th birthday the medical examination shall be reduced to:",
+      "question_type": "MCQ",
+      "options": [
+        "6 months for single crew commercial operations",
+        "6 months for all commercial operations",
+        "6 months for all operations"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 16,
+      "question_text": "The applicant to exercise the functions of an Instrumental Flight Rating in aeroplanes shall prove, according to ANNEX 1, PERSONNEL LICENSING, his/her capability to pilot such aircraft only by instrumental rules and an engine",
+      "question_type": "MCQ",
+      "options": [
+        "Multi-engine/ inoperative or simulated inoperative",
+        "Land/ inactive",
+        "Amphibious/ inactive or simulated inactive"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 17,
+      "question_text": "The applicant for an Airline Transport Pilot License shall have completed in aeroplanes not less than.....hours of cross-country flight time, including not less than.... hours of flight time by night as Pilot-in-Command or as Co-Pilot performing, under the supervision of a pilot who fulfills the flying experience requirements of a check pilot, the duties and functions of a pilot-in-command.",
+      "question_type": "MCQ",
+      "options": [
+        "200 hours and 50 hours",
+        "250 hours and 50 hours",
+        "200 hours and 75 hours"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 18,
+      "question_text": "An applicant for a Commercial Pilot Licence-aeroplane shall have completed not less than....hours of cross country flight time as pilot-in-command including a cross country flight totaling not less than.... km(....NM), in the course of which full stop landings at two different aerodromes shall be made. The hours and distance referred are:",
+      "question_type": "MCQ",
+      "options": [
+        "15 hours and 540km (300NM)",
+        "20 hours and 540km (300NM)",
+        "10 hours and 270km (150NM)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 19,
+      "question_text": "An applicant for a Commercial Pilot Licence shall hold a current",
+      "question_type": "MCQ",
+      "options": [
+        "class 1 medical assessment",
+        "class 3 medical assessment",
+        "class medical assessment as prescribed by the state issuing the licence"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 20,
+      "question_text": "The age of an applicant for a Commercial Pilot Licence shall not be less than:",
+      "question_type": "MCQ",
+      "options": [
+        "17 years of age",
+        "18 years of age",
+        "16 years of age"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 21,
+      "question_text": "To be able to execute a public transport flight, the minimum and maximum age (with ATPL) is:",
+      "question_type": "MCQ",
+      "options": [
+        "21 and 65 years",
+        "16 and 60 years",
+        "18 and 60 years"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 22,
+      "question_text": "Which of the following Annexes to the Chicago convention contains minimum specifications for a crew licence to have international validity?",
+      "question_type": "MCQ",
+      "options": [
+        "Annex 1",
+        "Annex 3",
+        "Annex 4"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 23,
+      "question_text": "An applicant for the licences shall have the ability to speak and understand the English language used for radiotelepohony communications to the level of proficiency specified by the Director General.",
+      "question_type": "MCQ",
+      "options": [
+        "PPL, CPL, ATPL, Fit Navigator and Fit Engg",
+        "PPL, CPL, ATPL only",
+        "PPL only"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 24,
+      "question_text": "The privileges of the holder of a Private Pilot's Licence shall be to act as",
+      "question_type": "MCQ",
+      "options": [
+        "Pilot-in-command or as Co-pilot of any aeroplane provided no passengers are carried",
+        "Pilot-in-command or as Co-pilot of any aeroplane and carry passengers therein with out remunerations",
+        "Pilot-in-command or as Co-pilot of any aeroplane employed on aerial work for remuneration"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 25,
+      "question_text": "If the age of a CPL holder flying a single pilot helicopter for charters is more than 40 years the validity of medical is for",
+      "question_type": "MCQ",
+      "options": [
+        "6 months.",
+        "12 months.",
+        "12 months if he is not carrying VIPs."
+      ],
+      "answer": "A"
+    }
+  ]
+}
+

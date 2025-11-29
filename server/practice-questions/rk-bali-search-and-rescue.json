@@ -1,0 +1,212 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": "11",
+  "chapter_title": "search and rescue",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "The units responsible for promoting efficient organization of search and rescue service are:",
+      "question_type": "MCQ",
+      "options": [
+        "Area control centre, flight information centre and rescue coordination centre",
+        "Rescue coordination centre and rescue sub-centres",
+        "Alerting centre and rescue coordination centre"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 2,
+      "question_text": "Three aircraft, (1), (2) and (3) arrive successively at ten minute intervals, overhead the scene of a recent aircraft accident.\n- aircraft (1) is unable to establish contact with the Search and Rescue Centre\n- aircraft (2) is able to contact the Search and Rescue Centre\n- aircraft (3) is a Search and Rescue helicopter\nThe command of the situation is the responsibility of",
+      "question_type": "MCQ",
+      "options": [
+        "(1), then by mutual consent (2) and then (3)",
+        "(1), and then by mutual consent to (3)",
+        "(1), then by mutual consent (2) until the completion of operations"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the meaning of the symbol \"V\" in the ground air visual signal code for use by survivors?",
+      "question_type": "MCQ",
+      "options": [
+        "Landing here impossible",
+        "Require assistance",
+        "Require medical assistance"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the meaning of the symbol \"LLL\" in the ground air visual signal code for use by rescue units?",
+      "question_type": "MCQ",
+      "options": [
+        "Operation completed",
+        "We are returning to base",
+        "We have found all personnel"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Which of the following is NOT an international distress frequency?",
+      "question_type": "MCQ",
+      "options": [
+        "243.0MHz",
+        "2182KHz",
+        "2430KHz"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 6,
+      "question_text": "An aircraft is flying over a mountainous region in which a search is being carried out to find the survivors of an aircraft accident. The pilot sees a ground signal in the form of an \"X\". This indicates:",
+      "question_type": "MCQ",
+      "options": [
+        "\"All occupants alive\"",
+        "\"Need mechanical assistance\"",
+        "\"Need medical assistance\""
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 7,
+      "question_text": "At night an aircraft observes a luminous signal requesting help. To indicate that he has received these ground signals, the pilot must:",
+      "question_type": "MCQ",
+      "options": [
+        "Make at least one complete tum over the group of people in difficulty",
+        "Transmit, by luminous Morse signal, a series of the letter \"R\" using his navigational lights",
+        "Switch his landing lights on and off twice or, if he is not so equipped, his navigation lights twice"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 8,
+      "question_text": "The color identification of the contents of droppable containers and packages containing survival equipment should take the form of coloured streamers according to the following code:",
+      "question_type": "MCQ",
+      "options": [
+        "Red for medical supplies and first aid equipment",
+        "Black for food and water",
+        "Blue for blankets and protective clothing"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 9,
+      "question_text": "COSPAS-SARSAT is:",
+      "question_type": "MCQ",
+      "options": [
+        "A communication system linking all aircraft",
+        "A space systern for the search of vessels in distress",
+        "A SAR satellite-aided tracking system"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 10,
+      "question_text": "You are flying in Mumbai FIR when you intercept a distress call. You record the message and tell Mumbai FIC. The radio operator at Mumbai tells you to standby. What should you consider doing whilst awaiting instructions?",
+      "question_type": "MCQ",
+      "options": [
+        "Make a general call on 121.5 asking other airplanes to assist",
+        "Descend to low level and carry out a surface search for ships",
+        "Proceed to the position given in the distress message"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 11,
+      "question_text": "Search and Rescue services within the territory of ICAO contracting states are provided:",
+      "question_type": "MCQ",
+      "options": [
+        "On a 24 hour basis",
+        "When the authority of the contracting state decides to do so",
+        "From sunset to sunrise"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 12,
+      "question_text": "Contracting States shall establish a rescue co-ordination centre:",
+      "question_type": "MCQ",
+      "options": [
+        "At every ATS facility.",
+        "In each search and rescue region.",
+        "If they are adjacent to the sea."
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 13,
+      "question_text": "A Rescue Unit is:",
+      "question_type": "MCQ",
+      "options": [
+        "A unit assisting a RCC in SAR duties.",
+        "A unit composed of trained personnel and provided with equipment suitable for the expeditious conduct of SAR.",
+        "A unit responsible for SAR service in co-operation with a RCC."
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 14,
+      "question_text": "Which of the following statements regarding Alerting service is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "Aircraft in the vicinity of an aircraft known or believed to be the subject of unlawful interference, shall be informed about this;",
+        "The Alert phase is established when no communication has been received from an aircraft within a period of thirty minutes after the time a communication should have been received;",
+        "Alerting Service and Flight Information Service are often provided by the same ATS unit"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 15,
+      "question_text": "Whenever a distress signal and/or message or equivalent transmission is intercepted by the PIC of an aircraft, he shall:",
+      "question_type": "MCQ",
+      "options": [
+        "Record the position of the craft in distress if given and if possible take a bearing on the transmission",
+        "If possible take a bearing on the transmission",
+        "Record the position of the craft in distress if given"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 16,
+      "question_text": "What is the meaning of SAR signal \"N\" when used by survivors on the ground:",
+      "question_type": "MCQ",
+      "options": [
+        "Negative",
+        "Require medical assistance",
+        "Require assistance"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 17,
+      "question_text": "Survival equipment, dropped by SAR and containing food and water will be packed in containers and indicated by streamers of following colour:",
+      "question_type": "MCQ",
+      "options": [
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "solution": "B",
+      "answer": "B"
+    }
+  ]
+}
+

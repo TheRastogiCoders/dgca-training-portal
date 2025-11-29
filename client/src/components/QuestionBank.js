@@ -2,7 +2,6 @@ import React, { useMemo, useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
-import Modal from './ui/Modal';
 import usePersistentState from '../hooks/usePersistentState';
 import { slugifyChapterName, resolveChapterSlug } from '../utils/chapterSlug';
 import debugLog from '../utils/debug';
@@ -33,7 +32,6 @@ const QuestionBank = () => {
   const navigate = useNavigate();
   const [selectedSubjectId, setSelectedSubjectId] = usePersistentState('questionBank:selectedSubjectId', null);
   const [selectedBookKey, setSelectedBookKey] = usePersistentState('questionBank:selectedBookKey', null);
-  const [showBookComingSoonModal, setShowBookComingSoonModal] = useState(false);
   const subBooksRef = useRef(null);
   const overviewHighlights = [
     {
@@ -177,24 +175,25 @@ const QuestionBank = () => {
       icon: "🛫",
       color: "from-indigo-500 to-blue-600",
       slug: "principles-of-flight-2014",
-      totalQuestions: 244,
+      totalQuestions: 347,
       difficulty: "Medium",
       chapters: [
-        { id: 1, name: "The Atmosphere", questions: 21, difficulty: "Easy" },
-        { id: 2, name: "Basic Aerodynamic Theory", questions: 9, difficulty: "Medium" },
-        { id: 3, name: "Subsonic Airflow", questions: 20, difficulty: "Medium" },
-        { id: 4, name: "Lift", questions: 36, difficulty: "Medium" },
-        { id: 5, name: "Drag", questions: 5, difficulty: "Medium" },
-        { id: 6, name: "Stalling", questions: 37, difficulty: "Medium" },
-        { id: 7, name: "High Lift Devices", questions: 0, difficulty: "Medium" },
-        { id: 8, name: "Airframe Contamination", questions: 7, difficulty: "Easy" },
-        { id: 9, name: "Stability and Control", questions: 31, difficulty: "Hard" },
-        { id: 10, name: "Controls", questions: 35, difficulty: "Easy" },
-        { id: 11, name: "Flight Mechanics", questions: 0, difficulty: "Hard" },
-        { id: 12, name: "High Speed Flight", questions: 27, difficulty: "Hard" },
-        { id: 13, name: "Limitations", questions: 13, difficulty: "Medium" },
-        { id: 14, name: "Windshear", questions: 17, difficulty: "Medium" },
-        { id: 15, name: "Propellers", questions: 17, difficulty: "Medium" }
+        { id: 1, name: "Intro and Definitions", questions: 26, difficulty: "Easy" },
+        { id: 2, name: "The Atmosphere", questions: 21, difficulty: "Easy" },
+        { id: 3, name: "Basic Aerodynamic Theory", questions: 9, difficulty: "Medium" },
+        { id: 4, name: "Subsonic Airflow", questions: 20, difficulty: "Medium" },
+        { id: 5, name: "Lift", questions: 36, difficulty: "Medium" },
+        { id: 6, name: "Drag", questions: 32, difficulty: "Medium" },
+        { id: 7, name: "Stalling", questions: 37, difficulty: "Medium" },
+        { id: 8, name: "High Lift Devices", questions: 14, difficulty: "Medium" },
+        { id: 9, name: "Airframe Contamination", questions: 7, difficulty: "Easy" },
+        { id: 10, name: "Stability and Control", questions: 31, difficulty: "Hard" },
+        { id: 11, name: "Controls", questions: 35, difficulty: "Easy" },
+        { id: 12, name: "Flight Mechanics", questions: 36, difficulty: "Hard" },
+        { id: 13, name: "High Speed Flight", questions: 27, difficulty: "Hard" },
+        { id: 14, name: "Limitations", questions: 13, difficulty: "Medium" },
+        { id: 15, name: "Windshear", questions: 17, difficulty: "Medium" },
+        { id: 16, name: "Propellers", questions: 17, difficulty: "Medium" }
       ]
     },
     {
@@ -921,9 +920,9 @@ const technicalSpecificBooks = [
   };
 
   const handleBookClick = (book) => {
-    // Check if RK Bali is clicked
-    if (book.title === 'RK Bali') {
-      setShowBookComingSoonModal(true);
+    // Navigate RK Bali to chapters page
+    if (book.title === 'RK Bali' && selectedSubject?.title === 'Air Regulations') {
+      navigate(`/questions/air-regulations/${book.slug}`);
       return;
     }
     setSelectedBookKey(book.slug);
@@ -1307,37 +1306,6 @@ const technicalSpecificBooks = [
         </main>
       </div>
 
-      {/* RK Bali Coming Soon Modal */}
-      <Modal
-        open={showBookComingSoonModal}
-        onClose={() => setShowBookComingSoonModal(false)}
-        title="Coming Soon"
-        footer={
-          <button
-            onClick={() => setShowBookComingSoonModal(false)}
-            className="px-6 py-2 bg-gradient-to-r from-emerald-500 to-green-600 text-white rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-105 font-medium"
-          >
-            OK, I'll Select Another Book
-          </button>
-        }
-      >
-        <div className="py-4">
-          <div className="text-center mb-4">
-            <div className="w-16 h-16 bg-gradient-to-r from-emerald-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-2">RK Bali Book Coming Soon</h3>
-          </div>
-          <p className="text-gray-700 text-center mb-4">
-            The RK Bali book is currently under development and will be available soon.
-          </p>
-          <p className="text-gray-600 text-center text-sm">
-            Please select another book to continue your practice.
-          </p>
-        </div>
-      </Modal>
     </div>
   );
 };

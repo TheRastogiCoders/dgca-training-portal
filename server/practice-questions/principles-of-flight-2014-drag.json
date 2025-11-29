@@ -4,14 +4,14 @@
     "title": "Principles of Flight 2014"
   },
   "chapter": {
-    "number": 5,
+    "number": 6,
     "slug": "drag",
     "title": "Drag"
   },
   "questions": [
     {
-      "id": "pof2014-5-1",
-      "question": "What is the effect on total drag of an aircraft if the airspeed decreases in level flight below that speed for maximum L/D?",
+      "id": "pof2014-6-1",
+      "question": "What is the effect on total drag of an aircraft if the airspeed decreases in level flight below that speed for maximum $L/D$?",
       "options": [
         "Drag increases because of increased induced drag.",
         "Drag decreases because of lower induced drag.",
@@ -19,10 +19,10 @@
         "Drag decreases because of lower parasite drag."
       ],
       "answer": "a",
-      "explanation": "Below best L/D speed the wing must produce more lift coefficient, raising induced drag and total drag."
+      "explanation": ""
     },
     {
-      "id": "pof2014-5-2",
+      "id": "pof2014-6-2",
       "question": "By changing the angle of attack of a wing, the pilot can control the aeroplane's:",
       "options": [
         "lift and airspeed, but not drag.",
@@ -30,11 +30,11 @@
         "lift, airspeed, and drag.",
         "lift and drag, but not airspeed."
       ],
-      "answer": "c",
-      "explanation": "Angle of attack adjustments simultaneously influence lift, associated drag, and consequently the airspeed needed to balance thrust."
+      "answer": "d",
+      "explanation": ""
     },
     {
-      "id": "pof2014-5-3",
+      "id": "pof2014-6-3",
       "question": "What is the relationship between induced and parasite drag when the gross weight is increased?",
       "options": [
         "Parasite drag increases more than induced drag.",
@@ -43,10 +43,10 @@
         "Both parasite and induced drag are equally decreased."
       ],
       "answer": "b",
-      "explanation": "A heavier aircraft must generate more lift, raising angle of attack and induced drag significantly while parasite drag changes relatively little."
+      "explanation": ""
     },
     {
-      "id": "pof2014-5-4",
+      "id": "pof2014-6-4",
       "question": "In theory, if the airspeed of an aeroplane is doubled while in level flight, parasite drag will become:",
       "options": [
         "twice as great.",
@@ -55,20 +55,343 @@
         "one quarter as much."
       ],
       "answer": "c",
-      "explanation": "Parasite drag varies with the square of speed; doubling speed multiplies parasite drag by four."
+      "explanation": ""
     },
     {
-      "id": "pof2014-5-5",
+      "id": "pof2014-6-5",
       "question": "As airspeed decreases in level flight below that speed for maximum lift/drag ratio, total drag of an aeroplane:",
       "options": [
-        "increases because induced drag rises rapidly.",
-        "decreases because parasite drag continues to reduce.",
-        "remains constant because the reduction in parasite drag equals the increase in induced drag.",
-        "decreases only if thrust is reduced."
+        "decreases because of lower parasite drag.",
+        "increases because of increased parasite drag.",
+        "increases because of increased induced drag.",
+        "decreases because of lower induced drag."
+      ],
+      "answer": "c",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-6",
+      "question": "(Refer to annex 'A') At the airspeed represented by point B, in steady flight, the aeroplane will:",
+      "options": [
+        "have its maximum $L/D$ ratio.",
+        "have its minimum $L/D$ ratio.",
+        "be developing its maximum coefficient of lift.",
+        "be developing its minimum coefficient of drag."
       ],
       "answer": "a",
-      "explanation": "Moving left of best L/D causes induced drag to dominate and total drag climbs even though parasite drag falls."
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-7",
+      "question": "Which statement is true relative to changing angle of attack?",
+      "options": [
+        "A decrease in angle of attack will increase pressure below the wing, and decrease drag.",
+        "An increase in angle of attack will decrease pressure below the wing, and increase drag.",
+        "An increase in angle of attack will increase drag.",
+        "A decrease in angle of attack will decrease pressure below the wing and increase drag."
+      ],
+      "answer": "c",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-8",
+      "question": "On a wing, the force of lift acts perpendicular to, and the force of drag acts parallel to the:",
+      "options": [
+        "flight path.",
+        "longitudinal axis.",
+        "chord line.",
+        "longitudinal datum."
+      ],
+      "answer": "a",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-9",
+      "question": "That portion of the aircraft's total drag created by the production of lift is called:",
+      "options": [
+        "induced drag, and is greatly affected by changes in airspeed.",
+        "induced drag, and is not affected by changes in airspeed.",
+        "parasite drag, and is greatly affected by changes in airspeed.",
+        "parasite drag, which is inversely proportional to the square of the airspeed."
+      ],
+      "answer": "a",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-10",
+      "question": "The best $L/D$ ratio of an aircraft occurs when parasite drag is:",
+      "options": [
+        "a minimum.",
+        "less than induced drag.",
+        "greater than induced drag.",
+        "equal to induced drag."
+      ],
+      "answer": "d",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-11",
+      "question": "An aircraft has a $L/D$ ratio of 15:1 at 50 kt in calm air. What would the $L/D$ ratio be with a direct headwind of 25 kt?",
+      "options": [
+        "30:1",
+        "15:1",
+        "25:1",
+        "7.5:1"
+      ],
+      "answer": "b",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-12",
+      "question": "Which is true regarding aerodynamic drag?",
+      "options": [
+        "Induced drag is a by-product of lift and is greatly affected by changes in airspeed.",
+        "All aerodynamic drag is created entirely by the production of lift.",
+        "Induced drag is created entirely by air resistance.",
+        "Parasite drag is a by-product of lift."
+      ],
+      "answer": "a",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-13",
+      "question": "At a given True Airspeed, what effect will increased air density have on the lift and drag of an aircraft?",
+      "options": [
+        "Lift will increase but drag will decrease.",
+        "Lift and drag will increase.",
+        "Lift and drag will decrease.",
+        "Lift and drag will remain the same."
+      ],
+      "answer": "b",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-14",
+      "question": "If the Indicated Airspeed of an aircraft is increased from 50 kt to 100 kt, parasite drag will be:",
+      "options": [
+        "four times greater.",
+        "six times greater.",
+        "two times greater.",
+        "one quarter as much."
+      ],
+      "answer": "a",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-15",
+      "question": "If the Indicated Airspeed of an aircraft is decreased from 100 kt to 50 kt, induced drag will be:",
+      "options": [
+        "two times greater.",
+        "four times greater.",
+        "half as much.",
+        "one quarter as much."
+      ],
+      "answer": "b",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-16",
+      "question": "The best $L/D$ ratio of an aircraft in a given configuration is a value that:",
+      "options": [
+        "varies with Indicated Airspeed.",
+        "varies depending upon the weight being carried.",
+        "varies with air density.",
+        "remains constant regardless of Indicated Airspeed changes."
+      ],
+      "answer": "b",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-17",
+      "question": "The tendency of an aircraft to develop forces which restore it to its original condition, when disturbed from a condition of steady flight, is known as:",
+      "options": [
+        "manoeuvrability.",
+        "controllability.",
+        "stability.",
+        "instability."
+      ],
+      "answer": "c",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-18",
+      "question": "As Indicated Airspeed increases in level flight, the total drag of an aircraft becomes greater than the total drag produced at the maximum lift/drag speed because of the:",
+      "options": [
+        "decrease in induced drag only.",
+        "increase in induced drag.",
+        "increase in parasite drag.",
+        "decrease in parasite drag only."
+      ],
+      "answer": "c",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-19",
+      "question": "The resistance, or skin friction, due to the viscosity of the air as it passes along the surface of a wing is a type of:",
+      "options": [
+        "induced drag.",
+        "form drag.",
+        "parasite drag.",
+        "interference drag."
+      ],
+      "answer": "c",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-20",
+      "question": "Which relationship is correct when comparing drag and airspeed?",
+      "options": [
+        "Parasite drag varies inversely as the square of the airspeed.",
+        "Induced drag increases as the square of the airspeed.",
+        "Parasite drag increases as the square of the lift coefficient divided by the aspect ratio.",
+        "Induced drag varies inversely as the square of the airspeed."
+      ],
+      "answer": "d",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-21",
+      "question": "If the same angle of attack is maintained in ground effect as when out of ground effect, lift will:",
+      "options": [
+        "decrease, and parasite drag will decrease.",
+        "increase, and induced drag will decrease.",
+        "decrease, and parasite drag will increase.",
+        "increase and induced drag will increase."
+      ],
+      "answer": "b",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-22",
+      "question": "Which statement is true regarding aeroplane flight at L/Dmax?",
+      "options": [
+        "Any angle of attack other than that for L/Dmax increases parasite drag.",
+        "Any angle of attack other than that for L/Dmax increases the lift/drag ratio.",
+        "Any angle of attack other than that for L/Dmax increases total drag for a given aeroplane's lift.",
+        "Any angle of attack other than that for L/Dmax increases the lift and reduces the drag."
+      ],
+      "answer": "c",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-23",
+      "question": "Aspect ratio of a wing is defined as the ratio of the:",
+      "options": [
+        "square of the chord to the wingspan.",
+        "area squared to the chord.",
+        "wingspan to the wing root.",
+        "wingspan to the mean chord."
+      ],
+      "answer": "d",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-24",
+      "question": "A wing with a very high aspect ratio (in comparison with a low aspect ratio wing) will have:",
+      "options": [
+        "increased drag at high angles of attack.",
+        "poor control qualities at low airspeeds.",
+        "a lower stall speed.",
+        "reduced bending moment on its attachment points."
+      ],
+      "answer": "a",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-25",
+      "question": "At a constant velocity in airflow, a high aspect ratio wing will have (in comparison with a low aspect ratio wing):",
+      "options": [
+        "increased drag, especially at a low angle of attack.",
+        "decreased drag, especially at a high angle of attack.",
+        "increased drag, especially at a high angle of attack.",
+        "decreased drag, especially at low angles of attack."
+      ],
+      "answer": "b",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-26",
+      "question": "(Refer to annex 'B') Which aircraft has the highest aspect ratio?",
+      "options": [
+        "3.",
+        "4.",
+        "2.",
+        "1."
+      ],
+      "answer": "c",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-27",
+      "question": "(Refer to annex 'B') Which aircraft has the lowest aspect ratio?",
+      "options": [
+        "4.",
+        "2.",
+        "3.",
+        "1."
+      ],
+      "answer": "d",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-28",
+      "question": "(Refer to annex 'B') Consider only aspect ratio (other factors remain constant). Which aircraft will generate greatest lift?",
+      "options": [
+        "1.",
+        "2.",
+        "3.",
+        "4."
+      ],
+      "answer": "b",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-29",
+      "question": "(Refer to annex 'B') Consider only aspect ratio (other factors remain constant). Which aircraft will generate greatest drag?",
+      "options": [
+        "1.",
+        "4.",
+        "3.",
+        "2."
+      ],
+      "answer": "a",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-30",
+      "question": "What happens to total drag when accelerating from $C_{LMAX}$ to maximum speed?",
+      "options": [
+        "Increases.",
+        "Increases then decreases.",
+        "Decreases.",
+        "Decreases then increases."
+      ],
+      "answer": "d",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-31",
+      "question": "(Refer to annex 'C'), the whole aircraft $C_{L}$ against $C_{D}$ polar. Point 'B' represents:\n1. Best Lift/Drag ratio.\n2. The critical angle of attack.\n3. Recommended approach speed.\n4. Never exceed speed $(V_{NE})$.",
+      "options": [
+        "1 and 2.",
+        "1 only.",
+        "2 and 3.",
+        "4 only."
+      ],
+      "answer": "b",
+      "explanation": ""
+    },
+    {
+      "id": "pof2014-6-32",
+      "question": "If the Indicated Airspeed of an aircraft in level flight is increased from 100 kt to 200 kt, by what factor will (i) TAS (ii) $C_{Di}$ (iii) $D_{i}$ change?",
+      "options": [
+        "(i) 2 (ii) $1/4$ (iii) $1/16$",
+        "(i) 0 (ii) 4 (iii) 16",
+        "(i) 4 (ii) $1/16$ (iii) $1/4$",
+        "(i) 2 (ii) $1/16$ (iii) $1/4$"
+      ],
+      "answer": "d",
+      "explanation": ""
     }
   ]
 }
-

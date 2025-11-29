@@ -1,27 +1,83 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import Header from './Header';
-import Stepper from './ui/Stepper';
+import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
-import Button from './ui/Button';
-import { useAuth } from '../context/AuthContext';
-import LoginModal from './LoginModal';
+import { slugifyChapterName, resolveChapterSlug } from '../utils/chapterSlug';
 import debugLog from '../utils/debug';
-
-const normalize = (str) => {
-  if (!str) return '';
-  // Handle special cases like "Directional Gyro Indicator (DGI)" -> "directional-gyro-indicator-dgi"
-  return str
-    .toLowerCase()
-    .replace(/\(([^)]+)\)/g, (match, acronym) => `-${acronym.toLowerCase()}`) // Extract acronyms from parentheses
-    .replace(/[^a-z0-9]+/g, '-') // Replace non-alphanumeric with hyphens
-    .replace(/(^-|-$)+/g, ''); // Remove leading/trailing hyphens
-};
 
 const friendly = (slug) => (slug || '')
   .split('-')
   .map(p => p.charAt(0).toUpperCase() + p.slice(1))
   .join(' ');
+
+// Subject data matching QuestionBank structure
+const subjectData = {
+  'air-regulations': {
+    title: 'Air Regulations',
+    icon: '📋',
+    description: 'Civil Aviation Rules & Regulations',
+    color: 'from-blue-500 to-blue-600'
+  },
+  'air-navigation': {
+    title: 'Air Navigation',
+    icon: '🧭',
+    description: 'Navigation Systems & Procedures',
+    color: 'from-green-500 to-green-600'
+  },
+  'meteorology': {
+    title: 'Meteorology',
+    icon: '🌤️',
+    description: 'Weather Systems & Aviation Weather',
+    color: 'from-yellow-500 to-orange-500'
+  },
+  'technical-general': {
+    title: 'Technical General',
+    icon: '⚙️',
+    description: 'Aircraft Systems & General Knowledge',
+    color: 'from-red-500 to-red-600'
+  },
+  'technical-specific': {
+    title: 'Technical Specific',
+    icon: '✈️',
+    description: 'Aircraft Type Specific Knowledge',
+    color: 'from-purple-500 to-purple-600'
+  },
+  'radio-telephony': {
+    title: 'Radio Telephony (RTR)-A',
+    icon: '🎧',
+    description: 'Radio Communication Procedures',
+    color: 'from-cyan-500 to-cyan-600'
+  }
+};
+
+// Book data matching QuestionBank structure
+const bookData = {
+  'rk-bali': {
+    title: 'RK Bali',
+    icon: '📗',
+    description: 'CPL/ATPL Ground Training Series',
+    color: 'from-emerald-500 to-green-600'
+  },
+  'ic-joshi': {
+    title: 'IC Joshi',
+    icon: '📖',
+    description: 'CPL/ATPL Ground Training Series',
+    color: 'from-indigo-500 to-purple-600'
+  },
+  'oxford': {
+    title: 'CAE Oxford',
+    icon: '📘',
+    description: 'CPL/ATPL Ground Training Series',
+    color: 'from-blue-500 to-blue-600'
+  },
+  'cae-oxford': {
+    title: 'CAE Oxford',
+    icon: '📘',
+    description: 'CPL/ATPL Ground Training Series',
+    color: 'from-blue-500 to-blue-600'
+  }
+};
 
 const defaultChapters = {
   // Subject → Book → Chapters
@@ -105,6 +161,34 @@ const defaultChapters = {
       'Human Factors Incident Reporting',
       'Introduction to Crew Resource Management',
       'Specimen Questions'
+    ],
+    'rk-bali': [
+      'Definitions And Abbreviations',
+      'International Organizations and Conventions',
+      'Aircraft Nationality and Registration Marks',
+      'Airworthiness',
+      'Air Traffic Services',
+      'Aeronautical Service',
+      'Approach Control Service',
+      'Aerodrome Control Tower Service',
+      'Use of Air Traffic Services Surveillance System',
+      'Aeronautical Information Services',
+      'Rules of the Air',
+      'Visual Aids for Navigation',
+      'Meteorological Navigation Services',
+      'Aircraft Operations',
+      'Personnel Licensing',
+      'Aerodromes of Aircraft',
+      'Operational Procedures',
+      'Environmental Procedures and Hazards (General Aspects)',
+      'Communications',
+      'National Law',
+      'Search and Rescue',
+      'Aircraft Accident and Incident',
+      'Security',
+      'Security-Safeguarding International Civil Aviation Against Acts of Unlawful Interference',
+      'Human Performance and Limitations',
+      'Sample Question Papers'
     ]
   },
   'air-navigation': {
@@ -382,11 +466,34 @@ const operationalProceduresChapterQuestionCounts = {
   'EU-OPS General Requirements': 6
 };
 
+// Chapter question counts for RK Bali Air Regulations
+const rkBaliChapterQuestionCounts = {
+  'Approach Control Service': 10,
+  'Aircraft Nationality and Registration Marks': 13,
+  'Air Traffic Services': 75,
+  'Rules of the Air': 103,
+  'Area Control': 30,
+  'International Organizations and Conventions': 26,
+  'Aerodrome Control Tower Service': 12,
+  'Use of Air Traffic Services Surveillance System': 21,
+  'Aeronautical Information Services': 26,
+  'Search and Rescue': 17,
+  'Visual Aids for Navigation': 50,
+  'Aircraft Operations': 100,
+      'Personnel Licensing': 25,
+      'Airworthiness': 5,
+      'Environmental Procedures and Hazards (General Aspects)': 109,
+  'Communications': 59,
+      'National Law': 9,
+      'Aircraft Accident and Incident': 8,
+      'Security-Safeguarding International Civil Aviation Against Acts of Unlawful Interference': 10,
+      'Human Performance and Limitations': 110,
+      'Facilitation': 14
+};
+
 const BookChapters = () => {
   const { subjectSlug, bookSlug } = useParams();
   const navigate = useNavigate();
-  const { isAuthenticated } = useAuth();
-  const [showLogin, setShowLogin] = useState(false);
 
   const chapters = useMemo(() => {
     const bySubject = defaultChapters[subjectSlug] || {};
@@ -404,13 +511,26 @@ const BookChapters = () => {
       debugLog('No chapters found for:', { subjectSlug, bookSlug, availableBooks: Object.keys(bySubject) });
     }
     return list.map((title, index) => {
+      // Special handling for Sample Question Papers - always available
+      if (title === 'Sample Question Papers') {
+        return {
+          id: `${index + 1}`,
+          title,
+          questionCount: 0,
+          status: 'available',
+        };
+      }
+      
       // Check if chapter has questions available (per-book chapter maps)
       let questionCount = 0;
       if (subjectSlug === 'meteorology' && bookSlug === 'ic-joshi') {
         questionCount = icJoshiChapterQuestionCounts[title] || 0;
       } else if (subjectSlug === 'air-navigation' && bookSlug === 'operational-procedures') {
         questionCount = operationalProceduresChapterQuestionCounts[title] || 0;
+      } else if (subjectSlug === 'air-regulations' && bookSlug === 'rk-bali') {
+        questionCount = rkBaliChapterQuestionCounts[title] || 0;
       }
+      // Only mark chapters as available if they have questions
       const isAvailable = questionCount > 0;
       
       return {
@@ -422,105 +542,131 @@ const BookChapters = () => {
     });
   }, [subjectSlug, bookSlug]);
 
-  const subjectName = friendly(subjectSlug);
-  const bookName = (subjectSlug === 'air-regulations' && (bookSlug === 'oxford' || bookSlug === 'cae-oxford'))
-    || (subjectSlug === 'meteorology' && (bookSlug === 'cae-oxford' || bookSlug === 'oxford'))
-    ? 'CAE Oxford' 
-    : friendly(bookSlug);
+  const subject = subjectData[subjectSlug] || {
+    title: friendly(subjectSlug),
+    icon: '📚',
+    description: '',
+    color: 'from-gray-500 to-gray-600'
+  };
+  
+  const book = bookData[bookSlug] || {
+    title: (subjectSlug === 'air-regulations' && (bookSlug === 'oxford' || bookSlug === 'cae-oxford'))
+      || (subjectSlug === 'meteorology' && (bookSlug === 'cae-oxford' || bookSlug === 'oxford'))
+      ? 'CAE Oxford' 
+      : (bookSlug === 'rk-bali' ? 'RK Bali' : friendly(bookSlug)),
+    icon: '📖',
+    description: 'CPL/ATPL Ground Training Series',
+    color: 'from-blue-500 to-blue-600'
+  };
 
   const startChapter = (chapter) => {
-    if (!isAuthenticated) {
-      setShowLogin(true);
+    // Special handling for Sample Question Papers chapter
+    if (chapter?.title === 'Sample Question Papers') {
+      navigate(`/sample-papers/${subjectSlug}/${bookSlug}`);
       return;
     }
-    // Navigate to practice page
-    const chapterSlug = normalize(chapter.title);
-    navigate(`/pyq/book/${bookSlug}/${chapterSlug}`);
+    // Navigate directly to practice page - matching QuestionBank behavior
+    // Authentication will be handled by BookPracticeRunner if needed
+    const baseSlug = slugifyChapterName(chapter?.title || 'overview');
+    const resolvedSlug = resolveChapterSlug(bookSlug, baseSlug);
+    navigate(`/pyq/book/${bookSlug}/${resolvedSlug}`);
   };
 
   return (
     <div className="min-h-screen gradient-bg">
       <Header />
+      <SiteSidebar />
       <div className="flex">
-        <nav className="w-64 bg-white/80 backdrop-blur-lg border-r border-gray-200 min-h-screen sticky top-16 hidden md:block">
-          <div className="p-6">
-            <div className="space-y-2">
-              <Link to="/" className="sidebar-item">Home</Link>
-              <Link to="/question-bank" className="sidebar-item">Question Bank</Link>
-              <Link to={`/books/${subjectSlug}`} className="sidebar-item">Back to Books</Link>
+        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
+          <div className="max-w-6xl mx-auto">
+            <div className="mb-6">
+              <button 
+                onClick={() => navigate('/question-bank')}
+                className="text-blue-600 hover:underline inline-flex items-center cursor-pointer bg-transparent border-none p-0"
+              >
+                <span className="mr-1">←</span> Back to {subject.title} Books
+              </button>
             </div>
-          </div>
-        </nav>
-        <main className="flex-1 p-6 md:p-8">
-          <div className="max-w-5xl mx-auto">
-            <Stepper steps={["Subject", "Book", "Chapter", "Practice"]} current={2} />
-            <div className="mb-6 mt-2">
-              <Link to={`/books/${subjectSlug}`} className="text-blue-600 hover:underline">← Back to {subjectName} Books</Link>
-            </div>
+            
+            {/* Header matching QuestionBank style */}
             <div className="text-center mb-8">
-              <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">{bookName}</h1>
-              <p className="text-gray-600">Chapters for {subjectName}</p>
+              <div className={`w-20 h-20 bg-gradient-to-r ${subject.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-4`}>
+                {subject.icon}
+              </div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-2">{subject.title}</h2>
+              <p className="text-gray-600 mb-4">{subject.description}</p>
+              <div className="flex items-center justify-center mb-4">
+                <div className={`w-12 h-12 bg-gradient-to-r ${book.color} rounded-xl flex items-center justify-center text-white text-2xl mr-3`}>
+                  {book.icon}
+                </div>
+                <div className="text-left">
+                  <h3 className="text-lg font-bold text-gray-900">
+                    {book.title}
+                  </h3>
+                  <p className="text-sm text-gray-600">{book.description}</p>
+                </div>
+              </div>
+              <div className="inline-flex items-center px-4 py-2 bg-blue-100 border border-blue-300 rounded-full">
+                <span className="text-blue-800 font-medium text-sm">
+                  📚 Practice information available
+                </span>
+              </div>
             </div>
 
             {chapters.length === 0 ? (
               <div className="text-center py-12">
                 <p className="text-gray-600 mb-2">No chapters found for this book.</p>
-                <p className="text-sm text-gray-500">Subject: {subjectSlug}, Book: {bookSlug}</p>
+                <p className="text-sm text-gray-500">Subject: {subject.title}, Book: {book.title}</p>
               </div>
             ) : (
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {chapters.map((ch) => {
                   const isAvailable = ch.status === 'available';
+                  const hasQuestions = ch.questionCount > 0;
                   return (
-                  <Card key={ch.id} className="p-6 flex flex-col">
-                    <div className="flex-1">
-                        <div className="flex items-start justify-between mb-2">
-                          <h3 className="text-lg font-semibold text-gray-900">Chapter {ch.id}</h3>
-                          <div className="flex gap-2">
-                            {!isAvailable && (
-                              <span className="px-2 py-1 bg-amber-100 text-amber-700 text-xs font-medium rounded-full">
-                                Coming Soon
-                              </span>
-                            )}
-                            <span className="px-2 py-1 bg-green-100 text-green-700 text-xs font-medium rounded-full">
-                              Medium
+                    <Card 
+                      key={ch.id} 
+                      className={`p-6 hover:shadow-lg transition-all duration-300 ${!isAvailable ? 'opacity-75' : ''}`}
+                    >
+                      <div className="flex items-start justify-between mb-4">
+                        <div className="flex-1">
+                          <div className="flex items-center gap-2 mb-2">
+                            <h3 className="text-lg font-bold text-gray-900">{ch.title}</h3>
+                          </div>
+                          <div className="flex items-center space-x-4 text-sm text-gray-600">
+                            <span className="flex items-center">
+                              <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
+                              </svg>
+                              {hasQuestions ? `${ch.questionCount} questions` : 'Chapter overview'}
                             </span>
                           </div>
                         </div>
-                        <p className="text-gray-700 mb-3">{ch.title}</p>
+                      </div>
+
+                      <div className="flex justify-center">
                         {isAvailable ? (
-                          <p className="text-sm text-gray-600 mb-2">
-                            {ch.questionCount} questions
-                          </p>
-                        ) : (
-                          <p className="text-sm text-gray-500 mb-2 flex items-center">
-                            <span className="mr-1">📄</span>
-                            Chapter overview
-                          </p>
-                        )}
-                    </div>
-                    <div className="mt-4">
-                        {isAvailable ? (
-                          <Button 
-                            className="w-full bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-white font-semibold" 
-                            onClick={() => startChapter(ch)}
-                          >
-                            <span className="flex items-center justify-center">
-                              <span className="mr-2">▶</span>
-                        Start Practice
-                            </span>
-                      </Button>
-                        ) : (
                           <button
-                            className="w-full py-3 px-6 bg-amber-50 text-amber-700 font-semibold rounded-lg border border-amber-200 hover:bg-amber-100 transition-colors cursor-not-allowed flex items-center justify-center"
-                            disabled
+                            onClick={() => startChapter(ch)}
+                            className={`w-full py-3 px-6 font-semibold rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 transition-all duration-200 transform bg-gradient-to-r ${book.color} text-white hover:shadow-lg hover:scale-[1.02] ${bookSlug === 'rk-bali' ? 'focus:ring-emerald-500' : 'focus:ring-blue-500'}`}
+                            title={`Practice with ${book.title}`}
                           >
-                            <span className="mr-2">📁</span>
-                            Coming Soon
+                            <div className="flex items-center justify-center">
+                              <span className="mr-2">{book.icon}</span>
+                              Start Practice
+                            </div>
                           </button>
+                        ) : (
+                          <div className="w-full py-3 px-6 bg-gray-100 text-gray-500 rounded-lg text-center">
+                            <div className="flex items-center justify-center">
+                            </div>
+                            <p className="text-xs text-gray-400 mt-1">
+                            This chapter does not include questions.
+                            </p>
+                          </div>
                         )}
-                    </div>
-                  </Card>
+                      </div>
+                    </Card>
                   );
                 })}
               </div>
@@ -528,9 +674,6 @@ const BookChapters = () => {
           </div>
         </main>
       </div>
-      {showLogin && (
-        <LoginModal onLogin={() => setShowLogin(false)} onClose={() => setShowLogin(false)} />
-      )}
     </div>
   );
 };

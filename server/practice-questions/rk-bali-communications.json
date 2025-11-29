@@ -1,0 +1,657 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": 19,
+  "chapter_title": "Communications",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What does QDR mean?",
+      "question_type": "MCQ",
+      "options": [
+        "Magnetic heading to the station (no wind)",
+        "True bearing from the station",
+        "Magnetic bearing from the station"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 2,
+      "question_text": "If you are requested to report your height, to which Q-code-setting would you refer?",
+      "question_type": "MCQ",
+      "options": [
+        "QFE",
+        "QNH",
+        "QBI"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Which Q-code is used to report altitude?",
+      "question_type": "MCQ",
+      "options": [
+        "QFF",
+        "QNJ",
+        "QNH"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does ATIS mean?",
+      "question_type": "MCQ",
+      "options": [
+        "Automated Termination Information Service",
+        "Automatic Traffic Information Service",
+        "Automatic Terminal Information Service"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the Q-code for \"magnetic heading to the station (no wind)\"?",
+      "question_type": "MCQ",
+      "options": [
+        "QDM",
+        "QNE",
+        "QTE"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What does CTR mean?",
+      "question_type": "MCQ",
+      "options": [
+        "CONTOL REGION",
+        "CONTROL ZONE",
+        "CONTROL AREA"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is the Q-code for \"true bearing from the station\"?",
+      "question_type": "MCQ",
+      "options": [
+        "QTE",
+        "QDR",
+        "QDM"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is the Q-code for \"magnetic bearing from the station\"?",
+      "question_type": "MCQ",
+      "options": [
+        "QDM",
+        "QTE",
+        "QDR"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 9,
+      "question_text": "QNH is the Q-code to indicate:",
+      "question_type": "MCQ",
+      "options": [
+        "The atmospheric pressure referred to the highest obstacle located on the surface of an aerodrome.",
+        "The atmospheric pressure measured at the aerodrome reference point (ARP).",
+        "The altimeter sub-scale setting to obtain elevation when on the ground."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What does QDL mean?",
+      "question_type": "MCQ",
+      "options": [
+        "I intend to ask you for a series of bearings.",
+        "True heading to the station (no wind).",
+        "True bearing from the station."
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 11,
+      "question_text": "What does QNE mean?",
+      "question_type": "MCQ",
+      "options": [
+        "What indication will my altimeter give on landing at ... (place) at... hours, my. sub-scale being set to 1013.2 millibars (29.92 inches)?",
+        "What should I set on the subscale of my altimeter so that the instrument would indicate its height above the reference elevation being used?",
+        "What should I set on the subscale of my altimeter so that the instrument would indicate its elevation if my aircraft were on the ground at your station?"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 12,
+      "question_text": "A radio direction finding station will use the following Q code to pass a true heading (no wind) to an aircraft to head for that station:",
+      "question_type": "MCQ",
+      "options": [
+        "QUJ.",
+        "QGE.",
+        "QDM."
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 13,
+      "question_text": "The order of priority of the following messages in the aeronautical mobile service is:",
+      "question_type": "MCQ",
+      "options": [
+        "Meteorological message, direction finding message, flight regularity message",
+        "Distress message, flight safety message, urgency message",
+        "Distress message, urgency message, direction finding message"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 14,
+      "question_text": "What is the correct way of transmitting the number 3500 when indicating an altitude or an height?",
+      "question_type": "MCQ",
+      "options": [
+        "Three thousand five hundred",
+        "Three five zero zero",
+        "Three five double zero"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 15,
+      "question_text": "During the transmission of numbers containing a decimal point:",
+      "question_type": "MCQ",
+      "options": [
+        "The term Decimal can be omitted if no chance of misunderstandings exists",
+        "The term Decimal must always be transmitted",
+        "The term Decimal must be spoken only if followed by three digits"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 16,
+      "question_text": "The time is 9:20 A.M. What is the correct way of transmitting this time if there is no possibility of confusion about the hour?",
+      "question_type": "MCQ",
+      "options": [
+        "Nine twenty A.Μ.",
+        "Two zero",
+        "Twenty"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 17,
+      "question_text": "Which phrase shall be used if you want to say: AN ERROR HAS BEEN MADE IN THIS TRANSMISSION (or message indicated). THE CORRECT VERSION IS:",
+      "question_type": "MCQ",
+      "options": [
+        "QNH 1017, negative QNH 1016",
+        "QNH 1017, correction QNH 1016",
+        "QNH 1017, negative I say again 1016"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 18,
+      "question_text": "A message preceded by the phrase TRANSMITTING BLIND DUE RECEIVER FAILURE shall be transmitted:",
+      "question_type": "MCQ",
+      "options": [
+        "On the regional guard frequency.",
+        "On the international emergency frequency.",
+        "On the frequency presently in use."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 19,
+      "question_text": "Which phraseology is to be used to ask the control tower for permission to taxi on a runway in the direction opposite to that in use?",
+      "question_type": "MCQ",
+      "options": [
+        "\"To enter back runway\"",
+        "\"Backtrack clearance\"",
+        "\"Request backtrack on runway\""
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 20,
+      "question_text": "Which phrase shall be used if you want to say:\" Yes\":",
+      "question_type": "MCQ",
+      "options": [
+        "Affirm",
+        "Affirmative",
+        "Roger"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 21,
+      "question_text": "The phrase used by ATC to instruct you to listen out on a frequency is:",
+      "question_type": "MCQ",
+      "options": [
+        "MONITOR",
+        "REPORT",
+        "LISTEN"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 22,
+      "question_text": "What is the radiotelephony call sign for the aeronautical station providing surface movement control of aircraft on the manoeuvring area:",
+      "question_type": "MCQ",
+      "options": [
+        "TOWER",
+        "GROUND",
+        "CONTROL"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 23,
+      "question_text": "What is the radiotelephony call sign for the aeronautical station providing approach control radar departures:",
+      "question_type": "MCQ",
+      "options": [
+        "RADAR APPROACH",
+        "APPROACH",
+        "APPROACH RADAR"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 24,
+      "question_text": "The initial call from an aircraft, callsign AIR INDIA 285 weighing more than than 136 tonnes would be:",
+      "question_type": "MCQ",
+      "options": [
+        "AIR INDIA 285 HEAVY",
+        "HEAVY AIR INDIA 285",
+        "AIR INDIA 285"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 25,
+      "question_text": "On the readability scale what does \"Readability 3\" mean:",
+      "question_type": "MCQ",
+      "options": [
+        "Readable but with difficulty",
+        "Loud and clear",
+        "No problem to understand"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 26,
+      "question_text": "A test call shall not continue for more than:",
+      "question_type": "MCQ",
+      "options": [
+        "8 seconds.",
+        "12 seconds.",
+        "10 seconds."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 27,
+      "question_text": "King air VT-ABC receives the following instruction:\"V-BC climb straight ahead until 2500feet before turning right, wind 270 degrees 6 knots, cleared for take-off\". What is the correct read back:",
+      "question_type": "MCQ",
+      "options": [
+        "Straight ahead, 2500 feet right turn, wind west 6 knots, cleared for take-off, V-BC",
+        "Straight ahead, at 2500 feet right tum, cleared for take-off, V-BC",
+        "Wilco, cleared for take-off, V-BC"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 28,
+      "question_text": "Which elements of instructions or information shall always be read back?",
+      "question_type": "MCQ",
+      "options": [
+        "Runway in use, altimeter settings, SSR codes, level instructions, heading and speed instructions",
+        "Runway-in-use, visibility, surface wind, heading instructions, altimeter settings",
+        "Time check, runway in use, altimeter settings, level instructions, SSR codes"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 29,
+      "question_text": "When the term \"Overcast\" is used in an aviation routine weather report (METAR), the amount of clouds covering the sky is:",
+      "question_type": "MCQ",
+      "options": [
+        "No clouds but poor ground visibility",
+        "100%",
+        "50% or more"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 30,
+      "question_text": "What is the correct way of expressing visibility?",
+      "question_type": "MCQ",
+      "options": [
+        "Visibility 1.2 nautical miles",
+        "Visibility 1200 feet",
+        "Visibility 1200 metres"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 31,
+      "question_text": "When the term \"Cavok\" is used in an aviation routine weather report (METAR), the values of visibility and clouds are:",
+      "question_type": "MCQ",
+      "options": [
+        "Visibility 10 km or more, no clouds below 5000 feet/GND",
+        "Visibility more than 8 km, no clouds below 3000 feet/GND",
+        "Visibility 10 km or more, no clouds below 1500 feet/GND"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 32,
+      "question_text": "When the term \"Broken\" is used in an aviation routine weather report (METAR), the amount of clouds covering the sky is:",
+      "question_type": "MCQ",
+      "options": [
+        "5 to 7 octas",
+        "8 octas below 10000 feet",
+        "No clouds below 5000 feet"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 33,
+      "question_text": "When the term \"Scattered\" is used in an aviation routine weather report (METAR), the amount of clouds covering the sky is:",
+      "question_type": "MCQ",
+      "options": [
+        "No clouds below 5000 feet",
+        "Half or less than half (3 or 4 octas)",
+        "More than half but less than overcast (5 to 7 octas)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 34,
+      "question_text": "An aircraft station fails to establish radio contact with an aeronautical station on the designated frequency. What action is required by the pilot:",
+      "question_type": "MCQ",
+      "options": [
+        "Return to the airport of departure",
+        "Land at the nearest airport without an ATC unit",
+        "Attempt to establish contact with the station on an alternative frequency"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 35,
+      "question_text": "In the event that a pilot is required to make a blind transmission, this should be made:",
+      "question_type": "MCQ",
+      "options": [
+        "During VFR flights only",
+        "Twice on the designated frequency",
+        "Only once on the designated frequency"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 36,
+      "question_text": "Distress is defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "A condition concerning the attitude of an aircraft when intercepting the localizer during an ILSapproach",
+        "A condition concerning the safety of a person on board or within sight and requiring immediateassistance",
+        "A condition of being threatened by serous and/or imminent danger and requiring immediate assistance"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 37,
+      "question_text": "Under which of the following circumstances shall an aircraft squawk 7700?",
+      "question_type": "MCQ",
+      "options": [
+        "In distress",
+        "When following a SID",
+        "When passing the transition level"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 38,
+      "question_text": "An aircraft in distress shall send the following signal by radiotelephony:",
+      "question_type": "MCQ",
+      "options": [
+        "URGENCY, URGENCY, URGENCY",
+        "DETRESFA, DETRESFA, DETRESFA",
+        "MAYDAY, MAYDAY, MAYDAY"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 39,
+      "question_text": "The frequency used for the transmission of a \"MAYDAY\" call shall be:",
+      "question_type": "MCQ",
+      "options": [
+        "The frequency currently in use",
+        "Any frequency at pilot's discretion",
+        "The distress frequency 121.5 MHz"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 40,
+      "question_text": "An urgency call content is to be as follows:",
+      "question_type": "MCQ",
+      "options": [
+        "PAN PAN PAN, aircraft identification, the intention of the person in command, heading, height, position.",
+        "PAN PAN PAN (on 121,5 MHz). present position, heading aircraft, identification, the intention of the person in command, the identification of the station being called.",
+        "PAN PAN PAN (on the frequency in use), name of station addressed, the nature of the urgency condition, the intention of the person in command."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 41,
+      "question_text": "An \"Automatic Terminal Information Service\" provides:",
+      "question_type": "MCQ",
+      "options": [
+        "Information concerning en-route weather phenomena which may effect the safety of aircraft operation",
+        "Routine information to arriving and departing aircraft by means of continuous and repetitive broadcast",
+        "Weather reports relating a specific number of aerodromes located within a flight information region (FIR)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 42,
+      "question_text": "When flying on a SW heading at 3500 feet you would report your heading and level as:",
+      "question_type": "MCQ",
+      "options": [
+        "HEADING 225 AT THREE THOUASAND FIVE HUNDRED",
+        "SOUTHWEST AT THREE FIVE ZERO ZERO",
+        "HEADING 045 AT THREE THOUSAND FIVE HUNDRED"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 43,
+      "question_text": "What is the radiotelephony call sign for the aeronautical station indicating area control centre (no radar):",
+      "question_type": "MCQ",
+      "options": [
+        "...CENTRE",
+        "...CONTROL",
+        "...APPROACH"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 44,
+      "question_text": "What is the radiotelephony call sign for the aeronautical station Indicating approach control radar arrivals:",
+      "question_type": "MCQ",
+      "options": [
+        "...ARRIVAL",
+        "...RADAR",
+        "APPROACH"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 45,
+      "question_text": "A BLIND TRANSMISSION is a transmission:",
+      "question_type": "MCQ",
+      "options": [
+        "Where the transmitter is unable to see the receiver.",
+        "The transmitter of the called station is not functioning.",
+        "From one station to another when there is no communication but where it is believed that the caller station is able to receive the transmission."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 46,
+      "question_text": "To indicate that he is no longer occupying the active runway a pilot shall report to the controller:",
+      "question_type": "MCQ",
+      "options": [
+        "Runway free",
+        "Clear of runway",
+        "Runway vacated"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 47,
+      "question_text": "An aircraft encountering radio communication failure on an IFR flight in IMC is assumed to:",
+      "question_type": "MCQ",
+      "options": [
+        "Execute a VMC approach at the nearest suitable aerodrome",
+        "Proceed in accordance with the current flight plan to the designated navigation aid serving the destination aerodrome",
+        "Divert to the most suitable aerodrome according to the route of flight"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 48,
+      "question_text": "An aircraft encountering radio communication failure on an IFR flight in IMC has to commence descent over the designated navigation aid serving the destination aerodrome (no EAT received):",
+      "question_type": "MCQ",
+      "options": [
+        "5 minutes after the last expected approach time acknowledged",
+        "After 3 minutes, if an expected approach time is not acknowledged",
+        "At, or as close to, the ETA resulting from the current flight plan"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 49,
+      "question_text": "A protected medical transport is identified by the prefix:",
+      "question_type": "MCQ",
+      "options": [
+        "PAN PAN PAN PAN PAN PAN",
+        "AIR AMBULANCE",
+        "PAN PAN MEDICAL"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 50,
+      "question_text": "Which of the following statements is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "The urgency communications have priority over all the other communications",
+        "The urgency communications have priority over all the other communications, except distress",
+        "ATC clearances have the same priority as urgency communications"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 51,
+      "question_text": "The VOLMET broadcasts include information about:",
+      "question_type": "MCQ",
+      "options": [
+        "METARS for selected airfields.",
+        "Arrival and departure details for selected airfields.",
+        "TAFs for selected airfields."
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 52,
+      "question_text": "What is the correct way of transmitting the number 13500?",
+      "question_type": "MCQ",
+      "options": [
+        "One three five zero zero",
+        "One three five hundred",
+        "One three thousand five hundred"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 53,
+      "question_text": "What, if any, is the abbreviated call sign of Air India 5345?",
+      "question_type": "MCQ",
+      "options": [
+        "Air India 345",
+        "Air India 45",
+        "No abbreviated form"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 54,
+      "question_text": "The maximum theoretical range at which an aircraft at FL80 can obtain bearings from a ground VHF facility sited at 325ft above MSL is:",
+      "question_type": "MCQ",
+      "options": [
+        "107NM",
+        "134NM",
+        "158NM"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 55,
+      "question_text": "A frequency of 295 KHz would be described as:",
+      "question_type": "MCQ",
+      "options": [
+        "HF.",
+        "short wave.",
+        "LF."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 56,
+      "question_text": "In radio terms, frequency means:",
+      "question_type": "MCQ",
+      "options": [
+        "The number of complete waveforms passing a spot in one second.",
+        "The number of waveforms in one hour.",
+        "The length of a complete waveform in metres."
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 57,
+      "question_text": "The wavelength of HF is?",
+      "question_type": "MCQ",
+      "options": [
+        "Centimetric",
+        "Decemetric.",
+        "Metric."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 58,
+      "question_text": "Weather radar is?",
+      "question_type": "MCQ",
+      "options": [
+        "Centimetric",
+        "Decimetric",
+        "Metric."
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 59,
+      "question_text": "What is the wavelength and waveband of a radio aid that uses a frequency of 19 cm.",
+      "question_type": "MCQ",
+      "options": [
+        "15.79 Hz. ELF.",
+        "1.579 Ghz. UHF",
+        "1.579 Mhz VHF"
+      ],
+      "answer": "B"
+    }
+  ]
+}
+

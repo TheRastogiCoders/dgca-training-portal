@@ -1,0 +1,176 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": 21,
+  "chapter_title": "Facilitation",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "The ICAO Annex which deals with entry and departure of persons and their baggage, cargo and other articles on international flights is:",
+      "question_type": "MCQ",
+      "options": [
+        "Annex 9",
+        "Annex 15",
+        "Annex 8"
+      ],
+      "answer": "A",
+      "solution": "A"
+    },
+    {
+      "question_number": 2,
+      "question_text": "In case of aircraft registered in other Contracting States, which are not engaged in schedule international services, and which are making flights across the territory of a Contracting State or stopping for non traffic purposes, such Contracting State shall accept the information contained in a flight plan as adequate advance notification. This information is to be received:",
+      "question_type": "MCQ",
+      "options": [
+        "At least 2 hours in advance of arrival",
+        "At least 4 hours in advance of arrival",
+        "At least 1 hours in advance of arrival"
+      ],
+      "answer": "A",
+      "solution": "A"
+    },
+    {
+      "question_number": 3,
+      "question_text": "A contracting state which continues to require the presentation of a cargo manifest shall, apart from the information indicated in the heading of the format of the cargo manifest, not require more than the following item(s):",
+      "question_type": "MCQ",
+      "options": [
+        "The airway bill number and the number of packages related to the airway bill number",
+        "The airway bill number, the number of packages related to each airway bill number and the nature of the goods",
+        "The airway bill number and the nature of goods"
+      ],
+      "answer": "B",
+      "solution": "B"
+    },
+    {
+      "question_number": 4,
+      "question_text": "An aircraft which is not engaged in scheduled international air services and which is making a flight to or through any designated airport of a Contracting State and is admitted temporarily free of duty shall be allowed to remain within that State without security for customs duty.",
+      "question_type": "MCQ",
+      "options": [
+        "For a period of 12 hours",
+        "For a period of 48 hours",
+        "For a period to be established by that State"
+      ],
+      "answer": "C",
+      "solution": "C"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Which one of the statements is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "Contracting states may not accept oral declaration of baggages",
+        "Contracting states shall accept an oral declaration of baggage from passengers and crew",
+        "Contracting states shall accept an oral declaration of baggage only from passengers"
+      ],
+      "answer": "B",
+      "solution": "B"
+    },
+    {
+      "question_number": 6,
+      "question_text": "An aircraft flying to another contracting state:",
+      "question_type": "MCQ",
+      "options": [
+        "Is liable to pay customs duty on all unused fuel and oil carried",
+        "Is admitted to that state temporarily free of customs duty in regard to oil and fuel remaining only",
+        "Is admitted to that state temporarily free of customs duty"
+      ],
+      "answer": "C",
+      "solution": "C"
+    },
+    {
+      "question_number": 7,
+      "question_text": "Contracting states shall not require the authorized agent or pilot-in-command to deliver to the public authorities concerned, before departure of the aircraft, more than some copies of General Declaration, Cargo Manifest and stores list. The numbers of the copies are:",
+      "question_type": "MCQ",
+      "options": [
+        "2 copies of General Declarations and Cargo Manifest and one copie of a simple stores list.",
+        "2 copies of General Declaration and of Cargo Manifest and of a stores list",
+        "2 of each"
+      ],
+      "answer": "C",
+      "solution": "C"
+    },
+    {
+      "question_number": 8,
+      "question_text": "In cases where a visitor travelling by air holds a valid passport and no visa is required of him, contracting states",
+      "question_type": "MCQ",
+      "options": [
+        "Shall not require him to obtain any other identity document from their consultates or operators prior to initiate the flight",
+        "None of the answers are applicable",
+        "In certain cases any other identity may be required"
+      ],
+      "answer": "A",
+      "solution": "A"
+    },
+    {
+      "question_number": 9,
+      "question_text": "The documents for entry and departure of aircraft:",
+      "question_type": "MCQ",
+      "options": [
+        "Has to be typewritten or produced by electronic data processing techniques",
+        "Are accepted in handwritten block lettering in ink",
+        "Are accepted at the contracting state discretion"
+      ],
+      "answer": "B",
+      "solution": "B"
+    },
+    {
+      "question_number": 10,
+      "question_text": "On a general declaration form, the following data can be found:",
+      "question_type": "MCQ",
+      "options": [
+        "Aircraft registration mark, flight number, date and place of departure, destination and, number of crew and passengers",
+        "The nature of goods embarked on the aircraft (e.g. dangerous goods)",
+        "A complete description of payload (passengers, cargo and mail)"
+      ],
+      "answer": "A",
+      "solution": "A"
+    },
+    {
+      "question_number": 11,
+      "question_text": "What is the purpose of a Crew Member's Certificate (CMC)?",
+      "question_type": "MCQ",
+      "options": [
+        "To allow flight crew to be exempted from customs, health and immigration formalities when disembarking.",
+        "To permit access to the air side of an aerodrome for aircrew.",
+        "To provide identification of aircrew."
+      ],
+      "answer": "C",
+      "solution": "C"
+    },
+    {
+      "question_number": 12,
+      "question_text": "What documentation is required by persons travelling by air, for entry into a state?",
+      "question_type": "MCQ",
+      "options": [
+        "Passport and confirmation of inclusion on the general declaration passenger manifest",
+        "The same as would be required if the person arrived by ship",
+        "Passport, visa and any necessary health documentation (vaccination certificates)"
+      ],
+      "answer": "B",
+      "solution": "B"
+    },
+    {
+      "question_number": 13,
+      "question_text": "The crew member certificate (CMC) shall be accepted by each Contracting State for identification purposes:",
+      "question_type": "MCQ",
+      "options": [
+        "Together with a valid flight crew license.",
+        "None of the above.",
+        "Together with a valid passport."
+      ],
+      "answer": "B",
+      "solution": "B"
+    },
+    {
+      "question_number": 14,
+      "question_text": "Exceptin special circumstances determined by the public authorities concerned, when a passenger is passing through the territory of a contracting state and has to stay in that contracting state until the next flight for lack of facilities or any other circumstances, the contracting state where the international airport is located shall permit such a passenger to remain within its territory without requiring visas prior to the arrival when",
+      "question_type": "MCQ",
+      "options": [
+        "The passenger is to leave that state within two (2) days from the day of his (her) arrival",
+        "The passenger is to leave that state within one (1) day from the day of his (her) arrival",
+        "The passenger is to leave that state within two (2) weeks from the day of his (her) arrival"
+      ],
+      "answer": "A",
+      "solution": "A"
+    }
+  ]
+}
+

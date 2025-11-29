@@ -1,0 +1,320 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": "2",
+  "chapter_title": "International Organizations and Conventions",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "Which of the following is obligating for members of ICAO ?",
+      "question_type": "MCQ",
+      "options": [
+        "ICAO shall approve the pricing of tickets on international airline connections",
+        "ICAO must be informed about changes in the national regulations",
+        "ICAO must be informed about differences from the standards in any of the Annexes to the convention"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 2,
+      "question_text": "For aircraft flying over the high seas, which rules shall be in force?",
+      "question_type": "MCQ",
+      "options": [
+        "The rules established by the state of the operator of the aircraft",
+        "The rules established by the state(s) adjacent to the high seas over flown",
+        "The rules established under the Convention of international civil aviation"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Annex 14 to the convention on international civil aviation contains SARPS for:",
+      "question_type": "MCQ",
+      "options": [
+        "Air Traffic Services",
+        "Aerodromes",
+        "the security system at airports"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 4,
+      "question_text": "Annex 17 to the Convention of Chicago covers:",
+      "question_type": "MCQ",
+      "options": [
+        "Aerodromes",
+        "Security",
+        "Facilitations"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 5,
+      "question_text": "The Warsaw convention and later ammendments deals with:",
+      "question_type": "MCQ",
+      "options": [
+        "limitation of the operator's responsibility vis-a-vis passengers and goods transported",
+        "operator's license for international scheduled aviation",
+        "Facilitation"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 6,
+      "question_text": "The State has to notify the Council of ICAO and publish such differences in the national AIP If a state finds that it is impracticable to comply with an International Standard:",
+      "question_type": "MCQ",
+      "options": [
+        "It shall give 45 days notice to ICAO of the differences between its own prac- tices and the International Standard",
+        "It shall give 60 days notice to ICAO of the differences between its own prac- tices and the Intemational Standard",
+        "It shall give immediate notice to ICAO of the differences between its own practices and the International Standard"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 7,
+      "question_text": "The international convention defining rules relative to the responsibilities of international air carriers for the carriage of passengers, baggage and freight is the",
+      "question_type": "MCQ",
+      "options": [
+        "Hague Convention",
+        "Warsaw Convention",
+        "Tokyo Convention"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 8,
+      "question_text": "The 'Standards' contained in the Annexes to the Chicago convention are to be considered:",
+      "question_type": "MCQ",
+      "options": [
+        "binding for the member states that have not notified ICAO about a national difference",
+        "advice and guidance for the aviation legislation within the member states",
+        "binding for all air line companies with international traffic"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 9,
+      "question_text": "An aircraft flying over the territory of another state must:",
+      "question_type": "MCQ",
+      "options": [
+        "Follow the rules of the Air of the State it is over flying, provided they follow ICAO rules",
+        "Follow the rules of the Air of the State of the Operator, if registered in other State",
+        "Follow the rules of the Air of the State of Registration to the extent that they do not conflict with the rules published by the State having jurisdiction over the territory overflown"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 10,
+      "question_text": "An airplane is planning a flight that will require a technical landing in a neighboring state. Which freedom of the air will be exercised?",
+      "question_type": "MCQ",
+      "options": [
+        "3rd freedom",
+        "4th freedom",
+        "2nd freedom"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 11,
+      "question_text": "The convention of Tokyo applies to damage:",
+      "question_type": "MCQ",
+      "options": [
+        "caused in the territory of a contracting state or in a ship or aircraft registered there in, by an aircraft registered in the territory of another contracting state",
+        "only caused in the territory of a contracting state by any aircraft registered in the territory of another contracting state",
+        "caused in the territory of a contracting state by any aircraft regardless the reg- istration"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 12,
+      "question_text": "The International Civil Organisation (ICAO) was established by the international convention of:",
+      "question_type": "MCQ",
+      "options": [
+        "Warsaw",
+        "Chicago",
+        "Montreal"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 13,
+      "question_text": "The Rome Convention and later amendments deals with:",
+      "question_type": "MCQ",
+      "options": [
+        "Damage caused by foreign aircraft to third parties on the surface",
+        "offences and certain other acts committed on board aircraft",
+        "Regulation of transportation of dangerous goods"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 14,
+      "question_text": "The convention on offences and certain acts committed on board aircraft, is:",
+      "question_type": "MCQ",
+      "options": [
+        "the convention of Rome",
+        "the convention of Tokyo",
+        "the convention of Chicago"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 15,
+      "question_text": "The aircraft commander, when he has reasonable grounds to believe that a person has committed or is about to commit, on board the aircraft, an offense against penal law",
+      "question_type": "MCQ",
+      "options": [
+        "may not require or authorise the assistance of other crew members",
+        "may require the assistance of passengers to restrain such persons",
+        "may deliver such person to the competent authorities"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 16,
+      "question_text": "If a person is injured by a part falling from an aircraft flying over the state but registered in another state, which convention covers this?",
+      "question_type": "MCQ",
+      "options": [
+        "Paris",
+        "Chicago",
+        "Rome"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 17,
+      "question_text": "India is a signatory to THE INTERNATIONAL AIR TRANPORT AGREEMENT, 1944:?",
+      "question_type": "MCQ",
+      "options": [
+        "Yes",
+        "Yes, but it does not subscribe to Technical Freedoms",
+        "No"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 18,
+      "question_text": "The convention signed by the states and moved by a desire to endure adequate compensation for persons who suffer damage caused on the surface by foreign aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "the Paris Convention",
+        "the Rome Convention",
+        "the Warsaw Convention"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 19,
+      "question_text": "Which Annex to the Chicago Convention covers dangerous goods carried in aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "Annex 16",
+        "Annex 18",
+        "Annex 17"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 20,
+      "question_text": "Proposal to give effect to an international Convention in India is initiated by:",
+      "question_type": "MCQ",
+      "options": [
+        "Ministry of Civil Aviation",
+        "Parliament",
+        "DGCA"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 21,
+      "question_text": "If a Air India provides an aeroplane and complete crew for lease to Indian Air Force (a wet lease-out situation), who is the operator of the aeroplane?",
+      "question_type": "MCQ",
+      "options": [
+        "Air India provided they carry civil load only",
+        "Air India because it is their crew flying the aero plane",
+        "Indian Air Force- providing they absolve Air India of any responsibility in the manner in which the aeroplane is operated"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 22,
+      "question_text": "What flights are protected by the Prevention of Terrorism Act?",
+      "question_type": "MCQ",
+      "options": [
+        "All flights",
+        "Private flights only",
+        "Military flights only"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 23,
+      "question_text": "The second freedom of the air is the:",
+      "question_type": "MCQ",
+      "options": [
+        "right to operate a commercial passenger flight with passengers on board between two states",
+        "right to land for a technical stop",
+        "right to \" cabotage\" traffic, (trans-border traffic)"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 24,
+      "question_text": "Which convention makes acts of violence on board, destruction of aircraft in flight and destroying or damaging any air navigation facility punishable?",
+      "question_type": "MCQ",
+      "options": [
+        "The Tokyo convention",
+        "The Montreal convention",
+        "The Warsaw convention"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 25,
+      "question_text": "According to which Convention may an aircraft commander impose measures upon a person committing a crime or an offence on board the aircraft?",
+      "question_type": "MCQ",
+      "options": [
+        "The Convention of Rome",
+        "The Convention of Warsaw",
+        "The Convention of Tokyo"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 26,
+      "question_text": "'Cabotage' refers to:",
+      "question_type": "MCQ",
+      "options": [
+        "domestic air services",
+        "a national air carrier",
+        "crop spraying"
+      ],
+      "solution": "A",
+      "answer": "A"
+    }
+  ]
+}
+

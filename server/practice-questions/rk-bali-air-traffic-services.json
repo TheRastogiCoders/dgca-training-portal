@@ -1,0 +1,907 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": "5",
+  "chapter_title": "Air Traffic Services",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "A lower limit of a Control Area shall be established at a height above the ground level or water of not less than:",
+      "question_type": "MCQ",
+      "options": [
+        "150 metres",
+        "200 metres",
+        "300 metres"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 2,
+      "question_text": "The Approach Control Service is an air traffic control service",
+      "question_type": "MCQ",
+      "options": [
+        "provided for the arriving and departing controlled flights",
+        "for IFR flights arriving and departing",
+        "provided for IFR traffic within a Control Zone"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 3,
+      "question_text": "The units providing Air Traffic Services are:",
+      "question_type": "MCQ",
+      "options": [
+        "Area control Center- Advisory Center- Flight information Center- Approach Control Office and Tower",
+        "Area Control Center- Flight Information Center- Approach Cotrol Office- Aerodrome Control Tower and Air Traffic Services reporting office",
+        "Area Control Center- Approach Control Office and Aerodrome Control Tower only."
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 4,
+      "question_text": "Air traffic control service is provided for the purpose of:",
+      "question_type": "MCQ",
+      "options": [
+        "Avoiding collisions between all aircraft and maintaining an orderly flow of air traffic",
+        "Preventing collisions between aircraft, between aircraft and obstacles on the manoeuvring area and expediting and maintaining an orderly flow of air traffic",
+        "Preventing collisions between controlled air traffic and expediting and maintaining an orderly flow of air traffic"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 5,
+      "question_text": "To perform a VFR flight in airspace classification E a clearance and/or two-way radio communication is required",
+      "question_type": "MCQ",
+      "options": [
+        "a clearance is required",
+        "two-way radio communication is not required"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 6,
+      "question_text": "Which statement is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "The lower limit of an UIR may coincide with an IFR cruising level",
+        "The lower limit of a TMA shall be established at a height of at least 700ft AGL",
+        "The upper limit of a CTR shall be established at a height of at least 3000ft AMSL"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is the speed limit (IAS) in an airspace class E?",
+      "question_type": "MCQ",
+      "options": [
+        "250kt VFR and IFR, all levels",
+        "250kt for IFR and VFR up to FL 100",
+        "250 kt only for IFR up to FL 100"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 8,
+      "question_text": "The speed limitation for IFR flights inside ATS airspace classified as C, when flying below 3050m (1000ft) AMSL, is:",
+      "question_type": "MCQ",
+      "options": [
+        "250kt IAS",
+        "Not applicable",
+        "250kt TAS"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 9,
+      "question_text": "RCP 10 means:",
+      "question_type": "MCQ",
+      "options": [
+        "10 is the number of seconds it takes for an instruction to travel from the ground to aircraft and acknowledgment back to the ground.",
+        "10 is the maximum number of minutes it takes for an instruction to be executed by an aircraft.",
+        "Aircraft must communicate with ATC every 10 minutes."
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 10,
+      "question_text": "An ATS airspace where IFR and VFR flights are permitted, all flights are subject to air traffic control service and are separated from each other is classified as",
+      "question_type": "MCQ",
+      "options": [
+        "Airspace C",
+        "Airspace B",
+        "Airspace D"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 11,
+      "question_text": "The speed limitation for both IFR flights and VFR flights inside ATS airspace classified as B, when flying below 3050m (10000ft) AMLS, is:",
+      "question_type": "MCQ",
+      "options": [
+        "260kt IAS",
+        "Not applicable",
+        "250kt IAS"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 12,
+      "question_text": "Air traffic services unit clocks and other time recording devices shall be checked as necessary to ensure correct time within plus or minus",
+      "question_type": "MCQ",
+      "options": [
+        "1 minute of UTC at all times",
+        "15 seconds of UTC at all times",
+        "30 seconds of UTC at all times"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 13,
+      "question_text": "The following airspace falls under Kolkata FIR?",
+      "question_type": "MCQ",
+      "options": [
+        "VED",
+        "VEB",
+        "VOR"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 14,
+      "question_text": "The VMC minima for a VFR flight inside an ATS airspace classified as B, is:",
+      "question_type": "MCQ",
+      "options": [
+        "8km visibility when at or above 3050m (10000ft) AMSL and clear of clouds",
+        "8km visibility when at or above 3050m (10000ft) AMSL, and 1500m horizontal and 300m vertical from clouds",
+        "5NM visibility when below 3050m (10000ft) AMSL, 1500m horizontal and 300m vertical from cloud"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 15,
+      "question_text": "A VFR flight when flying inside an ATS airspace classified as B has to maintain the following minima of flight visibility and distance from clouds",
+      "question_type": "MCQ",
+      "options": [
+        "5km visibility, 1500m horizontal and 300m vertical from clouds",
+        "8km below 3050m (10000ft) AMSL, 1500m horizontal and 300m vertical from clouds",
+        "5km below 3050m (10000ft) AMSL and clear of clouds"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 16,
+      "question_text": "An ATS airspace where IFR and VFR flights are permitted, all flights are subject to air traffic control service and IFR flights are separated from other IFR flights and from VFR flights VFR flights are separated from IFR flights and receive traffic information in respect of other VFR flights, is classified as:",
+      "question_type": "MCQ",
+      "options": [
+        "Airspace B",
+        "Airspace E",
+        "Airspace C"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 17,
+      "question_text": "Which condition is requested so that an aerodrome may be considered controlled?",
+      "question_type": "MCQ",
+      "options": [
+        "The aerodrome shall be located within a Control Zone (CTR) and provided with a Control Tower",
+        "The aerodrome shall be provided with a Control Tower",
+        "The aerodrome shall be located within a Control Zone"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 18,
+      "question_text": "An ATS airspace where IFR and VFR flights are permitted and all flights are subject to air traffic control service. IFR flights are separated from other IFR flights and receive traffic information in respect of VFR flights. VFR flights receive traffic information in respect of all other flights, is classified as:",
+      "question_type": "MCQ",
+      "options": [
+        "Airspace B",
+        "Airspace D",
+        "Airspace A"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 19,
+      "question_text": "An ATS airspace where IFR and VFR flights are permitted are subject to Air Traffic Control Service and are separated from other IFR flights. All flights receive traffic information as far as practical, is classified as",
+      "question_type": "MCQ",
+      "options": [
+        "Airspace D",
+        "Airspace A",
+        "Airspace E"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 20,
+      "question_text": "An ATS airspace where IFR and VFR flights are permitted, all participating IFR flights receive an air traffic advisory service and all flights receive flight information service if requested, is classified",
+      "question_type": "MCQ",
+      "options": [
+        "Airspace F",
+        "Airspace E",
+        "Airspace D"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 21,
+      "question_text": "Which statement regarding approach control service is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "Approach control have to advise the aircraft operators about substantial delays in departure in any event when they are expected to exceed 45 minutes",
+        "During a visual approach an aircraft is maintaining its own separation",
+        "If it is anticipated that an aircraft has to hold for 30 minutes or more, an Expected Approach Time will be transmitted by the most expeditious means to the aircraft"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 22,
+      "question_text": "Which statement regarding aerodrome control service is correct?",
+      "question_type": "MCQ",
+      "options": [
+        "An aircraft entering the traffic circuit without permission of ATC, will be cleared to land if this is desirable",
+        "Suspension of VFR operations can not be initiated by the aerodrome controller",
+        "ATC permission is required for entering the apron with a vehicle"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 23,
+      "question_text": "In ATS route designator UA1Y what does U mean:",
+      "question_type": "MCQ",
+      "options": [
+        "Upper.",
+        "Undirectional.",
+        "Uniform."
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 24,
+      "question_text": "Special VFR flights may be authorized to operate locally within a control zone when the ground visibility is not less than 1500 metres, even when the aircraft Is not equipped with a functioning radio receiver within class:",
+      "question_type": "MCQ",
+      "options": [
+        "D airspace",
+        "D and E airspace",
+        "E airspace"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 25,
+      "question_text": "Flight information service shall be provided to all aircraft which are likely to be affected by the information and which are:",
+      "question_type": "MCQ",
+      "options": [
+        "Provided with the air traffic control services and otherwise known to the relevant air traffic service units",
+        "Known to the relevant air traffic services units by a filed flightplan",
+        "Provided with air traffic control services, only"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 26,
+      "question_text": "Alerting service shall be provided:",
+      "question_type": "MCQ",
+      "options": [
+        "For all controlled flight, to any aircraft known or believed to be subject of unlawful interference, and in so far as practicable to all aircraft having filed a flight plan or otherwise known to the ATS",
+        "For all aircraft provided with air traffic control services, only",
+        "To any aircraft known or believed to be subject of unlawful interference, only"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 27,
+      "question_text": "The speed limitation for IFR flights inside ATS airspace classified as E, when flying below 3050m (10000ft) AMSL, is:",
+      "question_type": "MCQ",
+      "options": [
+        "250kt TAS",
+        "250kt IAS",
+        "Not applicable"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 28,
+      "question_text": "Air Traffic Service unit means:",
+      "question_type": "MCQ",
+      "options": [
+        "Air Traffic Control units and Air Services reporting offices",
+        "Flight Information Centers and Air Services reporting offices",
+        "Air Traffic Control units, Flight Information Centers or Air Services reporting offices"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 29,
+      "question_text": "A controlled airspace extending upwards from a specified limit above the earth Is:",
+      "question_type": "MCQ",
+      "options": [
+        "Advisory airspace",
+        "Control area",
+        "Flight Information Region"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 30,
+      "question_text": "Tirupati aerodrome designator is?",
+      "question_type": "MCQ",
+      "options": [
+        "VATP",
+        "VOTP",
+        "VITP"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 31,
+      "question_text": "Aerodrome traffic is:",
+      "question_type": "MCQ",
+      "options": [
+        "All traffic on the manoeuvring area and flying in the vicinity of an aerodrome",
+        "All traffic in the aerodrome circuit",
+        "All traffic on the manoeuvring area"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 32,
+      "question_text": "Which of the following Annexes to the Chicago convention contains international standards and recommended practices for air traffic services (ATS)?",
+      "question_type": "MCQ",
+      "options": [
+        "Annex 6",
+        "Annex 14",
+        "Annex 11"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 33,
+      "question_text": "An information issued by a meteorological watch office concerning the occurence or expected occurence of specified en-route weather phenomena which may affect the safety of low-level aircraft operations and which was not already included in the forecast issued for low level flights in the flight information region concerned or sub-area thereof is",
+      "question_type": "MCQ",
+      "options": [
+        "An En-Route Met Report",
+        "A NOTAM",
+        "An AIRMET information"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 34,
+      "question_text": "Regarding Aerodrome Flight Information (AFIS):",
+      "question_type": "MCQ",
+      "options": [
+        "Its purpose is to supply ATC services but it is not a state organisation",
+        "It can only supply limited services to the users and under no circumstances may it supply ATC services",
+        "It has the same privileges and prerogatives as an ATC organisation but its activity is neither continuous nor regular"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 35,
+      "question_text": "Air Traffic Control service shall be provided to::",
+      "question_type": "MCQ",
+      "options": [
+        "All IFR flights in class A, B, C, D, E and F airspaces.",
+        "All VFR flights in class B, C, D and E airspaces.",
+        "To all aerodrome traffic at controlled aerodromes."
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 36,
+      "question_text": "Flight Information Region (FIR) is an airspace within which the following services are provided:",
+      "question_type": "MCQ",
+      "options": [
+        "Flight Information Service and Alerting Service",
+        "Flight Information Service and Advisory Service",
+        "Flight Information Service, Alerting Service and Advisory Service"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 37,
+      "question_text": "Control Area (CTA) is defined as follows:",
+      "question_type": "MCQ",
+      "options": [
+        "A controlled airspace extending upwards from a specified limit above the earth",
+        "A controlled airspace extending upwards from the surface of the earth to a specified limit",
+        "A controlled airspace extending upwards from a height of 900ft above the earth"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 38,
+      "question_text": "Aerodrome local flying area is to be considered, if ATZ is not notified:",
+      "question_type": "MCQ",
+      "options": [
+        "With in 5 NM of ARP up to 3000 feet.",
+        "With in 25 NM of ARP up to 10,000 feet.",
+        "With in 10 NM of ARP up to 5000 feet."
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 39,
+      "question_text": "An air traffic control unit:",
+      "question_type": "MCQ",
+      "options": [
+        "May ask an aircraft to temporarily change its callsign for safety reasons when there is a risk of confusion between two or more similar callsigns",
+        "May not ask an aircraft to change its callsign after accepting the flight plan",
+        "Must not ask an aircraft to change its callsign"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 40,
+      "question_text": "Required Navigation Performance (RNP) shall be prescribed",
+      "question_type": "MCQ",
+      "options": [
+        "By regional air navigation agreements",
+        "By states but not on the basis of regional air agreements",
+        "By states on the basis of regional air navigation agreements"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 41,
+      "question_text": "A Control Zone shall extend laterally to at least:",
+      "question_type": "MCQ",
+      "options": [
+        "10 miles from the centre of the aerodrome or aerodromes concerned in the direction from which approaches may be made",
+        "5 nautical miles from the centre of the aerodrome or aerodromes concerned in the direction from which approaches may be made",
+        "20 miles from the centre of the aerodrome or aerodromes concerned in the direction from which approaches may be made"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 42,
+      "question_text": "G245ZF is a designator for:",
+      "question_type": "MCQ",
+      "options": [
+        "a SID",
+        "a STAR",
+        "an ATS Route"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 43,
+      "question_text": "An ATS airspace where IFR and VFR are permitted and receive flight information service if requested, is classified as",
+      "question_type": "MCQ",
+      "options": [
+        "Airspace G",
+        "Airspace E",
+        "Airspace C"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 44,
+      "question_text": "Concerning to RNP (Required Navigation Performance) types, the indication RNP 4, represents a navigation accuracy of",
+      "question_type": "MCQ",
+      "options": [
+        "Plus or minus 4 NM on a 95% containment basis",
+        "Plus or minus 4 NM on a 98% containment basis",
+        "Plus or minus 4 NM on a 90% containment basis"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 45,
+      "question_text": "Area Control Centers Issue clearances for the purpose of:",
+      "question_type": "MCQ",
+      "options": [
+        "Achieving separation between IFR flights",
+        "Achieving separation between controlled flights",
+        "Providing flight information Service"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 46,
+      "question_text": "Clearances will be issued by an ATC unit for the purpose of:",
+      "question_type": "MCQ",
+      "options": [
+        "Achieving separation between controlled flights",
+        "Providing alerting services",
+        "Providing advisory services"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 47,
+      "question_text": "You receive an IFR enroute clearance starting: Clearance expires at 0920. What does it mean?",
+      "question_type": "MCQ",
+      "options": [
+        "If not airborne until 0920, a new clearance has to be issued",
+        "The take off clearance is expected at 0920",
+        "After 0920 return to the ramp and file a new flight plan"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 48,
+      "question_text": "ATIS broadcast",
+      "question_type": "MCQ",
+      "options": [
+        "Shall only be transmitted on a discrete VHF frequency",
+        "Shall not be transmitted on the voice channel of an ILS",
+        "Shall not be transmitted on the voice of VOR"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 49,
+      "question_text": "Whenever ATIS is provided, the preparation and dissemination of the ATIS message shall be the responsibility of",
+      "question_type": "MCQ",
+      "options": [
+        "Both air traffic services and the meteorological office",
+        "The meteorological office serving the aerodromes",
+        "The air traffic services"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 50,
+      "question_text": "Whenever ATIS is provided, the broadcast information shall be updated",
+      "question_type": "MCQ",
+      "options": [
+        "As prescribed by the meteorological office",
+        "Immediately a significant change occurs",
+        "As prescribed by the state"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 51,
+      "question_text": "The ATIS broadcast message should, whenever practicable, not exceed",
+      "question_type": "MCQ",
+      "options": [
+        "30 seconds",
+        "1 minute",
+        "2 minutes"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 52,
+      "question_text": "ATIS broadcast messages containing departure and arrival information should include cloud cover, when the clouds are:",
+      "question_type": "MCQ",
+      "options": [
+        "Below 900m (3000ft) or below the highest minimum sector altitude, whichever is the greater",
+        "Below 2000m (600ft) or below the highest minimum sector altitude, whichever is the greater",
+        "Below 1500m (5000ft) or below the highest minimum sector altitude, whichever is the greater"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 53,
+      "question_text": "When are ATIS broadcasts updated?",
+      "question_type": "MCQ",
+      "options": [
+        "Upon receipt of any official weather, regardless of content change or reported values",
+        "Every 30 minutes if weather conditions are below those for VFR; otherwise hourly",
+        "Only when the ceiling and/or visibility changes by a reportable value"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 54,
+      "question_text": "Flight Information Service shall be provided to aircraft in order to avoid collision hazards when operating in airspace classes:",
+      "question_type": "MCQ",
+      "options": [
+        "F and G only",
+        "C, D, E, F and G",
+        "A, B, C, D, E, F and G"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 55,
+      "question_text": "The lateral limit of CTR shall extend to atleast NMs from the center of aerodrome in directions from where approaches may be made:",
+      "question_type": "MCQ",
+      "options": [
+        "25",
+        "10",
+        "5"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 56,
+      "question_text": "At radio communications, \"Distress\" differs from \"Urgency\" because in the first case",
+      "question_type": "MCQ",
+      "options": [
+        "The aeroplane has suffered damages which impair its fitness to fly",
+        "There is a serious and imminent danger requiring immediate assistance",
+        "The aeroplane will not be able to reach a suitable aerodrome"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 57,
+      "question_text": "The Alerting Service is provided by:",
+      "question_type": "MCQ",
+      "options": [
+        "The Area Control Centers",
+        "The ATS unit responsible for the aircraft at that moment",
+        "Only by ATC units"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 58,
+      "question_text": "The phases related to an aircraft in emergency or believed in emergency are:",
+      "question_type": "MCQ",
+      "options": [
+        "Uncertainty phase, distress phase, urgency phase",
+        "Uncertainty phase, alert phase, distress phase",
+        "Uncertainty phase, urgency phase, distress phase"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 59,
+      "question_text": "When an aircraft is experiencing difficulties, triggering of the alert phase is the responsibility of",
+      "question_type": "MCQ",
+      "options": [
+        "Search and rescue coordination centers",
+        "Control centers only",
+        "Air traffic control and flight information centers"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 60,
+      "question_text": "What type of flight is allowed in class A airspace",
+      "question_type": "MCQ",
+      "options": [
+        "IFR only",
+        "IFR and VFR",
+        "IFR and special VFR"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 61,
+      "question_text": "Alert phase is defined as follows:",
+      "question_type": "MCQ",
+      "options": [
+        "A situation where an apprehension exists as to the safety of an aircraft and its occupants",
+        "An emergency event in which an aircraft and its occupants are considered to be threatened by a danger",
+        "A situation related to an aircraft and its occupants are considered to be in a state of emergency"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 62,
+      "question_text": "A situation in which apprehension exists as to the safety of an aircraft. To which emergency phase does this situation correspond?",
+      "question_type": "MCQ",
+      "options": [
+        "ALERFA",
+        "INCERFA",
+        "DETRESFA"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 63,
+      "question_text": "Which of the following signals is a distress signal?",
+      "question_type": "MCQ",
+      "options": [
+        "In radiotelephony the spoken words PAN, PAN",
+        "A parachute flare showing a red light",
+        "The repeated switching on and off of the navigation lights"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 64,
+      "question_text": "An aircraft is in emergency when:",
+      "question_type": "MCQ",
+      "options": [
+        "It is threatened by grave danger",
+        "It is threatened by grave danger and requires immediate assistance",
+        "It is forced to land"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 65,
+      "question_text": "The different emergency phases (in correct order) are:",
+      "question_type": "MCQ",
+      "options": [
+        "INCERFA, ALERTFA and DISTRESFA",
+        "INCERFA, ALERFA, DETRESFA",
+        "ALERTFA, DISTRESFA, RESCUEFA"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 66,
+      "question_text": "Which of the following statements describes the Alert Phase (ALERFA)?",
+      "question_type": "MCQ",
+      "options": [
+        "An aircraft fails to arrive within 30 minutes of the ETA which was last notified to ATC.",
+        "An aircraft declares that the fuel remaining is insufficient to reach safety.",
+        "An aircraft which has been cleared to land fails to land within 5 minutes of the ETA and communication has not been re-established."
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 67,
+      "question_text": "DETRESFA is where:",
+      "question_type": "MCQ",
+      "options": [
+        "An aircraft fails to land within 5 minutes of being cleared to land",
+        "All answers are correct.",
+        "The fuel on board is considered to be exhausted"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 68,
+      "question_text": "RSP 180 indicates:",
+      "question_type": "MCQ",
+      "options": [
+        "Time in seconds taken by a pilot to receive surveillance instructions from the controller.",
+        "Time in seconds between flight crew/HMI and controller/HMI.",
+        "Distance in NMs between two way points in defined RSP airspace."
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 69,
+      "question_text": "A strayed aircraft is an aircraft:",
+      "question_type": "MCQ",
+      "options": [
+        "that has deviated significantly from its intended track or reports that it is lost.",
+        "that has been observed or is reported to be operating in a given area but whose identity has not been established.",
+        "only that aircraft which has deviated significantly its intended track."
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 70,
+      "question_text": "Having filed a flight plan to a particular destination and having landed at another destination, you should notify ATC:",
+      "question_type": "MCQ",
+      "options": [
+        "within 60 minutes after landing at the alternate destination",
+        "within 30 minutes after landing at the alternate destination",
+        "within 30 minutes of your intended ETA at your original destination."
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 71,
+      "question_text": "Designated airspace within controlled airspace in India is classified as Class:",
+      "question_type": "MCQ",
+      "options": [
+        "C",
+        "D",
+        "C and D."
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 72,
+      "question_text": "TSA801(A) Is an airspace:",
+      "question_type": "MCQ",
+      "options": [
+        "temporarily segregated and allocated in Delhi FIR",
+        "temporarily segregated and allocated in Chennai FIR",
+        "denoting an area navigation route in India"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 73,
+      "question_text": "Temporary Reserved Area (TRA) is an airspace temporarily reserved and allocated:",
+      "question_type": "MCQ",
+      "options": [
+        "through which other traffic may be allowed to transit in VMC only",
+        "through which other traffic is not allowed to transit with out proper equipment",
+        "through which other traffic may be allowed to transit under ATC clearance"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 74,
+      "question_text": "MFA published in AIP ensures at least 1000 feet vertical clearance from obstacles within of center line?",
+      "question_type": "MCQ",
+      "options": [
+        "10 Kms",
+        "10 NMs",
+        "20 NMs"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 75,
+      "question_text": "Class C airspaces in India extend from to",
+      "question_type": "MCQ",
+      "options": [
+        "Ground level, FL 150",
+        "4000 feet, FL 285",
+        "FL 150, FL 290"
+      ],
+      "solution": "B",
+      "answer": "B"
+    }
+  ]
+}
+

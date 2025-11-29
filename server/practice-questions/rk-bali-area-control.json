@@ -1,0 +1,368 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": "6",
+  "chapter_title": "Area Control",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "An aircraft is maintaining FL 150 within airspace class D. Another aircraft below at FL 140 is receiving a clearance to descend to FL. 70. It is severe turbulence in the area. When is the earliest that a clearance to descend to FL 140 or below can be expected?",
+      "question_type": "MCQ",
+      "options": [
+        "When the other aircraft has reported that it has left FL 140",
+        "When the other aircraft has reported that it has reached FL 70",
+        "When the other aircraft has reported that it has descended through FL 130"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 2,
+      "question_text": "The longitudinal separation minima between aircraft departed from the same aerodrome and following the same track, and the preceding aircraft is maintaining a true airspeed of 20kt or more faster than the succeeding aircraft, is:",
+      "question_type": "MCQ",
+      "options": [
+        "5 minutes",
+        "3 minutes",
+        "2 minutes"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 3,
+      "question_text": "The longitudinal separation minima based on time between aircraft at same cruising level where navigation aids permit frequent determination of position and speed and the preceeding aircraft is maintaining a true airspeed of 40kt or more faster than the succeeding aircraft, is:",
+      "question_type": "MCQ",
+      "options": [
+        "5 minutes",
+        "3 minutes",
+        "10 minutes"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 4,
+      "question_text": "The longitudinal separation minima based on time between aircraft at same cruising level where navigation aids permit frequent determination of position and speed and the preceeding aircraft is maintaining a true airspeed of 20kt or more faster than the succeeding aircraft, is:",
+      "question_type": "MCQ",
+      "options": [
+        "15 minutes",
+        "10 minutes",
+        "5 minutes"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 5,
+      "question_text": "The longitudinal separation minima based on time between aircraft at same cruising level where navigation aids permit frequent determination of position and speed, is:",
+      "question_type": "MCQ",
+      "options": [
+        "10 minutes",
+        "3 minutes",
+        "15 minutes"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 6,
+      "question_text": "The longitudinal separation minima between aircraft departed from the same aerodrome and following the same track, and the preceding aircraft is maintaining a true airspeed of 40kt or more faster than the succeeding aircraft, is:",
+      "question_type": "MCQ",
+      "options": [
+        "10 minutes",
+        "8 minutes",
+        "3 minutes"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 7,
+      "question_text": "The longitudinal separation minima based on distance using DME, and each aircraft \"on track\" uses DME stations, is:",
+      "question_type": "MCQ",
+      "options": [
+        "10NM",
+        "20NM",
+        "5NM"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 8,
+      "question_text": "When an aircraft will pass through the level of another aircraft on the same track, the following minimum longitudinal separation shall be provided:",
+      "question_type": "MCQ",
+      "options": [
+        "5 minutes at the time the level is crossed",
+        "15 minutes at the time the level is crossed",
+        "10 minutes at the time the level is crossed"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 9,
+      "question_text": "\"ESSENTIAL TRAFFIC\" is that controlled flight to which the provision of separation by ATC is applicable, but which, in relation to a particular controlled flight is not separated therefore by the appropriate separation minima. Whenever separation minima is not applied. The following flights are considered essential traffic one to each other.",
+      "question_type": "MCQ",
+      "options": [
+        "All IFR flights in controlled airspace and controlled VFR",
+        "Only controlled IFR flights",
+        "Controlled VFR flights and VFR flights"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 10,
+      "question_text": "Above FL 290 the vertical flight separation between aircraft on the same direction is:",
+      "question_type": "MCQ",
+      "options": [
+        "2000ft",
+        "4000ft",
+        "3000ft"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 11,
+      "question_text": "Track separation between aircraft using the same NDB shall be applied requiring the aircraft to fly:",
+      "question_type": "MCQ",
+      "options": [
+        "At least $30^{\\circ}$ separated at a distance of 15NM or more from the facility",
+        "At least $45^{\\circ}$ separated at a distance of 15NM or more from the facility",
+        "At least $30^{\\circ}$ separated at a distance of 15 miles or more from the facility"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 12,
+      "question_text": "Two aircraft flying at FL 170 using GNSS are confirmed to be established on tracks separated by $120^{\\circ}$ with zero offset between two waypoints. At least one aircraft is to be at a minimum distance NMs from a common point for separation.",
+      "question_type": "MCQ",
+      "options": [
+        "5",
+        "10",
+        "15"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 13,
+      "question_text": "If an ATC clearance is not suitable to the pilot in command of an aircraft:",
+      "question_type": "MCQ",
+      "options": [
+        "He may request another clearance and the ATC concerned has to accept the pilot request",
+        "He may request and, if practicable, obtain an amended clearance",
+        "The pilot has to accept the ATC clearance because it has been based on the flightplan filed with ATC"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 14,
+      "question_text": "The \"VMC and own separation\" ATC clearance is used for a controlled flight to cross the level of another controlled flight when:",
+      "question_type": "MCQ",
+      "options": [
+        "Requested by the pilot in airspace classes A and B and authorised by ATC",
+        "Requested by the pilot, during the day light and authorized by the state overflown",
+        "Requested by the pilot and authorized by the state overflown"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 15,
+      "question_text": "A/c on same level converging track has separation",
+      "question_type": "MCQ",
+      "options": [
+        "15min",
+        "10min",
+        "5min"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 16,
+      "question_text": "What are the controlled IFR separation methods applied by ATC?",
+      "question_type": "MCQ",
+      "options": [
+        "Vertical, horizontal and composite separation",
+        "Time separation and track separation",
+        "Composite separation"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 17,
+      "question_text": "The vertical IFR separation minimum being applied by ATC within a controlled airspace below FL 290 is:",
+      "question_type": "MCQ",
+      "options": [
+        "500ft (150m)",
+        "2000ft (600m)",
+        "1000ft (300m)"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 18,
+      "question_text": "The vertical IFR separation minimum being applied by ATC within a controlled airspace above FL 290 is:",
+      "question_type": "MCQ",
+      "options": [
+        "500ft (150m)",
+        "2000ft (600m)",
+        "1000ft (300m)"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 19,
+      "question_text": "Longitudinal separation minima based on distance using DME for aircraft at the same cruising level and track, provided that each aircraft utilizes \"on Track\" DME stations and separation is checked by obtaining simultaneous DME readings, is:",
+      "question_type": "MCQ",
+      "options": [
+        "20NM",
+        "25NM",
+        "40NM"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 20,
+      "question_text": "A \"RNAV\" distance based separation minimum may be used at the time the level is crossed, provided that each aircraft reports its distance to or from the same \"on track\"way-point. This minimum is:",
+      "question_type": "MCQ",
+      "options": [
+        "20NM",
+        "80NM",
+        "60NM"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 21,
+      "question_text": "A VFR flight constitutes essential traffic to other VFR flights, when operating in controlled airspace classified as:",
+      "question_type": "MCQ",
+      "options": [
+        "B",
+        "B, C, D and E",
+        "B and C"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 22,
+      "question_text": "RCP 120 is the number of:",
+      "question_type": "MCQ",
+      "options": [
+        "Transmissions loaded on aircraft FMS for data link exchange.",
+        "Minutes required to divert to a suitable aerdrome under ETOP conditions.",
+        "Seconds it takes for an instruction to travel from the ground to aircraft and acknowledgment back to the ground."
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 23,
+      "question_text": "Vertical or horizontal separation shall be provided between:",
+      "question_type": "MCQ",
+      "options": [
+        "All flights in class A, B and C airspaces",
+        "All flights in class A and B airspaces",
+        "All flights in class B, C and D airspaces"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 24,
+      "question_text": "The separation method whereby the vertical and horizontal separation may be reduced till a maximum of half the standard criteria is called:",
+      "question_type": "MCQ",
+      "options": [
+        "Composite separation",
+        "Reduced separation",
+        "Combined separation"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 25,
+      "question_text": "ADS-B ground station is more than 110 NMs from two aircraft at same level. Only ADS-B is being used for separation in non radar environment. The minimum safe distance between these aircraft is NMs.",
+      "question_type": "MCQ",
+      "options": [
+        "10",
+        "5",
+        "3"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 26,
+      "question_text": "Cruising level IFR during cruise within controlled airspace shall be given as flight level (FL)",
+      "question_type": "MCQ",
+      "options": [
+        "Above the transition altitude when applicable",
+        "Only in airspace class A",
+        "If the obstacle clearance is more than 2000ft"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 27,
+      "question_text": "Aircraft flying along the same track may be separated by DME-distances from the same DME and it is confirmed that the aircraft have passed each other. Specify the shortest difference in DME-distance to make it possible for one aircraft to climb or descend",
+      "question_type": "MCQ",
+      "options": [
+        "10NM",
+        "12NM",
+        "15NM"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 28,
+      "question_text": "Track separation between aircraft using the same VOR shall be applied requiring the aircraft to fly:",
+      "question_type": "MCQ",
+      "options": [
+        "At least $15^{\\circ}$ separated at a distance of 15 miles or more from the facility",
+        "At least $15^{\\circ}$ separated at a distance of 15NM or more from the facility",
+        "At least $30^{\\circ}$ separated at a distance of 15NM or more from the facility"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 29,
+      "question_text": "ATC clearances are solely issued for:",
+      "question_type": "MCQ",
+      "options": [
+        "Alerting pilots about other aircraft in close vicinity",
+        "Making pilots follow laid down procedures",
+        "Expediting and separating air traffic"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 30,
+      "question_text": "The longitudinal separation minima based on DME, and each aircraft \"on track\" uses DME stations, is:",
+      "question_type": "MCQ",
+      "options": [
+        "10NM provided that the leading aircraft maintains a true airspeed of 40kt or more faster than the succeeding aircraft",
+        "10NM provided that the leading aircraft maintains a true airspeed of 20kt or more faster than the succeeding aircraft",
+        "20NM provided that the leading aircraft maintains a true airspeed of 10kt or more faster than the succeeding aircraft"
+      ],
+      "solution": "B",
+      "answer": "B"
+    }
+  ]
+}
+

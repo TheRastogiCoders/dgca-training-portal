@@ -1,0 +1,608 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": "12",
+  "chapter_title": "visual aid navigation",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "Which of the following Annexes to the Chicago convention contains minimum specifications for the design of aerodromes?",
+      "question_type": "MCQ",
+      "options": [
+        "Annex 14",
+        "Annex 11",
+        "Annex 6"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 2,
+      "question_text": "\"Clearway\" is a defined rectangular area established to:",
+      "question_type": "MCQ",
+      "options": [
+        "Reduce the risk of damage to aircraft running off a runway",
+        "Protect aircraft during take-off or landing operations",
+        "Permit aircraft to make a portion of its initial climb to a specific height"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 3,
+      "question_text": "The STOPWAY is a defined rectangular area on the ground at the end of take-off run available prepared as a suitable area where:",
+      "question_type": "MCQ",
+      "options": [
+        "A landing aircraft can be stopped if overcoming the end of runway",
+        "An aircraft can be stopped in the case of an abandoned take-off",
+        "A landing aircraft can be stopped only in emergency"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 4,
+      "question_text": "\"ASDA\" (Accelerate Stop Distance Available) is:",
+      "question_type": "MCQ",
+      "options": [
+        "The length of the take-off run available plus the length of stopway and clearway (if provided)",
+        "The length of the take-off run available plus the length of stopway (if stopway provided)",
+        "The length of the runway plus the length of stopway available (if stopway provided)"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 5,
+      "question_text": "\"Instrument runways\" are the following runways intended for the operation of aircraft using instrument approach procedures:",
+      "question_type": "MCQ",
+      "options": [
+        "Non precision approach runways, precision approach runways category I, II and III",
+        "Instrument approach runways, precision approach runways category I, II and",
+        "Precision approach runways category I, II and III"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 6,
+      "question_text": "\"TODA\" take-off distance available is:",
+      "question_type": "MCQ",
+      "options": [
+        "The length of the take-off run available plus the length of the clearway (if provided)",
+        "The length of the take-off run available plus the length of stopway and clearway (if provided)",
+        "The length of the take-off run plus the length of the stopway"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 7,
+      "question_text": "The light shown by an \"Aerodrome Identification Beacon\" at a land aerodrome shall be:",
+      "question_type": "MCQ",
+      "options": [
+        "White and green colour identification given by Morse Code",
+        "Green colour identification given by Morse Code",
+        "Blue colour identification given by Morse Code"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 8,
+      "question_text": "Taxiway edge lights shall be:",
+      "question_type": "MCQ",
+      "options": [
+        "Fixed showing green",
+        "Fixed showing yellow",
+        "Fixed showing blue"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 9,
+      "question_text": "In the case of parallel runways, each runway designation number shall be supplemented:",
+      "question_type": "MCQ",
+      "options": [
+        "By a letter-for example 2 parallel runways \"L\" and \"R\"-for 3 \"L\",\"C\" and \"R\"",
+        "By a letter for 2 parallel runways",
+        "By a number like \"0\" and \"01\" for 2 parallel runways"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 10,
+      "question_text": "In the \"PAPI\" system the pilot during an approach will see the two units nearest the runway as red and the two units farthest from the runway as white when:",
+      "question_type": "MCQ",
+      "options": [
+        "Above the approach slope",
+        "On or close to the approach slope",
+        "Only on the approach slope"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 11,
+      "question_text": "Runway threshold identification lights, when provided, should be:",
+      "question_type": "MCQ",
+      "options": [
+        "Fixed green",
+        "Fixed white",
+        "Flashing white"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 12,
+      "question_text": "What is a \"barrette\"?",
+      "question_type": "MCQ",
+      "options": [
+        "Three or more ground lights closely spaced together to appear as a bar of lights",
+        "A frangible structure on which approach lights are fixed",
+        "A CAT 2 or 3 holding position"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 13,
+      "question_text": "What is the length of an approach lighting system of a precision-approach runway CAT II:",
+      "question_type": "MCQ",
+      "options": [
+        "600m",
+        "900m",
+        "300m"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 14,
+      "question_text": "Runway end lights shall be:",
+      "question_type": "MCQ",
+      "options": [
+        "Fixed lights showing variable red",
+        "Fixed unidirectional lights showing red in the direction of the runway",
+        "Fixed lights showing variable white"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 15,
+      "question_text": "Aerodromes signs should be in the following configuration:",
+      "question_type": "MCQ",
+      "options": [
+        "mandatory instruction signs, black backgrounds with red inscriptions",
+        "information signs, yellow or black background with black or yellow inscriptions",
+        "mandatory instruction signs, red background with black inscriptions"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 16,
+      "question_text": "The \"PAPI\" shall consist of:",
+      "question_type": "MCQ",
+      "options": [
+        "Two wing bars of 4 sharp transition multi-lamp or paired units equally spaced",
+        "A wing bar of 4 sharp transition multi-lamp or paired units equally spaced",
+        "Two wing bars of 6 sharp transition multi-lamp or paired units equally spaced"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 17,
+      "question_text": "Runway threshold lights shall be:",
+      "question_type": "MCQ",
+      "options": [
+        "Fixed lights green colours",
+        "Fixed lights showing green or white colours",
+        "Fixed unidirectional lights showing green in the direction of approach to the runway"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 18,
+      "question_text": "Taxiway centerline lights other than an exit taxiway shall be:",
+      "question_type": "MCQ",
+      "options": [
+        "Fixed lights showing blue",
+        "Fixed lights showing green",
+        "Fixed lights showing yellow"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 19,
+      "question_text": "How many red lights must a pilot see, whose aircraft, in final approach, is following a normal glide path defined by a PAPI?",
+      "question_type": "MCQ",
+      "options": [
+        "2",
+        "None",
+        "3"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 20,
+      "question_text": "Runway edge lights expected in the case of a displaced threshold shall be:",
+      "question_type": "MCQ",
+      "options": [
+        "Fixed lights, white or yellow colour",
+        "Flashing white",
+        "Fixed lights showing variable white"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 21,
+      "question_text": "The abbreviation PAPI stands for:",
+      "question_type": "MCQ",
+      "options": [
+        "Precision Approach Path Indicator",
+        "Precision Approach Power Index",
+        "Precision Approach Path Index"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 22,
+      "question_text": "High intensity obstacle lights should be:",
+      "question_type": "MCQ",
+      "options": [
+        "Flashing red",
+        "Flashing white",
+        "Fixed orange"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 23,
+      "question_text": "Low intensity obstacle lights on mobile objects shall be:",
+      "question_type": "MCQ",
+      "options": [
+        "Fixed red or preferably orange",
+        "Flashing blue",
+        "Flashing red or preferably yellow"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 24,
+      "question_text": "Low intensity obstacle lights on fixed objects shall be:",
+      "question_type": "MCQ",
+      "options": [
+        "Flashing red",
+        "Fixed red",
+        "Flashing yellow"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 25,
+      "question_text": "The runway edge lights shall be:",
+      "question_type": "MCQ",
+      "options": [
+        "Red",
+        "White",
+        "Green"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 26,
+      "question_text": "The aerodrome category for rescue and fire fighting is based on:",
+      "question_type": "MCQ",
+      "options": [
+        "The over-all length of the longest aeroplane normally using the aerodrome and its maximum fuselage width",
+        "The over-all length of the longest aeroplane",
+        "The longest aeroplane maximum width only"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 27,
+      "question_text": "Regarding declared airfield distances the ASDA is:",
+      "question_type": "MCQ",
+      "options": [
+        "The distance from the start of the take-off run to the last point capable of bearing the full weight of the aircraft under normal operating conditions",
+        "The distance from the start of the take-off run to the end of the stopway",
+        "The area beyond the end of the prepared surface only available to aircraft stopping in an emergency"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 28,
+      "question_text": "\"A defined rectangular area on the ground at the end of take-off run available prepared as a suitable area in which an aircraft can be stopped in the case of an abandoned take-off\" is the definition for:",
+      "question_type": "MCQ",
+      "options": [
+        "Runway strip",
+        "Runway end safety area",
+        "Stopway"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 29,
+      "question_text": "Where a parking bay is provided at an aerodrome suitable for the parking of an aircraft which is known of believed to be the subject of unlawful interference, what is the minimum distance that this parking bay needs to be separated form any other parking areas, buildings.",
+      "question_type": "MCQ",
+      "options": [
+        "100 m",
+        "50 m",
+        "200 m"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 30,
+      "question_text": "Crash/Rescue (emergency) services provision is categorised according to physical characteristics of the type of aeroplane using the aerodrome. Upon what are the categories based?",
+      "question_type": "MCQ",
+      "options": [
+        "Overall length and maximum takeoff mass",
+        "Overall length and fuselage width",
+        "Maximum number of passengers on board"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 31,
+      "question_text": "How is a paved pre-threshold area which is greater than 60 m in length but not suitable for any use by aircraft, marked?",
+      "question_type": "MCQ",
+      "options": [
+        "By white arrows directing approaching aircraft to the displaced threshold",
+        "By a yellow X",
+        "By a white X"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 32,
+      "question_text": "Which of the following systems describes an abbreviated precision approach path indicator:",
+      "question_type": "MCQ",
+      "options": [
+        "Ten light units arranged on one side of the runway in the form of a single wing bar of four light units, with a bisecting longitudinal line of six lights",
+        "Twenty light units symmetrically disposed about the runway centre line in the form of two wing bars of four light units each, with bisecting longitudinal lines of six lights",
+        "A wing bar of 2 sharp transition multi-lamp units normally located on the left side of the runway unless it is physically impracticable to do so"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 33,
+      "question_text": "What colour are emergency vehicles painted that are used on the manoeuvring area of an aerodrome?",
+      "question_type": "MCQ",
+      "options": [
+        "A single conspicuous colour, preferably red or yellowish green",
+        "Green",
+        "Orange"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 34,
+      "question_text": "Alternate yellow/green centre line lights of a taxiway indicate:",
+      "question_type": "MCQ",
+      "options": [
+        "The proximity of a runway",
+        "An ILS/MLS critical/sensitive area",
+        "A stopway"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 35,
+      "question_text": "When taxling on a surface with white markings, you are rolling on a:",
+      "question_type": "MCQ",
+      "options": [
+        "Movement Area",
+        "Runway",
+        "Clearway"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 36,
+      "question_text": "What colour are apron safety line markings?",
+      "question_type": "MCQ",
+      "options": [
+        "White",
+        "Red",
+        "A contrasting colour from the taxiway markings"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 37,
+      "question_text": "Runway centre line lights shall be fixed lights showing variable... from the threshold to the point 900m from the runway end, alternate... and variable... from 900m to 300m from runway end, and... from 300m to the runway end.",
+      "question_type": "MCQ",
+      "options": [
+        "White, red and white, red",
+        "White, yellow, red",
+        "Green, yellow, red"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 38,
+      "question_text": "What colour is an aerodrome beacon at a land aerodrome?",
+      "question_type": "MCQ",
+      "options": [
+        "Yellow or yellow/white",
+        "Green or green/white",
+        "White or white/green"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 39,
+      "question_text": "Which of the following describes a location sign?",
+      "question_type": "MCQ",
+      "options": [
+        "Red writing on a white background",
+        "Yellow writing on a black background",
+        "Black writing on a yellow background"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 40,
+      "question_text": "When on or close to the approach slope, the wing bar of a PAPI shows:",
+      "question_type": "MCQ",
+      "options": [
+        "Two red lights and two white lights",
+        "Four red lights",
+        "Three white lights and one red light"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 41,
+      "question_text": "Which of the following is not a mandatory instruction sign:",
+      "question_type": "MCQ",
+      "options": [
+        "Taxi-holding position sign",
+        "Road holding position sign",
+        "Direction sign"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 42,
+      "question_text": "The number of stripes on each side of the centre line of a runway which has a width of 45m is:",
+      "question_type": "MCQ",
+      "options": [
+        "3",
+        "6",
+        "4"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 43,
+      "question_text": "Mandatory instructions signs on an aerodrome shall have the following colours:",
+      "question_type": "MCQ",
+      "options": [
+        "White inscription on a red background",
+        "Yellow inscription on a black background",
+        "Black inscription on a yellow background"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 44,
+      "question_text": "Taxiway markings and aircraft stand markings are:",
+      "question_type": "MCQ",
+      "options": [
+        "Red",
+        "Yellow",
+        "White"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 45,
+      "question_text": "Taxiway centre line lights other than an exit taxiway shall be:",
+      "question_type": "MCQ",
+      "options": [
+        "Fixed lights showing green.",
+        "Fixed lights showing yellow.",
+        "Fixed lights showing blue."
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 46,
+      "question_text": "ARIWS is a system used for:",
+      "question_type": "MCQ",
+      "options": [
+        "warning a pilot about bird activity on take off path",
+        "cautioning a pilot about wind shear on finals in real time",
+        "warning a pilot about runway incursion in near real time"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 47,
+      "question_text": "You see a board painted in white with letters in red on taxytrack edge. This board is a",
+      "question_type": "MCQ",
+      "options": [
+        "information sign",
+        "mandatory instruction sign",
+        "holding position sign"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 48,
+      "question_text": "An aiming point marking shall be provided at",
+      "question_type": "MCQ",
+      "options": [
+        "each approach end of paved instrument runway",
+        "paved taxy track joining precision approach runway",
+        "paved runways not provided with touch down zone markings"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 49,
+      "question_text": "LFFZ is established around an aerodrome to;",
+      "question_type": "MCQ",
+      "options": [
+        "protect aircraft from low flying aircraft",
+        "protect aircraft from laser emitters",
+        "protect aircraft from low flying fighter aircraft in military areas"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 50,
+      "question_text": "VASIS shall be provided to serve the approach to a runway:",
+      "question_type": "MCQ",
+      "options": [
+        "not served by visual approach aids",
+        "not served by non visual approach aids",
+        "whether or not the runway is served by visual approach aids or by non-visual aids, where turbo jet operations take place"
+      ],
+      "solution": "C",
+      "answer": "C"
+    }
+  ]
+}
+

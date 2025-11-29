@@ -1,0 +1,1207 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": "13",
+  "chapter_title": "PROCEDURES FOR AIR NAVIGATION SERVICES: AIRCRAFT OPERATIONS",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "PANS-OPS means:",
+      "question_type": "MCQ",
+      "options": [
+        "Pilots Alternate Navigational Systems and Operational Procedures",
+        "Procedures for Air Navigation Services - Aircraft operations",
+        "Procedures for Air Navigation Systems - Airfield operations"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 2,
+      "question_text": "The document that specifies the recommendations for instrument procedures is called...",
+      "question_type": "MCQ",
+      "options": [
+        "PANS OPS Doc 8168",
+        "The Convention of Chicago",
+        "The Air Navigation bulletin"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Which of the following defines transition altitude?",
+      "question_type": "MCQ",
+      "options": [
+        "The altitude above which the vertical position of an aircraft is determined by reference to local QHN",
+        "The altitude below which the vertical position of an aircraft is determined by reference to QNH",
+        "The altitude at which 1013 hPa is set and vertical position then reported as a flight level"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 4,
+      "question_text": "The Transition Level:",
+      "question_type": "MCQ",
+      "options": [
+        "Is published for the aerodrome in the Section ENR of the AIP",
+        "Shall be the lowest flight level available for use above the transition altitude",
+        "Is calculated and declared for an approach by the Pilot-in command"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 5,
+      "question_text": "During flight through the transition layer the vertical position of the aircraft should be expressed as",
+      "question_type": "MCQ",
+      "options": [
+        "Altitude above mean sea level during climb.",
+        "Either altitude above mean sea level or flight level during climb",
+        "Altitude above mean sea level during descent"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 6,
+      "question_text": "Transition from altitude to flight level, and vice-versa is done:",
+      "question_type": "MCQ",
+      "options": [
+        "At transition level during climb and transition altitude during descent",
+        "At transition altitude during climb and transition level during descent",
+        "Only at transition altitude"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 7,
+      "question_text": "Which of the following cruising levels would you select under the following conditions: True track $358^{\\circ}$, variation $3^{\\circ}$E, deviation $2^{\\circ}$W?",
+      "question_type": "MCQ",
+      "options": [
+        "FL 65",
+        "FL 75",
+        "FL 70"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 8,
+      "question_text": "In the vicinity of an aerodrome that is going to be used by the aircraft the vertical position of the aircraft shall be expressed in:",
+      "question_type": "MCQ",
+      "options": [
+        "Altitude above sea level on or above the transition altitude",
+        "Flight level on or below the transition level",
+        "Altitude above sea level on or below the transition altitude"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 9,
+      "question_text": "The vertical position of an aircraft at or below the transition altitude will be reported:",
+      "question_type": "MCQ",
+      "options": [
+        "As flight level",
+        "As altitude",
+        "As height"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 10,
+      "question_text": "The transition altitude of an aerodrome should not be below:",
+      "question_type": "MCQ",
+      "options": [
+        "4000ft",
+        "1000ft",
+        "1500ft"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 11,
+      "question_text": "The pilot of a departing aircraft flying under IFR shall change the altimeter setting from QNH to standard setting 1013.25hPA when passing:",
+      "question_type": "MCQ",
+      "options": [
+        "Transition layer",
+        "The level specified by ATC",
+        "Transition altitude"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 12,
+      "question_text": "In the standard atmosphere FL150 is equivalent to:",
+      "question_type": "MCQ",
+      "options": [
+        "15 000 metres",
+        "4 550 metres",
+        "455 metres"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 13,
+      "question_text": "A pre-flight altimeter check should be carried out:",
+      "question_type": "MCQ",
+      "options": [
+        "On the apron",
+        "On the manoeuvring area",
+        "At a known elevation on the aerodrome"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 14,
+      "question_text": "Which of the following correctly lists special purpose codes that are to be used in conjunction with Secondary Surveillance Radar (SSR)?",
+      "question_type": "MCQ",
+      "options": [
+        "Distress 7600, Hijacking 7500, Communication failure 7700",
+        "Distress 7500, Hijacking 7700, Communication failure 7600",
+        "Distress 7700, Hijacking 7500, Communication failure 7600"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 15,
+      "question_text": "When acknowledging mode/code setting instructions, pilots shall:",
+      "question_type": "MCQ",
+      "options": [
+        "Use only the word ROGER",
+        "Use only the word WILCO",
+        "Read back the mode and code to be set"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 16,
+      "question_text": "Pilots shall not operate the SSR special position indicator (IDENT) feature unless:",
+      "question_type": "MCQ",
+      "options": [
+        "Requested by ATC",
+        "They operate a transponder with Mode C",
+        "They operate within controlled airspace"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 17,
+      "question_text": "When the aircraft carries serviceable Mode C equipment, the pilot:",
+      "question_type": "MCQ",
+      "options": [
+        "Shall continuously operate this mode only when the aircraft is within controlled airspace",
+        "Shall continuously operate this mode regardless of ATC instructions",
+        "Shall continuously operate this mode unless otherwise directed by ATC"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 18,
+      "question_text": "When an aircraft carries a serviceable transponder, the pilot shall operate the transponder:",
+      "question_type": "MCQ",
+      "options": [
+        "At all times during flight, regardless of whether the aircraft is within or outside airspace where SSR is used for ATS purposes",
+        "Only when the aircraft is flying within controlled airspace",
+        "Only when the aircraft is flying within airspace where SSR is used for ATS purposes"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 19,
+      "question_text": "Your transponder code assigned by ATC is 5320. In flight, in case of radio communications failure, you will squawk code:",
+      "question_type": "MCQ",
+      "options": [
+        "A 7620 Mode C",
+        "A 7600 Mode C",
+        "A 0020 Mode C"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 20,
+      "question_text": "The pilot of an aircraft losing two-way communication shall set the transponder to Mode A Code:",
+      "question_type": "MCQ",
+      "options": [
+        "2000",
+        "7700",
+        "7600"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 21,
+      "question_text": "When the aircraft carries serviceable Mode C transponder, the pilot shall continuously operate this mode:",
+      "question_type": "MCQ",
+      "options": [
+        "Regardless of ATC instructions",
+        "Unless otherwise directed by ATC",
+        "Only when directed by ATC"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 22,
+      "question_text": "During a pre-flight a SSR transponder is found to be inoperative and immediate repair is not possible:",
+      "question_type": "MCQ",
+      "options": [
+        "A flight to the closest airport, where a repair can be made is allowed",
+        "A flight can not be made",
+        "It is necessary to specify this failure in the appropriate field of the flight plan"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 23,
+      "question_text": "When an aircraft is subjected to unlawful interference, the pilot-in-command shall indicate the situation by setting the transponder to:",
+      "question_type": "MCQ",
+      "options": [
+        "7500.",
+        "7700.",
+        "7000."
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 24,
+      "question_text": "On receipt of a TA, pilots shall:",
+      "question_type": "MCQ",
+      "options": [
+        "Respond immediately by following the TA as indicated",
+        "Not manoeuvre their aircraft in response to traffic advisories (TAs) only",
+        "Notify the appropriate ATC unit of the TA"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 25,
+      "question_text": "Airborne collision avoidance system (ACAS) indications shall be used by pilots in:",
+      "question_type": "MCQ",
+      "options": [
+        "Both B) and C) are correct.",
+        "The enhancement of situational awareness,",
+        "The active search for, and visual acquisition of, conflicting traffic."
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 26,
+      "question_text": "What are the two main objective of altimeter setting?",
+      "question_type": "MCQ",
+      "options": [
+        "To read height and barometric pressure",
+        "QNH to be set in the vicinity of the aerodrome and QFE en route",
+        "To provide adequate terrain clearance and vertical separation"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 27,
+      "question_text": "Which of the following correctly defines altitude?",
+      "question_type": "MCQ",
+      "options": [
+        "Vertical position with reference to MSL",
+        "Vertical position with reference to aerodrome elevation",
+        "Vertical position with reference to touchdown"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 28,
+      "question_text": "Which of the following correctly defines height?",
+      "question_type": "MCQ",
+      "options": [
+        "Vertical position with reference to MSL",
+        "Vertical position with reference to aerodrome elevation",
+        "Vertical position with reference to touchdown"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 29,
+      "question_text": "Which of the following correctly defines flight level?",
+      "question_type": "MCQ",
+      "options": [
+        "Vertical position with reference to MSL",
+        "Vertical position with reference to aerodrome elevation",
+        "Vertical position with reference to the standard pressure level"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 30,
+      "question_text": "If the QNH is 991 Mb where is FL? (Assume 1 $Mb=30~ft)$",
+      "question_type": "MCQ",
+      "options": [
+        "Below sea level!",
+        "660 ft above mean sea level",
+        "660 ft above the transition level"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 31,
+      "question_text": "Which of the following is the location of FL?",
+      "question_type": "MCQ",
+      "options": [
+        "The first flight level above the transition level",
+        "The level defined with reference to a QNH of 1013.25mb",
+        "The atmospheric pressure level of 1013.25mb"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 32,
+      "question_text": "What is the relationship between IFR and VFR flight level?",
+      "question_type": "MCQ",
+      "options": [
+        "For given mag track, the VFR level is the IFR level plus 500' if below FL290",
+        "IFR levels are flown on mag tracks from 000 to 179 an VFR levels from 180 to 359",
+        "VFR levels may be flown in VMC or IMC, but IFR levels must only be flown in IMC"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 33,
+      "question_text": "At what point in a flight is the QNH communicated to the pilot by ATC?",
+      "question_type": "MCQ",
+      "options": [
+        "On engine start",
+        "In the taxi elearance",
+        "In the ATC clearance"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 34,
+      "question_text": "If you are flying outside an aerodrome traffic zone, what are you required to set on your altimeter sub scale ?",
+      "question_type": "MCQ",
+      "options": [
+        "Regional QFF",
+        "The lowest forecast pressure setting with respect to MSL for the area in which you are flying",
+        "The local QNH obtained from FIS or the nearest aerodrome"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 35,
+      "question_text": "If you are flying en route below the transition level but are well briefed with regard to safety altitude, from where would you get altimeter setting information whilst airborne?",
+      "question_type": "MCQ",
+      "options": [
+        "You only need the departure aerodrome and destination aerodrome QNH and then interpolate the difference whilst en route",
+        "Ask the met man to forecast the QNH for the route before you take off",
+        "Ask the FIS controller for local aerodrome QNHs"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 36,
+      "question_text": "You are approaching an aerodrome to land and call the approach controller at 10nm from the edge of the ATZ. Your flight conditions are VMC and you are flying VFR. When would you expect to be advised to set the aerodrome QNH?",
+      "question_type": "MCQ",
+      "options": [
+        "On initial contact the app controller will pass QNH and tell you what altitude to fly at",
+        "On clearance to enter the traffic pattern established for a visual join to land",
+        "When descending below the transition altitude"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 37,
+      "question_text": "You test your altimeter with aerodrome QNH set. What would a serviceable altimeter read?",
+      "question_type": "MCQ",
+      "options": [
+        "The height of the aeroplane above the datum",
+        "The elevation of the position of the aeroplane plus the height of the altimeter static vent",
+        "The altitude of the aeroplane above the datum"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 38,
+      "question_text": "In selecting a flight level for a flight, which of the following should be taken into consideration?\n1. Adequate terrain clearance is ensured\n2. ATC requirements (Danger Areas, restricted airspace etc.) are complied with\n3. Minimum traffic separation is ensured\n4. Adequate separation from VFR traffic is ensured (differential flight levels applied)\n5. The appropriate flight level in accordance with the table of flight levels\n6. The level chosen complies with the table of cruising levels",
+      "question_type": "MCQ",
+      "options": [
+        "1, 2 and 5",
+        "All the above",
+        "1, 2, 3 and 5"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 39,
+      "question_text": "What is the minimum gradient for missed approach procedure?",
+      "question_type": "MCQ",
+      "options": [
+        "3.3%",
+        "2.8%",
+        "2.5%"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 40,
+      "question_text": "You are entering a FIR where SSR is used from an area where SSR is not used. What would you squawk?",
+      "question_type": "MCQ",
+      "options": [
+        "Standby",
+        "A/1234+C",
+        "$A/2000+C$"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 41,
+      "question_text": "Your aircraft is subjected to unlawful interference (hi jacking). Without upsetting the man with the gun, what would you squawk?",
+      "question_type": "MCQ",
+      "options": [
+        "Either $A/7700$ or A/7500 depending upon the situation",
+        "A/7600+C",
+        "$A/7500+C$"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 42,
+      "question_text": "What are you required to do if you become aware that your transponder has failed?",
+      "question_type": "MCQ",
+      "options": [
+        "Switch the set off",
+        "Try recycling the transponder and set 7777 to maximise the response",
+        "Tell ATC"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 43,
+      "question_text": "Which of the following is an invalid squawk?",
+      "question_type": "MCQ",
+      "options": [
+        "A/7777+C",
+        "A/8765+C",
+        "A/2000+C"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 44,
+      "question_text": "On a single SSR control box/selector system (ie no changeover switch), what is the correct procedure for changing squawk?",
+      "question_type": "MCQ",
+      "options": [
+        "Squawk 'standby', then change the code; then squawk 'normal'.",
+        "Squawk 'off', then change the code; then Squawk 'normal'.",
+        "Only change one digit at a time"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 45,
+      "question_text": "What does the abbreviation ACAS mean?",
+      "question_type": "MCQ",
+      "options": [
+        "Advisory, Counselling and Arbitration Service",
+        "Airborne Collision Avoidance System",
+        "Automatic Collision Avoidance System"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 46,
+      "question_text": "What does the abbreviation OIS mean?",
+      "question_type": "MCQ",
+      "options": [
+        "Obstacle identification surface",
+        "Obstacle in surface",
+        "Obstacle identification slope"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 47,
+      "question_text": "What does the abbreviation DER mean?",
+      "question_type": "MCQ",
+      "options": [
+        "Departure end of runway",
+        "Distance end of runway",
+        "Departure end of route"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 48,
+      "question_text": "The MSA, which must be established around a navigation facility, is in general valid within a sector of:",
+      "question_type": "MCQ",
+      "options": [
+        "25NM",
+        "30NM",
+        "10NM"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 49,
+      "question_text": "What is defined as the portion of a flight in which the aircraft descends below 1000 ft above the relevant DH or MDH?",
+      "question_type": "MCQ",
+      "options": [
+        "Glide path",
+        "Approach to landing",
+        "Go around/Missed Approach"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 50,
+      "question_text": "A radial is:",
+      "question_type": "MCQ",
+      "options": [
+        "A magnetic bearing to or from a VOR station, depending on whether the aircraft is inbound or outbound to or from the VOR",
+        "A magnetic bearing to a VOR station",
+        "A magnetic bearing extending from a VOR station"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 51,
+      "question_text": "A circling approach is:",
+      "question_type": "MCQ",
+      "options": [
+        "A flight manoeuvre to be performed only under radar vectoring",
+        "A contact flight manoeuvre",
+        "A visual flight manoeuvre keeping the runway in sight"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 52,
+      "question_text": "What is the meaning of MEHT?",
+      "question_type": "MCQ",
+      "options": [
+        "Maximum eye height",
+        "Minimum eye height",
+        "Mean height over threshold"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 53,
+      "question_text": "OCH for a precision approach is defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "The lowest height above mean sea level of the relevant runway used in establishing compliance with appropriate obstacle clearance requirements",
+        "The lowest altitude above the aerodrome elevation used in establishing compliance with appropriate obstacle clearance requirements",
+        "The lowest height above the elevation of the relevant runway threshold, at which a missed approach must be initiated to ensure compliance with the appropriate obstacle clearance criteria"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 54,
+      "question_text": "The approach categories of aircraft are based upon:",
+      "question_type": "MCQ",
+      "options": [
+        "1.3 times the stalling speed in clean configuration at minimum certified landing mass",
+        "1.3 times the stalling speed in the landing configuration at minimum certified landing mass",
+        "1.3 times the stalling speed in the landing configuration at maximum certified landing mass"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 55,
+      "question_text": "Maximum permissible bank angle in a holding pattern is degrees:",
+      "question_type": "MCQ",
+      "options": [
+        "35",
+        "30",
+        "25"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 56,
+      "question_text": "The term used to describe the visual phase of flight after completing an instrument approach, to bring an aircraft into position for landing on runway which is not suitably located for straight-in approach, is:",
+      "question_type": "MCQ",
+      "options": [
+        "Visual manoeuvring (circling).",
+        "Contact approach.",
+        "Aerodrome traffic pattern."
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 57,
+      "question_text": "In a straight departure, the initial departure track is of the alignment of the runway centreline within:",
+      "question_type": "MCQ",
+      "options": [
+        "$25^{\\circ}$",
+        "$12.5^{\\circ}$",
+        "$15^{\\circ}$"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 58,
+      "question_text": "In an instrument departure procedure the minimum obstacle clearance at the departure end of runway equals:",
+      "question_type": "MCQ",
+      "options": [
+        "0ft",
+        "3.3% gradient",
+        "35ft"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 59,
+      "question_text": "We can distinguish two types of departure routes. During a straight departure the initial departure track is within:",
+      "question_type": "MCQ",
+      "options": [
+        "$15^{\\circ}$ of the alignment of the runway centreline",
+        "$10^{\\circ}$ of the alignment of the runway centreline",
+        "$25^{\\circ}$ of the alignment of the runway centreline"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 60,
+      "question_text": "If in an instrument departure procedure the track to be followed by the aeroplane is published, the pilot is expected:",
+      "question_type": "MCQ",
+      "options": [
+        "To correct for known wind to remain within the protected airspace",
+        "To request from ATC different heading for wind correction",
+        "To ignore the wind and proceed on a heading equal to the track"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 61,
+      "question_text": "In general, which is the main factor that dictates the design of an instrument departure procedure?",
+      "question_type": "MCQ",
+      "options": [
+        "Navigation aids",
+        "The terrain surrounding the airport",
+        "ATC requirements"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 62,
+      "question_text": "During an omni-directional departure, what height are you required to climb to before turning onto the desired track?",
+      "question_type": "MCQ",
+      "options": [
+        "Transition altitude",
+        "120 m (394 ft)",
+        "1000 ft"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 63,
+      "question_text": "The main factor that dictates in general the design of an Instrument departure procedure is:",
+      "question_type": "MCQ",
+      "options": [
+        "ATC availability and requirements",
+        "availability of navigation aids",
+        "the terrain surrounding the aerodrome"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 64,
+      "question_text": "SID terminates at:",
+      "question_type": "MCQ",
+      "options": [
+        "the first fix of the en-route phase.",
+        "point 15 nms from DER on departure leg.",
+        "fix decided by the pilot before reaching TOC"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 65,
+      "question_text": "A public transport aircraft shall not take-off unless the following minima for the departure airfield are satisfactory:",
+      "question_type": "MCQ",
+      "options": [
+        "cloud ceiling and RVR",
+        "cloud base and RVR",
+        "MDH and RVR"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 66,
+      "question_text": "Obstacle clearance for an ILS approach is based on the assumption that the pilot does not deviate from the centreline more than:",
+      "question_type": "MCQ",
+      "options": [
+        "half scale deflection of the localizer indicator",
+        "full scale deflection of the localizer indicator",
+        "half scale deflection of the glidepath indicator and horizontal $35^{\\circ}$ off the centreline"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 67,
+      "question_text": "Who establishes the OCA/H (Obstacle Clearance Altitude/Height) for an approach procedure?",
+      "question_type": "MCQ",
+      "options": [
+        "the operator",
+        "the pilot in command",
+        "the state"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 68,
+      "question_text": "If visual reference is lost while circling to land from an instrument approach, it is expected that the pilot will make an initial climbing turn towards the:",
+      "question_type": "MCQ",
+      "options": [
+        "Final missed approach track",
+        "MAP",
+        "Landing runway"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 69,
+      "question_text": "A circling approach is:",
+      "question_type": "MCQ",
+      "options": [
+        "A visual flight manoeuvre keeping the runway in sight",
+        "A visual flight manoeuvre to be conducted only in IMC",
+        "A flight manoeuvre to be performed only under radar vectoring"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 70,
+      "question_text": "When the visual manoeuvring (circling) area has been established the obstacle clearance altitude/height (OCA/H) is determined:",
+      "question_type": "MCQ",
+      "options": [
+        "Only for categories C, D and E aircraft",
+        "For each category of aircraft, and it may be different for each one of them",
+        "For all categories of aircraft, and it is the same for all of them"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 71,
+      "question_text": "On a non-precision approach a so-called \"straight-in-approach\" is considered acceptable, if the angle between the final approach track and the runway centreline is:",
+      "question_type": "MCQ",
+      "options": [
+        "30 degrees or less",
+        "40 degrees or less",
+        "20 degrees or less"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 72,
+      "question_text": "If contact is lost with the runway on the downwind leg of a circling manoeuvre, what actions should be taken?",
+      "question_type": "MCQ",
+      "options": [
+        "Initiate a missed approach",
+        "Turn towards the inner marker for the runway in use, maintaining circling altitude",
+        "If you have other visual cues, continue with ground contact"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 73,
+      "question_text": "Minimum sector altitudes are determined by the inbound radial in relation to the IAF. These sectors are established for a distance from the IAF of:",
+      "question_type": "MCQ",
+      "options": [
+        "20NM",
+        "5NM",
+        "25NM"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 74,
+      "question_text": "A \"precision approach\" is a direct instrument approach...",
+      "question_type": "MCQ",
+      "options": [
+        "using bearing, elevation and distance information",
+        "carried out by a crew of at least two pilots trained with a specific working method",
+        "using at least one source of bearing information and one source of elevation or distance information"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 75,
+      "question_text": "The term used to describe the visual phase of flight after completing an instrument approach, to bring an aircraft into position for landing on runway which is not suitably located for straight-in approach is:",
+      "question_type": "MCQ",
+      "options": [
+        "Visual approach",
+        "Visual manoeuvring (circling)",
+        "Aerodrome traffic pattern"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 76,
+      "question_text": "In a precision approach (ILS), the final approach segment begins at the:",
+      "question_type": "MCQ",
+      "options": [
+        "IF",
+        "FAF",
+        "FAP"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 77,
+      "question_text": "Under which conditions may an aircraft on a straight-in-VOR approach continue its descend below the OCA?",
+      "question_type": "MCQ",
+      "options": [
+        "When the aircraft has the control tower in sight",
+        "When the aircraft is in visual contact with the ground and with the runway lights in sight",
+        "When the aircraft is in contact with the ground but not with the runway in sight yet"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 78,
+      "question_text": "A turn executed by the aircraft during the initial approach between the end of the outbound track and the beginning of the Intermediate or final approach track is a:",
+      "question_type": "MCQ",
+      "options": [
+        "Procedure turn",
+        "Base turn",
+        "Race track"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 79,
+      "question_text": "A manoeuvre in which a turn is made away from a designated track followed by a turn in the opposite direction to permit the aircraft to intercept and proceed along the reciprocal of the designated track is called a:",
+      "question_type": "MCQ",
+      "options": [
+        "Procedure turn",
+        "Reversal track",
+        "Race track"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 80,
+      "question_text": "You are on an IFR flight executing a circling approach. A descend below the MDA should not be made until:\n1 the pilot has the landing threshold in sight\n2 visual reference has been established and can be maintained\n3 the required obstacle clearance can be maintained and a landing can be made\nThe combination regrouping all the correct statements is:",
+      "question_type": "MCQ",
+      "options": [
+        "1,2",
+        "1, 2, 3",
+        "2,3"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 81,
+      "question_text": "In an offset entry into an omni directional racetrack procedure, the time on the $30^{\\circ}$ offset track is limited to:",
+      "question_type": "MCQ",
+      "options": [
+        "1 minutes 30 seconds",
+        "2 minutes",
+        "1 minute"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 82,
+      "question_text": "In an approach procedure, a descent or climb conducted in a holding pattern is called:",
+      "question_type": "MCQ",
+      "options": [
+        "Procedure turn",
+        "Based turn",
+        "Shuttle"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 83,
+      "question_text": "Which are the phases of a missed approach procedure?",
+      "question_type": "MCQ",
+      "options": [
+        "Arrival, initial, intermediate and final",
+        "Initial, intermediate and final",
+        "Initial and final"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 84,
+      "question_text": "When determining the OCA for a precision approach, obstacle height is referenced to:",
+      "question_type": "MCQ",
+      "options": [
+        "MSL",
+        "Threshold",
+        "highest obstacle within 25 nm of aerodrome"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 85,
+      "question_text": "What is gradient for departure runway?",
+      "question_type": "MCQ",
+      "options": [
+        "2.5%",
+        "2.8%",
+        "3.3%"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 86,
+      "question_text": "The ILS glide path is normally intercepted between:",
+      "question_type": "MCQ",
+      "options": [
+        "3 and 7NM",
+        "3 and 10NM",
+        "5 and 10NM"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 87,
+      "question_text": "The factors considered in the calculations of DA/DH are:",
+      "question_type": "MCQ",
+      "options": [
+        "The OCA/H based on the highest obstacle in the final approach path only, plus a margin for height loss on any go around",
+        "The OCA/H based on the highest obstacle in the missed approach path only plus an allowance for height loss on any go around",
+        "The OCA/H based on the highest obstacle in the approach or missed approach paths including an allowance for aircraft speed and height loss on any go around, plus a margin for operational factors"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 88,
+      "question_text": "What is the obstacle clearance in the intermediate approach segment?",
+      "question_type": "MCQ",
+      "options": [
+        "300 m (984 ft)",
+        "200 m (656 ft)",
+        "Reducing from 300 m to 150 m"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 89,
+      "question_text": "Who is establishing the aerodrome operational minima for instrument approaches?",
+      "question_type": "MCQ",
+      "options": [
+        "The appropriate authority of the State of the aircraft operator",
+        "The operator",
+        "The appropriate authority of the State of the aerodrome"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 90,
+      "question_text": "What is the primary area during the intermediate section of an instrument approach?",
+      "question_type": "MCQ",
+      "options": [
+        "$3/4$ of the total width of the airspace used to determine the minimum obstacle clearance for the approach",
+        "$1/2$ of the total width of the airspace used to determine the minimum obstacle clearance for the approach",
+        "10 NM either side of the approach path"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 91,
+      "question_text": "In relation to the three entry sectors, the entry into the holding pattern shall be according to:",
+      "question_type": "MCQ",
+      "options": [
+        "Course",
+        "Track",
+        "Heading"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 92,
+      "question_text": "Related to the three entry sectors in a holding pattern, there is a zone of flexibility on either side of the sectors boundaries of:",
+      "question_type": "MCQ",
+      "options": [
+        "$5^{\\circ}$",
+        "$20^{\\circ}$",
+        "$10^{\\circ}$"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 93,
+      "question_text": "What is the outbound timing in a holding pattern above FL 140?",
+      "question_type": "MCQ",
+      "options": [
+        "2 minutes",
+        "1 minute",
+        "1 minute 30 seconds"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 94,
+      "question_text": "In a holding pattern all turns are to be made at a:",
+      "question_type": "MCQ",
+      "options": [
+        "Rate of $3^{\\circ}$/sec or at a bank angle of $25^{\\circ}$, which ever requires the lesser bank",
+        "Rate of $3^{\\circ}$/sec",
+        "Rate of $3^{\\circ}$/sec or at a bank angle of $20^{\\circ}$, which ever requires the lesser bank"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 95,
+      "question_text": "In a standard holding pattern turns are made:",
+      "question_type": "MCQ",
+      "options": [
+        "To the left",
+        "To the right",
+        "In a direction depending on the wind direction"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 96,
+      "question_text": "What is the rate of turn/bank angle required for turns in a holding pattern?",
+      "question_type": "MCQ",
+      "options": [
+        "15 degrees bank angle maximum",
+        "$3^{\\circ}$ degrees per second",
+        "5 degrees per second"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 97,
+      "question_text": "What obstacle clearance is guaranteed at a range of 5 nm from the edge of the holding area?",
+      "question_type": "MCQ",
+      "options": [
+        "Nil",
+        "100 m",
+        "300 m"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 98,
+      "question_text": "An expected approach time is given:",
+      "question_type": "MCQ",
+      "options": [
+        "When an aircraft is instructed to hold",
+        "Once an aircraft has been holding for 20 minutes",
+        "On all flights"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 99,
+      "question_text": "When you are asked to hold on a non standard holding fix (eg en route) what direction are the turns made?",
+      "question_type": "MCQ",
+      "options": [
+        "At pilots discretion",
+        "Right",
+        "Left"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 100,
+      "question_text": "Standard airway holding pattern below 14 000 ft ?",
+      "question_type": "MCQ",
+      "options": [
+        "Right hand turns / 1.5 minutes outbound",
+        "Left hand turns / 1 minute outbound",
+        "Right hand turns / 1 minute outbound"
+      ],
+      "solution": "C",
+      "answer": "C"
+    }
+  ]
+}

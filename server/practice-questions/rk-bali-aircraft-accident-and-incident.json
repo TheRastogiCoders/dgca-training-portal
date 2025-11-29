@@ -1,0 +1,104 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": 20,
+  "chapter_title": "Aircraft Accident and Incident",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "The objective of the investigation of an accident or incident shall be the:",
+      "question_type": "MCQ",
+      "options": [
+        "Prevention of accidents or incidents and to help the judges",
+        "Prevention of accidents or incidents and to help the manufacturers in design",
+        "Prevention of accidents or incidents"
+      ],
+      "answer": "A",
+      "solution": "A"
+    },
+    {
+      "question_number": 2,
+      "question_text": "Which of the following, according to ICAO Annex 13, shall be entitled to appoint an accredited representative to participate in the investigation?",
+      "question_type": "MCQ",
+      "options": [
+        "State conducting the investigation and State of design and manufacturing",
+        "All ICAO members States",
+        "Any State which, on request, provides information, facilities or experts to the State conducting the investigation"
+      ],
+      "answer": "C",
+      "solution": "C"
+    },
+    {
+      "question_number": 3,
+      "question_text": "The accident investigation preliminary report shall be submitted to appropriate States and to the ICAO, In:",
+      "question_type": "MCQ",
+      "options": [
+        "Any of the world's major languages",
+        "One of the working languages of ICAO",
+        "The language of the investigating State"
+      ],
+      "answer": "B",
+      "solution": "B"
+    },
+    {
+      "question_number": 4,
+      "question_text": "Upon receipt of the modification and a request by the state of occurence for participation, the state of design and the state of manufacture shall in the case of an accident or serious incident inform the state of occurence of the name of its representative to be present at the investigation when the aircraft:",
+      "question_type": "MCQ",
+      "options": [
+        "Has a maximum mass over 100000kg",
+        "Has a maximum mass over 27000kg",
+        "Has a maximum mass over 5700kg"
+      ],
+      "answer": "A",
+      "solution": "A"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who is responsible, under Annex 13 of the Chicago convention for the initiation of an accident investigation?",
+      "question_type": "MCQ",
+      "options": [
+        "The law enforcement authorities of the state in which the aircraft is registered",
+        "The aircraft manufacturer",
+        "The government of the state in which the accident took place"
+      ],
+      "answer": "C",
+      "solution": "C"
+    },
+    {
+      "question_number": 6,
+      "question_text": "Just before arriving on the apron, taxiing inadvertently on the grass, a wheel falls into a hole, which seriously damages the aircraft and obliges the crew to delay departure.",
+      "question_type": "MCQ",
+      "options": [
+        "This is an accident and the crew must follow the procedure relevant to this case",
+        "This is an irregularity in the operation, the crew must inform the operator of the delay caused by necessary repair",
+        "Since no physical injury has been noticed and the flight is over, the actions to be taken are related only to insurance, to the repair man, the operator and the persons in charge of the runways and taxiways"
+      ],
+      "answer": "A",
+      "solution": "A"
+    },
+    {
+      "question_number": 7,
+      "question_text": "Where an accident or incident occurs to an aircraft in India, then the pilot-in-command of the aircraft shall send notice thereof to:",
+      "question_type": "MCQ",
+      "options": [
+        "AAIB, DGCA, DM and O-i-C of nearest police station as soon as is reasonably practicable but in any case not later than twenty-four hours",
+        "AAIB, DGCA, DM and AAI as soon as is reasonably practicable but in any case not later than twenty-four hours",
+        "AAIB, DGCA, DM and O-i-C of nearest police station as soon as is reasonably practicable but in any case not later than forty eight hours"
+      ],
+      "answer": "A",
+      "solution": "A"
+    },
+    {
+      "question_number": 8,
+      "question_text": "In the case of an accident the aircraft or any parts or contents thereof may be removed without the authority of DG/AAIB:",
+      "question_type": "MCQ",
+      "options": [
+        "To look for evidence",
+        "If so directed by the P-i-C",
+        "To extricate the body of a dead dog"
+      ],
+      "answer": "C",
+      "solution": "C"
+    }
+  ]
+}
+

@@ -1,0 +1,320 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": "10",
+  "chapter_title": "aeronautical",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "Detailed description of meteorological information provided at the aerodrome and an indication of which meteorological office is responsible, is in the following part of the AIP",
+      "question_type": "MCQ",
+      "options": [
+        "AD",
+        "RAC",
+        "MET"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 2,
+      "question_text": "A checklist of AIP supplements currently in force shall be issued at intervals of:",
+      "question_type": "MCQ",
+      "options": [
+        "Not more than 2 months",
+        "Not more than 28 days",
+        "Not more than one month"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Which of the following is information that is not given in AIP approach and landing charts?",
+      "question_type": "MCQ",
+      "options": [
+        "OCH or OCA",
+        "Visibility minima",
+        "DME-frequencies"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 4,
+      "question_text": "An Integrated aeronautical information package consists of the following elements",
+      "question_type": "MCQ",
+      "options": [
+        "AIP, supplements to AIP; NOTAM and PIB, AIC and checklist summaries",
+        "AIP, including amendment service; supplements to AIP, NOTAM and pre-flight Information bulletin (PIB), AIC, checklists and summaries",
+        "AIP, including amendment service; supplements to AIP, NOTAM, AIC and checklist summaries"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Temporary changes on specifications for AIP supplements of long duration and information of short duration which contains extensive text and/or graphics shall be published as AIP supplements. It is considered a long duration.",
+      "question_type": "MCQ",
+      "options": [
+        "Three months or longer",
+        "Two months or longer",
+        "One year or longer"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 6,
+      "question_text": "Operationaly significant changes to the AIP shall be published in accordance with:",
+      "question_type": "MCQ",
+      "options": [
+        "AIC procedures and identified by the acronym AIC followed by a number",
+        "NOTAM procedures and identified by acronym NOTAM followed by a number",
+        "AIRAC procedures and identified by the acronym AIRAC"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 7,
+      "question_text": "A checklist of NOTAM currently in force shall be issued at the AFTN at intervals of:",
+      "question_type": "MCQ",
+      "options": [
+        "Not more than 28 days",
+        "Not more than one month",
+        "Not more than 10 days"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 8,
+      "question_text": "Change in frequency or location of navigational aids on short notice is notified through:",
+      "question_type": "MCQ",
+      "options": [
+        "Notams",
+        "AIRAC",
+        "AIP"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 9,
+      "question_text": "The contents of Aeronautical Information Publication (AIP) are:",
+      "question_type": "MCQ",
+      "options": [
+        "GEN, ENR (en-route) and AD (aerodromes)",
+        "GEN, ENR, RAC, AD",
+        "GEN, AGA, COM, ENR, FAL"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 10,
+      "question_text": "The SIGMET service, is in the AIP, in the following part:",
+      "question_type": "MCQ",
+      "options": [
+        "AGA",
+        "GEN",
+        "MET"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 11,
+      "question_text": "In which chapter of the AIP can you find a list with \"location indicators\"?",
+      "question_type": "MCQ",
+      "options": [
+        "AGA",
+        "GEN",
+        "ENR"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 12,
+      "question_text": "The informations on holding, approach and departure procedures, are found in the following part of the AIP:",
+      "question_type": "MCQ",
+      "options": [
+        "ENR",
+        "MAP",
+        "AD"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 13,
+      "question_text": "The closure of a runway for a year, because of maintenance, will be published:",
+      "question_type": "MCQ",
+      "options": [
+        "Only in AIP",
+        "In NOTAM and AIP, inclusive Supplement",
+        "Only in NOTAM"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 14,
+      "question_text": "An AIRAC is:",
+      "question_type": "MCQ",
+      "options": [
+        "An acronym for a system aimed at advance notification based on common effective dates, of circumstances necessitating significant changes in operating procedures",
+        "A notice distributed by means of telecommunication containing information concerning the establishment, condition or change in any aeronautical facility service, procedure or hazard, the timely knowledge of which is essential to personnel concerned with flight operations",
+        "A package which consists of the following elements: AIP, supplements to the AIP, NOTAM, AIC, checklists and summaries"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 15,
+      "question_text": "Select the acronym corresponding to the following definition: an special NOTAM series notifying, by means of a specific format, an important change for the aircraft operations, due to a volcano activity, a volcano eruption or a volcanic ash cloud.",
+      "question_type": "MCQ",
+      "options": [
+        "GVATAM",
+        "ASHTAM",
+        "NAVTAM"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 16,
+      "question_text": "The system notifying in advance the circumstances requiring important changes in the methods of operation, based on common effective dates, is identified by the acronym:",
+      "question_type": "MCQ",
+      "options": [
+        "AIRAC",
+        "EATCHIP",
+        "IFPS"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 17,
+      "question_text": "The temporary, long-term modification (3 months or more) and the short-term extensive or graphical information are published as follows:",
+      "question_type": "MCQ",
+      "options": [
+        "AIP Supplements",
+        "Trigger NOTAM",
+        "NOTAM"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 18,
+      "question_text": "The informations concerning charges for aerodromes/hellports and Air Navigation Services are on the following part of the AIP:",
+      "question_type": "MCQ",
+      "options": [
+        "AD",
+        "GEN",
+        "FAL"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 19,
+      "question_text": "A notice providing information on Rules of the Air, Traffic Services and Air Navigation Procedures and distributed in advance of its effective date Is:",
+      "question_type": "MCQ",
+      "options": [
+        "An AIRAC",
+        "An ATS NOTAM",
+        "An Advisory NOTAM"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 20,
+      "question_text": "A notice containing information concerning flight safety, air navigation, technical, administration or legislative matters and originated at the AIS of a state is called:",
+      "question_type": "MCQ",
+      "options": [
+        "NOTAM",
+        "AIRAC",
+        "Aeronautical Information Circular (AIC)"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 21,
+      "question_text": "In which section of AIP are contained information elements relating to prohibited, restricted and dangerous areas?",
+      "question_type": "MCQ",
+      "options": [
+        "AGA",
+        "ENR",
+        "GEN"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 22,
+      "question_text": "In which section of AIP are contained information elements to refueling facilities and limitations on refueling services?",
+      "question_type": "MCQ",
+      "options": [
+        "AD",
+        "GEN",
+        "SAR"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 23,
+      "question_text": "In which section of the AIP are contained information elements relating to areas and/or routes for which meteorological service is provided?",
+      "question_type": "MCQ",
+      "options": [
+        "MET",
+        "GEN",
+        "RAC"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 24,
+      "question_text": "Each contracting state shall provide an Aeronautical Information Service (AIS) in its territory and for areas in which the state is responsible for the Air Traffic Services outside its territory, and this shall include the preparation and origination of:",
+      "question_type": "MCQ",
+      "options": [
+        "Only AIP and NOTAM's",
+        "AIP, NOTAM's, Circular and AIRAC",
+        "Integrated Aeronautical Information Package"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 25,
+      "question_text": "The identification of each prohibited, restricted and danger area shall be composed by:",
+      "question_type": "MCQ",
+      "options": [
+        "The nationality letters for location indicators assigned to the state or territory, followed the letters P, R and D and figures",
+        "The letters P (Prohibited), R (Restricted) and D (Dangerous) for the area concerned and figures",
+        "The letters P (Prohibited), R (Restricted) and D (Dangerous) followed by figures"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 26,
+      "question_text": "NOF in India are established at:",
+      "question_type": "MCQ",
+      "options": [
+        "All major aerodromes.",
+        "All international Airports",
+        "International Airports at Delhi, Mumbai, Kolkatta and Chennai only."
+      ],
+      "solution": "C",
+      "answer": "C"
+    }
+  ]
+}
+

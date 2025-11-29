@@ -1,0 +1,152 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": "8",
+  "chapter_title": "procedures for aerodrome control",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "When instructed by ATC to hold short of Runway pilot should stop:",
+      "question_type": "MCQ",
+      "options": [
+        "With nose gear on hold line",
+        "So that no part of the A/c extends beyond hold line",
+        "So that the Fit Deck Area of A/c is even with the hold line"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 2,
+      "question_text": "The following aircraft will be given priority to land:",
+      "question_type": "MCQ",
+      "options": [
+        "An aircraft with VVIP on board",
+        "An aircraft with critical shortage of fuel",
+        "A scheduled aircraft"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Apron is an area on aerodrome where following activities take place:",
+      "question_type": "MCQ",
+      "options": [
+        "Loading/unloading of passengers, mail and cargo only.",
+        "Parking of aircraft only.",
+        "Loading/unloading of passengers, mail and cargo, fueling, parking or maintenance."
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 4,
+      "question_text": "For safety reasons, a person should remain away from a jet engine by at least:",
+      "question_type": "MCQ",
+      "options": [
+        "100'",
+        "200",
+        "300"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Movement area of an aerodrome constitutes the following",
+      "question_type": "MCQ",
+      "options": [
+        "Area including runways / taxiways excluding apron",
+        "Area excluding taxiways but including runways and apron",
+        "Area including runways/taxiways/aprons"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 6,
+      "question_text": "The maneuvering area of an airport is that area",
+      "question_type": "MCQ",
+      "options": [
+        "Normally referred to as the ramp or apron.",
+        "Used for taxiing, taking off and landing.",
+        "Used when taxiing to and from the parking area."
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 7,
+      "question_text": "An Aircraft shall report \"long final\" when it is at from the approach end of the rwy",
+      "question_type": "MCQ",
+      "options": [
+        "8NMs",
+        "4NMs",
+        "1NMs"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What defines a controlled aerodrome?",
+      "question_type": "MCQ",
+      "options": [
+        "It must be located within a CTR.",
+        "It must have a control tower giving an ATC service.",
+        "It must have a control tower and be in a CTR."
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 9,
+      "question_text": "Aerodrome traffic is considered to be:",
+      "question_type": "MCQ",
+      "options": [
+        "Aircraft on the movement area and flying in the vicinity.",
+        "Aircraft on the manoeuvring area and flying in the vicinity.",
+        "Aircraft on the movement area only."
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 10,
+      "question_text": "Aircraft shall not be held closer to a runway-in-use:",
+      "question_type": "MCQ",
+      "options": [
+        "Than at a runway-holding position.",
+        "Than at runway edge.",
+        "Than at 40m from the runway edge."
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 11,
+      "question_text": "Friction Co efficient due to snow in how many segments is runway divided based on friction level.:",
+      "question_type": "MCQ",
+      "options": [
+        "$1/2$",
+        "$1/3$",
+        "$1/4$"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 12,
+      "question_text": "Runway friction coefficient 0.20 means estimated surface friction:",
+      "question_type": "MCQ",
+      "options": [
+        "Good",
+        "Medium to Good",
+        "Poor"
+      ],
+      "solution": "C",
+      "answer": "C"
+    }
+  ]
+}
+

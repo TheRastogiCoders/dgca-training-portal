@@ -1,0 +1,63 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": 16,
+  "chapter_title": "Airworthiness of Aircraft",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "The continuing airworthiness of an aircraft, according to ICAO Annex 8, shall be determined by:",
+      "question_type": "MCQ",
+      "options": [
+        "ICAO",
+        "The operator's state",
+        "The state of registry"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 2,
+      "question_text": "According to ICAO Annex 8, a certificate of airworthiness shall be renewed or shall remain valid subject to the:",
+      "question_type": "MCQ",
+      "options": [
+        "Laws of the state of registry and operation",
+        "Laws of the state of registry",
+        "Requirements laid down by ICAO"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 3,
+      "question_text": "The technical standards dealing with certification of aeroplanes are at present limited to multi engine aircraft of:",
+      "question_type": "MCQ",
+      "options": [
+        "Up to 5700Kg maximum certificated take-off and landing mass",
+        "Over 5700Kg maximum certificated take-off mass",
+        "Up to 5700Kg maximum certificated take-off mass"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 4,
+      "question_text": "When an aircraft has sustained damage, the aircraft shall be allowed to resume its flight, if",
+      "question_type": "MCQ",
+      "options": [
+        "The state of registry, the state of design and the state of manufacture consider that the aircraft is still airworthy",
+        "The state of manufacture informs the state of registry that the damage sustained is of a nature such that the aircraft is still airworthy",
+        "The state of registry considers that the damage sustained is of a nature such that the aircraft is still airworthy"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Jet Airways flight is to take off from London to Bosnia. C of A will be as per the rules of:",
+      "question_type": "MCQ",
+      "options": [
+        "UK",
+        "India",
+        "Bosnia"
+      ],
+      "answer": "B"
+    }
+  ]
+}
+

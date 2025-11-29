@@ -1,0 +1,128 @@
+{
+  "book_name": "Air Regulation Book RK Bali",
+  "chapter_number": "7",
+  "chapter_title": "Approach Control Service",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "If an arriving aircraft is making a straight in approach a departing aircraft may take off in any direction",
+      "question_type": "MCQ",
+      "options": [
+        "Until five minutes before the arriving aircraft is estimated to be over the Instrument runway",
+        "Until ten minutes before the arriving aircraft is estimated to be over the Instrument runway",
+        "Until two minutes before the arriving aircraft is estimated to be over the Instrument runway"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 2,
+      "question_text": "For controlled traffic that shall be separated in the vicinity of an airport, separation minima may be reduced:",
+      "question_type": "MCQ",
+      "options": [
+        "At the discretion of the air traffic controller",
+        "When the commander in the following aircraft has the preceding aircraft in sight and is able to maintain own separation",
+        "If the commander of the involved aircraft so requests"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 3,
+      "question_text": "At the commencement of final approach, if the controller possesses wind Information in the form of components, significant changes in the mean surface wind direction and speed shall be transmitted to aircraft. The mean tall-wind component significant change is:",
+      "question_type": "MCQ",
+      "options": [
+        "3kt",
+        "4kt",
+        "2kt"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 4,
+      "question_text": "The EAT has to be transmitted to the pilot as soon as possible, in case the expected delay is:",
+      "question_type": "MCQ",
+      "options": [
+        "5 minutes or more",
+        "15 minutes or more",
+        "20 minutes"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 5,
+      "question_text": "A so called \"Visual Approach\" can be performed:",
+      "question_type": "MCQ",
+      "options": [
+        "During VFR flight, there should be a visibility of 5km or more",
+        "During IFR flights, if the cloudbase is 1000ft more than the appropriate DA or MDA for that procedure",
+        "During IFR flights, if there is permanent sight on the movement area and the underlying ground"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 6,
+      "question_text": "\"Time Approach Procedure\" is used as necessary to expedite the approach of a number of arriving aircraft. This will be obtained requesting aircraft:",
+      "question_type": "MCQ",
+      "options": [
+        "To maintain a specified speed during the approach procedure",
+        "To pass the specified point inbound at the previously notified time",
+        "To apply a step down descent between aircraft in the approach sequence"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 7,
+      "question_text": "During an arrival procedure under an IFR flight plan in VMC conditions, traffic avoidance is the responsibility of:",
+      "question_type": "MCQ",
+      "options": [
+        "The radar controller",
+        "The pilot in command",
+        "The approach controller"
+      ],
+      "solution": "B",
+      "answer": "B"
+    },
+    {
+      "question_number": 8,
+      "question_text": "If the crew on an arriving aircraft approaching a controlled aerodrome will report \"field in sight\", a clearance for \"visual approach\" may be given under certain conditions",
+      "question_type": "MCQ",
+      "options": [
+        "The meteorological visibility must not be less than 8km",
+        "The approach must be passing the FAF",
+        "The air traffic controller will provide separation to other controlled traffic"
+      ],
+      "solution": "C",
+      "answer": "C"
+    },
+    {
+      "question_number": 9,
+      "question_text": "Which statement is correct? During a \"visual approach\" in controlled airspace (class C):",
+      "question_type": "MCQ",
+      "options": [
+        "ATC will apply separation with other traffic",
+        "The pilot has to apply separation with other traffic",
+        "ATC will apply separation with other arriving traffic"
+      ],
+      "solution": "A",
+      "answer": "A"
+    },
+    {
+      "question_number": 10,
+      "question_text": "One minute separation may be used between departing aircraft if they are to fly on tracks divering by atleast:",
+      "question_type": "MCQ",
+      "options": [
+        "$30^{\\circ}$ immediately after take-off",
+        "$15^{\\circ}$ immediately after take-off",
+        "$45^{\\circ}$ immediately after take-off"
+      ],
+      "solution": "C",
+      "answer": "C"
+    }
+  ]
+}
+
