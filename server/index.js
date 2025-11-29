@@ -164,10 +164,13 @@ app.get('/api/practice-questions/:book', (req, res) => {
     // Map book slugs to actual file prefixes
     // This allows new book names to use existing JSON files
     const bookSlugMapping = {
+      // Air Regulations books
       'air-law': 'oxford',  // Air Law uses oxford- prefixed files
       'human-performance-and-limitations': 'human-performance',  // Human Performance uses human-performance- prefixed files
       'oxford': 'oxford',  // Direct mapping
+      'cae-oxford': 'oxford',  // CAE Oxford Air Regulations uses oxford prefix
       'rk-bali': 'rk-bali',  // RK Bali uses rk-bali- prefixed files
+      'ic-joshi': 'ic-joshi',  // IC Joshi books
       // CAE Oxford General Navigation practice files
       // are stored with a "cae-oxford-general-navigation-" prefix
       'general-navigation': 'cae-oxford-general-navigation',
@@ -176,10 +179,20 @@ app.get('/api/practice-questions/:book', (req, res) => {
       'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
       'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
       'cae-oxford-performance': 'cae-oxford-performance',
+      'performance': 'cae-oxford-performance',
       'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
       'cae-oxford-powerplant': 'cae-oxford-powerplant',
+      'powerplant': 'cae-oxford-powerplant',
       'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
-      'cae-oxford-navigation': 'cae-oxford-navigation'
+      'principles-of-flight': 'cae-oxford-principles-of-flight',
+      'cae-oxford-navigation': 'cae-oxford-navigation',
+      'operational-procedures': 'operational-procedures',
+      'instrument-2014': 'instrument',
+      'instrument': 'instrument',
+      // Meteorology
+      'cae-oxford-meteorology': 'cae-oxford',
+      // Radio Telephony
+      'cae-oxford-radio-telephony': 'cae-oxford'
     };
     
     // Apply mapping if exists, otherwise use the book slug as-is

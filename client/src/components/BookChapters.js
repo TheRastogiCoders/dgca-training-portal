@@ -87,7 +87,8 @@ const defaultChapters = {
       'ATC Procedures',
       'Licensing & Documents',
       'Flight Planning & Altimeter Settings',
-      'Performance & Operations'
+      'Performance & Operations',
+      'Revision Question'
     ],
     'oxford': [
       'International Agreements and Organizations',
@@ -114,7 +115,8 @@ const defaultChapters = {
       'Facilitation',
       'Search and Rescue',
       'Security',
-      'Aircraft Accident and Incident Investigation'
+      'Aircraft Accident and Incident Investigation',
+      'Revision Question'
     ],
     'air-law': [
       'International Agreements and Organizations',
@@ -141,7 +143,8 @@ const defaultChapters = {
       'Facilitation',
       'Search and Rescue',
       'Security',
-      'Aircraft Accident and Incident Investigation'
+      'Aircraft Accident and Incident Investigation',
+      'Revision Question'
     ],
     'human-performance-and-limitations': [
       'The Circulation System',
@@ -160,7 +163,8 @@ const defaultChapters = {
       'Decision Making and Risk',
       'Human Factors Incident Reporting',
       'Introduction to Crew Resource Management',
-      'Specimen Questions'
+      'Specimen Questions',
+      'Revision Question'
     ],
     'rk-bali': [
       'Definitions And Abbreviations',
@@ -188,7 +192,8 @@ const defaultChapters = {
       'Security',
       'Security-Safeguarding International Civil Aviation Against Acts of Unlawful Interference',
       'Human Performance and Limitations',
-      'Sample Question Papers'
+      'Sample Question Papers',
+      'Revision Question'
     ]
   },
   'air-navigation': {
@@ -197,14 +202,20 @@ const defaultChapters = {
       'Dead Reckoning',
       'Radio Navigation (VOR/DME/NDB)',
       'RNAV/GNSS',
-      'Flight Planning & Wind Triangle'
+      'Flight Planning & Wind Triangle',
+      'Revision Question'
     ],
     'oxford': [
       'Instruments & Errors',
       'Great Circle & Rhumb Lines',
       'Charts & Projections',
       'Time, Position & ETA',
-      'Advanced RNAV'
+      'Advanced RNAV',
+      'Revision Question'
+    ],
+    'instrument-2014': [
+      'Revision Questions',
+      'Revision Question'
     ],
     'cae-oxford-general-navigation': [
       'Direction, Latitude and Longitude',
@@ -238,7 +249,8 @@ const defaultChapters = {
       'The Direct Indicating Compass',
       'Aircraft Magnetism',
       'General Navigation Problems',
-      'Revision Questions'
+      'Revision Questions',
+      'Revision Question'
     ],
     'cae-oxford-flight-planning-monitoring': [
       'Air Information Publications',
@@ -254,7 +266,8 @@ const defaultChapters = {
       'ATC Flight Plan',
       'Point of Equal Time (PET)',
       'Point of Safe Return (PSR)',
-      'Revision Questions'
+      'Revision Questions',
+      'Revision Question'
     ],
     'operational-procedures': [
       'ICAO Annex 6',
@@ -276,7 +289,8 @@ const defaultChapters = {
       'Fuel Jettison',
       'Transport of Dangerous Goods by Air',
       'Contaminated Runways',
-      'Revision Questions'
+      'Revision Questions',
+      'Revision Question'
     ],
     'performance': [
       'Mass and Balance and Performance',
@@ -286,7 +300,8 @@ const defaultChapters = {
       'Multi-engine Class B - Take-off',
       'Class A - En Route',
       'Landing',
-      'Revision Questions'
+      'Revision Questions',
+      'Revision Question'
     ]
   },
   'meteorology': {
@@ -318,14 +333,16 @@ const defaultChapters = {
       'Aviation Weather Forecasts (Codes of TAF, ARFOR, ROFOR)',
       'Radar Report, Sigmet Message and Satellite Bulletin',
       'Met Documentation and Briefing',
-      'Flight Forecast (Tabular Form) and Cross Section Forecast of Route Conditions'
+      'Flight Forecast (Tabular Form) and Cross Section Forecast of Route Conditions',
+      'Revision Question'
     ],
     'oxford': [
       'Synoptic Meteorology',
       'Turbulence & Icing',
       'Thunderstorms & Convection',
       'Fog & Low Visibility',
-      'Climatology for Aviation'
+      'Climatology for Aviation',
+      'Revision Question'
     ],
     'cae-oxford': [
       'The Atmosphere',
@@ -356,7 +373,8 @@ const defaultChapters = {
       'Terminal Aerodrome Forecasts (TAFs)',
       'Significant Weather and Wind Charts',
       'Warning Messages',
-      'Meteorological Information for Aircraft in Flight'
+      'Meteorological Information for Aircraft in Flight',
+      'Revision Question'
     ]
   },
   'technical-general': {
@@ -364,23 +382,27 @@ const defaultChapters = {
       'Aerodynamics Basics',
       'Engines & Fuel',
       'Instruments',
-      'Electrical & Hydraulic Systems'
+      'Electrical & Hydraulic Systems',
+      'Revision Question'
     ],
     'oxford': [
       'Performance & Limitations',
       'Aircraft Structures',
-      'Stability & Control'
+      'Stability & Control',
+      'Revision Question'
     ]
   },
   'technical-specific': {
     'ic-joshi': [
       'Type Systems Overview',
       'Powerplant & Propellers',
-      'Operational Limitations'
+      'Operational Limitations',
+      'Revision Question'
     ],
     'oxford': [
       'Type Performance',
-      'Avionics & Automation'
+      'Avionics & Automation',
+      'Revision Question'
     ]
   },
   'radio-telephony': {
@@ -388,7 +410,8 @@ const defaultChapters = {
       'Phraseology Basics',
       'Circuit & Pattern Calls',
       'Emergency & Abnormal',
-      'IFR Clearances'
+      'IFR Clearances',
+      'Revision Question'
     ],
     'oxford': [
       'Properties of Radio Waves',
@@ -408,7 +431,8 @@ const defaultChapters = {
       'Distance Measuring Equipment (DME)',
       'Area Navigation Systems (RNAV)',
       'Electronic Flight Information System (EFIS)',
-      'Global Navigation Satellite System (GNSS)'
+      'Global Navigation Satellite System (GNSS)',
+      'Revision Question'
     ],
     'cae-oxford': [
       'Properties of Radio Waves',
@@ -429,7 +453,8 @@ const defaultChapters = {
       'Area Navigation Systems (RNAV)',
       'Electronic Flight Information System (EFIS)',
       'Global Navigation Satellite System (GNSS)',
-      'Communications'
+      'Communications',
+      'Revision Question'
     ]
   }
 };
@@ -504,15 +529,36 @@ const BookChapters = () => {
     const checkRevisionQuestions = async () => {
       const revisionSlug = 'revision-questions';
       // Map book slugs to match file naming convention
+      // This map should include ALL possible book slugs that might have revision questions
       const bookSlugMap = {
+        // Air Regulations books
+        'ic-joshi': 'ic-joshi',
+        'oxford': 'oxford',
+        'cae-oxford': 'oxford', // CAE Oxford Air Regulations uses oxford prefix
+        'air-law': 'oxford',
+        'human-performance-and-limitations': 'human-performance',
+        'rk-bali': 'rk-bali',
+        // Air Navigation books
         'cae-oxford-general-navigation': 'cae-oxford-general-navigation',
+        'general-navigation': 'cae-oxford-general-navigation',
         'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
+        'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
         'cae-oxford-performance': 'cae-oxford-performance',
+        'performance': 'cae-oxford-performance',
         'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
-        'cae-oxford-powerplant': 'cae-oxford-powerplant',
-        'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
+        'cae-oxford-navigation': 'cae-oxford-navigation',
         'operational-procedures': 'operational-procedures',
-        'instrument': 'instrument'
+        'instrument-2014': 'instrument',
+        'instrument': 'instrument',
+        // Meteorology books
+        'cae-oxford-meteorology': 'cae-oxford',
+        // Technical books
+        'cae-oxford-powerplant': 'cae-oxford-powerplant',
+        'powerplant': 'cae-oxford-powerplant',
+        'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
+        'principles-of-flight': 'cae-oxford-principles-of-flight',
+        // Radio Telephony
+        'cae-oxford-radio-telephony': 'cae-oxford'
       };
       
       const mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
@@ -522,17 +568,28 @@ const BookChapters = () => {
         if (response.ok) {
           const data = await response.json();
           if (data.questions && data.questions.length > 0) {
+            // Use chapter_slug from JSON file, or construct it if not available
+            const chapterSlug = data.chapter_slug || `${mappedBookSlug}-${revisionSlug}`;
+            debugLog(`[BookChapters] Loaded revision questions for ${bookSlug}:`, {
+              questionCount: data.questions.length,
+              chapterSlug: chapterSlug,
+              bookName: data.book_name
+            });
             setRevisionQuestions({
               [bookSlug]: {
                 questionCount: data.questions.length,
-                chapterSlug: data.chapter_slug || `${mappedBookSlug}-${revisionSlug}`
+                chapterSlug: chapterSlug
               }
             });
+          } else {
+            debugLog(`[BookChapters] No revision questions found for ${bookSlug} (mapped: ${mappedBookSlug})`);
           }
+        } else {
+          debugLog(`[BookChapters] API response not OK for ${bookSlug}:`, response.status);
         }
       } catch (error) {
         // Silently fail - revision questions may not exist for this book
-        debugLog('Revision questions check failed:', error);
+        debugLog('[BookChapters] Revision questions check failed:', error);
       }
     };
     
@@ -555,7 +612,9 @@ const BookChapters = () => {
     
     // Add Revision Questions if available (even if book has no other chapters)
     const revisionInfo = revisionQuestions[bookSlug];
-    if (revisionInfo && !list.includes('Revision Questions')) {
+    // Check if list already has Revision Question or Revision Questions
+    const hasRevisionChapter = list.some(ch => ch === 'Revision Question' || ch === 'Revision Questions');
+    if (revisionInfo && !hasRevisionChapter) {
       list = [...list, 'Revision Questions'];
     }
     
@@ -580,22 +639,24 @@ const BookChapters = () => {
       }
       
       // Special handling for Revision Questions - check dynamically loaded data
-      if (title === 'Revision Questions') {
+      if (title === 'Revision Questions' || title === 'Revision Question') {
         const revInfo = revisionQuestions[bookSlug];
         if (revInfo) {
           return {
             id: `revision-${bookSlug}`,
-            title: 'Revision Questions',
+            title: title, // Keep original title (Revision Question or Revision Questions)
             questionCount: revInfo.questionCount,
             status: 'available',
             chapterSlug: revInfo.chapterSlug
           };
         }
+        // Even if no questions loaded yet, make it available so it can be clicked
+        // The navigation will construct the slug if needed
         return {
           id: `revision-${bookSlug}`,
-          title: 'Revision Questions',
+          title: title, // Keep original title (Revision Question or Revision Questions)
           questionCount: 0,
-          status: 'coming-soon',
+          status: 'available', // Changed from 'coming-soon' to 'available' so it's clickable
         };
       }
       
@@ -644,8 +705,47 @@ const BookChapters = () => {
       return;
     }
     // Special handling for Revision Questions - use the chapter slug from API
-    if (chapter?.title === 'Revision Questions' && chapter?.chapterSlug) {
+    if ((chapter?.title === 'Revision Questions' || chapter?.title === 'Revision Question') && chapter?.chapterSlug) {
       navigate(`/pyq/book/${bookSlug}/${chapter.chapterSlug}`);
+      return;
+    }
+    // If Revision Question exists but no chapterSlug, try to construct it
+    if (chapter?.title === 'Revision Question' || chapter?.title === 'Revision Questions') {
+      const revisionSlug = 'revision-questions';
+      // Use the same comprehensive mapping as in useEffect
+      const bookSlugMap = {
+        // Air Regulations books
+        'ic-joshi': 'ic-joshi',
+        'oxford': 'oxford',
+        'cae-oxford': 'oxford',
+        'air-law': 'oxford',
+        'human-performance-and-limitations': 'human-performance',
+        'rk-bali': 'rk-bali',
+        // Air Navigation books
+        'cae-oxford-general-navigation': 'cae-oxford-general-navigation',
+        'general-navigation': 'cae-oxford-general-navigation',
+        'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
+        'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
+        'cae-oxford-performance': 'cae-oxford-performance',
+        'performance': 'cae-oxford-performance',
+        'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
+        'cae-oxford-navigation': 'cae-oxford-navigation',
+        'operational-procedures': 'operational-procedures',
+        'instrument-2014': 'instrument',
+        'instrument': 'instrument',
+        // Meteorology books
+        'cae-oxford-meteorology': 'cae-oxford',
+        // Technical books
+        'cae-oxford-powerplant': 'cae-oxford-powerplant',
+        'powerplant': 'cae-oxford-powerplant',
+        'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
+        'principles-of-flight': 'cae-oxford-principles-of-flight',
+        // Radio Telephony
+        'cae-oxford-radio-telephony': 'cae-oxford'
+      };
+      const mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
+      const constructedSlug = `${mappedBookSlug}-${revisionSlug}`;
+      navigate(`/pyq/book/${bookSlug}/${constructedSlug}`);
       return;
     }
     // Navigate directly to practice page - matching QuestionBank behavior

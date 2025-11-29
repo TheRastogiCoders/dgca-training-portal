@@ -8,8 +8,8 @@ import debugLog from '../utils/debug';
 
 const EXCLUDED_CHAPTER_NAMES = new Set([
   'Overview and Definitions',
-  'Revision Questions',
   'Index'
+  // Note: 'Revision Questions' removed - we want to show it, but we'll add 'Revision Question' separately
 ]);
 
 const sanitizeChapters = (chapters = []) =>
@@ -32,6 +32,7 @@ const QuestionBank = () => {
   const navigate = useNavigate();
   const [selectedSubjectId, setSelectedSubjectId] = usePersistentState('questionBank:selectedSubjectId', null);
   const [selectedBookKey, setSelectedBookKey] = usePersistentState('questionBank:selectedBookKey', null);
+  const [revisionQuestions, setRevisionQuestions] = useState({});
   const subBooksRef = useRef(null);
   const overviewHighlights = [
     {
@@ -903,6 +904,74 @@ const technicalSpecificBooks = [
     }
   }, [selectedSubject, selectedBookKey, resolveSelectedBook]);
 
+  // Load revision questions dynamically for the selected book
+  useEffect(() => {
+    const checkRevisionQuestions = async () => {
+      if (!resolveSelectedBook?.slug) return;
+      
+      const revisionSlug = 'revision-questions';
+      const bookSlugMap = {
+        'ic-joshi': 'ic-joshi',
+        'oxford': 'oxford',
+        'cae-oxford': 'oxford',
+        'air-law': 'oxford',
+        'human-performance-and-limitations': 'human-performance',
+        'rk-bali': 'rk-bali',
+        'cae-oxford-general-navigation': 'cae-oxford-general-navigation',
+        'general-navigation': 'cae-oxford-general-navigation',
+        'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
+        'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
+        'cae-oxford-performance': 'cae-oxford-performance',
+        'performance': 'cae-oxford-performance',
+        'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
+        'cae-oxford-navigation': 'cae-oxford-navigation',
+        'operational-procedures': 'operational-procedures',
+        'instrument-2014': 'instrument',
+        'instrument': 'instrument',
+        'cae-oxford-meteorology': 'cae-oxford',
+        'cae-oxford-powerplant': 'cae-oxford-powerplant',
+        'powerplant': 'cae-oxford-powerplant',
+        'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
+        'principles-of-flight': 'cae-oxford-principles-of-flight',
+        'cae-oxford-radio-telephony': 'cae-oxford'
+      };
+      
+      const mappedBookSlug = bookSlugMap[resolveSelectedBook.slug] || resolveSelectedBook.slug;
+      
+      try {
+        const response = await fetch(`/api/practice-questions/${mappedBookSlug}?chapter=${revisionSlug}`);
+        if (response.ok) {
+          const data = await response.json();
+          if (data.questions && data.questions.length > 0) {
+            // Use chapter_slug from JSON file, or construct it if not available
+            const chapterSlug = data.chapter_slug || `${mappedBookSlug}-${revisionSlug}`;
+            debugLog(`[QuestionBank] Loaded revision questions for ${resolveSelectedBook.slug}:`, {
+              questionCount: data.questions.length,
+              chapterSlug: chapterSlug,
+              bookName: data.book_name
+            });
+            setRevisionQuestions(prev => ({
+              ...prev,
+              [resolveSelectedBook.slug]: {
+                questionCount: data.questions.length,
+                chapterSlug: chapterSlug
+              }
+            }));
+          } else {
+            debugLog(`[QuestionBank] No revision questions found for ${resolveSelectedBook.slug} (mapped: ${mappedBookSlug})`);
+          }
+        } else {
+          debugLog(`[QuestionBank] API response not OK for ${resolveSelectedBook.slug}:`, response.status);
+        }
+      } catch (error) {
+        // Silently fail - revision questions may not exist for this book
+        debugLog('[QuestionBank] Revision questions check failed:', error);
+      }
+    };
+    
+    checkRevisionQuestions();
+  }, [resolveSelectedBook?.slug]);
+
   const handleSubjectClick = (subject) => {
     // For Technical Specific, set state to show book/chapter selection
     if (subject?.title === 'Technical Specific') {
@@ -929,6 +998,49 @@ const technicalSpecificBooks = [
   };
 
   const handleChapterClick = (subject, chapter, book) => {
+    // Special handling for Revision Question - always allow navigation
+    if (chapter?.name === 'Revision Question' || chapter?.name === 'Revision Questions') {
+      // First, try to use the chapterSlug from the chapter object (set when revision questions are loaded)
+      if (chapter?.chapterSlug) {
+        debugLog(`[QuestionBank] Navigating to revision questions using chapterSlug: ${chapter.chapterSlug}`);
+        navigate(`/pyq/book/${book.slug}/${chapter.chapterSlug}`);
+        return;
+      }
+      
+      // Fallback: construct the slug if not loaded yet
+      const revisionSlug = 'revision-questions';
+      const bookSlugMap = {
+        'ic-joshi': 'ic-joshi',
+        'oxford': 'oxford',
+        'cae-oxford': 'oxford',
+        'air-law': 'oxford',
+        'human-performance-and-limitations': 'human-performance',
+        'rk-bali': 'rk-bali',
+        'cae-oxford-general-navigation': 'cae-oxford-general-navigation',
+        'general-navigation': 'cae-oxford-general-navigation',
+        'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
+        'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
+        'cae-oxford-performance': 'cae-oxford-performance',
+        'performance': 'cae-oxford-performance',
+        'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
+        'cae-oxford-navigation': 'cae-oxford-navigation',
+        'operational-procedures': 'operational-procedures',
+        'instrument-2014': 'instrument',
+        'instrument': 'instrument',
+        'cae-oxford-meteorology': 'cae-oxford',
+        'cae-oxford-powerplant': 'cae-oxford-powerplant',
+        'powerplant': 'cae-oxford-powerplant',
+        'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
+        'principles-of-flight': 'cae-oxford-principles-of-flight',
+        'cae-oxford-radio-telephony': 'cae-oxford'
+      };
+      const mappedBookSlug = bookSlugMap[book?.slug] || book?.slug;
+      const constructedSlug = `${mappedBookSlug}-${revisionSlug}`;
+      debugLog(`[QuestionBank] Navigating to revision questions using constructed slug: ${constructedSlug}`);
+      navigate(`/pyq/book/${book.slug}/${constructedSlug}`);
+      return;
+    }
+    
     // Only navigate if chapter has questions
     if (!chapter.questions) {
       return;
@@ -1150,7 +1262,24 @@ const technicalSpecificBooks = [
             {selectedSubject && resolveSelectedBook && (() => {
               const bookChapters = sanitizeChapters(resolveSelectedBook?.chapters) || [];
               const subjectChapters = sanitizeChapters(selectedSubject?.chapters) || [];
-              const chapters = bookChapters.length > 0 ? bookChapters : subjectChapters;
+              let chapters = bookChapters.length > 0 ? bookChapters : subjectChapters;
+              
+              // Add "Revision Question" at the end of every chapter list
+              // Check if it already exists to avoid duplicates
+              const hasRevisionQuestion = chapters.some(ch => 
+                ch.name === 'Revision Question' || ch.name === 'Revision Questions'
+              );
+              if (!hasRevisionQuestion && chapters.length > 0 && resolveSelectedBook?.slug) {
+                // Get revision question count if available
+                const revInfo = revisionQuestions[resolveSelectedBook.slug];
+                chapters = [...chapters, {
+                  id: chapters.length + 1,
+                  name: 'Revision Question',
+                  questions: revInfo?.questionCount || 0,
+                  slug: 'revision-question',
+                  chapterSlug: revInfo?.chapterSlug // Store chapterSlug for navigation
+                }];
+              }
               
               debugLog('Rendering chapters:', {
                 bookChapters: bookChapters.length, 
@@ -1276,7 +1405,8 @@ const technicalSpecificBooks = [
                         </div>
 
                         <div className="flex justify-center">
-                          {chapter.questions ? (
+                          {/* Always show button for Revision Question, or if chapter has questions */}
+                          {(chapter.name === 'Revision Question' || chapter.name === 'Revision Questions' || chapter.questions) ? (
                             <button
                               onClick={() => handleChapterClick(selectedSubject, chapter, resolveSelectedBook)}
                               className={`w-full py-3 px-6 font-semibold rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all duration-200 transform bg-gradient-to-r ${resolveSelectedBook.color} text-white hover:shadow-lg hover:scale-[1.02]`}
