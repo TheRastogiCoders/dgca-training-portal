@@ -508,15 +508,15 @@ const rkBaliChapterQuestionCounts = {
   'Search and Rescue': 17,
   'Visual Aids for Navigation': 50,
   'Aircraft Operations': 100,
-      'Personnel Licensing': 25,
-      'Airworthiness': 5,
-      'Environmental Procedures and Hazards (General Aspects)': 109,
+  'Personnel Licensing': 25,
+  'Airworthiness': 5,
+  'Environmental Procedures and Hazards (General Aspects)': 109,
   'Communications': 59,
-      'National Law': 9,
-      'Aircraft Accident and Incident': 8,
-      'Security-Safeguarding International Civil Aviation Against Acts of Unlawful Interference': 10,
-      'Human Performance and Limitations': 110,
-      'Facilitation': 14
+  'National Law': 9,
+  'Aircraft Accident and Incident': 8,
+  'Security-Safeguarding International Civil Aviation Against Acts of Unlawful Interference': 10,
+  'Human Performance and Limitations': 110,
+  'Facilitation': 14
 };
 
 const BookChapters = () => {
@@ -627,7 +627,7 @@ const BookChapters = () => {
       // Check each chapter's availability with retry logic
       for (const chapterTitle of list) {
         if (chapterTitle === 'Revision Question' || chapterTitle === 'Revision Questions' || 
-            chapterTitle === 'Sample Question Papers') {
+            chapterTitle === 'Sample Question Papers' || chapterTitle === 'Specimen Questions') {
           continue;
         }
 
@@ -658,7 +658,17 @@ const BookChapters = () => {
               success = true;
             } else {
               retries--;
-              if (retries === 0) throw new Error(`HTTP error! status: ${response.status}`);
+              // Check if response is 404/401, if so, treat as 0 questions without full failure
+              if (response.status === 404 || response.status === 401) {
+                  availabilityMap[chapterTitle] = {
+                    questionCount: 0,
+                    available: false,
+                    lastChecked: new Date().toISOString()
+                  };
+                  success = true;
+              } else if (retries === 0) {
+                  throw new Error(`HTTP error! status: ${response.status}`);
+              }
               await new Promise(resolve => setTimeout(resolve, 1000));
             }
           } catch (error) {
@@ -683,15 +693,17 @@ const BookChapters = () => {
         setLastUpdated(new Date().toISOString());
       }
     } catch (error) {
-      debugLog('Error checking chapter availability:', error);
-      // Fallback to default availability if there's an error
+      debugLog('Error checking chapter availability (Major failure):', error);
+      // Fallback to default availability if there's a major error
       if (isMounted) {
         const bySubject = defaultChapters[subjectSlug] || {};
         const list = bySubject[bookSlug] || [];
         const defaultAvailability = list.reduce((acc, title) => {
           acc[title] = { 
-            available: true, 
-            questionCount: 10,
+            // Setting questionCount to 0 to force 'coming-soon' on total failure, 
+            // relying on useMemo's internal fallback (Step 1)
+            available: false, 
+            questionCount: 0, 
             isFallback: true,
             lastChecked: new Date().toISOString()
           };
@@ -709,8 +721,6 @@ const BookChapters = () => {
     // eslint-disable-next-line
     return () => { isMounted = false; };
   }, [bookSlug, subjectSlug]);
-  
-  // Automatic refresh is handled by the useEffect hook
   
   // Consolidated useEffect hook for initial load and periodic refresh
   useEffect(() => {
@@ -743,12 +753,12 @@ const BookChapters = () => {
     };
   }, [bookSlug, subjectSlug, checkChapterAvailability, checkRevisionQuestions]);
 
-  // FIX 1: Define handleRefresh
   const handleRefresh = useCallback(() => {
     setIsLoading(true);
     checkChapterAvailability();
     checkRevisionQuestions();
   }, [checkChapterAvailability, checkRevisionQuestions]);
+
 
   const chapters = useMemo(() => {
     // Get the list of chapters for the current subject and book
@@ -763,33 +773,6 @@ const BookChapters = () => {
       list = bySubject['cae-oxford'] || [];
     }
 
-    // Book slug mapping for API calls - must match backend mapping
-    // This map is only partially used here, but kept for context consistency.
-    const bookSlugMap = {
-      'ic-joshi': 'ic-joshi',
-      'oxford': 'oxford',
-      'cae-oxford': subjectSlug === 'meteorology' ? 'cae-oxford' : 'oxford',
-      'air-law': 'oxford',
-      'human-performance-and-limitations': 'human-performance',
-      'rk-bali': 'rk-bali',
-      'cae-oxford-general-navigation': 'cae-oxford-general-navigation',
-      'general-navigation': 'cae-oxford-general-navigation',
-      'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
-      'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
-      'cae-oxford-performance': 'cae-oxford-performance',
-      'performance': 'cae-oxford-performance',
-      'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
-      'cae-oxford-navigation': 'cae-oxford-navigation',
-      'operational-procedures': 'operational-procedures',
-      'instrument-2014': 'instrument',
-      'instrument': 'instrument',
-      'cae-oxford-meteorology': 'cae-oxford',
-      'cae-oxford-powerplant': 'cae-oxford-powerplant',
-      'powerplant': 'cae-oxford-powerplant',
-      'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
-      'principles-of-flight': 'cae-oxford-principles-of-flight',
-      'cae-oxford-radio-telephony': 'cae-oxford'
-    };
     
     return list.map((title, index) => {
       // Special handling for 'Sample Question Papers' chapter (RK Bali Air Regs)
@@ -825,27 +808,27 @@ const BookChapters = () => {
       
       // Check dynamically loaded availability first
       const dynamicAvailability = chapterAvailability[title];
-      if (dynamicAvailability) {
+      
+      if (dynamicAvailability && dynamicAvailability.available && dynamicAvailability.questionCount > 0) { 
+        // Case 1: Dynamic data successfully loaded and shows questions
         questionCount = dynamicAvailability.questionCount;
-        isAvailable = dynamicAvailability.available;
+        isAvailable = true;
       } else {
-        // Fallback to hardcoded counts for specific books
+        // Case 2: Dynamic data failed, returned 0, or hasn't run yet. Fallback to hardcoded count.
         if (subjectSlug === 'meteorology' && bookSlug === 'ic-joshi') {
           questionCount = icJoshiChapterQuestionCounts[title] || 0;
         } else if (subjectSlug === 'air-navigation' && bookSlug === 'operational-procedures') {
-          // This chapter has a partial match with the current hardcoded map, check for existence:
           questionCount = operationalProceduresChapterQuestionCounts[title] || 0;
         } else if (subjectSlug === 'air-regulations' && bookSlug === 'rk-bali') {
           questionCount = rkBaliChapterQuestionCounts[title] || 0;
         }
-        // If no dynamic data and no hardcoded count, assume not available for safety, unless it's a known chapter title that should be available.
-        // For simplicity, we'll stick to: if no count, questionCount remains 0.
+        
         isAvailable = questionCount > 0;
       }
       
       return {
-        id: `${index + 1}`,
-        title,
+      id: `${index + 1}`,
+      title,
         questionCount,
         status: isAvailable ? 'available' : 'coming-soon',
       };
@@ -923,6 +906,10 @@ const BookChapters = () => {
     // Authentication will be handled by BookPracticeRunner if needed
     const baseSlug = slugifyChapterName(chapter?.title || 'overview');
     const resolvedSlug = resolveChapterSlug(bookSlug, baseSlug);
+    
+    // Add console log here to trace the final URL
+    debugLog(`Attempting to navigate to: /pyq/book/${bookSlug}/${resolvedSlug}`);
+    
     navigate(`/pyq/book/${bookSlug}/${resolvedSlug}`);
   };
 
