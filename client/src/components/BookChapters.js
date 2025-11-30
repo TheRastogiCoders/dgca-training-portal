@@ -1,5 +1,5 @@
-import React, { useMemo, useState, useEffect } from 'react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import Header from './Header';
 import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
@@ -524,10 +524,67 @@ const BookChapters = () => {
   const navigate = useNavigate();
   const [revisionQuestions, setRevisionQuestions] = useState({});
   const [chapterAvailability, setChapterAvailability] = useState({});
+  const [isLoading, setIsLoading] = useState(true);
+  const [lastUpdated, setLastUpdated] = useState(null);
 
   // Load chapter availability dynamically for all chapters
-  useEffect(() => {
-    const checkChapterAvailability = async () => {
+  // Define checkRevisionQuestions with useCallback to prevent recreation
+  const checkRevisionQuestions = useCallback(async () => {
+    const revisionSlug = 'revision-questions';
+    // Map book slugs to match file naming convention
+    const bookSlugMap = {
+      'ic-joshi': 'ic-joshi',
+      'oxford': 'oxford',
+      'cae-oxford': subjectSlug === 'meteorology' ? 'cae-oxford' : 'oxford',
+      'air-law': 'oxford',
+      'human-performance-and-limitations': 'human-performance',
+      'rk-bali': 'rk-bali',
+      'cae-oxford-general-navigation': 'cae-oxford-general-navigation',
+      'general-navigation': 'cae-oxford-general-navigation',
+      'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
+      'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
+      'cae-oxford-performance': 'cae-oxford-performance',
+      'performance': 'cae-oxford-performance',
+      'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
+      'cae-oxford-navigation': 'cae-oxford-navigation',
+      'operational-procedures': 'operational-procedures',
+      'instrument-2014': 'instrument',
+      'instrument': 'instrument',
+      'cae-oxford-meteorology': 'cae-oxford',
+      'cae-oxford-powerplant': 'cae-oxford-powerplant',
+      'powerplant': 'cae-oxford-powerplant',
+      'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
+      'principles-of-flight': 'cae-oxford-principles-of-flight',
+      'cae-oxford-radio-telephony': 'cae-oxford'
+    };
+    
+    const mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
+    
+    try {
+      const response = await fetch(`/api/practice-questions/${mappedBookSlug}?chapter=${revisionSlug}`);
+      if (response.ok) {
+        const data = await response.json();
+        if (data.questions && data.questions.length > 0) {
+          setRevisionQuestions(prev => ({
+            ...prev,
+            [bookSlug]: {
+              questionCount: data.questions.length,
+              chapterSlug: data.chapter_slug || `${mappedBookSlug}-${revisionSlug}`
+            }
+          }));
+        }
+      }
+    } catch (error) {
+      debugLog('Revision questions check failed:', error);
+    }
+  }, [bookSlug, subjectSlug]);
+
+  const checkChapterAvailability = useCallback(async () => {
+    let isMounted = true;
+    
+    try {
+      if (isMounted) setIsLoading(true);
+      
       const bySubject = defaultChapters[subjectSlug] || {};
       let list = bySubject[bookSlug] || [];
       if (list.length === 0 && subjectSlug === 'air-regulations' && bookSlug === 'cae-oxford') {
@@ -538,12 +595,9 @@ const BookChapters = () => {
       }
 
       // Book slug mapping for API calls - must match backend mapping
-      // For meteorology, cae-oxford should use cae-oxford prefix, not oxford
       const bookSlugMap = {
         'ic-joshi': 'ic-joshi',
         'oxford': 'oxford',
-        // cae-oxford: use 'cae-oxford' for meteorology, 'oxford' for air-regulations
-        // We'll handle this dynamically based on subject
         'cae-oxford': subjectSlug === 'meteorology' ? 'cae-oxford' : 'oxford',
         'air-law': 'oxford',
         'human-performance-and-limitations': 'human-performance',
@@ -570,159 +624,178 @@ const BookChapters = () => {
       const mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
       const availabilityMap = {};
 
-      // Check each chapter's availability
+      // Check each chapter's availability with retry logic
       for (const chapterTitle of list) {
-        if (chapterTitle === 'Revision Question' || chapterTitle === 'Revision Questions' || chapterTitle === 'Sample Question Papers') {
-          continue; // Skip these, handled separately
+        if (chapterTitle === 'Revision Question' || chapterTitle === 'Revision Questions' || 
+            chapterTitle === 'Sample Question Papers') {
+          continue;
         }
 
         const baseSlug = slugifyChapterName(chapterTitle);
         const resolvedSlug = resolveChapterSlug(bookSlug, baseSlug);
         
-        try {
-          const response = await fetch(`/api/practice-questions/${mappedBookSlug}?chapter=${encodeURIComponent(resolvedSlug)}`);
-          if (response.ok) {
-            const data = await response.json();
-            if (data.questions && data.questions.length > 0) {
-              availabilityMap[chapterTitle] = {
-                questionCount: data.questions.length,
-                available: true
-              };
+        let retries = 3;
+        let success = false;
+        
+        while (retries > 0 && !success && isMounted) {
+          try {
+            const response = await fetch(`/api/practice-questions/${mappedBookSlug}?chapter=${encodeURIComponent(resolvedSlug)}`);
+            if (response.ok) {
+              const data = await response.json();
+              if (data.questions && data.questions.length > 0) {
+                availabilityMap[chapterTitle] = {
+                  questionCount: data.questions.length,
+                  available: true,
+                  lastChecked: new Date().toISOString()
+                };
+              } else {
+                availabilityMap[chapterTitle] = {
+                  questionCount: 0,
+                  available: false,
+                  lastChecked: new Date().toISOString()
+                };
+              }
+              success = true;
             } else {
+              retries--;
+              if (retries === 0) throw new Error(`HTTP error! status: ${response.status}`);
+              await new Promise(resolve => setTimeout(resolve, 1000));
+            }
+          } catch (error) {
+            debugLog(`Attempt ${3 - retries + 1} failed for chapter "${chapterTitle}":`, error);
+            retries--;
+            if (retries === 0) {
               availabilityMap[chapterTitle] = {
                 questionCount: 0,
-                available: false
+                available: false,
+                error: true,
+                lastChecked: new Date().toISOString()
               };
+            } else {
+              await new Promise(resolve => setTimeout(resolve, 1000));
             }
-          } else {
-            availabilityMap[chapterTitle] = {
-              questionCount: 0,
-              available: false
-            };
           }
-        } catch (error) {
-          debugLog(`Failed to check availability for chapter "${chapterTitle}":`, error);
-          availabilityMap[chapterTitle] = {
-            questionCount: 0,
-            available: false
-          };
         }
       }
 
-      setChapterAvailability(availabilityMap);
-    };
-
-    const checkRevisionQuestions = async () => {
-      const revisionSlug = 'revision-questions';
-      // Map book slugs to match file naming convention
-      // This map should include ALL possible book slugs that might have revision questions
-      const bookSlugMap = {
-        // Air Regulations books
-        'ic-joshi': 'ic-joshi',
-        'oxford': 'oxford',
-        // cae-oxford: use 'cae-oxford' for meteorology/radio-telephony, 'oxford' for air-regulations
-        // Note: This is handled in checkChapterAvailability, but we need it here too for revision questions
-        'cae-oxford': 'cae-oxford', // Will be overridden by backend fallback logic
-        'air-law': 'oxford',
-        'human-performance-and-limitations': 'human-performance',
-        'rk-bali': 'rk-bali',
-        // Air Navigation books
-        'cae-oxford-general-navigation': 'cae-oxford-general-navigation',
-        'general-navigation': 'cae-oxford-general-navigation',
-        'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
-        'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
-        'cae-oxford-performance': 'cae-oxford-performance',
-        'performance': 'cae-oxford-performance',
-        'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
-        'cae-oxford-navigation': 'cae-oxford-navigation',
-        'operational-procedures': 'operational-procedures',
-        'instrument-2014': 'instrument',
-        'instrument': 'instrument',
-        // Meteorology books
-        'cae-oxford-meteorology': 'cae-oxford',
-        // Technical books
-        'cae-oxford-powerplant': 'cae-oxford-powerplant',
-        'powerplant': 'cae-oxford-powerplant',
-        'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
-        'principles-of-flight': 'cae-oxford-principles-of-flight',
-        // Radio Telephony
-        'cae-oxford-radio-telephony': 'cae-oxford'
-      };
-      
-      const mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
-      
-      try {
-        const response = await fetch(`/api/practice-questions/${mappedBookSlug}?chapter=${revisionSlug}`);
-        if (response.ok) {
-          const data = await response.json();
-          if (data.questions && data.questions.length > 0) {
-            setRevisionQuestions({
-              [bookSlug]: {
-                questionCount: data.questions.length,
-                chapterSlug: data.chapter_slug || `${mappedBookSlug}-${revisionSlug}`
-              }
-            });
-          }
-        }
-      } catch (error) {
-        // Silently fail - revision questions may not exist for this book
-        debugLog('Revision questions check failed:', error);
+      if (isMounted) {
+        setChapterAvailability(availabilityMap);
+        setLastUpdated(new Date().toISOString());
+      }
+    } catch (error) {
+      debugLog('Error checking chapter availability:', error);
+      // Fallback to default availability if there's an error
+      if (isMounted) {
+        const bySubject = defaultChapters[subjectSlug] || {};
+        const list = bySubject[bookSlug] || [];
+        const defaultAvailability = list.reduce((acc, title) => {
+          acc[title] = { 
+            available: true, 
+            questionCount: 10,
+            isFallback: true,
+            lastChecked: new Date().toISOString()
+          };
+          return acc;
+        }, {});
+        setChapterAvailability(defaultAvailability);
+        setLastUpdated(new Date().toISOString());
+      }
+    } finally {
+      if (isMounted) {
+        setIsLoading(false);
+      }
+    }
+    
+    // eslint-disable-next-line
+    return () => { isMounted = false; };
+  }, [bookSlug, subjectSlug]);
+  
+  // Automatic refresh is handled by the useEffect hook
+  
+  // Consolidated useEffect hook for initial load and periodic refresh
+  useEffect(() => {
+    let isMounted = true;
+    
+    const loadData = async () => {
+      if (bookSlug && subjectSlug && isMounted) {
+        debugLog('Loading chapter data...');
+        await checkChapterAvailability();
+        await checkRevisionQuestions();
       }
     };
     
-    if (bookSlug && subjectSlug) {
-      checkChapterAvailability();
-      checkRevisionQuestions();
-    }
-  }, [bookSlug, subjectSlug]);
+    // Initial load
+    loadData();
+    
+    // Set up periodic refresh every 5 minutes
+    const refreshInterval = setInterval(() => {
+      if (isMounted) {
+        debugLog('Periodic refresh of chapter data...');
+        loadData();
+      }
+    }, 5 * 60 * 1000);
+    
+    // Cleanup function
+    return () => {
+      isMounted = false;
+      clearInterval(refreshInterval);
+      debugLog('Cleaned up chapter data refresh interval');
+    };
+  }, [bookSlug, subjectSlug, checkChapterAvailability, checkRevisionQuestions]);
+
+  // FIX 1: Define handleRefresh
+  const handleRefresh = useCallback(() => {
+    setIsLoading(true);
+    checkChapterAvailability();
+    checkRevisionQuestions();
+  }, [checkChapterAvailability, checkRevisionQuestions]);
 
   const chapters = useMemo(() => {
+    // Get the list of chapters for the current subject and book
     const bySubject = defaultChapters[subjectSlug] || {};
-    // Handle both 'oxford' and 'cae-oxford' slugs for air-regulations
     let list = bySubject[bookSlug] || [];
+    
+    // Handle special cases for different subjects and books
     if (list.length === 0 && subjectSlug === 'air-regulations' && bookSlug === 'cae-oxford') {
       list = bySubject['oxford'] || [];
     }
-    // Handle 'cae-oxford' slug for meteorology
     if (list.length === 0 && subjectSlug === 'meteorology' && bookSlug === 'cae-oxford') {
       list = bySubject['cae-oxford'] || [];
     }
+
+    // Book slug mapping for API calls - must match backend mapping
+    // This map is only partially used here, but kept for context consistency.
+    const bookSlugMap = {
+      'ic-joshi': 'ic-joshi',
+      'oxford': 'oxford',
+      'cae-oxford': subjectSlug === 'meteorology' ? 'cae-oxford' : 'oxford',
+      'air-law': 'oxford',
+      'human-performance-and-limitations': 'human-performance',
+      'rk-bali': 'rk-bali',
+      'cae-oxford-general-navigation': 'cae-oxford-general-navigation',
+      'general-navigation': 'cae-oxford-general-navigation',
+      'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
+      'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
+      'cae-oxford-performance': 'cae-oxford-performance',
+      'performance': 'cae-oxford-performance',
+      'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
+      'cae-oxford-navigation': 'cae-oxford-navigation',
+      'operational-procedures': 'operational-procedures',
+      'instrument-2014': 'instrument',
+      'instrument': 'instrument',
+      'cae-oxford-meteorology': 'cae-oxford',
+      'cae-oxford-powerplant': 'cae-oxford-powerplant',
+      'powerplant': 'cae-oxford-powerplant',
+      'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
+      'principles-of-flight': 'cae-oxford-principles-of-flight',
+      'cae-oxford-radio-telephony': 'cae-oxford'
+    };
     
-    // Filter out Revision Question/Revision Questions for specific subjects
-    const subjectsToExcludeRevision = ['technical-specific', 'radio-telephony', 'meteorology'];
-    const shouldExcludeRevision = subjectsToExcludeRevision.includes(subjectSlug);
-    
-    // Remove revision chapters from the list if they exist
-    if (shouldExcludeRevision) {
-      list = list.filter(ch => ch !== 'Revision Question' && ch !== 'Revision Questions');
-    }
-    
-    // Add Revision Questions if available (even if book has no other chapters)
-    // But skip for subjects that should exclude revision
-    // Only add if revision questions actually exist (questionCount > 1, not just 1)
-    const revisionInfo = revisionQuestions[bookSlug];
-    // Check if list already has Revision Question or Revision Questions
-    const hasRevisionChapter = list.some(ch => ch === 'Revision Question' || ch === 'Revision Questions');
-    if (revisionInfo && revisionInfo.questionCount > 1 && !hasRevisionChapter && !shouldExcludeRevision) {
-      list = [...list, 'Revision Questions'];
-    }
-    
-    // If no chapters found but revision questions exist, show only revision questions
-    // But skip for subjects that should exclude revision
-    // Only show if revision questions actually exist (questionCount > 1, not just 1)
-    if (list.length === 0 && revisionInfo && revisionInfo.questionCount > 1 && !shouldExcludeRevision) {
-      list = ['Revision Questions'];
-    }
-    
-    // Debug: log what we're looking for
-    if (list.length === 0) {
-      debugLog('No chapters found for:', { subjectSlug, bookSlug, availableBooks: Object.keys(bySubject) });
-    }
     return list.map((title, index) => {
-      // Special handling for Sample Question Papers - always available
+      // Special handling for 'Sample Question Papers' chapter (RK Bali Air Regs)
       if (title === 'Sample Question Papers') {
         return {
-          id: `${index + 1}`,
+          id: `sample-papers-${bookSlug}`,
           title,
           questionCount: 0,
           status: 'available',
@@ -731,7 +804,7 @@ const BookChapters = () => {
       
       // Special handling for Revision Questions - check dynamically loaded data
       // Only show if questions exist (questionCount > 1, not just 1)
-      if (title === 'Revision Questions' || title === 'Revision Question') {
+      if (title === 'Revision Questions' || title === 'Revision Question' || title === 'Specimen Questions') {
         const revInfo = revisionQuestions[bookSlug];
         if (revInfo && revInfo.questionCount > 1) {
           return {
@@ -760,16 +833,19 @@ const BookChapters = () => {
         if (subjectSlug === 'meteorology' && bookSlug === 'ic-joshi') {
           questionCount = icJoshiChapterQuestionCounts[title] || 0;
         } else if (subjectSlug === 'air-navigation' && bookSlug === 'operational-procedures') {
+          // This chapter has a partial match with the current hardcoded map, check for existence:
           questionCount = operationalProceduresChapterQuestionCounts[title] || 0;
         } else if (subjectSlug === 'air-regulations' && bookSlug === 'rk-bali') {
           questionCount = rkBaliChapterQuestionCounts[title] || 0;
         }
+        // If no dynamic data and no hardcoded count, assume not available for safety, unless it's a known chapter title that should be available.
+        // For simplicity, we'll stick to: if no count, questionCount remains 0.
         isAvailable = questionCount > 0;
       }
       
       return {
-      id: `${index + 1}`,
-      title,
+        id: `${index + 1}`,
+        title,
         questionCount,
         status: isAvailable ? 'available' : 'coming-soon',
       };
@@ -800,12 +876,12 @@ const BookChapters = () => {
       return;
     }
     // Special handling for Revision Questions - use the chapter slug from API
-    if ((chapter?.title === 'Revision Questions' || chapter?.title === 'Revision Question') && chapter?.chapterSlug) {
+    if ((chapter?.title === 'Revision Questions' || chapter?.title === 'Revision Question' || chapter?.title === 'Specimen Questions') && chapter?.chapterSlug) {
       navigate(`/pyq/book/${bookSlug}/${chapter.chapterSlug}`);
       return;
     }
     // If Revision Question exists but no chapterSlug, try to construct it
-    if (chapter?.title === 'Revision Question' || chapter?.title === 'Revision Questions') {
+    if (chapter?.title === 'Revision Question' || chapter?.title === 'Revision Questions' || chapter?.title === 'Specimen Questions') {
       const revisionSlug = 'revision-questions';
       // Use the same comprehensive mapping as in useEffect
       const bookSlugMap = {
@@ -850,112 +926,122 @@ const BookChapters = () => {
     navigate(`/pyq/book/${bookSlug}/${resolvedSlug}`);
   };
 
-  return (
-    <div className="min-h-screen gradient-bg">
-      <Header />
-      <SiteSidebar />
-      <div className="flex">
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
-          <div className="max-w-6xl mx-auto">
-            <div className="mb-6">
-              <button 
-                onClick={() => navigate('/question-bank')}
-                className="text-blue-600 hover:underline inline-flex items-center cursor-pointer bg-transparent border-none p-0"
-              >
-                <span className="mr-1">←</span> Back to {subject.title} Books
-              </button>
-            </div>
-            
-            {/* Header matching QuestionBank style */}
-            <div className="text-center mb-8">
-              <div className={`w-20 h-20 bg-gradient-to-r ${subject.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-4`}>
-                {subject.icon}
-              </div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-2">{subject.title}</h2>
-              <p className="text-gray-600 mb-4">{subject.description}</p>
-              <div className="flex items-center justify-center mb-4">
-                <div className={`w-12 h-12 bg-gradient-to-r ${book.color} rounded-xl flex items-center justify-center text-white text-2xl mr-3`}>
-                  {book.icon}
-                </div>
-                <div className="text-left">
-                  <h3 className="text-lg font-bold text-gray-900">
-                    {book.title}
-                  </h3>
-                  <p className="text-sm text-gray-600">{book.description}</p>
-                </div>
-              </div>
-              <div className="inline-flex items-center px-4 py-2 bg-blue-100 border border-blue-300 rounded-full">
-                <span className="text-blue-800 font-medium text-sm">
-                  📚 Practice information available
-                </span>
-              </div>
-            </div>
-
-            {chapters.length === 0 ? (
-              <div className="text-center py-12">
-                <p className="text-gray-600 mb-2">No chapters found for this book.</p>
-                <p className="text-sm text-gray-500">Subject: {subject.title}, Book: {book.title}</p>
-              </div>
-            ) : (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {chapters.map((ch) => {
-                  const isAvailable = ch.status === 'available';
-                  const hasQuestions = ch.questionCount > 0;
-                  return (
-                    <Card 
-                      key={ch.id} 
-                      className={`p-6 hover:shadow-lg transition-all duration-300 ${!isAvailable ? 'opacity-75' : ''}`}
-                    >
-                      <div className="flex items-start justify-between mb-4">
-                        <div className="flex-1">
-                          <div className="flex items-center gap-2 mb-2">
-                            <h3 className="text-lg font-bold text-gray-900">{ch.title}</h3>
-                          </div>
-                          <div className="flex items-center space-x-4 text-sm text-gray-600">
-                            <span className="flex items-center">
-                              <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
-                                <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
-                              </svg>
-                              {hasQuestions ? `${ch.questionCount} questions` : 'Chapter overview'}
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="flex justify-center">
-                        {isAvailable ? (
-                          <button
-                            onClick={() => startChapter(ch)}
-                            className={`w-full py-3 px-6 font-semibold rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 transition-all duration-200 transform bg-gradient-to-r ${book.color} text-white hover:shadow-lg hover:scale-[1.02] ${bookSlug === 'rk-bali' ? 'focus:ring-emerald-500' : 'focus:ring-blue-500'}`}
-                            title={`Practice with ${book.title}`}
-                          >
-                            <div className="flex items-center justify-center">
-                              <span className="mr-2">{book.icon}</span>
-                              Start Practice
-                            </div>
-                          </button>
-                        ) : (
-                          <div className="w-full py-3 px-6 bg-gray-100 text-gray-500 rounded-lg text-center">
-                            <div className="flex items-center justify-center">
-                            </div>
-                            <p className="text-xs text-gray-400 mt-1">
-                            This chapter does not include questions.
-                            </p>
-                          </div>
-                        )}
-                      </div>
-                    </Card>
-                  );
-                })}
-              </div>
-            )}
+return (
+<div className="min-h-screen gradient-bg flex flex-col items-center">
+  <Header />
+  <SiteSidebar />
+  <div className="w-full flex justify-center">
+    <main className="w-full max-w-6xl p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
+      <div className="flex flex-col items-center">
+        <div className="w-full max-w-3xl text-center mb-8">
+          <button 
+            onClick={() => navigate('/question-bank')}
+            className="text-blue-600 hover:underline inline-flex items-center cursor-pointer bg-transparent border-none p-0 mx-auto"
+          >
+            <span className="mr-1">←</span> Back to {subject.title} Books
+          </button>
+          
+          <div className={`w-20 h-20 bg-gradient-to-r ${subject.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto my-6`}>
+            {subject.icon}
           </div>
-        </main>
+          
+          <h2 className="text-3xl font-bold text-gray-900 mb-2">{subject.title}</h2>
+          <p className="text-gray-600 mb-6 max-w-2xl mx-auto">{subject.description}</p>
+          
+          <div className="flex items-center justify-center mb-8 bg-white/50 backdrop-blur-sm p-4 rounded-xl shadow-sm">
+            <div className={`w-12 h-12 bg-gradient-to-r ${book.color} rounded-xl flex items-center justify-center text-white text-2xl mr-4`}>
+              {book.icon}
+            </div>
+            <div className="text-center md:text-left">
+              <h3 className="text-lg font-bold text-gray-900">
+                {book.title}
+              </h3>
+              <p className="text-sm text-gray-600">{book.description}</p>
+            </div>
+          </div>
+        </div>
+        
+        {isLoading ? (
+          <div className="text-center py-8 w-full">
+            <div className="animate-spin rounded-full h-12 w-12 border-4 border-blue-500 border-t-transparent mx-auto"></div>
+            <p className="text-sm text-gray-500 mt-4">Loading chapters...</p>
+          </div>
+        ) : chapters.length === 0 ? (
+          <div className="text-center py-12">
+            <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 mb-4 max-w-md mx-auto">
+              <p className="font-bold">No chapters found</p>
+              <p className="text-sm">We couldn't load any chapters for this book.</p>
+            </div>
+            <button
+              onClick={handleRefresh}
+              className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors flex items-center mx-auto"
+            >
+              <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+              </svg>
+              Try Again
+            </button>
+            <p className="text-sm text-gray-500 mt-4">Subject: {subject.title}, Book: {book.title}</p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-5xl mx-auto">
+            {chapters.map((ch) => {
+              const isAvailable = ch.status === 'available';
+              const hasQuestions = ch.questionCount > 0;
+              return (
+                <Card 
+                  key={ch.id} 
+                  className={`p-6 hover:shadow-lg transition-all duration-300 ${!isAvailable ? 'opacity-75' : ''}`}
+                >
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex-1">
+                      <div className="flex items-center gap-2 mb-2">
+                        <h3 className="text-lg font-bold text-gray-900">{ch.title}</h3>
+                      </div>
+                      <div className="flex items-center space-x-4 text-sm text-gray-600">
+                        <span className="flex items-center">
+                          <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
+                          </svg>
+                          {hasQuestions ? `${ch.questionCount} questions` : 'Chapter overview'}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center">
+                    {isAvailable ? (
+                      <button
+                        onClick={() => startChapter(ch)}
+                        className={`w-full py-3 px-6 font-semibold rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 transition-all duration-200 transform bg-gradient-to-r ${book.color} text-white hover:shadow-lg hover:scale-[1.02] ${bookSlug === 'rk-bali' ? 'focus:ring-emerald-500' : 'focus:ring-blue-500'}`}
+                        title={`Practice with ${book.title}`}
+                      >
+                        <div className="flex items-center justify-center">
+                          <span className="mr-2">{book.icon}</span>
+                          Start Practice
+                        </div>
+                      </button>
+                    ) : (
+                      <div className="w-full py-3 px-6 bg-gray-100 text-gray-500 rounded-lg text-center">
+                        <div className="flex items-center justify-center">
+                          <span className="mr-2"></span>
+                        </div>
+                        <p className="text-xs text-gray-400 mt-1">
+                        This chapter does not include questions.
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                </Card>
+              );
+            })}
+          </div>
+        )}
       </div>
-    </div>
-  );
+    </main>
+  </div>
+</div>
+);
 };
 
 export default BookChapters;
-
-
