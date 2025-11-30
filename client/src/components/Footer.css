@@ -1,0 +1,113 @@
+/* Footer Container - Aligned to main content area */
+footer.footer-container {
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-top: auto;
+  position: relative;
+  z-index: 1;
+  background: transparent !important;
+  flex-shrink: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  /* Footer aligned to start after sidebar - matches main content area */
+}
+
+/* Desktop: Footer starts after sidebar - matches md:ml-56 */
+@media screen and (min-width: 768px) {
+  footer.footer-container {
+    margin-left: 14rem !important; /* md:w-56 = 14rem (224px) */
+    width: calc(100% - 14rem) !important;
+    max-width: calc(100% - 14rem) !important;
+    min-width: 0;
+  }
+}
+
+/* Large screens: matches lg:ml-64 */
+@media screen and (min-width: 1024px) {
+  footer.footer-container {
+    margin-left: 16rem !important; /* lg:w-64 = 16rem (256px) */
+    width: calc(100% - 16rem) !important;
+    max-width: calc(100% - 16rem) !important;
+    min-width: 0;
+  }
+}
+
+/* Extra large screens: matches xl:ml-72 */
+@media screen and (min-width: 1280px) {
+  footer.footer-container {
+    margin-left: 18rem !important; /* xl:w-72 = 18rem (288px) */
+    width: calc(100% - 18rem) !important;
+    max-width: calc(100% - 18rem) !important;
+    min-width: 0;
+  }
+}
+
+.footer-content {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.02);
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
+}
+
+.footer-content:hover {
+  background: rgba(255, 255, 255, 0.03);
+  border-top-color: rgba(255, 255, 255, 0.15);
+}
+
+.footer-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 0.15px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  display: block;
+  transition: color 0.3s ease;
+}
+
+.footer-content:hover .footer-text {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Mobile: Full width footer */
+@media screen and (max-width: 767px) {
+  footer.footer-container {
+    margin-left: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .footer-content {
+    padding: 1.25rem 1rem;
+    padding-bottom: calc(1.25rem + env(safe-area-inset-bottom));
+  }
+  
+  .footer-text {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-content {
+    padding: 1rem 0.75rem;
+    padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+  }
+  
+  .footer-text {
+    font-size: 0.75rem;
+  }
+}

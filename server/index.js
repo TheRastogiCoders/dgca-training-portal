@@ -185,6 +185,7 @@ app.get('/api/practice-questions/:book', (req, res) => {
       'powerplant': 'cae-oxford-powerplant',
       'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
       'principles-of-flight': 'cae-oxford-principles-of-flight',
+      'principles-of-flight-2014': 'cae-oxford-principles-of-flight',  // Principles of Flight 2014 uses cae-oxford-principles-of-flight prefix
       'cae-oxford-navigation': 'cae-oxford-navigation',
       'operational-procedures': 'operational-procedures',
       'instrument-2014': 'instrument',
@@ -196,7 +197,7 @@ app.get('/api/practice-questions/:book', (req, res) => {
     };
     
     // Apply mapping if exists, otherwise use the book slug as-is
-    const filePrefix = bookSlugMapping[book] || book;
+    let filePrefix = bookSlugMapping[book] || book;
     
     // Allow temporarily disabling via env flag but still respond successfully
     if (process.env.PRACTICE_QUESTIONS_DISABLED === 'true') {
@@ -206,20 +207,105 @@ app.get('/api/practice-questions/:book', (req, res) => {
     // Require chapter parameter for chapter-specific files
     let filePath;
     if (chapter) {
+      // Try the mapped prefix first
       filePath = path.join(__dirname, 'practice-questions', `${filePrefix}-${chapter}.json`);
       console.log(`[API] Loading chapter file: ${filePrefix}-${chapter}.json (mapped from book: ${book})`);
       console.log(`[API] Full file path: ${filePath}`);
       console.log(`[API] File exists: ${fs.existsSync(filePath)}`);
+      
+      // If file doesn't exist, try alternative prefixes
+      if (!fs.existsSync(filePath)) {
+        const practiceQuestionsDir = path.join(__dirname, 'practice-questions');
+        const alternativePrefixes = [];
+        
+        // For 'cae-oxford', try 'cae-oxford' prefix (for meteorology, radio-telephony)
+        if (book === 'cae-oxford' && filePrefix === 'oxford') {
+          alternativePrefixes.push('cae-oxford');
+        }
+        
+        // Special handling for revision questions
+        if (chapter === 'revision-questions' || chapter.includes('revision')) {
+          // For cae-oxford-general-navigation, try cae-oxford-navigation (the file is cae-oxford-navigation-revision-questions.json)
+          if (book === 'cae-oxford-general-navigation' || filePrefix === 'cae-oxford-general-navigation') {
+            alternativePrefixes.push('cae-oxford-navigation');
+          }
+        }
+        
+        // Try the original book slug as prefix
+        if (book !== filePrefix) {
+          alternativePrefixes.push(book);
+        }
+        
+        // Try all alternative prefixes
+        for (const altPrefix of alternativePrefixes) {
+          const altFilePath = path.join(practiceQuestionsDir, `${altPrefix}-${chapter}.json`);
+          console.log(`[API] Trying alternative path: ${altPrefix}-${chapter}.json`);
+          if (fs.existsSync(altFilePath)) {
+            filePath = altFilePath;
+            filePrefix = altPrefix;
+            console.log(`[API] Found file with ${altPrefix} prefix`);
+            break;
+          }
+        }
+      }
+      
       if (!fs.existsSync(filePath)) {
         console.log(`[API] File not found: ${filePath}`);
-        // List available files for debugging
+        // Try to find file by searching for chapter slug in all files
         const practiceQuestionsDir = path.join(__dirname, 'practice-questions');
         if (fs.existsSync(practiceQuestionsDir)) {
-          const files = fs.readdirSync(practiceQuestionsDir).filter(f => f.includes(filePrefix));
-          console.log(`[API] Available files for book "${book}" (file prefix "${filePrefix}"):`, files);
+          const allFiles = fs.readdirSync(practiceQuestionsDir).filter(f => f.endsWith('.json'));
+          // Try to find file that ends with the chapter slug
+          const matchingFile = allFiles.find(f => {
+            const fileBase = f.replace('.json', '').toLowerCase();
+            const chapterLower = chapter.toLowerCase();
+            // Check if file ends with chapter slug or contains it
+            return fileBase.endsWith(`-${chapterLower}`) || fileBase === chapterLower || fileBase.includes(`-${chapterLower}-`);
+          });
+          
+          if (matchingFile) {
+            filePath = path.join(practiceQuestionsDir, matchingFile);
+            console.log(`[API] Found matching file by search: ${matchingFile}`);
+          } else {
+            // For revision questions, try more specific searches
+            if (chapter === 'revision-questions' || chapter.includes('revision')) {
+              // Try to find any revision questions file that might match
+              const revisionFiles = allFiles.filter(f => {
+                const fileBase = f.replace('.json', '').toLowerCase();
+                return fileBase.includes('revision') && (
+                  fileBase.includes(book.toLowerCase()) || 
+                  fileBase.includes(filePrefix.toLowerCase()) ||
+                  (book === 'cae-oxford-general-navigation' && fileBase.includes('cae-oxford-navigation'))
+                );
+              });
+              
+              if (revisionFiles.length > 0) {
+                // For cae-oxford-general-navigation, prefer cae-oxford-navigation-revision-questions.json
+                const preferredFile = revisionFiles.find(f => f.toLowerCase().includes('cae-oxford-navigation-revision')) ||
+                                     revisionFiles.find(f => f.toLowerCase().includes(`${filePrefix.toLowerCase()}-revision`)) ||
+                                     revisionFiles[0];
+                if (preferredFile) {
+                  filePath = path.join(practiceQuestionsDir, preferredFile);
+                  console.log(`[API] Found revision questions file: ${preferredFile}`);
+                }
+              }
+            }
+          }
+          
+          if (!fs.existsSync(filePath)) {
+            // List available files for debugging
+            const files = allFiles.filter(f => {
+              const fileBase = f.replace('.json', '').toLowerCase();
+              const chapterLower = chapter.toLowerCase();
+              return fileBase.includes(chapterLower) || chapterLower.includes(fileBase.split('-').pop());
+            });
+            console.log(`[API] Available files containing "${chapter}":`, files.slice(0, 10));
+            // Return an empty set rather than 404 so frontend can show "no questions" state
+            return res.json({ chapter, questions: [] });
+          }
+        } else {
+          return res.json({ chapter, questions: [] });
         }
-        // Return an empty set rather than 404 so frontend can show "no questions" state
-        return res.json({ chapter, questions: [] });
       }
     } else {
       // If no chapter specified, try to find default book file (for backward compatibility)

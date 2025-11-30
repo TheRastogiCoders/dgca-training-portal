@@ -542,9 +542,8 @@ const BookPracticeRunner = () => {
               <Card className="p-6 md:p-8 text-center rounded-3xl shadow-xl">
                 <h2 className="text-2xl font-bold text-gray-900 mb-2">No questions available yet</h2>
                 <p className="text-gray-600 mb-6">We’re preparing questions for {bookName}{(chapterSlug || resolvedChapterSlug) ? ` • ${friendly(chapterSlug || resolvedChapterSlug)}` : ''}. Please check back soon.</p>
-                <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                <div className="flex justify-center">
                   <button onClick={() => navigate('/question-bank')} className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">Go to Question Bank</button>
-                  <button onClick={() => navigate('/pyq')} className="px-6 py-3 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors">Back to Practice</button>
                 </div>
               </Card>
             </div>

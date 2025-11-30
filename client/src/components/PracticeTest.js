@@ -24,8 +24,8 @@ const PracticeTest = () => {
         "Real-time feedback",
         "Performance insights"
       ],
-      // Simpler, more neutral labels for a less "high level" feel
-      stats: { questions: "Varies", ai: "AI", adaptive: "On" },
+      // DGCA-appropriate labels
+      stats: { questions: "Multiple Questions", ai: "Standardized DGCA-Pattern", adaptive: "Dynamic Adaptive Practice" },
       onClick: () => navigate('/pyq/ai')
     }
   ];
@@ -331,11 +331,9 @@ const PracticeTest = () => {
                         <p className="text-xs sm:text-sm md:text-base text-gray-600 mb-3 sm:mb-4 leading-relaxed">{test.description}</p>
                         <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 sm:gap-4 mb-4 sm:mb-5">
                           {Object.entries(test.stats).map(([key, value]) => {
-                            const label = key === 'ai' ? 'AI-Powered' : key === 'adaptive' ? 'Adaptive' : key.charAt(0).toUpperCase() + key.slice(1);
                             return (
                             <div key={key} className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
                               <div className="text-sm sm:text-base md:text-lg font-bold text-blue-600">{value}</div>
-                                <div className="text-xs text-gray-500">{label}</div>
                             </div>
                             );
                           })}

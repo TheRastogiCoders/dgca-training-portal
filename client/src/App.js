@@ -5,6 +5,7 @@ import ErrorBoundary from './components/ErrorBoundary';
 import LoadingSpinner from './components/ui/LoadingSpinner';
 import Header from './components/Header';
 import './App.css';
+import Footer from './components/Footer';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
@@ -50,37 +51,40 @@ function App() {
           <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
             <ScrollToTop />
             <div className="App">
-              <Header />
-              <Suspense fallback={<LoadingSpinner size="large" text="Loading application..." />}>
-                <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/library" element={<Library />} />
-              <Route path="/question-bank" element={<QuestionBank />} />
-              <Route path="/pyq" element={<PracticeTest />} />
-              <Route path="/login" element={<LoginPage />} />
-              <Route path="/profile" element={<Profile />} />
-              <Route path="/books/air-regulations" element={<BookSelection />} />
-              <Route path="/books/air-navigation" element={<BookSelection />} />
-              <Route path="/books/meteorology" element={<BookSelection />} />
-              <Route path="/books/technical-general" element={<BookSelection />} />
-              <Route path="/books/technical-specific" element={<BookSelection />} />
-              <Route path="/books/radio-telephony" element={<BookSelection />} />
-              <Route path="/questions/:subjectSlug/:bookSlug" element={<BookChapters />} />
-              <Route path="/pyq/ai" element={<AIPracticeSubject />} />
-              <Route path="/pyq/ai/:subjectSlug" element={<AIPracticeBooks />} />
-              <Route path="/pyq/ai/:subjectSlug/:bookSlug" element={<AIPracticeChapters />} />
-              <Route path="/pyq/ai/:subjectSlug/:bookSlug/:chapterSlug" element={<AIPracticeRunner />} />
-              <Route path="/pyq/book/:bookSlug" element={<BookPracticeRunner />} />
-              <Route path="/pyq/book/:bookSlug/:chapterSlug" element={<BookPracticeRunner />} />
-              <Route path="/sample-papers/:subjectSlug/:bookSlug" element={<SamplePapersList />} />
-              <Route path="/sample-papers/:subjectSlug/:bookSlug/:paperSlug" element={<SamplePaperViewer />} />
-              <Route path="/practice/:subjectSlug/:bookSlug/:chapterSlug" element={<ChapterPracticeIntro />} />
-              {/* Admin routes removed */}
-              {/* Hidden route: not linked from navigation */}
-              <Route path="/support/contact" element={<ContactSupport />} />
-              </Routes>
-              </Suspense>
-              <WhatsAppFloat />
+              <div className="app-wrapper">
+                <Header />
+                <Suspense fallback={<LoadingSpinner size="large" text="Loading application..." />}>
+                  <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/library" element={<Library />} />
+                <Route path="/question-bank" element={<QuestionBank />} />
+                <Route path="/pyq" element={<PracticeTest />} />
+                <Route path="/login" element={<LoginPage />} />
+                <Route path="/profile" element={<Profile />} />
+                <Route path="/books/air-regulations" element={<BookSelection />} />
+                <Route path="/books/air-navigation" element={<BookSelection />} />
+                <Route path="/books/meteorology" element={<BookSelection />} />
+                <Route path="/books/technical-general" element={<BookSelection />} />
+                <Route path="/books/technical-specific" element={<BookSelection />} />
+                <Route path="/books/radio-telephony" element={<BookSelection />} />
+                <Route path="/questions/:subjectSlug/:bookSlug" element={<BookChapters />} />
+                <Route path="/pyq/ai" element={<AIPracticeSubject />} />
+                <Route path="/pyq/ai/:subjectSlug" element={<AIPracticeBooks />} />
+                <Route path="/pyq/ai/:subjectSlug/:bookSlug" element={<AIPracticeChapters />} />
+                <Route path="/pyq/ai/:subjectSlug/:bookSlug/:chapterSlug" element={<AIPracticeRunner />} />
+                <Route path="/pyq/book/:bookSlug" element={<BookPracticeRunner />} />
+                <Route path="/pyq/book/:bookSlug/:chapterSlug" element={<BookPracticeRunner />} />
+                <Route path="/sample-papers/:subjectSlug/:bookSlug" element={<SamplePapersList />} />
+                <Route path="/sample-papers/:subjectSlug/:bookSlug/:paperSlug" element={<SamplePaperViewer />} />
+                <Route path="/practice/:subjectSlug/:bookSlug/:chapterSlug" element={<ChapterPracticeIntro />} />
+                {/* Admin routes removed */}
+                {/* Hidden route: not linked from navigation */}
+                <Route path="/support/contact" element={<ContactSupport />} />
+                </Routes>
+                </Suspense>
+                <WhatsAppFloat />
+              </div>
+              <Footer />
             </div>
           </Router>
       </AuthProvider>

@@ -390,6 +390,26 @@ const defaultChapters = {
       'Aircraft Structures',
       'Stability & Control',
       'Revision Question'
+    ],
+    'principles-of-flight-2014': [
+      'Intro and Definitions',
+      'The Atmosphere',
+      'Basic Aerodynamic Theory',
+      'Subsonic Airflow',
+      'Lift',
+      'Drag',
+      'Stalling',
+      'High Lift Devices',
+      'Airframe Contamination',
+      'Stability and Control',
+      'Controls',
+      'Flight Mechanics',
+      'High Speed Flight',
+      'Limitations',
+      'Windshear',
+      'Propellers',
+      'Revision Questions',
+      'Revision Question'
     ]
   },
   'technical-specific': {
@@ -523,9 +543,96 @@ const BookChapters = () => {
   const { subjectSlug, bookSlug } = useParams();
   const navigate = useNavigate();
   const [revisionQuestions, setRevisionQuestions] = useState({});
+  const [chapterAvailability, setChapterAvailability] = useState({});
 
-  // Load revision questions dynamically
+  // Load chapter availability dynamically for all chapters
   useEffect(() => {
+    const checkChapterAvailability = async () => {
+      const bySubject = defaultChapters[subjectSlug] || {};
+      let list = bySubject[bookSlug] || [];
+      if (list.length === 0 && subjectSlug === 'air-regulations' && bookSlug === 'cae-oxford') {
+        list = bySubject['oxford'] || [];
+      }
+      if (list.length === 0 && subjectSlug === 'meteorology' && bookSlug === 'cae-oxford') {
+        list = bySubject['cae-oxford'] || [];
+      }
+
+      // Book slug mapping for API calls - must match backend mapping
+      // For meteorology, cae-oxford should use cae-oxford prefix, not oxford
+      const bookSlugMap = {
+        'ic-joshi': 'ic-joshi',
+        'oxford': 'oxford',
+        // cae-oxford: use 'cae-oxford' for meteorology, 'oxford' for air-regulations
+        // We'll handle this dynamically based on subject
+        'cae-oxford': subjectSlug === 'meteorology' ? 'cae-oxford' : 'oxford',
+        'air-law': 'oxford',
+        'human-performance-and-limitations': 'human-performance',
+        'rk-bali': 'rk-bali',
+        'cae-oxford-general-navigation': 'cae-oxford-general-navigation',
+        'general-navigation': 'cae-oxford-general-navigation',
+        'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
+        'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
+        'cae-oxford-performance': 'cae-oxford-performance',
+        'performance': 'cae-oxford-performance',
+        'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
+        'cae-oxford-navigation': 'cae-oxford-navigation',
+        'operational-procedures': 'operational-procedures',
+        'instrument-2014': 'instrument',
+        'instrument': 'instrument',
+        'cae-oxford-meteorology': 'cae-oxford',
+        'cae-oxford-powerplant': 'cae-oxford-powerplant',
+        'powerplant': 'cae-oxford-powerplant',
+        'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
+        'principles-of-flight': 'cae-oxford-principles-of-flight',
+        'principles-of-flight-2014': 'cae-oxford-principles-of-flight',  // Principles of Flight 2014 uses cae-oxford-principles-of-flight prefix
+        'cae-oxford-radio-telephony': 'cae-oxford'
+      };
+      
+      const mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
+      const availabilityMap = {};
+
+      // Check each chapter's availability
+      for (const chapterTitle of list) {
+        if (chapterTitle === 'Revision Question' || chapterTitle === 'Revision Questions' || chapterTitle === 'Sample Question Papers') {
+          continue; // Skip these, handled separately
+        }
+
+        const baseSlug = slugifyChapterName(chapterTitle);
+        const resolvedSlug = resolveChapterSlug(bookSlug, baseSlug);
+        
+        try {
+          const response = await fetch(`/api/practice-questions/${mappedBookSlug}?chapter=${encodeURIComponent(resolvedSlug)}`);
+          if (response.ok) {
+            const data = await response.json();
+            if (data.questions && data.questions.length > 0) {
+              availabilityMap[chapterTitle] = {
+                questionCount: data.questions.length,
+                available: true
+              };
+            } else {
+              availabilityMap[chapterTitle] = {
+                questionCount: 0,
+                available: false
+              };
+            }
+          } else {
+            availabilityMap[chapterTitle] = {
+              questionCount: 0,
+              available: false
+            };
+          }
+        } catch (error) {
+          debugLog(`Failed to check availability for chapter "${chapterTitle}":`, error);
+          availabilityMap[chapterTitle] = {
+            questionCount: 0,
+            available: false
+          };
+        }
+      }
+
+      setChapterAvailability(availabilityMap);
+    };
+
     const checkRevisionQuestions = async () => {
       const revisionSlug = 'revision-questions';
       // Map book slugs to match file naming convention
@@ -534,7 +641,9 @@ const BookChapters = () => {
         // Air Regulations books
         'ic-joshi': 'ic-joshi',
         'oxford': 'oxford',
-        'cae-oxford': 'oxford', // CAE Oxford Air Regulations uses oxford prefix
+        // cae-oxford: use 'cae-oxford' for meteorology/radio-telephony, 'oxford' for air-regulations
+        // Note: This is handled in checkChapterAvailability, but we need it here too for revision questions
+        'cae-oxford': 'cae-oxford', // Will be overridden by backend fallback logic
         'air-law': 'oxford',
         'human-performance-and-limitations': 'human-performance',
         'rk-bali': 'rk-bali',
@@ -557,21 +666,33 @@ const BookChapters = () => {
         'powerplant': 'cae-oxford-powerplant',
         'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
         'principles-of-flight': 'cae-oxford-principles-of-flight',
+        'principles-of-flight-2014': 'cae-oxford-principles-of-flight',  // Principles of Flight 2014 uses cae-oxford-principles-of-flight prefix
         // Radio Telephony
         'cae-oxford-radio-telephony': 'cae-oxford'
       };
       
-      const mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
+      let mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
+      
+      // Special handling for cae-oxford-general-navigation revision questions
+      // The file is cae-oxford-navigation-revision-questions.json, not cae-oxford-general-navigation-revision-questions.json
+      if (bookSlug === 'cae-oxford-general-navigation') {
+        mappedBookSlug = 'cae-oxford-navigation';
+      }
       
       try {
         const response = await fetch(`/api/practice-questions/${mappedBookSlug}?chapter=${revisionSlug}`);
         if (response.ok) {
           const data = await response.json();
           if (data.questions && data.questions.length > 0) {
+            // For cae-oxford-general-navigation, use the correct chapter slug
+            let chapterSlug = data.chapter_slug || `${mappedBookSlug}-${revisionSlug}`;
+            if (bookSlug === 'cae-oxford-general-navigation') {
+              chapterSlug = 'cae-oxford-navigation-revision-questions';
+            }
             setRevisionQuestions({
               [bookSlug]: {
                 questionCount: data.questions.length,
-                chapterSlug: data.chapter_slug || `${mappedBookSlug}-${revisionSlug}`
+                chapterSlug: chapterSlug
               }
             });
           }
@@ -582,10 +703,11 @@ const BookChapters = () => {
       }
     };
     
-    if (bookSlug) {
+    if (bookSlug && subjectSlug) {
+      checkChapterAvailability();
       checkRevisionQuestions();
     }
-  }, [bookSlug]);
+  }, [bookSlug, subjectSlug]);
 
   const chapters = useMemo(() => {
     const bySubject = defaultChapters[subjectSlug] || {};
@@ -649,17 +771,26 @@ const BookChapters = () => {
         };
       }
       
-      // Check if chapter has questions available (per-book chapter maps)
+      // Check chapter availability - first from dynamic check, then fallback to hardcoded counts
       let questionCount = 0;
-      if (subjectSlug === 'meteorology' && bookSlug === 'ic-joshi') {
-        questionCount = icJoshiChapterQuestionCounts[title] || 0;
-      } else if (subjectSlug === 'air-navigation' && bookSlug === 'operational-procedures') {
-        questionCount = operationalProceduresChapterQuestionCounts[title] || 0;
-      } else if (subjectSlug === 'air-regulations' && bookSlug === 'rk-bali') {
-        questionCount = rkBaliChapterQuestionCounts[title] || 0;
+      let isAvailable = false;
+      
+      // Check dynamically loaded availability first
+      const dynamicAvailability = chapterAvailability[title];
+      if (dynamicAvailability) {
+        questionCount = dynamicAvailability.questionCount;
+        isAvailable = dynamicAvailability.available;
+      } else {
+        // Fallback to hardcoded counts for specific books
+        if (subjectSlug === 'meteorology' && bookSlug === 'ic-joshi') {
+          questionCount = icJoshiChapterQuestionCounts[title] || 0;
+        } else if (subjectSlug === 'air-navigation' && bookSlug === 'operational-procedures') {
+          questionCount = operationalProceduresChapterQuestionCounts[title] || 0;
+        } else if (subjectSlug === 'air-regulations' && bookSlug === 'rk-bali') {
+          questionCount = rkBaliChapterQuestionCounts[title] || 0;
+        }
+        isAvailable = questionCount > 0;
       }
-      // Only mark chapters as available if they have questions
-      const isAvailable = questionCount > 0;
       
       return {
       id: `${index + 1}`,
@@ -668,7 +799,7 @@ const BookChapters = () => {
         status: isAvailable ? 'available' : 'coming-soon',
       };
     });
-  }, [subjectSlug, bookSlug, revisionQuestions]);
+  }, [subjectSlug, bookSlug, revisionQuestions, chapterAvailability]);
 
   const subject = subjectData[subjectSlug] || {
     title: friendly(subjectSlug),
@@ -729,12 +860,20 @@ const BookChapters = () => {
         'powerplant': 'cae-oxford-powerplant',
         'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
         'principles-of-flight': 'cae-oxford-principles-of-flight',
+        'principles-of-flight-2014': 'cae-oxford-principles-of-flight',  // Principles of Flight 2014 uses cae-oxford-principles-of-flight prefix
         // Radio Telephony
         'cae-oxford-radio-telephony': 'cae-oxford'
       };
-      const mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
-      const constructedSlug = `${mappedBookSlug}-${revisionSlug}`;
-      navigate(`/pyq/book/${bookSlug}/${constructedSlug}`);
+      let mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
+      
+      // Special handling for cae-oxford-general-navigation revision questions
+      // The file is cae-oxford-navigation-revision-questions.json, not cae-oxford-general-navigation-revision-questions.json
+      let finalSlug = `${mappedBookSlug}-${revisionSlug}`;
+      if (bookSlug === 'cae-oxford-general-navigation') {
+        finalSlug = `cae-oxford-navigation-${revisionSlug}`;
+      }
+      
+      navigate(`/pyq/book/${bookSlug}/${finalSlug}`);
       return;
     }
     // Navigate directly to practice page - matching QuestionBank behavior
@@ -831,9 +970,12 @@ const BookChapters = () => {
                         ) : (
                           <div className="w-full py-3 px-6 bg-gray-100 text-gray-500 rounded-lg text-center">
                             <div className="flex items-center justify-center">
+                              <svg className="w-5 h-5 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                              </svg>
                             </div>
-                            <p className="text-xs text-gray-400 mt-1">
-                            This chapter does not include questions.
+                            <p className="text-sm text-gray-500 mt-1 font-medium">
+                              This chapter does not include questions.
                             </p>
                           </div>
                         )}

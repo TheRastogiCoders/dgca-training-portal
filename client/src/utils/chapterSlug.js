@@ -7,6 +7,8 @@ export const CHAPTER_SLUG_OVERRIDES = {
   'operational-procedures': {
     // Map older \"cs-ops\" slug to the correct \"eu-ops\" JSON file
     'cs-ops-general-requirements': 'eu-ops-general-requirements',
+    // Handle Pressurisation (British) vs Pressurization (American) spelling mismatch
+    'pressurisation-failure': 'pressurization-failure',
   },
   // Handle RK Bali chapter title variations
   'rk-bali': {
