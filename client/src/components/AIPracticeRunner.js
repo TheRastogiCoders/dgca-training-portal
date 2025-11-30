@@ -772,29 +772,36 @@ const AIPracticeRunner = () => {
               <div className="p-6 border-b border-gray-200">
                 <div className="flex items-center justify-between mb-4">
                   <div className="px-3 py-1 bg-blue-100 text-blue-700 text-sm font-medium rounded-full">
-                    Question {current + 1}
+                    Question {current + 1} of {questions.length}
                   </div>
-                  {timeLeft !== null && (
-                    <div className={`text-lg font-bold ${timeLeft <= 10 ? 'text-red-600' : 'text-gray-600'}`}>
-                      {timeLeft}s
-                    </div>
-                  )}
                 </div>
                 
-                <div className="flex items-start justify-between gap-4">
+                <div className="flex items-start gap-4 mb-6">
                   <h2 className="text-xl font-semibold text-gray-900 leading-relaxed flex-1">
                   {currentQuestion.text}
                 </h2>
-                  <button
-                    onClick={() => handleReportClick(currentQuestion, current)}
-                    className="flex-shrink-0 px-3 py-1.5 text-xs font-medium text-gray-600 hover:text-red-600 hover:bg-red-50 border border-gray-300 hover:border-red-300 rounded-lg transition-all duration-200 flex items-center gap-1.5"
-                    title="Report an issue with this question"
-                  >
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-                    </svg>
-                    Report
-                  </button>
+                  <div className="flex gap-2">
+                    <button
+                      onClick={() => handleReportClick(currentQuestion, current)}
+                      className="flex-shrink-0 px-3 py-1.5 text-xs font-medium text-gray-600 hover:text-red-600 hover:bg-red-50 border border-gray-300 hover:border-red-300 rounded-lg transition-all duration-200 flex items-center gap-1.5"
+                      title="Report an issue with this question"
+                    >
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                      </svg>
+                      Report
+                    </button>
+                    <button
+                      onClick={() => window.history.back()}
+                      className="flex-shrink-0 px-3 py-1.5 text-xs font-medium text-gray-600 hover:text-blue-600 hover:bg-blue-50 border border-gray-300 hover:border-blue-300 rounded-lg transition-all duration-200 flex items-center gap-1.5"
+                      title="Close test and return to previous page"
+                    >
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                      </svg>
+                      Close Test
+                    </button>
+                  </div>
                 </div>
               </div>
               
@@ -876,9 +883,9 @@ const AIPracticeRunner = () => {
                     onClick={previousQuestion}
                     disabled={current === 0}
                     className={`w-full sm:w-auto px-8 py-3 font-semibold rounded-lg shadow-md transition-all duration-200 ${
-                      current === 0
-                        ? 'bg-gray-200 text-gray-500 cursor-not-allowed'
-                        : 'bg-white text-gray-700 border border-gray-300 hover:bg-gray-50'
+                      current === 0 
+                        ? 'bg-gray-200 text-gray-500 cursor-not-allowed' 
+                        : 'bg-white text-gray-800 hover:bg-gray-100 hover:shadow-lg transform hover:-translate-y-0.5'
                     }`}
                   >
                     Previous Question
@@ -887,9 +894,9 @@ const AIPracticeRunner = () => {
                     onClick={nextQuestion}
                     disabled={currentQuestion.options && currentQuestion.options.length > 0 && selectedAnswer === null}
                     className={`w-full sm:w-auto px-8 py-3 font-semibold rounded-lg shadow-md transition-all duration-200 ${
-                      currentQuestion.options && currentQuestion.options.length > 0 && selectedAnswer === null
-                        ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
-                        : 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:shadow-lg transform hover:scale-[1.02]'
+                      (currentQuestion.options && currentQuestion.options.length > 0 && selectedAnswer === null)
+                        ? 'bg-gray-200 text-gray-500 cursor-not-allowed' 
+                        : 'bg-blue-600 text-white hover:bg-blue-700 hover:shadow-lg transform hover:-translate-y-0.5'
                     }`}
                   >
                     {current >= totalQuestions - 1 ? 'Finish Practice' : 'Next Question'}

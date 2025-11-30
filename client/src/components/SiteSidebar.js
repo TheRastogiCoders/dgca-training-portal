@@ -86,12 +86,15 @@ const BoxNavItem = ({ to, label, icon, active, isAdmin = false, disabled = false
 };
 
 const SiteSidebar = () => {
+  // Call all hooks unconditionally at the top level
   const { pathname } = useLocation();
   const navigate = useNavigate();
-  const { user, isAuthenticated, logout } = useAuth();
-  const currentUser = user;
-  const currentIsAuthenticated = isAuthenticated;
-  const currentLogout = logout;
+  const auth = useAuth();
+  
+  // Destructure after the hook call
+  const currentUser = auth?.user;
+  const currentIsAuthenticated = auth?.isAuthenticated;
+  const currentLogout = auth?.logout;
   
   const getUserDisplayName = () => {
     if (!currentUser) return '';
