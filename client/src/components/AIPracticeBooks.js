@@ -49,17 +49,26 @@ const subjectData = {
   }
 };
 
+// Sessions that have actual question data available
+const availableSessions = {
+  'meteorology': [
+    'regular-march-2024',
+    'regular-december-attempt',
+    'regular-sep-2023'
+  ]
+};
+
 const subjectSessions = {
   'meteorology': [
     { slug: 'regular-march-2024', title: 'Regular March 2024', window: 'Regular Series', badge: 'Latest', questionCount: 45, duration: '120 mins', accent: 'from-[#6a11cb] to-[#2575fc]' },
     { slug: 'regular-december-attempt', title: 'Regular December Attempt', window: 'Regular Series', badge: 'High Yield', questionCount: 50, duration: '120 mins', accent: 'from-[#ff512f] to-[#dd2476]' },
     { slug: 'regular-sep-2023', title: 'Regular Sep 2023', window: 'Regular Series', badge: 'Archive', questionCount: 40, duration: '110 mins', accent: 'from-[#1d976c] to-[#93f9b9]' },
-    { slug: 'regular-june-session', title: 'Regular June Session', window: 'Regular Series', badge: 'Archive', questionCount: 42, duration: '110 mins', accent: 'from-[#396afc] to-[#2948ff]' },
-    { slug: 'regular-march-2025', title: 'Regular March 2025', window: 'Regular Series', badge: 'Upcoming', questionCount: 48, duration: '120 mins', accent: 'from-[#f7971e] to-[#ffd200]' },
-    { slug: 'olode-may-2025', title: 'Olode May 2025', window: 'Olode Paper', badge: 'Upcoming', questionCount: 55, duration: '130 mins', accent: 'from-[#fc5c7d] to-[#6a82fb]' },
-    { slug: 'olode-jan-2025', title: 'Olode Jan 2025', window: 'Olode Paper', badge: 'Archive', questionCount: 48, duration: '125 mins', accent: 'from-[#00c6ff] to-[#0072ff]' },
-    { slug: 'olode-march-2025', title: 'Olode March 2025', window: 'Olode Paper', badge: 'Upcoming', questionCount: 52, duration: '125 mins', accent: 'from-[#7f00ff] to-[#e100ff]' },
-    { slug: 'olode-question-nov-24', title: 'Olode Question Nov 24', window: 'Olode Paper', badge: 'Archive', questionCount: 47, duration: '120 mins', accent: 'from-[#f953c6] to-[#b91d73]' }
+    { slug: 'regular-june-session', title: 'Regular June Session', window: 'Regular Series', badge: 'Coming Soon', questionCount: 42, duration: '110 mins', accent: 'from-[#396afc] to-[#2948ff]' },
+    { slug: 'regular-march-2025', title: 'Regular March 2025', window: 'Regular Series', badge: 'Coming Soon', questionCount: 48, duration: '120 mins', accent: 'from-[#f7971e] to-[#ffd200]' },
+    { slug: 'olode-may-2025', title: 'Olode May 2025', window: 'Olode Paper', badge: 'Coming Soon', questionCount: 55, duration: '130 mins', accent: 'from-[#fc5c7d] to-[#6a82fb]' },
+    { slug: 'olode-jan-2025', title: 'Olode Jan 2025', window: 'Olode Paper', badge: 'Coming Soon', questionCount: 48, duration: '125 mins', accent: 'from-[#00c6ff] to-[#0072ff]' },
+    { slug: 'olode-march-2025', title: 'Olode March 2025', window: 'Olode Paper', badge: 'Coming Soon', questionCount: 52, duration: '125 mins', accent: 'from-[#7f00ff] to-[#e100ff]' },
+    { slug: 'olode-question-nov-24', title: 'Olode Question Nov 24', window: 'Olode Paper', badge: 'Coming Soon', questionCount: 47, duration: '120 mins', accent: 'from-[#f953c6] to-[#b91d73]' }
   ]
 };
 
@@ -137,6 +146,11 @@ const AIPracticeBooks = () => {
 
   const launchSession = (session) => {
     if (!ensureAuth()) return;
+    // Check if session has available data
+    const isAvailable = availableSessions[subjectSlug]?.includes(session.slug);
+    if (!isAvailable) {
+      return; // Don't launch if session is not available
+    }
     const chapterSlug = defaultChapterBySubject[subjectSlug] || 'chapter-1';
     navigate(`/pyq/ai/${subjectSlug}/${defaultBookSlug}/${chapterSlug}`, {
       state: { practiceSettings, session }
@@ -178,40 +192,58 @@ const AIPracticeBooks = () => {
             </div>
 
             <section className="space-y-4">
-              {sessions.map((session, index) => (
-                <Card 
-                  key={session.slug} 
-                  className="p-5 sm:p-6 flex flex-col gap-4 md:flex-row md:items-center md:justify-between"
-                >
-                  <div className="flex-1">
-                    <div className="flex items-center gap-3">
-                      <div className={`w-12 h-12 rounded-2xl flex items-center justify-center text-white font-semibold bg-gradient-to-br ${session.accent}`}>
-                        {index + 1}
+              {sessions.map((session, index) => {
+                const isAvailable = availableSessions[subjectSlug]?.includes(session.slug);
+                return (
+                  <Card 
+                    key={session.slug} 
+                    className="p-5 sm:p-6 flex flex-col gap-4 md:flex-row md:items-center md:justify-between"
+                  >
+                    <div className="flex-1">
+                      <div className="flex items-center gap-3">
+                        <div className={`w-12 h-12 rounded-2xl flex items-center justify-center text-white font-semibold bg-gradient-to-br ${session.accent}`}>
+                          {index + 1}
+                        </div>
+                        <div>
+                          <p className="text-xs uppercase text-gray-400 tracking-[0.3em]">{session.window}</p>
+                          <h2 className="text-xl font-semibold text-gray-900">{session.title}</h2>
+                        </div>
                       </div>
-                      <div>
-                        <p className="text-xs uppercase text-gray-400 tracking-[0.3em]">{session.window}</p>
-                        <h2 className="text-xl font-semibold text-gray-900">{session.title}</h2>
+                      <div className="mt-3 flex flex-wrap items-center gap-3 text-sm text-gray-500">
+                        {isAvailable ? (
+                          <>
+                            <span>{session.questionCount} PYQs</span>
+                            <span>⏱ {session.duration}</span>
+                          </>
+                        ) : (
+                          <span className="text-gray-400 italic">Questions coming soon</span>
+                        )}
+                        <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold ${
+                          session.badge === 'Coming Soon' 
+                            ? 'bg-yellow-100 text-yellow-700' 
+                            : 'bg-gray-100 text-gray-700'
+                        }`}>
+                          {session.badge}
+                        </span>
                       </div>
                     </div>
-                    <div className="mt-3 flex flex-wrap items-center gap-3 text-sm text-gray-500">
-                      <span>{session.questionCount} PYQs</span>
-                      <span>⏱ {session.duration}</span>
-                      <span className="inline-flex items-center px-3 py-1 rounded-full bg-gray-100 text-gray-700 text-xs font-semibold">
-                        {session.badge}
-                      </span>
-                    </div>
-                  </div>
 
-                  <div className="w-full md:w-auto">
-                    <button
-                      className="w-full px-4 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold hover:shadow-lg transition"
-                      onClick={() => launchSession(session)}
-                    >
-                      Launch PYQ Session
-                    </button>
-                  </div>
-                </Card>
-              ))}
+                    <div className="w-full md:w-auto">
+                      <button
+                        className={`w-full px-4 py-3 rounded-xl font-semibold transition ${
+                          isAvailable
+                            ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:shadow-lg cursor-pointer'
+                            : 'bg-gray-300 text-gray-500 cursor-not-allowed opacity-60'
+                        }`}
+                        onClick={() => launchSession(session)}
+                        disabled={!isAvailable}
+                      >
+                        {isAvailable ? 'Launch PYQ Session' : 'Coming Soon'}
+                      </button>
+                    </div>
+                  </Card>
+                );
+              })}
 
               {!sessions.length && (
                 <Card className="p-6 text-center text-gray-500">

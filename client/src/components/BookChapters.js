@@ -390,26 +390,6 @@ const defaultChapters = {
       'Aircraft Structures',
       'Stability & Control',
       'Revision Question'
-    ],
-    'principles-of-flight-2014': [
-      'Intro and Definitions',
-      'The Atmosphere',
-      'Basic Aerodynamic Theory',
-      'Subsonic Airflow',
-      'Lift',
-      'Drag',
-      'Stalling',
-      'High Lift Devices',
-      'Airframe Contamination',
-      'Stability and Control',
-      'Controls',
-      'Flight Mechanics',
-      'High Speed Flight',
-      'Limitations',
-      'Windshear',
-      'Propellers',
-      'Revision Questions',
-      'Revision Question'
     ]
   },
   'technical-specific': {
@@ -584,7 +564,6 @@ const BookChapters = () => {
         'powerplant': 'cae-oxford-powerplant',
         'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
         'principles-of-flight': 'cae-oxford-principles-of-flight',
-        'principles-of-flight-2014': 'cae-oxford-principles-of-flight',  // Principles of Flight 2014 uses cae-oxford-principles-of-flight prefix
         'cae-oxford-radio-telephony': 'cae-oxford'
       };
       
@@ -666,33 +645,21 @@ const BookChapters = () => {
         'powerplant': 'cae-oxford-powerplant',
         'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
         'principles-of-flight': 'cae-oxford-principles-of-flight',
-        'principles-of-flight-2014': 'cae-oxford-principles-of-flight',  // Principles of Flight 2014 uses cae-oxford-principles-of-flight prefix
         // Radio Telephony
         'cae-oxford-radio-telephony': 'cae-oxford'
       };
       
-      let mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
-      
-      // Special handling for cae-oxford-general-navigation revision questions
-      // The file is cae-oxford-navigation-revision-questions.json, not cae-oxford-general-navigation-revision-questions.json
-      if (bookSlug === 'cae-oxford-general-navigation') {
-        mappedBookSlug = 'cae-oxford-navigation';
-      }
+      const mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
       
       try {
         const response = await fetch(`/api/practice-questions/${mappedBookSlug}?chapter=${revisionSlug}`);
         if (response.ok) {
           const data = await response.json();
           if (data.questions && data.questions.length > 0) {
-            // For cae-oxford-general-navigation, use the correct chapter slug
-            let chapterSlug = data.chapter_slug || `${mappedBookSlug}-${revisionSlug}`;
-            if (bookSlug === 'cae-oxford-general-navigation') {
-              chapterSlug = 'cae-oxford-navigation-revision-questions';
-            }
             setRevisionQuestions({
               [bookSlug]: {
                 questionCount: data.questions.length,
-                chapterSlug: chapterSlug
+                chapterSlug: data.chapter_slug || `${mappedBookSlug}-${revisionSlug}`
               }
             });
           }
@@ -721,16 +688,29 @@ const BookChapters = () => {
       list = bySubject['cae-oxford'] || [];
     }
     
+    // Filter out Revision Question/Revision Questions for specific subjects
+    const subjectsToExcludeRevision = ['technical-specific', 'radio-telephony', 'meteorology'];
+    const shouldExcludeRevision = subjectsToExcludeRevision.includes(subjectSlug);
+    
+    // Remove revision chapters from the list if they exist
+    if (shouldExcludeRevision) {
+      list = list.filter(ch => ch !== 'Revision Question' && ch !== 'Revision Questions');
+    }
+    
     // Add Revision Questions if available (even if book has no other chapters)
+    // But skip for subjects that should exclude revision
+    // Only add if revision questions actually exist (questionCount > 1, not just 1)
     const revisionInfo = revisionQuestions[bookSlug];
     // Check if list already has Revision Question or Revision Questions
     const hasRevisionChapter = list.some(ch => ch === 'Revision Question' || ch === 'Revision Questions');
-    if (revisionInfo && !hasRevisionChapter) {
+    if (revisionInfo && revisionInfo.questionCount > 1 && !hasRevisionChapter && !shouldExcludeRevision) {
       list = [...list, 'Revision Questions'];
     }
     
     // If no chapters found but revision questions exist, show only revision questions
-    if (list.length === 0 && revisionInfo) {
+    // But skip for subjects that should exclude revision
+    // Only show if revision questions actually exist (questionCount > 1, not just 1)
+    if (list.length === 0 && revisionInfo && revisionInfo.questionCount > 1 && !shouldExcludeRevision) {
       list = ['Revision Questions'];
     }
     
@@ -750,9 +730,10 @@ const BookChapters = () => {
       }
       
       // Special handling for Revision Questions - check dynamically loaded data
+      // Only show if questions exist (questionCount > 1, not just 1)
       if (title === 'Revision Questions' || title === 'Revision Question') {
         const revInfo = revisionQuestions[bookSlug];
-        if (revInfo) {
+        if (revInfo && revInfo.questionCount > 1) {
           return {
             id: `revision-${bookSlug}`,
             title: title, // Keep original title (Revision Question or Revision Questions)
@@ -761,14 +742,8 @@ const BookChapters = () => {
             chapterSlug: revInfo.chapterSlug
           };
         }
-        // Even if no questions loaded yet, make it available so it can be clicked
-        // The navigation will construct the slug if needed
-        return {
-          id: `revision-${bookSlug}`,
-          title: title, // Keep original title (Revision Question or Revision Questions)
-          questionCount: 0,
-          status: 'available', // Changed from 'coming-soon' to 'available' so it's clickable
-        };
+        // If no questions, questionCount is 0, or only 1 question, return null to filter it out
+        return null;
       }
       
       // Check chapter availability - first from dynamic check, then fallback to hardcoded counts
@@ -798,7 +773,7 @@ const BookChapters = () => {
         questionCount,
         status: isAvailable ? 'available' : 'coming-soon',
       };
-    });
+    }).filter(ch => ch !== null); // Filter out null values (revision questions without questions)
   }, [subjectSlug, bookSlug, revisionQuestions, chapterAvailability]);
 
   const subject = subjectData[subjectSlug] || {
@@ -860,20 +835,12 @@ const BookChapters = () => {
         'powerplant': 'cae-oxford-powerplant',
         'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
         'principles-of-flight': 'cae-oxford-principles-of-flight',
-        'principles-of-flight-2014': 'cae-oxford-principles-of-flight',  // Principles of Flight 2014 uses cae-oxford-principles-of-flight prefix
         // Radio Telephony
         'cae-oxford-radio-telephony': 'cae-oxford'
       };
-      let mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
-      
-      // Special handling for cae-oxford-general-navigation revision questions
-      // The file is cae-oxford-navigation-revision-questions.json, not cae-oxford-general-navigation-revision-questions.json
-      let finalSlug = `${mappedBookSlug}-${revisionSlug}`;
-      if (bookSlug === 'cae-oxford-general-navigation') {
-        finalSlug = `cae-oxford-navigation-${revisionSlug}`;
-      }
-      
-      navigate(`/pyq/book/${bookSlug}/${finalSlug}`);
+      const mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
+      const constructedSlug = `${mappedBookSlug}-${revisionSlug}`;
+      navigate(`/pyq/book/${bookSlug}/${constructedSlug}`);
       return;
     }
     // Navigate directly to practice page - matching QuestionBank behavior
@@ -970,12 +937,9 @@ const BookChapters = () => {
                         ) : (
                           <div className="w-full py-3 px-6 bg-gray-100 text-gray-500 rounded-lg text-center">
                             <div className="flex items-center justify-center">
-                              <svg className="w-5 h-5 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                              </svg>
                             </div>
-                            <p className="text-sm text-gray-500 mt-1 font-medium">
-                              This chapter does not include questions.
+                            <p className="text-xs text-gray-400 mt-1">
+                            This chapter does not include questions.
                             </p>
                           </div>
                         )}

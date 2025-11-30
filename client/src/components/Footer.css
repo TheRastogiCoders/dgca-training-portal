@@ -1,50 +1,16 @@
-/* Footer Container - Aligned to main content area */
-footer.footer-container {
-  width: 100% !important;
-  margin-left: 0 !important;
+.footer-container {
+  width: 100%;
+  margin-left: 0;
   margin-top: auto;
   position: relative;
   z-index: 1;
-  background: transparent !important;
+  background: transparent;
   flex-shrink: 0;
-  overflow: hidden;
-  box-sizing: border-box;
-  /* Footer aligned to start after sidebar - matches main content area */
-}
-
-/* Desktop: Footer starts after sidebar - matches md:ml-56 */
-@media screen and (min-width: 768px) {
-  footer.footer-container {
-    margin-left: 14rem !important; /* md:w-56 = 14rem (224px) */
-    width: calc(100% - 14rem) !important;
-    max-width: calc(100% - 14rem) !important;
-    min-width: 0;
-  }
-}
-
-/* Large screens: matches lg:ml-64 */
-@media screen and (min-width: 1024px) {
-  footer.footer-container {
-    margin-left: 16rem !important; /* lg:w-64 = 16rem (256px) */
-    width: calc(100% - 16rem) !important;
-    max-width: calc(100% - 16rem) !important;
-    min-width: 0;
-  }
-}
-
-/* Extra large screens: matches xl:ml-72 */
-@media screen and (min-width: 1280px) {
-  footer.footer-container {
-    margin-left: 18rem !important; /* xl:w-72 = 18rem (288px) */
-    width: calc(100% - 18rem) !important;
-    max-width: calc(100% - 18rem) !important;
-    min-width: 0;
-  }
+  /* Footer spans full width from left edge - sidebar has z-40 so it appears above footer */
 }
 
 .footer-content {
-  width: 100% !important;
-  max-width: 100% !important;
+  width: 100%;
   padding: 1.5rem 2rem;
   display: flex;
   align-items: center;
@@ -53,9 +19,6 @@ footer.footer-container {
   backdrop-filter: blur(10px);
   background: rgba(255, 255, 255, 0.02);
   transition: all 0.3s ease;
-  box-sizing: border-box;
-  overflow: hidden;
-  margin: 0;
 }
 
 .footer-content:hover {
@@ -84,11 +47,10 @@ footer.footer-container {
 }
 
 /* Mobile: Full width footer */
-@media screen and (max-width: 767px) {
-  footer.footer-container {
-    margin-left: 0 !important;
-    width: 100% !important;
-    max-width: 100% !important;
+@media (max-width: 767px) {
+  .footer-container {
+    margin-left: 0;
+    width: 100%;
   }
   
   .footer-content {
@@ -101,7 +63,7 @@ footer.footer-container {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .footer-content {
     padding: 1rem 0.75rem;
     padding-bottom: calc(1rem + env(safe-area-inset-bottom));

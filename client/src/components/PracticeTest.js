@@ -24,8 +24,6 @@ const PracticeTest = () => {
         "Real-time feedback",
         "Performance insights"
       ],
-      // DGCA-appropriate labels
-      stats: { questions: "Multiple Questions", ai: "Standardized DGCA-Pattern", adaptive: "Dynamic Adaptive Practice" },
       onClick: () => navigate('/pyq/ai')
     }
   ];
@@ -329,15 +327,6 @@ const PracticeTest = () => {
                           {test.title}
                         </h3>
                         <p className="text-xs sm:text-sm md:text-base text-gray-600 mb-3 sm:mb-4 leading-relaxed">{test.description}</p>
-                        <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 sm:gap-4 mb-4 sm:mb-5">
-                          {Object.entries(test.stats).map(([key, value]) => {
-                            return (
-                            <div key={key} className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
-                              <div className="text-sm sm:text-base md:text-lg font-bold text-blue-600">{value}</div>
-                            </div>
-                            );
-                          })}
-                        </div>
                         <button className={`w-full py-2.5 sm:py-3 px-4 sm:px-6 bg-gradient-to-r ${test.color} text-white font-semibold text-sm sm:text-base rounded-lg shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2`}>
                           Start PYQ Practice
                         </button>

@@ -1245,21 +1245,43 @@ const technicalSpecificBooks = [
               const subjectChapters = sanitizeChapters(selectedSubject?.chapters) || [];
               let chapters = bookChapters.length > 0 ? bookChapters : subjectChapters;
               
+              // Filter out Revision Question/Revision Questions for specific subjects
+              const subjectsToExcludeRevision = ['Technical Specific', 'Radio Telephony (RTR)-A', 'Meteorology'];
+              const shouldExcludeRevision = selectedSubject && subjectsToExcludeRevision.includes(selectedSubject.title);
+              
+              // Remove revision chapters from the list if they exist
+              if (shouldExcludeRevision) {
+                chapters = chapters.filter(ch => ch.name !== 'Revision Question' && ch.name !== 'Revision Questions');
+              }
+              
               // Add "Revision Question" at the end of every chapter list
               // Check if it already exists to avoid duplicates
+              // But skip for subjects that should exclude revision
+              // Only add if revision questions actually exist (questionCount > 1, not just 1)
               const hasRevisionQuestion = chapters.some(ch => 
                 ch.name === 'Revision Question' || ch.name === 'Revision Questions'
               );
-              if (!hasRevisionQuestion && chapters.length > 0 && resolveSelectedBook?.slug) {
+              if (!hasRevisionQuestion && chapters.length > 0 && resolveSelectedBook?.slug && !shouldExcludeRevision) {
                 // Get revision question count if available
                 const revInfo = revisionQuestions[resolveSelectedBook.slug];
-                chapters = [...chapters, {
-                  id: chapters.length + 1,
-                  name: 'Revision Question',
-                  questions: revInfo?.questionCount || 0,
-                  slug: 'revision-question'
-                }];
+                // Only add if questions exist (questionCount > 1, not just 1)
+                if (revInfo && revInfo.questionCount > 1) {
+                  chapters = [...chapters, {
+                    id: chapters.length + 1,
+                    name: 'Revision Question',
+                    questions: revInfo.questionCount,
+                    slug: 'revision-question'
+                  }];
+                }
               }
+              
+              // Filter out revision questions that don't have questions or have only 1 question
+              chapters = chapters.filter(ch => {
+                if (ch.name === 'Revision Question' || ch.name === 'Revision Questions') {
+                  return ch.questions > 1;
+                }
+                return true;
+              });
               
               debugLog('Rendering chapters:', {
                 bookChapters: bookChapters.length, 

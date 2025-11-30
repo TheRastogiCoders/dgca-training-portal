@@ -185,7 +185,6 @@ app.get('/api/practice-questions/:book', (req, res) => {
       'powerplant': 'cae-oxford-powerplant',
       'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
       'principles-of-flight': 'cae-oxford-principles-of-flight',
-      'principles-of-flight-2014': 'cae-oxford-principles-of-flight',  // Principles of Flight 2014 uses cae-oxford-principles-of-flight prefix
       'cae-oxford-navigation': 'cae-oxford-navigation',
       'operational-procedures': 'operational-procedures',
       'instrument-2014': 'instrument',
@@ -223,14 +222,6 @@ app.get('/api/practice-questions/:book', (req, res) => {
           alternativePrefixes.push('cae-oxford');
         }
         
-        // Special handling for revision questions
-        if (chapter === 'revision-questions' || chapter.includes('revision')) {
-          // For cae-oxford-general-navigation, try cae-oxford-navigation (the file is cae-oxford-navigation-revision-questions.json)
-          if (book === 'cae-oxford-general-navigation' || filePrefix === 'cae-oxford-general-navigation') {
-            alternativePrefixes.push('cae-oxford-navigation');
-          }
-        }
-        
         // Try the original book slug as prefix
         if (book !== filePrefix) {
           alternativePrefixes.push(book);
@@ -257,42 +248,15 @@ app.get('/api/practice-questions/:book', (req, res) => {
           const allFiles = fs.readdirSync(practiceQuestionsDir).filter(f => f.endsWith('.json'));
           // Try to find file that ends with the chapter slug
           const matchingFile = allFiles.find(f => {
-            const fileBase = f.replace('.json', '').toLowerCase();
-            const chapterLower = chapter.toLowerCase();
+            const fileBase = f.replace('.json', '');
             // Check if file ends with chapter slug or contains it
-            return fileBase.endsWith(`-${chapterLower}`) || fileBase === chapterLower || fileBase.includes(`-${chapterLower}-`);
+            return fileBase.endsWith(`-${chapter}`) || fileBase === chapter || fileBase.includes(`-${chapter}-`);
           });
           
           if (matchingFile) {
             filePath = path.join(practiceQuestionsDir, matchingFile);
             console.log(`[API] Found matching file by search: ${matchingFile}`);
           } else {
-            // For revision questions, try more specific searches
-            if (chapter === 'revision-questions' || chapter.includes('revision')) {
-              // Try to find any revision questions file that might match
-              const revisionFiles = allFiles.filter(f => {
-                const fileBase = f.replace('.json', '').toLowerCase();
-                return fileBase.includes('revision') && (
-                  fileBase.includes(book.toLowerCase()) || 
-                  fileBase.includes(filePrefix.toLowerCase()) ||
-                  (book === 'cae-oxford-general-navigation' && fileBase.includes('cae-oxford-navigation'))
-                );
-              });
-              
-              if (revisionFiles.length > 0) {
-                // For cae-oxford-general-navigation, prefer cae-oxford-navigation-revision-questions.json
-                const preferredFile = revisionFiles.find(f => f.toLowerCase().includes('cae-oxford-navigation-revision')) ||
-                                     revisionFiles.find(f => f.toLowerCase().includes(`${filePrefix.toLowerCase()}-revision`)) ||
-                                     revisionFiles[0];
-                if (preferredFile) {
-                  filePath = path.join(practiceQuestionsDir, preferredFile);
-                  console.log(`[API] Found revision questions file: ${preferredFile}`);
-                }
-              }
-            }
-          }
-          
-          if (!fs.existsSync(filePath)) {
             // List available files for debugging
             const files = allFiles.filter(f => {
               const fileBase = f.replace('.json', '').toLowerCase();
