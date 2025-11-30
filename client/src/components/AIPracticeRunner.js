@@ -712,9 +712,7 @@ const AIPracticeRunner = () => {
                   <button onClick={() => navigate(`/pyq/ai/${subjectSlug}`)} className="px-6 py-3 bg-blue-600 text-white rounded-lg">
                     Choose Another Chapter
                   </button>
-                  <button onClick={() => navigate('/pyq')} className="px-6 py-3 bg-gray-100 text-gray-700 rounded-lg">
-                    Back to Practice
-                  </button>
+                 
                 </div>
               </Card>
             </div>

@@ -1,0 +1,61 @@
+{
+  "book_id": "mass-and-balance-and-performance",
+  "book_name": "Mass and Balance and Performance",
+  "subject": "Performance",
+  "subject_slug": "performance",
+  "category": "performance",
+  "chapter_number": "7",
+  "chapter_id": "perf-ch7",
+  "chapter_title": "Performance Tables",
+  "chapter_slug": "performance-tables",
+  "total_questions": 1,
+  "page_range": {
+    "start": 631,
+    "end": 675
+  },
+  "topics": [
+    {
+      "id": "perf-topic-7-1",
+      "title": "Reading Performance Data",
+      "page": 635
+    },
+    {
+      "id": "perf-topic-7-2",
+      "title": "Interpolation Methods",
+      "page": 655
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the importance of performance tables in aircraft operations?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Ensures safety compliance",
+        "b) Optimizes aircraft performance",
+        "c) Reduces operational costs",
+        "d) All of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Performance Tables is crucial for ensuring safety compliance, optimizing aircraft performance, and reducing operational costs.",
+      "tags": [
+        "perf-ch7",
+        "performance"
+      ],
+      "page_number": 636,
+      "reference": "EASA/DGCA Guidelines"
+    }
+  ],
+  "metadata": {
+    "source": "EASA/DGCA Guidelines",
+    "version": "1.0",
+    "created_date": "2025-11-30T17:39:00.379Z",
+    "difficulty_distribution": {
+      "Easy": 0,
+      "Medium": 1,
+      "Hard": 0
+    }
+  }
+}

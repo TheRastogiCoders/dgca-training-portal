@@ -1,0 +1,61 @@
+{
+  "book_id": "mass-and-balance-and-performance",
+  "book_name": "Mass and Balance and Performance",
+  "subject": "Performance",
+  "subject_slug": "performance",
+  "category": "performance",
+  "chapter_number": "8",
+  "chapter_id": "perf-ch8",
+  "chapter_title": "Practical Examples",
+  "chapter_slug": "practical-examples",
+  "total_questions": 1,
+  "page_range": {
+    "start": 676,
+    "end": 720
+  },
+  "topics": [
+    {
+      "id": "perf-topic-8-1",
+      "title": "Case Studies",
+      "page": 680
+    },
+    {
+      "id": "perf-topic-8-2",
+      "title": "Real-world Scenarios",
+      "page": 700
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the importance of practical examples in aircraft operations?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Ensures safety compliance",
+        "b) Optimizes aircraft performance",
+        "c) Reduces operational costs",
+        "d) All of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Practical Examples is crucial for ensuring safety compliance, optimizing aircraft performance, and reducing operational costs.",
+      "tags": [
+        "perf-ch8",
+        "performance"
+      ],
+      "page_number": 681,
+      "reference": "EASA/DGCA Guidelines"
+    }
+  ],
+  "metadata": {
+    "source": "EASA/DGCA Guidelines",
+    "version": "1.0",
+    "created_date": "2025-11-30T17:39:00.380Z",
+    "difficulty_distribution": {
+      "Easy": 0,
+      "Medium": 1,
+      "Hard": 0
+    }
+  }
+}

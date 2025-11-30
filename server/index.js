@@ -179,7 +179,6 @@ app.get('/api/practice-questions/:book', (req, res) => {
       'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
       'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
       'cae-oxford-performance': 'cae-oxford-performance',
-      'performance': 'cae-oxford-performance',
       'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
       'cae-oxford-powerplant': 'cae-oxford-powerplant',
       'powerplant': 'cae-oxford-powerplant',
@@ -192,7 +191,12 @@ app.get('/api/practice-questions/:book', (req, res) => {
       // Meteorology
       'cae-oxford-meteorology': 'cae-oxford',
       // Radio Telephony
-      'cae-oxford-radio-telephony': 'cae-oxford'
+      'cae-oxford-radio-telephony': 'cae-oxford',
+      // Mass and Balance & Performance
+      'mass-and-balance-and-performance': 'mass-and-balance-and-performance',
+      'mass-and-balance': 'mass-and-balance-and-performance'
+      // NOTE: 'performance' is removed here because it conflicts with 'cae-oxford-performance'
+      // Instead, BookChapters.js uses subject-specific routing to distinguish between them
     };
     
     // Apply mapping if exists, otherwise use the book slug as-is
@@ -220,6 +224,12 @@ app.get('/api/practice-questions/:book', (req, res) => {
         // For 'cae-oxford', try 'cae-oxford' prefix (for meteorology, radio-telephony)
         if (book === 'cae-oxford' && filePrefix === 'oxford') {
           alternativePrefixes.push('cae-oxford');
+        }
+        
+        // For mass-and-balance-and-performance, try shorter prefixes
+        if (book === 'mass-and-balance-and-performance' || filePrefix === 'mass-and-balance-and-performance') {
+          alternativePrefixes.push('mass-and-balance');
+          alternativePrefixes.push('performance');
         }
         
         // Try the original book slug as prefix

@@ -1,0 +1,61 @@
+{
+  "book_id": "mass-and-balance-and-performance",
+  "book_name": "Mass and Balance and Performance",
+  "subject": "Performance",
+  "subject_slug": "performance",
+  "category": "mass",
+  "chapter_number": "8",
+  "chapter_id": "mb-ch8",
+  "chapter_title": "Compliance Checking",
+  "chapter_slug": "compliance-checking",
+  "total_questions": 1,
+  "page_range": {
+    "start": 316,
+    "end": 360
+  },
+  "topics": [
+    {
+      "id": "mb-topic-8-1",
+      "title": "Regulatory Compliance",
+      "page": 320
+    },
+    {
+      "id": "mb-topic-8-2",
+      "title": "Audit Procedures",
+      "page": 340
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the importance of compliance checking in aircraft operations?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Ensures safety compliance",
+        "b) Optimizes aircraft performance",
+        "c) Reduces operational costs",
+        "d) All of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Compliance Checking is crucial for ensuring safety compliance, optimizing aircraft performance, and reducing operational costs.",
+      "tags": [
+        "mb-ch8",
+        "performance"
+      ],
+      "page_number": 321,
+      "reference": "EASA/DGCA Guidelines"
+    }
+  ],
+  "metadata": {
+    "source": "EASA/DGCA Guidelines",
+    "version": "1.0",
+    "created_date": "2025-11-30T17:39:00.374Z",
+    "difficulty_distribution": {
+      "Easy": 0,
+      "Medium": 1,
+      "Hard": 0
+    }
+  }
+}

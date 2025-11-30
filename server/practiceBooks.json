@@ -95,6 +95,17 @@
       "subjects": [
         "air-navigation"
       ]
+    },
+    {
+      "slug": "mass-and-balance-and-performance",
+      "title": "Mass and Balance & Performance",
+      "description": "Aircraft Mass, Balance and Performance Characteristics",
+      "icon": "⚖️",
+      "color": "#a855f7",
+      "subjects": [
+        "technical-general",
+        "technical-specific"
+      ]
     }
   ]
 }

@@ -1,0 +1,117 @@
+{
+  "book_id": "mass-and-balance-and-performance",
+  "book_name": "Mass and Balance and Performance",
+  "subject": "Performance",
+  "chapter_id": "perf-ch1b",
+  "chapter_title": "General Principles - Take-off Performance (Advanced)",
+  "chapter_name": "takeoff-performance-advanced",
+  "category": "performance",
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "1",
+      "question": "Sample question for takeoff-performance-advanced?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "takeoff-performance-advanced"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "1",
+      "question": "Sample question for takeoff-performance-advanced?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "takeoff-performance-advanced"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "1",
+      "question": "Sample question for takeoff-performance-advanced?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "takeoff-performance-advanced"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "1",
+      "question": "Sample question for takeoff-performance-advanced?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "takeoff-performance-advanced"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "1",
+      "question": "Sample question for takeoff-performance-advanced?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "takeoff-performance-advanced"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    }
+  ],
+  "metadata": {
+    "source": "EASA/DGCA Guidelines",
+    "pdf_source": "2. General Principles - Take-off (2)( Performance.pdf",
+    "generated_date": "2025-11-30T17:38:42.637Z"
+  }
+}

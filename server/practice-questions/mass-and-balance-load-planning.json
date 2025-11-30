@@ -1,0 +1,61 @@
+{
+  "book_id": "mass-and-balance-and-performance",
+  "book_name": "Mass and Balance and Performance",
+  "subject": "Performance",
+  "subject_slug": "performance",
+  "category": "mass",
+  "chapter_number": "4",
+  "chapter_id": "mb-ch4",
+  "chapter_title": "Load Planning",
+  "chapter_slug": "load-planning",
+  "total_questions": 1,
+  "page_range": {
+    "start": 136,
+    "end": 180
+  },
+  "topics": [
+    {
+      "id": "mb-topic-4-1",
+      "title": "Load Distribution",
+      "page": 140
+    },
+    {
+      "id": "mb-topic-4-2",
+      "title": "Load Control",
+      "page": 160
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the importance of load planning in aircraft operations?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Ensures safety compliance",
+        "b) Optimizes aircraft performance",
+        "c) Reduces operational costs",
+        "d) All of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Load Planning is crucial for ensuring safety compliance, optimizing aircraft performance, and reducing operational costs.",
+      "tags": [
+        "mb-ch4",
+        "performance"
+      ],
+      "page_number": 141,
+      "reference": "EASA/DGCA Guidelines"
+    }
+  ],
+  "metadata": {
+    "source": "EASA/DGCA Guidelines",
+    "version": "1.0",
+    "created_date": "2025-11-30T17:39:00.373Z",
+    "difficulty_distribution": {
+      "Easy": 0,
+      "Medium": 1,
+      "Hard": 0
+    }
+  }
+}

@@ -322,6 +322,127 @@
         "pageEnd": 120
       }
     ]
+  },
+  {
+    "id": "mass-and-balance-and-performance",
+    "name": "Mass and Balance & Performance",
+    "author": "EASA/DGCA",
+    "subject": "Performance",
+    "description": "Aircraft Mass, Balance and Performance Characteristics - 16 comprehensive chapters",
+    "chapters": [
+      {
+        "id": "mb-ch1",
+        "name": "General Principles",
+        "slug": "general-principles",
+        "pageStart": 1,
+        "pageEnd": 45
+      },
+      {
+        "id": "mb-ch2",
+        "name": "Aircraft Weighing",
+        "slug": "aircraft-weighing",
+        "pageStart": 46,
+        "pageEnd": 90
+      },
+      {
+        "id": "mb-ch3",
+        "name": "CG Calculations",
+        "slug": "cg-calculations",
+        "pageStart": 91,
+        "pageEnd": 135
+      },
+      {
+        "id": "mb-ch4",
+        "name": "Load Planning",
+        "slug": "load-planning",
+        "pageStart": 136,
+        "pageEnd": 180
+      },
+      {
+        "id": "mb-ch5",
+        "name": "Fuel Management",
+        "slug": "fuel-management",
+        "pageStart": 181,
+        "pageEnd": 225
+      },
+      {
+        "id": "mb-ch6",
+        "name": "Payload Arrangement",
+        "slug": "payload-arrangement",
+        "pageStart": 226,
+        "pageEnd": 270
+      },
+      {
+        "id": "mb-ch7",
+        "name": "Balance Procedures",
+        "slug": "balance-procedures",
+        "pageStart": 271,
+        "pageEnd": 315
+      },
+      {
+        "id": "mb-ch8",
+        "name": "Compliance Checking",
+        "slug": "compliance-checking",
+        "pageStart": 316,
+        "pageEnd": 360
+      },
+      {
+        "id": "perf-ch1",
+        "name": "Takeoff Performance",
+        "slug": "takeoff-performance",
+        "pageStart": 361,
+        "pageEnd": 405
+      },
+      {
+        "id": "perf-ch2",
+        "name": "Climb Performance",
+        "slug": "climb-performance",
+        "pageStart": 406,
+        "pageEnd": 450
+      },
+      {
+        "id": "perf-ch3",
+        "name": "Cruise Performance",
+        "slug": "cruise-performance",
+        "pageStart": 451,
+        "pageEnd": 495
+      },
+      {
+        "id": "perf-ch4",
+        "name": "Descent Performance",
+        "slug": "descent-performance",
+        "pageStart": 496,
+        "pageEnd": 540
+      },
+      {
+        "id": "perf-ch5",
+        "name": "Landing Performance",
+        "slug": "landing-performance",
+        "pageStart": 541,
+        "pageEnd": 585
+      },
+      {
+        "id": "perf-ch6",
+        "name": "Obstacle Clearance",
+        "slug": "obstacle-clearance",
+        "pageStart": 586,
+        "pageEnd": 630
+      },
+      {
+        "id": "perf-ch7",
+        "name": "Performance Tables",
+        "slug": "performance-tables",
+        "pageStart": 631,
+        "pageEnd": 675
+      },
+      {
+        "id": "perf-ch8",
+        "name": "Practical Examples",
+        "slug": "practical-examples",
+        "pageStart": 676,
+        "pageEnd": 720
+      }
+    ]
   }
 ]
 

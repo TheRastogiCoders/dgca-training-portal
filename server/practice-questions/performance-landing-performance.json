@@ -1,0 +1,140 @@
+{
+  "book_id": "mass-and-balance-and-performance",
+  "book_name": "Mass and Balance and Performance",
+  "subject": "Performance",
+  "subject_slug": "performance",
+  "category": "performance",
+  "chapter_number": "5",
+  "chapter_id": "perf-ch5",
+  "chapter_title": "Landing Performance",
+  "chapter_slug": "landing-performance",
+  "total_questions": 5,
+  "page_range": {
+    "start": 541,
+    "end": 585
+  },
+  "topics": [
+    {
+      "id": "perf-topic-5-1",
+      "title": "Landing Distance Calculation",
+      "page": 545
+    },
+    {
+      "id": "perf-topic-5-2",
+      "title": "Landing Factors",
+      "page": 565
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Sample question for landing-performance?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "landing-performance"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "2",
+      "question": "Sample question for landing-performance?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "landing-performance"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "3",
+      "question": "Sample question for landing-performance?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "landing-performance"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "4",
+      "question": "Sample question for landing-performance?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "landing-performance"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "5",
+      "question": "Sample question for landing-performance?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "landing-performance"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    }
+  ],
+  "metadata": {
+    "source": "EASA/DGCA Guidelines",
+    "version": "1.0",
+    "created_date": "2025-11-30T17:39:00.378Z",
+    "difficulty_distribution": {
+      "Easy": 0,
+      "Medium": 5,
+      "Hard": 0
+    }
+  }
+}

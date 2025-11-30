@@ -13,7 +13,9 @@
     "extract-pdf": "node scripts/extract-pdf-questions.js",
     "merge-papers": "node scripts/merge-extracted-papers.js",
     "extract-and-merge": "node scripts/extract-and-merge.js",
-    "extract-revision": "node scripts/extract-revision-questions.js"
+    "extract-revision": "node scripts/extract-revision-questions.js",
+    "extract-pdf-mass-performance": "node scripts/extract-pdf-mass-performance.js",
+    "generate-mass-performance-json": "node scripts/generate-mass-performance-json.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",

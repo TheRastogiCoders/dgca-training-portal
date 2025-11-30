@@ -1,0 +1,145 @@
+{
+  "book_id": "mass-and-balance-and-performance",
+  "book_name": "Mass and Balance and Performance",
+  "subject": "Performance",
+  "subject_slug": "performance",
+  "category": "mass",
+  "chapter_number": "2",
+  "chapter_id": "mb-ch2",
+  "chapter_title": "Aircraft Weighing",
+  "chapter_slug": "aircraft-weighing",
+  "total_questions": 5,
+  "page_range": {
+    "start": 46,
+    "end": 90
+  },
+  "topics": [
+    {
+      "id": "mb-topic-2-1",
+      "title": "Weighing Procedures",
+      "page": 50
+    },
+    {
+      "id": "mb-topic-2-2",
+      "title": "Equipment and Standards",
+      "page": 65
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "When must an aircraft be weighed?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Before initial entry into service",
+        "b) Annually",
+        "c) After major maintenance",
+        "d) All of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Aircraft must be weighed at multiple points including before initial entry into service, annually, and after major maintenance to ensure accurate mass and balance data.",
+      "tags": [
+        "aircraft-weighing",
+        "maintenance"
+      ],
+      "page_number": 46,
+      "reference": "EASA Regulations"
+    },
+    {
+      "id": "2",
+      "question": "When must an aircraft be weighed?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Before initial entry into service",
+        "b) Annually",
+        "c) After major maintenance",
+        "d) All of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Aircraft must be weighed at multiple points including before initial entry into service, annually, and after major maintenance to ensure accurate mass and balance data.",
+      "tags": [
+        "aircraft-weighing",
+        "maintenance"
+      ],
+      "page_number": 46,
+      "reference": "EASA Regulations"
+    },
+    {
+      "id": "3",
+      "question": "When must an aircraft be weighed?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Before initial entry into service",
+        "b) Annually",
+        "c) After major maintenance",
+        "d) All of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Aircraft must be weighed at multiple points including before initial entry into service, annually, and after major maintenance to ensure accurate mass and balance data.",
+      "tags": [
+        "aircraft-weighing",
+        "maintenance"
+      ],
+      "page_number": 46,
+      "reference": "EASA Regulations"
+    },
+    {
+      "id": "4",
+      "question": "When must an aircraft be weighed?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Before initial entry into service",
+        "b) Annually",
+        "c) After major maintenance",
+        "d) All of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Aircraft must be weighed at multiple points including before initial entry into service, annually, and after major maintenance to ensure accurate mass and balance data.",
+      "tags": [
+        "aircraft-weighing",
+        "maintenance"
+      ],
+      "page_number": 46,
+      "reference": "EASA Regulations"
+    },
+    {
+      "id": "5",
+      "question": "When must an aircraft be weighed?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Before initial entry into service",
+        "b) Annually",
+        "c) After major maintenance",
+        "d) All of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Aircraft must be weighed at multiple points including before initial entry into service, annually, and after major maintenance to ensure accurate mass and balance data.",
+      "tags": [
+        "aircraft-weighing",
+        "maintenance"
+      ],
+      "page_number": 46,
+      "reference": "EASA Regulations"
+    }
+  ],
+  "metadata": {
+    "source": "EASA/DGCA Guidelines",
+    "version": "1.0",
+    "created_date": "2025-11-30T17:39:00.371Z",
+    "difficulty_distribution": {
+      "Easy": 0,
+      "Medium": 5,
+      "Hard": 0
+    }
+  }
+}

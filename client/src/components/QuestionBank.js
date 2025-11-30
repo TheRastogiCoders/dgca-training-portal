@@ -458,16 +458,27 @@ const airNavigationOxfordBooks = [
     description: "CPL/ATPL Ground Training Series",
     icon: "📊",
     color: "from-purple-500 to-pink-500",
-    slug: "performance",
-    totalQuestions: 131,
+    slug: "mass-and-balance-and-performance",
+    totalQuestions: 200, // Updated total questions
     difficulty: "Medium",
     chapters: [
       { id: 1, name: "Mass and Balance and Performance", questions: 30, difficulty: "Medium" },
-      { id: 4, name: "General Principles - Descent", questions: 19, difficulty: "Medium" },
-      { id: 7, name: "Single-engine Class B Aircraft - Take-off", questions: 11, difficulty: "Medium" },
-      { id: 11, name: "Multi-engine Class B - Take-off", questions: 13, difficulty: "Medium" },
-      { id: 17, name: "Class A - En Route", questions: 43, difficulty: "Medium" },
-      { id: 18, name: "Landing", questions: 15, difficulty: "Medium" }
+      { id: 2, name: "Definitions and Calculations", questions: 20, difficulty: "Medium" },
+      { id: 3, name: "Revision Questions (Mass & Balance & Performance)", questions: 25, difficulty: "Medium" },
+      { id: 4, name: "General Principles – Take-off", questions: 15, difficulty: "Medium" },
+      { id: 5, name: "General Principles – Climb", questions: 15, difficulty: "Medium" },
+      { id: 6, name: "General Principles – Descent", questions: 19, difficulty: "Medium" },
+      { id: 7, name: "General Principles – Cruise", questions: 15, difficulty: "Medium" },
+      { id: 8, name: "General Principles – Landing", questions: 15, difficulty: "Medium" },
+      { id: 9, name: "Single-engine Class B – Take-off", questions: 11, difficulty: "Medium" },
+      { id: 10, name: "Single-engine Class B – Climb", questions: 10, difficulty: "Medium" },
+      { id: 11, name: "Single-engine Class B – En Route & Descent", questions: 10, difficulty: "Medium" },
+      { id: 12, name: "Single-engine Class B – Landing", questions: 10, difficulty: "Medium" },
+      { id: 13, name: "Multi-engine Class B – Take-off", questions: 13, difficulty: "Medium" },
+      { id: 14, name: "Multi-engine Class B – En Route & Descent", questions: 10, difficulty: "Medium" },
+      { id: 15, name: "Class A Aircraft – Take-off", questions: 15, difficulty: "Medium" },
+      { id: 16, name: "Landing", questions: 15, difficulty: "Medium" },
+      { id: 17, name: "Revision Questions", questions: 15, difficulty: "Medium" }
     ]
   }
 ];
@@ -922,7 +933,7 @@ const technicalSpecificBooks = [
         'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
         'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
         'cae-oxford-performance': 'cae-oxford-performance',
-        'performance': 'cae-oxford-performance',
+        'performance': 'mass-and-balance-and-performance',
         'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
         'cae-oxford-navigation': 'cae-oxford-navigation',
         'operational-procedures': 'operational-procedures',
@@ -1003,7 +1014,7 @@ const technicalSpecificBooks = [
         'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
         'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
         'cae-oxford-performance': 'cae-oxford-performance',
-        'performance': 'cae-oxford-performance',
+        'performance': 'mass-and-balance-and-performance',
         'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
         'cae-oxford-navigation': 'cae-oxford-navigation',
         'operational-procedures': 'operational-procedures',
@@ -1014,7 +1025,9 @@ const technicalSpecificBooks = [
         'powerplant': 'cae-oxford-powerplant',
         'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
         'principles-of-flight': 'cae-oxford-principles-of-flight',
-        'cae-oxford-radio-telephony': 'cae-oxford'
+        'cae-oxford-radio-telephony': 'cae-oxford',
+        'mass-and-balance-and-performance': 'mass-and-balance-and-performance',
+        'mass-and-balance': 'mass-and-balance-and-performance'
       };
       const mappedBookSlug = bookSlugMap[book?.slug] || book?.slug;
       const constructedSlug = `${mappedBookSlug}-${revisionSlug}`;

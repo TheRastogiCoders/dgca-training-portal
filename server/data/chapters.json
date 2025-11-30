@@ -32,6 +32,254 @@
         "pageNumber": 40
       }
     ]
+  },
+  {
+    "id": "mb-ch1",
+    "bookId": "mass-and-balance-and-performance",
+    "name": "General Principles - EU-OPS 1",
+    "slug": "general-principles",
+    "topics": [
+      {
+        "id": "mb-topic-1-1",
+        "title": "Mass and Balance Fundamentals",
+        "pageNumber": 5
+      },
+      {
+        "id": "mb-topic-1-2",
+        "title": "Regulatory Framework",
+        "pageNumber": 15
+      }
+    ]
+  },
+  {
+    "id": "mb-ch2",
+    "bookId": "mass-and-balance-and-performance",
+    "name": "Definitions and Calculations",
+    "slug": "aircraft-weighing",
+    "topics": [
+      {
+        "id": "mb-topic-2-1",
+        "title": "Weighing Procedures",
+        "pageNumber": 50
+      },
+      {
+        "id": "mb-topic-2-2",
+        "title": "Equipment and Standards",
+        "pageNumber": 65
+      }
+    ]
+  },
+  {
+    "id": "mb-ch3",
+    "bookId": "mass-and-balance-and-performance",
+    "name": "Revision Questions",
+    "slug": "cg-calculations",
+    "topics": [
+      {
+        "id": "mb-topic-3-1",
+        "title": "CG Envelope",
+        "pageNumber": 95
+      },
+      {
+        "id": "mb-topic-3-2",
+        "title": "Calculation Methods",
+        "pageNumber": 110
+      }
+    ]
+  },
+  {
+    "id": "perf-ch1",
+    "bookId": "mass-and-balance-and-performance",
+    "name": "General Principles - Take-off Performance",
+    "slug": "takeoff-performance",
+    "topics": [
+      {
+        "id": "perf-topic-1-1",
+        "title": "Takeoff Distance Calculation",
+        "pageNumber": 140
+      },
+      {
+        "id": "perf-topic-1-2",
+        "title": "Environmental Factors",
+        "pageNumber": 160
+      }
+    ]
+  },
+  {
+    "id": "perf-ch1b",
+    "bookId": "mass-and-balance-and-performance",
+    "name": "General Principles - Take-off Performance (Advanced)",
+    "slug": "takeoff-performance-advanced",
+    "topics": [
+      {
+        "id": "perf-topic-1b-1",
+        "title": "Advanced Calculations",
+        "pageNumber": 185
+      }
+    ]
+  },
+  {
+    "id": "perf-ch2",
+    "bookId": "mass-and-balance-and-performance",
+    "name": "General Principles - Climb Performance",
+    "slug": "climb-performance",
+    "topics": [
+      {
+        "id": "perf-topic-2-1",
+        "title": "Climb Rates",
+        "pageNumber": 230
+      },
+      {
+        "id": "perf-topic-2-2",
+        "title": "Gradient Calculations",
+        "pageNumber": 250
+      }
+    ]
+  },
+  {
+    "id": "perf-ch3",
+    "bookId": "mass-and-balance-and-performance",
+    "name": "General Principles - Descent Performance",
+    "slug": "descent-performance",
+    "topics": [
+      {
+        "id": "perf-topic-3-1",
+        "title": "Descent Planning",
+        "pageNumber": 275
+      },
+      {
+        "id": "perf-topic-3-2",
+        "title": "Descent Profiles",
+        "pageNumber": 295
+      }
+    ]
+  },
+  {
+    "id": "perf-ch4",
+    "bookId": "mass-and-balance-and-performance",
+    "name": "General Principles - Cruise Performance",
+    "slug": "cruise-performance",
+    "topics": [
+      {
+        "id": "perf-topic-4-1",
+        "title": "Cruise Speed Optimization",
+        "pageNumber": 320
+      },
+      {
+        "id": "perf-topic-4-2",
+        "title": "Fuel Efficiency",
+        "pageNumber": 340
+      }
+    ]
+  },
+  {
+    "id": "perf-ch5",
+    "bookId": "mass-and-balance-and-performance",
+    "name": "General Principles - Landing Performance",
+    "slug": "landing-performance",
+    "topics": [
+      {
+        "id": "perf-topic-5-1",
+        "title": "Landing Distance Calculation",
+        "pageNumber": 365
+      },
+      {
+        "id": "perf-topic-5-2",
+        "title": "Landing Factors",
+        "pageNumber": 385
+      }
+    ]
+  },
+  {
+    "id": "perf-ch6",
+    "bookId": "mass-and-balance-and-performance",
+    "name": "Single-engine Class B - Take-off",
+    "slug": "single-engine-takeoff",
+    "topics": [
+      {
+        "id": "perf-topic-6-1",
+        "title": "Single-engine Characteristics",
+        "pageNumber": 410
+      }
+    ]
+  },
+  {
+    "id": "perf-ch7",
+    "bookId": "mass-and-balance-and-performance",
+    "name": "Single-engine Class B - Climb",
+    "slug": "single-engine-climb",
+    "topics": [
+      {
+        "id": "perf-topic-7-1",
+        "title": "Climb Performance Data",
+        "pageNumber": 455
+      }
+    ]
+  },
+  {
+    "id": "perf-ch8",
+    "bookId": "mass-and-balance-and-performance",
+    "name": "Single-engine Class B - En Route and Descent",
+    "slug": "single-engine-descent",
+    "topics": [
+      {
+        "id": "perf-topic-8-1",
+        "title": "En Route Performance",
+        "pageNumber": 500
+      }
+    ]
+  },
+  {
+    "id": "perf-ch9",
+    "bookId": "mass-and-balance-and-performance",
+    "name": "Single-engine Class B - Landing",
+    "slug": "single-engine-landing",
+    "topics": [
+      {
+        "id": "perf-topic-9-1",
+        "title": "Landing Performance Data",
+        "pageNumber": 545
+      }
+    ]
+  },
+  {
+    "id": "perf-ch10",
+    "bookId": "mass-and-balance-and-performance",
+    "name": "Multi-engine Class B - Take-off",
+    "slug": "multi-engine-takeoff",
+    "topics": [
+      {
+        "id": "perf-topic-10-1",
+        "title": "Multi-engine Operations",
+        "pageNumber": 590
+      }
+    ]
+  },
+  {
+    "id": "perf-ch11",
+    "bookId": "mass-and-balance-and-performance",
+    "name": "Multi-engine Class B - En Route and Descent",
+    "slug": "multi-engine-descent",
+    "topics": [
+      {
+        "id": "perf-topic-11-1",
+        "title": "Multi-engine Performance",
+        "pageNumber": 635
+      }
+    ]
+  },
+  {
+    "id": "perf-ch12",
+    "bookId": "mass-and-balance-and-performance",
+    "name": "Class A Aircraft - Take-off",
+    "slug": "class-a-takeoff",
+    "topics": [
+      {
+        "id": "perf-topic-12-1",
+        "title": "Class A Characteristics",
+        "pageNumber": 680
+      }
+    ]
   }
 ]
 

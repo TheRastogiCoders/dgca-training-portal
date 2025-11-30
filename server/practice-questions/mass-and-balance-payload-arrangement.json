@@ -1,0 +1,61 @@
+{
+  "book_id": "mass-and-balance-and-performance",
+  "book_name": "Mass and Balance and Performance",
+  "subject": "Performance",
+  "subject_slug": "performance",
+  "category": "mass",
+  "chapter_number": "6",
+  "chapter_id": "mb-ch6",
+  "chapter_title": "Payload Arrangement",
+  "chapter_slug": "payload-arrangement",
+  "total_questions": 1,
+  "page_range": {
+    "start": 226,
+    "end": 270
+  },
+  "topics": [
+    {
+      "id": "mb-topic-6-1",
+      "title": "Cargo Positioning",
+      "page": 230
+    },
+    {
+      "id": "mb-topic-6-2",
+      "title": "Passenger Distribution",
+      "page": 250
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the importance of payload arrangement in aircraft operations?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Ensures safety compliance",
+        "b) Optimizes aircraft performance",
+        "c) Reduces operational costs",
+        "d) All of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Payload Arrangement is crucial for ensuring safety compliance, optimizing aircraft performance, and reducing operational costs.",
+      "tags": [
+        "mb-ch6",
+        "performance"
+      ],
+      "page_number": 231,
+      "reference": "EASA/DGCA Guidelines"
+    }
+  ],
+  "metadata": {
+    "source": "EASA/DGCA Guidelines",
+    "version": "1.0",
+    "created_date": "2025-11-30T17:39:00.374Z",
+    "difficulty_distribution": {
+      "Easy": 0,
+      "Medium": 1,
+      "Hard": 0
+    }
+  }
+}

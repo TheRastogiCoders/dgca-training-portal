@@ -1,0 +1,117 @@
+{
+  "book_id": "mass-and-balance-and-performance",
+  "book_name": "Mass and Balance and Performance",
+  "subject": "Performance",
+  "chapter_id": "perf-ch12",
+  "chapter_title": "Class A Aircraft - Take-off",
+  "chapter_name": "class-a-takeoff",
+  "category": "performance",
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "1",
+      "question": "Sample question for class-a-takeoff?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "class-a-takeoff"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "1",
+      "question": "Sample question for class-a-takeoff?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "class-a-takeoff"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "1",
+      "question": "Sample question for class-a-takeoff?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "class-a-takeoff"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "1",
+      "question": "Sample question for class-a-takeoff?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "class-a-takeoff"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "1",
+      "question": "Sample question for class-a-takeoff?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "class-a-takeoff"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    }
+  ],
+  "metadata": {
+    "source": "EASA/DGCA Guidelines",
+    "pdf_source": "14. Class A Aircraft - Take-off ( Performance.pdf",
+    "generated_date": "2025-11-30T17:38:42.748Z"
+  }
+}

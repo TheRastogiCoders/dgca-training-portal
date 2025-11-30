@@ -1,0 +1,117 @@
+{
+  "book_id": "mass-and-balance-and-performance",
+  "book_name": "Mass and Balance and Performance",
+  "subject": "Performance",
+  "chapter_id": "perf-ch6",
+  "chapter_title": "Single-engine Class B - Take-off",
+  "chapter_name": "single-engine-takeoff",
+  "category": "performance",
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "1",
+      "question": "Sample question for single-engine-takeoff?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "single-engine-takeoff"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "1",
+      "question": "Sample question for single-engine-takeoff?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "single-engine-takeoff"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "1",
+      "question": "Sample question for single-engine-takeoff?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "single-engine-takeoff"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "1",
+      "question": "Sample question for single-engine-takeoff?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "single-engine-takeoff"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "1",
+      "question": "Sample question for single-engine-takeoff?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "single-engine-takeoff"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    }
+  ],
+  "metadata": {
+    "source": "EASA/DGCA Guidelines",
+    "pdf_source": "7. Single-engine Class B Aircraft - Take-off ( Performance.pdf",
+    "generated_date": "2025-11-30T17:38:42.698Z"
+  }
+}

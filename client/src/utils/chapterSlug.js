@@ -16,6 +16,25 @@ export const CHAPTER_SLUG_OVERRIDES = {
     'airworthiness': 'airworthiness-of-aircraft',
     'environmental-procedures-and-hazards-general-aspects': 'special-operational-procedures-and-hazards-general-aspects',
   },
+  // Handle Mass and Balance & Performance chapter variations
+  'mass-and-balance-and-performance': {
+    'general-principles': 'general-principles',
+    'aircraft-weighing': 'aircraft-weighing',
+    'cg-calculations': 'cg-calculations',
+    'load-planning': 'load-planning',
+    'fuel-management': 'fuel-management',
+    'payload-arrangement': 'payload-arrangement',
+    'balance-procedures': 'balance-procedures',
+    'compliance-checking': 'compliance-checking',
+    'takeoff-performance': 'takeoff-performance',
+    'climb-performance': 'climb-performance',
+    'cruise-performance': 'cruise-performance',
+    'descent-performance': 'descent-performance',
+    'landing-performance': 'landing-performance',
+    'obstacle-clearance': 'obstacle-clearance',
+    'performance-tables': 'performance-tables',
+    'practical-examples': 'practical-examples',
+  },
 };
 
 export const slugifyChapterName = (name = '') =>

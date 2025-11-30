@@ -1,0 +1,140 @@
+{
+  "book_id": "mass-and-balance-and-performance",
+  "book_name": "Mass and Balance and Performance",
+  "subject": "Performance",
+  "subject_slug": "performance",
+  "category": "performance",
+  "chapter_number": "2",
+  "chapter_id": "perf-ch2",
+  "chapter_title": "Climb Performance",
+  "chapter_slug": "climb-performance",
+  "total_questions": 5,
+  "page_range": {
+    "start": 406,
+    "end": 450
+  },
+  "topics": [
+    {
+      "id": "perf-topic-2-1",
+      "title": "Climb Rates",
+      "page": 410
+    },
+    {
+      "id": "perf-topic-2-2",
+      "title": "Gradient Calculations",
+      "page": 430
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Sample question for climb-performance?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "climb-performance"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "2",
+      "question": "Sample question for climb-performance?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "climb-performance"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "3",
+      "question": "Sample question for climb-performance?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "climb-performance"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "4",
+      "question": "Sample question for climb-performance?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "climb-performance"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    },
+    {
+      "id": "5",
+      "question": "Sample question for climb-performance?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Option 1",
+        "b) Option 2",
+        "c) Option 3",
+        "d) Option 4"
+      ],
+      "answer": "a",
+      "solution": "a",
+      "explanation": "This is a sample question. Please extract questions from your PDF files.",
+      "tags": [
+        "climb-performance"
+      ],
+      "page_number": 1,
+      "reference": "DGCA Guidelines"
+    }
+  ],
+  "metadata": {
+    "source": "EASA/DGCA Guidelines",
+    "version": "1.0",
+    "created_date": "2025-11-30T17:39:00.376Z",
+    "difficulty_distribution": {
+      "Easy": 0,
+      "Medium": 5,
+      "Hard": 0
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "book_id": "mass-and-balance-and-performance",
+  "book_name": "Mass and Balance and Performance",
+  "subject": "Performance",
+  "subject_slug": "performance",
+  "category": "performance",
+  "chapter_number": "1",
+  "chapter_id": "perf-ch1",
+  "chapter_title": "Takeoff Performance",
+  "chapter_slug": "takeoff-performance",
+  "total_questions": 5,
+  "page_range": {
+    "start": 361,
+    "end": 405
+  },
+  "topics": [
+    {
+      "id": "perf-topic-1-1",
+      "title": "Takeoff Distance Calculation",
+      "page": 365
+    },
+    {
+      "id": "perf-topic-1-2",
+      "title": "Environmental Factors",
+      "page": 385
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "What factors affect takeoff performance?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Aircraft weight and density altitude",
+        "b) Runway length and slope",
+        "c) Wind conditions",
+        "d) All of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Takeoff performance is affected by multiple factors including aircraft weight, density altitude, runway characteristics, and wind conditions.",
+      "tags": [
+        "takeoff-performance",
+        "flight-operations"
+      ],
+      "page_number": 361,
+      "reference": "Performance Manual"
+    },
+    {
+      "id": "2",
+      "question": "What factors affect takeoff performance?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Aircraft weight and density altitude",
+        "b) Runway length and slope",
+        "c) Wind conditions",
+        "d) All of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Takeoff performance is affected by multiple factors including aircraft weight, density altitude, runway characteristics, and wind conditions.",
+      "tags": [
+        "takeoff-performance",
+        "flight-operations"
+      ],
+      "page_number": 361,
+      "reference": "Performance Manual"
+    },
+    {
+      "id": "3",
+      "question": "What factors affect takeoff performance?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Aircraft weight and density altitude",
+        "b) Runway length and slope",
+        "c) Wind conditions",
+        "d) All of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Takeoff performance is affected by multiple factors including aircraft weight, density altitude, runway characteristics, and wind conditions.",
+      "tags": [
+        "takeoff-performance",
+        "flight-operations"
+      ],
+      "page_number": 361,
+      "reference": "Performance Manual"
+    },
+    {
+      "id": "4",
+      "question": "What factors affect takeoff performance?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Aircraft weight and density altitude",
+        "b) Runway length and slope",
+        "c) Wind conditions",
+        "d) All of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Takeoff performance is affected by multiple factors including aircraft weight, density altitude, runway characteristics, and wind conditions.",
+      "tags": [
+        "takeoff-performance",
+        "flight-operations"
+      ],
+      "page_number": 361,
+      "reference": "Performance Manual"
+    },
+    {
+      "id": "5",
+      "question": "What factors affect takeoff performance?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Aircraft weight and density altitude",
+        "b) Runway length and slope",
+        "c) Wind conditions",
+        "d) All of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Takeoff performance is affected by multiple factors including aircraft weight, density altitude, runway characteristics, and wind conditions.",
+      "tags": [
+        "takeoff-performance",
+        "flight-operations"
+      ],
+      "page_number": 361,
+      "reference": "Performance Manual"
+    }
+  ],
+  "metadata": {
+    "source": "EASA/DGCA Guidelines",
+    "version": "1.0",
+    "created_date": "2025-11-30T17:39:00.375Z",
+    "difficulty_distribution": {
+      "Easy": 0,
+      "Medium": 5,
+      "Hard": 0
+    }
+  }
+}

@@ -295,13 +295,74 @@ const defaultChapters = {
     'performance': [
       'Mass and Balance and Performance',
       'Definitions and Calculations',
-      'General Principles - Descent',
-      'Single-engine Class B Aircraft - Take-off',
-      'Multi-engine Class B - Take-off',
-      'Class A - En Route',
+      'Revision Questions (Mass & Balance & Performance)',
+      'General Principles – Take-off',
+      'General Principles – Climb',
+      'General Principles – Descent',
+      'General Principles – Cruise',
+      'General Principles – Landing',
+      'Single-engine Class B – Take-off',
+      'Single-engine Class B – Climb',
+      'Single-engine Class B – En Route & Descent',
+      'Single-engine Class B – Landing',
+      'Multi-engine Class B – Take-off',
+      'Multi-engine Class B – En Route & Descent',
+      'Class A Aircraft – Take-off',
       'Landing',
       'Revision Questions',
       'Revision Question'
+    ]
+  },
+  'technical-general': {
+    'ic-joshi': [
+      'Aerodynamics Basics',
+      'Engines & Fuel',
+      'Instruments',
+      'Electrical & Hydraulic Systems',
+      'Revision Question'
+    ],
+    'oxford': [
+      'Performance & Limitations',
+      'Aircraft Structures',
+      'Stability & Control',
+      'Revision Question'
+    ]
+  },
+  'technical-specific': {
+    'ic-joshi': [
+      'Type Systems Overview',
+      'Powerplant & Propellers',
+      'Operational Limitations',
+      'Revision Question'
+    ],
+    'oxford': [
+      'Type Performance',
+      'Avionics & Automation',
+      'Revision Question'
+    ]
+  },
+  'performance': {
+    'mass-and-balance-and-performance': [
+      'Takeoff Performance',
+      'Climb Performance',
+      'Cruise Performance',
+      'Descent Performance',
+      'Landing Performance',
+      'Obstacle Clearance',
+      'Performance Tables',
+      'Practical Examples'
+    ]
+  },
+  'mass-and-balance': {
+    'mass-and-balance-and-performance': [
+      'General Principles',
+      'Aircraft Weighing',
+      'CG Calculations',
+      'Load Planning',
+      'Fuel Management',
+      'Payload Arrangement',
+      'Balance Procedures',
+      'Compliance Checking'
     ]
   },
   'meteorology': {
@@ -555,7 +616,6 @@ const BookChapters = () => {
       'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
       'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
       'cae-oxford-performance': 'cae-oxford-performance',
-      'performance': 'cae-oxford-performance',
       'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
       'cae-oxford-navigation': 'cae-oxford-navigation',
       'operational-procedures': 'operational-procedures',
@@ -566,7 +626,9 @@ const BookChapters = () => {
       'powerplant': 'cae-oxford-powerplant',
       'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
       'principles-of-flight': 'cae-oxford-principles-of-flight',
-      'cae-oxford-radio-telephony': 'cae-oxford'
+      'cae-oxford-radio-telephony': 'cae-oxford',
+      'mass-and-balance-and-performance': 'mass-and-balance-and-performance',
+      'mass-and-balance': 'mass-and-balance-and-performance'
     };
     
     const mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
@@ -626,7 +688,7 @@ const BookChapters = () => {
         'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
         'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
         'cae-oxford-performance': 'cae-oxford-performance',
-        'performance': 'cae-oxford-performance',
+        'performance': 'mass-and-balance-and-performance',
         'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
         'cae-oxford-navigation': 'cae-oxford-navigation',
         'operational-procedures': 'operational-procedures',
@@ -637,7 +699,9 @@ const BookChapters = () => {
         'powerplant': 'cae-oxford-powerplant',
         'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
         'principles-of-flight': 'cae-oxford-principles-of-flight',
-        'cae-oxford-radio-telephony': 'cae-oxford'
+        'cae-oxford-radio-telephony': 'cae-oxford',
+        'mass-and-balance-and-performance': 'mass-and-balance-and-performance',
+        'mass-and-balance': 'mass-and-balance-and-performance'
       };
       
       const mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
@@ -892,7 +956,6 @@ const BookChapters = () => {
         'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
         'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
         'cae-oxford-performance': 'cae-oxford-performance',
-        'performance': 'cae-oxford-performance',
         'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
         'cae-oxford-navigation': 'cae-oxford-navigation',
         'operational-procedures': 'operational-procedures',
@@ -906,7 +969,10 @@ const BookChapters = () => {
         'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
         'principles-of-flight': 'cae-oxford-principles-of-flight',
         // Radio Telephony
-        'cae-oxford-radio-telephony': 'cae-oxford'
+        'cae-oxford-radio-telephony': 'cae-oxford',
+        // Mass and Balance & Performance
+        'mass-and-balance-and-performance': 'mass-and-balance-and-performance',
+        'mass-and-balance': 'mass-and-balance-and-performance'
       };
       const mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
       const constructedSlug = `${mappedBookSlug}-${revisionSlug}`;
@@ -918,10 +984,16 @@ const BookChapters = () => {
     const baseSlug = slugifyChapterName(chapter?.title || 'overview');
     const resolvedSlug = resolveChapterSlug(bookSlug, baseSlug);
     
-    // Log the generated URL for debugging the navigation issue
-    debugLog(`Attempting to navigate to: /pyq/book/${bookSlug}/${resolvedSlug}`);
+    // For mass-and-balance book, ensure we use the correct book slug for API routing
+    let actualBookSlug = bookSlug;
+    if ((subjectSlug === 'performance' || subjectSlug === 'mass-and-balance') && bookSlug === 'mass-and-balance-and-performance') {
+      actualBookSlug = 'mass-and-balance-and-performance';
+    }
     
-    navigate(`/pyq/book/${bookSlug}/${resolvedSlug}`);
+    // Log the generated URL for debugging the navigation issue
+    debugLog(`Attempting to navigate to: /pyq/book/${actualBookSlug}/${resolvedSlug}`);
+    
+    navigate(`/pyq/book/${actualBookSlug}/${resolvedSlug}`);
   };
 
 return (
@@ -986,10 +1058,46 @@ return (
             {chapters.map((ch) => {
               const isAvailable = ch.status === 'available';
               const hasQuestions = ch.questionCount > 0;
+              
+              // Return chapter overview card for chapters without questions
+              if (!hasQuestions) {
+                return (
+                  <Card 
+                    key={ch.id}
+                    className="p-6 bg-gradient-to-br from-slate-100 to-slate-50 border-2 border-slate-200 rounded-2xl hover:shadow-md transition-all duration-300"
+                  >
+                    <div className="flex flex-col items-center justify-center py-8">
+                      {/* Chapter overview icon */}
+                      <div className="mb-4">
+                        <svg className="w-12 h-12 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                      </div>
+                      
+                      {/* Chapter title */}
+                      <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">{ch.title}</h3>
+                      
+                      {/* Chapter overview label */}
+                      <div className="flex items-center justify-center mb-4">
+                        <span className="text-sm font-medium text-slate-600 bg-white px-3 py-1 rounded-full">
+                          📋 Chapter overview
+                        </span>
+                      </div>
+                      
+                      {/* Description */}
+                      <p className="text-center text-slate-600 text-sm leading-relaxed">
+                        This chapter does not include questions.
+                      </p>
+                    </div>
+                  </Card>
+                );
+              }
+              
+              // Return regular practice card for chapters with questions
               return (
                 <Card 
                   key={ch.id} 
-                  className={`p-6 hover:shadow-lg transition-all duration-300 ${!isAvailable ? 'opacity-75' : ''}`}
+                  className={`p-6 hover:shadow-lg transition-all duration-300`}
                 >
                   <div className="flex items-start justify-between mb-4">
                     <div className="flex-1">

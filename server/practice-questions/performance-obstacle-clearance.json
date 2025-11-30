@@ -1,0 +1,61 @@
+{
+  "book_id": "mass-and-balance-and-performance",
+  "book_name": "Mass and Balance and Performance",
+  "subject": "Performance",
+  "subject_slug": "performance",
+  "category": "performance",
+  "chapter_number": "6",
+  "chapter_id": "perf-ch6",
+  "chapter_title": "Obstacle Clearance",
+  "chapter_slug": "obstacle-clearance",
+  "total_questions": 1,
+  "page_range": {
+    "start": 586,
+    "end": 630
+  },
+  "topics": [
+    {
+      "id": "perf-topic-6-1",
+      "title": "Clearance Margins",
+      "page": 590
+    },
+    {
+      "id": "perf-topic-6-2",
+      "title": "Obstacle Assessment",
+      "page": 610
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the importance of obstacle clearance in aircraft operations?",
+      "question_type": "MCQ",
+      "difficulty": "Medium",
+      "options": [
+        "a) Ensures safety compliance",
+        "b) Optimizes aircraft performance",
+        "c) Reduces operational costs",
+        "d) All of the above"
+      ],
+      "answer": "d",
+      "solution": "d",
+      "explanation": "Obstacle Clearance is crucial for ensuring safety compliance, optimizing aircraft performance, and reducing operational costs.",
+      "tags": [
+        "perf-ch6",
+        "performance"
+      ],
+      "page_number": 591,
+      "reference": "EASA/DGCA Guidelines"
+    }
+  ],
+  "metadata": {
+    "source": "EASA/DGCA Guidelines",
+    "version": "1.0",
+    "created_date": "2025-11-30T17:39:00.378Z",
+    "difficulty_distribution": {
+      "Easy": 0,
+      "Medium": 1,
+      "Hard": 0
+    }
+  }
+}
