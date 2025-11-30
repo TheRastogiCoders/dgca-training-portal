@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { useNavigate, useParams, Link } from 'react-router-dom';
 import Card from './ui/Card';
 import SiteSidebar from './SiteSidebar';
+import { resolveChapterSlug } from '../utils/chapterSlug';
+import { fetchChapterQuestionMetadata } from '../utils/practiceQuestionsApi';
 
 const friendly = (slug) => (slug || '')
   .split('-')
@@ -11,10 +13,50 @@ const friendly = (slug) => (slug || '')
 const ChapterPracticeIntro = () => {
   const navigate = useNavigate();
   const { subjectSlug, bookSlug, chapterSlug } = useParams();
+  const resolvedChapterSlug = useMemo(
+    () => resolveChapterSlug(bookSlug, chapterSlug),
+    [bookSlug, chapterSlug]
+  );
+
+  const [metadata, setMetadata] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState('');
+
+  useEffect(() => {
+    let active = true;
+    const loadMetadata = async () => {
+      setIsLoading(true);
+      setError('');
+      try {
+        const data = await fetchChapterQuestionMetadata({
+          subjectSlug,
+          bookSlug,
+          chapterSlug: resolvedChapterSlug
+        });
+        if (!active) return;
+        setMetadata(data);
+      } catch (err) {
+        if (!active) return;
+        setError('Failed to load question info');
+      } finally {
+        if (active) setIsLoading(false);
+      }
+    };
+
+    loadMetadata();
+    return () => { active = false; };
+  }, [subjectSlug, bookSlug, resolvedChapterSlug]);
+
+  const availableQuestionCount = metadata?.questionCount || 0;
+  const canPractice = availableQuestionCount > 0;
+  const targetSlug = metadata?.chapterSlug || resolvedChapterSlug;
 
   const startPractice = () => {
-    // Practice temporarily unavailable
-    alert('Questions are not available right now. Please check back soon.');
+    if (canPractice) {
+      navigate(`/pyq/book/${bookSlug}/${targetSlug}`);
+    } else {
+      alert('Questions are not available right now. Please check back soon.');
+    }
   };
 
   return (
@@ -34,13 +76,22 @@ const ChapterPracticeIntro = () => {
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
               {friendly(subjectSlug)} • {friendly(chapterSlug)}
             </h1>
-            <p className="text-gray-600">Questions are not available right now for this chapter.</p>
+            {canPractice ? (
+              <p className="text-gray-600">Practice sets are available for this chapter.</p>
+            ) : (
+              <p className="text-gray-600">Questions are not available right now for this chapter.</p>
+            )}
+            {error && (
+              <p className="text-sm text-red-600 mt-2">{error}</p>
+            )}
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
             <Card className="p-4">
               <div className="text-sm text-gray-500">Total Questions</div>
-              <div className="text-2xl font-bold">—</div>
+              <div className="text-2xl font-bold">
+                {isLoading ? '…' : availableQuestionCount}
+              </div>
             </Card>
             <Card className="p-4">
               <div className="text-sm text-gray-500">Difficulty</div>
@@ -64,10 +115,10 @@ const ChapterPracticeIntro = () => {
           <div className="flex items-center space-x-3">
             <button
               onClick={startPractice}
-              className="px-6 py-3 bg-gray-300 text-gray-600 rounded-lg font-semibold cursor-not-allowed"
-              disabled
+              className={`px-6 py-3 rounded-lg font-semibold ${canPractice ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:opacity-90 transition-colors' : 'bg-gray-300 text-gray-600 cursor-not-allowed'}`}
+              disabled={!canPractice}
             >
-              Practice Unavailable
+              {canPractice ? 'Start Practice' : 'Practice Unavailable'}
             </button>
             <Link to="/question-bank" className="px-6 py-3 bg-gray-100 text-gray-700 rounded-lg font-semibold hover:bg-gray-200">
               Back to Question Bank

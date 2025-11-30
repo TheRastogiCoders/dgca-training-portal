@@ -4,6 +4,7 @@ import Header from './Header';
 import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 import { slugifyChapterName, resolveChapterSlug } from '../utils/chapterSlug';
+import { fetchChapterQuestionMetadata, resolvePracticeBookSlug } from '../utils/practiceQuestionsApi';
 import debugLog from '../utils/debug';
 
 const friendly = (slug) => (slug || '')
@@ -602,50 +603,22 @@ const BookChapters = () => {
 
   // Define checkRevisionQuestions with useCallback to prevent recreation
   const checkRevisionQuestions = useCallback(async () => {
-    const revisionSlug = 'revision-questions';
-    // Map book slugs to match file naming convention
-    const bookSlugMap = {
-      'ic-joshi': 'ic-joshi',
-      'oxford': 'oxford',
-      'cae-oxford': subjectSlug === 'meteorology' ? 'cae-oxford' : 'oxford',
-      'air-law': 'oxford',
-      'human-performance-and-limitations': 'human-performance',
-      'rk-bali': 'rk-bali',
-      'cae-oxford-general-navigation': 'cae-oxford-general-navigation',
-      'general-navigation': 'cae-oxford-general-navigation',
-      'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
-      'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
-      'cae-oxford-performance': 'cae-oxford-performance',
-      'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
-      'cae-oxford-navigation': 'cae-oxford-navigation',
-      'operational-procedures': 'operational-procedures',
-      'instrument-2014': 'instrument',
-      'instrument': 'instrument',
-      'cae-oxford-meteorology': 'cae-oxford',
-      'cae-oxford-powerplant': 'cae-oxford-powerplant',
-      'powerplant': 'cae-oxford-powerplant',
-      'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
-      'principles-of-flight': 'cae-oxford-principles-of-flight',
-      'cae-oxford-radio-telephony': 'cae-oxford',
-      'mass-and-balance-and-performance': 'mass-and-balance-and-performance',
-      'mass-and-balance': 'mass-and-balance-and-performance'
-    };
-    
-    const mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
-    
     try {
-      const response = await fetch(`/api/practice-questions/${mappedBookSlug}?chapter=${revisionSlug}`);
-      if (response.ok) {
-        const data = await response.json();
-        if (data.questions && data.questions.length > 0) {
-          setRevisionQuestions(prev => ({
-            ...prev,
-            [bookSlug]: {
-              questionCount: data.questions.length,
-              chapterSlug: data.chapter_slug || `${mappedBookSlug}-${revisionSlug}`
-            }
-          }));
-        }
+      const revisionMetadata = await fetchChapterQuestionMetadata({
+        subjectSlug,
+        bookSlug,
+        chapterSlug: 'revision-questions'
+      });
+
+      if (revisionMetadata && revisionMetadata.questionCount > 1) {
+        const fallbackSlug = `${resolvePracticeBookSlug(subjectSlug, bookSlug)}-revision-questions`;
+        setRevisionQuestions(prev => ({
+          ...prev,
+          [bookSlug]: {
+            questionCount: revisionMetadata.questionCount,
+            chapterSlug: revisionMetadata.chapterSlug || fallbackSlug
+          }
+        }));
       }
     } catch (error) {
       debugLog('Revision questions check failed:', error);
@@ -653,19 +626,10 @@ const BookChapters = () => {
   }, [bookSlug, subjectSlug]);
 
   const checkChapterAvailability = useCallback(async () => {
-    // 🔑 OPTIMIZATION: Bypass network check for RK Bali chapters
-    if (isRkBaliAirRegulations) {
-      debugLog('RK Bali detected. Bypassing slow chapter availability check.');
-      setIsLoading(false);
-      setLastUpdated(new Date().toISOString());
-      return; // Stop here, useMemo will handle counts from hardcoded map
-    }
-    
-    let isMounted = true;
-    
+    if (!subjectSlug || !bookSlug) return;
+
+    setIsLoading(true);
     try {
-      if (isMounted) setIsLoading(true);
-      
       const bySubject = defaultChapters[subjectSlug] || {};
       let list = bySubject[bookSlug] || [];
       if (list.length === 0 && subjectSlug === 'air-regulations' && bookSlug === 'cae-oxford') {
@@ -675,123 +639,74 @@ const BookChapters = () => {
         list = bySubject['cae-oxford'] || [];
       }
 
-      // Book slug mapping for API calls (kept for non-RK Bali books)
-      const bookSlugMap = {
-        'ic-joshi': 'ic-joshi',
-        'oxford': 'oxford',
-        'cae-oxford': subjectSlug === 'meteorology' ? 'cae-oxford' : 'oxford',
-        'air-law': 'oxford',
-        'human-performance-and-limitations': 'human-performance',
-        'rk-bali': 'rk-bali',
-        'cae-oxford-general-navigation': 'cae-oxford-general-navigation',
-        'general-navigation': 'cae-oxford-general-navigation',
-        'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
-        'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
-        'cae-oxford-performance': 'cae-oxford-performance',
-        'performance': 'mass-and-balance-and-performance',
-        'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
-        'cae-oxford-navigation': 'cae-oxford-navigation',
-        'operational-procedures': 'operational-procedures',
-        'instrument-2014': 'instrument',
-        'instrument': 'instrument',
-        'cae-oxford-meteorology': 'cae-oxford',
-        'cae-oxford-powerplant': 'cae-oxford-powerplant',
-        'powerplant': 'cae-oxford-powerplant',
-        'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
-        'principles-of-flight': 'cae-oxford-principles-of-flight',
-        'cae-oxford-radio-telephony': 'cae-oxford',
-        'mass-and-balance-and-performance': 'mass-and-balance-and-performance',
-        'mass-and-balance': 'mass-and-balance-and-performance'
-      };
-      
-      const mappedBookSlug = bookSlugMap[bookSlug] || bookSlug;
       const availabilityMap = {};
-      
-      // OPTIMIZATION: Use Promise.all to fetch all chapters concurrently
       const fetchPromises = list.map(async (chapterTitle) => {
         if (chapterTitle.includes('Revision Question') || chapterTitle === 'Sample Question Papers' || chapterTitle === 'Specimen Questions') {
-          return null; // Skip chapters handled separately
+          return null;
         }
 
         const baseSlug = slugifyChapterName(chapterTitle);
         const resolvedSlug = resolveChapterSlug(bookSlug, baseSlug);
-        
-        try {
-          const response = await fetch(`/api/practice-questions/${mappedBookSlug}?chapter=${encodeURIComponent(resolvedSlug)}`);
-          
-          if (isMounted) {
-            if (response.ok) {
-              const data = await response.json();
-              if (data.questions && data.questions.length > 0) {
-                return {
-                  title: chapterTitle,
-                  questionCount: data.questions.length,
-                  available: true,
-                };
-              }
-            } 
-            // If response not ok or question count is 0/missing
-            return {
-              title: chapterTitle,
-              questionCount: 0,
-              available: false,
-            };
 
-          }
-          return null;
+        try {
+          const metadata = await fetchChapterQuestionMetadata({
+            subjectSlug,
+            bookSlug,
+            chapterSlug: resolvedSlug
+          });
+
+          const questionCount = metadata?.questionCount || 0;
+          return {
+            title: chapterTitle,
+            questionCount,
+            available: questionCount > 0,
+            chapterSlug: metadata?.chapterSlug || resolvedSlug
+          };
         } catch (error) {
           debugLog(`Concurrent fetch failed for chapter "${chapterTitle}":`, error);
-          // Return an object indicating failure
           return {
-              title: chapterTitle,
-              questionCount: 0,
-              available: false,
-              error: true
+            title: chapterTitle,
+            questionCount: 0,
+            available: false,
+            chapterSlug: resolvedSlug,
+            error: true
           };
         }
       });
-      
+
       const results = await Promise.all(fetchPromises);
-      
-      results.filter(r => r !== null).forEach(result => {
-          availabilityMap[result.title] = {
-              questionCount: result.questionCount,
-              available: result.available,
-              lastChecked: new Date().toISOString()
-          };
+      results.filter(Boolean).forEach(result => {
+        availabilityMap[result.title] = {
+          questionCount: result.questionCount,
+          available: result.available,
+          chapterSlug: result.chapterSlug,
+          lastChecked: new Date().toISOString()
+        };
       });
 
-      if (isMounted) {
-        setChapterAvailability(availabilityMap);
-        setLastUpdated(new Date().toISOString());
-      }
+      setChapterAvailability(availabilityMap);
+      setLastUpdated(new Date().toISOString());
     } catch (error) {
       debugLog('Error checking chapter availability (Major failure):', error);
-      // Fallback to default availability if there's a major error
-      if (isMounted) {
-        const bySubject = defaultChapters[subjectSlug] || {};
-        const list = bySubject[bookSlug] || [];
-        const defaultAvailability = list.reduce((acc, title) => {
-          acc[title] = { 
-            available: false, 
-            questionCount: 0, 
-            isFallback: true,
-            lastChecked: new Date().toISOString()
-          };
-          return acc;
-        }, {});
-        setChapterAvailability(defaultAvailability);
-        setLastUpdated(new Date().toISOString());
-      }
+      const bySubject = defaultChapters[subjectSlug] || {};
+      const list = bySubject[bookSlug] || [];
+      const defaultAvailability = list.reduce((acc, title) => {
+        const fallbackSlug = resolveChapterSlug(bookSlug, slugifyChapterName(title));
+        acc[title] = {
+          available: false,
+          questionCount: 0,
+          isFallback: true,
+          chapterSlug: fallbackSlug,
+          lastChecked: new Date().toISOString()
+        };
+        return acc;
+      }, {});
+      setChapterAvailability(defaultAvailability);
+      setLastUpdated(new Date().toISOString());
     } finally {
-      if (isMounted && !isRkBaliAirRegulations) {
-        setIsLoading(false);
-      }
+      setIsLoading(false);
     }
-    
-    // eslint-disable-next-line
-    return () => { isMounted = false; };
-  }, [bookSlug, subjectSlug, isRkBaliAirRegulations]); // Dependency added
+  }, [bookSlug, subjectSlug]);
 
   // Consolidated useEffect hook for initial load and periodic refresh
   useEffect(() => {
@@ -800,13 +715,7 @@ const BookChapters = () => {
     const loadData = async () => {
       if (bookSlug && subjectSlug && isMounted) {
         debugLog('Loading chapter data...');
-        // Only run checkChapterAvailability if it's NOT the instant load book
-        if (!isRkBaliAirRegulations) {
-          await checkChapterAvailability();
-        } else {
-          // If it is RK Bali, immediately set loading to false
-          setIsLoading(false);
-        }
+        await checkChapterAvailability();
         await checkRevisionQuestions();
       }
     };
@@ -828,7 +737,7 @@ const BookChapters = () => {
       clearInterval(refreshInterval);
       debugLog('Cleaned up chapter data refresh interval');
     };
-  }, [bookSlug, subjectSlug, checkChapterAvailability, checkRevisionQuestions, isRkBaliAirRegulations]);
+  }, [bookSlug, subjectSlug, checkChapterAvailability, checkRevisionQuestions]);
 
   const handleRefresh = useCallback(() => {
     setIsLoading(true);
@@ -881,6 +790,9 @@ const BookChapters = () => {
       let questionCount = 0;
       let isAvailable = false;
       
+      const baseSlug = slugifyChapterName(title);
+      const fallbackSlug = resolveChapterSlug(bookSlug, baseSlug);
+
       // Check dynamically loaded availability first
       const dynamicAvailability = chapterAvailability[title];
       
@@ -902,10 +814,11 @@ const BookChapters = () => {
       }
       
       return {
-      id: `${index + 1}`,
-      title,
+        id: `${index + 1}`,
+        title,
         questionCount,
         status: isAvailable ? 'available' : 'coming-soon',
+        chapterSlug: dynamicAvailability?.chapterSlug || fallbackSlug
       };
     }).filter(ch => ch !== null); // Filter out null values (revision questions without questions)
   }, [subjectSlug, bookSlug, revisionQuestions, chapterAvailability, isRkBaliAirRegulations]);

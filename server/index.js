@@ -27,6 +27,96 @@ const { ZodError } = require('zod');
 // const { errorHandler, notFound } = require('./utils/errorHandler');
 
 const app = express();
+const practiceQuestionsDir = path.join(__dirname, 'practice-questions');
+
+const PRACTICE_BOOK_SLUG_MAPPING = {
+  'air-law': 'oxford',
+  'human-performance-and-limitations': 'human-performance',
+  'oxford': 'oxford',
+  'cae-oxford': 'oxford',
+  'rk-bali': 'rk-bali',
+  'ic-joshi': 'ic-joshi',
+  'general-navigation': 'cae-oxford-general-navigation',
+  'cae-oxford-general-navigation': 'cae-oxford-general-navigation',
+  'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
+  'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
+  'cae-oxford-performance': 'cae-oxford-performance',
+  'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
+  'cae-oxford-powerplant': 'cae-oxford-powerplant',
+  'powerplant': 'cae-oxford-powerplant',
+  'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
+  'principles-of-flight': 'cae-oxford-principles-of-flight',
+  'cae-oxford-navigation': 'cae-oxford-navigation',
+  'operational-procedures': 'operational-procedures',
+  'instrument-2014': 'instrument',
+  'instrument': 'instrument',
+  'cae-oxford-meteorology': 'cae-oxford',
+  'cae-oxford-radio-telephony': 'cae-oxford',
+  'mass-and-balance-and-performance': 'mass-and-balance-and-performance',
+  'mass-and-balance': 'mass-and-balance-and-performance'
+};
+
+const resolvePracticeQuestionFile = (bookParam, chapterParam) => {
+  const book = (bookParam || '').toLowerCase();
+  const chapter = (chapterParam || '').toLowerCase();
+  let filePrefix = PRACTICE_BOOK_SLUG_MAPPING[book] || book;
+  let filePath;
+
+  if (chapter) {
+    filePath = path.join(practiceQuestionsDir, `${filePrefix}-${chapter}.json`);
+
+    if (!fs.existsSync(filePath)) {
+      const alternativePrefixes = [];
+
+      if (book === 'cae-oxford' && filePrefix === 'oxford') {
+        alternativePrefixes.push('cae-oxford');
+      }
+
+      if (book === 'mass-and-balance-and-performance' || filePrefix === 'mass-and-balance-and-performance') {
+        alternativePrefixes.push('mass-and-balance');
+        alternativePrefixes.push('performance');
+      }
+
+      if (book !== filePrefix) {
+        alternativePrefixes.push(book);
+      }
+
+      for (const altPrefix of alternativePrefixes) {
+        const altFilePath = path.join(practiceQuestionsDir, `${altPrefix}-${chapter}.json`);
+        if (fs.existsSync(altFilePath)) {
+          filePath = altFilePath;
+          filePrefix = altPrefix;
+          break;
+        }
+      }
+    }
+
+    if (!fs.existsSync(filePath)) {
+      if (!fs.existsSync(practiceQuestionsDir)) {
+        return { book, chapter, filePath: null };
+      }
+
+      const allFiles = fs.readdirSync(practiceQuestionsDir).filter(f => f.endsWith('.json'));
+      const matchingFile = allFiles.find(f => {
+        const fileBase = f.replace('.json', '');
+        return fileBase.endsWith(`-${chapter}`) || fileBase === chapter || fileBase.includes(`-${chapter}-`);
+      });
+
+      if (matchingFile) {
+        filePath = path.join(practiceQuestionsDir, matchingFile);
+      } else {
+        return { book, chapter, filePath: null };
+      }
+    }
+  } else {
+    filePath = path.join(practiceQuestionsDir, `${filePrefix}.json`);
+    if (!fs.existsSync(filePath)) {
+      return { book, chapter: null, filePath: null };
+    }
+  }
+
+  return { book, chapter, filePath };
+};
 
 // Security middleware
 app.use(helmet({
@@ -155,146 +245,62 @@ app.get('/api/practice-books', (req, res) => {
   }
 });
 
+// Practice question metadata (count only)
+app.get('/api/practice-questions/:book/count', (req, res) => {
+  try {
+    const chapterParam = req.query.chapter;
+    if (!chapterParam) {
+      return res.status(400).json({ message: 'chapter query parameter is required' });
+    }
+
+    if (process.env.PRACTICE_QUESTIONS_DISABLED === 'true') {
+      return res.json({ chapter: chapterParam.toLowerCase(), questionCount: 0 });
+    }
+
+    const { filePath } = resolvePracticeQuestionFile(req.params.book, chapterParam);
+    if (!filePath) {
+      return res.json({ chapter: chapterParam.toLowerCase(), questionCount: 0 });
+    }
+
+    const raw = fs.readFileSync(filePath, 'utf-8');
+    const data = JSON.parse(raw);
+    const questionCount = Array.isArray(data.questions) ? data.questions.length : 0;
+
+    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+    res.setHeader('Pragma', 'no-cache');
+    res.setHeader('Expires', '0');
+    res.json({
+      book: req.params.book,
+      chapter: chapterParam.toLowerCase(),
+      chapterSlug: data.chapter_slug || data.chapterSlug || chapterParam.toLowerCase(),
+      chapterTitle: data.chapter_title || data.chapterTitle || null,
+      questionCount
+    });
+  } catch (err) {
+    console.error('Error loading practice question count:', err);
+    res.status(500).json({ message: 'Failed to load question count', error: err.message });
+  }
+});
+
 // Serve practice questions by book slug
 app.get('/api/practice-questions/:book', (req, res) => {
   try {
-    let book = (req.params.book || '').toLowerCase();
-    const chapter = (req.query.chapter || '').toLowerCase();
-    
-    // Map book slugs to actual file prefixes
-    // This allows new book names to use existing JSON files
-    const bookSlugMapping = {
-      // Air Regulations books
-      'air-law': 'oxford',  // Air Law uses oxford- prefixed files
-      'human-performance-and-limitations': 'human-performance',  // Human Performance uses human-performance- prefixed files
-      'oxford': 'oxford',  // Direct mapping
-      'cae-oxford': 'oxford',  // CAE Oxford Air Regulations uses oxford prefix
-      'rk-bali': 'rk-bali',  // RK Bali uses rk-bali- prefixed files
-      'ic-joshi': 'ic-joshi',  // IC Joshi books
-      // CAE Oxford General Navigation practice files
-      // are stored with a "cae-oxford-general-navigation-" prefix
-      'general-navigation': 'cae-oxford-general-navigation',
-      'cae-oxford-general-navigation': 'cae-oxford-general-navigation',  // Handle both slug variations
-      // Revision questions book mappings
-      'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
-      'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
-      'cae-oxford-performance': 'cae-oxford-performance',
-      'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
-      'cae-oxford-powerplant': 'cae-oxford-powerplant',
-      'powerplant': 'cae-oxford-powerplant',
-      'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
-      'principles-of-flight': 'cae-oxford-principles-of-flight',
-      'cae-oxford-navigation': 'cae-oxford-navigation',
-      'operational-procedures': 'operational-procedures',
-      'instrument-2014': 'instrument',
-      'instrument': 'instrument',
-      // Meteorology
-      'cae-oxford-meteorology': 'cae-oxford',
-      // Radio Telephony
-      'cae-oxford-radio-telephony': 'cae-oxford',
-      // Mass and Balance & Performance
-      'mass-and-balance-and-performance': 'mass-and-balance-and-performance',
-      'mass-and-balance': 'mass-and-balance-and-performance'
-      // NOTE: 'performance' is removed here because it conflicts with 'cae-oxford-performance'
-      // Instead, BookChapters.js uses subject-specific routing to distinguish between them
-    };
-    
-    // Apply mapping if exists, otherwise use the book slug as-is
-    let filePrefix = bookSlugMapping[book] || book;
-    
-    // Allow temporarily disabling via env flag but still respond successfully
+    const chapterParam = req.query.chapter || '';
+
     if (process.env.PRACTICE_QUESTIONS_DISABLED === 'true') {
-      return res.json({ chapter, questions: [] });
+      return res.json({ chapter: chapterParam.toLowerCase() || null, questions: [] });
     }
-    
-    // Require chapter parameter for chapter-specific files
-    let filePath;
-    if (chapter) {
-      // Try the mapped prefix first
-      filePath = path.join(__dirname, 'practice-questions', `${filePrefix}-${chapter}.json`);
-      console.log(`[API] Loading chapter file: ${filePrefix}-${chapter}.json (mapped from book: ${book})`);
-      console.log(`[API] Full file path: ${filePath}`);
-      console.log(`[API] File exists: ${fs.existsSync(filePath)}`);
-      
-      // If file doesn't exist, try alternative prefixes
-      if (!fs.existsSync(filePath)) {
-        const practiceQuestionsDir = path.join(__dirname, 'practice-questions');
-        const alternativePrefixes = [];
-        
-        // For 'cae-oxford', try 'cae-oxford' prefix (for meteorology, radio-telephony)
-        if (book === 'cae-oxford' && filePrefix === 'oxford') {
-          alternativePrefixes.push('cae-oxford');
-        }
-        
-        // For mass-and-balance-and-performance, try shorter prefixes
-        if (book === 'mass-and-balance-and-performance' || filePrefix === 'mass-and-balance-and-performance') {
-          alternativePrefixes.push('mass-and-balance');
-          alternativePrefixes.push('performance');
-        }
-        
-        // Try the original book slug as prefix
-        if (book !== filePrefix) {
-          alternativePrefixes.push(book);
-        }
-        
-        // Try all alternative prefixes
-        for (const altPrefix of alternativePrefixes) {
-          const altFilePath = path.join(practiceQuestionsDir, `${altPrefix}-${chapter}.json`);
-          console.log(`[API] Trying alternative path: ${altPrefix}-${chapter}.json`);
-          if (fs.existsSync(altFilePath)) {
-            filePath = altFilePath;
-            filePrefix = altPrefix;
-            console.log(`[API] Found file with ${altPrefix} prefix`);
-            break;
-          }
-        }
-      }
-      
-      if (!fs.existsSync(filePath)) {
-        console.log(`[API] File not found: ${filePath}`);
-        // Try to find file by searching for chapter slug in all files
-        const practiceQuestionsDir = path.join(__dirname, 'practice-questions');
-        if (fs.existsSync(practiceQuestionsDir)) {
-          const allFiles = fs.readdirSync(practiceQuestionsDir).filter(f => f.endsWith('.json'));
-          // Try to find file that ends with the chapter slug
-          const matchingFile = allFiles.find(f => {
-            const fileBase = f.replace('.json', '');
-            // Check if file ends with chapter slug or contains it
-            return fileBase.endsWith(`-${chapter}`) || fileBase === chapter || fileBase.includes(`-${chapter}-`);
-          });
-          
-          if (matchingFile) {
-            filePath = path.join(practiceQuestionsDir, matchingFile);
-            console.log(`[API] Found matching file by search: ${matchingFile}`);
-          } else {
-            // List available files for debugging
-            const files = allFiles.filter(f => {
-              const fileBase = f.replace('.json', '').toLowerCase();
-              const chapterLower = chapter.toLowerCase();
-              return fileBase.includes(chapterLower) || chapterLower.includes(fileBase.split('-').pop());
-            });
-            console.log(`[API] Available files containing "${chapter}":`, files.slice(0, 10));
-            // Return an empty set rather than 404 so frontend can show "no questions" state
-            return res.json({ chapter, questions: [] });
-          }
-        } else {
-          return res.json({ chapter, questions: [] });
-        }
-      }
-    } else {
-      // If no chapter specified, try to find default book file (for backward compatibility)
-      filePath = path.join(__dirname, 'practice-questions', `${filePrefix}.json`);
-      console.log(`[API] Loading default book file: ${filePrefix}.json (mapped from book: ${book})`);
-      if (!fs.existsSync(filePath)) {
-        return res.json({ chapter: null, questions: [] });
-      }
+
+    const { filePath } = resolvePracticeQuestionFile(req.params.book, chapterParam);
+
+    if (!filePath) {
+      return res.json({ chapter: chapterParam.toLowerCase() || null, questions: [] });
     }
-    
+
     const raw = fs.readFileSync(filePath, 'utf-8');
     const data = JSON.parse(raw);
     console.log(`[API] Loaded ${data.questions?.length || 0} questions from ${path.basename(filePath)}`);
-    
-    // Prevent caching to ensure fresh data
+
     res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
     res.setHeader('Pragma', 'no-cache');
     res.setHeader('Expires', '0');
