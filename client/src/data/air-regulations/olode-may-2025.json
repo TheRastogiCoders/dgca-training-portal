@@ -1,0 +1,57 @@
+{
+  "book_name": "Air Regulations",
+  "chapter_number": "01",
+  "chapter_title": "Regulation OLODE MAY session 2025",
+  "questions": [
+    {
+      "full_question_text": "During an IFR flight TAS and time appear to deviate from the data in the flight plan. The minimum deviations, that should be reported to ATC in order to conform to PANS-RAC, are:",
+      "options": [
+        "TAS 3% and time 3 minutes",
+        "TAS 5% and time 3 minutes",
+        "TAS 10 kt and time 2 minutes",
+        "TAS 5 kt and time 5 minutes"
+      ],
+      "solution": "TAS 5% and time 3 minutes"
+    },
+    {
+      "full_question_text": "The special SSR codes are as follows: emergency entering UK airspace, radio failure, unlawful interference with the conduct of the flight",
+      "options": [
+        "7700; 7600; 2000; 7500",
+        "7700; 7600; 7500; 2000",
+        "7600; 7500; 2000; 7700",
+        "7500; 7600; 2000; 7700"
+      ],
+      "solution": "7700; 7600; 2000; 7500"
+    },
+    {
+      "full_question_text": "If radio communication is established during an interception but communications in a common language is not possible, which phrase should be pronounced by the intercepting aircraft to request the intercepted aircraft to descend for landing?",
+      "options": [
+        "Let down",
+        "You land",
+        "Descend for landing",
+        "Descend"
+      ],
+      "solution": "Descend"
+    },
+    {
+      "full_question_text": "In a procedure turn (45°/180°), a 45° turn away from the outbound track is performed from the start of turn for categories A and B aircraft for:",
+      "options": [
+        "1 minute 15 seconds.",
+        "1 minute 30 seconds.",
+        "2 minutes.",
+        "1 minute."
+      ],
+      "solution": "1 minute."
+    },
+    {
+      "full_question_text": "Track separation between aircraft using the same VOR shall be applied requiring the aircraft to fly:",
+      "options": [
+        "At least 30° separated at a distance of 15 NM or more from the facility.",
+        "At least 45° separated at a distance of 15 NM or more from the facility",
+        "At least 15° separated at a distance of 15 NM or more from the facility.",
+        "At least 15° separated at a distance of 15 miles or more from the facility."
+      ],
+      "solution": "At least 15° separated at a distance of 15 NM or more from the facility."
+    }
+  ]
+}

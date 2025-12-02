@@ -1,0 +1,525 @@
+{
+  "book_name": "Air Regulations",
+  "chapter_number": "02",
+  "chapter_title": "JANUARY ON-DEMAND 2025",
+  "questions": [
+    {
+      "full_question_text": "The MSA, which must be established around a navigation facility, is in general valid within a sector of:",
+      "options": [
+        "10 NM",
+        "15 NM",
+        "30 NM",
+        "25 NM"
+      ],
+      "solution": "25 NM"
+    },
+    {
+      "full_question_text": "A turn executed by the aircraft during the initial approach between the end of the outbound track and the beginning of the intermediate or final approach track is a:",
+      "options": [
+        "Procedure turn",
+        "Base turn",
+        "Race track",
+        "Reversal procedure"
+      ],
+      "solution": "Base turn"
+    },
+    {
+      "full_question_text": "The pilot of an aircraft losing two-way communications shall set the transponder to Mode A Code:",
+      "options": [
+        "2000.",
+        "7600.",
+        "7500.",
+        "7700."
+      ],
+      "solution": "7600."
+    },
+    {
+      "full_question_text": "When acknowledging mode/code setting instructions, pilots shall:",
+      "options": [
+        "Use only the word ROGER.",
+        "Read back the mode and code to be set.",
+        "Use only the word WILCO.",
+        "Read back only the code to be set."
+      ],
+      "solution": "Read back the mode and code to be set."
+    },
+    {
+      "full_question_text": "You receive an IFR enroute clearance stating: Clearance expires at 0920. What does it mean?",
+      "options": [
+        "Do not take off before 0920",
+        "The take off clearance is expected at 0920",
+        "If not airborne until 0920, a new clearance has to be issued",
+        "After 0920 return to the ramp and file a new flight plan"
+      ],
+      "solution": "If not airborne until 0920, a new clearance has to be issued"
+    },
+    {
+      "full_question_text": "If radio communication failure is experienced on an IFR flight in IMC, generally the pilot shall:",
+      "options": [
+        "Land on the nearest suitable aerodrome and report the termination of the flight to ATC.",
+        "Try to get contact on other frequencies either ground or aircraft stations - Transmit being indicating important details required 2 times.",
+        "Try to get contact on other frequencies either ground or aircraft stations.",
+        "Transmit blind indicating details required at least 2 times."
+      ],
+      "solution": "Try to get contact on other frequencies either ground or aircraft stations - Transmit being indicating important details required 2 times."
+    },
+    {
+      "full_question_text": "Who is responsible for an ATC clearance to be safe in respect to terrain clearance?",
+      "options": [
+        "The ATC.",
+        "The aircraft operator.",
+        "The air traffic service reporting office when accepting the flight plan",
+        "The pilot in command."
+      ],
+      "solution": "The pilot in command."
+    },
+    {
+      "full_question_text": "Independent parallel approaches may be conducted to parallel runways provided that a no transgression zone (NTZ) of at least:",
+      "options": [
+        "500 m is established between extended runway centre lines and as is depicted on the radar display",
+        "710 m is established between extended runway centre lines and as is depicted on the radar display",
+        "600 m is established between extended runway centre lines and as is depicted on the radar display",
+        "610 m is established between extended runway centre lines and as is depicted on the radar display"
+      ],
+      "solution": "610 m is established between extended runway centre lines and as is depicted on the radar display"
+    },
+    {
+      "full_question_text": "Aerodromes signs should be in the following configuration:",
+      "options": [
+        "mandatory instruction signs, red background with black inscriptions.",
+        "information signs, orange background with black inscriptions.",
+        "information signs, yellow or black background with black or yellow inscriptions",
+        "mandatory instruction signs, black background with red inscriptions."
+      ],
+      "solution": "information signs, yellow or black background with black or yellow inscriptions"
+    },
+    {
+      "full_question_text": "VFR flights shall not be flown over the congested areas of cities at a height less than",
+      "options": [
+        "2000 ft above the highest obstacle within a radius of 600 ft from the aircraft",
+        "500 ft above the highest obstacle",
+        "1000 ft above the highest obstacle within a radius of 600 m from the aircraft.",
+        "the highest obstacle"
+      ],
+      "solution": "1000 ft above the highest obstacle within a radius of 600 m from the aircraft."
+    },
+    {
+      "full_question_text": "The volume percentage of oxygen in the atmosphere is 21% which",
+      "options": [
+        "is dependent on the present air pressure",
+        "is constant for all altitudes conventional airplanes can reach",
+        "decreases with increasing altitude",
+        "increases with increasing altitude"
+      ],
+      "solution": "is constant for all altitudes conventional airplanes can reach"
+    },
+    {
+      "full_question_text": "Pain in the joints caused by gas bubbles following a decompression is called:",
+      "options": [
+        "chokes",
+        "leans",
+        "bends",
+        "creeps"
+      ],
+      "solution": "bends"
+    },
+    {
+      "full_question_text": "Which of the following statements concerning barotrauma are correct? They are:",
+      "options": [
+        "more likely to occur during ascent then during a rapid descent",
+        "caused by an increase in the partial pressure of oxygen associated with a decrease in altitude",
+        "due to pressure differentials between gases in hollow cavities of the body and the ambient pressure",
+        "mainly associated with a sink rate which exceeds the ability of the body to balance its internal pressures"
+      ],
+      "solution": "due to pressure differentials between gases in hollow cavities of the body and the ambient pressure"
+    },
+    {
+      "full_question_text": "Haemoglobin is:",
+      "options": [
+        "dissolved in the plasma",
+        "in the white blood cells",
+        "in the platelets",
+        "in the red blood cells"
+      ],
+      "solution": "in the red blood cells"
+    },
+    {
+      "full_question_text": "During a final approach under bad weather conditions, you feel dizzy, get tingling sensations in your hands and a rapid heart rate. These symptoms could indicate:",
+      "options": [
+        "Hypoxia",
+        "Hyperventilation",
+        "Decompression sickness",
+        "Spatial disorientation"
+      ],
+      "solution": "Hyperventilation"
+    },
+    {
+      "full_question_text": "When is the aircraft registration to be used in radio telephony communications?",
+      "options": [
+        "Never",
+        "In all calls",
+        "In the initial call to the aerodrome control tower and the approach control unit",
+        "In all calls to the aerodrome tower and the approach control unit"
+      ],
+      "solution": "In the initial call to the aerodrome control tower and the approach control unit"
+    },
+    {
+      "full_question_text": "An aircraft encountering radio communication failure on an IFR flight in VMC is assumed to:",
+      "options": [
+        "Continue the flight to destination aerodrome in any case",
+        "Squawk IDENT and proceed to the alternate aerodrome",
+        "Continue to fly in VMC, land at the nearest suitable aerodrome, report its arrival",
+        "Leave controlled airspace and continue the flight within uncontrolled airspace"
+      ],
+      "solution": "Continue to fly in VMC, land at the nearest suitable aerodrome, report its arrival"
+    },
+    {
+      "full_question_text": "Final reserve fuel for an aircraft with reciprocating engines should be:",
+      "options": [
+        "Fuel to fly for 30 min",
+        "Fuel to fly for 60 min",
+        "Fuel to fly for 45 min"
+      ],
+      "solution": "Fuel to fly for 45 min"
+    },
+    {
+      "full_question_text": "What is meant when departure control instructions you to 'resume own navigation' after you have been vectored to an airway?",
+      "options": [
+        "Advisors will no longer be issued by ATC",
+        "You are still in radar contact, but must make position reports",
+        "You should maintain that airway by use of your navigation equipment"
+      ],
+      "solution": "You should maintain that airway by use of your navigation equipment"
+    },
+    {
+      "full_question_text": "During an IFR flight in VMC inside controlled airspace, if a two-way radio failure occurs, what action should the pilot take?",
+      "options": [
+        "Land at the nearest suitable aerodrome maintaining VMC and inform ATC",
+        "Select A7600 and continue as per current flight plan to destination",
+        "Land at the nearest aerodrome and inform ATC",
+        "Continue as per flight plan"
+      ],
+      "solution": "Land at the nearest suitable aerodrome maintaining VMC and inform ATC"
+    },
+    {
+      "full_question_text": "The signal from the pilot to the marshaller indicating that brakes are applied is:",
+      "options": [
+        "Clenching the fist in front of the face and then extending the fingers",
+        "Crossing both hands in front of the face with palms facing outward, then moving the arms apart",
+        "Raising one arm with fingers extended in front of the face and then closing the hand into a fist",
+        "Extending both arms downward and rotating wrists outward"
+      ],
+      "solution": "Raising one arm with fingers extended in front of the face and then closing the hand into a fist"
+    },
+    {
+      "full_question_text": "Runway threshold identification lights, when provided, should be:",
+      "options": [
+        "Fixed green",
+        "Fixed white",
+        "Flashing white"
+      ],
+      "solution": "Flashing white"
+    },
+    {
+      "full_question_text": "Runway threshold lights shall be:",
+      "options": [
+        "Fixed lights green colours",
+        "Fixed lights showing green or white colours",
+        "Fixed unidirectional lights showing green in the direction of approach to the runway"
+      ],
+      "solution": "Fixed unidirectional lights showing green in the direction of approach to the runway"
+    },
+    {
+      "full_question_text": "On the readability scale what does 'Readability 3' mean:",
+      "options": [
+        "Readable but with difficulty",
+        "Loud and clear",
+        "No problem to understand"
+      ],
+      "solution": "Readable but with difficulty"
+    },
+    {
+      "full_question_text": "What is the obstacle clearance in the intermediate approach segment?",
+      "options": [
+        "300 m (984 ft)",
+        "200 m (656 ft)",
+        "Reducing from 300 m to 150 m"
+      ],
+      "solution": "Reducing from 300 m to 150 m"
+    },
+    {
+      "full_question_text": "The age of an applicant for a Commercial Pilot Licence shall not be less than:",
+      "options": [
+        "17 years of age",
+        "18 years of age",
+        "16 years of age"
+      ],
+      "solution": "18 years of age"
+    },
+    {
+      "full_question_text": "An applicant for the licences shall have the ability to speak and understand the English language used for radiotelephony communications to the level of proficiency specified by the Director General.",
+      "options": [
+        "PPL, CPL, ATPL, FIt Navigator and Fit Engg",
+        "PPL, CPL, ATPL only",
+        "PPL only"
+      ],
+      "solution": "PPL, CPL, ATPL, FIt Navigator and Fit Engg"
+    },
+    {
+      "full_question_text": "Vertical separation applicable to non-RVSM aircraft operating in RVSM airspace is:",
+      "options": [
+        "500'",
+        "1000'",
+        "2000'"
+      ],
+      "solution": "2000'"
+    },
+    {
+      "full_question_text": "No. of runway threshold stripes for a runway width of 23 meters is:",
+      "options": [
+        "4",
+        "5",
+        "6"
+      ],
+      "solution": "6"
+    },
+    {
+      "full_question_text": "Oxygen, combined with hemoglobin in blood is transported by",
+      "options": [
+        "Platelets",
+        "Red blood cells",
+        "White blood cells"
+      ],
+      "solution": "Red blood cells"
+    },
+    {
+      "full_question_text": "What is the Time of Useful Consciousness?",
+      "options": [
+        "The length of time during which an individual can act with both mental and physical efficiency and alertness, measured from the moment at which he loses his available oxygen supply",
+        "The time taken to become aware of hypoxia due to gradual decompression",
+        "The period of time between the start of hypoxia and the moment that the pilot becomes aware of it"
+      ],
+      "solution": "The length of time during which an individual can act with both mental and physical efficiency and alertness, measured from the moment at which he loses his available oxygen supply"
+    },
+    {
+      "full_question_text": "Which symptom does not belong to the following list:",
+      "options": [
+        "leans",
+        "bends",
+        "chokes"
+      ],
+      "solution": "leans"
+    },
+    {
+      "full_question_text": "Types of Hypoxia are:",
+      "options": [
+        "stagnant hypoxia",
+        "anaemic hypoxia",
+        "both of these"
+      ],
+      "solution": "both of these"
+    },
+    {
+      "full_question_text": "The minimum safest altitude that the aircraft can descend below the transition altitude within 25 NMs of an aerodrome area is given by:",
+      "options": [
+        "MORA",
+        "MOEA",
+        "MSA"
+      ],
+      "solution": "MSA"
+    },
+    {
+      "full_question_text": "Final reserve fuel, for a reciprocating engine aeroplane over destination alternate, shall be:",
+      "options": [
+        "the amount of fuel required to fly for 45 minutes, under speed and altitude conditions specified by the State of the Operator.",
+        "the amount of fuel required to fly for 45 minutes and do an approach and missed approach.",
+        "the amount of fuel required to fly for two hours, under speed and altitude conditions specified by the State of the Operator."
+      ],
+      "solution": "the amount of fuel required to fly for 45 minutes, under speed and altitude conditions specified by the State of the Operator."
+    },
+    {
+      "full_question_text": "The document 'Procedures for Air Navigation Services - Air Traffic Management' (PANS-ATM) is also commonly known by its ICAO document number. What is the document number?",
+      "options": [
+        "Doc 8168",
+        "Doc 4444",
+        "Doc 7333"
+      ],
+      "solution": "Doc 4444"
+    },
+    {
+      "full_question_text": "Doc 4444 relates to:",
+      "options": [
+        "Flight level tables",
+        "Position reports",
+        "All above"
+      ],
+      "solution": "All above"
+    },
+    {
+      "full_question_text": "Barotrauma",
+      "options": [
+        "CHECK ANSWER"
+      ],
+      "solution": "CHECK ANSWER"
+    },
+    {
+      "full_question_text": "Rule no. 67 A of Aircraft Rules, 1937 deals with:",
+      "options": [
+        "CHECK ANSWER"
+      ],
+      "solution": "CHECK ANSWER"
+    },
+    {
+      "full_question_text": "PANS-ATM is:",
+      "options": [
+        "Procedure for navigation Services- Air traffic management",
+        "Procedure for navigation Services- Airport traffic management",
+        "Procedure for navigation Services- Aeronautical traffic management"
+      ],
+      "solution": "Procedure for navigation Services- Air traffic management"
+    },
+    {
+      "full_question_text": "RVSM:",
+      "options": [
+        "from 5000-25000",
+        "FL290-FL410",
+        "from 5000-FL410"
+      ],
+      "solution": "FL290-FL410"
+    },
+    {
+      "full_question_text": "What does a red flashing light from the control tower to an aircraft on the maneuvering area mean?",
+      "options": [
+        "Clear to taxi",
+        "Return to the start point",
+        "Move clear of the landing area"
+      ],
+      "solution": "Move clear of the landing area"
+    },
+    {
+      "full_question_text": "The possible symptoms of carbon monoxide poisoning are:",
+      "options": [
+        "Anxiety, rapid breathing & dizziness",
+        "Lethargy, nausea, headache & complexion",
+        "Blueness of lips, impaired judgement and co-ordination"
+      ],
+      "solution": "Lethargy, nausea, headache & complexion"
+    },
+    {
+      "full_question_text": "While taxiing, an aircraft receives from the airport controller the following light signal: a series of green flashes. This signal means that the aircraft:",
+      "options": [
+        "Must slow down and look for other aircraft",
+        "May continue to taxi towards the take-off area",
+        "Must stop and look for a steady Green signal for continuing to the takeoff area"
+      ],
+      "solution": "May continue to taxi towards the take-off area"
+    },
+    {
+      "full_question_text": "Carbon monoxide poisoning:",
+      "options": [
+        "Occurs only above 15 degrees OAT",
+        "Is more likely to occur in aeroplanes where the cabin heat is technically supplied by coating the exhaust",
+        "Is more likely to occur in aeroplanes with twin-engines because of high engine efficiency"
+      ],
+      "solution": "Is more likely to occur in aeroplanes where the cabin heat is technically supplied by coating the exhaust"
+    },
+    {
+      "full_question_text": "PIC of an aeroplane shall be responsible for:",
+      "options": [
+        "Safe conduct of flight outside controlled airspace only.",
+        "Obstacle clearance when being vectored on radar.",
+        "Safe conduct of flight at all times."
+      ],
+      "solution": "Safe conduct of flight at all times."
+    },
+    {
+      "full_question_text": "What are the various stages of hypoxia?",
+      "options": [
+        "Indifferent Stage- oxygen saturation between 90%-98% and Compensatory State- oxygen saturation between 80%-89%.",
+        "Disturbance Stage- oxygen saturation between 70%-79% and Critical Stage- oxygen saturation between 60%-69%.",
+        "Both A and B are correct."
+      ],
+      "solution": "Both A and B are correct."
+    },
+    {
+      "full_question_text": "Does hypoxia cause hyperventilation or only pressure breathing?",
+      "options": [
+        "Only hyperventilation.",
+        "Only pressure breathing.",
+        "Both hyperventilation and pressure breathing."
+      ],
+      "solution": "Both hyperventilation and pressure breathing."
+    },
+    {
+      "full_question_text": "Aircraft is facing severe turbulence, pilot should maintain?",
+      "options": [
+        "Constant altitude.",
+        "Constant maneuvering speed (Va).",
+        "Constant maneuvering speed (Va) and altitude."
+      ],
+      "solution": "Constant maneuvering speed (Va)."
+    },
+    {
+      "full_question_text": "Distance from Jet refueling",
+      "options": [
+        "check answer"
+      ],
+      "solution": "check answer"
+    },
+    {
+      "full_question_text": "Carriage of animals?",
+      "options": [
+        "With permission of DGCA",
+        "With permission of PIC",
+        "With permission of Director of Operator"
+      ],
+      "solution": "With permission of DGCA"
+    },
+    {
+      "full_question_text": "MAP starts at",
+      "options": [
+        "missed approach point",
+        "Threshold"
+      ],
+      "solution": "missed approach point"
+    },
+    {
+      "full_question_text": "NPA min MDA",
+      "options": [
+        "200ft",
+        "350ft",
+        "350ft"
+      ],
+      "solution": "350ft"
+    },
+    {
+      "full_question_text": "ICAO headquarters",
+      "options": [
+        "geneva",
+        "montreal"
+      ],
+      "solution": "montreal"
+    },
+    {
+      "full_question_text": "Domestic flight max FDTL Flight time and landings",
+      "options": [
+        "check answer"
+      ],
+      "solution": "check answer"
+    },
+    {
+      "full_question_text": "AN a/c IS flying from left to right what light Will you see?",
+      "options": [
+        "check answer"
+      ],
+      "solution": "check answer"
+    },
+    {
+      "full_question_text": "what is the runway no based on?",
+      "options": [
+        "check answer"
+      ],
+      "solution": "check answer"
+    }
+  ]
+}

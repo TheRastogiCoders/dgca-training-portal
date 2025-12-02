@@ -1,0 +1,45 @@
+{
+  "book_name": "Air Regulation Sessions",
+  "sessions": [
+    {
+      "id": "reg-attempt-dec-2024",
+      "title": "REG- ATTEMPT DEC 2024",
+      "file": "air-regulation-december-2024.json"
+    },
+    {
+      "id": "reg-june-2025",
+      "title": "REG- JUNE 2025",
+      "file": "air-regulation-june-2025.json"
+    },
+    {
+      "id": "reg-olode-april-session",
+      "title": "REG- OLODE APRIL SESSION REGULATION",
+      "file": "air-regulation-olode-april-session.json"
+    },
+    {
+      "id": "reg-olode-feb-2025",
+      "title": "REG- OLODE FEB 2025",
+      "file": "air-regulation-olode-feb-2025.json"
+    },
+    {
+      "id": "reg-olode-jan-2025",
+      "title": "REG- OLODE JAN 2025",
+      "file": "air-regulation-olode-jan-2025.json"
+    },
+    {
+      "id": "reg-olode-july-2025",
+      "title": "REG- OLODE JULY 2025",
+      "file": "air-regulation-olode-july-2025.json"
+    },
+    {
+      "id": "reg-olode-may-session-2025",
+      "title": "REG- OLODE MAY SESSION 2025",
+      "file": "air-regulation-olode-may-2025.json"
+    },
+    {
+      "id": "reg-session1-2025",
+      "title": "REG- SESSION1- 2025",
+      "file": "air-regulation-session1-2025.json"
+    }
+  ]
+}

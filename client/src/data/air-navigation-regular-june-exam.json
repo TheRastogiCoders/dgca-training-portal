@@ -1,0 +1,294 @@
+{
+  "book": {
+    "id": "air-navigation-regular-june-exam",
+    "title": "NAV- REGULAR JUNE EXAM",
+    "description": "Air Navigation Regular June Examination",
+    "subject": "Air Navigation",
+    "type": "regular",
+    "year": 2025,
+    "month": "June",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "NAV- REGULAR JUNE EXAM",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "The provision of a stopway will?",
+            "type": "MCQ",
+            "options": [
+              "A. Increase maximum V, at any given mass and decrease ASDA.",
+              "B. Decrease maximum V, at any given mass and decrease ASDA.",
+              "C. Increase maximum V, at any given mass and increase ASDA.",
+              "D. Decrease maximum V, at any given mass and increase ASDA."
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 2,
+            "question_text": "What might be the TORA on the diagram below if CD is the stopway?",
+            "type": "MCQ",
+            "options": [
+              "A. A-B.",
+              "B. B-C.",
+              "C. B-E.",
+              "D. B-D."
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 3,
+            "question_text": "A radio altimeter has a maximum effective height because?",
+            "type": "MCQ",
+            "options": [
+              "A. At greater heights the signal will be absorbed by moisture in the air",
+              "B. At greater heights from different modulation cycles will overlap",
+              "C. At greater heights the signal will be too weak"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 4,
+            "question_text": "The difference between Magnetic North and True North can be derived by:",
+            "type": "MCQ",
+            "options": [
+              "A. deviation card",
+              "B. map with isogonal lines",
+              "C. deviation curve",
+              "D. map with isoclinic lines"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 5,
+            "question_text": "The altitude indicated on board an aircraft flying in an atmosphere where all the atmosphere layers below the aircraft are cold is :",
+            "type": "MCQ",
+            "options": [
+              "A. equal to the standard altitude",
+              "B. lower than the real altitude.",
+              "C. higher than the real altitude",
+              "D. the same as the real altitude."
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 6,
+            "question_text": "True course (TC) 017°, W/V 340°/30kt, True air speed (TAS) 420kt find: Wind correction angle (WCA) and ground speed (GS)",
+            "type": "MCQ",
+            "options": [
+              "A. WCA +2°, GS 396kt",
+              "B. WCA -2°, GS 396kt",
+              "C. WCA-2°, GS 426kt"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 7,
+            "question_text": "What is the approximate circumference of the earth?",
+            "type": "MCQ",
+            "options": [
+              "A. 21600 nm",
+              "B. 43400 nm",
+              "C. 5400 nm",
+              "D. 11800 nm"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 8,
+            "question_text": "For most radio altimeters, when a system error occurs during approach the?",
+            "type": "MCQ",
+            "options": [
+              "A. Height indication is removed.",
+              "B. DH lamp flashes red.",
+              "C. Audio warning signal sounds.",
+              "D. DH lamp flashes red and the audio signal sounds."
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 9,
+            "question_text": "The take-off mass of an aeroplane is restricted by the climb limit. What would be the effect on this limit of an increase in the headwind component?",
+            "type": "MCQ",
+            "options": [
+              "A. None.",
+              "B. The effect would vary depending upon the height of any obstacle within the net take-off flight path.",
+              "C. The climb limited take-off mass would increase.",
+              "D. The climb limited take-off mass would decrease."
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 10,
+            "question_text": "An aircraft at FL350 is required to descend to cross a DME facility at FL80. Maximum rate of descent is 2000 FT/MIN and mean GS descent is 275 kt. The minimum range from the DME at which descent should start is?",
+            "type": "MCQ",
+            "options": [
+              "A. 62 nm",
+              "B. 69 nm",
+              "C. 49 nm",
+              "D. 59 nm"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 11,
+            "question_text": "An aircraft at FL350 is required to cross a VOR/DME facility at FL110 and to commence descent when 125 NM from the facility. If the mean GS for the descent is 350 kt, the minimum rate of descent required is?",
+            "type": "MCQ",
+            "options": [
+              "A. 1120 ft/min.",
+              "B. 1290 ft/min",
+              "C. 1140 ft/min",
+              "D. 1190 ft/min"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 12,
+            "question_text": "At 105 nm from a VOR an aircraft commence a descent from FL350 in order to arrive overhead the VOR at FL120. What rate of descent is required if the mean groundspeed in the descent is to be 250 knots?",
+            "type": "MCQ",
+            "options": [
+              "A. 950 ft/min.",
+              "B. 913 ft/min.",
+              "C. 744 ft/min",
+              "D. 847 ft/min."
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 13,
+            "question_text": "What will happen if an aircraft has two altimeters, one of which is compensated for position error, whilst the other is not?",
+            "type": "MCQ",
+            "options": [
+              "A. one will over read at high airspeeds.",
+              "B. One will under read at high airspeeds.",
+              "C. one will under read close to the ground.",
+              "D. The ADC will compensate automatically, so both with read correctly."
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 14,
+            "question_text": "The gyro in an artificial horizon requires. 1. One degree of freedom. 2. Two degrees of freedom. 3. Vertical axis. 4. Horizontal axis.",
+            "type": "MCQ",
+            "options": [
+              "A. 1, 3.",
+              "B. 1, 4.",
+              "C. 2, 3.",
+              "D. 2, 4."
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 15,
+            "question_text": "What is the maximum latitude of a GPS satellite ground track?",
+            "type": "MCQ",
+            "options": [
+              "A. 90 N/S.",
+              "B. 67.5 N/S.",
+              "C. 35 N/S.",
+              "D. 55 N/S."
+            ],
+            "answer": "D"
+          },
+          {
+            "question_number": 16,
+            "question_text": "Concerning NAVSTAR GPS orbits, which of the following statements is correct?",
+            "type": "MCQ",
+            "options": [
+              "A. The orbits are geostationary to provide global coverage.",
+              "B. The inclination of the orbits is 55 degrees with an orbital period of 24 hours.",
+              "C. The inclination is 55 degrees with an orbital period of 12 hours.",
+              "D. The orbits are inclined at 65 degrees with an orbital period of 11 hours 15 minutes."
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 17,
+            "question_text": "An aircraft whose weight is 237402 N stalls at 132 kt. At a weight of 356,103 N it would stall at:",
+            "type": "MCQ",
+            "options": [
+              "A. 88 kt",
+              "B. 162 kt",
+              "C. 108 kt",
+              "D. 172 kt"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 18,
+            "question_text": "If variation is west",
+            "type": "MCQ",
+            "options": [
+              "A. True North is West of magnetic North",
+              "B. True North is East of magnetic North",
+              "C. Mag North is West of compass North"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 19,
+            "question_text": "In its path around the Sun, the axis of the Earth has an inclination:",
+            "type": "MCQ",
+            "options": [
+              "A. of 66°33' with the plane of the path.",
+              "B. varying between zero and 23° 27 with the plane of the path",
+              "C. varying with the season of the year."
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 20,
+            "question_text": "When approaching the international date line from the east, you:",
+            "type": "MCQ",
+            "options": [
+              "A. should increase your date by an extra date at the first midnight you experience.",
+              "B. should be prepared to decrease your date by 1.",
+              "C. should be prepared to increase your date by 1."
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 21,
+            "question_text": "The International Date Line is found on or near the [BLANK] When crossing the date line traveling west, you go into the [BLANK] day:",
+            "type": "MCQ",
+            "options": [
+              "A. Parallel, next day",
+              "B. Meridian, previous day",
+              "C. Meridian next day"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 22,
+            "question_text": "Low altitude radio altimeters operate on the wavelength?",
+            "type": "MCQ",
+            "options": [
+              "A. Metric",
+              "B. Decimetric",
+              "C. Centimetric"
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 23,
+            "question_text": "Two questions from point of equal time",
+            "type": "MCQ",
+            "options": [
+              "A. practise questions on eatpl"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 24,
+            "question_text": "change in latitude related questions",
+            "type": "MCQ",
+            "options": [
+              "A. practise on eatpl.in In the navigation section"
+            ],
+            "answer": "A"
+          }
+        ]
+      }
+    ]
+  }
+}

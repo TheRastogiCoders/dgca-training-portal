@@ -1,0 +1,269 @@
+{
+  "book_name": "Air Regulations",
+  "chapter_number": "01",
+  "chapter_title": "Regulations olode session 2 2025",
+  "questions": [
+    {
+      "full_question_text": "A jet aeroplane is to fly from A to B. The minimum final reserve fuel must allow for:",
+      "options": [
+        "20 minutes hold over alternate airfield.",
+        "30 minutes hold at 1500 ft above mean sea level.",
+        "30 minutes hold at 1500 ft above destination aerodrome elevation, when no alternate is required",
+        "15 minutes hold at 1500 ft above destination aerodrome elevation"
+      ],
+      "solution": "30 minutes hold at 1500 ft above destination aerodrome elevation, when no alternate is required"
+    },
+    {
+      "full_question_text": "Where does the initial approach segment in an instrument approach procedure commence?",
+      "options": [
+        "At the IF.",
+        "At the IAF.",
+        "At the FAF",
+        "At the final en-route fix."
+      ],
+      "solution": "At the IAF."
+    },
+    {
+      "full_question_text": "The momentum of gas exchange in respiration is",
+      "options": [
+        "the excess pressure caused by inhaling",
+        "independent from the partial pressures of the participating gases",
+        "dependent on the pressure gradient between the participating gases during respiration",
+        "depending on the active transportation of nitrogen into the alveoli"
+      ],
+      "solution": "dependent on the pressure gradient between the participating gases during respiration"
+    },
+    {
+      "full_question_text": "In the alveoli gas exchange takes place (external respiration). Which gas will diffuse from the blood into the lungs?",
+      "options": [
+        "Ambient air",
+        "Carbon monoxide",
+        "Carbon dioxide",
+        "Oxygen."
+      ],
+      "solution": "Carbon dioxide"
+    },
+    {
+      "full_question_text": "Changes in ambient pressure and accelerations during flight are important physiological factors limiting the pilots performance if not taken into consideration. Linear accelerations along the long axis of the body",
+      "options": [
+        "change blood presssure and blood volume distribution in the body",
+        "will have an effect on blood pressure and blood flow if the accelerative force acts across the body at right angles to the body axis",
+        "will not stimulate any of the vestibular organs",
+        "are of no interest when performing aerobatics"
+      ],
+      "solution": "change blood presssure and blood volume distribution in the body"
+    },
+    {
+      "full_question_text": "How is haze effecting your perception?",
+      "options": [
+        "Objects will give better contrast.",
+        "Objects seem to be further away than in reality.",
+        "Haze makes the eyes to focus at infinity",
+        "Objects seem to be closer than in reality."
+      ],
+      "solution": "Objects seem to be further away than in reality."
+    },
+    {
+      "full_question_text": "What is the correct way of expressing visibility?",
+      "options": [
+        "Visibility 1.2 nautical miles",
+        "Visibility 1200 metres",
+        "Visibility 1.2 kilometres",
+        "Visibility 1200 feet"
+      ],
+      "solution": "Visibility 1200 metres"
+    },
+    {
+      "full_question_text": "The white dumb-bell with a black perpendicular bar signals that",
+      "options": [
+        "Taxiing need to remain restricted only to the designated taxiways.",
+        "Glider flying is conducted in areas beyond the designated landing zone",
+        "Landing, take-off and taxiing are permitted exclusively on the designated runway or taxiway",
+        "Landing, take-off and taxiing is restricted to authorized runways or taxiways"
+      ],
+      "solution": "Taxiing need to remain restricted only to the designated taxiways."
+    },
+    {
+      "full_question_text": "Except with ATC clearance, VFR flights cannot enter or exit a control zone if the cloud ceiling is below minimum limits",
+      "options": [
+        "2000ft or visibility is less than 5km",
+        "1000ft or visibility is less than 5km",
+        "1500ft or visibility is less than 5km",
+        "1800ft or visibility is less than 8 km"
+      ],
+      "solution": "1500ft or visibility is less than 5km"
+    },
+    {
+      "full_question_text": "Green flashes from the tower indicate that the aircraft",
+      "options": [
+        "May continue to taxy towards the take-off area",
+        "must return to its point of departure",
+        "must stop and vacate",
+        "must continue to apron"
+      ],
+      "solution": "May continue to taxy towards the take-off area"
+    },
+    {
+      "full_question_text": "Which of the given descriptions correctly defines the term 'flight visibility'?",
+      "options": [
+        "Visibility determined in flight not obscured by cloud, dust haze or precipitation",
+        "The ability to determine in the air the distance and identify of unlighted objects by day and lighted objects by night",
+        "The forward visibility from the cockpit of an aircraft in flight"
+      ],
+      "solution": "The forward visibility from the cockpit of an aircraft in flight"
+    },
+    {
+      "full_question_text": "What is the correct way of expressing visibility?",
+      "options": [
+        "Visibility 1.2 nautical miles",
+        "Visibility 1200 feet",
+        "Visibility 1200 meters"
+      ],
+      "solution": "Visibility 1200 meters"
+    },
+    {
+      "full_question_text": "The International Civil Aviation Convention Annex containing standards and recommended practices for Personnel Licensing is:",
+      "options": [
+        "Annex 1",
+        "Annex 2",
+        "Annex 11"
+      ],
+      "solution": "Annex 1"
+    },
+    {
+      "full_question_text": "The minimum age of obtaining a PPL is:",
+      "options": [
+        "18 years",
+        "17 years",
+        "21 years"
+      ],
+      "solution": "17 years"
+    },
+    {
+      "full_question_text": "Linear accelerations when flying straight and level in IMC may give the illusion of:",
+      "options": [
+        "Descending",
+        "Spinning",
+        "Climbing"
+      ],
+      "solution": "Spinning"
+    },
+    {
+      "full_question_text": "The rate and depth of breathing is primary regulated by the concentration of:",
+      "options": [
+        "water vapour in the alveoli",
+        "oxygen in the cells",
+        "carbon dioxide in the blood"
+      ],
+      "solution": "carbon dioxide in the blood"
+    },
+    {
+      "full_question_text": "Prisoner on board should be carried as per the Aircraft rules :",
+      "options": [
+        "CHECK ANSWER"
+      ],
+      "solution": "CHECK ANSWER"
+    },
+    {
+      "full_question_text": "Lapse Rate:",
+      "options": [
+        "check answer"
+      ],
+      "solution": "check answer"
+    },
+    {
+      "full_question_text": "VFR flights not permitted above-",
+      "options": [
+        "FL180",
+        "FL120",
+        "FL150"
+      ],
+      "solution": "FL150"
+    },
+    {
+      "full_question_text": "When the visual manoeuvring (circling) area has been established the obstacle clearance altitude/height (OCA/H) is determined :",
+      "options": [
+        "For each category of aircraft, and it remains same for each one of them",
+        "For each category of aircraft, and it may be different for each one of them"
+      ],
+      "solution": "For each category of aircraft, and it may be different for each one of them"
+    },
+    {
+      "full_question_text": "With regard to flight time limitations,\" Flight time\" means:",
+      "options": [
+        "The total time from when an aircraft first moves under its own power for the purpose of taking off untill comes to rest after flight",
+        "The time between take off and landing",
+        "The time between an aircraft starting to move and coming to a complete stop plus one and a half hour"
+      ],
+      "solution": "The total time from when an aircraft first moves under its own power for the purpose of taking off untill comes to rest after flight"
+    },
+    {
+      "full_question_text": "IF PIC of an $a/c$ flying sees the red navigation light of an $a/c$ at a Relative bearing of 290 degree. The action of pilot:",
+      "options": [
+        "Turn Right",
+        "Safe, no action is required",
+        "Turn left"
+      ],
+      "solution": "Safe, no action is required"
+    },
+    {
+      "full_question_text": "With regard to flight time limitations, 'flight time' means:",
+      "options": [
+        "The total time from when an aircraft first moves under its own power for the purpose of taking off until it comes to rest after the flight.",
+        "The time between take-off and landing.",
+        "The time between an aircraft starting to move and coming to a complete stop plus one and a half hours."
+      ],
+      "solution": "The total time from when an aircraft first moves under its own power for the purpose of taking off until it comes to rest after the flight."
+    },
+    {
+      "full_question_text": "NOTAM for Defence",
+      "options": [
+        "CHECK ANSWER"
+      ],
+      "solution": "CHECK ANSWER"
+    },
+    {
+      "full_question_text": "Lights at the Edge of the Runway Are Called",
+      "options": [
+        "Runway EDGE lights",
+        "Approach lights",
+        "Taxiway lights"
+      ],
+      "solution": "Runway EDGE lights"
+    },
+    {
+      "full_question_text": "Pilot Involved in an Accident Can Fly",
+      "options": [
+        "Can fly with no flying roles",
+        "After permission from DGCA",
+        "NEVER FLY"
+      ],
+      "solution": "After permission from DGCA"
+    },
+    {
+      "full_question_text": "FATA License Validity",
+      "options": [
+        "5 years",
+        "1 year from the date of issue",
+        "2 years"
+      ],
+      "solution": "1 year from the date of issue"
+    },
+    {
+      "full_question_text": "ATC Transmits Local Time:",
+      "options": [
+        "At a particular fix",
+        "Before takeoff",
+        "Before taxi"
+      ],
+      "solution": "At a particular fix"
+    },
+    {
+      "full_question_text": "Key Takeaway from All Accidents",
+      "options": [
+        "CHECK ANSWER"
+      ],
+      "solution": "CHECK ANSWER"
+    }
+  ]
+}

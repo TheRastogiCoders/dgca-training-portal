@@ -50,6 +50,7 @@ const subjectData = {
 };
 
 // Sessions that have actual question data available
+// Only include sessions that have corresponding JSON files
 const availableSessions = {
   'meteorology': [
     'regular-march-2024',
@@ -60,7 +61,24 @@ const availableSessions = {
     'regular-march-2025',
     'olode-may-2025',
     'olode-nov-2024'
-  ]
+  ],
+  'air-regulations': [
+    'olode-may-2025',
+    'regular-session-01-2025',
+    'olode-session-2-2025',
+    'january-ondemand-2025',
+    'olode-05-2025',
+    'olode-april-session-regulation',
+    'regulations-june-2025'
+  ],
+  'air-navigation': [
+    'nav-olode-session1-jan-2025',
+    'nav-regular-march-2025',
+    'nav-regular-june-exam',
+    'nav-olode-session3-2025',
+    'nav-regular-december-2024'
+  ],
+  'technical-general': []  // No sessions are available yet
 };
 
 const subjectSessions = {
@@ -71,10 +89,122 @@ const subjectSessions = {
     { slug: 'regular-june-session', title: 'Regular June Session', window: 'Regular Series', badge: 'Available', questionCount: 42, accent: 'from-[#396afc] to-[#2948ff]' },
     { slug: 'regular-march-2025', title: 'METEOROLOGY Regular session 01 of 2025', window: 'Regular Series', badge: 'Latest', questionCount: 39, accent: 'from-[#f7971e] to-[#ffd200]' },
     { slug: 'olode-may-2025', title: 'Met OLODE 4TH session May 2025', window: 'Olode Paper', badge: 'Latest', questionCount: 52, accent: 'from-[#fc5c7d] to-[#6a82fb]' },
-    { slug: 'olode-session-07-2025', title: 'OLODE Session 07  2025 (31st Oct, 2025)', window: 'Olode Paper', badge: 'Latest', questionCount: 38, accent: 'from-[#f5af19] to-[#f12711]' },
+    { slug: 'olode-session-07-2025', title: 'OLODE Session 07 2025 (31st Oct, 2025)', window: 'Olode Paper', badge: 'Latest', questionCount: 38, accent: 'from-[#f5af19] to-[#f12711]' },
     { slug: 'olode-jan-2025', title: 'Olode Jan 2025', window: 'Olode Paper', badge: 'Coming Soon', questionCount: 48, accent: 'from-[#00c6ff] to-[#0072ff]' },
     { slug: 'olode-march-2025', title: 'Olode March 2025', window: 'Olode Paper', badge: 'Coming Soon', questionCount: 52, accent: 'from-[#7f00ff] to-[#e100ff]' },
     { slug: 'olode-nov-2024', title: 'Previous met olode question nov 24', window: 'Olode Paper', badge: 'Available', questionCount: 34, accent: 'from-[#f953c6] to-[#b91d73]' }
+  ],
+  'air-regulations': [
+    { slug: 'olode-may-2025', title: 'REG- OLODE MAY SESSION 2025', window: 'Olode Paper', badge: 'Available', questionCount: 50, accent: 'from-[#fc5c7d] to-[#6a82fb]' },
+    { slug: 'regular-session-01-2025', title: 'REG- REGULAR SESSION 01 2025', window: 'Regular Series', badge: 'Latest', questionCount: 29, accent: 'from-[#1d976c] to-[#93f9b9]' },
+    { slug: 'olode-session-2-2025', title: 'Regulations olode session 2 2025', window: 'Olode Paper', badge: 'Available', questionCount: 29, accent: 'from-[#6a11cb] to-[#2575fc]' },
+    { slug: 'january-ondemand-2025', title: 'JANUARY ON-DEMAND 2025', window: 'Regular Series', badge: 'Available', questionCount: 43, accent: 'from-[#396afc] to-[#2948ff]' },
+    { slug: 'olode-05-2025', title: 'Regulations OLODE 05 2025', window: 'Olode Paper', badge: 'Available', questionCount: 11, accent: 'from-[#00c6ff] to-[#0072ff]' },
+    { slug: 'olode-april-session-regulation', title: 'OLODE APRIL SESSION REGULATION', window: 'Olode Paper', badge: 'Available', questionCount: 10, accent: 'from-[#f953c6] to-[#b91d73]' },
+    { slug: 'regulations-june-2025', title: 'REGULATIONS JUNE 2025', window: 'Regular Series', badge: 'Available', questionCount: 27, accent: 'from-[#00b4d8] to-[#0077b6]' }
+  ],
+  'air-navigation': [
+    { 
+      slug: 'nav-olode-session1-jan-2025', 
+      title: 'NAV- OLODE SESSION1 JAN 2025', 
+      window: 'OLODE Paper', 
+      badge: 'Available', 
+      questionCount: 20, 
+      accent: 'from-[#6a11cb] to-[#2575fc]',
+      disabled: false
+    },
+    { 
+      slug: 'nav-regular-march-2025', 
+      title: 'NAV- REGULAR MARCH 2025', 
+      window: 'Regular Series', 
+      badge: 'Latest', 
+      questionCount: 38, 
+      accent: 'from-[#1d976c] to-[#93f9b9]',
+      disabled: false
+    },
+    { 
+      slug: 'nav-regular-june-exam', 
+      title: 'NAV- REGULAR JUNE EXAM', 
+      window: 'Regular Series', 
+      badge: 'Available', 
+      questionCount: 24, 
+      accent: 'from-[#f7971e] to-[#ffd200]',
+      disabled: false
+    },
+    { 
+      slug: 'nav-olode-session3-2025', 
+      title: 'NAV- OLODE SESSION3 2025', 
+      window: 'OLODE Paper', 
+      badge: 'Available', 
+      questionCount: 20, 
+      accent: 'from-[#fc5c7d] to-[#6a82fb]',
+      disabled: false
+    },
+    { 
+      slug: 'nav-regular-december-2024', 
+      title: 'NAV- REGULAR DECEMBER 2024', 
+      window: 'Regular Series', 
+      badge: 'Available', 
+      questionCount: 20, 
+      accent: 'from-[#00b4d8] to-[#0077b6]',
+      disabled: false
+    }
+  ],
+  'technical-general': [
+    { 
+      slug: 'gen-olode-may-2025', 
+      title: 'GEN-OLODE MAY 2025', 
+      window: 'OLODE Paper', 
+      badge: 'Coming Soon', 
+      questionCount: 0, 
+      accent: 'from-[#6a11cb] to-[#2575fc]',
+      disabled: true
+    },
+    { 
+      slug: 'gen-olode-jan-2025-session1', 
+      title: 'GEN- OLODE JAN 2025 (SESSION1)', 
+      window: 'OLODE Paper', 
+      badge: 'Coming Soon', 
+      questionCount: 0, 
+      accent: 'from-[#1d976c] to-[#93f9b9]',
+      disabled: true
+    },
+    { 
+      slug: 'gen-regular-june-2025-session2', 
+      title: 'GEN- REGULAR JUNE 2025 (SESSION2)', 
+      window: 'Regular Series', 
+      badge: 'Coming Soon', 
+      questionCount: 0, 
+      accent: 'from-[#f7971e] to-[#ffd200]',
+      disabled: true
+    },
+    { 
+      slug: 'gen-regular-march-2025', 
+      title: 'GEN- REGULAR MARCH 2025', 
+      window: 'Regular Series', 
+      badge: 'Coming Soon', 
+      questionCount: 0, 
+      accent: 'from-[#fc5c7d] to-[#6a82fb]',
+      disabled: true
+    },
+    { 
+      slug: 'gen-regular-december-2024', 
+      title: 'GEN- REGULAR DECEMBER 2024', 
+      window: 'Regular Series', 
+      badge: 'Coming Soon', 
+      questionCount: 0, 
+      accent: 'from-[#00b4d8] to-[#0077b6]',
+      disabled: true
+    },
+    { 
+      slug: 'gen-regular-march-2024', 
+      title: 'GEN- REGULAR MARCH 2024', 
+      window: 'Regular Series', 
+      badge: 'Coming Soon', 
+      questionCount: 0, 
+      accent: 'from-[#7f00ff] to-[#e100ff]',
+      disabled: true
+    }
   ]
 };
 

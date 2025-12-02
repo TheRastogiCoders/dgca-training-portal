@@ -1,0 +1,260 @@
+{
+  "book": {
+    "id": "air-navigation-regular-december-2024",
+    "title": "NAV- REGULAR DECEMBER 2024",
+    "description": "Air Navigation Regular December 2024 Examination",
+    "subject": "Air Navigation",
+    "type": "regular",
+    "year": 2024,
+    "month": "December",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "NAV- REGULAR DECEMBER 2024",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "The great circle distance between point A (60°N, 010°E) and point B (60°N, 170°E) is approximately:",
+            "type": "MCQ",
+            "options": [
+              "A. 2,400 nm",
+              "B. 3,600 nm",
+              "C. 4,800 nm",
+              "D. 5,400 nm"
+            ],
+            "answer": "A",
+            "explanation": "At 60°N, the great circle distance between two meridians is half the distance at the equator. The difference in longitude is 160° (170°E - 010°E), so the distance is 160° × 60 × cos60° = 4,800 × 0.5 = 2,400 nm."
+          },
+          {
+            "question_number": 2,
+            "question_text": "The convergency of meridians on a Lambert conformal conic chart is equal to:",
+            "type": "MCQ",
+            "options": [
+              "A. Chart convergency",
+              "B. Earth convergency",
+              "C. Conversion angle",
+              "D. Rhumb line track"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 3,
+            "question_text": "The maximum difference between a rhumb line and a great circle track on a Mercator chart occurs when:",
+            "type": "MCQ",
+            "options": [
+              "A. The track is east-west near the equator",
+              "B. The track is north-south",
+              "C. The track is east-west in high latitudes",
+              "D. The track is at 45° to the meridians"
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 4,
+            "question_text": "The VOR system is subject to line-of-sight restrictions. The theoretical maximum range is primarily limited by:",
+            "type": "MCQ",
+            "options": [
+              "A. The power output of the ground station",
+              "B. The height of the receiving antenna",
+              "C. The curvature of the Earth",
+              "D. The sensitivity of the airborne receiver"
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 5,
+            "question_text": "The primary advantage of an inertial navigation system (INS) is that it:",
+            "type": "MCQ",
+            "options": [
+              "A. Requires no ground-based navigation aids",
+              "B. Is not affected by atmospheric conditions",
+              "C. Provides extremely accurate position information over long periods",
+              "D. Is not subject to any position errors"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 6,
+            "question_text": "The GPS system provides position information based on:",
+            "type": "MCQ",
+            "options": [
+              "A. Triangulation from three satellites",
+              "B. Trilateration from four satellites",
+              "C. Bearing measurements from two satellites",
+              "D. Distance measurements from one satellite"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 7,
+            "question_text": "The primary purpose of RAIM (Receiver Autonomous Integrity Monitoring) in GPS is to:",
+            "type": "MCQ",
+            "options": [
+              "A. Increase the accuracy of position fixes",
+              "B. Detect faulty satellite signals",
+              "C. Reduce the effects of selective availability",
+              "D. Provide vertical guidance"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 8,
+            "question_text": "The term 'ETOPS' stands for:",
+            "type": "MCQ",
+            "options": [
+              "A. Extended Twin Operations",
+              "B. Extended-range Twin-engine Operational Performance Standards",
+              "C. Engine Time Operating System",
+              "D. Estimated Time of Position System"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 9,
+            "question_text": "The primary factor affecting the accuracy of a pressure altimeter is:",
+            "type": "MCQ",
+            "options": [
+              "A. Temperature",
+              "B. Humidity",
+              "C. Wind speed",
+              "D. Aircraft weight"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 10,
+            "question_text": "The primary purpose of the Machmeter is to indicate:",
+            "type": "MCQ",
+            "options": [
+              "A. True airspeed",
+              "B. Calibrated airspeed",
+              "C. The ratio of true airspeed to the local speed of sound",
+              "D. The ratio of indicated airspeed to the local speed of sound"
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 11,
+            "question_text": "The primary purpose of the turn coordinator is to indicate:",
+            "type": "MCQ",
+            "options": [
+              "A. Rate of turn and slip/skid",
+              "B. Angle of bank and rate of turn",
+              "C. Angle of bank and slip/skid",
+              "D. Rate of turn and yaw"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 12,
+            "question_text": "The primary function of the attitude indicator is to provide the pilot with information about the aircraft's:",
+            "type": "MCQ",
+            "options": [
+              "A. Pitch and bank",
+              "B. Pitch and yaw",
+              "C. Bank and yaw",
+              "D. Pitch, bank, and yaw"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 13,
+            "question_text": "The primary purpose of the horizontal situation indicator (HSI) is to provide the pilot with information about the aircraft's:",
+            "type": "MCQ",
+            "options": [
+              "A. Position relative to a VOR radial",
+              "B. Ground track and distance to a VOR station",
+              "C. Heading and position relative to a VOR radial",
+              "D. Ground speed and time to a VOR station"
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 14,
+            "question_text": "The primary purpose of the radio magnetic indicator (RMI) is to provide the pilot with information about:",
+            "type": "MCQ",
+            "options": [
+              "A. The aircraft's heading and magnetic bearing to a VOR or NDB",
+              "B. The aircraft's ground track and distance to a VOR or NDB",
+              "C. The aircraft's position relative to a VOR radial or NDB bearing",
+              "D. The aircraft's altitude and vertical speed"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 15,
+            "question_text": "The primary purpose of the flight management system (FMS) is to:",
+            "type": "MCQ",
+            "options": [
+              "A. Automate the navigation and performance management of the aircraft",
+              "B. Control the aircraft's flight controls",
+              "C. Monitor the aircraft's engines",
+              "D. Provide weather information to the flight crew"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 16,
+            "question_text": "The primary purpose of the traffic alert and collision avoidance system (TCAS) is to:",
+            "type": "MCQ",
+            "options": [
+              "A. Detect and display other aircraft equipped with transponders",
+              "B. Detect and display all aircraft in the vicinity",
+              "C. Detect and display only aircraft on a collision course",
+              "D. Detect and display only aircraft at the same altitude"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 17,
+            "question_text": "The primary purpose of the ground proximity warning system (GPWS) is to provide the flight crew with:",
+            "type": "MCQ",
+            "options": [
+              "A. Warning of controlled flight into terrain (CFIT)",
+              "B. Warning of wind shear",
+              "C. Warning of traffic conflicts",
+              "D. Warning of system failures"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 18,
+            "question_text": "The primary purpose of the weather radar is to detect:",
+            "type": "MCQ",
+            "options": [
+              "A. Precipitation",
+              "B. Turbulence",
+              "C. Icing conditions",
+              "D. Wind shear"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 19,
+            "question_text": "The primary purpose of the radio altimeter is to provide the flight crew with information about the aircraft's:",
+            "type": "MCQ",
+            "options": [
+              "A. Height above the terrain directly below the aircraft",
+              "B. Height above sea level",
+              "C. Height above the airport elevation",
+              "D. Height above the runway threshold"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 20,
+            "question_text": "The primary purpose of the angle of attack (AOA) indicator is to provide the pilot with information about the aircraft's:",
+            "type": "MCQ",
+            "options": [
+              "A. Angle between the wing chord line and the relative wind",
+              "B. Angle between the longitudinal axis and the horizon",
+              "C. Angle between the flight path and the horizon",
+              "D. Angle between the wing and the fuselage"
+            ],
+            "answer": "A"
+          }
+        ]
+      }
+    ]
+  }
+}

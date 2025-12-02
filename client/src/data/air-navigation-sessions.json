@@ -1,0 +1,30 @@
+{
+  "book_name": "Navigation Exams Collection",
+  "sessions": [
+    {
+      "id": "nav-regular-march-2025",
+      "title": "NAV- REGULAR MARCH 2025",
+      "file": "air-navigation-regular-march-2025.json"
+    },
+    {
+      "id": "nav-regular-june-exam",
+      "title": "NAV- REGULAR JUNE EXAM",
+      "file": "air-navigation-regular-june-exam.json"
+    },
+    {
+      "id": "nav-olode-session1-jan-2025",
+      "title": "NAV- OLODE SESSION1 JAN 2025",
+      "file": "air-navigation-olode-session1-jan-2025.json"
+    },
+    {
+      "id": "nav-olode-session3-2025",
+      "title": "NAV- OLODE SESSION3 2025",
+      "file": "air-navigation-olode-session3-2025.json"
+    },
+    {
+      "id": "nav-regular-december-2024",
+      "title": "NAV- REGULAR DECEMBER 2024",
+      "file": "air-navigation-regular-december-2024.json"
+    }
+  ]
+}

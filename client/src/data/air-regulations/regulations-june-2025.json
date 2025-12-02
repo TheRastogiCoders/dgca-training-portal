@@ -1,0 +1,206 @@
+{
+  "book_name": "Air Regulations",
+  "chapter_number": "05",
+  "chapter_title": "REGULATIONS JUNE 2025",
+  "questions": [
+    {
+      "full_question_text": "What does NOTAM(R) Means-",
+      "options": ["CHECK ANSWER"],
+      "solution": "CHECK ANSWER"
+    },
+    {
+      "full_question_text": "If an aircraft's speed is 150 KT, under which category does it fall?",
+      "options": ["B", "E", "D", "C"],
+      "solution": "D"
+    },
+    {
+      "full_question_text": "In a category D airspace, ATC will provide separation between:",
+      "options": [
+        "IFR flights and IFR/VFR flights and VFR/VFR flights",
+        "IFR flights and IFR flights",
+        "IFR flights and provides information on VFR flights and traffic avoidance on request to IFR flights and traffic information to VFR flights"
+      ],
+      "solution": "IFR flights and IFR flights"
+    },
+    {
+      "full_question_text": "What is the SSR code for RCF(RADIO COMMUNICATION FAILURE)-",
+      "options": ["CHECK ANSWER"],
+      "solution": "CHECK ANSWER"
+    },
+    {
+      "full_question_text": "What defines transition level-",
+      "options": [
+        "The lowest flight level available for use above the transition altitude",
+        "The lowest flight level available for use above the transition LEVEL"
+      ],
+      "solution": "The lowest flight level available for use above the transition altitude"
+    },
+    {
+      "full_question_text": "An applicant holding a private or commercial pilot license aeroplane for the issue of an instrument rating, shall have completed hours of cross-country flight time as pilot-in-command of aircraft in categories acceptable to the licensing Authority:",
+      "options": ["50 hours", "20 hours", "40 hours"],
+      "solution": "50 hours"
+    },
+    {
+      "full_question_text": "VOR Accuracy-",
+      "options": ["CHECK ANSWER"],
+      "solution": "CHECK ANSWER"
+    },
+    {
+      "full_question_text": "The convention which deals with offences against penal law, is",
+      "options": [
+        "the convention of Warsaw",
+        "the convention of Madrid",
+        "the convention of Rome",
+        "the convention of Tokyo"
+      ],
+      "solution": "the convention of Tokyo"
+    },
+    {
+      "full_question_text": "Doc 4444 relates to:",
+      "options": ["Position reports", "All above", "Flight level tables"],
+      "solution": "All above"
+    },
+    {
+      "full_question_text": "The minimum safest altitude that the aircraft can descend below the transition altitude within 25 NMs of an aerodrome area is given by:",
+      "options": ["MOEA", "MSA", "MORA"],
+      "solution": "MSA"
+    },
+    {
+      "full_question_text": "In strong crosswinds use",
+      "options": ["Ailerons", "Rudder", "Nose wheel steer", "Toe brakes"],
+      "solution": "Toe brakes"
+    },
+    {
+      "full_question_text": "The registration mark shall consist of:",
+      "options": [
+        "Letters only, no digits are permitted",
+        "A combination of letters and numbers",
+        "1 to 3 letters and digits"
+      ],
+      "solution": "A combination of letters and numbers"
+    },
+    {
+      "full_question_text": "Aerodrome beacon light color is:",
+      "options": ["Red", "Alternate white & green", "Green"],
+      "solution": "Alternate white & green"
+    },
+    {
+      "full_question_text": "During an omni-directional departure, what height are you required to climb to before turning onto the desired track?",
+      "options": ["Transition altitude", "1000 ft", "120 m (394 ft)"],
+      "solution": "120 m (394 ft)"
+    },
+    {
+      "full_question_text": "What should a pilot do to keep his night vision (scotopic vision)?",
+      "options": [
+        "Select meals with high contents of vitamin B and C",
+        "Wait at least 60 minutes to night-adapt before he takes off",
+        "Not smoke before start and during flight and avoid flash blindness"
+      ],
+      "solution": "Not smoke before start and during flight and avoid flash blindness"
+    },
+    {
+      "full_question_text": "What is the meaning of the symbol \"LLL\" in the ground air visual signal code for use by rescue units?",
+      "options": [
+        "Operation completed",
+        "We are returning to base",
+        "we have found all personnel"
+      ],
+      "solution": "Operation completed"
+    },
+    {
+      "full_question_text": "Validity of cpl?",
+      "options": ["10", "5", "3"],
+      "solution": "10"
+    },
+    {
+      "full_question_text": "The alert phase starts when an A/C fails to land within:",
+      "options": ["2 minutes", "3 minutes", "5 minutes"],
+      "solution": "5 minutes"
+    },
+    {
+      "full_question_text": "Alternate yellow/green centre line lights of a taxiway indicate:",
+      "options": [
+        "A stopway",
+        "An ILS/MLS critical/sensitive area",
+        "The proximity of a runway"
+      ],
+      "solution": "An ILS/MLS critical/sensitive area"
+    },
+    {
+      "full_question_text": "In an instrument departure procedure the minimum obstacle clearance at the departure end of runway equals:",
+      "options": [
+        "0.8% gradient.",
+        "3.3% gradient",
+        "0 ft.",
+        "35 ft."
+      ],
+      "solution": "0 ft."
+    },
+    {
+      "full_question_text": "Which elements of instructions or information shall always be read back?",
+      "options": [
+        "Runway-in-use, visibility, surface wind, heading instructions, altimeter settings",
+        "Runway in use, altimeter settings, SSR codes, level instructions, heading and speed instructions",
+        "Time check, runway in use, altimeter settings, level instructions, SSR code"
+      ],
+      "solution": "Runway in use, altimeter settings, SSR codes, level instructions, heading and speed instructions"
+    },
+    {
+      "full_question_text": "What colour are apron safety line markings?",
+      "options": [
+        "A contrasting colour from the taxiway markings",
+        "Red",
+        "White"
+      ],
+      "solution": "A contrasting colour from the taxiway markings"
+    },
+    {
+      "full_question_text": "Precision Approach radars (PAR) are required under the ICAO specification to indicate an aircraft within the following parameters?",
+      "options": [
+        "Azimuth 30 degrees, vertical 10 degrees range 10 nm.",
+        "Azimuth 20 degrees, vertical 7 degrees range 9 nm.",
+        "Azimuth 40 degrees, vertical 15 degrees range 15 nm.",
+        "Azimuth 10 degrees, vertical 4 degrees range 7 nm."
+      ],
+      "solution": "Azimuth 20 degrees, vertical 7 degrees range 9 nm."
+    },
+    {
+      "full_question_text": "Analysis of accidents involving the human factor in aviation shows that:",
+      "options": [
+        "only pilot training will make it possible to improve the situation",
+        "there is hardly ever a single cause responsible",
+        "failure of the human factor is always connected with technical breakdowns",
+        "only front-line operators are involved"
+      ],
+      "solution": "there is hardly ever a single cause responsible"
+    },
+    {
+      "full_question_text": "Who is responsible for the issue of a certificate of airworthiness?",
+      "options": [
+        "The DGCA",
+        "The authority of State of Registration",
+        "ICAO"
+      ],
+      "solution": "The authority of State of Registration"
+    },
+    {
+      "full_question_text": "The risk of a barotrauma of the middle ear is more likely to occur:",
+      "options": [
+        "With colds and slow ascents",
+        "With colds and rapid descents",
+        "With colds and fast climbs"
+      ],
+      "solution": "With colds and rapid descents"
+    },
+    {
+      "full_question_text": "The Warsaw convention and later amendments deals with:",
+      "options": [
+        "the security system at airports",
+        "operator's licence for international scheduled aviation",
+        "limitation of the operator's responsibility vis-á-vis passenger and goods transported",
+        "the regulation of transportation of dangerous goods"
+      ],
+      "solution": "limitation of the operator's responsibility vis-á-vis passenger and goods transported"
+    }
+  ]
+}

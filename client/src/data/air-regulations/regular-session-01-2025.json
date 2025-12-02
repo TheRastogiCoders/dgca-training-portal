@@ -1,0 +1,57 @@
+{
+  "book_name": "Air Regulations",
+  "chapter_number": "01",
+  "chapter_title": "Regulations Regular session 01 of 2025",
+  "questions": [
+    {
+      "full_question_text": "An aeroplane is on an IFR flight. The flight is to be changed from IFR to VFR. Is it possible?",
+      "options": [
+        "No, you have to remain IFR in accordance to the filed flight plan",
+        "No, only ATC can order you to do this.",
+        "Yes, the pilot in command must inform ATC using the phrase 'cancelling my IFR flight'.",
+        "Yes, but only with permission from ATC."
+      ],
+      "solution": "Yes, the pilot in command must inform ATC using the phrase 'cancelling my IFR flight'."
+    },
+    {
+      "full_question_text": "Which of the following is obligating for members of ICAO?",
+      "options": [
+        "ICAO must be informed about differences from the standards in any of the Annexes to the convention",
+        "ICAO shall approve the pricing of tickets on international airline connections",
+        "ICAO must be informed about changes in the national regulations",
+        "ICAO must be informed about new flight crew licenses and any suspended validity of such licenses"
+      ],
+      "solution": "ICAO must be informed about differences from the standards in any of the Annexes to the convention"
+    },
+    {
+      "full_question_text": "Any contracting state may denounce the Convention of Tokyo by notification addressed to:",
+      "options": [
+        "the other Contracting States",
+        "International Civil Aviation Organisation",
+        "United Nations",
+        "to all States Members of United Nations"
+      ],
+      "solution": "International Civil Aviation Organisation"
+    },
+    {
+      "full_question_text": "Concerning to RNP (Required Navigation Performance) types, the indication RNP 4, represents a navigation accuracy of",
+      "options": [
+        "plus or minus 4 NM on a 90 per cent containment basis",
+        "plus or minus 4 NM on a 95 per cent containment basis",
+        "plus or minus 4 NM on a 98 per cent containment basis",
+        "plus or minus 4 miles on a 90 per cent containment basis"
+      ],
+      "solution": "plus or minus 4 NM on a 95 per cent containment basis"
+    },
+    {
+      "full_question_text": "Change from IFR to VFR will always take place:",
+      "options": [
+        "at the clearance limit, irrespective of the weather conditions",
+        "on the initiative of the aircraft commander",
+        "as instructed by an air traffic control unit",
+        "when the aircraft is leaving controlled airspace during VMC"
+      ],
+      "solution": "on the initiative of the aircraft commander"
+    }
+  ]
+}

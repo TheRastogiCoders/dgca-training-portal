@@ -1,0 +1,259 @@
+{
+  "book": {
+    "id": "air-navigation-olode-session3-2025",
+    "title": "NAV- OLODE SESSION3 2025",
+    "description": "Air Navigation OLODE Session 3 2025",
+    "subject": "Air Navigation",
+    "type": "olode",
+    "sessions": ["session3"],
+    "year": 2025,
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "NAV- OLODE SESSION3 2025",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "The constant of the cone of a Lambert's chart is 0.80. The angle between the meridian of 30°E and the straight line on the chart from A (30°E, 50°N) to position B is 130° (measure clockwise from the meridian). What is the rhumb line track from A to B?",
+            "type": "MCQ",
+            "options": [
+              "A. 125°",
+              "B. 130°",
+              "C. 135°",
+              "D. 140°"
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 2,
+            "question_text": "An aircraft is flying at FL350 with a TAS of 450 kt. The wind is 090°/50 kt. What is the ground speed if the aircraft is heading 090°?",
+            "type": "MCQ",
+            "options": [
+              "A. 400 kt",
+              "B. 450 kt",
+              "C. 500 kt",
+              "D. 550 kt"
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 3,
+            "question_text": "The distance between two waypoints is 200 NM. The TAS is 400 kt and the wind component is +50 kt. What is the time enroute in minutes?",
+            "type": "MCQ",
+            "options": [
+              "A. 20",
+              "B. 25",
+              "C. 27",
+              "D. 30"
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 4,
+            "question_text": "The maximum range speed of a jet aircraft is obtained when:",
+            "type": "MCQ",
+            "options": [
+              "A. The ratio of thrust to drag is maximum",
+              "B. The ratio of lift to drag is maximum",
+              "C. The specific fuel consumption is minimum",
+              "D. The drag is minimum"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 5,
+            "question_text": "The Mach number is defined as the ratio of:",
+            "type": "MCQ",
+            "options": [
+              "A. TAS to the speed of sound at sea level",
+              "B. TAS to the speed of sound at the flight level",
+              "C. CAS to the speed of sound at the flight level",
+              "D. EAS to the speed of sound at sea level"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 6,
+            "question_text": "The critical Mach number is the:",
+            "type": "MCQ",
+            "options": [
+              "A. Highest Mach number that can be reached in level flight",
+              "B. Mach number at which the aircraft becomes uncontrollable",
+              "C. Free stream Mach number at which local sonic speed first occurs on the wing",
+              "D. Mach number at which the shock wave reaches the tailplane"
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 7,
+            "question_text": "The VOR operates in which frequency band?",
+            "type": "MCQ",
+            "options": [
+              "A. LF",
+              "B. MF",
+              "C. VHF",
+              "D. UHF"
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 8,
+            "question_text": "The DME measures:",
+            "type": "MCQ",
+            "options": [
+              "A. Slant range in nautical miles",
+              "B. Horizontal distance in nautical miles",
+              "C. Height above the DME station in feet",
+              "D. Bearing to the DME station in degrees"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 9,
+            "question_text": "The ILS localizer provides:",
+            "type": "MCQ",
+            "options": [
+              "A. Vertical guidance",
+              "B. Lateral guidance",
+              "C. Distance information",
+              "D. Weather information"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 10,
+            "question_text": "The primary purpose of the ADF is to provide:",
+            "type": "MCQ",
+            "options": [
+              "A. Distance to a VOR station",
+              "B. Bearing to an NDB station",
+              "C. Glidepath information",
+              "D. Weather information"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 11,
+            "question_text": "The primary radar in ATC service is used to determine:",
+            "type": "MCQ",
+            "options": [
+              "A. Altitude of aircraft",
+              "B. Range and bearing of aircraft",
+              "C. Speed of aircraft",
+              "D. Type of aircraft"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 12,
+            "question_text": "The secondary surveillance radar (SSR) requires:",
+            "type": "MCQ",
+            "options": [
+              "A. A transponder in the aircraft",
+              "B. A DME in the aircraft",
+              "C. An ADF in the aircraft",
+              "D. A VOR in the aircraft"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 13,
+            "question_text": "The standard pressure setting at the transition altitude is:",
+            "type": "MCQ",
+            "options": [
+              "A. 1013.25 mb",
+              "B. 1013.25 inHg",
+              "C. 29.92 mb",
+              "D. 29.92 inHg"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 14,
+            "question_text": "The QNH is the pressure setting which, when set on the altimeter subscale, will cause the altimeter to read:",
+            "type": "MCQ",
+            "options": [
+              "A. Height above the 1013.25 mb level",
+              "B. Altitude above mean sea level",
+              "C. Elevation of the airfield",
+              "D. Flight level"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 15,
+            "question_text": "The QFE is the pressure setting which, when set on the altimeter subscale, will cause the altimeter to read:",
+            "type": "MCQ",
+            "options": [
+              "A. Zero when the aircraft is on the ground at the airfield",
+              "B. The elevation of the airfield when the aircraft is on the ground",
+              "C. The height above the airfield when the aircraft is in flight",
+              "D. The flight level when the aircraft is in flight"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 16,
+            "question_text": "The transition level is the:",
+            "type": "MCQ",
+            "options": [
+              "A. Altitude at which the altimeter is set to 1013.25 mb on climb",
+              "B. Flight level at which the altimeter is set to QNH on descent",
+              "C. Lowest flight level available for use above the transition altitude",
+              "D. Highest altitude available for use below the transition level"
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 17,
+            "question_text": "The term 'clear air turbulence' (CAT) is most commonly associated with:",
+            "type": "MCQ",
+            "options": [
+              "A. Thunderstorms",
+              "B. Jet streams",
+              "C. Mountain waves",
+              "D. Frontal systems"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 18,
+            "question_text": "The tropopause is generally higher at the equator than at the poles because:",
+            "type": "MCQ",
+            "options": [
+              "A. The air is warmer at the equator",
+              "B. The air is colder at the equator",
+              "C. The pressure is higher at the equator",
+              "D. The pressure is lower at the equator"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 19,
+            "question_text": "The jet stream is a:",
+            "type": "MCQ",
+            "options": [
+              "A. Narrow band of strong wind in the upper troposphere",
+              "B. Broad area of light and variable winds in the stratosphere",
+              "C. Local wind system caused by temperature differences between land and sea",
+              "D. Wind system that reverses direction seasonally"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 20,
+            "question_text": "The most common type of icing encountered in flight is:",
+            "type": "MCQ",
+            "options": [
+              "A. Clear ice",
+              "B. Rime ice",
+              "C. Hoar frost",
+              "D. Freezing rain"
+            ],
+            "answer": "B"
+          }
+        ]
+      }
+    ]
+  }
+}

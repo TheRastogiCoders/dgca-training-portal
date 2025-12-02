@@ -1,0 +1,420 @@
+{
+  "book": {
+    "id": "air-navigation-regular-march-2025",
+    "title": "NAV- REGULAR MARCH 2025",
+    "description": "Air Navigation Regular March 2025 Examination",
+    "subject": "Air Navigation",
+    "type": "regular",
+    "year": 2025,
+    "month": "March",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "NAV- REGULAR MARCH 2025",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "Some ASIs have coloured arcs and lines marked on their dials. A yellow arc and a white arc indicate:",
+            "type": "MCQ",
+            "options": [
+              "A. cautionary range and normal operating range.",
+              "B. flap operating speed range and normal operating range.",
+              "C. cautionary range and flap operating speed range.",
+              "D. flap operating speed range and cautionary range."
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 2,
+            "question_text": "What are the upper and lower limits of the yellow arc on an ASI?",
+            "type": "MCQ",
+            "options": [
+              "A. lower limit VLO and upper limit VNE",
+              "B. lower limit VLE and upper limit VNE",
+              "C. lower limit VNO and upper limit VNE",
+              "D. lower limit VLO and upper limit VLE"
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 3,
+            "question_text": "What is the symbol for an FIR boundary?",
+            "type": "MCQ",
+            "options": [
+              "A. [Symbol]",
+              "B. [Symbol]",
+              "C. ,,,,,-\"",
+              "D. [Symbol]"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 4,
+            "question_text": "What is the local mean time, position 65°25'N 123°45'W at 2200 UTC?",
+            "type": "MCQ",
+            "options": [
+              "A. 0615",
+              "B. 1815",
+              "C. 1345",
+              "D. 1415"
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 5,
+            "question_text": "Which of the following statements about the scalloping (path deflection) of VOR radials, in relation to the accuracy of navigation using a VOR/DME RNAV system is correct?",
+            "type": "MCQ",
+            "options": [
+              "A. Scalloping has a negative effect on the accuracy of navigation.",
+              "B. Scalloping has a positive effect on the accuracy of navigation.",
+              "C. Scalloping has no effect on the accuracy of navigation because the accuracy is independent of VOR or DME measurements.",
+              "D. Scalloping has no effect on the accuracy of navigation because it only results in the movement of the needle of the Course Deviation Indicator."
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 6,
+            "question_text": "One of the possible disturbances of the ILS signals is \"scalloping\". Which statement is correct?",
+            "type": "MCQ",
+            "options": [
+              "A. Scalloping are minor changes or bends, which can be followed by the aircraft.",
+              "B. Scalloping are minor changes or bends, which cannot be followed by the aircraft.",
+              "C. Scalloping are rapid changes or bends, which can be followed by the aircraft.",
+              "D. Scalloping causes rapid indicator changes from side to side of the intended approach path, which cannot be followed by the aircraft."
+            ],
+            "answer": "D"
+          },
+          {
+            "question_number": 7,
+            "question_text": "You have flight plan IFR from A to B. In the flight plan it is noted that you will deviate from ATS route passing FIR boundary to B. The airway clearance reads \"Cleared to B via flight planned route\". Which of the following statement is correct?",
+            "type": "MCQ",
+            "options": [
+              "A. The route according to the flight is accepted",
+              "B. You will get separate clearance for the deviation",
+              "C. It is not allowed to file such a flight plan."
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 8,
+            "question_text": "A high cockpit aircraft on a VASI app sees red, white and white",
+            "type": "MCQ",
+            "options": [
+              "A. On glide slope",
+              "B. Slightly high",
+              "C. High"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 9,
+            "question_text": "An aircraft with 180 minutes approval for ETOPS, must be:",
+            "type": "MCQ",
+            "options": [
+              "A. no more than 180 minutes from a suitable alternate, in still air, at the one engine inoperative TAS.",
+              "B. no more than 180 minutes from a suitable alternate, in still air, at the all engine TAS.",
+              "C. no more than 90 minutes from a suitable alternate, and 90 minutes from departure, at the one engine inoperative TAS",
+              "D. no more than 180 minutes from a suitable alternate, at the one engine inoperative TGS."
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 10,
+            "question_text": "ETOPS flight is a twin engine jet aeroplane flight conducted over a route, where no suitable airport is within an area of:",
+            "type": "MCQ",
+            "options": [
+              "A. 75 minutes flying time at the approved one engine out cruise speed",
+              "B. 60 minutes flying time in still air at the approved one engine out cruise speed.",
+              "C. 60 minutes flying time in still air at the normal cruising speed.",
+              "D. 30 minutes flying time at the normal cruising speed."
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 11,
+            "question_text": "An aeroplane operating under the 180 minutes ETOPS rule may be up to:",
+            "type": "MCQ",
+            "options": [
+              "A. 180 minutes flying time to a suitable airport in still air with one engine inoperative.",
+              "B. 180 minutes flying time to a suitable airport under the prevailing weather condition with one engine inoperative.",
+              "C. 180 minutes flying time from suitable airport in still air at a normal cruising speed.",
+              "D. 90 minutes flying time from the first en-route airport and another 90 minutes from the second en-route airport in still air with one engine inoperative"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 12,
+            "question_text": "EDTO is applicable to:",
+            "type": "MCQ",
+            "options": [
+              "A. Twin engine operations",
+              "B. Aeroplane with two or more turbine engines",
+              "C. Aeroplane with more than two reciprocating engines"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 13,
+            "question_text": "EDTO stands for:",
+            "type": "MCQ",
+            "options": [
+              "A. Extended Diversion Time Operations (EDTO)",
+              "B. Expected Diversion Time Overhead (EDTO)",
+              "C. Expected Direction of Take Off (EDTO)"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 14,
+            "question_text": "ETOPS:",
+            "type": "MCQ",
+            "options": [
+              "A. CHECK ANSWER"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 15,
+            "question_text": "Contours are lines drawn on a map or chart joining",
+            "type": "MCQ",
+            "options": [
+              "A. Places of equal elevation",
+              "B. Equal pressure",
+              "C. Equal variation."
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 16,
+            "question_text": "A VSI indicates increasing ROD by?",
+            "type": "MCQ",
+            "options": [
+              "A. VSI needle moving downwards",
+              "B. VSI needle moving upwards",
+              "C. VSI needle stationary"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 17,
+            "question_text": "For the landing configuration a radio altimeter indicates?",
+            "type": "MCQ",
+            "options": [
+              "A. Altitude of the main wheel above ground?",
+              "B. Height of the flight deck above the ground.",
+              "C. Height of the main wheel above the ground."
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 18,
+            "question_text": "The response rate of a VSI can be improved by fitting a?",
+            "type": "MCQ",
+            "options": [
+              "A. Accelerometer system.",
+              "B. Choke system.",
+              "C. Bi-metalic compensator."
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 19,
+            "question_text": "The operating frequency range of a altitude radio altimeter is?",
+            "type": "MCQ",
+            "options": [
+              "A. 2700 MHz to 2900 MHz.",
+              "B. 5 GHz",
+              "C. 4200 MHz to 4400 MHz."
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 20,
+            "question_text": "Radio altimeter gives height indications by:",
+            "type": "MCQ",
+            "options": [
+              "A. Measuring the Doppler frequency shift in transmitted frequency",
+              "B. Measuring time diff. of a CW transmitted at fixed frequency",
+              "C. Measuring time diff. of a CW transmitted at changing frequency"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 21,
+            "question_text": "Low altitude radio altimeters operate on the wavelength?",
+            "type": "MCQ",
+            "options": [
+              "A. Metric",
+              "B. Decimetric",
+              "C. Centimetric"
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 22,
+            "question_text": "A radio altimeter measures?",
+            "type": "MCQ",
+            "options": [
+              "A. True Altitude",
+              "B. Pressure Altitude",
+              "C. Height above the ground or water over which the aircraft is flying"
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 23,
+            "question_text": "The failure of the radio altimeter would cause?",
+            "type": "MCQ",
+            "options": [
+              "A. Loss of pressure altitude data",
+              "B. Loss of density altitude data",
+              "C. Loss of height data"
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 24,
+            "question_text": "A radio altimeter has a maximum effective height because?",
+            "type": "MCQ",
+            "options": [
+              "A. At greater heights the signal will be too weak",
+              "B. At greater heights from different modulation cycles will overlap",
+              "C. At greater heights the signal will be absorbed by moisture in the air"
+            ],
+            "answer": "B"
+          },
+          {
+            "question_number": 25,
+            "question_text": "Radio altimeters are accurate only within the height range?",
+            "type": "MCQ",
+            "options": [
+              "A. Zero to 50 ft",
+              "B. Zero to 500 ft",
+              "C. Zero to 2500 ft"
+            ],
+            "answer": "C"
+          },
+          {
+            "question_number": 26,
+            "question_text": "The TO/FROM indicator of a VOR:",
+            "type": "MCQ",
+            "options": [
+              "A. Tells whether a track equal to the selected bearing will bring you to or away from the VOR.",
+              "B. Tells whether you are now flying towards or from the VOR.",
+              "C. Tells whether you should turn the aircraft towards or away from the CDI indication."
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 27,
+            "question_text": "Dlong and Dlat 2 QUESTIONS.",
+            "type": "MCQ",
+            "options": [
+              "A. SOLVE SUCH QUESTIONS"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 28,
+            "question_text": "MASS AND BALANCE 4-5 QUESTIONS",
+            "type": "MCQ",
+            "options": [
+              "A. SOLVE QUESTIONS"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 29,
+            "question_text": "CDMVT - 2/3 que",
+            "type": "MCQ",
+            "options": [
+              "A. SOLVE SUCH QUESTIONS"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 30,
+            "question_text": "Qnh pressure altitude calculation 5 QUESTIONS",
+            "type": "MCQ",
+            "options": [
+              "A. SOLVE SUCH QUESTIONS"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 31,
+            "question_text": "5 QUESTIONS FROM SAMPLE PAPERS FROM RK BALI NAV",
+            "type": "MCQ",
+            "options": [
+              "A. SOLVE"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 32,
+            "question_text": "Tas mac calculation -2 ques",
+            "type": "MCQ",
+            "options": [
+              "A. SOLVE CAS TAS MAC QUESTION"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 33,
+            "question_text": "Flightplan 3/4 queSTIONS",
+            "type": "MCQ",
+            "options": [
+              "A. SOLVE FROM QUESTION BANK ON THE WEBSITE"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 34,
+            "question_text": "ONE QUESTION FROM SSR THEORY",
+            "type": "MCQ",
+            "options": [
+              "A. SOLVE FROM THE WEBSITE QUESTION BANK"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 35,
+            "question_text": "5 QUESTIONS FROM CP/PNR",
+            "type": "MCQ",
+            "options": [
+              "A. SOLVE FROM THE WEBSITE QUESTION BANK"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 36,
+            "question_text": "GYRO THEORY 4 QUESTIONS",
+            "type": "MCQ",
+            "options": [
+              "A. SOLVE FROM THE WEBSITE QUESTION BANK"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 37,
+            "question_text": "1 QUESTION FROM SCALE",
+            "type": "MCQ",
+            "options": [
+              "A. SOLVE FROM THE WEBSITE"
+            ],
+            "answer": "A"
+          },
+          {
+            "question_number": 38,
+            "question_text": "FEW QUESTION ASKED ABOUT THE FREQUNCY OF NAV AIDS",
+            "type": "MCQ",
+            "options": [
+              "A. CHECK ANSWER"
+            ],
+            "answer": "A"
+          }
+        ]
+      }
+    ]
+  }
+}
