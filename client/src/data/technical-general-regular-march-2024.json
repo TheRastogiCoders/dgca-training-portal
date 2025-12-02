@@ -1,0 +1,245 @@
+{
+  "bookName": "TECHNICAL GENERAL MARCH 2024",
+  "questions": [
+    {
+      "questionNumber": "Q1",
+      "questionText": "What is the primary purpose of a supercharger in an aircraft engine?",
+      "questionType": "MCQ",
+      "options": [
+        "A. To increase the engine's compression ratio",
+        "B. To maintain sea level pressure at altitude",
+        "C. To cool the engine cylinders",
+        "D. To reduce engine vibration"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q2",
+      "questionText": "The critical Mach number is defined as:",
+      "questionType": "MCQ",
+      "options": [
+        "A. The speed at which shock waves first appear on the wing",
+        "B. The maximum speed an aircraft can reach in level flight",
+        "C. The speed at which compressibility effects begin to affect handling",
+        "D. The speed at which the aircraft becomes supersonic"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q3",
+      "questionText": "What is the primary function of the horizontal stabilizer?",
+      "questionType": "MCQ",
+      "options": [
+        "A. To provide lift",
+        "B. To provide longitudinal stability",
+        "C. To control yaw",
+        "D. To reduce drag"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q4",
+      "questionText": "In a constant-speed propeller system, the propeller governor controls:",
+      "questionType": "MCQ",
+      "options": [
+        "A. The throttle setting",
+        "B. The mixture control",
+        "C. The blade angle",
+        "D. The fuel flow"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q5",
+      "questionText": "The purpose of wing dihedral is to provide:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Lateral stability",
+        "B. Longitudinal stability",
+        "C. Directional stability",
+        "D. High-speed performance"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q6",
+      "questionText": "What is the function of the elevator trim tab?",
+      "questionType": "MCQ",
+      "options": [
+        "A. To increase lift during takeoff",
+        "B. To reduce control forces in flight",
+        "C. To increase directional stability",
+        "D. To reduce drag in cruise"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q7",
+      "questionText": "The purpose of wing washout is to:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Increase lift at low speeds",
+        "B. Prevent tip stalling before root stalling",
+        "C. Reduce drag at high speeds",
+        "D. Improve roll rate"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q8",
+      "questionText": "What is the purpose of the rudder on an aircraft?",
+      "questionType": "MCQ",
+      "options": [
+        "A. To control pitch",
+        "B. To control roll",
+        "C. To control yaw",
+        "D. To control speed"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q9",
+      "questionText": "The purpose of winglets is to:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Increase lift at low speeds",
+        "B. Reduce induced drag",
+        "C. Improve high-speed performance",
+        "D. Increase roll rate"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q10",
+      "questionText": "What is the purpose of the ailerons?",
+      "questionType": "MCQ",
+      "options": [
+        "A. To control pitch",
+        "B. To control roll",
+        "C. To control yaw",
+        "D. To control speed"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q11",
+      "questionText": "The purpose of the vertical stabilizer is to provide:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Lateral stability",
+        "B. Longitudinal stability",
+        "C. Directional stability",
+        "D. High-speed performance"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q12",
+      "questionText": "What is the purpose of the elevator?",
+      "questionType": "MCQ",
+      "options": [
+        "A. To control pitch",
+        "B. To control roll",
+        "C. To control yaw",
+        "D. To control speed"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q13",
+      "questionText": "The purpose of wing flaps is to:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Increase lift at lower speeds",
+        "B. Increase speed in cruise",
+        "C. Improve roll rate",
+        "D. Reduce engine power requirements"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q14",
+      "questionText": "What is the purpose of the trim system?",
+      "questionType": "MCQ",
+      "options": [
+        "A. To reduce drag",
+        "B. To relieve control pressures",
+        "C. To increase lift",
+        "D. To improve engine performance"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q15",
+      "questionText": "The purpose of the horizontal stabilizer is to provide:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Lateral stability",
+        "B. Longitudinal stability",
+        "C. Directional stability",
+        "D. High-speed performance"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q16",
+      "questionText": "What is the function of the fuel pump in an aircraft fuel system?",
+      "questionType": "MCQ",
+      "options": [
+        "A. To mix fuel and air",
+        "B. To provide positive fuel flow to the engine",
+        "C. To cool the engine",
+        "D. To store fuel"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q17",
+      "questionText": "The purpose of the pitot tube is to measure:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Static pressure",
+        "B. Dynamic pressure",
+        "C. Total pressure",
+        "D. Air temperature"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q18",
+      "questionText": "What is the purpose of the static port?",
+      "questionType": "MCQ",
+      "options": [
+        "A. To measure airspeed",
+        "B. To measure altitude",
+        "C. To measure static air pressure",
+        "D. To measure angle of attack"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q19",
+      "questionText": "The purpose of the landing gear is to:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Provide lift during takeoff",
+        "B. Support the aircraft on the ground",
+        "C. Reduce drag in flight",
+        "D. Improve fuel efficiency"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q20",
+      "questionText": "What is the purpose of the propeller?",
+      "questionType": "MCQ",
+      "options": [
+        "A. To generate lift",
+        "B. To generate thrust",
+        "C. To control yaw",
+        "D. To reduce drag"
+      ],
+      "answer": "B"
+    }
+  ]
+}

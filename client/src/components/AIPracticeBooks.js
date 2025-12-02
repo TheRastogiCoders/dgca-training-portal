@@ -78,21 +78,23 @@ const availableSessions = {
     'nav-olode-session3-2025',
     'nav-regular-december-2024'
   ],
-  'technical-general': []  // No sessions are available yet
+  'technical-general': [
+    'gen-olode-may-2025',
+    'gen-olode-jan-2025-session1',
+    'gen-regular-june-2025-session2'
+  ]  // Sessions with available question data
 };
 
 const subjectSessions = {
   'meteorology': [
-    { slug: 'regular-march-2024', title: 'Regular March 2024', window: 'Regular Series', badge: 'Latest', questionCount: 45, accent: 'from-[#6a11cb] to-[#2575fc]' },
-    { slug: 'regular-december-attempt', title: 'Regular December Attempt', window: 'Regular Series', badge: 'High Yield', questionCount: 50, accent: 'from-[#ff512f] to-[#dd2476]' },
-    { slug: 'regular-sep-2023', title: 'Regular Sep 2023', window: 'Regular Series', badge: 'Archive', questionCount: 40, accent: 'from-[#1d976c] to-[#93f9b9]' },
-    { slug: 'regular-june-session', title: 'Regular June Session', window: 'Regular Series', badge: 'Available', questionCount: 42, accent: 'from-[#396afc] to-[#2948ff]' },
-    { slug: 'regular-march-2025', title: 'METEOROLOGY Regular session 01 of 2025', window: 'Regular Series', badge: 'Latest', questionCount: 39, accent: 'from-[#f7971e] to-[#ffd200]' },
-    { slug: 'olode-may-2025', title: 'Met OLODE 4TH session May 2025', window: 'Olode Paper', badge: 'Latest', questionCount: 52, accent: 'from-[#fc5c7d] to-[#6a82fb]' },
-    { slug: 'olode-session-07-2025', title: 'OLODE Session 07 2025 (31st Oct, 2025)', window: 'Olode Paper', badge: 'Latest', questionCount: 38, accent: 'from-[#f5af19] to-[#f12711]' },
-    { slug: 'olode-jan-2025', title: 'Olode Jan 2025', window: 'Olode Paper', badge: 'Coming Soon', questionCount: 48, accent: 'from-[#00c6ff] to-[#0072ff]' },
-    { slug: 'olode-march-2025', title: 'Olode March 2025', window: 'Olode Paper', badge: 'Coming Soon', questionCount: 52, accent: 'from-[#7f00ff] to-[#e100ff]' },
-    { slug: 'olode-nov-2024', title: 'Previous met olode question nov 24', window: 'Olode Paper', badge: 'Available', questionCount: 34, accent: 'from-[#f953c6] to-[#b91d73]' }
+    { slug: 'regular-march-2024', title: 'REGULAR MARCH 2024', window: 'Regular Series', badge: 'Latest', questionCount: 45, accent: 'from-[#6a11cb] to-[#2575fc]' },
+    { slug: 'regular-december-attempt', title: 'REGULAR DECEMBER ATTEMPT', window: 'Regular Series', badge: 'High Yield', questionCount: 50, accent: 'from-[#ff512f] to-[#dd2476]' },
+    { slug: 'regular-sep-2023', title: 'REGULAR SEP 2023', window: 'Regular Series', badge: 'Archive', questionCount: 40, accent: 'from-[#1d976c] to-[#93f9b9]' },
+    { slug: 'regular-june-session', title: 'REGULAR JUNE SESSION', window: 'Regular Series', badge: 'Available', questionCount: 42, accent: 'from-[#396afc] to-[#2948ff]' },
+    { slug: 'regular-march-2025', title: 'REGULAR MARCH 2025', window: 'Regular Series', badge: 'Latest', questionCount: 39, accent: 'from-[#f7971e] to-[#ffd200]' },
+    { slug: 'olode-may-2025', title: 'MET OLODE 4TH SESSION MAY 2025', window: 'Olode Paper', badge: 'Latest', questionCount: 52, accent: 'from-[#fc5c7d] to-[#6a82fb]' },
+    { slug: 'olode-session-07-2025', title: 'OLODE SESSION 07 2025 (31st Oct, 2025)', window: 'Olode Paper', badge: 'Latest', questionCount: 38, accent: 'from-[#f5af19] to-[#f12711]' },
+    { slug: 'olode-nov-2024', title: 'PREVIOUS MET OLODE QUESTION NOV 24', window: 'Olode Paper', badge: 'Available', questionCount: 34, accent: 'from-[#f953c6] to-[#b91d73]' }
   ],
   'air-regulations': [
     { slug: 'olode-may-2025', title: 'REG- OLODE MAY SESSION 2025', window: 'Olode Paper', badge: 'Available', questionCount: 50, accent: 'from-[#fc5c7d] to-[#6a82fb]' },
@@ -153,30 +155,30 @@ const subjectSessions = {
   'technical-general': [
     { 
       slug: 'gen-olode-may-2025', 
-      title: 'GEN-OLODE MAY 2025', 
+      title: 'Technical Questions OLODE MAY 2025', 
       window: 'OLODE Paper', 
-      badge: 'Coming Soon', 
-      questionCount: 0, 
+      badge: 'Available', 
+      questionCount: 18, 
       accent: 'from-[#6a11cb] to-[#2575fc]',
-      disabled: true
+      disabled: false
     },
     { 
       slug: 'gen-olode-jan-2025-session1', 
-      title: 'GEN- OLODE JAN 2025 (SESSION1)', 
+      title: 'Technical General OLODE 01 Session JAN 2025', 
       window: 'OLODE Paper', 
-      badge: 'Coming Soon', 
-      questionCount: 0, 
+      badge: 'Available', 
+      questionCount: 25, 
       accent: 'from-[#1d976c] to-[#93f9b9]',
-      disabled: true
+      disabled: false
     },
     { 
       slug: 'gen-regular-june-2025-session2', 
-      title: 'GEN- REGULAR JUNE 2025 (SESSION2)', 
+      title: 'TECHNICAL Regular session 02 of 2025 (June 2025)', 
       window: 'Regular Series', 
-      badge: 'Coming Soon', 
-      questionCount: 0, 
+      badge: 'Available', 
+      questionCount: 18, 
       accent: 'from-[#f7971e] to-[#ffd200]',
-      disabled: true
+      disabled: false
     },
     { 
       slug: 'gen-regular-march-2025', 

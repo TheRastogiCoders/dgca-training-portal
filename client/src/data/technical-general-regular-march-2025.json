@@ -1,0 +1,689 @@
+{
+  "bookName": "TECHNICAL REGULAR MARCH 2025",
+  "questions": [
+    {
+      "questionNumber": "Q1",
+      "questionText": "Vso is?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Stalling IAS in take-off configuration.",
+        "B. Stalling EAS in landing configuration.",
+        "C. Stalling TAS in take-off configuration.",
+        "D. Stalling CAS in landing configuration."
+      ],
+      "answer": "D"
+    },
+    {
+      "questionNumber": "Q2",
+      "questionText": "What is MCRIT?",
+      "questionType": "MCQ",
+      "options": [
+        "A. The highest free stream velocity at which a shock wave will form on the wings.",
+        "B. The minimum free stream velocity at which airflow first become sonic anywhere on an aircraft.",
+        "C. The minimum supersonic speed.",
+        "D. The speed at which wave drag is at a minimum."
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q3",
+      "questionText": "What effect does a supercritical wing have on MCRIT?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Increase.",
+        "B. Decrease.",
+        "C. Increase or decrease depending on thickness to chord ratio.",
+        "D. No effect."
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q4",
+      "questionText": "Which of the following produces best propeller efficiency?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Ensuring that the propeller wash has maximum velocity.",
+        "B. Ensuring that the propeller was 11 velocity is less than TAS.",
+        "C. Ensuring that the propeller affects the minimum practicable mass flow of air.",
+        "D. Ensuring that the velocity of the propeller wash is just higher than TAS."
+      ],
+      "answer": "D"
+    },
+    {
+      "questionNumber": "Q5",
+      "questionText": "Causes of compressor stall and surge include? 1. Excessive throttle opening rates. 2. Excessive throttle closing rates. 3.Gas winds and manoeuvring. 4. High angles of attack. 5. Turbulence. 6. I deg of intakes. 7. Compressor wear or damage.",
+      "questionType": "MCQ",
+      "options": [
+        "A. 1, 3, 4, 5, 6, 7.",
+        "B. 1, 2, 4, 5, 6, 7.",
+        "C. 2, 3, 4, 5, 6, 7.",
+        "D. All of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q6",
+      "questionText": "The nucleus of an atom is:",
+      "questionType": "MCQ",
+      "options": [
+        "A. positively charged.",
+        "B. negatively charged.",
+        "C. statically charged.",
+        "D. of zero potential."
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q7",
+      "questionText": "An atom is electrically balanced when:",
+      "questionType": "MCQ",
+      "options": [
+        "A. its protons and electrons balance each other.",
+        "B. the protons outnumber the electrons.",
+        "C. the electrons outnumber the protons.",
+        "D. the electric and static charges are balanced."
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q8",
+      "questionText": "The electrons of an atom are:",
+      "questionType": "MCQ",
+      "options": [
+        "A. positively charged.",
+        "B. neutral.",
+        "C. negatively charged.",
+        "D. of zero potential."
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q9",
+      "questionText": "A NICAD battery shows a high temperature after engine start, this could be an indication of:",
+      "questionType": "MCQ",
+      "options": [
+        "A. thermal runaway.",
+        "B. it is not connected to the battery bus-bar.",
+        "C. normal temperature during charging.",
+        "D. depends upon the outside air temperature."
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q10",
+      "questionText": "From the following list select the correct combination of statements. The primary task of the lubrication is to: 1. Reduce friction 2. Cool the engine 3. Clean the engine 4. Reduce component wear 5. Act as a hydraulic medium",
+      "questionType": "MCQ",
+      "options": [
+        "A. 1 and 3",
+        "B. 2 and 5",
+        "C. 1 and 4",
+        "D. 1 and 5"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q11",
+      "questionText": "The main function of a supercharger is to:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Increase the thermal efficiency of the engine.",
+        "B. Increase the compression ratio of the engine.",
+        "C. Maintain sea level pressure in the engine to above rated altitude.",
+        "D. Increase the volumetric efficiency of the engine."
+      ],
+      "answer": "D"
+    },
+    {
+      "questionNumber": "Q12",
+      "questionText": "On entering ground effect:",
+      "questionType": "MCQ",
+      "options": [
+        "A. more power is required",
+        "B. less power is required",
+        "C. ground effect has no effect on power required",
+        "D. lift decreases"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q13",
+      "questionText": "When an aircraft enters ground effect:",
+      "questionType": "MCQ",
+      "options": [
+        "A. the lift vector is inclined rearwards which increases the thrust required",
+        "B. the lift vector is inclined forwards which reduces the thrust required",
+        "C. the lift vector is unaffected, the cushion of air increases",
+        "D. the lift vector is inclined forward which increases the thrust required"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q14",
+      "questionText": "The effect of tropical rain on drag and stall speed would be to:",
+      "questionType": "MCQ",
+      "options": [
+        "A. increase drag and increase stall speed",
+        "B. increase drag and decrease stall speed",
+        "C. decrease drag and increase stall speed",
+        "D. decrease drag and decrease stall speed"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q15",
+      "questionText": "Which statement is correct?",
+      "questionType": "MCQ",
+      "options": [
+        "A. The stick force per 'g' increases when the CG is moved aft.",
+        "B. The stick force per 'g' must have both upper and lower limits in order to assure acceptable control characteristics",
+        "C. If the slope of the fe-n line becomes negative, generally speaking this is not a problem for control of an aeroplane.",
+        "D. The stick force per 'g' can only be corrected by means of electronic devices (stability augmentation) in the case of an unacceptable value."
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q16",
+      "questionText": "The regime of flight from the critical Mach number (Mcrit) to approximately M1.3 is called?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Transonic.",
+        "B. Hypersonic.",
+        "C. Subsonic.",
+        "D. Supersonic."
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q17",
+      "questionText": "In the event of a surge occurring the correct action to be taken is:",
+      "questionType": "MCQ",
+      "options": [
+        "A. To close the throttle quickly.",
+        "B. To close the throttle slowly.",
+        "C. To open the throttle fully.",
+        "D. To close the LP fuel valve."
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q18",
+      "questionText": "The major disadvantage of a centrifugal compressor is that:",
+      "questionType": "MCQ",
+      "options": [
+        "A. It cannot cope with a large mass flow of air.",
+        "B. It cannot be used for a turbo jet engine.",
+        "C. A larger turbine must be used.",
+        "D. It is more prone to damage than the axial flow compressor"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q19",
+      "questionText": "An advantage of a centrifugal compressor is that it is:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Dynamically balanced.",
+        "B. More robust and is easier to develop and manufacture.",
+        "C. Unaffected by turbulence.",
+        "D. Able to handle a larger mass of air than an axial flow compressor."
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q20",
+      "questionText": "Lubricating oil of jet engine",
+      "questionType": "MCQ",
+      "options": [
+        "A. mineral oil with additives (compound)",
+        "B. mineral oil straight",
+        "C. Synthetic oil"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q21",
+      "questionText": "Electrolyte in batteries",
+      "questionType": "MCQ",
+      "options": [
+        "A. Electrolytes are highly corrosive and if spilled in aircraft can cause extensive damage."
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q22",
+      "questionText": "51) Materials which are conductor",
+      "questionType": "MCQ",
+      "options": [
+        "A. Copper, Aluminium, silver"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q23",
+      "questionText": "The difference between anti icing and de-icing system is:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Anti icing system prevents the formation of ice while deicing system removes the ice after it is formed",
+        "B. De-icing system prevents the formation of ice while anti icing system removes the ice after it is formed",
+        "C. Anti icing is used in air while de-icing is used on ground"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q24",
+      "questionText": "What is most fav CG location for fuel economy?",
+      "questionType": "MCQ",
+      "options": [
+        "A. CG located at forward CG limit",
+        "B. CG location be same as CP location",
+        "C. CG located at the aft CG limit"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q25",
+      "questionText": "What is the purpose of a hydraulic check valve?",
+      "questionType": "MCQ",
+      "options": [
+        "A. To direct the fluid in various directions",
+        "B. To restricts the fluid flow in one direction",
+        "C. To obtain fluid flow in one direction"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q26",
+      "questionText": "The power increase that occurs with initial increase in altitude when an engine has supercharger fitted is due to:",
+      "questionType": "MCQ",
+      "options": [
+        "A. The increasing charge temperature",
+        "B. The reducing exhausts back pressure",
+        "C. The decreasing density of the atmosphere"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q27",
+      "questionText": "Materials which have free electrons are called:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Insulators",
+        "B. Resistance",
+        "C. Conductors"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q28",
+      "questionText": "An atom has gained an electron is called a:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Static 10N",
+        "B. Neutral 10N",
+        "C. Negative 10N"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q29",
+      "questionText": "The control which gives lateral control is:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Elevator",
+        "B. Rudder for control in yaw about normal axis",
+        "C. Ailerons for control in roll about longitudinal axis"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q30",
+      "questionText": "What is Vso ?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Vso stalling speed with flaps down and landing gear down.",
+        "B. Vso stalling speed with flaps up",
+        "C. Vso stalling speed with flaps fully down"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q31",
+      "questionText": "What is the purpose of a hydraulic sequence valve?",
+      "questionType": "MCQ",
+      "options": [
+        "A. To activate the shuttle valve",
+        "B. To sequence certain events",
+        "C. To activate fire shut off valve"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q32",
+      "questionText": "The on load/nominal voltage of each cell of a lead acid battery is -and on load voltage of one cell of Ni-Cad battery is:",
+      "questionType": "MCQ",
+      "options": [
+        "A. 1.27 Volts /1.24 Volts",
+        "B. 2.0 Volts/1.27 Volts",
+        "C. 2.0 Volts/1.2 volts"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q33",
+      "questionText": "Current is :",
+      "questionType": "MCQ",
+      "options": [
+        "A. A magnetic field produce around the conductor",
+        "B. Potential difference across the conductor",
+        "C. The number of electrons passing any point in the conductor in one second"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q34",
+      "questionText": "In a turbo fan engine, the fan speed is controlled by",
+      "questionType": "MCQ",
+      "options": [
+        "A. A reduction gear",
+        "B. A waste gate",
+        "C. The turbine"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q35",
+      "questionText": "Major advantage of Semi Monocoque structure over a monocoque structure is:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Better strength to weight ratio",
+        "B. Cheaper to manufacture",
+        "C. It is lighter"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q36",
+      "questionText": "In modern aircraft L/D ratio is 10 and 20 to 1 which means",
+      "questionType": "MCQ",
+      "options": [
+        "A. Lift is 20 times drag is 10 times",
+        "B. Lift is 10 times drag is 3 times",
+        "C. Lift is 10 to 20 times greater than drag"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q37",
+      "questionText": "Advantages of the Fly by wire (FBW)system over conventional flight control system are:",
+      "questionType": "MCQ",
+      "options": [
+        "A. It is lighter and does not require the heavy control cables",
+        "B. Low weight leads to better fuel consumption",
+        "C. Both of the above"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q38",
+      "questionText": "Lead acid batteries are stored in a:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Semi charged state to prevent deterioration of the battery by sulphation",
+        "B. Discharged state and have a longer shelf life",
+        "C. Charged state"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q39",
+      "questionText": "A NiCad battery shows a high temperature after engine start, this could be an indication of:",
+      "questionType": "MCQ",
+      "options": [
+        "A. thermal runaway",
+        "B. it is not connected to the battery bus bar",
+        "C. normal temperature during charging",
+        "D. depends upon the outside air temperature"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q40",
+      "questionText": "The phenomenon of flutter is described as:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Reversal of the ailerons caused by wing torsional flexibility",
+        "B. Rapid movement of the airframe caused by the vibration from the engines",
+        "C. Oscillatory motion of parts or parts of the aircraft relative to the remainder of the structure."
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q41",
+      "questionText": "The best extinguisher to use on a wheel or brake fire is:",
+      "questionType": "MCQ",
+      "options": [
+        "A. CO2",
+        "B. Water",
+        "C. Dry powder"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q42",
+      "questionText": "When large aircraft are employed, a hand pump is usually used for:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Ground servicing purposes",
+        "B. Lowering the landing gear in an emergency",
+        "C. Pressuring the oleo struts in the air"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q43",
+      "questionText": "What is inertia?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Opposition which a body offers to change in motion.",
+        "B. A large mass has no inertia",
+        "C. Inertia refers to only stationary masses"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q44",
+      "questionText": "Upto which pressure altitude do most cabin pressure system operates to provide sufficient oxygen supply to the passenger?",
+      "questionType": "MCQ",
+      "options": [
+        "A. 35000f",
+        "B. 10000 ft",
+        "C. 8000 ft"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q45",
+      "questionText": "The difference between anti icing and de-icing system is:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Anti icing system prevents the formation of ice while deicing system removes the ice after it is formed",
+        "B. De-icing system prevents the formation of ice while anti icing system removes the ice after it is formed",
+        "C. Anti icing is used in air while de-icing is used on ground"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q46",
+      "questionText": "Operational rough air speed VRA/MRA should consist of the following feature",
+      "questionType": "MCQ",
+      "options": [
+        "A. Be maximum structural cruise speed is with ability to with gust loads",
+        "B. For utility category aircraft the positive load limit above is 4.4 and 1.76 the negative limit load factor",
+        "C. Should be high enough to avoid stalling and low enough to avoid damage to the structure"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q47",
+      "questionText": "Secondary cells can:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Not be recharged",
+        "B. Can be discharged and recharged many times over a long period of time",
+        "C. Can be recharged only once"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q48",
+      "questionText": "An Aircraft flying at Mach 1 at low altitude with an air temperature of 15 degree Celsius and an A/c flying at 30000 ft where the temperature is - 43degree Celsius, the effect on TAS will be:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Lower A/C will have a Lower TAS",
+        "B. Higher A/c will have a lower TAS",
+        "C. Lower A/c will have a higher TAS and Higher A/c will have a lower TAS"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q49",
+      "questionText": "51) Materials which are conductor",
+      "questionType": "MCQ",
+      "options": [
+        "A. Copper, Aluminium, silver"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q50",
+      "questionText": "The extreme right limitation a gust load diagram is the speed",
+      "questionType": "MCQ",
+      "options": [
+        "A. Vd",
+        "B. Vc",
+        "C. Vb",
+        "D. Vs"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q51",
+      "questionText": "What's the limit load factor for a nominal transport category aircraft?",
+      "questionType": "MCQ",
+      "options": [
+        "A. 2.5g",
+        "B. 1.75g",
+        "C. 3.75g",
+        "D. 1.5g"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q52",
+      "questionText": "Thermal runway can take place in [___] when constant [___]",
+      "questionType": "MCQ",
+      "options": [
+        "A. Alkaline batteries/current charging system is used",
+        "B. Ni/Cad batteries/ current system is used.",
+        "C. Alkaline batteries/ Voltage charging system"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q53",
+      "questionText": "Choose the correct statement:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Control system should be free of backlash",
+        "B. Backlash is free movement of cockpit control when the direction of movement is reverted.",
+        "C. All of the above"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q54",
+      "questionText": "Circuit breaker normally opens the circuit:",
+      "questionType": "MCQ",
+      "options": [
+        "A. And has the capability of opening and closing the circuit",
+        "B. it may also be used as a circuit isolation switch",
+        "C. All of the above"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q55",
+      "questionText": "If an aircraft is statically unstable it:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Will only be dynamically stable at high speeds",
+        "B. Will never be dynamically stable",
+        "C. May or may not be dynamically stable, depending on the type of aircraft"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q56",
+      "questionText": "The difference between anti icing and de-icing system is:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Anti icing system prevents the formation of ice while deicing system removes the ice after it is formed",
+        "B. De-icing system prevents the formation of ice while anti icing system removes the ice after it is formed",
+        "C. Anti icing is used in air while de-icing is used on ground"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q57",
+      "questionText": "The beta range of a variable pitch propeller is between",
+      "questionType": "MCQ",
+      "options": [
+        "A. feather and flight fine pitch stop",
+        "B. feather and ground fine pitch stop",
+        "C. flight fine pitch stop and reverse stop",
+        "D. ground fine pitch stop and reverse stop"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q58",
+      "questionText": "dihedral effect",
+      "questionType": "MCQ",
+      "options": [
+        "A. Lateral stability about longitudinal axis"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q59",
+      "questionText": "How Adverse yaw is reduced?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Ans By Differential ailerons, Frise ailerons, Aileron-rudder coupling, Roll control spoilers."
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q60",
+      "questionText": "Ventral fin may be added as in additional contribution to",
+      "questionType": "MCQ",
+      "options": [
+        "A. Directional stability",
+        "B. Lateral stability",
+        "C. Static lateral stability"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q61",
+      "questionText": "The altitude above which icing does not occur since the droplets are all frozen and will not adhere to the aircrafts surface is:",
+      "questionType": "MCQ",
+      "options": [
+        "A. 37,000 ft",
+        "B. 42,000 ft",
+        "C. 40,000 ft"
+      ],
+      "answer": "C"
+    }
+  ]
+}

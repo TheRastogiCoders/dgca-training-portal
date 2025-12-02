@@ -1,0 +1,307 @@
+{
+  "bookName": "GEN-OLODE Exam Papers 2025",
+  "chapterNumber": "JAN 2025",
+  "chapterTitle": "Technical General OLODE Session 01",
+  "questions": [
+    {
+      "questionNumber": "Q1",
+      "questionText": "Circuit breakers protecting circuits may be :",
+      "questionType": "MCQ",
+      "options": [
+        "A. used in AC and DC circuits",
+        "B. reset at any time",
+        "C. used only in AC circuits",
+        "D. used only in DC circuits"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q2",
+      "questionText": "The Auxiliary Power Unit (APU) has its own AC generator which:",
+      "questionType": "MCQ",
+      "options": [
+        "A. is driven at constant speed through a Constant Speed Drive (CSD), in the same way as the main AC generator",
+        "B. is excited by its Generator Control Unit (GCU) as soon as the APU starts up",
+        "C. supplies the aircraft with three-phase 115-200 V, 400 Hz AC.",
+        "D. must have the same characteristics as the main AC generator so that it can be easily coupled with the latter"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q3",
+      "questionText": "Which statement with respect to the speed of sound is correct?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Is independent of altitude",
+        "B. Varies with the square root of the absolute temperature.",
+        "C. Doubles if the temperature increases from 9° to 36° Centigrade.",
+        "D. Increases always if the density of the air decreases"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q4",
+      "questionText": "The speed of sound is affected by the:",
+      "questionType": "MCQ",
+      "options": [
+        "A. humidity of the air.",
+        "B. pressure of the air",
+        "C. temperature of the air.",
+        "D. density of the air"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q5",
+      "questionText": "When air has passed through a shock wave the speed of sound is",
+      "questionType": "MCQ",
+      "options": [
+        "A. increased.",
+        "B. decreased and beyond a certain Mach number start increasing again",
+        "C. not affected",
+        "D. decreased."
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q6",
+      "questionText": "When the air is passing through an expansion wave the local speed of sound will",
+      "questionType": "MCQ",
+      "options": [
+        "A. stay constant",
+        "B. increase.",
+        "C. decrease and beyond a certain Mach number start increasing again.",
+        "D. decrease."
+      ],
+      "answer": "D"
+    },
+    {
+      "questionNumber": "Q7",
+      "questionText": "The aerodynamic centre of the wing is the point, where:",
+      "questionType": "MCQ",
+      "options": [
+        "A. change of lift due to variation of angle of attack is constant",
+        "B. the aeroplane's lateral axis intersects with the centre of gravity",
+        "C. pitching moment coefficient does not vary with angle of attack",
+        "D. aerodynamic forces are constant"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q8",
+      "questionText": "What effect does the deployment of trailing edge flaps have on the intensity of wingtip vortices?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Decrease.",
+        "B. Increase.",
+        "C. Decrease or increase depending on airspeed.",
+        "D. Decrease or increase depending on aircraft weight."
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q9",
+      "questionText": "Krueger flaps are [compared to] leading edge droop?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Less.",
+        "B. More.",
+        "C. No more nor less.",
+        "D. More or less depending on angle of attack."
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q10",
+      "questionText": "Leading edge flaps?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Increase camber and angle of incidence.",
+        "B. Decrease camber and angle of incidence.",
+        "C. Increase camber and decrease angle of incidence.",
+        "D. Decrease camber and increase angle of incidence."
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q11",
+      "questionText": "If stalling speed in straight and level flight is 100 Kts what will it be in a 30 degree banked level turn?",
+      "questionType": "MCQ",
+      "options": [
+        "A. 97 Kts.",
+        "B. 107 Kts.",
+        "C. 117 Kts.",
+        "D. 127 Kts."
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q12",
+      "questionText": "Vso is?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Stalling IAS in take-off configuration.",
+        "B. Stalling EAS in landing configuration.",
+        "C. Stalling TAS in take-off configuration.",
+        "D. Stalling CAS in landing configuration."
+      ],
+      "answer": "D"
+    },
+    {
+      "questionNumber": "Q13",
+      "questionText": "What is the pitching moment generated by a cambered wing about its aerodynamic centre in flight?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Always nose up and of constant magnitude.",
+        "B. Always nose down and of varying magnitude with angle of attack.",
+        "C. Nose up or nose down depending on angle of attack.",
+        "D. Always nose down at its zero lift value."
+      ],
+      "answer": "D"
+    },
+    {
+      "questionNumber": "Q14",
+      "questionText": "What effect does an increase in angle of attack have on the distance between the aerodynamic centre and centre of pressure of a wing in flight?",
+      "questionType": "MCQ",
+      "options": [
+        "A. The distance remains constant.",
+        "B. The distance becomes greater.",
+        "C. The distance becomes smaller.",
+        "D. The distance becomes smaller up to the stall then becomes greater."
+      ],
+      "answer": "D"
+    },
+    {
+      "questionNumber": "Q15",
+      "questionText": "Winglets?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Improve lateral and directional stability.",
+        "B. Reduce lateral and directional stability.",
+        "C. Do not significantly affect lateral and directional stability.",
+        "D. Improve roll rates."
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q16",
+      "questionText": "A coarse blade angle is [___] compared to a fine pitch angle?",
+      "questionType": "MCQ",
+      "options": [
+        "A. More efficient at low TAS.",
+        "B. More efficient at high TAS.",
+        "C. More efficient at low RPM",
+        "D. Less efficient at high FWM."
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q17",
+      "questionText": "Maximum propulsive efficiency of a coarse pitch propeller is [___] compared to a fine pitch propeller.",
+      "questionType": "MCQ",
+      "options": [
+        "A. Higher.",
+        "B. Lower.",
+        "C. Identical.",
+        "D. Higher or lower depending on RPM."
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q18",
+      "questionText": "Flexural aileron flutter involves?",
+      "questionType": "MCQ",
+      "options": [
+        "A. C of G aft of the hinge line and cyclic bending of wings.",
+        "B. C of G aft of C of P and cyclic twisting of wings.",
+        "C. C of P fwd of torsional axis and cyclic twisting of wings.",
+        "D. None of the above."
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q19",
+      "questionText": "Swept back wings are [___] to divergence?",
+      "questionType": "MCQ",
+      "options": [
+        "A. More prone.",
+        "B. Less prone.",
+        "C. Never prone.",
+        "D. None of the above."
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q20",
+      "questionText": "Fly-by-wire control systems?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Are heavier than conventional systems.",
+        "B. Are lighter than conventional systems.",
+        "C. Do not require hydraulic power.",
+        "D. Use servo tabs."
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q21",
+      "questionText": "A bob weight?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Decreases stick force gradient.",
+        "B. Increases stick forces at high speeds only.",
+        "C. Increases stick forces in a pull up manoeuvre.",
+        "D. Is not used in JAR certificated aircraft?"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q22",
+      "questionText": "Fireproof bulkheads are usually made of?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Stainless steel.",
+        "B. Mild steel.",
+        "C. Composite materials.",
+        "D. Titanium."
+      ],
+      "answer": "D"
+    },
+    {
+      "questionNumber": "Q23",
+      "questionText": "If one cell of a 12 volt battery is dead?",
+      "questionType": "MCQ",
+      "options": [
+        "A. The voltage will be 1/12th of its normal value.",
+        "B. The voltage will be 11/12th its normal value.",
+        "C. The battery is unserviceable and must be replaced immediately.",
+        "D. The capacity and voltage will be 11/12 th of their normal value."
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q24",
+      "questionText": "The highest gas pressure in a jet engine is?",
+      "questionType": "MCQ",
+      "options": [
+        "A. In the turbine Inlet area.",
+        "B. In the turbine outlet area.",
+        "C. In the compressor inlet.",
+        "D. In the combustion chamber inlet."
+      ],
+      "answer": "D"
+    },
+    {
+      "questionNumber": "Q25",
+      "questionText": "At a constant IAS, what affect will increasing altitude have a damping in roll:",
+      "questionType": "MCQ",
+      "options": [
+        "A. remains the same",
+        "B. increases because the TAS increases",
+        "C. decreases because the TAS increases",
+        "D. decreases because the TAS decreases"
+      ],
+      "answer": "C"
+    }
+  ]
+}

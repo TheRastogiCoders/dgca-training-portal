@@ -1,0 +1,218 @@
+{
+  "bookName": "GEN-OLODE Exam Papers 2025",
+  "chapterNumber": "MAY 2025",
+  "chapterTitle": "Technical Questions OLODE",
+  "questions": [
+    {
+      "questionNumber": "Q1",
+      "questionText": "The elements specifically protected against icing on transport aircraft are: 1) engine air intake and pod. 2) front glass shield. 3) radome. 4) pitot tubes and waste water exhaust masts. 5) leading edge of wing. 6) cabin windows. 7) trailing edge of wings. 8) electronic equipment compartment. The combination regrouping all the correct statements is :",
+      "questionType": "MCQ",
+      "options": [
+        "A. 1, 2, 5, 6",
+        "B. 1, 4, 5, 7",
+        "C. 1, 2, 3, 8",
+        "D. 1, 2, 4, 5"
+      ],
+      "answer": "D"
+    },
+    {
+      "questionNumber": "Q2",
+      "questionText": "In a fire detection system with single-loop continuous components (with no fault protection), if the line is accidently grounded:",
+      "questionType": "MCQ",
+      "options": [
+        "A. the power supply is cut off automatically.",
+        "B. the engine fire extinguisher striker is automatically activated",
+        "C. the fire alarm is triggered",
+        "D. there will be no effect on the system"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q3",
+      "questionText": "The indication of the fire detection systems is performed by a:",
+      "questionType": "MCQ",
+      "options": [
+        "A. warning bell",
+        "B. gear warning",
+        "C. warning light and a warning bell (or aural alert).",
+        "D. warning light"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q4",
+      "questionText": "On an aircraft provided with resistance and capacitance variation type fire detection loops, a fire alarm is initiated by a temperature increase detected:",
+      "questionType": "MCQ",
+      "options": [
+        "A. only at an isolated point of the loops",
+        "B. on at least one loop",
+        "C. at any isolated point of the loops or else generally on all the loops",
+        "D. only in a uniform way along the loops"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q5",
+      "questionText": "When flutter damping of control surfaces is obtained by mass balancing, these weights will be located with respect to the hinge of the control surface:",
+      "questionType": "MCQ",
+      "options": [
+        "A. behind the hinge",
+        "B. below the hinge",
+        "C. above the hinge.",
+        "D. in front of the hinge"
+      ],
+      "answer": "D"
+    },
+    {
+      "questionNumber": "Q6",
+      "questionText": "\"Flutter\" may be caused by:",
+      "questionType": "MCQ",
+      "options": [
+        "A. high airspeed aerodynamic wing stall",
+        "B. low airspeed aerodynamic wing stall.",
+        "C. roll control reversal",
+        "D. distorsion by bending and torsion of the structure causing increasing vibration in the resonance frequency"
+      ],
+      "answer": "D"
+    },
+    {
+      "questionNumber": "Q7",
+      "questionText": "The control law in a fly-by-wire system is a relationship between:",
+      "questionType": "MCQ",
+      "options": [
+        "A. how the pilot's control demands are translated into control surface movements.",
+        "B. input and output at the amplifier level respectively control the deviation data",
+        "C. computer input deviation data and flap position modification",
+        "D. the versine signal between the ailerons and elevators"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q8",
+      "questionText": "Stick forces in a fly-by-wire system increase in proportion to?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Weight and C of G position.",
+        "B. Altitude and IAS.",
+        "C. Control deflection and IAS.",
+        "D. Control deflection and TAS."
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q9",
+      "questionText": "Fly-by-wire control systems?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Are heavier than conventional systems.",
+        "B. Are lighter than conventional systems.",
+        "C. Do not require hydraulic power.",
+        "D. Use servo tabs."
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q10",
+      "questionText": "A bob weight?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Decreases stick force gradient.",
+        "B. Increases stick forces at high speeds only.",
+        "C. Increases stick forces in a pull up manoeuvre.",
+        "D. Is not used in JAR certificated aircraft?"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q11",
+      "questionText": "Chemically generated oxygen systems?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Can be switched on and off as required.",
+        "B. Cannot be switched off after activation and last for 15 minutes at full flow.",
+        "C. Can be switched off after activation and last for 15 minutes at full flow.",
+        "D. Cannot be switched off after activation and last for 25 minutes at full flow."
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q12",
+      "questionText": "A material with a deficiency of electrons becomes:",
+      "questionType": "MCQ",
+      "options": [
+        "A. positively charged.",
+        "B. negatively charged.",
+        "C. isolated.",
+        "D. overheated."
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q13",
+      "questionText": "A material with a surplus of electrons becomes:",
+      "questionType": "MCQ",
+      "options": [
+        "A. positively charged.",
+        "B. negatively charged.",
+        "C. over charged.",
+        "D. saturated."
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q14",
+      "questionText": "Materials containing 'free electrons' are called:",
+      "questionType": "MCQ",
+      "options": [
+        "A. insulators",
+        "B. resistors",
+        "C. collectors",
+        "D. conductors"
+      ],
+      "answer": "D"
+    },
+    {
+      "questionNumber": "Q15",
+      "questionText": "The flight deck warning on activation of an engine fire detection system is",
+      "questionType": "MCQ",
+      "options": [
+        "A. Warning bell",
+        "B. Gear warning",
+        "C. Warning light and warning bell",
+        "D. Warning light"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q16",
+      "questionText": "The movement of the flying control surface in response to the movement of cockpit control may be achieved by:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Hydraulically",
+        "B. Electrically",
+        "C. Any one or combination of the above"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q17",
+      "questionText": "What happens when a fire switch is armed?",
+      "questionType": "MCQ",
+      "options": [
+        "A. CHECK ANSWER"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q18",
+      "questionText": "What is the most commonly used type of fire detection system?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Continuous Fire Detectors (Fire Wire or FFFD)",
+        "B. Gas-Filled Detectors",
+        "C. Differential Expansion Detectors"
+      ],
+      "answer": "A"
+    }
+  ]
+}

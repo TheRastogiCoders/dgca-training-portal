@@ -1,0 +1,390 @@
+{
+  "bookName": "TECHNICAL REGULAR DECEMBER 2024",
+  "questions": [
+    {
+      "questionNumber": "Q1",
+      "questionText": "Control surface flutter:",
+      "questionType": "MCQ",
+      "options": [
+        "A. provides additional lift for take off and landing in the event of engine failure.",
+        "B. occurs at high angles of attack.",
+        "C. is a destructive vibration that must be damped out within the flight envelope.",
+        "D. is a means of predicting the critical safe life of the wing."
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q2",
+      "questionText": "The primary purpose of a hydraulic reservoir is:",
+      "questionType": "MCQ",
+      "options": [
+        "A. to compensate for leaks, displacement and expansion.",
+        "B. to allow a space into which spare fluid may be stored.",
+        "C. to indicate system contents.",
+        "D. to maintain fluid between a jack and the accumulator."
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q3",
+      "questionText": "The control surface which gives longitudinal control is:",
+      "questionType": "MCQ",
+      "options": [
+        "A. the rudder",
+        "B. the ailerons",
+        "C. the elevators",
+        "D. the flaps"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q4",
+      "questionText": "A hand pump is usually fitted:",
+      "questionType": "MCQ",
+      "options": [
+        "A. for ground servicing purposes.",
+        "B. lowering the landing gear in an emergency.",
+        "C. pressurising the oleo struts in the air.",
+        "D. retracting the gear after take-off."
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q5",
+      "questionText": "The nucleus of an atom is:",
+      "questionType": "MCQ",
+      "options": [
+        "A. positively charged.",
+        "B. negatively charged.",
+        "C. statically charged.",
+        "D. of zero potential."
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q6",
+      "questionText": "Materials containing 'free electrons' are called:",
+      "questionType": "MCQ",
+      "options": [
+        "A. insulators",
+        "B. resistors",
+        "C. collectors",
+        "D. conductors"
+      ],
+      "answer": "D"
+    },
+    {
+      "questionNumber": "Q7",
+      "questionText": "The unit of EMF is the",
+      "questionType": "MCQ",
+      "options": [
+        "A. Ampere",
+        "B. Volt",
+        "C. Watt",
+        "D. Ohm"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q8",
+      "questionText": "Control overbalance results in:",
+      "questionType": "MCQ",
+      "options": [
+        "A. a sudden increase in stick force",
+        "B. a sudden reduction then reversal of stick force",
+        "C. a sudden loss of effectiveness of the controls",
+        "D. a gradual increase in stick force with increasing IAS"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q9",
+      "questionText": "The primary function of a diffuser in a carburettor is to:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Control the mixture strength over part of the engine speed range.",
+        "B. Vent air from the float chamber.",
+        "C. Emulsify the fuel during engine acceleration.",
+        "D. Enable adjustment of the engine slow running speed."
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q10",
+      "questionText": "At what speed does an oblique shock wave move over the earth surface?",
+      "questionType": "MCQ",
+      "options": [
+        "A. Aircraft ground speed",
+        "B. The TAS of the aircraft plus the wind speed",
+        "C. The TAS of the aircraft less the wind speed",
+        "D. The TAS relative to the speed of sound at sea level"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q11",
+      "questionText": "A shuttle valve is used to",
+      "questionType": "MCQ",
+      "options": [
+        "A. Restrict the rate of operation of a system",
+        "B. Select the most suitable system pressure",
+        "C. Allow two supplies to be available to a service",
+        "D. To allow a constant volume pump to idle"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q12",
+      "questionText": "VLO is defined as:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Actual speed that the aircraft lifts off the ground.",
+        "B. Minimum possible speed that the aircraft could lift off the ground.",
+        "C. The maximum speed for landing gear operation",
+        "D. The long range cruise speed."
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q13",
+      "questionText": "The function of Shut off valve in a pneumatic system is to:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Shut Off the pneumatic system",
+        "B. To switch off bleed air supply from an engine and the APU",
+        "C. To regulate the supply of bleed air"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q14",
+      "questionText": "Secondary cells can:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Not be recharged",
+        "B. Can be discharged and recharged many times over a long period of time",
+        "C. Can be recharged only once"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q15",
+      "questionText": "Swept back and Delta wings are:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Very efficient at high speed but corresponding inefficient at low speeds",
+        "B. Fairly inefficient at high speed but very efficient at low speed",
+        "C. Neither efficient at low or high speed"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q16",
+      "questionText": "Nucleus has a:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Positive charge",
+        "B. Negative charge",
+        "C. Positive & Negative"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q17",
+      "questionText": "As per Bernoulli's theorem",
+      "questionType": "MCQ",
+      "options": [
+        "A. Decrease in speed along a stream line point decreases static pressure",
+        "B. Increase in speed at a point along stream line, Cause a decrease in static pressure at the point",
+        "C. Increase or Decrease in speed has no change in static pressure"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q18",
+      "questionText": "Because of the reduction in density of the atmosphere, with an increase in altitude:",
+      "questionType": "MCQ",
+      "options": [
+        "A. The octane rating of the fuel must be increases",
+        "B. The throttle must be reduced to maintain the best Air/Fuel ratio",
+        "C. The mixture control must be moved towards the weak position"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q19",
+      "questionText": "Electrical resistance is measured in:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Ohm",
+        "B. watt",
+        "C. Amp"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q20",
+      "questionText": "What is the purpose of a hydraulic reservoir?",
+      "questionType": "MCQ",
+      "options": [
+        "A. To convert hydraulic pressure into work",
+        "B. To store hydraulic fluid",
+        "C. To support the system with pressurised fluid"
+      ],
+      "answer": "B"
+    },
+    {
+      "questionNumber": "Q21",
+      "questionText": "When an A/c structure is designed according to fail safe philosophy it means",
+      "questionType": "MCQ",
+      "options": [
+        "A. The structure will never break regardless of stress applied",
+        "B. The failed structure can be replaced easily",
+        "C. Adjacent structure with stands the loads which the failed structure should have carried"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q22",
+      "questionText": "Control locks are used to prevent:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Controls from wear and tear",
+        "B. Unauthorised interference with them",
+        "C. Mechanical damage in strong and gusty winds"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q23",
+      "questionText": "Choose the correct statement, Taper ratio is:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Ratio of average chord to root chord",
+        "B. Ratio of root chord to tip chord",
+        "C. Ratio of tip chord to root chord"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q24",
+      "questionText": "The on load/nominal voltage of each cell of a lead acid battery is -and on load voltage of one cell of Ni-Cad battery is:",
+      "questionType": "MCQ",
+      "options": [
+        "A. 1.27 Volts /1.24 Volts",
+        "B. 2.0 Volts/1.27 Volts",
+        "C. 2.0 Volts/1.2 volts"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q25",
+      "questionText": "The altitude above which icing does not occur since the droplets are all frozen and will not adhere to the aircrafts surface is:",
+      "questionType": "MCQ",
+      "options": [
+        "A. 37,000 ft",
+        "B. 42,000 ft",
+        "C. 40,000 ft"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q26",
+      "questionText": "Factor affecting the resistance",
+      "questionType": "MCQ",
+      "options": [
+        "A. Type of material",
+        "B. Longer wire will have less resistance",
+        "C. Thicker the wire higher the resistance"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q27",
+      "questionText": "Class D compartment (which can not be reached by a crew inflight)",
+      "questionType": "MCQ",
+      "options": [
+        "A. Cabin crew operated fire extinguisher",
+        "B. Must not be ventilated to contain the fire",
+        "C. The compartment shall be lined with fire resistant material and ventilation and droughts must be there so that any fire likely to occur will not progress beyond safe limits"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q28",
+      "questionText": "Lead acid batteries are stored in a:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Semi charged state to prevent deterioration of the battery by sulphation",
+        "B. Discharged state and have a longer shelf life",
+        "C. Charged state"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q29",
+      "questionText": "When large aircraft are employed, a hand pump is usually used for:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Ground servicing purposes",
+        "B. Lowering the landing gear in an emergency",
+        "C. Pressuring the oleo struts in the air"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q30",
+      "questionText": "To improve aerodynamic performance, modern aeroplane make use of surfaces that affect the airflow over the surface that could be:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Flaps",
+        "B. Spoilers and speed brakes",
+        "C. All of the above"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q31",
+      "questionText": "A supercharger is capable of maintaining sea level values of power upto a high altitude is called:",
+      "questionType": "MCQ",
+      "options": [
+        "A. Ground boosted supercharger",
+        "B. Externally driven supercharger",
+        "C. Altitude boosted supercharger"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q32",
+      "questionText": "Component along plane of rotation",
+      "questionType": "MCQ",
+      "options": [
+        "A. Torque",
+        "B. Thrust"
+      ],
+      "answer": "A"
+    },
+    {
+      "questionNumber": "Q33",
+      "questionText": "High energy ignition unit ignites",
+      "questionType": "MCQ",
+      "options": [
+        "A. 4 times in one revolution",
+        "B. 60-100 times in one second",
+        "C. 60-100 time in one minute"
+      ],
+      "answer": "C"
+    },
+    {
+      "questionNumber": "Q34",
+      "questionText": "Limit load factors are based on the",
+      "questionType": "MCQ",
+      "options": [
+        "A. Mean weight of aircraft",
+        "B. Max weight of aircraft",
+        "C. Max weight divided by lift"
+      ],
+      "answer": "B"
+    }
+  ]
+}

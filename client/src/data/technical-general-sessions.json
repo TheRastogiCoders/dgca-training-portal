@@ -2,6 +2,21 @@
   "book_name": "Technical General Sessions",
   "sessions": [
     {
+      "id": "tech-regular-march-2025",
+      "title": "TECHNICAL REGULAR MARCH 2025",
+      "file": "technical-general-regular-march-2025.json"
+    },
+    {
+      "id": "tech-regular-december-2024",
+      "title": "TECHNICAL REGULAR DECEMBER 2024",
+      "file": "technical-general-regular-december-2024.json"
+    },
+    {
+      "id": "tech-general-march-2024",
+      "title": "TECHNICAL GENERAL MARCH 2024",
+      "file": "technical-general-regular-march-2024.json"
+    },
+    {
       "id": "gen-olode-may-2025",
       "title": "GEN-OLODE MAY 2025",
       "file": "technical-general-olode-may-2025.json"
@@ -15,21 +30,6 @@
       "id": "gen-regular-june-2025-session2",
       "title": "GEN- REGULAR JUNE 2025 (SESSION2)",
       "file": "technical-general-regular-june-2025-session2.json"
-    },
-    {
-      "id": "gen-regular-march-2025",
-      "title": "GEN- REGULAR MARCH 2025",
-      "file": "technical-general-regular-march-2025.json"
-    },
-    {
-      "id": "gen-regular-december-2024",
-      "title": "GEN- REGULAR DECEMBER 2024",
-      "file": "technical-general-regular-december-2024.json"
-    },
-    {
-      "id": "gen-regular-march-2024",
-      "title": "GEN- REGULAR MARCH 2024",
-      "file": "technical-general-regular-march-2024.json"
     }
   ]
 }
