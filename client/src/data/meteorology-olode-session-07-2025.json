@@ -1,0 +1,335 @@
+{
+  "book_name": "Aviation Meteorology",
+  "chapter_number": "07",
+  "chapter_title": "OLODE Session 07 – 2025 (31st Oct, 2025)",
+  "questions": [
+    {
+      "full_question_text": "Lines joining places of equal pressure are called:",
+      "options": [
+        "Isoheights",
+        "Isobars",
+        "Isotherms",
+        "Isohyets"
+      ],
+      "solution": "Isobars"
+    },
+    {
+      "full_question_text": "In a station model, code 2 represents cloud base height of:",
+      "options": [
+        "0 e2 80 93099 m",
+        "100 e2 80 93199 m",
+        "200 e2 80 93299 m",
+        "300 e2 80 93399 m"
+      ],
+      "solution": "100 e2 80 93199 m"
+    },
+    {
+      "full_question_text": "Flying from low pressure to high pressure, the altimeter will:",
+      "options": [
+        "Over-read",
+        "Under-read",
+        "Read correctly",
+        "Show zero"
+      ],
+      "solution": "Under-read"
+    },
+    {
+      "full_question_text": "SIGMET is not issued for:",
+      "options": [
+        "Thunderstorms",
+        "Icing",
+        "Rain",
+        "Turbulence"
+      ],
+      "solution": "Rain"
+    },
+    {
+      "full_question_text": "Increase in temperature with height is called:",
+      "options": [
+        "Lapse rate",
+        "Adiabatic rate",
+        "Inversion",
+        "Isothermal layer"
+      ],
+      "solution": "Inversion"
+    },
+    {
+      "full_question_text": "Altimeter on ground reads aerodrome elevation when sub-scale is set to:",
+      "options": [
+        "QFE",
+        "QFF",
+        "QNH",
+        "QNE"
+      ],
+      "solution": "QNH"
+    },
+    {
+      "full_question_text": "Diurnal variation of temperature is greatest when wind is:",
+      "options": [
+        "Strong",
+        "Calm",
+        "Gusty",
+        "Moderate"
+      ],
+      "solution": "Calm"
+    },
+    {
+      "full_question_text": "Cloudy nights are generally:",
+      "options": [
+        "Cold",
+        "Warm",
+        "Dry",
+        "Foggy"
+      ],
+      "solution": "Warm"
+    },
+    {
+      "full_question_text": "Hot bodies like the Sun radiate:",
+      "options": [
+        "Long waves",
+        "Short waves",
+        "Ultraviolet only",
+        "Infrared only"
+      ],
+      "solution": "Short waves"
+    },
+    {
+      "full_question_text": "Density at the poles compared to the equator is:",
+      "options": [
+        "Lower",
+        "Equal",
+        "Higher",
+        "Variable"
+      ],
+      "solution": "Higher"
+    },
+    {
+      "full_question_text": "Wind sliding down a hill at night is called:",
+      "options": [
+        "Anabatic",
+        "Katabatic",
+        "Land breeze",
+        "Sea breeze"
+      ],
+      "solution": "Katabatic"
+    },
+    {
+      "full_question_text": "Land breeze flows:",
+      "options": [
+        "Sea to Land (Day)",
+        "Land to Sea (Night)",
+        "Land to Sea (Day)",
+        "Sea to Land (Night)"
+      ],
+      "solution": "Land to Sea (Night)"
+    },
+    {
+      "full_question_text": "In the friction layer, wind:",
+      "options": [
+        "Veers and increases",
+        "Backs and decreases",
+        "Remains constant",
+        "Veers and decreases"
+      ],
+      "solution": "Backs and decreases"
+    },
+    {
+      "full_question_text": "Advection fog forms when moist air moves over a colder surface.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "solution": "True"
+    },
+    {
+      "full_question_text": "Cloud causing drizzle:",
+      "options": [
+        "CU",
+        "CB",
+        "ST",
+        "CS"
+      ],
+      "solution": "ST"
+    },
+    {
+      "full_question_text": "Heavy icing and hail occur in:",
+      "options": [
+        "NS",
+        "CB",
+        "ST",
+        "SC"
+      ],
+      "solution": "CB"
+    },
+    {
+      "full_question_text": "For heavy aircraft wing-tip vortices, a pilot should:",
+      "options": [
+        "Take off behind and below path",
+        "Take off before and stay above path",
+        "Land on the same path",
+        "Follow the same flight path"
+      ],
+      "solution": "Take off before and stay above path"
+    },
+    {
+      "full_question_text": "Glazed ice forms by freezing of large supercooled water droplets.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "solution": "True"
+    },
+    {
+      "full_question_text": "Rime ice forms by freezing of small supercooled water droplets.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "solution": "True"
+    },
+    {
+      "full_question_text": "Airframe icing probability decreases below:",
+      "options": [
+        "0 e2 84 83",
+        "-5 e2 84 83",
+        "-20 e2 84 83",
+        "-40 e2 84 83"
+      ],
+      "solution": "-40 e2 84 83"
+    },
+    {
+      "full_question_text": "Rain starting in a thunderstorm indicates:",
+      "options": [
+        "Developing stage",
+        "Mature stage",
+        "Dissipating stage",
+        "Gust front"
+      ],
+      "solution": "Mature stage"
+    },
+    {
+      "full_question_text": "Norwesters occur during:",
+      "options": [
+        "Morning",
+        "Afternoon",
+        "Night",
+        "Winter"
+      ],
+      "solution": "Afternoon"
+    },
+    {
+      "full_question_text": "Air mass from polar land region is Continental Polar (cP).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "solution": "True"
+    },
+    {
+      "full_question_text": "At a warm front, warm air slides over the cold air.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "solution": "True"
+    },
+    {
+      "full_question_text": "Line squalls occur ahead of a cold front.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "solution": "True"
+    },
+    {
+      "full_question_text": "Tropical jet stream direction is:",
+      "options": [
+        "Westerly",
+        "Easterly",
+        "Northerly",
+        "Variable"
+      ],
+      "solution": "Easterly"
+    },
+    {
+      "full_question_text": "Stable air forced upslope forms:",
+      "options": [
+        "CU",
+        "CB",
+        "ST",
+        "NS"
+      ],
+      "solution": "ST"
+    },
+    {
+      "full_question_text": "Monsoon period in India:",
+      "options": [
+        "May e2 80 93Aug",
+        "June e2 80 93Sept",
+        "July e2 80 93Oct",
+        "Mar e2 80 93Jun"
+      ],
+      "solution": "June e2 80 93Sept"
+    },
+    {
+      "full_question_text": "Aircraft flying Mumbai to Ahmedabad (3 km, monsoon) will experience:",
+      "options": [
+        "NE",
+        "SE",
+        "SW",
+        "W"
+      ],
+      "solution": "SW"
+    },
+    {
+      "full_question_text": "Aircraft flying Delhi to Kolkata (10 km, winter) will experience:",
+      "options": [
+        "Easterly",
+        "Northerly",
+        "Westerly",
+        "Southeasterly"
+      ],
+      "solution": "Westerly"
+    },
+    {
+      "full_question_text": "During monsoon break, more rain occurs in:",
+      "options": [
+        "Coastal areas",
+        "Plateau region",
+        "Foothills",
+        "Desert region"
+      ],
+      "solution": "Foothills"
+    },
+    {
+      "full_question_text": "Radiation fog question (open-ended)",
+      "options": [],
+      "solution": ""
+    },
+    {
+      "full_question_text": "Hail impact on flight question (open-ended)",
+      "options": [],
+      "solution": ""
+    },
+    {
+      "full_question_text": "Recognition of cold air pool question (open-ended)",
+      "options": [],
+      "solution": ""
+    },
+    {
+      "full_question_text": "METAR time period question (open-ended)",
+      "options": [],
+      "solution": ""
+    },
+    {
+      "full_question_text": "Lenticular cloud formation question (open-ended)",
+      "options": [],
+      "solution": ""
+    },
+    {
+      "full_question_text": "Orographic lifting question (open-ended)",
+      "options": [],
+      "solution": ""
+    }
+  ]
+}

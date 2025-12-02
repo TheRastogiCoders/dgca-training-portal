@@ -54,7 +54,12 @@ const availableSessions = {
   'meteorology': [
     'regular-march-2024',
     'regular-december-attempt',
-    'regular-sep-2023'
+    'regular-sep-2023',
+    'olode-session-07-2025',
+    'regular-june-session',
+    'regular-march-2025',
+    'olode-may-2025',
+    'olode-nov-2024'
   ]
 };
 
@@ -63,12 +68,13 @@ const subjectSessions = {
     { slug: 'regular-march-2024', title: 'Regular March 2024', window: 'Regular Series', badge: 'Latest', questionCount: 45, accent: 'from-[#6a11cb] to-[#2575fc]' },
     { slug: 'regular-december-attempt', title: 'Regular December Attempt', window: 'Regular Series', badge: 'High Yield', questionCount: 50, accent: 'from-[#ff512f] to-[#dd2476]' },
     { slug: 'regular-sep-2023', title: 'Regular Sep 2023', window: 'Regular Series', badge: 'Archive', questionCount: 40, accent: 'from-[#1d976c] to-[#93f9b9]' },
-    { slug: 'regular-june-session', title: 'Regular June Session', window: 'Regular Series', badge: 'Coming Soon', questionCount: 42, accent: 'from-[#396afc] to-[#2948ff]' },
-    { slug: 'regular-march-2025', title: 'Regular March 2025', window: 'Regular Series', badge: 'Coming Soon', questionCount: 48, accent: 'from-[#f7971e] to-[#ffd200]' },
-    { slug: 'olode-may-2025', title: 'Olode May 2025', window: 'Olode Paper', badge: 'Coming Soon', questionCount: 55, accent: 'from-[#fc5c7d] to-[#6a82fb]' },
+    { slug: 'regular-june-session', title: 'Regular June Session', window: 'Regular Series', badge: 'Available', questionCount: 42, accent: 'from-[#396afc] to-[#2948ff]' },
+    { slug: 'regular-march-2025', title: 'METEOROLOGY Regular session 01 of 2025', window: 'Regular Series', badge: 'Latest', questionCount: 39, accent: 'from-[#f7971e] to-[#ffd200]' },
+    { slug: 'olode-may-2025', title: 'Met OLODE 4TH session May 2025', window: 'Olode Paper', badge: 'Latest', questionCount: 52, accent: 'from-[#fc5c7d] to-[#6a82fb]' },
+    { slug: 'olode-session-07-2025', title: 'OLODE Session 07  2025 (31st Oct, 2025)', window: 'Olode Paper', badge: 'Latest', questionCount: 38, accent: 'from-[#f5af19] to-[#f12711]' },
     { slug: 'olode-jan-2025', title: 'Olode Jan 2025', window: 'Olode Paper', badge: 'Coming Soon', questionCount: 48, accent: 'from-[#00c6ff] to-[#0072ff]' },
     { slug: 'olode-march-2025', title: 'Olode March 2025', window: 'Olode Paper', badge: 'Coming Soon', questionCount: 52, accent: 'from-[#7f00ff] to-[#e100ff]' },
-    { slug: 'olode-question-nov-24', title: 'Olode Question Nov 24', window: 'Olode Paper', badge: 'Coming Soon', questionCount: 47, accent: 'from-[#f953c6] to-[#b91d73]' }
+    { slug: 'olode-nov-2024', title: 'Previous met olode question nov 24', window: 'Olode Paper', badge: 'Available', questionCount: 34, accent: 'from-[#f953c6] to-[#b91d73]' }
   ]
 };
 

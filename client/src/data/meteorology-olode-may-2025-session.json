@@ -1,0 +1,608 @@
+{
+  "book_name": "Aviation Meteorology",
+  "chapter_number": "May 2025",
+  "chapter_title": "Met OLODE 4TH session May 2025",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "Geostrophic wind is due to the balance between the forces",
+      "question_type": "MCQ",
+      "options": [
+        "A. Coriolis and Frictional",
+        "B. Pressure gradient and Cyclostrophic",
+        "C. Pressure gradient and Coriolis"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 2,
+      "question_text": "With the onset of sea breeze there is a ... in temperature and ... in RH.",
+      "question_type": "MCQ",
+      "options": [
+        "A. Fall/Rise",
+        "B. Rise/Fall",
+        "C. Fall/Fall"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Sea breeze sets in by ... and dies off at",
+      "question_type": "MCQ",
+      "options": [
+        "A. Night/Day",
+        "B. Day/Night",
+        "C. Both Day and Night"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 4,
+      "question_text": "Which conditions lead to mountain waves?",
+      "question_type": "MCQ",
+      "options": [
+        "A. Unstable moist air, speeds <5 kt across the ridge",
+        "B. Stable air, speed, >20 kt across the ridge",
+        "C. Unstable air, speed >20 kt across the ridge",
+        "D. Stable air, speed >30 kt, parallel to the ridge"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What cloud types are classified as medium cloud?",
+      "question_type": "MCQ",
+      "options": [
+        "A. Ns + Sc",
+        "B. Ac + As",
+        "C. Cb + St",
+        "D. Ci + Cs"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is a cold pool?",
+      "question_type": "MCQ",
+      "options": [
+        "A. Found south of the Alps if there is NW airflow",
+        "B. Cool area of weather which disappears at night",
+        "C. Cold pool is most evident behind polar frontal weather in mid temperate areas with little or no sign on significant weather charts",
+        "D. Air trapped on the leeward side of mountain ranges"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 7,
+      "question_text": "Which layer of the atmosphere contains more than 90% of all water vapour?",
+      "question_type": "MCQ",
+      "options": [
+        "A. Troposphere",
+        "B. Lower stratosphere",
+        "C. Upper stratosphere",
+        "D. Ionosphere"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 8,
+      "question_text": "When do cold occlusions occur most frequently in Europe?",
+      "question_type": "MCQ",
+      "options": [
+        "A. Summer",
+        "B. Winter",
+        "C. Autumn and winter",
+        "D. Winter and spring"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 9,
+      "question_text": "Dust storms and haze are most common:",
+      "question_type": "MCQ",
+      "options": [
+        "A. in association with the sub tropical anticyclones over land",
+        "B. with the Haboobs in winter",
+        "C. in unstable air with low pressure",
+        "D. in temperate latitudes"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What happens to the stability of the atmosphere in an inversion? (Temp increasing with height)",
+      "question_type": "MCQ",
+      "options": [
+        "A. Absolutely stable",
+        "B. Unstable",
+        "C. Conditionally stable",
+        "D. Conditionally unstable"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 11,
+      "question_text": "The DALR is",
+      "question_type": "MCQ",
+      "options": [
+        "A. Variable with time",
+        "B. Fixed",
+        "C. Variable with latitude",
+        "D. Variable with temperature"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 12,
+      "question_text": "The airmass which originates over equatorial region is",
+      "question_type": "MCQ",
+      "options": [
+        "A. Warm and dry",
+        "B. Warm and moist",
+        "C. Cold and dry"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 13,
+      "question_text": "If the advancing cold front is colder than the cool air mass of the warm front, the advancing cold from undercuts and lifts both the warm and cool air masses of the warm front. This is",
+      "question_type": "MCQ",
+      "options": [
+        "A. Warm Occlusion",
+        "B. Cold Occlusion"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 14,
+      "question_text": "A WD originate over",
+      "question_type": "MCQ",
+      "options": [
+        "A. Baluchistan",
+        "B. Caspian sea",
+        "C. Mediterranean, Caspian and Black sea"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 15,
+      "question_text": "The temperature of ISA at 17km is",
+      "question_type": "MCQ",
+      "options": [
+        "A. -56.5°C",
+        "B. -65.5°C",
+        "C. -35.5°C"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 16,
+      "question_text": "Nacreous clouds occur in",
+      "question_type": "MCQ",
+      "options": [
+        "A. Thermosphere",
+        "B. Mesosphere",
+        "C. Upper Stratosphere"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 17,
+      "question_text": "The rate of fall of temperatures with height, called",
+      "question_type": "MCQ",
+      "options": [
+        "A. Isothermal rate",
+        "B. Inversion rate",
+        "C. Lapse rate"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 18,
+      "question_text": "Low pressure is associated with",
+      "question_type": "MCQ",
+      "options": [
+        "A. Good Weather",
+        "B. Bad Weather",
+        "C. None"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 19,
+      "question_text": "Lines drawn through places of equal pressure are known as",
+      "question_type": "MCQ",
+      "options": [
+        "A. Isobars",
+        "B. Isotherms",
+        "C. Isogonal",
+        "D. Isoclinal"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 20,
+      "question_text": "Altimeter of a/c on ground reads aerodrome elevation; its sub-scale is set to",
+      "question_type": "MCQ",
+      "options": [
+        "A. QNH",
+        "B. QNE",
+        "C. QFF",
+        "D. QFE"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 21,
+      "question_text": "Steep pressure gradient would mean",
+      "question_type": "MCQ",
+      "options": [
+        "A. Contours far apart, weak wind",
+        "B. Contours far apart, strong wind",
+        "C. Isobars far apart and temperature low",
+        "D. Isobars closely packed and strong wind"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": 22,
+      "question_text": "Diurnal variation of temperature is maximum over",
+      "question_type": "MCQ",
+      "options": [
+        "A. forest",
+        "B. ocean",
+        "C. land"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 23,
+      "question_text": "Which surface will cause higher diurnal variation",
+      "question_type": "MCQ",
+      "options": [
+        "A. Forest",
+        "B. Desert",
+        "C. Water",
+        "D. Snow"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 24,
+      "question_text": "Duststorm usually occurs over NW India during",
+      "question_type": "MCQ",
+      "options": [
+        "A. Post-monsoon",
+        "B. Winter",
+        "C. Pre-Monsoon"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 25,
+      "question_text": "Norwesters normally occur during",
+      "question_type": "MCQ",
+      "options": [
+        "A. Mornings",
+        "B. Afternoons",
+        "C. Nights"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 26,
+      "question_text": "Norwesters originates over",
+      "question_type": "MCQ",
+      "options": [
+        "A. Chota-Nagpur hills",
+        "B. Deccan Plato",
+        "C. Khasi hills"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 27,
+      "question_text": "Warm and moist air moving over a cold ground gives rise to:",
+      "question_type": "MCQ",
+      "options": [
+        "A. thunder clouds",
+        "B. fog and stratus",
+        "C. frontal fog"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 28,
+      "question_text": "Fog is ... cloud on ground",
+      "question_type": "MCQ",
+      "options": [
+        "A. Stratocumulus",
+        "B. Stratus",
+        "C. Nimbostratus"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 29,
+      "question_text": "Dark gray cloud giving continuous rain is called",
+      "question_type": "MCQ",
+      "options": [
+        "A. AS",
+        "B. NS",
+        "C. ST",
+        "D. CB"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 30,
+      "question_text": "Glazed ice is formed by freezing of ... supercooled water droplets on airframe and aircraft is flying through clouds",
+      "question_type": "MCQ",
+      "options": [
+        "A. Small",
+        "B. Large",
+        "C. Medium"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 31,
+      "question_text": "The ... ice poses serious aviation hazard",
+      "question_type": "MCQ",
+      "options": [
+        "A. Rime",
+        "B. Hoar Frost",
+        "C. Glazed"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 32,
+      "question_text": "Sleet is a mixture of",
+      "question_type": "MCQ",
+      "options": [
+        "A. Hail & Snow",
+        "B. Rain & Snow",
+        "C. Frozen Rain"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 33,
+      "question_text": "DALR is approximately",
+      "question_type": "MCQ",
+      "options": [
+        "A. 5°C/km",
+        "B. 15°C/km",
+        "C. 10°C/km"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 34,
+      "question_text": "The monsoon current over the West coast of India is",
+      "question_type": "MCQ",
+      "options": [
+        "A. SWly",
+        "B. SEly",
+        "C. NEly",
+        "D. NEly"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 35,
+      "question_text": "The monsoon advances with",
+      "question_type": "MCQ",
+      "options": [
+        "A. Bay of Bengal current only",
+        "B. Arabian Sea current only",
+        "C. Bay of Bengal and Arabian sea currents"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 36,
+      "question_text": "Generally northern hemisphere winds at 5000 FT/AGL are southwesterly while most of the surface winds are southerly. What is the primary reason of difference between these two wind directions?",
+      "question_type": "MCQ",
+      "options": [
+        "A. A strong pressure gradient at higher altitudes.",
+        "B. Friction between the wind and the surface.",
+        "C. Stronger Coriolis force at the surface.",
+        "D. The influence of warm air at the lower altitude."
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 37,
+      "question_text": "In a land- and sea-breeze circulation the land-breeze blows:",
+      "question_type": "MCQ",
+      "options": [
+        "A. during the day and is stronger than the sea-breeze.",
+        "B. during the night and is weaker than the sea-breeze.",
+        "C. during the day and is weaker than the sea-breeze.",
+        "D. during the night and is stronger than the sea-breeze."
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 38,
+      "question_text": "Relative humidity",
+      "question_type": "MCQ",
+      "options": [
+        "A. is higher in warm air than in cool air",
+        "B. increases if the air is cooled whilst maintaining the vapour pressure constant",
+        "C. is higher in cool air than in warm air",
+        "D. decreases if the air is cooled whilst maintaining the vapour pressure constant"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 39,
+      "question_text": "Dew point is defined as",
+      "question_type": "MCQ",
+      "options": [
+        "A. the lowest temperature at which evaporation will occur for a given pressure",
+        "B. the lowest temperature to which air must be cooled in order to reduce the relative humidity",
+        "C. the temperature to which moist air must be cooled to become saturated at a given pressure",
+        "D. the temperature below which the change of state in a given volume of air will result in the absorption of latent heat"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 40,
+      "question_text": "Relative humidity depends on",
+      "question_type": "MCQ",
+      "options": [
+        "A. moisture content and pressure of the air",
+        "B. moisture content of the air only",
+        "C. temperature of the air only",
+        "D. moisture content and temperature of the air"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": 41,
+      "question_text": "Relative humidity at a given temperature is the relation between",
+      "question_type": "MCQ",
+      "options": [
+        "A. water vapour weight and dry air weight",
+        "B. water vapour weight and humid air volume",
+        "C. actual water vapour content and saturated water vapour content",
+        "D. dew point and air temperature"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 42,
+      "question_text": "Large hail stones",
+      "question_type": "MCQ",
+      "options": [
+        "A. only occur in thunderstorms of mid-latitudes",
+        "B. are entirely composed of clear ice",
+        "C. are typically associated with severe thunderstorms",
+        "D. only occur in frontal thunderstorms"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 43,
+      "question_text": "An airmass is unstable when",
+      "question_type": "MCQ",
+      "options": [
+        "A. temperature and humidity are not constant",
+        "B. an ascending parcel of air continues to rise to a considerable height.",
+        "C. pressure shows a marked variation over a given horizontal area",
+        "D. temperature increases with height"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 44,
+      "question_text": "Which is true of a typical non frontal thermal depression?",
+      "question_type": "MCQ",
+      "options": [
+        "A. It forms over land in summer",
+        "B. It forms over the ocean in winter",
+        "C. It forms over land in summer",
+        "D. It forms over land in winter"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 45,
+      "question_text": "A cold pool",
+      "question_type": "MCQ",
+      "options": [
+        "A. develops usually in winter when very unstable maritime polar or maritime arctic air currents stream southwards along the eastern side of an extensive ridge of high pressure, in association with occluded systems",
+        "B. is usually most evident in the circulation and temperature fields of the middle troposphere and may show little or no sign on a surface chart",
+        "C. normally disappears at night and occurs almost exclusively in summer",
+        "D. occurs frequently in winter to the south of the Alps when this region is under the influence of cold north-westerly airstream"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 46,
+      "question_text": "During which stage of thunderstorm development are rotor winds characterized by roll clouds most likely to occur?",
+      "question_type": "MCQ",
+      "options": [
+        "A. Cumulus stage.",
+        "B. Mature stage.",
+        "C. Dissipating stage.",
+        "D. Cumulus stage and mature stage."
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 47,
+      "question_text": "If CAVOK is reported then",
+      "question_type": "MCQ",
+      "options": [
+        "A. no clouds are present",
+        "B. low level windshear has not been reported",
+        "C. any CB's have a base above 5000 FT",
+        "D. no low drifting snow is present"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": 48,
+      "question_text": "The dew point temperature",
+      "question_type": "MCQ",
+      "options": [
+        "A. is higher if air contains more water vapour",
+        "B. changes by cooling or warming",
+        "C. is equal to the air temperature during mist",
+        "D. is always higher than wet bulb temperature for unsaturated air"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 49,
+      "question_text": "The hailstones occur from",
+      "question_type": "MCQ",
+      "options": [
+        "A. both warm and cold clouds",
+        "B. cold clouds only",
+        "C. warm clouds only",
+        "D. NS clouds"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 50,
+      "question_text": "Hazardous vortex turbulence that might be encountered behind large aircraft is created only when that aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Using high power settings.",
+        "B. Operating at high airspeeds.",
+        "C. Developing lift.",
+        "D. Operating at high altitude."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 51,
+      "question_text": "How does the wake turbulence vortex circulate around each wingtip, when viewed from the rear:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Inward, upward, and around the wingtip.",
+        "B. Counterclockwise.",
+        "C. Outward, upward, and around the wingtip.",
+        "D. Outward, downward and around the wingtip."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 52,
+      "question_text": "In the system of high and low pressure of surface charts, which of the sentences are correct?",
+      "question_type": "MCQ",
+      "options": [
+        "A. Surface winds weak",
+        "B. Surface winds, strong and parallel to isobars",
+        "C. Surface winds, strong and below across isobar"
+      ],
+      "answer": "B"
+    }
+  ]
+}

@@ -1,0 +1,464 @@
+{
+  "book_name": "Aviation Meteorology",
+  "chapter_number": "March 2025",
+  "chapter_title": "METEOROLOGY Regular session 01 of 2025",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is a cold pool, in the northern hemisphere?",
+      "question_type": "MCQ",
+      "options": [
+        "A. Cold air found on the lee side of the Alps in winter in a cold north westerly air stream",
+        "B. Cold air brought down from the North behind frontal systems",
+        "C. Air from tropical continental origin",
+        "D. Air from Polar maritime origin only"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 2,
+      "question_text": "Sea breeze sets in by ... and dies off at",
+      "question_type": "MCQ",
+      "options": [
+        "A. Night/Day",
+        "B. Day/Night",
+        "C. Both Day and Night"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What cloud types are classified as medium cloud?",
+      "question_type": "MCQ",
+      "options": [
+        "A. Ns + Sc",
+        "B. Ac + As",
+        "C. Cb + St",
+        "D. Ci + Cs"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the approximate height of the 250hPa level?",
+      "question_type": "MCQ",
+      "options": [
+        "A. 30,000ft",
+        "B. 32,000ft",
+        "C. 39,000ft",
+        "D. 34,000ft"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is a cold pool?",
+      "question_type": "MCQ",
+      "options": [
+        "A. Found south of the Alps if there is NW airflow",
+        "B. Cool area of weather which disappears at night",
+        "C. Cold pool is most evident behind polar frontal weather in mid temperate areas with little or no sign on significant weather charts",
+        "D. Air trapped on the leeward side of mountain ranges"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 6,
+      "question_text": "The troposphere is the:",
+      "question_type": "MCQ",
+      "options": [
+        "A. part of the atmosphere below the tropopause",
+        "B. part of the atmosphere above the stratosphere",
+        "C. boundary between the mesosphere and thermosphere",
+        "D. boundary between the stratosphere and the mesosphere"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is encountered during the summer, over land, in the centre of a cold air pool?",
+      "question_type": "MCQ",
+      "options": [
+        "A. Nothing (CAVOK).",
+        "B. Showers and thunderstorms.",
+        "C. Strong westerly winds.",
+        "D. Fine weather CU."
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 8,
+      "question_text": "Which of the following describes a warm occlusion?",
+      "question_type": "MCQ",
+      "options": [
+        "A. The warmer air mass is ahead of the original warm front",
+        "B. The coldest air mass is ahead of the original warm front",
+        "C. The air mass behind the front is more unstable than the air mass ahead of the front",
+        "D. The air mass ahead of the front is drier than the air mass behind the front"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 9,
+      "question_text": "When heading South in the Southern Hemisphere you experience Starboard drift:",
+      "question_type": "MCQ",
+      "options": [
+        "A. You are flying towards a lower temperature",
+        "B. You are flying away from a lower temperature",
+        "C. You are flying towards a low pressure",
+        "D. You are flying out of a high"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 10,
+      "question_text": "How does a pilot react to heavy freezing rain at 2000 FT/AGL, when he is unable to deice, nor land?",
+      "question_type": "MCQ",
+      "options": [
+        "A. He ascends to the cold air layer above",
+        "B. He continues to fly at the same altitude",
+        "C. He turns back before the aircraft loses maneuverability",
+        "D. He descends to the warm air layer below"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 11,
+      "question_text": "The temperature at the surface is 15°C, the temperature at 1000m is 13°C. Is the atmosphere",
+      "question_type": "MCQ",
+      "options": [
+        "A. Unstable",
+        "B. Conditionally unstable",
+        "C. Stable",
+        "D. Cannot tell"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 12,
+      "question_text": "Which of the following gives conditionally unstable conditions when saturated?",
+      "question_type": "MCQ",
+      "options": [
+        "A. 1°C/100m",
+        "B. 0.65°C/100m",
+        "C. 0.49°C/100m",
+        "D. None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 13,
+      "question_text": "A layer of air can be",
+      "question_type": "MCQ",
+      "options": [
+        "A. Conditional; unstable when unsaturated and stable when saturated",
+        "B. Conditional; unstable when saturated and stable when unsaturated",
+        "C. Neutrally stable when saturated and unstable when unsaturated",
+        "D. All of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 14,
+      "question_text": "Ahead of a warm front the surface wind",
+      "question_type": "MCQ",
+      "options": [
+        "A. Backs & weakens",
+        "B. Veers & Strengthens",
+        "C. Backs & Strengthens"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 15,
+      "question_text": "Fog is reported when visibility is reduced to",
+      "question_type": "MCQ",
+      "options": [
+        "A. Less than 1000 m",
+        "B. 1000 m",
+        "C. 1000 to 2000"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 16,
+      "question_text": "RVR is reported when visibility falls below",
+      "question_type": "MCQ",
+      "options": [
+        "A. 500 m",
+        "B. 1000 m",
+        "C. 1500 m",
+        "D. 2000 m"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 17,
+      "question_text": "In TCU icing may range from light to severe type at least up to",
+      "question_type": "MCQ",
+      "options": [
+        "A. -40°C level",
+        "B. 30°C level",
+        "C. -20°C level"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 18,
+      "question_text": "When fog freezes on parked aircraft it produces",
+      "question_type": "MCQ",
+      "options": [
+        "A. Hoar Frost",
+        "B. Rime",
+        "C. Clear ice"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 19,
+      "question_text": "When and where tropical jet stream occurs",
+      "question_type": "MCQ",
+      "options": [
+        "A. All year along equator",
+        "B. In Middle East in summers",
+        "C. In winters over Russia",
+        "D. In summers over SE Asia and Central Africa"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": 20,
+      "question_text": "Halo occurs from ... cloud",
+      "question_type": "MCQ",
+      "options": [
+        "A. Low",
+        "B. Medium",
+        "C. High"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 21,
+      "question_text": "Over J&K and western Himalayas Rainfall is more in",
+      "question_type": "MCQ",
+      "options": [
+        "A. Winters",
+        "B. Summers",
+        "C. Post monsoon"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 22,
+      "question_text": "The saturated air is said to be unstable if",
+      "question_type": "MCQ",
+      "options": [
+        "A. SALR ELR",
+        "B. SALR",
+        "C. SALR>ELR"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 23,
+      "question_text": "The worst kind of turbulence is encountered in vicinity of which clouds -",
+      "question_type": "MCQ",
+      "options": [
+        "A. Rotar Clouds",
+        "B. Lenticular Clouds",
+        "C. Cap Clouds"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 24,
+      "question_text": "In Mountain waves the Rotor clouds form in",
+      "question_type": "MCQ",
+      "options": [
+        "A. Troughs",
+        "B. Ridges",
+        "C. Valley"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 25,
+      "question_text": "Cyclonic storms form over Indian seas during",
+      "question_type": "MCQ",
+      "options": [
+        "A. SW monsoon",
+        "B. Winter Season",
+        "C. Pre-Monsoon & Post Monsoon"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 26,
+      "question_text": "The monsoon current over the West coast of India is",
+      "question_type": "MCQ",
+      "options": [
+        "A. SWly",
+        "B. SEly",
+        "C. NEly",
+        "D. NEly"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 27,
+      "question_text": "During monsoon season, low pressure lies over",
+      "question_type": "MCQ",
+      "options": [
+        "A. Bay of Bengal",
+        "B. NE India",
+        "C. Central India",
+        "D. Pakistan"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": 28,
+      "question_text": "Tropical Jet stream occurs in India during",
+      "question_type": "MCQ",
+      "options": [
+        "A. Pre monsoon",
+        "B. Winters",
+        "C. Post monsoon",
+        "D. Monsoon"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": 29,
+      "question_text": "What is the boundary layer between troposphere and stratosphere called?",
+      "question_type": "MCQ",
+      "options": [
+        "A. Atmosphere.",
+        "B. Tropopause.",
+        "C. Stratosphere.",
+        "D. Ionosphere."
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 30,
+      "question_text": "An aircraft flying in the southern hemisphere at 2000 feet, has to turn to the right in order to allow for drift. In which direction, relative to the aircraft, is the centre of low pressure ?",
+      "question_type": "MCQ",
+      "options": [
+        "A. In front.",
+        "B. Behind.",
+        "C. To the left.",
+        "D. To the right."
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 31,
+      "question_text": "The sea breeze is a wind from the sea",
+      "question_type": "MCQ",
+      "options": [
+        "A. that reaches up to the tropopause in daytime",
+        "B. blowing at night in mid-latitudes",
+        "C. occurring only in mid-latitudes and in daytime",
+        "D. occurring only in the lower layers of the atmosphere in daytime"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": 32,
+      "question_text": "Which of the following conditions are you most likely to encounter when approaching an active warm front at medium to low level?",
+      "question_type": "MCQ",
+      "options": [
+        "A. Low cloud base and poor visibility",
+        "B. Severe thunderstorms at low altitude.",
+        "C. Extreme turbulence and severe lightning striking the ground.",
+        "D. High cloud base, good surface visibility, and isolated thunderstorms."
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 33,
+      "question_text": "What types of cloud will you meet flying towards a warm front ?",
+      "question_type": "MCQ",
+      "options": [
+        "A. At some 800 km CS, later AS, and at some 300 km NS until the front",
+        "B. Extensive areas of fog. At some 100 km from the front NS begin",
+        "C. At some 500 km AS, later CS and at some 80 km before the front CB",
+        "D. At some 500 km from the front, groups of CB, later at some 250 km thickening AS"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 34,
+      "question_text": "In a polar front depression, an occlusion is called a warm occlusion when the cold air",
+      "question_type": "MCQ",
+      "options": [
+        "A. in front of the surface position of front is only at a high altitude.",
+        "B. behind is colder than the cold air in front.",
+        "C. behind is less cold than the cold air in front, with the warm air at a high altitude.",
+        "D. behind is colder than the cold air in front, with the warm air being at a high altitude."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 35,
+      "question_text": "In a warm front occlusion",
+      "question_type": "MCQ",
+      "options": [
+        "A. the warm front overtakes the cold front",
+        "B. the warm front becomes a front aloft",
+        "C. the cold air is lifted",
+        "D. the warm air is lifted"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": 36,
+      "question_text": "How do you recognize a cold air pool?",
+      "question_type": "MCQ",
+      "options": [
+        "A. As a high pressure area aloft (e.g. on the 500 hPa chart).",
+        "B. A cold air pool may only be recognized on the surface chart as a low pressure area.",
+        "C. As a low pressure area aloft (e.g. on the 500 hPa chart).",
+        "D. A cold air pool may only be recognized on the surface chart as a high pressure area."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 37,
+      "question_text": "How does a pilot react to heavy freezing rain at 2000 FT/AGL, when he is unable to deice, nor land?",
+      "question_type": "MCQ",
+      "options": [
+        "A. He descends to the warm air layer below.",
+        "B. He ascends to the cold air layer above.",
+        "C. He turns back before the aircraft loses manoeuvrability",
+        "D. He continues to fly at the same altitude."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 38,
+      "question_text": "'TAF AMD' covers validity period",
+      "question_type": "MCQ",
+      "options": [
+        "A. The remaining validity period of original TAF",
+        "B. half the validity period of the TAF",
+        "C. the validity starting 2 hr prior to the end period of original TAF",
+        "D. full validity period of the TAF"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 39,
+      "question_text": "Hazardous vortex turbulence that might be encountered behind large aircraft is created only when that aircraft is:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Using high power settings.",
+        "B. Operating at high airspeeds.",
+        "C. Developing lift.",
+        "D. Operating at high altitude."
+      ],
+      "answer": "C"
+    }
+  ]
+}

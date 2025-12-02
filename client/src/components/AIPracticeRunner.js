@@ -8,6 +8,10 @@ import debugLog from '../utils/debug';
 import regularMarch2024Data from '../data/meteorology-regular-march-2024.json';
 import regularDecemberAttemptData from '../data/meteorology-regular-december-attempt.json';
 import regularSep2023Data from '../data/meteorology-regular-sep-2023.json';
+import olodeSession072025Data from '../data/meteorology-olode-session-07-2025.json';
+import regularMarch2025Data from '../data/meteorology-regular-march-2025-session.json';
+import olodeMay2025Data from '../data/meteorology-olode-may-2025-session.json';
+import olodeNov2024Data from '../data/meteorology-olode-nov-2024-session.json';
 
 const friendly = (slug) => (slug || '')
   .split('-')
@@ -163,6 +167,42 @@ const sessionQuestionSets = {
       text: q.full_question_text,
       options: q.options,
       answer: q.solution
+    }))
+  },
+  'olode-session-07-2025': {
+    bookName: olodeSession072025Data.book_name,
+    chapterName: olodeSession072025Data.chapter_title,
+    questions: olodeSession072025Data.questions.map((q) => ({
+      text: q.full_question_text,
+      options: q.options,
+      answer: q.solution
+    }))
+  },
+  'regular-march-2025': {
+    bookName: regularMarch2025Data.book_name,
+    chapterName: regularMarch2025Data.chapter_title,
+    questions: regularMarch2025Data.questions.map((q) => ({
+      text: q.question_text,
+      options: q.options,
+      answer: q.answer
+    }))
+  },
+  'olode-may-2025': {
+    bookName: olodeMay2025Data.book_name,
+    chapterName: olodeMay2025Data.chapter_title,
+    questions: olodeMay2025Data.questions.map((q) => ({
+      text: q.question_text,
+      options: q.options,
+      answer: q.answer
+    }))
+  },
+  'olode-nov-2024': {
+    bookName: olodeNov2024Data.book_name,
+    chapterName: olodeNov2024Data.chapter_title,
+    questions: olodeNov2024Data.questions.map((q) => ({
+      text: q.question_text,
+      options: q.options,
+      answer: q.answer
     }))
   }
 };
