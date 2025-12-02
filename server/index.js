@@ -11,6 +11,7 @@ const rateLimit = require('express-rate-limit');
 require('dotenv').config();
 const path = require('path');
 const fs = require('fs');
+const { resolvePracticeQuestionFile } = require('./utils/practiceQuestions');
 
 const authRoutes = require('./routes/auth');
 const subjectRoutes = require('./routes/subjects');
@@ -27,96 +28,6 @@ const { ZodError } = require('zod');
 // const { errorHandler, notFound } = require('./utils/errorHandler');
 
 const app = express();
-const practiceQuestionsDir = path.join(__dirname, 'practice-questions');
-
-const PRACTICE_BOOK_SLUG_MAPPING = {
-  'air-law': 'oxford',
-  'human-performance-and-limitations': 'human-performance',
-  'oxford': 'oxford',
-  'cae-oxford': 'oxford',
-  'rk-bali': 'rk-bali',
-  'ic-joshi': 'ic-joshi',
-  'general-navigation': 'cae-oxford-general-navigation',
-  'cae-oxford-general-navigation': 'cae-oxford-general-navigation',
-  'cae-oxford-flight-planning': 'cae-oxford-flight-planning',
-  'cae-oxford-flight-planning-monitoring': 'cae-oxford-flight-planning',
-  'cae-oxford-performance': 'cae-oxford-performance',
-  'cae-oxford-radio-navigation': 'cae-oxford-radio-navigation',
-  'cae-oxford-powerplant': 'cae-oxford-powerplant',
-  'powerplant': 'cae-oxford-powerplant',
-  'cae-oxford-principles-of-flight': 'cae-oxford-principles-of-flight',
-  'principles-of-flight': 'cae-oxford-principles-of-flight',
-  'cae-oxford-navigation': 'cae-oxford-navigation',
-  'operational-procedures': 'operational-procedures',
-  'instrument-2014': 'instrument',
-  'instrument': 'instrument',
-  'cae-oxford-meteorology': 'cae-oxford',
-  'cae-oxford-radio-telephony': 'cae-oxford',
-  'mass-and-balance-and-performance': 'mass-and-balance-and-performance',
-  'mass-and-balance': 'mass-and-balance-and-performance'
-};
-
-const resolvePracticeQuestionFile = (bookParam, chapterParam) => {
-  const book = (bookParam || '').toLowerCase();
-  const chapter = (chapterParam || '').toLowerCase();
-  let filePrefix = PRACTICE_BOOK_SLUG_MAPPING[book] || book;
-  let filePath;
-
-  if (chapter) {
-    filePath = path.join(practiceQuestionsDir, `${filePrefix}-${chapter}.json`);
-
-    if (!fs.existsSync(filePath)) {
-      const alternativePrefixes = [];
-
-      if (book === 'cae-oxford' && filePrefix === 'oxford') {
-        alternativePrefixes.push('cae-oxford');
-      }
-
-      if (book === 'mass-and-balance-and-performance' || filePrefix === 'mass-and-balance-and-performance') {
-        alternativePrefixes.push('mass-and-balance');
-        alternativePrefixes.push('performance');
-      }
-
-      if (book !== filePrefix) {
-        alternativePrefixes.push(book);
-      }
-
-      for (const altPrefix of alternativePrefixes) {
-        const altFilePath = path.join(practiceQuestionsDir, `${altPrefix}-${chapter}.json`);
-        if (fs.existsSync(altFilePath)) {
-          filePath = altFilePath;
-          filePrefix = altPrefix;
-          break;
-        }
-      }
-    }
-
-    if (!fs.existsSync(filePath)) {
-      if (!fs.existsSync(practiceQuestionsDir)) {
-        return { book, chapter, filePath: null };
-      }
-
-      const allFiles = fs.readdirSync(practiceQuestionsDir).filter(f => f.endsWith('.json'));
-      const matchingFile = allFiles.find(f => {
-        const fileBase = f.replace('.json', '');
-        return fileBase.endsWith(`-${chapter}`) || fileBase === chapter || fileBase.includes(`-${chapter}-`);
-      });
-
-      if (matchingFile) {
-        filePath = path.join(practiceQuestionsDir, matchingFile);
-      } else {
-        return { book, chapter, filePath: null };
-      }
-    }
-  } else {
-    filePath = path.join(practiceQuestionsDir, `${filePrefix}.json`);
-    if (!fs.existsSync(filePath)) {
-      return { book, chapter: null, filePath: null };
-    }
-  }
-
-  return { book, chapter, filePath };
-};
 
 // Security middleware
 app.use(helmet({
@@ -242,6 +153,67 @@ app.get('/api/practice-books', (req, res) => {
     res.json({ items, total: items.length });
   } catch (err) {
     res.status(500).json({ message: 'Failed to load practice books' });
+  }
+});
+
+// Dynamic chapter list with question counts per practice book
+app.get('/api/practice-books/:book/chapters', (req, res) => {
+  try {
+    const rawBooks = fs.readFileSync(path.join(__dirname, 'data', 'books.json'), 'utf-8');
+    const rawChapters = fs.readFileSync(path.join(__dirname, 'data', 'chapters.json'), 'utf-8');
+    const books = JSON.parse(rawBooks);
+    const chapters = JSON.parse(rawChapters);
+
+    const bookSlug = (req.params.book || '').toLowerCase();
+
+    const dbBook = books.find(b => (b.id || '').toLowerCase() === bookSlug);
+    const attachedChapters = Array.isArray(dbBook?.chapters) ? dbBook.chapters : [];
+
+    // Merge attached chapters (from books.json) with chapters.json metadata when available
+    const merged = attachedChapters.map(ch => {
+      const chapterMeta = chapters.find(c => c.id === ch.id && c.bookId === dbBook.id) || {};
+      const title = chapterMeta.name || ch.name;
+      const slugFromMeta = chapterMeta.slug;
+      const inferredSlug = (title || '')
+        .toLowerCase()
+        .replace(/\(([^)]+)\)/g, (_m, acronym) => `-${acronym.toLowerCase()}`)
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/(^-|-$)+/g, '');
+      const effectiveSlug = (slugFromMeta || inferredSlug || '').toLowerCase();
+
+      return {
+        id: ch.id,
+        title,
+        slug: effectiveSlug,
+      };
+    });
+
+    const chaptersWithCounts = merged.map(ch => {
+      const { filePath } = resolvePracticeQuestionFile(bookSlug, ch.slug);
+      if (!filePath) {
+        return { ...ch, questionCount: 0 };
+      }
+      try {
+        const raw = fs.readFileSync(filePath, 'utf-8');
+        const data = JSON.parse(raw);
+        const questionCount = Array.isArray(data.questions) ? data.questions.length : 0;
+        return { ...ch, questionCount };
+      } catch {
+        return { ...ch, questionCount: 0 };
+      }
+    });
+
+    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+    res.setHeader('Pragma', 'no-cache');
+    res.setHeader('Expires', '0');
+    res.json({
+      bookId: bookSlug,
+      chapters: chaptersWithCounts,
+      totalChapters: chaptersWithCounts.length,
+    });
+  } catch (err) {
+    console.error('Error building practice book chapters:', err);
+    res.status(500).json({ message: 'Failed to load chapters for practice book' });
   }
 });
 

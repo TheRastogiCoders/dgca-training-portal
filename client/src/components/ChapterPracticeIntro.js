@@ -3,7 +3,6 @@ import { useNavigate, useParams, Link } from 'react-router-dom';
 import Card from './ui/Card';
 import SiteSidebar from './SiteSidebar';
 import { resolveChapterSlug } from '../utils/chapterSlug';
-import { fetchChapterQuestionMetadata } from '../utils/practiceQuestionsApi';
 
 const friendly = (slug) => (slug || '')
   .split('-')
@@ -28,13 +27,28 @@ const ChapterPracticeIntro = () => {
       setIsLoading(true);
       setError('');
       try {
-        const data = await fetchChapterQuestionMetadata({
-          subjectSlug,
-          bookSlug,
-          chapterSlug: resolvedChapterSlug
-        });
+        const res = await fetch(`/api/practice-books/${encodeURIComponent(bookSlug)}/chapters`);
+        if (!res.ok) {
+          throw new Error(`Failed to load chapter info (${res.status})`);
+        }
+        const data = await res.json();
+        const list = Array.isArray(data.chapters) ? data.chapters : [];
+        const lower = (resolvedChapterSlug || '').toLowerCase();
+        const match = list.find(ch => (ch.slug || '').toLowerCase() === lower);
         if (!active) return;
-        setMetadata(data);
+        if (match) {
+          setMetadata({
+            chapterSlug: match.slug,
+            chapterTitle: match.title,
+            questionCount: match.questionCount || 0,
+          });
+        } else {
+          setMetadata({
+            chapterSlug: resolvedChapterSlug,
+            chapterTitle: friendly(chapterSlug),
+            questionCount: 0,
+          });
+        }
       } catch (err) {
         if (!active) return;
         setError('Failed to load question info');
@@ -74,12 +88,12 @@ const ChapterPracticeIntro = () => {
         <Card className="p-6 md:p-8">
           <div className="mb-6">
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-              {friendly(subjectSlug)} • {friendly(chapterSlug)}
+              {friendly(subjectSlug)} • {metadata?.chapterTitle || friendly(chapterSlug)}
             </h1>
             {canPractice ? (
               <p className="text-gray-600">Practice sets are available for this chapter.</p>
             ) : (
-              <p className="text-gray-600">Questions are not available right now for this chapter.</p>
+              <p className="text-gray-600">This chapter does not include any questions.</p>
             )}
             {error && (
               <p className="text-sm text-red-600 mt-2">{error}</p>
