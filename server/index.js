@@ -255,6 +255,35 @@ app.get('/api/practice-questions/:book/count', (req, res) => {
 });
 
 // Serve practice questions by book slug
+// Handle chapters for practice books
+app.get('/api/practice-books/:book/chapters', (req, res) => {
+  try {
+    const bookSlug = req.params.book.toLowerCase();
+    const filePath = path.join(__dirname, 'data', 'chapters', `${bookSlug}.json`);
+    
+    if (!fs.existsSync(filePath)) {
+      console.log(`Chapter file not found: ${filePath}`);
+      return res.json({ chapters: [] });
+    }
+
+    const raw = fs.readFileSync(filePath, 'utf-8');
+    const data = JSON.parse(raw);
+    console.log(`[API] Loaded chapters for ${bookSlug}`);
+    
+    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+    res.setHeader('Pragma', 'no-cache');
+    res.setHeader('Expires', '0');
+    res.json(data);
+  } catch (err) {
+    console.error('Error loading chapters:', err);
+    res.status(500).json({ 
+      message: 'Failed to load chapters', 
+      error: err.message 
+    });
+  }
+});
+
+// Handle practice questions for a book
 app.get('/api/practice-questions/:book', (req, res) => {
   try {
     const chapterParam = req.query.chapter || '';

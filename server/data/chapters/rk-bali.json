@@ -1,0 +1,34 @@
+{
+  "book": "rk-bali",
+  "title": "R.K. Bali's DGCA Exam Guide",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Air Regulations",
+      "slug": "air-regulations",
+      "questionCount": 120,
+      "description": "Rules and regulations for air navigation"
+    },
+    {
+      "id": "ch2",
+      "title": "Air Navigation",
+      "slug": "air-navigation",
+      "questionCount": 95,
+      "description": "Navigation techniques and procedures"
+    },
+    {
+      "id": "ch3",
+      "title": "Meteorology",
+      "slug": "meteorology",
+      "questionCount": 110,
+      "description": "Weather patterns and aviation weather services"
+    },
+    {
+      "id": "ch4",
+      "title": "Technical General",
+      "slug": "technical-general",
+      "questionCount": 150,
+      "description": "General technical knowledge for pilots"
+    }
+  ]
+}
