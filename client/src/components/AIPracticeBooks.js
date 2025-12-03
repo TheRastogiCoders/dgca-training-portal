@@ -91,7 +91,7 @@ const availableSessions = {
 };
 const subjectSessions = {
   'meteorology': [
-    { slug: 'olode-session-07-2025', title: 'OLODE SESSION 07 2025 (31st Oct, 2025)', window: 'OLODE Paper', badge: 'Latest', questionCount: 38, accent: 'from-[#6a11cb] to-[#2575fc]' },
+    { slug: 'olode-session-07-2025', title: 'OLODE SESSION 07 2025', window: 'OLODE Paper', badge: 'Latest', questionCount: 38, accent: 'from-[#6a11cb] to-[#2575fc]' },
     { slug: 'olode-may-2025', title: 'OLODE MAY 2025 SESSION', window: 'OLODE Paper', badge: 'Latest', questionCount: 52, accent: 'from-[#ff512f] to-[#dd2476]' },
     { slug: 'olode-nov-2024-session', title: 'OLODE NOV 2024 SESSION', window: 'OLODE Paper', badge: 'Available', questionCount: 50, accent: 'from-[#1d976c] to-[#93f9b9]' },
     { slug: 'regular-march-2025', title: 'MARCH 2025 REGULAR', window: 'Regular Series', badge: 'Latest', questionCount: 52, accent: 'from-[#f7971e] to-[#ffd200]' },
@@ -204,7 +204,7 @@ const subjectSessions = {
     },
     { 
       slug: 'gen-regular-june-2025-session2', 
-      title: 'TECHNICAL Regular session 02 of 2025 (June 2025)', 
+      title: 'TECHNICAL Regular session 02 of 2025', 
       window: 'Regular Series', 
       badge: 'Available', 
       questionCount: 18, 
