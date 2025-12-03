@@ -167,6 +167,59 @@ const QuestionBank = () => {
     }
   ];
 
+  // Air Regulations specific books
+  const airRegulationsBooks = [
+    {
+      id: 1,
+      title: "CAE Oxford",
+      description: "CPL/ATPL Ground Training Series",
+      icon: "📘",
+      color: "from-blue-500 to-blue-600",
+      slug: "cae-oxford",
+      totalQuestions: 520,
+      difficulty: "Medium",
+      chapters: [
+        { id: 1, name: "Civil Aviation Rules", questions: 120, difficulty: "Medium" },
+        { id: 2, name: "Air Traffic Control", questions: 150, difficulty: "Hard" },
+        { id: 3, name: "Flight Operations", questions: 100, difficulty: "Medium" },
+        { id: 4, name: "Aircraft Registration", questions: 50, difficulty: "Easy" },
+        { id: 5, name: "Licensing & Certification", questions: 100, difficulty: "Medium" }
+      ]
+    },
+    {
+      id: 2,
+      title: "RK Bali",
+      description: "CPL/ATPL Ground Training Series",
+      icon: "📗",
+      color: "from-emerald-500 to-green-600",
+      slug: "rk-bali",
+      totalQuestions: 1250,
+      difficulty: "Medium",
+      chapters: [
+        { id: 1, name: "Aerodrome Control Tower Service", questions: 45, difficulty: "Medium", slug: "aerodrome-control-tower-service" },
+        { id: 2, name: "Aeronautical Information Services", questions: 38, difficulty: "Medium", slug: "aeronautical-information-services" },
+        { id: 3, name: "Air Traffic Services", questions: 42, difficulty: "Medium", slug: "air-traffic-services" },
+        { id: 4, name: "Aircraft Accident and Incident", questions: 36, difficulty: "Medium", slug: "aircraft-accident-and-incident" },
+        { id: 5, name: "Aircraft Instruments and Equipment", questions: 52, difficulty: "Medium", slug: "aircraft-instruments-and-equipment" },
+        { id: 6, name: "Aircraft Marking and Registration", questions: 28, difficulty: "Easy", slug: "aircraft-marking-and-registration" },
+        { id: 7, name: "Aircraft Rules", questions: 65, difficulty: "Medium", slug: "aircraft-rules" },
+        { id: 8, name: "Airworthiness", questions: 41, difficulty: "Medium", slug: "airworthiness" },
+        { id: 9, name: "Approach Control Service", questions: 39, difficulty: "Medium", slug: "approach-control-service" },
+        { id: 10, name: "Carriage of Dangerous Goods", questions: 33, difficulty: "Hard", slug: "carriage-of-dangerous-goods" },
+        { id: 11, name: "Carriage of Munitions of War", questions: 27, difficulty: "Medium", slug: "carriage-of-munitions-of-war" },
+        { id: 12, name: "Carriage of Weapons", questions: 22, difficulty: "Medium", slug: "carriage-of-weapons" },
+        { id: 13, name: "Carriage of Persons", questions: 31, difficulty: "Easy", slug: "carriage-of-persons" },
+        { id: 14, name: "Carriage of Goods", questions: 35, difficulty: "Medium", slug: "carriage-of-goods" },
+        { id: 15, name: "Carriage of Mail", questions: 18, difficulty: "Easy", slug: "carriage-of-mail" },
+        { id: 16, name: "Carriage of Animals", questions: 15, difficulty: "Easy", slug: "carriage-of-animals" },
+        { id: 17, name: "Carriage of Human Remains", questions: 12, difficulty: "Easy", slug: "carriage-of-human-remains" },
+        { id: 18, name: "Carriage of Valuable Cargo", questions: 14, difficulty: "Medium", slug: "carriage-of-valuable-cargo" },
+        { id: 19, name: "Carriage of Live Animals", questions: 16, difficulty: "Medium", slug: "carriage-of-live-animals" },
+        { id: 20, name: "Carriage of Perishable Cargo", questions: 19, difficulty: "Medium", slug: "carriage-of-perishable-cargo" }
+      ]
+    }
+  ];
+
   // Technical General specific books
   const technicalGeneralBooks = [
     {
@@ -781,7 +834,7 @@ const technicalSpecificBooks = [
       return allBooks.filter(book => book.title === "CAE Oxford");
     }
     if (subject?.title === "Air Regulations") {
-      return allBooks.filter(book => ["CAE Oxford", "RK Bali"].includes(book.title));
+      return airRegulationsBooks;
     }
     if (subject?.title === "Air Navigation") {
       return allBooks.filter(book => ["CAE Oxford", "RK Bali"].includes(book.title));

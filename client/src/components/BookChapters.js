@@ -59,6 +59,7 @@ const BookChapters = () => {
 
   const load = async () => {
     if (!bookSlug) return;
+
     setIsLoading(true);
     try {
       debugLog('Loading chapters from /api/practice-books/:book/chapters');
@@ -67,13 +68,33 @@ const BookChapters = () => {
         throw new Error(`Failed to load chapters (${res.status})`);
       }
       const data = await res.json();
-      const list = Array.isArray(data.chapters) ? data.chapters : [];
-      setChapters(list.map((ch, index) => ({
-        id: ch.id || String(index + 1),
-        title: ch.title,
-        questionCount: ch.questionCount || 0,
-        chapterSlug: ch.slug,
-      })));
+      debugLog('Chapters API response:', data);
+      
+      let list = [];
+      if (Array.isArray(data.chapters)) {
+        list = data.chapters;
+      } else if (data.chapters && typeof data.chapters === 'object') {
+        // Handle case where chapters is an object instead of array
+        list = Object.values(data.chapters);
+      }
+      
+      debugLog('Processed chapters list:', list);
+      
+      const mappedChapters = list.map((ch, index) => {
+        // Handle different possible property names for title and slug
+        const title = ch.title || ch.name || `Chapter ${index + 1}`;
+        const slug = ch.slug || ch.id || title.toLowerCase().replace(/\s+/g, '-');
+        
+        return {
+          id: ch.id || `ch-${index + 1}`,
+          title: title,
+          questionCount: ch.questionCount || 0,
+          chapterSlug: slug,
+          hasQuestions: ch.questionCount > 0
+        };
+      });
+      
+      setChapters(mappedChapters);
     } catch (error) {
       debugLog('Error loading dynamic chapters:', error);
       setChapters([]);
@@ -157,13 +178,14 @@ return (
         {isLoading ? (
           <div className="text-center py-8 w-full">
             <div className="animate-spin rounded-full h-12 w-12 border-4 border-blue-500 border-t-transparent mx-auto"></div>
-            <p className="text-sm text-gray-500 mt-4">Loading chapters...</p>
+            <p className="text-sm text-gray-500 mt-4">Loading chapters for {book.title}...</p>
           </div>
         ) : chapters.length === 0 ? (
           <div className="text-center py-12">
             <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 mb-4 max-w-md mx-auto">
               <p className="font-bold">No chapters found</p>
-              <p className="text-sm">We couldn't load any chapters for this book.</p>
+              <p className="text-sm">We couldn't load any chapters for {book.title}.</p>
+              <p className="text-xs mt-2">Book ID: {bookSlug} | Subject: {subject.title}</p>
             </div>
             <button
               onClick={handleRefresh}

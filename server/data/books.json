@@ -310,16 +310,115 @@
     ]
   },
   {
-    "id": "rk-bali-air-regulations",
+    "id": "rk-bali",
     "name": "RK Bali Air Regulations",
     "author": "RK Bali",
     "subject": "Air Regulations",
     "chapters": [
       {
-        "id": "rk-ch1",
-        "name": "Civil Aviation Rules",
-        "pageStart": 1,
-        "pageEnd": 120
+        "id": "rk-bali-ch-01",
+        "name": "Aerodrome Control Tower Service",
+        "slug": "aerodrome-control-tower-service"
+      },
+      {
+        "id": "rk-bali-ch-02",
+        "name": "Aeronautical Information Services",
+        "slug": "aeronautical-information-services"
+      },
+      {
+        "id": "rk-bali-ch-03",
+        "name": "Air Traffic Services",
+        "slug": "air-traffic-services"
+      },
+      {
+        "id": "rk-bali-ch-04",
+        "name": "Aircraft Accident and Incident",
+        "slug": "aircraft-accident-and-incident"
+      },
+      {
+        "id": "rk-bali-ch-05",
+        "name": "Aircraft Nationality and Registration Marks",
+        "slug": "aircraft-nationality-and-registration-marks"
+      },
+      {
+        "id": "rk-bali-ch-06",
+        "name": "Aircraft Operations",
+        "slug": "aircraft-operations"
+      },
+      {
+        "id": "rk-bali-ch-07",
+        "name": "Airworthiness of Aircraft",
+        "slug": "airworthiness-of-aircraft"
+      },
+      {
+        "id": "rk-bali-ch-08",
+        "name": "Approach Control Service",
+        "slug": "approach-control-service"
+      },
+      {
+        "id": "rk-bali-ch-09",
+        "name": "Area Control",
+        "slug": "area-control"
+      },
+      {
+        "id": "rk-bali-ch-10",
+        "name": "Communications",
+        "slug": "communications"
+      },
+      {
+        "id": "rk-bali-ch-11",
+        "name": "Facilitation",
+        "slug": "facilitation"
+      },
+      {
+        "id": "rk-bali-ch-12",
+        "name": "Human Performance and Limitations",
+        "slug": "human-performance-and-limitations"
+      },
+      {
+        "id": "rk-bali-ch-13",
+        "name": "International Organizations and Conventions",
+        "slug": "international-organizations-and-conventions"
+      },
+      {
+        "id": "rk-bali-ch-14",
+        "name": "National Law",
+        "slug": "national-law"
+      },
+      {
+        "id": "rk-bali-ch-15",
+        "name": "Personnel Licencing",
+        "slug": "personnel-licencing"
+      },
+      {
+        "id": "rk-bali-ch-16",
+        "name": "Rules of the Air",
+        "slug": "rules-of-the-air"
+      },
+      {
+        "id": "rk-bali-ch-17",
+        "name": "Search and Rescue",
+        "slug": "search-and-rescue"
+      },
+      {
+        "id": "rk-bali-ch-18",
+        "name": "Security Safeguarding International Civil Aviation Against Acts of Unlawful Interference",
+        "slug": "security-safeguarding-international-civil-aviation-against-acts-of-unlawful-interference"
+      },
+      {
+        "id": "rk-bali-ch-19",
+        "name": "Special Operational Procedures and Hazards (General Aspects)",
+        "slug": "special-operational-procedures-and-hazards-general-aspects"
+      },
+      {
+        "id": "rk-bali-ch-20",
+        "name": "Use of Air Traffic Services Surveillance System",
+        "slug": "use-of-air-traffic-services-surveillance-system"
+      },
+      {
+        "id": "rk-bali-ch-21",
+        "name": "Visual Aids for Navigation",
+        "slug": "visual-aids-for-navigation"
       }
     ]
   },
