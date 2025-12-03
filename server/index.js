@@ -156,23 +156,61 @@ app.get('/api/practice-books', (req, res) => {
   }
 });
 
-// Dynamic chapter list with question counts per practice book
+// Dynamic chapter list with fallback to per-book JSON overrides
 app.get('/api/practice-books/:book/chapters', (req, res) => {
+  const sendResponse = (payload) => {
+    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+    res.setHeader('Pragma', 'no-cache');
+    res.setHeader('Expires', '0');
+    res.json(payload);
+  };
+
   try {
+    const bookSlug = (req.params.book || '').toLowerCase();
+    const customFilePath = path.join(__dirname, 'data', 'chapters', `${bookSlug}.json`);
+
+    if (fs.existsSync(customFilePath)) {
+      const raw = fs.readFileSync(customFilePath, 'utf-8');
+      const data = JSON.parse(raw);
+      const list = Array.isArray(data.chapters) ? data.chapters : [];
+      const normalized = list.map((ch, index) => {
+        const title = ch.title || ch.name || `Chapter ${index + 1}`;
+        const slug = (ch.slug || ch.chapterSlug || ch.id || title)
+          .toString()
+          .toLowerCase()
+          .replace(/\s+/g, '-')
+          .replace(/[^a-z0-9-]/g, '')
+          .replace(/-{2,}/g, '-')
+          .replace(/(^-|-$)/g, '');
+
+        return {
+          id: ch.id || `ch-${index + 1}`,
+          title,
+          slug,
+          questionCount: Number(ch.questionCount) || 0,
+          description: ch.description || '',
+        };
+      });
+
+      sendResponse({
+        bookId: data.book || bookSlug,
+        chapters: normalized,
+        totalChapters: normalized.length,
+      });
+      return;
+    }
+
     const rawBooks = fs.readFileSync(path.join(__dirname, 'data', 'books.json'), 'utf-8');
     const rawChapters = fs.readFileSync(path.join(__dirname, 'data', 'chapters.json'), 'utf-8');
     const books = JSON.parse(rawBooks);
     const chapters = JSON.parse(rawChapters);
 
-    const bookSlug = (req.params.book || '').toLowerCase();
-
     const dbBook = books.find(b => (b.id || '').toLowerCase() === bookSlug);
     const attachedChapters = Array.isArray(dbBook?.chapters) ? dbBook.chapters : [];
 
-    // Merge attached chapters (from books.json) with chapters.json metadata when available
     const merged = attachedChapters.map(ch => {
-      const chapterMeta = chapters.find(c => c.id === ch.id && c.bookId === dbBook.id) || {};
-      const title = chapterMeta.name || ch.name;
+      const chapterMeta = chapters.find(c => c.id === ch.id && c.bookId === dbBook?.id) || {};
+      const title = chapterMeta.name || ch.name || ch.title;
       const slugFromMeta = chapterMeta.slug;
       const inferredSlug = (title || '')
         .toLowerCase()
@@ -203,10 +241,7 @@ app.get('/api/practice-books/:book/chapters', (req, res) => {
       }
     });
 
-    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
-    res.setHeader('Pragma', 'no-cache');
-    res.setHeader('Expires', '0');
-    res.json({
+    sendResponse({
       bookId: bookSlug,
       chapters: chaptersWithCounts,
       totalChapters: chaptersWithCounts.length,
@@ -251,35 +286,6 @@ app.get('/api/practice-questions/:book/count', (req, res) => {
   } catch (err) {
     console.error('Error loading practice question count:', err);
     res.status(500).json({ message: 'Failed to load question count', error: err.message });
-  }
-});
-
-// Serve practice questions by book slug
-// Handle chapters for practice books
-app.get('/api/practice-books/:book/chapters', (req, res) => {
-  try {
-    const bookSlug = req.params.book.toLowerCase();
-    const filePath = path.join(__dirname, 'data', 'chapters', `${bookSlug}.json`);
-    
-    if (!fs.existsSync(filePath)) {
-      console.log(`Chapter file not found: ${filePath}`);
-      return res.json({ chapters: [] });
-    }
-
-    const raw = fs.readFileSync(filePath, 'utf-8');
-    const data = JSON.parse(raw);
-    console.log(`[API] Loaded chapters for ${bookSlug}`);
-    
-    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
-    res.setHeader('Pragma', 'no-cache');
-    res.setHeader('Expires', '0');
-    res.json(data);
-  } catch (err) {
-    console.error('Error loading chapters:', err);
-    res.status(500).json({ 
-      message: 'Failed to load chapters', 
-      error: err.message 
-    });
   }
 });
 

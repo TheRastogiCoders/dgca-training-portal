@@ -5,6 +5,7 @@ import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 import { resolveChapterSlug } from '../utils/chapterSlug';
 import debugLog from '../utils/debug';
+import { API_ENDPOINTS } from '../config/api';
 
 const friendly = (slug) => (slug || '')
   .split('-')
@@ -70,25 +71,34 @@ const BookChapters = () => {
     setError(null);
     
     try {
-      const apiUrl = `/api/practice-books/${encodeURIComponent(bookSlug)}/chapters`;
-      console.log(`Fetching chapters from: ${apiUrl}`);
-      
-      const response = await fetch(apiUrl, {
-        headers: {
-          'Cache-Control': 'no-cache',
-          'Pragma': 'no-cache'
+      const encodedSlug = encodeURIComponent(bookSlug);
+      const primaryUrl = `${API_ENDPOINTS.PRACTICE_BOOKS}/${encodedSlug}/chapters`;
+      const fallbackUrl = `/api/practice-books/${encodedSlug}/chapters`;
+
+      const attemptFetch = async (url, label) => {
+        debugLog(`[Frontend] Loading chapters (${label}) → ${url}`);
+        const response = await fetch(url, {
+          headers: {
+            'Cache-Control': 'no-cache',
+            'Pragma': 'no-cache'
+          }
+        });
+
+        if (!response.ok) {
+          const errorText = await response.text().catch(() => '');
+          throw new Error(`(${label}) Failed to load chapters (${response.status}): ${errorText || 'Unknown error'}`);
         }
-      });
-      
-      console.log('Response status:', response.status);
-      
-      if (!response.ok) {
-        const errorText = await response.text();
-        console.error('API Error Response:', errorText);
-        throw new Error(`Failed to load chapters (${response.status}): ${errorText || 'Unknown error'}`);
+
+        return response.json();
+      };
+
+      let data;
+      try {
+        data = await attemptFetch(primaryUrl, 'primary');
+      } catch (primaryErr) {
+        debugLog('[Frontend] Primary chapters request failed, trying fallback', primaryErr);
+        data = await attemptFetch(fallbackUrl, 'fallback');
       }
-      
-      const data = await response.json();
       console.log('Chapters API response:', data);
       
       if (!data || !data.chapters) {
