@@ -4,31 +4,108 @@
   "chapters": [
     {
       "id": "ch1",
-      "title": "Air Regulations",
-      "slug": "air-regulations",
-      "questionCount": 120,
-      "description": "Rules and regulations for air navigation"
+      "title": "Aerodrome Control Tower Service",
+      "slug": "aerodrome-control-tower-service"
     },
     {
       "id": "ch2",
-      "title": "Air Navigation",
-      "slug": "air-navigation",
-      "questionCount": 95,
-      "description": "Navigation techniques and procedures"
+      "title": "Aeronautical Information Services",
+      "slug": "aeronautical-information-services"
     },
     {
       "id": "ch3",
-      "title": "Meteorology",
-      "slug": "meteorology",
-      "questionCount": 110,
-      "description": "Weather patterns and aviation weather services"
+      "title": "Air Traffic Services",
+      "slug": "air-traffic-services"
     },
     {
       "id": "ch4",
-      "title": "Technical General",
-      "slug": "technical-general",
-      "questionCount": 150,
-      "description": "General technical knowledge for pilots"
+      "title": "Aircraft Accident and Incident",
+      "slug": "aircraft-accident-and-incident"
+    },
+    {
+      "id": "ch5",
+      "title": "Aircraft Nationality and Registration Marks",
+      "slug": "aircraft-nationality-and-registration-marks"
+    },
+    {
+      "id": "ch6",
+      "title": "Aircraft Operations",
+      "slug": "aircraft-operations"
+    },
+    {
+      "id": "ch7",
+      "title": "Airworthiness of Aircraft",
+      "slug": "airworthiness-of-aircraft"
+    },
+    {
+      "id": "ch8",
+      "title": "Approach Control Service",
+      "slug": "approach-control-service"
+    },
+    {
+      "id": "ch9",
+      "title": "Area Control",
+      "slug": "area-control"
+    },
+    {
+      "id": "ch10",
+      "title": "Communications",
+      "slug": "communications"
+    },
+    {
+      "id": "ch11",
+      "title": "Facilitation",
+      "slug": "facilitation"
+    },
+    {
+      "id": "ch12",
+      "title": "Human Performance and Limitations",
+      "slug": "human-performance-and-limitations"
+    },
+    {
+      "id": "ch13",
+      "title": "International Organizations and Conventions",
+      "slug": "international-organizations-and-conventions"
+    },
+    {
+      "id": "ch14",
+      "title": "National Law",
+      "slug": "national-law"
+    },
+    {
+      "id": "ch15",
+      "title": "Personnel Licencing",
+      "slug": "personnel-licencing"
+    },
+    {
+      "id": "ch16",
+      "title": "Rules of the Air",
+      "slug": "rules-of-the-air"
+    },
+    {
+      "id": "ch17",
+      "title": "Search and Rescue",
+      "slug": "search-and-rescue"
+    },
+    {
+      "id": "ch18",
+      "title": "Security Safeguarding International Civil Aviation",
+      "slug": "security-safeguarding-international-civil-aviation"
+    },
+    {
+      "id": "ch19",
+      "title": "Special Operational Procedures and Hazards",
+      "slug": "special-operational-procedures-and-hazards"
+    },
+    {
+      "id": "ch20",
+      "title": "Use of Air Traffic Services Surveillance System",
+      "slug": "use-of-air-traffic-services-surveillance-system"
+    },
+    {
+      "id": "ch21",
+      "title": "Visual Aids for Navigation",
+      "slug": "visual-aids-for-navigation"
     }
   ]
 }
