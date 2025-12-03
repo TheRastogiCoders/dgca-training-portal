@@ -158,6 +158,21 @@ app.get('/api/practice-books', (req, res) => {
 
 // Dynamic chapter list with fallback to per-book JSON overrides
 app.get('/api/practice-books/:book/chapters', (req, res) => {
+  const computeQuestionCount = (bookSlug, slug) => {
+    try {
+      const { filePath } = resolvePracticeQuestionFile(bookSlug, slug);
+      if (!filePath) {
+        return 0;
+      }
+      const raw = fs.readFileSync(filePath, 'utf-8');
+      const data = JSON.parse(raw);
+      return Array.isArray(data.questions) ? data.questions.length : 0;
+    } catch (err) {
+      console.warn(`Failed to compute question count for ${bookSlug}/${slug}:`, err.message);
+      return 0;
+    }
+  };
+
   const sendResponse = (payload) => {
     res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
     res.setHeader('Pragma', 'no-cache');
@@ -187,7 +202,7 @@ app.get('/api/practice-books/:book/chapters', (req, res) => {
           id: ch.id || `ch-${index + 1}`,
           title,
           slug,
-          questionCount: Number(ch.questionCount) || 0,
+          questionCount: Number.isFinite(ch.questionCount) ? Number(ch.questionCount) : computeQuestionCount(bookSlug, slug),
           description: ch.description || '',
         };
       });
@@ -226,20 +241,10 @@ app.get('/api/practice-books/:book/chapters', (req, res) => {
       };
     });
 
-    const chaptersWithCounts = merged.map(ch => {
-      const { filePath } = resolvePracticeQuestionFile(bookSlug, ch.slug);
-      if (!filePath) {
-        return { ...ch, questionCount: 0 };
-      }
-      try {
-        const raw = fs.readFileSync(filePath, 'utf-8');
-        const data = JSON.parse(raw);
-        const questionCount = Array.isArray(data.questions) ? data.questions.length : 0;
-        return { ...ch, questionCount };
-      } catch {
-        return { ...ch, questionCount: 0 };
-      }
-    });
+    const chaptersWithCounts = merged.map(ch => ({
+      ...ch,
+      questionCount: computeQuestionCount(bookSlug, ch.slug),
+    }));
 
     sendResponse({
       bookId: bookSlug,
