@@ -77,12 +77,7 @@ const BookChapters = () => {
 
       const attemptFetch = async (url, label) => {
         debugLog(`[Frontend] Loading chapters (${label}) → ${url}`);
-        const response = await fetch(url, {
-          headers: {
-            'Cache-Control': 'no-cache',
-            'Pragma': 'no-cache'
-          }
-        });
+        const response = await fetch(url);
 
         if (!response.ok) {
           const errorText = await response.text().catch(() => '');
