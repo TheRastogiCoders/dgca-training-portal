@@ -5,6 +5,7 @@ import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 import Modal from './ui/Modal';
 import debugLog from '../utils/debug';
+// Meteorology imports
 import regularMarch2024Data from '../data/meteorology-regular-march-2024.json';
 import regularDecemberAttemptData from '../data/meteorology-regular-december-attempt.json';
 import regularSep2023Data from '../data/meteorology-regular-sep-2023.json';
@@ -12,6 +13,31 @@ import olodeSession072025Data from '../data/meteorology-olode-session-07-2025.js
 import regularMarch2025Data from '../data/meteorology-regular-march-2025-session.json';
 import olodeMay2025Data from '../data/meteorology-olode-may-2025-session.json';
 import olodeNov2024Data from '../data/meteorology-olode-nov-2024-session.json';
+import regularJuneSessionData from '../data/meteorology-regular-june-session.json';
+
+// Air Regulations imports
+import olodeMay2025RegData from '../data/air-regulations/olode-may-2025.json';
+import regularSession012025Data from '../data/air-regulations/regular-session-01-2025.json';
+import olodeSession22025Data from '../data/air-regulations/olode-session-2-2025.json';
+import januaryOndemand2025Data from '../data/air-regulations/january-ondemand-2025.json';
+import olode052025Data from '../data/air-regulations/olode-05-2025.json';
+import olodeAprilSessionRegulationData from '../data/air-regulations/olode-april-session-regulation.json';
+import regulationsJune2025Data from '../data/air-regulations/regulations-june-2025.json';
+
+// Air Navigation imports
+import airNavRegularMarch2025Data from '../data/air-navigation-regular-march-2025.json';
+import airNavRegularJuneExamData from '../data/air-navigation-regular-june-exam.json';
+import airNavOlodeSession1Jan2025Data from '../data/air-navigation-olode-session1-jan-2025.json';
+import airNavOlodeSession32025Data from '../data/air-navigation-olode-session3-2025.json';
+import airNavRegularDecember2024Data from '../data/air-navigation-regular-december-2024.json';
+
+// Technical General imports
+import techGenOlodeMay2025Data from '../data/technical-general-olode-may-2025.json';
+import techGenOlodeJan2025Session1Data from '../data/technical-general-olode-jan-2025-session1.json';
+import techGenRegularDecember2024Data from '../data/technical-general-regular-december-2024.json';
+import techGenRegularJune2025Session2Data from '../data/technical-general-regular-june-2025-session2.json';
+import techGenRegularMarch2024Data from '../data/technical-general-regular-march-2024.json';
+import techGenRegularMarch2025Data from '../data/technical-general-regular-march-2025.json';
 
 const friendly = (slug) => (slug || '')
   .split('-')
@@ -169,6 +195,15 @@ const sessionQuestionSets = {
       answer: q.solution
     }))
   },
+  'regular-june-session': {
+    bookName: regularJuneSessionData.book_name || 'Meteorology',
+    chapterName: regularJuneSessionData.chapter_title || 'Regular June Session',
+    questions: regularJuneSessionData.questions?.map((q) => ({
+      text: q.full_question_text,
+      options: q.options,
+      answer: q.solution
+    })) || []
+  },
   'olode-session-07-2025': {
     bookName: olodeSession072025Data.book_name,
     chapterName: olodeSession072025Data.chapter_title,
@@ -204,6 +239,182 @@ const sessionQuestionSets = {
       options: q.options,
       answer: q.answer
     }))
+  },
+  'olode-may-2025-reg': {
+    bookName: olodeMay2025RegData.book_name,
+    chapterName: olodeMay2025RegData.chapter_title,
+    questions: olodeMay2025RegData.questions.map((q) => ({
+      text: q.full_question_text,
+      options: q.options,
+      answer: q.solution
+    }))
+  },
+  'regular-session-01-2025-reg': {
+    bookName: regularSession012025Data.book_name,
+    chapterName: regularSession012025Data.chapter_title,
+    questions: regularSession012025Data.questions.map((q) => ({
+      text: q.full_question_text,
+      options: q.options,
+      answer: q.solution
+    }))
+  },
+  'olode-session-2-2025-reg': {
+    bookName: olodeSession22025Data.book_name,
+    chapterName: olodeSession22025Data.chapter_title,
+    questions: olodeSession22025Data.questions.map((q) => ({
+      text: q.full_question_text,
+      options: q.options,
+      answer: q.solution
+    }))
+  },
+  'january-ondemand-2025-reg': {
+    bookName: januaryOndemand2025Data.book_name,
+    chapterName: januaryOndemand2025Data.chapter_title,
+    questions: januaryOndemand2025Data.questions.map((q) => ({
+      text: q.full_question_text,
+      options: q.options,
+      answer: q.solution
+    }))
+  },
+  'olode-05-2025-reg': {
+    bookName: olode052025Data.book_name,
+    chapterName: olode052025Data.chapter_title,
+    questions: olode052025Data.questions.map((q) => ({
+      text: q.full_question_text,
+      options: q.options,
+      answer: q.solution
+    }))
+  },
+  'olode-april-session-regulation-reg': {
+    bookName: olodeAprilSessionRegulationData.book_name,
+    chapterName: olodeAprilSessionRegulationData.chapter_title,
+    questions: olodeAprilSessionRegulationData.questions.map((q) => ({
+      text: q.full_question_text,
+      options: q.options,
+      answer: q.solution
+    }))
+  },
+  'regulations-june-2025': {
+    bookName: regulationsJune2025Data.book_name,
+    chapterName: regulationsJune2025Data.chapter_title,
+    questions: regulationsJune2025Data.questions.map((q) => ({
+      text: q.full_question_text,
+      options: q.options,
+      answer: q.solution
+    }))
+  },
+  
+  // Air Navigation sessions
+  'nav-regular-march-2025': {
+    bookName: airNavRegularMarch2025Data.book.title,
+    chapterName: airNavRegularMarch2025Data.book.chapters[0]?.chapter_title || 'Air Navigation',
+    questions: airNavRegularMarch2025Data.book.chapters.flatMap(chapter => 
+      chapter.questions.map(q => ({
+        text: q.question_text,
+        options: q.options,
+        answer: q.options[parseInt(q.answer) - 1]?.substring(3) || q.answer
+      }))
+    )
+  },
+  'nav-regular-june-exam': {
+    bookName: airNavRegularJuneExamData.book?.title || 'Air Navigation',
+    chapterName: airNavRegularJuneExamData.book?.chapters?.[0]?.chapter_title || 'June Exam',
+    questions: airNavRegularJuneExamData.book?.chapters?.flatMap(chapter => 
+      chapter.questions?.map(q => ({
+        text: q.question_text,
+        options: q.options,
+        answer: q.options[parseInt(q.answer) - 1]?.substring(3) || q.answer
+      })) || []
+    )
+  },
+  'nav-olode-session1-jan-2025': {
+    bookName: airNavOlodeSession1Jan2025Data.book?.title || 'Air Navigation',
+    chapterName: airNavOlodeSession1Jan2025Data.book?.chapters?.[0]?.chapter_title || 'OLODE Session 1 Jan 2025',
+    questions: airNavOlodeSession1Jan2025Data.book?.chapters?.flatMap(chapter => 
+      chapter.questions?.map(q => ({
+        text: q.question_text,
+        options: q.options,
+        answer: q.options[parseInt(q.answer) - 1]?.substring(3) || q.answer
+      })) || []
+    )
+  },
+  'nav-olode-session3-2025': {
+    bookName: airNavOlodeSession32025Data.book?.title || 'Air Navigation',
+    chapterName: airNavOlodeSession32025Data.book?.chapters?.[0]?.chapter_title || 'OLODE Session 3 2025',
+    questions: airNavOlodeSession32025Data.book?.chapters?.flatMap(chapter => 
+      chapter.questions?.map(q => ({
+        text: q.question_text,
+        options: q.options,
+        answer: q.options[parseInt(q.answer) - 1]?.substring(3) || q.answer
+      })) || []
+    )
+  },
+  'nav-regular-december-2024': {
+    bookName: airNavRegularDecember2024Data.book?.title || 'Air Navigation',
+    chapterName: airNavRegularDecember2024Data.book?.chapters?.[0]?.chapter_title || 'Regular December 2024',
+    questions: airNavRegularDecember2024Data.book?.chapters?.flatMap(chapter => 
+      chapter.questions?.map(q => ({
+        text: q.question_text,
+        options: q.options,
+        answer: q.options[parseInt(q.answer) - 1]?.substring(3) || q.answer
+      })) || []
+    )
+  },
+  
+  // Technical General sessions
+  'tech-regular-march-2025': {
+    bookName: techGenRegularMarch2025Data.bookName || 'Technical General',
+    chapterName: techGenRegularMarch2025Data.chapterTitle || 'Regular March 2025',
+    questions: techGenRegularMarch2025Data.questions?.map(q => ({
+      text: q.questionText,
+      options: q.options,
+      answer: q.answer
+    })) || []
+  },
+  'tech-regular-december-2024': {
+    bookName: techGenRegularDecember2024Data.bookName || 'Technical General',
+    chapterName: techGenRegularDecember2024Data.chapterTitle || 'Regular December 2024',
+    questions: techGenRegularDecember2024Data.questions?.map(q => ({
+      text: q.questionText,
+      options: q.options,
+      answer: q.answer
+    })) || []
+  },
+  'tech-general-march-2024': {
+    bookName: techGenRegularMarch2024Data.bookName || 'Technical General',
+    chapterName: techGenRegularMarch2024Data.chapterTitle || 'March 2024',
+    questions: techGenRegularMarch2024Data.questions?.map(q => ({
+      text: q.questionText,
+      options: q.options,
+      answer: q.answer
+    })) || []
+  },
+  'gen-olode-may-2025': {
+    bookName: techGenOlodeMay2025Data.bookName || 'Technical General',
+    chapterName: techGenOlodeMay2025Data.chapterTitle || 'OLODE May 2025',
+    questions: techGenOlodeMay2025Data.questions?.map(q => ({
+      text: q.questionText,
+      options: q.options,
+      answer: q.answer
+    })) || []
+  },
+  'gen-olode-jan-2025-session1': {
+    bookName: techGenOlodeJan2025Session1Data.bookName || 'Technical General',
+    chapterName: techGenOlodeJan2025Session1Data.chapterTitle || 'OLODE Jan 2025 Session 1',
+    questions: techGenOlodeJan2025Session1Data.questions?.map(q => ({
+      text: q.questionText,
+      options: q.options,
+      answer: q.answer
+    })) || []
+  },
+  'gen-regular-june-2025-session2': {
+    bookName: techGenRegularJune2025Session2Data.bookName || 'Technical General',
+    chapterName: techGenRegularJune2025Session2Data.chapterTitle || 'Regular June 2025 Session 2',
+    questions: techGenRegularJune2025Session2Data.questions?.map(q => ({
+      text: q.questionText,
+      options: q.options,
+      answer: q.answer
+    })) || []
   }
 };
 
@@ -230,20 +441,52 @@ const fallbackQuestions = [
 
 const buildSessionQuestions = (sessionSlug) => {
   const sessionConfig = sessionQuestionSets[sessionSlug];
-  if (!sessionConfig) return null;
+  if (!sessionConfig || !sessionConfig.questions) {
+    console.error(`No questions found for session: ${sessionSlug}`);
+    return [];
+  }
 
   return sessionConfig.questions.map((item, index) => {
-    const normalizedOptions = item.options.map(option => option.trim());
-    let answerIndex = typeof item.answerIndex === 'number' ? item.answerIndex : normalizedOptions.findIndex(
-      (opt) => opt.toLowerCase() === (item.answer || '').trim().toLowerCase()
-    );
-    if (answerIndex < 0) {
-      console.warn(`Answer mismatch in session ${sessionSlug} at question ${index + 1}. Defaulting to option 0.`);
+    // Ensure options is an array and trim each option
+    const normalizedOptions = Array.isArray(item.options) 
+      ? item.options.map(option => option.toString().trim())
+      : [];
+      
+    // Handle different answer formats
+    let answerIndex = -1;
+    
+    // Case 1: answerIndex is directly provided
+    if (typeof item.answerIndex === 'number') {
+      answerIndex = item.answerIndex;
+    } 
+    // Case 2: answer is provided as a string (matching option)
+    else if (item.answer && normalizedOptions.length > 0) {
+      answerIndex = normalizedOptions.findIndex(
+        opt => opt.toLowerCase() === item.answer.toString().trim().toLowerCase()
+      );
+    }
+    // Case 3: solution is provided (from Air Regulations format)
+    else if (item.solution && normalizedOptions.length > 0) {
+      answerIndex = normalizedOptions.findIndex(
+        opt => opt.toLowerCase() === item.solution.toString().trim().toLowerCase()
+      );
+    }
+    // Case 4: answer is a letter (A, B, C, D)
+    else if (item.answer && typeof item.answer === 'string' && /^[A-Da-d]$/.test(item.answer.trim())) {
+      const charCode = item.answer.trim().toUpperCase().charCodeAt(0);
+      answerIndex = charCode - 65; // Convert A->0, B->1, etc.
+    }
+
+    // Fallback to first option if answer not found
+    if (answerIndex < 0 || answerIndex >= normalizedOptions.length) {
+      console.warn(`Could not determine correct answer for question ${index + 1} in session ${sessionSlug}. Defaulting to first option.`);
       answerIndex = 0;
     }
-    const answerText = normalizedOptions[answerIndex];
+
+    const answerText = normalizedOptions[answerIndex] || 'No answer provided';
+    
     return {
-      text: item.text,
+      text: item.text || item.full_question_text || `Question ${index + 1}`,
       options: normalizedOptions,
       answerIndex,
       explanation: item.explanation || `Correct answer: ${answerText}.`
@@ -314,19 +557,42 @@ const AIPracticeRunner = () => {
   const initializeSession = useCallback(() => {
     setLoading(true);
     setStartTime(Date.now());
-    const generated = sessionInfo?.slug && sessionQuestionSets[sessionInfo.slug]
-      ? buildSessionQuestions(sessionInfo.slug)
-      : generateQuestions(subjectSlug, chapterSlug, subjectName, chapterName, practiceSettings.questionCount);
-    setQuestions(generated);
-    setAnswers({});
-    setCurrent(0);
-    setSelectedAnswer(null);
-    setScore(0);
-    setStreak(0);
-    setMaxStreak(0);
-    setDone(false);
-    setTimeLeft(practiceSettings.timeLimit !== 'unlimited' ? parseInt(practiceSettings.timeLimit) : null);
-    setLoading(false);
+    
+    try {
+      let generated;
+      
+      if (sessionInfo?.slug) {
+        console.log(`Initializing session: ${sessionInfo.slug}`);
+        generated = buildSessionQuestions(sessionInfo.slug);
+        console.log(`Generated ${generated?.length || 0} questions for session:`, sessionInfo.slug);
+        
+        if (!generated || generated.length === 0) {
+          console.warn('No questions generated, falling back to default questions');
+          generated = generateQuestions(subjectSlug, chapterSlug, subjectName, chapterName, practiceSettings.questionCount);
+        }
+      } else {
+        console.log('No session info, generating default questions');
+        generated = generateQuestions(subjectSlug, chapterSlug, subjectName, chapterName, practiceSettings.questionCount);
+      }
+      
+      console.log('Setting questions:', generated);
+      setQuestions(generated);
+      setAnswers({});
+      setCurrent(0);
+      setSelectedAnswer(null);
+      setScore(0);
+      setStreak(0);
+      setMaxStreak(0);
+      setDone(false);
+      setTimeLeft(practiceSettings.timeLimit !== 'unlimited' ? parseInt(practiceSettings.timeLimit) : null);
+    } catch (error) {
+      console.error('Error initializing session:', error);
+      // Fallback to default questions on error
+      const fallback = generateQuestions(subjectSlug, chapterSlug, subjectName, chapterName, practiceSettings.questionCount);
+      setQuestions(fallback);
+    } finally {
+      setLoading(false);
+    }
   }, [
     subjectSlug,
     chapterSlug,

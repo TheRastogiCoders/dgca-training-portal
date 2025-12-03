@@ -62,13 +62,14 @@ const availableSessions = {
     'regular-sep-2023',
     'regular-june-session'
   ],
+  // Air Regulations slugs must exactly match sessionQuestionSets keys in AIPracticeRunner
   'air-regulations': [
-    'olode-may-2025',
-    'regular-session-01-2025',
-    'olode-session-2-2025',
-    'january-ondemand-2025',
-    'olode-05-2025',
-    'olode-april-session-regulation',
+    'olode-may-2025-reg',
+    'regular-session-01-2025-reg',
+    'olode-session-2-2025-reg',
+    'january-ondemand-2025-reg',
+    'olode-05-2025-reg',
+    'olode-april-session-regulation-reg',
     'regulations-june-2025'
   ],
   'air-navigation': [
@@ -79,15 +80,15 @@ const availableSessions = {
     'nav-regular-december-2024'
   ],
   'technical-general': [
+    // Slugs here must match the Technical General keys in sessionQuestionSets (AIPracticeRunner)
+    'tech-regular-march-2025',
+    'tech-regular-december-2024',
+    'tech-general-march-2024',
     'gen-olode-may-2025',
     'gen-olode-jan-2025-session1',
-    'gen-regular-june-2025-session2',
-    'gen-regular-march-2025',
-    'gen-regular-december-2024',
-    'gen-regular-march-2024'
+    'gen-regular-june-2025-session2'
   ]
 };
-
 const subjectSessions = {
   'meteorology': [
     { slug: 'olode-session-07-2025', title: 'OLODE SESSION 07 2025 (31st Oct, 2025)', window: 'OLODE Paper', badge: 'Latest', questionCount: 38, accent: 'from-[#6a11cb] to-[#2575fc]' },
@@ -100,12 +101,12 @@ const subjectSessions = {
     { slug: 'regular-june-session', title: 'JUNE 2024 REGULAR', window: 'Regular Series', badge: 'Archive', questionCount: 42, accent: 'from-[#396afc] to-[#2948ff]' }
   ],
   'air-regulations': [
-    { slug: 'olode-may-2025', title: 'REG- OLODE MAY SESSION 2025', window: 'Olode Paper', badge: 'Available', questionCount: 50, accent: 'from-[#fc5c7d] to-[#6a82fb]' },
-    { slug: 'regular-session-01-2025', title: 'REG- REGULAR SESSION 01 2025', window: 'Regular Series', badge: 'Latest', questionCount: 29, accent: 'from-[#1d976c] to-[#93f9b9]' },
-    { slug: 'olode-session-2-2025', title: 'Regulations olode session 2 2025', window: 'Olode Paper', badge: 'Available', questionCount: 29, accent: 'from-[#6a11cb] to-[#2575fc]' },
-    { slug: 'january-ondemand-2025', title: 'JANUARY ON-DEMAND 2025', window: 'Regular Series', badge: 'Available', questionCount: 43, accent: 'from-[#396afc] to-[#2948ff]' },
-    { slug: 'olode-05-2025', title: 'Regulations OLODE 05 2025', window: 'Olode Paper', badge: 'Available', questionCount: 11, accent: 'from-[#00c6ff] to-[#0072ff]' },
-    { slug: 'olode-april-session-regulation', title: 'OLODE APRIL SESSION REGULATION', window: 'Olode Paper', badge: 'Available', questionCount: 10, accent: 'from-[#f953c6] to-[#b91d73]' },
+    { slug: 'olode-may-2025-reg', title: 'REG- OLODE MAY SESSION 2025', window: 'Olode Paper', badge: 'Available', questionCount: 50, accent: 'from-[#fc5c7d] to-[#6a82fb]' },
+    { slug: 'regular-session-01-2025-reg', title: 'REG- REGULAR SESSION 01 2025', window: 'Regular Series', badge: 'Latest', questionCount: 29, accent: 'from-[#1d976c] to-[#93f9b9]' },
+    { slug: 'olode-session-2-2025-reg', title: 'Regulations olode session 2 2025', window: 'Olode Paper', badge: 'Available', questionCount: 29, accent: 'from-[#6a11cb] to-[#2575fc]' },
+    { slug: 'january-ondemand-2025-reg', title: 'JANUARY ON-DEMAND 2025', window: 'Regular Series', badge: 'Available', questionCount: 43, accent: 'from-[#396afc] to-[#2948ff]' },
+    { slug: 'olode-05-2025-reg', title: 'Regulations OLODE 05 2025', window: 'Olode Paper', badge: 'Available', questionCount: 11, accent: 'from-[#00c6ff] to-[#0072ff]' },
+    { slug: 'olode-april-session-regulation-reg', title: 'OLODE APRIL SESSION REGULATION', window: 'Olode Paper', badge: 'Available', questionCount: 10, accent: 'from-[#f953c6] to-[#b91d73]' },
     { slug: 'regulations-june-2025', title: 'REGULATIONS JUNE 2025', window: 'Regular Series', badge: 'Available', questionCount: 27, accent: 'from-[#00b4d8] to-[#0077b6]' }
   ],
   'air-navigation': [
@@ -157,7 +158,7 @@ const subjectSessions = {
   ],
   'technical-general': [
     { 
-      slug: 'gen-regular-march-2025', 
+      slug: 'tech-regular-march-2025', 
       title: 'TECHNICAL REGULAR MARCH 2025', 
       window: 'Regular Series', 
       badge: 'Available', 
@@ -166,7 +167,7 @@ const subjectSessions = {
       disabled: false
     },
     { 
-      slug: 'gen-regular-december-2024', 
+      slug: 'tech-regular-december-2024', 
       title: 'TECHNICAL REGULAR DECEMBER 2024', 
       window: 'Regular Series', 
       badge: 'Available', 
@@ -175,7 +176,7 @@ const subjectSessions = {
       disabled: false
     },
     { 
-      slug: 'gen-regular-march-2024', 
+      slug: 'tech-general-march-2024', 
       title: 'TECHNICAL GENERAL MARCH 2024', 
       window: 'Regular Series', 
       badge: 'Available', 
@@ -223,7 +224,7 @@ const extractYear = (title) => {
   if (fourDigitMatch) {
     return parseInt(fourDigitMatch[1], 10);
   }
-  
+
   // Match 2-digit years (e.g., "Nov 24" -> 2024)
   const twoDigitMatch = title.match(/\b(\d{2})\b/);
   if (twoDigitMatch) {
@@ -231,7 +232,7 @@ const extractYear = (title) => {
     // Assume 20xx format (24 -> 2024, 25 -> 2025)
     return year < 50 ? 2000 + year : 1900 + year;
   }
-  
+
   // Default to 0 if no year found (will be sorted last)
   return 0;
 };
@@ -306,7 +307,7 @@ const AIPracticeBooks = () => {
         <main className="flex-1 px-4 py-8 sm:px-6 lg:px-10 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
           <div className="max-w-5xl mx-auto space-y-8">
             <div className="flex items-center justify-between text-sm">
-              <Link 
+              <Link
                 to="/pyq/ai"
                 className="inline-flex items-center text-blue-200 hover:text-white transition-colors"
               >
@@ -336,8 +337,8 @@ const AIPracticeBooks = () => {
               {sessions.map((session, index) => {
                 const isAvailable = availableSessions[subjectSlug]?.includes(session.slug);
                 return (
-                  <Card 
-                    key={session.slug} 
+                  <Card
+                    key={session.slug}
                     className="p-5 sm:p-6 flex flex-col gap-4 md:flex-row md:items-center md:justify-between"
                   >
                     <div className="flex-1">
@@ -358,11 +359,10 @@ const AIPracticeBooks = () => {
                         ) : (
                           <span className="text-gray-400 italic">Questions coming soon</span>
                         )}
-                        <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold ${
-                          session.badge === 'Coming Soon' 
-                            ? 'bg-yellow-100 text-yellow-700' 
+                        <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold ${session.badge === 'Coming Soon'
+                            ? 'bg-yellow-100 text-yellow-700'
                             : 'bg-gray-100 text-gray-700'
-                        }`}>
+                          }`}>
                           {session.badge}
                         </span>
                       </div>
@@ -370,11 +370,10 @@ const AIPracticeBooks = () => {
 
                     <div className="w-full md:w-auto">
                       <button
-                        className={`w-full px-4 py-3 rounded-xl font-semibold transition ${
-                          isAvailable
+                        className={`w-full px-4 py-3 rounded-xl font-semibold transition ${isAvailable
                             ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:shadow-lg cursor-pointer'
                             : 'bg-gray-300 text-gray-500 cursor-not-allowed opacity-60'
-                        }`}
+                          }`}
                         onClick={() => launchSession(session)}
                         disabled={!isAvailable}
                       >
