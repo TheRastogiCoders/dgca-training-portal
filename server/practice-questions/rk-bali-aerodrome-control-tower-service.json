@@ -128,9 +128,9 @@
       "question_text": "Friction Co efficient due to snow in how many segments is runway divided based on friction level.:",
       "question_type": "MCQ",
       "options": [
-        "$1/2$",
-        "$1/3$",
-        "$1/4$"
+        "1/2",
+        "1/3",
+        "1/4"
       ],
       "solution": "B",
       "answer": "B"
