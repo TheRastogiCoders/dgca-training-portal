@@ -122,12 +122,21 @@ const SiteSidebar = () => {
   // Check if we're on the home page
   const isHomePage = pathname === '/';
 
+  // Check if current user is admin
+  const isAdminUser = currentUser && currentUser.isAdmin;
+
   // Regular user navigation items
   const userNavItems = [
     { to: '/', label: 'Home', icon: '🏠' },
     { to: '/question-bank', label: 'Question Bank', icon: '📚' },
     { to: '/pyq', label: 'PYQ', icon: '🎯' },
     { to: '/library', label: 'Library', icon: '📄' }
+  ];
+
+  // Admin navigation items (shown only when admin is logged in)
+  const adminNavItems = [
+    { to: '/admin/students-logins', label: 'Students Logins', icon: '👥' },
+    { to: '/admin/question-upload', label: 'Question Upload', icon: '📤' }
   ];
 
   // Contact support item (shown for all users)
@@ -146,7 +155,19 @@ const SiteSidebar = () => {
               label={item.label}
               icon={item.icon}
               active={isActivePath(item.to)}
-              isAdmin={false}
+              isAdmin={isAdminUser}
+              disabled={isInPracticeTest}
+            />
+          ))}
+          {/* Admin navigation items - shown only when admin is logged in */}
+          {isAdminUser && adminNavItems.map((item) => (
+            <BoxNavItem
+              key={item.to}
+              to={item.to}
+              label={item.label}
+              icon={item.icon}
+              active={isActivePath(item.to)}
+              isAdmin={true}
               disabled={isInPracticeTest}
             />
           ))}
@@ -223,7 +244,9 @@ const SiteSidebar = () => {
                     title={item.label}
                     className={`w-11 h-11 sm:w-12 sm:h-12 rounded-2xl flex items-center justify-center border backdrop-blur-sm transition-all duration-200 opacity-50 cursor-not-allowed touch-none ${
                       isActivePath(item.to)
-                        ? 'bg-gradient-to-br from-purple-500/90 to-indigo-600/90 text-white border-purple-400/60 shadow-xl'
+                        ? isAdminUser
+                          ? 'bg-gradient-to-br from-red-500/90 to-pink-600/90 text-white border-red-400/60 shadow-xl'
+                          : 'bg-gradient-to-br from-purple-500/90 to-indigo-600/90 text-white border-purple-400/60 shadow-xl'
                         : 'bg-white/40 text-gray-800 border-white/50 shadow-lg'
                     }`}
                   >
@@ -235,7 +258,9 @@ const SiteSidebar = () => {
                     title={item.label}
                     className={`w-11 h-11 sm:w-12 sm:h-12 rounded-2xl flex items-center justify-center border backdrop-blur-sm transition-all duration-200 active:scale-95 ${
                       isActivePath(item.to)
-                        ? 'bg-gradient-to-br from-purple-500/90 to-indigo-600/90 text-white border-purple-400/60 shadow-xl scale-105'
+                        ? isAdminUser
+                          ? 'bg-gradient-to-br from-red-500/90 to-pink-600/90 text-white border-red-400/60 shadow-xl scale-105'
+                          : 'bg-gradient-to-br from-purple-500/90 to-indigo-600/90 text-white border-purple-400/60 shadow-xl scale-105'
                         : 'bg-white/40 text-gray-800 border-white/50 shadow-lg active:bg-white/60 active:scale-95'
                     }`}
                     aria-label={item.label}
@@ -245,6 +270,26 @@ const SiteSidebar = () => {
                 )}
                 <span className="text-[9px] sm:text-[10px] text-white/90 mt-1 font-medium leading-tight text-center w-full px-0.5 truncate">
                   {item.label}
+                </span>
+              </div>
+            ))}
+            {/* Admin navigation items on mobile - shown only when admin is logged in */}
+            {isAdminUser && adminNavItems.map((item) => (
+              <div key={item.to} className="flex flex-col items-center justify-center min-w-0 flex-1 max-w-[20%]">
+                <Link
+                  to={item.to}
+                  title={item.label}
+                  className={`w-11 h-11 sm:w-12 sm:h-12 rounded-2xl flex items-center justify-center border backdrop-blur-sm transition-all duration-200 active:scale-95 ${
+                    isActivePath(item.to)
+                      ? 'bg-gradient-to-br from-red-500/90 to-pink-600/90 text-white border-red-400/60 shadow-xl scale-105'
+                      : 'bg-white/40 text-gray-800 border-white/50 shadow-lg active:bg-white/60 active:scale-95'
+                  }`}
+                  aria-label={item.label}
+                >
+                  <span className="text-base sm:text-lg" aria-hidden="true">{item.icon}</span>
+                </Link>
+                <span className="text-[9px] sm:text-[10px] text-white/90 mt-1 font-medium leading-tight text-center w-full px-0.5 truncate">
+                  {item.label.length > 10 ? item.label.substring(0, 10) + '...' : item.label}
                 </span>
               </div>
             ))}

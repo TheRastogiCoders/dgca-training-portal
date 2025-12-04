@@ -51,10 +51,32 @@ const LoginPage = () => {
     // Username validation
     if (!formData.username.trim()) {
       errors.username = 'Username is required';
-    } else if (formData.username.length < 3) {
-      errors.username = 'Username must be at least 3 characters';
-    } else if (!/^[a-zA-Z0-9_]+$/.test(formData.username)) {
-      errors.username = 'Username can only contain letters, numbers, and underscores';
+    } else {
+      const isEmail = formData.username.includes('@');
+      
+      if (isLogin) {
+        // During login: allow either username or email
+        if (isEmail) {
+          // Validate email format
+          if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.username)) {
+            errors.username = 'Please enter a valid email address';
+          }
+        } else {
+          // Validate username format
+          if (formData.username.length < 3) {
+            errors.username = 'Username must be at least 3 characters';
+          } else if (!/^[a-zA-Z0-9_]+$/.test(formData.username)) {
+            errors.username = 'Username can only contain letters, numbers, and underscores';
+          }
+        }
+      } else {
+        // During registration: only allow username (not email)
+        if (formData.username.length < 3) {
+          errors.username = 'Username must be at least 3 characters';
+        } else if (!/^[a-zA-Z0-9_]+$/.test(formData.username)) {
+          errors.username = 'Username can only contain letters, numbers, and underscores';
+        }
+      }
     }
     
     // Email validation (only for registration)
@@ -124,8 +146,12 @@ const LoginPage = () => {
 
     try {
       const endpoint = isLogin ? API_ENDPOINTS.AUTH_LOGIN : API_ENDPOINTS.AUTH_REGISTER;
+      // Allow email login for admin or regular users
+      const isEmailLogin = formData.username && formData.username.includes('@');
       const body = isLogin 
-        ? { username: formData.username, password: formData.password }
+        ? (isEmailLogin 
+          ? { email: formData.username, password: formData.password }
+          : { username: formData.username, password: formData.password })
         : { username: formData.username, email: formData.email, password: formData.password };
 
       debugLog('Making request to:', endpoint);
@@ -150,11 +176,8 @@ const LoginPage = () => {
 
       if (response.ok) {
         if (isLogin) {
-          if (data.user.isAdmin) {
-            setError('Admin users must use the admin login portal.');
-            return;
-          }
           login(data.user, data.token);
+          // Navigate to home for all users (admin or regular)
           navigate('/');
         } else {
           setError('');
@@ -259,13 +282,13 @@ const LoginPage = () => {
                 {/* Username */}
                 <div>
                   <label htmlFor="username" className="block text-sm font-medium text-gray-700 mb-1">
-                    Username *
+                    {isLogin ? 'Username or Email *' : 'Username *'}
                   </label>
                   <input
-                    type="text"
+                    type={isLogin && formData.username && formData.username.includes('@') ? 'email' : 'text'}
                     id="username"
                     name="username"
-                    placeholder="Enter your username"
+                    placeholder={isLogin ? 'Enter your username or email' : 'Enter your username'}
                     value={formData.username}
                     onChange={handleInputChange}
                     className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all ${

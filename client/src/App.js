@@ -28,6 +28,8 @@ const SamplePaperViewer = lazy(() => import('./components/SamplePaperViewer'));
 const WhatsAppFloat = lazy(() => import('./components/WhatsAppFloat'));
 const ContactSupport = lazy(() => import('./components/ContactSupport'));
 const Profile = lazy(() => import('./components/Profile'));
+const StudentsLogins = lazy(() => import('./components/admin/StudentsLogins'));
+const QuestionUpload = lazy(() => import('./components/admin/QuestionUpload'));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -77,7 +79,9 @@ function App() {
                 <Route path="/sample-papers/:subjectSlug/:bookSlug" element={<SamplePapersList />} />
                 <Route path="/sample-papers/:subjectSlug/:bookSlug/:paperSlug" element={<SamplePaperViewer />} />
                 <Route path="/practice/:subjectSlug/:bookSlug/:chapterSlug" element={<ChapterPracticeIntro />} />
-                {/* Admin routes removed */}
+                {/* Admin routes */}
+                <Route path="/admin/students-logins" element={<StudentsLogins />} />
+                <Route path="/admin/question-upload" element={<QuestionUpload />} />
                 {/* Hidden route: not linked from navigation */}
                 <Route path="/support/contact" element={<ContactSupport />} />
                 </Routes>

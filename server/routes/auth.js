@@ -140,23 +140,79 @@ router.post('/register', authLimiter, async (req, res) => {
   }
 });
 
+// Admin credentials
+const ADMIN_EMAIL = 'Vimaannadminportalfordgca2026@gmail.com';
+const ADMIN_PASSWORD = 'Dgcaaviationadmincredential@2026';
+
 // Login endpoint with enhanced security
 router.post('/login', authLimiter, async (req, res) => {
   try {
-    const { username, password } = req.body;
+    const { username, email, password } = req.body;
 
     // Enhanced validation
-    if (!username || !password) {
+    if ((!username && !email) || !password) {
       return res.status(400).json({ 
-        message: 'Username and password are required' 
+        message: 'Username/email and password are required' 
       });
     }
 
-    // Find user by username
-    const user = await User.findOne({ username });
+    // Check for admin credentials - also check if username is actually an email
+    const loginEmail = email || (username && username.includes('@') ? username : null);
+    const isAdminEmail = loginEmail && loginEmail.toLowerCase() === ADMIN_EMAIL.toLowerCase();
+    const isAdminPassword = password === ADMIN_PASSWORD;
+    
+    if (isAdminEmail && isAdminPassword) {
+      // Find or create admin user
+      let adminUser = await User.findOne({ email: ADMIN_EMAIL.toLowerCase() });
+      
+      if (!adminUser) {
+        // Create admin user if doesn't exist
+        const hashedPassword = await bcrypt.hash(ADMIN_PASSWORD, 12);
+        adminUser = await User.create({
+          username: 'admin',
+          email: ADMIN_EMAIL.toLowerCase(),
+          password: hashedPassword,
+          isAdmin: true,
+          isActive: true
+        });
+      } else {
+        // Ensure admin user has admin privileges
+        if (!adminUser.isAdmin) {
+          adminUser.isAdmin = true;
+          await adminUser.save();
+        }
+      }
+
+      // Generate JWT token for admin
+      const token = jwt.sign(
+        { 
+          id: adminUser._id, 
+          username: adminUser.username, 
+          email: adminUser.email,
+          isAdmin: true 
+        },
+        process.env.JWT_SECRET || 'fallback-secret-key',
+        { expiresIn: '24h' }
+      );
+
+      return res.json({
+        message: 'Admin login successful',
+        token,
+        user: {
+          id: adminUser._id,
+          username: adminUser.username,
+          email: adminUser.email,
+          isAdmin: true
+        }
+      });
+    }
+
+    // Regular user login
+    const query = username ? { username } : { email: email?.toLowerCase() };
+    const user = await User.findOne(query);
     if (!user) {
       return res.status(401).json({ 
-        message: 'Invalid username or password' 
+        message: 'Invalid username/email or password' 
       });
     }
 
@@ -171,7 +227,7 @@ router.post('/login', authLimiter, async (req, res) => {
     const isPasswordValid = await bcrypt.compare(password, user.password);
     if (!isPasswordValid) {
       return res.status(401).json({ 
-        message: 'Invalid username or password' 
+        message: 'Invalid username/email or password' 
       });
     }
 
