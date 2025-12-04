@@ -14,14 +14,14 @@
       "solution": "Isobars"
     },
     {
-      "full_question_text": "In a station model, code 2 represents cloud base height of:",
+      "full_question_text": "In a station model, code 2 represents a cloud base height of:",
       "options": [
-        "0 e2 80 93099 m",
-        "100 e2 80 93199 m",
-        "200 e2 80 93299 m",
-        "300 e2 80 93399 m"
+        "0 - 99 m",
+        "100 - 199 m",
+        "200 - 299 m",
+        "300 - 399 m"
       ],
-      "solution": "100 e2 80 93199 m"
+      "solution": "100 - 199 m"
     },
     {
       "full_question_text": "Flying from low pressure to high pressure, the altimeter will:",

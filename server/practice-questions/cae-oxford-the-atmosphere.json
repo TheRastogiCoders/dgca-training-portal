@@ -33,13 +33,13 @@
     },
     {
       "id": "3",
-      "question": "In the International Standard Atmosphere the decrease in temperature with height below 11 km is:",
+      "question": "In the International Standard Atmosphere, the decrease in temperature with height below 11 km is:",
       "question_type": "MCQ",
       "options": [
-        "a. $0.5^{\\circ}C/100~m$",
-        "b. $0.6^{\\circ}C/100~m$",
-        "c. $0.65^{\\circ}/100~m$",
-        "d. $1^{\\circ}C/100~m$"
+        "a. 0.5°C / 100 m",
+        "b. 0.6°C / 100 m",
+        "c. 0.65°C / 100 m",
+        "d. 1°C / 100 m"
       ],
       "answer": "c",
       "solution": "c",
