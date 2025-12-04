@@ -240,6 +240,15 @@ const sessionQuestionSets = {
       answer: q.answer
     }))
   },
+  'olode-nov-2024-session': {
+    bookName: olodeNov2024Data.book_name,
+    chapterName: olodeNov2024Data.chapter_title,
+    questions: olodeNov2024Data.questions.map((q) => ({
+      text: q.question_text,
+      options: q.options,
+      answer: q.answer
+    }))
+  },
   'olode-may-2025-reg': {
     bookName: olodeMay2025RegData.book_name,
     chapterName: olodeMay2025RegData.chapter_title,

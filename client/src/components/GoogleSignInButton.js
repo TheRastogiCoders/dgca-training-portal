@@ -72,9 +72,16 @@ const GoogleSignInButton = ({ onSuccess }) => {
   };
 
   const handleCredentialResponse = async (response) => {
-    if (!response?.credential) return;
+    if (!response?.credential) {
+      console.error('[Google Sign-In] No credential in response');
+      return;
+    }
+    
     setLoading(true);
     setError('');
+
+    console.log('[Google Sign-In] Sending token to:', API_ENDPOINTS.AUTH_GOOGLE);
+    console.log('[Google Sign-In] Token length:', response.credential.length);
 
     try {
       const res = await fetch(API_ENDPOINTS.AUTH_GOOGLE, {
@@ -82,6 +89,8 @@ const GoogleSignInButton = ({ onSuccess }) => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ idToken: response.credential }),
       });
+      
+      console.log('[Google Sign-In] Response status:', res.status);
 
       const contentType = res.headers.get('content-type') || '';
       const payload = contentType.includes('application/json')

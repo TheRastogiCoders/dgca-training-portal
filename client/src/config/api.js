@@ -8,8 +8,16 @@ const getApiBaseUrl = () => {
     return process.env.REACT_APP_API_URL || 'https://dgca-training-portal.onrender.com';
   }
   
-  // Development - use local server or environment variable
-  return process.env.REACT_APP_API_URL || 'http://localhost:3001';
+  // Development - use proxy if available, otherwise explicit URL
+  // The proxy in package.json points to http://localhost:5000
+  // If REACT_APP_API_URL is set, use it; otherwise use empty string for proxy
+  if (process.env.REACT_APP_API_URL) {
+    return process.env.REACT_APP_API_URL;
+  }
+  
+  // Use proxy (empty string means use relative URLs which will be proxied)
+  // But for explicit API calls, we need the full URL
+  return 'http://localhost:5000';
 };
 
 const API_BASE_URL = getApiBaseUrl();

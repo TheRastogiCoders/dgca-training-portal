@@ -5,8 +5,21 @@ const User = require('../models/User');
 const router = express.Router();
 const { OAuth2Client } = require('google-auth-library');
 
-// Google OAuth client
-const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
+// Google OAuth client - Initialize lazily to ensure .env is loaded
+let googleClient = null;
+
+const getGoogleClient = () => {
+  if (!googleClient && process.env.GOOGLE_CLIENT_ID) {
+    googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
+    console.log('✅ Google OAuth client initialized with Client ID:', process.env.GOOGLE_CLIENT_ID.substring(0, 20) + '...');
+  } else if (!process.env.GOOGLE_CLIENT_ID) {
+    console.warn('⚠️  GOOGLE_CLIENT_ID not set in environment variables. Google Sign-In will not work.');
+  }
+  return googleClient;
+};
+
+// Initialize on module load
+getGoogleClient();
 
 // Enhanced password validation
 const validatePassword = (password) => {
@@ -197,15 +210,78 @@ router.post('/login', authLimiter, async (req, res) => {
 router.post('/google', authLimiter, async (req, res) => {
   try {
     const { idToken } = req.body || {};
+    
+    console.log('[Google Auth] Request received');
+    console.log('[Google Auth] Has idToken:', !!idToken);
+    console.log('[Google Auth] Token length:', idToken?.length || 0);
+    
     if (!idToken) {
+      console.error('[Google Auth] Missing idToken in request body');
       return res.status(400).json({ message: 'Missing Google ID token' });
     }
 
+    // Ensure Google client is initialized (in case .env was loaded after module initialization)
+    const client = getGoogleClient();
+    
+    // Check if Google Client ID is configured
+    if (!process.env.GOOGLE_CLIENT_ID || !client) {
+      console.error('[Google Auth] GOOGLE_CLIENT_ID not configured');
+      console.error('[Google Auth] GOOGLE_CLIENT_ID exists:', !!process.env.GOOGLE_CLIENT_ID);
+      console.error('[Google Auth] googleClient exists:', !!client);
+      console.error('[Google Auth] All env vars:', Object.keys(process.env).filter(k => k.includes('GOOGLE')));
+      return res.status(500).json({ 
+        message: 'Google authentication is not configured on the server. Please contact support.' 
+      });
+    }
+
+    const clientId = process.env.GOOGLE_CLIENT_ID;
+    console.log('[Google Auth] Verifying token with Client ID:', clientId.substring(0, 20) + '...');
+    console.log('[Google Auth] Full Client ID:', clientId);
+
     // Verify token with Google
-    const ticket = await googleClient.verifyIdToken({
-      idToken,
-      audience: process.env.GOOGLE_CLIENT_ID,
-    });
+    let ticket;
+    try {
+      ticket = await client.verifyIdToken({
+        idToken,
+        audience: clientId,
+      });
+      console.log('[Google Auth] Token verified successfully');
+    } catch (verifyError) {
+      console.error('[Google Auth] Token verification failed');
+      console.error('[Google Auth] Error type:', verifyError.constructor.name);
+      console.error('[Google Auth] Error message:', verifyError.message);
+      console.error('[Google Auth] Full error:', JSON.stringify(verifyError, Object.getOwnPropertyNames(verifyError)));
+      
+      // Provide more specific error messages
+      const errorMsg = verifyError.message || '';
+      
+      if (errorMsg.includes('audience') || errorMsg.includes('Wrong number of segments')) {
+        console.error('[Google Auth] Client ID mismatch detected');
+        return res.status(401).json({ 
+          message: 'Google Client ID mismatch. Please ensure the Client ID matches between frontend and backend.' 
+        });
+      }
+      if (errorMsg.includes('expired') || errorMsg.includes('Token used too early')) {
+        return res.status(401).json({ 
+          message: 'Google token has expired. Please try signing in again.' 
+        });
+      }
+      if (errorMsg.includes('invalid') || errorMsg.includes('Invalid token signature') || errorMsg.includes('Token used too early')) {
+        return res.status(401).json({ 
+          message: 'Invalid Google token. Please try signing in again.' 
+        });
+      }
+      
+      // Return detailed error in development, generic in production
+      const detailedError = process.env.NODE_ENV === 'development' 
+        ? `Google authentication failed: ${errorMsg}` 
+        : 'Invalid Google token. Please try signing in again.';
+      
+      return res.status(401).json({ 
+        message: detailedError 
+      });
+    }
+
     const payload = ticket.getPayload();
     const email = payload?.email;
     const emailVerified = payload?.email_verified;
@@ -253,7 +329,9 @@ router.post('/google', authLimiter, async (req, res) => {
     });
   } catch (error) {
     console.error('Google sign-in error:', error);
-    res.status(401).json({ message: 'Invalid Google token' });
+    res.status(401).json({ 
+      message: error.message || 'Invalid Google token. Please try again.' 
+    });
   }
 });
 
