@@ -5,10 +5,8 @@ import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 
 // Import session data to calculate actual question counts dynamically
-import regularSession012025Data from '../data/air-regulations/regular-session-01-2025.json';
 import olodeSession22025Data from '../data/air-regulations/olode-session-2-2025.json';
 import januaryOndemand2025Data from '../data/air-regulations/january-ondemand-2025.json';
-import olodeMay2025RegData from '../data/air-regulations/olode-may-2025.json';
 import olode052025Data from '../data/air-regulations/olode-05-2025.json';
 import olodeAprilSessionRegulationData from '../data/air-regulations/olode-april-session-regulation.json';
 import regulationsJune2025Data from '../data/air-regulations/regulations-june-2025.json';
@@ -35,10 +33,8 @@ import techGenRegularMarch2025Data from '../data/technical-general-regular-march
 // Helper function to get actual question count from session data
 const getQuestionCount = (sessionSlug) => {
   const sessionDataMap = {
-    'regular-session-01-2025-reg': regularSession012025Data,
     'olode-session-2-2025-reg': olodeSession22025Data,
     'january-ondemand-2025-reg': januaryOndemand2025Data,
-    'olode-may-2025-reg': olodeMay2025RegData,
     'olode-05-2025-reg': olode052025Data,
     'olode-april-session-regulation-reg': olodeAprilSessionRegulationData,
     'regulations-june-2025': regulationsJune2025Data,
@@ -139,8 +135,6 @@ const availableSessions = {
   ],
   // Air Regulations slugs must exactly match sessionQuestionSets keys in AIPracticeRunner
   'air-regulations': [
-    'olode-may-2025-reg',
-    'regular-session-01-2025-reg',
     'olode-session-2-2025-reg',
     'january-ondemand-2025-reg',
     'olode-05-2025-reg',
@@ -177,8 +171,6 @@ const subjectSessions = {
     { slug: 'regular-june-session', title: 'JUNE 2024 REGULAR', window: 'Regular Series', badge: 'Archive', questionCount: getQuestionCount('regular-june-session'), accent: 'from-[#396afc] to-[#2948ff]' }
   ],
   'air-regulations': [
-    { slug: 'olode-may-2025-reg', title: 'REG- OLODE MAY SESSION 2025', window: 'Olode Paper', badge: 'Available', questionCount: getQuestionCount('olode-may-2025-reg'), accent: 'from-[#fc5c7d] to-[#6a82fb]' },
-    { slug: 'regular-session-01-2025-reg', title: 'REG- REGULAR SESSION 01 2025', window: 'Regular Series', badge: 'Latest', questionCount: getQuestionCount('regular-session-01-2025-reg'), accent: 'from-[#1d976c] to-[#93f9b9]' },
     { slug: 'olode-session-2-2025-reg', title: 'Regulations olode session 2 2025', window: 'Olode Paper', badge: 'Available', questionCount: getQuestionCount('olode-session-2-2025-reg'), accent: 'from-[#6a11cb] to-[#2575fc]' },
     { slug: 'january-ondemand-2025-reg', title: 'JANUARY ON-DEMAND 2025', window: 'Regular Series', badge: 'Available', questionCount: getQuestionCount('january-ondemand-2025-reg'), accent: 'from-[#396afc] to-[#2948ff]' },
     { slug: 'olode-05-2025-reg', title: 'Regulations OLODE 05 2025', window: 'Olode Paper', badge: 'Available', questionCount: getQuestionCount('olode-05-2025-reg'), accent: 'from-[#00c6ff] to-[#0072ff]' },

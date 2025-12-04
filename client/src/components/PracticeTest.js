@@ -4,6 +4,7 @@ import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 import debugLog from '../utils/debug';
+import SEO from './SEO';
 
 const PracticeTest = () => {
   const { isAuthenticated } = useAuth();
@@ -282,7 +283,13 @@ const PracticeTest = () => {
   };
 
   return (
-    <div className="min-h-screen gradient-bg">
+    <>
+      <SEO
+        title="DGCA PYQ Practice Tests | Previous Year Questions - VIMAANNA"
+        description="Practice DGCA previous year questions (PYQ) with our comprehensive test series. Access PYQ sessions for Air Regulations, Meteorology, Air Navigation, and Technical General. Free DGCA mock tests and practice exams."
+        keywords="DGCA PYQ, DGCA previous year questions, DGCA practice test, DGCA mock test, DGCA exam questions, DGCA sample papers, DGCA test series, DGCA online practice, DGCA exam preparation"
+      />
+      <div className="min-h-screen gradient-bg">
       <div className="flex">
         {/* Sidebar */}
         <SiteSidebar />
@@ -371,6 +378,7 @@ const PracticeTest = () => {
         </main>
       </div>
     </div>
+    </>
   );
 };
 export default PracticeTest;

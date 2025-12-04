@@ -16,8 +16,6 @@ import olodeNov2024Data from '../data/meteorology-olode-nov-2024-session.json';
 import regularJuneSessionData from '../data/meteorology-regular-june-session.json';
 
 // Air Regulations imports
-import olodeMay2025RegData from '../data/air-regulations/olode-may-2025.json';
-import regularSession012025Data from '../data/air-regulations/regular-session-01-2025.json';
 import olodeSession22025Data from '../data/air-regulations/olode-session-2-2025.json';
 import januaryOndemand2025Data from '../data/air-regulations/january-ondemand-2025.json';
 import olode052025Data from '../data/air-regulations/olode-05-2025.json';
@@ -247,24 +245,6 @@ const sessionQuestionSets = {
       text: q.question_text,
       options: q.options,
       answer: q.answer
-    }))
-  },
-  'olode-may-2025-reg': {
-    bookName: olodeMay2025RegData.book_name,
-    chapterName: olodeMay2025RegData.chapter_title,
-    questions: olodeMay2025RegData.questions.map((q) => ({
-      text: q.full_question_text,
-      options: q.options,
-      answer: q.solution
-    }))
-  },
-  'regular-session-01-2025-reg': {
-    bookName: regularSession012025Data.book_name,
-    chapterName: regularSession012025Data.chapter_title,
-    questions: regularSession012025Data.questions.map((q) => ({
-      text: q.full_question_text,
-      options: q.options,
-      answer: q.solution
     }))
   },
   'olode-session-2-2025-reg': {

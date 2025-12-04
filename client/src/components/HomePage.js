@@ -2,8 +2,15 @@ import React, { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import SiteSidebar from './SiteSidebar';
+import SEO from './SEO';
 
 const HomePage = () => (
+  <>
+    <SEO
+      title="VIMAANNA - DGCA Exam Preparation | Pilot License Exam (CPL/ATPL) Practice Tests, Question Bank & Study Materials"
+      description="Best DGCA exam preparation platform for pilot license exams (CPL, ATPL). Practice tests, PYQ sessions, question banks for Air Regulations, Meteorology, Air Navigation, Technical General. Free aviation exam preparation, pilot exam questions, and study materials. Prepare for commercial pilot license and airline transport pilot license exams."
+      keywords="DGCA exam, DGCA preparation, DGCA practice test, DGCA question bank, DGCA study material, Air Regulations DGCA, Meteorology DGCA, Air Navigation DGCA, Technical General DGCA, DGCA pilot exam, DGCA CPL exam, DGCA ATPL exam, DGCA online test, DGCA previous year questions, DGCA mock test, aviation exam preparation, pilot license exam, DGCA training, DGCA coaching, pilot exam, pilot license, CPL exam, ATPL exam, commercial pilot license, airline transport pilot license, aviation training, pilot training, aviation exam, pilot test, aviation questions, pilot questions, DGCA syllabus, aviation syllabus, pilot syllabus, DGCA exam pattern, pilot exam pattern, aviation exam pattern, DGCA exam date, pilot exam date, aviation exam date, DGCA result, pilot exam result, aviation exam result, DGCA online coaching, pilot online coaching, aviation online coaching, DGCA study guide, pilot study guide, aviation study guide, DGCA books, pilot books, aviation books, DGCA notes, pilot notes, aviation notes, DGCA mock test online, pilot mock test, aviation mock test, DGCA sample papers, pilot sample papers, aviation sample papers, DGCA previous papers, pilot previous papers, aviation previous papers, Indian aviation exam, Indian pilot exam, India DGCA, DGCA India, aviation India, pilot India, commercial pilot India, airline pilot India, flight training India, aviation academy India, pilot academy India, how to become pilot, pilot career, aviation career, pilot license India, CPL license India, ATPL license India"
+    />
   <div className="min-h-screen gradient-bg overflow-hidden">
     <div className="flex">
       <SiteSidebar />
@@ -14,6 +21,7 @@ const HomePage = () => (
       </main>
     </div>
   </div>
+  </>
 );
 
 export default HomePage;

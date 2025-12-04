@@ -1,0 +1,24 @@
+# robots.txt for VIMAANNA DGCA Training Portal
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private routes
+Disallow: /admin/
+Disallow: /api/
+Disallow: /login
+Disallow: /profile
+
+# Allow important pages
+Allow: /
+Allow: /question-bank
+Allow: /pyq
+Allow: /library
+Allow: /books/
+
+# Sitemap location
+Sitemap: https://www.vimaanna.online/sitemap.xml
+
+# Crawl-delay (optional)
+Crawl-delay: 1
+

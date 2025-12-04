@@ -368,8 +368,6 @@ router.get('/books-structure', async (req, res) => {
     // Get PYQ sessions structure
     const pyqSessions = {
       'air-regulations': [
-        { slug: 'olode-may-2025-reg', title: 'REG- OLODE MAY SESSION 2025' },
-        { slug: 'regular-session-01-2025-reg', title: 'REG- REGULAR SESSION 01 2025' },
         { slug: 'olode-session-2-2025-reg', title: 'Regulations olode session 2 2025' },
         { slug: 'january-ondemand-2025-reg', title: 'JANUARY ON-DEMAND 2025' },
         { slug: 'olode-05-2025-reg', title: 'Regulations OLODE 05 2025' },
