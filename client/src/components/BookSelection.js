@@ -133,6 +133,7 @@ const BookSelection = () => {
             </div>
           </div>
         </nav>
+        
         <main className="flex-1 p-6 md:p-8">
           <div className="max-w-5xl mx-auto">
             <Stepper steps={["Subject", "Book", "Chapter", "Practice"]} current={1} />
