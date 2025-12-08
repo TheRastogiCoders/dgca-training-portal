@@ -181,7 +181,7 @@
         "1 bar",
         "6.5 bar (94 psi)"
       ],
-      "solution": "6.5 bar (94 psi)"
+      "solution": "6 bar (87 psi)"
     },
     {
       "question_number": 16,
@@ -193,7 +193,7 @@
         "1 bar",
         "6 bar (94 psi)"
       ],
-      "solution": "6 bar (94 psi)"
+      "solution": "2.3 bar (33.4 psi)"
     },
     {
       "question_number": 17,
@@ -301,7 +301,7 @@
         "32 deg C",
         "30 deg C"
       ],
-      "solution": "30 deg C"
+      "solution": "-30 deg C"
     },
     {
       "question_number": 26,
@@ -337,7 +337,7 @@
         "25ft",
         "40ft"
       ],
-      "solution": "23ft"
+      "solution": "30ft"
     },
     {
       "question_number": 29,
@@ -349,7 +349,7 @@
         "35 feet 5 inches",
         "36 feet 6 inches"
       ],
-      "solution": "35 feet 5 inches"
+      "solution": "35 feet 6 inches"
     },
     {
       "question_number": 30,
@@ -361,7 +361,7 @@
         "163 KIAS",
         "163 KCAS"
       ],
-      "solution": "163 KIAS"
+      "solution": "154 KIAS"
     },
     {
       "question_number": 31,
@@ -409,7 +409,7 @@
         "163 KTS",
         "45 KTS"
       ],
-      "solution": "163 KTS"
+      "solution": "154 KTS"
     },
     {
       "question_number": 35,
@@ -433,7 +433,7 @@
         "Shell Helix Ultra 5W-40",
         "AeroShell Oil Diesel Ultra"
       ],
-      "solution": "Aeroshell Oil Diesel 10W-40"
+      "solution": "All of the Above"
     },
     {
       "question_number": 37,
@@ -457,7 +457,7 @@
         "60 min",
         "45 min"
       ],
-      "solution": "60 min"
+      "solution": "30 min"
     },
     {
       "question_number": 39,
@@ -529,7 +529,7 @@
         "67 KIAS & 100% Load",
         "65 KIAS & 85% Load"
       ],
-      "solution": "Vy & 100% load"
+      "solution": "65 KIAS & 100% Load"
     },
     {
       "question_number": 45,
@@ -565,7 +565,7 @@
         "Only Under Certain Conditions",
         "Both b & c"
       ],
-      "solution": "Only Under Certain Conditions"
+      "solution": "False"
     },
     {
       "question_number": 48,
@@ -577,7 +577,7 @@
         "30 seconds in Summer and 60 seconds in winter",
         "60 seconds"
       ],
-      "solution": "30 seconds in Summer and 60 seconds in winter"
+      "solution": "3 seconds"
     },
     {
       "question_number": 49,
@@ -589,7 +589,7 @@
         "54 KIAS",
         "60 KIAS"
       ],
-      "solution": "53 KIAS"
+      "solution": "55 KIAS"
     },
     {
       "question_number": 50,
@@ -649,7 +649,7 @@
         "16 psi",
         "None of the above"
       ],
-      "solution": "24 psi"
+      "solution": "18 psi"
     },
     {
       "question_number": 55,
@@ -913,7 +913,7 @@
         "75 KIAS",
         "79 KIAS"
       ],
-      "solution": "70 KIAS"
+      "solution": "65 KIAS"
     },
     {
       "question_number": 77,
@@ -1201,7 +1201,7 @@
         "36 ft 5 in",
         "35 ft 5 in"
       ],
-      "solution": "35 ft 5 in"
+      "solution": "35 ft 6 in"
     },
     {
       "question_number": 101,
@@ -1213,7 +1213,7 @@
         "35 ft 6 in",
         "None of the above"
       ],
-      "solution": "None of the above"
+      "solution": "7 ft 3 in"
     },
     {
       "question_number": 102,
@@ -1249,7 +1249,7 @@
         "Optional Accessory",
         "Both A and C"
       ],
-      "solution": "Optional Accessory"
+      "solution": "True"
     },
     {
       "question_number": 105,
@@ -1333,7 +1333,7 @@
         "10 hrs",
         "Every hr"
       ],
-      "solution": "10 hrs"
+      "solution": "50 hrs"
     },
     {
       "question_number": 112,
@@ -1345,7 +1345,7 @@
         "44 KIAS",
         "33 KIAS"
       ],
-      "solution": "44 KIAS"
+      "solution": "45 KIAS"
     },
     {
       "question_number": 113,
@@ -1369,7 +1369,7 @@
         "50 to 500 feet",
         "200 to 400 feet"
       ],
-      "solution": "150 to 350 feet"
+      "solution": "100 to 350 feet"
     },
     {
       "question_number": 115,
@@ -1451,7 +1451,7 @@
         "Not Latched",
         "Triple Latched"
       ],
-      "solution": "Single Latched"
+      "solution": "Double Latched"
     },
     {
       "question_number": 122,
@@ -1554,12 +1554,12 @@
       "question_text": "All 3 wheels are:",
       "question_type": "MCQ",
       "options": [
-        "$6.00 \\times 6$ four ply rating",
-        "$6.00 \\times 6$, six ply rating",
-        "$8.00 \\times 6,$ four ply rating",
-        "$8.00 \\times 6.$ six ply rating"
+        "6.00 x  6, four ply rating",
+        "6.00 x  6, six ply rating",
+        "8.00 x  6, four ply rating",
+        "8.00 x  6, six ply rating"
       ],
-      "solution": "$6.00 \\times 6$ four ply rating"
+      "solution": "6.00 x 6, four ply rating"
     },
     {
       "question_number": 131,
@@ -1617,9 +1617,9 @@
         "Decrease 10% for each 9 kts Headwind",
         "Decrease 9% for each 10 kts headwind",
         "Increase 10% for each 2 kts tailwind",
-        "Both A and Ca"
+        "Both A and C"
       ],
-      "solution": "Decrease 10% for each 9 kts Headwind"
+      "solution": "Both A and C"
     },
     {
       "question_number": 136,
@@ -1643,7 +1643,7 @@
         "90% load",
         "80% Load"
       ],
-      "solution": "75% Load"
+      "solution": "70% Load"
     },
     {
       "question_number": 138,
@@ -1667,7 +1667,7 @@
         "60 min",
         "15 min"
       ],
-      "solution": "30 min"
+      "solution": "45 min"
     },
     {
       "question_number": 140,
