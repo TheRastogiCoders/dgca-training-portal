@@ -213,18 +213,18 @@
       "answer": "b",
       "explanation": ""
     },
-    {
-      "id": "pof2014-4-18",
-      "question": "If you take off behind a heavy jet that has just landed, you should plan to lift off:",
-      "options": [
-        "prior to the point where the jet touched down.",
-        "at the point where the jet touched down and on the upwind edge of the runway.",
-        "before the point where the jet touched down and on the downwind edge of the runway.",
-        "beyond the point where the jet touched down."
-      ],
-      "answer": "a",
-      "explanation": ""
-    },
+      {
+        "id": "pof2014-4-18",
+        "question": "If you take off behind a heavy jet that has just landed, you should plan to lift off:",
+        "options": [
+          "prior to the point where the jet touched down.",
+          "at the point where the jet touched down and on the upwind edge of the runway.",
+          "before the point where the jet touched down and on the downwind edge of the runway.",
+          "beyond the point where the jet touched down."
+        ],
+        "answer": "d",
+        "explanation": ""
+      },
     {
       "id": "pof2014-4-19",
       "question": "The adverse effects of ice, snow or frost on aircraft performance and flight characteristics include decreased lift and:",
