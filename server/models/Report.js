@@ -12,6 +12,9 @@ const reportSchema = new mongoose.Schema({
   },
   comment: { type: String },
   reportedBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+  // Store denormalized reporter info to display even if user record is missing/unavailable
+  reporterName: { type: String },
+  reporterEmail: { type: String },
   status: { 
     type: String, 
     enum: ['pending', 'reviewed', 'resolved', 'dismissed'],

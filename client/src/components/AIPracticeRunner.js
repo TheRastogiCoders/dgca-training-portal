@@ -5,6 +5,7 @@ import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 import Modal from './ui/Modal';
 import debugLog from '../utils/debug';
+import { API_ENDPOINTS } from '../config/api';
 // Meteorology imports
 import regularMarch2024Data from '../data/meteorology-regular-march-2024.json';
 import regularDecemberAttemptData from '../data/meteorology-regular-december-attempt.json';
@@ -502,7 +503,7 @@ const AIPracticeRunner = () => {
   const { subjectSlug, bookSlug, chapterSlug } = useParams();
   const location = useLocation();
   const navigate = useNavigate();
-  const { isAuthenticated, loading: authLoading } = useAuth();
+  const { isAuthenticated, loading: authLoading, user } = useAuth();
   
   const [current, setCurrent] = useState(0);
   const [questions, setQuestions] = useState([]);
@@ -786,29 +787,61 @@ const AIPracticeRunner = () => {
       }
       
       const questionIndex = questionIndexToReport ?? current;
+      const questionId = questionToReportNow.id || `question-${subjectSlug}-${bookSlug || 'ai'}-${chapterSlug || 'practice'}-${questionIndex + 1}`;
       
-      // Format the report details for Gmail compose
+      // Prepare report data
+      const reportData = {
+        questionId: questionId,
+        questionText: questionToReportNow.text || '',
+        bookSlug: bookSlug || '',
+        chapterSlug: chapterSlug || '',
+        reportType: reportType,
+        comment: reportComment.trim() || undefined,
+        reporterName: user?.username || user?.email || undefined,
+        reporterEmail: user?.email || undefined
+      };
+
+      // Get token for authenticated requests
+      const token = localStorage.getItem('token');
+      const headers = {
+        'Content-Type': 'application/json'
+      };
+      
+      if (token) {
+        headers['Authorization'] = `Bearer ${token}`;
+      }
+
+      // Submit report via API
+      const response = await fetch(API_ENDPOINTS.REPORTS, {
+        method: 'POST',
+        headers: headers,
+        body: JSON.stringify(reportData)
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({ error: 'Failed to submit report' }));
+        throw new Error(errorData.error || 'Failed to submit report');
+      }
+
+      const result = await response.json();
+
+      // Also open Gmail compose with the report content for email workflow
       const supportEmail = 'contactvimaanna@gmail.com';
       const subject = `Question Report: ${reportType}`;
-      
       let body = `Report Type: ${reportType}\n\n`;
-      body += `Question: ${questionIndex + 1} of ${totalQuestions}\n`;
-      body += `Subject: ${subjectName}\n`;
-      if (bookName) {
-        body += `Book: ${bookName}\n`;
-      }
-      if (chapterName) {
-        body += `Chapter: ${chapterName}\n`;
+      body += `Question ID: ${questionId}\n`;
+      if (subjectName) body += `Subject: ${subjectName}\n`;
+      if (bookName) body += `Book: ${bookName}\n`;
+      if (chapterName) body += `Chapter: ${chapterName}\n`;
+      if (user?.username || user?.email) {
+        body += `Reporter: ${user?.username || user?.email}\n`;
+        if (user?.email) body += `Reporter Email: ${user?.email}\n`;
       }
       body += `\nQuestion Text:\n${questionToReportNow.text}\n\n`;
-      
       if (reportComment.trim()) {
         body += `Additional Details:\n${reportComment.trim()}\n\n`;
       }
-      
       body += `---\nReported from: ${window.location.href}`;
-      
-      // Open Gmail compose window
       const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(supportEmail)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       window.open(gmailUrl, '_blank');
       
@@ -818,8 +851,8 @@ const AIPracticeRunner = () => {
         handleReportClose();
       }, 2000);
     } catch (error) {
-      console.error('Error preparing report:', error);
-      alert('Failed to prepare report. Please try again.');
+      console.error('Error submitting report:', error);
+      alert(error.message || 'Failed to submit report. Please try again.');
       setIsSubmittingReport(false);
     }
   };

@@ -30,6 +30,7 @@ const ContactSupport = lazy(() => import('./components/ContactSupport'));
 const Profile = lazy(() => import('./components/Profile'));
 const StudentsLogins = lazy(() => import('./components/admin/StudentsLogins'));
 const QuestionUpload = lazy(() => import('./components/admin/QuestionUpload'));
+const Reports = lazy(() => import('./components/admin/Reports'));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -82,6 +83,7 @@ function App() {
                 {/* Admin routes */}
                 <Route path="/admin/students-logins" element={<StudentsLogins />} />
                 <Route path="/admin/question-upload" element={<QuestionUpload />} />
+                <Route path="/admin/reports" element={<Reports />} />
                 {/* Hidden route: not linked from navigation */}
                 <Route path="/support/contact" element={<ContactSupport />} />
                 </Routes>

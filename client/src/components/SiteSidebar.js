@@ -136,7 +136,8 @@ const SiteSidebar = () => {
   // Admin navigation items (shown only when admin is logged in)
   const adminNavItems = [
     { to: '/admin/students-logins', label: 'Students Logins', icon: '👥' },
-    { to: '/admin/question-upload', label: 'Question Upload', icon: '📤' }
+    { to: '/admin/question-upload', label: 'Question Upload', icon: '📤' },
+    { to: '/admin/reports', label: 'Reports', icon: '🚨' }
   ];
 
   // Contact support item (shown for all users)
@@ -148,7 +149,8 @@ const SiteSidebar = () => {
       {/* Desktop/Laptop: Vertical rail - responsive width */}
       <aside className="hidden md:flex md:flex-col md:items-center md:gap-4 md:w-56 lg:w-64 xl:w-72 h-[calc(100vh-4rem)] fixed left-0 top-16 py-4 bg-gradient-to-b from-blue-600/5 to-purple-600/5 backdrop-blur-sm z-40 transition-all duration-300">
         <nav className="mt-2 flex flex-col items-center gap-3 md:gap-4">
-          {userNavItems.map((item) => (
+          {/* Regular user navigation items - hidden when admin is logged in */}
+          {!isAdminUser && userNavItems.map((item) => (
             <BoxNavItem
               key={item.to}
               to={item.to}
@@ -237,7 +239,8 @@ const SiteSidebar = () => {
         <div className="relative bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-xl border-t border-white/30 px-2 sm:px-3 pt-2.5 pb-3 sm:pb-4 flex items-center justify-around gap-1 shadow-2xl" style={{ paddingBottom: 'calc(0.75rem + env(safe-area-inset-bottom))' }}>
           {/* Show admin navigation if user is admin, otherwise show regular navigation */}
           <>
-            {userNavItems.map((item) => (
+            {/* Regular user navigation items - hidden when admin is logged in */}
+            {!isAdminUser && userNavItems.map((item) => (
               <div key={item.to} className="flex flex-col items-center justify-center min-w-0 flex-1 max-w-[20%]">
                 {isInPracticeTest ? (
                   <div
