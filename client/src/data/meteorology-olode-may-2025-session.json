@@ -27,15 +27,16 @@
     },
     {
       "question_number": 3,
-      "question_text": "Sea breeze sets in by ... and dies off at",
+      "question_text": "A sea breeze typically sets in during the day and dies off at what time?",
       "question_type": "MCQ",
       "options": [
-        "A. Night/Day",
-        "B. Day/Night",
-        "C. Both Day and Night"
+        "A. At night and dies off during the day",
+        "B. Sets in during the day and dies off at night",
+        "C. Occurs both during the day and night"
       ],
       "answer": "B"
-    },
+      }
+    
     {
       "question_number": 4,
       "question_text": "Which conditions lead to mountain waves?",

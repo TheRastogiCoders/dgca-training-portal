@@ -33,7 +33,7 @@
     },
     {
       "id": "3",
-      "question": "In the METAR shown below, the cloud base has been omitted. At what height might you expect the cloud base to be?\n28005KT 9999 ?????? $12/11$ Q1020 NOSIG",
+      "question": "You are given the following METAR, but the cloud group has been omitted: METAR: 28005KT 9999 12/11 Q1020 NOSIG. Using the rule of thumb that the cloud base in feet AGL is approximately (Temperature – Dew Point) × 400, at what height would you expect the cloud base to be?",
       "question_type": "MCQ",
       "options": [
         "a. SCT042",

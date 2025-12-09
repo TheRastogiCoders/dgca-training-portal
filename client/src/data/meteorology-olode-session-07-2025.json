@@ -14,14 +14,14 @@
       "solution": "Isobars"
     },
     {
-      "full_question_text": "In a station model, code 2 represents a cloud base height of:",
+      "full_question_text": "In a station model, what does code 2 mean when it appears in the cloud base height field?",
       "options": [
-        "0 - 99 m",
-        "100 - 199 m",
-        "200 - 299 m",
-        "300 - 399 m"
+        "0 – 50 m",
+        "50 – 100 m",
+        "100 – 200 m",
+        "200 – 300 m"
       ],
-      "solution": "100 - 199 m"
+      "solution": "100 – 200 m"
     },
     {
       "full_question_text": "Flying from low pressure to high pressure, the altimeter will:",
@@ -190,12 +190,12 @@
     {
       "full_question_text": "Airframe icing probability decreases below:",
       "options": [
-        "0 e2 84 83",
-        "-5 e2 84 83",
-        "-20 e2 84 83",
-        "-40 e2 84 83"
+        "0 °C",
+        "-5 °C",
+        "-20 °C",
+        "-40 °C"
       ],
-      "solution": "-40 e2 84 83"
+      "solution": "-40 °C"
     },
     {
       "full_question_text": "Rain starting in a thunderstorm indicates:",
