@@ -8,10 +8,10 @@
       "question_text": "The Piper Archer III DX is equipped with an Engine Manufactured by:",
       "question_type": "MCQ",
       "options": [
-        "Technify Motors GmbH",
+        "Textron Lycoming Engines",
         "Thielert Aircraft Engines",
         "Continental Motors",
-        "Textron Lycoming Engines"
+        "Technify Motors GmbH"
       ],
       "solution": "Technify Motors GmbH"
     },
@@ -20,10 +20,10 @@
       "question_text": "The Engine Model number is:",
       "question_type": "MCQ",
       "options": [
-        "TAE 125-02-114",
-        "TAE 125-02-99",
         "IO-360-D2J",
-        "IO-360-A4M"
+        "TAE 125-02-99",
+        "IO-360-A4M",
+        "TAE 125-02-114"
       ],
       "solution": "TAE 125-02-114"
     },
@@ -33,9 +33,9 @@
       "question_type": "MCQ",
       "options": [
         "MT Propeller Entwicklung GmbH",
-        "MTV Propellers",
         "Sensenich Propellers",
-        "McCauley Accessory Division"
+        "McCauley Accessory Division",
+        "MTV Propellers"
       ],
       "solution": "MT Propeller Entwicklung GmbH"
     },
@@ -44,9 +44,9 @@
       "question_text": "Propeller Model Number for the Piper Archer DX is:",
       "question_type": "MCQ",
       "options": [
-        "MTV-6-A/190-69",
         "MTV-6-A/187-129",
         "MT-6-A/187-129",
+        "MTV-6-A/190-69",
         "MT-6-A/190-69"
       ],
       "solution": "MTV-6-A/190-69"
@@ -56,9 +56,9 @@
       "question_text": "Number of Blades in the Propeller of the Piper Archer DX is:",
       "question_type": "MCQ",
       "options": [
-        "3 Blade Variable Pitch",
         "2 Blade Fixed Pitch",
         "3 Blade Fixed Pitch",
+        "3 Blade Variable Pitch",
         "2 Blade Variable Pitch"
       ],
       "solution": "3 Blade Variable Pitch"
@@ -68,10 +68,10 @@
       "question_text": "Diameter of the propeller blades are:",
       "question_type": "MCQ",
       "options": [
-        "1.90m",
-        "1.87m",
         "1.87ft",
-        "1.90ft"
+        "1.90ft",
+        "1.87m",
+        "1.90m"
       ],
       "solution": "1.90m"
     },
@@ -80,10 +80,10 @@
       "question_text": "Approved fuels for the Piper Archer DX are:",
       "question_type": "MCQ",
       "options": [
-        "JET A-1/JET A",
-        "AVGAS 100LL",
         "AVGAS 100",
-        "ATF/Mogas"
+        "ATF/Mogas",
+        "AVGAS 100LL",
+        "JET A-1/JET A"
       ],
       "solution": "JET A-1/JET A"
     },
@@ -92,9 +92,9 @@
       "question_text": "Take off and Max Continuous Power of the Engine is:",
       "question_type": "MCQ",
       "options": [
-        "114 kW (155 HP)",
         "114 HP (155 kW)",
         "99 kW (135 HP)",
+        "114 kW (155 HP)",
         "135 kW (99 HP)"
       ],
       "solution": "114 kW (155 HP)"
@@ -104,9 +104,9 @@
       "question_text": "Take off and Max. Continuous RPM is:",
       "question_type": "MCQ",
       "options": [
+        "2400 RPM",
         "2300 RPM",
         "2000 RPM",
-        "2400 RPM",
         "2700 RPM"
       ],
       "solution": "2300 RPM"
@@ -116,10 +116,10 @@
       "question_text": "Max. Recommended Cruise:",
       "question_type": "MCQ",
       "options": [
-        "85%",
         "100% for 5 minutes",
-        "85% for 5 minutes",
-        "90%"
+        "85%",
+        "90%",
+        "85% for 5 minutes"
       ],
       "solution": "85%"
     },
@@ -128,10 +128,10 @@
       "question_text": "What is Engine Load:",
       "question_type": "MCQ",
       "options": [
-        "Available percentage of max. Engine power",
-        "Available percentage of max. Brake Horse Power",
+        "Available percentage of max. Propeller thrust",
         "Available percentage of max. Thrust Horse Power",
-        "Available percentage of max. Propeller thrust"
+        "Available percentage of max. Brake Horse Power",
+        "Available percentage of max. Engine power"
       ],
       "solution": "Available percentage of max. Engine power"
     },
@@ -142,8 +142,8 @@
       "options": [
         "1.2 bar (14.5 psi)",
         "1 bar",
-        "2.3 bar (33.4 psi)",
-        "6 bar (87 psi)"
+        "6 bar (87 psi)",
+        "2.3 bar (33.4 psi)"
       ],
       "solution": "1.2 bar (14.5 psi)"
     },
@@ -152,10 +152,10 @@
       "question_text": "Minimum Oil Pressure (during take-off):",
       "question_type": "MCQ",
       "options": [
-        "2.3 bar (33.4 psi)",
-        "1.2 bar (14.5 psi)",
+        "6 bar (87 psi)",
         "1 bar",
-        "6 bar (87 psi)"
+        "2.3 bar (33.4 psi)",
+        "1.2 bar (14.5 psi)"
       ],
       "solution": "2.3 bar (33.4 psi)"
     },
@@ -164,9 +164,9 @@
       "question_text": "Minimum Oil Pressure (in flight):",
       "question_type": "MCQ",
       "options": [
-        "2.3 bar (33.4 psi)",
-        "1.2 bar (14.5 psi)",
         "1 bar",
+        "1.2 bar (14.5 psi)",
+        "2.3 bar (33.4 psi)",
         "6 bar (94 psi)"
       ],
       "solution": "2.3 bar (33.4 psi)"
@@ -176,10 +176,10 @@
       "question_text": "Maximum Oil Pressure (during take-off):",
       "question_type": "MCQ",
       "options": [
-        "6 bar (87 psi)",
         "1.2 bar (14.5 psi)",
-        "1 bar",
-        "6.5 bar (94 psi)"
+        "6.5 bar (94 psi)",
+        "6 bar (87 psi)",
+        "1 bar"
       ],
       "solution": "6 bar (87 psi)"
     },
@@ -189,8 +189,8 @@
       "question_type": "MCQ",
       "options": [
         "2.3 bar (33.4 psi)",
-        "1.2 bar (14.5 psi)",
         "1 bar",
+        "1.2 bar (14.5 psi)",
         "6 bar (94 psi)"
       ],
       "solution": "2.3 bar (33.4 psi)"
@@ -200,10 +200,10 @@
       "question_text": "DOHC Stands for:",
       "question_type": "MCQ",
       "options": [
-        "Double Overhead Camshaft",
         "Double Overhead Crankshaft",
-        "Direct Overhead Camshaft",
-        "Direct Overhead Crankshaft"
+        "Double Overhead Camshaft",
+        "Direct Overhead Crankshaft",
+        "Direct Overhead Camshaft"
       ],
       "solution": "Double Overhead Camshaft"
     },
@@ -212,10 +212,10 @@
       "question_text": "FADEC Stands for:",
       "question_type": "MCQ",
       "options": [
+        "Full Authority Direct Engine Control",
         "Full Authority Digital Engine Control",
-        "Full Autonomy Digital Engine Control",
         "Fully Automatic Digital Engine Control",
-        "Full Authority Direct Engine Control"
+        "Full Autonomy Digital Engine Control"
       ],
       "solution": "Full Authority Digital Engine Control"
     },
@@ -224,9 +224,9 @@
       "question_text": "Minimum Engine Starting Oil Temperature is:",
       "question_type": "MCQ",
       "options": [
-        "-32 deg C",
-        "50 deg C",
         "-30 deg C",
+        "50 deg C",
+        "-32 deg C",
         "60 deg C"
       ],
       "solution": "-32 deg C"
@@ -236,9 +236,9 @@
       "question_text": "Maximum Engine Oil Operating Temperature is:",
       "question_type": "MCQ",
       "options": [
-        "140 deg C",
         "50 deg C",
         "120 deg C",
+        "140 deg C",
         "105 deg C"
       ],
       "solution": "140 deg C"
@@ -249,9 +249,9 @@
       "question_type": "MCQ",
       "options": [
         "50 deg C",
-        "60 deg C",
         "-32 deg C",
-        "-30 deg C"
+        "-30 deg C",
+        "60 deg C"
       ],
       "solution": "50 deg C"
     },
@@ -260,10 +260,10 @@
       "question_text": "Minimum Engine Starting Coolant Temperature is:",
       "question_type": "MCQ",
       "options": [
-        "-32 deg C",
-        "-30 deg C",
         "-35 deg C",
-        "32 deg C"
+        "32 deg C",
+        "-32 deg C",
+        "-30 deg C"
       ],
       "solution": "-32 deg C"
     },
@@ -272,10 +272,10 @@
       "question_text": "Minimum Operating Coolant Temperature is:",
       "question_type": "MCQ",
       "options": [
-        "60 deg C",
         "50 deg C",
-        "32 deg C",
-        "30 deg C"
+        "30 deg C",
+        "60 deg C",
+        "32 deg C"
       ],
       "solution": "60 deg C"
     },
@@ -284,10 +284,10 @@
       "question_text": "Maximum Operating Coolant Temperature is:",
       "question_type": "MCQ",
       "options": [
-        "105 deg C",
-        "120 deg C",
         "140 deg C",
-        "90 deg C"
+        "90 deg C",
+        "105 deg C",
+        "120 deg C"
       ],
       "solution": "105 deg C"
     },
@@ -297,9 +297,9 @@
       "question_type": "MCQ",
       "options": [
         "-30 deg C",
+        "30 deg C",
         "-32 deg C",
-        "32 deg C",
-        "30 deg C"
+        "32 deg C"
       ],
       "solution": "-30 deg C"
     },
@@ -308,10 +308,10 @@
       "question_text": "Maximum Operating Gearbox Temperature is:",
       "question_type": "MCQ",
       "options": [
-        "120 deg C",
-        "105 deg C",
         "90 deg C",
-        "140 deg C"
+        "120 deg C",
+        "140 deg C",
+        "105 deg C"
       ],
       "solution": "120 deg C"
     },
@@ -320,10 +320,10 @@
       "question_text": "Maximum Oil Consumption is:",
       "question_type": "MCQ",
       "options": [
-        "0.1 l/h",
         "0.5 l/h",
+        "5 l/h",
         "1 l/h",
-        "5 l/h"
+        "0.1 l/h"
       ],
       "solution": "0.1 l/h"
     },
@@ -344,10 +344,10 @@
       "question_text": "Wingspan of the Piper Archer DX is:",
       "question_type": "MCQ",
       "options": [
-        "35 feet 6 inches",
-        "36 feet 5 inches.",
         "35 feet 5 inches",
-        "36 feet 6 inches"
+        "36 feet 6 inches",
+        "36 feet 5 inches.",
+        "35 feet 6 inches"
       ],
       "solution": "35 feet 6 inches"
     },
@@ -356,10 +356,10 @@
       "question_text": "Vne for the Piper Archer DX is:",
       "question_type": "MCQ",
       "options": [
-        "154 KIAS",
+        "163 KCAS",
         "154 KCAS",
         "163 KIAS",
-        "163 KCAS"
+        "154 KIAS"
       ],
       "solution": "154 KIAS"
     },
@@ -368,10 +368,10 @@
       "question_text": "Vno for the Piper Archer Dx is:",
       "question_type": "MCQ",
       "options": [
+        "129 KIAS",
         "125 KIAS",
-        "125 KCAS",
         "99 KIAS",
-        "129 KIAS"
+        "125 KCAS"
       ],
       "solution": "125 KIAS"
     },
@@ -380,9 +380,9 @@
       "question_text": "Design Maneuvering Speed (Va) for the Piper is:",
       "question_type": "MCQ",
       "options": [
+        "99 KIAS at 1635 lbs.",
         "113 KIAS at 2550 lbs.",
         "113 KCAS at 2550 lbs.",
-        "99 KIAS at 1635 lbs.",
         "129 KIAS at 1635 lbs."
       ],
       "solution": "113 KIAS at 2550 lbs."
@@ -392,10 +392,10 @@
       "question_text": "Vfe for the Piper Archer Dx is:",
       "question_type": "MCQ",
       "options": [
-        "102 KIAS",
-        "100 KIAS",
         "102 KCAS",
-        "99 KIAS"
+        "99 KIAS",
+        "102 KIAS",
+        "100 KIAS"
       ],
       "solution": "102 KIAS"
     },
@@ -416,10 +416,10 @@
       "question_text": "Maximum Ramp Weight for the Piper Archer DX in normal category is:",
       "question_type": "MCQ",
       "options": [
-        "2558 lbs.",
-        "2550 lbs.",
         "2138 lbs.",
-        "2130 lbs."
+        "2550 lbs.",
+        "2130 lbs.",
+        "2558 lbs."
       ],
       "solution": "2558 lbs."
     },
@@ -428,10 +428,10 @@
       "question_text": "The approved Engine Oil for use on the Piper Archer DX is:",
       "question_type": "MCQ",
       "options": [
-        "All of the Above",
-        "Aeroshell Oil Diesel 10W-40",
+        "AeroShell Oil Diesel Ultra",
         "Shell Helix Ultra 5W-40",
-        "AeroShell Oil Diesel Ultra"
+        "All of the Above",
+        "Aeroshell Oil Diesel 10W-40"
       ],
       "solution": "All of the Above"
     },
@@ -440,9 +440,9 @@
       "question_text": "The coolant used for the Piper Archer DX is:",
       "question_type": "MCQ",
       "options": [
-        "Water/Radiator Protection at a ratio of 50:50",
-        "Water/Radiator Protection at a ratio of 70:30",
         "Water with 1% of Radiator Protection fluid",
+        "Water/Radiator Protection at a ratio of 70:30",
+        "Water/Radiator Protection at a ratio of 50:50",
         "None of the above"
       ],
       "solution": "Water/Radiator Protection at a ratio of 50:50"
@@ -452,10 +452,10 @@
       "question_text": "If the main battery and alternator fails, the engine will operate on FADEC A backup battery for:",
       "question_type": "MCQ",
       "options": [
-        "30 min",
+        "45 min",
         "120 min",
-        "60 min",
-        "45 min"
+        "30 min",
+        "60 min"
       ],
       "solution": "30 min"
     },
@@ -464,10 +464,10 @@
       "question_text": "Max certified altitude is:",
       "question_type": "MCQ",
       "options": [
-        "16400ft",
         "15400ft",
+        "13000ft",
         "10000ft",
-        "13000ft"
+        "16400ft"
       ],
       "solution": "16400ft"
     },
@@ -476,10 +476,10 @@
       "question_text": "Total Fuel Capacity of the aircraft is:",
       "question_type": "MCQ",
       "options": [
-        "50 USG",
         "48 USG",
-        "53 USG",
-        "None of the above"
+        "50 USG",
+        "None of the above",
+        "53 USG"
       ],
       "solution": "50 USG"
     },
@@ -489,9 +489,9 @@
       "question_type": "MCQ",
       "options": [
         "48 USG",
-        "50 USG",
         "53 USG",
-        "None of the Above"
+        "None of the Above",
+        "50 USG"
       ],
       "solution": "48 USG"
     },
@@ -500,10 +500,10 @@
       "question_text": "Total Unusable fuel is:",
       "question_type": "MCQ",
       "options": [
-        "2 USG",
-        "1 USG",
         "1.5 USG",
-        "4 USG (2 USG per tank)"
+        "4 USG (2 USG per tank)",
+        "1 USG",
+        "2 USG"
       ],
       "solution": "2 USG"
     },
@@ -512,9 +512,9 @@
       "question_text": "Approved Gearbox Oil are:",
       "question_type": "MCQ",
       "options": [
+        "Shell Spirax EP 75W-90",
         "Centurion Gearbox Oil N1",
         "Shell Spirax S6 GXME 75W-80",
-        "Shell Spirax EP 75W-90",
         "All of the Above"
       ],
       "solution": "All of the Above"
@@ -536,10 +536,10 @@
       "question_text": "During Engine Failure after take-off Airspeed with flaps retracted should be:",
       "question_type": "MCQ",
       "options": [
-        "73 KIAS",
         "65 KIAS",
+        "70 KIAS",
         "68 KIAS",
-        "70 KIAS"
+        "73 KIAS"
       ],
       "solution": "73 KIAS"
     },
@@ -548,10 +548,10 @@
       "question_text": "In an Engine failure, the propeller will continue to turn as long as the airspeed is above:",
       "question_type": "MCQ",
       "options": [
-        "65 KIAS",
         "73 KIAS",
         "60 KIAS",
-        "68 KIAS"
+        "68 KIAS",
+        "65 KIAS"
       ],
       "solution": "65 KIAS"
     },
@@ -560,10 +560,10 @@
       "question_text": "In case of a dead battery, the Aircraft can be started using external Power Source:",
       "question_type": "MCQ",
       "options": [
-        "False",
         "True",
-        "Only Under Certain Conditions",
-        "Both b & c"
+        "False",
+        "Both b & c",
+        "Only Under Certain Conditions"
       ],
       "solution": "False"
     },
@@ -573,9 +573,9 @@
       "question_type": "MCQ",
       "options": [
         "3 seconds",
-        "2 seconds",
         "30 seconds in Summer and 60 seconds in winter",
-        "60 seconds"
+        "60 seconds",
+        "2 seconds"
       ],
       "solution": "3 seconds"
     },
@@ -584,9 +584,9 @@
       "question_text": "Lift off speed of the Piper Archer at 2550lbs(1157kg) is:",
       "question_type": "MCQ",
       "options": [
+        "54 KIAS",
         "55 KIAS",
         "53 KIAS",
-        "54 KIAS",
         "60 KIAS"
       ],
       "solution": "55 KIAS"
@@ -596,10 +596,10 @@
       "question_text": "After Takeoff, speed at 15 m (50 ft) at 2550lbs(1157kg) is:",
       "question_type": "MCQ",
       "options": [
+        "55 KIAS",
         "60 KIAS",
         "50 KIAS",
-        "57 KIAS",
-        "55 KIAS"
+        "57 KIAS"
       ],
       "solution": "60 KIAS"
     },
@@ -608,9 +608,9 @@
       "question_text": "Vy at 2550 lbs. (1157kg) is:",
       "question_type": "MCQ",
       "options": [
+        "67 KIAS",
         "76 KIAS",
         "70 KIAS",
-        "67 KIAS",
         "65 KIAS"
       ],
       "solution": "76 KIAS"
@@ -620,10 +620,10 @@
       "question_text": "Best Glide Speed is:",
       "question_type": "MCQ",
       "options": [
-        "78 KIAS",
+        "None of the Above",
         "75 KIAS",
         "65 KIAS",
-        "None of the Above"
+        "78 KIAS"
       ],
       "solution": "78 KIAS"
     },
@@ -634,8 +634,8 @@
       "options": [
         "24V",
         "28V",
-        "60V",
-        "12V"
+        "12V",
+        "60V"
       ],
       "solution": "24V"
     },
@@ -644,10 +644,10 @@
       "question_text": "Nose Gear Tyre Pressure:",
       "question_type": "MCQ",
       "options": [
-        "18 psi",
         "24 psi",
-        "16 psi",
-        "None of the above"
+        "None of the above",
+        "18 psi",
+        "16 psi"
       ],
       "solution": "18 psi"
     },
@@ -656,10 +656,10 @@
       "question_text": "Main Gear Tyre Pressure:",
       "question_type": "MCQ",
       "options": [
+        "None of the above",
         "24 psi",
         "18 psi",
-        "16 psi",
-        "None of the above"
+        "16 psi"
       ],
       "solution": "24 psi"
     },
@@ -668,10 +668,10 @@
       "question_text": "ELT Testing should be done on the freq of:",
       "question_type": "MCQ",
       "options": [
-        "121.5 Mhz",
+        "406 Khz",
         "406 Mhz",
         "121.5 Khz",
-        "406 Khz"
+        "121.5 Mhz"
       ],
       "solution": "121.5 Mhz"
     },
@@ -682,8 +682,8 @@
       "options": [
         "3",
         "2",
-        "5",
-        "1"
+        "1",
+        "5"
       ],
       "solution": "3"
     },
@@ -694,8 +694,8 @@
       "options": [
         "5-10 kts above stall speed",
         "10 kts above stall speed",
-        "At stall speed",
-        "5 kts above stall speed"
+        "5 kts above stall speed",
+        "At stall speed"
       ],
       "solution": "5-10 kts above stall speed"
     },
@@ -704,10 +704,10 @@
       "question_text": "Max allowed baggage in baggage compartment is:",
       "question_type": "MCQ",
       "options": [
-        "200 lbs.",
-        "120 lbs.",
         "100 lbs.",
-        "None of the above"
+        "200 lbs.",
+        "None of the above",
+        "120 lbs."
       ],
       "solution": "200 lbs."
     },
@@ -716,10 +716,10 @@
       "question_text": "Baggage area is:",
       "question_type": "MCQ",
       "options": [
-        "24 cu in.",
         "30 cu.in",
-        "200 cu in.",
-        "None of the above"
+        "None of the above",
+        "24 cu in.",
+        "200 cu in."
       ],
       "solution": "24 cu in."
     },
@@ -729,9 +729,9 @@
       "question_type": "MCQ",
       "options": [
         "890 rpm for 2 min, then 1400 rpm till OT 50 deg C and CT 60 deg C",
-        "1400 rpm till OT 50 deg C and CT 60 deg C",
         "890 rpm for 2 min",
-        "None of the above"
+        "None of the above",
+        "1400 rpm till OT 50 deg C and CT 60 deg C"
       ],
       "solution": "890 rpm for 2 min, then 1400 rpm till OT 50 deg C and CT 60 deg C"
     },
@@ -740,10 +740,10 @@
       "question_text": "Starter motor can be operated for a maximum of seconds per attempt.",
       "question_type": "MCQ",
       "options": [
-        "10 seconds",
+        "8 seconds",
         "6 seconds",
-        "20 seconds",
-        "8 seconds"
+        "10 seconds",
+        "20 seconds"
       ],
       "solution": "10 seconds"
     },
@@ -753,9 +753,9 @@
       "question_type": "MCQ",
       "options": [
         "1/2 hr",
+        "1/4 hr",
         "1 hr",
-        "2 hr",
-        "1/4 hr"
+        "2 hr"
       ],
       "solution": "1/2 hr"
     },
@@ -764,10 +764,10 @@
       "question_text": "PFD stands for:",
       "question_type": "MCQ",
       "options": [
+        "None of the above",
         "Primary Flight Display",
         "Primary Function Display",
-        "Both a & b",
-        "None of the above"
+        "Both a & b"
       ],
       "solution": "Primary Flight Display"
     },
@@ -776,10 +776,10 @@
       "question_text": "MFD Stands for:",
       "question_type": "MCQ",
       "options": [
-        "Multi-Function Display",
         "Multi Flight Display",
-        "Both a and b",
-        "None of the above"
+        "None of the above",
+        "Multi-Function Display",
+        "Both a and b"
       ],
       "solution": "Multi-Function Display"
     },
@@ -788,10 +788,10 @@
       "question_text": "The Engine on the Piper Archer DX is:",
       "question_type": "MCQ",
       "options": [
-        "Liquid Cooled",
         "Air Cooled",
-        "Oil Cooled",
-        "Air and Oil Cooled"
+        "Air and Oil Cooled",
+        "Liquid Cooled",
+        "Oil Cooled"
       ],
       "solution": "Liquid Cooled"
     },
@@ -800,10 +800,10 @@
       "question_text": "The Engine on the Piper Archer DX is:",
       "question_type": "MCQ",
       "options": [
-        "In Line 4 Cylinder",
         "In Line 6 cylinder",
-        "Horizontally Opposed 4 cylinder",
-        "Horizontally Opposed 6 cylinder"
+        "In Line 4 Cylinder",
+        "Horizontally Opposed 6 cylinder",
+        "Horizontally Opposed 4 cylinder"
       ],
       "solution": "In Line 4 Cylinder"
     },
@@ -812,10 +812,10 @@
       "question_text": "The Engine on the Piper Archer DX has a displacement of:",
       "question_type": "MCQ",
       "options": [
-        "121.5 cubic inches",
         "125 cubic inches",
+        "121.5 cubic centimeters",
         "114 cubic inches",
-        "121.5 cubic centimeters"
+        "121.5 cubic inches"
       ],
       "solution": "121.5 cubic inches"
     },
@@ -825,9 +825,9 @@
       "question_type": "MCQ",
       "options": [
         "Turbocharged",
+        "None of the Above",
         "Supercharged",
-        "Turbo-Supercharged",
-        "None of the Above"
+        "Turbo-Supercharged"
       ],
       "solution": "Turbocharged"
     },
@@ -836,849 +836,848 @@
       "question_text": "The Engine on the Piper Archer DX is:",
       "question_type": "MCQ",
       "options": [
-        "Controlled by FADEC",
-        "Controlled by ECU",
+        "None of the above",
         "Controlled by Magnetos",
-        "None of the above"
+        "Controlled by ECU",
+        "Controlled by FADEC"
       ],
       "solution": "Controlled by FADEC"
     },
     {
-      "question_number": 71,
-      "question_text": "The freezing point of the coolant is:",
-      "question_type": "MCQ",
-      "options": [
-        "-36 deg C",
-        "-30 deg C",
-        "-32 deg C",
-        "None of the above"
-      ],
-      "solution": "-36 deg C"
-    },
-    {
-      "question_number": 72,
-      "question_text": "The Yellow Arc in the ASI is:",
-      "question_type": "MCQ",
-      "options": [
-        "125 KTS to 154 KTS",
-        "99 KTS to 154 KTS",
-        "50 KTS to 124 KTS",
-        "45 KTS to 104 KTS"
-      ],
-      "solution": "125 KTS to 154 KTS"
-    },
-    {
-      "question_number": 73,
-      "question_text": "The Green Arc in the ASI is:",
-      "question_type": "MCQ",
-      "options": [
-        "50 KTS to 124 KTS",
-        "45 KTS to 104 KTS",
-        "99 KTS to 154 KTS",
-        "125 KTS to 154 KTS"
-      ],
-      "solution": "50 KTS to 124 KTS"
-    },
-    {
-      "question_number": 74,
-      "question_text": "White Arc in the ASI is:",
-      "question_type": "MCQ",
-      "options": [
-        "45 KTS to 104 KTS",
-        "50 KTS to 124 KTS",
-        "99 KTS to 154 KTS",
-        "125 KTS to 154 KTS"
-      ],
-      "solution": "45 KTS to 104 KTS"
-    },
-    {
-      "question_number": 75,
-      "question_text": "Final Approach speed with Flaps 40 deg is:",
-      "question_type": "MCQ",
-      "options": [
-        "63 KTS",
-        "70 KTS",
-        "65 KTS",
-        "None of the above"
-      ],
-      "solution": "63 KTS"
-    },
-    {
-      "question_number": 76,
-      "question_text": "Best rate of climb with flaps 10 deg is:",
-      "question_type": "MCQ",
-      "options": [
-        "65 KIAS",
-        "70 KIAS",
-        "75 KIAS",
-        "79 KIAS"
-      ],
-      "solution": "65 KIAS"
-    },
-    {
-      "question_number": 77,
-      "question_text": "Fuel Tanks must be switched every:",
-      "question_type": "MCQ",
-      "options": [
-        "30 min",
-        "20 min",
-        "60 min",
-        "10 min"
-      ],
-      "solution": "30 min"
-    },
-    {
-      "question_number": 78,
-      "question_text": "During Takeoff, Fuel Pump must be ON:",
-      "question_type": "MCQ",
-      "options": [
-        "True",
-        "False",
-        "True but only in cold weather",
-        "True but only in hot weather"
-      ],
-      "solution": "True"
-    },
-    {
-      "question_number": 79,
-      "question_text": "Red Range of Electrical System voltage is:",
-      "question_type": "MCQ",
-      "options": [
-        "0-24.9 V",
-        "25-25.9 V",
-        "> 30V",
-        "Both A and C"
-      ],
-      "solution": "Both A and C"
-    },
-    {
-      "question_number": 80,
-      "question_text": "Alternator Red Range is:",
-      "question_type": "MCQ",
-      "options": [
-        ">60 Amps",
-        ">60 Volts",
-        "0-52 Volts",
-        "53-60 Amps"
-      ],
-      "solution": ">60 Amps"
-    },
-    {
-      "question_number": 81,
-      "question_text": "Gearbox temperature green range:",
-      "question_type": "MCQ",
-      "options": [
-        "<115 deg C",
-        "115-120 deg C",
-        ">120 deg C",
-        "None of the above"
-      ],
-      "solution": "<115 deg C"
-    },
-    {
-      "question_number": 82,
-      "question_text": "Gearbox Temperature Amber Range:",
-      "question_type": "MCQ",
-      "options": [
-        "115-120 deg C",
-        "<115 deg C",
-        ">120 deg C",
-        "None of the above"
-      ],
-      "solution": "115-120 deg C"
-    },
-    {
-      "question_number": 83,
-      "question_text": "Gearbox temperature red range:",
-      "question_type": "MCQ",
-      "options": [
-        ">120 deg C",
-        "<115 deg C",
-        "115-120 deg C",
-        "None of the above"
-      ],
-      "solution": ">120 deg C"
-    },
-    {
-      "question_number": 84,
-      "question_text": "Tachometer Green Range:",
-      "question_type": "MCQ",
-      "options": [
-        "0-2300 RPM",
-        ">2300 RPM",
-        "1200-2300 RPM",
-        "0-1200 RPM"
-      ],
-      "solution": "0-2300 RPM"
-    },
-    {
-      "question_number": 85,
-      "question_text": "Tachometer Red Range:",
-      "question_type": "MCQ",
-      "options": [
-        ">2300 RPM",
-        "0-2300 RPM",
-        "1200-2300 RPM",
-        "0-1200 RPM"
-      ],
-      "solution": ">2300 RPM"
-    },
-    {
-      "question_number": 86,
-      "question_text": "Oil Pressure Red Range:",
-      "question_type": "MCQ",
-      "options": [
-        "0-1.1 bar & > 6.5 bar",
-        "1.2 to 2.2 bar",
-        "Both a and b",
-        "None of the above"
-      ],
-      "solution": "0-1.1 bar & > 6.5 bar"
-    },
-    {
-      "question_number": 87,
-      "question_text": "Oil Temperature green range is:",
-      "question_type": "MCQ",
-      "options": [
-        "50-129 deg C",
-        "130-140 deg C",
-        "-32-49 deg C",
-        "None of the above"
-      ],
-      "solution": "50-129 deg C"
-    },
-    {
-      "question_number": 88,
-      "question_text": "Oil pressure green range:",
-      "question_type": "MCQ",
-      "options": [
-        "2.3 to 5.1 bar",
-        "5.2 to 6.5 bar",
-        "1.2 to 2.2 bar",
-        "None of the above"
-      ],
-      "solution": "2.3 to 5.1 bar"
-    },
-    {
-      "question_number": 89,
-      "question_text": "Coolant Temperature green range:",
-      "question_type": "MCQ",
-      "options": [
-        "60-100 deg C",
-        "101-105 deg C",
-        ">105 deg C",
-        "None of the above"
-      ],
-      "solution": "60-100 deg C"
-    },
-    {
-      "question_number": 90,
-      "question_text": "Fuel Temperature green range:",
-      "question_type": "MCQ",
-      "options": [
-        "0-65 deg C",
-        "< - 30 deg C",
-        ">75 deg C",
-        "None of the above"
-      ],
-      "solution": "0-65 deg C"
-    },
-    {
-      "question_number": 91,
-      "question_text": "FADEC Warning in the G1000 will display as:",
-      "question_type": "MCQ",
-      "options": [
-        "ECU A Fail / ECU B Fail",
-        "FADEC A Fail / FADEC B Fail",
-        "Both a and B",
-        "None of the Above"
-      ],
-      "solution": "ECU A Fail / ECU B Fail"
-    },
-    {
-      "question_number": 92,
-      "question_text": "Engine coolant level low will show on the G1000 as:",
-      "question_type": "MCQ",
-      "options": [
-        "COOL LVL - Caution",
-        "COOL LVL - Warning",
-        "COOL LVL - Advisory",
-        "COOLANT LVL"
-      ],
-      "solution": "COOL LVL - Caution"
-    },
-    {
-      "question_number": 93,
-      "question_text": "When Force B is activated, the display on the G1000 shows:",
-      "question_type": "MCQ",
-      "options": [
-        "ECU B Active",
-        "FADEC B Active",
-        "B Active",
-        "None of the above"
-      ],
-      "solution": "ECU B Active"
-    },
-    {
-      "question_number": 94,
-      "question_text": "Advisory information on the G1000 shows up as:",
-      "question_type": "MCQ",
-      "options": [
-        "White text and Black background",
-        "Black text and yellow background",
-        "Yellow Text and Black Background",
-        "Red Text and Black Background"
-      ],
-      "solution": "White text and Black background"
-    },
-    {
-      "question_number": 95,
-      "question_text": "Caution information (not accepted) on the G1000 shows up as:",
-      "question_type": "MCQ",
-      "options": [
-        "Black text and yellow background",
-        "White text and Black background",
-        "Yellow Text and Black Background",
-        "Red Text and Black Background"
-      ],
-      "solution": "Black text and yellow background"
-    },
-    {
-      "question_number": 96,
-      "question_text": "Caution information (accepted via Master Caution switch) on the G1000 shows up as:",
-      "question_type": "MCQ",
-      "options": [
-        "Yellow Text and Black Background",
-        "Red Text and Black Background",
-        "Black text and yellow background",
-        "White text and Black background"
-      ],
-      "solution": "Yellow Text and Black Background"
-    },
-    {
-      "question_number": 97,
-      "question_text": "Warning information (not accepted) on the G1000 shows up as:",
-      "question_type": "MCQ",
-      "options": [
-        "Flash between white text, red background and red text, white background",
-        "Yellow Text and Black Background",
-        "Red Text and Black Background",
-        "Black text and yellow background"
-      ],
-      "solution": "Flash between white text, red background and red text, white background"
-    },
-    {
-      "question_number": 98,
-      "question_text": "Warning information (accepted via master warning switch) on the G1000 shows up as:",
-      "question_type": "MCQ",
-      "options": [
-        "Red Text and Black Background",
-        "Yellow Text and Black Background",
-        "Flash between white text, red background and red text, white background",
-        "Black text and yellow background"
-      ],
-      "solution": "Red Text and Black Background"
-    },
-    {
-      "question_number": 99,
-      "question_text": "Aircraft Height is:",
-      "question_type": "MCQ",
-      "options": [
-        "7 ft 3 in",
-        "6 ft 3 in",
-        "3 ft 7 in",
-        "None of the above"
-      ],
-      "solution": "7 ft 3 in"
-    },
-    {
-      "question_number": 100,
-      "question_text": "Wingspan of the Aircraft",
-      "question_type": "MCQ",
-      "options": [
-        "35 ft 6 in",
-        "36 ft 6 in",
-        "36 ft 5 in",
-        "35 ft 5 in"
-      ],
-      "solution": "35 ft 6 in"
-    },
-    {
-      "question_number": 101,
-      "question_text": "Length of the Aircraft",
-      "question_type": "MCQ",
-      "options": [
-        "7 ft 3 in",
-        "3 ft 7 in",
-        "35 ft 6 in",
-        "None of the above"
-      ],
-      "solution": "7 ft 3 in"
-    },
-    {
-      "question_number": 102,
-      "question_text": "The Flaps of the aircraft are manually Operated and Spring Loaded to return to the Position:",
-      "question_type": "MCQ",
-      "options": [
-        "UP",
-        "DOWN",
-        "Neither A Nor B",
-        "25 deg"
-      ],
-      "solution": "UP"
-    },
-    {
-      "question_number": 103,
-      "question_text": "The Flap positions are:",
-      "question_type": "MCQ",
-      "options": [
-        "0, 10, 25, 40 deg",
-        "0, 10, 20, 30 deg",
-        "0, 10, 20, 40 deg",
-        "0, 15, 25, 40 deg"
-      ],
-      "solution": "0, 10, 25, 40 deg"
-    },
-    {
-      "question_number": 104,
-      "question_text": "This aircraft has rudder trim as standard:",
-      "question_type": "MCQ",
-      "options": [
-        "True",
-        "False",
-        "Optional Accessory",
-        "Both A and C"
-      ],
-      "solution": "True"
-    },
-    {
-      "question_number": 105,
-      "question_text": "The Tail Contains:",
-      "question_type": "MCQ",
-      "options": [
-        "Stabilator",
-        "Elevator",
-        "Elevons",
-        "Ruddervators"
-      ],
-      "solution": "Stabilator"
-    },
-    {
-      "question_number": 106,
-      "question_text": "The Fuel Selector Positions are:",
-      "question_type": "MCQ",
-      "options": [
-        "Right, Left & Off",
-        "Right, Left, Both and Off",
-        "Only A as an optional accessory",
-        "None of the above"
-      ],
-      "solution": "Right, Left & Off"
-    },
-    {
-      "question_number": 107,
-      "question_text": "The Auxiliary Electric Fuel Pump should be on for:",
-      "question_type": "MCQ",
-      "options": [
-        "Takeoffs, Landings and switching tanks",
-        "Takeoffs and Landings only",
-        "Switching Tanks Only",
-        "Always On"
-      ],
-      "solution": "Takeoffs, Landings and switching tanks"
-    },
-    {
-      "question_number": 108,
-      "question_text": "Fuel Draining should be done at:",
-      "question_type": "MCQ",
-      "options": [
-        "Each tank and Fuel Strainer twice (selecting each tank)",
-        "Each Tank Only",
-        "Fuel Strainer Only",
-        "Each Tank and fuel strainer once"
-      ],
-      "solution": "Each tank and Fuel Strainer twice (selecting each tank)"
-    },
-    {
-      "question_number": 109,
-      "question_text": "The three Landing Gear Use:",
-      "question_type": "MCQ",
-      "options": [
-        "Cleveland Aircraft Products",
-        "Centurion Aircraft Products",
-        "Thielert Aircraft Products",
-        "Piper Aircraft Products"
-      ],
-      "solution": "Cleveland Aircraft Products"
-    },
-    {
-      "question_number": 110,
-      "question_text": "The Hydraulic Brake fluid used is:",
-      "question_type": "MCQ",
-      "options": [
-        "MIL-H-5606",
-        "MIL-L-5606",
-        "MIL-B-6082",
-        "MIL-H-22851"
-      ],
-      "solution": "MIL-H-5606"
-    },
-    {
-      "question_number": 111,
-      "question_text": "Brake Fluid Level should be checked every:",
-      "question_type": "MCQ",
-      "options": [
-        "50 hrs",
-        "25 hrs",
-        "10 hrs",
-        "Every hr"
-      ],
-      "solution": "50 hrs"
-    },
-    {
-      "question_number": 112,
-      "question_text": "Power off stall with full flaps is:",
-      "question_type": "MCQ",
-      "options": [
-        "45 KIAS",
-        "50 KIAS",
-        "44 KIAS",
-        "33 KIAS"
-      ],
-      "solution": "45 KIAS"
-    },
-    {
-      "question_number": 113,
-      "question_text": "Power off stall with flaps up is:",
-      "question_type": "MCQ",
-      "options": [
-        "50 KIAS",
-        "45 KIAS",
-        "44 KIAS",
-        "33 KIAS"
-      ],
-      "solution": "50 KIAS"
-    },
-    {
-      "question_number": 114,
-      "question_text": "Ht loss during stalls varies from:",
-      "question_type": "MCQ",
-      "options": [
-        "100 to 350 feet",
-        "150 to 350 feet",
-        "50 to 500 feet",
-        "200 to 400 feet"
-      ],
-      "solution": "100 to 350 feet"
-    },
-    {
-      "question_number": 115,
-      "question_text": "The Stall warning system is inoperative with the master switch OFF:",
-      "question_type": "MCQ",
-      "options": [
-        "TRUE",
-        "FALSE"
-      ],
-      "solution": "TRUE"
-    },
-    {
-      "question_number": 116,
-      "question_text": "Main Gear Strut should have:",
-      "question_type": "MCQ",
-      "options": [
-        "4.5 +/-0.25 inches of strut exposure",
-        "3.25 +/-0.25 inches of strut exposure",
-        "4.5 inches of strut exposure",
-        "None of the above"
-      ],
-      "solution": "4.5 +/-0.25 inches of strut exposure"
-    },
-    {
-      "question_number": 117,
-      "question_text": "Nose Gear Strut should have:",
-      "question_type": "MCQ",
-      "options": [
-        "3.25 +/-0.25 inches of strut exposure",
-        "4.5 +/-0.25 inches of strut exposure",
-        "4.5 inches of strut exposure",
-        "None of the above"
-      ],
-      "solution": "3.25 +/-0.25 inches of strut exposure"
-    },
-    {
-      "question_number": 118,
-      "question_text": "The Total number of Seats in the Aircraft are:",
-      "question_type": "MCQ",
-      "options": [
-        "4",
-        "3",
-        "2",
-        "6"
-      ],
-      "solution": "4"
-    },
-    {
-      "question_number": 119,
-      "question_text": "Short Field Takeoff Flaps Configuration is:",
-      "question_type": "MCQ",
-      "options": [
-        "25 deg",
-        "10 deg",
-        "40 deg",
-        "None of the above"
-      ],
-      "solution": "25 deg"
-    },
-    {
-      "question_number": 120,
-      "question_text": "Maximum demonstrated crosswind velocity is:",
-      "question_type": "MCQ",
-      "options": [
-        "17 kts",
-        "20 kts",
-        "15 kts",
-        "None of the above"
-      ],
-      "solution": "17 kts"
-    },
-    {
-      "question_number": 121,
-      "question_text": "Cabin Door of the Piper Archer is:",
-      "question_type": "MCQ",
-      "options": [
-        "Double Latched",
-        "Single Latched",
-        "Not Latched",
-        "Triple Latched"
-      ],
-      "solution": "Double Latched"
-    },
-    {
-      "question_number": 122,
-      "question_text": "If the door inadvertently opens, then to the close the door, speed should be:",
-      "question_type": "MCQ",
-      "options": [
-        "87 KIAS",
-        "65 KIAS",
-        "90 KIAS",
-        "100 KIAS"
-      ],
-      "solution": "87 KIAS"
-    },
-    {
-      "question_number": 123,
-      "question_text": "The Engine Mount is made of:",
-      "question_type": "MCQ",
-      "options": [
-        "Tubular steel",
-        "Aluminum",
-        "Carbon Fiber",
-        "Iron"
-      ],
-      "solution": "Tubular steel"
-    },
-    {
-      "question_number": 124,
-      "question_text": "Landing Gear struts is made of:",
-      "question_type": "MCQ",
-      "options": [
-        "Steel",
-        "Iron",
-        "Carbon fiber",
-        "Aluminum"
-      ],
-      "solution": "Steel"
-    },
-    {
-      "question_number": 125,
-      "question_text": "The Wingtips and Tail surfaces are made of:",
-      "question_type": "MCQ",
-      "options": [
-        "Fiberglass",
-        "Aluminum",
-        "Steel",
-        "Carbon Fiber"
-      ],
-      "solution": "Fiberglass"
-    },
-    {
-      "question_number": 126,
-      "question_text": "The Propeller for the Archer DX is:",
-      "question_type": "MCQ",
-      "options": [
-        "Wooden composite",
-        "All metal",
-        "All carbon fiber",
-        "Aluminum Alloy"
-      ],
-      "solution": "Wooden composite"
-    },
-    {
-      "question_number": 127,
-      "question_text": "Archer is a:",
-      "question_type": "MCQ",
-      "options": [
-        "Low Wing Monoplane with All Metal construction",
-        "High Wing Monoplane with Composite construction",
-        "Low Wing Monoplane with Composite construction",
-        "High Wing Monoplane with All metal construction"
-      ],
-      "solution": "Low Wing Monoplane with All Metal construction"
-    },
-    {
-      "question_number": 128,
-      "question_text": "Type of Aerofoil is:",
-      "question_type": "MCQ",
-      "options": [
-        "NACA 652-415",
-        "NACA 415-652",
-        "Truss Type Aerofoil",
-        "Positively cambered"
-      ],
-      "solution": "NACA 652-415"
-    },
-    {
-      "question_number": 129,
-      "question_text": "Type of Wings are:",
-      "question_type": "MCQ",
-      "options": [
-        "Semi - Tapered",
-        "Tapered",
-        "Swept Back",
-        "Elliptical"
-      ],
-      "solution": "Semi - Tapered"
-    },
-    {
-      "question_number": 130,
-      "question_text": "All 3 wheels are:",
-      "question_type": "MCQ",
-      "options": [
-        "6.00 x  6, four ply rating",
-        "6.00 x  6, six ply rating",
-        "8.00 x  6, four ply rating",
-        "8.00 x  6, six ply rating"
-      ],
-      "solution": "6.00 x 6, four ply rating"
-    },
-    {
-      "question_number": 131,
-      "question_text": "Type of Landing Gear:",
-      "question_type": "MCQ",
-      "options": [
-        "Tricycle type fixed landing gear",
-        "Tricycle type retractable Landing Gear",
-        "Tailwheel Fixed Landing Gear",
-        "Tailwheel Retractable Landing gear"
-      ],
-      "solution": "Tricycle type fixed landing gear"
-    },
-    {
-      "question_number": 132,
-      "question_text": "Type of Struts:",
-      "question_type": "MCQ",
-      "options": [
-        "Air-Oil Type",
-        "Nitrogen-Oil Type",
-        "Water Type",
-        "None of the above"
-      ],
-      "solution": "Air-Oil Type"
-    },
-    {
-      "question_number": 133,
-      "question_text": "Nose Gear Steering:",
-      "question_type": "MCQ",
-      "options": [
-        "30 deg and Later Aircraft 20 deg",
-        "20 deg and Later aircraft 30 degree",
-        "10 degree and Later aircraft 20 deg",
-        "None of the above"
-      ],
-      "solution": "30 deg and Later Aircraft 20 deg"
-    },
-    {
-      "question_number": 134,
-      "question_text": "Finish of the paint:",
-      "question_type": "MCQ",
-      "options": [
-        "All Aircrafts are primed with etching primer and finished with a polyurethane finish",
-        "All Aircrafts are primed with normal primer and finished with a polyurethane finish",
-        "All Aircrafts are primed with etching primer and finished with a normal finish",
-        "None of the above"
-      ],
-      "solution": "All Aircrafts are primed with etching primer and finished with a polyurethane finish"
-    },
-    {
-      "question_number": 135,
-      "question_text": "How do winds affect the Take off roll?",
-      "question_type": "MCQ",
-      "options": [
-        "Decrease 10% for each 9 kts Headwind",
-        "Decrease 9% for each 10 kts headwind",
-        "Increase 10% for each 2 kts tailwind",
-        "Both A and C"
-      ],
-      "solution": "Both A and C"
-    },
-    {
-      "question_number": 136,
-      "question_text": "For operation on dry, grass runway, increase distances by:",
-      "question_type": "MCQ",
-      "options": [
-        "15% of the ground roll figure",
-        "10% of the ground roll figure",
-        "5% of the ground roll figure",
-        "None of the Above"
-      ],
-      "solution": "15% of the ground roll figure"
-    },
-    {
-      "question_number": 137,
-      "question_text": "Economic cruise on the Piper Archer is:",
-      "question_type": "MCQ",
-      "options": [
-        "70% load",
-        "75% Load",
-        "90% load",
-        "80% Load"
-      ],
-      "solution": "70% Load"
-    },
-    {
-      "question_number": 138,
-      "question_text": "Increase airspeed and range by above ISA:",
-      "question_type": "MCQ",
-      "options": [
-        "1% per 10 deg C",
-        "10% per 10 deg C",
-        "5% per 10 deg C",
-        "None of the above"
-      ],
-      "solution": "1% per 10 deg C"
-    },
-    {
-      "question_number": 139,
-      "question_text": "How much is the compulsory fuel reserve to be maintained?",
-      "question_type": "MCQ",
-      "options": [
-        "45 min",
-        "30 min",
-        "60 min",
-        "15 min"
-      ],
-      "solution": "45 min"
-    },
-    {
-      "question_number": 140,
-      "question_text": "Alternator Excitation Battery is used to ensure that the Alternator will continue to function even if the main battery fails:",
-      "question_type": "MCQ",
-      "options": [
-        "TRUE",
-        "FALSE"
-      ],
-      "solution": "TRUE"
+          "question_number": 71,
+          "question_text": "The freezing point of the coolant is:",
+          "question_type": "MCQ",
+          "options": [
+            "None of the above",
+            "-30 deg C",
+            "-36 deg C",
+            "-32 deg C"
+          ],
+          "solution": "-36 deg C"
+        },
+        {
+          "question_number": 72,
+          "question_text": "The Yellow Arc in the ASI is:",
+          "question_type": "MCQ",
+          "options": [
+            "125 KTS to 154 KTS",
+            "45 KTS to 104 KTS",
+            "50 KTS to 124 KTS",
+            "99 KTS to 154 KTS"
+          ],
+          "solution": "125 KTS to 154 KTS"
+        },
+        {
+          "question_number": 73,
+          "question_text": "The Green Arc in the ASI is:",
+          "question_type": "MCQ",
+          "options": [
+            "45 KTS to 104 KTS",
+            "125 KTS to 154 KTS",
+            "50 KTS to 124 KTS",
+            "99 KTS to 154 KTS"
+          ],
+          "solution": "50 KTS to 124 KTS"
+        },
+        {
+          "question_number": 74,
+          "question_text": "White Arc in the ASI is:",
+          "question_type": "MCQ",
+          "options": [
+            "125 KTS to 154 KTS",
+            "99 KTS to 154 KTS",
+            "50 KTS to 124 KTS",
+            "45 KTS to 104 KTS"
+          ],
+          "solution": "45 KTS to 104 KTS"
+        },
+        {
+          "question_number": 75,
+          "question_text": "Final Approach speed with Flaps 40 deg is:",
+          "question_type": "MCQ",
+          "options": [
+            "65 KTS",
+            "63 KTS",
+            "70 KTS",
+            "None of the above"
+          ],
+          "solution": "63 KTS"
+        },
+        {
+          "question_number": 76,
+          "question_text": "Best rate of climb with flaps 10 deg is:",
+          "question_type": "MCQ",
+          "options": [
+            "65 KIAS",
+            "75 KIAS",
+            "79 KIAS",
+            "70 KIAS"
+          ],
+          "solution": "65 KIAS"
+        },
+        {
+          "question_number": 77,
+          "question_text": "Fuel Tanks must be switched every:",
+          "question_type": "MCQ",
+          "options": [
+            "20 min",
+            "30 min",
+            "10 min",
+            "60 min"
+          ],
+          "solution": "30 min"
+        },
+        {
+          "question_number": 78,
+          "question_text": "During Takeoff, Fuel Pump must be ON:",
+          "question_type": "MCQ",
+          "options": [
+            "True but only in hot weather",
+            "False",
+            "True",
+            "True but only in cold weather"
+          ],
+          "solution": "True"
+        },
+        {
+          "question_number": 79,
+          "question_text": "Red Range of Electrical System voltage is:",
+          "question_type": "MCQ",
+          "options": [
+            "25-25.9 V",
+            "Both A and C",
+            "0-24.9 V",
+            "> 30V"
+          ],
+          "solution": "Both A and C"
+        },
+        {
+          "question_number": 80,
+          "question_text": "Alternator Red Range is:",
+          "question_type": "MCQ",
+          "options": [
+            "0-52 Volts",
+            ">60 Volts",
+            ">60 Amps",
+            "53-60 Amps"
+          ],
+          "solution": ">60 Amps"
+        },
+        {
+          "question_number": 81,
+          "question_text": "Gearbox temperature green range:",
+          "question_type": "MCQ",
+          "options": [
+            "<115 deg C",
+            ">120 deg C",
+            "None of the above",
+            "115-120 deg C"
+          ],
+          "solution": "<115 deg C"
+        },
+        {
+          "question_number": 82,
+          "question_text": "Gearbox Temperature Amber Range:",
+          "question_type": "MCQ",
+          "options": [
+            ">120 deg C",
+            "None of the above",
+            "115-120 deg C",
+            "<115 deg C"
+          ],
+          "solution": "115-120 deg C"
+        },
+        {
+          "question_number": 83,
+          "question_text": "Gearbox temperature red range:",
+          "question_type": "MCQ",
+          "options": [
+            "None of the above",
+            ">120 deg C",
+            "<115 deg C",
+            "115-120 deg C"
+          ],
+          "solution": ">120 deg C"
+        },
+        {
+          "question_number": 84,
+          "question_text": "Tachometer Green Range:",
+          "question_type": "MCQ",
+          "options": [
+            "0-2300 RPM",
+            "1200-2300 RPM",
+            "0-1200 RPM",
+            ">2300 RPM"
+          ],
+          "solution": "0-2300 RPM"
+        },
+        {
+          "question_number": 85,
+          "question_text": "Tachometer Red Range:",
+          "question_type": "MCQ",
+          "options": [
+            "0-1200 RPM",
+            "1200-2300 RPM",
+            ">2300 RPM",
+            "0-2300 RPM"
+          ],
+          "solution": ">2300 RPM"
+        },
+        {
+          "question_number": 86,
+          "question_text": "Oil Pressure Red Range:",
+          "question_type": "MCQ",
+          "options": [
+            "Both a and b",
+            "None of the above",
+            "1.2 to 2.2 bar",
+            "0-1.1 bar & > 6.5 bar"
+          ],
+          "solution": "0-1.1 bar & > 6.5 bar"
+        },
+        {
+          "question_number": 87,
+          "question_text": "Oil Temperature green range is:",
+          "question_type": "MCQ",
+          "options": [
+            "-32-49 deg C",
+            "None of the above",
+            "50-129 deg C",
+            "130-140 deg C"
+          ],
+          "solution": "50-129 deg C"
+        },
+        {
+          "question_number": 88,
+          "question_text": "Oil pressure green range:",
+          "question_type": "MCQ",
+          "options": [
+            "None of the above",
+            "5.2 to 6.5 bar",
+            "1.2 to 2.2 bar",
+            "2.3 to 5.1 bar"
+          ],
+          "solution": "2.3 to 5.1 bar"
+        },
+        {
+          "question_number": 89,
+          "question_text": "Coolant Temperature green range:",
+          "question_type": "MCQ",
+          "options": [
+            "101-105 deg C",
+            "None of the above",
+            ">105 deg C",
+            "60-100 deg C"
+          ],
+          "solution": "60-100 deg C"
+        },
+        {
+          "question_number": 90,
+          "question_text": "Fuel Temperature green range:",
+          "question_type": "MCQ",
+          "options": [
+            "< - 30 deg C",
+            ">75 deg C",
+            "0-65 deg C",
+            "None of the above"
+          ],
+          "solution": "0-65 deg C"
+        },
+        {
+          "question_number": 91,
+          "question_text": "FADEC Warning in the G1000 will display as:",
+          "question_type": "MCQ",
+          "options": [
+            "None of the Above",
+            "FADEC A Fail / FADEC B Fail",
+            "Both a and B",
+            "ECU A Fail / ECU B Fail"
+          ],
+          "solution": "ECU A Fail / ECU B Fail"
+        },
+        {
+          "question_number": 92,
+          "question_text": "Engine coolant level low will show on the G1000 as:",
+          "question_type": "MCQ",
+          "options": [
+            "COOL LVL - Warning",
+            "COOL LVL - Caution",
+            "COOL LVL - Advisory",
+            "COOLANT LVL"
+          ],
+          "solution": "COOL LVL - Caution"
+        },
+        {
+          "question_number": 93,
+          "question_text": "When Force B is activated, the display on the G1000 shows:",
+          "question_type": "MCQ",
+          "options": [
+            "ECU B Active",
+            "None of the above",
+            "FADEC B Active",
+            "B Active"
+          ],
+          "solution": "ECU B Active"
+        },
+        {
+          "question_number": 94,
+          "question_text": "Advisory information on the G1000 shows up as:",
+          "question_type": "MCQ",
+          "options": [
+            "Black text and yellow background",
+            "Red Text and Black Background",
+            "Yellow Text and Black Background",
+            "White text and Black background"
+          ],
+          "solution": "White text and Black background"
+        },
+        {
+          "question_number": 95,
+          "question_text": "Caution information (not accepted) on the G1000 shows up as:",
+          "question_type": "MCQ",
+          "options": [
+            "Red Text and Black Background",
+            "Black text and yellow background",
+            "Yellow Text and Black Background",
+            "White text and Black background"
+          ],
+          "solution": "Black text and yellow background"
+        },
+        {
+          "question_number": 96,
+          "question_text": "Caution information (accepted via Master Caution switch) on the G1000 shows up as:",
+          "question_type": "MCQ",
+          "options": [
+            "White text and Black background",
+            "Red Text and Black Background",
+            "Black text and yellow background",
+            "Yellow Text and Black Background"
+          ],
+          "solution": "Yellow Text and Black Background"
+        },
+        {
+          "question_number": 97,
+          "question_text": "Warning information (not accepted) on the G1000 shows up as:",
+          "question_type": "MCQ",
+          "options": [
+            "Red Text and Black Background",
+            "Flash between white text, red background and red text, white background",
+            "Yellow Text and Black Background",
+            "Black text and yellow background"
+          ],
+          "solution": "Flash between white text, red background and red text, white background"
+        },
+        {
+          "question_number": 98,
+          "question_text": "Warning information (accepted via master warning switch) on the G1000 shows up as:",
+          "question_type": "MCQ",
+          "options": [
+            "Black text and yellow background",
+            "Yellow Text and Black Background",
+            "Flash between white text, red background and red text, white background",
+            "Red Text and Black Background"
+          ],
+          "solution": "Red Text and Black Background"
+        },
+        {
+          "question_number": 99,
+          "question_text": "Aircraft Height is:",
+          "question_type": "MCQ",
+          "options": [
+            "None of the above",
+            "3 ft 7 in",
+            "7 ft 3 in",
+            "6 ft 3 in"
+          ],
+          "solution": "7 ft 3 in"
+        },
+        {
+          "question_number": 100,
+          "question_text": "Wingspan of the Aircraft",
+          "question_type": "MCQ",
+          "options": [
+            "35 ft 5 in",
+            "36 ft 6 in",
+            "36 ft 5 in",
+            "35 ft 6 in"
+          ],
+          "solution": "35 ft 6 in"
+        },
+        {
+          "question_number": 101,
+          "question_text": "Length of the Aircraft",
+          "question_type": "MCQ",
+          "options": [
+            "3 ft 7 in",
+            "7 ft 3 in",
+            "None of the above",
+            "35 ft 6 in"
+          ],
+          "solution": "7 ft 3 in"
+        },
+        {
+          "question_number": 102,
+          "question_text": "The Flaps of the aircraft are manually Operated and Spring Loaded to return to the Position:",
+          "question_type": "MCQ",
+          "options": [
+            "DOWN",
+            "25 deg",
+            "UP",
+            "Neither A Nor B"
+          ],
+          "solution": "UP"
+        },
+        {
+          "question_number": 103,
+          "question_text": "The Flap positions are:",
+          "question_type": "MCQ",
+          "options": [
+            "0, 10, 20, 30 deg",
+            "0, 10, 25, 40 deg",
+            "0, 10, 20, 40 deg",
+            "0, 15, 25, 40 deg"
+          ],
+          "solution": "0, 10, 25, 40 deg"
+        },
+        {
+          "question_number": 104,
+          "question_text": "This aircraft has rudder trim as standard:",
+          "question_type": "MCQ",
+          "options": [
+            "Optional Accessory",
+            "True",
+            "False",
+            "Both A and C"
+          ],
+          "solution": "True"
+        },
+        {
+          "question_number": 105,
+          "question_text": "The Tail Contains:",
+          "question_type": "MCQ",
+          "options": [
+            "Elevons",
+            "Stabilator",
+            "Ruddervators",
+            "Elevator"
+          ],
+          "solution": "Stabilator"
+        },
+        {
+          "question_number": 106,
+          "question_text": "The Fuel Selector Positions are:",
+          "question_type": "MCQ",
+          "options": [
+            "Right, Left & Off",
+            "Right, Left, Both and Off",
+            "Only A as an optional accessory",
+            "None of the above"
+          ],
+          "solution": "Right, Left & Off"
+        },
+        {
+          "question_number": 107,
+          "question_text": "The Auxiliary Electric Fuel Pump should be on for:",
+          "question_type": "MCQ",
+          "options": [
+            "Takeoffs, Landings and switching tanks",
+            "Switching Tanks Only",
+            "Takeoffs and Landings only",
+            "Always On"
+          ],
+          "solution": "Takeoffs, Landings and switching tanks"
+        },
+        {
+          "question_number": 108,
+          "question_text": "Fuel Draining should be done at:",
+          "question_type": "MCQ",
+          "options": [
+            "Each Tank Only",
+            "Each Tank and fuel strainer once",
+            "Fuel Strainer Only",
+            "Each tank and Fuel Strainer twice (selecting each tank)"
+          ],
+          "solution": "Each tank and Fuel Strainer twice (selecting each tank)"
+        },
+        {
+          "question_number": 109,
+          "question_text": "The three Landing Gear Use:",
+          "question_type": "MCQ",
+          "options": [
+            "Centurion Aircraft Products",
+            "Cleveland Aircraft Products",
+            "Thielert Aircraft Products",
+            "Piper Aircraft Products"
+          ],
+          "solution": "Cleveland Aircraft Products"
+        },
+        {
+          "question_number": 110,
+          "question_text": "The Hydraulic Brake fluid used is:",
+          "question_type": "MCQ",
+          "options": [
+            "MIL-H-22851",
+            "MIL-L-5606",
+            "MIL-B-6082",
+            "MIL-H-5606"
+          ],
+          "solution": "MIL-H-5606"
+        },
+        {
+          "question_number": 111,
+          "question_text": "Brake Fluid Level should be checked every:",
+          "question_type": "MCQ",
+          "options": [
+            "25 hrs",
+            "Every hr",
+            "10 hrs",
+            "50 hrs"
+          ],
+          "solution": "50 hrs"
+        },
+        {
+          "question_number": 112,
+          "question_text": "Power off stall with full flaps is:",
+          "question_type": "MCQ",
+          "options": [
+            "33 KIAS",
+            "45 KIAS",
+            "50 KIAS",
+            "44 KIAS"
+          ],
+          "solution": "45 KIAS"
+        },
+        {
+          "question_number": 113,
+          "question_text": "Power off stall with flaps up is:",
+          "question_type": "MCQ",
+          "options": [
+            "44 KIAS",
+            "45 KIAS",
+            "50 KIAS",
+            "33 KIAS"
+          ],
+          "solution": "50 KIAS"
+        },
+        {
+          "question_number": 114,
+          "question_text": "Ht loss during stalls varies from:",
+          "question_type": "MCQ",
+          "options": [
+            "150 to 350 feet",
+            "200 to 400 feet",
+            "50 to 500 feet",
+            "100 to 350 feet"
+          ],
+          "solution": "100 to 350 feet"
+        },
+        {
+          "question_number": 115,
+          "question_text": "The Stall warning system is inoperative with the master switch OFF:",
+          "question_type": "MCQ",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "solution": "TRUE"
+        },
+        {
+          "question_number": 116,
+          "question_text": "Main Gear Strut should have:",
+          "question_type": "MCQ",
+          "options": [
+            "4.5 inches of strut exposure",
+            "None of the above",
+            "4.5 +/-0.25 inches of strut exposure",
+            "3.25 +/-0.25 inches of strut exposure"
+          ],
+          "solution": "4.5 +/-0.25 inches of strut exposure"
+        },
+        {
+          "question_number": 117,
+          "question_text": "Nose Gear Strut should have:",
+          "question_type": "MCQ",
+          "options": [
+            "4.5 +/-0.25 inches of strut exposure",
+            "4.5 inches of strut exposure",
+            "3.25 +/-0.25 inches of strut exposure",
+            "None of the above"
+          ],
+          "solution": "3.25 +/-0.25 inches of strut exposure"
+        },
+        {
+          "question_number": 118,
+          "question_text": "The Total number of Seats in the Aircraft are:",
+          "question_type": "MCQ",
+          "options": [
+            "3",
+            "4",
+            "2",
+            "6"
+          ],
+          "solution": "4"
+        },
+        {
+          "question_number": 119,
+          "question_text": "Short Field Takeoff Flaps Configuration is:",
+          "question_type": "MCQ",
+          "options": [
+            "10 deg",
+            "40 deg",
+            "None of the above",
+            "25 deg"
+          ],
+          "solution": "25 deg"
+        },
+        {
+          "question_number": 120,
+          "question_text": "Maximum demonstrated crosswind velocity is:",
+          "question_type": "MCQ",
+          "options": [
+            "None of the above",
+            "15 kts",
+            "17 kts",
+            "20 kts"
+          ],
+          "solution": "17 kts"
+        },
+        {
+          "question_number": 121,
+          "question_text": "Cabin Door of the Piper Archer is:",
+          "question_type": "MCQ",
+          "options": [
+            "Double Latched",
+            "Not Latched",
+            "Triple Latched",
+            "Single Latched"
+          ],
+          "solution": "Double Latched"
+        },
+        {
+          "question_number": 122,
+          "question_text": "If the door inadvertently opens, then to the close the door, speed should be:",
+          "question_type": "MCQ",
+          "options": [
+            "100 KIAS",
+            "65 KIAS",
+            "87 KIAS",
+            "90 KIAS"
+          ],
+          "solution": "87 KIAS"
+        },
+        {
+          "question_number": 123,
+          "question_text": "The Engine Mount is made of:",
+          "question_type": "MCQ",
+          "options": [
+            "Tubular steel",
+            "Iron",
+            "Carbon Fiber",
+            "Aluminum"
+          ],
+          "solution": "Tubular steel"
+        },
+        {
+          "question_number": 124,
+          "question_text": "Landing Gear struts is made of:",
+          "question_type": "MCQ",
+          "options": [
+            "Carbon fiber",
+            "Steel",
+            "Aluminum",
+            "Iron"
+          ],
+          "solution": "Steel"
+        },
+        {
+          "question_number": 125,
+          "question_text": "The Wingtips and Tail surfaces are made of:",
+          "question_type": "MCQ",
+          "options": [
+            "Fiberglass",
+            "Aluminum",
+            "Carbon Fiber",
+            "Steel"
+          ],
+          "solution": "Fiberglass"
+        },
+        {
+          "question_number": 126,
+          "question_text": "The Propeller for the Archer DX is:",
+          "question_type": "MCQ",
+          "options": [
+            "All carbon fiber",
+            "Aluminum Alloy",
+            "Wooden composite",
+            "All metal"
+          ],
+          "solution": "Wooden composite"
+        },
+        {
+          "question_number": 127,
+          "question_text": "Archer is a:",
+          "question_type": "MCQ",
+          "options": [
+            "Low Wing Monoplane with Composite construction",
+            "High Wing Monoplane with Composite construction",
+            "Low Wing Monoplane with All Metal construction",
+            "High Wing Monoplane with All metal construction"
+          ],
+          "solution": "Low Wing Monoplane with All Metal construction"
+        },
+        {
+          "question_number": 128,
+          "question_text": "Type of Aerofoil is:",
+          "question_type": "MCQ",
+          "options": [
+            "Truss Type Aerofoil",
+            "Positively cambered",
+            "NACA 415-652",
+            "NACA 652-415"
+          ],
+          "solution": "NACA 652-415"
+        },
+        {
+          "question_number": 129,
+          "question_text": "Type of Wings are:",
+          "question_type": "MCQ",
+          "options": [
+            "Tapered",
+            "Swept Back",
+            "Elliptical",
+            "Semi - Tapered"
+          ],
+          "solution": "Semi - Tapered"
+        },
+        {
+          "question_number": 130,
+          "question_text": "All 3 wheels are:",
+          "question_type": "MCQ",
+          "options": [
+            "6.00 x  6, four ply rating",
+            "8.00 x  6, six ply rating",
+            "6.00 x  6, six ply rating",
+            "8.00 x  6, four ply rating"
+          ],
+          "solution": "6.00 x  6, four ply rating"
+        },
+        {
+          "question_number": 131,
+          "question_text": "Type of Landing Gear:",
+          "question_type": "MCQ",
+          "options": [
+            "Tailwheel Fixed Landing Gear",
+            "Tailwheel Retractable Landing gear",
+            "Tricycle type fixed landing gear",
+            "Tricycle type retractable Landing Gear"
+          ],
+          "solution": "Tricycle type fixed landing gear"
+        },
+        {
+          "question_number": 132,
+          "question_text": "Type of Struts:",
+          "question_type": "MCQ",
+          "options": [
+            "Water Type",
+            "None of the above",
+            "Nitrogen-Oil Type",
+            "Air-Oil Type"
+          ],
+          "solution": "Air-Oil Type"
+        },
+        {
+          "question_number": 133,
+          "question_text": "Nose Gear Steering:",
+          "question_type": "MCQ",
+          "options": [
+            "20 deg and Later aircraft 30 degree",
+            "10 degree and Later aircraft 20 deg",
+            "30 deg and Later Aircraft 20 deg",
+            "None of the above"
+          ],
+          "solution": "30 deg and Later Aircraft 20 deg"
+        },
+        {
+          "question_number": 134,
+          "question_text": "Finish of the paint:",
+          "question_type": "MCQ",
+          "options": [
+            "All Aircrafts are primed with etching primer and finished with a normal finish",
+            "All Aircrafts are primed with normal primer and finished with a polyurethane finish",
+            "All Aircrafts are primed with etching primer and finished with a polyurethane finish",
+            "None of the above"
+          ],
+          "solution": "All Aircrafts are primed with etching primer and finished with a polyurethane finish"
+        },
+        {
+          "question_number": 135,
+          "question_text": "How do winds affect the Take off roll?",
+          "question_type": "MCQ",
+          "options": [
+            "Increase 10% for each 2 kts tailwind",
+            "Decrease 9% for each 10 kts headwind",
+            "Decrease 10% for each 9 kts Headwind",
+            "Both A and C"
+          ],
+          "solution": "Both A and C"
+        },
+        {
+          "question_number": 136,
+          "question_text": "For operation on dry, grass runway, increase distances by:",
+          "question_type": "MCQ",
+          "options": [
+            "None of the Above",
+            "10% of the ground roll figure",
+            "5% of the ground roll figure",
+            "15% of the ground roll figure"
+          ],
+          "solution": "15% of the ground roll figure"
+        },
+        {
+          "question_number": 137,
+          "question_text": "Economic cruise on the Piper Archer is:",
+          "question_type": "MCQ",
+          "options": [
+            "90% load",
+            "75% Load",
+            "70% load",
+            "80% Load"
+          ],
+          "solution": "70% Load"
+        },
+        {
+          "question_number": 138,
+          "question_text": "Increase airspeed and range by above ISA:",
+          "question_type": "MCQ",
+          "options": [
+            "None of the above",
+            "5% per 10 deg C",
+            "1% per 10 deg C",
+            "10% per 10 deg C"
+          ],
+          "solution": "1% per 10 deg C"
+        },
+        {
+          "question_number": 139,
+          "question_text": "How much is the compulsory fuel reserve to be maintained?",
+          "question_type": "MCQ",
+          "options": [
+            "30 min",
+            "60 min",
+            "45 min",
+            "15 min"
+          ],
+          "solution": "45 min"
+        },
+        {
+          "question_number": 140,
+          "question_text": "Alternator Excitation Battery is used to ensure that the Alternator will continue to function even if the main battery fails:",
+          "question_type": "MCQ",
+          "options": [
+            "FALSE",
+            "TRUE"
+          ],
+          "solution": "TRUE"
+        }
+      ]
     }
-  ]
-}
-
