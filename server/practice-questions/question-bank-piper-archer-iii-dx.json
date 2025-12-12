@@ -945,11 +945,11 @@
           "question_type": "MCQ",
           "options": [
             "25-25.9 V",
-            "Both A and C",
+            "Both c and d",
             "0-24.9 V",
             "> 30V"
           ],
-          "solution": "Both A and C"
+          "solution": "Both c and d"
         },
         {
           "question_number": 80,

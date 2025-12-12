@@ -7,6 +7,7 @@ const auth = require('../middleware/auth');
 const { requireAdmin } = require('../middleware/auth');
 const fs = require('fs');
 const path = require('path');
+const { findQuestionById, updateQuestionInFile } = require('../utils/questionFinder');
 
 const router = express.Router();
 
@@ -516,6 +517,95 @@ router.post('/questions/upload', async (req, res) => {
     console.error('Error uploading questions:', error);
     res.status(500).json({ 
       message: 'Failed to upload questions', 
+      error: error.message 
+    });
+  }
+});
+
+// Get question by questionId (for editing)
+router.get('/questions/find', async (req, res) => {
+  try {
+    const { questionId, bookSlug, chapterSlug } = req.query;
+
+    if (!questionId) {
+      return res.status(400).json({ 
+        message: 'questionId is required' 
+      });
+    }
+
+    console.log(`[Admin API] Finding question: questionId="${questionId}", bookSlug="${bookSlug}", chapterSlug="${chapterSlug}"`);
+
+    const result = findQuestionById(questionId, bookSlug, chapterSlug);
+
+    if (!result) {
+      console.log(`[Admin API] Question not found: ${questionId}`);
+      return res.status(404).json({ 
+        message: 'Question not found. The question may have been deleted or the ID format may not be recognized.',
+        questionId,
+        bookSlug,
+        chapterSlug
+      });
+    }
+
+    // Handle different file structures
+    const bookName = result.fileData?.book_name || result.fileData?.book?.title || '';
+    const chapterTitle = result.fileData?.chapter_title || result.fileData?.chapter?.title || '';
+
+    console.log(`[Admin API] Question found at index ${result.questionIndex} in ${result.filePath}`);
+
+    res.json({
+      question: result.question,
+      questionIndex: result.questionIndex,
+      filePath: result.filePath,
+      bookName: bookName,
+      chapterTitle: chapterTitle
+    });
+  } catch (error) {
+    console.error('[Admin API] Error finding question:', error);
+    res.status(500).json({ 
+      message: 'Failed to find question', 
+      error: error.message 
+    });
+  }
+});
+
+// Update question by questionId
+router.put('/questions/update', async (req, res) => {
+  try {
+    const { questionId, bookSlug, chapterSlug, question } = req.body;
+
+    if (!questionId || !question) {
+      return res.status(400).json({ 
+        message: 'questionId and question data are required' 
+      });
+    }
+
+    // Find the question
+    const result = findQuestionById(questionId, bookSlug, chapterSlug);
+
+    if (!result) {
+      return res.status(404).json({ 
+        message: 'Question not found',
+        questionId 
+      });
+    }
+
+    // Update the question
+    const updateResult = updateQuestionInFile(
+      result.filePath,
+      result.questionIndex,
+      question
+    );
+
+    res.json({
+      message: 'Question updated successfully',
+      question: updateResult.question,
+      filePath: updateResult.filePath
+    });
+  } catch (error) {
+    console.error('Error updating question:', error);
+    res.status(500).json({ 
+      message: 'Failed to update question', 
       error: error.message 
     });
   }

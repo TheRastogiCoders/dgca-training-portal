@@ -35,6 +35,8 @@ export const API_ENDPOINTS = {
   ADMIN_ALL_USERS: `${API_BASE_URL}/api/admin/users/all`,
   ADMIN_BOOKS_STRUCTURE: `${API_BASE_URL}/api/admin/books-structure`,
   ADMIN_UPLOAD_QUESTIONS: `${API_BASE_URL}/api/admin/questions/upload`,
+  ADMIN_FIND_QUESTION: `${API_BASE_URL}/api/admin/questions/find`,
+  ADMIN_UPDATE_QUESTION: `${API_BASE_URL}/api/admin/questions/update`,
   QUESTIONS: `${API_BASE_URL}/api/questions`,
   RESULTS: `${API_BASE_URL}/api/results`,
   USERS: `${API_BASE_URL}/api/admin/users`,

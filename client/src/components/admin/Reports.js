@@ -21,6 +21,17 @@ const Reports = () => {
   const [totalReports, setTotalReports] = useState(0);
   const [updatingStatus, setUpdatingStatus] = useState(null);
   const [deletingReport, setDeletingReport] = useState(null);
+  const [showEditModal, setShowEditModal] = useState(false);
+  const [editingQuestion, setEditingQuestion] = useState(null);
+  const [loadingQuestion, setLoadingQuestion] = useState(false);
+  const [savingQuestion, setSavingQuestion] = useState(false);
+  const [editFormData, setEditFormData] = useState({
+    question: '',
+    options: ['', '', '', ''],
+    answer: '',
+    solution: '',
+    explanation: ''
+  });
 
   useEffect(() => {
     if (authLoading) return;
@@ -188,6 +199,176 @@ const Reports = () => {
     }
   };
 
+  const handleEditQuestion = async (report) => {
+    try {
+      setLoadingQuestion(true);
+      setError(null);
+      
+      const token = localStorage.getItem('token');
+      if (!token) {
+        throw new Error('No authentication token found');
+      }
+
+      // Build query params
+      const params = new URLSearchParams({ questionId: report.questionId });
+      if (report.bookSlug && report.bookSlug.trim()) {
+        params.append('bookSlug', report.bookSlug.trim());
+      }
+      if (report.chapterSlug && report.chapterSlug.trim()) {
+        params.append('chapterSlug', report.chapterSlug.trim());
+      }
+
+      console.log('[Reports] Loading question:', {
+        questionId: report.questionId,
+        bookSlug: report.bookSlug,
+        chapterSlug: report.chapterSlug,
+        url: `${API_ENDPOINTS.ADMIN_FIND_QUESTION}?${params.toString()}`
+      });
+
+      const response = await fetch(`${API_ENDPOINTS.ADMIN_FIND_QUESTION}?${params.toString()}`, {
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json'
+        }
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({ message: 'Failed to load question' }));
+        const errorMessage = errorData.message || `Failed to load question (${response.status})`;
+        console.error('[Reports] Error loading question:', errorData);
+        throw new Error(errorMessage);
+      }
+
+      const data = await response.json();
+      const question = data.question;
+
+      // Normalize question data to form format
+      let questionText = question.question || question.question_text || question.text || '';
+      let options = [];
+      
+      if (Array.isArray(question.options)) {
+        options = [...question.options];
+      } else if (typeof question.options === 'object' && question.options !== null) {
+        // Convert object to array (e.g., {A: "option1", B: "option2"})
+        options = Object.values(question.options);
+      }
+      
+      // Ensure at least 4 options
+      while (options.length < 4) {
+        options.push('');
+      }
+
+      let answer = question.answer || question.correctAnswer || question.correct_answer || '';
+      let solution = question.solution || answer;
+      let explanation = question.explanation || '';
+
+      setEditFormData({
+        question: questionText,
+        options: options.slice(0, 4),
+        answer: answer,
+        solution: solution,
+        explanation: explanation
+      });
+
+      setEditingQuestion({
+        ...data,
+        reportId: report._id
+      });
+      setShowEditModal(true);
+    } catch (err) {
+      console.error('Error loading question:', err);
+      alert(err.message || 'Failed to load question. The question may not exist in the database.');
+    } finally {
+      setLoadingQuestion(false);
+    }
+  };
+
+  const handleSaveQuestion = async () => {
+    try {
+      if (!editingQuestion) return;
+
+      // Validation
+      if (!editFormData.question.trim()) {
+        alert('Question text is required');
+        return;
+      }
+
+      const validOptions = editFormData.options.filter(opt => opt.trim());
+      if (validOptions.length < 2) {
+        alert('At least 2 options are required');
+        return;
+      }
+
+      if (!editFormData.answer.trim()) {
+        alert('Answer is required');
+        return;
+      }
+
+      setSavingQuestion(true);
+      
+      const token = localStorage.getItem('token');
+      if (!token) {
+        throw new Error('No authentication token found');
+      }
+
+      // Find the report to get bookSlug and chapterSlug
+      const report = reports.find(r => r._id === editingQuestion.reportId);
+      
+      const payload = {
+        questionId: report?.questionId || editingQuestion.questionId,
+        bookSlug: report?.bookSlug || editingQuestion.bookSlug,
+        chapterSlug: report?.chapterSlug || editingQuestion.chapterSlug,
+        question: {
+          question: editFormData.question.trim(),
+          question_text: editFormData.question.trim(),
+          options: validOptions,
+          answer: editFormData.answer.trim(),
+          solution: editFormData.solution.trim() || editFormData.answer.trim(),
+          explanation: editFormData.explanation.trim() || ''
+        }
+      };
+
+      const response = await fetch(API_ENDPOINTS.ADMIN_UPDATE_QUESTION, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(payload)
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({ message: 'Failed to update question' }));
+        throw new Error(errorData.message || 'Failed to update question');
+      }
+
+      const result = await response.json();
+      
+      alert('Question updated successfully!');
+      
+      // Optionally update report status to resolved
+      if (report && report.status !== 'resolved') {
+        await handleStatusUpdate(report._id, 'resolved');
+      }
+      
+      // Close modal
+      setShowEditModal(false);
+      setEditingQuestion(null);
+      setEditFormData({
+        question: '',
+        options: ['', '', '', ''],
+        answer: '',
+        solution: '',
+        explanation: ''
+      });
+    } catch (err) {
+      console.error('Error saving question:', err);
+      alert(err.message || 'Failed to save question. Please try again.');
+    } finally {
+      setSavingQuestion(false);
+    }
+  };
+
   const formatDate = (dateString) => {
     if (!dateString) return 'N/A';
     try {
@@ -222,17 +403,17 @@ const Reports = () => {
   const getReportTypeBadgeClass = (type) => {
     switch (type) {
       case 'Wrong Answer':
-        return 'bg-rose-100 text-rose-700 border border-rose-200';
+        return 'bg-gradient-to-r from-rose-50 to-rose-100 text-rose-800 border-2 border-rose-300 shadow-sm hover:shadow-md transition-shadow';
       case 'Incorrect Question':
-        return 'bg-amber-100 text-amber-700 border border-amber-200';
+        return 'bg-gradient-to-r from-amber-50 to-amber-100 text-amber-800 border-2 border-amber-300 shadow-sm hover:shadow-md transition-shadow';
       case 'Formatting Issue':
-        return 'bg-violet-100 text-violet-700 border border-violet-200';
+        return 'bg-gradient-to-r from-violet-50 to-violet-100 text-violet-800 border-2 border-violet-300 shadow-sm hover:shadow-md transition-shadow';
       case 'Missing Data':
-        return 'bg-yellow-100 text-yellow-700 border border-yellow-200';
+        return 'bg-gradient-to-r from-yellow-50 to-yellow-100 text-yellow-800 border-2 border-yellow-300 shadow-sm hover:shadow-md transition-shadow';
       case 'Other':
-        return 'bg-slate-100 text-slate-700 border border-slate-200';
+        return 'bg-gradient-to-r from-slate-50 to-slate-100 text-slate-800 border-2 border-slate-300 shadow-sm hover:shadow-md transition-shadow';
       default:
-        return 'bg-slate-100 text-slate-700 border border-slate-200';
+        return 'bg-gradient-to-r from-slate-50 to-slate-100 text-slate-800 border-2 border-slate-300 shadow-sm hover:shadow-md transition-shadow';
     }
   };
 
@@ -424,14 +605,14 @@ const Reports = () => {
                   {/* Desktop table */}
                   <div className="overflow-x-auto hidden md:block">
                     <table className="w-full">
-                      <thead className="bg-gradient-to-r from-slate-50 to-slate-100 border-b border-slate-200">
+                      <thead className="bg-gradient-to-r from-slate-50 to-slate-100 border-b-2 border-slate-200">
                         <tr>
-                          <th className="px-6 py-4 text-left text-[11px] font-semibold text-slate-500 uppercase tracking-[0.08em]">Question ID</th>
-                          <th className="px-6 py-4 text-left text-[11px] font-semibold text-slate-500 uppercase tracking-[0.08em]">Type</th>
-                          <th className="px-6 py-4 text-left text-[11px] font-semibold text-slate-500 uppercase tracking-[0.08em]">Reporter</th>
-                          <th className="px-6 py-4 text-left text-[11px] font-semibold text-slate-500 uppercase tracking-[0.08em]">Status</th>
-                          <th className="px-6 py-4 text-left text-[11px] font-semibold text-slate-500 uppercase tracking-[0.08em]">Date</th>
-                          <th className="px-6 py-4 text-left text-[11px] font-semibold text-slate-500 uppercase tracking-[0.08em]">Actions</th>
+                          <th className="px-6 py-4 text-left text-[11px] font-bold text-slate-600 uppercase tracking-wider">Question ID</th>
+                          <th className="px-6 py-4 text-left text-[11px] font-bold text-slate-600 uppercase tracking-wider min-w-[140px]">Type</th>
+                          <th className="px-6 py-4 text-left text-[11px] font-bold text-slate-600 uppercase tracking-wider min-w-[180px]">Reporter</th>
+                          <th className="px-6 py-4 text-left text-[11px] font-bold text-slate-600 uppercase tracking-wider min-w-[100px]">Status</th>
+                          <th className="px-6 py-4 text-left text-[11px] font-bold text-slate-600 uppercase tracking-wider min-w-[160px]">Date</th>
+                          <th className="px-6 py-4 text-left text-[11px] font-bold text-slate-600 uppercase tracking-wider min-w-[280px]">Actions</th>
                         </tr>
                       </thead>
                       <tbody className="bg-white divide-y divide-slate-100">
@@ -440,28 +621,28 @@ const Reports = () => {
                           const reporterEmail = report.reportedBy?.email || report.reporterEmail || '';
 
                           return (
-                            <tr key={report._id} className="hover:bg-slate-50 transition-colors">
-                              <td className="px-6 py-5 text-sm align-top">
-                                <div className="font-mono text-xs text-slate-900 bg-slate-50 px-3 py-2 rounded-lg border border-slate-200 inline-block shadow-sm">
+                            <tr key={report._id} className="hover:bg-blue-50/40 transition-colors border-b border-slate-100">
+                              <td className="px-6 py-5 text-sm align-middle">
+                                <div className="font-mono text-xs text-slate-900 bg-slate-50 px-3 py-2 rounded-lg border border-slate-200 inline-block shadow-sm max-w-xs truncate">
                                   {report.questionId || 'N/A'}
                                 </div>
                               </td>
-                              <td className="px-6 py-5 align-top">
-                                <span className={`px-3 py-1.5 text-xs font-semibold rounded-full shadow-sm ${getReportTypeBadgeClass(report.reportType)}`}>
+                              <td className="px-6 py-5 align-middle">
+                                <span className={`inline-flex items-center justify-center px-4 py-2 text-xs font-bold rounded-full whitespace-nowrap min-w-[120px] ${getReportTypeBadgeClass(report.reportType)}`}>
                                   {report.reportType}
                                 </span>
                               </td>
-                              <td className="px-6 py-5 text-sm align-top">
-                                <div className="flex items-start gap-3">
-                                  <div className="w-9 h-9 rounded-full bg-gradient-to-br from-blue-200 to-purple-200 text-blue-900 flex items-center justify-center text-xs font-bold shadow-inner border border-white/60">
+                              <td className="px-6 py-5 text-sm align-middle">
+                                <div className="flex items-center gap-3">
+                                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-200 to-purple-200 text-blue-900 flex items-center justify-center text-xs font-bold shadow-md border-2 border-white/80 flex-shrink-0">
                                     {getInitials(reporterName)}
                                   </div>
-                                  <div className="space-y-0.5">
-                                    <div className="text-sm font-semibold text-gray-900">
+                                  <div className="space-y-0.5 min-w-0">
+                                    <div className="text-sm font-semibold text-gray-900 truncate">
                                       {reporterName}
                                     </div>
                                     {reporterEmail && (
-                                      <div className="text-xs text-gray-500">{reporterEmail}</div>
+                                      <div className="text-xs text-gray-500 truncate">{reporterEmail}</div>
                                     )}
                                     {!reporterEmail && reporterName === 'Anonymous' && (
                                       <div className="text-xs text-gray-400 italic">No reporter info provided</div>
@@ -469,21 +650,28 @@ const Reports = () => {
                                   </div>
                                 </div>
                               </td>
-                              <td className="px-6 py-5 align-top">
-                                <span className={`px-3 py-1.5 text-xs font-semibold rounded-full border ${getStatusBadgeClass(report.status)} shadow-sm`}>
+                              <td className="px-6 py-5 align-middle">
+                                <span className={`inline-flex items-center justify-center px-3 py-1.5 text-xs font-bold rounded-full border-2 ${getStatusBadgeClass(report.status)} shadow-sm min-w-[90px]`}>
                                   {report.status.charAt(0).toUpperCase() + report.status.slice(1)}
                                 </span>
                               </td>
-                              <td className="px-6 py-5 text-sm text-gray-600 align-top">
+                              <td className="px-6 py-5 text-sm text-gray-600 align-middle whitespace-nowrap">
                                 {formatDate(report.createdAt)}
                               </td>
-                              <td className="px-6 py-5 align-top">
+                              <td className="px-6 py-5 align-middle">
                                 <div className="flex flex-wrap gap-2">
                                   <button
                                     onClick={() => handleViewDetails(report._id)}
                                     className="px-3 py-1.5 text-xs font-semibold text-blue-700 bg-blue-50 hover:bg-blue-100 rounded-full transition-colors border border-blue-200 shadow-sm"
                                   >
                                     View
+                                  </button>
+                                  <button
+                                    onClick={() => handleEditQuestion(report)}
+                                    disabled={loadingQuestion}
+                                    className="px-3 py-1.5 text-xs font-semibold text-purple-700 bg-purple-50 hover:bg-purple-100 rounded-full transition-colors border border-purple-200 disabled:opacity-50 disabled:cursor-not-allowed shadow-sm"
+                                  >
+                                    {loadingQuestion ? 'Loading...' : 'Edit'}
                                   </button>
                                   {report.status !== 'resolved' && (
                                     <button
@@ -530,11 +718,11 @@ const Reports = () => {
                           className="rounded-2xl border border-gray-200 bg-white/90 shadow-sm p-4 space-y-3"
                         >
                           <div className="flex items-start justify-between gap-3">
-                            <div className="space-y-1">
-                              <div className="text-xs font-semibold text-gray-500">Question ID</div>
+                            <div className="space-y-1 flex-1 min-w-0">
+                              <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide">Question ID</div>
                               <div className="font-mono text-sm text-gray-900 break-all">{report.questionId || 'N/A'}</div>
                             </div>
-                            <span className={`px-3 py-1 text-xs font-semibold rounded-full ${getReportTypeBadgeClass(report.reportType)}`}>
+                            <span className={`inline-flex items-center justify-center px-3 py-1.5 text-xs font-bold rounded-full whitespace-nowrap flex-shrink-0 ${getReportTypeBadgeClass(report.reportType)}`}>
                               {report.reportType}
                             </span>
                           </div>
@@ -572,6 +760,13 @@ const Reports = () => {
                               className="px-3 py-1.5 text-xs font-medium text-blue-600 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors border border-blue-200 shadow-sm flex-1 text-center"
                             >
                               View
+                            </button>
+                            <button
+                              onClick={() => handleEditQuestion(report)}
+                              disabled={loadingQuestion}
+                              className="px-3 py-1.5 text-xs font-medium text-purple-600 bg-purple-50 hover:bg-purple-100 rounded-lg transition-colors border border-purple-200 disabled:opacity-50 disabled:cursor-not-allowed shadow-sm flex-1 text-center"
+                            >
+                              {loadingQuestion ? 'Loading...' : 'Edit'}
                             </button>
                             {report.status !== 'resolved' && (
                               <button
@@ -664,7 +859,7 @@ const Reports = () => {
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-2">Report Type</label>
                 <div className="mt-1">
-                  <span className={`px-3 py-1.5 text-xs font-semibold rounded-full ${getReportTypeBadgeClass(selectedReport.reportType)}`}>
+                  <span className={`inline-flex items-center px-4 py-2 text-xs font-bold rounded-full whitespace-nowrap ${getReportTypeBadgeClass(selectedReport.reportType)}`}>
                     {selectedReport.reportType}
                   </span>
                 </div>
@@ -733,6 +928,16 @@ const Reports = () => {
             </div>
 
             <div className="flex flex-wrap gap-3 pt-5 border-t-2 border-gray-200">
+              <button
+                onClick={() => {
+                  setShowDetailsModal(false);
+                  handleEditQuestion(selectedReport);
+                }}
+                disabled={loadingQuestion}
+                className="flex-1 min-w-[140px] px-4 py-2.5 bg-purple-600 text-white rounded-lg hover:bg-purple-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium shadow-md hover:shadow-lg"
+              >
+                {loadingQuestion ? 'Loading...' : 'Edit Question'}
+              </button>
               {selectedReport.status !== 'resolved' && (
                 <button
                   onClick={() => handleStatusUpdate(selectedReport._id, 'resolved')}
@@ -759,6 +964,185 @@ const Reports = () => {
                 {deletingReport === selectedReport._id ? 'Deleting...' : 'Delete'}
               </button>
             </div>
+          </div>
+        )}
+      </Modal>
+
+      {/* Edit Question Modal */}
+      <Modal
+        open={showEditModal}
+        onClose={() => {
+          setShowEditModal(false);
+          setEditingQuestion(null);
+          setEditFormData({
+            question: '',
+            options: ['', '', '', ''],
+            answer: '',
+            solution: '',
+            explanation: ''
+          });
+        }}
+        title="Edit Question"
+      >
+        {editingQuestion && (
+          <div className="space-y-5">
+            {loadingQuestion ? (
+              <div className="text-center py-8">
+                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-purple-600 mx-auto mb-4"></div>
+                <p className="text-gray-600">Loading question...</p>
+              </div>
+            ) : (
+              <>
+                <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-4">
+                  <div className="text-xs font-semibold text-blue-800 mb-1">Question Location</div>
+                  <div className="text-sm text-blue-900">
+                    <div><span className="font-medium">File:</span> {editingQuestion.filePath?.split(/[/\\]/).pop() || 'N/A'}</div>
+                    {editingQuestion.bookName && (
+                      <div><span className="font-medium">Book:</span> {editingQuestion.bookName}</div>
+                    )}
+                    {editingQuestion.chapterTitle && (
+                      <div><span className="font-medium">Chapter:</span> {editingQuestion.chapterTitle}</div>
+                    )}
+                  </div>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Question Text <span className="text-red-500">*</span>
+                  </label>
+                  <textarea
+                    value={editFormData.question}
+                    onChange={(e) => setEditFormData({ ...editFormData, question: e.target.value })}
+                    className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all resize-none"
+                    rows={4}
+                    placeholder="Enter question text..."
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Options <span className="text-red-500">*</span>
+                  </label>
+                  <div className="space-y-2">
+                    {editFormData.options.map((option, index) => (
+                      <div key={index} className="flex items-center gap-2">
+                        <span className="w-8 h-8 flex items-center justify-center bg-gray-100 border border-gray-300 rounded-lg font-semibold text-gray-700 text-sm">
+                          {String.fromCharCode(65 + index)}
+                        </span>
+                        <input
+                          type="text"
+                          value={option}
+                          onChange={(e) => {
+                            const newOptions = [...editFormData.options];
+                            newOptions[index] = e.target.value;
+                            setEditFormData({ ...editFormData, options: newOptions });
+                          }}
+                          className="flex-1 px-4 py-2 border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all"
+                          placeholder={`Option ${String.fromCharCode(65 + index)}`}
+                        />
+                        {index >= 2 && (
+                          <button
+                            onClick={() => {
+                              const newOptions = editFormData.options.filter((_, i) => i !== index);
+                              setEditFormData({ ...editFormData, options: newOptions });
+                            }}
+                            className="px-3 py-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors"
+                          >
+                            Remove
+                          </button>
+                        )}
+                      </div>
+                    ))}
+                    {editFormData.options.length < 6 && (
+                      <button
+                        onClick={() => {
+                          setEditFormData({
+                            ...editFormData,
+                            options: [...editFormData.options, '']
+                          });
+                        }}
+                        className="w-full px-4 py-2 text-sm text-gray-600 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg hover:bg-gray-100 transition-colors"
+                      >
+                        + Add Option
+                      </button>
+                    )}
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Correct Answer <span className="text-red-500">*</span>
+                    </label>
+                    <select
+                      value={editFormData.answer}
+                      onChange={(e) => setEditFormData({ ...editFormData, answer: e.target.value })}
+                      className="w-full px-4 py-2 border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all"
+                    >
+                      <option value="">Select answer</option>
+                      {editFormData.options.map((opt, index) => (
+                        opt.trim() && (
+                          <option key={index} value={String.fromCharCode(65 + index).toLowerCase()}>
+                            {String.fromCharCode(65 + index)}: {opt.substring(0, 50)}{opt.length > 50 ? '...' : ''}
+                          </option>
+                        )
+                      ))}
+                    </select>
+                  </div>
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Solution
+                    </label>
+                    <input
+                      type="text"
+                      value={editFormData.solution}
+                      onChange={(e) => setEditFormData({ ...editFormData, solution: e.target.value })}
+                      className="w-full px-4 py-2 border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all"
+                      placeholder="Solution (optional)"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Explanation
+                  </label>
+                  <textarea
+                    value={editFormData.explanation}
+                    onChange={(e) => setEditFormData({ ...editFormData, explanation: e.target.value })}
+                    className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all resize-none"
+                    rows={3}
+                    placeholder="Enter explanation (optional)..."
+                  />
+                </div>
+
+                <div className="flex gap-3 pt-4 border-t-2 border-gray-200">
+                  <button
+                    onClick={handleSaveQuestion}
+                    disabled={savingQuestion || !editFormData.question.trim() || !editFormData.answer.trim()}
+                    className="flex-1 px-4 py-2.5 bg-purple-600 text-white rounded-lg hover:bg-purple-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium shadow-md hover:shadow-lg"
+                  >
+                    {savingQuestion ? 'Saving...' : 'Save Changes'}
+                  </button>
+                  <button
+                    onClick={() => {
+                      setShowEditModal(false);
+                      setEditingQuestion(null);
+                      setEditFormData({
+                        question: '',
+                        options: ['', '', '', ''],
+                        answer: '',
+                        solution: '',
+                        explanation: ''
+                      });
+                    }}
+                    className="px-4 py-2.5 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors font-medium"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </>
+            )}
           </div>
         )}
       </Modal>
