@@ -73,7 +73,25 @@ const resolvePracticeQuestionFile = (bookParam, chapterParam) => {
       const allFiles = fs.readdirSync(practiceQuestionsDir).filter(f => f.endsWith('.json'));
       const matchingFile = allFiles.find(f => {
         const fileBase = f.replace('.json', '');
-        return fileBase.endsWith(`-${chapter}`) || fileBase === chapter || fileBase.includes(`-${chapter}-`);
+        const normalizedFileBase = fileBase.toLowerCase();
+        const normalizedChapter = chapter.toLowerCase();
+        
+        // Exact match
+        if (normalizedFileBase.endsWith(`-${normalizedChapter}`) || normalizedFileBase === normalizedChapter || normalizedFileBase.includes(`-${normalizedChapter}-`)) {
+          return true;
+        }
+        
+        // Handle spelling variations (organisations vs organizations, etc.)
+        const normalizedFileForMatching = normalizedFileBase
+          .replace(/organisations/g, 'organizations')
+          .replace(/organizations/g, 'organisations');
+        const normalizedChapterForMatching = normalizedChapter
+          .replace(/organisations/g, 'organizations')
+          .replace(/organizations/g, 'organisations');
+        
+        return normalizedFileForMatching.endsWith(`-${normalizedChapterForMatching}`) || 
+               normalizedFileForMatching === normalizedChapterForMatching || 
+               normalizedFileForMatching.includes(`-${normalizedChapterForMatching}-`);
       });
 
       if (matchingFile) {

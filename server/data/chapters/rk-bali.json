@@ -9,8 +9,8 @@
     },
     {
       "id": "ch2",
-      "title": "International Organisations and Conventions",
-      "slug": "international-organisations-and-conventions"
+      "title": "international organizations and conventions",
+      "slug": "international-organizations-and-conventions"
     },
     {
       "id": "ch3",
@@ -30,7 +30,7 @@
     {
       "id": "ch6",
       "title": "Area Control Service",
-      "slug": "area-control-service"
+      "slug": "area-control"
     },
     {
       "id": "ch7",
@@ -39,8 +39,8 @@
     },
     {
       "id": "ch8",
-      "title": "Procedures for Aerodrome Control Service",
-      "slug": "procedures-for-aerodrome-control-service"
+      "title": "procedures for aerodrome control service",
+      "slug": "aerodrome-control-tower-service"
     },
     {
       "id": "ch9",
@@ -65,7 +65,7 @@
     {
       "id": "ch13",
       "title": "Procedures for Air Navigation Services – Aircraft Operations",
-      "slug": "procedures-for-air-navigation-services-aircraft-operations"
+      "slug": "aircraft-operations"
     },
     {
       "id": "ch14",
@@ -75,7 +75,7 @@
     {
       "id": "ch15",
       "title": "Personnel Licensing",
-      "slug": "personnel-licensing"
+      "slug": "personnel-licencing"
     },
     {
       "id": "ch16",
