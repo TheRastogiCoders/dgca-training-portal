@@ -246,9 +246,10 @@
         "(b) 1:3",
         "(c) 1:5"
       ],
-      "answer": "c",
-      "solution": "c",
-      "explanation": ""
+      "answer": "a",
+      "solution": "a",
+      "explanation": "",
+      "question_text": "By volume, the approximate ratio of O2 to N2 in the atmosphere is"
     },
     {
       "question_number": "Q20",
@@ -598,4 +599,3 @@
     }
   ]
 }
-

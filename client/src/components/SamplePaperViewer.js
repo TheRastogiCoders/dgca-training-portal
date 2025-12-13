@@ -447,14 +447,14 @@ const SamplePaperViewer = () => {
           <>
             <button
               onClick={handleReportClose}
-              className="px-4 py-2 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors font-medium"
+              className="w-full sm:w-auto px-4 sm:px-5 py-2.5 sm:py-2 text-sm sm:text-base text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors font-medium"
             >
               Cancel
             </button>
             <button
               onClick={handleReportSubmit}
               disabled={!reportType || (reportType === 'Other' && !reportComment.trim()) || isSubmittingReport || reportSubmitted}
-              className={`px-6 py-2 rounded-lg font-medium transition-all duration-200 ${
+              className={`w-full sm:w-auto px-5 sm:px-6 py-2.5 sm:py-2 text-sm sm:text-base rounded-lg font-medium transition-all duration-200 ${
                 !reportType || (reportType === 'Other' && !reportComment.trim()) || isSubmittingReport || reportSubmitted
                   ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
                   : 'bg-blue-600 hover:bg-blue-700 text-white hover:shadow-lg transform hover:scale-105'
@@ -465,28 +465,28 @@ const SamplePaperViewer = () => {
           </>
         }
       >
-        <div className="py-4">
+        <div className="py-3 sm:py-4">
           {reportSubmitted ? (
-            <div className="text-center py-4">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="text-center py-4 sm:py-6">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <svg className="w-7 h-7 sm:w-8 sm:h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <p className="text-gray-700 font-medium">Opening Gmail...</p>
-              <p className="text-sm text-gray-600 mt-2">Your report has been prepared. A Gmail compose window will open. Please send the email to submit your report.</p>
+              <p className="text-sm sm:text-base text-gray-700 font-medium">Opening Gmail...</p>
+              <p className="text-xs sm:text-sm text-gray-600 mt-2 px-2">Your report has been prepared. A Gmail compose window will open. Please send the email to submit your report.</p>
             </div>
           ) : (
             <>
-              <p className="text-gray-600 mb-6 text-sm">
+              <p className="text-xs sm:text-sm text-gray-600 mb-4 sm:mb-6 px-1">
                 Help us improve by reporting any issues with this question. Please select the type of issue:
               </p>
               
-              <div className="space-y-3 mb-6">
+              <div className="space-y-2 sm:space-y-3 mb-4 sm:mb-6">
                 {['Wrong Answer', 'Incorrect Question', 'Formatting Issue', 'Missing Data', 'Other'].map((type) => (
                   <label
                     key={type}
-                    className={`flex items-center p-4 border-2 rounded-lg cursor-pointer transition-all duration-200 ${
+                    className={`flex items-center p-3 sm:p-4 border-2 rounded-lg cursor-pointer transition-all duration-200 ${
                       reportType === type
                         ? 'border-blue-500 bg-blue-50'
                         : 'border-gray-200 bg-white hover:border-gray-300 hover:bg-gray-50'
@@ -498,16 +498,16 @@ const SamplePaperViewer = () => {
                       value={type}
                       checked={reportType === type}
                       onChange={(e) => setReportType(e.target.value)}
-                      className="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500 focus:ring-2"
+                      className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 border-gray-300 focus:ring-blue-500 focus:ring-2 flex-shrink-0"
                     />
-                    <span className="ml-3 text-gray-900 font-medium">{type}</span>
+                    <span className="ml-2 sm:ml-3 text-sm sm:text-base text-gray-900 font-medium">{type}</span>
                   </label>
                 ))}
               </div>
 
               {reportType === 'Other' && (
-                <div className="mb-4 transition-all duration-300">
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                <div className="mb-3 sm:mb-4 transition-all duration-300">
+                  <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-2">
                     Please provide details:
                   </label>
                   <textarea
@@ -515,7 +515,7 @@ const SamplePaperViewer = () => {
                     onChange={(e) => setReportComment(e.target.value)}
                     placeholder="Describe the issue..."
                     rows={4}
-                    className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 resize-none"
+                    className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 resize-none"
                   />
                   {reportType === 'Other' && !reportComment.trim() && (
                     <p className="mt-1 text-xs text-red-600">Please provide details when selecting "Other"</p>
@@ -524,7 +524,7 @@ const SamplePaperViewer = () => {
               )}
 
               {!reportType && (
-                <p className="text-xs text-red-600 mb-4">Please select an issue type</p>
+                <p className="text-xs text-red-600 mb-3 sm:mb-4">Please select an issue type</p>
               )}
             </>
           )}

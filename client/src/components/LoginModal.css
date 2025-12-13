@@ -1,4 +1,4 @@
-/* LoginModal Styles - Basic styling for modal functionality */
+/* LoginModal Styles - Mobile-first responsive design */
 .login-modal-overlay {
   position: fixed;
   top: 0;
@@ -10,30 +10,54 @@
   align-items: center;
   justify-content: center;
   z-index: 1000;
+  padding: 1rem;
 }
 
 .login-modal {
   background: white;
   border-radius: 12px;
-  padding: 2rem;
+  padding: 1.25rem;
   max-width: 400px;
-  width: 90%;
-  max-height: 90vh;
+  width: 100%;
+  max-height: 95vh;
   overflow-y: auto;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 640px) {
+  .login-modal {
+    padding: 2rem;
+    max-height: 90vh;
+  }
+  
+  .login-modal-overlay {
+    padding: 1.5rem;
+  }
 }
 
 .login-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .login-header {
+    margin-bottom: 1.5rem;
+  }
 }
 
 .login-logo h2 {
   margin: 0;
   color: #333;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .login-logo h2 {
+    font-size: 1.5rem;
+  }
 }
 
 .close-btn {
@@ -42,6 +66,12 @@
   font-size: 1.5rem;
   cursor: pointer;
   color: #666;
+  padding: 0.25rem;
+  min-width: 32px;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .close-btn:hover {
@@ -50,26 +80,57 @@
 
 .welcome-message {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .welcome-message {
+    margin-bottom: 1.5rem;
+  }
 }
 
 .welcome-message h3 {
   margin: 0 0 0.5rem 0;
   color: #333;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 640px) {
+  .welcome-message h3 {
+    font-size: 1.25rem;
+  }
 }
 
 .welcome-message p {
   margin: 0;
   color: #666;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+}
+
+@media (min-width: 640px) {
+  .welcome-message p {
+    font-size: 0.9rem;
+  }
 }
 
 .login-form {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .login-form {
+    margin-bottom: 1.5rem;
+  }
 }
 
 .form-group {
-  margin-bottom: 1rem;
+  margin-bottom: 0.875rem;
+}
+
+@media (min-width: 640px) {
+  .form-group {
+    margin-bottom: 1rem;
+  }
 }
 
 .form-group label {
@@ -77,14 +138,30 @@
   margin-bottom: 0.5rem;
   font-weight: 500;
   color: #333;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 640px) {
+  .form-group label {
+    font-size: 1rem;
+  }
 }
 
 .form-group input {
   width: 100%;
-  padding: 0.75rem;
+  padding: 0.625rem 0.75rem;
   border: 1px solid #ddd;
   border-radius: 6px;
-  font-size: 1rem;
+  font-size: 0.95rem;
+  min-height: 44px; /* Better touch target for mobile */
+}
+
+@media (min-width: 640px) {
+  .form-group input {
+    padding: 0.75rem;
+    font-size: 1rem;
+    min-height: auto;
+  }
 }
 
 .form-group input:focus {
@@ -97,12 +174,21 @@
   background: #fef2f2;
   border: 1px solid #fecaca;
   color: #dc2626;
-  padding: 0.75rem;
+  padding: 0.625rem 0.75rem;
   border-radius: 6px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.875rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 640px) {
+  .error-message {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
 }
 
 .login-submit-btn {
@@ -110,15 +196,25 @@
   background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
   color: white;
   border: none;
-  padding: 0.75rem;
+  padding: 0.875rem;
   border-radius: 6px;
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 500;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  min-height: 44px; /* Better touch target for mobile */
+  transition: background 0.2s ease;
+}
+
+@media (min-width: 640px) {
+  .login-submit-btn {
+    padding: 0.75rem;
+    font-size: 1rem;
+    min-height: auto;
+  }
 }
 
 .login-submit-btn:hover:not(:disabled) {
@@ -134,9 +230,18 @@
   background: #ecfdf5;
   border: 1px solid #a7f3d0;
   color: #065f46;
-  padding: 0.75rem;
+  padding: 0.625rem 0.75rem;
   border-radius: 6px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.875rem;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 640px) {
+  .success-message {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
 }
 
 .loading-spinner {
@@ -157,14 +262,20 @@
   text-align: center;
 }
 
-
 .login-help {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: #666;
+}
+
+@media (min-width: 640px) {
+  .login-help {
+    font-size: 0.9rem;
+  }
 }
 
 .login-help p {
   margin: 0.25rem 0;
+  line-height: 1.5;
 }
 
 .signup-link {
@@ -174,6 +285,16 @@
   text-decoration: underline;
   cursor: pointer;
   font-size: inherit;
+  padding: 0;
+  min-height: 44px; /* Better touch target for mobile */
+  display: inline-flex;
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+  .signup-link {
+    min-height: auto;
+  }
 }
 
 .signup-link:hover {

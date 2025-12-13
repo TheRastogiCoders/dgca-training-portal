@@ -19,12 +19,12 @@ const Modal = ({ open, onClose, title, children, footer }) => {
 
   if (!open) return null;
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center px-4 py-6 sm:px-6">
+    <div className="fixed inset-0 z-50 flex items-center justify-center px-3 sm:px-4 py-4 sm:py-6">
       <div className="absolute inset-0 bg-black/30" onClick={onClose} />
-      <div className="relative z-10 w-full max-w-[90vw] sm:max-w-lg card p-5 sm:p-6 max-h-[85vh] overflow-y-auto">
-        {title && <h3 className="text-xl font-bold text-gray-900 mb-4">{title}</h3>}
-        <div>{children}</div>
-        {footer && <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:justify-end sm:space-x-3">
+      <div className="relative z-10 w-full max-w-[95vw] sm:max-w-[90vw] md:max-w-lg card p-4 sm:p-5 md:p-6 max-h-[90vh] sm:max-h-[85vh] overflow-y-auto">
+        {title && <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 sm:mb-4">{title}</h3>}
+        <div className="pb-1">{children}</div>
+        {footer && <div className="mt-4 sm:mt-6 flex flex-col gap-2.5 sm:gap-3 sm:flex-row sm:justify-end sm:space-x-3">
           {footer}
         </div>}
       </div>

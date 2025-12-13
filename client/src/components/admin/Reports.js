@@ -840,34 +840,34 @@ const Reports = () => {
         title="Report Details"
       >
         {selectedReport && (
-          <div className="space-y-5">
+          <div className="space-y-4 sm:space-y-5 pb-2">
             <div>
-              <label className="block text-sm font-semibold text-gray-700 mb-2">Question ID</label>
-              <div className="p-3 bg-gray-50 rounded-lg border-2 border-gray-200 font-mono text-sm text-gray-900">
+              <label className="block text-xs sm:text-sm font-semibold text-gray-700 mb-2">Question ID</label>
+              <div className="p-2.5 sm:p-3 bg-gray-50 rounded-lg border-2 border-gray-200 font-mono text-xs sm:text-sm text-gray-900 break-all">
                 {selectedReport.questionId || 'N/A'}
               </div>
             </div>
 
             <div>
-              <label className="block text-sm font-semibold text-gray-700 mb-2">Question Text</label>
-              <div className="p-4 bg-gray-50 rounded-lg border-2 border-gray-200 text-sm whitespace-pre-wrap text-gray-900 max-h-48 overflow-y-auto">
+              <label className="block text-xs sm:text-sm font-semibold text-gray-700 mb-2">Question Text</label>
+              <div className="p-3 sm:p-4 bg-gray-50 rounded-lg border-2 border-gray-200 text-xs sm:text-sm whitespace-pre-wrap text-gray-900 max-h-40 sm:max-h-48 overflow-y-auto">
                 {selectedReport.questionText || 'N/A'}
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Report Type</label>
+                <label className="block text-xs sm:text-sm font-semibold text-gray-700 mb-2">Report Type</label>
                 <div className="mt-1">
-                  <span className={`inline-flex items-center px-4 py-2 text-xs font-bold rounded-full whitespace-nowrap ${getReportTypeBadgeClass(selectedReport.reportType)}`}>
+                  <span className={`inline-flex items-center px-3 sm:px-4 py-1.5 sm:py-2 text-xs font-bold rounded-full whitespace-nowrap ${getReportTypeBadgeClass(selectedReport.reportType)}`}>
                     {selectedReport.reportType}
                   </span>
                 </div>
               </div>
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Status</label>
+                <label className="block text-xs sm:text-sm font-semibold text-gray-700 mb-2">Status</label>
                 <div className="mt-1">
-                  <span className={`px-3 py-1.5 text-xs font-semibold rounded-full border-2 ${getStatusBadgeClass(selectedReport.status)}`}>
+                  <span className={`inline-flex items-center px-3 sm:px-4 py-1.5 sm:py-2 text-xs font-semibold rounded-full border-2 ${getStatusBadgeClass(selectedReport.status)}`}>
                     {selectedReport.status.charAt(0).toUpperCase() + selectedReport.status.slice(1)}
                   </span>
                 </div>
@@ -876,8 +876,8 @@ const Reports = () => {
 
             {selectedReport.bookSlug && (
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Book</label>
-                <div className="p-3 bg-gray-50 rounded-lg border-2 border-gray-200 text-sm text-gray-900">
+                <label className="block text-xs sm:text-sm font-semibold text-gray-700 mb-2">Book</label>
+                <div className="p-2.5 sm:p-3 bg-gray-50 rounded-lg border-2 border-gray-200 text-xs sm:text-sm text-gray-900 break-all">
                   {selectedReport.bookSlug}
                 </div>
               </div>
@@ -885,8 +885,8 @@ const Reports = () => {
 
             {selectedReport.chapterSlug && (
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Chapter</label>
-                <div className="p-3 bg-gray-50 rounded-lg border-2 border-gray-200 text-sm text-gray-900">
+                <label className="block text-xs sm:text-sm font-semibold text-gray-700 mb-2">Chapter</label>
+                <div className="p-2.5 sm:p-3 bg-gray-50 rounded-lg border-2 border-gray-200 text-xs sm:text-sm text-gray-900 break-all">
                   {selectedReport.chapterSlug}
                 </div>
               </div>
@@ -894,23 +894,23 @@ const Reports = () => {
 
             {selectedReport.comment && (
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Additional Comments</label>
-                <div className="p-4 bg-gray-50 rounded-lg border-2 border-gray-200 text-sm whitespace-pre-wrap text-gray-900 max-h-32 overflow-y-auto">
+                <label className="block text-xs sm:text-sm font-semibold text-gray-700 mb-2">Additional Comments</label>
+                <div className="p-3 sm:p-4 bg-gray-50 rounded-lg border-2 border-gray-200 text-xs sm:text-sm whitespace-pre-wrap text-gray-900 max-h-28 sm:max-h-32 overflow-y-auto">
                   {selectedReport.comment}
                 </div>
               </div>
             )}
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Reporter</label>
-                <div className="p-3 bg-gray-50 rounded-lg border-2 border-gray-200 text-sm">
+                <label className="block text-xs sm:text-sm font-semibold text-gray-700 mb-2">Reporter</label>
+                <div className="p-2.5 sm:p-3 bg-gray-50 rounded-lg border-2 border-gray-200 text-xs sm:text-sm">
                 {selectedReport.reportedBy || selectedReport.reporterName ? (
                     <div>
-                    <div className="font-semibold text-gray-900">
+                    <div className="font-semibold text-gray-900 break-words">
                       {selectedReport.reportedBy?.username || selectedReport.reporterName || 'N/A'}
                     </div>
-                    <div className="text-xs text-gray-500 mt-1">
+                    <div className="text-xs text-gray-500 mt-1 break-all">
                       {selectedReport.reportedBy?.email || selectedReport.reporterEmail || ''}
                     </div>
                     </div>
@@ -920,21 +920,21 @@ const Reports = () => {
                 </div>
               </div>
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Reported At</label>
-                <div className="p-3 bg-gray-50 rounded-lg border-2 border-gray-200 text-sm text-gray-900">
+                <label className="block text-xs sm:text-sm font-semibold text-gray-700 mb-2">Reported At</label>
+                <div className="p-2.5 sm:p-3 bg-gray-50 rounded-lg border-2 border-gray-200 text-xs sm:text-sm text-gray-900">
                   {formatDate(selectedReport.createdAt)}
                 </div>
               </div>
             </div>
 
-            <div className="flex flex-wrap gap-3 pt-5 border-t-2 border-gray-200">
+            <div className="flex flex-col gap-2.5 sm:gap-3 pt-4 sm:pt-5 border-t-2 border-gray-200 pb-1">
               <button
                 onClick={() => {
                   setShowDetailsModal(false);
                   handleEditQuestion(selectedReport);
                 }}
                 disabled={loadingQuestion}
-                className="flex-1 min-w-[140px] px-4 py-2.5 bg-purple-600 text-white rounded-lg hover:bg-purple-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium shadow-md hover:shadow-lg"
+                className="w-full px-4 py-3 text-sm sm:text-base bg-purple-600 text-white rounded-lg hover:bg-purple-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium shadow-md hover:shadow-lg min-h-[44px] flex items-center justify-center whitespace-nowrap"
               >
                 {loadingQuestion ? 'Loading...' : 'Edit Question'}
               </button>
@@ -942,7 +942,7 @@ const Reports = () => {
                 <button
                   onClick={() => handleStatusUpdate(selectedReport._id, 'resolved')}
                   disabled={updatingStatus === selectedReport._id}
-                  className="flex-1 min-w-[140px] px-4 py-2.5 bg-green-600 text-white rounded-lg hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium shadow-md hover:shadow-lg"
+                  className="w-full px-4 py-3 text-sm sm:text-base bg-green-600 text-white rounded-lg hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium shadow-md hover:shadow-lg min-h-[44px] flex items-center justify-center whitespace-nowrap"
                 >
                   {updatingStatus === selectedReport._id ? 'Updating...' : 'Mark as Resolved'}
                 </button>
@@ -951,7 +951,7 @@ const Reports = () => {
                 <button
                   onClick={() => handleStatusUpdate(selectedReport._id, 'dismissed')}
                   disabled={updatingStatus === selectedReport._id}
-                  className="flex-1 min-w-[140px] px-4 py-2.5 bg-gray-600 text-white rounded-lg hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium shadow-md hover:shadow-lg"
+                  className="w-full px-4 py-3 text-sm sm:text-base bg-gray-600 text-white rounded-lg hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium shadow-md hover:shadow-lg min-h-[44px] flex items-center justify-center whitespace-nowrap"
                 >
                   {updatingStatus === selectedReport._id ? 'Updating...' : 'Dismiss'}
                 </button>
@@ -959,7 +959,7 @@ const Reports = () => {
               <button
                 onClick={() => handleDeleteReport(selectedReport._id)}
                 disabled={deletingReport === selectedReport._id}
-                className="flex-1 min-w-[140px] px-4 py-2.5 bg-red-600 text-white rounded-lg hover:bg-red-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium shadow-md hover:shadow-lg"
+                className="w-full px-4 py-3 text-sm sm:text-base bg-red-600 text-white rounded-lg hover:bg-red-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium shadow-md hover:shadow-lg min-h-[44px] flex items-center justify-center whitespace-nowrap"
               >
                 {deletingReport === selectedReport._id ? 'Deleting...' : 'Delete'}
               </button>
@@ -985,7 +985,7 @@ const Reports = () => {
         title="Edit Question"
       >
         {editingQuestion && (
-          <div className="space-y-5">
+          <div className="space-y-4 sm:space-y-5 pb-2">
             {loadingQuestion ? (
               <div className="text-center py-8">
                 <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-purple-600 mx-auto mb-4"></div>
@@ -993,9 +993,9 @@ const Reports = () => {
               </div>
             ) : (
               <>
-                <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-4">
-                  <div className="text-xs font-semibold text-blue-800 mb-1">Question Location</div>
-                  <div className="text-sm text-blue-900">
+                <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 sm:p-4 mb-4">
+                  <div className="text-xs sm:text-sm font-semibold text-blue-800 mb-1">Question Location</div>
+                  <div className="text-xs sm:text-sm text-blue-900 space-y-1">
                     <div><span className="font-medium">File:</span> {editingQuestion.filePath?.split(/[/\\]/).pop() || 'N/A'}</div>
                     {editingQuestion.bookName && (
                       <div><span className="font-medium">Book:</span> {editingQuestion.bookName}</div>
@@ -1007,46 +1007,48 @@ const Reports = () => {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  <label className="block text-sm sm:text-base font-semibold text-gray-700 mb-2">
                     Question Text <span className="text-red-500">*</span>
                   </label>
                   <textarea
                     value={editFormData.question}
                     onChange={(e) => setEditFormData({ ...editFormData, question: e.target.value })}
-                    className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all resize-none"
+                    className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all resize-none"
                     rows={4}
                     placeholder="Enter question text..."
                   />
                 </div>
 
                 <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  <label className="block text-sm sm:text-base font-semibold text-gray-700 mb-2">
                     Options <span className="text-red-500">*</span>
                   </label>
-                  <div className="space-y-2">
+                  <div className="space-y-2 sm:space-y-3">
                     {editFormData.options.map((option, index) => (
-                      <div key={index} className="flex items-center gap-2">
-                        <span className="w-8 h-8 flex items-center justify-center bg-gray-100 border border-gray-300 rounded-lg font-semibold text-gray-700 text-sm">
-                          {String.fromCharCode(65 + index)}
-                        </span>
-                        <input
-                          type="text"
-                          value={option}
-                          onChange={(e) => {
-                            const newOptions = [...editFormData.options];
-                            newOptions[index] = e.target.value;
-                            setEditFormData({ ...editFormData, options: newOptions });
-                          }}
-                          className="flex-1 px-4 py-2 border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all"
-                          placeholder={`Option ${String.fromCharCode(65 + index)}`}
-                        />
+                      <div key={index} className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2">
+                        <div className="flex items-center gap-2 flex-1">
+                          <span className="w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0 flex items-center justify-center bg-gray-100 border border-gray-300 rounded-lg font-semibold text-gray-700 text-sm">
+                            {String.fromCharCode(65 + index)}
+                          </span>
+                          <input
+                            type="text"
+                            value={option}
+                            onChange={(e) => {
+                              const newOptions = [...editFormData.options];
+                              newOptions[index] = e.target.value;
+                              setEditFormData({ ...editFormData, options: newOptions });
+                            }}
+                            className="flex-1 min-w-0 px-3 sm:px-4 py-2 sm:py-2.5 text-sm sm:text-base border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all"
+                            placeholder={`Option ${String.fromCharCode(65 + index)}`}
+                          />
+                        </div>
                         {index >= 2 && (
                           <button
                             onClick={() => {
                               const newOptions = editFormData.options.filter((_, i) => i !== index);
                               setEditFormData({ ...editFormData, options: newOptions });
                             }}
-                            className="px-3 py-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors"
+                            className="px-3 sm:px-4 py-2 text-sm sm:text-base text-red-600 hover:bg-red-50 rounded-lg transition-colors font-medium whitespace-nowrap sm:w-auto w-full sm:flex-shrink-0"
                           >
                             Remove
                           </button>
@@ -1061,7 +1063,7 @@ const Reports = () => {
                             options: [...editFormData.options, '']
                           });
                         }}
-                        className="w-full px-4 py-2 text-sm text-gray-600 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg hover:bg-gray-100 transition-colors"
+                        className="w-full px-4 py-2.5 sm:py-3 text-sm sm:text-base text-gray-600 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg hover:bg-gray-100 transition-colors font-medium"
                       >
                         + Add Option
                       </button>
@@ -1069,15 +1071,15 @@ const Reports = () => {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    <label className="block text-sm sm:text-base font-semibold text-gray-700 mb-2">
                       Correct Answer <span className="text-red-500">*</span>
                     </label>
                     <select
                       value={editFormData.answer}
                       onChange={(e) => setEditFormData({ ...editFormData, answer: e.target.value })}
-                      className="w-full px-4 py-2 border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-2.5 text-sm sm:text-base border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all"
                     >
                       <option value="">Select answer</option>
                       {editFormData.options.map((opt, index) => (
@@ -1090,37 +1092,37 @@ const Reports = () => {
                     </select>
                   </div>
                   <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    <label className="block text-sm sm:text-base font-semibold text-gray-700 mb-2">
                       Solution
                     </label>
                     <input
                       type="text"
                       value={editFormData.solution}
                       onChange={(e) => setEditFormData({ ...editFormData, solution: e.target.value })}
-                      className="w-full px-4 py-2 border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-2.5 text-sm sm:text-base border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all"
                       placeholder="Solution (optional)"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  <label className="block text-sm sm:text-base font-semibold text-gray-700 mb-2">
                     Explanation
                   </label>
                   <textarea
                     value={editFormData.explanation}
                     onChange={(e) => setEditFormData({ ...editFormData, explanation: e.target.value })}
-                    className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all resize-none"
+                    className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all resize-none"
                     rows={3}
                     placeholder="Enter explanation (optional)..."
                   />
                 </div>
 
-                <div className="flex gap-3 pt-4 border-t-2 border-gray-200">
+                <div className="flex flex-col sm:flex-row gap-2.5 sm:gap-3 pt-4 border-t-2 border-gray-200 pb-1">
                   <button
                     onClick={handleSaveQuestion}
                     disabled={savingQuestion || !editFormData.question.trim() || !editFormData.answer.trim()}
-                    className="flex-1 px-4 py-2.5 bg-purple-600 text-white rounded-lg hover:bg-purple-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium shadow-md hover:shadow-lg"
+                    className="w-full sm:flex-1 px-4 py-3 text-sm sm:text-base bg-purple-600 text-white rounded-lg hover:bg-purple-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium shadow-md hover:shadow-lg min-h-[44px] flex items-center justify-center whitespace-nowrap"
                   >
                     {savingQuestion ? 'Saving...' : 'Save Changes'}
                   </button>
@@ -1136,7 +1138,7 @@ const Reports = () => {
                         explanation: ''
                       });
                     }}
-                    className="px-4 py-2.5 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors font-medium"
+                    className="w-full sm:w-auto sm:flex-1 px-4 py-3 text-sm sm:text-base bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors font-medium min-h-[44px] flex items-center justify-center whitespace-nowrap"
                   >
                     Cancel
                   </button>
