@@ -8,12 +8,12 @@
       "question": "Frequency: 198 kHz. Calculate Wavelength and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. 1515 m, LF",
-        "b. 515 m, MF",
-        "c. 15.15 m, HF",
-        "d. 151.5 m, VLF"
+        "a. 515 m, MF",
+        "b. 151.5 m, VLF",
+        "c. 1515 m, LF",
+        "d. 15.15 m, HF"
       ],
-      "answer": "a",
+      "answer": "c",
       "explanation": "Wavelength = (3 × 10^8) / (198 × 10^3) = 1515 m. LF band."
     },
     {
@@ -21,12 +21,12 @@
       "question": "Wavelength: 2.7 m. Calculate Frequency and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. 11.11 MHz, HF",
-        "b. 111.1 MHz, VHF",
-        "c. 1.11 GHz, UHF",
-        "d. 1111 MHz, SHF"
+        "a. 1.11 GHz, UHF",
+        "b. 1111 MHz, SHF",
+        "c. 11.11 MHz, HF",
+        "d. 111.1 MHz, VHF"
       ],
-      "answer": "b",
+      "answer": "d",
       "explanation": "Frequency = 111.1 MHz which lies in VHF band."
     },
     {
@@ -34,12 +34,12 @@
       "question": "Frequency: 5.025 GHz. Calculate Wavelength and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. 59.7 cm, UHF",
-        "b. 5.97 cm, SHF",
+        "a. 597 cm, VHF",
+        "b. 59.7 cm, UHF",
         "c. 0.597 cm, EHF",
-        "d. 597 cm, VHF"
+        "d. 5.97 cm, SHF"
       ],
-      "answer": "b",
+      "answer": "d",
       "explanation": "Wavelength = 5.97 cm. SHF band."
     },
     {
@@ -47,12 +47,12 @@
       "question": "Wavelength: 137.5 m. Calculate Frequency and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. 2181.8 kHz, MF",
+        "a. 21.81 MHz, HF",
         "b. 218.1 kHz, LF",
-        "c. 21.81 MHz, HF",
+        "c. 2181.8 kHz, MF",
         "d. 2.18 GHz, SHF"
       ],
-      "answer": "a",
+      "answer": "c",
       "explanation": "Frequency = 2181.8 kHz which lies in MF band."
     },
     {
@@ -60,12 +60,12 @@
       "question": "Frequency: 137.5 MHz. Calculate Wavelength and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. 21.8 m, HF",
-        "b. 2.18 m, VHF",
-        "c. 21.8 cm, UHF",
-        "d. 0.218 m, SHF"
+        "a. 21.8 cm, UHF",
+        "b. 0.218 m, SHF",
+        "c. 21.8 m, HF",
+        "d. 2.18 m, VHF"
       ],
-      "answer": "b",
+      "answer": "d",
       "explanation": "Wavelength = 2.18 m. VHF band."
     },
     {
@@ -73,12 +73,12 @@
       "question": "Wavelength: 3 km. Calculate Frequency and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. 1 MHz, MF",
-        "b. 100 kHz, LF",
-        "c. 10 kHz, VLF",
-        "d. 300 kHz, MF"
+        "a. 300 kHz, MF",
+        "b. 10 kHz, VLF",
+        "c. 1 MHz, MF",
+        "d. 100 kHz, LF"
       ],
-      "answer": "b",
+      "answer": "d",
       "explanation": "Frequency = 100 kHz. LF band."
     },
     {
@@ -86,12 +86,12 @@
       "question": "Frequency: 329 MHz. Calculate Wavelength and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. 9.12 cm, SHF",
-        "b. 91.2 cm, UHF",
-        "c. 9.12 m, VHF",
-        "d. 0.912 cm, EHF"
+        "a. 9.12 m, VHF",
+        "b. 0.912 cm, EHF",
+        "c. 91.2 cm, UHF",
+        "d. 9.12 cm, SHF"
       ],
-      "answer": "b",
+      "answer": "c",
       "explanation": "Wavelength = 91.2 cm. UHF band."
     },
     {
@@ -99,12 +99,12 @@
       "question": "Wavelength: 29 cm. Calculate Frequency and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. 103.4 MHz, VHF",
-        "b. 1034 MHz, UHF",
-        "c. 10.34 GHz, SHF",
-        "d. 1.034 MHz, HF"
+        "a. 1.034 MHz, HF",
+        "b. 10.34 GHz, SHF",
+        "c. 103.4 MHz, VHF",
+        "d. 1034 MHz, UHF"
       ],
-      "answer": "b",
+      "answer": "d",
       "explanation": "Frequency = 1034 MHz. UHF band."
     },
     {
@@ -112,12 +112,12 @@
       "question": "Frequency: 500 kHz. Calculate Wavelength and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. 600 m, MF",
-        "b. 60 m, HF",
-        "c. 6 km, LF",
-        "d. 6000 m, VLF"
+        "a. 6 km, LF",
+        "b. 6000 m, VLF",
+        "c. 600 m, MF",
+        "d. 60 m, HF"
       ],
-      "answer": "a",
+      "answer": "c",
       "explanation": "Wavelength = 600 m. MF band."
     },
     {
@@ -125,26 +125,25 @@
       "question": "Wavelength: 5 cm. Calculate Frequency and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. 600 MHz, UHF",
-        "b. 6 GHz, SHF",
-        "c. 60 GHz, EHF",
-        "d. 6 MHz, HF"
+        "a. 6 MHz, HF",
+        "b. 60 GHz, EHF",
+        "c. 600 MHz, UHF",
+        "d. 6 GHz, SHF"
       ],
-      "answer": "b",
+      "answer": "d",
       "explanation": "Frequency = 6 GHz. SHF band."
     },
-
     {
       "id": "mcq-11",
       "question": "Radio waves are a form of:",
       "question_type": "MCQ",
       "options": [
-        "a. Mechanical waves",
-        "b. Sound waves",
-        "c. Electromagnetic waves",
-        "d. Pressure waves"
+        "a. Pressure waves",
+        "b. Electromagnetic waves",
+        "c. Mechanical waves",
+        "d. Sound waves"
       ],
-      "answer": "c",
+      "answer": "b",
       "explanation": "Radio waves are electromagnetic waves."
     },
     {
@@ -152,10 +151,10 @@
       "question": "The electric and magnetic fields in a radio wave are:",
       "question_type": "MCQ",
       "options": [
-        "a. Parallel to each other",
-        "b. At 45° to each other",
+        "a. In the same direction",
+        "b. Parallel to each other",
         "c. Perpendicular to each other",
-        "d. In the same direction"
+        "d. At 45° to each other"
       ],
       "answer": "c",
       "explanation": "Electric and magnetic fields are mutually perpendicular."
@@ -165,10 +164,10 @@
       "question": "Radio waves travel fastest in:",
       "question_type": "MCQ",
       "options": [
-        "a. Water",
-        "b. Air",
+        "a. Ionosphere",
+        "b. Water",
         "c. Vacuum",
-        "d. Ionosphere"
+        "d. Air"
       ],
       "answer": "c",
       "explanation": "They travel at the speed of light in vacuum."
@@ -178,12 +177,12 @@
       "question": "If frequency increases, wavelength:",
       "question_type": "MCQ",
       "options": [
-        "a. Increases",
-        "b. Decreases",
-        "c. Remains constant",
-        "d. Becomes zero"
+        "a. Becomes zero",
+        "b. Remains constant",
+        "c. Decreases",
+        "d. Increases"
       ],
-      "answer": "b",
+      "answer": "c",
       "explanation": "Frequency and wavelength are inversely proportional."
     },
     {
@@ -191,12 +190,12 @@
       "question": "Which band mainly supports ground wave propagation?",
       "question_type": "MCQ",
       "options": [
-        "a. VHF",
-        "b. UHF",
-        "c. HF",
-        "d. LF"
+        "a. HF",
+        "b. LF",
+        "c. UHF",
+        "d. VHF"
       ],
-      "answer": "d",
+      "answer": "b",
       "explanation": "LF supports efficient ground wave propagation."
     },
     {
@@ -204,10 +203,10 @@
       "question": "Polarization of a radio wave depends on the direction of:",
       "question_type": "MCQ",
       "options": [
-        "a. Magnetic field",
+        "a. Frequency",
         "b. Electric field",
         "c. Wave velocity",
-        "d. Frequency"
+        "d. Magnetic field"
       ],
       "answer": "b",
       "explanation": "Polarization is defined by the electric field orientation."
@@ -217,12 +216,12 @@
       "question": "Phase difference between two waves is measured in:",
       "question_type": "MCQ",
       "options": [
-        "a. Hertz",
-        "b. Metres",
-        "c. Degrees",
-        "d. Seconds"
+        "a. Metres",
+        "b. Seconds",
+        "c. Hertz",
+        "d. Degrees"
       ],
-      "answer": "c",
+      "answer": "d",
       "explanation": "Phase difference is an angular measurement."
     },
     {
@@ -230,12 +229,12 @@
       "question": "Which frequency band is used for most VOR navigation aids?",
       "question_type": "MCQ",
       "options": [
-        "a. HF",
-        "b. VHF",
-        "c. UHF",
-        "d. SHF"
+        "a. UHF",
+        "b. SHF",
+        "c. VHF",
+        "d. HF"
       ],
-      "answer": "b",
+      "answer": "c",
       "explanation": "VOR operates in the VHF band."
     },
     {
@@ -243,12 +242,12 @@
       "question": "Sky wave propagation is mainly associated with:",
       "question_type": "MCQ",
       "options": [
-        "a. VLF",
-        "b. LF",
-        "c. HF",
-        "d. UHF"
+        "a. UHF",
+        "b. HF",
+        "c. LF",
+        "d. VLF"
       ],
-      "answer": "c",
+      "answer": "b",
       "explanation": "HF waves are reflected by the ionosphere."
     },
     {
@@ -256,10 +255,10 @@
       "question": "Which layer reflects HF radio waves?",
       "question_type": "MCQ",
       "options": [
-        "a. Troposphere",
+        "a. Mesosphere",
         "b. Stratosphere",
         "c. Ionosphere",
-        "d. Mesosphere"
+        "d. Troposphere"
       ],
       "answer": "c",
       "explanation": "The ionosphere reflects HF waves."
@@ -269,10 +268,10 @@
       "question": "The unit of frequency is:",
       "question_type": "MCQ",
       "options": [
-        "a. Metre",
-        "b. Second",
+        "a. Joule",
+        "b. Metre",
         "c. Hertz",
-        "d. Joule"
+        "d. Second"
       ],
       "answer": "c",
       "explanation": "Frequency is measured in Hertz."
@@ -282,12 +281,12 @@
       "question": "Which frequency band has the shortest wavelength?",
       "question_type": "MCQ",
       "options": [
-        "a. HF",
-        "b. VHF",
-        "c. UHF",
-        "d. SHF"
+        "a. VHF",
+        "b. SHF",
+        "c. HF",
+        "d. UHF"
       ],
-      "answer": "d",
+      "answer": "b",
       "explanation": "Higher frequency bands have shorter wavelengths."
     }
   ]
