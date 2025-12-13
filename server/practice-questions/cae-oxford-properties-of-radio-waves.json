@@ -14,7 +14,7 @@
         "d. 151.5 m, VLF"
       ],
       "answer": "a",
-      "explanation": "Wavelength = (3 × 10^8) / (198 × 10^3) = 1515 m. 198 kHz lies in the LF band."
+      "explanation": "Wavelength = (3 × 10^8) / (198 × 10^3) = 1515 m. LF band."
     },
     {
       "id": "calc-2",
@@ -27,7 +27,7 @@
         "d. 1111 MHz, SHF"
       ],
       "answer": "b",
-      "explanation": "Frequency = (3 × 10^8) / 2.7 = 111.1 MHz, which lies in VHF band."
+      "explanation": "Frequency = 111.1 MHz which lies in VHF band."
     },
     {
       "id": "calc-3",
@@ -40,7 +40,7 @@
         "d. 597 cm, VHF"
       ],
       "answer": "b",
-      "explanation": "Wavelength = (3 × 10^8) / (5.025 × 10^9) = 5.97 cm. 5.025 GHz lies in SHF."
+      "explanation": "Wavelength = 5.97 cm. SHF band."
     },
     {
       "id": "calc-4",
@@ -53,7 +53,7 @@
         "d. 2.18 GHz, SHF"
       ],
       "answer": "a",
-      "explanation": "Frequency = (3 × 10^8) / 137.5 = 2.1818 MHz = 2181.8 kHz, MF band."
+      "explanation": "Frequency = 2181.8 kHz which lies in MF band."
     },
     {
       "id": "calc-5",
@@ -66,7 +66,7 @@
         "d. 0.218 m, SHF"
       ],
       "answer": "b",
-      "explanation": "Wavelength = (3 × 10^8) / (137.5 × 10^6) = 2.18 m. VHF band."
+      "explanation": "Wavelength = 2.18 m. VHF band."
     },
     {
       "id": "calc-6",
@@ -79,7 +79,7 @@
         "d. 300 kHz, MF"
       ],
       "answer": "b",
-      "explanation": "Frequency = (3 × 10^8) / (3 × 10^3) = 100 kHz, LF band."
+      "explanation": "Frequency = 100 kHz. LF band."
     },
     {
       "id": "calc-7",
@@ -92,7 +92,7 @@
         "d. 0.912 cm, EHF"
       ],
       "answer": "b",
-      "explanation": "Wavelength = (3 × 10^8) / (329 × 10^6) = 0.912 m = 91.2 cm. UHF band."
+      "explanation": "Wavelength = 91.2 cm. UHF band."
     },
     {
       "id": "calc-8",
@@ -105,7 +105,7 @@
         "d. 1.034 MHz, HF"
       ],
       "answer": "b",
-      "explanation": "Frequency = (3 × 10^8) / 0.29 = 1034 MHz, UHF band."
+      "explanation": "Frequency = 1034 MHz. UHF band."
     },
     {
       "id": "calc-9",
@@ -118,7 +118,7 @@
         "d. 6000 m, VLF"
       ],
       "answer": "a",
-      "explanation": "Wavelength = (3 × 10^8) / (500 × 10^3) = 600 m. MF band."
+      "explanation": "Wavelength = 600 m. MF band."
     },
     {
       "id": "calc-10",
@@ -131,7 +131,34 @@
         "d. 6 MHz, HF"
       ],
       "answer": "b",
-      "explanation": "Frequency = (3 × 10^8) / 0.05 = 6 GHz. SHF band."
+      "explanation": "Frequency = 6 GHz. SHF band."
+    },
+
+    {
+      "id": "mcq-11",
+      "question": "Radio waves are a form of:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Mechanical waves",
+        "b. Sound waves",
+        "c. Electromagnetic waves",
+        "d. Pressure waves"
+      ],
+      "answer": "c",
+      "explanation": "Radio waves are electromagnetic waves."
+    },
+    {
+      "id": "mcq-12",
+      "question": "The electric and magnetic fields in a radio wave are:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Parallel to each other",
+        "b. At 45° to each other",
+        "c. Perpendicular to each other",
+        "d. In the same direction"
+      ],
+      "answer": "c",
+      "explanation": "Electric and magnetic fields are mutually perpendicular."
     },
     {
       "id": "mcq-13",
@@ -144,7 +171,7 @@
         "d. Ionosphere"
       ],
       "answer": "c",
-      "explanation": "Radio waves travel at the speed of light in a vacuum."
+      "explanation": "They travel at the speed of light in vacuum."
     },
     {
       "id": "mcq-14",
@@ -161,7 +188,7 @@
     },
     {
       "id": "mcq-15",
-      "question": "Which frequency band is mainly used for long-range communication due to ground wave propagation?",
+      "question": "Which band mainly supports ground wave propagation?",
       "question_type": "MCQ",
       "options": [
         "a. VHF",
@@ -170,20 +197,20 @@
         "d. LF"
       ],
       "answer": "d",
-      "explanation": "LF waves propagate efficiently as ground waves over long distances."
+      "explanation": "LF supports efficient ground wave propagation."
     },
     {
       "id": "mcq-16",
-      "question": "Polarization of a radio wave is determined by:",
+      "question": "Polarization of a radio wave depends on the direction of:",
       "question_type": "MCQ",
       "options": [
-        "a. Magnetic field direction",
-        "b. Electric field direction",
-        "c. Direction of travel",
+        "a. Magnetic field",
+        "b. Electric field",
+        "c. Wave velocity",
         "d. Frequency"
       ],
       "answer": "b",
-      "explanation": "Polarization is defined by the orientation of the electric field."
+      "explanation": "Polarization is defined by the electric field orientation."
     },
     {
       "id": "mcq-17",
@@ -196,8 +223,72 @@
         "d. Seconds"
       ],
       "answer": "c",
-      "explanation": "Phase difference is an angular measurement expressed in degrees."
+      "explanation": "Phase difference is an angular measurement."
+    },
+    {
+      "id": "mcq-18",
+      "question": "Which frequency band is used for most VOR navigation aids?",
+      "question_type": "MCQ",
+      "options": [
+        "a. HF",
+        "b. VHF",
+        "c. UHF",
+        "d. SHF"
+      ],
+      "answer": "b",
+      "explanation": "VOR operates in the VHF band."
+    },
+    {
+      "id": "mcq-19",
+      "question": "Sky wave propagation is mainly associated with:",
+      "question_type": "MCQ",
+      "options": [
+        "a. VLF",
+        "b. LF",
+        "c. HF",
+        "d. UHF"
+      ],
+      "answer": "c",
+      "explanation": "HF waves are reflected by the ionosphere."
+    },
+    {
+      "id": "mcq-20",
+      "question": "Which layer reflects HF radio waves?",
+      "question_type": "MCQ",
+      "options": [
+        "a. Troposphere",
+        "b. Stratosphere",
+        "c. Ionosphere",
+        "d. Mesosphere"
+      ],
+      "answer": "c",
+      "explanation": "The ionosphere reflects HF waves."
+    },
+    {
+      "id": "mcq-21",
+      "question": "The unit of frequency is:",
+      "question_type": "MCQ",
+      "options": [
+        "a. Metre",
+        "b. Second",
+        "c. Hertz",
+        "d. Joule"
+      ],
+      "answer": "c",
+      "explanation": "Frequency is measured in Hertz."
+    },
+    {
+      "id": "mcq-22",
+      "question": "Which frequency band has the shortest wavelength?",
+      "question_type": "MCQ",
+      "options": [
+        "a. HF",
+        "b. VHF",
+        "c. UHF",
+        "d. SHF"
+      ],
+      "answer": "d",
+      "explanation": "Higher frequency bands have shorter wavelengths."
     }
   ]
 }
-
