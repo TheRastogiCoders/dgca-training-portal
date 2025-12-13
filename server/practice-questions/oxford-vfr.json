@@ -1,0 +1,368 @@
+{
+  "book_name": "CAE ATPL",
+  "chapter_number": 14,
+  "chapter_title": "VFR",
+  "questions": [
+    {
+      "question_number": "VFR-1",
+      "question_text": "The abbreviation for the call sign CHEROKEE XY-ABC would be:",
+      "question_type": "MCQ",
+      "options": [
+        "XY-BC",
+        "CHEROKEE XY-BC",
+        "CHEROKEE BC",
+        "ABC"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "VFR-2",
+      "question_text": "The Q code for TRUE BEARING from a station is:",
+      "question_type": "MCQ",
+      "options": [
+        "QDR",
+        "QFE",
+        "QUJ",
+        "QTE"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": "VFR-3",
+      "question_text": "The definition of the DISTRESS condition is that:",
+      "question_type": "MCQ",
+      "options": [
+        "there is concern for the safety of the aircraft or a person on board or other vehicle, but there is no need for immediate assistance",
+        "the aircraft is in imminent danger and requires immediate assistance",
+        "the aircraft has crashed",
+        "the aircraft is being hijacked"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": "VFR-4",
+      "question_text": "The words preceding an URGENCY message should be:",
+      "question_type": "MCQ",
+      "options": [
+        "Urgency Urgency Urgency",
+        "Pan Pan Pan Pan Pan Pan",
+        "Pan Pan",
+        "Mayday Mayday Mayday"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": "VFR-5",
+      "question_text": "The Q code on which height is based on:",
+      "question_type": "MCQ",
+      "options": [
+        "QNH",
+        "QFF",
+        "QFE",
+        "QUJ"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "VFR-6",
+      "question_text": "The frequency on which ATIS can be found is:",
+      "question_type": "MCQ",
+      "options": [
+        "discrete VHF or VOR frequency",
+        "discrete VHF only",
+        "VOR frequency only",
+        "any ATC frequency"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": "VFR-7",
+      "question_text": "The call from an aircraft for a missed approach is:",
+      "question_type": "MCQ",
+      "options": [
+        "OVERSHOOTING",
+        "TOUCH AND GO",
+        "GOING AROUND",
+        "ABORTING"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "VFR-8",
+      "question_text": "When asking for a repeat of a message, you should say:",
+      "question_type": "MCQ",
+      "options": [
+        "WORDS TWICE",
+        "REPEAT MESSAGE",
+        "SPEAK SLOWER",
+        "SAY AGAIN"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": "VFR-9",
+      "question_text": "When reporting a frequency, the use of the word \"DECIMAL\" can be omitted:",
+      "question_type": "MCQ",
+      "options": [
+        "when there is no likelihood of confusion",
+        "after the initial call",
+        "never",
+        "by the ground station only"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "VFR-10",
+      "question_text": "The selection of the code 7600 on a transponder indicates:",
+      "question_type": "MCQ",
+      "options": [
+        "loss of communications",
+        "distress",
+        "urgency",
+        "hijacking"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": "VFR-11",
+      "question_text": "Your action in response to the instruction from ATC to \"RESET SQUAWK\" is to:",
+      "question_type": "MCQ",
+      "options": [
+        "set the numbers to 7000",
+        "reselect the numbers on the control unit",
+        "switch to STANDBY and back to ON",
+        "press the IDENT button"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": "VFR-12",
+      "question_text": "If you are unable to contact a station on a designated frequency you should:",
+      "question_type": "MCQ",
+      "options": [
+        "try another appropriate frequency",
+        "start transmitting blind",
+        "land at the nearest suitable aerodrome",
+        "transmit words twice"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": "VFR-13",
+      "question_text": "The minimum content of a readback of the message from ATC \"X-CD CHANGE FREQUENCY TO STEPHENVILLE TOWER 118.7\" is:",
+      "question_type": "MCQ",
+      "options": [
+        "118.7",
+        "CHANGING FREQUENCY X-CD",
+        "TO STEPHENVILLE X-CD",
+        "118.7 X-CD"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": "VFR-14",
+      "question_text": "The best signals for VHF communications are obtained when the position of the aircraft is at:",
+      "question_type": "MCQ",
+      "options": [
+        "high altitude at long range",
+        "high altitude and in the vicinity of the aerodrome",
+        "low altitude and short range",
+        "low level and long range"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": "VFR-15",
+      "question_text": "The Q code for the magnetic bearing from a station is:",
+      "question_type": "MCQ",
+      "options": [
+        "QDM",
+        "QDR",
+        "QTE",
+        "QNH"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": "VFR-16",
+      "question_text": "The abbreviation for a control zone is:",
+      "question_type": "MCQ",
+      "options": [
+        "CTR",
+        "CTZ",
+        "ATZ",
+        "CTA"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": "VFR-17",
+      "question_text": "The condition that defines the state of an aircraft in imminent danger is:",
+      "question_type": "MCQ",
+      "options": [
+        "Mayday",
+        "Distress",
+        "Pan Pan",
+        "Urgency"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": "VFR-18",
+      "question_text": "The call sign of a station controlling surface vehicles in the manoeuvring area would be:",
+      "question_type": "MCQ",
+      "options": [
+        "TOWER",
+        "CLEARANCE",
+        "GROUND",
+        "APRON"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "VFR-19",
+      "question_text": "The instruction \"ORBIT\" from ATC means that the aircraft should:",
+      "question_type": "MCQ",
+      "options": [
+        "carry out a go-around",
+        "continue with 360 degree turns",
+        "carry out one 360 degree turn only",
+        "reverse the direction of the turn"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": "VFR-20",
+      "question_text": "The time given in aeronautical communications is:",
+      "question_type": "MCQ",
+      "options": [
+        "local mean time",
+        "in minutes only",
+        "UTC",
+        "daylight saving time"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "VFR-21",
+      "question_text": "In order to make a message effective you should:",
+      "question_type": "MCQ",
+      "options": [
+        "use words twice",
+        "speak slower",
+        "repeat the message",
+        "speak at a constant volume"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": "VFR-22",
+      "question_text": "When making a blind transmission you should:",
+      "question_type": "MCQ",
+      "options": [
+        "transmit the message twice",
+        "transmit each word twice",
+        "repeat the message on 121.5 MHz",
+        "wait for visual signals"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": "VFR-23",
+      "question_text": "The abbreviation AFIS stands for:",
+      "question_type": "MCQ",
+      "options": [
+        "aerodrome flight information service",
+        "automatic flight information service",
+        "aircraft fire indication system",
+        "automatic flight instrument system"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": "VFR-24",
+      "question_text": "The full range of VHF frequencies used for communications is:",
+      "question_type": "MCQ",
+      "options": [
+        "3 to 30 MHz",
+        "88 to 108 MHz",
+        "108.0 to 139.95 MHz",
+        "118.0 to 136.975 MHz"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": "VFR-25",
+      "question_text": "The message \"READABILITY 3\" means:",
+      "question_type": "MCQ",
+      "options": [
+        "readable now and then",
+        "unreadable",
+        "readable",
+        "readable but with difficulty"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": "VFR-26",
+      "question_text": "The phrase to use when you want to say \"yes\" is:",
+      "question_type": "MCQ",
+      "options": [
+        "AFFIRMATIVE",
+        "ROGER",
+        "WILCO",
+        "AFFIRM"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": "VFR-27",
+      "question_text": "The definition of the phrase \"STANDBY\" is:",
+      "question_type": "MCQ",
+      "options": [
+        "consider the transmission as not sent",
+        "proceed with your message",
+        "wait and I will call you",
+        "hold your present position"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "VFR-28",
+      "question_text": "The correct readback of the frequency 123.725 on 25 kHz spacing is:",
+      "question_type": "MCQ",
+      "options": [
+        "123.725",
+        "123.7",
+        "12372",
+        "123.72"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": "VFR-29",
+      "question_text": "The correct reply to the instruction \"HOLD SHORT AT RUNWAY\" is:",
+      "question_type": "MCQ",
+      "options": [
+        "WILCO",
+        "ROGER",
+        "HOLDING SHORT",
+        "UNDERSTOOD"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "VFR-30",
+      "question_text": "The priority of the message \"LINE UP\" is:",
+      "question_type": "MCQ",
+      "options": [
+        "greater than \"REQUEST QDM\"",
+        "less than \"CLEAR TO LAND\"",
+        "same as \"TAXI TO HOLDING POINT RUNWAY 20\"",
+        "same as \"WORK IN PROGRESS ON TAXIWAY\""
+      ],
+      "answer": "C"
+    }
+  ]
+}
+

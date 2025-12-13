@@ -533,6 +533,37 @@ const airNavigationOxfordBooks = [
       { id: 16, name: "Landing", questions: 15, difficulty: "Medium" },
       { id: 17, name: "Revision Questions", questions: 15, difficulty: "Medium" }
     ]
+  },
+  {
+    id: 6,
+    title: "Radio Navigation",
+    description: "CPL/ATPL Ground Training Series",
+    icon: "📻",
+    color: "from-cyan-500 to-blue-600",
+    slug: "cae-oxford-radio-navigation",
+    totalQuestions: 289,
+    difficulty: "Medium",
+    chapters: [
+      { id: 1, name: "Properties of Radio Waves", questions: 22, difficulty: "Medium" },
+      { id: 2, name: "Radio Propagation Theory", questions: 8, difficulty: "Medium" },
+      { id: 3, name: "Modulation", questions: 4, difficulty: "Medium" },
+      { id: 4, name: "Antennae", questions: 4, difficulty: "Medium" },
+      { id: 5, name: "Doppler Radar Systems", questions: 3, difficulty: "Medium" },
+      { id: 6, name: "VHF Direction Finder (VDF)", questions: 6, difficulty: "Medium" },
+      { id: 7, name: "Automatic Direction Finder (ADF)", questions: 21, difficulty: "Medium" },
+      { id: 8, name: "VHF Omni-directional Range (VOR)", questions: 33, difficulty: "Medium" },
+      { id: 9, name: "Instrument Landing System (ILS)", questions: 14, difficulty: "Medium" },
+      { id: 10, name: "Microwave Landing System (MLS)", questions: 1, difficulty: "Medium" },
+      { id: 11, name: "Radar Principles", questions: 14, difficulty: "Medium" },
+      { id: 12, name: "Ground Radar", questions: 4, difficulty: "Medium" },
+      { id: 13, name: "Airborne Weather Radar", questions: 11, difficulty: "Medium" },
+      { id: 14, name: "Secondary Surveillance Radar (SSR)", questions: 5, difficulty: "Medium" },
+      { id: 15, name: "Distance Measuring Equipment (DME)", questions: 19, difficulty: "Medium" },
+      { id: 16, name: "Area Navigation Systems (RNAV)", questions: 15, difficulty: "Medium" },
+      { id: 17, name: "Electronic Flight Information System (EFIS)", questions: 9, difficulty: "Medium" },
+      { id: 18, name: "Global Navigation Satellite System (GNSS)", questions: 26, difficulty: "Medium" },
+      { id: 19, name: "Communications", questions: 60, difficulty: "Medium" }
+    ]
   }
 ];
 
@@ -777,33 +808,16 @@ const meteorologyOxfordBooks = [
 const radioTelephonyOxfordBooks = [
   {
     id: 1,
-    title: "Radio Navigation Systems",
+    title: "Communications",
     description: "CPL/ATPL Ground Training Series",
     icon: "📻",
     color: "from-cyan-500 to-blue-600",
     slug: "cae-oxford",
-    totalQuestions: 289,
+    totalQuestions: 60,
     difficulty: "Medium",
     chapters: [
-      { id: 1, name: "Properties of Radio Waves", questions: 22, difficulty: "Medium" },
-      { id: 2, name: "Radio Propagation Theory", questions: 8, difficulty: "Medium" },
-      { id: 3, name: "Modulation", questions: 4, difficulty: "Medium" },
-      { id: 4, name: "Antennae", questions: 4, difficulty: "Medium" },
-      { id: 5, name: "Doppler Radar Systems", questions: 3, difficulty: "Medium" },
-      { id: 6, name: "VHF Direction Finder (VDF)", questions: 6, difficulty: "Medium" },
-      { id: 7, name: "Automatic Direction Finder (ADF)", questions: 21, difficulty: "Medium" },
-      { id: 8, name: "VHF Omni-directional Range (VOR)", questions: 33, difficulty: "Medium" },
-      { id: 9, name: "Instrument Landing System (ILS)", questions: 14, difficulty: "Medium" },
-      { id: 10, name: "Microwave Landing System (MLS)", questions: 1, difficulty: "Medium" },
-      { id: 11, name: "Radar Principles", questions: 14, difficulty: "Medium" },
-      { id: 12, name: "Ground Radar", questions: 4, difficulty: "Medium" },
-      { id: 13, name: "Airborne Weather Radar", questions: 11, difficulty: "Medium" },
-      { id: 14, name: "Secondary Surveillance Radar (SSR)", questions: 5, difficulty: "Medium" },
-      { id: 15, name: "Distance Measuring Equipment (DME)", questions: 19, difficulty: "Medium" },
-      { id: 16, name: "Area Navigation Systems (RNAV)", questions: 15, difficulty: "Medium" },
-      { id: 17, name: "Electronic Flight Information System (EFIS)", questions: 9, difficulty: "Medium" },
-      { id: 18, name: "Global Navigation Satellite System (GNSS)", questions: 26, difficulty: "Medium" },
-      { id: 19, name: "Communications", questions: 60, difficulty: "Medium" }
+      { id: 1, name: "VFR", questions: 30, difficulty: "Medium" },
+      { id: 2, name: "IFR", questions: 30, difficulty: "Medium" }
     ]
   }
 ];

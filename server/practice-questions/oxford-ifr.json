@@ -1,0 +1,368 @@
+{
+  "book_name": "CAE ATPL",
+  "chapter_number": 14,
+  "chapter_title": "IFR",
+  "questions": [
+    {
+      "question_number": "IFR-1",
+      "question_text": "Clearance limit is defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "the flight level to which an aircraft is granted ATC clearance",
+        "the time at which the ATC clearance expires",
+        "the point to which aircraft is granted ATC clearance",
+        "the height below which you will hit the first obstacle"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "IFR-2",
+      "question_text": "The instruction from ATC to an aircraft to abandon its take-off includes the phrase:",
+      "question_type": "MCQ",
+      "options": [
+        "CANCEL TAKE-OFF",
+        "STOP IMMEDIATELY",
+        "ABORT ABORT",
+        "YOU WON'T LIKE THIS"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": "IFR-3",
+      "question_text": "The term \"DISREGARD\" means:",
+      "question_type": "MCQ",
+      "options": [
+        "ignore",
+        "cancel the last clearance",
+        "you have not been cleared",
+        "pay no attention to what I say"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": "IFR-4",
+      "question_text": "The message \"CHECK\" to an aircraft means that you should:",
+      "question_type": "MCQ",
+      "options": [
+        "confirm that you received and understood the last message",
+        "pass the required information to ATC",
+        "stay where you are",
+        "examine a system or procedure"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": "IFR-5",
+      "question_text": "The call sign suffix of a station providing clearance delivery would be:",
+      "question_type": "MCQ",
+      "options": [
+        "CLEARANCE",
+        "GROUND",
+        "DELIVERY",
+        "PRESTO"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "IFR-6",
+      "question_text": "The term \"CORRECTION\" is used when:",
+      "question_type": "MCQ",
+      "options": [
+        "the readback of a message is incorrect",
+        "the readback of a message is correct",
+        "the message has to be deleted",
+        "an error has been made in the transmission and the correct version is ..."
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": "IFR-7",
+      "question_text": "The state of urgency is defined as a condition:",
+      "question_type": "MCQ",
+      "options": [
+        "of being threatened by serious and/or imminent danger and of requiring immediate assistance",
+        "concerning the safety of an aircraft or other vehicle or of some person on board, but does not require immediate assistance",
+        "where an aircraft requires an immediate take-off",
+        "where the aircraft needs to land immediately because the crew are running out of duty time"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": "IFR-8",
+      "question_text": "The response to a general call from ATC is for the aircraft to:",
+      "question_type": "MCQ",
+      "options": [
+        "respond in alphabetical order",
+        "respond in numerical order",
+        "give no response",
+        "request a repeat of the message"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "IFR-9",
+      "question_text": "If a transponder is unserviceable before an IFR departure, then the pilot:",
+      "question_type": "MCQ",
+      "options": [
+        "has to cancel the flight",
+        "may proceed with the flight with ATC permission",
+        "has to fly low level only",
+        "should fly for another company"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": "IFR-10",
+      "question_text": "Following a communications failure, the time at which the aircraft should aim to leave the hold is:",
+      "question_type": "MCQ",
+      "options": [
+        "within 10 minutes of the EAT or ETA",
+        "within 30 minutes of the EAT or ETA",
+        "EAT or ETA",
+        "before it runs out of fuel"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "IFR-11",
+      "question_text": "The call \"PAN PAN MEDICAL\" indicates that:",
+      "question_type": "MCQ",
+      "options": [
+        "the flight is concerning a protected medical transport pursuant to the 1949 Geneva Convention",
+        "there is concern about the safety of the aircraft or other vehicle or a person on board, but does not require immediate assistance",
+        "one of the flight crew has been taken ill",
+        "the crew require medical aid on the pan"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": "IFR-12",
+      "question_text": "An urgency message should include the following information:",
+      "question_type": "MCQ",
+      "options": [
+        "name of station addressed, aircraft call sign, nature of urgency condition, intention of commander, position, level, heading",
+        "call sign, position, route, destination, endurance",
+        "name of station addressed, call sign, present position, level, ETA destination",
+        "captain's number, rank and name"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": "IFR-13",
+      "question_text": "Readability 2 means that your transmission is:",
+      "question_type": "MCQ",
+      "options": [
+        "readable but with difficulty",
+        "readable",
+        "readable now and then",
+        "established with two way communication"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "IFR-14",
+      "question_text": "How does ATC report RVR?",
+      "question_type": "MCQ",
+      "options": [
+        "In kilometres along the final approach",
+        "In metres at touchdown, midpoint and stop end of runway",
+        "In nautical miles along the runway",
+        "In feet and inches"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": "IFR-15",
+      "question_text": "An aircraft departing on an IFR flight under radar vectors has a communication failure. What action should be taken in addition to squawking 7600?",
+      "question_type": "MCQ",
+      "options": [
+        "Maintain the heading last assigned by ATC for 3 minutes, then return to the flight path according to the flight plan",
+        "Return to the current flight plan route in the most direct manner",
+        "Maintain present heading for 1 minute then return to the flight plan route",
+        "Return by the shortest way to the flight plan route, regardless of any limitation issued by ATC"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": "IFR-16",
+      "question_text": "An altitude of 13 500 ft would be spoken as:",
+      "question_type": "MCQ",
+      "options": [
+        "THIRTEEN THOUSAND FIVE HUNDRED FEET",
+        "ONE THREE THOUSAND FIVE ZERO ZERO FEET",
+        "ONE THREE THOUSAND FIVE HUNDRED FEET",
+        "ANGELS THIRTEEN POINT FIVE"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "IFR-17",
+      "question_text": "What cannot be left out from a position report?",
+      "question_type": "MCQ",
+      "options": [
+        "Call sign, Flight level and Time",
+        "Call sign, Position and Time",
+        "Position, Time, Flight level, Next position and ETA",
+        "Your signature"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": "IFR-18",
+      "question_text": "The call sign suffix for an airfield without radar would be:",
+      "question_type": "MCQ",
+      "options": [
+        "APPROACH",
+        "CENTRE",
+        "INFORMATION",
+        "RADIO"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": "IFR-19",
+      "question_text": "The definition of the instruction \"MONITOR ...\" is:",
+      "question_type": "MCQ",
+      "options": [
+        "listen out on frequency",
+        "establish communications on frequency",
+        "watch out for visual signals on frequency",
+        "you are being watched"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": "IFR-20",
+      "question_text": "The phrase \"BRAKING COEFFICIENT 20\" from ATC means that the braking action is:",
+      "question_type": "MCQ",
+      "options": [
+        "poor",
+        "medium to poor",
+        "medium",
+        "slippery"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": "IFR-21",
+      "question_text": "Your reply to the message \"REPORT FLIGHT CONDITIONS\" should be:",
+      "question_type": "MCQ",
+      "options": [
+        "VFR/IFR",
+        "SMOOTH/TURBULENT",
+        "NOT BAD / SO SO",
+        "VMC/IMC"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": "IFR-22",
+      "question_text": "A waypoint is:",
+      "question_type": "MCQ",
+      "options": [
+        "a designated reporting point",
+        "a geographical point at which a change of level takes place",
+        "a geographical location relating to area navigation (RNAV)",
+        "a visual sign pointing the way"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "IFR-23",
+      "question_text": "If you are repeating a word or a message for clarity then you should use the phrase:",
+      "question_type": "MCQ",
+      "options": [
+        "WORDS TWICE",
+        "I REPEAT",
+        "I SAY AGAIN",
+        "DITTO"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "IFR-24",
+      "question_text": "The condition that describes the state of an aircraft in serious and/or imminent danger and requiring immediate assistance is:",
+      "question_type": "MCQ",
+      "options": [
+        "urgency",
+        "flight safety",
+        "hopeless",
+        "distress"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": "IFR-25",
+      "question_text": "If you make a mistake in transmission you should use the phrase:",
+      "question_type": "MCQ",
+      "options": [
+        "CORRECTION",
+        "CORRECT",
+        "I SAY AGAIN",
+        "SORRY"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": "IFR-26",
+      "question_text": "An example of a general call is:",
+      "question_type": "MCQ",
+      "options": [
+        "STOP IMMEDIATELY I SAY AGAIN STOP IMMEDIATELY",
+        "BRAKING ACTION UNRELIABLE",
+        "ALL STATIONS",
+        "GOOD DAY"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "IFR-27",
+      "question_text": "The frequency 121.5 MHz is the:",
+      "question_type": "MCQ",
+      "options": [
+        "international flight safety frequency",
+        "one way air to ground emergency frequency",
+        "international emergency frequency",
+        "air to air chat frequency"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "IFR-28",
+      "question_text": "The ATC message \"DISTRESS TRAFFIC ENDED\" signifies that:",
+      "question_type": "MCQ",
+      "options": [
+        "normal ATC is resumed after an emergency",
+        "all aircraft are to end their transmissions",
+        "all aircraft on the frequency are to change to another frequency",
+        "ATC is shutting shop"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "IFR-29",
+      "question_text": "The phrase used to separate portions of a message is:",
+      "question_type": "MCQ",
+      "options": [
+        "BREAK BREAK",
+        "I SAY AGAIN",
+        "BREAK",
+        "UMM"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": "IFR-30",
+      "question_text": "The term \"RECLEARED\" means that:",
+      "question_type": "MCQ",
+      "options": [
+        "your last clearance is confirmed",
+        "your last clearance has been cancelled",
+        "you may proceed as you please",
+        "a change has been made to your last clearance and this new clearance supersedes your previous clearance"
+      ],
+      "answer": "D"
+    }
+  ]
+}
+
