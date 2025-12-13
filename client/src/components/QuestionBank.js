@@ -562,7 +562,7 @@ const airNavigationOxfordBooks = [
       { id: 16, name: "Area Navigation Systems (RNAV)", questions: 15, difficulty: "Medium" },
       { id: 17, name: "Electronic Flight Information System (EFIS)", questions: 9, difficulty: "Medium" },
       { id: 18, name: "Global Navigation Satellite System (GNSS)", questions: 26, difficulty: "Medium" },
-      { id: 19, name: "Communications", questions: 60, difficulty: "Medium" }
+      { id: 19, name: "Revision Questions", questions: 322, difficulty: "Medium" }
     ]
   }
 ];
