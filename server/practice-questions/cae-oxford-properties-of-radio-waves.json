@@ -8,288 +8,195 @@
       "question": "Frequency: 198 kHz. Calculate Wavelength and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. Wavelength: 1515 m, Frequency Band: LF",
-        "b. See solution below"
+        "a. 1515 m, LF",
+        "b. 515 m, MF",
+        "c. 15.15 m, HF",
+        "d. 151.5 m, VLF"
       ],
       "answer": "a",
-      "solution": "Wavelength: 1515 m, Frequency Band: LF",
-      "explanation": "Using the formula: wavelength = speed of light / frequency. Speed of light = 3 × 10⁸ m/s. Wavelength = (3 × 10⁸) / (198 × 10³) = 1515 m. Frequency band: LF (Low Frequency, 30-300 kHz)."
+      "explanation": "Wavelength = (3 × 10^8) / (198 × 10^3) = 1515 m. 198 kHz lies in the LF band."
     },
     {
       "id": "calc-2",
       "question": "Wavelength: 2.7 m. Calculate Frequency and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. Frequency: 111.1 MHz, Frequency Band: VHF",
-        "b. See solution below"
+        "a. 11.11 MHz, HF",
+        "b. 111.1 MHz, VHF",
+        "c. 1.11 GHz, UHF",
+        "d. 1111 MHz, SHF"
       ],
-      "answer": "a",
-      "solution": "Frequency: 111.1 MHz, Frequency Band: VHF",
-      "explanation": "Using the formula: frequency = speed of light / wavelength. Frequency = (3 × 10⁸) / 2.7 = 111.1 × 10⁶ Hz = 111.1 MHz. Frequency band: VHF (Very High Frequency, 30-300 MHz)."
+      "answer": "b",
+      "explanation": "Frequency = (3 × 10^8) / 2.7 = 111.1 MHz, which lies in VHF band."
     },
     {
       "id": "calc-3",
       "question": "Frequency: 5.025 GHz. Calculate Wavelength and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. Wavelength: 5.97 cm, Frequency Band: SHF",
-        "b. See solution below"
+        "a. 59.7 cm, UHF",
+        "b. 5.97 cm, SHF",
+        "c. 0.597 cm, EHF",
+        "d. 597 cm, VHF"
       ],
-      "answer": "a",
-      "solution": "Wavelength: 5.97 cm, Frequency Band: SHF",
-      "explanation": "Using the formula: wavelength = speed of light / frequency. Wavelength = (3 × 10⁸) / (5.025 × 10⁹) = 0.0597 m = 5.97 cm. Frequency band: SHF (Super High Frequency, 3-30 GHz)."
+      "answer": "b",
+      "explanation": "Wavelength = (3 × 10^8) / (5.025 × 10^9) = 5.97 cm. 5.025 GHz lies in SHF."
     },
     {
       "id": "calc-4",
       "question": "Wavelength: 137.5 m. Calculate Frequency and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. Frequency: 2181.8 kHz, Frequency Band: MF",
-        "b. See solution below"
+        "a. 2181.8 kHz, MF",
+        "b. 218.1 kHz, LF",
+        "c. 21.81 MHz, HF",
+        "d. 2.18 GHz, SHF"
       ],
       "answer": "a",
-      "solution": "Frequency: 2181.8 kHz, Frequency Band: MF",
-      "explanation": "Using the formula: frequency = speed of light / wavelength. Frequency = (3 × 10⁸) / 137.5 = 2.1818 × 10⁶ Hz = 2181.8 kHz. Frequency band: MF (Medium Frequency, 300-3000 kHz)."
+      "explanation": "Frequency = (3 × 10^8) / 137.5 = 2.1818 MHz = 2181.8 kHz, MF band."
     },
     {
       "id": "calc-5",
       "question": "Frequency: 137.5 MHz. Calculate Wavelength and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. Wavelength: 2.18 m, Frequency Band: VHF",
-        "b. See solution below"
+        "a. 21.8 m, HF",
+        "b. 2.18 m, VHF",
+        "c. 21.8 cm, UHF",
+        "d. 0.218 m, SHF"
       ],
-      "answer": "a",
-      "solution": "Wavelength: 2.18 m, Frequency Band: VHF",
-      "explanation": "Using the formula: wavelength = speed of light / frequency. Wavelength = (3 × 10⁸) / (137.5 × 10⁶) = 2.18 m. Frequency band: VHF (Very High Frequency, 30-300 MHz)."
+      "answer": "b",
+      "explanation": "Wavelength = (3 × 10^8) / (137.5 × 10^6) = 2.18 m. VHF band."
     },
     {
       "id": "calc-6",
       "question": "Wavelength: 3 km. Calculate Frequency and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. Frequency: 100 kHz, Frequency Band: LF",
-        "b. See solution below"
+        "a. 1 MHz, MF",
+        "b. 100 kHz, LF",
+        "c. 10 kHz, VLF",
+        "d. 300 kHz, MF"
       ],
-      "answer": "a",
-      "solution": "Frequency: 100 kHz, Frequency Band: LF",
-      "explanation": "Using the formula: frequency = speed of light / wavelength. Frequency = (3 × 10⁸) / (3 × 10³) = 100 × 10³ Hz = 100 kHz. Frequency band: LF (Low Frequency, 30-300 kHz)."
+      "answer": "b",
+      "explanation": "Frequency = (3 × 10^8) / (3 × 10^3) = 100 kHz, LF band."
     },
     {
       "id": "calc-7",
       "question": "Frequency: 329 MHz. Calculate Wavelength and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. Wavelength: 91.2 cm, Frequency Band: UHF",
-        "b. See solution below"
+        "a. 9.12 cm, SHF",
+        "b. 91.2 cm, UHF",
+        "c. 9.12 m, VHF",
+        "d. 0.912 cm, EHF"
       ],
-      "answer": "a",
-      "solution": "Wavelength: 91.2 cm, Frequency Band: UHF",
-      "explanation": "Using the formula: wavelength = speed of light / frequency. Wavelength = (3 × 10⁸) / (329 × 10⁶) = 0.912 m = 91.2 cm. Frequency band: UHF (Ultra High Frequency, 300-3000 MHz)."
+      "answer": "b",
+      "explanation": "Wavelength = (3 × 10^8) / (329 × 10^6) = 0.912 m = 91.2 cm. UHF band."
     },
     {
       "id": "calc-8",
       "question": "Wavelength: 29 cm. Calculate Frequency and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. Frequency: 1034 MHz, Frequency Band: UHF",
-        "b. See solution below"
+        "a. 103.4 MHz, VHF",
+        "b. 1034 MHz, UHF",
+        "c. 10.34 GHz, SHF",
+        "d. 1.034 MHz, HF"
       ],
-      "answer": "a",
-      "solution": "Frequency: 1034 MHz, Frequency Band: UHF",
-      "explanation": "Using the formula: frequency = speed of light / wavelength. Frequency = (3 × 10⁸) / 0.29 = 1.034 × 10⁹ Hz = 1034 MHz. Frequency band: UHF (Ultra High Frequency, 300-3000 MHz)."
+      "answer": "b",
+      "explanation": "Frequency = (3 × 10^8) / 0.29 = 1034 MHz, UHF band."
     },
     {
       "id": "calc-9",
       "question": "Frequency: 500 kHz. Calculate Wavelength and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. Wavelength: 600 m, Frequency Band: MF",
-        "b. See solution below"
+        "a. 600 m, MF",
+        "b. 60 m, HF",
+        "c. 6 km, LF",
+        "d. 6000 m, VLF"
       ],
       "answer": "a",
-      "solution": "Wavelength: 600 m, Frequency Band: MF",
-      "explanation": "Using the formula: wavelength = speed of light / frequency. Wavelength = (3 × 10⁸) / (500 × 10³) = 600 m. Frequency band: MF (Medium Frequency, 300-3000 kHz)."
+      "explanation": "Wavelength = (3 × 10^8) / (500 × 10^3) = 600 m. MF band."
     },
     {
       "id": "calc-10",
       "question": "Wavelength: 5 cm. Calculate Frequency and Frequency Band.",
       "question_type": "Calculation",
       "options": [
-        "a. Frequency: 6 GHz, Frequency Band: SHF",
-        "b. See solution below"
+        "a. 600 MHz, UHF",
+        "b. 6 GHz, SHF",
+        "c. 60 GHz, EHF",
+        "d. 6 MHz, HF"
       ],
-      "answer": "a",
-      "solution": "Frequency: 6 GHz, Frequency Band: SHF",
-      "explanation": "Using the formula: frequency = speed of light / wavelength. Frequency = (3 × 10⁸) / 0.05 = 6 × 10⁹ Hz = 6 GHz. Frequency band: SHF (Super High Frequency, 3-30 GHz)."
+      "answer": "b",
+      "explanation": "Frequency = (3 × 10^8) / 0.05 = 6 GHz. SHF band."
     },
     {
-      "id": "mcq-1",
-      "question": "A radio wave is:",
+      "id": "mcq-13",
+      "question": "Radio waves travel fastest in:",
       "question_type": "MCQ",
       "options": [
-        "a. an energy wave comprising an electrical field in the same plane as a magnetic field",
-        "b. an electrical field alternating with a magnetic field",
-        "c. an energy wave where there is an electrical field perpendicular to a magnetic field",
-        "d. an energy field with an electrical component"
+        "a. Water",
+        "b. Air",
+        "c. Vacuum",
+        "d. Ionosphere"
       ],
       "answer": "c",
-      "solution": "C",
-      "explanation": "A radio wave is an electromagnetic wave consisting of an electrical field and a magnetic field that are perpendicular to each other and to the direction of propagation."
+      "explanation": "Radio waves travel at the speed of light in a vacuum."
     },
     {
-      "id": "mcq-2",
-      "question": "The speed of radio waves is:",
+      "id": "mcq-14",
+      "question": "If frequency increases, wavelength:",
       "question_type": "MCQ",
       "options": [
-        "a. 300 km per second",
-        "b. 300 million metres per second",
-        "c. 162 NM per second",
-        "d. 162 million NM per second"
+        "a. Increases",
+        "b. Decreases",
+        "c. Remains constant",
+        "d. Becomes zero"
       ],
       "answer": "b",
-      "solution": "b",
-      "explanation": "The speed of radio waves (electromagnetic waves) in a vacuum is approximately 300 million metres per second (3 × 10⁸ m/s), which is the speed of light."
+      "explanation": "Frequency and wavelength are inversely proportional."
     },
     {
-      "id": "mcq-3",
-      "question": "The plane of polarization of an electromagnetic wave is:",
+      "id": "mcq-15",
+      "question": "Which frequency band is mainly used for long-range communication due to ground wave propagation?",
       "question_type": "MCQ",
       "options": [
-        "a. the plane of the magnetic field",
-        "b. the plane of the electrical field",
-        "c. the plane of the electrical or magnetic field dependent on the plane of the aerial",
-        "d. none of the above"
-      ],
-      "answer": "b",
-      "solution": "b",
-      "explanation": "The plane of polarization of an electromagnetic wave is defined as the plane containing the electric field vector and the direction of propagation."
-    },
-    {
-      "id": "mcq-4",
-      "question": "If the wavelength of a radio wave is 3.75 metres, the frequency is:",
-      "question_type": "MCQ",
-      "options": [
-        "a. 80 kHz",
-        "b. 8 MHz",
-        "c. 80 MHz",
-        "d. 800 kHz"
-      ],
-      "answer": "c",
-      "solution": "C",
-      "explanation": "Using the formula: frequency = speed of light / wavelength. Frequency = (3 × 10⁸) / 3.75 = 80 × 10⁶ Hz = 80 MHz."
-    },
-    {
-      "id": "mcq-5",
-      "question": "The wavelength corresponding to a frequency of 125 MHz is:",
-      "question_type": "MCQ",
-      "options": [
-        "a. 2.4 m",
-        "b. 24 m",
-        "c. 24 cm",
-        "d. 24 mm"
-      ],
-      "answer": "a",
-      "solution": "a",
-      "explanation": "Using the formula: wavelength = speed of light / frequency. Wavelength = (3 × 10⁸) / (125 × 10⁶) = 2.4 m."
-    },
-    {
-      "id": "mcq-6",
-      "question": "The frequency which corresponds to a wavelength of 6.98 cm is:",
-      "question_type": "MCQ",
-      "options": [
-        "a. 4298 GHz",
-        "b. 4.298 GHz",
-        "c. 429.8 GHz",
-        "d. 42.98 GHz"
-      ],
-      "answer": "b",
-      "solution": "b",
-      "explanation": "Using the formula: frequency = speed of light / wavelength. Frequency = (3 × 10⁸) / 0.0698 = 4.298 × 10⁹ Hz = 4.298 GHz."
-    },
-    {
-      "id": "mcq-7",
-      "question": "The frequency band containing the frequency corresponding to 29.1 cm is:",
-      "question_type": "MCQ",
-      "options": [
-        "a. HF",
-        "b. VHF",
-        "c. SHF",
-        "d. UHF"
+        "a. VHF",
+        "b. UHF",
+        "c. HF",
+        "d. LF"
       ],
       "answer": "d",
-      "solution": "d",
-      "explanation": "Using the formula: frequency = speed of light / wavelength. Frequency = (3 × 10⁸) / 0.291 ≈ 1031 MHz, which falls in the UHF (Ultra High Frequency) band (300-3000 MHz)."
+      "explanation": "LF waves propagate efficiently as ground waves over long distances."
     },
     {
-      "id": "mcq-8",
-      "question": "To carry out a phase comparison between two electromagnetic waves:",
+      "id": "mcq-16",
+      "question": "Polarization of a radio wave is determined by:",
       "question_type": "MCQ",
       "options": [
-        "a. both waves must have the same amplitude",
-        "b. both waves must have the same frequency",
-        "c. both waves must have the same amplitude and frequency",
-        "d. both waves must have the same phase"
+        "a. Magnetic field direction",
+        "b. Electric field direction",
+        "c. Direction of travel",
+        "d. Frequency"
       ],
       "answer": "b",
-      "solution": "b",
-      "explanation": "Phase comparison requires both waves to have the same frequency. Different frequencies would result in a continuously changing phase difference, making comparison meaningless."
+      "explanation": "Polarization is defined by the orientation of the electric field."
     },
     {
-      "id": "mcq-9",
-      "question": "The phase of the reference wave is 110° as the phase of the variable wave is 315°. What is the phase difference?",
+      "id": "mcq-17",
+      "question": "Phase difference between two waves is measured in:",
       "question_type": "MCQ",
       "options": [
-        "a. 205°",
-        "b. 025°",
-        "c. 155°",
-        "d. 335°"
+        "a. Hertz",
+        "b. Metres",
+        "c. Degrees",
+        "d. Seconds"
       ],
       "answer": "c",
-      "solution": "C",
-      "explanation": "Phase difference = |315° - 110°| = 205°. However, the smaller angle between them is 360° - 205° = 155° (or going the other direction: 110° - 315° + 360° = 155°)."
-    },
-    {
-      "id": "mcq-10",
-      "question": "Determine the approximate phase difference between the reference wave and the variable wave: (The reference wave is the solid line and the variable wave is the dashed line)",
-      "question_type": "MCQ",
-      "options": [
-        "a. 045°",
-        "b. 135°",
-        "c. 225°",
-        "d. 315°"
-      ],
-      "answer": "c",
-      "solution": "C",
-      "explanation": "This question requires visual analysis of waveforms. The phase difference is determined by comparing the positions of corresponding points (peaks, troughs, zero crossings) on the two waves."
-    },
-    {
-      "id": "mcq-11",
-      "question": "The wavelength corresponding to a frequency of 15625 MHz is:",
-      "question_type": "MCQ",
-      "options": [
-        "a. 1.92 m",
-        "b. 19.2 m",
-        "c. 1.92 cm",
-        "d. 19.2 cm"
-      ],
-      "answer": "c",
-      "solution": "C",
-      "explanation": "Using the formula: wavelength = speed of light / frequency. Wavelength = (3 × 10⁸) / (15625 × 10⁶) = 0.0192 m = 1.92 cm."
-    },
-    {
-      "id": "mcq-12",
-      "question": "Which frequency band is a wavelength of 1200 m?",
-      "question_type": "MCQ",
-      "options": [
-        "a. UHF",
-        "b. LF",
-        "c. HF",
-        "d. MF"
-      ],
-      "answer": "b",
-      "solution": "b",
-      "explanation": "Using the formula: frequency = speed of light / wavelength. Frequency = (3 × 10⁸) / 1200 = 250 × 10³ Hz = 250 kHz, which falls in the LF (Low Frequency) band (30-300 kHz)."
+      "explanation": "Phase difference is an angular measurement expressed in degrees."
     }
   ]
 }
