@@ -5,7 +5,7 @@
   "questions": [
     {
       "question_number": 1,
-      "question_text": "The Piper Archer III DX is equipped with an Engine Manufactured by:",
+      "question_text": "The Piper Archer III DX is equipped with an Engine Manufactured by which:",
       "question_type": "MCQ",
       "options": [
         "Textron Lycoming Engines",
@@ -37,7 +37,7 @@
         "McCauley Accessory Division",
         "MTV Propellers"
       ],
-      "solution": "MT Propeller Entwicklung GmbH"
+      "solution": "MTV Propellers"
     },
     {
       "question_number": 4,
