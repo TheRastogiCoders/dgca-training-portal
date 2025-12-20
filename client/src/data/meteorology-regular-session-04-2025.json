@@ -1,0 +1,343 @@
+{
+  "book_name": "DGCA Regular Session 04 – 2025",
+  "chapter_number": "04",
+  "chapter_title": "Meteorology – Memory Based MCQs - 16 December 2025",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "Relative Humidity is defined as:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Vapour pressure at sea level",
+        "B. Amount of water vapour present in air",
+        "C. Ratio of actual vapour pressure to saturation vapour pressure at the same temperature",
+        "D. Maximum moisture air can hold"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 2,
+      "question_text": "Which front generally moves the fastest?",
+      "question_type": "MCQ",
+      "options": [
+        "A. Cold front",
+        "B. Warm front",
+        "C. Occluded front",
+        "D. Stationary front"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 3,
+      "question_text": "During the pre-monsoon period, visibility of around 10 km from Delhi to Kolkata is mainly due to:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Fog",
+        "B. Mist",
+        "C. Drizzle",
+        "D. Haze / Dust"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": 4,
+      "question_text": "METAR and TAF are:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Both actual observations",
+        "B. METAR – actual weather, TAF – forecast",
+        "C. METAR – forecast, TAF – actual",
+        "D. Both forecasts"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Showery precipitation is associated with:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Cumulonimbus",
+        "B. Nimbostratus",
+        "C. Altostratus",
+        "D. Stratus"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 6,
+      "question_text": "Summer precipitation from Altostratus (As) and Cirrostratus (Cs) clouds is generally:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Showers",
+        "B. Hail",
+        "C. Drizzle / light rain",
+        "D. Heavy rain"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 7,
+      "question_text": "Which cloud forms on the windward side of a mountain?",
+      "question_type": "MCQ",
+      "options": [
+        "A. Cirrus",
+        "B. Stratiform clouds",
+        "C. Cumulus",
+        "D. Cumulonimbus"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 8,
+      "question_text": "Unstable air, high moisture content, and a warm surface will lead to the formation of:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Mist",
+        "B. Fog",
+        "C. Haze",
+        "D. Thunderstorm"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": 9,
+      "question_text": "Strong updraft with stratiform clouds is found in:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Nimbostratus",
+        "B. Cirrostratus",
+        "C. Stratus",
+        "D. Altostratus"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 10,
+      "question_text": "Strong updraft with cumuliform clouds indicates:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Stratus",
+        "B. Cumulonimbus",
+        "C. Altostratus",
+        "D. Cirrus"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 11,
+      "question_text": "Reduced surface visibility over a wide area for a long duration is due to:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Fog",
+        "B. Mist",
+        "C. Haze",
+        "D. Smoke"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 12,
+      "question_text": "An aerodrome warning is issued when surface wind exceeds:",
+      "question_type": "MCQ",
+      "options": [
+        "A. 20 kt",
+        "B. 25 kt",
+        "C. 40 kt",
+        "D. 30 kt"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": 13,
+      "question_text": "A polar warm front originates when:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Tropical air advances",
+        "B. Polar air advances",
+        "C. Equatorial air advances",
+        "D. Arctic air retreats"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 14,
+      "question_text": "During the post-monsoon season, the pressure gradient over India is generally:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Steep",
+        "B. Very steep",
+        "C. Weak",
+        "D. Irregular"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 15,
+      "question_text": "Which condition indicates stable air?",
+      "question_type": "MCQ",
+      "options": [
+        "A. Super-adiabatic lapse rate",
+        "B. Temperature inversion",
+        "C. Dry adiabatic lapse rate",
+        "D. Steep lapse rate"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 16,
+      "question_text": "If OAT is −35°C at FL200, ISA deviation is:",
+      "question_type": "MCQ",
+      "options": [
+        "A. −15°C",
+        "B. +5°C",
+        "C. −20°C",
+        "D. −10°C"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": 17,
+      "question_text": "Severe icing is most likely between:",
+      "question_type": "MCQ",
+      "options": [
+        "A. 0°C to −5°C",
+        "B. −5°C to −10°C",
+        "C. −10°C to −20°C",
+        "D. Below −40°C"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 18,
+      "question_text": "Nor'westers are common over:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Punjab & Haryana",
+        "B. Bengal, Bihar, Odisha",
+        "C. Rajasthan",
+        "D. Western Ghats"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 19,
+      "question_text": "Hail is found in:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Nimbostratus",
+        "B. Altostratus",
+        "C. Cumulonimbus",
+        "D. Stratus"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 20,
+      "question_text": "Mist is reported when visibility is:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Less than 1000 m",
+        "B. More than 10 km",
+        "C. More than 5000 m",
+        "D. 1000 m to less than 5000 m"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": 21,
+      "question_text": "The most dangerous part of a tropical cyclone is:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Eye wall",
+        "B. Eye",
+        "C. Rain bands",
+        "D. Outer clouds"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 22,
+      "question_text": "Average Environmental Lapse Rate (ELR) is:",
+      "question_type": "MCQ",
+      "options": [
+        "A. 1.5°C per 1000 ft",
+        "B. 2.5°C per 1000 ft",
+        "C. 2.0°C per 1000 ft",
+        "D. 3.0°C per 1000 ft"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 23,
+      "question_text": "Diameter of a microburst is:",
+      "question_type": "MCQ",
+      "options": [
+        "A. 10–20 km",
+        "B. Less than 4 km",
+        "C. 5–10 km",
+        "D. More than 20 km"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 24,
+      "question_text": "In the Northern Hemisphere, winds around a low-pressure system blow:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Clockwise",
+        "B. Parallel to isobars",
+        "C. Directly from high to low pressure",
+        "D. Anti-clockwise"
+      ],
+      "answer": "D"
+    },
+    {
+      "question_number": 25,
+      "question_text": "Upper wind is 240/05 kt and lower wind is 060/10 kt. Thermal wind is:",
+      "question_type": "MCQ",
+      "options": [
+        "A. 240/15 kt",
+        "B. 240/05 kt",
+        "C. 060/15 kt",
+        "D. 240/10 kt"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_number": 26,
+      "question_text": "Opaque rime icing is:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Smooth and transparent",
+        "B. Heavy and clear",
+        "C. Light and porous",
+        "D. Hard and glossy"
+      ],
+      "answer": "C"
+    },
+    {
+      "question_number": 27,
+      "question_text": "Standard ISA conditions at sea level are:",
+      "question_type": "MCQ",
+      "options": [
+        "A. 0°C and 1000 hPa",
+        "B. 15°C and 1013.25 hPa",
+        "C. 20°C and 1010 hPa",
+        "D. 25°C and 1015 hPa"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_number": 28,
+      "question_text": "The most severe activity of a single-cell cumulonimbus occurs during:",
+      "question_type": "MCQ",
+      "options": [
+        "A. Cumulus stage",
+        "B. Dissipating stage",
+        "C. Formation stage",
+        "D. Mature stage"
+      ],
+      "answer": "D"
+    }
+  ]
+}

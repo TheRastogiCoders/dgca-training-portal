@@ -18,6 +18,7 @@ import regularMarch2024Data from '../data/meteorology-regular-march-2024.json';
 import regularDecemberAttemptData from '../data/meteorology-regular-december-attempt.json';
 import regularSep2023Data from '../data/meteorology-regular-sep-2023.json';
 import regularJuneSessionData from '../data/meteorology-regular-june-session.json';
+import regularSession042025Data from '../data/meteorology-regular-session-04-2025.json';
 import airNavRegularMarch2025Data from '../data/air-navigation-regular-march-2025.json';
 import airNavRegularJuneExamData from '../data/air-navigation-regular-june-exam.json';
 import airNavOlodeSession1Jan2025Data from '../data/air-navigation-olode-session1-jan-2025.json';
@@ -29,6 +30,7 @@ import techGenRegularDecember2024Data from '../data/technical-general-regular-de
 import techGenRegularJune2025Session2Data from '../data/technical-general-regular-june-2025-session2.json';
 import techGenRegularMarch2024Data from '../data/technical-general-regular-march-2024.json';
 import techGenRegularMarch2025Data from '../data/technical-general-regular-march-2025.json';
+import radioTelephonyRegular012025Data from '../data/radio-telephony/regular-session-01-2025.json';
 
 // Helper function to get actual question count from session data
 const getQuestionCount = (sessionSlug) => {
@@ -47,6 +49,7 @@ const getQuestionCount = (sessionSlug) => {
     'regular-december-attempt': regularDecemberAttemptData,
     'regular-sep-2023': regularSep2023Data,
     'regular-june-session': regularJuneSessionData,
+    'regular-session-04-2025': regularSession042025Data,
     'nav-regular-march-2025': airNavRegularMarch2025Data,
     'nav-regular-june-exam': airNavRegularJuneExamData,
     'nav-olode-session1-jan-2025': airNavOlodeSession1Jan2025Data,
@@ -58,6 +61,7 @@ const getQuestionCount = (sessionSlug) => {
     'gen-olode-may-2025': techGenOlodeMay2025Data,
     'gen-olode-jan-2025-session1': techGenOlodeJan2025Session1Data,
     'gen-regular-june-2025-session2': techGenRegularJune2025Session2Data,
+    'regular-session-01-2025': radioTelephonyRegular012025Data,
   };
 
   const data = sessionDataMap[sessionSlug];
@@ -105,17 +109,17 @@ const subjectData = {
     topics: ['Aircraft Engines', 'Electrical Systems', 'Hydraulic Systems', 'Aerodynamics', 'Aircraft Structures']
   },
   'technical-specific': {
-    name: 'Technical Specific',
-    icon: '✈️',
-    color: 'from-purple-500 to-purple-600',
-    description: 'Aircraft Type Specific Knowledge',
-    topics: ['Cessna 172 Systems', 'Piper Cherokee', 'Multi-Engine Aircraft', 'Turboprop Systems', 'Jet Aircraft']
+    name: 'Technical (Specific)',
+    icon: '🔧',
+    color: 'from-purple-500 to-indigo-600',
+    description: 'Aircraft-specific technical knowledge',
+    topics: ['Airframe', 'Powerplant', 'Electrical', 'Avionics', 'Flight Controls']
   },
   'radio-telephony': {
     name: 'Radio Telephony (RTR)-A',
-    icon: '🎧',
-    color: 'from-cyan-500 to-cyan-600',
-    description: 'Radio Communication Procedures',
+    icon: '📻',
+    color: 'from-teal-500 to-cyan-600',
+    description: 'Standard radio communication procedures and phraseology',
     topics: ['Standard Phraseology', 'ATC Communications', 'Emergency Procedures', 'Radio Equipment', 'International Procedures']
   }
 };
@@ -131,7 +135,8 @@ const availableSessions = {
     'regular-march-2024',
     'regular-december-attempt',
     'regular-sep-2023',
-    'regular-june-session'
+    'regular-june-session',
+    'regular-session-04-2025'
   ],
   // Air Regulations slugs must exactly match sessionQuestionSets keys in AIPracticeRunner
   'air-regulations': [
@@ -156,6 +161,9 @@ const availableSessions = {
     'gen-olode-may-2025',
     'gen-olode-jan-2025-session1',
     'gen-regular-june-2025-session2'
+  ],
+  'radio-telephony': [
+    'regular-session-01-2025'
   ]
 };
 
@@ -168,7 +176,8 @@ const subjectSessions = {
     { slug: 'regular-march-2024', title: 'MARCH 2024 REGULAR', window: 'Regular Series', badge: 'Archive', questionCount: getQuestionCount('regular-march-2024'), accent: 'from-[#00b4d8] to-[#0077b6]' },
     { slug: 'regular-december-attempt', title: 'DEC 2024 REGULAR', window: 'Regular Series', badge: 'Archive', questionCount: getQuestionCount('regular-december-attempt'), accent: 'from-[#8e2de2] to-[#4a00e0]' },
     { slug: 'regular-sep-2023', title: 'SEP 2023 REGULAR', window: 'Regular Series', badge: 'Archive', questionCount: getQuestionCount('regular-sep-2023'), accent: 'from-[#f5af19] to-[#f12711]' },
-    { slug: 'regular-june-session', title: 'JUNE 2024 REGULAR', window: 'Regular Series', badge: 'Archive', questionCount: getQuestionCount('regular-june-session'), accent: 'from-[#396afc] to-[#2948ff]' }
+    { slug: 'regular-june-session', title: 'JUNE 2024 REGULAR', window: 'Regular Series', badge: 'Archive', questionCount: getQuestionCount('regular-june-session'), accent: 'from-[#396afc] to-[#2948ff]' },
+    { slug: 'regular-session-04-2025', title: 'REGULAR SESSION 04 – 2025', window: 'Regular Series', badge: 'Latest', questionCount: getQuestionCount('regular-session-04-2025'), accent: 'from-[#667eea] to-[#764ba2]' }
   ],
   'air-regulations': [
     { slug: 'olode-session-2-2025-reg', title: 'Regulations olode session 2 2025', window: 'Olode Paper', badge: 'Available', questionCount: getQuestionCount('olode-session-2-2025-reg'), accent: 'from-[#6a11cb] to-[#2575fc]' },
@@ -277,6 +286,17 @@ const subjectSessions = {
       badge: 'Available', 
       questionCount: getQuestionCount('gen-regular-june-2025-session2'), 
       accent: 'from-[#8e2de2] to-[#4a00e0]',
+      disabled: false
+    }
+  ],
+  'radio-telephony': [
+    {
+      slug: 'regular-session-01-2025',
+      title: 'REGULAR session 01 2025',
+      window: 'Regular Series',
+      badge: 'Latest',
+      questionCount: getQuestionCount('regular-session-01-2025'),
+      accent: 'from-teal-500 to-cyan-600',
       disabled: false
     }
   ]
@@ -396,7 +416,7 @@ const AIPracticeBooks = () => {
               <h1 className="text-3xl sm:text-4xl font-bold text-white drop-shadow">
                 {subject.name} Session List
               </h1>
-              <p className="text-white/80 text-sm sm:text-base max-w-3xl">
+              <p className="text-gray-500 text-sm sm:text-base max-w-3xl">
                 {subject.description}. Pick one of the curated DGCA windows below and jump straight into its PYQ mix.
               </p>
             </div>

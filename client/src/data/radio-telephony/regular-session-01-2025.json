@@ -1,0 +1,558 @@
+{
+  "id": "regular-session-01-2025",
+  "title": "DGCA RTR - REGULAR session 01 2025 - 16th Dec, 2025",
+  "subject": "Radio Telephony",
+  "sessionType": "Regular",
+  "year": 2025,
+  "month": "December",
+  "questions": [
+    {
+      "id": "rtr-2025-001",
+      "question": "Which wave is used for high range communication wrt distance:",
+      "options": [
+        "long wave",
+        "short wave",
+        "medium wave"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Short waves are used for high range communication with respect to distance due to their ability to reflect off the ionosphere.",
+      "reference": "Radio Telephony Manual"
+    },
+    {
+      "id": "rtr-2025-002",
+      "question": "ATC clearance taken prior to entering controlled airspace",
+      "options": [
+        "7 min",
+        "10 min",
+        "15 min"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ATC clearance should be obtained at least 10 minutes prior to entering controlled airspace.",
+      "reference": "ICAO Annex 11"
+    },
+    {
+      "id": "rtr-2025-003",
+      "question": "Legs of a visual circuit",
+      "options": [
+        "crosswind,downwind,base,finals",
+        "downwind, crosswind, finals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The standard visual circuit consists of crosswind, downwind, base, and finals legs.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-004",
+      "question": "Reporting points in a visual circuit",
+      "options": [
+        "downwind,crosswind,finals, long finals",
+        "downwind,base,finals,long finals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Standard reporting points in a visual circuit are downwind, base, finals, and long finals.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-005",
+      "question": "Holding procedure not given information mandatory:",
+      "options": [
+        "fix I/B L/R track time of leg",
+        "fix inbound track altitude right left track time"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When holding procedure information is not given, the mandatory information includes fix, inbound/outbound, left/right turns, track, and time of leg.",
+      "reference": "ICAO Doc 8168"
+    },
+    {
+      "id": "rtr-2025-006",
+      "question": "Mandatory information in startup and push back:",
+      "options": [
+        "operation of a/c , location",
+        "location and ATIS",
+        "no. of engines"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mandatory information for startup and push back includes location and ATIS (Automatic Terminal Information Service).",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-007",
+      "question": "Mark the correct option",
+      "options": [
+        "Critical angle increases with inc in frequency",
+        "Skip distance is related to ground wave",
+        "Dead space is…"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The critical angle increases with an increase in frequency, which affects radio wave propagation.",
+      "reference": "Radio Telephony Manual"
+    },
+    {
+      "id": "rtr-2025-008",
+      "question": "TIBA: aircraft will not acknowledge the transmission until",
+      "options": [
+        "if the traffic is perceived",
+        "if the aircraft is visible",
+        "if the a/c is far away"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In TIBA (Traffic Information Broadcast by Aircraft), the aircraft will not acknowledge the transmission until the traffic is perceived.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-009",
+      "question": "TIBA full form",
+      "options": [
+        "Traffic info for a/c",
+        "Traffic info by a/c",
+        "Traffic info"
+      ],
+      "correctAnswer": 1,
+      "explanation": "TIBA stands for Traffic Information Broadcast by Aircraft.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-010",
+      "question": "Proceed pronunciation",
+      "options": [
+        "Prooced",
+        "Pro-seed",
+        "Proeed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct pronunciation of 'proceed' in radiotelephony is 'Pro-seed'.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-011",
+      "question": "Permission for the proposed action granted:",
+      "options": [
+        "Approved",
+        "Affirm",
+        "Cleared"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Approved' is used to grant permission for a proposed action.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-012",
+      "question": "Set the code as instructed:",
+      "options": [
+        "squawk ident",
+        "squawk code",
+        "squawk Charlie"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The standard phraseology for setting a transponder code is 'squawk code'.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-013",
+      "question": "Urgency situation",
+      "options": [
+        "threat or grave danger requiring immediate assistance",
+        "a person, an aircraft within sight requiring immediate assistance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An urgency situation involves a person or aircraft within sight requiring immediate assistance.",
+      "reference": "ICAO Annex 10"
+    },
+    {
+      "id": "rtr-2025-014",
+      "question": "Urgency transmission",
+      "options": [
+        "MAYDAY",
+        "PAN-PAN"
+      ],
+      "correctAnswer": 1,
+      "explanation": "PAN-PAN is used for urgency transmissions, while MAYDAY is used for distress situations.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-015",
+      "question": "Emergency frequency",
+      "options": [
+        "123.1",
+        "121.5",
+        "123.45"
+      ],
+      "correctAnswer": 1,
+      "explanation": "121.5 MHz is the international emergency frequency for aircraft in distress.",
+      "reference": "ICAO Annex 10"
+    },
+    {
+      "id": "rtr-2025-016",
+      "question": "Interpilot frequency",
+      "options": [
+        "123.1",
+        "123.45",
+        "121.5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "123.45 MHz is the standard interpilot frequency used for air-to-air communications.",
+      "reference": "ICAO Annex 10"
+    },
+    {
+      "id": "rtr-2025-017",
+      "question": "'I have received your last transmission' standard word:",
+      "options": [
+        "Wilco",
+        "Roger",
+        "Affirm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Roger' means 'I have received your last transmission'.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-018",
+      "question": "Non rvsm approval status (ON RT):",
+      "options": [
+        "Non rvsm",
+        "Negative rvsm",
+        "Unable rvsm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The standard phraseology for non-RVSM approval status on radiotelephony is 'Negative rvsm'.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-019",
+      "question": "CNS managed by",
+      "options": [
+        "BCAS",
+        "AAI",
+        "IMD"
+      ],
+      "correctAnswer": 1,
+      "explanation": "CNS (Communication, Navigation, Surveillance) is managed by AAI (Airports Authority of India).",
+      "reference": "DGCA Regulations"
+    },
+    {
+      "id": "rtr-2025-020",
+      "question": "Information not related to meteorological report:",
+      "options": [
+        "ILS",
+        "SIGMET",
+        "METAR"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ILS (Instrument Landing System) is a navigation aid and is not related to meteorological reports. SIGMET and METAR are meteorological information.",
+      "reference": "ICAO Annex 3"
+    },
+    {
+      "id": "rtr-2025-021",
+      "question": "Power of wave can be varied by:",
+      "options": [
+        "or both",
+        "vibration of gas molecules",
+        "reflection & absorption in the atmosphere"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The power of a wave can be varied by vibration of gas molecules, reflection and absorption in the atmosphere, or both.",
+      "reference": "Radio Telephony Manual"
+    },
+    {
+      "id": "rtr-2025-022",
+      "question": "Uncertainty phase",
+      "options": [
+        "Alerfa",
+        "Incerfa",
+        "Detresfa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "INCERFA (Uncertainty Phase) is the first phase of emergency procedures when uncertainty exists about the safety of an aircraft.",
+      "reference": "ICAO Annex 11"
+    },
+    {
+      "id": "rtr-2025-023",
+      "question": "300 megahertz frequency what is the wavelength:",
+      "options": [
+        "10 m",
+        "1 m",
+        "100 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At 300 MHz frequency, the wavelength is 1 meter (calculated using the formula: wavelength = speed of light / frequency).",
+      "reference": "Radio Telephony Manual"
+    },
+    {
+      "id": "rtr-2025-024",
+      "question": "Why was standard phraseology implemented:",
+      "options": [
+        "to save time",
+        "to minimize ambiguity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Standard phraseology was implemented primarily to minimize ambiguity in radio communications.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-025",
+      "question": "ATC 'report passing FL80':",
+      "options": [
+        "Wilco passing Flight level eight zero",
+        "Roger passing flight level eighty",
+        "Affirm passing Flight level eighty zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct response is 'Wilco passing Flight level eight zero' - using 'Wilco' to indicate compliance and 'eight zero' as the standard pronunciation.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-026",
+      "question": "In Mumbai Aerodrome traffic controller is given by…",
+      "options": [
+        "Mumbai Tower",
+        "Mumbai Control",
+        "Mumbai Ground"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aerodrome traffic control at Mumbai is provided by Mumbai Tower.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-027",
+      "question": "ATC clearance to proceed under:",
+      "options": [
+        "the specifics given by theaerodrome traffic control clearance",
+        "the specifics given by the air traffic control clearance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ATC clearance to proceed is under the specifics given by the air traffic control clearance.",
+      "reference": "ICAO Annex 11"
+    },
+    {
+      "id": "rtr-2025-028",
+      "question": "The point where the glide slope intercepts the runway:",
+      "options": [
+        "threshold",
+        "touchdown point"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The glide slope intercepts the runway at the touchdown point.",
+      "reference": "ICAO Doc 8168"
+    },
+    {
+      "id": "rtr-2025-029",
+      "question": "If the circuit load impedance reduces, the current flow:",
+      "options": [
+        "decreases",
+        "remains the same",
+        "increases"
+      ],
+      "correctAnswer": 2,
+      "explanation": "According to Ohm's law, if the circuit load impedance reduces, the current flow increases.",
+      "reference": "Radio Telephony Manual"
+    },
+    {
+      "id": "rtr-2025-030",
+      "question": "The communication in one direction at a time:",
+      "options": [
+        "Simplex",
+        "Duplex"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Simplex communication allows transmission in one direction at a time.",
+      "reference": "Radio Telephony Manual"
+    },
+    {
+      "id": "rtr-2025-031",
+      "question": "Transmit QNH 1007:",
+      "options": [
+        "QNH one zero zero",
+        "QNH one zero zero seven",
+        "one zero zero seven"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct transmission of QNH 1007 is 'QNH one zero zero seven'.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-033",
+      "question": "DME frequency band:",
+      "options": [
+        "VHF",
+        "UHF",
+        "SHF"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DME (Distance Measuring Equipment) operates in the UHF (Ultra High Frequency) band.",
+      "reference": "ICAO Annex 10"
+    },
+    {
+      "id": "rtr-2025-034",
+      "question": "The number of cycles in a wave per second:",
+      "options": [
+        "frequency",
+        "wavelength",
+        "cyclic range"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Frequency is defined as the number of cycles in a wave per second.",
+      "reference": "Radio Telephony Manual"
+    },
+    {
+      "id": "rtr-2025-035",
+      "question": "The distance travelled by a wave in one cycle:",
+      "options": [
+        "wavelength",
+        "amplitude",
+        "frequency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wavelength is the distance travelled by a wave in one complete cycle.",
+      "reference": "Radio Telephony Manual"
+    },
+    {
+      "id": "rtr-2025-036",
+      "question": "Which is not a correct way of transmitting:",
+      "options": [
+        "pressing the transmit button after complete of txmn",
+        "listen out on the freq before txmtg",
+        "constant volume while txmn"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pressing the transmit button after completion of transmission is not correct. The button should be released after transmission.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-037",
+      "question": "Annul the previous clearance:",
+      "options": [
+        "disregard",
+        "cancel"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The standard phraseology to annul a previous clearance is 'cancel'.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-038",
+      "question": "SI unit of mass",
+      "options": [
+        "Tonne(T)",
+        "Kg",
+        "Gm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The SI (International System) unit of mass is kilogram (Kg).",
+      "reference": "Standard Units"
+    },
+    {
+      "id": "rtr-2025-039",
+      "question": "Power of the transmitter is increased four times what happens to the range:",
+      "options": [
+        "Doubled",
+        "4 times increase",
+        "Increased 1.4 times"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When transmitter power is increased four times, the range is doubled (range is proportional to the square root of power).",
+      "reference": "Radio Telephony Manual"
+    },
+    {
+      "id": "rtr-2025-040",
+      "question": "A situation of grave and imminent danger requiring immediate assistance",
+      "options": [
+        "urgency",
+        "distress",
+        "security"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Distress is a situation of grave and imminent danger requiring immediate assistance.",
+      "reference": "ICAO Annex 10"
+    },
+    {
+      "id": "rtr-2025-041",
+      "question": "What is the correct Transmission of AI200:",
+      "options": [
+        "Air India two hundred.",
+        "Air India two zero zero",
+        "Air India two hundred zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct transmission of AI200 is 'Air India two zero zero' using standard radiotelephony number pronunciation.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-042",
+      "question": "Standard phrase to check readability:",
+      "options": [
+        "How do you.",
+        "How do you read."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The standard phrase to check readability is 'How do you read'.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-043",
+      "question": "Skip distance is longer at with a frequency",
+      "options": [
+        "Day, higher.",
+        "Night, lower.",
+        "Night, higher"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Skip distance is longer at night with a higher frequency due to ionospheric conditions.",
+      "reference": "Radio Telephony Manual"
+    },
+    {
+      "id": "rtr-2025-044",
+      "question": "In Missed approach atc gives instruction:",
+      "options": [
+        "Make familiar with terrain.",
+        "To avert unsafe conditions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a missed approach, ATC gives instructions to avert unsafe conditions.",
+      "reference": "ICAO Doc 8168"
+    },
+    {
+      "id": "rtr-2025-046",
+      "question": "Frequency 118.1",
+      "options": [
+        "one one eight decimal zero.",
+        "One one eight point zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct transmission of frequency 118.1 is 'one one eight decimal zero'.",
+      "reference": "ICAO Doc 9432"
+    },
+    {
+      "id": "rtr-2025-047",
+      "question": "Priority order highest to lowest",
+      "options": [
+        "Distress, Urgency,Safety,Met",
+        "Distress, Urgency,met,regularity."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The priority order from highest to lowest is: Distress, Urgency, Safety, Met (meteorological).",
+      "reference": "ICAO Annex 10"
+    },
+    {
+      "id": "rtr-2025-048",
+      "question": "Abbreviation of FM:",
+      "options": [
+        "Amplitude modulation",
+        "Frequency modulation."
+      ],
+      "correctAnswer": 1,
+      "explanation": "FM stands for Frequency Modulation.",
+      "reference": "Radio Telephony Manual"
+    },
+    {
+      "id": "rtr-2025-049",
+      "question": "Horizontal distance speed unit",
+      "options": [
+        "Kmph.",
+        "Knots."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The standard unit for horizontal distance speed in aviation is knots.",
+      "reference": "ICAO Doc 9432"
+    }
+  ]
+}

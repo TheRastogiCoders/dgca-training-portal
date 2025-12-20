@@ -79,7 +79,7 @@ const flowTimeline = [
   { tag: '03', title: 'Solve & Review', detail: 'DGCA-style timer, rich explanations, quick export.' }
 ];
 
-const comingSoonSlugs = ['technical-specific', 'radio-telephony'];
+const comingSoonSlugs = ['technical-specific'];
 
 const AIPracticeSubject = () => {
   const { isAuthenticated } = useAuth();

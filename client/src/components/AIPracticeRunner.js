@@ -15,6 +15,7 @@ import regularMarch2025Data from '../data/meteorology-regular-march-2025-session
 import olodeMay2025Data from '../data/meteorology-olode-may-2025-session.json';
 import olodeNov2024Data from '../data/meteorology-olode-nov-2024-session.json';
 import regularJuneSessionData from '../data/meteorology-regular-june-session.json';
+import regularSession042025Data from '../data/meteorology-regular-session-04-2025.json';
 
 // Air Regulations imports
 import olodeSession22025Data from '../data/air-regulations/olode-session-2-2025.json';
@@ -37,6 +38,9 @@ import techGenRegularDecember2024Data from '../data/technical-general-regular-de
 import techGenRegularJune2025Session2Data from '../data/technical-general-regular-june-2025-session2.json';
 import techGenRegularMarch2024Data from '../data/technical-general-regular-march-2024.json';
 import techGenRegularMarch2025Data from '../data/technical-general-regular-march-2025.json';
+
+// Radio Telephony imports
+import radioTelephonyRegular012025Data from '../data/radio-telephony/regular-session-01-2025.json';
 
 const friendly = (slug) => (slug || '')
   .split('-')
@@ -221,6 +225,15 @@ const sessionQuestionSets = {
       answer: q.answer
     }))
   },
+  'regular-session-04-2025': {
+    bookName: regularSession042025Data.book_name,
+    chapterName: regularSession042025Data.chapter_title,
+    questions: regularSession042025Data.questions.map((q) => ({
+      text: q.question_text,
+      options: q.options,
+      answer: q.answer
+    }))
+  },
   'olode-may-2025': {
     bookName: olodeMay2025Data.book_name,
     chapterName: olodeMay2025Data.chapter_title,
@@ -354,56 +367,74 @@ const sessionQuestionSets = {
   // Technical General sessions
   'tech-regular-march-2025': {
     bookName: techGenRegularMarch2025Data.bookName || 'Technical General',
-    chapterName: techGenRegularMarch2025Data.chapterTitle || 'Regular March 2025',
+    chapterName: techGenRegularMarch2025Data.chapterTitle || 'March 2025',
     questions: techGenRegularMarch2025Data.questions?.map(q => ({
-      text: q.questionText,
+      text: q.questionText || q.text,
       options: q.options,
-      answer: q.answer
+      answer: q.answer || q.correctAnswer,
+      explanation: q.explanation
     })) || []
   },
   'tech-regular-december-2024': {
     bookName: techGenRegularDecember2024Data.bookName || 'Technical General',
-    chapterName: techGenRegularDecember2024Data.chapterTitle || 'Regular December 2024',
+    chapterName: techGenRegularDecember2024Data.chapterTitle || 'December 2024',
     questions: techGenRegularDecember2024Data.questions?.map(q => ({
-      text: q.questionText,
+      text: q.questionText || q.text,
       options: q.options,
-      answer: q.answer
+      answer: q.answer || q.correctAnswer,
+      explanation: q.explanation
     })) || []
   },
   'tech-general-march-2024': {
     bookName: techGenRegularMarch2024Data.bookName || 'Technical General',
     chapterName: techGenRegularMarch2024Data.chapterTitle || 'March 2024',
     questions: techGenRegularMarch2024Data.questions?.map(q => ({
-      text: q.questionText,
+      text: q.questionText || q.text,
       options: q.options,
-      answer: q.answer
+      answer: q.answer || q.correctAnswer,
+      explanation: q.explanation
     })) || []
   },
   'gen-olode-may-2025': {
     bookName: techGenOlodeMay2025Data.bookName || 'Technical General',
     chapterName: techGenOlodeMay2025Data.chapterTitle || 'OLODE May 2025',
     questions: techGenOlodeMay2025Data.questions?.map(q => ({
-      text: q.questionText,
+      text: q.questionText || q.text,
       options: q.options,
-      answer: q.answer
+      answer: q.answer || q.correctAnswer,
+      explanation: q.explanation
     })) || []
   },
   'gen-olode-jan-2025-session1': {
     bookName: techGenOlodeJan2025Session1Data.bookName || 'Technical General',
     chapterName: techGenOlodeJan2025Session1Data.chapterTitle || 'OLODE Jan 2025 Session 1',
     questions: techGenOlodeJan2025Session1Data.questions?.map(q => ({
-      text: q.questionText,
+      text: q.questionText || q.text,
       options: q.options,
-      answer: q.answer
+      answer: q.answer || q.correctAnswer,
+      explanation: q.explanation
     })) || []
   },
   'gen-regular-june-2025-session2': {
     bookName: techGenRegularJune2025Session2Data.bookName || 'Technical General',
-    chapterName: techGenRegularJune2025Session2Data.chapterTitle || 'Regular June 2025 Session 2',
+    chapterName: techGenRegularJune2025Session2Data.chapterTitle || 'June 2025 Session 2',
     questions: techGenRegularJune2025Session2Data.questions?.map(q => ({
-      text: q.questionText,
+      text: q.questionText || q.text,
       options: q.options,
-      answer: q.answer
+      answer: q.answer || q.correctAnswer,
+      explanation: q.explanation
+    })) || []
+  },
+  // Radio Telephony sessions
+  'regular-session-01-2025': {
+    bookName: radioTelephonyRegular012025Data.title || 'Radio Telephony (RTR)-A',
+    chapterName: 'REGULAR session 01 2025 - 16th Dec, 2025',
+    questions: radioTelephonyRegular012025Data.questions?.map(q => ({
+      text: q.question,
+      options: q.options,
+      answer: q.options[q.correctAnswer],
+      explanation: q.explanation,
+      reference: q.reference
     })) || []
   }
 };
