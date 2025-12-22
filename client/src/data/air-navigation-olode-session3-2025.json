@@ -1,7 +1,7 @@
 {
   "book": {
     "id": "air-navigation-olode-session3-2025",
-    "title": "NAV- OLODE SESSION3 2025",
+    "title": "NAV- OLODE SESSION 2025",
     "description": "Air Navigation OLODE Session 3 2025",
     "subject": "Air Navigation",
     "type": "olode",
@@ -10,7 +10,7 @@
     "chapters": [
       {
         "chapter_number": 1,
-        "chapter_title": "NAV- OLODE SESSION3 2025",
+        "chapter_title": "OLODE SESSION 2025",
         "questions": [
           {
             "question_number": 1,

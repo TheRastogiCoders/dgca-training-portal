@@ -386,11 +386,11 @@ router.get('/books-structure', async (req, res) => {
         { slug: 'regular-june-session', title: 'JUNE 2024 REGULAR' }
       ],
       'air-navigation': [
-        { slug: 'nav-regular-march-2025', title: 'NAV- REGULAR MARCH 2025' },
-        { slug: 'nav-regular-june-exam', title: 'NAV- REGULAR JUNE EXAM' },
-        { slug: 'nav-olode-session1-jan-2025', title: 'NAV- OLODE SESSION1 JAN 2025' },
-        { slug: 'nav-olode-session3-2025', title: 'NAV- OLODE SESSION3 2025' },
-        { slug: 'nav-regular-december-2024', title: 'NAV- REGULAR DECEMBER 2024' }
+        { slug: 'nav-regular-march-2025', title: 'REGULAR MARCH 2025' },
+        { slug: 'nav-regular-june-exam', title: 'REGULAR JUNE EXAM' },
+        { slug: 'nav-olode-session1-jan-2025', title: 'OLODE SESSION JAN 2025' },
+        { slug: 'nav-olode-session3-2025', title: 'OLODE SESSION 2025' },
+        { slug: 'nav-regular-december-2024', title: 'REGULAR DECEMBER 2024' }
       ],
       'technical-general': [
         { slug: 'tech-regular-march-2025', title: 'TECHNICAL REGULAR MARCH 2025' },
