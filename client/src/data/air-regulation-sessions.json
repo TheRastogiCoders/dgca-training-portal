@@ -2,6 +2,11 @@
   "book_name": "Air Regulation Sessions",
   "sessions": [
     {
+      "id": "reg-regular-dec-2024",
+      "title": "REG- REGULAR DEC 2024",
+      "file": "air-regulation-regular-december-2024.json"
+    },
+    {
       "id": "reg-attempt-dec-2024",
       "title": "REG- ATTEMPT DEC 2024",
       "file": "air-regulation-december-2024.json"

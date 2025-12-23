@@ -1,0 +1,246 @@
+{
+  "book_name": "AIR REGULATION - REGULAR SESSION DECEMBER 2024",
+  "chapter_title": "MCQ Printable Sheet",
+  "questions": [
+    {
+      "question_text": "When a RADAR operator says the following to an aircraft: 'fly heading 030', the pilot must fly heading:",
+      "options": [
+        "030° magnetic in still air conditions (thereby flying the magnetic track)",
+        "030° true",
+        "030° magnetic",
+        "030° true, in still air conditions (thereby flying the true track)"
+      ],
+      "solution": "030° magnetic",
+      "explanation": "When ATC gives a heading instruction, it's always in magnetic heading unless specified otherwise."
+    },
+    {
+      "question_text": "At night an aircraft observes a luminous signal requesting help. To indicate that he has received these ground signals, the pilot must:",
+      "options": [
+        "make at least one complete turn over the group of people in difficulty",
+        "transmit, by luminous Morse signal, a series of the letter 'R' using his navigational lights.",
+        "switch his landing lights on and off twice or, if he is not so equipped, his navigation lights twice.",
+        "fly over the group of people in difficulty as low as possible."
+      ],
+      "solution": "switch his landing lights on and off twice or, if he is not so equipped, his navigation lights twice.",
+      "explanation": "This is the standard visual signal to acknowledge receipt of a distress signal from the ground."
+    },
+    {
+      "question_text": "What airplane equipment marked a substantial decrease in hull loss rates in the eighties?",
+      "options": [
+        "DME",
+        "SSR",
+        "GPWS",
+        "TCAS"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ground Proximity Warning System (GPWS) significantly reduced controlled flight into terrain (CFIT) accidents."
+    },
+    {
+      "question_text": "Rods (scotopic visual cells) allow for:",
+      "options": [
+        "good, virtually instantaneous night-vision (scotopic vision)",
+        "good night-vision after adaptation to darkness (30 min)",
+        "precise vision of contours and colours",
+        "red vision, both during the day and at night"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rods are responsible for night vision but require time to adapt to darkness."
+    },
+    {
+      "question_text": "With regard to central vision, which of the following statements are correct? 1: It is due to the functioning of rods 2: It enables details, colours and movement to be seen 3: Its very active both during the day and at night 4: It represents a zone where about 150,000 cones per mm are located to give high resolution capacity",
+      "options": [
+        "1, 2, 4",
+        "2, 4",
+        "2, 3, 4",
+        "1, 3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Central vision is primarily cone-based, enabling detailed and color vision, with high cone density for resolution."
+    },
+    {
+      "question_text": "The trend in airplane hull-loss rate over the last three decades seems to be related to:",
+      "options": [
+        "the manufacturer",
+        "the crew",
+        "the number of engines",
+        "the year of manufacture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Human factors, particularly crew performance, have been a significant factor in aviation safety improvements."
+    },
+    {
+      "question_text": "The hailstones occur from",
+      "options": [
+        "both warm and cold clouds",
+        "cold clouds only",
+        "warm clouds only",
+        "NS clouds"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hail forms in cumulonimbus clouds where there are strong updrafts and temperatures are below freezing."
+    },
+    {
+      "question_text": "A flashing intermittent red light directed from the ground to an aircraft in flight indicates:",
+      "options": [
+        "Continue the circuit and make another approach",
+        "Execute a go-around and do not land",
+        "Aerodrome is unsafe, landing is prohibited",
+        "Maintain current altitude and wait for further instructions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A flashing red light from the ground indicates that the aerodrome is unsafe, and landing is prohibited."
+    },
+    {
+      "question_text": "OCH for a precision approach is defined as:",
+      "options": [
+        "The lowest height above mean sea level of the relevant runway used in establishing",
+        "The lowest altitude above the aerodrome elevation used in establishing compliance with appropriate obstacle clearance requirements",
+        "The lowest height above the elevation of the relevant runway threshold, at which a missed approach must be initiated to ensure compliance with the appropriate obstacle clearance criteria"
+      ],
+      "correctAnswer": 2,
+      "explanation": "OCH (Obstacle Clearance Height) is defined as the lowest height above the aerodrome elevation used in establishing compliance with appropriate obstacle clearance requirements."
+    },
+    {
+      "question_text": "A applicant for the licences shall have the ability to speak and understand the English language used for radiotelephony communications to the level of proficiency specified by the Director General.",
+      "options": [
+        "PPL, CPL, ATPL, FIt Navigator and Fit Engg",
+        "PPL, CPL, ATPL only",
+        "PPL only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "English language proficiency is required for PPL, CPL, ATPL, Flight Navigator, and Flight Engineer licenses."
+    },
+    {
+      "question_text": "In order to meet the wake turbulence criteria, what minimum separation should be applied when a MEDIUM aircraft is taking off behind a HEAVY aircraft and both are using the same runway?",
+      "options": [
+        "1 minute",
+        "3 minutes",
+        "2 minutes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A 2-minute separation is required for a MEDIUM aircraft taking off behind a HEAVY aircraft on the same runway."
+    },
+    {
+      "question_text": "Prisoners can be carried on board with the permission of:",
+      "options": [
+        "Police commissioner",
+        "DGCA",
+        "DM"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Director General of Civil Aviation (DGCA) is the authority that grants permission for carrying prisoners on board."
+    },
+    {
+      "question_text": "Communication Failure (RCF) In IMC:",
+      "options": [
+        "CHECK ANSWER"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This question requires additional information to provide a complete answer."
+    },
+    {
+      "question_text": "What does NOTAM(R) mean?",
+      "options": [
+        "CHECK ANSWER"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This question requires additional information to provide a complete answer."
+    },
+    {
+      "question_text": "Call out by pilot monitoring on approach-",
+      "options": [
+        "check answer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This question requires additional information to provide a complete answer."
+    },
+    {
+      "question_text": "Wake turbulence will be greatest when generated by an aeroplane which is:",
+      "options": [
+        "Heavy, landing configuration and slow speed",
+        "Heavy, clean configuration and slow speed",
+        "Light, clean configuration and high speed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wake turbulence is most significant with heavy aircraft in clean configuration at slow speeds, such as during takeoff or approach."
+    },
+    {
+      "question_text": "The aircraft commander, when he has reasonable grounds to believe that a person has committed or is about to commit, on board the aircraft, an offense against penal law:",
+      "options": [
+        "Can not authorize the assistance of other crew members.",
+        "Can not request for the assistance of passengers to restrain such persons.",
+        "May deliver such person to the competent authorities."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The aircraft commander has the authority to deliver offenders to competent authorities upon landing."
+    },
+    {
+      "question_text": "OCA/OCH is measured with respect to:",
+      "options": [
+        "MSL.",
+        "Threshold or ARP.",
+        "Aiming point."
+      ],
+      "correctAnswer": 1,
+      "explanation": "OCA (Obstacle Clearance Altitude/Height) is measured with respect to the threshold or Aerodrome Reference Point (ARP)."
+    },
+    {
+      "question_text": "Steep gradient in NPA is",
+      "options": [
+        "check answer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This question requires additional information to provide a complete answer."
+    },
+    {
+      "question_text": "Max age for foreign license?",
+      "options": [
+        "60",
+        "65",
+        "55"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The maximum age for holding a foreign license is typically 65 years."
+    },
+    {
+      "question_text": "In case of RCF you must land at the destination aerodrome within",
+      "options": [
+        "15 mins of EAT",
+        "30 mins of EAT",
+        "20 mins of EAT"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In case of Radio Communication Failure (RCF), the aircraft must land within 30 minutes of the Estimated Approach Time (EAT)."
+    },
+    {
+      "question_text": "What do we fill in Flight plan if meteorological conditions at destination is not available/below AOM?",
+      "options": [
+        "nav equipment",
+        "2 alternates",
+        "operator capability"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When meteorological conditions at the destination are not available or below AOM, two alternate aerodromes must be specified in the flight plan."
+    },
+    {
+      "question_text": "To identify you on radar ATC doesn't ask your",
+      "options": [
+        "VOR radial",
+        "Squawk ident",
+        "both a and b"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ATC typically doesn't ask for VOR radial for identification; they would use transponder codes (squawk) or other radar identification methods."
+    },
+    {
+      "question_text": "ICAO annexure 2 applies to ...",
+      "options": [
+        "IFR flights",
+        "VFR flights",
+        "both"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ICAO Annex 2 (Rules of the Air) applies to both IFR and VFR flights."
+    }
+  ]
+}

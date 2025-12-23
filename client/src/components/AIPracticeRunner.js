@@ -23,6 +23,8 @@ import januaryOndemand2025Data from '../data/air-regulations/january-ondemand-20
 import olode052025Data from '../data/air-regulations/olode-05-2025.json';
 import olodeAprilSessionRegulationData from '../data/air-regulations/olode-april-session-regulation.json';
 import regulationsJune2025Data from '../data/air-regulations/regulations-june-2025.json';
+import regularDecember2024Data from '../data/air-regulation-regular-december-2024.json';
+ 
 
 // Air Navigation imports
 import airNavRegularMarch2025Data from '../data/air-navigation-regular-march-2025.json';
@@ -171,6 +173,19 @@ const questionBank = {
 };
 
 const sessionQuestionSets = {
+  'regular-december-2024': {
+    bookName: regularDecember2024Data.book_name,
+    chapterName: regularDecember2024Data.chapter_title,
+    questions: regularDecember2024Data.questions.map(q => ({
+      text: q.question_text,
+      options: q.options,
+      solution: q.solution,
+      explanation: q.explanation || ''
+    })),
+    subjectName: 'Air Regulations',
+    bookName: 'REGULAR SESSION DECEMBER 2024',
+    chapterName: 'MCQ Printable Sheet'
+  },
   'regular-march-2024': {
     bookName: regularMarch2024Data.book_name,
     chapterName: regularMarch2024Data.chapter_title,

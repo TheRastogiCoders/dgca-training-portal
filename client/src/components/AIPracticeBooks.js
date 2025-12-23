@@ -10,6 +10,7 @@ import januaryOndemand2025Data from '../data/air-regulations/january-ondemand-20
 import olode052025Data from '../data/air-regulations/olode-05-2025.json';
 import olodeAprilSessionRegulationData from '../data/air-regulations/olode-april-session-regulation.json';
 import regulationsJune2025Data from '../data/air-regulations/regulations-june-2025.json';
+import regularDecember2024Data from '../data/air-regulation-regular-december-2024.json';
 import olodeSession072025Data from '../data/meteorology-olode-session-07-2025.json';
 import regularMarch2025Data from '../data/meteorology-regular-march-2025-session.json';
 import olodeMay2025Data from '../data/meteorology-olode-may-2025-session.json';
@@ -40,6 +41,7 @@ const getQuestionCount = (sessionSlug) => {
     'olode-05-2025-reg': olode052025Data,
     'olode-april-session-regulation-reg': olodeAprilSessionRegulationData,
     'regulations-june-2025': regulationsJune2025Data,
+    'regular-december-2024': regularDecember2024Data,
     'olode-session-07-2025': olodeSession072025Data,
     'regular-march-2025': regularMarch2025Data,
     'olode-may-2025': olodeMay2025Data,
@@ -130,6 +132,7 @@ const availableSessions = {
   'meteorology': [
     'olode-session-07-2025',
     'olode-may-2025',
+    'regular-december-2024',
     'olode-nov-2024-session',
     'regular-march-2025',
     'regular-march-2024',
@@ -140,6 +143,7 @@ const availableSessions = {
   ],
   // Air Regulations slugs must exactly match sessionQuestionSets keys in AIPracticeRunner
   'air-regulations': [
+    'regular-december-2024',
     'olode-session-2-2025-reg',
     'january-ondemand-2025-reg',
     'olode-05-2025-reg',
@@ -184,7 +188,8 @@ const subjectSessions = {
     { slug: 'olode-05-2025-reg', title: 'OLODE MAY 2025', window: 'Olode Paper', badge: 'Available', questionCount: getQuestionCount('olode-05-2025-reg'), accent: 'from-[#00c6ff] to-[#0072ff]' },
     { slug: 'olode-april-session-regulation-reg', title: 'OLODE SESSION APRIL 2024', window: 'Olode Paper', badge: 'Available', questionCount: getQuestionCount('olode-april-session-regulation-reg'), accent: 'from-[#f953c6] to-[#b91d73]' },
     { slug: 'olode-session-2-2025-reg', title: 'OLODE SESSION FEBRUARY 2025', window: 'Olode Paper', badge: 'Available', questionCount: getQuestionCount('olode-session-2-2025-reg'), accent: 'from-[#6a11cb] to-[#2575fc]' },
-    { slug: 'january-ondemand-2025-reg', title: 'JANUARY ON-DEMAND 2025', window: 'Regular Series', badge: 'Available', questionCount: getQuestionCount('january-ondemand-2025-reg'), accent: 'from-[#396afc] to-[#2948ff]' }
+    { slug: 'january-ondemand-2025-reg', title: 'JANUARY ON-DEMAND 2025', window: 'Regular Series', badge: 'Available', questionCount: getQuestionCount('january-ondemand-2025-reg'), accent: 'from-[#396afc] to-[#2948ff]' },
+    { slug: 'regular-december-2024', title: 'REGULAR SESSION DECEMBER 2024', window: 'Regular Series', badge: 'Available', questionCount: getQuestionCount('regular-december-2024'), accent: 'from-[#8e2de2] to-[#4a00e0]' }
     ],
   'air-navigation': [
     { 
