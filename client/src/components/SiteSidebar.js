@@ -128,6 +128,7 @@ const SiteSidebar = () => {
   // Regular user navigation items
   const userNavItems = [
     { to: '/', label: 'Home', icon: '🏠' },
+    { to: '/about', label: 'About Us', icon: 'ℹ️' },
     { to: '/question-bank', label: 'Question Bank', icon: '📚' },
     { to: '/pyq', label: 'PYQ', icon: '🎯' },
     { to: '/library', label: 'Library', icon: '📄' }

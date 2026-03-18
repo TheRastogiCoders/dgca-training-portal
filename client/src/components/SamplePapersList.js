@@ -1,7 +1,5 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import Header from './Header';
-import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 import { samplePapersData } from '../data/samplePapers';
 
@@ -103,11 +101,8 @@ const SamplePapersList = () => {
 
   return (
     <div className="min-h-screen gradient-bg">
-      <Header />
-      <SiteSidebar />
-      <div className="flex">
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
-          <div className="max-w-6xl mx-auto">
+      <main className="page-content">
+        <div className="page-content-inner max-w-6xl mx-auto">
             <div className="mb-6">
               <button 
                 onClick={() => navigate(`/questions/${subjectSlug}/${bookSlug}`)}
@@ -194,9 +189,8 @@ const SamplePapersList = () => {
                 );
               })}
             </div>
-          </div>
-        </main>
-      </div>
+        </div>
+      </main>
     </div>
   );
 };

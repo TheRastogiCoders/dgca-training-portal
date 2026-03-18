@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 
 // Import session data to calculate actual question counts dynamically
@@ -120,7 +119,7 @@ const subjectData = {
   'radio-telephony': {
     name: 'Radio Telephony (RTR)-A',
     icon: '📻',
-    color: 'from-teal-500 to-cyan-600',
+    color: 'from-blue-500 to-cyan-600',
     description: 'Standard radio communication procedures and phraseology',
     topics: ['Standard Phraseology', 'ATC Communications', 'Emergency Procedures', 'Radio Equipment', 'International Procedures']
   }
@@ -292,7 +291,7 @@ const subjectSessions = {
       window: 'Regular Series',
       badge: 'Latest',
       questionCount: getQuestionCount('regular-session-01-2025'),
-      accent: 'from-teal-500 to-cyan-600',
+      accent: 'from-blue-500 to-cyan-600',
       disabled: false
     }
   ]
@@ -385,11 +384,8 @@ const AIPracticeBooks = () => {
 
   return (
     <div className="min-h-screen gradient-bg">
-      <div className="flex">
-        <SiteSidebar />
-
-        <main className="flex-1 px-4 py-8 sm:px-6 lg:px-10 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
-          <div className="max-w-5xl mx-auto space-y-8">
+      <main className="page-content">
+        <div className="page-content-inner max-w-5xl mx-auto space-y-8 px-4 py-8 sm:px-6 lg:px-10">
             <div className="flex items-center justify-between text-sm">
               <Link
                 to="/pyq/ai"
@@ -409,7 +405,7 @@ const AIPracticeBooks = () => {
               <div className="inline-flex items-center px-3 py-1 rounded-full bg-white/10 text-white/80 text-xs uppercase tracking-[0.4em]">
                 DGCA PYQ
               </div>
-              <h1 className="text-3xl sm:text-4xl font-bold text-white drop-shadow">
+              <h1 className="text-3xl sm:text-4xl font-bold text-slate-900">
                 {subject.name} Session List
               </h1>
               <p className="text-gray-500 text-sm sm:text-base max-w-3xl">
@@ -474,9 +470,8 @@ const AIPracticeBooks = () => {
                 </Card>
               )}
             </section>
-          </div>
-        </main>
-      </div>
+        </div>
+      </main>
     </div>
   );
 };

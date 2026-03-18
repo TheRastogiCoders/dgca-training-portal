@@ -31,6 +31,7 @@ const Profile = lazy(() => import('./components/Profile'));
 const StudentsLogins = lazy(() => import('./components/admin/StudentsLogins'));
 const QuestionUpload = lazy(() => import('./components/admin/QuestionUpload'));
 const Reports = lazy(() => import('./components/admin/Reports'));
+const AboutUs = lazy(() => import('./components/AboutUs'));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -59,6 +60,7 @@ function App() {
                 <Suspense fallback={<LoadingSpinner size="large" text="Loading application..." />}>
                   <Routes>
                 <Route path="/" element={<HomePage />} />
+                <Route path="/about" element={<AboutUs />} />
                 <Route path="/library" element={<Library />} />
                 <Route path="/question-bank" element={<QuestionBank />} />
                 <Route path="/pyq" element={<PracticeTest />} />

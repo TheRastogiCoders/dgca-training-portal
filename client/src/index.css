@@ -8,13 +8,45 @@
   * {
     @apply box-border;
   }
+
+  /* Prevent common flex/grid overflow issues */
+  * {
+    min-width: 0;
+  }
   
   body {
-  @apply font-sans antialiased bg-gray-50;
+    @apply font-sans antialiased;
+    background: #f8fafc;
+    overflow-x: hidden;
   }
   
   html {
     @apply scroll-smooth;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  /* Responsive media by default */
+  img,
+  video,
+  canvas,
+  svg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Better wrapping for long tokens/URLs */
+  p,
+  a,
+  li,
+  td,
+  th {
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 }
 

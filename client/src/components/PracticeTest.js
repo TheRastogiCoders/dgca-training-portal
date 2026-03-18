@@ -1,10 +1,9 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import SiteSidebar from './SiteSidebar';
-import Card from './ui/Card';
 import debugLog from '../utils/debug';
 import SEO from './SEO';
+import { IconClipboard } from './ui/Icons';
 
 const PracticeTest = () => {
   const { isAuthenticated } = useAuth();
@@ -16,7 +15,7 @@ const PracticeTest = () => {
     {
       id: 'ai',
       title: "PYQ Questions",
-      icon: "📝",
+      Icon: IconClipboard,
       description: "Previous Year Questions for comprehensive exam preparation",
       color: "from-purple-500 to-indigo-600",
       features: [
@@ -290,93 +289,84 @@ const PracticeTest = () => {
         keywords="DGCA PYQ, DGCA previous year questions, DGCA practice test, DGCA mock test, DGCA exam questions, DGCA sample papers, DGCA test series, DGCA online practice, DGCA exam preparation"
       />
       <div className="min-h-screen gradient-bg">
-      <div className="flex">
-        {/* Sidebar */}
-        <SiteSidebar />
-
-        {/* Main Content */}
-        <main className="flex-1 p-4 sm:p-6 md:p-8 pt-20 sm:pt-24 md:pt-24 pb-20 sm:pb-24 md:pb-8 md:ml-56 lg:ml-64 xl:ml-72">
-          <div className="max-w-6xl mx-auto w-full">
+      <main className="page-content">
+        <div className="page-content-inner max-w-6xl mx-auto w-full">
             {/* Hero */}
-            <div className="text-center mb-6 sm:mb-8 md:mb-12 animate-fade-in-up">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 tracking-tight mb-3 sm:mb-4 px-2">
+            <section className="text-center mb-8 sm:mb-10 md:mb-14">
+              <p className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600 mb-3">Previous Year Questions</p>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900 mb-4 px-2">
                 PYQ Practice
               </h1>
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-4 px-2">
-                <p className="text-sm sm:text-base md:text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                  Master DGCA exams with curated Previous Year Questions, adaptive sessions, and clear progress insights.
-                </p>
-                {!isAuthenticated && (
-                  <div className="inline-flex items-center px-3 sm:px-4 py-1.5 sm:py-2 bg-yellow-50 border border-yellow-200 rounded-lg shadow-sm whitespace-nowrap">
-                    <span className="text-yellow-700 font-medium text-xs sm:text-sm">🔒 Login required to access PYQ practice</span>
-                  </div>
-                )}
-              </div>
+              <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto font-medium mb-4">
+                Master DGCA exams with curated Previous Year Questions, subject-wise practice, and clear progress insights.
+              </p>
+              <p className="text-sm text-slate-500 mb-4">Wings within reach.</p>
+              {!isAuthenticated && (
+                <div className="inline-flex items-center px-3 sm:px-4 py-2 bg-amber-50 border border-amber-200 rounded-full">
+                  <span className="text-amber-800 font-medium text-xs sm:text-sm">🔒 Login to access PYQ practice & track progress</span>
+                </div>
+              )}
+            </section>
 
-            </div>
-
-            {/* Main grid */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 md:gap-8 mb-8 sm:mb-10 md:mb-14">
-              {/* Left: Primary PYQ card */}
               <div className="w-full">
                 {testTypes.map((test) => (
-                  <Card
+                  <div
                     key={test.id}
-                    className="p-5 sm:p-6 md:p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group bg-white border border-gray-200 rounded-xl animate-fade-in-up"
+                    role="button"
+                    tabIndex={0}
                     onClick={() => handleTestClick(test)}
-                  >
+                    onKeyDown={(e) => e.key === 'Enter' && handleTestClick(test)}
+                    className="site-card p-6 md:p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group rounded-2xl">
                     <div className="flex flex-col text-center md:text-left">
-                      <div className={`w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-gradient-to-r ${test.color} rounded-xl flex items-center justify-center text-white text-2xl sm:text-3xl md:text-4xl mx-auto md:mx-0 mb-3 sm:mb-4 group-hover:scale-110 transition-transform duration-300`}>
-                        {test.icon}
+                      <div className={`w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-gradient-to-r ${test.color} rounded-xl flex items-center justify-center text-white mx-auto md:mx-0 mb-3 sm:mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                        {test.Icon && <test.Icon className="w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10" size="lg" />}
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-2 sm:mb-2 group-hover:text-blue-600 transition-colors">
+                        <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900 mb-2 sm:mb-2 group-hover:text-blue-600 transition-colors">
                           {test.title}
                         </h3>
                         <p className="text-xs sm:text-sm md:text-base text-gray-600 mb-3 sm:mb-4 leading-relaxed">{test.description}</p>
-                        <button className={`w-full py-2.5 sm:py-3 px-4 sm:px-6 bg-gradient-to-r ${test.color} text-white font-semibold text-sm sm:text-base rounded-lg shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2`}>
+                        <button type="button" className={`w-full py-2.5 sm:py-3 px-4 sm:px-6 bg-gradient-to-r ${test.color} text-white font-semibold text-sm sm:text-base rounded-xl shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2`}>
                           Start PYQ Practice
                         </button>
                       </div>
                     </div>
-                  </Card>
+                  </div>
                 ))}
               </div>
 
-              {/* Right: Highlights / How it works */}
               <div className="space-y-4 sm:space-y-6 w-full">
-                <Card className="p-5 sm:p-6 md:p-8 bg-white border border-gray-200 rounded-xl">
-                  <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4">Why practice PYQs?</h3>
-                  <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm md:text-base text-gray-700">
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-600 font-bold flex-shrink-0 mt-0.5">✓</span>
-                      <span className="flex-1">Practice with authentic DGCA Previous Year Questions</span>
+                <div className="site-card p-6 md:p-8 rounded-2xl">
+                  <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-4">Why practice PYQs?</h3>
+                  <ul className="space-y-3 text-sm md:text-base text-slate-700">
+                    <li className="flex items-start gap-3">
+                      <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-sm">✓</span>
+                      <span>Practice with authentic DGCA Previous Year Questions</span>
                     </li>
-
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-600 font-bold flex-shrink-0 mt-0.5">✓</span>
-                      <span className="flex-1">Keep your weak areas in focus with adaptive difficulty</span>
+                    <li className="flex items-start gap-3">
+                      <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-sm">✓</span>
+                      <span>Focus on weak areas with subject and chapter-wise practice</span>
                     </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-600 font-bold flex-shrink-0 mt-0.5">✓</span>
-                      <span className="flex-1">Real-time feedback and performance insights</span>
+                    <li className="flex items-start gap-3">
+                      <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-sm">✓</span>
+                      <span>Real-time feedback and performance insights when you’re logged in</span>
                     </li>
                   </ul>
-                </Card>
-                <Card className="p-5 sm:p-6 md:p-8 bg-white border border-gray-200 rounded-xl">
-                  <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4">How it works</h3>
-                  <ol className="space-y-2 sm:space-y-3 text-xs sm:text-sm md:text-base text-gray-700 list-decimal list-inside">
-                    <li className="pl-1 sm:pl-2 leading-relaxed">Click "Start PYQ Practice" and select your subject or book</li>
-                    <li className="pl-1 sm:pl-2 leading-relaxed">Choose your chapter and start practicing</li>
-                    <li className="pl-1 sm:pl-2 leading-relaxed">Login to view your progress and performance insights on your profile</li>
+                </div>
+                <div className="site-card p-6 md:p-8 rounded-2xl">
+                  <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-4">How it works</h3>
+                  <ol className="space-y-3 text-sm md:text-base text-slate-700 list-decimal list-inside">
+                    <li className="pl-1 leading-relaxed">Click &quot;Start PYQ Practice&quot; and select your subject or book</li>
+                    <li className="pl-1 leading-relaxed">Choose your chapter and start practicing</li>
+                    <li className="pl-1 leading-relaxed">Log in to view your progress and performance on your profile</li>
                   </ol>
-                </Card>
+                </div>
               </div>
             </div>
 
-          </div>
-        </main>
-      </div>
+        </div>
+      </main>
     </div>
     </>
   );

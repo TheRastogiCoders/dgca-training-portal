@@ -1,11 +1,11 @@
-# Education Website
+# VIMAANNA DGCA Training Portal
 
-A modern online learning platform inspired by Physics Wallah, built with React frontend, Node.js backend, and MongoDB database.
+A modern online DGCA exam preparation portal by VIMAANNA, built with React frontend, Node.js backend, and MongoDB database.
 
 ## Features
 
-- **Modern UI/UX**: Clean and responsive design matching Physics Wallah's interface
-- **Course Management**: Browse and access various courses
+- **Modern UI/UX**: Clean and responsive design tailored for DGCA exam preparation
+- **Question Bank**: Practice DGCA-style questions by subject, book, and chapter
 - **Library System**: Access to short notes, mindmaps, and study materials
 - **Search Functionality**: Search through courses and content
 - **User Authentication**: Login system (ready for implementation)
@@ -30,7 +30,7 @@ A modern online learning platform inspired by Physics Wallah, built with React f
 ## Project Structure
 
 ```
-physics-wallah-clone/
+dgca-training-portal/
 ├── client/                 # React frontend
 │   ├── public/
 │   ├── src/
@@ -58,7 +58,7 @@ physics-wallah-clone/
 1. **Clone the repository**
    ```bash
    git clone <your-repo-url>
-   cd physics-wallah-clone
+   cd dgca-training-portal
    ```
 
 2. **Install all dependencies**

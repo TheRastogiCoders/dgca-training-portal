@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import Header from './Header';
-import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 import { resolveChapterSlug } from '../utils/chapterSlug';
 import debugLog from '../utils/debug';
@@ -187,11 +185,9 @@ const BookChapters = () => {
   // Render error state
   if (error) {
     return (
-      <div className="min-h-screen gradient-bg flex flex-col items-center">
-        <Header />
-        <SiteSidebar />
-        <div className="w-full flex justify-center">
-          <main className="w-full max-w-6xl p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
+      <div className="min-h-screen gradient-bg">
+        <main className="page-content">
+          <div className="page-content-inner max-w-6xl mx-auto">
             <div className="bg-red-50 border-l-4 border-red-500 p-4 mb-6 rounded">
               <div className="flex">
                 <div className="flex-shrink-0">
@@ -215,8 +211,8 @@ const BookChapters = () => {
                 </div>
               </div>
             </div>
-          </main>
-        </div>
+          </div>
+        </main>
       </div>
     );
   }
@@ -224,29 +220,25 @@ const BookChapters = () => {
   // Render loading state
   if (isLoading) {
     return (
-      <div className="min-h-screen gradient-bg flex flex-col items-center">
-        <Header />
-        <SiteSidebar />
-        <div className="w-full flex justify-center">
-          <main className="w-full max-w-6xl p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
+      <div className="min-h-screen gradient-bg">
+        <main className="page-content">
+          <div className="page-content-inner max-w-6xl mx-auto">
             <div className="flex flex-col items-center justify-center py-12">
               <div className="animate-spin rounded-full h-12 w-12 border-4 border-blue-500 border-t-transparent"></div>
               <p className="mt-4 text-gray-600">Loading {book.title} chapters...</p>
               <p className="text-sm text-gray-500 mt-2">Please wait while we load the content</p>
             </div>
-          </main>
-        </div>
+          </div>
+        </main>
       </div>
     );
   }
 
   // Main content
   return (
-    <div className="min-h-screen gradient-bg flex flex-col items-center">
-      <Header />
-      <SiteSidebar />
-      <div className="w-full flex justify-center">
-        <main className="w-full max-w-6xl p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
+    <div className="min-h-screen gradient-bg">
+      <main className="page-content">
+        <div className="page-content-inner max-w-6xl mx-auto">
           <div className="flex flex-col items-center">
             <div className="w-full max-w-3xl text-center mb-8">
               <button 
@@ -411,8 +403,8 @@ const BookChapters = () => {
               </div>
             )}
           </div>
-        </main>
-      </div>
+        </div>
+      </main>
     </div>
   );
 };

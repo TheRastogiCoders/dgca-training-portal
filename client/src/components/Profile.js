@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
-import SiteSidebar from './SiteSidebar';
 import { API_ENDPOINTS } from '../config/api';
+import { IconLibrary, IconTarget, IconChart, IconBook, IconClipboard } from './ui/Icons';
 
 const Profile = () => {
   const { user, logout } = useAuth();
@@ -94,44 +94,38 @@ const Profile = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
-        <div className="flex">
-          <SiteSidebar />
-          <main className="flex-1 p-8 pt-24 pb-24 md:pb-8 md:ml-56 lg:ml-64 xl:ml-72">
-            <div className="flex items-center justify-center min-h-[calc(100vh-8rem)]">
-              <div className="animate-spin rounded-full h-12 w-12 border-4 border-blue-500 border-t-transparent"></div>
-            </div>
-          </main>
-        </div>
+      <div className="min-h-screen gradient-bg">
+        <main className="page-content flex items-center justify-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-4 border-blue-500 border-t-transparent"></div>
+        </main>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
-      <div className="flex">
-        <SiteSidebar />
-        
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-24 md:pb-8 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
-          <div className="max-w-6xl mx-auto">
+    <div className="min-h-screen gradient-bg">
+      <main className="page-content">
+        <div className="page-content-inner max-w-6xl mx-auto">
+            {/* Hero */}
+            <section className="text-center mb-6">
+              <p className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-200 mb-2">Your progress</p>
+              <h1 className="text-2xl md:text-4xl font-bold text-slate-900">Profile</h1>
+              <p className="text-sm text-slate-500 mt-1">Wings within reach.</p>
+            </section>
+
             {/* Profile Header */}
-            <div className="bg-white rounded-3xl shadow-xl p-6 md:p-8 mb-6">
+            <div className="site-card rounded-2xl p-6 md:p-8 mb-6 border-slate-200">
               <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
-                {/* Avatar */}
-                <div className="w-24 h-24 rounded-2xl bg-gradient-to-br from-blue-600 to-purple-600 flex items-center justify-center shadow-lg">
-                  <span className="text-white text-3xl font-bold">
+                <div className="w-24 h-24 rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-500 flex items-center justify-center shadow-lg border border-slate-200">
+                  <span className="text-slate-900 text-3xl font-bold">
                     {getUserInitials()}
                   </span>
                 </div>
-                
-                {/* User Info */}
                 <div className="flex-1 text-center md:text-left">
-                  <h1 className="text-3xl font-bold text-gray-800 mb-2">
+                  <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
                     {user?.username || 'User'}
-                  </h1>
+                  </h2>
                   <p className="text-gray-600 mb-4">{user?.email}</p>
-                  
-                  {/* User Since */}
                   <div className="flex items-center justify-center md:justify-start gap-2 text-sm text-gray-500">
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
@@ -144,26 +138,18 @@ const Profile = () => {
 
             {/* Stats Grid */}
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6">
-              <div className="bg-white rounded-2xl shadow-lg p-4 text-center">
-                <div className="text-2xl font-bold text-blue-600 mb-1">{stats.totalTests}</div>
-                <div className="text-xs text-gray-600 font-medium">Tests Taken</div>
-              </div>
-              <div className="bg-white rounded-2xl shadow-lg p-4 text-center">
-                <div className="text-2xl font-bold text-green-600 mb-1">{stats.averageScore}%</div>
-                <div className="text-xs text-gray-600 font-medium">Avg Score</div>
-              </div>
-              <div className="bg-white rounded-2xl shadow-lg p-4 text-center">
-                <div className="text-2xl font-bold text-purple-600 mb-1">{stats.bestScore}%</div>
-                <div className="text-xs text-gray-600 font-medium">Best Score</div>
-              </div>
-              <div className="bg-white rounded-2xl shadow-lg p-4 text-center">
-                <div className="text-2xl font-bold text-indigo-600 mb-1">{stats.subjectsStudied}</div>
-                <div className="text-xs text-gray-600 font-medium">Subjects</div>
-              </div>
-              <div className="bg-white rounded-2xl shadow-lg p-4 text-center">
-                <div className="text-2xl font-bold text-pink-600 mb-1">{formatTime(stats.timeSpent)}</div>
-                <div className="text-xs text-gray-600 font-medium">Time Spent</div>
-              </div>
+              {[
+                { value: stats.totalTests, label: 'Tests Taken', color: 'text-blue-600' },
+                { value: `${stats.averageScore}%`, label: 'Avg Score', color: 'text-green-600' },
+                { value: `${stats.bestScore}%`, label: 'Best Score', color: 'text-purple-600' },
+                { value: stats.subjectsStudied, label: 'Subjects', color: 'text-indigo-600' },
+                { value: formatTime(stats.timeSpent), label: 'Time Spent', color: 'text-pink-600' },
+              ].map((item, i) => (
+                <div key={i} className="site-card rounded-2xl p-4 text-center border-slate-200">
+                  <div className={`text-2xl font-bold ${item.color} mb-1`}>{item.value}</div>
+                  <div className="text-xs text-gray-600 font-medium">{item.label}</div>
+                </div>
+              ))}
             </div>
 
             {/* Mobile Logout Button - Alternative Location */}
@@ -175,7 +161,7 @@ const Profile = () => {
                     navigate('/login');
                   }
                 }}
-                className="w-full bg-gradient-to-r from-red-500 to-red-600 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transition-all flex items-center justify-center gap-2"
+                className="w-full bg-red-500/90 hover:bg-red-600 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transition-all flex items-center justify-center gap-2 border border-slate-200"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
@@ -185,24 +171,24 @@ const Profile = () => {
             </div>
 
             {/* Tab Navigation */}
-            <div className="bg-white rounded-3xl shadow-xl p-2 mb-6">
+            <div className="site-card rounded-2xl p-2 mb-6 border-slate-200">
               <div className="flex gap-2">
                 <button
                   onClick={() => setSelectedTab('overview')}
-                  className={`flex-1 py-3 px-4 rounded-2xl font-medium transition-all ${
+                  className={`flex-1 py-3 px-4 rounded-xl font-medium transition-all ${
                     selectedTab === 'overview'
-                      ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg'
-                      : 'text-gray-600 hover:bg-gray-100'
+                      ? 'bg-gradient-to-r from-blue-500 to-indigo-500 text-white shadow-lg'
+                      : 'text-gray-700 hover:bg-white/20'
                   }`}
                 >
                   Overview
                 </button>
                 <button
                   onClick={() => setSelectedTab('recent')}
-                  className={`flex-1 py-3 px-4 rounded-2xl font-medium transition-all ${
+                  className={`flex-1 py-3 px-4 rounded-xl font-medium transition-all ${
                     selectedTab === 'recent'
-                      ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg'
-                      : 'text-gray-600 hover:bg-gray-100'
+                      ? 'bg-gradient-to-r from-blue-500 to-indigo-500 text-white shadow-lg'
+                      : 'text-gray-700 hover:bg-white/20'
                   }`}
                 >
                   Recent Tests
@@ -211,18 +197,18 @@ const Profile = () => {
             </div>
 
             {/* Tab Content */}
-            <div className="bg-white rounded-3xl shadow-xl p-6 md:p-8">
+            <div className="site-card rounded-2xl p-6 md:p-8 border-slate-200">
               {selectedTab === 'overview' && (
                 <div>
                   <h2 className="text-2xl font-bold text-gray-800 mb-6">Your Learning Journey</h2>
                   
                   {stats.totalTests === 0 ? (
                     <div className="text-center py-12">
-                      <div className="text-6xl mb-4">📚</div>
+                      <div className="mb-4 text-gray-500 flex justify-center"><IconLibrary className="w-16 h-16" size="xl" /></div>
                       <p className="text-gray-600 text-lg mb-4">No tests taken yet</p>
-                      <button
+                        <button
                         onClick={() => navigate('/pyq')}
-                        className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transition-all"
+                        className="btn-institute-primary px-6 py-3 rounded-xl font-semibold"
                       >
                         Start Your First Test
                       </button>
@@ -250,8 +236,8 @@ const Profile = () => {
                       <div className="grid md:grid-cols-2 gap-4">
                         <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6">
                           <div className="flex items-center mb-3">
-                            <div className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center mr-3">
-                              <span className="text-2xl">🎯</span>
+                            <div className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center mr-3 text-white">
+                              <IconTarget className="w-6 h-6" size="md" />
                             </div>
                             <div>
                               <h4 className="font-bold text-gray-800">Test Average</h4>
@@ -269,8 +255,8 @@ const Profile = () => {
 
                         <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-6">
                           <div className="flex items-center mb-3">
-                            <div className="w-12 h-12 bg-purple-600 rounded-xl flex items-center justify-center mr-3">
-                              <span className="text-2xl">📈</span>
+                            <div className="w-12 h-12 bg-purple-600 rounded-xl flex items-center justify-center mr-3 text-white">
+                              <IconChart className="w-6 h-6" size="md" />
                             </div>
                             <div>
                               <h4 className="font-bold text-gray-800">Best Performance</h4>
@@ -279,7 +265,7 @@ const Profile = () => {
                           </div>
                           <p className="text-sm text-gray-600">
                             {stats.bestScore === 100 
-                              ? 'Perfect score achieved! 🎉'
+                              ? 'Perfect score achieved!'
                               : `${100 - stats.bestScore}% away from perfection.`}
                           </p>
                         </div>
@@ -291,24 +277,24 @@ const Profile = () => {
                         <div className="grid md:grid-cols-3 gap-4">
                           <button
                             onClick={() => navigate('/pyq')}
-                            className="bg-gradient-to-br from-blue-600 to-blue-700 text-white p-4 rounded-2xl hover:shadow-lg transition-all text-left"
+                            className="site-card border-slate-200 p-4 rounded-2xl hover:shadow-lg transition-all text-left w-full bg-gradient-to-br from-blue-500/20 to-indigo-500/20 border"
                           >
-                            <div className="text-2xl mb-2">🎯</div>
-                            <div className="font-semibold">Take a Practice Test</div>
+                            <div className="text-gray-700 mb-2"><IconTarget className="w-8 h-8" size="lg" /></div>
+                            <div className="font-semibold text-gray-900">Take a Practice Test</div>
                           </button>
                           <button
                             onClick={() => navigate('/question-bank')}
-                            className="bg-gradient-to-br from-purple-600 to-purple-700 text-white p-4 rounded-2xl hover:shadow-lg transition-all text-left"
+                            className="site-card border-slate-200 p-4 rounded-2xl hover:shadow-lg transition-all text-left w-full bg-gradient-to-br from-purple-500/20 to-indigo-500/20 border"
                           >
-                            <div className="text-2xl mb-2">📚</div>
-                            <div className="font-semibold">Question Bank</div>
+                            <div className="text-gray-700 mb-2"><IconLibrary className="w-8 h-8" size="lg" /></div>
+                            <div className="font-semibold text-gray-900">Question Bank</div>
                           </button>
                           <button
                             onClick={() => navigate('/library')}
-                            className="bg-gradient-to-br from-indigo-600 to-indigo-700 text-white p-4 rounded-2xl hover:shadow-lg transition-all text-left"
+                            className="site-card border-slate-200 p-4 rounded-2xl hover:shadow-lg transition-all text-left w-full bg-gradient-to-br from-indigo-500/20 to-blue-500/20 border"
                           >
-                            <div className="text-2xl mb-2">📖</div>
-                            <div className="font-semibold">Study Library</div>
+                            <div className="text-gray-700 mb-2"><IconBook className="w-8 h-8" size="lg" /></div>
+                            <div className="font-semibold text-gray-900">Study Library</div>
                           </button>
                         </div>
                       </div>
@@ -323,7 +309,7 @@ const Profile = () => {
                   
                   {results.length === 0 ? (
                     <div className="text-center py-12">
-                      <div className="text-6xl mb-4">📝</div>
+                      <div className="mb-4 text-gray-500 flex justify-center"><IconClipboard className="w-16 h-16" size="xl" /></div>
                       <p className="text-gray-600 text-lg">No test results yet</p>
                     </div>
                   ) : (
@@ -381,9 +367,8 @@ const Profile = () => {
                 </div>
               )}
             </div>
-          </div>
-        </main>
-      </div>
+        </div>
+      </main>
     </div>
   );
 };

@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import Header from './Header';
 import Stepper from './ui/Stepper';
 import Card from './ui/Card';
 import Button from './ui/Button';
@@ -101,41 +100,8 @@ const BookSelection = () => {
 
   return (
     <div className="min-h-screen gradient-bg">
-      <Header />
-      <div className="flex">
-        <nav className="w-64 bg-white/80 backdrop-blur-lg border-r border-gray-200 min-h-screen sticky top-16 hidden md:block">
-          <div className="p-6">
-            <div className="space-y-2">
-              <Link to="/" className="sidebar-item">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
-                </svg>
-                <span>Home</span>
-              </Link>
-              <Link to="/question-bank" className="sidebar-item active">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
-                </svg>
-                <span>Question Bank</span>
-              </Link>
-              <Link to="/pyq" className="sidebar-item">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span>Practice Test</span>
-              </Link>
-              <Link to="/library" className="sidebar-item">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span>Library</span>
-              </Link>
-            </div>
-          </div>
-        </nav>
-        
-        <main className="flex-1 p-6 md:p-8">
-          <div className="max-w-5xl mx-auto">
+      <main className="page-content">
+        <div className="page-content-inner max-w-5xl mx-auto">
             <Stepper steps={["Subject", "Book", "Chapter", "Practice"]} current={1} />
             <div className="mb-6 mt-2">
               <Link to="/question-bank" className="text-blue-600 hover:underline">← Back to Subjects</Link>
@@ -156,7 +122,7 @@ const BookSelection = () => {
               {!loading && books.map((book) => (
                 <Card key={book.id} className="p-6 cursor-pointer" onClick={() => handleBookClick(book)}>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl text-white" style={{ backgroundColor: book.color }}>
+                    <div className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl text-slate-900" style={{ backgroundColor: book.color }}>
                       {book.icon}
                     </div>
                     <div className="flex-1">
@@ -173,8 +139,7 @@ const BookSelection = () => {
               ))}
             </div>
           </div>
-        </main>
-      </div>
+      </main>
       {showLogin && (
         <LoginModal onLogin={handleLogin} onClose={() => setShowLogin(false)} />
       )}

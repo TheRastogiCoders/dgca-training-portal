@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useNavigate, useParams, Link } from 'react-router-dom';
 import Card from './ui/Card';
-import SiteSidebar from './SiteSidebar';
 import { resolveChapterSlug } from '../utils/chapterSlug';
 
 const friendly = (slug) => (slug || '')
@@ -75,13 +74,8 @@ const ChapterPracticeIntro = () => {
 
   return (
     <div className="min-h-screen gradient-bg">
-      <div className="flex">
-        {/* Sidebar */}
-        <SiteSidebar />
-
-        {/* Main Content */}
-        <main className="flex-1 p-6 md:p-10 md:ml-56 lg:ml-64 xl:ml-72">
-      <div className="max-w-4xl mx-auto">
+      <main className="page-content">
+        <div className="page-content-inner max-w-4xl mx-auto p-6 md:p-10">
         <div className="mb-6">
           <Link to="/question-bank" className="text-blue-600 hover:underline">← Back to Subjects</Link>
         </div>
@@ -139,9 +133,8 @@ const ChapterPracticeIntro = () => {
             </Link>
           </div>
         </Card>
-      </div>
-        </main>
-      </div>
+        </div>
+      </main>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 {
-  "name": "physics-wallah-server",
+  "name": "vimaanna-dgca-server",
   "version": "1.0.0",
-  "description": "Backend server for Physics Wallah clone",
+  "description": "Backend server for the VIMAANNA DGCA training portal",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

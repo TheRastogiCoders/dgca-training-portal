@@ -1,6 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 import Modal from './ui/Modal';
 import { API_ENDPOINTS } from '../config/api';
@@ -532,8 +531,8 @@ const BookPracticeRunner = () => {
     return (
       <div className="min-h-screen gradient-bg">
         <div className="flex flex-col md:flex-row w-full">
-          <SiteSidebar />
-          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-10 md:ml-56 lg:ml-64 xl:ml-72">
+          <main className="page-content">
+          <div className="page-content-inner p-4 md:p-8">
             <div className="max-w-4xl mx-auto text-center py-20">
               <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-blue-600 mx-auto mb-4"></div>
               <h2 className="text-2xl font-bold text-gray-900 mb-2">
@@ -544,7 +543,8 @@ const BookPracticeRunner = () => {
                 Fetching chapter content{chapterName ? ` for ${chapterName}` : ''}…
               </p>
             </div>
-          </main>
+          </div>
+        </main>
         </div>
       </div>
     );
@@ -554,8 +554,8 @@ const BookPracticeRunner = () => {
     return (
       <div className="min-h-screen gradient-bg">
         <div className="flex flex-col md:flex-row w-full">
-          <SiteSidebar />
-          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-10 md:ml-56 lg:ml-64 xl:ml-72">
+          <main className="page-content">
+          <div className="page-content-inner p-4 md:p-8">
             <div className="max-w-3xl mx-auto w-full">
               <Card className="p-6 md:p-8 rounded-3xl shadow-xl">
                 <h2 className="text-2xl font-bold text-gray-900 mb-2">Unable to start practice</h2>
@@ -563,7 +563,8 @@ const BookPracticeRunner = () => {
                 <button onClick={() => navigate('/question-bank')} className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">Go to Question Bank</button>
               </Card>
             </div>
-          </main>
+          </div>
+        </main>
         </div>
       </div>
     );
@@ -574,8 +575,8 @@ const BookPracticeRunner = () => {
     return (
       <div className="min-h-screen gradient-bg">
         <div className="flex flex-col md:flex-row w-full">
-          <SiteSidebar />
-          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-10 md:ml-56 lg:ml-64 xl:ml-72">
+          <main className="page-content">
+          <div className="page-content-inner p-4 md:p-8">
             <div className="max-w-3xl mx-auto w-full">
               <Card className="p-6 md:p-8 text-center rounded-3xl shadow-xl">
                 <h2 className="text-2xl font-bold text-gray-900 mb-2">No questions available yet</h2>
@@ -585,7 +586,8 @@ const BookPracticeRunner = () => {
                 </div>
               </Card>
             </div>
-          </main>
+          </div>
+        </main>
         </div>
       </div>
     );
@@ -597,8 +599,8 @@ const BookPracticeRunner = () => {
     return (
       <div className="min-h-screen gradient-bg">
         <div className="flex flex-col md:flex-row w-full">
-          <SiteSidebar />
-          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-10 md:ml-56 lg:ml-64 xl:ml-72">
+          <main className="page-content">
+          <div className="page-content-inner p-4 md:p-8">
           <div className="max-w-4xl mx-auto w-full">
             <Card className="p-6 md:p-8 text-center rounded-3xl shadow-xl">
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">Practice Complete</h1>
@@ -611,7 +613,8 @@ const BookPracticeRunner = () => {
                 </div>
               </Card>
             </div>
-          </main>
+          </div>
+        </main>
         </div>
       </div>
     );
@@ -623,8 +626,8 @@ const BookPracticeRunner = () => {
   return (
     <div className="min-h-screen gradient-bg">
       <div className="flex flex-col md:flex-row w-full">
-        <SiteSidebar />
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-10 md:ml-56 lg:ml-64 xl:ml-72">
+        <main className="page-content">
+        <div className="page-content-inner p-4 md:p-8">
           <div className="max-w-4xl mx-auto w-full space-y-5">
                 <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
                   <div className="space-y-1">
@@ -774,6 +777,7 @@ const BookPracticeRunner = () => {
               </div>
             </Card>
           </div>
+        </div>
         </main>
       </div>
 

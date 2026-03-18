@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 
 const subjects = [
@@ -120,13 +119,8 @@ const AIPracticeSubject = () => {
 
   return (
     <div className="min-h-screen gradient-bg">
-      <div className="flex">
-        {/* Sidebar */}
-        <SiteSidebar />
-
-        {/* Main Content */}
-        <main className="flex-1 px-4 py-8 sm:px-6 lg:px-10 pt-20 sm:pt-24 md:pt-24 pb-20 sm:pb-24 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72">
-          <div className="max-w-6xl w-full mx-auto space-y-10">
+      <main className="page-content">
+        <div className="page-content-inner max-w-6xl w-full mx-auto space-y-10 px-4 py-8 sm:px-6 lg:px-10">
             <div className="flex flex-wrap items-center justify-between gap-3 mb-2 text-sm">
               <Link 
                 to="/pyq"
@@ -213,9 +207,8 @@ const AIPracticeSubject = () => {
                 Back to Practice Tests
               </Link>
             </div>
-          </div>
-        </main>
-      </div>
+        </div>
+      </main>
     </div>
   );
 };

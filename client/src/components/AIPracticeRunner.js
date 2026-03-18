@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useParams, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 import Modal from './ui/Modal';
 import debugLog from '../utils/debug';
@@ -926,8 +925,8 @@ const AIPracticeRunner = () => {
     return (
       <div className="min-h-screen gradient-bg">
         <div className="flex">
-          <SiteSidebar />
-          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-28 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
+          <main className="page-content">
+          <div className="page-content-inner p-4 md:p-8">
             <div className="max-w-4xl mx-auto">
               <div className="text-center py-20">
                 <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-blue-600 mx-auto mb-4"></div>
@@ -935,7 +934,8 @@ const AIPracticeRunner = () => {
                 <p className="text-gray-600">Loading curated DGCA questions...</p>
               </div>
             </div>
-          </main>
+          </div>
+        </main>
         </div>
       </div>
     );
@@ -945,8 +945,8 @@ const AIPracticeRunner = () => {
     return (
       <div className="min-h-screen gradient-bg">
         <div className="flex">
-          <SiteSidebar />
-          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
+          <main className="page-content">
+          <div className="page-content-inner p-4 md:p-8">
             <div className="max-w-4xl mx-auto">
               <Card className="p-8 text-center">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Login Required</h2>
@@ -959,7 +959,8 @@ const AIPracticeRunner = () => {
                 </button>
               </Card>
             </div>
-          </main>
+          </div>
+        </main>
         </div>
       </div>
     );
@@ -974,8 +975,8 @@ const AIPracticeRunner = () => {
   return (
     <div className="min-h-screen gradient-bg">
       <div className="flex">
-          <SiteSidebar />
-          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
+          <main className="page-content">
+          <div className="page-content-inner p-4 md:p-8">
             <div className="max-w-6xl mx-auto">
               {/* Results Header */}
               <div className="text-center mb-12">
@@ -1063,9 +1064,10 @@ const AIPracticeRunner = () => {
                 </button>
               </div>
             </div>
-          </main>
-            </div>
           </div>
+        </main>
+        </div>
+      </div>
     );
   }
 
@@ -1074,8 +1076,8 @@ const AIPracticeRunner = () => {
     return (
       <div className="min-h-screen gradient-bg">
         <div className="flex">
-          <SiteSidebar />
-          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
+          <main className="page-content">
+          <div className="page-content-inner p-4 md:p-8">
             <div className="max-w-4xl mx-auto">
               <Card className="p-8 text-center">
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">Questions Coming Soon</h1>
@@ -1090,7 +1092,8 @@ const AIPracticeRunner = () => {
                 </div>
               </Card>
             </div>
-          </main>
+          </div>
+        </main>
         </div>
       </div>
     );
@@ -1103,8 +1106,8 @@ const AIPracticeRunner = () => {
   return (
     <div className="min-h-screen gradient-bg">
       <div className="flex">
-        <SiteSidebar />
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
+        <main className="page-content">
+        <div className="page-content-inner p-4 md:p-8">
           <div className="max-w-4xl mx-auto">
             {/* Progress Header */}
             <div className="mb-8">
@@ -1277,6 +1280,7 @@ const AIPracticeRunner = () => {
                 </div>
               </Card>
           </div>
+        </div>
         </main>
       </div>
 

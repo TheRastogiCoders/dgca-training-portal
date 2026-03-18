@@ -1,7 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Link, useNavigate, useParams, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 
 const friendly = (slug) => (slug || '')
@@ -123,13 +122,8 @@ const AIPracticeChapters = () => {
 
   return (
     <div className="min-h-screen gradient-bg">
-      <div className="flex">
-        {/* Sidebar */}
-        <SiteSidebar />
-
-        {/* Main Content */}
-        <main className="flex-1 px-4 py-8 md:p-8 pt-20 md:pt-24 pb-28 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
-          <div className="max-w-7xl mx-auto">
+      <main className="page-content">
+        <div className="page-content-inner max-w-7xl mx-auto px-4 py-8 md:p-8">
             {/* Breadcrumb Navigation */}
             <div className="flex items-center justify-between mb-6 text-sm">
               <nav className="flex items-center space-x-2 text-white/80">
@@ -369,9 +363,8 @@ const AIPracticeChapters = () => {
                 </div>
               </div>
             </Card>
-          </div>
-        </main>
-      </div>
+        </div>
+      </main>
     </div>
   );
 };

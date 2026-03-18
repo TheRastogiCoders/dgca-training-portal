@@ -1,6 +1,5 @@
 import React, { useMemo, useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import SiteSidebar from './SiteSidebar';
 import Card from './ui/Card';
 import usePersistentState from '../hooks/usePersistentState';
 import { slugifyChapterName, resolveChapterSlug } from '../utils/chapterSlug';
@@ -283,7 +282,7 @@ const QuestionBank = () => {
       title: "Electrics and Electronics",
       description: "CPL/ATPL Ground Training Series",
       icon: "🔌",
-      color: "from-teal-500 to-emerald-600",
+      color: "from-blue-500 to-emerald-600",
       slug: "electrics-and-electronics",
       totalQuestions: 450,
       difficulty: "Medium",
@@ -1123,23 +1122,19 @@ const technicalSpecificBooks = [
 
   return (
     <div className="min-h-screen gradient-bg">
-      <div className="flex">
-        {/* Sidebar */}
-        <SiteSidebar />
-
-        {/* Main Content */}
-        <main className="flex-1 p-8 pt-20 md:pt-24 pb-20 md:pb-8 md:ml-56 lg:ml-64 xl:ml-72">
-          <div className="max-w-6xl mx-auto">
-            {/* Header */}
-            <div className="text-center mb-12">
-              <h1 className="text-3xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-3">
+      <main className="page-content">
+        <div className="page-content-inner max-w-6xl mx-auto">
+            {/* Hero */}
+            <section className="text-center mb-10 md:mb-14">
+              <p className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600 mb-3">Practice</p>
+              <h1 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4">
                 Question Bank
               </h1>
-              <p className="text-base md:text-lg text-gray-800 bg-white/70 inline-block px-4 py-2 rounded-full shadow-sm">
-                Practice questions organized by subject and chapter
+              <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto font-medium">
+                Practice by subject and chapter—Air Regulations, Meteorology, Air Navigation, Technical General, and more. Free for every student.
               </p>
-              {/* Open access: no login required banner for question bank */}
-            </div>
+              <p className="text-sm text-slate-500 mt-3">Wings within reach.</p>
+            </section>
 
             {/* Back Button */}
             {(selectedSubject || resolveSelectedBook) && (
@@ -1160,7 +1155,7 @@ const technicalSpecificBooks = [
             {!selectedSubject && !resolveSelectedBook && (
               <>
                 <div className="mb-8">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                  <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">
                     Choose Your Subject
                   </h2>
                   
@@ -1168,14 +1163,14 @@ const technicalSpecificBooks = [
                     {subjects.map((subject) => (
                       <Card 
                         key={subject.id} 
-                        className="p-6 cursor-pointer hover:shadow-xl transition-all duration-300 group"
+                        className="site-card p-6 cursor-pointer hover:shadow-xl transition-all duration-300 group border-slate-200"
                         onClick={() => handleSubjectClick(subject)}
                       >
                         <div className="text-center">
                           <div className={`w-16 h-16 bg-gradient-to-r ${subject.color} rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}>
                             {subject.icon}
                           </div>
-                          <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                            <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
                             {subject.title}
                           </h3>
                           <p className="text-gray-600 mb-4 text-sm leading-relaxed">
@@ -1193,27 +1188,26 @@ const technicalSpecificBooks = [
                   </div>
                 </div>
 
-                {/* Quick Stats */}
-                <Card className="p-8 bg-gradient-to-r from-blue-50 to-purple-50 border-2 border-blue-200">
+                {/* Overview */}
+                <div className="site-card p-8 md:p-10">
                   <div className="text-center mb-6">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Question Bank Overview</h3>
-                    <p className="text-gray-600">Comprehensive coverage of all DGCA subjects</p>
+                    <h3 className="text-2xl font-bold text-slate-900 mb-2">Question Bank Overview</h3>
+                    <p className="text-slate-600">Comprehensive coverage of all DGCA subjects—free study material for every aspiring pilot.</p>
                   </div>
-                  
                   <ul className="space-y-4 max-w-3xl mx-auto text-left">
                     {overviewHighlights.map((item) => (
                       <li key={item.title} className="flex items-start gap-4">
-                        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 text-white flex items-center justify-center text-lg font-semibold">
-                          •
+                        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold">
+                          ✓
                         </span>
                         <div>
-                          <p className="font-semibold text-gray-900">{item.title}</p>
-                          <p className="text-gray-600 text-sm">{item.description}</p>
+                          <p className="font-semibold text-slate-900">{item.title}</p>
+                          <p className="text-slate-600 text-sm">{item.description}</p>
                         </div>
                       </li>
                     ))}
                   </ul>
-                </Card>
+                </div>
               </>
             )}
 
@@ -1224,7 +1218,7 @@ const technicalSpecificBooks = [
                   <div className={`w-20 h-20 bg-gradient-to-r ${selectedSubject.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-4`}>
                     {selectedSubject.icon}
                   </div>
-                  <h2 className="text-3xl font-bold text-gray-900 mb-2">{selectedSubject.title}</h2>
+                  <h2 className="text-3xl font-bold text-slate-900 mb-2">{selectedSubject.title}</h2>
                   <p className="text-gray-600 mb-4">{selectedSubject.description}</p>
                   <div className="inline-flex items-center px-4 py-2 bg-blue-100 border border-blue-300 rounded-full">
                     <span className="text-blue-800 font-medium text-sm">
@@ -1234,7 +1228,7 @@ const technicalSpecificBooks = [
                 </div>
 
                 <div className="mb-8">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                  <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">
                     Select Your Book
                   </h3>
                   
@@ -1242,14 +1236,14 @@ const technicalSpecificBooks = [
                     {getAvailableBooks(selectedSubject).map((book) => (
                       <Card 
                         key={book.id} 
-                        className="p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group"
+                        className="site-card p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group border-slate-200"
                         onClick={() => handleBookClick(book)}
                       >
                         <div className="text-center">
                           <div className={`w-20 h-20 bg-gradient-to-r ${book.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}>
                             {book.icon}
                           </div>
-                          <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                          <h3 className="text-2xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">
                             {book.title}
                           </h3>
                           <p className="text-gray-600 mb-4 text-base leading-relaxed">
@@ -1276,7 +1270,7 @@ const technicalSpecificBooks = [
                   <div className={`w-20 h-20 bg-gradient-to-r ${selectedSubject.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-4`}>
                     {selectedSubject.icon}
                   </div>
-                  <h2 className="text-3xl font-bold text-gray-900 mb-2">{selectedSubject.title}</h2>
+                  <h2 className="text-3xl font-bold text-slate-900 mb-2">{selectedSubject.title}</h2>
                   <p className="text-gray-600 mb-4">{selectedSubject.description}</p>
                   <div className="inline-flex items-center px-4 py-2 bg-blue-100 border border-blue-300 rounded-full">
                     <span className="text-blue-800 font-medium text-sm">
@@ -1285,21 +1279,21 @@ const technicalSpecificBooks = [
                   </div>
                 </div>
                 <div className="mb-8">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                  <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">
                     Select Your Book
                   </h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
                     {airRegulationsSubBooks.map((book) => (
                       <Card
                         key={book.id}
-                        className="p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group"
+                        className="site-card p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group border-slate-200"
                         onClick={() => setSelectedBookKey(book.slug)}
                       >
                         <div className="text-center">
                           <div className={`w-20 h-20 bg-gradient-to-r ${book.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}>
                             {book.icon}
                           </div>
-                          <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                          <h3 className="text-2xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">
                             {book.title}
                           </h3>
                           <p className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-6">
@@ -1379,14 +1373,14 @@ const technicalSpecificBooks = [
                     <div className={`w-20 h-20 bg-gradient-to-r ${selectedSubject.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-4`}>
                       {selectedSubject.icon}
                     </div>
-                    <h2 className="text-3xl font-bold text-gray-900 mb-2">{selectedSubject.title}</h2>
+                    <h2 className="text-3xl font-bold text-slate-900 mb-2">{selectedSubject.title}</h2>
                     <p className="text-gray-600 mb-4">{selectedSubject.description}</p>
                     <div className="flex items-center justify-center mb-4">
                       <div className={`w-12 h-12 bg-gradient-to-r ${resolveSelectedBook.color} rounded-xl flex items-center justify-center text-white text-2xl mr-3`}>
                         {resolveSelectedBook.icon}
                       </div>
                       <div className="text-left">
-                        <h3 className="text-lg font-bold text-gray-900">
+                        <h3 className="text-lg font-bold text-slate-900">
                           {resolveSelectedBook.title}
                         </h3>
                         <p className="text-sm text-gray-600">{resolveSelectedBook.description}</p>
@@ -1405,14 +1399,14 @@ const technicalSpecificBooks = [
                     {technicalGeneralBooks.map((book) => (
                       <Card
                         key={book.id}
-                        className="p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group"
+                        className="site-card p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group border-slate-200"
                         onClick={() => setSelectedBookKey(book.slug)}
                       >
                         <div className="text-center">
                           <div className={`w-20 h-20 bg-gradient-to-r ${book.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}>
                             {book.icon}
                           </div>
-                          <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                          <h3 className="text-2xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">
                             {book.title}
                           </h3>
                           <p className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-6">
@@ -1433,14 +1427,14 @@ const technicalSpecificBooks = [
                     {airNavigationOxfordBooks.map((book) => (
                       <Card
                         key={book.id}
-                        className="p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group"
+                        className="site-card p-8 cursor-pointer hover:shadow-xl transition-all duration-300 group border-slate-200"
                         onClick={() => setSelectedBookKey(book.slug)}
                       >
                         <div className="text-center">
                           <div className={`w-20 h-20 bg-gradient-to-r ${book.color} rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}>
                             {book.icon}
                           </div>
-                          <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                          <h3 className="text-2xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">
                             {book.title}
                           </h3>
                           <p className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-6">
@@ -1469,11 +1463,11 @@ const technicalSpecificBooks = [
                   // Default: show chapters for the selected book
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {chapters.map((chapter) => (
-                      <Card key={chapter.id} className={`p-6 hover:shadow-lg transition-all duration-300 ${!chapter.questions ? 'opacity-75' : ''}`}>
+                      <Card key={chapter.id} className={`site-card p-6 hover:shadow-lg transition-all duration-300 border-slate-200 ${!chapter.questions ? 'opacity-75' : ''}`}>
                         <div className="flex items-start justify-between mb-4">
                           <div className="flex-1">
                             <div className="flex items-center gap-2 mb-2">
-                              <h3 className="text-lg font-bold text-gray-900">{chapter.name}</h3>
+                              <h3 className="text-lg font-bold text-slate-900">{chapter.name}</h3>
                             </div>
                             <div className="flex items-center space-x-4 text-sm text-gray-600">
                               <span className="flex items-center">
@@ -1514,10 +1508,8 @@ const technicalSpecificBooks = [
                 </div>
               );
             })()}
-          </div>
-        </main>
-      </div>
-
+        </div>
+      </main>
     </div>
   );
 };

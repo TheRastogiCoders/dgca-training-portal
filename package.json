@@ -1,7 +1,7 @@
 {
-  "name": "physics-wallah-clone",
+  "name": "vimaanna-dgca-training-portal",
   "version": "1.0.0",
-  "description": "A Physics Wallah inspired learning platform",
+  "description": "VIMAANNA DGCA exam preparation portal for CPL/ATPL pilots",
   "main": "server/index.js",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",

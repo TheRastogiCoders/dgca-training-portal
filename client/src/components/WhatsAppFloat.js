@@ -33,51 +33,36 @@ const WhatsAppFloat = () => {
       {/* ✅ Floating Button Container */}
       <style>
         {`
-          /* Floating Action Buttons: responsive layout */
+          /* Floating Action Buttons */
           .fab-container {
             position: fixed;
-            z-index: 60; /* below navigation bar on mobile */
+            z-index: 999;
             display: flex;
             flex-direction: column;
             align-items: flex-end;
-            gap: 16px; /* base spacing */
-            right: calc(var(--safe-right, 0px) + 16px);
-            bottom: calc(var(--safe-bottom, 0px) + 20px);
+            gap: 12px;
+            right: calc(env(safe-area-inset-right, 0px) + 16px);
+            bottom: calc(env(safe-area-inset-bottom, 0px) + 20px);
           }
 
-          /* Mobile: position WhatsApp on right side, tucked above bottom nav */
+          /* Mobile: small button, pinned to bottom-right corner */
           @media (max-width: 767px) {
             .fab-container {
-              left: auto;
-              right: calc(var(--safe-right, 0px) + 12px);
-              bottom: calc(var(--safe-bottom, 0px) + 90px);
-              align-items: flex-end;
+              right: calc(env(safe-area-inset-right, 0px) + 14px);
+              bottom: calc(env(safe-area-inset-bottom, 0px) + 16px);
               gap: 8px;
-              z-index: 60; /* Below navigation bar */
             }
           }
 
-          /* Small tablets: maintain right alignment with slight spacing */
-          @media (min-width: 480px) and (max-width: 767px) {
-            .fab-container { 
-              right: calc(var(--safe-right, 0px) + 16px);
-              bottom: calc(var(--safe-bottom, 0px) + 80px);
-              gap: 16px;
-            }
-          }
-
-          /* On >=768px (desktop): keep vertical stack on right, increase offset */
+          /* Desktop */
           @media (min-width: 768px) {
             .fab-container {
-              right: calc(var(--safe-right, 0px) + 24px);
-              left: auto;
-              bottom: calc(var(--safe-bottom, 0px) + 28px);
-              gap: 24px;
-              align-items: flex-end;
+              right: calc(env(safe-area-inset-right, 0px) + 24px);
+              bottom: calc(env(safe-area-inset-bottom, 0px) + 28px);
+              gap: 20px;
             }
           }
 
-          /* Ensure buttons never overlap due to transforms */
           .fab-btn { will-change: transform; }
         `}
       </style>
@@ -86,7 +71,7 @@ const WhatsAppFloat = () => {
         {/* 💬 WhatsApp Floating Button */}
         <button
           onClick={handleWhatsAppClick}
-          className="fab-btn whatsapp-float group relative flex items-center justify-center w-16 h-16 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-full shadow-2xl hover:shadow-green-500/25 transition-transform duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-green-500/30"
+          className="fab-btn whatsapp-float group relative flex items-center justify-center w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-full shadow-xl hover:shadow-green-500/25 transition-transform duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-green-500/30"
           aria-label="Follow us on WhatsApp"
           title="Follow us on WhatsApp Channel"
         >

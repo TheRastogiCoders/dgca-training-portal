@@ -21,6 +21,16 @@ export const SEO_CONFIG = {
     description: "Access comprehensive DGCA study materials, notes, books, and resources for all DGCA subjects. Free study materials for Air Regulations, Meteorology, Air Navigation, and Technical subjects.",
     keywords: "DGCA study materials, DGCA notes, DGCA books, DGCA resources, DGCA study guide, aviation study materials, pilot study resources, DGCA exam books"
   },
+  about: {
+    title: "About VIMAANNA | DGCA Exam Preparation - Wings Within Reach",
+    description: "Learn about VIMAANNA - India's trusted DGCA exam preparation platform for CPL/ATPL. Our mission, values, and commitment to pilot training and aviation education. Wings within reach.",
+    keywords: "VIMAANNA about, DGCA training, pilot exam preparation, CPL ATPL India, aviation education, DGCA coaching, wings within reach"
+  },
+  login: {
+    title: "Login | VIMAANNA - DGCA Exam Preparation Portal",
+    description: "Sign in to VIMAANNA to access your DGCA practice tests, PYQ sessions, question bank, and track your progress for pilot license exams.",
+    keywords: "VIMAANNA login, DGCA portal login, pilot exam login"
+  },
   subjects: {
     'air-regulations': {
       title: "Air Regulations DGCA Preparation | Practice Tests & Study Materials - VIMAANNA",

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
-import SiteSidebar from '../SiteSidebar';
 import Card from '../ui/Card';
 import Modal from '../ui/Modal';
 import { API_ENDPOINTS } from '../../config/api';
@@ -428,11 +427,9 @@ const Reports = () => {
 
   if (authLoading || loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-[#f7f9fc] via-[#f3f6fb] to-[#eef2f8]">
-        <div className="flex">
-          <SiteSidebar />
-          <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
-            <div className="max-w-6xl mx-auto">
+      <div className="min-h-screen gradient-bg">
+        <main className="page-content">
+          <div className="page-content-inner max-w-6xl mx-auto">
               <div className="text-center py-16 bg-white/70 backdrop-blur-sm rounded-3xl border border-slate-100 shadow-lg">
                 <div className="flex items-center justify-center mb-4">
                   <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
@@ -440,18 +437,16 @@ const Reports = () => {
                 <p className="text-slate-600 font-semibold">Loading reports...</p>
               </div>
             </div>
-          </main>
-        </div>
+        </main>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#f7f9fc] via-[#f3f6fb] to-[#eef2f8] text-slate-900">
-      <div className="flex">
-        <SiteSidebar />
-        <main className="flex-1 p-4 md:p-8 pt-20 md:pt-24 pb-32 md:pb-12 md:ml-56 lg:ml-64 xl:ml-72 mobile-content-wrapper">
-          <div className="max-w-7xl mx-auto space-y-6">
+    <>
+    <div className="min-h-screen gradient-bg">
+      <main className="page-content">
+        <div className="page-content-inner max-w-7xl mx-auto space-y-6">
             {/* Header */}
             <div className="flex flex-col gap-2">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/60 border border-slate-100 shadow-sm w-fit">
@@ -1148,7 +1143,7 @@ const Reports = () => {
           </div>
         )}
       </Modal>
-    </div>
+    </>
   );
 };
 
