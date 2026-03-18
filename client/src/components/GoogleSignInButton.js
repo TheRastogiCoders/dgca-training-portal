@@ -6,8 +6,6 @@ import { useAuth } from '../context/AuthContext';
 const GoogleSignInButton = ({ onSuccess }) => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [isConfigured, setIsConfigured] = useState(false);
-  const [sdkReady, setSdkReady] = useState(false);
   const { login } = useAuth();
 
   const buttonRef = useRef(null);
@@ -23,11 +21,8 @@ const GoogleSignInButton = ({ onSuccess }) => {
 
     if (!clientId) {
       setError('Google Sign-In not configured');
-      setIsConfigured(false);
       return;
     }
-
-    setIsConfigured(true);
 
     // Inject Google script once
     if (!window.google) {
@@ -65,7 +60,6 @@ const GoogleSignInButton = ({ onSuccess }) => {
         });
       }
 
-      setSdkReady(true);
     } catch (e) {
       setError('Google init failed');
     }

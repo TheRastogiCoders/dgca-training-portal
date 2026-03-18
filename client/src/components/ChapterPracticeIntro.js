@@ -58,7 +58,7 @@ const ChapterPracticeIntro = () => {
 
     loadMetadata();
     return () => { active = false; };
-  }, [subjectSlug, bookSlug, resolvedChapterSlug]);
+  }, [subjectSlug, bookSlug, chapterSlug, resolvedChapterSlug]);
 
   const availableQuestionCount = metadata?.questionCount || 0;
   const canPractice = availableQuestionCount > 0;

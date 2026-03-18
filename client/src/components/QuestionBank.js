@@ -858,6 +858,7 @@ const technicalSpecificBooks = [
     return allBooks.filter(book => book.title === "CAE Oxford");
   };
 
+  /* eslint-disable react-hooks/exhaustive-deps */
   const selectedSubject = useMemo(
     () => subjects.find((subject) => subject.id === selectedSubjectId) || null,
     [selectedSubjectId]
@@ -964,6 +965,7 @@ const technicalSpecificBooks = [
 
     return null;
   }, [selectedSubject, selectedBookKey]);
+  /* eslint-enable react-hooks/exhaustive-deps */
 
   // Auto-scroll to sub-books when CAE Oxford is selected for Air Regulations
   useEffect(() => {

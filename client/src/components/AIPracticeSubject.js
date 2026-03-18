@@ -66,18 +66,6 @@ const subjects = [
   },
 ];
 
-const heroStats = [
-  { label: 'DGCA Papers', value: '120+', detail: '2018–2025 curated PYQs' },
-  { label: 'Smart Reviews', value: '4.9★', detail: 'Instant analytics & tips' },
-  { label: 'Adaptive Sets', value: '∞', detail: 'Personalized every launch' }
-];
-
-const flowTimeline = [
-  { tag: '01', title: 'Select Subject', detail: 'Lock onto the paper you’re targeting this week.' },
-  { tag: '02', title: 'Tune Session', detail: 'Pick the mood: deep revision, sprint, or mock mode.' },
-  { tag: '03', title: 'Solve & Review', detail: 'DGCA-style timer, rich explanations, quick export.' }
-];
-
 const comingSoonSlugs = ['technical-specific'];
 
 const AIPracticeSubject = () => {

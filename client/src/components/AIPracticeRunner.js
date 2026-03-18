@@ -173,8 +173,6 @@ const questionBank = {
 
 const sessionQuestionSets = {
   'regular-december-2024': {
-    bookName: regularDecember2024Data.book_name,
-    chapterName: regularDecember2024Data.chapter_title,
     questions: regularDecember2024Data.questions.map(q => ({
       text: q.question_text,
       options: q.options,
@@ -648,18 +646,20 @@ const AIPracticeRunner = () => {
     initializeSession();
   }, [isAuthenticated, authLoading, navigate, initializeSession]);
 
-  const handleTimeUp = useCallback(() => {
-    if (timerRef.current) {
-      clearInterval(timerRef.current);
+  const nextQuestion = () => {
+    if (current >= totalQuestions - 1) {
+      setDone(true);
+      if (timerRef.current) {
+        clearInterval(timerRef.current);
+      }
+      // Save results when test is completed
+      saveResults();
+      return;
     }
-    // Auto-submit current question if time runs out
-    if (selectedAnswer === null) {
-      setSelectedAnswer(-1); // Mark as unanswered
-      setTimeout(() => {
-        nextQuestion();
-      }, 2000);
-    }
-  }, [selectedAnswer]);
+    
+    setCurrent(prev => prev + 1);
+    setTimeLeft(practiceSettings.timeLimit !== 'unlimited' ? parseInt(practiceSettings.timeLimit) : null);
+  };
 
   // Timer logic
   useEffect(() => {
@@ -670,7 +670,16 @@ const AIPracticeRunner = () => {
       timerRef.current = setInterval(() => {
         setTimeLeft(prev => {
           if (prev <= 1) {
-            handleTimeUp();
+            if (timerRef.current) {
+              clearInterval(timerRef.current);
+            }
+            // Auto-submit current question if time runs out
+            if (selectedAnswer === null) {
+              setSelectedAnswer(-1); // Mark as unanswered
+              setTimeout(() => {
+                nextQuestion();
+              }, 2000);
+            }
             return 0;
           }
           return prev - 1;
@@ -683,7 +692,8 @@ const AIPracticeRunner = () => {
         clearInterval(timerRef.current);
       }
     };
-  }, [current, done, loading, practiceSettings.timeLimit, handleTimeUp]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [current, done, loading, practiceSettings.timeLimit, selectedAnswer]);
 
   const selectAnswer = (idx) => {
     if (selectedAnswer !== null) return; // Prevent changing answer after selection
@@ -707,7 +717,7 @@ const AIPracticeRunner = () => {
     // no-op for explanation display
   };
 
-  const saveResults = async () => {
+  async function saveResults() {
     try {
       debugLog('Saving PYQ session results...', { score, total: totalQuestions, subjectName, bookName, chapterName });
       
@@ -757,22 +767,7 @@ const AIPracticeRunner = () => {
     } catch (error) {
       console.error('Error saving results:', error);
     }
-  };
-
-  const nextQuestion = () => {
-    if (current >= totalQuestions - 1) {
-      setDone(true);
-      if (timerRef.current) {
-        clearInterval(timerRef.current);
-      }
-      // Save results when test is completed
-      saveResults();
-      return;
-    }
-    
-    setCurrent(prev => prev + 1);
-    setTimeLeft(practiceSettings.timeLimit !== 'unlimited' ? parseInt(practiceSettings.timeLimit) : null);
-  };
+  }
 
   const previousQuestion = () => {
     if (current === 0) return;
@@ -868,7 +863,7 @@ const AIPracticeRunner = () => {
         throw new Error(errorData.error || 'Failed to submit report');
       }
 
-      const result = await response.json();
+      await response.json();
 
       // Also open Gmail compose with the report content for email workflow
       const supportEmail = 'contactvimaanna@gmail.com';

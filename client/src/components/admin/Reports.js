@@ -32,6 +32,7 @@ const Reports = () => {
     explanation: ''
   });
 
+  /* eslint-disable react-hooks/exhaustive-deps */
   useEffect(() => {
     if (authLoading) return;
     
@@ -41,7 +42,8 @@ const Reports = () => {
     }
 
     fetchReports();
-  }, [isAuthenticated, authLoading, navigate, statusFilter, searchQuery, page]);
+  }, [isAuthenticated, authLoading, navigate, statusFilter, searchQuery, page, isAdmin]);
+  /* eslint-enable react-hooks/exhaustive-deps */
 
   const fetchReports = async () => {
     try {
@@ -341,7 +343,7 @@ const Reports = () => {
         throw new Error(errorData.message || 'Failed to update question');
       }
 
-      const result = await response.json();
+      await response.json();
       
       alert('Question updated successfully!');
       

@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import debugLog from '../utils/debug';
@@ -9,7 +9,6 @@ const PracticeTest = () => {
   const { isAuthenticated } = useAuth();
   const navigate = useNavigate();
   const [results, setResults] = useState([]);
-  const [loadingResults, setLoadingResults] = useState(false);
 
   const testTypes = [
     {
@@ -29,13 +28,12 @@ const PracticeTest = () => {
   ];
 
   // Load real results for the logged-in user
-  const fetchResults = async () => {
+  const fetchResults = useCallback(async () => {
     if (!isAuthenticated) {
       debugLog('User not authenticated, skipping results fetch');
       return;
     }
     debugLog('Fetching results for user...');
-    setLoadingResults(true);
     try {
       const token = localStorage.getItem('token');
       
@@ -57,7 +55,6 @@ const PracticeTest = () => {
       } catch (e) {
         debugLog('API test error:', e.message);
         debugLog('Server might not be running. Please start the server with: cd server && npm start');
-        setLoadingResults(false);
         return;
       }
       
@@ -101,13 +98,12 @@ const PracticeTest = () => {
       console.error('Error fetching results:', e);
       setResults([]);
     } finally {
-      setLoadingResults(false);
     }
-  };
+  }, [isAuthenticated]);
 
   useEffect(() => {
     fetchResults();
-  }, [isAuthenticated]);
+  }, [fetchResults]);
 
   // Refresh results when component becomes visible (user returns from test)
   useEffect(() => {
@@ -132,15 +128,7 @@ const PracticeTest = () => {
       document.removeEventListener('visibilitychange', handleVisibilityChange);
       window.removeEventListener('focus', handleFocus);
     };
-  }, [isAuthenticated]);
-
-  // Also refresh when component mounts (in case user navigated back)
-  useEffect(() => {
-    if (isAuthenticated) {
-      debugLog('Component mounted, fetching results...');
-      fetchResults();
-    }
-  }, []);
+  }, [isAuthenticated, fetchResults]);
 
   // Listen for custom refresh event from AI practice results
   useEffect(() => {
@@ -151,112 +139,7 @@ const PracticeTest = () => {
 
     window.addEventListener('refreshPracticeResults', handleRefreshEvent);
     return () => window.removeEventListener('refreshPracticeResults', handleRefreshEvent);
-  }, []);
-
-  const recentTests = useMemo(() => {
-    if (!Array.isArray(results)) return [];
-    const mapped = results.map(r => ({
-      subject: r.subject?.name || r.subjectName || 'Unknown',
-      score: Math.round((Number(r.score || 0) / Math.max(1, Number(r.total || 0))) * 100),
-      date: r.createdAt ? new Date(r.createdAt) : new Date(),
-      questions: r.total || (r.answers?.length || 0),
-      testType: r.testType || 'book',
-      timeSpent: r.timeSpent || 0,
-      chapterName: r.chapterName,
-    }));
-    mapped.sort((a, b) => b.date - a.date);
-    return mapped.slice(0, 5).map(m => ({
-      subject: m.subject,
-      score: m.score,
-      date: m.date.toISOString().slice(0, 10),
-      questions: m.questions,
-      testType: m.testType,
-      timeSpent: m.timeSpent,
-      chapterName: m.chapterName,
-    }));
-  }, [results]);
-
-  const stats = useMemo(() => {
-    if (!Array.isArray(results) || results.length === 0) {
-      return { 
-        tests: 0, 
-        avg: 0, 
-        best: 0, 
-        streakDays: 0, 
-        bySubject: [],
-        byTestType: [],
-        totalTime: 0,
-        improvement: 0
-      };
-    }
-    const percents = results.map(r => (Number(r.score || 0) / Math.max(1, Number(r.total || 0))) * 100);
-    const tests = results.length;
-    const avg = Math.round(percents.reduce((a, b) => a + b, 0) / tests);
-    const best = Math.round(Math.max(...percents));
-    
-    // Calculate streak
-    const days = new Set(results.map(r => (r.createdAt ? new Date(r.createdAt) : new Date()).toDateString()));
-    let streak = 0; 
-    let cursor = new Date();
-    for (;;) { 
-      if (days.has(cursor.toDateString())) { 
-        streak += 1; 
-      } else { 
-        break; 
-      } 
-      cursor.setDate(cursor.getDate() - 1); 
-    }
-    
-    // Subject performance
-    const bySub = {};
-    results.forEach(r => {
-      const key = r.subject?.name || r.subjectName || 'Unknown';
-      const pct = (Number(r.score || 0) / Math.max(1, Number(r.total || 0))) * 100;
-      if (!bySub[key]) bySub[key] = [];
-      bySub[key].push(pct);
-    });
-    const bySubject = Object.entries(bySub).map(([name, arr]) => ({ 
-      name, 
-      value: Math.round(arr.reduce((a,b)=>a+b,0)/arr.length),
-      count: arr.length
-    }));
-
-    // Test type performance
-    const byType = {};
-    results.forEach(r => {
-      const key = r.testType || 'book';
-      const pct = (Number(r.score || 0) / Math.max(1, Number(r.total || 0))) * 100;
-      if (!byType[key]) byType[key] = [];
-      byType[key].push(pct);
-    });
-    const byTestType = Object.entries(byType).map(([name, arr]) => ({ 
-      name: name === 'ai' ? 'AI Practice' : name === 'admin' ? 'Admin Analysis' : 'Book Questions', 
-      value: Math.round(arr.reduce((a,b)=>a+b,0)/arr.length),
-      count: arr.length
-    }));
-
-    // Total time spent
-    const totalTime = results.reduce((sum, r) => sum + (r.timeSpent || 0), 0);
-
-    // Improvement calculation (last 5 vs first 5)
-    const sortedResults = [...results].sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
-    const firstFive = sortedResults.slice(0, 5);
-    const lastFive = sortedResults.slice(-5);
-    const firstAvg = firstFive.length > 0 ? firstFive.reduce((sum, r) => sum + (Number(r.score || 0) / Math.max(1, Number(r.total || 0))) * 100, 0) / firstFive.length : 0;
-    const lastAvg = lastFive.length > 0 ? lastFive.reduce((sum, r) => sum + (Number(r.score || 0) / Math.max(1, Number(r.total || 0))) * 100, 0) / lastFive.length : 0;
-    const improvement = Math.round(lastAvg - firstAvg);
-
-    return { 
-      tests, 
-      avg, 
-      best, 
-      streakDays: streak, 
-      bySubject,
-      byTestType,
-      totalTime,
-      improvement
-    };
-  }, [results]);
+  }, [fetchResults]);
 
   const handleTestClick = (test) => {
     if (!isAuthenticated) {
@@ -266,19 +149,6 @@ const PracticeTest = () => {
     if (typeof test.onClick === 'function') {
       test.onClick();
     }
-  };
-
-  const formatTime = (minutes) => {
-    if (minutes < 60) return `${minutes}m`;
-    const hours = Math.floor(minutes / 60);
-    const mins = minutes % 60;
-    return `${hours}h ${mins}m`;
-  };
-
-  const getScoreColor = (score) => {
-    if (score >= 80) return 'text-green-600 bg-green-100';
-    if (score >= 60) return 'text-yellow-600 bg-yellow-100';
-    return 'text-red-600 bg-red-100';
   };
 
   return (
@@ -301,6 +171,13 @@ const PracticeTest = () => {
                 Master DGCA exams with curated Previous Year Questions, subject-wise practice, and clear progress insights.
               </p>
               <p className="text-sm text-slate-500 mb-4">Wings within reach.</p>
+              {isAuthenticated && Array.isArray(results) && (
+                <div className="inline-flex items-center px-3 sm:px-4 py-2 bg-blue-50 border border-blue-200 rounded-full">
+                  <span className="text-blue-700 font-medium text-xs sm:text-sm">
+                    {results.length} practice result{results.length === 1 ? '' : 's'} saved
+                  </span>
+                </div>
+              )}
               {!isAuthenticated && (
                 <div className="inline-flex items-center px-3 sm:px-4 py-2 bg-amber-50 border border-amber-200 rounded-full">
                   <span className="text-amber-800 font-medium text-xs sm:text-sm">🔒 Login to access PYQ practice & track progress</span>

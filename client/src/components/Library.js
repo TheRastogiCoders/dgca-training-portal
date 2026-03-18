@@ -61,34 +61,6 @@ const Library = () => {
     return (item.type || '').toLowerCase() === filter;
   });
 
-  // Static coming soon list (placeholder)
-  const comingSoonNotes = [
-    {
-      id: 1,
-      title: 'Air Regulations Short Notes',
-      subject: 'Air Regulations',
-      description: 'Concise notes covering key CAR sections and licensing rules.',
-      icon: '📘',
-      color: 'from-blue-500 to-blue-600',
-    },
-    {
-      id: 2,
-      title: 'Meteorology Mindmaps',
-      subject: 'Meteorology',
-      description: 'Visual maps for systems, fronts, and weather hazards.',
-      icon: '🌤️',
-      color: 'from-yellow-500 to-orange-500',
-    },
-    {
-      id: 3,
-      title: 'Electrical Systems Cheatsheet',
-      subject: 'Technical General',
-      description: 'High-yield formulas and checklists for aircraft electrics.',
-      icon: '🔌',
-      color: 'from-blue-500 to-emerald-600',
-    },
-  ];
-
   return (
     <div className="min-h-screen gradient-bg">
       <main className="page-content">

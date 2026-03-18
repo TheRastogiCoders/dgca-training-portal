@@ -3,11 +3,6 @@ import { Link, useNavigate, useParams, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import Card from './ui/Card';
 
-const friendly = (slug) => (slug || '')
-  .split('-')
-  .map(p => p.charAt(0).toUpperCase() + p.slice(1))
-  .join(' ');
-
 const chapterData = {
   'air-regulations': [
     { name: 'Civil Aviation Rules', description: 'Fundamental aviation regulations and procedures', questions: '120+', difficulty: 'Medium', topics: ['CAR Rules', 'Flight Rules', 'Airspace'] },
@@ -73,7 +68,7 @@ const AIPracticeChapters = () => {
   const { subjectSlug, bookSlug } = useParams();
   const location = useLocation();
   const navigate = useNavigate();
-  const { user, isAuthenticated } = useAuth();
+  const { isAuthenticated } = useAuth();
   const [selectedChapter, setSelectedChapter] = useState(null);
   const [showChapterDetails, setShowChapterDetails] = useState(false);
 

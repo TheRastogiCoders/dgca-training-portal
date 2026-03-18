@@ -25,7 +25,7 @@ export const GLOBAL_ASSETS = {
       tagline: 'Master Air Regulations, Meteorology, Air Navigation, and Technical General with confidence.',
     },
     {
-      image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1920&q=80',
+      image: 'https://dgcacomputernumber.com/wp-content/uploads/2025/08/what-is-dgca-exam.png',
       title: 'From Ground to Cockpit',
       tagline: 'Practice like the real exam. Timed tests, PYQ, and chapter-wise drills—all free.',
     },

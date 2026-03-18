@@ -27,7 +27,7 @@ const StudentsLogins = () => {
     const interval = setInterval(fetchAllUsers, 30000);
     
     return () => clearInterval(interval);
-  }, [isAuthenticated, authLoading, navigate]);
+  }, [isAuthenticated, authLoading, navigate, isAdmin]);
 
   const fetchAllUsers = async () => {
     try {

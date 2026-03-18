@@ -31,7 +31,6 @@ const BookPracticeRunner = () => {
   const [reportSubmitted, setReportSubmitted] = useState(false);
   const [questionToReport, setQuestionToReport] = useState(null);
   const [questionIndexToReport, setQuestionIndexToReport] = useState(null);
-  const [loadingExplanation, setLoadingExplanation] = useState(false);
   const [explanationCache, setExplanationCache] = useState({});
   const startTimeRef = useRef(Date.now());
   const [answersHistory, setAnswersHistory] = useState({});
@@ -106,7 +105,7 @@ const BookPracticeRunner = () => {
     });
     
     // Pattern 5: Remove "Correct Answer: A • a." or "Answer: B b."
-    text = text.replace(/([Cc]orrect\s+)?[Aa]nswer:\s*([A-F])\s*[•·\+\s]+\s*([a-f])\.?/gi, (match, correct, upper, lower) => {
+    text = text.replace(/([Cc]orrect\s+)?[Aa]nswer:\s*([A-F])\s*[•·+\s]+\s*([a-f])\.?/gi, (match, correct, upper, lower) => {
       if (upper.toUpperCase() === lower.toUpperCase()) {
         return (correct ? 'Correct Answer: ' : 'Answer: ') + upper;
       }
@@ -140,7 +139,7 @@ const BookPracticeRunner = () => {
     return text;
   };
 
-  const restoreState = (items) => {
+  const restoreState = useCallback((items) => {
     try {
       const raw = localStorage.getItem(storageKey);
       if (!raw) return;
@@ -180,7 +179,7 @@ const BookPracticeRunner = () => {
       console.warn('Failed to restore practice state:', err);
       localStorage.removeItem(storageKey);
     }
-  };
+  }, [storageKey]);
 
   useEffect(() => {
     const load = async () => {
@@ -264,7 +263,7 @@ const BookPracticeRunner = () => {
     };
 
     load();
-  }, [bookSlug, resolvedChapterSlug, navigate]);
+  }, [bookSlug, resolvedChapterSlug, restoreState]);
 
   useEffect(() => {
     if (loading || questions.length === 0) return;
@@ -292,7 +291,6 @@ const BookPracticeRunner = () => {
       return cleanExplanationLabels(explanationCache[cacheKey]);
     }
 
-    setLoadingExplanation(true);
     try {
       const explainUrl = API_ENDPOINTS.SEARCH_ASK.replace('/api/search/ask', '/api/search/explain-question');
       const response = await fetch(explainUrl, {
@@ -330,8 +328,6 @@ const BookPracticeRunner = () => {
     } catch (error) {
       console.error('Error fetching explanation:', error);
       return cleanExplanationLabels(fallbackText);
-    } finally {
-      setLoadingExplanation(false);
     }
   };
 
@@ -492,7 +488,7 @@ const BookPracticeRunner = () => {
         throw new Error(errorData.error || 'Failed to submit report');
       }
 
-      const result = await response.json();
+      await response.json();
       
       // Also open Gmail compose with the report content for email workflow
       const supportEmail = 'contactvimaanna@gmail.com';

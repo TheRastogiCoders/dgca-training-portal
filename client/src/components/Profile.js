@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { API_ENDPOINTS } from '../config/api';
@@ -18,15 +18,7 @@ const Profile = () => {
     timeSpent: 0
   });
 
-  useEffect(() => {
-    if (!user) {
-      navigate('/login');
-      return;
-    }
-    fetchUserResults();
-  }, [user, navigate]);
-
-  const fetchUserResults = async () => {
+  const fetchUserResults = useCallback(async () => {
     try {
       const token = localStorage.getItem('token');
       const response = await fetch(API_ENDPOINTS.RESULTS, {
@@ -47,7 +39,15 @@ const Profile = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }, []);
+
+  useEffect(() => {
+    if (!user) {
+      navigate('/login');
+      return;
+    }
+    fetchUserResults();
+  }, [user, navigate, fetchUserResults]);
 
   const calculateStats = (resultsData) => {
     if (!resultsData || resultsData.length === 0) {

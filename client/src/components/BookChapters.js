@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Card from './ui/Card';
 import { resolveChapterSlug } from '../utils/chapterSlug';
@@ -57,7 +57,7 @@ const BookChapters = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const load = async () => {
+  const load = useCallback(async () => {
     if (!bookSlug) {
       console.error('No bookSlug provided');
       setError('No book selected');
@@ -143,15 +143,11 @@ const BookChapters = () => {
     } finally {
       setIsLoading(false);
     }
-  };
+  }, [bookSlug]);
 
   useEffect(() => {
     load();
-  }, [bookSlug]);
-
-  const handleRefresh = () => {
-    load();
-  };
+  }, [load]);
 
   const subject = subjectData[subjectSlug] || {
     title: friendly(subjectSlug),

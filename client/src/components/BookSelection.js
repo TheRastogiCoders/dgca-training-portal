@@ -3,7 +3,6 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import Stepper from './ui/Stepper';
 import Card from './ui/Card';
-import Button from './ui/Button';
 import LoginModal from './LoginModal';
 
 const BookSelection = () => {

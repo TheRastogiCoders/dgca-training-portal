@@ -36,7 +36,7 @@ const QuestionUpload = () => {
     }
     
     fetchBooksStructure();
-  }, [isAuthenticated, authLoading, navigate]);
+  }, [isAuthenticated, authLoading, navigate, isAdmin]);
 
   const fetchBooksStructure = async () => {
     try {
