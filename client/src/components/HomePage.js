@@ -20,7 +20,6 @@ const HomePage = () => (
         <div className="page-content-inner home-body-content">
           <FeaturesStrip />
           <AboutSection />
-          <QuestionBankSection />
           <LibrarySection />
           <SubjectsStrip />
           <StatsStrip />
@@ -360,65 +359,6 @@ function AboutSection() {
               <p className="text-sm text-slate-700">
                 Switch between subjects, save attempts, and return any time without losing where you left off.
               </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function QuestionBankSection() {
-  return (
-    <section id="question-bank-preview" className="mb-16 md:mb-20 scroll-mt-24">
-      <div className="site-card p-8 md:p-12">
-        <div className="flex flex-col lg:flex-row gap-8 lg:items-start mb-8">
-          <div className="flex-1">
-            <p className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600 mb-2">Practice</p>
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-3">Question Bank & Timed Tests</h2>
-            <p className="text-slate-600 text-sm md:text-base leading-relaxed mb-4">
-              Build exam stamina with thousands of DGCA-style questions. Filter by subject, chapter, and difficulty level, then switch into timed mode when you&apos;re ready.
-            </p>
-            <ul className="space-y-2 text-sm text-slate-600 mb-6">
-              <li className="flex items-start gap-2">
-                <span className="mt-1 h-1.5 w-1.5 rounded-full bg-blue-500" />
-                <span>Chapter-wise practice for CAE Oxford, RK Bali, IC Joshi and more.</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="mt-1 h-1.5 w-1.5 rounded-full bg-blue-500" />
-                <span>Instant feedback and explanations to understand concepts, not just answers.</span>
-              </li>
-            </ul>
-            <Link to="/question-bank" className="btn-institute-primary inline-flex items-center gap-2">
-              Open Question Bank
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </Link>
-          </div>
-          <div className="flex-shrink-0 w-full lg:w-64">
-            <div className="rounded-2xl bg-slate-900 text-white p-5 mb-4 shadow-lg">
-              <div className="flex items-center justify-between mb-4">
-                <span className="text-xs font-semibold tracking-wide text-blue-200 uppercase">Mock test</span>
-                <span className="text-[11px] text-slate-300">DGCA pattern</span>
-              </div>
-              <div className="space-y-2 text-sm">
-                <div className="flex items-center justify-between">
-                  <span className="text-slate-200">Questions</span>
-                  <span className="font-semibold">50</span>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span className="text-slate-200">Time</span>
-                  <span className="font-semibold">60 min</span>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span className="text-slate-200">Attempts saved</span>
-                  <span className="font-semibold text-emerald-300">Yes</span>
-                </div>
-              </div>
-            </div>
-            <div className="rounded-2xl bg-blue-50 border border-blue-100 p-4 flex items-center justify-center text-blue-600">
-              <IconClipboard className="w-16 h-16 md:w-20 md:h-20" size="xl" />
             </div>
           </div>
         </div>
