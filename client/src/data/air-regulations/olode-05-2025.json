@@ -52,16 +52,20 @@
     {
       "full_question_text": "FIS (Flight Information Service) gives collision hazard warnings in:",
       "options": [
-        "CHECK ANSWER"
+        "Known traffic observed and reported to aircraft concerned",
+        "Only emergencies and distress traffic",
+        "Only controlled airspace under radar vectors"
       ],
-      "solution": "CHECK ANSWER"
+      "solution": "Known traffic observed and reported to aircraft concerned"
     },
     {
       "full_question_text": "Medium to good Friction coefficient -",
       "options": [
-        "CHECK ANSWER"
+        "0.20 to 0.29",
+        "0.30 to 0.39",
+        "0.40 and above"
       ],
-      "solution": "CHECK ANSWER"
+      "solution": "0.30 to 0.39"
     },
     {
       "full_question_text": "What is Special VFR?",
@@ -93,9 +97,11 @@
     {
       "full_question_text": "Correct way of requesting QFE:",
       "options": [
-        "CHECK ANSWER"
+        "Request QFE by stating aircraft callsign and aerodrome",
+        "Request QFE only after landing",
+        "Request QFE using transponder IDENT only"
       ],
-      "solution": "CHECK ANSWER"
+      "solution": "Request QFE by stating aircraft callsign and aerodrome"
     }
   ]
 }

@@ -62,11 +62,6 @@ const LoginModal = ({ onLogin, onClose }) => {
         });
         const data = await response.json();
         if (response.ok) {
-          // Enforce: Admins must log in via /admin only
-          if (data.user?.isAdmin && window.location.pathname !== '/admin') {
-            setError('Admin login allowed only at /admin');
-            return;
-          }
           // Update global auth state immediately
           login(data.user, data.token);
           onLogin(data.user);

@@ -6,9 +6,11 @@
     {
       "full_question_text": "WHAT IS SUITABLE AERODROME?",
       "options": [
-        "CHECK ANSWER"
+        "An aerodrome with adequate runway, services, weather minima, and facilities for the aircraft type",
+        "Any aerodrome with ATC service only",
+        "Only an international aerodrome with customs"
       ],
-      "solution": "CHECK ANSWER"
+      "solution": "An aerodrome with adequate runway, services, weather minima, and facilities for the aircraft type"
     },
     {
       "full_question_text": "When an ATS flight plan has been submitted for a controlled flight, the flight plan should be amended or cancelled in the event of the off-block time being delayed by:",

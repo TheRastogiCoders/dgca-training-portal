@@ -169,7 +169,9 @@
             "question_text": "ETOPS:",
             "type": "MCQ",
             "options": [
-              "A. CHECK ANSWER"
+              "A. Extended-range Twin-engine Operational Performance Standards",
+              "B. Estimated Track Over Positioning System",
+              "C. Emergency Takeoff Operations Procedure Standard"
             ],
             "answer": "A"
           },
@@ -409,7 +411,9 @@
             "question_text": "FEW QUESTION ASKED ABOUT THE FREQUNCY OF NAV AIDS",
             "type": "MCQ",
             "options": [
-              "A. CHECK ANSWER"
+              "A. VOR works in VHF band around 108.00 to 117.95 MHz",
+              "B. NDB works only above 5000 MHz",
+              "C. DME operates in HF communication band"
             ],
             "answer": "A"
           }

@@ -114,7 +114,7 @@ const questionBank = {
       text: 'When leaning a piston engine mixture during {chapter}, which indicator confirms best power?',
       options: ['Decrease in RPM', 'Peak EGT then 50°F rich', 'Peak CHT then lean 100°F', 'Fuel flow minimum'],
       answerIndex: 1,
-      explanation: 'Best power is typically achieved slightly rich of peak EGT—about 50°F on most engines.'
+      explanation: 'Best power is typically achieved slightly rich of peak EGT - about 50°F on most engines.'
     },
     {
       text: 'A fully charged 24V aircraft battery should read approximately what voltage at rest?',
@@ -134,7 +134,7 @@ const questionBank = {
       text: 'For {chapter}, why is best glide speed critical during engine failure?',
       options: ['Maximizes climb', 'Provides minimum sink rate', 'Ensures structural safety speed', 'Maintains most range per altitude lost'],
       answerIndex: 3,
-      explanation: 'Best glide delivers the greatest horizontal distance for each unit of altitude lost—vital after failures.'
+      explanation: 'Best glide delivers the greatest horizontal distance for each unit of altitude lost - vital after failures.'
     },
     {
       text: 'Piper-style fuel selectors typically feature which protective design?',

@@ -32,6 +32,7 @@ const StudentsLogins = lazy(() => import('./components/admin/StudentsLogins'));
 const QuestionUpload = lazy(() => import('./components/admin/QuestionUpload'));
 const Reports = lazy(() => import('./components/admin/Reports'));
 const AboutUs = lazy(() => import('./components/AboutUs'));
+const FooterInfoPage = lazy(() => import('./components/FooterInfoPage'));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -61,6 +62,14 @@ function App() {
                   <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/about" element={<AboutUs />} />
+                <Route path="/terms-and-conditions" element={<FooterInfoPage pageKey="terms-and-conditions" />} />
+                <Route path="/privacy-policy" element={<FooterInfoPage pageKey="privacy-policy" />} />
+                <Route path="/cookies" element={<FooterInfoPage pageKey="cookies" />} />
+                <Route path="/payment-policy" element={<FooterInfoPage pageKey="payment-policy" />} />
+                <Route path="/press" element={<FooterInfoPage pageKey="press" />} />
+                <Route path="/training" element={<FooterInfoPage pageKey="training" />} />
+                <Route path="/test" element={<FooterInfoPage pageKey="test" />} />
+                <Route path="/partner-with-us" element={<FooterInfoPage pageKey="partner-with-us" />} />
                 <Route path="/library" element={<Library />} />
                 <Route path="/question-bank" element={<QuestionBank />} />
                 <Route path="/pyq" element={<PracticeTest />} />
@@ -83,10 +92,12 @@ function App() {
                 <Route path="/sample-papers/:subjectSlug/:bookSlug/:paperSlug" element={<SamplePaperViewer />} />
                 <Route path="/practice/:subjectSlug/:bookSlug/:chapterSlug" element={<ChapterPracticeIntro />} />
                 {/* Admin routes */}
+                <Route path="/admin" element={<Reports />} />
                 <Route path="/admin/students-logins" element={<StudentsLogins />} />
                 <Route path="/admin/question-upload" element={<QuestionUpload />} />
                 <Route path="/admin/reports" element={<Reports />} />
                 {/* Hidden route: not linked from navigation */}
+                <Route path="/contact" element={<ContactSupport />} />
                 <Route path="/support/contact" element={<ContactSupport />} />
                 </Routes>
                 </Suspense>

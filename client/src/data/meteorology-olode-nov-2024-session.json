@@ -369,16 +369,24 @@
     {
       "question_number": 33,
       "question_text": "What is the purpose of vortex generators/fences?",
-      "question_type": "Incomplete",
-      "options": [],
-      "answer": "check answers"
+      "question_type": "MCQ",
+      "options": [
+        "A. To energize boundary layer and delay flow separation",
+        "B. To increase fuel consumption for anti-icing",
+        "C. To reduce radio interference in VHF band"
+      ],
+      "answer": "A"
     },
     {
       "question_number": 34,
       "question_text": "You are flying at FL100 The Temperature Is 10 degree warmer than ISA, what is the OAT likely To be",
-      "question_type": "Incomplete",
-      "options": [],
-      "answer": "CHECK ANSWER"
+      "question_type": "MCQ",
+      "options": [
+        "A. -5°C",
+        "B. +5°C",
+        "C. -15°C"
+      ],
+      "answer": "B"
     }
   ]
 }

@@ -92,6 +92,24 @@ const Profile = () => {
     });
   };
 
+  const getMemberSinceYear = () => {
+    const accountCreated = user?.createdAt ? new Date(user.createdAt) : null;
+    if (accountCreated && !Number.isNaN(accountCreated.getTime())) {
+      return accountCreated.getFullYear();
+    }
+
+    const datedResults = results
+      .map((r) => (r?.createdAt ? new Date(r.createdAt) : null))
+      .filter((d) => d && !Number.isNaN(d.getTime()))
+      .sort((a, b) => a - b);
+
+    if (datedResults.length > 0) {
+      return datedResults[0].getFullYear();
+    }
+
+    return new Date().getFullYear();
+  };
+
   if (loading) {
     return (
       <div className="min-h-screen gradient-bg">
@@ -130,7 +148,7 @@ const Profile = () => {
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                     </svg>
-                    <span>Member since 2024</span>
+                    <span>Member since {getMemberSinceYear()}</span>
                   </div>
                 </div>
               </div>

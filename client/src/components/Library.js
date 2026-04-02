@@ -72,7 +72,7 @@ const Library = () => {
                 Study Library
               </h1>
               <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto font-medium mb-4">
-                Notes, PDFs, and study materials—free and organized for your DGCA preparation.
+                Notes, PDFs, and study materials - organized for your DGCA preparation.
               </p>
               <p className="text-sm text-slate-500 mb-4">Wings within reach.</p>
               {content.length > 0 && (

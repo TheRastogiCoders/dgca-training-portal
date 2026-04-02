@@ -155,7 +155,7 @@ const PracticeTest = () => {
     <>
       <SEO
         title="DGCA PYQ Practice Tests | Previous Year Questions - VIMAANNA"
-        description="Practice DGCA previous year questions (PYQ) with our comprehensive test series. Access PYQ sessions for Air Regulations, Meteorology, Air Navigation, and Technical General. Free DGCA mock tests and practice exams."
+        description="Practice DGCA previous year questions (PYQ) with our comprehensive test series. Access PYQ sessions for Air Regulations, Meteorology, Air Navigation, and Technical General. DGCA mock tests and practice exams."
         keywords="DGCA PYQ, DGCA previous year questions, DGCA practice test, DGCA mock test, DGCA exam questions, DGCA sample papers, DGCA test series, DGCA online practice, DGCA exam preparation"
       />
       <div className="min-h-screen gradient-bg">

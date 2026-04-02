@@ -10,8 +10,8 @@ const HERO_AUTOPLAY_MS = 5500;
 const HomePage = () => (
   <>
     <SEO
-      title="VIMAANNA - DGCA Exam Preparation | Pilot License Exam (CPL/ATPL) Practice Tests, Question Bank & Study Materials"
-      description="Best DGCA exam preparation platform for pilot license exams (CPL, ATPL). Practice tests, PYQ sessions, question banks for Air Regulations, Meteorology, Air Navigation, Technical General. Free aviation exam preparation, pilot exam questions, and study materials. Prepare for commercial pilot license and airline transport license exams."
+      title="Vimaanna - wings within reach!"
+      description="Best DGCA exam preparation platform for pilot license exams (CPL, ATPL). Practice tests, PYQ sessions, question banks for Air Regulations, Meteorology, Air Navigation, Technical General. Aviation exam preparation, pilot exam questions, and study materials. Prepare for commercial pilot license and airline transport license exams."
       keywords="DGCA exam, DGCA preparation, DGCA practice test, DGCA question bank, DGCA study material, Air Regulations DGCA, Meteorology DGCA, Air Navigation DGCA, Technical General DGCA, DGCA pilot exam, DGCA CPL exam, DGCA ATPL exam, aviation exam preparation, pilot license exam, DGCA training, CPL exam, ATPL exam, commercial pilot license, airline transport pilot license, aviation training, pilot training"
     />
     <div className="min-h-screen gradient-bg overflow-x-hidden">
@@ -86,7 +86,7 @@ function HeroCarousel() {
             <div className="hero-section-inner hero-redesign-inner">
               <div className="hero-status-pill hero-redesign-pill">
                 <span className="hero-status-pill-dot" aria-hidden />
-                <span>Free for all students</span>
+                <span>Open for all students</span>
               </div>
               <div className="hero-redesign-badge">DGCA · CPL & ATPL</div>
               <h1 className="hero-redesign-title">{slide.title}</h1>
@@ -131,7 +131,7 @@ function HeroCarousel() {
 
 function FeaturesStrip() {
   const items = [
-    { label: 'Always free to start', caption: 'Access core question bank and library without paying anything.', Icon: IconLibrary },
+    { label: 'Open to start', caption: 'Access core question bank and library without paying anything.', Icon: IconLibrary },
     { label: 'Built for DGCA exams', caption: 'Content aligned with CPL & ATPL theory syllabus, not generic aviation.', Icon: IconCheck },
     { label: 'Practice like the real paper', caption: 'Timed tests, PYQ, and chapter-wise drills that feel like exam day.', Icon: IconClipboard },
     { label: 'See where you stand', caption: 'Simple dashboards to understand strong and weak areas over time.', Icon: IconChart },
@@ -213,7 +213,7 @@ function SubjectsStrip() {
 
 function StatsStrip() {
   const stats = [
-    { value: '100% Free', label: 'Core practice tools' },
+    { value: 'Always open', label: 'Core practice tools' },
     { value: '6+', label: 'Key DGCA subjects' },
     { value: 'Exam-style', label: 'Question patterns' },
     { value: '24/7', label: 'Any device, anywhere' },
@@ -241,8 +241,8 @@ const FAQ_ITEMS = [
     a: 'DGCA (Directorate General of Civil Aviation) regulates civil aviation in India. This platform is for aspiring pilots preparing for CPL (Commercial Pilot Licence) and ATPL (Airline Transport Pilot Licence) theory exams.',
   },
   {
-    q: 'Is VIMAANNA really free?',
-    a: 'Yes. We provide free question banks, previous year questions (PYQ), and study library access. Our mission is to make quality DGCA preparation accessible to every student.',
+    q: 'Is VIMAANNA open to everyone?',
+    a: 'Yes. We provide question banks, previous year questions (PYQ), and study library access. Our mission is to make quality DGCA preparation accessible to every student.',
   },
   {
     q: 'Which subjects are covered?',
@@ -295,7 +295,7 @@ function FinalCTA() {
     <section className="vimaanna-cta-block mb-16 md:mb-20">
       <h2 className="vimaanna-cta-title text-2xl md:text-3xl">Ready to start?</h2>
       <p className="vimaanna-cta-desc">
-        Join thousands of aspiring pilots preparing for DGCA exams. Free question bank, PYQ, and library—all in one place.
+        Join thousands of aspiring pilots preparing for DGCA exams. Question bank, PYQ, and library - all in one place.
       </p>
       <div className="flex flex-wrap justify-center gap-3 md:gap-4">
         <Link to="/question-bank" className="btn-cta-primary inline-flex items-center gap-2 px-6 py-3">
@@ -320,7 +320,7 @@ function AboutSection() {
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600 mb-3">Who we are</p>
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">About VIMAANNA</h2>
           <p className="text-slate-600 text-sm md:text-base leading-relaxed mb-4 max-w-2xl">
-            VIMAANNA is a focused DGCA preparation platform for aspiring commercial and airline transport pilots. We blend structured question banks, PYQs, and a clean interface so you can focus on learning—not figuring out the tool.
+            VIMAANNA is a focused DGCA preparation platform for aspiring commercial and airline transport pilots. We blend structured question banks, PYQs, and a clean interface so you can focus on learning - not figuring out the tool.
           </p>
           <ul className="space-y-2 text-sm text-slate-600 mb-6">
             <li className="flex items-start gap-2">
@@ -333,7 +333,7 @@ function AboutSection() {
             </li>
             <li className="flex items-start gap-2">
               <span className="mt-1 h-1.5 w-1.5 rounded-full bg-blue-500" />
-              <span>Lightweight, distraction-free interface that works well even on slower connections.</span>
+              <span>Lightweight, distraction-light interface that works well even on slower connections.</span>
             </li>
           </ul>
           <Link to="/about" className="btn-institute-primary inline-flex items-center gap-2">
@@ -348,10 +348,10 @@ function AboutSection() {
             <div className="rounded-2xl bg-blue-50 border border-blue-100 p-4 flex flex-col justify-between min-h-[130px]">
               <div className="text-xs font-semibold text-blue-700 mb-1">For CPL & ATPL</div>
               <div className="text-2xl font-bold text-slate-900 mb-1">DGCA focus</div>
-              <p className="text-[11px] text-slate-600">No generic question sets—only aviation theory that matters.</p>
+              <p className="text-[11px] text-slate-600">No generic question sets - only aviation theory that matters.</p>
             </div>
             <div className="rounded-2xl bg-slate-900 text-white p-4 flex flex-col justify-between min-h-[130px]">
-              <div className="text-xs font-semibold text-blue-200 mb-1">Free access</div>
+              <div className="text-xs font-semibold text-blue-200 mb-1">Open access</div>
               <div className="text-2xl font-bold mb-1">Zero cost</div>
               <p className="text-[11px] text-slate-200">Start practising today with no sign-up barrier.</p>
             </div>
@@ -435,7 +435,7 @@ function LibrarySection() {
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600 mb-2">Resources</p>
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-3">Study Library</h2>
           <p className="text-slate-600 text-sm md:text-base leading-relaxed mb-4 md:ml-auto max-w-xl">
-            Keep all your reference material in one organised place—notes, PDFs, formula sheets, and quick revision guides.
+            Keep all your reference material in one organised place - notes, PDFs, formula sheets, and quick revision guides.
           </p>
           <ul className="space-y-2 text-sm text-slate-600 mb-6 md:ml-auto max-w-xl">
             <li>Tag content by subject and type so you can pull up exactly what you need before a mock.</li>
@@ -456,7 +456,7 @@ function LibrarySection() {
             <p className="font-semibold mb-1">Example stack</p>
             <p className="text-xs text-slate-500 mb-1">Air Navigation · Quick formulas</p>
             <p className="text-xs">
-              Distance, time, fuel, and wind components in one cheat sheet—perfect for last-minute review.
+              Distance, time, fuel, and wind components in one cheat sheet - perfect for last-minute review.
             </p>
           </div>
         </div>

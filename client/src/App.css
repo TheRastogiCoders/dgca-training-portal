@@ -196,7 +196,7 @@
   z-index: 10;
   box-sizing: border-box;
 }
-/* Home: no top padding — hero starts right under header */
+/* Home: no top padding - hero starts right under header */
 .page-content:has(.hero-section-wrapper) {
   padding-top: 0;
   padding-inline: 0;
@@ -215,7 +215,7 @@
   width: 100%;
 }
 
-/* Sections below the hero on the homepage — restore horizontal padding */
+/* Sections below the hero on the homepage - restore horizontal padding */
 .home-body-content {
   padding-inline: clamp(1rem, 3vw, 2rem);
 }
@@ -223,7 +223,7 @@
 /* Home hero: true full-bleed, full-viewport section */
 .hero-section-wrapper {
   position: relative;
-  /* Simple full-width — parent has no padding for hero pages */
+  /* Simple full-width - parent has no padding for hero pages */
   width: 100%;
   margin: 0 0 2.5rem;
   min-height: 100svh;
@@ -404,7 +404,7 @@
   z-index: 0;
 }
 
-/* Hero background image — full-bleed with cinematic dark overlay */
+/* Hero background image - full-bleed with cinematic dark overlay */
 .hero-section-wrapper.hero-has-bg {
   background-size: cover;
   background-position: center center;
@@ -428,7 +428,7 @@
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 56rem; /* ~896px — keeps hero text from sprawling too wide */
+  max-width: 56rem; /* ~896px - keeps hero text from sprawling too wide */
   margin-left: auto;
   margin-right: auto;
   flex: 1;
@@ -661,7 +661,7 @@
   font-weight: 600;
   user-select: none;
 }
-/* Hide visual badge cards on small screens — keep hero uncluttered */
+/* Hide visual badge cards on small screens - keep hero uncluttered */
 .hero-redesign-visual {
   display: none;
 }

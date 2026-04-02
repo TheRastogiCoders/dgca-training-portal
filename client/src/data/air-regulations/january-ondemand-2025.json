@@ -358,16 +358,20 @@
     {
       "full_question_text": "Barotrauma",
       "options": [
-        "CHECK ANSWER"
+        "Injury caused by pressure difference between body air spaces and ambient pressure",
+        "Loss of vision due to bright light only",
+        "A temporary loss of hearing due to engine noise only"
       ],
-      "solution": "CHECK ANSWER"
+      "solution": "Injury caused by pressure difference between body air spaces and ambient pressure"
     },
     {
       "full_question_text": "Rule no. 67 A of Aircraft Rules, 1937 deals with:",
       "options": [
-        "CHECK ANSWER"
+        "Carriage and custody related provisions including specific onboard carriage controls",
+        "Fuel tank structural design requirements",
+        "Runway surface painting standards"
       ],
-      "solution": "CHECK ANSWER"
+      "solution": "Carriage and custody related provisions including specific onboard carriage controls"
     },
     {
       "full_question_text": "PANS-ATM is:",
@@ -462,9 +466,11 @@
     {
       "full_question_text": "Distance from Jet refueling",
       "options": [
-        "check answer"
+        "Maintain the minimum safety distance prescribed in apron refuelling procedures",
+        "No distance limit applies for jet refuelling",
+        "Only one meter from any running engine"
       ],
-      "solution": "check answer"
+      "solution": "Maintain the minimum safety distance prescribed in apron refuelling procedures"
     },
     {
       "full_question_text": "Carriage of animals?",
@@ -503,23 +509,29 @@
     {
       "full_question_text": "Domestic flight max FDTL Flight time and landings",
       "options": [
-        "check answer"
+        "As per current DGCA FDTL limits for duty period, flight time and sectors",
+        "Unlimited with PIC discretion",
+        "Only operator policy without DGCA limits"
       ],
-      "solution": "check answer"
+      "solution": "As per current DGCA FDTL limits for duty period, flight time and sectors"
     },
     {
       "full_question_text": "AN a/c IS flying from left to right what light Will you see?",
       "options": [
-        "check answer"
+        "Red light",
+        "Green light",
+        "White tail light only"
       ],
-      "solution": "check answer"
+      "solution": "Green light"
     },
     {
       "full_question_text": "what is the runway no based on?",
       "options": [
-        "check answer"
+        "Magnetic heading of the runway rounded to nearest 10 degrees",
+        "True heading rounded to nearest 1 degree",
+        "Airport elevation in feet"
       ],
-      "solution": "check answer"
+      "solution": "Magnetic heading of the runway rounded to nearest 10 degrees"
     }
   ]
 }

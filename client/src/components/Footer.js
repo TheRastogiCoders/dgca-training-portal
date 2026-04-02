@@ -18,7 +18,7 @@ function Footer() {
               />
             </Link>
             <p className="footer-tagline">Wings within reach.</p>
-            <p className="footer-desc">Free DGCA exam preparation for CPL & ATPL—question banks, PYQ, and study materials.</p>
+            <p className="footer-desc">DGCA exam preparation for CPL & ATPL - question banks, PYQ, and study materials.</p>
           </div>
 
           {/* Quick Links */}
@@ -30,6 +30,7 @@ function Footer() {
               <Link to="/question-bank">Question Bank</Link>
               <Link to="/pyq">PYQ</Link>
               <Link to="/library">Library</Link>
+              <Link to="/contact">Contact</Link>
               <Link to="/login">Login</Link>
             </nav>
           </div>
@@ -38,10 +39,23 @@ function Footer() {
           <div className="footer-col">
             <h3 className="footer-heading">Resources</h3>
             <ul className="footer-list">
-              <li><Link to="/question-bank">Practice by subject</Link></li>
-              <li><Link to="/pyq">Previous year questions</Link></li>
-              <li><Link to="/library">Study library</Link></li>
-              <li><a href="mailto:contactvimaanna@gmail.com">Contact support</a></li>
+              <li><Link to="/terms-and-conditions">Terms and Conditions</Link></li>
+              <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+              <li><Link to="/cookies">Cookies</Link></li>
+              <li><Link to="/payment-policy">Payment Policy</Link></li>
+              <li><Link to="/press">Press</Link></li>
+            </ul>
+          </div>
+
+          {/* Platforms */}
+          <div className="footer-col">
+            <h3 className="footer-heading">Platforms</h3>
+            <ul className="footer-list">
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/training">Training</Link></li>
+              <li><Link to="/test">Test</Link></li>
+              <li><Link to="/partner-with-us">Partner With Us</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
             </ul>
           </div>
 
@@ -54,6 +68,17 @@ function Footer() {
               </li>
               <li className="footer-note">We respond within 24 hours.</li>
             </ul>
+          </div>
+        </div>
+
+        <div className="footer-start">
+          <p className="footer-start-title">Start here</p>
+          <p className="footer-start-text">
+            New to DGCA prep? Begin with PYQ practice, then move to chapter-wise question bank drills.
+          </p>
+          <div className="footer-start-links">
+            <Link to="/pyq">Start PYQ</Link>
+            <Link to="/question-bank">Open Question Bank</Link>
           </div>
         </div>
 

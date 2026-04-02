@@ -160,16 +160,20 @@
     {
       "full_question_text": "Prisoner on board should be carried as per the Aircraft rules :",
       "options": [
-        "CHECK ANSWER"
+        "With approval from DGCA/competent authority and applicable security procedures",
+        "Only with cabin crew consent",
+        "Without any prior approval if PIC agrees"
       ],
-      "solution": "CHECK ANSWER"
+      "solution": "With approval from DGCA/competent authority and applicable security procedures"
     },
     {
       "full_question_text": "Lapse Rate:",
       "options": [
-        "check answer"
+        "Rate of decrease of temperature with increase in altitude",
+        "Rate of increase of pressure with increase in altitude",
+        "Rate of increase of temperature with increase in altitude"
       ],
-      "solution": "check answer"
+      "solution": "Rate of decrease of temperature with increase in altitude"
     },
     {
       "full_question_text": "VFR flights not permitted above-",
@@ -218,9 +222,11 @@
     {
       "full_question_text": "NOTAM for Defence",
       "options": [
-        "CHECK ANSWER"
+        "NOTAM(D)",
+        "NOTAM(R)",
+        "NOTAM(N)"
       ],
-      "solution": "CHECK ANSWER"
+      "solution": "NOTAM(D)"
     },
     {
       "full_question_text": "Lights at the Edge of the Runway Are Called",
@@ -261,9 +267,11 @@
     {
       "full_question_text": "Key Takeaway from All Accidents",
       "options": [
-        "CHECK ANSWER"
+        "Most accidents have multiple contributing factors, especially human factors",
+        "Only technical failure is the primary cause",
+        "Weather is always the only cause"
       ],
-      "solution": "CHECK ANSWER"
+      "solution": "Most accidents have multiple contributing factors, especially human factors"
     }
   ]
 }

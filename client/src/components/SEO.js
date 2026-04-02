@@ -171,7 +171,7 @@ const SEO = ({
           name: 'What is the best platform for DGCA exam preparation?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'VIMAANNA is one of the best platforms for DGCA exam preparation, offering practice tests, previous year questions (PYQ), comprehensive question banks, and study materials for all DGCA subjects including Air Regulations, Meteorology, Air Navigation, and Technical General. Prepare for CPL and ATPL exams with our free resources.'
+            text: 'VIMAANNA is one of the best platforms for DGCA exam preparation, offering practice tests, previous year questions (PYQ), comprehensive question banks, and study materials for all DGCA subjects including Air Regulations, Meteorology, Air Navigation, and Technical General. Prepare for CPL and ATPL exams with our learning resources.'
           }
         }
       ]

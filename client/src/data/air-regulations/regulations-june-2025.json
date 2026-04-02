@@ -5,8 +5,13 @@
   "questions": [
     {
       "full_question_text": "What does NOTAM(R) Means-",
-      "options": ["CHECK ANSWER"],
-      "solution": "CHECK ANSWER"
+      "options": [
+      "Replacement NOTAM ",
+      "Regular NOTAM ",
+      "Restricted NOTAM ",
+      "Regional NOTAM "
+      ],
+      "solution": "A) Replacement NOTAM "
     },
     {
       "full_question_text": "If an aircraft's speed is 150 KT, under which category does it fall?",
@@ -24,8 +29,12 @@
     },
     {
       "full_question_text": "What is the SSR code for RCF(RADIO COMMUNICATION FAILURE)-",
-      "options": ["CHECK ANSWER"],
-      "solution": "CHECK ANSWER"
+      "options": [
+        "7500",
+        "7600",
+        "7700"
+      ],
+      "solution": "7600"
     },
     {
       "full_question_text": "What defines transition level-",
@@ -42,8 +51,12 @@
     },
     {
       "full_question_text": "VOR Accuracy-",
-      "options": ["CHECK ANSWER"],
-      "solution": "CHECK ANSWER"
+      "options": [
+        "+/- 2 degrees",
+        "+/- 5 degrees",
+        "+/- 10 degrees"
+      ],
+      "solution": "+/- 5 degrees"
     },
     {
       "full_question_text": "The convention which deals with offences against penal law, is",

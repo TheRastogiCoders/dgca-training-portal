@@ -457,7 +457,7 @@ const Reports = () => {
               </div>
               <div className="flex flex-col gap-2">
                 <h1 className="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight">Question Reports</h1>
-                <p className="text-slate-600 text-sm md:text-base">Review, resolve, or dismiss issues raised by users—optimized for clarity and speed.</p>
+                <p className="text-slate-600 text-sm md:text-base">Review, resolve, or dismiss issues raised by users - optimized for clarity and speed.</p>
               </div>
             </div>
 

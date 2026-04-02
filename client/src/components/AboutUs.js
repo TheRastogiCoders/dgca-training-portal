@@ -8,14 +8,14 @@ const TAGLINES = [
   'Wings within reach.',
   'Your trusted partner for DGCA exam preparation.',
   'Quality preparation. Zero cost.',
-  'From ground school to the cockpit—we’re with you.',
+  'From ground school to the cockpit - we’re with you.',
 ];
 
 const WHAT_WE_DO = [
   {
     Icon: IconClipboard,
     title: 'Question Bank',
-    description: 'Thousands of DGCA-style questions by subject—Air Regulations, Meteorology, Air Navigation, Technical General. Practice with explanations, track progress, and identify weak areas.',
+    description: 'Thousands of DGCA-style questions by subject - Air Regulations, Meteorology, Air Navigation, Technical General. Practice with explanations, track progress, and identify weak areas.',
     to: '/question-bank',
   },
   {
@@ -27,16 +27,16 @@ const WHAT_WE_DO = [
   {
     Icon: IconBook,
     title: 'Study Library',
-    description: 'Notes, references, and study materials in one place. Filter by subject and type. Everything you need, organized and free.',
+    description: 'Notes, references, and study materials in one place. Filter by subject and type. Everything you need, organized in one place.',
     to: '/library',
   },
 ];
 
 const WHY_STUDENTS = [
-  { point: '100% free study material—no paywalls.' },
+  { point: 'High-quality study material with no paywalls.' },
   { point: 'Aligned with DGCA syllabus and exam pattern.' },
   { point: 'Practice tests and PYQs to build exam confidence.' },
-  { point: 'Simple, student-friendly platform—focus on learning.' },
+  { point: 'Simple, student-friendly platform - focus on learning.' },
 ];
 
 const AboutUs = () => {
@@ -44,8 +44,8 @@ const AboutUs = () => {
     <>
       <SEO
         title="About VIMAANNA | DGCA Exam Preparation - Wings Within Reach"
-        description="Learn about VIMAANNA - India's trusted DGCA exam preparation platform for CPL/ATPL. Our mission: free study material for every aspiring pilot. Question banks, PYQ, and library."
-        keywords="VIMAANNA about, DGCA training, pilot exam preparation, CPL ATPL India, aviation education, DGCA coaching, free DGCA study material"
+        description="Learn about VIMAANNA - India's trusted DGCA exam preparation platform for CPL/ATPL. Our mission: accessible study material for every aspiring pilot. Question banks, PYQ, and library."
+        keywords="VIMAANNA about, DGCA training, pilot exam preparation, CPL ATPL India, aviation education, DGCA coaching, DGCA study material"
       />
       <div className="min-h-screen gradient-bg">
         <main className="page-content">
@@ -66,21 +66,21 @@ const AboutUs = () => {
                 Wings within reach
               </h1>
               <p className="text-xl text-slate-600 max-w-2xl mx-auto font-medium">
-                Your trusted partner for DGCA exam preparation. We’re here to make quality study material free for every aspiring pilot.
+                Your trusted partner for DGCA exam preparation. We’re here to make quality study material accessible for every aspiring pilot.
               </p>
             </section>
 
-            {/* Mission: free study material */}
+            {/* Mission: accessible study material */}
             <section className="site-card p-8 md:p-12 mb-12 md:mb-16">
               <div className="text-center max-w-3xl mx-auto">
                 <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4">
                   Our mission
                 </h2>
                 <p className="text-lg md:text-xl text-slate-600 leading-relaxed mb-6">
-                  To provide <strong className="text-blue-700">free, high-quality study material</strong> so that every student—regardless of background—can prepare for DGCA exams (CPL & ATPL) with confidence. No subscriptions, no hidden fees. Just practice, PYQs, and a library built for pilots.
+                  To provide <strong className="text-blue-700">high-quality study material</strong> so that every student - regardless of background - can prepare for DGCA exams (CPL & ATPL) with confidence. No subscriptions, no hidden fees. Just practice, PYQs, and a library built for pilots.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  We believe wings should be within reach. That’s why we built VIMAANNA: one place for question banks, previous year questions, and study resources—all aligned with the DGCA syllabus.
+                  We believe wings should be within reach. That’s why we built VIMAANNA: one place for question banks, previous year questions, and study resources - all aligned with the DGCA syllabus.
                 </p>
               </div>
             </section>
@@ -134,7 +134,7 @@ const AboutUs = () => {
                   &ldquo;{TAGLINES[0]}&rdquo;
                 </p>
                 <p className="text-slate-500 text-sm mt-2">
-                  — VIMAANNA
+                  - VIMAANNA
                 </p>
               </div>
             </section>

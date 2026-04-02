@@ -199,7 +199,9 @@
       "questionText": "What happens when a fire switch is armed?",
       "questionType": "MCQ",
       "options": [
-        "A. CHECK ANSWER"
+        "A. It arms associated extinguishing and protection logic for the selected engine/APU",
+        "B. It immediately shuts down all aircraft electrical systems",
+        "C. It opens fuel crossfeed valves automatically for all engines"
       ],
       "answer": "A"
     },

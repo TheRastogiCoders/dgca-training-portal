@@ -10,12 +10,22 @@ const NAV_LINKS = [
   { to: '/question-bank', label: 'Question Bank' },
   { to: '/pyq', label: 'PYQ' },
   { to: '/library', label: 'Library' },
+  { to: '/contact', label: 'Contact' },
+];
+
+const ADMIN_NAV_LINKS = [
+  { to: '/admin', label: 'Dashboard' },
+  { to: '/admin/students-logins', label: 'Students' },
+  { to: '/admin/question-upload', label: 'Upload' },
+  { to: '/admin/reports', label: 'Reports' },
 ];
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { pathname } = useLocation();
   const { user, isAuthenticated, logout } = useAuth();
+  const isAdminUser = !!user?.isAdmin;
+  const activeNavLinks = isAdminUser ? ADMIN_NAV_LINKS : NAV_LINKS;
 
   useEffect(() => setMobileMenuOpen(false), [pathname]);
 
@@ -39,7 +49,7 @@ const Header = () => {
           </Link>
 
           <nav className="hidden md:flex items-center justify-center gap-0.5 flex-1 max-w-2xl">
-            {NAV_LINKS.map(({ to, label }) => (
+            {activeNavLinks.map(({ to, label }) => (
               <Link
                 key={to}
                 to={to}
@@ -52,18 +62,20 @@ const Header = () => {
 
           <div className="hidden md:flex items-center gap-3 shrink-0">
             <Link
-              to="/question-bank"
+              to={isAdminUser ? '/admin' : '/question-bank'}
               className="header-cta-outline px-4 py-2.5 rounded-xl text-sm font-semibold text-blue-700 bg-transparent border-2 border-blue-200 hover:border-blue-400 hover:bg-blue-50/80"
             >
-              Get Started
+              {isAdminUser ? 'Admin Home' : 'Get Started'}
             </Link>
             {isAuthenticated && user ? (
               <>
                 <Link
-                  to="/profile"
-                  className={`header-nav-link px-4 py-2.5 rounded-lg text-sm font-medium text-slate-600 hover:text-slate-900 ${pathname.startsWith('/profile') ? 'active' : ''}`}
+                  to={isAdminUser ? '/admin' : '/profile'}
+                  className={`header-nav-link px-4 py-2.5 rounded-lg text-sm font-medium text-slate-600 hover:text-slate-900 ${
+                    isAdminUser ? (pathname.startsWith('/admin') ? 'active' : '') : (pathname.startsWith('/profile') ? 'active' : '')
+                  }`}
                 >
-                  Profile
+                  {isAdminUser ? 'Dashboard' : 'Profile'}
                 </Link>
                 <button
                   type="button"
@@ -85,10 +97,10 @@ const Header = () => {
 
           <div className="flex md:hidden items-center gap-2">
             <Link
-              to="/question-bank"
+              to={isAdminUser ? '/admin' : '/question-bank'}
               className="px-3 py-2 rounded-lg text-xs font-semibold text-blue-700 border border-blue-200 hover:bg-blue-50"
             >
-              Get Started
+              {isAdminUser ? 'Admin' : 'Get Started'}
             </Link>
             {!isAuthenticated && (
               <Link
@@ -122,7 +134,7 @@ const Header = () => {
       {mobileMenuOpen && (
         <div className="header-mobile-panel md:hidden border-t border-slate-200 bg-white">
           <nav className="px-4 py-4 flex flex-col gap-0.5 max-h-[70vh] overflow-y-auto">
-            {NAV_LINKS.map(({ to, label }) => (
+            {activeNavLinks.map(({ to, label }) => (
               <Link
                 key={to}
                 to={to}

@@ -35,21 +35,25 @@ const QuestionBank = () => {
   const subBooksRef = useRef(null);
   const overviewHighlights = [
     {
-      title: 'Terms & Conditions',
-      description: 'Practice content is available for personal pilot prep only and must not be redistributed.'
+      title: 'For your preparation only',
+      description:
+        'The question bank is meant for personal DGCA theory prep. Please do not copy, share, or resell items you see here.',
     },
     {
-      title: 'Content Authenticity',
-      description: 'All PYQ questions are sourced from DGCA exams and modernized without altering intent.'
+      title: 'Grounded in real papers',
+      description:
+        'PYQs reflect DGCA examination style. We refresh wording or layout when needed, without changing what is being tested.',
     },
     {
-      title: 'Usage Etiquette',
-      description: 'Respect question difficulty tags and report any discrepancies or outdated information.'
+      title: 'Help us keep it sharp',
+      description:
+        'Treat difficulty tags as a guide. If an answer or explanation looks wrong or outdated, report it so we can fix it.',
     },
     {
-      title: 'Support & Compliance',
-      description: 'Contact our support team for clarifications; we keep materials aligned with DGCA guidelines.'
-    }
+      title: 'We are with you',
+      description:
+        'Reach out to support when something is unclear. We update content to stay aligned with DGCA expectations.',
+    },
   ];
 
   const subjects = [
@@ -1133,7 +1137,7 @@ const technicalSpecificBooks = [
                 Question Bank
               </h1>
               <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto font-medium">
-                Practice by subject and chapter—Air Regulations, Meteorology, Air Navigation, Technical General, and more. Free for every student.
+                Practice by subject and chapter - Air Regulations, Meteorology, Air Navigation, Technical General, and more. Open for every student.
               </p>
               <p className="text-sm text-slate-500 mt-3">Wings within reach.</p>
             </section>
@@ -1193,8 +1197,11 @@ const technicalSpecificBooks = [
                 {/* Overview */}
                 <div className="site-card p-8 md:p-10">
                   <div className="text-center mb-6">
-                    <h3 className="text-2xl font-bold text-slate-900 mb-2">Question Bank Overview</h3>
-                    <p className="text-slate-600">Comprehensive coverage of all DGCA subjects—free study material for every aspiring pilot.</p>
+                    <h3 className="text-2xl font-bold text-slate-900 mb-2">Inside the question bank</h3>
+                    <p className="text-slate-600 max-w-2xl mx-auto">
+                      Major DGCA theory subjects, chapter by chapter - practice with purpose and track what still needs work.
+                      <span className="block mt-2 text-sm font-medium text-blue-700">Vimaanna - wings within reach.</span>
+                    </p>
                   </div>
                   <ul className="space-y-4 max-w-3xl mx-auto text-left">
                     {overviewHighlights.map((item) => (

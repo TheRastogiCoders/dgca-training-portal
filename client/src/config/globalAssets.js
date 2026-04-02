@@ -10,14 +10,14 @@ export const GLOBAL_ASSETS = {
   LOGO_ALT: '/vimaanna-logo.svg',
   /** Full logo for emails / print (optional) */
   LOGO_FULL: '/vimaanna-logo.png',
-  /** Hero / landing background — aerial cockpit view from Unsplash (free to use) */
+  /** Hero / landing background - aerial cockpit view from Unsplash (licensed image) */
   HERO_BG: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80',
-  /** Hero carousel slides — each with image and optional title/tagline */
+  /** Hero carousel slides - each with image and optional title/tagline */
   HERO_CAROUSEL_SLIDES: [
     {
       image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80',
       title: 'Wings Within Reach',
-      tagline: 'Your one place for DGCA exam prep—question bank, PYQ, timed tests, and study library.',
+      tagline: 'Your one place for DGCA exam prep - question bank, PYQ, timed tests, and study library.',
     },
     {
       image: 'https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1920&q=80',
@@ -27,7 +27,7 @@ export const GLOBAL_ASSETS = {
     {
       image: 'https://dgcacomputernumber.com/wp-content/uploads/2025/08/what-is-dgca-exam.png',
       title: 'From Ground to Cockpit',
-      tagline: 'Practice like the real exam. Timed tests, PYQ, and chapter-wise drills—all free.',
+      tagline: 'Practice like the real exam. Timed tests, PYQ, and chapter-wise drills for everyone.',
     },
   ],
   /** About / mission section image (optional; add /images/about-mission.jpg) */

@@ -149,7 +149,7 @@ const LoginPage = () => {
       if (response.ok) {
         if (isLogin) {
           login(data.user, data.token);
-          navigate('/');
+          navigate(data.user?.isAdmin ? '/admin' : '/');
         } else {
           setError('');
           setIsLogin(true);
@@ -217,7 +217,7 @@ const LoginPage = () => {
           ))}
         </ul>
         <p className="mt-8 text-slate-500 text-xs">
-          Free to use. No credit card required.
+          Easy to use. No credit card required.
         </p>
       </div>
 
@@ -233,7 +233,7 @@ const LoginPage = () => {
               <p className="text-slate-600 text-sm">
                 {isLogin
                   ? 'Sign in to continue your DGCA preparation'
-                  : 'Join VIMAANNA and get free access to PYQ and question banks'}
+                  : 'Join VIMAANNA and get access to PYQ and question banks'}
               </p>
             </div>
 
