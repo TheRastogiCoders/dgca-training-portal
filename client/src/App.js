@@ -68,8 +68,6 @@ function App() {
                 <Route path="/payment-policy" element={<FooterInfoPage pageKey="payment-policy" />} />
                 <Route path="/press" element={<FooterInfoPage pageKey="press" />} />
                 <Route path="/training" element={<FooterInfoPage pageKey="training" />} />
-                <Route path="/test" element={<FooterInfoPage pageKey="test" />} />
-                <Route path="/partner-with-us" element={<FooterInfoPage pageKey="partner-with-us" />} />
                 <Route path="/library" element={<Library />} />
                 <Route path="/question-bank" element={<QuestionBank />} />
                 <Route path="/pyq" element={<PracticeTest />} />

@@ -37,24 +37,24 @@ const QuestionBank = () => {
   const subBooksRef = useRef(null);
   const overviewHighlights = [
     {
-      title: 'For your preparation only',
+      title: 'For your own study',
       description:
-        'The question bank is meant for personal DGCA theory prep. Please do not copy, share, or resell items you see here.',
+        'Use this bank for your personal DGCA theory preparation only. Please do not copy, redistribute, or resell questions or explanations.',
     },
     {
-      title: 'Grounded in real papers',
+      title: 'Aligned with exam practice',
       description:
-        'PYQs reflect DGCA examination style. We refresh wording or layout when needed, without changing what is being tested.',
+        'Previous-year and exam-style sets follow DGCA patterns. We may adjust wording or layout for clarity; the concepts and difficulty stay the same.',
     },
     {
-      title: 'Help us keep it sharp',
+      title: 'Tell us when something looks off',
       description:
-        'Treat difficulty tags as a guide. If an answer or explanation looks wrong or outdated, report it so we can fix it.',
+        'Ask us to review and update if an answer or explanation seems wrong or out of date. Give us feedback on the site.',
     },
     {
-      title: 'We are with you',
+      title: 'Support when you need it',
       description:
-        'Reach out to support when something is unclear. We update content to stay aligned with DGCA expectations.',
+        'If a topic or question is unclear, use Contact or Feedback on the site. We refine content to stay useful for CPL and ATPL theory prep.',
     },
   ];
 
@@ -1210,9 +1210,11 @@ const technicalSpecificBooks = [
                 <div className="site-card p-8 md:p-10">
                   <div className="text-center mb-6">
                     <h3 className="text-2xl font-bold text-slate-900 mb-2">Inside the question bank</h3>
-                    <p className="text-slate-600 max-w-2xl mx-auto">
-                      Major DGCA theory subjects, chapter by chapter - practice with purpose and track what still needs work.
-                      <span className="block mt-2 text-sm font-medium text-blue-700">Vimaanna - wings within reach.</span>
+                    <p className="text-slate-600 max-w-2xl mx-auto text-sm md:text-base leading-relaxed">
+                      Pick a subject and book, then work chapter by chapter. VIMAANNA brings CPL and ATPL theory practice into one place so you can focus on weak areas and exam-style drills.
+                    </p>
+                    <p className="mt-3 text-sm text-slate-500 max-w-2xl mx-auto">
+                      VIMAANNA — wings within reach.
                     </p>
                   </div>
                   <ul className="space-y-4 max-w-3xl mx-auto text-left">

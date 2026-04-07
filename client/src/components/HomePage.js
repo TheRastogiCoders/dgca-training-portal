@@ -4,7 +4,7 @@ import { useAuth } from '../context/AuthContext';
 import SEO from './SEO';
 import { SEO_CONFIG } from '../config/seo';
 import GLOBAL_ASSETS from '../config/globalAssets';
-import { IconClipboard, IconLibrary, IconBook, IconCheck, IconChart } from './ui/Icons';
+import { IconClipboard, IconLibrary, IconCheck, IconChart } from './ui/Icons';
 
 const HERO_AUTOPLAY_MS = 5500;
 
@@ -24,7 +24,6 @@ const HomePage = () => (
           <FeaturesStrip />
           <AboutSection />
           <LibrarySection />
-          <SubjectsStrip />
           <StatsStrip />
           <FAQSection />
           <FinalCTA />
@@ -164,66 +163,17 @@ function FeaturesStrip() {
   );
 }
 
-function SubjectsStrip() {
-  const subjects = [
-    { name: 'Air Regulations', to: '/questions/air', tag: 'CPL & ATPL' },
-    { name: 'Meteorology', to: '/questions/meteorology/cae-oxford-meteorology', tag: 'Weather & performance' },
-    { name: 'Air Navigation', to: '/questions/air-navigation/cae-oxford-general-navigation', tag: 'Route planning' },
-    { name: 'Technical General', to: '/questions/technical-general/mass-and-balance-and-performance', tag: 'Aircraft systems' },
-    { name: 'Radio Telephony', to: '/questions/radio-telephony/rk-bali', tag: 'RTR (A)' },
-  ];
-  return (
-    <section className="mb-16 md:mb-20">
-      <div className="bg-gradient-to-r from-blue-50 to-slate-50 border border-blue-100 rounded-2xl px-5 py-7 md:px-8 md:py-9">
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-6">
-          <div>
-            <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2">All DGCA theory subjects</h2>
-            <p className="text-slate-600 text-sm md:text-base max-w-xl">
-              Move between subjects without switching platforms. VIMAANNA keeps your entire CPL & ATPL prep in one place.
-            </p>
-          </div>
-          <Link
-            to="/question-bank"
-            className="btn-institute-primary inline-flex items-center justify-center gap-2 w-full md:w-auto"
-          >
-            Browse Question Bank
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </Link>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
-          {subjects.map((s, i) => (
-            <div
-              key={i}
-              className="flex flex-col justify-between rounded-xl bg-white/90 border border-slate-200 px-4 py-3 shadow-sm"
-            >
-              <span className="font-semibold text-slate-900 text-sm md:text-base mb-1">
-                {s.name}
-              </span>
-              <span className="text-[11px] md:text-xs text-slate-500">
-                {s.tag}
-              </span>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function StatsStrip() {
   const stats = [
     { value: 'Always open', label: 'Core practice tools' },
-    { value: '6+', label: 'Key DGCA subjects' },
-    { value: 'Exam-style', label: 'Question patterns' },
+    { value: '6', label: 'Key DGCA subjects' },
     { value: '24/7', label: 'Any device, anywhere' },
   ];
   return (
     <section className="mb-16 md:mb-20">
       <div className="site-card p-6 md:p-8">
         <h2 className="text-lg md:text-xl font-semibold text-slate-900 mb-5">Built for serious DGCA aspirants</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8">
         {stats.map((item, i) => (
             <div key={i} className="text-left py-3 px-2 rounded-2xl">
               <div className="text-xl md:text-2xl font-bold text-blue-700 mb-1">{item.value}</div>
@@ -372,35 +322,23 @@ function AboutSection() {
 function LibrarySection() {
   return (
     <section id="library-preview" className="mb-16 md:mb-20 scroll-mt-24">
-      <div className="site-card p-8 md:p-12 flex flex-col md:flex-row-reverse md:items-start gap-10">
-        <div className="flex-1 md:text-right">
+      <div className="site-card p-8 md:p-12">
+        <div className="max-w-2xl">
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600 mb-2">Resources</p>
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-3">Study Library</h2>
-          <p className="text-slate-600 text-sm md:text-base leading-relaxed mb-4 md:ml-auto max-w-xl">
+          <p className="text-slate-600 text-sm md:text-base leading-relaxed mb-4">
             Keep all your reference material in one organised place - notes, PDFs, formula sheets, and quick revision guides.
           </p>
-          <ul className="space-y-2 text-sm text-slate-600 mb-6 md:ml-auto max-w-xl">
+          <ul className="space-y-2 text-sm text-slate-600 mb-6">
             <li>Tag content by subject and type so you can pull up exactly what you need before a mock.</li>
             <li>Combine question practice with curated reading for deeper understanding of tricky topics.</li>
           </ul>
-          <Link to="/library" className="btn-institute-primary inline-flex items-center gap-2 md:ml-auto">
+          <Link to="/library" className="btn-institute-primary inline-flex items-center gap-2">
             Open Library
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
           </Link>
-        </div>
-        <div className="flex-shrink-0 w-full md:w-56">
-          <div className="rounded-2xl bg-blue-50 border border-blue-100 p-4 flex items-center justify-center text-blue-600 mb-4">
-            <IconBook className="w-16 h-16 md:w-20 md:h-20" size="xl" />
-          </div>
-          <div className="rounded-2xl bg-white border border-slate-200 p-4 text-left text-sm text-slate-700 shadow-sm">
-            <p className="font-semibold mb-1">Example stack</p>
-            <p className="text-xs text-slate-500 mb-1">Air Navigation · Quick formulas</p>
-            <p className="text-xs">
-              Distance, time, fuel, and wind components in one cheat sheet - perfect for last-minute review.
-            </p>
-          </div>
         </div>
       </div>
     </section>

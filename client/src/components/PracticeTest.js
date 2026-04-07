@@ -225,15 +225,15 @@ const PracticeTest = () => {
                   <ul className="space-y-3 text-sm md:text-base text-slate-700">
                     <li className="flex items-start gap-3">
                       <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-sm">✓</span>
-                      <span>Practice with authentic DGCA Previous Year Questions</span>
+                      <span>DGCA does not officially publish PYQ sets. These questions are memory-based and compiled from student and aspirant recalls.</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-sm">✓</span>
-                      <span>Focus on weak areas with subject and chapter-wise practice</span>
+                      <span>Practice subject-wise to identify and improve weak areas.</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-sm">✓</span>
-                      <span>Real-time feedback and performance insights when you’re logged in</span>
+                      <span>Get instant feedback and track your performance when you are logged in.</span>
                     </li>
                   </ul>
                 </div>
