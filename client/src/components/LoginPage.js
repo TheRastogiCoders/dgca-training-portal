@@ -3,6 +3,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { API_ENDPOINTS } from '../config/api';
 import GLOBAL_ASSETS from '../config/globalAssets';
+import SEO from './SEO';
+import { getSEOForPage } from '../config/seo';
 import GoogleSignInButton from './GoogleSignInButton';
 import debugLog from '../utils/debug';
 
@@ -184,7 +186,15 @@ const LoginPage = () => {
     setShowConfirmPassword(false);
   };
 
+  const loginSeo = getSEOForPage('login');
   return (
+    <>
+      <SEO
+        title={loginSeo.title}
+        description={loginSeo.description}
+        keywords={loginSeo.keywords}
+        noindex
+      />
     <div className="min-h-screen gradient-bg flex flex-col lg:flex-row pt-16 sm:pt-20">
       {/* Left panel: branding + benefits */}
       <div className="login-hero w-full lg:w-[44%] flex flex-col justify-center px-6 sm:px-10 py-10 lg:py-16 lg:pl-14 lg:pr-8">
@@ -477,6 +487,7 @@ const LoginPage = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

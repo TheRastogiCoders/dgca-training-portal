@@ -1,5 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
+import SEO from './SEO';
+import { getSEOForBookPath } from '../config/seo';
 import { useAuth } from '../context/AuthContext';
 import Stepper from './ui/Stepper';
 import Card from './ui/Card';
@@ -9,6 +11,8 @@ const BookSelection = () => {
   const { isAuthenticated } = useAuth();
   const [showLogin, setShowLogin] = useState(false);
   const navigate = useNavigate();
+  const location = useLocation();
+  const bookSeo = getSEOForBookPath(location.pathname);
 
   // Get subject from URL or default
   const getSubjectFromUrl = () => {
@@ -99,6 +103,16 @@ const BookSelection = () => {
 
   return (
     <div className="min-h-screen gradient-bg">
+      <SEO
+        title={bookSeo.title}
+        description={bookSeo.description}
+        keywords={bookSeo.keywords}
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Question Bank', path: '/question-bank' },
+          { name: `${subject} books`, path: location.pathname },
+        ]}
+      />
       <main className="page-content">
         <div className="page-content-inner max-w-5xl mx-auto">
             <Stepper steps={["Subject", "Book", "Chapter", "Practice"]} current={1} />

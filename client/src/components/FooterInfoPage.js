@@ -66,7 +66,7 @@ const PAGE_CONTENT = {
     title: 'Test',
     intro: 'Practice tests are designed to simulate exam-style question flow.',
     points: [
-      'Attempt timed sets for realistic exam conditioning.',
+      'Attempt full-length practice sets for realistic exam conditioning.',
       'Review explanations for incorrect answers immediately.',
       'Retake weak chapters until accuracy improves.',
       'Use profile progress to monitor preparation trend.',

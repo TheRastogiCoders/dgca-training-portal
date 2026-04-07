@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import debugLog from '../utils/debug';
 import SEO from './SEO';
+import { getSEOForPage } from '../config/seo';
 import { IconClipboard } from './ui/Icons';
 
 const PracticeTest = () => {
@@ -151,12 +152,17 @@ const PracticeTest = () => {
     }
   };
 
+  const pyqSeo = getSEOForPage('pyq');
   return (
     <>
       <SEO
-        title="DGCA PYQ Practice Tests | Previous Year Questions - VIMAANNA"
-        description="Practice DGCA previous year questions (PYQ) with our comprehensive test series. Access PYQ sessions for Air Regulations, Meteorology, Air Navigation, and Technical General. DGCA mock tests and practice exams."
-        keywords="DGCA PYQ, DGCA previous year questions, DGCA practice test, DGCA mock test, DGCA exam questions, DGCA sample papers, DGCA test series, DGCA online practice, DGCA exam preparation"
+        title={pyqSeo.title}
+        description={pyqSeo.description}
+        keywords={pyqSeo.keywords}
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'PYQ Practice', path: '/pyq' },
+        ]}
       />
       <div className="min-h-screen gradient-bg">
       <main className="page-content">

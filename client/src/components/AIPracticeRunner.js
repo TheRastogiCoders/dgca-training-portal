@@ -1,8 +1,10 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { useParams, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import Card from './ui/Card';
 import Modal from './ui/Modal';
+import SEO from './SEO';
+import { getSEOForSubject } from '../config/seo';
 import debugLog from '../utils/debug';
 import { API_ENDPOINTS } from '../config/api';
 // Meteorology imports
@@ -553,7 +555,6 @@ const AIPracticeRunner = () => {
   const [answers, setAnswers] = useState({});
   const [done, setDone] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [timeLeft, setTimeLeft] = useState(null);
   const [startTime, setStartTime] = useState(null);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [score, setScore] = useState(0);
@@ -571,7 +572,6 @@ const AIPracticeRunner = () => {
   const practiceSettings = location.state?.practiceSettings || {
     questionCount: 10,
     difficulty: 'adaptive',
-    timeLimit: 'unlimited',
     showExplanations: true
   };
   const chapter = location.state?.chapter;
@@ -584,7 +584,23 @@ const AIPracticeRunner = () => {
   const bookName = sessionOverride?.bookName || book?.name || friendly(bookSlug);
   const chapterName = sessionOverride?.chapterName || chapter?.name || friendly(chapterSlug);
 
-  const timerRef = useRef(null);
+  const seoMeta = useMemo(() => {
+    const base = getSEOForSubject(subjectSlug);
+    const sessionTitle = sessionInfo?.title;
+    if (sessionTitle) {
+      return {
+        title: `${sessionTitle} | DGCA PYQ ${subjectName} | VIMAANNA`,
+        description: `Practice DGCA previous year questions from ${sessionTitle} for ${subjectName}. Online CPL and ATPL theory preparation in India with VIMAANNA.`,
+        keywords: base.keywords,
+      };
+    }
+    return {
+      title: `DGCA PYQ | ${subjectName} – ${chapterName} | VIMAANNA`,
+      description: `Practice DGCA PYQs for ${subjectName}${bookName ? ` (${bookName})` : ''}.${chapterName ? ` Chapter focus: ${chapterName}.` : ''} Pilot license exam preparation (CPL, ATPL).`,
+      keywords: base.keywords,
+    };
+  }, [subjectSlug, subjectName, bookName, chapterName, sessionInfo?.title]);
+
   const totalQuestions = questions.length || practiceSettings.questionCount;
 
   const initializeSession = useCallback(() => {
@@ -617,7 +633,6 @@ const AIPracticeRunner = () => {
       setStreak(0);
       setMaxStreak(0);
       setDone(false);
-      setTimeLeft(practiceSettings.timeLimit !== 'unlimited' ? parseInt(practiceSettings.timeLimit) : null);
     } catch (error) {
       console.error('Error initializing session:', error);
       // Fallback to default questions on error
@@ -632,7 +647,6 @@ const AIPracticeRunner = () => {
     subjectName,
     chapterName,
     practiceSettings.questionCount,
-    practiceSettings.timeLimit,
     sessionInfo?.slug
   ]);
 
@@ -649,51 +663,13 @@ const AIPracticeRunner = () => {
   const nextQuestion = () => {
     if (current >= totalQuestions - 1) {
       setDone(true);
-      if (timerRef.current) {
-        clearInterval(timerRef.current);
-      }
       // Save results when test is completed
       saveResults();
       return;
     }
     
     setCurrent(prev => prev + 1);
-    setTimeLeft(practiceSettings.timeLimit !== 'unlimited' ? parseInt(practiceSettings.timeLimit) : null);
   };
-
-  // Timer logic
-  useEffect(() => {
-    if (practiceSettings.timeLimit !== 'unlimited' && !done && !loading) {
-      const timePerQuestion = parseInt(practiceSettings.timeLimit);
-      setTimeLeft(timePerQuestion);
-      
-      timerRef.current = setInterval(() => {
-        setTimeLeft(prev => {
-          if (prev <= 1) {
-            if (timerRef.current) {
-              clearInterval(timerRef.current);
-            }
-            // Auto-submit current question if time runs out
-            if (selectedAnswer === null) {
-              setSelectedAnswer(-1); // Mark as unanswered
-              setTimeout(() => {
-                nextQuestion();
-              }, 2000);
-            }
-            return 0;
-          }
-          return prev - 1;
-        });
-      }, 1000);
-    }
-
-    return () => {
-      if (timerRef.current) {
-        clearInterval(timerRef.current);
-      }
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [current, done, loading, practiceSettings.timeLimit, selectedAnswer]);
 
   const selectAnswer = (idx) => {
     if (selectedAnswer !== null) return; // Prevent changing answer after selection
@@ -772,7 +748,6 @@ const AIPracticeRunner = () => {
   const previousQuestion = () => {
     if (current === 0) return;
     setCurrent(prev => prev - 1);
-    setTimeLeft(practiceSettings.timeLimit !== 'unlimited' ? parseInt(practiceSettings.timeLimit) : null);
   };
 
   const restart = () => {
@@ -918,6 +893,8 @@ const AIPracticeRunner = () => {
 
   if (loading || authLoading) {
     return (
+      <>
+      <SEO title={seoMeta.title} description={seoMeta.description} keywords={seoMeta.keywords} />
       <div className="min-h-screen gradient-bg">
         <div className="flex">
           <main className="page-content">
@@ -933,11 +910,14 @@ const AIPracticeRunner = () => {
         </main>
         </div>
       </div>
+      </>
     );
   }
 
   if (!isAuthenticated) {
     return (
+      <>
+      <SEO title={seoMeta.title} description={seoMeta.description} keywords={seoMeta.keywords} />
       <div className="min-h-screen gradient-bg">
         <div className="flex">
           <main className="page-content">
@@ -958,6 +938,7 @@ const AIPracticeRunner = () => {
         </main>
         </div>
       </div>
+      </>
     );
   }
 
@@ -968,6 +949,8 @@ const AIPracticeRunner = () => {
     const seconds = totalTime % 60;
 
   return (
+    <>
+    <SEO title={seoMeta.title} description={seoMeta.description} keywords={seoMeta.keywords} />
     <div className="min-h-screen gradient-bg">
       <div className="flex">
           <main className="page-content">
@@ -1063,12 +1046,15 @@ const AIPracticeRunner = () => {
         </main>
         </div>
       </div>
+    </>
     );
   }
 
   // If there are no questions, show a graceful empty state
   if (!loading && (!questions || questions.length === 0)) {
     return (
+      <>
+      <SEO title={seoMeta.title} description={seoMeta.description} keywords={seoMeta.keywords} />
       <div className="min-h-screen gradient-bg">
         <div className="flex">
           <main className="page-content">
@@ -1091,6 +1077,7 @@ const AIPracticeRunner = () => {
         </main>
         </div>
       </div>
+      </>
     );
   }
 
@@ -1099,6 +1086,8 @@ const AIPracticeRunner = () => {
   const progress = totalQuestions ? ((current + 1) / totalQuestions) * 100 : 0;
 
   return (
+    <>
+    <SEO title={seoMeta.title} description={seoMeta.description} keywords={seoMeta.keywords} />
     <div className="min-h-screen gradient-bg">
       <div className="flex">
         <main className="page-content">
@@ -1129,11 +1118,6 @@ const AIPracticeRunner = () => {
               <div className="flex justify-between text-sm text-gray-500">
                 <span>Progress: {Math.round(progress)}%</span>
                 <span>Streak: {streak}</span>
-                {timeLeft !== null && (
-                  <span className={timeLeft <= 10 ? 'text-red-600 font-bold' : ''}>
-                    Time: {timeLeft}s
-                  </span>
-                )}
                   </div>
                 </div>
 
@@ -1372,6 +1356,7 @@ const AIPracticeRunner = () => {
         </div>
       </Modal>
     </div>
+    </>
   );
 };
 

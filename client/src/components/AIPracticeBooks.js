@@ -357,7 +357,6 @@ const AIPracticeBooks = () => {
   const practiceSettings = {
     questionCount: 10,
     difficulty: 'adaptive',
-    timeLimit: 'unlimited',
     showExplanations: true
   };
 

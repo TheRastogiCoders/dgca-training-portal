@@ -77,7 +77,6 @@ const AIPracticeChapters = () => {
   const practiceSettings = location.state?.practiceSettings || {
     questionCount: 10,
     difficulty: 'adaptive',
-    timeLimit: 'unlimited',
     showExplanations: true
   };
 
@@ -166,14 +165,10 @@ const AIPracticeChapters = () => {
                 <p className="text-gray-600">These settings will be applied to your PYQ session</p>
               </div>
               
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              <div className="grid grid-cols-2 gap-4">
                 <div className="text-center p-3 bg-white rounded-lg border border-gray-200">
                   <div className="text-lg font-bold text-blue-600">{practiceSettings.questionCount}</div>
                   <div className="text-xs text-gray-500">Questions</div>
-                </div>
-                <div className="text-center p-3 bg-white rounded-lg border border-gray-200">
-                  <div className="text-lg font-bold text-green-600">{practiceSettings.timeLimit === 'unlimited' ? 'No limit' : `${practiceSettings.timeLimit}s`}</div>
-                  <div className="text-xs text-gray-500">Per Question</div>
                 </div>
                 <div className="text-center p-3 bg-white rounded-lg border border-gray-200">
                   <div className="text-lg font-bold text-orange-600">{practiceSettings.showExplanations ? 'Yes' : 'No'}</div>
@@ -272,7 +267,7 @@ const AIPracticeChapters = () => {
                       <div className="space-y-4">
                         <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
                           <h4 className="font-semibold text-blue-900 mb-2">Authentic PYQs</h4>
-                          <p className="text-blue-700 text-sm">Sets remix the latest DGCA papers for this chapter while watching your timing.</p>
+                          <p className="text-blue-700 text-sm">Sets remix the latest DGCA papers for this chapter with focused practice flow.</p>
                         </div>
                         
                         <div className="p-4 bg-purple-50 rounded-lg border border-purple-200">

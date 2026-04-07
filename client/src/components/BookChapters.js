@@ -1,6 +1,8 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Card from './ui/Card';
+import SEO from './SEO';
+import { getSEOForSubject } from '../config/seo';
 import { resolveChapterSlug } from '../utils/chapterSlug';
 import debugLog from '../utils/debug';
 import { API_ENDPOINTS } from '../config/api';
@@ -163,6 +165,15 @@ const BookChapters = () => {
     color: 'from-blue-500 to-blue-600'
   };
 
+  const chaptersSeo = useMemo(() => {
+    const subSeo = getSEOForSubject(subjectSlug);
+    return {
+      title: `${book.title} Chapters | ${subject.title} | DGCA Question Bank – VIMAANNA`,
+      description: `Choose a chapter in ${book.title} for ${subject.title}. Practice DGCA theory questions with chapter-wise sets. ${subSeo.description.slice(0, 140)}`,
+      keywords: subSeo.keywords,
+    };
+  }, [subjectSlug, subject.title, book.title]);
+
   const startChapter = (chapter) => {
     const resolvedSlug = resolveChapterSlug(bookSlug, chapter?.chapterSlug || '');
     
@@ -181,6 +192,12 @@ const BookChapters = () => {
   // Render error state
   if (error) {
     return (
+      <>
+      <SEO
+        title={chaptersSeo.title}
+        description={chaptersSeo.description}
+        keywords={chaptersSeo.keywords}
+      />
       <div className="min-h-screen gradient-bg">
         <main className="page-content">
           <div className="page-content-inner max-w-6xl mx-auto">
@@ -210,12 +227,19 @@ const BookChapters = () => {
           </div>
         </main>
       </div>
+      </>
     );
   }
 
   // Render loading state
   if (isLoading) {
     return (
+      <>
+      <SEO
+        title={chaptersSeo.title}
+        description={chaptersSeo.description}
+        keywords={chaptersSeo.keywords}
+      />
       <div className="min-h-screen gradient-bg">
         <main className="page-content">
           <div className="page-content-inner max-w-6xl mx-auto">
@@ -227,11 +251,23 @@ const BookChapters = () => {
           </div>
         </main>
       </div>
+      </>
     );
   }
 
   // Main content
   return (
+    <>
+    <SEO
+      title={chaptersSeo.title}
+      description={chaptersSeo.description}
+      keywords={chaptersSeo.keywords}
+      breadcrumbs={[
+        { name: 'Home', path: '/' },
+        { name: 'Question Bank', path: '/question-bank' },
+        { name: subject.title, path: `/questions/${subjectSlug}/${bookSlug}` },
+      ]}
+    />
     <div className="min-h-screen gradient-bg">
       <main className="page-content">
         <div className="page-content-inner max-w-6xl mx-auto">
@@ -402,6 +438,7 @@ const BookChapters = () => {
         </div>
       </main>
     </div>
+    </>
   );
 };
 

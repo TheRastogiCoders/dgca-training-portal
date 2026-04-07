@@ -2,6 +2,7 @@ import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import SEO from './SEO';
+import { SEO_CONFIG } from '../config/seo';
 import GLOBAL_ASSETS from '../config/globalAssets';
 import { IconClipboard, IconLibrary, IconBook, IconCheck, IconChart } from './ui/Icons';
 
@@ -10,9 +11,11 @@ const HERO_AUTOPLAY_MS = 5500;
 const HomePage = () => (
   <>
     <SEO
-      title="Vimaanna - wings within reach!"
-      description="Best DGCA exam preparation platform for pilot license exams (CPL, ATPL). Practice tests, PYQ sessions, question banks for Air Regulations, Meteorology, Air Navigation, Technical General. Aviation exam preparation, pilot exam questions, and study materials. Prepare for commercial pilot license and airline transport license exams."
-      keywords="DGCA exam, DGCA preparation, DGCA practice test, DGCA question bank, DGCA study material, Air Regulations DGCA, Meteorology DGCA, Air Navigation DGCA, Technical General DGCA, DGCA pilot exam, DGCA CPL exam, DGCA ATPL exam, aviation exam preparation, pilot license exam, DGCA training, CPL exam, ATPL exam, commercial pilot license, airline transport pilot license, aviation training, pilot training"
+      title={SEO_CONFIG.home.title}
+      description={SEO_CONFIG.home.description}
+      keywords={SEO_CONFIG.home.keywords}
+      includeFaqSchema
+      includeWebSiteSchema
     />
     <div className="min-h-screen gradient-bg overflow-x-hidden">
       <main className="page-content">
@@ -132,7 +135,7 @@ function FeaturesStrip() {
   const items = [
     { label: 'Open to start', caption: 'Access core question bank and library without paying anything.', Icon: IconLibrary },
     { label: 'Built for DGCA exams', caption: 'Content aligned with CPL & ATPL theory syllabus, not generic aviation.', Icon: IconCheck },
-    { label: 'Practice like the real paper', caption: 'Timed tests, PYQ, and chapter-wise drills that feel like exam day.', Icon: IconClipboard },
+    { label: 'Practice like the real paper', caption: 'PYQ and chapter-wise drills that feel like exam day.', Icon: IconClipboard },
     { label: 'See where you stand', caption: 'Simple dashboards to understand strong and weak areas over time.', Icon: IconChart },
   ];
   return (
@@ -163,11 +166,11 @@ function FeaturesStrip() {
 
 function SubjectsStrip() {
   const subjects = [
-    { name: 'Air Regulations', to: '/question-bank', tag: 'CPL & ATPL' },
-    { name: 'Meteorology', to: '/question-bank', tag: 'Weather & performance' },
-    { name: 'Air Navigation', to: '/question-bank', tag: 'Route planning' },
-    { name: 'Technical General', to: '/question-bank', tag: 'Aircraft systems' },
-    { name: 'Radio Telephony', to: '/question-bank', tag: 'RTR (A)' },
+    { name: 'Air Regulations', to: '/questions/air', tag: 'CPL & ATPL' },
+    { name: 'Meteorology', to: '/questions/meteorology/cae-oxford-meteorology', tag: 'Weather & performance' },
+    { name: 'Air Navigation', to: '/questions/air-navigation/cae-oxford-general-navigation', tag: 'Route planning' },
+    { name: 'Technical General', to: '/questions/technical-general/mass-and-balance-and-performance', tag: 'Aircraft systems' },
+    { name: 'Radio Telephony', to: '/questions/radio-telephony/rk-bali', tag: 'RTR (A)' },
   ];
   return (
     <section className="mb-16 md:mb-20">
@@ -191,18 +194,17 @@ function SubjectsStrip() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
           {subjects.map((s, i) => (
-            <Link
+            <div
               key={i}
-              to={s.to}
-              className="group flex flex-col justify-between rounded-xl bg-white/90 border border-slate-200 hover:border-blue-300 hover:bg-blue-50/80 px-4 py-3 shadow-sm transition-colors"
+              className="flex flex-col justify-between rounded-xl bg-white/90 border border-slate-200 px-4 py-3 shadow-sm"
             >
-              <span className="font-semibold text-slate-900 text-sm md:text-base mb-1 group-hover:text-blue-700">
+              <span className="font-semibold text-slate-900 text-sm md:text-base mb-1">
                 {s.name}
               </span>
               <span className="text-[11px] md:text-xs text-slate-500">
                 {s.tag}
               </span>
-            </Link>
+            </div>
           ))}
         </div>
       </div>

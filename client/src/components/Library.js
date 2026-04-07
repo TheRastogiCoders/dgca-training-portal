@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Card from './ui/Card';
+import SEO from './SEO';
+import { getSEOForPage } from '../config/seo';
 import { API_ENDPOINTS } from '../config/api';
 import { IconLibrary, IconPencil, IconDocument, IconQuestion, IconFolder, IconSearch, IconEmail } from './ui/Icons';
 
@@ -61,8 +63,18 @@ const Library = () => {
     return (item.type || '').toLowerCase() === filter;
   });
 
+  const libSeo = getSEOForPage('library');
   return (
     <div className="min-h-screen gradient-bg">
+      <SEO
+        title={libSeo.title}
+        description={libSeo.description}
+        keywords={libSeo.keywords}
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Study Library', path: '/library' },
+        ]}
+      />
       <main className="page-content">
         <div className="page-content-inner max-w-6xl mx-auto">
             {/* Hero */}

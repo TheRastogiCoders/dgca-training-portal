@@ -12,7 +12,7 @@ const subjects = [
     description: 'Civil Aviation Rules & Regulations',
     questions: 'Unlimited',
     difficulty: 'Adaptive',
-    features: ['Latest DGCA amendments', 'Pattern insights', 'Time-tracking analytics']
+    features: ['Latest DGCA amendments', 'Pattern insights', 'Progress analytics']
   },
   { 
     slug: 'air-navigation', 
@@ -22,7 +22,7 @@ const subjects = [
     description: 'Navigation Systems & Procedures',
     questions: 'Unlimited',
     difficulty: 'Adaptive',
-    features: ['Mixed plotting drills', 'Weak-topic callouts', 'Speed vs accuracy meters']
+    features: ['Mixed plotting drills', 'Weak-topic callouts', 'Accuracy trend meters']
   },
   { 
     slug: 'meteorology', 

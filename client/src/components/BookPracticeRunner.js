@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom';
 import Card from './ui/Card';
 import Modal from './ui/Modal';
+import SEO from './SEO';
 import { API_ENDPOINTS } from '../config/api';
 import { resolveChapterSlug } from '../utils/chapterSlug';
 import debugLog from '../utils/debug';
@@ -54,6 +55,12 @@ const BookPracticeRunner = () => {
     if (!chapterSlug && !resolvedChapterSlug) return '';
     return friendly(chapterSlug || resolvedChapterSlug);
   }, [chapterSlug, resolvedChapterSlug]);
+
+  const runnerSeo = useMemo(() => ({
+    title: `${bookName}${chapterName ? ` – ${chapterName}` : ''} | DGCA Question Bank Practice | VIMAANNA`,
+    description: `Practice DGCA theory questions for ${bookName}${chapterName ? ` – ${chapterName}` : ''}. Chapter-wise MCQs and explanations for CPL and ATPL preparation in India.`,
+    keywords: `DGCA ${bookName}, ${chapterName || 'chapter practice'}, question bank, VIMAANNA, CPL ATPL`,
+  }), [bookName, chapterName]);
 
   const storageKey = useMemo(
     () => `bookPractice:${bookSlug}:${resolvedChapterSlug || 'all'}`,
@@ -525,6 +532,8 @@ const BookPracticeRunner = () => {
 
   if (loading) {
     return (
+      <>
+      <SEO title={runnerSeo.title} description={runnerSeo.description} keywords={runnerSeo.keywords} />
       <div className="min-h-screen gradient-bg">
         <div className="flex flex-col md:flex-row w-full">
           <main className="page-content">
@@ -543,11 +552,14 @@ const BookPracticeRunner = () => {
         </main>
         </div>
       </div>
+      </>
     );
   }
 
   if (error) {
     return (
+      <>
+      <SEO title={runnerSeo.title} description={runnerSeo.description} keywords={runnerSeo.keywords} />
       <div className="min-h-screen gradient-bg">
         <div className="flex flex-col md:flex-row w-full">
           <main className="page-content">
@@ -563,12 +575,15 @@ const BookPracticeRunner = () => {
         </main>
         </div>
       </div>
+      </>
     );
   }
 
   // No questions available yet (neutral state)
   if (!loading && questions.length === 0) {
     return (
+      <>
+      <SEO title={runnerSeo.title} description={runnerSeo.description} keywords={runnerSeo.keywords} />
       <div className="min-h-screen gradient-bg">
         <div className="flex flex-col md:flex-row w-full">
           <main className="page-content">
@@ -586,6 +601,7 @@ const BookPracticeRunner = () => {
         </main>
         </div>
       </div>
+      </>
     );
   }
 
@@ -593,6 +609,8 @@ const BookPracticeRunner = () => {
     const percent = Math.round((score / questions.length) * 100);
     const totalTimeSec = Math.round((Date.now() - startTimeRef.current) / 1000);
     return (
+      <>
+      <SEO title={runnerSeo.title} description={runnerSeo.description} keywords={runnerSeo.keywords} />
       <div className="min-h-screen gradient-bg">
         <div className="flex flex-col md:flex-row w-full">
           <main className="page-content">
@@ -613,6 +631,7 @@ const BookPracticeRunner = () => {
         </main>
         </div>
       </div>
+      </>
     );
   }
 
@@ -620,6 +639,8 @@ const BookPracticeRunner = () => {
   const progress = Math.round(((current + 1) / questions.length) * 100);
 
   return (
+    <>
+    <SEO title={runnerSeo.title} description={runnerSeo.description} keywords={runnerSeo.keywords} />
     <div className="min-h-screen gradient-bg">
       <div className="flex flex-col md:flex-row w-full">
         <main className="page-content">
@@ -896,6 +917,7 @@ const BookPracticeRunner = () => {
         </div>
       </Modal>
     </div>
+    </>
   );
 };
 

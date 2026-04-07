@@ -17,7 +17,7 @@ export const GLOBAL_ASSETS = {
     {
       image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80',
       title: 'Wings Within Reach',
-      tagline: 'Your one place for DGCA exam prep - question bank, PYQ, timed tests, and study library.',
+      tagline: 'Your one place for DGCA exam prep - question bank, PYQ, and study library.',
     },
     {
       image: 'https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1920&q=80',
@@ -27,7 +27,7 @@ export const GLOBAL_ASSETS = {
     {
       image: 'https://dgcacomputernumber.com/wp-content/uploads/2025/08/what-is-dgca-exam.png',
       title: 'From Ground to Cockpit',
-      tagline: 'Practice like the real exam. Timed tests, PYQ, and chapter-wise drills for everyone.',
+      tagline: 'Practice like the real exam. PYQ and chapter-wise drills for everyone.',
     },
   ],
   /** About / mission section image (optional; add /images/about-mission.jpg) */

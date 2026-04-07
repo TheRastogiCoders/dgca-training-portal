@@ -1,6 +1,8 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useNavigate, useParams, Link } from 'react-router-dom';
 import Card from './ui/Card';
+import SEO from './SEO';
+import { getSEOForSubject } from '../config/seo';
 import { resolveChapterSlug } from '../utils/chapterSlug';
 
 const friendly = (slug) => (slug || '')
@@ -72,8 +74,29 @@ const ChapterPracticeIntro = () => {
     }
   };
 
+  const chapterTitle = metadata?.chapterTitle || friendly(chapterSlug);
+  const subjectTitle = friendly(subjectSlug);
+  const introSeo = useMemo(() => {
+    const base = getSEOForSubject(subjectSlug);
+    return {
+      title: `${chapterTitle} | ${subjectTitle} DGCA Practice | VIMAANNA`,
+      description: `Start chapter practice for ${chapterTitle} in ${subjectTitle}. ${availableQuestionCount ? `${availableQuestionCount} practice questions available.` : ''} CPL and ATPL theory preparation.`,
+      keywords: `${base.keywords}, ${chapterTitle} practice`,
+    };
+  }, [subjectSlug, chapterTitle, subjectTitle, availableQuestionCount]);
+
   return (
     <div className="min-h-screen gradient-bg">
+      <SEO
+        title={introSeo.title}
+        description={introSeo.description}
+        keywords={introSeo.keywords}
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Question Bank', path: '/question-bank' },
+          { name: 'Practice', path: `/practice/${subjectSlug}/${bookSlug}/${chapterSlug}` },
+        ]}
+      />
       <main className="page-content">
         <div className="page-content-inner max-w-4xl mx-auto p-6 md:p-10">
         <div className="mb-6">

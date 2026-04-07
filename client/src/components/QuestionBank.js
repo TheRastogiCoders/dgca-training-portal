@@ -1,6 +1,8 @@
 import React, { useMemo, useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Card from './ui/Card';
+import SEO from './SEO';
+import { getSEOForPage } from '../config/seo';
 import usePersistentState from '../hooks/usePersistentState';
 import { slugifyChapterName, resolveChapterSlug } from '../utils/chapterSlug';
 import debugLog from '../utils/debug';
@@ -1126,8 +1128,18 @@ const technicalSpecificBooks = [
     setSelectedBookKey(null);
   };
 
+  const qbSeo = getSEOForPage('questionBank');
   return (
     <div className="min-h-screen gradient-bg">
+      <SEO
+        title={qbSeo.title}
+        description={qbSeo.description}
+        keywords={qbSeo.keywords}
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Question Bank', path: '/question-bank' },
+        ]}
+      />
       <main className="page-content">
         <div className="page-content-inner max-w-6xl mx-auto">
             {/* Hero */}

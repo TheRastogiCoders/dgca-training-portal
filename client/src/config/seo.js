@@ -1,9 +1,19 @@
 // SEO Configuration for DGCA-focused pages
 
+/** Map React Router book paths to subject slugs for metadata. */
+export const BOOK_PATH_TO_SUBJECT_SLUG = {
+  '/books/air-regulations': 'air-regulations',
+  '/books/air-navigation': 'air-navigation',
+  '/books/meteorology': 'meteorology',
+  '/books/technical-general': 'technical-general',
+  '/books/technical-specific': 'technical-specific',
+  '/books/radio-telephony': 'radio-telephony',
+};
+
 export const SEO_CONFIG = {
   home: {
-    title: "Vimaanna - wings within reach!",
-    description: "Best DGCA exam preparation platform for pilot license exams (CPL, ATPL). Practice tests, PYQ sessions, question banks for Air Regulations, Meteorology, Air Navigation, Technical General. Aviation exam preparation, pilot exam questions, and study materials. Prepare for commercial pilot license and airline transport pilot license exams.",
+    title: 'DGCA Exam Preparation India | CPL ATPL Online Practice & PYQs – VIMAANNA',
+    description: 'Prepare for DGCA exams (CPL, ATPL) with online practice tests, previous year questions (PYQ), and chapter-wise question banks for Air Regulations, Meteorology, Air Navigation, Technical General, Radio Telephony (RTR-A), and Technical Specific. Pilot license exam prep with VIMAANNA.',
     keywords: "DGCA exam, DGCA preparation, DGCA practice test, DGCA question bank, DGCA study material, Air Regulations DGCA, Meteorology DGCA, Air Navigation DGCA, Technical General DGCA, DGCA pilot exam, DGCA CPL exam, DGCA ATPL exam, DGCA online test, DGCA previous year questions, DGCA mock test, aviation exam preparation, pilot license exam, DGCA training, DGCA coaching, pilot exam, pilot license, CPL exam, ATPL exam, commercial pilot license, airline transport pilot license, aviation training, pilot training, aviation exam, pilot test, aviation questions, pilot questions, DGCA syllabus, aviation syllabus, pilot syllabus, DGCA exam pattern, pilot exam pattern, aviation exam pattern, DGCA exam date, pilot exam date, aviation exam date, DGCA result, pilot exam result, aviation exam result, DGCA online coaching, pilot online coaching, aviation online coaching, DGCA study guide, pilot study guide, aviation study guide, DGCA books, pilot books, aviation books, DGCA notes, pilot notes, aviation notes, DGCA mock test online, pilot mock test, aviation mock test, DGCA sample papers, pilot sample papers, aviation sample papers, DGCA previous papers, pilot previous papers, aviation previous papers, Indian aviation exam, Indian pilot exam, India DGCA, DGCA India, aviation India, pilot India, commercial pilot India, airline pilot India, flight training India, aviation academy India, pilot academy India, how to become pilot, pilot career, aviation career, pilot license India, CPL license India, ATPL license India, pilot question bank, wings within, aviation question bank, aviation exam question bank, to vima"
   },
   questionBank: {
@@ -22,14 +32,29 @@ export const SEO_CONFIG = {
     keywords: "DGCA study materials, DGCA notes, DGCA books, DGCA resources, DGCA study guide, aviation study materials, pilot study resources, DGCA exam books"
   },
   about: {
-    title: "About VIMAANNA | DGCA Exam Preparation - Wings Within Reach",
-    description: "Learn about VIMAANNA - India's trusted DGCA exam preparation platform for CPL/ATPL. Our mission, values, and commitment to pilot training and aviation education. Wings within reach.",
-    keywords: "VIMAANNA about, DGCA training, pilot exam preparation, CPL ATPL India, aviation education, DGCA coaching, wings within reach"
+    title: 'About VIMAANNA | DGCA CPL ATPL Training & Wings Within Reach',
+    description: 'VIMAANNA supports pilots preparing for DGCA theory exams in India. Learn about our approach to CPL and ATPL exam preparation, practice content, and mission. Wings within reach.',
+    keywords: 'VIMAANNA about, DGCA training India, pilot exam preparation, CPL ATPL platform, aviation education India, DGCA coaching online'
+  },
+  aiPractice: {
+    title: 'DGCA PYQ Sessions by Subject | Previous Year Questions Online – VIMAANNA',
+    description: 'Choose your DGCA subject and launch curated previous year question (PYQ) sessions for Air Regulations, Meteorology, Air Navigation, Technical General, and Radio Telephony. Online CPL and ATPL theory practice.',
+    keywords: 'DGCA PYQ online, DGCA previous year questions by subject, DGCA session papers, pilot theory practice India, VIMAANNA PYQ'
   },
   login: {
-    title: "Login | VIMAANNA - DGCA Exam Preparation Portal",
-    description: "Sign in to VIMAANNA to access your DGCA practice tests, PYQ sessions, question bank, and track your progress for pilot license exams.",
-    keywords: "VIMAANNA login, DGCA portal login, pilot exam login"
+    title: 'Student Login | VIMAANNA DGCA Exam Preparation Portal',
+    description: 'Sign in to VIMAANNA to access DGCA practice tests, PYQ sessions, the question bank, and saved results for CPL and ATPL exam preparation.',
+    keywords: 'VIMAANNA login, DGCA student login, pilot exam portal India'
+  },
+  profile: {
+    title: 'My Progress | VIMAANNA',
+    description: 'Your VIMAANNA practice history and scores for DGCA exam preparation.',
+    keywords: 'VIMAANNA profile, DGCA practice progress'
+  },
+  samplePapers: {
+    title: 'DGCA Sample Papers & MCQ Practice | Pilot Exam Questions – VIMAANNA',
+    description: 'Browse DGCA-style sample papers and MCQ practice by subject and book. Supplement your CPL and ATPL theory preparation with structured paper sets.',
+    keywords: 'DGCA sample papers, DGCA MCQ practice, pilot exam sample paper, aviation theory sample questions, VIMAANNA sample papers'
   },
   subjects: {
     'air-regulations': {
@@ -71,5 +96,16 @@ export const getSEOForSubject = (subjectSlug) => {
 
 export const getSEOForPage = (page) => {
   return SEO_CONFIG[page] || SEO_CONFIG.home;
+};
+
+export const getSEOForBookPath = (pathname) => {
+  const slug = BOOK_PATH_TO_SUBJECT_SLUG[pathname];
+  if (!slug) return SEO_CONFIG.home;
+  const sub = getSEOForSubject(slug);
+  return {
+    title: `${sub.title.split(' | ')[0]} | Choose Your Book – VIMAANNA`,
+    description: sub.description,
+    keywords: sub.keywords,
+  };
 };
 
