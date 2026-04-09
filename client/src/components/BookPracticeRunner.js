@@ -498,7 +498,7 @@ const BookPracticeRunner = () => {
       await response.json();
       
       // Also open Gmail compose with the report content for email workflow
-      const supportEmail = 'contactvimaanna@gmail.com';
+      const supportEmail = 'Info@vimaanna.com';
       const subject = `Question Report: ${reportType}`;
       let body = `Report Type: ${reportType}\n\n`;
       body += `Question ID: ${questionId}\n`;

@@ -205,7 +205,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'How do I get help or report an issue?',
-    a: 'Email us at contactvimaanna@gmail.com or use the Feedback section on this page. We typically respond within 24 hours.',
+    a: 'Email us at Info@vimaanna.com or use the Feedback section on this page. We typically respond within 24 hours.',
   },
 ];
 
@@ -364,7 +364,7 @@ function FeedbackSection() {
     if (!feedback.trim()) return;
     setIsSubmitting(true);
     try {
-      const supportEmail = 'contactvimaanna@gmail.com';
+      const supportEmail = 'Info@vimaanna.com';
       const subject = 'Feedback & Suggestion from VIMAANNA Portal';
       let body = `User: ${firstName || 'Guest'}\n`;
       if (userEmail) body += `Email: ${userEmail}\n`;

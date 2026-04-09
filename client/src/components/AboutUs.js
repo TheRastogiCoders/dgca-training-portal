@@ -184,10 +184,10 @@ const AboutUs = () => {
               <p className="text-slate-600 text-sm md:text-base">
                 Questions or feedback? Reach us at{' '}
                 <a
-                  href="mailto:contactvimaanna@gmail.com"
+                  href="mailto:Info@vimaanna.com"
                   className="text-blue-600 font-semibold hover:underline"
                 >
-                  contactvimaanna@gmail.com
+                  Info@vimaanna.com
                 </a>
               </p>
             </section>

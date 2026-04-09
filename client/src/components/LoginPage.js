@@ -474,7 +474,7 @@ const LoginPage = () => {
                   </p>
                 )}
                 <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-sm">
-                  <a href="mailto:contactvimaanna@gmail.com" className="text-gray-600 hover:text-gray-900 font-medium">
+                  <a href="mailto:Info@vimaanna.com" className="text-gray-600 hover:text-gray-900 font-medium">
                     Contact support
                   </a>
                   <Link to="/" className="text-gray-600 hover:text-gray-900 font-medium">

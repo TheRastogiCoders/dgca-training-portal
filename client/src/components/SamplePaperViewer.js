@@ -202,7 +202,7 @@ const SamplePaperViewer = () => {
       }
       
       const questionIndex = questionIndexToReport ?? current;
-      const supportEmail = 'contactvimaanna@gmail.com';
+      const supportEmail = 'Info@vimaanna.com';
       const subject = `Question Report: ${reportType}`;
       
       let body = `Report Type: ${reportType}\n\n`;

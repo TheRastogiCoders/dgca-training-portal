@@ -17,7 +17,7 @@ function ContactSupport() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    const supportEmail = 'contactvimaanna@gmail.com';
+    const supportEmail = 'Info@vimaanna.com';
     const mailtoUrl = `mailto:${supportEmail}?subject=${encodeURIComponent(subject || 'Support request')}&body=${encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
     )}`;
@@ -64,7 +64,7 @@ function ContactSupport() {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-6">
                 <div className="rounded-2xl border border-slate-200 bg-white p-4">
                   <p className="text-xs text-slate-500 mb-1">Email</p>
-                  <a href="mailto:contactvimaanna@gmail.com" className="text-sm font-semibold text-blue-700 hover:underline">contactvimaanna@gmail.com</a>
+                  <a href="mailto:Info@vimaanna.com" className="text-sm font-semibold text-blue-700 hover:underline">Info@vimaanna.com</a>
                 </div>
                 <div className="rounded-2xl border border-slate-200 bg-white p-4">
                   <p className="text-xs text-slate-500 mb-1">Response Time</p>
@@ -172,7 +172,7 @@ function ContactSupport() {
                     For urgent account access or admin issues, email directly and mention &quot;Urgent&quot; in subject.
                   </p>
                   <a
-                    href="mailto:contactvimaanna@gmail.com?subject=Urgent%20Support%20Request"
+                    href="mailto:Info@vimaanna.com?subject=Urgent%20Support%20Request"
                     className="inline-flex items-center text-sm font-semibold text-blue-700 hover:underline"
                   >
                     Email support directly

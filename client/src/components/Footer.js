@@ -62,7 +62,7 @@ function Footer() {
             <h3 className="footer-heading">Contact</h3>
             <ul className="footer-list footer-contact">
               <li>
-                <a href="mailto:contactvimaanna@gmail.com">contactvimaanna@gmail.com</a>
+                <a href="mailto:Info@vimaanna.com">Info@vimaanna.com</a>
               </li>
               <li className="footer-note">We respond within 24 hours.</li>
             </ul>
